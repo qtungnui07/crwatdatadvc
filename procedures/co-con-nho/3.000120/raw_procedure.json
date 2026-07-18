@@ -1,0 +1,265 @@
+{
+  "id": "019d2bfd-08ee-77e3-b082-e34b33e9535b",
+  "code": "3.000120",
+  "name": "Thủ tục đối chiếu, xác nhận số dư tài khoản của đơn vị giao dịch tại KBNN",
+  "detail": {
+    "id": "019d2bfd-08ee-77e3-b082-e34b33e9535b",
+    "code": "3.000120",
+    "codeNotation": "3.000120",
+    "executionSteps": [
+      {
+        "name": "",
+        "description": "a) Đơn vị giao dịch có tài khoản tại Kho bạc Nhà nước gửi hồ sơ theo quy định tại phần Thành phần, số lượng hồ sơ thủ tục này đến Kho bạc Nhà nước nơi mở tài khoản.\nb) Kho bạc Nhà nước kiểm tra tính hợp lệ của hồ sơ theo quy định tại khoản 4 Điều 3 Nghị định số 347/2025/NĐ-CP ngày 29 tháng 12 năm 2025 của Chính phủ quy định về thủ tục hành chính thuộc lĩnh vực Kho bạc Nhà nước.\nc) Kho bạc Nhà nước thực hiện kiểm tra, đối chiếu số liệu. \nTrường hợp số liệu khớp đúng, Kho bạc Nhà nước xác nhận số dư tài khoản của đơn vị giao dịch trên thành phần hồ sơ do đơn vị giao dịch gửi đến.\nTrường hợp số liệu không khớp đúng, Kho bạc Nhà nước gửi lại đơn vị giao dịch thành phần hồ sơ có xác nhận của Kho bạc Nhà nước về việc không khớp đúng số dư tài khoản của đơn vị giao dịch; đồng thời, phối hợp với đơn vị giao dịch rà soát số liệu. Chậm nhất 01 ngày làm việc kể từ khi nhận được xác nhận của Kho bạc Nhà nước về việc số liệu không khớp đúng, đơn vị giao dịch tiếp tục đối chiếu, xác nhận số dư tài khoản của đơn vị giao dịch tại Kho bạc Nhà nước nơi mở tài khoản.\n"
+      }
+    ],
+    "executionMethods": [
+      {
+        "submissionMethod": "ONLINE",
+        "processingTime": 1,
+        "processingTimeUnit": "WORKING_DAY",
+        "fees": [
+          {
+            "type": "FEE",
+            "value": 0,
+            "description": "Không"
+          }
+        ]
+      },
+      {
+        "submissionMethod": "POSTAL",
+        "processingTime": 1,
+        "processingTimeUnit": "WORKING_DAY",
+        "fees": [
+          {
+            "type": "FEE",
+            "value": 0,
+            "description": "Không"
+          }
+        ]
+      },
+      {
+        "submissionMethod": "DIRECT",
+        "processingTime": 1,
+        "processingTimeUnit": "WORKING_DAY",
+        "fees": [
+          {
+            "type": "FEE",
+            "value": 0,
+            "description": "Không"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "name": "Thủ tục đối chiếu, xác nhận số dư tài khoản của đơn vị giao dịch tại KBNN",
+    "decisionNo": "",
+    "executionCases": [
+      {
+        "name": " Trường hợp hồ sơ không được gửi trên môi trường điện tử: ",
+        "profileComponents": [
+          {
+            "profileComponentId": "019d2bb8-71af-7518-a311-2976b05e105d",
+            "originalQty": 2,
+            "copyQty": 0,
+            "required": false,
+            "hasElectronicForm": false,
+            "source": "",
+            "name": "Số lượng mỗi thành phần hồ sơ quy định tại mục Thành phần hồ sơ thủ tục này tối thiểu là 02 bản gốc tùy theo nhu cầu xác nhận của đơn vị giao dịch.",
+            "code": "000.00.00.G12-KQ015882",
+            "attachments": []
+          }
+        ]
+      },
+      {
+        "name": " Trường hợp hồ sơ được gửi trên môi trường điện tử: ",
+        "profileComponents": [
+          {
+            "profileComponentId": "019d2bb8-71af-7518-a311-1d5605b39f01",
+            "originalQty": 1,
+            "copyQty": 0,
+            "required": false,
+            "hasElectronicForm": false,
+            "source": "",
+            "name": "c) Trường hợp đối chiếu số kinh phí được chuyển nguồn sang năm sau:  Bảng đối chiếu tình hình thực hiện dự toán của các nhiệm vụ được chuyển nguồn sang năm sau.",
+            "code": "000.00.00.G12-KQ015879",
+            "attachments": []
+          },
+          {
+            "profileComponentId": "019d2bb8-71af-7518-a311-26f25848679b",
+            "originalQty": 0,
+            "copyQty": 0,
+            "required": false,
+            "hasElectronicForm": false,
+            "source": "",
+            "name": "Số lượng mỗi thành phần hồ sơ quy định tại mục Thành phần hồ sơ thủ tục này là 01 bản được ký số theo quy định của pháp luật.",
+            "code": "000.00.00.G12-KQ015881",
+            "attachments": []
+          },
+          {
+            "profileComponentId": "019d2bb8-71af-7518-a311-209c5e91e126",
+            "originalQty": 1,
+            "copyQty": 0,
+            "required": false,
+            "hasElectronicForm": false,
+            "source": "",
+            "name": "d) Trường hợp đối chiếu, xác nhận số dư tài khoản tiền gửi định kỳ, đột xuất: Bảng xác nhận số dư tài khoản tiền gửi tại Kho bạc Nhà nước.",
+            "code": "000.00.00.G12-KQ015880",
+            "attachments": []
+          },
+          {
+            "profileComponentId": "019d2bb8-71af-7518-a311-1ab87cd98a8b",
+            "originalQty": 1,
+            "copyQty": 0,
+            "required": false,
+            "hasElectronicForm": false,
+            "source": "",
+            "name": "b) Trường hợp đối chiếu số dư tài khoản tiền gửi kinh phí ngân sách cấp được chuyển nguồn sang năm sau: Bảng đối chiếu số dư tài khoản tiền gửi kinh phí ngân sách cấp của đơn vị được chuyển nguồn sang năm sau.",
+            "code": "000.00.00.G12-KQ015878",
+            "attachments": []
+          },
+          {
+            "profileComponentId": "019d2bb8-71af-7518-a311-1579834f5823",
+            "originalQty": 1,
+            "copyQty": 0,
+            "required": false,
+            "hasElectronicForm": false,
+            "source": "",
+            "name": "a) Trường hợp đối chiếu, xác nhận số dư tài khoản dự toán định kỳ, đột xuất:  Trường hợp đối chiếu dự toán, tình hình sử dụng kinh phí ngân sách bằng hình thức lệnh chi tiền: Bảng đối chiếu dự toán kinh phí ngân sách bằng hình thức lệnh chi tiền tại Kho bạc Nhà nước và Bảng đối chiếu tình hình sử dụng kinh phí ngân sách bằng hình thức lệnh chi tiền tại Kho bạc Nhà nước.  Trường hợp đối chiếu dự toán, tình hình sử dụng kinh phí ngân sách bằng hình thức rút dự toán: Bảng đối chiếu dự toán kinh phí ngân sách bằng hình thức rút dự toán tại Kho bạc Nhà nước và Bảng đối chiếu tình hình sử dụng kinh phí ngân sách bằng hình thức rút dự toán tại Kho bạc Nhà nước.",
+            "code": "000.00.00.G12-KQ015877",
+            "attachments": []
+          }
+        ]
+      }
+    ],
+    "formalityTargetType": [],
+    "formalityType": "OTHER",
+    "state": "UPDATED",
+    "isInternal": false,
+    "type": "STANDARD",
+    "isWard": true,
+    "isProvince": true,
+    "isMinistry": true,
+    "isOtherAgency": false,
+    "isUndetermined": false,
+    "isVertical": true,
+    "isFullProcess": true,
+    "isSharedService": false,
+    "note": "",
+    "keywords": "",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b3-e4d6c01a3148"
+    ],
+    "serviceGroupIds": [],
+    "legalBasisIds": [
+      "019d2bb3-5d7f-719e-b46c-e7d7a9d8616c"
+    ],
+    "resultIds": [
+      "019d2bb2-1c73-70ac-aa18-8664af36fa28",
+      "019d2bb2-1c73-70ac-aa18-8b3bd562935a"
+    ],
+    "subjectTypeIds": [
+      "019b698a-6087-75ab-84ce-69f9a05c4feb"
+    ],
+    "departmentExecutingIds": [
+      "019d2be3-6ada-753f-9ac7-1e5790b06b9f"
+    ],
+    "departmentAuthorityIds": [],
+    "departmentAuthorizedIds": [],
+    "departmentCoordinatingIds": [],
+    "categoriesDetails": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-e4d6c01a3148",
+        "name": "Kho bạc Nhà nước",
+        "code": "G12-TC07"
+      }
+    ],
+    "departmentDetails": [],
+    "departmentsExecuting": [
+      {
+        "id": "019d2be3-6ada-753f-9ac7-1e5790b06b9f",
+        "name": "Kho bạc nhà nước các cấp",
+        "code": "BTC-KBNN"
+      }
+    ],
+    "departmentsAuthority": [],
+    "departmentsAuthorized": [],
+    "departmentsCoordinating": [],
+    "unitGroupExecutingIds": [],
+    "unitGroupAuthorityIds": [],
+    "unitGroupAuthorizedIds": [],
+    "unitGroupCoordinatingIds": [],
+    "unitGroupsExecuting": [],
+    "unitGroupsAuthority": [],
+    "unitGroupsAuthorized": [],
+    "unitGroupsCoordinating": [],
+    "serviceGroupsDetails": [],
+    "legalBasisesDetails": [
+      {
+        "id": "019d2bb3-5d7f-719e-b46c-e7d7a9d8616c",
+        "name": "Nghị định số 347/2025/NĐ-CP của Chính phủ: Quy định về thủ tục hành chính thuộc lĩnh vực Kho bạc Nhà nước",
+        "code": "347/2025/NĐ-CP"
+      }
+    ],
+    "resultsDetails": [
+      {
+        "id": "019d2bb2-1c73-70ac-aa18-8664af36fa28",
+        "name": "Thành phần hồ sơ của đơn vị giao dịch có xác nhận của Kho bạc Nhà nước về số dư tài khoản của đơn vị giao dịch",
+        "code": "KQ.G12.001333"
+      },
+      {
+        "id": "019d2bb2-1c73-70ac-aa18-8b3bd562935a",
+        "name": "Thành phần hồ sơ của đơn vị giao dịch có xác nhận của Kho bạc Nhà nước về việc không khớp đúng số dư tài khoản của đơn vị giao dịch",
+        "code": "KQ.G12.001334"
+      }
+    ],
+    "subjectTypesDetails": [
+      {
+        "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+        "name": "Công dân Việt Nam",
+        "code": "ĐT1"
+      }
+    ],
+    "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "departmentPromulgateCode": "G12",
+    "departmentPromulgateName": "Bộ Tài chính",
+    "cases": [
+      {
+        "id": "019d2d8d-65ec-7056-a00f-c0a9a77aa937",
+        "name": "Thủ tục đối chiếu, xác nhận số dư tài khoản của đơn vị giao dịch tại KBNN",
+        "code": "3.000120.01",
+        "processingDay": {
+          "qty": 1,
+          "type": "WORKING_DAY"
+        },
+        "profileComponents": []
+      }
+    ],
+    "fees": [],
+    "createdAt": 1775636360558,
+    "updatedAt": 1775636360558,
+    "profileComponents": [],
+    "targetObjects": [],
+    "executingAgencies": "Kho bạc nhà nước các cấp",
+    "authorizedAgencies": "",
+    "dossierReceivingAddresses": "",
+    "delegatedAgencies": "",
+    "coordinatingAgencies": "",
+    "requirementsAndConditions": "",
+    "procedureRelatedGroup": [],
+    "procedureProposal": {
+      "id": "019d2d8c-66a5-720c-b13a-959092426888",
+      "proposalNumber": "4488/QĐ-BTC",
+      "decisionDate": 1767139200000,
+      "decisionNumber": null,
+      "publicationDate": 1775636360350,
+      "issuingAgency": {
+        "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+        "name": "Bộ Tài chính"
+      },
+      "proposalType": "STANDARD"
+    },
+    "isOfflineOnly": false,
+    "isNonTerritorial": false,
+    "returningMethods": []
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "id": "019d2bfd-08dd-71d8-b216-1e9cbb44bc34",
+  "code": "3.000116",
+  "name": "Thủ tục hoàn trả các khoản thu ngân sách nhà nước qua KBNN",
+  "detail": {
+    "id": "019d2bfd-08dd-71d8-b216-1e9cbb44bc34",
+    "code": "3.000116",
+    "codeNotation": "3.000116",
+    "executionSteps": [
+      {
+        "name": "Trường hợp hoàn trả bằng tiền mặt tại KBNN",
+        "description": "-KBNN nhận lệnh hoàn trả khoản thu ngân sách nhà nước từ cơ quan nhà nước có thẩm quyền quyết định hoàn trả chuyển đến.\n- Cá nhân mang theo chứng minh nhân dân hoặc giấy chứng minh, chứng nhận của lực lượng vũ trang hoặc thẻ căn cước công dân hoặc hộ chiếu và giấy ủy quyền nhận tiền hoàn trả của người được hoàn trả các khoản thu ngân sách nhà nước (đối với trường hợp ủy quyền) đến KBNN để thực hiện thủ tục nhận tiền hoàn trả.\n-KBNN kiểm tra tính hợp pháp, hợp lệ của lệnh hoàn trả khoản thu ngân sách nhà nước; đối chiếu với các thông tin trên chứng minh nhân dân hoặc giấy chứng minh, chứng nhận của lực lượng vũ trang hoặc thẻ căn cước công dân hoặc hộ chiếu và giấy ủy quyền nhận tiền hoàn trả của người được hoàn trả các khoản thu ngân sách nhà nước (đối với trường hợp ủy quyền) để thực hiện hoàn trả.\n"
+      },
+      {
+        "name": "Trường hợp hoàn trả theo phương thức thanh toán không dùng tiền mặt",
+        "description": "-KBNN nhận lệnh hoàn trả khoản thu ngân sách nhà nước hoặc lệnh hoàn trả kiêm bù trừ thu ngân sách nhà nước do cơ quan nhà nước có thẩm quyền quyết định hoàn trả chuyển đến.\n-KBNN kiểm tra tính hợp pháp, hợp lệ của lệnh hoàn trả khoản thu ngân sách nhà nước hoặc lệnh hoàn trả kiêm bù trừ thu ngân sách nhà nước; thực hiện hạch toán hoàn trả, hạch toán bù trừ thu ngân sách nhà nước và chuyển tiền hoàn trả các khoản thu ngân sách nhà nước vào tài khoản của người nộp ngân sách nhà nước theo thông tin do cơ quan nhà nước có thẩm quyền quyết định hoàn trả chuyển đến.\n"
+      }
+    ],
+    "executionMethods": [
+      {
+        "submissionMethod": "ONLINE",
+        "processingTime": 1,
+        "processingTimeUnit": "DAY",
+        "fees": [
+          {
+            "type": "FEE",
+            "value": 0,
+            "description": "Không"
+          }
+        ]
+      },
+      {
+        "submissionMethod": "DIRECT",
+        "processingTime": 1,
+        "processingTimeUnit": "HOUR",
+        "fees": [
+          {
+            "type": "FEE",
+            "value": 0,
+            "description": "Không"
+          }
+        ]
+      }
+    ],
+    "description": "",
+    "name": "Thủ tục hoàn trả các khoản thu ngân sách nhà nước qua KBNN",
+    "decisionNo": "",
+    "executionCases": [
+      {
+        "name": "Trường hợp hoàn trả bằng tiền mặt trực tiếp tại KBNN cho cá nhân",
+        "profileComponents": [
+          {
+            "profileComponentId": "019d2bb8-71ad-7288-8f24-f6c1bc315796",
+            "originalQty": 1,
+            "copyQty": 0,
+            "required": false,
+            "hasElectronicForm": false,
+            "source": "",
+            "name": "Chứng minh nhân dân hoặc giấy chứng minh, chứng nhận của lực lượng vũ trang hoặc thẻ căn cước công dân hoặc hộ chiếu còn hạn sử dụng xuất trình tại Kho bạc Nhà nước khi làm thủ tục",
+            "code": "000.00.00.G12-KQ011084",
+            "attachments": []
+          },
+          {
+            "profileComponentId": "019d2bb8-71ad-7288-8f24-fb0d13b7b4d2",
+            "originalQty": 1,
+            "copyQty": 0,
+            "required": false,
+            "hasElectronicForm": false,
+            "source": "",
+            "name": "Bản chính hoặc bản sao y bản chính giấy ủy quyền nhận tiền hoàn trả của người được hoàn trả các khoản thu ngân sách nhà nước (đối với trường hợp ủy quyền).",
+            "code": "000.00.00.G12-KQ011085",
+            "attachments": []
+          }
+        ]
+      },
+      {
+        "name": "Trường hợp hoàn trả qua tài khoản của người được hoàn trả",
+        "profileComponents": [
+          {
+            "profileComponentId": "019d2bb8-71ad-7288-8f24-fd14a1a14f63",
+            "originalQty": 1,
+            "copyQty": 0,
+            "required": false,
+            "hasElectronicForm": false,
+            "source": "",
+            "name": "Kho bạc Nhà nước thực hiện hoàn trả vào tài khoản của người được hoàn trả theo lệnh hoàn trả của cơ quan nhà nước có thẩm quyền quyết định hoàn trả",
+            "code": "000.00.00.G12-KQ011086",
+            "attachments": []
+          }
+        ]
+      }
+    ],
+    "formalityTargetType": [],
+    "formalityType": "OTHER",
+    "state": "UPDATED",
+    "isInternal": false,
+    "type": "STANDARD",
+    "isWard": true,
+    "isProvince": true,
+    "isMinistry": true,
+    "isOtherAgency": false,
+    "isUndetermined": false,
+    "isVertical": true,
+    "isFullProcess": true,
+    "isSharedService": false,
+    "note": "",
+    "keywords": "",
+    "categoryIds": [
+      "019d2bbb-69ee-7079-a6b3-e4d6c01a3148"
+    ],
+    "serviceGroupIds": [],
+    "legalBasisIds": [
+      "019d2bb3-5d7e-72d1-afe8-bc7231a7bf09"
+    ],
+    "resultIds": [
+      "019d2bb2-1c70-724b-96dd-1a58d811fe59",
+      "019d2bb2-1c73-70ac-aa18-72d151c5ba8e"
+    ],
+    "subjectTypeIds": [
+      "019b698a-6087-75ab-84ce-69f9a05c4feb"
+    ],
+    "departmentExecutingIds": [
+      "019d2be3-6ada-753f-9ac7-1e5790b06b9f"
+    ],
+    "departmentAuthorityIds": [],
+    "departmentAuthorizedIds": [],
+    "departmentCoordinatingIds": [],
+    "categoriesDetails": [
+      {
+        "id": "019d2bbb-69ee-7079-a6b3-e4d6c01a3148",
+        "name": "Kho bạc Nhà nước",
+        "code": "G12-TC07"
+      }
+    ],
+    "departmentDetails": [],
+    "departmentsExecuting": [
+      {
+        "id": "019d2be3-6ada-753f-9ac7-1e5790b06b9f",
+        "name": "Kho bạc nhà nước các cấp",
+        "code": "BTC-KBNN"
+      }
+    ],
+    "departmentsAuthority": [],
+    "departmentsAuthorized": [],
+    "departmentsCoordinating": [],
+    "unitGroupExecutingIds": [],
+    "unitGroupAuthorityIds": [],
+    "unitGroupAuthorizedIds": [],
+    "unitGroupCoordinatingIds": [],
+    "unitGroupsExecuting": [],
+    "unitGroupsAuthority": [],
+    "unitGroupsAuthorized": [],
+    "unitGroupsCoordinating": [],
+    "serviceGroupsDetails": [],
+    "legalBasisesDetails": [
+      {
+        "id": "019d2bb3-5d7e-72d1-afe8-bc7231a7bf09",
+        "name": "QUY ĐỊNH VỀ MẪU THẺ, TRÌNH TỰ, THỦ TỤC CẤP MỚI, CẤP LẠI THẺ GIÁM ĐỊNH VIÊN TƯ PHÁP",
+        "code": "11/2020/NĐ-CP"
+      }
+    ],
+    "resultsDetails": [
+      {
+        "id": "019d2bb2-1c70-724b-96dd-1a58d811fe59",
+        "name": "Chứng từ hoàn trả thu ngân sách nhà nước của KBNN có chữ ký xác nhận đã nhận đủ tiền của người nhận tiền",
+        "code": "KQ.G12.000099"
+      },
+      {
+        "id": "019d2bb2-1c73-70ac-aa18-72d151c5ba8e",
+        "name": "KBNN hoặc ngân hàng hoặc tổ chức cung ứng dịch vụ trung gian thanh toán báo Có cho tổ chức, cá nhân được hoàn trả các khoản thu ngân sách nhà nước",
+        "code": "KQ.G12.001328"
+      }
+    ],
+    "subjectTypesDetails": [
+      {
+        "id": "019b698a-6087-75ab-84ce-69f9a05c4feb",
+        "name": "Công dân Việt Nam",
+        "code": "ĐT1"
+      }
+    ],
+    "departmentPromulgateId": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+    "departmentPromulgateCode": "G12",
+    "departmentPromulgateName": "Bộ Tài chính",
+    "cases": [
+      {
+        "id": "019d2d8c-7a0c-7678-8356-521edefca85c",
+        "name": "Thủ tục hoàn trả các khoản thu ngân sách nhà nước qua KBNN",
+        "code": "3.000116.01",
+        "processingDay": {
+          "qty": 1,
+          "type": "DAY"
+        },
+        "profileComponents": []
+      }
+    ],
+    "fees": [],
+    "createdAt": 1775636360560,
+    "updatedAt": 1775636360560,
+    "profileComponents": [],
+    "targetObjects": [],
+    "executingAgencies": "Kho bạc nhà nước các cấp",
+    "authorizedAgencies": "",
+    "dossierReceivingAddresses": "",
+    "delegatedAgencies": "",
+    "coordinatingAgencies": "",
+    "requirementsAndConditions": "",
+    "procedureRelatedGroup": [],
+    "procedureProposal": {
+      "id": "019d2d8c-66a5-720c-b13a-959092426888",
+      "proposalNumber": "4488/QĐ-BTC",
+      "decisionDate": 1767139200000,
+      "decisionNumber": null,
+      "publicationDate": 1775636360350,
+      "issuingAgency": {
+        "id": "019d2be3-6a72-700f-a652-c9b1df8256e9",
+        "name": "Bộ Tài chính"
+      },
+      "proposalType": "STANDARD"
+    },
+    "isOfflineOnly": false,
+    "isNonTerritorial": false,
+    "returningMethods": []
+  }
+}
