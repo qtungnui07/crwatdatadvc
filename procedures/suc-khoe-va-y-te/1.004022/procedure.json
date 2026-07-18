@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfa-3041-70c9-9e20-cd652f4083c1",
   "procedure_code": "1.004022",
   "title": "Cấp giấy xác nhận nội dung quảng cáo thuốc thú y",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-3041-70c9-9e20-cd652f4083c1",
     "source_file": "chi-tiet-thu-tuc-1.004022.pdf",
     "source_path": "procedures/suc-khoe-va-y-te/1.004022/chi-tiet-thu-tuc-1.004022.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:01.669829+00:00",
-    "source_updated_at": "2026-04-21T07:17:24.724Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:14.766504+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "2730dbaf4291dbf3d3a62887b7d5a14a09d45014691e4217482219bf5b26b0f5"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:01.669829+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2303/QĐ-BNNMT",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thú y",
   "target_users": [
@@ -38,18 +34,22 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cơ quan quản lý chuyên ngành thú y cấp tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cơ quan quản lý chuyên ngành thú y cấp tỉnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Tổ chức, cá nhân nộp hồ sơ trực tiếp, trực tuyến hoặc gửi qua đường bưu điện đến Cơ quan quản lý chuyên ngành chăn nuôi và thú y cấp tỉnh.\nBước 2: Cơ quan quản lý chuyên ngành chăn nuôi và thú y cấp tỉnh trả lời ngay tính đầy đủ của hồ sơ đối với trường hợp nộp trực tiếp; trả lời tính đầy đủ của hồ sơ trong 01 ngày làm việc đối với trường hợp nộp hồ sơ qua môi trường mạng hoặc qua dịch vụ bưu chính bằng văn bản; \nTrong thời hạn 05 ngày làm việc kể từ khi nhận đầy đủ hồ sơ hợp lệ, Cơ quan quản lý chuyên ngành chăn nuôi và thú y cấp tỉnh cấp Giấy xác nhận nội dung quảng cáo thuốc thú y theo mẫu số 10.QLT Phụ lục II ban hành kèm theo Thông tư này. Trường hợp không cấp Giấy xác nhận nội dung quảng cáo cơ quan nhà nước có thẩm quyền phải trả lời bằng văn bản và nêu rõ lý do.\n",
+      "description": "Bước 1: Tổ chức, cá nhân nộp hồ sơ trực tiếp, trực tuyến hoặc gửi qua đường bưu điện đến Cơ quan quản lý chuyên ngành chăn nuôi và thú y cấp tỉnh.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Cơ quan quản lý chuyên ngành chăn nuôi và thú y cấp tỉnh trả lời ngay tính đầy đủ của hồ sơ đối với trường hợp nộp trực tiếp; trả lời tính đầy đủ của hồ sơ trong 01 ngày làm việc đối với trường hợp nộp hồ sơ qua môi trường mạng hoặc qua dịch vụ bưu chính bằng văn bản; \nTrong thời hạn 05 ngày làm việc kể từ khi nhận đầy đủ hồ sơ hợp lệ, Cơ quan quản lý chuyên ngành chăn nuôi và thú y cấp tỉnh cấp Giấy xác nhận nội dung quảng cáo thuốc thú y theo mẫu số 10.QLT Phụ lục II ban hành kèm theo Thông tư này. Trường hợp không cấp Giấy xác nhận nội dung quảng cáo cơ quan nhà nước có thẩm quyền phải trả lời bằng văn bản và nêu rõ lý do.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -58,39 +58,27 @@
     "conditional": [
       {
         "name": "Bản sao chụp Giấy chứng nhận lưu hành thuốc thú y;",
-        "code": "000.00.00.G10-KQ005862",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Sản phẩm quảng cáo (nội dung, hình thức quảng cáo được thể hiện bằng hình ảnh, âm thanh, tiếng nói, chữ viết, biểu tượng, màu sắc, ánh sáng và các hình thức tương tự);",
-        "code": "000.00.00.G10-KQ2228",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Danh sách báo cáo viên ghi đầy đủ thông tin về bằng cấp chuyên môn hoặc chức danh khoa học của báo cáo viên đối với trường hợp hội chợ, hội thảo, hội nghị, tổ chức sự kiện, triển lãm, chương trình văn hoá, thể thao (đóng dấu xác nhận của Doanh nghiệp).",
-        "code": "000.00.00.G10-KQ2229",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Đơn đề nghị xác nhận nội dung quảng cáo thuốc thú y theo mẫu quy định tại Phụ lục XLII ban hành kèm theo Thông tư 13/2016/TT-BNNPTNT",
-        "code": "000.00.00.G10-KQ1396",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -99,114 +87,75 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 900,
-          "currency": "VND",
-          "description": "Phí Thẩm định nội dung thông tin quảng cáo thuốc thú y, thuốc thú y thuỷ sản, trang thiết bị, dụng cụ trong thú y: 900.000 đồng/lần",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí Thẩm định nội dung thông tin quảng cáo thuốc thú y, thuốc thú y thuỷ sản, trang thiết bị, dụng cụ trong thú y: 900.000 đồng/lần",
       "description": "",
-      "source_page": null
+      "source_page": 1
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 900,
-          "currency": "VND",
-          "description": "Phí Thẩm định nội dung thông tin quảng cáo thuốc thú y, thuốc thú y thuỷ sản, trang thiết bị, dụng cụ trong thú y: 900.000 đồng/lần",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí Thẩm định nội dung thông tin quảng cáo thuốc thú y, thuốc thú y thuỷ sản, trang thiết bị, dụng cụ trong thú y: 900.000 đồng/lần",
       "description": "",
-      "source_page": null
+      "source_page": 1
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 900,
-          "currency": "VND",
-          "description": "Phí Thẩm định nội dung thông tin quảng cáo thuốc thú y, thuốc thú y thuỷ sản, trang thiết bị, dụng cụ trong thú y: 900.000 đồng/lần",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí Thẩm định nội dung thông tin quảng cáo thuốc thú y, thuốc thú y thuỷ sản, trang thiết bị, dụng cụ trong thú y: 900.000 đồng/lần",
       "description": "",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Phí Thẩm định nội dung thông tin quảng cáo thuốc thú y, thuốc thú y thuỷ sản, trang thiết bị, dụng cụ trong thú y: 900.000 đồng/lần",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 900,
-        "currency": "VND",
-        "description": "Phí Thẩm định nội dung thông tin quảng cáo thuốc thú y, thuốc thú y thuỷ sản, trang thiết bị, dụng cụ trong thú y: 900.000 đồng/lần",
-        "attachment": null
+        "amount_text": "Phí Thẩm định nội dung thông tin quảng cáo thuốc thú y, thuốc thú y thuỷ sản, trang thiết bị, dụng cụ trong thú y: 900.000 đồng/lần",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 900,
-        "currency": "VND",
-        "description": "Phí Thẩm định nội dung thông tin quảng cáo thuốc thú y, thuốc thú y thuỷ sản, trang thiết bị, dụng cụ trong thú y: 900.000 đồng/lần",
-        "attachment": null
+        "amount_text": "Phí Thẩm định nội dung thông tin quảng cáo thuốc thú y, thuốc thú y thuỷ sản, trang thiết bị, dụng cụ trong thú y: 900.000 đồng/lần",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 900,
-        "currency": "VND",
-        "description": "Phí Thẩm định nội dung thông tin quảng cáo thuốc thú y, thuốc thú y thuỷ sản, trang thiết bị, dụng cụ trong thú y: 900.000 đồng/lần",
-        "attachment": null
+        "amount_text": "Phí Thẩm định nội dung thông tin quảng cáo thuốc thú y, thuốc thú y thuỷ sản, trang thiết bị, dụng cụ trong thú y: 900.000 đồng/lần",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
   "legal_bases": [
     {
-      "title": " Quy định chi tiết một số Điều của Luật thú y",
+      "title": "Quy định chi tiết một số Điều của Luật thú y",
       "document_number": "Nghị định số 35/2016/NĐ-CP",
-      "id": "019d2bb3-5d7c-71ab-9f09-128575143057",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư số 101/2020/TT-BTC ngày 23/11/2020 của Bộ trưởng Bộ Tài chính quy định về mức thu, chế độ thu, nộp, quản lý phí, lệ phí trong công tác thú y",
       "document_number": "101/2020/TT-BTC",
-      "id": "019d2bb3-5d7e-72d1-afe4-49469521812e",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định Quy định phân quyền, phân cấp trong lĩnh vực nông nghiệp",
       "document_number": "136/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-a2a2b09b2b47",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Quy định phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nông nghiệp và Môi trường",
       "document_number": "Nghị định số 131/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-45ea9b37796c",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -214,15 +163,14 @@
     {
       "title": "Giấy xác nhận nội dung quảng cáo thuốc thú y.",
       "code": "KQ.G10.000212",
-      "id": "019d2bb2-1c4e-742c-98a0-d73fa98e8cbc",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Tổ chức, cá nhân nộp hồ sơ trực tiếp, trực tuyến hoặc gửi qua đường bưu điện đến Cơ quan quản lý chuyên ngành chăn nuôi và thú y cấp tỉnh.\nBước 2: Cơ quan quản lý chuyên ngành chăn nuôi và thú y cấp tỉnh trả lời ngay tính đầy đủ của hồ sơ đối với trường hợp nộp trực tiếp; trả lời tính đầy đủ của hồ sơ trong 01 ngày làm việc đối với trường hợp nộp hồ sơ qua môi trường mạng hoặc qua dịch vụ bưu chính bằng văn bản; \nTrong thời hạn 05 ngày làm việc kể từ khi nhận đầy đủ hồ sơ hợp lệ, Cơ quan quản lý chuyên ngành chăn nuôi và thú y cấp tỉnh cấp Giấy xác nhận nội dung quảng cáo thuốc thú y theo mẫu số 10.QLT Phụ lục II ban hành kèm theo Thông tư này. Trường hợp không cấp Giấy xác nhận nội dung quảng cáo cơ quan nhà nước có thẩm quyền phải trả lời bằng văn bản và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nBản sao chụp Giấy chứng nhận lưu hành thuốc thú y;\n- Sản phẩm quảng cáo (nội dung, hình thức quảng cáo được thể hiện bằng hình ảnh, âm thanh, tiếng nói, chữ viết, biểu tượng, màu sắc, ánh sáng và các hình thức tương tự);\n- Danh sách báo cáo viên ghi đầy đủ thông tin về bằng cấp chuyên môn hoặc chức danh khoa học của báo cáo viên đối với trường hợp hội chợ, hội thảo, hội nghị, tổ chức sự kiện, triển lãm, chương trình văn hoá, thể thao (đóng dấu xác nhận của Doanh nghiệp).\n- Đơn đề nghị xác nhận nội dung quảng cáo thuốc thú y theo mẫu quy định tại Phụ lục XLII ban hành kèm theo Thông tư 13/2016/TT-BNNPTNT",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Tổ chức, cá nhân nộp hồ sơ trực tiếp, trực tuyến hoặc gửi qua đường bưu điện đến Cơ quan quản lý chuyên ngành chăn nuôi và thú y cấp tỉnh.\nBước 2: Cơ quan quản lý chuyên ngành chăn nuôi và thú y cấp tỉnh trả lời ngay tính đầy đủ của hồ sơ đối với trường hợp nộp trực tiếp; trả lời tính đầy đủ của hồ sơ trong 01 ngày làm việc đối với trường hợp nộp hồ sơ qua môi trường mạng hoặc qua dịch vụ bưu chính bằng văn bản; \nTrong thời hạn 05 ngày làm việc kể từ khi nhận đầy đủ hồ sơ hợp lệ, Cơ quan quản lý chuyên ngành chăn nuôi và thú y cấp tỉnh cấp Giấy xác nhận nội dung quảng cáo thuốc thú y theo mẫu số 10.QLT Phụ lục II ban hành kèm theo Thông tư này. Trường hợp không cấp Giấy xác nhận nội dung quảng cáo cơ quan nhà nước có thẩm quyền phải trả lời bằng văn bản và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "Bản sao chụp Giấy chứng nhận lưu hành thuốc thú y;\n- Sản phẩm quảng cáo (nội dung, hình thức quảng cáo được thể hiện bằng hình ảnh, âm thanh, tiếng nói, chữ viết, biểu tượng, màu sắc, ánh sáng và các hình thức tương tự);\n- Danh sách báo cáo viên ghi đầy đủ thông tin về bằng cấp chuyên môn hoặc chức danh khoa học của báo cáo viên đối với trường hợp hội chợ, hội thảo, hội nghị, tổ chức sự kiện, triển lãm, chương trình văn hoá, thể thao (đóng dấu xác nhận của Doanh nghiệp).\n- Đơn đề nghị xác nhận nội dung quảng cáo thuốc thú y theo mẫu quy định tại Phụ lục XLII ban hành kèm theo Thông tư 13/2016/TT-BNNPTNT",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 5 ngày làm việc\nQua dịch vụ bưu chính: 5 ngày làm việc\nTrực tiếp: 5 ngày làm việc",
-    "CĂN CỨ PHÁP LÝ": " Quy định chi tiết một số Điều của Luật thú y - Nghị định số 35/2016/NĐ-CP\nThông tư số 101/2020/TT-BTC ngày 23/11/2020 của Bộ trưởng Bộ Tài chính quy định về mức thu, chế độ thu, nộp, quản lý phí, lệ phí trong công tác thú y - 101/2020/TT-BTC\nNghị định Quy định phân quyền, phân cấp trong lĩnh vực nông nghiệp - 136/2025/NĐ-CP\nQuy định phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nông nghiệp và Môi trường - Nghị định số 131/2025/NĐ-CP",
+    "CĂN CỨ PHÁP LÝ": "Quy định chi tiết một số Điều của Luật thú y - Nghị định số 35/2016/NĐ-CP\nThông tư số 101/2020/TT-BTC ngày 23/11/2020 của Bộ trưởng Bộ Tài chính quy định về mức thu, chế độ thu, nộp, quản lý phí, lệ phí trong công tác thú y - 101/2020/TT-BTC\nNghị định Quy định phân quyền, phân cấp trong lĩnh vực nông nghiệp - 136/2025/NĐ-CP\nQuy định phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nông nghiệp và Môi trường - Nghị định số 131/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cơ quan quản lý chuyên ngành thú y cấp tỉnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
     "KẾT QUẢ XỬ LÝ": "Giấy xác nhận nội dung quảng cáo thuốc thú y. - KQ.G10.000212",
@@ -230,11 +178,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Sức khỏe và y tế",
-      "slug": "suc-khoe-va-y-te",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thú y",
       "slug": "thu-y"
@@ -269,6 +212,6 @@
         "slug": "co-quan-quan-ly-chuyen-nganh-thu-y-cap-tinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

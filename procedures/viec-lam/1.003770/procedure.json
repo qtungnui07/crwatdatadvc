@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfa-2881-70fc-a840-92cd12cf4ca5",
   "procedure_code": "1.003770",
   "title": "Xác nhận cam kết hoặc chứng nhận sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-2881-70fc-a840-92cd12cf4ca5",
     "source_file": "chi-tiet-thu-tuc-1.003770.pdf",
     "source_path": "procedures/viec-lam/1.003770/chi-tiet-thu-tuc-1.003770.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:01.417914+00:00",
-    "source_updated_at": "2026-04-19T10:27:47.834Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:06.011280+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "04835bb35de1db3973b06eb0b7d2e3ae8ddf957b7a826d9e60d5e3f844034081"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:01.417914+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "31/QĐ-BNNMT",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thủy sản",
   "target_users": [
@@ -38,18 +34,15 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cục Chất lượng, Chế biến và Phát triển thị trường - Bộ NN và MT",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Chất lượng, Chế biến và Phát triển thị trường - Bộ NN và MT"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "1.1. Trình tự thực hiện: \na) Tổ chức, cá nhân nộp 01 bộ hồ sơ đề nghị Xác nhận cam kết hoặc chứng nhận sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu đến Các Trung tâm Chất lượng, Chế biến và Phát triển thị trường vùng thuộc Cục Chất lượng, Chế biến và Phát triển thị trường \n- Trường hợp nộp hồ sơ theo hình thức trực tiếp tại Bộ phận Một cửa hoặc thông qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ, qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật. \n- Trường hợp nộp hồ sơ theo hình thức trực tuyến tại Cổng Dịch vụ công quốc gia thì các thành phần hồ sơ là bản gốc được xác lập trên môi trường điện tử hoặc bản chính được scan theo quy định và gửi bản chính đến đến Các Trung tâm Chất lượng, Chế biến và Phát triển thị trường vùng thuộc Cục Chất lượng, Chế biến và Phát triển thị trường. \nb) Các Trung tâm Chất lượng, Chế biến và Phát triển thị trường vùng thuộc Cục Chất lượng, Chế biến và Phát triển thị trường thực hiện kiểm tra, xác nhận cam kết hoặc chứng nhận sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu theo các nội dung sau:\n- Đối chiếu thông tin về tàu đánh bắt nguồn lợi thủy sản và các thông tin khác (quốc gia có tàu mang cờ, khối lượng, chủng loại thủy sản) trong Giấy chứng nhận nguồn gốc thủy sản khai thác do cơ quan thẩm quyền nước xuất khẩu cấp cho lô nguyên liệu nhập khẩu vào Việt Nam; \n- Đối chiếu về khối lượng, chủng loại nguyên liệu thủy sản khai thác nhập khẩu để chế biến xuất khẩu với thông tin về lô hàng nhập khẩu được Cục Thuỷ sản và Kiểm ngư kiểm tra về nguồn gốc xuất xứ khai thác đáp ứng quy định chống khai thác bất hợp pháp, không báo cáo và không theo quy định khi nhập khẩu vào Việt Nam (nếu có);  \n- Đối chiếu về khối lượng, chủng loại nguyên liệu thủy sản khai thác nhập khẩu để chế biến xuất khẩu với hồ sơ thống kê xác nhận cam kết sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu và hồ sơ giám sát quá trình sản xuất, chế biến; dữ liệu theo dõi trừ lùi, định mức của sản phẩm tại cơ sở chế biến và mức độ đáp ứng về truy xuất nguồn gốc đối với thuỷ sản khai thác.\nc) Trong thời hạn 02 ngày làm việc, sau khi kết thúc kiểm tra trên hồ sơ, Các Trung tâm Chất lượng, Chế biến và Phát triển thị trường vùng thuộc Cục Chất lượng, Chế biến và Phát triển thị trường hoặc tối đa 03 ngày nếu phải kiểm tra tại hiện trường trong trường hợp có nghi ngờ, thực hiện xác nhận cam kết hoặc chứng nhận sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu nếu lô hàng đáp ứng các quy định tại khoản 2 Điều 13 Thông tư số 81/2025/TT-BNNMT ngày 31/12/2025. Trường hợp không xác nhận cam kết hoặc chứng nhận, cơ quan thẩm quyền trả lời bằng văn bản và nêu rõ lý do.\n",
+      "description": "1.1. Trình tự thực hiện: \na) Tổ chức, cá nhân nộp 01 bộ hồ sơ đề nghị Xác nhận cam kết hoặc chứng nhận sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu đến Các Trung tâm Chất lượng, Chế biến và Phát triển thị trường vùng thuộc Cục Chất lượng, Chế biến và Phát triển thị trường \n- Trường hợp nộp hồ sơ theo hình thức trực tiếp tại Bộ phận Một cửa hoặc thông qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ, qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật. \n- Trường hợp nộp hồ sơ theo hình thức trực tuyến tại Cổng Dịch vụ công quốc gia thì các thành phần hồ sơ là bản gốc được xác lập trên môi trường điện tử hoặc bản chính được scan theo quy định và gửi bản chính đến đến Các Trung tâm Chất lượng, Chế biến và Phát triển thị trường vùng thuộc Cục Chất lượng, Chế biến và Phát triển thị trường. \nb) Các Trung tâm Chất lượng, Chế biến và Phát triển thị trường vùng thuộc Cục Chất lượng, Chế biến và Phát triển thị trường thực hiện kiểm tra, xác nhận cam kết hoặc chứng nhận sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu theo các nội dung sau:\n- Đối chiếu thông tin về tàu đánh bắt nguồn lợi thủy sản và các thông tin khác (quốc gia có tàu mang cờ, khối lượng, chủng loại thủy sản) trong Giấy chứng nhận nguồn gốc thủy sản khai thác do cơ quan thẩm quyền nước xuất khẩu cấp cho lô nguyên liệu nhập khẩu vào Việt Nam; \n- Đối chiếu về khối lượng, chủng loại nguyên liệu thủy sản khai thác nhập khẩu để chế biến xuất khẩu với thông tin về lô hàng nhập khẩu được Cục Thuỷ sản và Kiểm ngư kiểm tra về nguồn gốc xuất xứ khai thác đáp ứng quy định chống khai thác bất hợp pháp, không báo cáo và không theo quy định khi nhập khẩu vào Việt Nam (nếu có);  \n- Đối chiếu về khối lượng, chủng loại nguyên liệu thủy sản khai thác nhập khẩu để chế biến xuất khẩu với hồ sơ thống kê xác nhận cam kết sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu và hồ sơ giám sát quá trình sản xuất, chế biến; dữ liệu theo dõi trừ lùi, định mức của sản phẩm tại cơ sở chế biến và mức độ đáp ứng về truy xuất nguồn gốc đối với thuỷ sản khai thác.\nc) Trong thời hạn 02 ngày làm việc, sau khi kết thúc kiểm tra trên hồ sơ, Các Trung tâm Chất lượng, Chế biến và Phát triển thị trường vùng thuộc Cục Chất lượng, Chế biến và Phát triển thị trường hoặc tối đa 03 ngày nếu phải kiểm tra tại hiện trường trong trường hợp có nghi ngờ, thực hiện xác nhận cam kết hoặc chứng nhận sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu nếu lô hàng đáp ứng các quy định tại khoản 2 Điều 13 Thông tư số 81/2025/TT-BNNMT ngày 31/12/2025. Trường hợp không xác nhận cam kết hoặc chứng nhận, cơ quan thẩm quyền trả lời bằng văn bản và nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
@@ -58,21 +51,15 @@
     "conditional": [
       {
         "name": "- Giấy chứng nhận nguồn gốc thủy sản khai thác do cơ quan thẩm quyền của nước có tàu cá mang cờ cấp",
-        "code": "G10-KQ007072",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Giấy xác nhận cam kết hoặc chứng nhận sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu theo Mẫu số 05 hoặc Mẫu số 06 Phụ lục III ban hành kèm theo Thông tư số 81/2025/TT-BNNMT ngày 31/12/2025 hoặc giấy khác có nội dung tương đương theo yêu cầu của cơ quan thẩm quyền nước nhập khẩu hoặc tổ chức nghề cá khu vực đã kê khai đầy đủ thông tin",
-        "code": "G10-KQ007073",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       }
     ]
   },
@@ -81,87 +68,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "2",
-      "processing_time_value": 2,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "2",
-      "processing_time_value": 2,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -169,20 +121,17 @@
     {
       "title": "Luật",
       "document_number": "Luật 18/2017/QH14",
-      "id": "019d2bb3-5d84-71c5-b674-9b7cf87c6962",
       "source_page": null
     },
     {
       "title": "Luật sửa đổi, bổ sung một số điều của 15 luật trong lĩnh vực nông nghiệp và môi trường",
       "document_number": "Luật số 146/2025/QH15",
-      "id": "019d2bb3-5d87-7195-a447-f9a5abcd2f43",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Quy định ghi, nộp báo cáo, nhật ký khai thác thủy sản; kiểm tra tàu cá và giám sát sản lượng thủy sản tại cảng cá; danh sách tàu cá khai thác thủy sản bất hợp pháp; xác nhận nguyên liệu, chứng nhận nguồn gốc thủy sản khai thác",
       "document_number": "Thông tư số 81/2025/TT-BNNMT",
-      "id": "019d2bb3-5d87-7195-a44a-3c639cf22603",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -190,13 +139,12 @@
     {
       "title": "Giấy xác nhận cam kết hoặc chứng nhận sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu theo Mẫu số 05 hoặc Mẫu số 06 Phụ lục III ban hành kèm theo Thông tư số 81/2025/TT-BNNMT ngày 31/12/2025 hoặc giấy khác có nội dung tương đương theo yêu cầu của cơ quan thẩm quyền nước nhập khẩu hoặc tổ chức nghề cá khu vực đã kê khai đầy đủ thông tin",
       "code": "KQ.G10.001237",
-      "id": "019d2bb2-1c6d-743d-a39e-b2bfff088722",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "1.1. Trình tự thực hiện: \na) Tổ chức, cá nhân nộp 01 bộ hồ sơ đề nghị Xác nhận cam kết hoặc chứng nhận sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu đến Các Trung tâm Chất lượng, Chế biến và Phát triển thị trường vùng thuộc Cục Chất lượng, Chế biến và Phát triển thị trường \n- Trường hợp nộp hồ sơ theo hình thức trực tiếp tại Bộ phận Một cửa hoặc thông qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ, qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật. \n- Trường hợp nộp hồ sơ theo hình thức trực tuyến tại Cổng Dịch vụ công quốc gia thì các thành phần hồ sơ là bản gốc được xác lập trên môi trường điện tử hoặc bản chính được scan theo quy định và gửi bản chính đến đến Các Trung tâm Chất lượng, Chế biến và Phát triển thị trường vùng thuộc Cục Chất lượng, Chế biến và Phát triển thị trường. \nb) Các Trung tâm Chất lượng, Chế biến và Phát triển thị trường vùng thuộc Cục Chất lượng, Chế biến và Phát triển thị trường thực hiện kiểm tra, xác nhận cam kết hoặc chứng nhận sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu theo các nội dung sau:\n- Đối chiếu thông tin về tàu đánh bắt nguồn lợi thủy sản và các thông tin khác (quốc gia có tàu mang cờ, khối lượng, chủng loại thủy sản) trong Giấy chứng nhận nguồn gốc thủy sản khai thác do cơ quan thẩm quyền nước xuất khẩu cấp cho lô nguyên liệu nhập khẩu vào Việt Nam; \n- Đối chiếu về khối lượng, chủng loại nguyên liệu thủy sản khai thác nhập khẩu để chế biến xuất khẩu với thông tin về lô hàng nhập khẩu được Cục Thuỷ sản và Kiểm ngư kiểm tra về nguồn gốc xuất xứ khai thác đáp ứng quy định chống khai thác bất hợp pháp, không báo cáo và không theo quy định khi nhập khẩu vào Việt Nam (nếu có);  \n- Đối chiếu về khối lượng, chủng loại nguyên liệu thủy sản khai thác nhập khẩu để chế biến xuất khẩu với hồ sơ thống kê xác nhận cam kết sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu và hồ sơ giám sát quá trình sản xuất, chế biến; dữ liệu theo dõi trừ lùi, định mức của sản phẩm tại cơ sở chế biến và mức độ đáp ứng về truy xuất nguồn gốc đối với thuỷ sản khai thác.\nc) Trong thời hạn 02 ngày làm việc, sau khi kết thúc kiểm tra trên hồ sơ, Các Trung tâm Chất lượng, Chế biến và Phát triển thị trường vùng thuộc Cục Chất lượng, Chế biến và Phát triển thị trường hoặc tối đa 03 ngày nếu phải kiểm tra tại hiện trường trong trường hợp có nghi ngờ, thực hiện xác nhận cam kết hoặc chứng nhận sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu nếu lô hàng đáp ứng các quy định tại khoản 2 Điều 13 Thông tư số 81/2025/TT-BNNMT ngày 31/12/2025. Trường hợp không xác nhận cam kết hoặc chứng nhận, cơ quan thẩm quyền trả lời bằng văn bản và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n- Giấy chứng nhận nguồn gốc thủy sản khai thác do cơ quan thẩm quyền của nước có tàu cá mang cờ cấp\n- Giấy xác nhận cam kết hoặc chứng nhận sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu theo Mẫu số 05 hoặc Mẫu số 06 Phụ lục III ban hành kèm theo Thông tư số 81/2025/TT-BNNMT ngày 31/12/2025 hoặc giấy khác có nội dung tương đương theo yêu cầu của cơ quan thẩm quyền nước nhập khẩu hoặc tổ chức nghề cá khu vực đã kê khai đầy đủ thông tin",
+    "TRÌNH TỰ THỰC HIỆN": "1.1. Trình tự thực hiện: \na) Tổ chức, cá nhân nộp 01 bộ hồ sơ đề nghị Xác nhận cam kết hoặc chứng nhận sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu đến Các Trung tâm Chất lượng, Chế biến và Phát triển thị trường vùng thuộc Cục Chất lượng, Chế biến và Phát triển thị trường \n- Trường hợp nộp hồ sơ theo hình thức trực tiếp tại Bộ phận Một cửa hoặc thông qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ, qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật. \n- Trường hợp nộp hồ sơ theo hình thức trực tuyến tại Cổng Dịch vụ công quốc gia thì các thành phần hồ sơ là bản gốc được xác lập trên môi trường điện tử hoặc bản chính được scan theo quy định và gửi bản chính đến đến Các Trung tâm Chất lượng, Chế biến và Phát triển thị trường vùng thuộc Cục Chất lượng, Chế biến và Phát triển thị trường. \nb) Các Trung tâm Chất lượng, Chế biến và Phát triển thị trường vùng thuộc Cục Chất lượng, Chế biến và Phát triển thị trường thực hiện kiểm tra, xác nhận cam kết hoặc chứng nhận sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu theo các nội dung sau:\n- Đối chiếu thông tin về tàu đánh bắt nguồn lợi thủy sản và các thông tin khác (quốc gia có tàu mang cờ, khối lượng, chủng loại thủy sản) trong Giấy chứng nhận nguồn gốc thủy sản khai thác do cơ quan thẩm quyền nước xuất khẩu cấp cho lô nguyên liệu nhập khẩu vào Việt Nam; \n- Đối chiếu về khối lượng, chủng loại nguyên liệu thủy sản khai thác nhập khẩu để chế biến xuất khẩu với thông tin về lô hàng nhập khẩu được Cục Thuỷ sản và Kiểm ngư kiểm tra về nguồn gốc xuất xứ khai thác đáp ứng quy định chống khai thác bất hợp pháp, không báo cáo và không theo quy định khi nhập khẩu vào Việt Nam (nếu có);  \n- Đối chiếu về khối lượng, chủng loại nguyên liệu thủy sản khai thác nhập khẩu để chế biến xuất khẩu với hồ sơ thống kê xác nhận cam kết sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu và hồ sơ giám sát quá trình sản xuất, chế biến; dữ liệu theo dõi trừ lùi, định mức của sản phẩm tại cơ sở chế biến và mức độ đáp ứng về truy xuất nguồn gốc đối với thuỷ sản khai thác.\nc) Trong thời hạn 02 ngày làm việc, sau khi kết thúc kiểm tra trên hồ sơ, Các Trung tâm Chất lượng, Chế biến và Phát triển thị trường vùng thuộc Cục Chất lượng, Chế biến và Phát triển thị trường hoặc tối đa 03 ngày nếu phải kiểm tra tại hiện trường trong trường hợp có nghi ngờ, thực hiện xác nhận cam kết hoặc chứng nhận sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu nếu lô hàng đáp ứng các quy định tại khoản 2 Điều 13 Thông tư số 81/2025/TT-BNNMT ngày 31/12/2025. Trường hợp không xác nhận cam kết hoặc chứng nhận, cơ quan thẩm quyền trả lời bằng văn bản và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "- Giấy chứng nhận nguồn gốc thủy sản khai thác do cơ quan thẩm quyền của nước có tàu cá mang cờ cấp\n- Giấy xác nhận cam kết hoặc chứng nhận sản phẩm thủy sản xuất khẩu có nguồn gốc từ thủy sản khai thác nhập khẩu theo Mẫu số 05 hoặc Mẫu số 06 Phụ lục III ban hành kèm theo Thông tư số 81/2025/TT-BNNMT ngày 31/12/2025 hoặc giấy khác có nội dung tương đương theo yêu cầu của cơ quan thẩm quyền nước nhập khẩu hoặc tổ chức nghề cá khu vực đã kê khai đầy đủ thông tin",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 2\nQua dịch vụ bưu chính: 1\nTrực tiếp: 2",
     "CĂN CỨ PHÁP LÝ": "Luật - Luật 18/2017/QH14\nLuật sửa đổi, bổ sung một số điều của 15 luật trong lĩnh vực nông nghiệp và môi trường - Luật số 146/2025/QH15\nQuy định ghi, nộp báo cáo, nhật ký khai thác thủy sản; kiểm tra tàu cá và giám sát sản lượng thủy sản tại cảng cá; danh sách tàu cá khai thác thủy sản bất hợp pháp; xác nhận nguyên liệu, chứng nhận nguồn gốc thủy sản khai thác - Thông tư số 81/2025/TT-BNNMT",
     "CƠ QUAN THỰC HIỆN": "Cục Chất lượng, Chế biến và Phát triển thị trường - Bộ NN và MT",
@@ -206,11 +154,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Thủy sản",
       "slug": "thuy-san"
@@ -245,6 +188,6 @@
         "slug": "cuc-chat-luong-che-bien-va-phat-trien-thi-truong-bo-nn-va-mt"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

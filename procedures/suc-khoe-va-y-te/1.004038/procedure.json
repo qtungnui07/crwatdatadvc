@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfa-3042-7328-a113-a1e7aeda716f",
   "procedure_code": "1.004038",
   "title": "Cấp giấy chứng nhận kiểm dịch thực vật nhập khẩu, kiểm tra nhà nước về an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-3042-7328-a113-a1e7aeda716f",
     "source_file": "chi-tiet-thu-tuc-1.004038.pdf",
     "source_path": "procedures/suc-khoe-va-y-te/1.004038/chi-tiet-thu-tuc-1.004038.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:22:01.687451+00:00",
-    "source_updated_at": "2026-04-21T12:24:00.966Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:14.850092+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "913f2ab90f2db26995988e958caef2251e96498b044a23d35060ba07a71e6c3c"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:01.687451+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1000/QĐ-BNNMT",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Trồng trọt và Bảo vệ thực vật",
   "target_users": [
@@ -42,117 +38,96 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Chi cục Kiểm dịch thực vật vùng II, Chi cục Kiểm dịch thực vật vùng V, Chi cục Kiểm dịch thực vật vùng VI, Chi cục Kiểm dịch thực vật vùng I, Chi cục Kiểm dịch thực vật vùng III, Chi cục Kiểm dịch thực vật vùng IV",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Chi cục Kiểm dịch thực vật vùng II, Chi cục Kiểm dịch thực vật vùng V, Chi cục Kiểm dịch thực vật vùng VI, Chi cục Kiểm dịch thực vật vùng I, Chi cục Kiểm dịch thực vật vùng III, Chi cục Kiểm dịch thực vật vùng IV"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "1. Trình tự thực hiện:\n- Bước 1:\nChủ vật thể (chủ hàng) nộp (gửi) 01 bộ hồ sơ đăng ký kiểm dịch thực vật nhập khẩu hoặc đăng ký kiểm dịch thực vật nhập khẩu và kiểm tra nhà nước về an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu tại cơ quan kiểm dịch thực vật (các Chi cục Kiểm dịch thực vật vùng, các Trạm kiểm dịch thực vật tại cửa khẩu) hoặc qua Cơ chế một cửa Quốc gia (trực tuyến).\n- Bước 2:\nCơ quan kiểm dịch thực vật có trách nhiệm tiếp nhận và kiểm tra ngay tính hợp lệ của hồ sơ theo quy định. Trường hợp hồ sơ không hợp lệ thì yêu cầu chủ vật thể bổ sung, hoàn thiện hồ sơ.\n- Bước 3:\n+ Trường hợp chỉ thực hiện thủ tục kiểm dịch thực vật nhập khẩu\nCăn cứ kết quả kiểm tra hồ sơ, cơ quan kiểm dịch thực vật quyết định địa điểm, xác nhận vào Giấy đăng ký kiểm dịch thực vật và bố trí công chức kiểm tra lô vật thể.\n+ Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu\nCăn cứ kết quả kiểm tra hồ sơ, cơ quan kiểm dịch thực vật quyết định địa điểm, xác nhận vào Giấy đăng ký kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu và bố trí công chức kiểm tra lô vật thể;\nLấy mẫu, kiểm nghiệm các chỉ tiêu an toàn thực phẩm (chỉ áp dụng với phương thức kiểm tra chặt).\n- Bước 4:\n+ Trường hợp chỉ thực hiện thủ tục kiểm dịch thực vật nhập khẩu\nCơ quan kiểm dịch thực vật cấp Giấy chứng nhận kiểm dịch thực vật nhập khẩu, quá cảnh và vận chuyển nội địa (theo mẫu quy định tại Phụ lục II ban hành kèm theo Thông tư số 33/2014/TT-BNNPTNT) trong vòng 24 giờ kể từ khi bắt đầu kiểm dịch đối với lô vật thể không bị nhiễm đối tượng kiểm dịch thực vật hoặc đối tượng phải kiểm soát của Việt Nam hoặc sinh vật gây hại lạ.\nTrường hợp kéo dài hơn 24 giờ do yêu cầu về chuyên môn kỹ thuật hoặc trường hợp không cấp Giấy chứng nhận kiểm dịch thực vật thì cơ quan kiểm dịch thực vật phải thông báo hoặc trả lời bằng văn bản và nêu rõ lý do cho chủ vật thể biết.\n+ Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu\nKiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu theo phương thức kiểm tra thông thường:\nCơ quan kiểm dịch thực vật cấp Giấy chứng nhận kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu (theo mẫu quy định tại Phụ lục IIa ban hành kèm theo Thông tư số 34/2018/TT-BNNPTNT) trong vòng 24 giờ kể từ khi bắt đầu kiểm dịch đối với lô vật thể không bị nhiễm đối tượng kiểm dịch thực vật hoặc đối tượng phải kiểm soát của Việt Nam hoặc sinh vật gây hại lạ.\nTrường hợp kéo dài hơn 24 giờ do yêu cầu về chuyên môn kỹ thuật hoặc trường hợp không cấp Giấy chứng nhận kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu thì cơ quan kiểm dịch thực vật phải thông báo hoặc trả lời bằng văn bản và nêu rõ lý do cho chủ vật thể biết.\nTrường hợp ra Thông báo kết quả xác nhận thực phẩm không đạt yêu cầu nhập khẩu theo quy định, cơ quan kiểm dịch thực vật quyết định các biện pháp xử lý theo các hình thức quy định tại khoản 3 Điều 55 Luật An toàn thực phẩm.\nKiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu theo phương thức kiểm tra chặt:\nCơ quan kiểm dịch thực vật cấp Giấy chứng nhận kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu (theo mẫu quy định tại Phụ lục IIa ban hành kèm theo Thông tư số 34/2018/TT-BNNPTNT) trong thời hạn 07 ngày làm việc, kể từ khi bắt đầu kiểm dịch và kiểm tra an toàn thực phẩm đối với lô vật thể không bị nhiễm đối tượng kiểm dịch thực vật hoặc đối tượng phải kiểm soát của Việt Nam hoặc sinh vật gây hại lạ.\nTrường hợp không cấp Giấy chứng nhận kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu, cơ quan kiểm dịch thực vật phải thông báo hoặc trả lời bằng văn bản và nêu rõ lý do cho chủ vật thể biết.\nTrường hợp ra Thông báo kết quả xác nhận thực phẩm không đạt yêu cầu nhập khẩu theo quy định, cơ quan kiểm dịch thực vật quyết định các biện pháp xử lý theo các hình thức quy định tại khoản 3 Điều 55 Luật An toàn thực phẩm.\n",
+      "description": "1. Trình tự thực hiện:\n- Bước 1:\nChủ vật thể (chủ hàng) nộp (gửi) 01 bộ hồ sơ đăng ký kiểm dịch thực vật nhập khẩu hoặc đăng ký kiểm dịch thực vật nhập khẩu và kiểm tra nhà nước về an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu tại cơ quan kiểm dịch thực vật (các Chi cục Kiểm dịch thực vật vùng, các Trạm kiểm dịch thực vật tại cửa khẩu) hoặc qua Cơ chế một cửa Quốc gia (trực tuyến).",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2:\nCơ quan kiểm dịch thực vật có trách nhiệm tiếp nhận và kiểm tra ngay tính hợp lệ của hồ sơ theo quy định. Trường hợp hồ sơ không hợp lệ thì yêu cầu chủ vật thể bổ sung, hoàn thiện hồ sơ.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "- Bước 3:\n+ Trường hợp chỉ thực hiện thủ tục kiểm dịch thực vật nhập khẩu\nCăn cứ kết quả kiểm tra hồ sơ, cơ quan kiểm dịch thực vật quyết định địa điểm, xác nhận vào Giấy đăng ký kiểm dịch thực vật và bố trí công chức kiểm tra lô vật thể.\n+ Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu\nCăn cứ kết quả kiểm tra hồ sơ, cơ quan kiểm dịch thực vật quyết định địa điểm, xác nhận vào Giấy đăng ký kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu và bố trí công chức kiểm tra lô vật thể;\nLấy mẫu, kiểm nghiệm các chỉ tiêu an toàn thực phẩm (chỉ áp dụng với phương thức kiểm tra chặt).",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "- Bước 4:\n+ Trường hợp chỉ thực hiện thủ tục kiểm dịch thực vật nhập khẩu\nCơ quan kiểm dịch thực vật cấp Giấy chứng nhận kiểm dịch thực vật nhập khẩu, quá cảnh và vận chuyển nội địa (theo mẫu quy định tại Phụ lục II ban hành kèm theo Thông tư số 33/2014/TT-BNNPTNT) trong vòng 24 giờ kể từ khi bắt đầu kiểm dịch đối với lô vật thể không bị nhiễm đối tượng kiểm dịch thực vật hoặc đối tượng phải kiểm soát của Việt Nam hoặc sinh vật gây hại lạ.\nTrường hợp kéo dài hơn 24 giờ do yêu cầu về chuyên môn kỹ thuật hoặc trường hợp không cấp Giấy chứng nhận kiểm dịch thực vật thì cơ quan kiểm dịch thực vật phải thông báo hoặc trả lời bằng văn bản và nêu rõ lý do cho chủ vật thể biết.\n+ Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu\nKiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu theo phương thức kiểm tra thông thường:\nCơ quan kiểm dịch thực vật cấp Giấy chứng nhận kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu (theo mẫu quy định tại Phụ lục IIa ban hành kèm theo Thông tư số 34/2018/TT-BNNPTNT) trong vòng 24 giờ kể từ khi bắt đầu kiểm dịch đối với lô vật thể không bị nhiễm đối tượng kiểm dịch thực vật hoặc đối tượng phải kiểm soát của Việt Nam hoặc sinh vật gây hại lạ.\nTrường hợp kéo dài hơn 24 giờ do yêu cầu về chuyên môn kỹ thuật hoặc trường hợp không cấp Giấy chứng nhận kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu thì cơ quan kiểm dịch thực vật phải thông báo hoặc trả lời bằng văn bản và nêu rõ lý do cho chủ vật thể biết.\nTrường hợp ra Thông báo kết quả xác nhận thực phẩm không đạt yêu cầu nhập khẩu theo quy định, cơ quan kiểm dịch thực vật quyết định các biện pháp xử lý theo các hình thức quy định tại khoản 3 Điều 55 Luật An toàn thực phẩm.\nKiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu theo phương thức kiểm tra chặt:\nCơ quan kiểm dịch thực vật cấp Giấy chứng nhận kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu (theo mẫu quy định tại Phụ lục IIa ban hành kèm theo Thông tư số 34/2018/TT-BNNPTNT) trong thời hạn 07 ngày làm việc, kể từ khi bắt đầu kiểm dịch và kiểm tra an toàn thực phẩm đối với lô vật thể không bị nhiễm đối tượng kiểm dịch thực vật hoặc đối tượng phải kiểm soát của Việt Nam hoặc sinh vật gây hại lạ.\nTrường hợp không cấp Giấy chứng nhận kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu, cơ quan kiểm dịch thực vật phải thông báo hoặc trả lời bằng văn bản và nêu rõ lý do cho chủ vật thể biết.\nTrường hợp ra Thông báo kết quả xác nhận thực phẩm không đạt yêu cầu nhập khẩu theo quy định, cơ quan kiểm dịch thực vật quyết định các biện pháp xử lý theo các hình thức quy định tại khoản 3 Điều 55 Luật An toàn thực phẩm.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Giấy đăng ký kiểm dịch thực vật (theo mẫu qui định tại Phụ lục I ban hành kèm theo Thông tư 33/2014/TT-BNNPTNT)",
-        "code": "000.00.00.G10-KQ1404",
+        "name": "Trường hợp chỉ thực hiện thủ tục kiểm dịch thực vật nhập khẩu: Giấy đăng ký kiểm dịch thực vật (theo mẫu qui định tại Phụ lục I ban hành kèm theo Thông tư 33/2014/TT-BNNPTNT)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp chỉ thực hiện thủ tục kiểm dịch thực vật nhập khẩu",
-        "attachments": [
-          {
-            "id": "019dafb1-19eb-7348-95e7-3936b8333dd0",
-            "name": "Phụ lục I-TT33.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục I-TT33.docx",
+        "source_page": 3
       },
       {
-        "name": "Giấy đăng ký kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu (theo mẫu quy định tại Phụ lục Ia ban hành kèm theo Thông tư số 34/2018/TT-BNNPTNT);",
-        "code": "000.00.00.G10-KQ1407",
+        "name": "Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: Giấy đăng ký kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu (theo mẫu quy định tại Phụ lục Ia ban hành kèm theo Thông tư số 34/2018/TT-BNNPTNT);",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu",
-        "attachments": [
-          {
-            "id": "019dafb3-816d-75a9-b715-795e433895f2",
-            "name": "Phụ lục Ia-TT34.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục Ia-TT34.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "- Bản chính hoặc bản điện tử hoặc bản sao chứng thực Giấy phép kiểm dịch thực vật nhập khẩu (trường hợp quy định phải có Giấy phép).",
-        "code": "000.00.00.G10-KQ003224",
+        "name": "Trường hợp chỉ thực hiện thủ tục kiểm dịch thực vật nhập khẩu: - Bản chính hoặc bản điện tử hoặc bản sao chứng thực Giấy phép kiểm dịch thực vật nhập khẩu (trường hợp quy định phải có Giấy phép).",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp chỉ thực hiện thủ tục kiểm dịch thực vật nhập khẩu",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Bản sao chụp hoặc bản điện tử hoặc bản chính Giấy chứng nhận kiểm dịch thực vật do cơ quan kiểm dịch thực vật có thẩm quyền của nước xuất khẩu cấp; Trường hợp chủ vật thể nộp bản sao chụp hoặc bản điện tử thì phải nộp bản chính trước khi được cấp Giấy chứng nhận kiểm dịch thực vật nhập khẩu, quá cảnh và vận chuyển nội địa cho lô vật thể.",
-        "code": "000.00.00.G10-KQ003223",
+        "name": "Trường hợp chỉ thực hiện thủ tục kiểm dịch thực vật nhập khẩu: - Bản sao chụp hoặc bản điện tử hoặc bản chính Giấy chứng nhận kiểm dịch thực vật do cơ quan kiểm dịch thực vật có thẩm quyền của nước xuất khẩu cấp; Trường hợp chủ vật thể nộp bản sao chụp hoặc bản điện tử thì phải nộp bản chính trước khi được cấp Giấy chứng nhận kiểm dịch thực vật nhập khẩu, quá cảnh và vận chuyển nội địa cho lô vật thể.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp chỉ thực hiện thủ tục kiểm dịch thực vật nhập khẩu",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- 03 (ba) Thông báo kết quả xác nhận thực phẩm đạt yêu cầu nhập khẩu liên tiếp theo phương thức kiểm tra chặt đối với các lô hàng, mặt hàng được chuyển đổi phương thức từ kiểm tra chặt sang kiểm tra thông thường (bản chính);",
-        "code": "000.00.00.G10-KQ003233",
+        "name": "Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: - 03 (ba) Thông báo kết quả xác nhận thực phẩm đạt yêu cầu nhập khẩu liên tiếp theo phương thức kiểm tra chặt đối với các lô hàng, mặt hàng được chuyển đổi phương thức từ kiểm tra chặt sang kiểm tra thông thường (bản chính);",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Bản tự công bố sản phẩm",
-        "code": "000.00.00.G10-KQ003232",
+        "name": "Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: - Bản tự công bố sản phẩm",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "- Bản chính hoặc bản điện tử hoặc bản sao chứng thực Giấy phép kiểm dịch thực vật nhập khẩu (trường hợp quy định phải có Giấy phép;",
-        "code": "000.00.00.G10-KQ003231",
+        "name": "Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: - Bản chính hoặc bản điện tử hoặc bản sao chứng thực Giấy phép kiểm dịch thực vật nhập khẩu (trường hợp quy định phải có Giấy phép;",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Bản sao chụp hoặc bản điện tử hoặc bản chính Giấy chứng nhận kiểm dịch thực vật do cơ quan kiểm dịch thực vật có thẩm quyền của nước xuất khẩu cấp; Trường hợp chủ vật thể nộp bản sao chụp hoặc bản điện tử thì phải nộp bản chính trước khi được cấp Giấy chứng nhận kiểm dịch thực vật nhập khẩu, quá cảnh và vận chuyển nội địa cho lô vật thể.",
-        "code": "000.00.00.G10-KQ003230",
+        "name": "Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: - Bản sao chụp hoặc bản điện tử hoặc bản chính Giấy chứng nhận kiểm dịch thực vật do cơ quan kiểm dịch thực vật có thẩm quyền của nước xuất khẩu cấp; Trường hợp chủ vật thể nộp bản sao chụp hoặc bản điện tử thì phải nộp bản chính trước khi được cấp Giấy chứng nhận kiểm dịch thực vật nhập khẩu, quá cảnh và vận chuyển nội địa cho lô vật thể.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Bản sao Danh mục hàng hóa (Packing list).",
-        "code": "000.00.00.G10-KQ003234",
+        "name": "Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: - Bản sao Danh mục hàng hóa (Packing list).",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       }
     ]
   },
@@ -161,35 +136,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "- Đối với thủ tục kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: Không",
-          "attachment": null
-        }
-      ],
+      "fee": "- Đối với thủ tục kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: Không",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "- Đối với thủ tục kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: Không",
-          "attachment": null
-        }
-      ],
+      "fee": "- Đối với thủ tục kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: Không",
       "description": "",
       "source_page": null
     },
@@ -197,96 +152,74 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Đối với thủ tục kiểm dịch thực vật nhập khẩu: Mục III, Biểu phí kiểm dịch thực vật ban hành kèm theo Thông tư số 33/2021/TT-BTC ngày 17/5/2021",
-          "attachment": null
-        }
-      ],
+      "fee": "Đối với thủ tục kiểm dịch thực vật nhập khẩu: Mục III, Biểu phí kiểm dịch thực vật ban hành kèm theo Thông tư số 33/2021/TT-BTC ngày 17/5/2021",
       "description": "",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "- Đối với thủ tục kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: Không; Đối với thủ tục kiểm dịch thực vật nhập khẩu: Mục III, Biểu phí kiểm dịch thực vật ban hành kèm theo Thông tư số 33/2021/TT-BTC ngày 17/5/2021",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "- Đối với thủ tục kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: Không",
-        "attachment": null
+        "amount_text": "- Đối với thủ tục kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: Không",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "- Đối với thủ tục kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: Không",
-        "attachment": null
+        "amount_text": "- Đối với thủ tục kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: Không",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Đối với thủ tục kiểm dịch thực vật nhập khẩu: Mục III, Biểu phí kiểm dịch thực vật ban hành kèm theo Thông tư số 33/2021/TT-BTC ngày 17/5/2021",
-        "attachment": null
+        "amount_text": "Đối với thủ tục kiểm dịch thực vật nhập khẩu: Mục III, Biểu phí kiểm dịch thực vật ban hành kèm theo Thông tư số 33/2021/TT-BTC ngày 17/5/2021",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
   "legal_bases": [
     {
-      "title": "Luật Bảo vệ và kiểm dịch thực vật ",
+      "title": "Luật Bảo vệ và kiểm dịch thực vật",
       "document_number": "41/2013/QH13",
-      "id": "019d2bb3-5d84-71c5-b673-00fb7033b6c0",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí trong hoạt động kiểm dịch và bảo vệ thực vật thuộc lĩnh vực nông nghiệp",
       "document_number": "33/2021/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4c-df4137fbdf93",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Quy định chi tiết thi hành một số điều của Luật an toàn thực phẩm",
       "document_number": "15/2018/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-7780f0029957",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Luật An toàn thực phẩm",
       "document_number": "55/2010/QH12",
-      "id": "019d2bb3-5d84-71c5-b670-fe6d5ec40a25",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "THÔNG TƯ  SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA THÔNG TƯ SỐ 33/2014/TT-BNNPTNT NGÀY 30 THÁNG 10 NĂM 2014 VÀ THÔNG TƯ SỐ 20/2017/TT-BNNPTNT NGÀY 10 THÁNG 11 NĂM 2017 CỦA BỘ TRƯỞNG BỘ NÔNG NGHIỆP VÀ PHÁT TRIỂN NÔNG THÔN",
       "document_number": "34/2018/TT-BNNPTNT",
-      "id": "019d2bb3-5d7d-7398-be44-771808cbf017",
-      "source_page": null
+      "source_page": 5
     },
     {
-      "title": " bãi bỏ một số quy định tại Thông tư số 34/2018/TT-BNNPTNT ngày 16 tháng 11 năm 2018 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn sửa đổi, bổ sung một số điều của Thông tư số 33/2014/TT-BNNPTNT ngày 30 tháng 10 năm 2014 và Thông tư số 20/2017/TT-BNNPTNT ngày 10 tháng 11 năm 2017 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn",
-      "document_number": "Thông tư số 03/2024/TT-BNNPTNT ",
-      "id": "019d2bb3-5d7d-7398-be45-c0a174651d52",
-      "source_page": null
+      "title": "bãi bỏ một số quy định tại Thông tư số 34/2018/TT-BNNPTNT ngày 16 tháng 11 năm 2018 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn sửa đổi, bổ sung một số điều của Thông tư số 33/2014/TT-BNNPTNT ngày 30 tháng 10 năm 2014 và Thông tư số 20/2017/TT-BNNPTNT ngày 10 tháng 11 năm 2017 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn",
+      "document_number": "Thông tư số 03/2024/TT-BNNPTNT",
+      "source_page": 5
     },
     {
-      "title": "sửa đổi, bổ sung một số điều của Thông tư số 05/2015/TT-BNNPTNT ngày 12 tháng 02 năm 2015 quy định về trình tự, thủ tục cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật và Thông tư số 33/2014/TT-BNNPTNT ngày 30 tháng 10 năm 2014 quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn\n",
+      "title": "sửa đổi, bổ sung một số điều của Thông tư số 05/2015/TT-BNNPTNT ngày 12 tháng 02 năm 2015 quy định về trình tự, thủ tục cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật và Thông tư số 33/2014/TT-BNNPTNT ngày 30 tháng 10 năm 2014 quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn",
       "document_number": "15/2021/TT-BNNPTNT",
-      "id": "019d2bb3-5d86-7760-a640-9d7d429d099f",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "conditions": "",
@@ -294,21 +227,19 @@
     {
       "title": "Giấy chứng nhận kiểm dịch thực vật nhập khẩu, quá cảnh và vận chuyển nội địa.",
       "code": "KQ.G10.000054",
-      "id": "019d2bb2-1c4d-7725-9d9e-d4aeef8c720c",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Giấy chứng nhận kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hoá có nguồn gốc thực vật nhập khẩu",
       "code": "KQ.G10.001117",
-      "id": "019d2bb2-1c6d-743d-a39c-ecfe4e721cf1",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "1. Trình tự thực hiện:\n- Bước 1:\nChủ vật thể (chủ hàng) nộp (gửi) 01 bộ hồ sơ đăng ký kiểm dịch thực vật nhập khẩu hoặc đăng ký kiểm dịch thực vật nhập khẩu và kiểm tra nhà nước về an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu tại cơ quan kiểm dịch thực vật (các Chi cục Kiểm dịch thực vật vùng, các Trạm kiểm dịch thực vật tại cửa khẩu) hoặc qua Cơ chế một cửa Quốc gia (trực tuyến).\n- Bước 2:\nCơ quan kiểm dịch thực vật có trách nhiệm tiếp nhận và kiểm tra ngay tính hợp lệ của hồ sơ theo quy định. Trường hợp hồ sơ không hợp lệ thì yêu cầu chủ vật thể bổ sung, hoàn thiện hồ sơ.\n- Bước 3:\n+ Trường hợp chỉ thực hiện thủ tục kiểm dịch thực vật nhập khẩu\nCăn cứ kết quả kiểm tra hồ sơ, cơ quan kiểm dịch thực vật quyết định địa điểm, xác nhận vào Giấy đăng ký kiểm dịch thực vật và bố trí công chức kiểm tra lô vật thể.\n+ Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu\nCăn cứ kết quả kiểm tra hồ sơ, cơ quan kiểm dịch thực vật quyết định địa điểm, xác nhận vào Giấy đăng ký kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu và bố trí công chức kiểm tra lô vật thể;\nLấy mẫu, kiểm nghiệm các chỉ tiêu an toàn thực phẩm (chỉ áp dụng với phương thức kiểm tra chặt).\n- Bước 4:\n+ Trường hợp chỉ thực hiện thủ tục kiểm dịch thực vật nhập khẩu\nCơ quan kiểm dịch thực vật cấp Giấy chứng nhận kiểm dịch thực vật nhập khẩu, quá cảnh và vận chuyển nội địa (theo mẫu quy định tại Phụ lục II ban hành kèm theo Thông tư số 33/2014/TT-BNNPTNT) trong vòng 24 giờ kể từ khi bắt đầu kiểm dịch đối với lô vật thể không bị nhiễm đối tượng kiểm dịch thực vật hoặc đối tượng phải kiểm soát của Việt Nam hoặc sinh vật gây hại lạ.\nTrường hợp kéo dài hơn 24 giờ do yêu cầu về chuyên môn kỹ thuật hoặc trường hợp không cấp Giấy chứng nhận kiểm dịch thực vật thì cơ quan kiểm dịch thực vật phải thông báo hoặc trả lời bằng văn bản và nêu rõ lý do cho chủ vật thể biết.\n+ Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu\nKiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu theo phương thức kiểm tra thông thường:\nCơ quan kiểm dịch thực vật cấp Giấy chứng nhận kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu (theo mẫu quy định tại Phụ lục IIa ban hành kèm theo Thông tư số 34/2018/TT-BNNPTNT) trong vòng 24 giờ kể từ khi bắt đầu kiểm dịch đối với lô vật thể không bị nhiễm đối tượng kiểm dịch thực vật hoặc đối tượng phải kiểm soát của Việt Nam hoặc sinh vật gây hại lạ.\nTrường hợp kéo dài hơn 24 giờ do yêu cầu về chuyên môn kỹ thuật hoặc trường hợp không cấp Giấy chứng nhận kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu thì cơ quan kiểm dịch thực vật phải thông báo hoặc trả lời bằng văn bản và nêu rõ lý do cho chủ vật thể biết.\nTrường hợp ra Thông báo kết quả xác nhận thực phẩm không đạt yêu cầu nhập khẩu theo quy định, cơ quan kiểm dịch thực vật quyết định các biện pháp xử lý theo các hình thức quy định tại khoản 3 Điều 55 Luật An toàn thực phẩm.\nKiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu theo phương thức kiểm tra chặt:\nCơ quan kiểm dịch thực vật cấp Giấy chứng nhận kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu (theo mẫu quy định tại Phụ lục IIa ban hành kèm theo Thông tư số 34/2018/TT-BNNPTNT) trong thời hạn 07 ngày làm việc, kể từ khi bắt đầu kiểm dịch và kiểm tra an toàn thực phẩm đối với lô vật thể không bị nhiễm đối tượng kiểm dịch thực vật hoặc đối tượng phải kiểm soát của Việt Nam hoặc sinh vật gây hại lạ.\nTrường hợp không cấp Giấy chứng nhận kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu, cơ quan kiểm dịch thực vật phải thông báo hoặc trả lời bằng văn bản và nêu rõ lý do cho chủ vật thể biết.\nTrường hợp ra Thông báo kết quả xác nhận thực phẩm không đạt yêu cầu nhập khẩu theo quy định, cơ quan kiểm dịch thực vật quyết định các biện pháp xử lý theo các hình thức quy định tại khoản 3 Điều 55 Luật An toàn thực phẩm.\n",
-    "THÀNH PHẦN HỒ SƠ": "Trường hợp chỉ thực hiện thủ tục kiểm dịch thực vật nhập khẩu\n- Bản chính hoặc bản điện tử hoặc bản sao chứng thực Giấy phép kiểm dịch thực vật nhập khẩu (trường hợp quy định phải có Giấy phép).\n- Bản sao chụp hoặc bản điện tử hoặc bản chính Giấy chứng nhận kiểm dịch thực vật do cơ quan kiểm dịch thực vật có thẩm quyền của nước xuất khẩu cấp; Trường hợp chủ vật thể nộp bản sao chụp hoặc bản điện tử thì phải nộp bản chính trước khi được cấp Giấy chứng nhận kiểm dịch thực vật nhập khẩu, quá cảnh và vận chuyển nội địa cho lô vật thể.\nGiấy đăng ký kiểm dịch thực vật (theo mẫu qui định tại Phụ lục I ban hành kèm theo Thông tư 33/2014/TT-BNNPTNT)\nTrường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu\n- 03 (ba) Thông báo kết quả xác nhận thực phẩm đạt yêu cầu nhập khẩu liên tiếp theo phương thức kiểm tra chặt đối với các lô hàng, mặt hàng được chuyển đổi phương thức từ kiểm tra chặt sang kiểm tra thông thường (bản chính);\nGiấy đăng ký kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu (theo mẫu quy định tại Phụ lục Ia ban hành kèm theo Thông tư số 34/2018/TT-BNNPTNT);\n- Bản tự công bố sản phẩm\n- Bản chính hoặc bản điện tử hoặc bản sao chứng thực Giấy phép kiểm dịch thực vật nhập khẩu (trường hợp quy định phải có Giấy phép;\n- Bản sao chụp hoặc bản điện tử hoặc bản chính Giấy chứng nhận kiểm dịch thực vật do cơ quan kiểm dịch thực vật có thẩm quyền của nước xuất khẩu cấp; Trường hợp chủ vật thể nộp bản sao chụp hoặc bản điện tử thì phải nộp bản chính trước khi được cấp Giấy chứng nhận kiểm dịch thực vật nhập khẩu, quá cảnh và vận chuyển nội địa cho lô vật thể.\n- Bản sao Danh mục hàng hóa (Packing list).",
+    "TRÌNH TỰ THỰC HIỆN": "1. Trình tự thực hiện:\n- Bước 1:\nChủ vật thể (chủ hàng) nộp (gửi) 01 bộ hồ sơ đăng ký kiểm dịch thực vật nhập khẩu hoặc đăng ký kiểm dịch thực vật nhập khẩu và kiểm tra nhà nước về an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu tại cơ quan kiểm dịch thực vật (các Chi cục Kiểm dịch thực vật vùng, các Trạm kiểm dịch thực vật tại cửa khẩu) hoặc qua Cơ chế một cửa Quốc gia (trực tuyến).\n- Bước 2:\nCơ quan kiểm dịch thực vật có trách nhiệm tiếp nhận và kiểm tra ngay tính hợp lệ của hồ sơ theo quy định. Trường hợp hồ sơ không hợp lệ thì yêu cầu chủ vật thể bổ sung, hoàn thiện hồ sơ.\n- Bước 3:\n+ Trường hợp chỉ thực hiện thủ tục kiểm dịch thực vật nhập khẩu\nCăn cứ kết quả kiểm tra hồ sơ, cơ quan kiểm dịch thực vật quyết định địa điểm, xác nhận vào Giấy đăng ký kiểm dịch thực vật và bố trí công chức kiểm tra lô vật thể.\n+ Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu\nCăn cứ kết quả kiểm tra hồ sơ, cơ quan kiểm dịch thực vật quyết định địa điểm, xác nhận vào Giấy đăng ký kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu và bố trí công chức kiểm tra lô vật thể;\nLấy mẫu, kiểm nghiệm các chỉ tiêu an toàn thực phẩm (chỉ áp dụng với phương thức kiểm tra chặt).\n- Bước 4:\n+ Trường hợp chỉ thực hiện thủ tục kiểm dịch thực vật nhập khẩu\nCơ quan kiểm dịch thực vật cấp Giấy chứng nhận kiểm dịch thực vật nhập khẩu, quá cảnh và vận chuyển nội địa (theo mẫu quy định tại Phụ lục II ban hành kèm theo Thông tư số 33/2014/TT-BNNPTNT) trong vòng 24 giờ kể từ khi bắt đầu kiểm dịch đối với lô vật thể không bị nhiễm đối tượng kiểm dịch thực vật hoặc đối tượng phải kiểm soát của Việt Nam hoặc sinh vật gây hại lạ.\nTrường hợp kéo dài hơn 24 giờ do yêu cầu về chuyên môn kỹ thuật hoặc trường hợp không cấp Giấy chứng nhận kiểm dịch thực vật thì cơ quan kiểm dịch thực vật phải thông báo hoặc trả lời bằng văn bản và nêu rõ lý do cho chủ vật thể biết.\n+ Trường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu\nKiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu theo phương thức kiểm tra thông thường:\nCơ quan kiểm dịch thực vật cấp Giấy chứng nhận kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu (theo mẫu quy định tại Phụ lục IIa ban hành kèm theo Thông tư số 34/2018/TT-BNNPTNT) trong vòng 24 giờ kể từ khi bắt đầu kiểm dịch đối với lô vật thể không bị nhiễm đối tượng kiểm dịch thực vật hoặc đối tượng phải kiểm soát của Việt Nam hoặc sinh vật gây hại lạ.\nTrường hợp kéo dài hơn 24 giờ do yêu cầu về chuyên môn kỹ thuật hoặc trường hợp không cấp Giấy chứng nhận kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu thì cơ quan kiểm dịch thực vật phải thông báo hoặc trả lời bằng văn bản và nêu rõ lý do cho chủ vật thể biết.\nTrường hợp ra Thông báo kết quả xác nhận thực phẩm không đạt yêu cầu nhập khẩu theo quy định, cơ quan kiểm dịch thực vật quyết định các biện pháp xử lý theo các hình thức quy định tại khoản 3 Điều 55 Luật An toàn thực phẩm.\nKiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu theo phương thức kiểm tra chặt:\nCơ quan kiểm dịch thực vật cấp Giấy chứng nhận kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu (theo mẫu quy định tại Phụ lục IIa ban hành kèm theo Thông tư số 34/2018/TT-BNNPTNT) trong thời hạn 07 ngày làm việc, kể từ khi bắt đầu kiểm dịch và kiểm tra an toàn thực phẩm đối với lô vật thể không bị nhiễm đối tượng kiểm dịch thực vật hoặc đối tượng phải kiểm soát của Việt Nam hoặc sinh vật gây hại lạ.\nTrường hợp không cấp Giấy chứng nhận kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu, cơ quan kiểm dịch thực vật phải thông báo hoặc trả lời bằng văn bản và nêu rõ lý do cho chủ vật thể biết.\nTrường hợp ra Thông báo kết quả xác nhận thực phẩm không đạt yêu cầu nhập khẩu theo quy định, cơ quan kiểm dịch thực vật quyết định các biện pháp xử lý theo các hình thức quy định tại khoản 3 Điều 55 Luật An toàn thực phẩm.",
+    "THÀNH PHẦN HỒ SƠ": "Trường hợp chỉ thực hiện thủ tục kiểm dịch thực vật nhập khẩu: Giấy đăng ký kiểm dịch thực vật (theo mẫu qui định tại Phụ lục I ban hành kèm theo Thông tư 33/2014/TT-BNNPTNT)\nTrường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: Giấy đăng ký kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hóa có nguồn gốc thực vật nhập khẩu (theo mẫu quy định tại Phụ lục Ia ban hành kèm theo Thông tư số 34/2018/TT-BNNPTNT);\nTrường hợp chỉ thực hiện thủ tục kiểm dịch thực vật nhập khẩu: - Bản chính hoặc bản điện tử hoặc bản sao chứng thực Giấy phép kiểm dịch thực vật nhập khẩu (trường hợp quy định phải có Giấy phép).\nTrường hợp chỉ thực hiện thủ tục kiểm dịch thực vật nhập khẩu: - Bản sao chụp hoặc bản điện tử hoặc bản chính Giấy chứng nhận kiểm dịch thực vật do cơ quan kiểm dịch thực vật có thẩm quyền của nước xuất khẩu cấp; Trường hợp chủ vật thể nộp bản sao chụp hoặc bản điện tử thì phải nộp bản chính trước khi được cấp Giấy chứng nhận kiểm dịch thực vật nhập khẩu, quá cảnh và vận chuyển nội địa cho lô vật thể.\nTrường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: - 03 (ba) Thông báo kết quả xác nhận thực phẩm đạt yêu cầu nhập khẩu liên tiếp theo phương thức kiểm tra chặt đối với các lô hàng, mặt hàng được chuyển đổi phương thức từ kiểm tra chặt sang kiểm tra thông thường (bản chính);\nTrường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: - Bản tự công bố sản phẩm\nTrường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: - Bản chính hoặc bản điện tử hoặc bản sao chứng thực Giấy phép kiểm dịch thực vật nhập khẩu (trường hợp quy định phải có Giấy phép;\nTrường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: - Bản sao chụp hoặc bản điện tử hoặc bản chính Giấy chứng nhận kiểm dịch thực vật do cơ quan kiểm dịch thực vật có thẩm quyền của nước xuất khẩu cấp; Trường hợp chủ vật thể nộp bản sao chụp hoặc bản điện tử thì phải nộp bản chính trước khi được cấp Giấy chứng nhận kiểm dịch thực vật nhập khẩu, quá cảnh và vận chuyển nội địa cho lô vật thể.\nTrường hợp thực hiện đồng thời thủ tục kiểm dịch thực vật và kiểm tra nhà nước về an toàn thực phẩm nhập khẩu: - Bản sao Danh mục hàng hóa (Packing list).",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 1\nQua dịch vụ bưu chính: 1\nTrực tiếp: 1",
-    "CĂN CỨ PHÁP LÝ": "Luật Bảo vệ và kiểm dịch thực vật  - 41/2013/QH13\nThông tư quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí trong hoạt động kiểm dịch và bảo vệ thực vật thuộc lĩnh vực nông nghiệp - 33/2021/TT-BTC\nQuy định chi tiết thi hành một số điều của Luật an toàn thực phẩm - 15/2018/NĐ-CP\nLuật An toàn thực phẩm - 55/2010/QH12\nTHÔNG TƯ  SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA THÔNG TƯ SỐ 33/2014/TT-BNNPTNT NGÀY 30 THÁNG 10 NĂM 2014 VÀ THÔNG TƯ SỐ 20/2017/TT-BNNPTNT NGÀY 10 THÁNG 11 NĂM 2017 CỦA BỘ TRƯỞNG BỘ NÔNG NGHIỆP VÀ PHÁT TRIỂN NÔNG THÔN - 34/2018/TT-BNNPTNT\n bãi bỏ một số quy định tại Thông tư số 34/2018/TT-BNNPTNT ngày 16 tháng 11 năm 2018 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn sửa đổi, bổ sung một số điều của Thông tư số 33/2014/TT-BNNPTNT ngày 30 tháng 10 năm 2014 và Thông tư số 20/2017/TT-BNNPTNT ngày 10 tháng 11 năm 2017 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn - Thông tư số 03/2024/TT-BNNPTNT \nsửa đổi, bổ sung một số điều của Thông tư số 05/2015/TT-BNNPTNT ngày 12 tháng 02 năm 2015 quy định về trình tự, thủ tục cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật và Thông tư số 33/2014/TT-BNNPTNT ngày 30 tháng 10 năm 2014 quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn\n - 15/2021/TT-BNNPTNT",
+    "CĂN CỨ PHÁP LÝ": "Luật Bảo vệ và kiểm dịch thực vật - 41/2013/QH13\nThông tư quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí trong hoạt động kiểm dịch và bảo vệ thực vật thuộc lĩnh vực nông nghiệp - 33/2021/TT-BTC\nQuy định chi tiết thi hành một số điều của Luật an toàn thực phẩm - 15/2018/NĐ-CP\nLuật An toàn thực phẩm - 55/2010/QH12\nTHÔNG TƯ  SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA THÔNG TƯ SỐ 33/2014/TT-BNNPTNT NGÀY 30 THÁNG 10 NĂM 2014 VÀ THÔNG TƯ SỐ 20/2017/TT-BNNPTNT NGÀY 10 THÁNG 11 NĂM 2017 CỦA BỘ TRƯỞNG BỘ NÔNG NGHIỆP VÀ PHÁT TRIỂN NÔNG THÔN - 34/2018/TT-BNNPTNT\nbãi bỏ một số quy định tại Thông tư số 34/2018/TT-BNNPTNT ngày 16 tháng 11 năm 2018 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn sửa đổi, bổ sung một số điều của Thông tư số 33/2014/TT-BNNPTNT ngày 30 tháng 10 năm 2014 và Thông tư số 20/2017/TT-BNNPTNT ngày 10 tháng 11 năm 2017 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn - Thông tư số 03/2024/TT-BNNPTNT\nsửa đổi, bổ sung một số điều của Thông tư số 05/2015/TT-BNNPTNT ngày 12 tháng 02 năm 2015 quy định về trình tự, thủ tục cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật và Thông tư số 33/2014/TT-BNNPTNT ngày 30 tháng 10 năm 2014 quy định trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và sau nhập khẩu vật thể thuộc diện kiểm dịch thực vật của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn - 15/2021/TT-BNNPTNT",
     "CƠ QUAN THỰC HIỆN": "Chi cục Kiểm dịch thực vật vùng II, Chi cục Kiểm dịch thực vật vùng V, Chi cục Kiểm dịch thực vật vùng VI, Chi cục Kiểm dịch thực vật vùng I, Chi cục Kiểm dịch thực vật vùng III, Chi cục Kiểm dịch thực vật vùng IV",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
     "KẾT QUẢ XỬ LÝ": "Giấy chứng nhận kiểm dịch thực vật nhập khẩu, quá cảnh và vận chuyển nội địa. - KQ.G10.000054\nGiấy chứng nhận kiểm dịch thực vật và kiểm tra an toàn thực phẩm hàng hoá có nguồn gốc thực vật nhập khẩu - KQ.G10.001117",
@@ -316,11 +247,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Sức khỏe và y tế",
-      "slug": "suc-khoe-va-y-te",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Trồng trọt và Bảo vệ thực vật",
       "slug": "trong-trot-va-bao-ve-thuc-vat"
@@ -334,7 +260,7 @@
     "target_users": [
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -362,7 +288,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -391,6 +317,6 @@
         "slug": "chi-cuc-kiem-dich-thuc-vat-vung-iv"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

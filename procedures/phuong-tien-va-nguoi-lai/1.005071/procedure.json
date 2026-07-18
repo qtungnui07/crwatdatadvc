@@ -1,35 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfe-51eb-7048-acf7-bb5ff33e4db7",
   "procedure_code": "1.005071",
   "title": "Sát hạch cấp giấy phép lái tàu",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-51eb-7048-acf7-bb5ff33e4db7",
     "source_file": "chi-tiet-thu-tuc-1.005071.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.005071/chi-tiet-thu-tuc-1.005071.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:02.753893+00:00",
-    "source_updated_at": "2026-07-01T07:41:36.959Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:47.971647+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "dc7bc9a45a9973b718cef24454cfc281a1ed5a8d9a3ea6f010509019cf04ef5a"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:02.753893+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "933/QĐ-BXD",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đường sắt",
   "target_users": [
@@ -39,10 +33,7 @@
   ],
   "agency": {
     "competent_agency": "Cục Đường sắt Việt Nam; Ủy ban nhân dân cấp tỉnh",
-    "executing_agency": "Chủ tịch ủy ban nhân dân cấp tỉnh, Cục Đường sắt Việt Nam",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Chủ tịch ủy ban nhân dân cấp tỉnh, Cục Đường sắt Việt Nam"
   },
   "steps": [
     {
@@ -50,77 +41,50 @@
       "title": "Nộp hồ sơ TTHC",
       "description": "- Doanh nghiệp nộp 01 bộ hồ sơ về cơ quan cấp giấy phép lái tàu theo một trong các hình thức sau: nộp trực tiếp tại bộ phận một cửa của cơ quan cấp giấy phép lái tàu; nộp qua hệ thống dịch vụ công trực tuyến; nộp qua hệ thống bưu chính;",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "Giải quyết TTHC",
       "description": "- Trường hợp hồ sơ không đúng theo quy định, trong thời hạn 01 ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan cấp giấy phép lái tàu có trách nhiệm thông báo, hướng dẫn doanh nghiệp hoàn thiện hồ sơ theo quy định;\n- Trường hợp hồ sơ đầy đủ, đúng theo quy định, cơ quan cấp giấy phép lái tàu tổ chức sát hạch theo quy trình sát hạch quy định; \n- Trong thời hạn 03 ngày làm việc kể từ ngày có báo cáo kết quả kỳ sát hạch, cơ quan cấp giấy phép lái tàu cấp giấy phép lái tàu cho những trường hợp đạt yêu cầu bằng bản điện tử, cấp thêm bản cứng khi doanh nghiệp, cá nhân đề nghị. Giấy phép lái tàu bản điện tử và bản cứng có giá trị pháp lý như nhau. Đối với những trường hợp không được cấp giấy phép lái tàu, cơ quan cấp giấy phép lái tàu có văn bản thông báo và nêu rõ lý do cho doanh nghiệp.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Bản chính văn bản giấy hoặc bản điện tử văn bản đề nghị tổ chức sát hạch, cấp giấy phép lái tàu của doanh nghiệp kinh doanh đường sắt theo mẫu",
-        "code": "000.00.00.G04-KQ004062",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d8f11-0683-717f-942d-c5277e2034db",
-            "name": "Phụ lục XVII.pdf",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục XVII.pdf",
+        "source_page": 2
       },
       {
         "name": "Bản gốc hoặc bản điện tử đơn đề nghị sát hạch cấp giấy phép lái tàu theo mẫu",
-        "code": "000.00.00.G04-KQ004452",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d8f11-9a29-7628-876d-58bafb2b7db1",
-            "name": "Phụ lục XVIII.pdf",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục XVIII.pdf",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Bản sao có chứng thực hoặc bản sao điện tử có chứng thực bằng hoặc chứng chỉ chuyên ngành lái phương tiện giao thông đường sắt phù hợp với loại phương tiện dự sát hạch; trường hợp bằng, chứng chỉ do tổ chức nước ngoài cấp qua quá trình đào tạo, chuyển giao công nghệ phải có chứng chỉ hoặc chứng nhận bồi dường kiến thức pháp luật đường sắt Việt Nam do cơ sở đào tạo có thẩm quyền cấp.",
-        "code": "000.00.00.G04-KQ004454",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "03 ảnh màu cỡ 3x4cm ảnh chụp hoặc ảnh điện tử chụp trong thời hạn không quá 06 tháng tính đến ngày nộp hồ sơ.",
-        "code": "000.00.00.G04-KQ004455",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Bản gốc hoặc bản điện tử hoặc bản sao có chứng thực hoặc bản sao điện tử có chứng thực giấy chứng nhận đủ tiêu chuẩn sức khỏe lái tàu theo quy định của Bộ trưởng Bộ Y tế",
-        "code": "000.00.00.G04-KQ004453",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -129,35 +93,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 100000,
-          "currency": "VND",
-          "description": "Lệ phí cấp Giấy phép lái tàu: 100.000 đồng/01 lần cấp.",
-          "attachment": null
-        }
-      ],
+      "fee": "Lệ phí cấp Giấy phép lái tàu: 100.000 đồng/01 lần cấp.",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 100000,
-          "currency": "VND",
-          "description": "Lệ phí cấp Giấy phép lái tàu: 100.000 đồng/01 lần cấp.",
-          "attachment": null
-        }
-      ],
+      "fee": "Lệ phí cấp Giấy phép lái tàu: 100.000 đồng/01 lần cấp.",
       "description": "",
       "source_page": null
     },
@@ -165,132 +109,81 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 100000,
-          "currency": "VND",
-          "description": "Lệ phí cấp Giấy phép lái tàu: 100.000 đồng/01 lần cấp.",
-          "attachment": null
-        }
-      ],
+      "fee": "Lệ phí cấp Giấy phép lái tàu: 100.000 đồng/01 lần cấp.",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "3 ngày",
-      "processing_time_value": 3,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 950000,
-          "currency": "VND",
-          "description": "Phí sát hạch lái tàu: 950.000 đồng/hồ sơ",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí sát hạch lái tàu: 950.000 đồng/hồ sơ",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "3 ngày",
-      "processing_time_value": 3,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 950000,
-          "currency": "VND",
-          "description": "Phí sát hạch lái tàu: 950.000 đồng/hồ sơ",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí sát hạch lái tàu: 950.000 đồng/hồ sơ",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "3 ngày",
-      "processing_time_value": 3,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 950000,
-          "currency": "VND",
-          "description": "Phí sát hạch lái tàu: 950.000 đồng/hồ sơ",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí sát hạch lái tàu: 950.000 đồng/hồ sơ",
       "description": "",
       "source_page": null
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Lệ phí cấp Giấy phép lái tàu: 100.000 đồng/01 lần cấp.; Phí sát hạch lái tàu: 950.000 đồng/hồ sơ",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 100000,
-        "currency": "VND",
-        "description": "Lệ phí cấp Giấy phép lái tàu: 100.000 đồng/01 lần cấp.",
-        "attachment": null
+        "amount_text": "Lệ phí cấp Giấy phép lái tàu: 100.000 đồng/01 lần cấp.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": 100000,
-        "currency": "VND",
-        "description": "Lệ phí cấp Giấy phép lái tàu: 100.000 đồng/01 lần cấp.",
-        "attachment": null
+        "amount_text": "Lệ phí cấp Giấy phép lái tàu: 100.000 đồng/01 lần cấp.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 100000,
-        "currency": "VND",
-        "description": "Lệ phí cấp Giấy phép lái tàu: 100.000 đồng/01 lần cấp.",
-        "attachment": null
+        "amount_text": "Lệ phí cấp Giấy phép lái tàu: 100.000 đồng/01 lần cấp.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 950000,
-        "currency": "VND",
-        "description": "Phí sát hạch lái tàu: 950.000 đồng/hồ sơ",
-        "attachment": null
+        "amount_text": "Phí sát hạch lái tàu: 950.000 đồng/hồ sơ",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 950000,
-        "currency": "VND",
-        "description": "Phí sát hạch lái tàu: 950.000 đồng/hồ sơ",
-        "attachment": null
+        "amount_text": "Phí sát hạch lái tàu: 950.000 đồng/hồ sơ",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 950000,
-        "currency": "VND",
-        "description": "Phí sát hạch lái tàu: 950.000 đồng/hồ sơ",
-        "attachment": null
+        "amount_text": "Phí sát hạch lái tàu: 950.000 đồng/hồ sơ",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -298,26 +191,22 @@
     {
       "title": "Thông tư sửa đổi, bổ sung một số điều của các Thông tư để phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong lĩnh vực đăng kiểm, đường bộ, đường sắt, quy hoạch đô thị và nông thôn thuộc phạm vi quản lý của Bộ Xây dựng.",
       "document_number": "24/2026/TT-BXD",
-      "id": "019e80d7-efe4-770e-9fcd-98882ddedf32",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Quy định về quản lý, khai thác vận tải đường sắt",
       "document_number": "33/2025/TT-BXD",
-      "id": "019d2bb3-5d7e-72d1-afe1-c51cbf49ba92",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư số 198/2016/TT-BTC của Bộ Tài chính: Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực đường thủy nội địa và đường sắt",
       "document_number": "198/2016/TT/BTC",
-      "id": "019d8ee9-d9e2-777f-b574-a8c3da704979",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư số 11/2026/TT-BTC của Bộ Tài chính: Quy định mức thu, chế độ thu, nộp phí thuộc lĩnh vực đường sắt",
       "document_number": "11/2026/TT-BTC",
-      "id": "019d8eeb-e82d-7149-8063-401858a89ff8",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -325,13 +214,12 @@
     {
       "title": "Giấy phép lái tàu",
       "code": "KQ.G04.000008",
-      "id": "019d2bb2-1c3b-735b-85a9-6f2e85e2a816",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "- Doanh nghiệp nộp 01 bộ hồ sơ về cơ quan cấp giấy phép lái tàu theo một trong các hình thức sau: nộp trực tiếp tại bộ phận một cửa của cơ quan cấp giấy phép lái tàu; nộp qua hệ thống dịch vụ công trực tuyến; nộp qua hệ thống bưu chính;\n- Trường hợp hồ sơ không đúng theo quy định, trong thời hạn 01 ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan cấp giấy phép lái tàu có trách nhiệm thông báo, hướng dẫn doanh nghiệp hoàn thiện hồ sơ theo quy định;\n- Trường hợp hồ sơ đầy đủ, đúng theo quy định, cơ quan cấp giấy phép lái tàu tổ chức sát hạch theo quy trình sát hạch quy định; \n- Trong thời hạn 03 ngày làm việc kể từ ngày có báo cáo kết quả kỳ sát hạch, cơ quan cấp giấy phép lái tàu cấp giấy phép lái tàu cho những trường hợp đạt yêu cầu bằng bản điện tử, cấp thêm bản cứng khi doanh nghiệp, cá nhân đề nghị. Giấy phép lái tàu bản điện tử và bản cứng có giá trị pháp lý như nhau. Đối với những trường hợp không được cấp giấy phép lái tàu, cơ quan cấp giấy phép lái tàu có văn bản thông báo và nêu rõ lý do cho doanh nghiệp.",
-    "THÀNH PHẦN HỒ SƠ": "\nBản chính văn bản giấy hoặc bản điện tử văn bản đề nghị tổ chức sát hạch, cấp giấy phép lái tàu của doanh nghiệp kinh doanh đường sắt theo mẫu\nBản sao có chứng thực hoặc bản sao điện tử có chứng thực bằng hoặc chứng chỉ chuyên ngành lái phương tiện giao thông đường sắt phù hợp với loại phương tiện dự sát hạch; trường hợp bằng, chứng chỉ do tổ chức nước ngoài cấp qua quá trình đào tạo, chuyển giao công nghệ phải có chứng chỉ hoặc chứng nhận bồi dường kiến thức pháp luật đường sắt Việt Nam do cơ sở đào tạo có thẩm quyền cấp.\n03 ảnh màu cỡ 3x4cm ảnh chụp hoặc ảnh điện tử chụp trong thời hạn không quá 06 tháng tính đến ngày nộp hồ sơ.\nBản gốc hoặc bản điện tử hoặc bản sao có chứng thực hoặc bản sao điện tử có chứng thực giấy chứng nhận đủ tiêu chuẩn sức khỏe lái tàu theo quy định của Bộ trưởng Bộ Y tế\nBản gốc hoặc bản điện tử đơn đề nghị sát hạch cấp giấy phép lái tàu theo mẫu",
+    "THÀNH PHẦN HỒ SƠ": "Bản chính văn bản giấy hoặc bản điện tử văn bản đề nghị tổ chức sát hạch, cấp giấy phép lái tàu của doanh nghiệp kinh doanh đường sắt theo mẫu\nBản gốc hoặc bản điện tử đơn đề nghị sát hạch cấp giấy phép lái tàu theo mẫu\nBản sao có chứng thực hoặc bản sao điện tử có chứng thực bằng hoặc chứng chỉ chuyên ngành lái phương tiện giao thông đường sắt phù hợp với loại phương tiện dự sát hạch; trường hợp bằng, chứng chỉ do tổ chức nước ngoài cấp qua quá trình đào tạo, chuyển giao công nghệ phải có chứng chỉ hoặc chứng nhận bồi dường kiến thức pháp luật đường sắt Việt Nam do cơ sở đào tạo có thẩm quyền cấp.\n03 ảnh màu cỡ 3x4cm ảnh chụp hoặc ảnh điện tử chụp trong thời hạn không quá 06 tháng tính đến ngày nộp hồ sơ.\nBản gốc hoặc bản điện tử hoặc bản sao có chứng thực hoặc bản sao điện tử có chứng thực giấy chứng nhận đủ tiêu chuẩn sức khỏe lái tàu theo quy định của Bộ trưởng Bộ Y tế",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 3 ngày làm việc\nQua dịch vụ bưu chính: 3 ngày làm việc\nTrực tiếp: 3 ngày làm việc\nTrực tuyến: 3 ngày\nTrực tiếp: 3 ngày\nQua dịch vụ bưu chính: 3 ngày",
     "CĂN CỨ PHÁP LÝ": "Thông tư sửa đổi, bổ sung một số điều của các Thông tư để phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong lĩnh vực đăng kiểm, đường bộ, đường sắt, quy hoạch đô thị và nông thôn thuộc phạm vi quản lý của Bộ Xây dựng. - 24/2026/TT-BXD\nQuy định về quản lý, khai thác vận tải đường sắt - 33/2025/TT-BXD\nThông tư số 198/2016/TT-BTC của Bộ Tài chính: Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực đường thủy nội địa và đường sắt - 198/2016/TT/BTC\nThông tư số 11/2026/TT-BTC của Bộ Tài chính: Quy định mức thu, chế độ thu, nộp phí thuộc lĩnh vực đường sắt - 11/2026/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Chủ tịch ủy ban nhân dân cấp tỉnh, Cục Đường sắt Việt Nam",
@@ -341,14 +229,9 @@
     "MÔ TẢ": "(trường hợp Ủy ban nhân dân cấp tỉnh chưa đủ điều kiện thực hiện thẩm quyền sát hạch cấp giấy phép lái tàu trên đường sắt quốc gia và có văn bản đề nghị thì Cục Đường sắt Việt Nam tiếp tục thực hiện trong tối đa 24 tháng kể từ ngày Luật Đường sắt năm 2025 có hiệu lực thi hành)"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đường sắt",
-      "slug": "duong-sat"
+      "slug": "uong-sat"
     },
     "implementation_levels": [
       {
@@ -367,7 +250,7 @@
     "target_users": [
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -385,9 +268,9 @@
       },
       {
         "name": "Cục Đường sắt Việt Nam",
-        "slug": "cuc-duong-sat-viet-nam"
+        "slug": "cuc-uong-sat-viet-nam"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

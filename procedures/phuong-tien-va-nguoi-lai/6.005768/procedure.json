@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d9512-140d-702d-a677-ffb3b543f36a",
   "procedure_code": "6.005768",
   "title": "Thẩm định, phê duyệt hồ sơ khắc phục hậu quả thiên tai, sự cố đối với công trình đường sắt bước 1",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d9512-140d-702d-a677-ffb3b543f36a",
     "source_file": "chi-tiet-thu-tuc-6.005768.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/6.005768/chi-tiet-thu-tuc-6.005768.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:25.176249+00:00",
-    "source_updated_at": "2026-05-07T08:18:40.022Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:07.811772+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "4b468706f5b54fd231c3a5c4b9f63cfd920d1974544531e103db96b95e5f450a"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:25.176249+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2267./QĐ-BXD",
   "implementation_level": "Cấp bộ, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "LOCAL_REGULATION",
   "sector": "Đường sắt",
   "target_users": [
@@ -36,10 +31,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Bộ Xây dựng",
-    "authorized_agency": "Cục Đường sắt Việt Nam",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Xây dựng"
   },
   "steps": [
     {
@@ -47,55 +39,40 @@
       "title": "Bước 1",
       "description": "Trong thời hạn 30 ngày kể từ khi hoàn thành công tác cứu chữa bước 1, doanh nghiệp quản lý tài sản đường sắt quốc gia tổng hợp, hoàn thiện hồ sơ về khắc phục thiên tai, sự cố đối với công trình đường sắt bước 1 trình Cục Đường sắt Việt Nam phê duyệt.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Tờ trình đề nghị thẩm định, phê duyệt hồ sơ khắc phục hậu quả thiên tai, sự cố đối với công trình đường sắt bước 1",
-        "code": "G17-KQ005356",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Tài liệu liên quan đến công tác khắc phục hậu quả thiên tai, sự cố công trình đường sắt",
-        "code": "G17-KQ005441",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Hồ sơ thiết kế hoặc phương án kỹ thuật sửa chữa, gia cố, khôi phục công trình đường sắt bước 1 đã được phê duyệt",
-        "code": "G17-KQ005358",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Hồ sơ quản lý chất lượng sửa chữa, gia cố, khôi phục công trình đường sắt",
-        "code": "G17-KQ005359",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Hồ sơ dự toán",
-        "code": "G17-KQ005444",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -106,14 +83,13 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -122,8 +98,7 @@
     {
       "title": "Thông tư số 34/2025/TT-BXD ngày 14/11/2025 của Bộ trưởng Bộ Xây dựng quy định về quản lý, khai thác kết cấu hạ tầng đường sắt",
       "document_number": "34/2025/TT-BXD",
-      "id": "019d2bb3-5d7e-72d1-afe1-cb3ba24d3c47",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "",
@@ -131,13 +106,12 @@
     {
       "title": "Quyết định phê duyệt hồ sơ cứu chữa, khắc phục hậu quả thiên tai, sự cố bước 1 đối với công trình đường sắt",
       "code": "KQ.G17.000597",
-      "id": "019d2bb2-1c7b-7208-ba47-17ffc476745f",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Trong thời hạn 30 ngày kể từ khi hoàn thành công tác cứu chữa bước 1, doanh nghiệp quản lý tài sản đường sắt quốc gia tổng hợp, hoàn thiện hồ sơ về khắc phục thiên tai, sự cố đối với công trình đường sắt bước 1 trình Cục Đường sắt Việt Nam phê duyệt.",
-    "THÀNH PHẦN HỒ SƠ": "\nTờ trình đề nghị thẩm định, phê duyệt hồ sơ khắc phục hậu quả thiên tai, sự cố đối với công trình đường sắt bước 1\nTài liệu liên quan đến công tác khắc phục hậu quả thiên tai, sự cố công trình đường sắt\nHồ sơ thiết kế hoặc phương án kỹ thuật sửa chữa, gia cố, khôi phục công trình đường sắt bước 1 đã được phê duyệt\nHồ sơ quản lý chất lượng sửa chữa, gia cố, khôi phục công trình đường sắt\nHồ sơ dự toán",
+    "THÀNH PHẦN HỒ SƠ": "Tờ trình đề nghị thẩm định, phê duyệt hồ sơ khắc phục hậu quả thiên tai, sự cố đối với công trình đường sắt bước 1\nTài liệu liên quan đến công tác khắc phục hậu quả thiên tai, sự cố công trình đường sắt\nHồ sơ thiết kế hoặc phương án kỹ thuật sửa chữa, gia cố, khôi phục công trình đường sắt bước 1 đã được phê duyệt\nHồ sơ quản lý chất lượng sửa chữa, gia cố, khôi phục công trình đường sắt\nHồ sơ dự toán",
     "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 10 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Thông tư số 34/2025/TT-BXD ngày 14/11/2025 của Bộ trưởng Bộ Xây dựng quy định về quản lý, khai thác kết cấu hạ tầng đường sắt - 34/2025/TT-BXD",
     "CƠ QUAN THỰC HIỆN": "Bộ Xây dựng",
@@ -147,14 +121,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đường sắt",
-      "slug": "duong-sat"
+      "slug": "uong-sat"
     },
     "implementation_levels": [
       {
@@ -178,6 +147,6 @@
         "slug": "bo-xay-dung"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

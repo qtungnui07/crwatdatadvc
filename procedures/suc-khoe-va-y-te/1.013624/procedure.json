@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-b04a-73a0-8c51-05b8b86a5af1",
   "procedure_code": "1.013624",
   "title": "Thủ tục cấp mới giấy phép hoạt động khám bệnh, chữa bệnh.",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-b04a-73a0-8c51-05b8b86a5af1",
     "source_file": "chi-tiet-thu-tuc-1.013624.pdf",
     "source_path": "procedures/suc-khoe-va-y-te/1.013624/chi-tiet-thu-tuc-1.013624.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:10.680032+00:00",
-    "source_updated_at": "2026-04-13T14:51:29.113Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:21.386474+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "48baccd3bce1bf5f8a139ffbeb85dcde99abe3a7a0abb231b0b7b93e033e3bff"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:10.680032+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "6225/QĐ-BQP",
   "implementation_level": "Cấp bộ, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Khám bệnh, chữa bệnh BQP",
   "target_users": [
@@ -36,18 +31,36 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cục Quân y/Tổng cục Hậu cần - Kỹ thuật",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Quân y/Tổng cục Hậu cần - Kỹ thuật"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1. Cơ sở khám bệnh, chữa bệnh lập 01 bộ hồ sơ đề nghị cấp mới quy định tại khoản 1 Điều 25 Nghị định số 16/2024/NĐ-CP gửi trực tiếp hoặc qua đường bưu chính hoặc trên môi trường điện tử về đơn vị đầu mối trực thuộc Bộ Quốc phòng. Trường hợp cơ sở khám bệnh, chữa bệnh là đơn vị đầu mối trực thuộc Bộ Quốc phòng, cơ sở khám bệnh, chữa bệnh gửi hồ sơ trực tiếp hoặc qua đường bưu chính hoặc trên môi trường điện tử về Cơ quan được giao quản lý về y tế;\nBước 2. Trường hợp hồ sơ hợp lệ, trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ, đơn vị đầu mối trực thuộc Bộ Quốc phòng tổng hợp, lập danh sách gửi Cơ quan được giao quản lý về y tế kèm theo hồ sơ đề nghị của cơ sở khám bệnh, chữa bệnh và công văn đề nghị của thủ trưởng đơn vị.\nTrường hợp hồ sơ không hợp lệ, trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ, đơn vị đầu mối trực thuộc Bộ Quốc phòng hoặc Cơ quan được giao quản lý về y tế phải có văn bản trả lời đơn vị gửi hồ sơ, trong đó nêu cụ thể lý do không hợp lệ, yêu cầu sửa đổi hoặc bổ sung tài liệu có trong hồ sơ đề nghị. Thời gian sửa đổi, bổ sung tài liệu có trong hồ sơ không được tính vào thời hạn giải quyết;\nBước 3. Cơ quan được giao quản lý về y tế tiến hành xét duyệt hồ sơ, báo cáo Bộ Quốc phòng thẩm định tại cơ sở đề nghị và lập biên bản thẩm định trong thời hạn 50 ngày, kể từ ngày nhận được hồ sơ hợp lệ;\nBước 4. Trường hợp không có yêu cầu sửa đổi, bổ sung phải cấp mới giấy phép hoạt động trong thời hạn 10 ngày, kể từ ngày ban hành biên bản thẩm định. \nTrường hợp có yêu cầu sửa đổi, bổ sung phải nêu rõ trong nội dung của biên bản thẩm định. Trong thời hạn 10 ngày, kể từ ngày nhận được văn bản thông báo và tài liệu chứng minh đã hoàn thành việc khắc phục, sửa chữa của cơ sở đề nghị, Bộ Quốc phòng có thể tiến hành kiểm tra thực tế việc khắc phục, sửa chữa của cơ sở đề nghị trong trường hợp cần thiết hoặc thực hiện việc cấp giấy phép hoạt động. Trường hợp không cấp giấy phép hoạt động phải có văn bản trả lời nêu rõ lý do.\n",
+      "description": "Bước 1. Cơ sở khám bệnh, chữa bệnh lập 01 bộ hồ sơ đề nghị cấp mới quy định tại khoản 1 Điều 25 Nghị định số 16/2024/NĐ-CP gửi trực tiếp hoặc qua đường bưu chính hoặc trên môi trường điện tử về đơn vị đầu mối trực thuộc Bộ Quốc phòng. Trường hợp cơ sở khám bệnh, chữa bệnh là đơn vị đầu mối trực thuộc Bộ Quốc phòng, cơ sở khám bệnh, chữa bệnh gửi hồ sơ trực tiếp hoặc qua đường bưu chính hoặc trên môi trường điện tử về Cơ quan được giao quản lý về y tế;",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2. Trường hợp hồ sơ hợp lệ, trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ, đơn vị đầu mối trực thuộc Bộ Quốc phòng tổng hợp, lập danh sách gửi Cơ quan được giao quản lý về y tế kèm theo hồ sơ đề nghị của cơ sở khám bệnh, chữa bệnh và công văn đề nghị của thủ trưởng đơn vị.\nTrường hợp hồ sơ không hợp lệ, trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ, đơn vị đầu mối trực thuộc Bộ Quốc phòng hoặc Cơ quan được giao quản lý về y tế phải có văn bản trả lời đơn vị gửi hồ sơ, trong đó nêu cụ thể lý do không hợp lệ, yêu cầu sửa đổi hoặc bổ sung tài liệu có trong hồ sơ đề nghị. Thời gian sửa đổi, bổ sung tài liệu có trong hồ sơ không được tính vào thời hạn giải quyết;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3. Cơ quan được giao quản lý về y tế tiến hành xét duyệt hồ sơ, báo cáo Bộ Quốc phòng thẩm định tại cơ sở đề nghị và lập biên bản thẩm định trong thời hạn 50 ngày, kể từ ngày nhận được hồ sơ hợp lệ;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "Bước 4. Trường hợp không có yêu cầu sửa đổi, bổ sung phải cấp mới giấy phép hoạt động trong thời hạn 10 ngày, kể từ ngày ban hành biên bản thẩm định. \nTrường hợp có yêu cầu sửa đổi, bổ sung phải nêu rõ trong nội dung của biên bản thẩm định. Trong thời hạn 10 ngày, kể từ ngày nhận được văn bản thông báo và tài liệu chứng minh đã hoàn thành việc khắc phục, sửa chữa của cơ sở đề nghị, Bộ Quốc phòng có thể tiến hành kiểm tra thực tế việc khắc phục, sửa chữa của cơ sở đề nghị trong trường hợp cần thiết hoặc thực hiện việc cấp giấy phép hoạt động. Trường hợp không cấp giấy phép hoạt động phải có văn bản trả lời nêu rõ lý do.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
@@ -56,66 +69,45 @@
     "conditional": [
       {
         "name": "Bản sao hợp lệ giấy phép hành nghề và giấy xác nhận quá trình hành nghề của người chịu trách nhiệm chuyên môn của cơ sở khám bệnh, chữa bệnh thuộc lực lượng vũ trang nhân dân;",
-        "code": "G11.01.003.005-TP0019",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Bản sao hợp lệ quyết định thành lập hoặc quyết định ban hành biểu tổ chức, biên chế của cơ sở khám bệnh, chữa bệnh của cấp có thẩm quyền;",
-        "code": "G11.01.003.005-TP0018",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Danh sách những người đăng ký làm việc ngoài giờ không thuộc Bộ Quốc phòng quản lý tại cơ sở khám bệnh, chữa bệnh;",
-        "code": "G11.01.003.005-TP0022",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Danh sách người đăng ký hành nghề của cơ sở khám bệnh, chữa bệnh thuộc lực lượng vũ trang nhân dân (bao gồm đăng ký người hành nghề và người làm việc chuyên môn tại cơ sở nhưng không thuộc diện phải cấp giấy phép hành nghề) theo Mẫu số 01a Phụ lục III kèm theo Nghị định số 16/2024/NĐ-CP;",
-        "code": "G11.01.003.005-TP0020",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Bản sao hợp lệ các văn bản, tài liệu chứng minh cơ sở khám bệnh, chữa bệnh đáp ứng các điều kiện về cơ sở vật chất, thiết bị y tế, tổ chức biên chế phù hợp với cấp chuyên môn kỹ thuật của một trong các loại hình tổ chức cơ sở khám bệnh, chữa bệnh quy định tại các Điều 19, 20, 21 22, 23 và 24 Nghị định số 16/2024/NĐ-CP .",
-        "code": "G11.01.003.005-TP0023",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Bản kê khai cơ sở vật chất, thiết bị y tế của cơ sở khám bệnh, chữa bệnh theo Mẫu số 02 Phụ lục III kèm theo Nghị định số 16/2024/NĐ-CP;",
-        "code": "G11.01.003.005-TP0021",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Văn bản đề nghị của thủ trưởng đơn vị đầu mối trực thuộc Bộ Quốc phòng hoặc người đứng đầu đối với cơ sở khám bệnh, chữa bệnh trực thuộc Bộ Quốc phòng theo Mẫu số 06 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP;",
-        "code": "G11.01.003.005-TP0017",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -124,17 +116,7 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "65 ngày",
-      "processing_time_value": 65,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -142,42 +124,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "65 ngày",
-      "processing_time_value": 65,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -185,8 +154,7 @@
     {
       "title": "Nghị định số 16/2024/NĐ-CP ngày 16/02/2024 của Chính phủ về người hành nghề khám bệnh, chữa bệnh và cơ sở khám bệnh, chữa bệnh thuộc lực lượng vũ trang nhân dân",
       "document_number": "16/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afec-0b187cb9989d",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -194,13 +162,12 @@
     {
       "title": "Giấy phép hoạt động khám bệnh, chữa bệnh.",
       "code": "G11.01.003.005-KQ0005",
-      "id": "019d2bb2-1c6f-72b5-bd0a-5e76ca9f7cb4",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1. Cơ sở khám bệnh, chữa bệnh lập 01 bộ hồ sơ đề nghị cấp mới quy định tại khoản 1 Điều 25 Nghị định số 16/2024/NĐ-CP gửi trực tiếp hoặc qua đường bưu chính hoặc trên môi trường điện tử về đơn vị đầu mối trực thuộc Bộ Quốc phòng. Trường hợp cơ sở khám bệnh, chữa bệnh là đơn vị đầu mối trực thuộc Bộ Quốc phòng, cơ sở khám bệnh, chữa bệnh gửi hồ sơ trực tiếp hoặc qua đường bưu chính hoặc trên môi trường điện tử về Cơ quan được giao quản lý về y tế;\nBước 2. Trường hợp hồ sơ hợp lệ, trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ, đơn vị đầu mối trực thuộc Bộ Quốc phòng tổng hợp, lập danh sách gửi Cơ quan được giao quản lý về y tế kèm theo hồ sơ đề nghị của cơ sở khám bệnh, chữa bệnh và công văn đề nghị của thủ trưởng đơn vị.\nTrường hợp hồ sơ không hợp lệ, trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ, đơn vị đầu mối trực thuộc Bộ Quốc phòng hoặc Cơ quan được giao quản lý về y tế phải có văn bản trả lời đơn vị gửi hồ sơ, trong đó nêu cụ thể lý do không hợp lệ, yêu cầu sửa đổi hoặc bổ sung tài liệu có trong hồ sơ đề nghị. Thời gian sửa đổi, bổ sung tài liệu có trong hồ sơ không được tính vào thời hạn giải quyết;\nBước 3. Cơ quan được giao quản lý về y tế tiến hành xét duyệt hồ sơ, báo cáo Bộ Quốc phòng thẩm định tại cơ sở đề nghị và lập biên bản thẩm định trong thời hạn 50 ngày, kể từ ngày nhận được hồ sơ hợp lệ;\nBước 4. Trường hợp không có yêu cầu sửa đổi, bổ sung phải cấp mới giấy phép hoạt động trong thời hạn 10 ngày, kể từ ngày ban hành biên bản thẩm định. \nTrường hợp có yêu cầu sửa đổi, bổ sung phải nêu rõ trong nội dung của biên bản thẩm định. Trong thời hạn 10 ngày, kể từ ngày nhận được văn bản thông báo và tài liệu chứng minh đã hoàn thành việc khắc phục, sửa chữa của cơ sở đề nghị, Bộ Quốc phòng có thể tiến hành kiểm tra thực tế việc khắc phục, sửa chữa của cơ sở đề nghị trong trường hợp cần thiết hoặc thực hiện việc cấp giấy phép hoạt động. Trường hợp không cấp giấy phép hoạt động phải có văn bản trả lời nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nBản sao hợp lệ giấy phép hành nghề và giấy xác nhận quá trình hành nghề của người chịu trách nhiệm chuyên môn của cơ sở khám bệnh, chữa bệnh thuộc lực lượng vũ trang nhân dân;\nBản sao hợp lệ quyết định thành lập hoặc quyết định ban hành biểu tổ chức, biên chế của cơ sở khám bệnh, chữa bệnh của cấp có thẩm quyền;\nDanh sách những người đăng ký làm việc ngoài giờ không thuộc Bộ Quốc phòng quản lý tại cơ sở khám bệnh, chữa bệnh;\nDanh sách người đăng ký hành nghề của cơ sở khám bệnh, chữa bệnh thuộc lực lượng vũ trang nhân dân (bao gồm đăng ký người hành nghề và người làm việc chuyên môn tại cơ sở nhưng không thuộc diện phải cấp giấy phép hành nghề) theo Mẫu số 01a Phụ lục III kèm theo Nghị định số 16/2024/NĐ-CP;\nBản sao hợp lệ các văn bản, tài liệu chứng minh cơ sở khám bệnh, chữa bệnh đáp ứng các điều kiện về cơ sở vật chất, thiết bị y tế, tổ chức biên chế phù hợp với cấp chuyên môn kỹ thuật của một trong các loại hình tổ chức cơ sở khám bệnh, chữa bệnh quy định tại các Điều 19, 20, 21 22, 23 và 24 Nghị định số 16/2024/NĐ-CP .\nBản kê khai cơ sở vật chất, thiết bị y tế của cơ sở khám bệnh, chữa bệnh theo Mẫu số 02 Phụ lục III kèm theo Nghị định số 16/2024/NĐ-CP;\nVăn bản đề nghị của thủ trưởng đơn vị đầu mối trực thuộc Bộ Quốc phòng hoặc người đứng đầu đối với cơ sở khám bệnh, chữa bệnh trực thuộc Bộ Quốc phòng theo Mẫu số 06 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP;",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1. Cơ sở khám bệnh, chữa bệnh lập 01 bộ hồ sơ đề nghị cấp mới quy định tại khoản 1 Điều 25 Nghị định số 16/2024/NĐ-CP gửi trực tiếp hoặc qua đường bưu chính hoặc trên môi trường điện tử về đơn vị đầu mối trực thuộc Bộ Quốc phòng. Trường hợp cơ sở khám bệnh, chữa bệnh là đơn vị đầu mối trực thuộc Bộ Quốc phòng, cơ sở khám bệnh, chữa bệnh gửi hồ sơ trực tiếp hoặc qua đường bưu chính hoặc trên môi trường điện tử về Cơ quan được giao quản lý về y tế;\nBước 2. Trường hợp hồ sơ hợp lệ, trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ, đơn vị đầu mối trực thuộc Bộ Quốc phòng tổng hợp, lập danh sách gửi Cơ quan được giao quản lý về y tế kèm theo hồ sơ đề nghị của cơ sở khám bệnh, chữa bệnh và công văn đề nghị của thủ trưởng đơn vị.\nTrường hợp hồ sơ không hợp lệ, trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ, đơn vị đầu mối trực thuộc Bộ Quốc phòng hoặc Cơ quan được giao quản lý về y tế phải có văn bản trả lời đơn vị gửi hồ sơ, trong đó nêu cụ thể lý do không hợp lệ, yêu cầu sửa đổi hoặc bổ sung tài liệu có trong hồ sơ đề nghị. Thời gian sửa đổi, bổ sung tài liệu có trong hồ sơ không được tính vào thời hạn giải quyết;\nBước 3. Cơ quan được giao quản lý về y tế tiến hành xét duyệt hồ sơ, báo cáo Bộ Quốc phòng thẩm định tại cơ sở đề nghị và lập biên bản thẩm định trong thời hạn 50 ngày, kể từ ngày nhận được hồ sơ hợp lệ;\nBước 4. Trường hợp không có yêu cầu sửa đổi, bổ sung phải cấp mới giấy phép hoạt động trong thời hạn 10 ngày, kể từ ngày ban hành biên bản thẩm định. \nTrường hợp có yêu cầu sửa đổi, bổ sung phải nêu rõ trong nội dung của biên bản thẩm định. Trong thời hạn 10 ngày, kể từ ngày nhận được văn bản thông báo và tài liệu chứng minh đã hoàn thành việc khắc phục, sửa chữa của cơ sở đề nghị, Bộ Quốc phòng có thể tiến hành kiểm tra thực tế việc khắc phục, sửa chữa của cơ sở đề nghị trong trường hợp cần thiết hoặc thực hiện việc cấp giấy phép hoạt động. Trường hợp không cấp giấy phép hoạt động phải có văn bản trả lời nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "Bản sao hợp lệ giấy phép hành nghề và giấy xác nhận quá trình hành nghề của người chịu trách nhiệm chuyên môn của cơ sở khám bệnh, chữa bệnh thuộc lực lượng vũ trang nhân dân;\nBản sao hợp lệ quyết định thành lập hoặc quyết định ban hành biểu tổ chức, biên chế của cơ sở khám bệnh, chữa bệnh của cấp có thẩm quyền;\nDanh sách những người đăng ký làm việc ngoài giờ không thuộc Bộ Quốc phòng quản lý tại cơ sở khám bệnh, chữa bệnh;\nDanh sách người đăng ký hành nghề của cơ sở khám bệnh, chữa bệnh thuộc lực lượng vũ trang nhân dân (bao gồm đăng ký người hành nghề và người làm việc chuyên môn tại cơ sở nhưng không thuộc diện phải cấp giấy phép hành nghề) theo Mẫu số 01a Phụ lục III kèm theo Nghị định số 16/2024/NĐ-CP;\nBản sao hợp lệ các văn bản, tài liệu chứng minh cơ sở khám bệnh, chữa bệnh đáp ứng các điều kiện về cơ sở vật chất, thiết bị y tế, tổ chức biên chế phù hợp với cấp chuyên môn kỹ thuật của một trong các loại hình tổ chức cơ sở khám bệnh, chữa bệnh quy định tại các Điều 19, 20, 21 22, 23 và 24 Nghị định số 16/2024/NĐ-CP .\nBản kê khai cơ sở vật chất, thiết bị y tế của cơ sở khám bệnh, chữa bệnh theo Mẫu số 02 Phụ lục III kèm theo Nghị định số 16/2024/NĐ-CP;\nVăn bản đề nghị của thủ trưởng đơn vị đầu mối trực thuộc Bộ Quốc phòng hoặc người đứng đầu đối với cơ sở khám bệnh, chữa bệnh trực thuộc Bộ Quốc phòng theo Mẫu số 06 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP;",
     "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 65 ngày\nTrực tiếp: 65 ngày",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 16/2024/NĐ-CP ngày 16/02/2024 của Chính phủ về người hành nghề khám bệnh, chữa bệnh và cơ sở khám bệnh, chữa bệnh thuộc lực lượng vũ trang nhân dân - 16/2024/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cục Quân y/Tổng cục Hậu cần - Kỹ thuật",
@@ -210,11 +177,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Sức khỏe và y tế",
-      "slug": "suc-khoe-va-y-te",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Khám bệnh, chữa bệnh BQP",
       "slug": "kham-benh-chua-benh-bqp"
@@ -241,6 +203,6 @@
         "slug": "cuc-quan-y-tong-cuc-hau-can-ky-thuat"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

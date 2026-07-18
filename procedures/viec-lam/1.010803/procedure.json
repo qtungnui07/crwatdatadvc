@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfa-fc0c-7046-b5dc-04303a18608d",
   "procedure_code": "1.010803",
   "title": "Giải quyết chế độ trợ cấp thờ cúng liệt sĩ.",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-fc0c-7046-b5dc-04303a18608d",
     "source_file": "chi-tiet-thu-tuc-1.010803.pdf",
     "source_path": "procedures/viec-lam/1.010803/chi-tiet-thu-tuc-1.010803.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:06.373650+00:00",
-    "source_updated_at": "2026-05-27T08:08:16.526Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:49.882567+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "edabeaaf734050d0a179d1d581474961c6e8701c1ddde0502c4c662d92602071"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:06.373650+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "556/QĐ-BNV",
   "implementation_level": "Cấp tỉnh, Cấp xã",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cấp xã"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Người có công",
   "target_users": [
@@ -36,10 +31,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Nội vụ",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Nội vụ"
   },
   "steps": [
     {
@@ -47,51 +39,39 @@
       "title": "Bước 1",
       "description": "- Trường hợp liệt sĩ không còn thân nhân thuộc diện hưởng trợ cấp hằng tháng theo quy định tại khoản 3 Điều 16 Pháp lệnh ưu đãi người có công với cách mạng thì cá nhân làm đơn đề nghị theo Mẫu số 18 Phụ lục I Nghị định số 131/2021/NĐ-CP kèm văn bản ủy quyền của những người quy định tại điểm a, b khoản 5 Điều 28 Nghị định số 131/2021/NĐ-CP gửi trên Cổng Dịch vụ công quốc gia hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Trung tâm Phục vụ hành chính.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 2,
       "title": "Bước 2",
       "description": "- Ủy ban nhân dân cấp xã trong thời gian 05 ngày làm việc kể từ ngày tiếp nhận đủ giấy tờ, có trách nhiệm kiểm tra, xác nhận đơn đề nghị, lập danh sách kèm giấy tờ quy định tại khoản 1 Điều 28 Nghị định số 131/2021/NĐ-CP gửi Sở Nội vụ.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 3,
       "title": "Bước 3",
       "description": "- Sở Nội vụ trong thời gian 05 ngày làm việc kể từ ngày tiếp nhận đủ giấy tờ, có trách nhiệm kiểm tra, đối chiếu hồ sơ của liệt sĩ đang quản lý, ban hành quyết định trợ cấp thờ cúng liệt sĩ theo Mẫu số 55 Phụ lục I Nghị định số 131/2021/NĐ-CP. Quyết định này được thực hiện liên tục nếu không có sự thay đổi về người hưởng trợ cấp thờ cúng liệt sĩ hoặc về mức trợ cấp. Người được ủy quyền thờ cúng liệt sĩ được hưởng trợ cấp hằng năm kể từ năm Sở Nội vụ ban hành quyết định. Trường hợp hồ sơ gốc của liệt sĩ do địa phương khác quản lý thì Sở Nội vụ có văn bản đề nghị nơi quản lý hồ sơ thực hiện di chuyển hồ sơ liệt sĩ kèm văn bản xác nhận chưa được giải quyết chế độ trợ cấp thờ cúng liệt sĩ.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "- Đơn đề nghị Mẫu số 18 Phụ lục I Nghị định số 131/2021/NĐ-CP.",
-        "code": "000.00.00.G07-KQ001743",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d7163-e2ca-72eb-9d82-fcda67d13e79",
-            "name": "Mauso18_ND131_2021.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mauso18_ND131_2021.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "- Văn bản ủy quyền.",
-        "code": "000.00.00.G07-KQ001745",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 1
       }
     ]
   },
@@ -100,87 +80,52 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Trực tuyến hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Trung tâm Phục vụ hành chính công. 10 ngày làm việc kể từ ngày nhận đủ giấy tờ (Thời gian cụ thể được quy định tại từng bước của quy trình thực hiện).",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Trực tuyến hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Trung tâm Phục vụ hành chính công. 10 ngày làm việc kể từ ngày nhận đủ giấy tờ (Thời gian cụ thể được quy định tại từng bước của quy trình thực hiện).",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Trực tuyến hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Trung tâm Phục vụ hành chính công. 10 ngày làm việc kể từ ngày nhận đủ giấy tờ (Thời gian cụ thể được quy định tại từng bước của quy trình thực hiện).",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -188,38 +133,32 @@
     {
       "title": "Nghị định số 45/2025/NĐ-CP ngày 28/02/2025 của Chính phủ quy định tổ chức các cơ quan chuyên môn thuộc Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và Ủy ban nhân dân huyện, quận, thị xã, thành phố thuộc tỉnh, thành phố thuộc thành phố trực thuộc trung ương",
       "document_number": "45/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46e-3b82195c2d48",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định số 25/2025/NĐ-CP ngày 21 tháng 02 năm 2025 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nội vụ",
       "document_number": "Nghị định số 25/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b474-93996f3f00db",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước",
       "document_number": "190/2025/NQ-QH15",
-      "id": "019d2bb3-5d84-71c5-b671-f40a5ee32475",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nội vụ",
       "document_number": "129/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-1c153ca6400f",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "QUY ĐỊNH CHI TIẾT VÀ BIỆN PHÁP THI HÀNH PHÁP LỆNH ƯU ĐÃI NGƯỜI CÓ CÔNG VỚI CÁCH MẠNG",
       "document_number": "Nghị định số 131/2021/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b474-516a799e2145",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "ƯU ĐÃI NGƯỜI CÓ CÔNG VỚI CÁCH MẠNG",
       "document_number": "Pháp lệnh số: 02/2020/UBTVQH14",
-      "id": "019d2bb3-5d85-73da-8eba-20bc75de794b",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "conditions": "Người được ủy quyền thờ cúng liệt sĩ hoặc cơ quan, đơn vị được giao thờ cúng liệt sĩ được xác định theo quy định khoản 6 Điều 28 Nghị định số 131/2021/NĐ-CP.",
@@ -227,14 +166,13 @@
     {
       "title": "Quyết định trợ cấp thờ cúng liệt sĩ",
       "code": "KQ.G09.000424",
-      "id": "019d2bb2-1c4d-7725-9d9c-5693bbfef018",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "- Trường hợp liệt sĩ không còn thân nhân thuộc diện hưởng trợ cấp hằng tháng theo quy định tại khoản 3 Điều 16 Pháp lệnh ưu đãi người có công với cách mạng thì cá nhân làm đơn đề nghị theo Mẫu số 18 Phụ lục I Nghị định số 131/2021/NĐ-CP kèm văn bản ủy quyền của những người quy định tại điểm a, b khoản 5 Điều 28 Nghị định số 131/2021/NĐ-CP gửi trên Cổng Dịch vụ công quốc gia hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Trung tâm Phục vụ hành chính.\n- Ủy ban nhân dân cấp xã trong thời gian 05 ngày làm việc kể từ ngày tiếp nhận đủ giấy tờ, có trách nhiệm kiểm tra, xác nhận đơn đề nghị, lập danh sách kèm giấy tờ quy định tại khoản 1 Điều 28 Nghị định số 131/2021/NĐ-CP gửi Sở Nội vụ.\n- Sở Nội vụ trong thời gian 05 ngày làm việc kể từ ngày tiếp nhận đủ giấy tờ, có trách nhiệm kiểm tra, đối chiếu hồ sơ của liệt sĩ đang quản lý, ban hành quyết định trợ cấp thờ cúng liệt sĩ theo Mẫu số 55 Phụ lục I Nghị định số 131/2021/NĐ-CP. Quyết định này được thực hiện liên tục nếu không có sự thay đổi về người hưởng trợ cấp thờ cúng liệt sĩ hoặc về mức trợ cấp. Người được ủy quyền thờ cúng liệt sĩ được hưởng trợ cấp hằng năm kể từ năm Sở Nội vụ ban hành quyết định. Trường hợp hồ sơ gốc của liệt sĩ do địa phương khác quản lý thì Sở Nội vụ có văn bản đề nghị nơi quản lý hồ sơ thực hiện di chuyển hồ sơ liệt sĩ kèm văn bản xác nhận chưa được giải quyết chế độ trợ cấp thờ cúng liệt sĩ.",
-    "THÀNH PHẦN HỒ SƠ": "\n- Đơn đề nghị Mẫu số 18 Phụ lục I Nghị định số 131/2021/NĐ-CP.\n- Văn bản ủy quyền.",
-    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 10 ngày làm việc - Trực tuyến hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Trung tâm Phục vụ hành chính công. 10 ngày làm việc kể từ ngày nhận đủ giấy tờ (Thời gian cụ thể được quy định tại từng bước của quy trình thực hiện).\nTrực tiếp: 10 ngày làm việc - Trực tuyến hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Trung tâm Phục vụ hành chính công. 10 ngày làm việc kể từ ngày nhận đủ giấy tờ (Thời gian cụ thể được quy định tại từng bước của quy trình thực hiện).\nTrực tuyến: 10 ngày làm việc - Trực tuyến hoặc qua dịch vụ bưu chính hoặc trực tiếp đến Trung tâm Phục vụ hành chính công. 10 ngày làm việc kể từ ngày nhận đủ giấy tờ (Thời gian cụ thể được quy định tại từng bước của quy trình thực hiện).",
+    "THÀNH PHẦN HỒ SƠ": "- Đơn đề nghị Mẫu số 18 Phụ lục I Nghị định số 131/2021/NĐ-CP.\n- Văn bản ủy quyền.",
+    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 10 ngày làm việc\nTrực tiếp: 10 ngày làm việc\nTrực tuyến: 10 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 45/2025/NĐ-CP ngày 28/02/2025 của Chính phủ quy định tổ chức các cơ quan chuyên môn thuộc Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và Ủy ban nhân dân huyện, quận, thị xã, thành phố thuộc tỉnh, thành phố thuộc thành phố trực thuộc trung ương - 45/2025/NĐ-CP\nNghị định số 25/2025/NĐ-CP ngày 21 tháng 02 năm 2025 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nội vụ - Nghị định số 25/2025/NĐ-CP\nNghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước - 190/2025/NQ-QH15\nQuy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nội vụ - 129/2025/NĐ-CP\nQUY ĐỊNH CHI TIẾT VÀ BIỆN PHÁP THI HÀNH PHÁP LỆNH ƯU ĐÃI NGƯỜI CÓ CÔNG VỚI CÁCH MẠNG - Nghị định số 131/2021/NĐ-CP\nƯU ĐÃI NGƯỜI CÓ CÔNG VỚI CÁCH MẠNG - Pháp lệnh số: 02/2020/UBTVQH14",
     "CƠ QUAN THỰC HIỆN": "Sở Nội vụ",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Người được ủy quyền thờ cúng liệt sĩ hoặc cơ quan, đơn vị được giao thờ cúng liệt sĩ được xác định theo quy định khoản 6 Điều 28 Nghị định số 131/2021/NĐ-CP.",
@@ -243,11 +181,6 @@
     "MÔ TẢ": "Người được ủy quyền thờ cúng liệt sĩ hoặc cơ quan, đơn vị được giao thờ cúng liệt sĩ được xác định theo quy định khoản 6 Điều 28 Nghị định số 131/2021/NĐ-CP."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Người có công",
       "slug": "nguoi-co-cong"
@@ -278,6 +211,6 @@
         "slug": "uy-ban-nhan-dan-cap-xa"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

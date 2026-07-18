@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfa-384e-778d-b3fa-0876096879ab",
   "procedure_code": "1.004512",
   "title": "Giao khu vực biển",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-384e-778d-b3fa-0876096879ab",
     "source_file": "chi-tiet-thu-tuc-1.004512.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.004512/chi-tiet-thu-tuc-1.004512.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:02.302576+00:00",
-    "source_updated_at": "2026-04-11T07:16:36.059Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:55:50.197092+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "4c2c64a72e2982472d63716fccefe1e08725568c0c4c21d6a4fec6be634f3ce5"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:02.302576+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2298/QĐ-BNNMT",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Biển và hải đảo",
   "target_users": [
@@ -40,18 +36,15 @@
   ],
   "agency": {
     "competent_agency": "Bộ Nông nghiệp và Môi trường; Thủ tướng Chính phủ",
-    "executing_agency": "Cục Biển và Hải đảo Việt Nam - Bộ NN và MT",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Số 10 Tôn Thất Thuyết, Cầu Giấy, Hà Nội"
+    "executing_agency": "Cục Biển và Hải đảo Việt Nam - Bộ NN và MT"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "2.1.1. Bước 1 nộp hồ sơ: Tổ chức, cá nhân đề nghị giao khu vực biển nộp 01 bộ hồ sơ cho VPMC. Địa chỉ: số 10 đường Tôn Thất Thuyết, quận Nam Từ Liêm, thành phố Hà Nội.\n2.1.2. Bước 2 kiểm tra hồ sơ: Công chức VPMC được phân công có trách nhiệm kiểm tra thành phần, nội dung, số lượng hồ sơ. Trường hợp hồ sơ theo đúng quy định thì ban hành Giấy tiếp nhận hồ sơ và hẹn trả kết quả theo Mẫu số 10 của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP). Trường hợp hồ sơ chưa đúng quy định, VPMC hướng dẫn tổ chức, cá nhân để bổ sung, hoàn thiện. \n2.1.3. Bước 3 thẩm định hồ sơ: Cục Biển và Hải đảo Việt Nam là cơ quan chủ trì thẩm định hồ sơ, tham mưu Bộ Nông nghiệp và Môi trường gửi văn bản lấy ý kiến của các cơ quan có liên quan. Trường hợp cần thiết, Cục Biển và Hải đảo Việt Nam ban hành văn bản lấy ý kiến đơn vị trong Bộ, tổ chức kiểm tra thực địa khu vực biển.\n2.1.4. Bước 4 trình, ban hành kết quả giải quyết thủ tục hành chính: Cục Biển và Hải đảo Việt Nam trình Bộ Nông nghiệp và Môi trường, xem xét, ra quyết định giao khu vực biển. Trong trường hợp không ra quyết định thì phải trả lời bằng văn bản và nêu rõ lý do.\n2.1.5. Bước 5 thông báo và trả kết quả: VPMC thông báo cho tổ chức, cá nhân để nhận kết quả và thực hiện các nghĩa vụ liên quan.\n",
+      "description": "2.1.1. Bước 1 nộp hồ sơ: Tổ chức, cá nhân đề nghị giao khu vực biển nộp 01 bộ hồ sơ cho VPMC. Địa chỉ: số 10 đường Tôn Thất Thuyết, quận Nam Từ Liêm, thành phố Hà Nội.\n2.1.2. Bước 2 kiểm tra hồ sơ: Công chức VPMC được phân công có trách nhiệm kiểm tra thành phần, nội dung, số lượng hồ sơ. Trường hợp hồ sơ theo đúng quy định thì ban hành Giấy tiếp nhận hồ sơ và hẹn trả kết quả theo Mẫu số 10 của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP). Trường hợp hồ sơ chưa đúng quy định, VPMC hướng dẫn tổ chức, cá nhân để bổ sung, hoàn thiện. \n2.1.3. Bước 3 thẩm định hồ sơ: Cục Biển và Hải đảo Việt Nam là cơ quan chủ trì thẩm định hồ sơ, tham mưu Bộ Nông nghiệp và Môi trường gửi văn bản lấy ý kiến của các cơ quan có liên quan. Trường hợp cần thiết, Cục Biển và Hải đảo Việt Nam ban hành văn bản lấy ý kiến đơn vị trong Bộ, tổ chức kiểm tra thực địa khu vực biển.\n2.1.4. Bước 4 trình, ban hành kết quả giải quyết thủ tục hành chính: Cục Biển và Hải đảo Việt Nam trình Bộ Nông nghiệp và Môi trường, xem xét, ra quyết định giao khu vực biển. Trong trường hợp không ra quyết định thì phải trả lời bằng văn bản và nêu rõ lý do.\n2.1.5. Bước 5 thông báo và trả kết quả: VPMC thông báo cho tổ chức, cá nhân để nhận kết quả và thực hiện các nghĩa vụ liên quan.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
@@ -59,103 +52,70 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "d) Bản chính Bản đồ khu vực biển đề nghị giao, trong đó thể hiện tọa độ các điểm góc của khu vực biển đề nghị giao được lập theo Mẫu số 05 của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP).",
-        "code": "000.00.00.G10-KQ005023",
+        "name": "2.3.1. Thành phần hồ sơ đề nghị giao khu vực biển bao gồm:: d) Bản chính Bản đồ khu vực biển đề nghị giao, trong đó thể hiện tọa độ các điểm góc của khu vực biển đề nghị giao được lập theo Mẫu số 05 của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2.3.1. Thành phần hồ sơ đề nghị giao khu vực biển bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "đ) Bản thuyết minh hoạt động sử dụng khu vực biển theo Mẫu số 14 của Nghị định số 11/2021/NĐ-CP (đã được bổ sung tại Nghị định số 65/2025/NĐ-CP).",
-        "code": "000.00.00.G10-KQ005024",
+        "name": "2.3.1. Thành phần hồ sơ đề nghị giao khu vực biển bao gồm:: đ) Bản thuyết minh hoạt động sử dụng khu vực biển theo Mẫu số 14 của Nghị định số 11/2021/NĐ-CP (đã được bổ sung tại Nghị định số 65/2025/NĐ-CP).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2.3.1. Thành phần hồ sơ đề nghị giao khu vực biển bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "c) Bản sao một trong các văn bản sau: Quyết định phê duyệt kết quả thẩm định báo cáo đánh giá tác động môi trường, giấy phép môi trường, đăng ký môi trường theo quy định hoặc các văn bản tương đương với quyết định phê duyệt kết quả thẩm định báo cáo đánh giá tác động môi trường theo quy định tại khoản 2 Điều 171 Luật Bảo vệ môi trường;",
-        "code": "000.00.00.G10-KQ005022",
+        "name": "2.3.1. Thành phần hồ sơ đề nghị giao khu vực biển bao gồm:: c) Bản sao một trong các văn bản sau: Quyết định phê duyệt kết quả thẩm định báo cáo đánh giá tác động môi trường, giấy phép môi trường, đăng ký môi trường theo quy định hoặc các văn bản tương đương với quyết định phê duyệt kết quả thẩm định báo cáo đánh giá tác động môi trường theo quy định tại khoản 2 Điều 171 Luật Bảo vệ môi trường;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "2.3.1. Thành phần hồ sơ đề nghị giao khu vực biển bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "a) Bản chính Đơn đề nghị giao khu vực biển được lập theo Mẫu số 01 của của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP);",
-        "code": "000.00.00.G10-KQ005020",
+        "name": "2.3.1. Thành phần hồ sơ đề nghị giao khu vực biển bao gồm:: a) Bản chính Đơn đề nghị giao khu vực biển được lập theo Mẫu số 01 của của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP);",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2.3.1. Thành phần hồ sơ đề nghị giao khu vực biển bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "b) Bản sao văn bản cho phép khai thác sử dụng tài nguyên biển của cơ quan nhà nước có thẩm quyền cấp;",
-        "code": "000.00.00.G10-KQ005021",
+        "name": "2.3.1. Thành phần hồ sơ đề nghị giao khu vực biển bao gồm:: b) Bản sao văn bản cho phép khai thác sử dụng tài nguyên biển của cơ quan nhà nước có thẩm quyền cấp;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "2.3.1. Thành phần hồ sơ đề nghị giao khu vực biển bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "c) Bản đồ khu vực biển đề nghị giao, trong đó thể hiện tọa độ các điểm góc của khu vực biển đề nghị giao được lập theo Mẫu số 05 của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP);",
-        "code": "000.00.00.G10-KQ005026",
+        "name": "2.3.2. Thành phần hồ sơ đề nghị giao khu vực biển để thực hiện nhiệm vụ khoa học và công nghệ bao gồm:: c) Bản đồ khu vực biển đề nghị giao, trong đó thể hiện tọa độ các điểm góc của khu vực biển đề nghị giao được lập theo Mẫu số 05 của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP);",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2.3.2. Thành phần hồ sơ đề nghị giao khu vực biển để thực hiện nhiệm vụ khoa học và công nghệ bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "b) Bản sao các văn bản cho phép, giao nhiệm vụ hoặc quyết định phê duyệt thuyết minh, đề cương thực hiện nhiệm vụ khoa học và công nghệ phục vụ nuôi trồng thủy sản và nhiệm vụ khoa học, công nghệ biển khác có sử dụng diện tích khu vực biển cố định;",
-        "code": "000.00.00.G10-KQ005025",
+        "name": "2.3.2. Thành phần hồ sơ đề nghị giao khu vực biển để thực hiện nhiệm vụ khoa học và công nghệ bao gồm:: b) Bản sao các văn bản cho phép, giao nhiệm vụ hoặc quyết định phê duyệt thuyết minh, đề cương thực hiện nhiệm vụ khoa học và công nghệ phục vụ nuôi trồng thủy sản và nhiệm vụ khoa học, công nghệ biển khác có sử dụng diện tích khu vực biển cố định;",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "2.3.2. Thành phần hồ sơ đề nghị giao khu vực biển để thực hiện nhiệm vụ khoa học và công nghệ bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "b) Bản thuyết minh hoạt động nghiên cứu khoa học, đo đạc, quan trắc, điều tra, thăm dò, khảo sát trên biển theo Mẫu số 15 của Nghị định số 11/2021/NĐ-CP (đã được bổ sung tại Nghị định số 65/2025/NĐ-CP);",
-        "code": "000.00.00.G10-KQ005028",
+        "name": "2.3.3. Thành phần hồ sơ đề nghị giao khu vực biển để nghiên cứu khoa học/đo đạc/quan trắc/điều tra/thăm dò/khảo sát trên biển bao gồm:: b) Bản thuyết minh hoạt động nghiên cứu khoa học, đo đạc, quan trắc, điều tra, thăm dò, khảo sát trên biển theo Mẫu số 15 của Nghị định số 11/2021/NĐ-CP (đã được bổ sung tại Nghị định số 65/2025/NĐ-CP);",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2.3.3. Thành phần hồ sơ đề nghị giao khu vực biển để nghiên cứu khoa học/đo đạc/quan trắc/điều tra/thăm dò/khảo sát trên biển bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "c) Văn bản chứng minh tư cách pháp nhân theo quy định pháp luật của nước nơi tổ chức được thành lập nếu là tổ chức nước ngoài; văn bản chứng minh năng lực hành vi dân sự đầy đủ theo quy định của nước nơi cá nhân mang quốc tịch nếu là cá nhân nước ngoài;",
-        "code": "000.00.00.G10-KQ005029",
+        "name": "2.3.3. Thành phần hồ sơ đề nghị giao khu vực biển để nghiên cứu khoa học/đo đạc/quan trắc/điều tra/thăm dò/khảo sát trên biển bao gồm:: c) Văn bản chứng minh tư cách pháp nhân theo quy định pháp luật của nước nơi tổ chức được thành lập nếu là tổ chức nước ngoài; văn bản chứng minh năng lực hành vi dân sự đầy đủ theo quy định của nước nơi cá nhân mang quốc tịch nếu là cá nhân nước ngoài;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2.3.3. Thành phần hồ sơ đề nghị giao khu vực biển để nghiên cứu khoa học/đo đạc/quan trắc/điều tra/thăm dò/khảo sát trên biển bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "a) Đơn đề nghị giao khu vực biển để thực hiện hoạt động nghiên cứu khoa học, đo đạc, quan trắc, điều tra, thăm dò, khảo sát trên biển theo Mẫu số 01 của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP);",
-        "code": "000.00.00.G10-KQ005027",
+        "name": "2.3.3. Thành phần hồ sơ đề nghị giao khu vực biển để nghiên cứu khoa học/đo đạc/quan trắc/điều tra/thăm dò/khảo sát trên biển bao gồm:: a) Đơn đề nghị giao khu vực biển để thực hiện hoạt động nghiên cứu khoa học, đo đạc, quan trắc, điều tra, thăm dò, khảo sát trên biển theo Mẫu số 01 của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP);",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2.3.3. Thành phần hồ sơ đề nghị giao khu vực biển để nghiên cứu khoa học/đo đạc/quan trắc/điều tra/thăm dò/khảo sát trên biển bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "d) Sơ đồ khu vực biển đề nghị giao để thực hiện hoạt động nghiên cứu khoa học, đo đạc, quan trắc, điều tra, thăm dò, khảo sát trên biển, trong đó thể hiện tọa độ các điểm góc, diện tích, độ sâu, độ cao của khu vực biển đề nghị sử dụng.",
-        "code": "000.00.00.G10-KQ005030",
+        "name": "2.3.3. Thành phần hồ sơ đề nghị giao khu vực biển để nghiên cứu khoa học/đo đạc/quan trắc/điều tra/thăm dò/khảo sát trên biển bao gồm:: d) Sơ đồ khu vực biển đề nghị giao để thực hiện hoạt động nghiên cứu khoa học, đo đạc, quan trắc, điều tra, thăm dò, khảo sát trên biển, trong đó thể hiện tọa độ các điểm góc, diện tích, độ sâu, độ cao của khu vực biển đề nghị sử dụng.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2.3.3. Thành phần hồ sơ đề nghị giao khu vực biển để nghiên cứu khoa học/đo đạc/quan trắc/điều tra/thăm dò/khảo sát trên biển bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       }
     ]
   },
@@ -164,35 +124,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "45 ngày làm việc",
-      "processing_time_value": 45,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "45 ngày làm việc",
-      "processing_time_value": 45,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -200,51 +140,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "45 ngày làm việc",
-      "processing_time_value": 45,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 4
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 4
       }
     ]
   },
@@ -252,26 +177,22 @@
     {
       "title": "Nghị định số 65/2025/NĐ-CP ngày 12 tháng 3 năm 2025 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 40/2016/NĐ-CP ngày 15 tháng 5 năm 2016 của Chính phủ quy định chi tiết thi hành một số điều của Luật Tài nguyên, môi trường biển và hải đảo và Nghị định số 11/2021/NĐ-CP ngày 10 tháng 02 năm 2021 của Chính phủ quy định việc giao các khu vực biển nhất định cho tổ chức, cá nhân khai thác, sử dụng tài nguyên biển.",
       "document_number": "65/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-1a7347aeeb66",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "44/2026/NĐ-CP",
       "document_number": "44/2026/NĐ-CP",
-      "id": "019d2bb3-5d87-7195-a441-73c6f24f8ceb",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Nghị định 11/2021/NĐ-CP",
       "document_number": "11/2021/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a63d-12bc90d119b5",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định 126/2020/NĐ-CP",
       "document_number": "126/2020/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a63e-9e72cf1f3ed4",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "",
@@ -279,19 +200,17 @@
     {
       "title": "Văn bản thông báo từ chối/không đủ điều kiện",
       "code": "KQ.G10.001197",
-      "id": "019d2bb2-1c6d-743d-a39e-14afd9824e80",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Quyết định giao khu vực biển theo Mẫu số 06 của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP)",
       "code": "KQ.G10.001205",
-      "id": "019d2bb2-1c6d-743d-a39e-31b79ee61ce7",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "2.1.1. Bước 1 nộp hồ sơ: Tổ chức, cá nhân đề nghị giao khu vực biển nộp 01 bộ hồ sơ cho VPMC. Địa chỉ: số 10 đường Tôn Thất Thuyết, quận Nam Từ Liêm, thành phố Hà Nội.\n2.1.2. Bước 2 kiểm tra hồ sơ: Công chức VPMC được phân công có trách nhiệm kiểm tra thành phần, nội dung, số lượng hồ sơ. Trường hợp hồ sơ theo đúng quy định thì ban hành Giấy tiếp nhận hồ sơ và hẹn trả kết quả theo Mẫu số 10 của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP). Trường hợp hồ sơ chưa đúng quy định, VPMC hướng dẫn tổ chức, cá nhân để bổ sung, hoàn thiện. \n2.1.3. Bước 3 thẩm định hồ sơ: Cục Biển và Hải đảo Việt Nam là cơ quan chủ trì thẩm định hồ sơ, tham mưu Bộ Nông nghiệp và Môi trường gửi văn bản lấy ý kiến của các cơ quan có liên quan. Trường hợp cần thiết, Cục Biển và Hải đảo Việt Nam ban hành văn bản lấy ý kiến đơn vị trong Bộ, tổ chức kiểm tra thực địa khu vực biển.\n2.1.4. Bước 4 trình, ban hành kết quả giải quyết thủ tục hành chính: Cục Biển và Hải đảo Việt Nam trình Bộ Nông nghiệp và Môi trường, xem xét, ra quyết định giao khu vực biển. Trong trường hợp không ra quyết định thì phải trả lời bằng văn bản và nêu rõ lý do.\n2.1.5. Bước 5 thông báo và trả kết quả: VPMC thông báo cho tổ chức, cá nhân để nhận kết quả và thực hiện các nghĩa vụ liên quan.\n",
-    "THÀNH PHẦN HỒ SƠ": "2.3.1. Thành phần hồ sơ đề nghị giao khu vực biển bao gồm:\nd) Bản chính Bản đồ khu vực biển đề nghị giao, trong đó thể hiện tọa độ các điểm góc của khu vực biển đề nghị giao được lập theo Mẫu số 05 của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP).\nđ) Bản thuyết minh hoạt động sử dụng khu vực biển theo Mẫu số 14 của Nghị định số 11/2021/NĐ-CP (đã được bổ sung tại Nghị định số 65/2025/NĐ-CP).\nc) Bản sao một trong các văn bản sau: Quyết định phê duyệt kết quả thẩm định báo cáo đánh giá tác động môi trường, giấy phép môi trường, đăng ký môi trường theo quy định hoặc các văn bản tương đương với quyết định phê duyệt kết quả thẩm định báo cáo đánh giá tác động môi trường theo quy định tại khoản 2 Điều 171 Luật Bảo vệ môi trường;\na) Bản chính Đơn đề nghị giao khu vực biển được lập theo Mẫu số 01 của của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP);\nb) Bản sao văn bản cho phép khai thác sử dụng tài nguyên biển của cơ quan nhà nước có thẩm quyền cấp;\n2.3.2. Thành phần hồ sơ đề nghị giao khu vực biển để thực hiện nhiệm vụ khoa học và công nghệ bao gồm:\nc) Bản đồ khu vực biển đề nghị giao, trong đó thể hiện tọa độ các điểm góc của khu vực biển đề nghị giao được lập theo Mẫu số 05 của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP);\nb) Bản sao các văn bản cho phép, giao nhiệm vụ hoặc quyết định phê duyệt thuyết minh, đề cương thực hiện nhiệm vụ khoa học và công nghệ phục vụ nuôi trồng thủy sản và nhiệm vụ khoa học, công nghệ biển khác có sử dụng diện tích khu vực biển cố định;\n2.3.3. Thành phần hồ sơ đề nghị giao khu vực biển để nghiên cứu khoa học/đo đạc/quan trắc/điều tra/thăm dò/khảo sát trên biển bao gồm:\nb) Bản thuyết minh hoạt động nghiên cứu khoa học, đo đạc, quan trắc, điều tra, thăm dò, khảo sát trên biển theo Mẫu số 15 của Nghị định số 11/2021/NĐ-CP (đã được bổ sung tại Nghị định số 65/2025/NĐ-CP);\nc) Văn bản chứng minh tư cách pháp nhân theo quy định pháp luật của nước nơi tổ chức được thành lập nếu là tổ chức nước ngoài; văn bản chứng minh năng lực hành vi dân sự đầy đủ theo quy định của nước nơi cá nhân mang quốc tịch nếu là cá nhân nước ngoài;\na) Đơn đề nghị giao khu vực biển để thực hiện hoạt động nghiên cứu khoa học, đo đạc, quan trắc, điều tra, thăm dò, khảo sát trên biển theo Mẫu số 01 của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP);\nd) Sơ đồ khu vực biển đề nghị giao để thực hiện hoạt động nghiên cứu khoa học, đo đạc, quan trắc, điều tra, thăm dò, khảo sát trên biển, trong đó thể hiện tọa độ các điểm góc, diện tích, độ sâu, độ cao của khu vực biển đề nghị sử dụng.",
+    "TRÌNH TỰ THỰC HIỆN": "2.1.1. Bước 1 nộp hồ sơ: Tổ chức, cá nhân đề nghị giao khu vực biển nộp 01 bộ hồ sơ cho VPMC. Địa chỉ: số 10 đường Tôn Thất Thuyết, quận Nam Từ Liêm, thành phố Hà Nội.\n2.1.2. Bước 2 kiểm tra hồ sơ: Công chức VPMC được phân công có trách nhiệm kiểm tra thành phần, nội dung, số lượng hồ sơ. Trường hợp hồ sơ theo đúng quy định thì ban hành Giấy tiếp nhận hồ sơ và hẹn trả kết quả theo Mẫu số 10 của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP). Trường hợp hồ sơ chưa đúng quy định, VPMC hướng dẫn tổ chức, cá nhân để bổ sung, hoàn thiện. \n2.1.3. Bước 3 thẩm định hồ sơ: Cục Biển và Hải đảo Việt Nam là cơ quan chủ trì thẩm định hồ sơ, tham mưu Bộ Nông nghiệp và Môi trường gửi văn bản lấy ý kiến của các cơ quan có liên quan. Trường hợp cần thiết, Cục Biển và Hải đảo Việt Nam ban hành văn bản lấy ý kiến đơn vị trong Bộ, tổ chức kiểm tra thực địa khu vực biển.\n2.1.4. Bước 4 trình, ban hành kết quả giải quyết thủ tục hành chính: Cục Biển và Hải đảo Việt Nam trình Bộ Nông nghiệp và Môi trường, xem xét, ra quyết định giao khu vực biển. Trong trường hợp không ra quyết định thì phải trả lời bằng văn bản và nêu rõ lý do.\n2.1.5. Bước 5 thông báo và trả kết quả: VPMC thông báo cho tổ chức, cá nhân để nhận kết quả và thực hiện các nghĩa vụ liên quan.",
+    "THÀNH PHẦN HỒ SƠ": "2.3.1. Thành phần hồ sơ đề nghị giao khu vực biển bao gồm:: d) Bản chính Bản đồ khu vực biển đề nghị giao, trong đó thể hiện tọa độ các điểm góc của khu vực biển đề nghị giao được lập theo Mẫu số 05 của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP).\n2.3.1. Thành phần hồ sơ đề nghị giao khu vực biển bao gồm:: đ) Bản thuyết minh hoạt động sử dụng khu vực biển theo Mẫu số 14 của Nghị định số 11/2021/NĐ-CP (đã được bổ sung tại Nghị định số 65/2025/NĐ-CP).\n2.3.1. Thành phần hồ sơ đề nghị giao khu vực biển bao gồm:: c) Bản sao một trong các văn bản sau: Quyết định phê duyệt kết quả thẩm định báo cáo đánh giá tác động môi trường, giấy phép môi trường, đăng ký môi trường theo quy định hoặc các văn bản tương đương với quyết định phê duyệt kết quả thẩm định báo cáo đánh giá tác động môi trường theo quy định tại khoản 2 Điều 171 Luật Bảo vệ môi trường;\n2.3.1. Thành phần hồ sơ đề nghị giao khu vực biển bao gồm:: a) Bản chính Đơn đề nghị giao khu vực biển được lập theo Mẫu số 01 của của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP);\n2.3.1. Thành phần hồ sơ đề nghị giao khu vực biển bao gồm:: b) Bản sao văn bản cho phép khai thác sử dụng tài nguyên biển của cơ quan nhà nước có thẩm quyền cấp;\n2.3.2. Thành phần hồ sơ đề nghị giao khu vực biển để thực hiện nhiệm vụ khoa học và công nghệ bao gồm:: c) Bản đồ khu vực biển đề nghị giao, trong đó thể hiện tọa độ các điểm góc của khu vực biển đề nghị giao được lập theo Mẫu số 05 của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP);\n2.3.2. Thành phần hồ sơ đề nghị giao khu vực biển để thực hiện nhiệm vụ khoa học và công nghệ bao gồm:: b) Bản sao các văn bản cho phép, giao nhiệm vụ hoặc quyết định phê duyệt thuyết minh, đề cương thực hiện nhiệm vụ khoa học và công nghệ phục vụ nuôi trồng thủy sản và nhiệm vụ khoa học, công nghệ biển khác có sử dụng diện tích khu vực biển cố định;\n2.3.3. Thành phần hồ sơ đề nghị giao khu vực biển để nghiên cứu khoa học/đo đạc/quan trắc/điều tra/thăm dò/khảo sát trên biển bao gồm:: b) Bản thuyết minh hoạt động nghiên cứu khoa học, đo đạc, quan trắc, điều tra, thăm dò, khảo sát trên biển theo Mẫu số 15 của Nghị định số 11/2021/NĐ-CP (đã được bổ sung tại Nghị định số 65/2025/NĐ-CP);\n2.3.3. Thành phần hồ sơ đề nghị giao khu vực biển để nghiên cứu khoa học/đo đạc/quan trắc/điều tra/thăm dò/khảo sát trên biển bao gồm:: c) Văn bản chứng minh tư cách pháp nhân theo quy định pháp luật của nước nơi tổ chức được thành lập nếu là tổ chức nước ngoài; văn bản chứng minh năng lực hành vi dân sự đầy đủ theo quy định của nước nơi cá nhân mang quốc tịch nếu là cá nhân nước ngoài;\n2.3.3. Thành phần hồ sơ đề nghị giao khu vực biển để nghiên cứu khoa học/đo đạc/quan trắc/điều tra/thăm dò/khảo sát trên biển bao gồm:: a) Đơn đề nghị giao khu vực biển để thực hiện hoạt động nghiên cứu khoa học, đo đạc, quan trắc, điều tra, thăm dò, khảo sát trên biển theo Mẫu số 01 của Nghị định số 11/2021/NĐ-CP (đã được sửa đổi, bổ sung tại Nghị định số 65/2025/NĐ-CP);\n2.3.3. Thành phần hồ sơ đề nghị giao khu vực biển để nghiên cứu khoa học/đo đạc/quan trắc/điều tra/thăm dò/khảo sát trên biển bao gồm:: d) Sơ đồ khu vực biển đề nghị giao để thực hiện hoạt động nghiên cứu khoa học, đo đạc, quan trắc, điều tra, thăm dò, khảo sát trên biển, trong đó thể hiện tọa độ các điểm góc, diện tích, độ sâu, độ cao của khu vực biển đề nghị sử dụng.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 45 ngày làm việc\nQua dịch vụ bưu chính: 45 ngày làm việc\nTrực tiếp: 45 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 65/2025/NĐ-CP ngày 12 tháng 3 năm 2025 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 40/2016/NĐ-CP ngày 15 tháng 5 năm 2016 của Chính phủ quy định chi tiết thi hành một số điều của Luật Tài nguyên, môi trường biển và hải đảo và Nghị định số 11/2021/NĐ-CP ngày 10 tháng 02 năm 2021 của Chính phủ quy định việc giao các khu vực biển nhất định cho tổ chức, cá nhân khai thác, sử dụng tài nguyên biển. - 65/2025/NĐ-CP\n44/2026/NĐ-CP - 44/2026/NĐ-CP\nNghị định 11/2021/NĐ-CP - 11/2021/NĐ-CP\nNghị định 126/2020/NĐ-CP - 126/2020/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cục Biển và Hải đảo Việt Nam - Bộ NN và MT",
@@ -301,14 +220,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Biển và hải đảo",
-      "slug": "bien-va-hai-dao"
+      "slug": "bien-va-hai-ao"
     },
     "implementation_levels": [
       {
@@ -319,7 +233,7 @@
     "target_users": [
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -345,9 +259,9 @@
     "agencies": [
       {
         "name": "Cục Biển và Hải đảo Việt Nam - Bộ NN và MT",
-        "slug": "cuc-bien-va-hai-dao-viet-nam-bo-nn-va-mt"
+        "slug": "cuc-bien-va-hai-ao-viet-nam-bo-nn-va-mt"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

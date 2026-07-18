@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-a0bd-74de-a76c-8411ce260748",
   "procedure_code": "1.013562",
   "title": "Thủ tục cấp Giấy phép đi bờ cho thuyền viên nước ngoài",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-a0bd-74de-a76c-8411ce260748",
     "source_file": "chi-tiet-thu-tuc-1.013562.pdf",
     "source_path": "procedures/viec-lam/1.013562/chi-tiet-thu-tuc-1.013562.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:10.560341+00:00",
-    "source_updated_at": "2026-05-01T01:24:10.946Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:18.209427+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "8cad428c038197e0b61c6c357ecad625cd74832b13692d23c3122c0765115b47"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:10.560341+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1909/QĐ-BQP",
   "implementation_level": "Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Quản lý biên giới",
   "target_users": [
@@ -37,18 +32,15 @@
   ],
   "agency": {
     "competent_agency": "Biên phòng cửa khẩu cảng",
-    "executing_agency": "Đội Thủ tục Biên phòng cửa khẩu cảng",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Đội Thủ tục Biên phòng cửa khẩu cảng"
   },
   "steps": [
     {
       "order": 1,
       "title": "Trình tự thực hiện",
-      "description": "- Bước 1: Người làm thủ tục đăng ký đề nghị đi bờ cho thuyền viên nước ngoài tại mục ghi chú trong Bản khai chung (trực tuyến). Trường hợp chưa đăng ký tại Bản khai chung, thuyền trưởng gửi văn bản đề nghị đi bờ cho Biên phòng cửa khẩu cảng (trực tiếp);\n- Bước 2: Biên phòng cửa khẩu cảng tiếp nhận đề nghị đi bờ, thực hiện cấp Giấy phép đi bờ cho thuyền viên nước ngoài.\n",
+      "description": "- Bước 1: Người làm thủ tục đăng ký đề nghị đi bờ cho thuyền viên nước ngoài tại mục ghi chú trong Bản khai chung (trực tuyến). Trường hợp chưa đăng ký tại Bản khai chung, thuyền trưởng gửi văn bản đề nghị đi bờ cho Biên phòng cửa khẩu cảng (trực tiếp);\n- Bước 2: Biên phòng cửa khẩu cảng tiếp nhận đề nghị đi bờ, thực hiện cấp Giấy phép đi bờ cho thuyền viên nước ngoài.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -57,12 +49,9 @@
     "conditional": [
       {
         "name": "Đơn đề nghị đi bờ của thuyền viên (trường hợp chưa đăng ký tại Bản khai chung)",
-        "code": "000.00.00.G11-KQ0775",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -71,33 +60,22 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "0",
-      "processing_time_value": 0,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 3,
-          "currency": "019b3fb2-dee2-76ab-aa53-22d4d903a2bb",
-          "description": "Theo quy địnhThông tư số 138/2016/TT-BTC ngày 16/9/2016 của Bộ Tài chính quy định mức thu, chế độ thu, nộp lệ phí cấp giấy phép lên bờ cho thuyền viên nước ngoài, giấy phép xuống tàu nước ngoài, giấy phép cho người điều khiển phương tiện Việt Nam cặp mạn tàu nước ngoài và giấy phép cho người Việt Nam và người nước ngoài thực hiện các hoạt động báo chí, nghiên cứu khoa học, tham quan du lịch có liên quan đến tàu, thuyền nước ngoài: 03 USD/Giấy phép (trừ trường hợp được miễn lệ phí theo quy định của Bộ Tài chính).",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy địnhThông tư số 138/2016/TT-BTC ngày 16/9/2016 của Bộ Tài chính quy định mức thu, chế độ thu, nộp lệ phí cấp giấy phép lên bờ cho thuyền viên nước ngoài, giấy phép xuống tàu nước ngoài, giấy phép cho người điều khiển phương tiện Việt Nam cặp mạn tàu nước ngoài và giấy phép cho người Việt Nam và người nước ngoài thực hiện các hoạt động báo chí, nghiên cứu khoa học, tham quan du lịch có liên quan đến tàu, thuyền nước ngoài: 03 USD/Giấy phép (trừ trường hợp được miễn lệ phí theo quy định của Bộ Tài chính).",
       "description": "Người làm thủ tục đăng ký đề nghị đi bờ cho thuyền viên tại mục ghi chú trong Bản khai chung qua Cổng thông tin một cửa quốc gia hoặc Cổng thông tin thủ tục biên phòng điện tử cảng biển trong trường hợp tàu thuyền thực hiện thủ tục nhập cảnh, chuyển cảng đến theo phương thức điện tử",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Theo quy địnhThông tư số 138/2016/TT-BTC ngày 16/9/2016 của Bộ Tài chính quy định mức thu, chế độ thu, nộp lệ phí cấp giấy phép lên bờ cho thuyền viên nước ngoài, giấy phép xuống tàu nước ngoài, giấy phép cho người điều khiển phương tiện Việt Nam cặp mạn tàu nước ngoài và giấy phép cho người Việt Nam và người nước ngoài thực hiện các hoạt động báo chí, nghiên cứu khoa học, tham quan du lịch có liên quan đến tàu, thuyền nước ngoài: 03 USD/Giấy phép (trừ trường hợp được miễn lệ phí theo quy định của Bộ Tài chính).",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 3,
-        "currency": "019b3fb2-dee2-76ab-aa53-22d4d903a2bb",
-        "description": "Theo quy địnhThông tư số 138/2016/TT-BTC ngày 16/9/2016 của Bộ Tài chính quy định mức thu, chế độ thu, nộp lệ phí cấp giấy phép lên bờ cho thuyền viên nước ngoài, giấy phép xuống tàu nước ngoài, giấy phép cho người điều khiển phương tiện Việt Nam cặp mạn tàu nước ngoài và giấy phép cho người Việt Nam và người nước ngoài thực hiện các hoạt động báo chí, nghiên cứu khoa học, tham quan du lịch có liên quan đến tàu, thuyền nước ngoài: 03 USD/Giấy phép (trừ trường hợp được miễn lệ phí theo quy định của Bộ Tài chính).",
-        "attachment": null
+        "amount_text": "Theo quy địnhThông tư số 138/2016/TT-BTC ngày 16/9/2016 của Bộ Tài chính quy định mức thu, chế độ thu, nộp lệ phí cấp giấy phép lên bờ cho thuyền viên nước ngoài, giấy phép xuống tàu nước ngoài, giấy phép cho người điều khiển phương tiện Việt Nam cặp mạn tàu nước ngoài và giấy phép cho người Việt Nam và người nước ngoài thực hiện các hoạt động báo chí, nghiên cứu khoa học, tham quan du lịch có liên quan đến tàu, thuyền nước ngoài: 03 USD/Giấy phép (trừ trường hợp được miễn lệ phí theo quy định của Bộ Tài chính).",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -105,14 +83,12 @@
     {
       "title": "Quy định về quản lý, bảo an ninh, trật tự tại cửa khẩu cảng",
       "document_number": "77/2017/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b471-10f0667bd234",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư 138/2016/TT-BTC",
       "document_number": "138/2016/TT-BTC",
-      "id": "019d2bb3-5d86-7760-a63f-a5b5e3fdfa27",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "",
@@ -120,14 +96,13 @@
     {
       "title": "Giấy phép đi bờ của thuyền viên do Biên phòng cửa khẩu cảng cấp",
       "code": "KQ.G11.000269",
-      "id": "019d2bb2-1c6f-72b5-bd09-d1c93d63e0ee",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Người làm thủ tục đăng ký đề nghị đi bờ cho thuyền viên nước ngoài tại mục ghi chú trong Bản khai chung (trực tuyến). Trường hợp chưa đăng ký tại Bản khai chung, thuyền trưởng gửi văn bản đề nghị đi bờ cho Biên phòng cửa khẩu cảng (trực tiếp);\n- Bước 2: Biên phòng cửa khẩu cảng tiếp nhận đề nghị đi bờ, thực hiện cấp Giấy phép đi bờ cho thuyền viên nước ngoài.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nĐơn đề nghị đi bờ của thuyền viên (trường hợp chưa đăng ký tại Bản khai chung)",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 0 - Người làm thủ tục đăng ký đề nghị đi bờ cho thuyền viên tại mục ghi chú trong Bản khai chung qua Cổng thông tin một cửa quốc gia hoặc Cổng thông tin thủ tục biên phòng điện tử cảng biển trong trường hợp tàu thuyền thực hiện thủ tục nhập cảnh, chuyển cảng đến theo phương thức điện tử",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Người làm thủ tục đăng ký đề nghị đi bờ cho thuyền viên nước ngoài tại mục ghi chú trong Bản khai chung (trực tuyến). Trường hợp chưa đăng ký tại Bản khai chung, thuyền trưởng gửi văn bản đề nghị đi bờ cho Biên phòng cửa khẩu cảng (trực tiếp);\n- Bước 2: Biên phòng cửa khẩu cảng tiếp nhận đề nghị đi bờ, thực hiện cấp Giấy phép đi bờ cho thuyền viên nước ngoài.",
+    "THÀNH PHẦN HỒ SƠ": "Đơn đề nghị đi bờ của thuyền viên (trường hợp chưa đăng ký tại Bản khai chung)",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 0",
     "CĂN CỨ PHÁP LÝ": "Quy định về quản lý, bảo an ninh, trật tự tại cửa khẩu cảng - 77/2017/NĐ-CP\nThông tư 138/2016/TT-BTC - 138/2016/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Đội Thủ tục Biên phòng cửa khẩu cảng",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
@@ -136,11 +111,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Quản lý biên giới",
       "slug": "quan-ly-bien-gioi"
@@ -168,9 +138,9 @@
     "agencies": [
       {
         "name": "Đội Thủ tục Biên phòng cửa khẩu cảng",
-        "slug": "doi-thu-tuc-bien-phong-cua-khau-cang"
+        "slug": "oi-thu-tuc-bien-phong-cua-khau-cang"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

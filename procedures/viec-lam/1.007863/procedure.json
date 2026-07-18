@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-453e-70eb-8edd-8723aa382f7e",
   "procedure_code": "1.007863",
   "title": "Thủ tục hải quan đối với hàng hóa đưa ra đưa vào kho bảo thuế",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-453e-70eb-8edd-8723aa382f7e",
     "source_file": "chi-tiet-thu-tuc-1.007863.pdf",
     "source_path": "procedures/viec-lam/1.007863/chi-tiet-thu-tuc-1.007863.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:03.744827+00:00",
-    "source_updated_at": "2026-04-08T09:24:34.218Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:19.158650+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "1cfa0ee107695a67c6a9fd22223e25e956065286bdad4893011658884e122fb3"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:03.744827+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2770/QĐ-BTC",
   "implementation_level": "Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hải quan",
   "target_users": [
@@ -39,18 +34,36 @@
   ],
   "agency": {
     "competent_agency": "Chi cục Hải quan khu vực",
-    "executing_agency": "Chi cục Hải quan khu vực",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Chi cục Hải quan khu vực"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "+ Bước 1: Doanh nghiệp làm thủ tục hải quan nhập khẩu nguyên liệu, vật tư \n+ Bước 2: Thông tin trên tờ khai hải quan được Hệ thống tự động kiểm tra để đánh giá các điều kiện được chấp nhận đăng ký tờ khai hải quan. Trường hợp khai hải quan trên tờ khai hải quan giấy, công chức hải quan thực hiện kiểm tra điều kiện đăng ký tờ khai và các chứng từ thuộc hồ sơ hải quan.\n+ Bước 3: Căn cứ quyết định kiểm tra hải quan được Hệ thống tự động thông báo, việc xử lý được thực hiện: Chấp nhận thông tin khai Tờ khai hải quan và quyết định thông quan hàng hóa. \nKiểm tra các chứng từ liên quan thuộc hồ sơ hải quan do người khai hải quan nộp, xuất trình hoặc các chứng từ có liên quan trên cổng thông tin một cửa quốc gia để quyết định việc thông quan hàng hóa hoặc kiểm tra thực tế hàng hóa để quyết định thông quan. \n+ Bước 4: Thông quan hàng hóa.\n",
+      "description": "+ Bước 1: Doanh nghiệp làm thủ tục hải quan nhập khẩu nguyên liệu, vật tư",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "+ Bước 2: Thông tin trên tờ khai hải quan được Hệ thống tự động kiểm tra để đánh giá các điều kiện được chấp nhận đăng ký tờ khai hải quan. Trường hợp khai hải quan trên tờ khai hải quan giấy, công chức hải quan thực hiện kiểm tra điều kiện đăng ký tờ khai và các chứng từ thuộc hồ sơ hải quan.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "+ Bước 3: Căn cứ quyết định kiểm tra hải quan được Hệ thống tự động thông báo, việc xử lý được thực hiện: Chấp nhận thông tin khai Tờ khai hải quan và quyết định thông quan hàng hóa. \nKiểm tra các chứng từ liên quan thuộc hồ sơ hải quan do người khai hải quan nộp, xuất trình hoặc các chứng từ có liên quan trên cổng thông tin một cửa quốc gia để quyết định việc thông quan hàng hóa hoặc kiểm tra thực tế hàng hóa để quyết định thông quan.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "+ Bước 4: Thông quan hàng hóa.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -59,75 +72,51 @@
     "conditional": [
       {
         "name": "+ Vận tải đơn hoặc các chứng từ vận tải khác có giá trị tương đương đối với trường hợp hàng hóa vận chuyển bằng đường biển, đường hàng không, đường sắt, vận tải đa phương thức theo quy định của pháp luật (trừ hàng hoá nhập khẩu qua cửa khẩu biên giới đường bộ, hàng hoá mua bán giữa khu phi thuế quan và nội địa, hàng hóa nhập khẩu do người nhập cảnh mang theo đường hành lý): 01 bản chụp;",
-        "code": "000.00.00.G12-KQ5889",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Giấy phép nhập khẩu đối với hàng hóa phải có giấy phép nhập khẩu; Giấy phép nhập khẩu theo hạn ngạch thuế quan: 01 bản chính nếu xuất khẩu một lần hoặc 01 bản chụp kèm theo Phiếu theo dõi trừ lùi nếu xuất khẩu nhiều lần;",
-        "code": "000.00.00.G12-KQ5890",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Hóa đơn thương mại trong trường hợp người mua phải thanh toán cho người bán: 01 bản chụp;",
-        "code": "000.00.00.G12-KQ5888",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Giấy thông báo miễn kiểm tra hoặc giấy thông báo kết quả kiểm tra của cơ quan kiểm tra chuyên ngành theo quy định của pháp luật: 01 bản chính.",
-        "code": "000.00.00.G12-KQ5967",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Chứng từ chứng nhận xuất xứ hàng hóa (Giấy chứng nhận xuất xứ hàng hóa hoặc Chứng từ tự chứng nhận xuất xứ): 01 bản chính hoặc chứng từ dưới dạng dữ liệu điện tử.",
-        "code": "000.00.00.G12-KQ5894",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Tờ khai trị giá: Người khai hải quan khai tờ khai trị giá theo mẫu, gửi đến Hệ thống dưới dạng dữ liệu điện tử hoặc nộp cho cơ quan hải quan 02 bản chính (đối với trường hợp khai trên tờ khai hải quan giấy). Các trường hợp phải khai tờ khai trị giá và mẫu tờ khai trị giá thực hiện theo Thông tư của Bộ Tài chính quy định về việc xác định trị giá hải quan đối với hàng hóa xuất khẩu, nhập khẩu;",
-        "code": "000.00.00.G12-KQ5893",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Đối với chứng từ quy định tại điểm d, điểm đ khoản này, nếu áp dụng cơ chế một cửa quốc gia, cơ quan quản lý nhà nước chuyên ngành gửi giấy phép nhập khẩu, văn bản thông báo kết quả kiểm tra, miễn kiểm tra chuyên ngành dưới dạng điện tử thông qua Cổng thông tin một cửa quốc gia, người khai hải quan không phải nộp khi làm thủ tục hải quan;",
-        "code": "000.00.00.G12-KQ8510",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "+ Tờ khai hàng hóa nhập khẩu theo các chỉ tiêu thông tin tại Phụ lục II ban hành kèm Thông tư số 38/2015/TT-BTC. Trường hợp thực hiện trên tờ khai hải quan giấy theo quy định tại khoản 2 Điều 25 Nghị định số 08/2015/NĐ-CP, người khai hải quan khai và nộp 02 bản chính tờ khai hàng hóa nhập khẩu theo mẫu HQ/2015/NK Phụ lục IV ban hành kèm Thông tư số 38/2015/TT-BTC;",
-        "code": "000.00.00.G12-KQ5899",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -136,60 +125,37 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 20,
-          "currency": "VND",
-          "description": "20.000 đ/tờ khai",
-          "attachment": null
-        }
-      ],
+      "fee": "20.000 đ/tờ khai",
       "description": "",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 20,
-          "currency": "VND",
-          "description": "20.000Đ/tờ khai",
-          "attachment": null
-        }
-      ],
+      "fee": "20.000Đ/tờ khai",
       "description": "",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "20.000 đ/tờ khai; 20.000Đ/tờ khai",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 20,
-        "currency": "VND",
-        "description": "20.000 đ/tờ khai",
-        "attachment": null
+        "amount_text": "20.000 đ/tờ khai",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 20,
-        "currency": "VND",
-        "description": "20.000Đ/tờ khai",
-        "attachment": null
+        "amount_text": "20.000Đ/tờ khai",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -197,20 +163,17 @@
     {
       "title": "Quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu thuế nhập khẩu và quản lý thuế đối vớỉ hàng hoá xuất khẩu, nhập khẩu.",
       "document_number": "38/2015/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4d-1c6dbc289d7a",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật 54/2014/QH13",
       "document_number": "54/2014/QH13",
-      "id": "019d2bb3-5d7d-7398-be4d-ff62cdf67da5",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 08/2015/NĐ-CP",
       "document_number": "08/2015/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe7-9c25863596db",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -218,13 +181,12 @@
     {
       "title": "Thông quan hàng hóa nhập khẩu, xuất khẩu",
       "code": "KQ.G12.000355",
-      "id": "019d2bb2-1c70-724b-96e0-46e541515789",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Doanh nghiệp làm thủ tục hải quan nhập khẩu nguyên liệu, vật tư \n+ Bước 2: Thông tin trên tờ khai hải quan được Hệ thống tự động kiểm tra để đánh giá các điều kiện được chấp nhận đăng ký tờ khai hải quan. Trường hợp khai hải quan trên tờ khai hải quan giấy, công chức hải quan thực hiện kiểm tra điều kiện đăng ký tờ khai và các chứng từ thuộc hồ sơ hải quan.\n+ Bước 3: Căn cứ quyết định kiểm tra hải quan được Hệ thống tự động thông báo, việc xử lý được thực hiện: Chấp nhận thông tin khai Tờ khai hải quan và quyết định thông quan hàng hóa. \nKiểm tra các chứng từ liên quan thuộc hồ sơ hải quan do người khai hải quan nộp, xuất trình hoặc các chứng từ có liên quan trên cổng thông tin một cửa quốc gia để quyết định việc thông quan hàng hóa hoặc kiểm tra thực tế hàng hóa để quyết định thông quan. \n+ Bước 4: Thông quan hàng hóa.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n+ Vận tải đơn hoặc các chứng từ vận tải khác có giá trị tương đương đối với trường hợp hàng hóa vận chuyển bằng đường biển, đường hàng không, đường sắt, vận tải đa phương thức theo quy định của pháp luật (trừ hàng hoá nhập khẩu qua cửa khẩu biên giới đường bộ, hàng hoá mua bán giữa khu phi thuế quan và nội địa, hàng hóa nhập khẩu do người nhập cảnh mang theo đường hành lý): 01 bản chụp;\n+ Giấy phép nhập khẩu đối với hàng hóa phải có giấy phép nhập khẩu; Giấy phép nhập khẩu theo hạn ngạch thuế quan: 01 bản chính nếu xuất khẩu một lần hoặc 01 bản chụp kèm theo Phiếu theo dõi trừ lùi nếu xuất khẩu nhiều lần;\n+ Hóa đơn thương mại trong trường hợp người mua phải thanh toán cho người bán: 01 bản chụp;\n+ Giấy thông báo miễn kiểm tra hoặc giấy thông báo kết quả kiểm tra của cơ quan kiểm tra chuyên ngành theo quy định của pháp luật: 01 bản chính.\n+ Chứng từ chứng nhận xuất xứ hàng hóa (Giấy chứng nhận xuất xứ hàng hóa hoặc Chứng từ tự chứng nhận xuất xứ): 01 bản chính hoặc chứng từ dưới dạng dữ liệu điện tử.\n+ Tờ khai trị giá: Người khai hải quan khai tờ khai trị giá theo mẫu, gửi đến Hệ thống dưới dạng dữ liệu điện tử hoặc nộp cho cơ quan hải quan 02 bản chính (đối với trường hợp khai trên tờ khai hải quan giấy). Các trường hợp phải khai tờ khai trị giá và mẫu tờ khai trị giá thực hiện theo Thông tư của Bộ Tài chính quy định về việc xác định trị giá hải quan đối với hàng hóa xuất khẩu, nhập khẩu;\nĐối với chứng từ quy định tại điểm d, điểm đ khoản này, nếu áp dụng cơ chế một cửa quốc gia, cơ quan quản lý nhà nước chuyên ngành gửi giấy phép nhập khẩu, văn bản thông báo kết quả kiểm tra, miễn kiểm tra chuyên ngành dưới dạng điện tử thông qua Cổng thông tin một cửa quốc gia, người khai hải quan không phải nộp khi làm thủ tục hải quan;\n+ Tờ khai hàng hóa nhập khẩu theo các chỉ tiêu thông tin tại Phụ lục II ban hành kèm Thông tư số 38/2015/TT-BTC. Trường hợp thực hiện trên tờ khai hải quan giấy theo quy định tại khoản 2 Điều 25 Nghị định số 08/2015/NĐ-CP, người khai hải quan khai và nộp 02 bản chính tờ khai hàng hóa nhập khẩu theo mẫu HQ/2015/NK Phụ lục IV ban hành kèm Thông tư số 38/2015/TT-BTC;",
+    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Doanh nghiệp làm thủ tục hải quan nhập khẩu nguyên liệu, vật tư\n+ Bước 2: Thông tin trên tờ khai hải quan được Hệ thống tự động kiểm tra để đánh giá các điều kiện được chấp nhận đăng ký tờ khai hải quan. Trường hợp khai hải quan trên tờ khai hải quan giấy, công chức hải quan thực hiện kiểm tra điều kiện đăng ký tờ khai và các chứng từ thuộc hồ sơ hải quan.\n+ Bước 3: Căn cứ quyết định kiểm tra hải quan được Hệ thống tự động thông báo, việc xử lý được thực hiện: Chấp nhận thông tin khai Tờ khai hải quan và quyết định thông quan hàng hóa. \nKiểm tra các chứng từ liên quan thuộc hồ sơ hải quan do người khai hải quan nộp, xuất trình hoặc các chứng từ có liên quan trên cổng thông tin một cửa quốc gia để quyết định việc thông quan hàng hóa hoặc kiểm tra thực tế hàng hóa để quyết định thông quan.\n+ Bước 4: Thông quan hàng hóa.",
+    "THÀNH PHẦN HỒ SƠ": "+ Vận tải đơn hoặc các chứng từ vận tải khác có giá trị tương đương đối với trường hợp hàng hóa vận chuyển bằng đường biển, đường hàng không, đường sắt, vận tải đa phương thức theo quy định của pháp luật (trừ hàng hoá nhập khẩu qua cửa khẩu biên giới đường bộ, hàng hoá mua bán giữa khu phi thuế quan và nội địa, hàng hóa nhập khẩu do người nhập cảnh mang theo đường hành lý): 01 bản chụp;\n+ Giấy phép nhập khẩu đối với hàng hóa phải có giấy phép nhập khẩu; Giấy phép nhập khẩu theo hạn ngạch thuế quan: 01 bản chính nếu xuất khẩu một lần hoặc 01 bản chụp kèm theo Phiếu theo dõi trừ lùi nếu xuất khẩu nhiều lần;\n+ Hóa đơn thương mại trong trường hợp người mua phải thanh toán cho người bán: 01 bản chụp;\n+ Giấy thông báo miễn kiểm tra hoặc giấy thông báo kết quả kiểm tra của cơ quan kiểm tra chuyên ngành theo quy định của pháp luật: 01 bản chính.\n+ Chứng từ chứng nhận xuất xứ hàng hóa (Giấy chứng nhận xuất xứ hàng hóa hoặc Chứng từ tự chứng nhận xuất xứ): 01 bản chính hoặc chứng từ dưới dạng dữ liệu điện tử.\n+ Tờ khai trị giá: Người khai hải quan khai tờ khai trị giá theo mẫu, gửi đến Hệ thống dưới dạng dữ liệu điện tử hoặc nộp cho cơ quan hải quan 02 bản chính (đối với trường hợp khai trên tờ khai hải quan giấy). Các trường hợp phải khai tờ khai trị giá và mẫu tờ khai trị giá thực hiện theo Thông tư của Bộ Tài chính quy định về việc xác định trị giá hải quan đối với hàng hóa xuất khẩu, nhập khẩu;\nĐối với chứng từ quy định tại điểm d, điểm đ khoản này, nếu áp dụng cơ chế một cửa quốc gia, cơ quan quản lý nhà nước chuyên ngành gửi giấy phép nhập khẩu, văn bản thông báo kết quả kiểm tra, miễn kiểm tra chuyên ngành dưới dạng điện tử thông qua Cổng thông tin một cửa quốc gia, người khai hải quan không phải nộp khi làm thủ tục hải quan;\n+ Tờ khai hàng hóa nhập khẩu theo các chỉ tiêu thông tin tại Phụ lục II ban hành kèm Thông tư số 38/2015/TT-BTC. Trường hợp thực hiện trên tờ khai hải quan giấy theo quy định tại khoản 2 Điều 25 Nghị định số 08/2015/NĐ-CP, người khai hải quan khai và nộp 02 bản chính tờ khai hàng hóa nhập khẩu theo mẫu HQ/2015/NK Phụ lục IV ban hành kèm Thông tư số 38/2015/TT-BTC;",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 1\nTrực tiếp: 1",
     "CĂN CỨ PHÁP LÝ": "Quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu thuế nhập khẩu và quản lý thuế đối vớỉ hàng hoá xuất khẩu, nhập khẩu. - 38/2015/TT-BTC\nLuật 54/2014/QH13 - 54/2014/QH13\nNghị định 08/2015/NĐ-CP - 08/2015/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Chi cục Hải quan khu vực",
@@ -234,11 +196,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hải quan",
       "slug": "hai-quan"
@@ -260,7 +217,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -277,6 +234,6 @@
         "slug": "chi-cuc-hai-quan-khu-vuc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

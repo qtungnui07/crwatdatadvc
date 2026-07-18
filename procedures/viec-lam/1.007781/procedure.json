@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-3d2a-736b-8a5d-d5516d441629",
   "procedure_code": "1.007781",
   "title": "Thủ tục xác nhận hoàn thành nghĩa vụ nộp thuế",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-3d2a-736b-8a5d-d5516d441629",
     "source_file": "chi-tiet-thu-tuc-1.007781.pdf",
     "source_path": "procedures/viec-lam/1.007781/chi-tiet-thu-tuc-1.007781.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:03.645332+00:00",
-    "source_updated_at": "2026-04-08T09:24:34.220Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:18.044232+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "e6c92a168a8c7b9a94fd0043a95e14ab1a004309ecfaad20cc15914a25856bb6"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:03.645332+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "711/QĐ-BTC",
   "implementation_level": "Cấp bộ, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hải quan",
   "target_users": [
@@ -39,18 +34,22 @@
   ],
   "agency": {
     "competent_agency": "Cục Hải quan - Bộ tài chính",
-    "executing_agency": "Cục Hải quan - Bộ tài chính",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Hải quan - Bộ tài chính"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Người nộp thuế có văn bản đề nghị xác nhận hoàn thành nghĩa vụ nộp thuế gửi Tổng cục Hải quan và các tài liệu theo quy định.\n- Bước 2: Tổng cục Hải quan tiếp nhận, kiểm tra hồ sơ, căn cứ hệ thống kế toán tập trung để xác nhận và thông báo kết quả cho người nộp thuế biết.\n",
+      "description": "- Bước 1: Người nộp thuế có văn bản đề nghị xác nhận hoàn thành nghĩa vụ nộp thuế gửi Tổng cục Hải quan và các tài liệu theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Tổng cục Hải quan tiếp nhận, kiểm tra hồ sơ, căn cứ hệ thống kế toán tập trung để xác nhận và thông báo kết quả cho người nộp thuế biết.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -59,39 +58,27 @@
     "conditional": [
       {
         "name": "+ Giấy chứng nhận đăng ký kinh doanh (hoặc Giấy chứng nhận Đầu tư; Giấy chứng nhận thành lập doanh nghiệp; hoặc các Giấy tờ khác có giá trị tương đương quy định về việc thành lập doanh nghiệp): 01 bản chụp từ bản chính (có xác nhận, ký tên, đóng dấu của người nộp thuế);",
-        "code": "000.00.00.G12-KQ8624",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Giấy chứng nhận đăng ký mã số thuế: 01 bản chụp từ bản chính (có xác nhận, ký tên, đóng dấu của người nộp thuế) (Trường hợp khai thác được thông tin trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp: Tổ chức, cá nhân, doanh nghiệp không phải nộp Bản sao Giấy chứng nhận đăng ký doanh nghiệp). ;",
-        "code": "000.00.00.G12-KQ8625",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Tài liệu khác có liên quan đến nội dung xác nhận: 01 bản chụp từ bản chính (có xác nhận, ký tên, đóng dấu của người nộp thuế);",
-        "code": "000.00.00.G12-KQ8626",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Văn bản đề nghị xác nhận hoàn thành nghĩa vụ nộp thuế do người đại diện theo pháp luật của doanh nghiệp ký, đóng dấu (trường hợp người đại diện theo uỷ quyền ký thì phải có giấy uỷ quyền của người đại diện theo pháp luật) (01 bản chính), trong đó có các nội dung: ++ Tên người nộp thuế, mã số thuế; ++ Nội dung, mục đích, yêu cầu xác nhận; ++ Tài liệu chứng minh nội dung yêu cầu xác nhận (bản chụp).",
-        "code": "000.00.00.G12-KQ8623",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -100,17 +87,7 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -118,42 +95,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -161,20 +125,17 @@
     {
       "title": "Quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu thuế nhập khẩu và quản lý thuế đối vớỉ hàng hoá xuất khẩu, nhập khẩu.",
       "document_number": "38/2015/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4d-1c6dbc289d7a",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 83/2013/NĐ-CP Quy định chi tiết thi hành một số điều của Luật Quản lý thuế và Luật Sửa đổi, bổ sung một số điều của Luật Quản lý thuế",
       "document_number": "83/2013/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b471-debc86bd26a2",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật 78/2006/QH11",
       "document_number": "78/2006/QH11",
-      "id": "019d2bb3-5d84-71c5-b670-dd41d5f535c2",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -182,25 +143,22 @@
     {
       "title": "Trường hợp không xác nhận phải có văn bản thông báo cụ thể lý do không xác nhận",
       "code": "KQ.G12.001262",
-      "id": "019d2bb2-1c73-70ac-aa17-73742b578d64",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Xác nhận việc thực hiện nghĩa vụ nộp thuế",
       "code": "KQ.G12.001261",
-      "id": "019d2bb2-1c73-70ac-aa17-6df02a054884",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Trường hợp cần kiểm tra, đối chiếu lại các thông tin về tình hình thực hiện nghĩa vụ thuế của người nộp thuế trước khi xác nhận, cơ quan hải quan gửi thông báo cho người nộp thuế biết lý do chưa xác nhận",
       "code": "KQ.G12.001263",
-      "id": "019d2bb2-1c73-70ac-aa17-77ffbe06b12a",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Người nộp thuế có văn bản đề nghị xác nhận hoàn thành nghĩa vụ nộp thuế gửi Tổng cục Hải quan và các tài liệu theo quy định.\n- Bước 2: Tổng cục Hải quan tiếp nhận, kiểm tra hồ sơ, căn cứ hệ thống kế toán tập trung để xác nhận và thông báo kết quả cho người nộp thuế biết.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n+ Giấy chứng nhận đăng ký kinh doanh (hoặc Giấy chứng nhận Đầu tư; Giấy chứng nhận thành lập doanh nghiệp; hoặc các Giấy tờ khác có giá trị tương đương quy định về việc thành lập doanh nghiệp): 01 bản chụp từ bản chính (có xác nhận, ký tên, đóng dấu của người nộp thuế);\n+ Giấy chứng nhận đăng ký mã số thuế: 01 bản chụp từ bản chính (có xác nhận, ký tên, đóng dấu của người nộp thuế) (Trường hợp khai thác được thông tin trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp: Tổ chức, cá nhân, doanh nghiệp không phải nộp Bản sao Giấy chứng nhận đăng ký doanh nghiệp). ;\n+ Tài liệu khác có liên quan đến nội dung xác nhận: 01 bản chụp từ bản chính (có xác nhận, ký tên, đóng dấu của người nộp thuế);\n+ Văn bản đề nghị xác nhận hoàn thành nghĩa vụ nộp thuế do người đại diện theo pháp luật của doanh nghiệp ký, đóng dấu (trường hợp người đại diện theo uỷ quyền ký thì phải có giấy uỷ quyền của người đại diện theo pháp luật) (01 bản chính), trong đó có các nội dung: ++ Tên người nộp thuế, mã số thuế; ++ Nội dung, mục đích, yêu cầu xác nhận; ++ Tài liệu chứng minh nội dung yêu cầu xác nhận (bản chụp).",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Người nộp thuế có văn bản đề nghị xác nhận hoàn thành nghĩa vụ nộp thuế gửi Tổng cục Hải quan và các tài liệu theo quy định.\n- Bước 2: Tổng cục Hải quan tiếp nhận, kiểm tra hồ sơ, căn cứ hệ thống kế toán tập trung để xác nhận và thông báo kết quả cho người nộp thuế biết.",
+    "THÀNH PHẦN HỒ SƠ": "+ Giấy chứng nhận đăng ký kinh doanh (hoặc Giấy chứng nhận Đầu tư; Giấy chứng nhận thành lập doanh nghiệp; hoặc các Giấy tờ khác có giá trị tương đương quy định về việc thành lập doanh nghiệp): 01 bản chụp từ bản chính (có xác nhận, ký tên, đóng dấu của người nộp thuế);\n+ Giấy chứng nhận đăng ký mã số thuế: 01 bản chụp từ bản chính (có xác nhận, ký tên, đóng dấu của người nộp thuế) (Trường hợp khai thác được thông tin trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp: Tổ chức, cá nhân, doanh nghiệp không phải nộp Bản sao Giấy chứng nhận đăng ký doanh nghiệp). ;\n+ Tài liệu khác có liên quan đến nội dung xác nhận: 01 bản chụp từ bản chính (có xác nhận, ký tên, đóng dấu của người nộp thuế);\n+ Văn bản đề nghị xác nhận hoàn thành nghĩa vụ nộp thuế do người đại diện theo pháp luật của doanh nghiệp ký, đóng dấu (trường hợp người đại diện theo uỷ quyền ký thì phải có giấy uỷ quyền của người đại diện theo pháp luật) (01 bản chính), trong đó có các nội dung: ++ Tên người nộp thuế, mã số thuế; ++ Nội dung, mục đích, yêu cầu xác nhận; ++ Tài liệu chứng minh nội dung yêu cầu xác nhận (bản chụp).",
     "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 5 ngày làm việc\nTrực tiếp: 5 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu thuế nhập khẩu và quản lý thuế đối vớỉ hàng hoá xuất khẩu, nhập khẩu. - 38/2015/TT-BTC\nNghị định 83/2013/NĐ-CP Quy định chi tiết thi hành một số điều của Luật Quản lý thuế và Luật Sửa đổi, bổ sung một số điều của Luật Quản lý thuế - 83/2013/NĐ-CP\nLuật 78/2006/QH11 - 78/2006/QH11",
     "CƠ QUAN THỰC HIỆN": "Cục Hải quan - Bộ tài chính",
@@ -210,11 +168,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hải quan",
       "slug": "hai-quan"
@@ -236,7 +189,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -253,6 +206,6 @@
         "slug": "cuc-hai-quan-bo-tai-chinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

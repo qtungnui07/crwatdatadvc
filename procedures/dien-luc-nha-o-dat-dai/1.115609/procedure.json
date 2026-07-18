@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019f56ce-eb3c-71f9-b798-ad2b03621700",
   "procedure_code": "1.115609",
   "title": "Đăng ký đất đai lần đầu đối với trường hợp được Nhà nước giao đất để quản lý",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019f56ce-eb3c-71f9-b798-ad2b03621700",
     "source_file": "chi-tiet-thu-tuc-1.115609.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.115609/chi-tiet-thu-tuc-1.115609.pdf",
     "page_count": 7,
-    "extracted_at": "2026-07-18T02:22:18.789664+00:00",
-    "source_updated_at": "2026-07-13T10:17:07.674Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:57:18.927827+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "8435c857db2aca919b386f34385de20ef7683990e85276f887a40b3e64064016"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:18.789664+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2670/QĐ-UBND",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đất đai",
   "target_users": [
@@ -36,102 +32,74 @@
   ],
   "agency": {
     "competent_agency": "Văn phòng đăng ký đất đai; Chi nhánh Văn phòng đăng ký đất đai khu vực",
-    "executing_agency": "Văn phòng đăng ký đất đai",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Các Trung tâm Phục vụ HCC trên địa bàn thành phố Hải Phòng"
+    "executing_agency": "Văn phòng đăng ký đất đai"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ trực tuyến trên Cổng dịch vụ công quốc gia hoặc ứng dụng định danh quốc gia hoặc trực tiếp (hoặc thông qua dịch vụ bưu chính) đến Trung tâm Phục vụ hành chính công thành phố hoặc Trung tâm Phục vụ hành chính công cấp xã.\nKhi nộp các giấy tờ quy định, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực theo quy định của pháp luật.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.\nBước 2: Trung tâm Phục vụ hành chính công thành phố hoặc Trung tâm Phục vụ hành chính công cấp xã thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Văn phòng Đăng ký đất đai hoặc Chi nhánh Văn phòng Đăng ký đất đai.\nBước 3: Văn phòng Đăng ký đất đai, Chi nhánh Văn phòng Đăng ký đất đai thực hiện việc lập, cập nhật, chỉnh lý biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai. Thông báo xác nhận kết quả đăng ký đất đai cho Người được giao quản lý đất về kết quả đăng ký đất đai, tài sản gắn liền với đất.",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ trực tuyến trên Cổng dịch vụ công quốc gia hoặc ứng dụng định danh quốc gia hoặc trực tiếp (hoặc thông qua dịch vụ bưu chính) đến Trung tâm Phục vụ hành chính công thành phố hoặc Trung tâm Phục vụ hành chính công cấp xã.\nKhi nộp các giấy tờ quy định, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực theo quy định của pháp luật.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Trung tâm Phục vụ hành chính công thành phố hoặc Trung tâm Phục vụ hành chính công cấp xã thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Văn phòng Đăng ký đất đai hoặc Chi nhánh Văn phòng Đăng ký đất đai.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Văn phòng Đăng ký đất đai, Chi nhánh Văn phòng Đăng ký đất đai thực hiện việc lập, cập nhật, chỉnh lý biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai. Thông báo xác nhận kết quả đăng ký đất đai cho Người được giao quản lý đất về kết quả đăng ký đất đai, tài sản gắn liền với đất.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Đơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 21 Phụ lục số 04 ban hành kèm theo Quyết định số 52/2026/QĐ-UBND",
-        "code": "TP-H24.000040",
+        "name": "Người được giao quản lý đất quy định tại các khoản 1, 2 và 3 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:: Đơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 21 Phụ lục số 04 ban hành kèm theo Quyết định số 52/2026/QĐ-UBND",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Người được giao quản lý đất quy định tại các khoản 1, 2 và 3 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:",
-        "attachments": [
-          {
-            "id": "019f56cb-8819-712d-85f4-6ce3d9a0abed",
-            "name": "Mẫu 21.pdf",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu 21.pdf",
+        "source_page": 2
       },
       {
-        "name": "Báo cáo kết quả rà soát hiện trạng sử dụng đất của người được giao quản lý đất theo Mẫu số 21đ Phụ lục số 04 ban hành kèm theo Quyết định số 52/2026/QĐ-UBND",
-        "code": "TP-H24.000041",
+        "name": "Người được giao quản lý đất quy định tại các khoản 1, 2 và 3 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:: Báo cáo kết quả rà soát hiện trạng sử dụng đất của người được giao quản lý đất theo Mẫu số 21đ Phụ lục số 04 ban hành kèm theo Quyết định số 52/2026/QĐ-UBND",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Người được giao quản lý đất quy định tại các khoản 1, 2 và 3 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:",
-        "attachments": [
-          {
-            "id": "019f56cc-1c76-728f-a057-95763a9d8c77",
-            "name": "Mẫu 21.pdf",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu 21.pdf",
+        "source_page": 2
       },
       {
-        "name": "Trích lục bản đồ địa chính (nếu có) hoặc Mảnh trích đo bản đồ địa chính thửa đất đối với trường hợp phải trích đo bản đồ địa chính hoặc Phiếu đo đạc chỉnh lý thửa đất đối với trường hợp phải đo đạc chỉnh lý bản đồ địa chính.",
-        "code": "TP-H24.000042",
+        "name": "Người được giao quản lý đất quy định tại các khoản 1, 2 và 3 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:: Trích lục bản đồ địa chính (nếu có) hoặc Mảnh trích đo bản đồ địa chính thửa đất đối với trường hợp phải trích đo bản đồ địa chính hoặc Phiếu đo đạc chỉnh lý thửa đất đối với trường hợp phải đo đạc chỉnh lý bản đồ địa chính.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Người được giao quản lý đất quy định tại các khoản 1, 2 và 3 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Quyết định giao đất để quản lý (nếu có",
-        "code": "TP-H24.000043",
+        "name": "Người được giao quản lý đất quy định tại các khoản 1, 2 và 3 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:: Quyết định giao đất để quản lý (nếu có",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Người được giao quản lý đất quy định tại các khoản 1, 2 và 3 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Đơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 21 Phụ lục số 04 ban hành kèm theo Quyết định số 52/2026/QĐ-UBND",
-        "code": "TP-H24.000040",
+        "name": "Người được giao quản lý đất quy định tại khoản 4 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:: Đơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 21 Phụ lục số 04 ban hành kèm theo Quyết định số 52/2026/QĐ-UBND",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Người được giao quản lý đất quy định tại khoản 4 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:",
-        "attachments": [
-          {
-            "id": "019f56cb-8819-712d-85f4-6ce3d9a0abed",
-            "name": "Mẫu 21.pdf",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu 21.pdf",
+        "source_page": 2
       },
       {
-        "name": "Trích lục bản đồ địa chính (nếu có) hoặc Mảnh trích đo bản đồ địa chính thửa đất đối với trường hợp phải trích đo bản đồ địa chính hoặc Phiếu đo đạc chỉnh lý thửa đất đối với trường hợp phải đo đạc chỉnh lý bản đồ địa chính.",
-        "code": "TP-H24.000042",
+        "name": "Người được giao quản lý đất quy định tại khoản 4 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:: Trích lục bản đồ địa chính (nếu có) hoặc Mảnh trích đo bản đồ địa chính thửa đất đối với trường hợp phải trích đo bản đồ địa chính hoặc Phiếu đo đạc chỉnh lý thửa đất đối với trường hợp phải đo đạc chỉnh lý bản đồ địa chính.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Người được giao quản lý đất quy định tại khoản 4 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Quyết định giao đất để quản lý (nếu có",
-        "code": "TP-H24.000043",
+        "name": "Người được giao quản lý đất quy định tại khoản 4 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:: Quyết định giao đất để quản lý (nếu có",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Người được giao quản lý đất quy định tại khoản 4 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -142,34 +110,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "- Không quá 10 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, chính xác. Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 20 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, chính xác.\n- Thời hạn giải quyết nêu trên không bao gồm thời gian trích đo bản đồ địa chính hoặc đo đạc chỉnh lý bản đồ địa chính.",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "- Không quá 10 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, chính xác. Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 20 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, chính xác.\n- Thời hạn giải quyết nêu trên không bao gồm thời gian trích đo bản đồ địa chính hoặc đo đạc chỉnh lý bản đồ địa chính.",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "- Không quá 10 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, chính xác. Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 20 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, chính xác.\n- Thời hạn giải quyết nêu trên không bao gồm thời gian trích đo bản đồ địa chính hoặc đo đạc chỉnh lý bản đồ địa chính.",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -178,38 +141,32 @@
     {
       "title": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
       "document_number": "118/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "49/2026/NĐ-CP",
-      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "về việc phân cấp thực hiện một số nhiệm vụ trong lĩnh vực đất đai và trình tự, thủ tục hành chính về đất đai trên địa bàn thành phố Hải Phòng.",
       "document_number": "52/2026/QĐ-UBND",
-      "id": "019f5596-3370-729e-8167-4f2e7f14c235",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "254/2025/QH15",
-      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
-      "document_number": "31/2024/QH15 ",
-      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
-      "source_page": null
+      "document_number": "31/2024/QH15",
+      "source_page": 7
     },
     {
       "title": "Luật số 43/2024/QH15 ngày 29/6/2024",
       "document_number": "43/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b673-29122897c8a3",
-      "source_page": null
+      "source_page": 7
     }
   ],
   "conditions": "",
@@ -217,15 +174,14 @@
     {
       "title": "Lập, cập nhật, chỉnh lý biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai",
       "code": "KQ-H24.000013",
-      "id": "019f56ce-4ea2-7128-964b-1c3a67285064",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ trực tuyến trên Cổng dịch vụ công quốc gia hoặc ứng dụng định danh quốc gia hoặc trực tiếp (hoặc thông qua dịch vụ bưu chính) đến Trung tâm Phục vụ hành chính công thành phố hoặc Trung tâm Phục vụ hành chính công cấp xã.\nKhi nộp các giấy tờ quy định, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực theo quy định của pháp luật.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.\nBước 2: Trung tâm Phục vụ hành chính công thành phố hoặc Trung tâm Phục vụ hành chính công cấp xã thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\nTrường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Văn phòng Đăng ký đất đai hoặc Chi nhánh Văn phòng Đăng ký đất đai.\nBước 3: Văn phòng Đăng ký đất đai, Chi nhánh Văn phòng Đăng ký đất đai thực hiện việc lập, cập nhật, chỉnh lý biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai. Thông báo xác nhận kết quả đăng ký đất đai cho Người được giao quản lý đất về kết quả đăng ký đất đai, tài sản gắn liền với đất.",
-    "THÀNH PHẦN HỒ SƠ": "Người được giao quản lý đất quy định tại các khoản 1, 2 và 3 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:\nĐơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 21 Phụ lục số 04 ban hành kèm theo Quyết định số 52/2026/QĐ-UBND\nBáo cáo kết quả rà soát hiện trạng sử dụng đất của người được giao quản lý đất theo Mẫu số 21đ Phụ lục số 04 ban hành kèm theo Quyết định số 52/2026/QĐ-UBND\nTrích lục bản đồ địa chính (nếu có) hoặc Mảnh trích đo bản đồ địa chính thửa đất đối với trường hợp phải trích đo bản đồ địa chính hoặc Phiếu đo đạc chỉnh lý thửa đất đối với trường hợp phải đo đạc chỉnh lý bản đồ địa chính.\nQuyết định giao đất để quản lý (nếu có\nNgười được giao quản lý đất quy định tại khoản 4 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:\nĐơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 21 Phụ lục số 04 ban hành kèm theo Quyết định số 52/2026/QĐ-UBND\nTrích lục bản đồ địa chính (nếu có) hoặc Mảnh trích đo bản đồ địa chính thửa đất đối với trường hợp phải trích đo bản đồ địa chính hoặc Phiếu đo đạc chỉnh lý thửa đất đối với trường hợp phải đo đạc chỉnh lý bản đồ địa chính.\nQuyết định giao đất để quản lý (nếu có",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 10 ngày làm việc - - Không quá 10 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, chính xác. Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 20 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, chính xác.\n- Thời hạn giải quyết nêu trên không bao gồm thời gian trích đo bản đồ địa chính hoặc đo đạc chỉnh lý bản đồ địa chính.\nTrực tuyến: 10 ngày làm việc - - Không quá 10 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, chính xác. Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 20 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, chính xác.\n- Thời hạn giải quyết nêu trên không bao gồm thời gian trích đo bản đồ địa chính hoặc đo đạc chỉnh lý bản đồ địa chính.\nQua dịch vụ bưu chính: 10 ngày làm việc - - Không quá 10 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, chính xác. Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 20 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, chính xác.\n- Thời hạn giải quyết nêu trên không bao gồm thời gian trích đo bản đồ địa chính hoặc đo đạc chỉnh lý bản đồ địa chính.",
-    "CĂN CỨ PHÁP LÝ": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP\nvề việc phân cấp thực hiện một số nhiệm vụ trong lĩnh vực đất đai và trình tự, thủ tục hành chính về đất đai trên địa bàn thành phố Hải Phòng. - 52/2026/QĐ-UBND\nQuy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 254/2025/QH15\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15 \nLuật số 43/2024/QH15 ngày 29/6/2024 - 43/2024/QH15",
+    "THÀNH PHẦN HỒ SƠ": "Người được giao quản lý đất quy định tại các khoản 1, 2 và 3 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:: Đơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 21 Phụ lục số 04 ban hành kèm theo Quyết định số 52/2026/QĐ-UBND\nNgười được giao quản lý đất quy định tại các khoản 1, 2 và 3 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:: Báo cáo kết quả rà soát hiện trạng sử dụng đất của người được giao quản lý đất theo Mẫu số 21đ Phụ lục số 04 ban hành kèm theo Quyết định số 52/2026/QĐ-UBND\nNgười được giao quản lý đất quy định tại các khoản 1, 2 và 3 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:: Trích lục bản đồ địa chính (nếu có) hoặc Mảnh trích đo bản đồ địa chính thửa đất đối với trường hợp phải trích đo bản đồ địa chính hoặc Phiếu đo đạc chỉnh lý thửa đất đối với trường hợp phải đo đạc chỉnh lý bản đồ địa chính.\nNgười được giao quản lý đất quy định tại các khoản 1, 2 và 3 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:: Quyết định giao đất để quản lý (nếu có\nNgười được giao quản lý đất quy định tại khoản 4 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:: Đơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 21 Phụ lục số 04 ban hành kèm theo Quyết định số 52/2026/QĐ-UBND\nNgười được giao quản lý đất quy định tại khoản 4 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:: Trích lục bản đồ địa chính (nếu có) hoặc Mảnh trích đo bản đồ địa chính thửa đất đối với trường hợp phải trích đo bản đồ địa chính hoặc Phiếu đo đạc chỉnh lý thửa đất đối với trường hợp phải đo đạc chỉnh lý bản đồ địa chính.\nNgười được giao quản lý đất quy định tại khoản 4 Điều 7 Luật Đất đai số 31/2024/QH15 thì hồ sơ gồm:: Quyết định giao đất để quản lý (nếu có",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 10 ngày làm việc\nTrực tuyến: 10 ngày làm việc\nQua dịch vụ bưu chính: 10 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP\nvề việc phân cấp thực hiện một số nhiệm vụ trong lĩnh vực đất đai và trình tự, thủ tục hành chính về đất đai trên địa bàn thành phố Hải Phòng. - 52/2026/QĐ-UBND\nQuy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 254/2025/QH15\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15\nLuật số 43/2024/QH15 ngày 29/6/2024 - 43/2024/QH15",
     "CƠ QUAN THỰC HIỆN": "Văn phòng đăng ký đất đai",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
     "KẾT QUẢ XỬ LÝ": "Lập, cập nhật, chỉnh lý biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai - KQ-H24.000013",
@@ -233,14 +189,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đất đai",
-      "slug": "dat-dai"
+      "slug": "at-ai"
     },
     "implementation_levels": [
       {
@@ -261,13 +212,13 @@
     "agencies": [
       {
         "name": "Văn phòng đăng ký đất đai",
-        "slug": "van-phong-dang-ky-dat-dai"
+        "slug": "van-phong-ang-ky-at-ai"
       },
       {
         "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực",
-        "slug": "chi-nhanh-van-phong-dang-ky-dat-dai-khu-vuc"
+        "slug": "chi-nhanh-van-phong-ang-ky-at-ai-khu-vuc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "non_territorial"
   }
 }

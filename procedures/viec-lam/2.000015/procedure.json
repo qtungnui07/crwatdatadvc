@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-d23f-707d-998c-d764aa088090",
   "procedure_code": "2.000015",
   "title": "Thủ tục hải quan đối với xuất khẩu, tái xuất xăng dầu cho tàu biển",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-d23f-707d-998c-d764aa088090",
     "source_file": "chi-tiet-thu-tuc-2.000015.pdf",
     "source_path": "procedures/viec-lam/2.000015/chi-tiet-thu-tuc-2.000015.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:22:19.953212+00:00",
-    "source_updated_at": "2026-04-08T09:09:16.723Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:04.001797+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "5982192f98fc397fc56945d541ada540890cf9cc65ffb63d349b0779faf22356"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:19.953212+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "711/QĐ-BTC",
   "implementation_level": "Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Hải quan",
   "target_users": [
@@ -36,18 +31,29 @@
   ],
   "agency": {
     "competent_agency": "Chi cục Hải quan khu vực",
-    "executing_agency": "Chi cục Hải quan khu vực",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Chi cục Hải quan khu vực"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Doanh nghiệp gửi hồ sơ đề nghị làm thủ tục hải quan đối với xuất khẩu, tái xuất xăng dầu cho tàu biển.\n Bước 2: Trong thời hạn bảy làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Chi cục Hải quan thực hiện: Kiểm tra hồ sơ (trường hợp có nghi vấn với chứng từ bản chụp, Chi cục Hải quan yêu cầu doanh nghiệp xuất trình bản chính để kiểm tra, đối chiếu); lập Phiếu theo dõi trừ lùi khi làm thủ tục tái xuất; tính thuế, thu thuế đối với phần xăng dầu đã làm thủ tục tái xuất cho tàu biển, tàu bay chạy chặng nội địa trong hành trình chạy tuyến quốc tế hoặc tàu biển, tàu bay đã xuất cảnh nhưng vì lý do khách quan không xuất cảnh để chạy tuyến quốc tế hoặc đã làm thủ tục xuất cảnh nhưng thay đổi lịch trình (có thêm chặng nội địa); xác định xăng dầu đã xuất khẩu đối với xăng dầu xuất khẩu, tái xuất.\n Bước 3: Doanh nghiệp thực hiện nộp thuế đối với xăng dầu xuất khẩu, xăng dầu tái xuất nhưng thực sử dụng trong nội địa\n",
+      "description": "Bước 1: Doanh nghiệp gửi hồ sơ đề nghị làm thủ tục hải quan đối với xuất khẩu, tái xuất xăng dầu cho tàu biển.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Trong thời hạn bảy làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Chi cục Hải quan thực hiện: Kiểm tra hồ sơ (trường hợp có nghi vấn với chứng từ bản chụp, Chi cục Hải quan yêu cầu doanh nghiệp xuất trình bản chính để kiểm tra, đối chiếu); lập Phiếu theo dõi trừ lùi khi làm thủ tục tái xuất; tính thuế, thu thuế đối với phần xăng dầu đã làm thủ tục tái xuất cho tàu biển, tàu bay chạy chặng nội địa trong hành trình chạy tuyến quốc tế hoặc tàu biển, tàu bay đã xuất cảnh nhưng vì lý do khách quan không xuất cảnh để chạy tuyến quốc tế hoặc đã làm thủ tục xuất cảnh nhưng thay đổi lịch trình (có thêm chặng nội địa); xác định xăng dầu đã xuất khẩu đối với xăng dầu xuất khẩu, tái xuất.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Doanh nghiệp thực hiện nộp thuế đối với xăng dầu xuất khẩu, xăng dầu tái xuất nhưng thực sử dụng trong nội địa",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -55,238 +61,160 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "Phiếu xuất kho: 01 bản chụp;",
-        "code": "000.00.00.G12-KQ0827",
+        "name": "Hồ sơ hải quan đối với xăng dầu tái xuất:: Phiếu xuất kho: 01 bản chụp;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu tái xuất:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Biên bản giao nhận nhiên liệu giữa phương tiện vận tải vận chuyển xăng dầu và tàu biển: 01 bản chụp;",
-        "code": "000.00.00.G12-KQ0828",
+        "name": "Hồ sơ hải quan đối với xăng dầu tái xuất:: Biên bản giao nhận nhiên liệu giữa phương tiện vận tải vận chuyển xăng dầu và tàu biển: 01 bản chụp;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu tái xuất:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Đơn đặt hàng (order) của thuyền trưởng hoặc chủ tàu hoặc đại lý chủ tàu hoặc hoặc người được chủ phương tiện vận tải ủy quyền: 01 bản chính hoặc bản fax; e-mail; telex có xác nhận của giám đốc hoặc người được giám đốc ủy quyền ký tên, đóng dấu theo quy định và hoàn toàn chịu trách nhiệm trước pháp luật về tính hợp pháp của chứng từ. Trong đơn đặt hàng phải thể hiện rõ nội dung:  - Cảng đến tiếp theo là cảng nước ngoài;  - Nếu cảng tiếp theo là cảng biển, cảng sông Việt Nam (tàu chuyển cảng) thì phải có định mức lượng xăng dầu tiêu thụ chạy chặng nội địa (từ cảng hiện tại tới cảng xuát cảnh thuộc Cục Hải quan tỉnh, thành phố khác quản lý);  - Lượng xăng dầu chạy tuyến quốc tế xuất cảnh;  - Thời gian dự kiến xuất cảnh phải phù hợp với thời gian hiệu lực của tờ khai và thời gian lưu giữ xăng dầu tái xuất tại Việt Nam;  - Tên, loại, số hô hiệu (nếu có) tàu mua xăng dầu từ nguồn tạm nhập trên tờ khai hải quan;  - Cam kết về tính chính xác và sử dụng lượng xăng dầu đúng mục đích;",
-        "code": "000.00.00.G12-KQ0826",
+        "name": "Hồ sơ hải quan đối với xăng dầu tái xuất:: Đơn đặt hàng (order) của thuyền trưởng hoặc chủ tàu hoặc đại lý chủ tàu hoặc hoặc người được chủ phương tiện vận tải ủy quyền: 01 bản chính hoặc bản fax; e-mail; telex có xác nhận của giám đốc hoặc người được giám đốc ủy quyền ký tên, đóng dấu theo quy định và hoàn toàn chịu trách nhiệm trước pháp luật về tính hợp pháp của chứng từ. Trong đơn đặt hàng phải thể hiện rõ nội dung:  - Cảng đến tiếp theo là cảng nước ngoài;  - Nếu cảng tiếp theo là cảng biển, cảng sông Việt Nam (tàu chuyển cảng) thì phải có định mức lượng xăng dầu tiêu thụ chạy chặng nội địa (từ cảng hiện tại tới cảng xuát cảnh thuộc Cục Hải quan tỉnh, thành phố khác quản lý);  - Lượng xăng dầu chạy tuyến quốc tế xuất cảnh;  - Thời gian dự kiến xuất cảnh phải phù hợp với thời gian hiệu lực của tờ khai và thời gian lưu giữ xăng dầu tái xuất tại Việt Nam;  - Tên, loại, số hô hiệu (nếu có) tàu mua xăng dầu từ nguồn tạm nhập trên tờ khai hải quan;  - Cam kết về tính chính xác và sử dụng lượng xăng dầu đúng mục đích;",
         "quantity": null,
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu tái xuất:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Chứng thư giám định lượng (trường hợp hàng hóa vận chuyển bằng phương tiện vận tải đường thủy qua cửa khẩu cảng thủy nội địa, cửa khẩu cảng biển): 01 bản chụp;",
-        "code": "000.00.00.G12-KQ0810",
+        "name": "Hồ sơ hải quan đối với xăng dầu tái xuất:: Chứng thư giám định lượng (trường hợp hàng hóa vận chuyển bằng phương tiện vận tải đường thủy qua cửa khẩu cảng thủy nội địa, cửa khẩu cảng biển): 01 bản chụp;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu tái xuất:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Hóa đơn thương mại: 01 bản chụp;",
-        "code": "000.00.00.G12-KQ0791",
+        "name": "Hồ sơ hải quan đối với xăng dầu tái xuất:: Hóa đơn thương mại: 01 bản chụp;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu tái xuất:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Giấy chứng nhận đăng ký doanh nghiệp và Hợp đồng đại lý với công ty cung ứng tàu biển: 01 bản chụp (nộp lần đầu);",
-        "code": "000.00.00.G12-KQ0825",
+        "name": "Hồ sơ hải quan đối với xăng dầu tái xuất:: Giấy chứng nhận đăng ký doanh nghiệp và Hợp đồng đại lý với công ty cung ứng tàu biển: 01 bản chụp (nộp lần đầu);",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu tái xuất:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Hóa đơn bán hàng hoặc chứng từ thanh toán: 01 bản chụp.",
-        "code": "000.00.00.G12-KQ0829",
+        "name": "Hồ sơ hải quan đối với xăng dầu tái xuất:: Hóa đơn bán hàng hoặc chứng từ thanh toán: 01 bản chụp.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu tái xuất:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Hợp đồng bán hàng, phụ lục hợp đồng (nếu có): 01 bản chụp;",
-        "code": "000.00.00.G12-KQ0824",
+        "name": "Hồ sơ hải quan đối với xăng dầu tái xuất:: Hợp đồng bán hàng, phụ lục hợp đồng (nếu có): 01 bản chụp;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu tái xuất:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Tờ khai hàng hóa xuất khẩu theo các chỉ tiêu thông tin tại Phụ lục II ban hành kèm theo Thông tư số 38/2015/TT-BTC ngày 25/3/2015 của Bộ Tài chính.  Trường hợp thực hiện trên tờ khai hải quan giấy theo quy định tại khoản 2 Điều 25 Nghị định số 08/2015/NĐ-CP ngày 21/1/2015 của Chính phủ, người khai hải quan khai và nộp 02 bản chính tờ khai hàng hóa nhập khẩu theo mẫu HQ/2015/NK Phụ lục IV ban hành kèm theo Thông tư số 38/2015/TT-BTC;",
-        "code": "000.00.00.G12-KQ0785",
+        "name": "Hồ sơ hải quan đối với xăng dầu tái xuất:: Tờ khai hàng hóa xuất khẩu theo các chỉ tiêu thông tin tại Phụ lục II ban hành kèm theo Thông tư số 38/2015/TT-BTC ngày 25/3/2015 của Bộ Tài chính.  Trường hợp thực hiện trên tờ khai hải quan giấy theo quy định tại khoản 2 Điều 25 Nghị định số 08/2015/NĐ-CP ngày 21/1/2015 của Chính phủ, người khai hải quan khai và nộp 02 bản chính tờ khai hàng hóa nhập khẩu theo mẫu HQ/2015/NK Phụ lục IV ban hành kèm theo Thông tư số 38/2015/TT-BTC;",
         "quantity": null,
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu tái xuất:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Giấy phép kinh doanh xuất nhập khẩu xăng dầu: 01 bản chụp;",
-        "code": "000.00.00.G12-KQ0786",
+        "name": "Hồ sơ hải quan đối với xăng dầu tái xuất:: Giấy phép kinh doanh xuất nhập khẩu xăng dầu: 01 bản chụp;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu tái xuất:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Giấy phép xuất khẩu đối với hàng hóa phải có giấy phép nhập khẩu: 01 bản chính;",
-        "code": "000.00.00.G12-KQ0811",
+        "name": "Hồ sơ hải quan đối với xăng dầu tái xuất:: Giấy phép xuất khẩu đối với hàng hóa phải có giấy phép nhập khẩu: 01 bản chính;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu tái xuất:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "01 (một) bản sao tài liệu chứng minh quyền sở hữu hoặc quản lý, thuê tàu trần và cam kết thực hiện toàn bộ các nghĩa vụ và trách nhiệm theo quy định của Bộ luật ISM nếu công ty không phải là chủ sở hữu tàu biển (đối với trường hợp cấp giấy chứng nhận tạm thời hoặc lần đầu).",
-        "code": "000.00.00.G04-KQ0380",
+        "name": "Hồ sơ hải quan đối với xăng dầu tái xuất:: 01 (một) bản sao tài liệu chứng minh quyền sở hữu hoặc quản lý, thuê tàu trần và cam kết thực hiện toàn bộ các nghĩa vụ và trách nhiệm theo quy định của Bộ luật ISM nếu công ty không phải là chủ sở hữu tàu biển (đối với trường hợp cấp giấy chứng nhận tạm thời hoặc lần đầu).",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu tái xuất:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Giấy chứng nhận đủ điều kiện xuất nhập khẩu khí hoặc văn bản có giá trị tương đương: 01 bản chụp;",
-        "code": "000.00.00.G12-KQ0787",
+        "name": "Hồ sơ hải quan đối với xăng dầu tái xuất:: Giấy chứng nhận đủ điều kiện xuất nhập khẩu khí hoặc văn bản có giá trị tương đương: 01 bản chụp;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu tái xuất:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Biên bản giao nhận nhiên liệu giữa phương tiện vận tải vận chuyển xăng dầu và tàu biển: 01 bản chụp;",
-        "code": "000.00.00.G12-KQ0822",
+        "name": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:: Biên bản giao nhận nhiên liệu giữa phương tiện vận tải vận chuyển xăng dầu và tàu biển: 01 bản chụp;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Đơn đặt hàng (order) của thuyền trưởng hoặc chủ tàu hoặc đại lý chủ tàu hoặc người được chủ phương tiện vận tải ủy quyền: 01 bản chính hoặc bản fax; e-mail; telex có xác nhận của giám đốc hoặc người được giám đốc ủy quyền ký tên, đóng dấu và hoàn toàn chịu trách nhiệm trước pháp luật về tính hợp pháp của chứng từ;",
-        "code": "000.00.00.G12-KQ0820",
+        "name": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:: Đơn đặt hàng (order) của thuyền trưởng hoặc chủ tàu hoặc đại lý chủ tàu hoặc người được chủ phương tiện vận tải ủy quyền: 01 bản chính hoặc bản fax; e-mail; telex có xác nhận của giám đốc hoặc người được giám đốc ủy quyền ký tên, đóng dấu và hoàn toàn chịu trách nhiệm trước pháp luật về tính hợp pháp của chứng từ;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Giấy chứng nhận đủ điều kiện xuất nhập khẩu khí hoặc văn bản có giá trị tương đương: 01 bản chụp;",
-        "code": "000.00.00.G12-KQ0787",
+        "name": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:: Giấy chứng nhận đủ điều kiện xuất nhập khẩu khí hoặc văn bản có giá trị tương đương: 01 bản chụp;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Văn bản nêu rõ nguồn gốc xăng dầu, khí xuất khẩu (nguồn do Thương nhân nhập khẩu hoặc mua của Thương nhân đầu mối nhập khẩu hoặc lấy từ nguồn sản xuất, pha chế xăng dầu, khí): 01 bản chụp;",
-        "code": "000.00.00.G12-KQ0806",
+        "name": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:: Văn bản nêu rõ nguồn gốc xăng dầu, khí xuất khẩu (nguồn do Thương nhân nhập khẩu hoặc mua của Thương nhân đầu mối nhập khẩu hoặc lấy từ nguồn sản xuất, pha chế xăng dầu, khí): 01 bản chụp;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Giấy phép xuất khẩu đối với hàng hóa phải có giấy phép nhập khẩu: 01 bản chính;",
-        "code": "000.00.00.G12-KQ0808",
+        "name": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:: Giấy phép xuất khẩu đối với hàng hóa phải có giấy phép nhập khẩu: 01 bản chính;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Văn bản xác nhận của Bộ Công Thương về đăng ký kế hoạch sản xuất, nhập khẩu nguyên liệu và tiêu thụ sản phẩm xăng dầu: 01 bản chụp;",
-        "code": "000.00.00.G12-KQ0807",
+        "name": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:: Văn bản xác nhận của Bộ Công Thương về đăng ký kế hoạch sản xuất, nhập khẩu nguyên liệu và tiêu thụ sản phẩm xăng dầu: 01 bản chụp;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Chứng thư giám định lượng (trường hợp hàng hóa vận chuyển bằng phương tiện vận tải đường thủy qua cửa khẩu cảng thủy nội địa, cửa khẩu cảng biển): 01 bản chụp;",
-        "code": "000.00.00.G12-KQ0810",
+        "name": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:: Chứng thư giám định lượng (trường hợp hàng hóa vận chuyển bằng phương tiện vận tải đường thủy qua cửa khẩu cảng thủy nội địa, cửa khẩu cảng biển): 01 bản chụp;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Giấy chứng nhận đăng ký doanh nghiệp và Hợp đồng đại lý với công ty cung ứng tàu biển: 01 bản chụp (nộp lần đầu);",
-        "code": "000.00.00.G12-KQ0819",
+        "name": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:: Giấy chứng nhận đăng ký doanh nghiệp và Hợp đồng đại lý với công ty cung ứng tàu biển: 01 bản chụp (nộp lần đầu);",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Hóa đơn bán hàng hoặc chứng từ thanh toán: 01 bản chụp.",
-        "code": "000.00.00.G12-KQ0823",
+        "name": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:: Hóa đơn bán hàng hoặc chứng từ thanh toán: 01 bản chụp.",
         "quantity": null,
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Phiếu xuất kho: 01 bản chụp;",
-        "code": "000.00.00.G12-KQ0821",
+        "name": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:: Phiếu xuất kho: 01 bản chụp;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Hóa đơn thương mại: 01 bản chụp;",
-        "code": "000.00.00.G12-KQ0791",
+        "name": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:: Hóa đơn thương mại: 01 bản chụp;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Giấy phép kinh doanh xuất nhập khẩu xăng dầu: 01 bản chụp;",
-        "code": "000.00.00.G12-KQ0786",
+        "name": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:: Giấy phép kinh doanh xuất nhập khẩu xăng dầu: 01 bản chụp;",
         "quantity": "3 bản sao",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Tờ khai hàng hóa xuất khẩu theo các chỉ tiêu thông tin tại Phụ lục II ban hành kèm theo Thông tư số 38/2015/TT-BTC ngày 25/3/2015 của Bộ Tài chính.  Trường hợp thực hiện trên tờ khai hải quan giấy theo quy định tại khoản 2 Điều 25 Nghị định số 08/2015/NĐ-CP ngày 21/1/2015 của Chính phủ, người khai hải quan khai và nộp 02 bản chính tờ khai hàng hóa nhập khẩu theo mẫu HQ/2015/NK Phụ lục IV ban hành kèm theo Thông tư số 38/2015/TT-BTC;",
-        "code": "000.00.00.G12-KQ0785",
+        "name": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:: Tờ khai hàng hóa xuất khẩu theo các chỉ tiêu thông tin tại Phụ lục II ban hành kèm theo Thông tư số 38/2015/TT-BTC ngày 25/3/2015 của Bộ Tài chính.  Trường hợp thực hiện trên tờ khai hải quan giấy theo quy định tại khoản 2 Điều 25 Nghị định số 08/2015/NĐ-CP ngày 21/1/2015 của Chính phủ, người khai hải quan khai và nộp 02 bản chính tờ khai hàng hóa nhập khẩu theo mẫu HQ/2015/NK Phụ lục IV ban hành kèm theo Thông tư số 38/2015/TT-BTC;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ hải quan đối với xăng dầu xuất khẩu:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -295,60 +223,37 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "15 ngày",
-      "processing_time_value": 15,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "15 ngày",
-      "processing_time_value": 15,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 5
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 5
       }
     ]
   },
@@ -356,26 +261,22 @@
     {
       "title": "Nghị định 08/2015/NĐ-CP",
       "document_number": "08/2015/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe7-9c25863596db",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu thuế nhập khẩu và quản lý thuế đối vớỉ hàng hoá xuất khẩu, nhập khẩu.",
       "document_number": "38/2015/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4d-1c6dbc289d7a",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Luật 54/2014/QH13",
       "document_number": "54/2014/QH13",
-      "id": "019d2bb3-5d7d-7398-be4d-ff62cdf67da5",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Quy định thủ tục hải quan đối với xăng dầu, hóa chất, khí xuất khẩu, nhập khẩu, tạm nhập tái xuất, chuyển khẩu, quá cảnh; nguyên liệu nhập khẩu để sản xuất và pha chế hoặc gia công xuất khẩu xăng, dầu, khí; dầu thô xuất khẩu, nhập khẩu; hàng hóa xuất khẩu, nhập khẩu phục vụ hoạt động dầu khí",
       "document_number": "69/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-8e22567edc3a",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "conditions": "",
@@ -383,13 +284,12 @@
     {
       "title": "Xác nhận xăng dầu đã xuất khẩu, tái xuất",
       "code": "KQ.G12.000340",
-      "id": "019d2bb2-1c70-724b-96e0-0bfc74576e76",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Doanh nghiệp gửi hồ sơ đề nghị làm thủ tục hải quan đối với xuất khẩu, tái xuất xăng dầu cho tàu biển.\n Bước 2: Trong thời hạn bảy làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Chi cục Hải quan thực hiện: Kiểm tra hồ sơ (trường hợp có nghi vấn với chứng từ bản chụp, Chi cục Hải quan yêu cầu doanh nghiệp xuất trình bản chính để kiểm tra, đối chiếu); lập Phiếu theo dõi trừ lùi khi làm thủ tục tái xuất; tính thuế, thu thuế đối với phần xăng dầu đã làm thủ tục tái xuất cho tàu biển, tàu bay chạy chặng nội địa trong hành trình chạy tuyến quốc tế hoặc tàu biển, tàu bay đã xuất cảnh nhưng vì lý do khách quan không xuất cảnh để chạy tuyến quốc tế hoặc đã làm thủ tục xuất cảnh nhưng thay đổi lịch trình (có thêm chặng nội địa); xác định xăng dầu đã xuất khẩu đối với xăng dầu xuất khẩu, tái xuất.\n Bước 3: Doanh nghiệp thực hiện nộp thuế đối với xăng dầu xuất khẩu, xăng dầu tái xuất nhưng thực sử dụng trong nội địa\n",
-    "THÀNH PHẦN HỒ SƠ": "Hồ sơ hải quan đối với xăng dầu tái xuất:\nPhiếu xuất kho: 01 bản chụp;\nBiên bản giao nhận nhiên liệu giữa phương tiện vận tải vận chuyển xăng dầu và tàu biển: 01 bản chụp;\nĐơn đặt hàng (order) của thuyền trưởng hoặc chủ tàu hoặc đại lý chủ tàu hoặc hoặc người được chủ phương tiện vận tải ủy quyền: 01 bản chính hoặc bản fax; e-mail; telex có xác nhận của giám đốc hoặc người được giám đốc ủy quyền ký tên, đóng dấu theo quy định và hoàn toàn chịu trách nhiệm trước pháp luật về tính hợp pháp của chứng từ. Trong đơn đặt hàng phải thể hiện rõ nội dung:  - Cảng đến tiếp theo là cảng nước ngoài;  - Nếu cảng tiếp theo là cảng biển, cảng sông Việt Nam (tàu chuyển cảng) thì phải có định mức lượng xăng dầu tiêu thụ chạy chặng nội địa (từ cảng hiện tại tới cảng xuát cảnh thuộc Cục Hải quan tỉnh, thành phố khác quản lý);  - Lượng xăng dầu chạy tuyến quốc tế xuất cảnh;  - Thời gian dự kiến xuất cảnh phải phù hợp với thời gian hiệu lực của tờ khai và thời gian lưu giữ xăng dầu tái xuất tại Việt Nam;  - Tên, loại, số hô hiệu (nếu có) tàu mua xăng dầu từ nguồn tạm nhập trên tờ khai hải quan;  - Cam kết về tính chính xác và sử dụng lượng xăng dầu đúng mục đích;\nChứng thư giám định lượng (trường hợp hàng hóa vận chuyển bằng phương tiện vận tải đường thủy qua cửa khẩu cảng thủy nội địa, cửa khẩu cảng biển): 01 bản chụp;\nHóa đơn thương mại: 01 bản chụp;\nGiấy chứng nhận đăng ký doanh nghiệp và Hợp đồng đại lý với công ty cung ứng tàu biển: 01 bản chụp (nộp lần đầu);\nHóa đơn bán hàng hoặc chứng từ thanh toán: 01 bản chụp.\nHợp đồng bán hàng, phụ lục hợp đồng (nếu có): 01 bản chụp;\nTờ khai hàng hóa xuất khẩu theo các chỉ tiêu thông tin tại Phụ lục II ban hành kèm theo Thông tư số 38/2015/TT-BTC ngày 25/3/2015 của Bộ Tài chính.  Trường hợp thực hiện trên tờ khai hải quan giấy theo quy định tại khoản 2 Điều 25 Nghị định số 08/2015/NĐ-CP ngày 21/1/2015 của Chính phủ, người khai hải quan khai và nộp 02 bản chính tờ khai hàng hóa nhập khẩu theo mẫu HQ/2015/NK Phụ lục IV ban hành kèm theo Thông tư số 38/2015/TT-BTC;\nGiấy phép kinh doanh xuất nhập khẩu xăng dầu: 01 bản chụp;\nGiấy phép xuất khẩu đối với hàng hóa phải có giấy phép nhập khẩu: 01 bản chính;\n01 (một) bản sao tài liệu chứng minh quyền sở hữu hoặc quản lý, thuê tàu trần và cam kết thực hiện toàn bộ các nghĩa vụ và trách nhiệm theo quy định của Bộ luật ISM nếu công ty không phải là chủ sở hữu tàu biển (đối với trường hợp cấp giấy chứng nhận tạm thời hoặc lần đầu).\nGiấy chứng nhận đủ điều kiện xuất nhập khẩu khí hoặc văn bản có giá trị tương đương: 01 bản chụp;\nHồ sơ hải quan đối với xăng dầu xuất khẩu:\nBiên bản giao nhận nhiên liệu giữa phương tiện vận tải vận chuyển xăng dầu và tàu biển: 01 bản chụp;\nĐơn đặt hàng (order) của thuyền trưởng hoặc chủ tàu hoặc đại lý chủ tàu hoặc người được chủ phương tiện vận tải ủy quyền: 01 bản chính hoặc bản fax; e-mail; telex có xác nhận của giám đốc hoặc người được giám đốc ủy quyền ký tên, đóng dấu và hoàn toàn chịu trách nhiệm trước pháp luật về tính hợp pháp của chứng từ;\nGiấy chứng nhận đủ điều kiện xuất nhập khẩu khí hoặc văn bản có giá trị tương đương: 01 bản chụp;\nVăn bản nêu rõ nguồn gốc xăng dầu, khí xuất khẩu (nguồn do Thương nhân nhập khẩu hoặc mua của Thương nhân đầu mối nhập khẩu hoặc lấy từ nguồn sản xuất, pha chế xăng dầu, khí): 01 bản chụp;\nGiấy phép xuất khẩu đối với hàng hóa phải có giấy phép nhập khẩu: 01 bản chính;\nVăn bản xác nhận của Bộ Công Thương về đăng ký kế hoạch sản xuất, nhập khẩu nguyên liệu và tiêu thụ sản phẩm xăng dầu: 01 bản chụp;\nChứng thư giám định lượng (trường hợp hàng hóa vận chuyển bằng phương tiện vận tải đường thủy qua cửa khẩu cảng thủy nội địa, cửa khẩu cảng biển): 01 bản chụp;\nGiấy chứng nhận đăng ký doanh nghiệp và Hợp đồng đại lý với công ty cung ứng tàu biển: 01 bản chụp (nộp lần đầu);\nHóa đơn bán hàng hoặc chứng từ thanh toán: 01 bản chụp.\nPhiếu xuất kho: 01 bản chụp;\nHóa đơn thương mại: 01 bản chụp;\nGiấy phép kinh doanh xuất nhập khẩu xăng dầu: 01 bản chụp;\nTờ khai hàng hóa xuất khẩu theo các chỉ tiêu thông tin tại Phụ lục II ban hành kèm theo Thông tư số 38/2015/TT-BTC ngày 25/3/2015 của Bộ Tài chính.  Trường hợp thực hiện trên tờ khai hải quan giấy theo quy định tại khoản 2 Điều 25 Nghị định số 08/2015/NĐ-CP ngày 21/1/2015 của Chính phủ, người khai hải quan khai và nộp 02 bản chính tờ khai hàng hóa nhập khẩu theo mẫu HQ/2015/NK Phụ lục IV ban hành kèm theo Thông tư số 38/2015/TT-BTC;",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Doanh nghiệp gửi hồ sơ đề nghị làm thủ tục hải quan đối với xuất khẩu, tái xuất xăng dầu cho tàu biển.\nBước 2: Trong thời hạn bảy làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Chi cục Hải quan thực hiện: Kiểm tra hồ sơ (trường hợp có nghi vấn với chứng từ bản chụp, Chi cục Hải quan yêu cầu doanh nghiệp xuất trình bản chính để kiểm tra, đối chiếu); lập Phiếu theo dõi trừ lùi khi làm thủ tục tái xuất; tính thuế, thu thuế đối với phần xăng dầu đã làm thủ tục tái xuất cho tàu biển, tàu bay chạy chặng nội địa trong hành trình chạy tuyến quốc tế hoặc tàu biển, tàu bay đã xuất cảnh nhưng vì lý do khách quan không xuất cảnh để chạy tuyến quốc tế hoặc đã làm thủ tục xuất cảnh nhưng thay đổi lịch trình (có thêm chặng nội địa); xác định xăng dầu đã xuất khẩu đối với xăng dầu xuất khẩu, tái xuất.\nBước 3: Doanh nghiệp thực hiện nộp thuế đối với xăng dầu xuất khẩu, xăng dầu tái xuất nhưng thực sử dụng trong nội địa",
+    "THÀNH PHẦN HỒ SƠ": "Hồ sơ hải quan đối với xăng dầu tái xuất:: Phiếu xuất kho: 01 bản chụp;\nHồ sơ hải quan đối với xăng dầu tái xuất:: Biên bản giao nhận nhiên liệu giữa phương tiện vận tải vận chuyển xăng dầu và tàu biển: 01 bản chụp;\nHồ sơ hải quan đối với xăng dầu tái xuất:: Đơn đặt hàng (order) của thuyền trưởng hoặc chủ tàu hoặc đại lý chủ tàu hoặc hoặc người được chủ phương tiện vận tải ủy quyền: 01 bản chính hoặc bản fax; e-mail; telex có xác nhận của giám đốc hoặc người được giám đốc ủy quyền ký tên, đóng dấu theo quy định và hoàn toàn chịu trách nhiệm trước pháp luật về tính hợp pháp của chứng từ. Trong đơn đặt hàng phải thể hiện rõ nội dung:  - Cảng đến tiếp theo là cảng nước ngoài;  - Nếu cảng tiếp theo là cảng biển, cảng sông Việt Nam (tàu chuyển cảng) thì phải có định mức lượng xăng dầu tiêu thụ chạy chặng nội địa (từ cảng hiện tại tới cảng xuát cảnh thuộc Cục Hải quan tỉnh, thành phố khác quản lý);  - Lượng xăng dầu chạy tuyến quốc tế xuất cảnh;  - Thời gian dự kiến xuất cảnh phải phù hợp với thời gian hiệu lực của tờ khai và thời gian lưu giữ xăng dầu tái xuất tại Việt Nam;  - Tên, loại, số hô hiệu (nếu có) tàu mua xăng dầu từ nguồn tạm nhập trên tờ khai hải quan;  - Cam kết về tính chính xác và sử dụng lượng xăng dầu đúng mục đích;\nHồ sơ hải quan đối với xăng dầu tái xuất:: Chứng thư giám định lượng (trường hợp hàng hóa vận chuyển bằng phương tiện vận tải đường thủy qua cửa khẩu cảng thủy nội địa, cửa khẩu cảng biển): 01 bản chụp;\nHồ sơ hải quan đối với xăng dầu tái xuất:: Hóa đơn thương mại: 01 bản chụp;\nHồ sơ hải quan đối với xăng dầu tái xuất:: Giấy chứng nhận đăng ký doanh nghiệp và Hợp đồng đại lý với công ty cung ứng tàu biển: 01 bản chụp (nộp lần đầu);\nHồ sơ hải quan đối với xăng dầu tái xuất:: Hóa đơn bán hàng hoặc chứng từ thanh toán: 01 bản chụp.\nHồ sơ hải quan đối với xăng dầu tái xuất:: Hợp đồng bán hàng, phụ lục hợp đồng (nếu có): 01 bản chụp;\nHồ sơ hải quan đối với xăng dầu tái xuất:: Tờ khai hàng hóa xuất khẩu theo các chỉ tiêu thông tin tại Phụ lục II ban hành kèm theo Thông tư số 38/2015/TT-BTC ngày 25/3/2015 của Bộ Tài chính.  Trường hợp thực hiện trên tờ khai hải quan giấy theo quy định tại khoản 2 Điều 25 Nghị định số 08/2015/NĐ-CP ngày 21/1/2015 của Chính phủ, người khai hải quan khai và nộp 02 bản chính tờ khai hàng hóa nhập khẩu theo mẫu HQ/2015/NK Phụ lục IV ban hành kèm theo Thông tư số 38/2015/TT-BTC;\nHồ sơ hải quan đối với xăng dầu tái xuất:: Giấy phép kinh doanh xuất nhập khẩu xăng dầu: 01 bản chụp;\nHồ sơ hải quan đối với xăng dầu tái xuất:: Giấy phép xuất khẩu đối với hàng hóa phải có giấy phép nhập khẩu: 01 bản chính;\nHồ sơ hải quan đối với xăng dầu tái xuất:: 01 (một) bản sao tài liệu chứng minh quyền sở hữu hoặc quản lý, thuê tàu trần và cam kết thực hiện toàn bộ các nghĩa vụ và trách nhiệm theo quy định của Bộ luật ISM nếu công ty không phải là chủ sở hữu tàu biển (đối với trường hợp cấp giấy chứng nhận tạm thời hoặc lần đầu).\nHồ sơ hải quan đối với xăng dầu tái xuất:: Giấy chứng nhận đủ điều kiện xuất nhập khẩu khí hoặc văn bản có giá trị tương đương: 01 bản chụp;\nHồ sơ hải quan đối với xăng dầu xuất khẩu:: Biên bản giao nhận nhiên liệu giữa phương tiện vận tải vận chuyển xăng dầu và tàu biển: 01 bản chụp;\nHồ sơ hải quan đối với xăng dầu xuất khẩu:: Đơn đặt hàng (order) của thuyền trưởng hoặc chủ tàu hoặc đại lý chủ tàu hoặc người được chủ phương tiện vận tải ủy quyền: 01 bản chính hoặc bản fax; e-mail; telex có xác nhận của giám đốc hoặc người được giám đốc ủy quyền ký tên, đóng dấu và hoàn toàn chịu trách nhiệm trước pháp luật về tính hợp pháp của chứng từ;\nHồ sơ hải quan đối với xăng dầu xuất khẩu:: Giấy chứng nhận đủ điều kiện xuất nhập khẩu khí hoặc văn bản có giá trị tương đương: 01 bản chụp;\nHồ sơ hải quan đối với xăng dầu xuất khẩu:: Văn bản nêu rõ nguồn gốc xăng dầu, khí xuất khẩu (nguồn do Thương nhân nhập khẩu hoặc mua của Thương nhân đầu mối nhập khẩu hoặc lấy từ nguồn sản xuất, pha chế xăng dầu, khí): 01 bản chụp;\nHồ sơ hải quan đối với xăng dầu xuất khẩu:: Giấy phép xuất khẩu đối với hàng hóa phải có giấy phép nhập khẩu: 01 bản chính;\nHồ sơ hải quan đối với xăng dầu xuất khẩu:: Văn bản xác nhận của Bộ Công Thương về đăng ký kế hoạch sản xuất, nhập khẩu nguyên liệu và tiêu thụ sản phẩm xăng dầu: 01 bản chụp;\nHồ sơ hải quan đối với xăng dầu xuất khẩu:: Chứng thư giám định lượng (trường hợp hàng hóa vận chuyển bằng phương tiện vận tải đường thủy qua cửa khẩu cảng thủy nội địa, cửa khẩu cảng biển): 01 bản chụp;\nHồ sơ hải quan đối với xăng dầu xuất khẩu:: Giấy chứng nhận đăng ký doanh nghiệp và Hợp đồng đại lý với công ty cung ứng tàu biển: 01 bản chụp (nộp lần đầu);\nHồ sơ hải quan đối với xăng dầu xuất khẩu:: Hóa đơn bán hàng hoặc chứng từ thanh toán: 01 bản chụp.\nHồ sơ hải quan đối với xăng dầu xuất khẩu:: Phiếu xuất kho: 01 bản chụp;\nHồ sơ hải quan đối với xăng dầu xuất khẩu:: Hóa đơn thương mại: 01 bản chụp;\nHồ sơ hải quan đối với xăng dầu xuất khẩu:: Giấy phép kinh doanh xuất nhập khẩu xăng dầu: 01 bản chụp;\nHồ sơ hải quan đối với xăng dầu xuất khẩu:: Tờ khai hàng hóa xuất khẩu theo các chỉ tiêu thông tin tại Phụ lục II ban hành kèm theo Thông tư số 38/2015/TT-BTC ngày 25/3/2015 của Bộ Tài chính.  Trường hợp thực hiện trên tờ khai hải quan giấy theo quy định tại khoản 2 Điều 25 Nghị định số 08/2015/NĐ-CP ngày 21/1/2015 của Chính phủ, người khai hải quan khai và nộp 02 bản chính tờ khai hàng hóa nhập khẩu theo mẫu HQ/2015/NK Phụ lục IV ban hành kèm theo Thông tư số 38/2015/TT-BTC;",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 15 ngày\nTrực tiếp: 15 ngày",
     "CĂN CỨ PHÁP LÝ": "Nghị định 08/2015/NĐ-CP - 08/2015/NĐ-CP\nQuy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu thuế nhập khẩu và quản lý thuế đối vớỉ hàng hoá xuất khẩu, nhập khẩu. - 38/2015/TT-BTC\nLuật 54/2014/QH13 - 54/2014/QH13\nQuy định thủ tục hải quan đối với xăng dầu, hóa chất, khí xuất khẩu, nhập khẩu, tạm nhập tái xuất, chuyển khẩu, quá cảnh; nguyên liệu nhập khẩu để sản xuất và pha chế hoặc gia công xuất khẩu xăng, dầu, khí; dầu thô xuất khẩu, nhập khẩu; hàng hóa xuất khẩu, nhập khẩu phục vụ hoạt động dầu khí - 69/2016/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Chi cục Hải quan khu vực",
@@ -399,11 +299,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hải quan",
       "slug": "hai-quan"
@@ -430,6 +325,6 @@
         "slug": "chi-cuc-hai-quan-khu-vuc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

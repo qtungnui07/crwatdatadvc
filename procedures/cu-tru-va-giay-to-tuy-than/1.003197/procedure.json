@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf7-6f18-72e5-974d-ed6803c7178a",
   "procedure_code": "1.003197",
   "title": "Xóa đăng ký thường trú",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-6f18-72e5-974d-ed6803c7178a",
     "source_file": "chi-tiet-thu-tuc-1.003197.pdf",
     "source_path": "procedures/cu-tru-va-giay-to-tuy-than/1.003197/chi-tiet-thu-tuc-1.003197.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:00.881194+00:00",
-    "source_updated_at": "2026-04-27T16:05:53.831Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:55:35.832754+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "65ac2a30f6c15da5f79892b7809f719ac3747ca519777997d6b5c66b136d4263"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:00.881194+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1523/QĐ-BCA-C06",
   "implementation_level": "Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đăng ký, quản lý cư trú",
   "target_users": [
@@ -38,48 +33,54 @@
   ],
   "agency": {
     "competent_agency": "Công an cấp Xã",
-    "executing_agency": "Công an cấp Xã",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Công an cấp xã."
+    "executing_agency": "Công an cấp Xã"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.\n Bước 2: Cá nhân, tổ chức nộp hồ sơ đến Công an cấp xã.\n Bước 3: Khi tiếp nhận hồ sơ xóa đăng ký thường trú, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n- Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (mẫu CT04 ban hành kèm theo Thông tư số 66/2023/TT-BCA) cho người đăng ký.\n- Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 66/2023/TT-BCA) cho người đăng ký.\n Bước 4: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có).\n",
+      "description": "Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Cá nhân, tổ chức nộp hồ sơ đến Công an cấp xã.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Khi tiếp nhận hồ sơ xóa đăng ký thường trú, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n- Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (mẫu CT04 ban hành kèm theo Thông tư số 66/2023/TT-BCA) cho người đăng ký.\n- Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 66/2023/TT-BCA) cho người đăng ký.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "Bước 4: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có).",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 53/2025/TT-BCA).",
-        "code": "000.00.00.G01-KQ003622",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dcfaf-85c4-73bd-aeba-5d1559664b33",
-            "name": "1.MuCT01banhnhkmtheoThngts53 (3).doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "1.MuCT01banhnhkmtheoThngts53 (3).doc",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Thông tin chứng minh thuộc trường hợp xóa đăng ký thường trú của công dân trong Cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành và cơ sở dữ liệu khác được kết nối, chia sẻ với cơ quan đăng ký cư trú. Trường hợp thông tin chưa được kết nối, chia sẻ thì công dân xuất trình giấy tờ, tài liệu chứng minh thuộc một trong các trường hợp xóa đăng ký thường trú quy định tại Điều 24 Luật Cư trú.",
-        "code": "000.00.00.G01-KQ003623",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -88,14 +89,13 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -104,50 +104,42 @@
     {
       "title": "Nghị định quy định chi tiết một số điều và biện pháp thi hành Luật Cư trú",
       "document_number": "154/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-c1c82d7e48fe",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư số 54/2025/TT-BCA ngày 01/7/2025 của Bộ trưởng Bộ Công an quy định về quy trình đăng ký cư trú.",
       "document_number": "54/2025/TT-BCA",
-      "id": "019d2bb3-5d7b-7049-8fc6-cde21d6c7dad",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư 56/2021/TT-BCA",
       "document_number": "56/2021/TT-BCA",
-      "id": "019d2bb3-5d87-7195-a443-4dbaf235c978",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư 55/2021/TT-BCA",
       "document_number": "55/2021/TT-BCA",
-      "id": "019d2bb3-5d87-7195-a443-01d8457cc192",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư số 66/2023/TT-BCA Sửa đổi, bổ sung một số điều của Thông tư số 55/2021/TT-BCA ngày 15/5/2021 quy định chi tiết một số điều và biện pháp thi hành Luật Cư trú; Thông tư số 56/2021/TT-BCA ngày 15/5/2021 của Bộ trưởng Bộ Công an quy định về biểu mẫu trong đăng ký, quản lý cư trú; Thông tư số 57/2021/TT-BCA ngày 15/5/2021 của Bộ trưởng Bộ Công an quy định về quy trình đăng ký cư trú.",
       "document_number": "66/2023/TT-BCA",
-      "id": "019d2bb3-5d7b-7049-8fc6-df465876c377",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư số 53/2025/TT-BCAngày 01/7/2025 của Bộ Công an sửa đổi, bổ sung một số điều của Thông tư số 55/2021/TT-BCA ngày 15 tháng 5 năm 2021 của Bộ trưởng Bộ Công an quy định chi tiết một số điều và biện pháp thi hành Luật Cư trú được sửa đổi, bổ sung bởi Thông tư số 66/2023/TT-BCA ngày 17 tháng 11 năm 2023; Thông tư số 56/2021/TT-BCA ngày 15 tháng 5 năm 2021 của Bộ trưởng Bộ Công an quy định về biểu mẫu trong đăng ký, quản lý cư trú được sửa đổi, bổ sung bởi Thông tư số 66/2023/TT-BCA ngày 17 tháng 11 năm 2023; Thông tư số 17/2024/TT-BCA ngày 15 tháng 5 năm 2024 của Bộ trưởng Bộ Công an quy định chi tiết một số điều và biện pháp thi hành Luật Căn cước.",
       "document_number": "53/2025/TT-BCA",
-      "id": "019d2bb3-5d7b-7049-8fc6-c8240af48e4c",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư 57/2021/TT-BCA",
       "document_number": "57/2021/TT-BCA",
-      "id": "019d2bb3-5d87-7195-a443-8305dbe9d81b",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật Cư trú 2020",
       "document_number": "68/2020/QH14",
-      "id": "019d2bb3-5d85-73da-8eb9-f36f498aefcf",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "- Trong thời hạn 07 ngày kể từ ngày hộ gia đình có người thuộc diện xóa đăng ký thường trú thì người thuộc diện xóa đăng ký thường trú hoặc đại diện hộ gia đình có trách nhiệm nộp hồ sơ làm thủ tục xóa đăng ký thường trú đến cơ quan đăng ký cư trú.\n- Trường hợp người thuộc diện xóa đăng ký thường trú hoặc đại diện hộ gia đình không thực hiện thủ tục xóa đăng ký thường trú thì cơ quan đăng ký cư trú có trách nhiệm kiểm tra, xác minh, lập biên bản về việc công dân, đại diện hộ gia đình không thực hiện thủ tục xóa đăng ký thường trú và thực hiện xóa đăng ký thường trú đối với công dân. \n- Cơ quan, đơn vị quản lý người học tập, công tác, làm việc trong lực lượng vũ trang nhân dân có văn bản đề nghị cơ quan đăng ký cư trú trên địa bàn đóng quân xóa đăng ký thường trú đối với người thuộc đơn vị mình quản lý. Văn bản đề nghị cần nêu rõ họ, chữ đệm và tên khai sinh; ngày, tháng, năm sinh; số định danh cá nhân hoặc chứng minh nhân dân 09 số của người thuộc trường hợp xóa đăng ký thường trú; lý do đề nghị xóa đăng ký thường trú.",
@@ -155,25 +147,22 @@
     {
       "title": "Cập nhật thông tin trong Cơ sở dữ liệu về cư trú",
       "code": "KQ.G01.000066",
-      "id": "019d2bb2-1c37-76e8-b48c-6ca41f3fbddf",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Cập nhật thông tin trong Cơ sở dữ liệu quốc gia về dân cư",
       "code": "KQ.G01.000064",
-      "id": "019d2bb2-1c37-76e8-b48c-667658cd90ac",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông báo kết quả giải quyết thủ tục về cư trú, hủy bỏ thủ tục về cư trú",
       "code": "KQ.G01.000065",
-      "id": "019d2bb2-1c37-76e8-b48c-6a80cedea8e2",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.\n Bước 2: Cá nhân, tổ chức nộp hồ sơ đến Công an cấp xã.\n Bước 3: Khi tiếp nhận hồ sơ xóa đăng ký thường trú, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n- Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (mẫu CT04 ban hành kèm theo Thông tư số 66/2023/TT-BCA) cho người đăng ký.\n- Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 66/2023/TT-BCA) cho người đăng ký.\n Bước 4: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có).\n",
-    "THÀNH PHẦN HỒ SƠ": "\nThông tin chứng minh thuộc trường hợp xóa đăng ký thường trú của công dân trong Cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành và cơ sở dữ liệu khác được kết nối, chia sẻ với cơ quan đăng ký cư trú. Trường hợp thông tin chưa được kết nối, chia sẻ thì công dân xuất trình giấy tờ, tài liệu chứng minh thuộc một trong các trường hợp xóa đăng ký thường trú quy định tại Điều 24 Luật Cư trú.\nTờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 53/2025/TT-BCA).",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.\nBước 2: Cá nhân, tổ chức nộp hồ sơ đến Công an cấp xã.\nBước 3: Khi tiếp nhận hồ sơ xóa đăng ký thường trú, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n- Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (mẫu CT04 ban hành kèm theo Thông tư số 66/2023/TT-BCA) cho người đăng ký.\n- Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 66/2023/TT-BCA) cho người đăng ký.\nBước 4: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có).",
+    "THÀNH PHẦN HỒ SƠ": "Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 53/2025/TT-BCA).\nThông tin chứng minh thuộc trường hợp xóa đăng ký thường trú của công dân trong Cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành và cơ sở dữ liệu khác được kết nối, chia sẻ với cơ quan đăng ký cư trú. Trường hợp thông tin chưa được kết nối, chia sẻ thì công dân xuất trình giấy tờ, tài liệu chứng minh thuộc một trong các trường hợp xóa đăng ký thường trú quy định tại Điều 24 Luật Cư trú.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 5 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định quy định chi tiết một số điều và biện pháp thi hành Luật Cư trú - 154/2024/NĐ-CP\nThông tư số 54/2025/TT-BCA ngày 01/7/2025 của Bộ trưởng Bộ Công an quy định về quy trình đăng ký cư trú. - 54/2025/TT-BCA\nThông tư 56/2021/TT-BCA - 56/2021/TT-BCA\nThông tư 55/2021/TT-BCA - 55/2021/TT-BCA\nThông tư số 66/2023/TT-BCA Sửa đổi, bổ sung một số điều của Thông tư số 55/2021/TT-BCA ngày 15/5/2021 quy định chi tiết một số điều và biện pháp thi hành Luật Cư trú; Thông tư số 56/2021/TT-BCA ngày 15/5/2021 của Bộ trưởng Bộ Công an quy định về biểu mẫu trong đăng ký, quản lý cư trú; Thông tư số 57/2021/TT-BCA ngày 15/5/2021 của Bộ trưởng Bộ Công an quy định về quy trình đăng ký cư trú. - 66/2023/TT-BCA\nThông tư số 53/2025/TT-BCAngày 01/7/2025 của Bộ Công an sửa đổi, bổ sung một số điều của Thông tư số 55/2021/TT-BCA ngày 15 tháng 5 năm 2021 của Bộ trưởng Bộ Công an quy định chi tiết một số điều và biện pháp thi hành Luật Cư trú được sửa đổi, bổ sung bởi Thông tư số 66/2023/TT-BCA ngày 17 tháng 11 năm 2023; Thông tư số 56/2021/TT-BCA ngày 15 tháng 5 năm 2021 của Bộ trưởng Bộ Công an quy định về biểu mẫu trong đăng ký, quản lý cư trú được sửa đổi, bổ sung bởi Thông tư số 66/2023/TT-BCA ngày 17 tháng 11 năm 2023; Thông tư số 17/2024/TT-BCA ngày 15 tháng 5 năm 2024 của Bộ trưởng Bộ Công an quy định chi tiết một số điều và biện pháp thi hành Luật Căn cước. - 53/2025/TT-BCA\nThông tư 57/2021/TT-BCA - 57/2021/TT-BCA\nLuật Cư trú 2020 - 68/2020/QH14",
     "CƠ QUAN THỰC HIỆN": "Công an cấp Xã",
@@ -183,14 +172,9 @@
     "MÔ TẢ": "- Trong thời hạn 07 ngày kể từ ngày hộ gia đình có người thuộc diện xóa đăng ký thường trú thì người thuộc diện xóa đăng ký thường trú hoặc đại diện hộ gia đình có trách nhiệm nộp hồ sơ làm thủ tục xóa đăng ký thường trú đến cơ quan đăng ký cư trú.\n- Trường hợp người thuộc diện xóa đăng ký thường trú hoặc đại diện hộ gia đình không thực hiện thủ tục xóa đăng ký thường trú thì cơ quan đăng ký cư trú có trách nhiệm kiểm tra, xác minh, lập biên bản về việc công dân, đại diện hộ gia đình không thực hiện thủ tục xóa đăng ký thường trú và thực hiện xóa đăng ký thường trú đối với công dân. \n- Cơ quan, đơn vị quản lý người học tập, công tác, làm việc trong lực lượng vũ trang nhân dân có văn bản đề nghị cơ quan đăng ký cư trú trên địa bàn đóng quân xóa đăng ký thường trú đối với người thuộc đơn vị mình quản lý. Văn bản đề nghị cần nêu rõ họ, chữ đệm và tên khai sinh; ngày, tháng, năm sinh; số định danh cá nhân hoặc chứng minh nhân dân 09 số của người thuộc trường hợp xóa đăng ký thường trú; lý do đề nghị xóa đăng ký thường trú."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Cư trú và giấy tờ tùy thân",
-      "slug": "cu-tru-va-giay-to-tuy-than",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đăng ký, quản lý cư trú",
-      "slug": "dang-ky-quan-ly-cu-tru"
+      "slug": "ang-ky-quan-ly-cu-tru"
     },
     "implementation_levels": [
       {
@@ -222,6 +206,6 @@
         "slug": "cong-an-cap-xa"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

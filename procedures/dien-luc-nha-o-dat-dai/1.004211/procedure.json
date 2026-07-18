@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfa-3071-7647-b4b8-55c1f6e981a9",
   "procedure_code": "1.004211",
   "title": "Gia hạn, điều chỉnh giấy phép khai thác nước dưới đất đối với công trình có quy mô dưới 5.000 m3/ngày đêm",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-3071-7647-b4b8-55c1f6e981a9",
     "source_file": "chi-tiet-thu-tuc-1.004211.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.004211/chi-tiet-thu-tuc-1.004211.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:01.877477+00:00",
-    "source_updated_at": "2026-04-14T10:11:32.354Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:55:49.662554+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "aadcd71952a0ae34ca0c6c3ea4574f427e2be7822d141486afcc4a5c99ba20b2"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:01.877477+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "248/QĐ-BNNMT",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Tài nguyên nước",
   "target_users": [
@@ -36,51 +32,44 @@
   ],
   "agency": {
     "competent_agency": "Chủ tịch ủy ban nhân dân cấp tỉnh",
-    "executing_agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Nộp hồ sơ:\nTổ chức, cá nhân đề nghị gia hạn, điều chỉnh giấy phép nộp nộp 01 bộ hồ sơ trực tiếp tại Trung tâm phục vụ hành chính công cấp tỉnh (sau đây gọi tắt là Bộ phận Một cửa) hoặc qua dịch vụ bưu chính hoặc qua ủy quyền theo quy định của pháp luật hoặc trực tuyến tại Cổng Dịch vụ công quốc gia.\n- Bước 2: Tiếp nhận, kiểm tra hồ sơ:\nBộ phận Một cửa có trách nhiệm tiếp nhận hồ sơ, kiểm tra, xem xét tính đầy đủ, hợp lệ của hồ sơ.\n+ Trường hợp hồ sơ không hợp lệ, Bộ phận Một cửa trả lại hồ sơ và thông báo rõ lý do cho tổ chức, cá nhân đề nghị gia hạn, điều chỉnh giấy phép. \n+ Trường hợp hồ sơ hợp lệ, Bộ phận Một cửa chuyển hồ sơ cho Sở Nông nghiệp và Môi trường để tổ chức thẩm định.\n- Bước 3: Thẩm định hồ sơ đối với trường hợp gia hạn, điều chỉnh giấy phép:\nKể từ ngày nhận đủ hồ sơ hợp lệ, Sở Nông nghiệp và Môi trường có trách nhiệm gửi thông báo nộp phí thẩm định cho tổ chức, cá nhân đề nghị gia hạn, điều chỉnh giấy phép và thẩm định hồ sơ; nếu cần thiết thì kiểm tra thực tế hiện trường, lập hội đồng thẩm định báo cáo; tổ chức lấy ý kiến các cơ quan, tổ chức, cá nhân có liên quan.\n+ Trường hợp đủ điều kiện gia hạn, điều chỉnh, Sở Nông nghiệp và Môi trường trình Chủ tịch Ủy ban nhân dân cấp tỉnh gia hạn, điều chỉnh giấy phép; trường hợp không đủ điều kiện để gia hạn, điều chỉnh giấy phép thì Sở Nông nghiệp và Môi trường gửi văn bản thông báo cho tổ chức, cá nhân nêu rõ những nội dung báo cáo chưa đạt yêu cầu và trả lại hồ sơ.\n+ Trường hợp phải bổ sung, chỉnh sửa để hoàn thiện báo cáo, Sở Nông nghiệp và Môi trường gửi văn bản thông báo cho tổ chức, cá nhân đề nghị gia hạn, điều chỉnh giấy phép nêu rõ những nội dung cần bổ sung, hoàn thiện báo cáo. \nThời gian bổ sung, hoàn thiện báo cáo không tính vào thời gian thẩm định báo cáo. Thời gian thẩm định sau khi báo cáo được bổ sung hoàn chỉnh là 18 ngày làm việc.\n",
+      "description": "- Bước 1: Nộp hồ sơ:\nTổ chức, cá nhân đề nghị gia hạn, điều chỉnh giấy phép nộp nộp 01 bộ hồ sơ trực tiếp tại Trung tâm phục vụ hành chính công cấp tỉnh (sau đây gọi tắt là Bộ phận Một cửa) hoặc qua dịch vụ bưu chính hoặc qua ủy quyền theo quy định của pháp luật hoặc trực tuyến tại Cổng Dịch vụ công quốc gia.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Tiếp nhận, kiểm tra hồ sơ:\nBộ phận Một cửa có trách nhiệm tiếp nhận hồ sơ, kiểm tra, xem xét tính đầy đủ, hợp lệ của hồ sơ.\n+ Trường hợp hồ sơ không hợp lệ, Bộ phận Một cửa trả lại hồ sơ và thông báo rõ lý do cho tổ chức, cá nhân đề nghị gia hạn, điều chỉnh giấy phép. \n+ Trường hợp hồ sơ hợp lệ, Bộ phận Một cửa chuyển hồ sơ cho Sở Nông nghiệp và Môi trường để tổ chức thẩm định.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "- Bước 3: Thẩm định hồ sơ đối với trường hợp gia hạn, điều chỉnh giấy phép:\nKể từ ngày nhận đủ hồ sơ hợp lệ, Sở Nông nghiệp và Môi trường có trách nhiệm gửi thông báo nộp phí thẩm định cho tổ chức, cá nhân đề nghị gia hạn, điều chỉnh giấy phép và thẩm định hồ sơ; nếu cần thiết thì kiểm tra thực tế hiện trường, lập hội đồng thẩm định báo cáo; tổ chức lấy ý kiến các cơ quan, tổ chức, cá nhân có liên quan.\n+ Trường hợp đủ điều kiện gia hạn, điều chỉnh, Sở Nông nghiệp và Môi trường trình Chủ tịch Ủy ban nhân dân cấp tỉnh gia hạn, điều chỉnh giấy phép; trường hợp không đủ điều kiện để gia hạn, điều chỉnh giấy phép thì Sở Nông nghiệp và Môi trường gửi văn bản thông báo cho tổ chức, cá nhân nêu rõ những nội dung báo cáo chưa đạt yêu cầu và trả lại hồ sơ.\n+ Trường hợp phải bổ sung, chỉnh sửa để hoàn thiện báo cáo, Sở Nông nghiệp và Môi trường gửi văn bản thông báo cho tổ chức, cá nhân đề nghị gia hạn, điều chỉnh giấy phép nêu rõ những nội dung cần bổ sung, hoàn thiện báo cáo. \nThời gian bổ sung, hoàn thiện báo cáo không tính vào thời gian thẩm định báo cáo. Thời gian thẩm định sau khi báo cáo được bổ sung hoàn chỉnh là 18 ngày làm việc.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "- Báo cáo hiện trạng khai thác nước dưới đất và tình hình thực hiện giấy phép theo Mẫu 41, Phụ lục I Nghị định số 23/2026/NĐ-CP.",
-        "code": "G10-KQ007202",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d8b24-7582-750d-b4db-f54145675bdf",
-            "name": "Mau41.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau41.docx",
+        "source_page": 2
       },
       {
         "name": "- Văn bản đề nghị gia hạn hoặc điều chỉnh nội dung giấy phép theo Mẫu 04, Phụ lục I Nghị định số 23/2026/NĐ-CP.",
-        "code": "G10-KQ007201",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d8b24-d024-707d-9aee-3c8f31eb4d7e",
-            "name": "Mau04.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau04.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -91,87 +80,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "24 ngày làm việc",
-      "processing_time_value": 24,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "do Ủy ban nhân dân cấp tỉnh quy định.",
-          "attachment": null
-        }
-      ],
+      "fee": "do Ủy ban nhân dân cấp tỉnh quy định.",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "24 ngày làm việc",
-      "processing_time_value": 24,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "do Ủy ban nhân dân cấp tỉnh quy định.",
-          "attachment": null
-        }
-      ],
+      "fee": "do Ủy ban nhân dân cấp tỉnh quy định.",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "24 ngày làm việc",
-      "processing_time_value": 24,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "do Ủy ban nhân dân cấp tỉnh quy định.",
-          "attachment": null
-        }
-      ],
+      "fee": "do Ủy ban nhân dân cấp tỉnh quy định.",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "do Ủy ban nhân dân cấp tỉnh quy định.",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "do Ủy ban nhân dân cấp tỉnh quy định.",
-        "attachment": null
+        "amount_text": "do Ủy ban nhân dân cấp tỉnh quy định.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "do Ủy ban nhân dân cấp tỉnh quy định.",
-        "attachment": null
+        "amount_text": "do Ủy ban nhân dân cấp tỉnh quy định.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "do Ủy ban nhân dân cấp tỉnh quy định.",
-        "attachment": null
+        "amount_text": "do Ủy ban nhân dân cấp tỉnh quy định.",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -179,32 +133,27 @@
     {
       "title": "Luật",
       "document_number": "28/2023/QH15",
-      "id": "019d2bb3-5d84-71c5-b672-7e4ed283bc69",
       "source_page": null
     },
     {
       "title": "Nghị định Quy định phân quyền, phân cấp trong lĩnh vực nông nghiệp",
       "document_number": "136/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-a2a2b09b2b47",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "QUY ĐỊNH VIỆC HÀNH NGHỀ KHOAN NƯỚC DƯỚI ĐẤT, KÊ KHAI, ĐĂNG KÝ, CẤP PHÉP, DỊCH VỤ TÀI NGUYÊN NƯỚC VÀ TIỀN CẤP QUYỀN KHAI THÁC TÀI NGUYÊN NƯỚC",
       "document_number": "54/2024/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46e-eec5b78ade99",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 23/2026/NĐ-CP ngày 17/01/2026 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực tài nguyên nước.",
       "document_number": "NĐ 23/2026/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b475-2553fc0ec21d",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "14/2025/TT-BNNMT",
       "document_number": "14/2025/TT-BNNMT",
-      "id": "019d2bb3-5d7c-71ab-9f09-83605f83efc1",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -212,13 +161,12 @@
     {
       "title": "Kết quả của thủ tục Gia hạn, điều chỉnh giấy phép khai thác nước dưới đất theo Mẫu 22 Phụ lục I ban hành kèm theo Nghị định số 23/2026/NĐ-CP.",
       "code": "KQ.G10.001262",
-      "id": "019d2bb2-1c6e-7797-a218-0ee2524d9b6f",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Nộp hồ sơ:\nTổ chức, cá nhân đề nghị gia hạn, điều chỉnh giấy phép nộp nộp 01 bộ hồ sơ trực tiếp tại Trung tâm phục vụ hành chính công cấp tỉnh (sau đây gọi tắt là Bộ phận Một cửa) hoặc qua dịch vụ bưu chính hoặc qua ủy quyền theo quy định của pháp luật hoặc trực tuyến tại Cổng Dịch vụ công quốc gia.\n- Bước 2: Tiếp nhận, kiểm tra hồ sơ:\nBộ phận Một cửa có trách nhiệm tiếp nhận hồ sơ, kiểm tra, xem xét tính đầy đủ, hợp lệ của hồ sơ.\n+ Trường hợp hồ sơ không hợp lệ, Bộ phận Một cửa trả lại hồ sơ và thông báo rõ lý do cho tổ chức, cá nhân đề nghị gia hạn, điều chỉnh giấy phép. \n+ Trường hợp hồ sơ hợp lệ, Bộ phận Một cửa chuyển hồ sơ cho Sở Nông nghiệp và Môi trường để tổ chức thẩm định.\n- Bước 3: Thẩm định hồ sơ đối với trường hợp gia hạn, điều chỉnh giấy phép:\nKể từ ngày nhận đủ hồ sơ hợp lệ, Sở Nông nghiệp và Môi trường có trách nhiệm gửi thông báo nộp phí thẩm định cho tổ chức, cá nhân đề nghị gia hạn, điều chỉnh giấy phép và thẩm định hồ sơ; nếu cần thiết thì kiểm tra thực tế hiện trường, lập hội đồng thẩm định báo cáo; tổ chức lấy ý kiến các cơ quan, tổ chức, cá nhân có liên quan.\n+ Trường hợp đủ điều kiện gia hạn, điều chỉnh, Sở Nông nghiệp và Môi trường trình Chủ tịch Ủy ban nhân dân cấp tỉnh gia hạn, điều chỉnh giấy phép; trường hợp không đủ điều kiện để gia hạn, điều chỉnh giấy phép thì Sở Nông nghiệp và Môi trường gửi văn bản thông báo cho tổ chức, cá nhân nêu rõ những nội dung báo cáo chưa đạt yêu cầu và trả lại hồ sơ.\n+ Trường hợp phải bổ sung, chỉnh sửa để hoàn thiện báo cáo, Sở Nông nghiệp và Môi trường gửi văn bản thông báo cho tổ chức, cá nhân đề nghị gia hạn, điều chỉnh giấy phép nêu rõ những nội dung cần bổ sung, hoàn thiện báo cáo. \nThời gian bổ sung, hoàn thiện báo cáo không tính vào thời gian thẩm định báo cáo. Thời gian thẩm định sau khi báo cáo được bổ sung hoàn chỉnh là 18 ngày làm việc.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n- Báo cáo hiện trạng khai thác nước dưới đất và tình hình thực hiện giấy phép theo Mẫu 41, Phụ lục I Nghị định số 23/2026/NĐ-CP.\n- Văn bản đề nghị gia hạn hoặc điều chỉnh nội dung giấy phép theo Mẫu 04, Phụ lục I Nghị định số 23/2026/NĐ-CP.",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Nộp hồ sơ:\nTổ chức, cá nhân đề nghị gia hạn, điều chỉnh giấy phép nộp nộp 01 bộ hồ sơ trực tiếp tại Trung tâm phục vụ hành chính công cấp tỉnh (sau đây gọi tắt là Bộ phận Một cửa) hoặc qua dịch vụ bưu chính hoặc qua ủy quyền theo quy định của pháp luật hoặc trực tuyến tại Cổng Dịch vụ công quốc gia.\n- Bước 2: Tiếp nhận, kiểm tra hồ sơ:\nBộ phận Một cửa có trách nhiệm tiếp nhận hồ sơ, kiểm tra, xem xét tính đầy đủ, hợp lệ của hồ sơ.\n+ Trường hợp hồ sơ không hợp lệ, Bộ phận Một cửa trả lại hồ sơ và thông báo rõ lý do cho tổ chức, cá nhân đề nghị gia hạn, điều chỉnh giấy phép. \n+ Trường hợp hồ sơ hợp lệ, Bộ phận Một cửa chuyển hồ sơ cho Sở Nông nghiệp và Môi trường để tổ chức thẩm định.\n- Bước 3: Thẩm định hồ sơ đối với trường hợp gia hạn, điều chỉnh giấy phép:\nKể từ ngày nhận đủ hồ sơ hợp lệ, Sở Nông nghiệp và Môi trường có trách nhiệm gửi thông báo nộp phí thẩm định cho tổ chức, cá nhân đề nghị gia hạn, điều chỉnh giấy phép và thẩm định hồ sơ; nếu cần thiết thì kiểm tra thực tế hiện trường, lập hội đồng thẩm định báo cáo; tổ chức lấy ý kiến các cơ quan, tổ chức, cá nhân có liên quan.\n+ Trường hợp đủ điều kiện gia hạn, điều chỉnh, Sở Nông nghiệp và Môi trường trình Chủ tịch Ủy ban nhân dân cấp tỉnh gia hạn, điều chỉnh giấy phép; trường hợp không đủ điều kiện để gia hạn, điều chỉnh giấy phép thì Sở Nông nghiệp và Môi trường gửi văn bản thông báo cho tổ chức, cá nhân nêu rõ những nội dung báo cáo chưa đạt yêu cầu và trả lại hồ sơ.\n+ Trường hợp phải bổ sung, chỉnh sửa để hoàn thiện báo cáo, Sở Nông nghiệp và Môi trường gửi văn bản thông báo cho tổ chức, cá nhân đề nghị gia hạn, điều chỉnh giấy phép nêu rõ những nội dung cần bổ sung, hoàn thiện báo cáo. \nThời gian bổ sung, hoàn thiện báo cáo không tính vào thời gian thẩm định báo cáo. Thời gian thẩm định sau khi báo cáo được bổ sung hoàn chỉnh là 18 ngày làm việc.",
+    "THÀNH PHẦN HỒ SƠ": "- Báo cáo hiện trạng khai thác nước dưới đất và tình hình thực hiện giấy phép theo Mẫu 41, Phụ lục I Nghị định số 23/2026/NĐ-CP.\n- Văn bản đề nghị gia hạn hoặc điều chỉnh nội dung giấy phép theo Mẫu 04, Phụ lục I Nghị định số 23/2026/NĐ-CP.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 24 ngày làm việc\nQua dịch vụ bưu chính: 24 ngày làm việc\nTrực tiếp: 24 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Luật - 28/2023/QH15\nNghị định Quy định phân quyền, phân cấp trong lĩnh vực nông nghiệp - 136/2025/NĐ-CP\nQUY ĐỊNH VIỆC HÀNH NGHỀ KHOAN NƯỚC DƯỚI ĐẤT, KÊ KHAI, ĐĂNG KÝ, CẤP PHÉP, DỊCH VỤ TÀI NGUYÊN NƯỚC VÀ TIỀN CẤP QUYỀN KHAI THÁC TÀI NGUYÊN NƯỚC - 54/2024/NĐ-CP\nNghị định 23/2026/NĐ-CP ngày 17/01/2026 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực tài nguyên nước. - NĐ 23/2026/NĐ-CP\n14/2025/TT-BNNMT - 14/2025/TT-BNNMT",
     "CƠ QUAN THỰC HIỆN": "Sở Nông nghiệp và Môi trường Thành phố Hà Nội",
@@ -228,11 +176,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Tài nguyên nước",
       "slug": "tai-nguyen-nuoc"
@@ -259,6 +202,6 @@
         "slug": "so-nong-nghiep-va-moi-truong-thanh-pho-ha-noi"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019dd45e-955c-739a-a84c-4db9cefc3096",
   "procedure_code": "1.015004",
   "title": "Thủ tục xử lý đơn Madrid có nguồn gốc Việt Nam",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019dd45e-955c-739a-a84c-4db9cefc3096",
     "source_file": "chi-tiet-thu-tuc-1.015004.pdf",
     "source_path": "procedures/viec-lam/1.015004/chi-tiet-thu-tuc-1.015004.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:15.855009+00:00",
-    "source_updated_at": "2026-05-20T07:57:45.289Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:53.701461+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "7ebc950b88e33d095ecb28ad5c28a9df3c4d7a1658b9356b846dcf8bbde955bc"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:15.855009+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2113/QĐ-BKHCN",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Sở hữu trí tuệ",
   "target_users": [
@@ -46,123 +42,85 @@
   ],
   "agency": {
     "competent_agency": "Bộ Khoa học và Công nghệ",
-    "executing_agency": "Cục Sở hữu trí tuệ",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Bộ phận Một cửa của Bộ Khoa học và Công nghệ"
+    "executing_agency": "Cục Sở hữu trí tuệ"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Tiếp nhận đơn/yêu cầu \n+ Tổ chức, cá nhân nộp 01 bộ hồ sơ đơn Madrid có nguồn gốc Việt Nam hoặc yêu cầu sau khi đơn đã được cấp số đăng ký quốc tế (yêu cầu chỉ định sau, yêu cầu giới hạn danh mục hàng hóa, dịch vụ, yêu cầu gia hạn hiệu lực ĐKQT...) đến Bộ phận một cửa của Bộ Khoa học và Công nghệ . \n+ Trường hợp yêu cầu gia hạn đăng ký quốc tế nộp thông qua Cục Sở hữu trí tuệ, người nộp đơn cần nộp không sớm hơn 06 tháng và không muộn hơn 01 tháng tính đến ngày đăng ký quốc tế đó hết hạn. Nếu yêu cầu gia hạn hiệu lực đăng ký quốc tế trong thời gian ân hạn thì hồ sơ yêu cầu cần được nộp cho Cục Sở hữu trí tuệ không muộn hơn 01 tháng tính đến ngày hết thời gian ân hạn. \n- Bước 2: Xử lý hồ sơ\n+ Trường hợp đơn có thiếu sót, Cục Sở hữu trí tuệ thông báo để người nộp đơn sửa chữa thiếu sót. Trường hợp người nộp đơn không sửa chữa thiếu sót trong thời hạn 03 tháng kể từ ngày Cục Sở hữu trí tuệ ra thông báo, đơn/yêu cầu coi như bị rút bỏ;\n+ Trường hợp đơn/yêu cầu không có thiếu sót hoặc có thiếu sót nhưng người nộp đơn đã sửa chữa thiếu sót đạt yêu cầu, Cục Sở hữu trí tuệ ra thông báo các khoản phí người nộp đơn/yêu cầu cần phải nộp trực tiếp cho Văn phòng quốc tế, ký xác nhận đơn/yêu cầu và chuyển đơn/yêu cầu cho Văn phòng quốc tế trong thời hạn 15 ngày (đối với đơn) hoặc 10 ngày (đối với yêu cầu) kể từ ngày ra thông báo về phí, lệ phí;\n+ Phối hợp với Văn phòng quốc tế để thực hiện các vấn đề có liên quan ",
+      "description": "- Bước 1: Tiếp nhận đơn/yêu cầu \n+ Tổ chức, cá nhân nộp 01 bộ hồ sơ đơn Madrid có nguồn gốc Việt Nam hoặc yêu cầu sau khi đơn đã được cấp số đăng ký quốc tế (yêu cầu chỉ định sau, yêu cầu giới hạn danh mục hàng hóa, dịch vụ, yêu cầu gia hạn hiệu lực ĐKQT...) đến Bộ phận một cửa của Bộ Khoa học và Công nghệ . \n+ Trường hợp yêu cầu gia hạn đăng ký quốc tế nộp thông qua Cục Sở hữu trí tuệ, người nộp đơn cần nộp không sớm hơn 06 tháng và không muộn hơn 01 tháng tính đến ngày đăng ký quốc tế đó hết hạn. Nếu yêu cầu gia hạn hiệu lực đăng ký quốc tế trong thời gian ân hạn thì hồ sơ yêu cầu cần được nộp cho Cục Sở hữu trí tuệ không muộn hơn 01 tháng tính đến ngày hết thời gian ân hạn.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Xử lý hồ sơ\n+ Trường hợp đơn có thiếu sót, Cục Sở hữu trí tuệ thông báo để người nộp đơn sửa chữa thiếu sót. Trường hợp người nộp đơn không sửa chữa thiếu sót trong thời hạn 03 tháng kể từ ngày Cục Sở hữu trí tuệ ra thông báo, đơn/yêu cầu coi như bị rút bỏ;\n+ Trường hợp đơn/yêu cầu không có thiếu sót hoặc có thiếu sót nhưng người nộp đơn đã sửa chữa thiếu sót đạt yêu cầu, Cục Sở hữu trí tuệ ra thông báo các khoản phí người nộp đơn/yêu cầu cần phải nộp trực tiếp cho Văn phòng quốc tế, ký xác nhận đơn/yêu cầu và chuyển đơn/yêu cầu cho Văn phòng quốc tế trong thời hạn 15 ngày (đối với đơn) hoặc 10 ngày (đối với yêu cầu) kể từ ngày ra thông báo về phí, lệ phí;\n+ Phối hợp với Văn phòng quốc tế để thực hiện các vấn đề có liên quan",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Tờ khai yêu cầu đăng ký quốc tế nhãn hiệu có nguồn gốc Việt  Nam theo Mẫu số 07 bằng tiếng Việt tại Phụ lục I của Thông tư  số 10/2026/TT-BKHCN;  + Tờ khai MM2 theo mẫu",
-        "code": "TP-G06.19-00008",
+        "name": "Trường hợp 1: Tờ khai yêu cầu đăng ký quốc tế nhãn hiệu có nguồn gốc Việt  Nam theo Mẫu số 07 bằng tiếng Việt tại Phụ lục I của Thông tư  số 10/2026/TT-BKHCN;  + Tờ khai MM2 theo mẫu",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 1",
-        "attachments": [
-          {
-            "id": "019dd505-73a2-77b4-a7ce-3a5171006cc9",
-            "name": "Mẫu số 07_PL1.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 07_PL1.docx",
+        "source_page": 2
       },
       {
-        "name": "Tờ khai MM2 theo mẫu của Văn phòng quốc tế bằng tiếng  Anh hoặc tiếng Pháp (nộp 02 tờ khai trong trường hợp đơn nộp  dạng giấy);",
-        "code": "TP-G06.19-00009",
+        "name": "Trường hợp 1: Tờ khai MM2 theo mẫu của Văn phòng quốc tế bằng tiếng  Anh hoặc tiếng Pháp (nộp 02 tờ khai trong trường hợp đơn nộp  dạng giấy);",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 1",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Mẫu nhãn hiệu đúng như nhãn hiệu trong đơn đăng ký đã được  nộp tại Việt Nam (đơn cơ sở) hoặc giấy chứng nhận đăng ký  nhãn hiệu tại Việt Nam (đăng ký cơ sở) (nộp 02 mẫu nhãn hiệu  trong trường hợp đơn nộp dạng giấy);",
-        "code": "TP-G06.19-00010",
+        "name": "Trường hợp 1: Mẫu nhãn hiệu đúng như nhãn hiệu trong đơn đăng ký đã được  nộp tại Việt Nam (đơn cơ sở) hoặc giấy chứng nhận đăng ký  nhãn hiệu tại Việt Nam (đăng ký cơ sở) (nộp 02 mẫu nhãn hiệu  trong trường hợp đơn nộp dạng giấy);",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 1",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Tờ khai MM18 bằng tiếng Anh nếu đơn có chỉ định Hoa Kỳ  (nộp 02 tờ khai trong trường hợp đơn nộp dạng giấy);",
-        "code": "TP-G06.19-00011",
+        "name": "Trường hợp 1: Tờ khai MM18 bằng tiếng Anh nếu đơn có chỉ định Hoa Kỳ  (nộp 02 tờ khai trong trường hợp đơn nộp dạng giấy);",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 1",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Văn bản ủy quyền bằng tiếng Việt (trường hợp đơn được nộp  thông qua đại diện);",
-        "code": "TP-G06.19-00012",
+        "name": "Trường hợp 1: Văn bản ủy quyền bằng tiếng Việt (trường hợp đơn được nộp  thông qua đại diện);",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 1",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Các tài liệu khác có liên quan (nếu có)",
-        "code": "TP-G06.19-00013",
+        "name": "Trường hợp 1: Các tài liệu khác có liên quan (nếu có)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 1",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Tờ khai yêu cầu theo Mẫu số 08 bằng tiếng Việt tại Phụ lục  I của Thông tư số 10/2026/TT-BKHCN;",
-        "code": "TP-G06.19-00014",
+        "name": "Trường hợp 2: Tờ khai yêu cầu theo Mẫu số 08 bằng tiếng Việt tại Phụ lục  I của Thông tư số 10/2026/TT-BKHCN;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 2",
-        "attachments": [
-          {
-            "id": "019dd513-32eb-777b-9f21-d9d5e0ae97f5",
-            "name": "Mẫu số 08_PL1.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 08_PL1.docx",
+        "source_page": 3
       },
       {
-        "name": "Tờ khai MM tương ứng theo mẫu của Văn phòng quốc tế (02  tờ khai trong trường hợp đơn nộp dạng giấy);",
-        "code": "TP-G06.19-00015",
+        "name": "Trường hợp 2: Tờ khai MM tương ứng theo mẫu của Văn phòng quốc tế (02  tờ khai trong trường hợp đơn nộp dạng giấy);",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 2",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Văn bản ủy quyền bằng tiếng Việt (trường hợp yêu cầu được  nộp thông qua đại diện);",
-        "code": "TP-G06.19-00016",
+        "name": "Trường hợp 2: Văn bản ủy quyền bằng tiếng Việt (trường hợp yêu cầu được  nộp thông qua đại diện);",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 2",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Các tài liệu khác có liên quan (nếu có).",
-        "code": "TP-G06.19-00017",
+        "name": "Trường hợp 2: Các tài liệu khác có liên quan (nếu có).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 2",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -173,135 +131,73 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "60 ngày",
-      "processing_time_value": 60,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 2000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thực hiện thủ tục đăng ký quốc tế nhãn hiệu có nguồn gốc Việt Nam, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 1000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thực hiện thủ tục yêu cầu, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí thực hiện thủ tục đăng ký quốc tế nhãn hiệu có nguồn gốc Việt Nam, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế; Phí thực hiện thủ tục yêu cầu, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
       "description": "Trong thời hạn 02 tháng kể từ ngày nhận được đủ tài liệu hợp lệ theo quy định.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "60 ngày",
-      "processing_time_value": 60,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 2000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thực hiện thủ tục đăng ký quốc tế nhãn hiệu có nguồn gốc Việt Nam, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 1000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thực hiện thủ tục yêu cầu, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí thực hiện thủ tục đăng ký quốc tế nhãn hiệu có nguồn gốc Việt Nam, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế; Phí thực hiện thủ tục yêu cầu, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
       "description": "Trong thời hạn 02 tháng kể từ ngày nhận được đủ tài liệu hợp lệ theo quy định.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "60 ngày",
-      "processing_time_value": 60,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 2000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thực hiện thủ tục đăng ký quốc tế nhãn hiệu có nguồn gốc Việt Nam, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 1000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thực hiện thủ tục yêu cầu, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí thực hiện thủ tục đăng ký quốc tế nhãn hiệu có nguồn gốc Việt Nam, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế; Phí thực hiện thủ tục yêu cầu, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
       "description": "Trong thời hạn 02 tháng kể từ ngày nhận được đủ tài liệu hợp lệ theo quy định.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Phí thực hiện thủ tục đăng ký quốc tế nhãn hiệu có nguồn gốc Việt Nam, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế; Phí thực hiện thủ tục yêu cầu, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 2000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thực hiện thủ tục đăng ký quốc tế nhãn hiệu có nguồn gốc Việt Nam, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
-        "attachment": null
+        "amount_text": "Phí thực hiện thủ tục đăng ký quốc tế nhãn hiệu có nguồn gốc Việt Nam, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 1000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thực hiện thủ tục yêu cầu, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
-        "attachment": null
+        "amount_text": "Phí thực hiện thủ tục yêu cầu, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 2000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thực hiện thủ tục đăng ký quốc tế nhãn hiệu có nguồn gốc Việt Nam, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
-        "attachment": null
+        "amount_text": "Phí thực hiện thủ tục đăng ký quốc tế nhãn hiệu có nguồn gốc Việt Nam, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 1000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thực hiện thủ tục yêu cầu, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
-        "attachment": null
+        "amount_text": "Phí thực hiện thủ tục yêu cầu, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 2000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thực hiện thủ tục đăng ký quốc tế nhãn hiệu có nguồn gốc Việt Nam, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
-        "attachment": null
+        "amount_text": "Phí thực hiện thủ tục đăng ký quốc tế nhãn hiệu có nguồn gốc Việt Nam, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 1000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thực hiện thủ tục yêu cầu, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
-        "attachment": null
+        "amount_text": "Phí thực hiện thủ tục yêu cầu, không bao gồm các khoản phí phải nộp cho Văn phòng quốc tế",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -309,32 +205,27 @@
     {
       "title": "07/2022/QH15 - Luật sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ",
       "document_number": "07/2022/QH15",
-      "id": "019d2bb3-5d86-7760-a63a-d73c080790c3",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư số 263/2016/TT-BTC ngày 14/11/2016 quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí sở hữu công nghiệp, được sửa đổi, bổ sung theo Thông tư số 31/2020/TT-BTC ngày 04/5/2020",
       "document_number": "Thông tư số 263/2016/TT-BTC",
-      "id": "019d9477-7cfb-761d-b535-970d8620a742",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ",
       "document_number": "131/2025/QH15",
-      "id": "019d2bb3-5d85-73da-8eb8-25486605b48c",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật số 93/2025/QH15 của Quốc hội: Luật Khoa học, công nghệ và đổi mới sáng tạo",
       "document_number": "93/2025/QH15",
-      "id": "019d2bb3-5d85-73da-8eba-0eadc81b4d09",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ, Nghị định số 65/2023/NĐ-CP ngày 23 tháng 8 năm 2023 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ được sửa đổi, bổ sung bởi Nghị định số 15/2026/NĐ-CP ngày 14 tháng 01 năm 2026, Nghị định số 33/2026/NĐ-CP ngày 21 tháng 01 năm 2026 và Nghị định số 100/2026/NĐ-CP ngày 31 tháng 3 năm 2026",
       "document_number": "10/2026/TT-BKHCN",
-      "id": "019dd361-4bd6-70fd-8f79-a127b21d8356",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "- Công dân hoặc tổ chức của Việt Nam đã nộp đơn đăng ký nhãn\nhiệu tại Việt Nam hoặc cá nhân, tổ chức đã được cấp giấy chứng\nnhận đăng ký nhãn hiệu tại Việt Nam có quyền đăng ký quốc tế\nnhãn hiệu tương ứng theo Hệ thống Madrid;\n- Cá nhân, tổ chức nước ngoài cư trú hoặc có cơ sở thương mại,\ncông nghiệp thực thụ và hiệu quả tại Việt Nam và đã có đơn cơ\nsở nộp tại Việt Nam hoặc giấy chứng nhận nhãn hiệu cơ sở được\ncấp tại Việt Nam;\n- Chủ sở hữu ĐKQT.\n- Người nộp đơn nộp đủ các khoản phí, lệ phí theo quy định",
@@ -342,14 +233,13 @@
     {
       "title": "thông báo về việc  nộp lệ phí cho đơn/yêu cầu",
       "code": "KQ-G06.19-015004",
-      "id": "019dd45d-3429-704f-8e90-caa37c2b9901",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Tiếp nhận đơn/yêu cầu \n+ Tổ chức, cá nhân nộp 01 bộ hồ sơ đơn Madrid có nguồn gốc Việt Nam hoặc yêu cầu sau khi đơn đã được cấp số đăng ký quốc tế (yêu cầu chỉ định sau, yêu cầu giới hạn danh mục hàng hóa, dịch vụ, yêu cầu gia hạn hiệu lực ĐKQT...) đến Bộ phận một cửa của Bộ Khoa học và Công nghệ . \n+ Trường hợp yêu cầu gia hạn đăng ký quốc tế nộp thông qua Cục Sở hữu trí tuệ, người nộp đơn cần nộp không sớm hơn 06 tháng và không muộn hơn 01 tháng tính đến ngày đăng ký quốc tế đó hết hạn. Nếu yêu cầu gia hạn hiệu lực đăng ký quốc tế trong thời gian ân hạn thì hồ sơ yêu cầu cần được nộp cho Cục Sở hữu trí tuệ không muộn hơn 01 tháng tính đến ngày hết thời gian ân hạn. \n- Bước 2: Xử lý hồ sơ\n+ Trường hợp đơn có thiếu sót, Cục Sở hữu trí tuệ thông báo để người nộp đơn sửa chữa thiếu sót. Trường hợp người nộp đơn không sửa chữa thiếu sót trong thời hạn 03 tháng kể từ ngày Cục Sở hữu trí tuệ ra thông báo, đơn/yêu cầu coi như bị rút bỏ;\n+ Trường hợp đơn/yêu cầu không có thiếu sót hoặc có thiếu sót nhưng người nộp đơn đã sửa chữa thiếu sót đạt yêu cầu, Cục Sở hữu trí tuệ ra thông báo các khoản phí người nộp đơn/yêu cầu cần phải nộp trực tiếp cho Văn phòng quốc tế, ký xác nhận đơn/yêu cầu và chuyển đơn/yêu cầu cho Văn phòng quốc tế trong thời hạn 15 ngày (đối với đơn) hoặc 10 ngày (đối với yêu cầu) kể từ ngày ra thông báo về phí, lệ phí;\n+ Phối hợp với Văn phòng quốc tế để thực hiện các vấn đề có liên quan ",
-    "THÀNH PHẦN HỒ SƠ": "Trường hợp 1\nTờ khai yêu cầu đăng ký quốc tế nhãn hiệu có nguồn gốc Việt  Nam theo Mẫu số 07 bằng tiếng Việt tại Phụ lục I của Thông tư  số 10/2026/TT-BKHCN;  + Tờ khai MM2 theo mẫu\nTờ khai MM2 theo mẫu của Văn phòng quốc tế bằng tiếng  Anh hoặc tiếng Pháp (nộp 02 tờ khai trong trường hợp đơn nộp  dạng giấy);\nMẫu nhãn hiệu đúng như nhãn hiệu trong đơn đăng ký đã được  nộp tại Việt Nam (đơn cơ sở) hoặc giấy chứng nhận đăng ký  nhãn hiệu tại Việt Nam (đăng ký cơ sở) (nộp 02 mẫu nhãn hiệu  trong trường hợp đơn nộp dạng giấy);\nTờ khai MM18 bằng tiếng Anh nếu đơn có chỉ định Hoa Kỳ  (nộp 02 tờ khai trong trường hợp đơn nộp dạng giấy);\nVăn bản ủy quyền bằng tiếng Việt (trường hợp đơn được nộp  thông qua đại diện);\nCác tài liệu khác có liên quan (nếu có)\nTrường hợp 2\nTờ khai yêu cầu theo Mẫu số 08 bằng tiếng Việt tại Phụ lục  I của Thông tư số 10/2026/TT-BKHCN;\nTờ khai MM tương ứng theo mẫu của Văn phòng quốc tế (02  tờ khai trong trường hợp đơn nộp dạng giấy);\nVăn bản ủy quyền bằng tiếng Việt (trường hợp yêu cầu được  nộp thông qua đại diện);\nCác tài liệu khác có liên quan (nếu có).",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 60 ngày - Trong thời hạn 02 tháng kể từ ngày nhận được đủ tài liệu hợp lệ theo quy định.\nTrực tuyến: 60 ngày - Trong thời hạn 02 tháng kể từ ngày nhận được đủ tài liệu hợp lệ theo quy định.\nQua dịch vụ bưu chính: 60 ngày - Trong thời hạn 02 tháng kể từ ngày nhận được đủ tài liệu hợp lệ theo quy định.",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Tiếp nhận đơn/yêu cầu \n+ Tổ chức, cá nhân nộp 01 bộ hồ sơ đơn Madrid có nguồn gốc Việt Nam hoặc yêu cầu sau khi đơn đã được cấp số đăng ký quốc tế (yêu cầu chỉ định sau, yêu cầu giới hạn danh mục hàng hóa, dịch vụ, yêu cầu gia hạn hiệu lực ĐKQT...) đến Bộ phận một cửa của Bộ Khoa học và Công nghệ . \n+ Trường hợp yêu cầu gia hạn đăng ký quốc tế nộp thông qua Cục Sở hữu trí tuệ, người nộp đơn cần nộp không sớm hơn 06 tháng và không muộn hơn 01 tháng tính đến ngày đăng ký quốc tế đó hết hạn. Nếu yêu cầu gia hạn hiệu lực đăng ký quốc tế trong thời gian ân hạn thì hồ sơ yêu cầu cần được nộp cho Cục Sở hữu trí tuệ không muộn hơn 01 tháng tính đến ngày hết thời gian ân hạn.\n- Bước 2: Xử lý hồ sơ\n+ Trường hợp đơn có thiếu sót, Cục Sở hữu trí tuệ thông báo để người nộp đơn sửa chữa thiếu sót. Trường hợp người nộp đơn không sửa chữa thiếu sót trong thời hạn 03 tháng kể từ ngày Cục Sở hữu trí tuệ ra thông báo, đơn/yêu cầu coi như bị rút bỏ;\n+ Trường hợp đơn/yêu cầu không có thiếu sót hoặc có thiếu sót nhưng người nộp đơn đã sửa chữa thiếu sót đạt yêu cầu, Cục Sở hữu trí tuệ ra thông báo các khoản phí người nộp đơn/yêu cầu cần phải nộp trực tiếp cho Văn phòng quốc tế, ký xác nhận đơn/yêu cầu và chuyển đơn/yêu cầu cho Văn phòng quốc tế trong thời hạn 15 ngày (đối với đơn) hoặc 10 ngày (đối với yêu cầu) kể từ ngày ra thông báo về phí, lệ phí;\n+ Phối hợp với Văn phòng quốc tế để thực hiện các vấn đề có liên quan",
+    "THÀNH PHẦN HỒ SƠ": "Trường hợp 1: Tờ khai yêu cầu đăng ký quốc tế nhãn hiệu có nguồn gốc Việt  Nam theo Mẫu số 07 bằng tiếng Việt tại Phụ lục I của Thông tư  số 10/2026/TT-BKHCN;  + Tờ khai MM2 theo mẫu\nTrường hợp 1: Tờ khai MM2 theo mẫu của Văn phòng quốc tế bằng tiếng  Anh hoặc tiếng Pháp (nộp 02 tờ khai trong trường hợp đơn nộp  dạng giấy);\nTrường hợp 1: Mẫu nhãn hiệu đúng như nhãn hiệu trong đơn đăng ký đã được  nộp tại Việt Nam (đơn cơ sở) hoặc giấy chứng nhận đăng ký  nhãn hiệu tại Việt Nam (đăng ký cơ sở) (nộp 02 mẫu nhãn hiệu  trong trường hợp đơn nộp dạng giấy);\nTrường hợp 1: Tờ khai MM18 bằng tiếng Anh nếu đơn có chỉ định Hoa Kỳ  (nộp 02 tờ khai trong trường hợp đơn nộp dạng giấy);\nTrường hợp 1: Văn bản ủy quyền bằng tiếng Việt (trường hợp đơn được nộp  thông qua đại diện);\nTrường hợp 1: Các tài liệu khác có liên quan (nếu có)\nTrường hợp 2: Tờ khai yêu cầu theo Mẫu số 08 bằng tiếng Việt tại Phụ lục  I của Thông tư số 10/2026/TT-BKHCN;\nTrường hợp 2: Tờ khai MM tương ứng theo mẫu của Văn phòng quốc tế (02  tờ khai trong trường hợp đơn nộp dạng giấy);\nTrường hợp 2: Văn bản ủy quyền bằng tiếng Việt (trường hợp yêu cầu được  nộp thông qua đại diện);\nTrường hợp 2: Các tài liệu khác có liên quan (nếu có).",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 60 ngày\nTrực tuyến: 60 ngày\nQua dịch vụ bưu chính: 60 ngày",
     "CĂN CỨ PHÁP LÝ": "07/2022/QH15 - Luật sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ - 07/2022/QH15\nThông tư số 263/2016/TT-BTC ngày 14/11/2016 quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí sở hữu công nghiệp, được sửa đổi, bổ sung theo Thông tư số 31/2020/TT-BTC ngày 04/5/2020 - Thông tư số 263/2016/TT-BTC\nsửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ - 131/2025/QH15\nLuật số 93/2025/QH15 của Quốc hội: Luật Khoa học, công nghệ và đổi mới sáng tạo - 93/2025/QH15\nQuy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ, Nghị định số 65/2023/NĐ-CP ngày 23 tháng 8 năm 2023 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ được sửa đổi, bổ sung bởi Nghị định số 15/2026/NĐ-CP ngày 14 tháng 01 năm 2026, Nghị định số 33/2026/NĐ-CP ngày 21 tháng 01 năm 2026 và Nghị định số 100/2026/NĐ-CP ngày 31 tháng 3 năm 2026 - 10/2026/TT-BKHCN",
     "CƠ QUAN THỰC HIỆN": "Cục Sở hữu trí tuệ",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "- Công dân hoặc tổ chức của Việt Nam đã nộp đơn đăng ký nhãn\nhiệu tại Việt Nam hoặc cá nhân, tổ chức đã được cấp giấy chứng\nnhận đăng ký nhãn hiệu tại Việt Nam có quyền đăng ký quốc tế\nnhãn hiệu tương ứng theo Hệ thống Madrid;\n- Cá nhân, tổ chức nước ngoài cư trú hoặc có cơ sở thương mại,\ncông nghiệp thực thụ và hiệu quả tại Việt Nam và đã có đơn cơ\nsở nộp tại Việt Nam hoặc giấy chứng nhận nhãn hiệu cơ sở được\ncấp tại Việt Nam;\n- Chủ sở hữu ĐKQT.\n- Người nộp đơn nộp đủ các khoản phí, lệ phí theo quy định",
@@ -358,11 +248,6 @@
     "MÔ TẢ": "- Công dân hoặc tổ chức của Việt Nam đã nộp đơn đăng ký nhãn\nhiệu tại Việt Nam hoặc cá nhân, tổ chức đã được cấp giấy chứng\nnhận đăng ký nhãn hiệu tại Việt Nam có quyền đăng ký quốc tế\nnhãn hiệu tương ứng theo Hệ thống Madrid;\n- Cá nhân, tổ chức nước ngoài cư trú hoặc có cơ sở thương mại,\ncông nghiệp thực thụ và hiệu quả tại Việt Nam và đã có đơn cơ\nsở nộp tại Việt Nam hoặc giấy chứng nhận nhãn hiệu cơ sở được\ncấp tại Việt Nam;\n- Chủ sở hữu ĐKQT.\n- Người nộp đơn nộp đủ các khoản phí, lệ phí theo quy định"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Sở hữu trí tuệ",
       "slug": "so-huu-tri-tue"
@@ -376,7 +261,7 @@
     "target_users": [
       {
         "name": "Đảng viên",
-        "slug": "dang-vien"
+        "slug": "ang-vien"
       },
       {
         "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
@@ -384,7 +269,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Doanh nghiệp Việt Nam",
@@ -392,7 +277,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -408,7 +293,7 @@
       },
       {
         "name": "Tổ chức Đảng",
-        "slug": "to-chuc-dang"
+        "slug": "to-chuc-ang"
       },
       {
         "name": "Tổ chức nước ngoài",
@@ -429,6 +314,6 @@
         "slug": "cuc-so-huu-tri-tue"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

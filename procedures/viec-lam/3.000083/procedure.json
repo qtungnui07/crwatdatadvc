@@ -1,36 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfd-0127-74ef-8c1e-327943f82d40",
   "procedure_code": "3.000083",
   "title": "Giảm thuế thu nhập cá nhân đối với cá nhân, hộ kinh doanh, cá nhân kinh doanh gặp khó khăn do thiên tai, hoả hoạn, do bị tai nạn; mắc bệnh hiểm nghèo",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-0127-74ef-8c1e-327943f82d40",
     "source_file": "chi-tiet-thu-tuc-3.000083.pdf",
     "source_path": "procedures/viec-lam/3.000083/chi-tiet-thu-tuc-3.000083.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:23.144100+00:00",
-    "source_updated_at": "2026-05-07T07:37:45.457Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:32.968985+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "ef2c2218b7001b4c928474293c5b417cd5133f159fa6be773cfc36bdc3e31300"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:23.144100+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "4472/QĐ-BTC",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "OTHER",
   "sector": "Thuế",
   "target_users": [
@@ -39,18 +32,22 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Thuế tỉnh, thành phố, Thuế cơ sở, Cơ quan thuế",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Thuế tỉnh, thành phố, Thuế cơ sở, Cơ quan thuế"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "+ Bước 1. Cá nhân chuẩn bị hồ sơ giảm thuế và gửi đến cơ quan thuế quản lý trực tiếp.\n+ Bước 2. Cơ quan thuế tiếp nhận: \n++ Trường hợp hồ sơ được nộp trực tiếp tại cơ quan thuế hoặc hồ sơ được gửi qua đường bưu chính: cơ quan thuế thực hiện tiếp nhận, giải quyết hồ sơ theo quy định.\n++ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận, kiểm tra, chấp nhận, giải quyết hồ sơ (và trả kết quả nếu có kết quả) thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế.\n",
+      "description": "+ Bước 1. Cá nhân chuẩn bị hồ sơ giảm thuế và gửi đến cơ quan thuế quản lý trực tiếp.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "+ Bước 2. Cơ quan thuế tiếp nhận: \n++ Trường hợp hồ sơ được nộp trực tiếp tại cơ quan thuế hoặc hồ sơ được gửi qua đường bưu chính: cơ quan thuế thực hiện tiếp nhận, giải quyết hồ sơ theo quy định.\n++ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận, kiểm tra, chấp nhận, giải quyết hồ sơ (và trả kết quả nếu có kết quả) thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -58,139 +55,94 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "Giấy tờ xác định việc bồi thường của cơ quan bảo hiểm hoặc thỏa thuận bồi thường của người gây hỏa hoạn (nếu có",
-        "code": "000.00.00.G12-KQ015547",
+        "name": "Trường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn: Giấy tờ xác định việc bồi thường của cơ quan bảo hiểm hoặc thỏa thuận bồi thường của người gây hỏa hoạn (nếu có",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Các chứng từ chi liên quan trực tiếp đến việc khắc phục thiên tai, hỏa hoạn",
-        "code": "000.00.00.G12-KQ015548",
+        "name": "Trường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn: Các chứng từ chi liên quan trực tiếp đến việc khắc phục thiên tai, hỏa hoạn",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Trường hợp thiệt hại về hàng hoá thì người nộp thuế cung cấp Biên bản giám định (chứng thư giám định) về mức độ thiệt hại của cơ quan giám định và cơ quan giám định phải chịu trách nhiệm pháp lý về tính chính xác của chứng thư giám định theo quy định của pháp luật",
-        "code": "000.00.00.G12-KQ015545",
+        "name": "Trường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn: Trường hợp thiệt hại về hàng hoá thì người nộp thuế cung cấp Biên bản giám định (chứng thư giám định) về mức độ thiệt hại của cơ quan giám định và cơ quan giám định phải chịu trách nhiệm pháp lý về tính chính xác của chứng thư giám định theo quy định của pháp luật",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Tờ khai quyết toán thuế thu nhập cá nhân mẫu số 02/QTT-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC của Bộ trưởng Bộ Tài chính (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC) (nếu người nộp thuế đề nghị giảm thuế thu nhập cá nhân đối với thu nhập từ tiền lương, tiền công)",
-        "code": "000.00.00.G12-KQ015726",
+        "name": "Trường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn: Tờ khai quyết toán thuế thu nhập cá nhân mẫu số 02/QTT-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC của Bộ trưởng Bộ Tài chính (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC) (nếu người nộp thuế đề nghị giảm thuế thu nhập cá nhân đối với thu nhập từ tiền lương, tiền công)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Trường hợp thiệt hại về đất đai, hoa màu thì cơ quan tài chính có trách nhiệm xác định",
-        "code": "000.00.00.G12-KQ015546",
+        "name": "Trường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn: Trường hợp thiệt hại về đất đai, hoa màu thì cơ quan tài chính có trách nhiệm xác định",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Văn bản đề nghị theo mẫu số 01/MGTH theo Phụ lục I - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài Chính",
-        "code": "000.00.00.G12-KQ015543",
+        "name": "Trường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn: Văn bản đề nghị theo mẫu số 01/MGTH theo Phụ lục I - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài Chính",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Biên bản xác định mức độ, giá trị thiệt hại về tài sản của cơ quan có thẩm quyền và có xác nhận của chính quyền địa phương cấp xã nơi xảy ra thiên tai, hỏa hoạn theo mẫu số 02/MGTH theo Phụ lục I - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài Chính. Cơ quan có thẩm quyền xác định mức độ, giá trị thiệt hại là cơ quan tài chính hoặc các cơ quan giám định xác định mức độ, giá trị thiệt hại về tài sản",
-        "code": "000.00.00.G12-KQ015544",
+        "name": "Trường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn: Biên bản xác định mức độ, giá trị thiệt hại về tài sản của cơ quan có thẩm quyền và có xác nhận của chính quyền địa phương cấp xã nơi xảy ra thiên tai, hỏa hoạn theo mẫu số 02/MGTH theo Phụ lục I - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài Chính. Cơ quan có thẩm quyền xác định mức độ, giá trị thiệt hại là cơ quan tài chính hoặc các cơ quan giám định xác định mức độ, giá trị thiệt hại về tài sản",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Các chứng từ chi liên quan trực tiếp đến việc khắc phục tai nạn",
-        "code": "000.00.00.G12-KQ2118",
+        "name": "Trường hợp (2): Người nộp thuế gặp khó khăn do bị tai nạn: Các chứng từ chi liên quan trực tiếp đến việc khắc phục tai nạn",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp (2): Người nộp thuế gặp khó khăn do bị tai nạn",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Văn bản đề nghị theo mẫu số 01/MGTH theo Phụ lục I - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài Chính",
-        "code": "000.00.00.G12-KQ015543",
+        "name": "Trường hợp (2): Người nộp thuế gặp khó khăn do bị tai nạn: Văn bản đề nghị theo mẫu số 01/MGTH theo Phụ lục I - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài Chính",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp (2): Người nộp thuế gặp khó khăn do bị tai nạn",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Giấy tờ xác định việc bồi thường của cơ quan bảo hiểm hoặc thỏa thuận bồi thường của người gây hỏa hoạn (nếu có",
-        "code": "000.00.00.G12-KQ015547",
+        "name": "Trường hợp (2): Người nộp thuế gặp khó khăn do bị tai nạn: Giấy tờ xác định việc bồi thường của cơ quan bảo hiểm hoặc thỏa thuận bồi thường của người gây hỏa hoạn (nếu có",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp (2): Người nộp thuế gặp khó khăn do bị tai nạn",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Văn bản hoặc biên bản xác nhận tai nạn có xác nhận của cơ quan công an hoặc xác nhận mức độ thương tật của cơ quan y tế",
-        "code": "000.00.00.G12-KQ2116",
+        "name": "Trường hợp (2): Người nộp thuế gặp khó khăn do bị tai nạn: Văn bản hoặc biên bản xác nhận tai nạn có xác nhận của cơ quan công an hoặc xác nhận mức độ thương tật của cơ quan y tế",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp (2): Người nộp thuế gặp khó khăn do bị tai nạn",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Tờ khai quyết toán thuế thu nhập cá nhân mẫu số 02/QTT-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC của Bộ trưởng Bộ Tài chính (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC) (nếu người nộp thuế đề nghị giảm thuế thu nhập cá nhân đối với thu nhập từ tiền lương, tiền công).",
-        "code": "000.00.00.G12-KQ015727",
+        "name": "Trường hợp (3): Người nộp thuế mắc bệnh hiểm nghèo: Tờ khai quyết toán thuế thu nhập cá nhân mẫu số 02/QTT-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC của Bộ trưởng Bộ Tài chính (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC) (nếu người nộp thuế đề nghị giảm thuế thu nhập cá nhân đối với thu nhập từ tiền lương, tiền công).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp (3): Người nộp thuế mắc bệnh hiểm nghèo",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Văn bản đề nghị theo mẫu số 01/MGTH theo Phụ lục I - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài Chính",
-        "code": "000.00.00.G12-KQ015543",
+        "name": "Trường hợp (3): Người nộp thuế mắc bệnh hiểm nghèo: Văn bản đề nghị theo mẫu số 01/MGTH theo Phụ lục I - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài Chính",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp (3): Người nộp thuế mắc bệnh hiểm nghèo",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Bản sao hồ sơ bệnh án hoặc bản tóm tắt hồ sơ bệnh án hoặc sổ khám bệnh theo quy định của pháp luật về khám bệnh, chữa bệnh",
-        "code": "000.00.00.G12-KQ015550",
+        "name": "Trường hợp (3): Người nộp thuế mắc bệnh hiểm nghèo: Bản sao hồ sơ bệnh án hoặc bản tóm tắt hồ sơ bệnh án hoặc sổ khám bệnh theo quy định của pháp luật về khám bệnh, chữa bệnh",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp (3): Người nộp thuế mắc bệnh hiểm nghèo",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Các chứng từ chứng minh chi phí khám chữa bệnh do cơ quan y tế cấp; hoặc hóa đơn mua thuốc chữa bệnh kèm theo đơn thuốc của bác sỹ",
-        "code": "000.00.00.G12-KQ015551",
+        "name": "Trường hợp (3): Người nộp thuế mắc bệnh hiểm nghèo: Các chứng từ chứng minh chi phí khám chữa bệnh do cơ quan y tế cấp; hoặc hóa đơn mua thuốc chữa bệnh kèm theo đơn thuốc của bác sỹ",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp (3): Người nộp thuế mắc bệnh hiểm nghèo",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       }
     ]
   },
@@ -199,35 +151,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -235,51 +167,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "40 ngày",
-      "processing_time_value": 40,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 4
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       }
     ]
   },
@@ -287,32 +204,27 @@
     {
       "title": "Luật Quản lý thuế",
       "document_number": "38/2019/QH14",
-      "id": "019d2bb3-5d85-73da-8eb9-e5214fd5ac79",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định 126/2020/NĐ-CP",
       "document_number": "126/2020/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a63e-9e72cf1f3ed4",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ Tài chính hướng dẫn Giao dịch điện tử trong lĩnh vực thuế",
       "document_number": "19/2021/TT-BTC",
-      "id": "019d2bb3-5d86-7760-a643-2e14de6cf380",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư 80/2021/TT-BTC",
       "document_number": "80/2021/TT-BTC",
-      "id": "019d2bb3-5d87-7195-a446-0e6dcc708401",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
       "document_number": "118/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "",
@@ -320,19 +232,17 @@
     {
       "title": "Quyết định miễn thuế/giảm thuế (mẫu 03/MGTH)",
       "code": "KQ.G12.000260",
-      "id": "019d2bb2-1c70-724b-96df-0d8378c6d2fa",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông báo không được miễn thuế/giảm thuế (Mẫu 04/MGTH)",
       "code": "KQ.G12.000558",
-      "id": "019d2bb2-1c71-7574-afe8-17852300bbbb",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1. Cá nhân chuẩn bị hồ sơ giảm thuế và gửi đến cơ quan thuế quản lý trực tiếp.\n+ Bước 2. Cơ quan thuế tiếp nhận: \n++ Trường hợp hồ sơ được nộp trực tiếp tại cơ quan thuế hoặc hồ sơ được gửi qua đường bưu chính: cơ quan thuế thực hiện tiếp nhận, giải quyết hồ sơ theo quy định.\n++ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận, kiểm tra, chấp nhận, giải quyết hồ sơ (và trả kết quả nếu có kết quả) thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế.\n",
-    "THÀNH PHẦN HỒ SƠ": "Trường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn\nGiấy tờ xác định việc bồi thường của cơ quan bảo hiểm hoặc thỏa thuận bồi thường của người gây hỏa hoạn (nếu có\nCác chứng từ chi liên quan trực tiếp đến việc khắc phục thiên tai, hỏa hoạn\nTrường hợp thiệt hại về hàng hoá thì người nộp thuế cung cấp Biên bản giám định (chứng thư giám định) về mức độ thiệt hại của cơ quan giám định và cơ quan giám định phải chịu trách nhiệm pháp lý về tính chính xác của chứng thư giám định theo quy định của pháp luật\nTờ khai quyết toán thuế thu nhập cá nhân mẫu số 02/QTT-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC của Bộ trưởng Bộ Tài chính (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC) (nếu người nộp thuế đề nghị giảm thuế thu nhập cá nhân đối với thu nhập từ tiền lương, tiền công)\nTrường hợp thiệt hại về đất đai, hoa màu thì cơ quan tài chính có trách nhiệm xác định\nVăn bản đề nghị theo mẫu số 01/MGTH theo Phụ lục I - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài Chính\nBiên bản xác định mức độ, giá trị thiệt hại về tài sản của cơ quan có thẩm quyền và có xác nhận của chính quyền địa phương cấp xã nơi xảy ra thiên tai, hỏa hoạn theo mẫu số 02/MGTH theo Phụ lục I - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài Chính. Cơ quan có thẩm quyền xác định mức độ, giá trị thiệt hại là cơ quan tài chính hoặc các cơ quan giám định xác định mức độ, giá trị thiệt hại về tài sản\nTrường hợp (2): Người nộp thuế gặp khó khăn do bị tai nạn\nCác chứng từ chi liên quan trực tiếp đến việc khắc phục tai nạn\nVăn bản đề nghị theo mẫu số 01/MGTH theo Phụ lục I - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài Chính\nGiấy tờ xác định việc bồi thường của cơ quan bảo hiểm hoặc thỏa thuận bồi thường của người gây hỏa hoạn (nếu có\nVăn bản hoặc biên bản xác nhận tai nạn có xác nhận của cơ quan công an hoặc xác nhận mức độ thương tật của cơ quan y tế\nTrường hợp (3): Người nộp thuế mắc bệnh hiểm nghèo\nTờ khai quyết toán thuế thu nhập cá nhân mẫu số 02/QTT-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC của Bộ trưởng Bộ Tài chính (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC) (nếu người nộp thuế đề nghị giảm thuế thu nhập cá nhân đối với thu nhập từ tiền lương, tiền công).\nVăn bản đề nghị theo mẫu số 01/MGTH theo Phụ lục I - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài Chính\nBản sao hồ sơ bệnh án hoặc bản tóm tắt hồ sơ bệnh án hoặc sổ khám bệnh theo quy định của pháp luật về khám bệnh, chữa bệnh\nCác chứng từ chứng minh chi phí khám chữa bệnh do cơ quan y tế cấp; hoặc hóa đơn mua thuốc chữa bệnh kèm theo đơn thuốc của bác sỹ",
+    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1. Cá nhân chuẩn bị hồ sơ giảm thuế và gửi đến cơ quan thuế quản lý trực tiếp.\n+ Bước 2. Cơ quan thuế tiếp nhận: \n++ Trường hợp hồ sơ được nộp trực tiếp tại cơ quan thuế hoặc hồ sơ được gửi qua đường bưu chính: cơ quan thuế thực hiện tiếp nhận, giải quyết hồ sơ theo quy định.\n++ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận, kiểm tra, chấp nhận, giải quyết hồ sơ (và trả kết quả nếu có kết quả) thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế.",
+    "THÀNH PHẦN HỒ SƠ": "Trường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn: Giấy tờ xác định việc bồi thường của cơ quan bảo hiểm hoặc thỏa thuận bồi thường của người gây hỏa hoạn (nếu có\nTrường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn: Các chứng từ chi liên quan trực tiếp đến việc khắc phục thiên tai, hỏa hoạn\nTrường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn: Trường hợp thiệt hại về hàng hoá thì người nộp thuế cung cấp Biên bản giám định (chứng thư giám định) về mức độ thiệt hại của cơ quan giám định và cơ quan giám định phải chịu trách nhiệm pháp lý về tính chính xác của chứng thư giám định theo quy định của pháp luật\nTrường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn: Tờ khai quyết toán thuế thu nhập cá nhân mẫu số 02/QTT-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC của Bộ trưởng Bộ Tài chính (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC) (nếu người nộp thuế đề nghị giảm thuế thu nhập cá nhân đối với thu nhập từ tiền lương, tiền công)\nTrường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn: Trường hợp thiệt hại về đất đai, hoa màu thì cơ quan tài chính có trách nhiệm xác định\nTrường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn: Văn bản đề nghị theo mẫu số 01/MGTH theo Phụ lục I - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài Chính\nTrường hợp (1): Người nộp thuế gặp khó khăn do thiên tai, hỏa hoạn: Biên bản xác định mức độ, giá trị thiệt hại về tài sản của cơ quan có thẩm quyền và có xác nhận của chính quyền địa phương cấp xã nơi xảy ra thiên tai, hỏa hoạn theo mẫu số 02/MGTH theo Phụ lục I - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài Chính. Cơ quan có thẩm quyền xác định mức độ, giá trị thiệt hại là cơ quan tài chính hoặc các cơ quan giám định xác định mức độ, giá trị thiệt hại về tài sản\nTrường hợp (2): Người nộp thuế gặp khó khăn do bị tai nạn: Các chứng từ chi liên quan trực tiếp đến việc khắc phục tai nạn\nTrường hợp (2): Người nộp thuế gặp khó khăn do bị tai nạn: Văn bản đề nghị theo mẫu số 01/MGTH theo Phụ lục I - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài Chính\nTrường hợp (2): Người nộp thuế gặp khó khăn do bị tai nạn: Giấy tờ xác định việc bồi thường của cơ quan bảo hiểm hoặc thỏa thuận bồi thường của người gây hỏa hoạn (nếu có\nTrường hợp (2): Người nộp thuế gặp khó khăn do bị tai nạn: Văn bản hoặc biên bản xác nhận tai nạn có xác nhận của cơ quan công an hoặc xác nhận mức độ thương tật của cơ quan y tế\nTrường hợp (3): Người nộp thuế mắc bệnh hiểm nghèo: Tờ khai quyết toán thuế thu nhập cá nhân mẫu số 02/QTT-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC của Bộ trưởng Bộ Tài chính (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC) (nếu người nộp thuế đề nghị giảm thuế thu nhập cá nhân đối với thu nhập từ tiền lương, tiền công).\nTrường hợp (3): Người nộp thuế mắc bệnh hiểm nghèo: Văn bản đề nghị theo mẫu số 01/MGTH theo Phụ lục I - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ Tài Chính\nTrường hợp (3): Người nộp thuế mắc bệnh hiểm nghèo: Bản sao hồ sơ bệnh án hoặc bản tóm tắt hồ sơ bệnh án hoặc sổ khám bệnh theo quy định của pháp luật về khám bệnh, chữa bệnh\nTrường hợp (3): Người nộp thuế mắc bệnh hiểm nghèo: Các chứng từ chứng minh chi phí khám chữa bệnh do cơ quan y tế cấp; hoặc hóa đơn mua thuốc chữa bệnh kèm theo đơn thuốc của bác sỹ",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 30 ngày\nQua dịch vụ bưu chính: 30 ngày\nTrực tiếp: 40 ngày",
     "CĂN CỨ PHÁP LÝ": "Luật Quản lý thuế - 38/2019/QH14\nNghị định 126/2020/NĐ-CP - 126/2020/NĐ-CP\nThông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ Tài chính hướng dẫn Giao dịch điện tử trong lĩnh vực thuế - 19/2021/TT-BTC\nThông tư 80/2021/TT-BTC - 80/2021/TT-BTC\nNghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Thuế tỉnh, thành phố, Thuế cơ sở, Cơ quan thuế",
@@ -342,11 +252,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thuế",
       "slug": "thue"
@@ -393,6 +298,6 @@
         "slug": "co-quan-thue"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

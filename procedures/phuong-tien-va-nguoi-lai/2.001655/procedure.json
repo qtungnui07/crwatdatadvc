@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfe-a03a-720d-85ac-f6b933832dbd",
   "procedure_code": "2.001655",
   "title": "Tàu biển quá cảnh",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-a03a-720d-85ac-f6b933832dbd",
     "source_file": "chi-tiet-thu-tuc-2.001655.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/2.001655/chi-tiet-thu-tuc-2.001655.pdf",
     "page_count": 11,
-    "extracted_at": "2026-07-18T02:22:21.567388+00:00",
-    "source_updated_at": "2026-04-16T16:30:43.178Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:01.949484+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "9f2bc808c837f796cca40dfe2038a93208531c58e4b150ba3db169affe4b8e6a"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:21.567388+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "258/QĐ-BXD",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Hàng hải và đường thủy nội địa",
   "target_users": [
@@ -43,171 +39,63 @@
   ],
   "agency": {
     "competent_agency": "Cảng vụ hàng hải; Cảng vụ đường thủy nội địa; Văn phòng đại diện Cảng vụ Hàng hải",
-    "executing_agency": "Cảng vụ hàng hải, Cảng vụ đường thủy nội địa, Văn phòng đại diện Cảng vụ Hàng hải, Biên phòng cửa khâu",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cảng vụ hàng hải, Cảng vụ đường thủy nội địa, Văn phòng đại diện Cảng vụ Hàng hải, Biên phòng cửa khâu"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "a) Nộp hồ sơ TTHC:\n- Trước khi tàu đến vị trí dự kiến đến khu neo đậu chờ quá cảnh người làm thủ tục gửi cho Cảng vụ hàng hải/Cảng vụ đường thủy nội địa nơi tàu đến các thông tin dưới đây:\n+ Bản khai an ninh tàu biển theo mẫu: Đối với tàu biển chở hàng có tổng dung tích từ 500 trở lên, tàu chở khách và giàn khoan di động ngoài khơi hoạt động tuyến quốc tế, chậm nhất 24 giờ trước khi tàu dự kiến đến vị trí dự kiến đến cảng;\n+ Thông báo tàu biển quá cảnh: Chậm nhất 12 giờ kể từ khi tàu biển dự kiến đến khu neo đậu chờ quá cảnh. \n- Xác báo tàu quá cảnh:\n+ Tàu biển đến vị trí dự kiến đến cảng sớm hoặc muộn hơn 02 giờ so với thời gian trong thông báo tàu đến cảng biển phải thực hiện xác báo cho Cảng vụ hàng hải/Cảng vụ đường thủy nội địa biết chính xác thời gian tàu đến vị trí dự kiến theo mẫu;\n+ Trường hợp tàu biển có người ốm, người chết, người cứu vớt được trên biển hoặc có người trốn trên tàu, tàu biển phải thực hiện xác báo cho Cảng vụ hàng hải/Cảng vụ đường thủy nội địa biết chính xác thời gian tàu đến vị trí dự kiến, các thông tin về tên, tuổi, quốc tịch, tình trạng bệnh tật, lý do tử vong và các yêu cầu liên quan khác theo mẫu.\n- Chậm nhất 02 giờ trước khi tàu biển quá cảnh, người làm thủ tục nộp, xuất trình hồ sơ để làm thủ tục cho tàu thuyền tại trụ sở chính hoặc Văn phòng đại diện Cảng vụ hàng hải/Cảng vụ đường thủy nội địa.\nb) Giải quyết TTHC:\n- Cảng vụ hàng hải/Cảng vụ đường thủy nội địa có trách nhiệm thông báo cho các tổ chức liên quan biết thông tin về việc tàu thuyền quá cảnh để thực hiện thủ tục và phối hợp triển khai điều động, tiếp nhận tàu;\n+ Cảng vụ hàng hải/Cảng vụ đường thủy nội địa xử lý, giải quyết hồ sơ đối với tàu thuyền, giấy chứng nhận khả năng chuyên môn của thuyền viên và là cơ quan quyết định cuối cùng cho tàu thuyền quá cảnh cảng biển;\n+ Hải quan cửa khẩu xử lý, giải quyết hồ sơ đối với hàng hóa, hành lý, nguyên, nhiên vật liệu trên tàu;\n+ Biên phòng cửa khẩu xử lý, giải quyết hồ sơ đối với thuyền viên, hành khách, người đi theo tàu, người trốn trên tàu và người lên, xuống tàu;\n+ Kiểm dịch y tế xử lý, giải quyết hồ sơ đối với bệnh dịch liên quan đến con người.\n- Trên cơ sở thông báo, xác báo tàu quá cảnh, chậm nhất 02 giờ trước khi tàu biển đến khu neo đậu chờ quá cảnh, Giám đốc Cảng vụ hàng hải/Cảng vụ đường thủy nội địa căn cứ điều kiện thực tế, thông số kỹ thuật của tàu, loại hàng, kế hoạch điều độ của cảng, kế hoạch dẫn tàu của tổ chức hoa tiêu và ý kiến của các cơ quan quản lý nhà nước để xem xét quyết định chấp thuận cho tàu quá cảnh thông qua Kế hoạch điều động theo mẫu; trường hợp không chấp thuận cho tàu quá cảnh phải thông báo cho người làm thủ tục và nêu rõ lý do.\n- Chậm nhất 01 giờ, kể từ khi người làm thủ tục đã nộp, xuất trình đủ các giấy tờ theo quy định, các cơ quan  quản lý nhà nước chuyên ngành thực hiện thủ tục và thông báo ngay Cảng vụ hàng hải/Cảng vụ đường thủy nội địa biết kết quả và Cảng vụ hàng hải/Cảng vụ đường thủy nội địa cấp Giấy phép quá cảnh; trường hợp chưa cấp Giấy phép quá cảnh phải thông báo và nêu rõ lý do.\n",
+      "description": "a) Nộp hồ sơ TTHC:\n- Trước khi tàu đến vị trí dự kiến đến khu neo đậu chờ quá cảnh người làm thủ tục gửi cho Cảng vụ hàng hải/Cảng vụ đường thủy nội địa nơi tàu đến các thông tin dưới đây:\n+ Bản khai an ninh tàu biển theo mẫu: Đối với tàu biển chở hàng có tổng dung tích từ 500 trở lên, tàu chở khách và giàn khoan di động ngoài khơi hoạt động tuyến quốc tế, chậm nhất 24 giờ trước khi tàu dự kiến đến vị trí dự kiến đến cảng;\n+ Thông báo tàu biển quá cảnh: Chậm nhất 12 giờ kể từ khi tàu biển dự kiến đến khu neo đậu chờ quá cảnh. \n- Xác báo tàu quá cảnh:\n+ Tàu biển đến vị trí dự kiến đến cảng sớm hoặc muộn hơn 02 giờ so với thời gian trong thông báo tàu đến cảng biển phải thực hiện xác báo cho Cảng vụ hàng hải/Cảng vụ đường thủy nội địa biết chính xác thời gian tàu đến vị trí dự kiến theo mẫu;\n+ Trường hợp tàu biển có người ốm, người chết, người cứu vớt được trên biển hoặc có người trốn trên tàu, tàu biển phải thực hiện xác báo cho Cảng vụ hàng hải/Cảng vụ đường thủy nội địa biết chính xác thời gian tàu đến vị trí dự kiến, các thông tin về tên, tuổi, quốc tịch, tình trạng bệnh tật, lý do tử vong và các yêu cầu liên quan khác theo mẫu.\n- Chậm nhất 02 giờ trước khi tàu biển quá cảnh, người làm thủ tục nộp, xuất trình hồ sơ để làm thủ tục cho tàu thuyền tại trụ sở chính hoặc Văn phòng đại diện Cảng vụ hàng hải/Cảng vụ đường thủy nội địa.\nb) Giải quyết TTHC:\n- Cảng vụ hàng hải/Cảng vụ đường thủy nội địa có trách nhiệm thông báo cho các tổ chức liên quan biết thông tin về việc tàu thuyền quá cảnh để thực hiện thủ tục và phối hợp triển khai điều động, tiếp nhận tàu;\n+ Cảng vụ hàng hải/Cảng vụ đường thủy nội địa xử lý, giải quyết hồ sơ đối với tàu thuyền, giấy chứng nhận khả năng chuyên môn của thuyền viên và là cơ quan quyết định cuối cùng cho tàu thuyền quá cảnh cảng biển;\n+ Hải quan cửa khẩu xử lý, giải quyết hồ sơ đối với hàng hóa, hành lý, nguyên, nhiên vật liệu trên tàu;\n+ Biên phòng cửa khẩu xử lý, giải quyết hồ sơ đối với thuyền viên, hành khách, người đi theo tàu, người trốn trên tàu và người lên, xuống tàu;\n+ Kiểm dịch y tế xử lý, giải quyết hồ sơ đối với bệnh dịch liên quan đến con người.\n- Trên cơ sở thông báo, xác báo tàu quá cảnh, chậm nhất 02 giờ trước khi tàu biển đến khu neo đậu chờ quá cảnh, Giám đốc Cảng vụ hàng hải/Cảng vụ đường thủy nội địa căn cứ điều kiện thực tế, thông số kỹ thuật của tàu, loại hàng, kế hoạch điều độ của cảng, kế hoạch dẫn tàu của tổ chức hoa tiêu và ý kiến của các cơ quan quản lý nhà nước để xem xét quyết định chấp thuận cho tàu quá cảnh thông qua Kế hoạch điều động theo mẫu; trường hợp không chấp thuận cho tàu quá cảnh phải thông báo cho người làm thủ tục và nêu rõ lý do.\n- Chậm nhất 01 giờ, kể từ khi người làm thủ tục đã nộp, xuất trình đủ các giấy tờ theo quy định, các cơ quan  quản lý nhà nước chuyên ngành thực hiện thủ tục và thông báo ngay Cảng vụ hàng hải/Cảng vụ đường thủy nội địa biết kết quả và Cảng vụ hàng hải/Cảng vụ đường thủy nội địa cấp Giấy phép quá cảnh; trường hợp chưa cấp Giấy phép quá cảnh phải thông báo và nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "+ Nộp cho Hải quan cửa khẩu: Bản khai chung theo mẫu, Danh sách thuyền viên theo mẫu, Bản khai hàng hóa (nếu có) theo mẫu, Bản khai dự trữ của tàu theo mẫu, Bản khai thông tin về vận đơn thứ cấp (nếu có) theo mẫu",
-        "code": "000.00.00.G17-KQ003058",
+        "name": "Các giấy tờ phải nộp (bản chính), mỗi loại 01 bản, gồm:: + Nộp cho Hải quan cửa khẩu: Bản khai chung theo mẫu, Danh sách thuyền viên theo mẫu, Bản khai hàng hóa (nếu có) theo mẫu, Bản khai dự trữ của tàu theo mẫu, Bản khai thông tin về vận đơn thứ cấp (nếu có) theo mẫu",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Các giấy tờ phải nộp (bản chính), mỗi loại 01 bản, gồm:",
-        "attachments": [
-          {
-            "id": "019d95b2-9f19-7418-a681-ae8f41e6f57c",
-            "name": "MauBankhaidutrucuatau.docx",
-            "url": ""
-          },
-          {
-            "id": "019d95b2-b8b7-70bc-b96b-7742ae3773aa",
-            "name": "MauBankhaihanghoa.docx",
-            "url": ""
-          },
-          {
-            "id": "019d95b2-d1c4-7428-93be-78b739c25369",
-            "name": "MauDanhsachthuyenvien (2).docx",
-            "url": ""
-          },
-          {
-            "id": "019d95b2-eb96-73bc-ba96-467add62ae5a",
-            "name": "MauBankhaichung (2).docx",
-            "url": ""
-          },
-          {
-            "id": "019d95b3-04bb-7437-a7a3-e285654524d9",
-            "name": "MauBankhaithongtinvevanonthucap.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "MauBankhaidutrucuatau.docx; MauBankhaihanghoa.docx; MauDanhsachthuyenvien (2).docx; MauBankhaichung (2).docx; MauBankhaithongtinvevanonthucap.docx",
+        "source_page": 3
       },
       {
-        "name": "+ Nộp cho Biên phòng cửa khẩu:Bản khai chung theo mẫu, Danh sách thuyền viên theo mẫu, Danh sách hành khách (nếu có) theo mẫu, Bản khai vũ khí và vật liệu nổ (nếu có) theo mẫu, Bản khai người trốn trên tàu (nếu có) theo mẫu",
-        "code": "000.00.00.G17-KQ003057",
+        "name": "Các giấy tờ phải nộp (bản chính), mỗi loại 01 bản, gồm:: + Nộp cho Biên phòng cửa khẩu:Bản khai chung theo mẫu, Danh sách thuyền viên theo mẫu, Danh sách hành khách (nếu có) theo mẫu, Bản khai vũ khí và vật liệu nổ (nếu có) theo mẫu, Bản khai người trốn trên tàu (nếu có) theo mẫu",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Các giấy tờ phải nộp (bản chính), mỗi loại 01 bản, gồm:",
-        "attachments": [
-          {
-            "id": "019d95b1-fca9-77bc-8bfb-fda715384be6",
-            "name": "MauBankhainguoitrontrentau.docx",
-            "url": ""
-          },
-          {
-            "id": "019d95b2-0588-74ce-94e7-6beb813153af",
-            "name": "MauBankhaivukhivavatlieuno.docx",
-            "url": ""
-          },
-          {
-            "id": "019d95b2-06a2-75f8-8c93-7e9bd0518989",
-            "name": "MauDanhsachhanhkhach (1).docx",
-            "url": ""
-          },
-          {
-            "id": "019d95b2-07d8-778f-9fbe-3d8dff60c0f0",
-            "name": "MauDanhsachthuyenvien (1).docx",
-            "url": ""
-          },
-          {
-            "id": "019d95b2-0ae3-747c-ae3e-63fbe56e1476",
-            "name": "MauBankhaichung (1).docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "MauBankhainguoitrontrentau.docx; MauBankhaivukhivavatlieuno.docx; MauDanhsachhanhkhach (1).docx; MauDanhsachthuyenvien (1).docx; MauBankhaichung (1).docx",
+        "source_page": 3
       },
       {
-        "name": "+ Nộp cho Cảng vụ hàng hải/Cảng vụ đường thủy nội địa: Bản khai chung theo mẫu, Danh sách thuyền viên theo mẫu, Danh sách hành khách (nếu có) theo mẫu",
-        "code": "000.00.00.G17-KQ003056",
+        "name": "Các giấy tờ phải nộp (bản chính), mỗi loại 01 bản, gồm:: + Nộp cho Cảng vụ hàng hải/Cảng vụ đường thủy nội địa: Bản khai chung theo mẫu, Danh sách thuyền viên theo mẫu, Danh sách hành khách (nếu có) theo mẫu",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Các giấy tờ phải nộp (bản chính), mỗi loại 01 bản, gồm:",
-        "attachments": [
-          {
-            "id": "019d95b1-8d4d-77be-82d3-6723eb5fed11",
-            "name": "MauBankhaichung.docx",
-            "url": ""
-          },
-          {
-            "id": "019d95b1-9a34-74bb-aa8a-1fda2108b209",
-            "name": "MauDanhsachhanhkhach.docx",
-            "url": ""
-          },
-          {
-            "id": "019d95b1-9bbf-77da-96f9-c45efbe7f931",
-            "name": "MauDanhsachthuyenvien.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "MauBankhaichung.docx; MauDanhsachhanhkhach.docx; MauDanhsachthuyenvien.docx",
+        "source_page": 3
       },
       {
-        "name": "+ Nộp cho Kiểm dịch y tế:Giấy khai báo y tế hàng hải theo mẫu, Giấy khai báo y tế, thi thể, hài cốt, tro cốt (nếu có) theo mẫu, Giấy khai báo y tế mẫu vi sinh y học, sản phẩm sinh học, mô, bộ phận cơ thể người (nếu có) theo mẫu",
-        "code": "000.00.00.G17-KQ003059",
+        "name": "Các giấy tờ phải nộp (bản chính), mỗi loại 01 bản, gồm:: + Nộp cho Kiểm dịch y tế:Giấy khai báo y tế hàng hải theo mẫu, Giấy khai báo y tế, thi thể, hài cốt, tro cốt (nếu có) theo mẫu, Giấy khai báo y tế mẫu vi sinh y học, sản phẩm sinh học, mô, bộ phận cơ thể người (nếu có) theo mẫu",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Các giấy tờ phải nộp (bản chính), mỗi loại 01 bản, gồm:",
-        "attachments": [
-          {
-            "id": "019d95b3-6d6f-7495-bdec-c53808e7492e",
-            "name": "MauGiaykhaibaoytehanghai.docx",
-            "url": ""
-          },
-          {
-            "id": "019d95b3-6e99-76af-bedb-d5e7be09341d",
-            "name": "MauGiaykhaibaoytethithe.docx",
-            "url": ""
-          },
-          {
-            "id": "019d95b3-6f9e-73e8-9e3d-d2bb0b91645a",
-            "name": "MauGiaykhaibaoytemauvisinhyhoc.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "MauGiaykhaibaoytehanghai.docx; MauGiaykhaibaoytethithe.docx; MauGiaykhaibaoytemauvisinhyhoc.docx",
+        "source_page": 3
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "Khi cơ quan quản lý nhà nước chuyên ngành liên quan yêu cầu trình Hộ chiếu của hành khách (nếu có).",
-        "code": "000.00.00.G04-KQ1484",
+        "name": "Các giấy tờ phải xuất trình (bản chính), bao gồm:: Khi cơ quan quản lý nhà nước chuyên ngành liên quan yêu cầu trình Hộ chiếu của hành khách (nếu có).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Các giấy tờ phải xuất trình (bản chính), bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Trình Biên phòng cửa khẩu: Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế của thuyền viên, hành khách",
-        "code": "000.00.00.G04-KQ1483",
+        "name": "Các giấy tờ phải xuất trình (bản chính), bao gồm:: Trình Biên phòng cửa khẩu: Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế của thuyền viên, hành khách",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Các giấy tờ phải xuất trình (bản chính), bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Trình Cảng vụ hàng hải: Giấy phép rời cảng, Giấy chứng nhận đăng ký tàu biển, các giấy chứng nhận về an toàn kỹ thuật của tàu biển theo quy định, Giấy chứng nhận khả năng chuyên môn của thuyền viên theo quy định, Giấy chứng nhận bảo hiểm hoặc bảo đảm tài chính về trách nhiệm dân sự đối với tổn thất ô nhiễm dầu nhiên liệu, Giấy chứng nhận bảo hiểm trách nhiệm dân sự của chủ tàu về ô nhiễm môi trường đối với tàu vận chuyển dầu mỏ, chế phẩm từ dầu mỏ hoặc các hàng hóa nguy hiểm khác;",
-        "code": "000.00.00.G04-KQ1482",
+        "name": "Các giấy tờ phải xuất trình (bản chính), bao gồm:: Trình Cảng vụ hàng hải: Giấy phép rời cảng, Giấy chứng nhận đăng ký tàu biển, các giấy chứng nhận về an toàn kỹ thuật của tàu biển theo quy định, Giấy chứng nhận khả năng chuyên môn của thuyền viên theo quy định, Giấy chứng nhận bảo hiểm hoặc bảo đảm tài chính về trách nhiệm dân sự đối với tổn thất ô nhiễm dầu nhiên liệu, Giấy chứng nhận bảo hiểm trách nhiệm dân sự của chủ tàu về ô nhiễm môi trường đối với tàu vận chuyển dầu mỏ, chế phẩm từ dầu mỏ hoặc các hàng hóa nguy hiểm khác;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Các giấy tờ phải xuất trình (bản chính), bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       }
     ]
   },
@@ -216,87 +104,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "1 giờ",
-      "processing_time_value": 1,
-      "processing_time_unit": "HOUR",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Phí : Thông tư số 261/2016/TT-BTC ngày 05/01/2016 của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải\nPhí : Thông tư số 90/2019/TT-BTC ngày 31/12/2019 Thông tư sửa đổi, bổ sung một số điều của Thông tư số 261/2016/TT-BTC ngày 14 tháng 11 năm 2016 quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải và Thông tư số 17/2017/TT-BTC ngày 28 tháng 02 năm 2017 hướng dẫn thu, nộp, quản lý và sử dụng phí, lệ phí hàng hải\nPhí : Thông tư số 74/2021/TT-BTC ngày 27/8/2021 sửa đổi, bổ sung một số điều của Thông tư số 261/2016/TT-BTC ngày 14 tháng 11 năm 2016 quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải\nLệ phí : theo quy định tại Điều 10 Thông tư số 261/2016/TT-BTC ngày 14/11/2016 của Bộ trưởng Bộ Tài chính Lệ phí rời cảng biển",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "2 giờ",
-      "processing_time_value": 2,
-      "processing_time_unit": "HOUR",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Phí : Thông tư số 261/2016/TT-BTC ngày 05/01/2016 của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải\nPhí : Thông tư số 90/2019/TT-BTC ngày 31/12/2019 Thông tư sửa đổi, bổ sung một số điều của Thông tư số 261/2016/TT-BTC ngày 14 tháng 11 năm 2016 quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải và Thông tư số 17/2017/TT-BTC ngày 28 tháng 02 năm 2017 hướng dẫn thu, nộp, quản lý và sử dụng phí, lệ phí hàng hải\nPhí : Thông tư số 74/2021/TT-BTC ngày 27/8/2021 sửa đổi, bổ sung một số điều của Thông tư số 261/2016/TT-BTC ngày 14 tháng 11 năm 2016 quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải\nLệ phí : theo quy định tại Điều 10 Thông tư số 261/2016/TT-BTC ngày 14/11/2016 của Bộ trưởng Bộ Tài chính Lệ phí rời cảng biển",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1 giờ",
-      "processing_time_value": 1,
-      "processing_time_unit": "HOUR",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Phí : Thông tư số 261/2016/TT-BTC ngày 05/01/2016 của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải\nPhí : Thông tư số 90/2019/TT-BTC ngày 31/12/2019 Thông tư sửa đổi, bổ sung một số điều của Thông tư số 261/2016/TT-BTC ngày 14 tháng 11 năm 2016 quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải và Thông tư số 17/2017/TT-BTC ngày 28 tháng 02 năm 2017 hướng dẫn thu, nộp, quản lý và sử dụng phí, lệ phí hàng hải\nPhí : Thông tư số 74/2021/TT-BTC ngày 27/8/2021 sửa đổi, bổ sung một số điều của Thông tư số 261/2016/TT-BTC ngày 14 tháng 11 năm 2016 quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải\nLệ phí : theo quy định tại Điều 10 Thông tư số 261/2016/TT-BTC ngày 14/11/2016 của Bộ trưởng Bộ Tài chính Lệ phí rời cảng biển",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 5
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 8
       }
     ]
   },
@@ -304,50 +157,42 @@
     {
       "title": "Bộ luật Hàng hải Việt Nam",
       "document_number": "95/2015/QH13",
-      "id": "019d2bb3-5d84-71c5-b674-6c619daa16bf",
-      "source_page": null
+      "source_page": 9
     },
     {
       "title": "Quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải",
       "document_number": "261/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4c-0e59e8d816c2",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Nghị định quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Xây dựng",
       "document_number": "33/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46c-b810721e9e56",
-      "source_page": null
+      "source_page": 9
     },
     {
       "title": "Nghị định sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực hàng hải",
       "document_number": "34/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46c-e32fea9edd37",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "sửa đổi, bổ sung một số điều của Thông tư số 261/2016/TT-BTC ngày 14 tháng 11 năm 2016 quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải",
       "document_number": "74/2021/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-c1ab5e1afb73",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Nghị định quy định chi tiết một số điều của Bộ luật Hàng hải Việt Nam về quản lý hoạt động hàng hải",
       "document_number": "58/2017/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46f-3623eee55f1d",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "sửa đổi, bổ sung một số điều của Thông tư số 261/2016/TT-BTC ngày 14 tháng 11 năm 2016 quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải và Thông tư số 17/2017/TT-BTC ngày 28 tháng 02 năm 2017 hướng dẫn thu, nộp, quản lý và sử dụng phí, lệ phí hàng hải",
       "document_number": "90/2019/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4f-4c8d1a8e37a0",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "sửa đổi, bổ sung một số điều của các Nghị định quy định liên quan đến phân cấp giải quyết thủ tục hành chính trong lĩnh vực hàng hải (có hiệu lực từ ngày 11/10/2024)",
       "document_number": "74/2023/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-e4d8730fe6c6",
-      "source_page": null
+      "source_page": 10
     }
   ],
   "conditions": "",
@@ -355,14 +200,13 @@
     {
       "title": "Giấy phép quá cảnh",
       "code": "KQ.G17.000261",
-      "id": "019d2bb2-1c7a-7554-ace5-115633ae49c2",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "a) Nộp hồ sơ TTHC:\n- Trước khi tàu đến vị trí dự kiến đến khu neo đậu chờ quá cảnh người làm thủ tục gửi cho Cảng vụ hàng hải/Cảng vụ đường thủy nội địa nơi tàu đến các thông tin dưới đây:\n+ Bản khai an ninh tàu biển theo mẫu: Đối với tàu biển chở hàng có tổng dung tích từ 500 trở lên, tàu chở khách và giàn khoan di động ngoài khơi hoạt động tuyến quốc tế, chậm nhất 24 giờ trước khi tàu dự kiến đến vị trí dự kiến đến cảng;\n+ Thông báo tàu biển quá cảnh: Chậm nhất 12 giờ kể từ khi tàu biển dự kiến đến khu neo đậu chờ quá cảnh. \n- Xác báo tàu quá cảnh:\n+ Tàu biển đến vị trí dự kiến đến cảng sớm hoặc muộn hơn 02 giờ so với thời gian trong thông báo tàu đến cảng biển phải thực hiện xác báo cho Cảng vụ hàng hải/Cảng vụ đường thủy nội địa biết chính xác thời gian tàu đến vị trí dự kiến theo mẫu;\n+ Trường hợp tàu biển có người ốm, người chết, người cứu vớt được trên biển hoặc có người trốn trên tàu, tàu biển phải thực hiện xác báo cho Cảng vụ hàng hải/Cảng vụ đường thủy nội địa biết chính xác thời gian tàu đến vị trí dự kiến, các thông tin về tên, tuổi, quốc tịch, tình trạng bệnh tật, lý do tử vong và các yêu cầu liên quan khác theo mẫu.\n- Chậm nhất 02 giờ trước khi tàu biển quá cảnh, người làm thủ tục nộp, xuất trình hồ sơ để làm thủ tục cho tàu thuyền tại trụ sở chính hoặc Văn phòng đại diện Cảng vụ hàng hải/Cảng vụ đường thủy nội địa.\nb) Giải quyết TTHC:\n- Cảng vụ hàng hải/Cảng vụ đường thủy nội địa có trách nhiệm thông báo cho các tổ chức liên quan biết thông tin về việc tàu thuyền quá cảnh để thực hiện thủ tục và phối hợp triển khai điều động, tiếp nhận tàu;\n+ Cảng vụ hàng hải/Cảng vụ đường thủy nội địa xử lý, giải quyết hồ sơ đối với tàu thuyền, giấy chứng nhận khả năng chuyên môn của thuyền viên và là cơ quan quyết định cuối cùng cho tàu thuyền quá cảnh cảng biển;\n+ Hải quan cửa khẩu xử lý, giải quyết hồ sơ đối với hàng hóa, hành lý, nguyên, nhiên vật liệu trên tàu;\n+ Biên phòng cửa khẩu xử lý, giải quyết hồ sơ đối với thuyền viên, hành khách, người đi theo tàu, người trốn trên tàu và người lên, xuống tàu;\n+ Kiểm dịch y tế xử lý, giải quyết hồ sơ đối với bệnh dịch liên quan đến con người.\n- Trên cơ sở thông báo, xác báo tàu quá cảnh, chậm nhất 02 giờ trước khi tàu biển đến khu neo đậu chờ quá cảnh, Giám đốc Cảng vụ hàng hải/Cảng vụ đường thủy nội địa căn cứ điều kiện thực tế, thông số kỹ thuật của tàu, loại hàng, kế hoạch điều độ của cảng, kế hoạch dẫn tàu của tổ chức hoa tiêu và ý kiến của các cơ quan quản lý nhà nước để xem xét quyết định chấp thuận cho tàu quá cảnh thông qua Kế hoạch điều động theo mẫu; trường hợp không chấp thuận cho tàu quá cảnh phải thông báo cho người làm thủ tục và nêu rõ lý do.\n- Chậm nhất 01 giờ, kể từ khi người làm thủ tục đã nộp, xuất trình đủ các giấy tờ theo quy định, các cơ quan  quản lý nhà nước chuyên ngành thực hiện thủ tục và thông báo ngay Cảng vụ hàng hải/Cảng vụ đường thủy nội địa biết kết quả và Cảng vụ hàng hải/Cảng vụ đường thủy nội địa cấp Giấy phép quá cảnh; trường hợp chưa cấp Giấy phép quá cảnh phải thông báo và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "Các giấy tờ phải nộp (bản chính), mỗi loại 01 bản, gồm:\n+ Nộp cho Hải quan cửa khẩu: Bản khai chung theo mẫu, Danh sách thuyền viên theo mẫu, Bản khai hàng hóa (nếu có) theo mẫu, Bản khai dự trữ của tàu theo mẫu, Bản khai thông tin về vận đơn thứ cấp (nếu có) theo mẫu\n+ Nộp cho Biên phòng cửa khẩu:Bản khai chung theo mẫu, Danh sách thuyền viên theo mẫu, Danh sách hành khách (nếu có) theo mẫu, Bản khai vũ khí và vật liệu nổ (nếu có) theo mẫu, Bản khai người trốn trên tàu (nếu có) theo mẫu\n+ Nộp cho Cảng vụ hàng hải/Cảng vụ đường thủy nội địa: Bản khai chung theo mẫu, Danh sách thuyền viên theo mẫu, Danh sách hành khách (nếu có) theo mẫu\n+ Nộp cho Kiểm dịch y tế:Giấy khai báo y tế hàng hải theo mẫu, Giấy khai báo y tế, thi thể, hài cốt, tro cốt (nếu có) theo mẫu, Giấy khai báo y tế mẫu vi sinh y học, sản phẩm sinh học, mô, bộ phận cơ thể người (nếu có) theo mẫu\nCác giấy tờ phải xuất trình (bản chính), bao gồm:\nKhi cơ quan quản lý nhà nước chuyên ngành liên quan yêu cầu trình Hộ chiếu của hành khách (nếu có).\nTrình Biên phòng cửa khẩu: Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế của thuyền viên, hành khách\nTrình Cảng vụ hàng hải: Giấy phép rời cảng, Giấy chứng nhận đăng ký tàu biển, các giấy chứng nhận về an toàn kỹ thuật của tàu biển theo quy định, Giấy chứng nhận khả năng chuyên môn của thuyền viên theo quy định, Giấy chứng nhận bảo hiểm hoặc bảo đảm tài chính về trách nhiệm dân sự đối với tổn thất ô nhiễm dầu nhiên liệu, Giấy chứng nhận bảo hiểm trách nhiệm dân sự của chủ tàu về ô nhiễm môi trường đối với tàu vận chuyển dầu mỏ, chế phẩm từ dầu mỏ hoặc các hàng hóa nguy hiểm khác;",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 1 giờ - Phí : Thông tư số 261/2016/TT-BTC ngày 05/01/2016 của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải\nPhí : Thông tư số 90/2019/TT-BTC ngày 31/12/2019 Thông tư sửa đổi, bổ sung một số điều của Thông tư số 261/2016/TT-BTC ngày 14 tháng 11 năm 2016 quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải và Thông tư số 17/2017/TT-BTC ngày 28 tháng 02 năm 2017 hướng dẫn thu, nộp, quản lý và sử dụng phí, lệ phí hàng hải\nPhí : Thông tư số 74/2021/TT-BTC ngày 27/8/2021 sửa đổi, bổ sung một số điều của Thông tư số 261/2016/TT-BTC ngày 14 tháng 11 năm 2016 quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải\nLệ phí : theo quy định tại Điều 10 Thông tư số 261/2016/TT-BTC ngày 14/11/2016 của Bộ trưởng Bộ Tài chính Lệ phí rời cảng biển\nQua dịch vụ bưu chính: 2 giờ - Phí : Thông tư số 261/2016/TT-BTC ngày 05/01/2016 của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải\nPhí : Thông tư số 90/2019/TT-BTC ngày 31/12/2019 Thông tư sửa đổi, bổ sung một số điều của Thông tư số 261/2016/TT-BTC ngày 14 tháng 11 năm 2016 quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải và Thông tư số 17/2017/TT-BTC ngày 28 tháng 02 năm 2017 hướng dẫn thu, nộp, quản lý và sử dụng phí, lệ phí hàng hải\nPhí : Thông tư số 74/2021/TT-BTC ngày 27/8/2021 sửa đổi, bổ sung một số điều của Thông tư số 261/2016/TT-BTC ngày 14 tháng 11 năm 2016 quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải\nLệ phí : theo quy định tại Điều 10 Thông tư số 261/2016/TT-BTC ngày 14/11/2016 của Bộ trưởng Bộ Tài chính Lệ phí rời cảng biển\nTrực tiếp: 1 giờ - Phí : Thông tư số 261/2016/TT-BTC ngày 05/01/2016 của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải\nPhí : Thông tư số 90/2019/TT-BTC ngày 31/12/2019 Thông tư sửa đổi, bổ sung một số điều của Thông tư số 261/2016/TT-BTC ngày 14 tháng 11 năm 2016 quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải và Thông tư số 17/2017/TT-BTC ngày 28 tháng 02 năm 2017 hướng dẫn thu, nộp, quản lý và sử dụng phí, lệ phí hàng hải\nPhí : Thông tư số 74/2021/TT-BTC ngày 27/8/2021 sửa đổi, bổ sung một số điều của Thông tư số 261/2016/TT-BTC ngày 14 tháng 11 năm 2016 quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải\nLệ phí : theo quy định tại Điều 10 Thông tư số 261/2016/TT-BTC ngày 14/11/2016 của Bộ trưởng Bộ Tài chính Lệ phí rời cảng biển",
+    "TRÌNH TỰ THỰC HIỆN": "a) Nộp hồ sơ TTHC:\n- Trước khi tàu đến vị trí dự kiến đến khu neo đậu chờ quá cảnh người làm thủ tục gửi cho Cảng vụ hàng hải/Cảng vụ đường thủy nội địa nơi tàu đến các thông tin dưới đây:\n+ Bản khai an ninh tàu biển theo mẫu: Đối với tàu biển chở hàng có tổng dung tích từ 500 trở lên, tàu chở khách và giàn khoan di động ngoài khơi hoạt động tuyến quốc tế, chậm nhất 24 giờ trước khi tàu dự kiến đến vị trí dự kiến đến cảng;\n+ Thông báo tàu biển quá cảnh: Chậm nhất 12 giờ kể từ khi tàu biển dự kiến đến khu neo đậu chờ quá cảnh. \n- Xác báo tàu quá cảnh:\n+ Tàu biển đến vị trí dự kiến đến cảng sớm hoặc muộn hơn 02 giờ so với thời gian trong thông báo tàu đến cảng biển phải thực hiện xác báo cho Cảng vụ hàng hải/Cảng vụ đường thủy nội địa biết chính xác thời gian tàu đến vị trí dự kiến theo mẫu;\n+ Trường hợp tàu biển có người ốm, người chết, người cứu vớt được trên biển hoặc có người trốn trên tàu, tàu biển phải thực hiện xác báo cho Cảng vụ hàng hải/Cảng vụ đường thủy nội địa biết chính xác thời gian tàu đến vị trí dự kiến, các thông tin về tên, tuổi, quốc tịch, tình trạng bệnh tật, lý do tử vong và các yêu cầu liên quan khác theo mẫu.\n- Chậm nhất 02 giờ trước khi tàu biển quá cảnh, người làm thủ tục nộp, xuất trình hồ sơ để làm thủ tục cho tàu thuyền tại trụ sở chính hoặc Văn phòng đại diện Cảng vụ hàng hải/Cảng vụ đường thủy nội địa.\nb) Giải quyết TTHC:\n- Cảng vụ hàng hải/Cảng vụ đường thủy nội địa có trách nhiệm thông báo cho các tổ chức liên quan biết thông tin về việc tàu thuyền quá cảnh để thực hiện thủ tục và phối hợp triển khai điều động, tiếp nhận tàu;\n+ Cảng vụ hàng hải/Cảng vụ đường thủy nội địa xử lý, giải quyết hồ sơ đối với tàu thuyền, giấy chứng nhận khả năng chuyên môn của thuyền viên và là cơ quan quyết định cuối cùng cho tàu thuyền quá cảnh cảng biển;\n+ Hải quan cửa khẩu xử lý, giải quyết hồ sơ đối với hàng hóa, hành lý, nguyên, nhiên vật liệu trên tàu;\n+ Biên phòng cửa khẩu xử lý, giải quyết hồ sơ đối với thuyền viên, hành khách, người đi theo tàu, người trốn trên tàu và người lên, xuống tàu;\n+ Kiểm dịch y tế xử lý, giải quyết hồ sơ đối với bệnh dịch liên quan đến con người.\n- Trên cơ sở thông báo, xác báo tàu quá cảnh, chậm nhất 02 giờ trước khi tàu biển đến khu neo đậu chờ quá cảnh, Giám đốc Cảng vụ hàng hải/Cảng vụ đường thủy nội địa căn cứ điều kiện thực tế, thông số kỹ thuật của tàu, loại hàng, kế hoạch điều độ của cảng, kế hoạch dẫn tàu của tổ chức hoa tiêu và ý kiến của các cơ quan quản lý nhà nước để xem xét quyết định chấp thuận cho tàu quá cảnh thông qua Kế hoạch điều động theo mẫu; trường hợp không chấp thuận cho tàu quá cảnh phải thông báo cho người làm thủ tục và nêu rõ lý do.\n- Chậm nhất 01 giờ, kể từ khi người làm thủ tục đã nộp, xuất trình đủ các giấy tờ theo quy định, các cơ quan  quản lý nhà nước chuyên ngành thực hiện thủ tục và thông báo ngay Cảng vụ hàng hải/Cảng vụ đường thủy nội địa biết kết quả và Cảng vụ hàng hải/Cảng vụ đường thủy nội địa cấp Giấy phép quá cảnh; trường hợp chưa cấp Giấy phép quá cảnh phải thông báo và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "Các giấy tờ phải nộp (bản chính), mỗi loại 01 bản, gồm:: + Nộp cho Hải quan cửa khẩu: Bản khai chung theo mẫu, Danh sách thuyền viên theo mẫu, Bản khai hàng hóa (nếu có) theo mẫu, Bản khai dự trữ của tàu theo mẫu, Bản khai thông tin về vận đơn thứ cấp (nếu có) theo mẫu\nCác giấy tờ phải nộp (bản chính), mỗi loại 01 bản, gồm:: + Nộp cho Biên phòng cửa khẩu:Bản khai chung theo mẫu, Danh sách thuyền viên theo mẫu, Danh sách hành khách (nếu có) theo mẫu, Bản khai vũ khí và vật liệu nổ (nếu có) theo mẫu, Bản khai người trốn trên tàu (nếu có) theo mẫu\nCác giấy tờ phải nộp (bản chính), mỗi loại 01 bản, gồm:: + Nộp cho Cảng vụ hàng hải/Cảng vụ đường thủy nội địa: Bản khai chung theo mẫu, Danh sách thuyền viên theo mẫu, Danh sách hành khách (nếu có) theo mẫu\nCác giấy tờ phải nộp (bản chính), mỗi loại 01 bản, gồm:: + Nộp cho Kiểm dịch y tế:Giấy khai báo y tế hàng hải theo mẫu, Giấy khai báo y tế, thi thể, hài cốt, tro cốt (nếu có) theo mẫu, Giấy khai báo y tế mẫu vi sinh y học, sản phẩm sinh học, mô, bộ phận cơ thể người (nếu có) theo mẫu\nCác giấy tờ phải xuất trình (bản chính), bao gồm:: Khi cơ quan quản lý nhà nước chuyên ngành liên quan yêu cầu trình Hộ chiếu của hành khách (nếu có).\nCác giấy tờ phải xuất trình (bản chính), bao gồm:: Trình Biên phòng cửa khẩu: Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế của thuyền viên, hành khách\nCác giấy tờ phải xuất trình (bản chính), bao gồm:: Trình Cảng vụ hàng hải: Giấy phép rời cảng, Giấy chứng nhận đăng ký tàu biển, các giấy chứng nhận về an toàn kỹ thuật của tàu biển theo quy định, Giấy chứng nhận khả năng chuyên môn của thuyền viên theo quy định, Giấy chứng nhận bảo hiểm hoặc bảo đảm tài chính về trách nhiệm dân sự đối với tổn thất ô nhiễm dầu nhiên liệu, Giấy chứng nhận bảo hiểm trách nhiệm dân sự của chủ tàu về ô nhiễm môi trường đối với tàu vận chuyển dầu mỏ, chế phẩm từ dầu mỏ hoặc các hàng hóa nguy hiểm khác;",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 1 giờ\nQua dịch vụ bưu chính: 2 giờ\nTrực tiếp: 1 giờ",
     "CĂN CỨ PHÁP LÝ": "Bộ luật Hàng hải Việt Nam - 95/2015/QH13\nQuy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải - 261/2016/TT-BTC\nNghị định quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Xây dựng - 33/2025/NĐ-CP\nNghị định sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực hàng hải - 34/2025/NĐ-CP\nsửa đổi, bổ sung một số điều của Thông tư số 261/2016/TT-BTC ngày 14 tháng 11 năm 2016 quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải - 74/2021/TT-BTC\nNghị định quy định chi tiết một số điều của Bộ luật Hàng hải Việt Nam về quản lý hoạt động hàng hải - 58/2017/NĐ-CP\nsửa đổi, bổ sung một số điều của Thông tư số 261/2016/TT-BTC ngày 14 tháng 11 năm 2016 quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải và Thông tư số 17/2017/TT-BTC ngày 28 tháng 02 năm 2017 hướng dẫn thu, nộp, quản lý và sử dụng phí, lệ phí hàng hải - 90/2019/TT-BTC\nsửa đổi, bổ sung một số điều của các Nghị định quy định liên quan đến phân cấp giải quyết thủ tục hành chính trong lĩnh vực hàng hải (có hiệu lực từ ngày 11/10/2024) - 74/2023/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cảng vụ hàng hải, Cảng vụ đường thủy nội địa, Văn phòng đại diện Cảng vụ Hàng hải, Biên phòng cửa khâu",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
@@ -371,14 +215,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hàng hải và đường thủy nội địa",
-      "slug": "hang-hai-va-duong-thuy-noi-dia"
+      "slug": "hang-hai-va-uong-thuy-noi-ia"
     },
     "implementation_levels": [
       {
@@ -393,11 +232,11 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
@@ -431,17 +270,17 @@
       },
       {
         "name": "Cảng vụ đường thủy nội địa",
-        "slug": "cang-vu-duong-thuy-noi-dia"
+        "slug": "cang-vu-uong-thuy-noi-ia"
       },
       {
         "name": "Văn phòng đại diện Cảng vụ Hàng hải",
-        "slug": "van-phong-dai-dien-cang-vu-hang-hai"
+        "slug": "van-phong-ai-dien-cang-vu-hang-hai"
       },
       {
         "name": "Biên phòng cửa khâu",
         "slug": "bien-phong-cua-khau"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

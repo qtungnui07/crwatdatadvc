@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf8-1b8d-750d-ae1e-fb631afc3819",
   "procedure_code": "2.000131",
   "title": "Đăng ký tổ chức Hội chợ, Triển lãm thương mại tại Việt Nam.",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-1b8d-750d-ae1e-fb631afc3819",
     "source_file": "chi-tiet-thu-tuc-2.000131.pdf",
     "source_path": "procedures/viec-lam/2.000131/chi-tiet-thu-tuc-2.000131.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:20.239920+00:00",
-    "source_updated_at": "2026-06-29T03:47:23.874Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:05.163306+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "dbf9a858e0a010abe4ddd73fa28755487a6872850fa92d0cb86c4688cf8c095a"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:20.239920+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1507/QĐ-BCT",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Xúc tiến thương mại",
   "target_users": [
@@ -42,10 +38,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Công thương",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Công thương"
   },
   "steps": [
     {
@@ -53,25 +46,16 @@
       "title": "Bước 1",
       "description": "+) Tối đa (sớm nhất) 365 ngày và tối thiểu (chậm nhất) 30 ngày trước ngày khai mạc, thương nhân, tổ chức gửi hồ sơ đăng ký tổ chức hội chợ, triển lãm thương mại tại Việt Nam đến Sở Công Thương tỉnh, thành phố.\n+) Sở Công Thương tỉnh, thành phố trả lời xác nhận hoặc không xác nhận bằng văn bản việc đăng ký tổ chức hội chợ, triển lãm thương mại. Trong trường hợp không xác nhận phải nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "01 Đăng ký tổ chức hội chợ, triển lãm thương mại theo mẫu quy định;",
-        "code": "000.00.00.G02-KQ004851",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d8fcd-445d-71cb-81d1-c9ebb9625a3e",
-            "name": "Mẫu số 11 ĐP.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 11 ĐP.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -82,35 +66,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -118,51 +82,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -170,38 +119,32 @@
     {
       "title": "Nghị định 81/2018/NĐ-CP",
       "document_number": "81/2018/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b471-a23f836a3bba",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định số 128/2024/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 81/2018/NĐ-CP của Chính phủ quy định chi tiết Luật Thương mại về hoạt động xúc tiến thương mại",
       "document_number": "128/2024/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a63e-a4ec1f0018b6",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị quyết số 19/2026/NQ-CP ngày 29 tháng 4 năm 2026 của Chính phủ về cắt giảm, phân cấp, đơn giản hoá thủ tục hành chính, điều kiện kinh doanh thuộc quản lý của Bộ Công Thương",
       "document_number": "19/2026/NQ-CP",
-      "id": "019e1627-6140-7639-ae90-2e4878db9890",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định số 230/2026/NĐ-CP ngày 25/6/2026 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 28/2018/NĐ-CP ngày 01/3/2018 của Chính phủ quy định chi tiết Luật quản lý ngoại thương về một số biện pháp phát triển ngoại thương đã được sửa đổi, bổ sung theo Nghị định số 14/2024/NĐ-CP ngày 07/02/2024 của Chính phủ;",
-      "document_number": "230/2026/NĐ-CP ",
-      "id": "019f1153-379c-704d-bc23-28e186cbdc04",
-      "source_page": null
+      "document_number": "230/2026/NĐ-CP",
+      "source_page": 2
     },
     {
       "title": "Luật Thương mại",
       "document_number": "36/2005/QH11",
-      "id": "019d2bb3-5d84-71c5-b672-cff0cd8ef16a",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư Liên tịch số 07/2007/TTLT-BTM-BTC ngày 06 tháng 7 năm 2007 của Bộ Thương mại và Bộ Tài chính về Hướng dẫn thực hiện một số điều về khuyến mại và hội chợ, triển lãm thương mại quy định tại Nghị định số 37/2006/NĐ-CP ngày 04 tháng 4 năm 2006 của Chính phủ quy định chi tiết Luật Thương mại về hoạt động xúc tiến thương mại",
       "document_number": "07/2007/TTLT-BTM-BTC",
-      "id": "019d8fd0-0327-70d8-b5fa-6774e951fd33",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "Không quy định",
@@ -209,21 +152,19 @@
     {
       "title": "Công văn xác nhận Đăng ký tổ chức hội chợ, triển lãm thương mại tại Việt Nam",
       "code": "KQ.G02.000014",
-      "id": "019d2bb2-1c38-75c9-8e12-7ac3a9e2b695",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Công văn không xác nhận Đăng ký tổ chức hội chợ, triển lãm thương mại tại Việt Nam",
       "code": "KQ.G02.000475",
-      "id": "019d2bb2-1c3a-7502-a840-07e08c2c7204",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "+) Tối đa (sớm nhất) 365 ngày và tối thiểu (chậm nhất) 30 ngày trước ngày khai mạc, thương nhân, tổ chức gửi hồ sơ đăng ký tổ chức hội chợ, triển lãm thương mại tại Việt Nam đến Sở Công Thương tỉnh, thành phố.\n+) Sở Công Thương tỉnh, thành phố trả lời xác nhận hoặc không xác nhận bằng văn bản việc đăng ký tổ chức hội chợ, triển lãm thương mại. Trong trường hợp không xác nhận phải nêu rõ lý do.",
-    "THÀNH PHẦN HỒ SƠ": "\n01 Đăng ký tổ chức hội chợ, triển lãm thương mại theo mẫu quy định;",
+    "THÀNH PHẦN HỒ SƠ": "01 Đăng ký tổ chức hội chợ, triển lãm thương mại theo mẫu quy định;",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 5 ngày làm việc\nQua dịch vụ bưu chính: 5 ngày làm việc\nTrực tiếp: 5 ngày làm việc",
-    "CĂN CỨ PHÁP LÝ": "Nghị định 81/2018/NĐ-CP - 81/2018/NĐ-CP\nNghị định số 128/2024/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 81/2018/NĐ-CP của Chính phủ quy định chi tiết Luật Thương mại về hoạt động xúc tiến thương mại - 128/2024/NĐ-CP\nNghị quyết số 19/2026/NQ-CP ngày 29 tháng 4 năm 2026 của Chính phủ về cắt giảm, phân cấp, đơn giản hoá thủ tục hành chính, điều kiện kinh doanh thuộc quản lý của Bộ Công Thương - 19/2026/NQ-CP\nNghị định số 230/2026/NĐ-CP ngày 25/6/2026 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 28/2018/NĐ-CP ngày 01/3/2018 của Chính phủ quy định chi tiết Luật quản lý ngoại thương về một số biện pháp phát triển ngoại thương đã được sửa đổi, bổ sung theo Nghị định số 14/2024/NĐ-CP ngày 07/02/2024 của Chính phủ; - 230/2026/NĐ-CP \nLuật Thương mại - 36/2005/QH11\nThông tư Liên tịch số 07/2007/TTLT-BTM-BTC ngày 06 tháng 7 năm 2007 của Bộ Thương mại và Bộ Tài chính về Hướng dẫn thực hiện một số điều về khuyến mại và hội chợ, triển lãm thương mại quy định tại Nghị định số 37/2006/NĐ-CP ngày 04 tháng 4 năm 2006 của Chính phủ quy định chi tiết Luật Thương mại về hoạt động xúc tiến thương mại - 07/2007/TTLT-BTM-BTC",
+    "CĂN CỨ PHÁP LÝ": "Nghị định 81/2018/NĐ-CP - 81/2018/NĐ-CP\nNghị định số 128/2024/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 81/2018/NĐ-CP của Chính phủ quy định chi tiết Luật Thương mại về hoạt động xúc tiến thương mại - 128/2024/NĐ-CP\nNghị quyết số 19/2026/NQ-CP ngày 29 tháng 4 năm 2026 của Chính phủ về cắt giảm, phân cấp, đơn giản hoá thủ tục hành chính, điều kiện kinh doanh thuộc quản lý của Bộ Công Thương - 19/2026/NQ-CP\nNghị định số 230/2026/NĐ-CP ngày 25/6/2026 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 28/2018/NĐ-CP ngày 01/3/2018 của Chính phủ quy định chi tiết Luật quản lý ngoại thương về một số biện pháp phát triển ngoại thương đã được sửa đổi, bổ sung theo Nghị định số 14/2024/NĐ-CP ngày 07/02/2024 của Chính phủ; - 230/2026/NĐ-CP\nLuật Thương mại - 36/2005/QH11\nThông tư Liên tịch số 07/2007/TTLT-BTM-BTC ngày 06 tháng 7 năm 2007 của Bộ Thương mại và Bộ Tài chính về Hướng dẫn thực hiện một số điều về khuyến mại và hội chợ, triển lãm thương mại quy định tại Nghị định số 37/2006/NĐ-CP ngày 04 tháng 4 năm 2006 của Chính phủ quy định chi tiết Luật Thương mại về hoạt động xúc tiến thương mại - 07/2007/TTLT-BTM-BTC",
     "CƠ QUAN THỰC HIỆN": "Sở Công thương",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Không quy định",
     "KẾT QUẢ XỬ LÝ": "Công văn xác nhận Đăng ký tổ chức hội chợ, triển lãm thương mại tại Việt Nam - KQ.G02.000014\nCông văn không xác nhận Đăng ký tổ chức hội chợ, triển lãm thương mại tại Việt Nam - KQ.G02.000475",
@@ -231,11 +172,6 @@
     "MÔ TẢ": "Không quy định"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Xúc tiến thương mại",
       "slug": "xuc-tien-thuong-mai"
@@ -253,7 +189,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -277,7 +213,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -286,6 +222,6 @@
         "slug": "so-cong-thuong"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-8b9c-72c9-9b8c-3ba422829e9a",
   "procedure_code": "1.009537",
   "title": "Chấp thuận tổ chức lại công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-8b9c-72c9-9b8c-3ba422829e9a",
     "source_file": "chi-tiet-thu-tuc-1.009537.pdf",
     "source_path": "procedures/viec-lam/1.009537/chi-tiet-thu-tuc-1.009537.pdf",
     "page_count": 11,
-    "extracted_at": "2026-07-18T02:22:05.191936+00:00",
-    "source_updated_at": "2026-06-04T03:48:31.448Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:34.640939+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "4c6b091ca7c2e8fcc3b08e844c1463e23308c5b9239cb3b29ae86cb2ffe38a60"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:05.191936+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "936/QĐ-BTC",
   "implementation_level": "Cấp bộ, Cơ quan khác",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cơ quan khác"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Chứng khoán",
   "target_users": [
@@ -36,207 +31,183 @@
   ],
   "agency": {
     "competent_agency": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
-    "executing_agency": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính"
   },
   "steps": [
     {
       "order": 1,
-      "title": "Nộp hồ sơ",
-      "description": "Bước 1: Công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán gửi hồ sơ tổ chức lại công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán đến Ủy ban Chứng khoán Nhà nước.\nBước 2: Ủy ban Chứng khoán Nhà nước (Bộ phận một cửa) tiếp nhận và kiểm tra danh mục hồ sơ. Trường hợp danh mục chưa đầy đủ, Ủy ban Chứng khoán Nhà nước hướng dẫn bổ sung hồ sơ theo quy định.\nBước 3: Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban Chứng khoán Nhà nước xem xét tính đầy đủ, hợp lệ của hồ sơ. Trường hợp hồ sơ cần sửa đổi, bổ sung, Ủy ban Chứng khoán Nhà nước có văn bản gửi công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán nêu rõ nội dung yêu cầu sửa đổi, bổ sung.\nBước 4: Trong thời hạn 60 ngày kể từ ngày Ủy ban Chứng khoán Nhà nước có văn bản yêu cầu sửa đổi, bổ sung hồ sơ, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hoàn thiện hồ sơ và gửi đến Ủy ban Chứng khoán Nhà nước.\nBước 5: Trong thời hạn 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ, Ủy ban Chứng khoán Nhà nước có văn bản chấp thuận; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do.\nBước 6: Công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán thực hiện tổ chức lại theo quy định của Luật Doanh nghiệp. Trường hợp tổ chức lại công ty có kết hợp với chào bán cổ phần riêng lẻ, chào bán cổ phần ra công chúng, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán phải tuân thủ các quy định về chào bán có liên quan.\n",
+      "title": "Bước 1",
+      "description": "Bước 1: Công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán gửi hồ sơ tổ chức lại công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán đến Ủy ban Chứng khoán Nhà nước.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
-      "title": "+ Trường hợp sáp nhập:",
-      "description": "Bước 7: Công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán sau sáp nhập thực hiện thủ tục điều chỉnh Giấy phép thành lập và hoạt động kinh doanh chứng khoán.",
+      "title": "Bước 2",
+      "description": "Bước 2: Ủy ban Chứng khoán Nhà nước (Bộ phận một cửa) tiếp nhận và kiểm tra danh mục hồ sơ. Trường hợp danh mục chưa đầy đủ, Ủy ban Chứng khoán Nhà nước hướng dẫn bổ sung hồ sơ theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 3,
-      "title": "+ Trường hợp hợp nhất, chuyển đổi hình thức pháp lý công ty:",
-      "description": "Bước 7: Công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hình thành sau hợp nhất, chuyển đổi hình thức pháp lý công ty phải thực hiện thủ tục đề nghị cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán.\nBước 8: Công ty chứng khoán công ty quản lý quỹ đầu tư chứng khoán gửi hồ sơ đề nghị cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán đến Ủy ban Chứng khoán Nhà nước.\nBước 9: Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban Chứng khoán Nhà nước xem xét tính đầy đủ, hợp lệ của hồ sơ. Trường hợp hồ sơ cần sửa đổi, bổ sung, Ủy ban Chứng khoán Nhà nước có văn bản gửi công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán nêu rõ nội dung yêu cầu sửa đổi, bổ sung.\nBước 10: Trong thời hạn 60 ngày kể từ ngày Ủy ban Chứng khoán Nhà nước có văn bản yêu cầu sửa đổi, bổ sung hồ sơ, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hoàn thiện và gửi đến Ủy ban Chứng khoán Nhà nước.\nBước 11: Trường hợp công ty sau hợp nhất, chuyển đổi có thay đổi địa điểm đặt trụ sở chính hoặc cần làm rõ vấn đề liên quan đến cơ sở vật chất của công ty mới hình thành sau tổ chức lại, Ủy ban Chứng khoán Nhà nước kiểm tra cơ sở vật chất.\nBước 12: Trong thời hạn 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ và kết quả kiểm tra cơ sở vật chất (nếu có), Ủy ban Chứng khoán Nhà nước cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán cho công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hợp nhất, sau chuyển đổi; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do.\n",
+      "title": "Bước 3",
+      "description": "Bước 3: Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban Chứng khoán Nhà nước xem xét tính đầy đủ, hợp lệ của hồ sơ. Trường hợp hồ sơ cần sửa đổi, bổ sung, Ủy ban Chứng khoán Nhà nước có văn bản gửi công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán nêu rõ nội dung yêu cầu sửa đổi, bổ sung.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "Bước 4: Trong thời hạn 60 ngày kể từ ngày Ủy ban Chứng khoán Nhà nước có văn bản yêu cầu sửa đổi, bổ sung hồ sơ, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hoàn thiện hồ sơ và gửi đến Ủy ban Chứng khoán Nhà nước.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 5,
+      "title": "Bước 5",
+      "description": "Bước 5: Trong thời hạn 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ, Ủy ban Chứng khoán Nhà nước có văn bản chấp thuận; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 6,
+      "title": "Bước 6",
+      "description": "Bước 6: Công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán thực hiện tổ chức lại theo quy định của Luật Doanh nghiệp. Trường hợp tổ chức lại công ty có kết hợp với chào bán cổ phần riêng lẻ, chào bán cổ phần ra công chúng, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán phải tuân thủ các quy định về chào bán có liên quan.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 7,
+      "title": "+ Trường hợp sáp nhập:",
+      "description": "Bước 7: Công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán sau sáp nhập thực hiện thủ tục điều chỉnh Giấy phép thành lập và hoạt động kinh doanh chứng khoán.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 8,
+      "title": "Bước 7",
+      "description": "Bước 7: Công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hình thành sau hợp nhất, chuyển đổi hình thức pháp lý công ty phải thực hiện thủ tục đề nghị cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 9,
+      "title": "Bước 8",
+      "description": "Bước 8: Công ty chứng khoán công ty quản lý quỹ đầu tư chứng khoán gửi hồ sơ đề nghị cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán đến Ủy ban Chứng khoán Nhà nước.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 10,
+      "title": "Bước 9",
+      "description": "Bước 9: Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban Chứng khoán Nhà nước xem xét tính đầy đủ, hợp lệ của hồ sơ. Trường hợp hồ sơ cần sửa đổi, bổ sung, Ủy ban Chứng khoán Nhà nước có văn bản gửi công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán nêu rõ nội dung yêu cầu sửa đổi, bổ sung.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 11,
+      "title": "Bước 10",
+      "description": "Bước 10: Trong thời hạn 60 ngày kể từ ngày Ủy ban Chứng khoán Nhà nước có văn bản yêu cầu sửa đổi, bổ sung hồ sơ, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hoàn thiện và gửi đến Ủy ban Chứng khoán Nhà nước.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 12,
+      "title": "Bước 11",
+      "description": "Bước 11: Trường hợp công ty sau hợp nhất, chuyển đổi có thay đổi địa điểm đặt trụ sở chính hoặc cần làm rõ vấn đề liên quan đến cơ sở vật chất của công ty mới hình thành sau tổ chức lại, Ủy ban Chứng khoán Nhà nước kiểm tra cơ sở vật chất.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 13,
+      "title": "Bước 12",
+      "description": "Bước 12: Trong thời hạn 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ và kết quả kiểm tra cơ sở vật chất (nếu có), Ủy ban Chứng khoán Nhà nước cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán cho công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hợp nhất, sau chuyển đổi; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Hợp đồng nguyên tắc đối với trường hợp hợp nhất, sáp nhập;",
-        "code": "000.00.00.G12-KQ014769",
+        "name": "(1) Chấp thuận tổ chức lại: Hợp đồng nguyên tắc đối với trường hợp hợp nhất, sáp nhập;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(1) Chấp thuận tổ chức lại",
-        "attachments": [
-          {
-            "id": "019e72b2-7c07-747e-937a-1f6f1790e8a2",
-            "name": "mẫu 80 - hợp đồng hợp nhất, xác nhận.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "mẫu 80 - hợp đồng hợp nhất, xác nhận.docx",
+        "source_page": 3
       },
       {
-        "name": "Phương án tổ chức lại đã được Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty thông qua;",
-        "code": "000.00.00.G12-KQ014770",
+        "name": "(1) Chấp thuận tổ chức lại: Phương án tổ chức lại đã được Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty thông qua;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(1) Chấp thuận tổ chức lại",
-        "attachments": [
-          {
-            "id": "019e72b1-897c-7557-b3c4-7f3383f3251f",
-            "name": "Mẫu số 81 phương án hợp nhất, sáp nhập.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 81 phương án hợp nhất, sáp nhập.docx",
+        "source_page": 3
       },
       {
-        "name": "+ Giấy đề nghị.",
-        "code": "000.00.00.G12-3987",
+        "name": "(1) Chấp thuận tổ chức lại: + Giấy đề nghị.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(1) Chấp thuận tổ chức lại",
-        "attachments": [
-          {
-            "id": "019e7e5e-f621-75f0-867b-5a6f308d5eae",
-            "name": "mẫu 79.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "mẫu 79.docx",
+        "source_page": 3
       },
       {
-        "name": "+ Danh sách Tổng giám đốc (Giám đốc) và người hành nghề chứng khoán tại trụ sở chính và mạng lưới hoạt động; Bản thông tin cá nhân của Tổng giám đốc (Giám đốc), Giám đốc chi nhánh kèm theo Phiếu lý lịch tư pháp không quá 06 tháng tính đến thời điểm nộp hồ sơ đối với trường hợp thay đổi Tổng giám đốc (Giám đốc), Giám đốc chi nhánh;",
-        "code": "000.00.00.G12-KQ014798",
+        "name": "(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: + Danh sách Tổng giám đốc (Giám đốc) và người hành nghề chứng khoán tại trụ sở chính và mạng lưới hoạt động; Bản thông tin cá nhân của Tổng giám đốc (Giám đốc), Giám đốc chi nhánh kèm theo Phiếu lý lịch tư pháp không quá 06 tháng tính đến thời điểm nộp hồ sơ đối với trường hợp thay đổi Tổng giám đốc (Giám đốc), Giám đốc chi nhánh;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán",
-        "attachments": [
-          {
-            "id": "019e72b7-331a-74c0-ba85-7a5ddf2ac29c",
-            "name": "Mẫu số 67 - Bảng thông tin cá nhân.docx11.docx",
-            "url": ""
-          },
-          {
-            "id": "019e72b9-f6fe-75c1-abe0-632b39bc507c",
-            "name": "Mẫu số 68 danh sách cổ đông.docx",
-            "url": ""
-          },
-          {
-            "id": "019e72ba-5d78-7324-9b4b-110e7ed7b5cc",
-            "name": "Mẫu số 66 - DS nhân sự.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 67 - Bảng thông tin cá nhân.docx11.docx; Mẫu số 68 danh sách cổ đông.docx; Mẫu số 66 - DS nhân sự.docx",
+        "source_page": 3
       },
       {
-        "name": "+ Thuyết minh cơ sở vật chất kèm theo hợp đồng thuê trụ sở, giấy tờ chứng minh quyền sở hữu trụ sở, quyền sử dụng trụ sở;",
-        "code": "000.00.00.G12-KQ014797",
+        "name": "(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: + Thuyết minh cơ sở vật chất kèm theo hợp đồng thuê trụ sở, giấy tờ chứng minh quyền sở hữu trụ sở, quyền sử dụng trụ sở;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán",
-        "attachments": [
-          {
-            "id": "019e72b5-f2f1-7181-8981-feb0a8640909",
-            "name": "Mẫu số 65 thuyết minh cơ sở vật chất.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 65 thuyết minh cơ sở vật chất.docx",
+        "source_page": 3
       },
       {
-        "name": "+ Báo cáo kết quả thực hiện phương án tổ chức lại, bao gồm Danh sách cổ đông, thành viên góp vốn của công ty sau tổ chức lại, kết quả thực hiện chuyển nhượng (nếu có), kết quả chào bán cổ phần (nếu có);",
-        "code": "000.00.00.G12-KQ014796",
+        "name": "(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: + Báo cáo kết quả thực hiện phương án tổ chức lại, bao gồm Danh sách cổ đông, thành viên góp vốn của công ty sau tổ chức lại, kết quả thực hiện chuyển nhượng (nếu có), kết quả chào bán cổ phần (nếu có);",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán",
-        "attachments": [
-          {
-            "id": "019e72b7-40f4-77f1-a43a-725b84a75a88",
-            "name": "Mẫu số 68 danh sách cổ đông.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 68 danh sách cổ đông.docx",
+        "source_page": 4
       },
       {
-        "name": "+ Giấy đề nghị.",
-        "code": "000.00.00.G12-KQ01455",
+        "name": "(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: + Giấy đề nghị.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán",
-        "attachments": [
-          {
-            "id": "019e7e61-7470-773d-b8c0-b86382fa332d",
-            "name": "mẫu 79.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "mẫu 79.docx",
+        "source_page": 3
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "Tài liệu chứng minh công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hình thành sau tổ chức lại đáp ứng điều kiện nêu tại mục Yêu cầu, điều kiện thực hiện thủ tục hành chính.",
-        "code": "000.00.00.G12-KQ014771",
+        "name": "(1) Chấp thuận tổ chức lại: Tài liệu chứng minh công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hình thành sau tổ chức lại đáp ứng điều kiện nêu tại mục Yêu cầu, điều kiện thực hiện thủ tục hành chính.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(1) Chấp thuận tổ chức lại",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Biên bản họp, quyết định của Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty về việc tổ chức lại công ty",
-        "code": "000.00.00.G12-KQ014768",
+        "name": "(1) Chấp thuận tổ chức lại: Biên bản họp, quyết định của Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty về việc tổ chức lại công ty",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(1) Chấp thuận tổ chức lại",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "...Khi sử dụng tài khoản định danh điện tử để giải quyết thủ tục hành chính thì thông tin về danh tính điện tử, thông tin tích hợp trên căn cước điện tử, tài khoản định danh điện tử có giá trị chứng minh, tương đương với việc cung cấp thông tin hoặc sử dụng, xuất trình giấy tờ, tài liệu có chứa thông tin đó trong thực hiện thủ tục hành chính.",
-        "code": "000.00.00.G12-KQ014802",
+        "name": "(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: ...Khi sử dụng tài khoản định danh điện tử để giải quyết thủ tục hành chính thì thông tin về danh tính điện tử, thông tin tích hợp trên căn cước điện tử, tài khoản định danh điện tử có giá trị chứng minh, tương đương với việc cung cấp thông tin hoặc sử dụng, xuất trình giấy tờ, tài liệu có chứa thông tin đó trong thực hiện thủ tục hành chính.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "+ Bản gốc Giấy phép hoạt động kinh doanh chứng khoán của công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán được tổ chức lại.",
-        "code": "000.00.00.G12-KQ014801",
+        "name": "(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: + Bản gốc Giấy phép hoạt động kinh doanh chứng khoán của công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán được tổ chức lại.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "+ Dự thảo Điều lệ công ty sau chuyển đổi, hợp nhất;",
-        "code": "000.00.00.G12-KQ014800",
+        "name": "(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: + Dự thảo Điều lệ công ty sau chuyển đổi, hợp nhất;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "+ Xác nhận về khoản vốn tăng thêm (nếu có) của ngân hàng nơi mở tài khoản phong toả hoặc báo cáo vốn chủ sở hữu được kiểm toán bởi tổ chức kiểm toán được chấp thuận;;Thành phần hồ sơ trong thủ tục hành chính này được thay thế hoặc cắt giảm trong trường hợp cơ quan tiếp nhận, giải quyết thủ tục hành chính khai thác được thông tin từ các cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, không chính xác thì cơ quan, người có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính yêu cầu cá nhân, tổ chức bổ sung thành phần hồ sơ để giải quyết thủ tục hành chính; đồng thời đề nghị cá nhân, tổ chức thực hiện cập nhật, điều chỉnh thông tin trong các cơ sở dữ liệu theo quy định của pháp luật.",
-        "code": "000.00.00.G12-KQ014799",
+        "name": "(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: + Xác nhận về khoản vốn tăng thêm (nếu có) của ngân hàng nơi mở tài khoản phong toả hoặc báo cáo vốn chủ sở hữu được kiểm toán bởi tổ chức kiểm toán được chấp thuận;;Thành phần hồ sơ trong thủ tục hành chính này được thay thế hoặc cắt giảm trong trường hợp cơ quan tiếp nhận, giải quyết thủ tục hành chính khai thác được thông tin từ các cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, không chính xác thì cơ quan, người có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính yêu cầu cá nhân, tổ chức bổ sung thành phần hồ sơ để giải quyết thủ tục hành chính; đồng thời đề nghị cá nhân, tổ chức thực hiện cập nhật, điều chỉnh thông tin trong các cơ sở dữ liệu theo quy định của pháp luật.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       }
     ]
   },
@@ -245,183 +216,94 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "(1) Chấp thuận tổ chức lại: Không có.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 2000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "(2) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022: 02 triệu đồng/lần cấp.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 1000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "(3) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026: 01 triệu đồng/lần cấp.",
-          "attachment": null
-        }
-      ],
-      "description": "(1) Chấp thuận tổ chức lại: 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ.\n(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ và kết quả kiểm tra cơ sở vật chất (nếu có).\n(3) Điều chỉnh Giấy phép thành lập và hoạt động kinh doanh chứng khoán: 07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ.\n",
-      "source_page": null
+      "fee": "(1) Chấp thuận tổ chức lại: Không có.; (2) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022: 02 triệu đồng/lần cấp.; (3) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026: 01 triệu đồng/lần cấp.",
+      "description": "(1) Chấp thuận tổ chức lại: 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ.\n(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ và kết quả kiểm tra cơ sở vật chất (nếu có).\n(3) Điều chỉnh Giấy phép thành lập và hoạt động kinh doanh chứng khoán: 07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ.",
+      "source_page": 5
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "(1) Chấp thuận tổ chức lại: Không có.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 2000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "(2) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022: 02 triệu đồng/lần cấp.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 1000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "(3) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026: 01 triệu đồng/lần cấp.",
-          "attachment": null
-        }
-      ],
-      "description": "(1) Chấp thuận tổ chức lại: 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ.\n(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ và kết quả kiểm tra cơ sở vật chất (nếu có).\n(3) Điều chỉnh Giấy phép thành lập và hoạt động kinh doanh chứng khoán: 07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ.\n",
-      "source_page": null
+      "fee": "(1) Chấp thuận tổ chức lại: Không có.; (2) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022: 02 triệu đồng/lần cấp.; (3) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026: 01 triệu đồng/lần cấp.",
+      "description": "(1) Chấp thuận tổ chức lại: 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ.\n(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ và kết quả kiểm tra cơ sở vật chất (nếu có).\n(3) Điều chỉnh Giấy phép thành lập và hoạt động kinh doanh chứng khoán: 07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ.",
+      "source_page": 5
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "(1) Chấp thuận tổ chức lại: Không có.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 2000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "(2) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022: 02 triệu đồng/lần cấp.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 1000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "(3) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026: 01 triệu đồng/lần cấp.",
-          "attachment": null
-        }
-      ],
-      "description": "(1) Chấp thuận tổ chức lại: 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ.\n(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ và kết quả kiểm tra cơ sở vật chất (nếu có).\n(3) Điều chỉnh Giấy phép thành lập và hoạt động kinh doanh chứng khoán: 07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ.\n",
-      "source_page": null
+      "fee": "(1) Chấp thuận tổ chức lại: Không có.; (2) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022: 02 triệu đồng/lần cấp.; (3) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026: 01 triệu đồng/lần cấp.",
+      "description": "(1) Chấp thuận tổ chức lại: 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ.\n(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ và kết quả kiểm tra cơ sở vật chất (nếu có).\n(3) Điều chỉnh Giấy phép thành lập và hoạt động kinh doanh chứng khoán: 07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ.",
+      "source_page": 5
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "(1) Chấp thuận tổ chức lại: Không có.; (2) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022: 02 triệu đồng/lần cấp.; (3) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026: 01 triệu đồng/lần cấp.",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "(1) Chấp thuận tổ chức lại: Không có.",
-        "attachment": null
+        "amount_text": "(1) Chấp thuận tổ chức lại: Không có.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 2000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "(2) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022: 02 triệu đồng/lần cấp.",
-        "attachment": null
+        "amount_text": "(2) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022: 02 triệu đồng/lần cấp.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 1000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "(3) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026: 01 triệu đồng/lần cấp.",
-        "attachment": null
+        "amount_text": "(3) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026: 01 triệu đồng/lần cấp.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "(1) Chấp thuận tổ chức lại: Không có.",
-        "attachment": null
+        "amount_text": "(1) Chấp thuận tổ chức lại: Không có.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 2000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "(2) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022: 02 triệu đồng/lần cấp.",
-        "attachment": null
+        "amount_text": "(2) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022: 02 triệu đồng/lần cấp.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 1000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "(3) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026: 01 triệu đồng/lần cấp.",
-        "attachment": null
+        "amount_text": "(3) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026: 01 triệu đồng/lần cấp.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "(1) Chấp thuận tổ chức lại: Không có.",
-        "attachment": null
+        "amount_text": "(1) Chấp thuận tổ chức lại: Không có.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 2000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "(2) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022: 02 triệu đồng/lần cấp.",
-        "attachment": null
+        "amount_text": "(2) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022: 02 triệu đồng/lần cấp.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 1000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "(3) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026: 01 triệu đồng/lần cấp.",
-        "attachment": null
+        "amount_text": "(3) Cấp lại/điều chỉnh Giấy phép thành lập và hoạt động: * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026: 01 triệu đồng/lần cấp.",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -429,84 +311,69 @@
     {
       "title": "Thông tư số 25/2022/TT-BTC ngày 28/4/2022",
       "document_number": "25",
-      "id": "019d2bb3-5d7d-7398-be4b-eddf8638fadb",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Thông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân",
       "document_number": "64/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-69cce97f8824",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Nghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu",
       "document_number": "66.7/2025/NQ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-22af3c5ee091",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Nghị định 155/2020/NĐ-CP",
       "document_number": "155/2020/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a640-fee63f44d848",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Luật 54/2019/QH14",
       "document_number": "54/2019/QH14",
-      "id": "019d2bb3-5d87-7195-a442-db836cad8655",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Nghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu",
       "document_number": "66.7/2025/NQ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-22af3c5ee091",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Nghị quyết số 24/2026/NQ-CP ngày 29/4/2026 của Chính phủ cắt giảm, phân cấp, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh lĩnh vực quốc phòng, nội vụ, tài chính, xây dựng, ngoại giao, tư pháp, ngân hàng.",
-      "document_number": "24/2026/NQ-CP ",
-      "id": "019df74b-16d5-72ef-81f7-3f224a29c89e",
-      "source_page": null
+      "document_number": "24/2026/NQ-CP",
+      "source_page": 7
     }
   ],
-  "conditions": "+ Việc tổ chức lại, phương án tổ chức lại được Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty thông qua.\n+ Công ty chứng khoán hình thành sau tổ chức lại phải đáp ứng các điều kiện:\n1) Điều kiện về vốn bao gồm: Việc góp vốn điều lệ vào công ty chứng khoán phải bằng Đồng Việt Nam; Vốn điều lệ tối thiểu cho các nghiệp vụ kinh doanh của công ty chứng khoán tại Việt Nam như sau: Môi giới chứng khoán: 25 tỷ đồng; Tự doanh chứng khoán: 50 tỷ đồng; Bảo lãnh phát hành chứng khoán: 165 tỷ đồng; Tư vấn đầu tư chứng khoán: 10 tỷ đồng. Trường hợp tổ chức đề nghị cấp phép cho nhiều nghiệp vụ kinh doanh, vốn điều lệ tối thiểu là tổng số vốn tương ứng với từng nghiệp vụ đề nghị cấp phép.\n2) Điều kiện về cổ đông, thành viên góp vốn: Cổ đông, thành viên góp vốn sở hữu từ 10% trở lên vốn điều lệ của 01 công ty chứng khoán và người có liên quan của cổ đông, thành viên góp vốn đó (nếu có) không sở hữu trên 5% vốn điều lệ của 01 công ty chứng khoán khác.\n3) Điều kiện về cơ sở vật chất bao gồm: Có trụ sở làm việc bảo đảm cho hoạt động kinh doanh chứng khoán; Có đủ cơ sở vật chất, kỹ thuật, trang bị, thiết bị văn phòng, hệ thống công nghệ phù hợp với quy trình nghiệp vụ về hoạt động kinh doanh chứng khoán.\n4) Điều kiện về nhân sự bao gồm: \nCó Tổng giám đốc (Giám đốc), tối thiểu 03 nhân viên có chứng chỉ hành nghề chứng khoán phù hợp cho mỗi nghiệp vụ kinh doanh chứng khoán đề nghị cấp phép và tối thiểu 01 nhân viên kiểm soát tuân thủ.\nTổng giám đốc (Giám đốc) phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 02 năm kinh nghiệm làm việc tại bộ phận nghiệp vụ của các tổ chức trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Có chứng chỉ hành nghề phân tích tài chính hoặc chứng chỉ hành nghề quản lý quỹ; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ.\nTrường hợp có Phó Tổng giám đốc (Phó Giám đốc) phụ trách nghiệp vụ thì phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 02 năm kinh nghiệm làm việc tại bộ phận nghiệp vụ của các tổ chức trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ và Có chứng chỉ hành nghề chứng khoán phù hợp với nghiệp vụ phụ trách.\n+ Công ty quản lý quỹ đầu tư chứng khoán hình thành sau tổ chức lại phải đáp ứng các điều kiện:\n1) Điều kiện về vốn bao gồm: Việc góp vốn điều lệ vào công ty chứng khoán phải bằng Đồng Việt Nam; Vốn điều lệ tối thiểu của công ty quản lý quỹ là 25 tỷ đồng.\n2) Điều kiện về cổ đông, thành viên góp vốn: Cổ đông, thành viên góp vốn sở hữu từ 10% trở lên vốn điều lệ của 01 công ty quản lý quỹ đầu tư chứng khoán và người có liên quan của cổ đông, thành viên góp vốn đó (nếu có) không sở hữu trên 5% vốn điều lệ của 01 công ty quản lý quỹ đầu tư chứng khoán khác.\n3) Điều kiện về cơ sở vật chất bao gồm: Có trụ sở làm việc bảo đảm cho hoạt động kinh doanh chứng khoán; Có đủ cơ sở vật chất, kỹ thuật, trang bị, thiết bị văn phòng, hệ thống công nghệ phù hợp với quy trình nghiệp vụ về hoạt động kinh doanh chứng khoán.\n4) Điều kiện về nhân sự bao gồm:\nCó Tổng giám đốc (Giám đốc), tối thiểu 05 nhân viên có chứng chỉ hành nghề quản lý quỹ và tối thiểu 01 nhân viên kiểm soát tuân thủ. Tổng giám đốc (Giám đốc) phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 04 năm kinh nghiệm tại bộ phận nghiệp vụ của các tổ chức hoạt động trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Có chứng chỉ hành nghề quản lý quỹ hoặc chứng chỉ tương đương theo quy định của Chính phủ; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ.\nTrường hợp có Phó Tổng giám đốc (Phó Giám đốc) phụ trách nghiệp vụ thì phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 04 năm kinh nghiệm tại bộ phận nghiệp vụ của các tổ chức hoạt động trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ và Có chứng chỉ hành nghề chứng khoán phù hợp với nghiệp vụ phụ trách.\n+ Trường hợp tổ chức lại để trở thành công ty trách nhiệm hữu hạn một thành viên, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán phải có tối thiểu 02 cổ đông sáng lập, thành viên góp vốn là tổ chức.\nTrường hợp công ty chứng khoán được tổ chức dưới hình thức công ty trách nhiệm hữu hạn một thành viên, chủ sở hữu phải là doanh nghiệp bảo hiểm hoặc ngân hàng thương mại hoặc tổ chức nước ngoài đáp ứng quy định: Được cấp phép và có thời gian hoạt động liên tục trong lĩnh vực ngân hàng, chứng khoán, bảo hiểm trong thời hạn 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp; Cơ quan cấp phép của nước nguyên xứ và Ủy ban Chứng khoán Nhà nước đã ký kết thỏa thuận hợp tác song phương hoặc đa phương về trao đổi thông tin, hợp tác quản lý, thanh tra, giám sát hoạt động về chứng khoán và thị trường chứng khoán; Hoạt động kinh doanh có lãi trong 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp và báo cáo tài chính năm gần nhất phải được kiểm toán với ý kiến chấp nhận toàn phần.\nTrường hợp công ty quản lý quỹ đầu tư chứng khoán được tổ chức dưới hình thức công ty trách nhiệm hữu hạn một thành viên, chủ sở hữu phải là ngân hàng thương mại hoặc doanh nghiệp bảo hiểm hoặc công ty chứng khoán hoặc tổ chức nước ngoài đáp ứng quy định: Được cấp phép và có thời gian hoạt động liên tục trong lĩnh vực ngân hàng, chứng khoán, bảo hiểm trong thời hạn 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp; Cơ quan cấp phép của nước nguyên xứ và Ủy ban Chứng khoán Nhà nước đã ký kết thỏa thuận hợp tác song phương hoặc đa phương về trao đổi thông tin, hợp tác quản lý, thanh tra, giám sát hoạt động về chứng khoán và thị trường chứng khoán; Hoạt động kinh doanh có lãi trong 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp và báo cáo tài chính năm gần nhất phải được kiểm toán với ý kiến chấp nhận toàn phần.\n+ Việc tổ chức lại phải tuân thủ pháp luật khác có liên quan.\n",
+  "conditions": "+ Việc tổ chức lại, phương án tổ chức lại được Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty thông qua.\n+ Công ty chứng khoán hình thành sau tổ chức lại phải đáp ứng các điều kiện:\n1) Điều kiện về vốn bao gồm: Việc góp vốn điều lệ vào công ty chứng khoán phải bằng Đồng Việt Nam; Vốn điều lệ tối thiểu cho các nghiệp vụ kinh doanh của công ty chứng khoán tại Việt Nam như sau: Môi giới chứng khoán: 25 tỷ đồng; Tự doanh chứng khoán: 50 tỷ đồng; Bảo lãnh phát hành chứng khoán: 165 tỷ đồng; Tư vấn đầu tư chứng khoán: 10 tỷ đồng. Trường hợp tổ chức đề nghị cấp phép cho nhiều nghiệp vụ kinh doanh, vốn điều lệ tối thiểu là tổng số vốn tương ứng với từng nghiệp vụ đề nghị cấp phép.\n2) Điều kiện về cổ đông, thành viên góp vốn: Cổ đông, thành viên góp vốn sở hữu từ 10% trở lên vốn điều lệ của 01 công ty chứng khoán và người có liên quan của cổ đông, thành viên góp vốn đó (nếu có) không sở hữu trên 5% vốn điều lệ của 01 công ty chứng khoán khác.\n3) Điều kiện về cơ sở vật chất bao gồm: Có trụ sở làm việc bảo đảm cho hoạt động kinh doanh chứng khoán; Có đủ cơ sở vật chất, kỹ thuật, trang bị, thiết bị văn phòng, hệ thống công nghệ phù hợp với quy trình nghiệp vụ về hoạt động kinh doanh chứng khoán.\n4) Điều kiện về nhân sự bao gồm: \nCó Tổng giám đốc (Giám đốc), tối thiểu 03 nhân viên có chứng chỉ hành nghề chứng khoán phù hợp cho mỗi nghiệp vụ kinh doanh chứng khoán đề nghị cấp phép và tối thiểu 01 nhân viên kiểm soát tuân thủ.\nTổng giám đốc (Giám đốc) phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 02 năm kinh nghiệm làm việc tại bộ phận nghiệp vụ của các tổ chức trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Có chứng chỉ hành nghề phân tích tài chính hoặc chứng chỉ hành nghề quản lý quỹ; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ.\nTrường hợp có Phó Tổng giám đốc (Phó Giám đốc) phụ trách nghiệp vụ thì phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 02 năm kinh nghiệm làm việc tại bộ phận nghiệp vụ của các tổ chức trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ và Có chứng chỉ hành nghề chứng khoán phù hợp với nghiệp vụ phụ trách.\n+ Công ty quản lý quỹ đầu tư chứng khoán hình thành sau tổ chức lại phải đáp ứng các điều kiện:\n1) Điều kiện về vốn bao gồm: Việc góp vốn điều lệ vào công ty chứng khoán phải bằng Đồng Việt Nam; Vốn điều lệ tối thiểu của công ty quản lý quỹ là 25 tỷ đồng.\n2) Điều kiện về cổ đông, thành viên góp vốn: Cổ đông, thành viên góp vốn sở hữu từ 10% trở lên vốn điều lệ của 01 công ty quản lý quỹ đầu tư chứng khoán và người có liên quan của cổ đông, thành viên góp vốn đó (nếu có) không sở hữu trên 5% vốn điều lệ của 01 công ty quản lý quỹ đầu tư chứng khoán khác.\n3) Điều kiện về cơ sở vật chất bao gồm: Có trụ sở làm việc bảo đảm cho hoạt động kinh doanh chứng khoán; Có đủ cơ sở vật chất, kỹ thuật, trang bị, thiết bị văn phòng, hệ thống công nghệ phù hợp với quy trình nghiệp vụ về hoạt động kinh doanh chứng khoán.\n4) Điều kiện về nhân sự bao gồm:\nCó Tổng giám đốc (Giám đốc), tối thiểu 05 nhân viên có chứng chỉ hành nghề quản lý quỹ và tối thiểu 01 nhân viên kiểm soát tuân thủ. Tổng giám đốc (Giám đốc) phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 04 năm kinh nghiệm tại bộ phận nghiệp vụ của các tổ chức hoạt động trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Có chứng chỉ hành nghề quản lý quỹ hoặc chứng chỉ tương đương theo quy định của Chính phủ; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ.\nTrường hợp có Phó Tổng giám đốc (Phó Giám đốc) phụ trách nghiệp vụ thì phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 04 năm kinh nghiệm tại bộ phận nghiệp vụ của các tổ chức hoạt động trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ và Có chứng chỉ hành nghề chứng khoán phù hợp với nghiệp vụ phụ trách.\n+ Trường hợp tổ chức lại để trở thành công ty trách nhiệm hữu hạn một thành viên, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán phải có tối thiểu 02 cổ đông sáng lập, thành viên góp vốn là tổ chức.\nTrường hợp công ty chứng khoán được tổ chức dưới hình thức công ty trách nhiệm hữu hạn một thành viên, chủ sở hữu phải là doanh nghiệp bảo hiểm hoặc ngân hàng thương mại hoặc tổ chức nước ngoài đáp ứng quy định: Được cấp phép và có thời gian hoạt động liên tục trong lĩnh vực ngân hàng, chứng khoán, bảo hiểm trong thời hạn 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp; Cơ quan cấp phép của nước nguyên xứ và Ủy ban Chứng khoán Nhà nước đã ký kết thỏa thuận hợp tác song phương hoặc đa phương về trao đổi thông tin, hợp tác quản lý, thanh tra, giám sát hoạt động về chứng khoán và thị trường chứng khoán; Hoạt động kinh doanh có lãi trong 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp và báo cáo tài chính năm gần nhất phải được kiểm toán với ý kiến chấp nhận toàn phần.\nTrường hợp công ty quản lý quỹ đầu tư chứng khoán được tổ chức dưới hình thức công ty trách nhiệm hữu hạn một thành viên, chủ sở hữu phải là ngân hàng thương mại hoặc doanh nghiệp bảo hiểm hoặc công ty chứng khoán hoặc tổ chức nước ngoài đáp ứng quy định: Được cấp phép và có thời gian hoạt động liên tục trong lĩnh vực ngân hàng, chứng khoán, bảo hiểm trong thời hạn 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp; Cơ quan cấp phép của nước nguyên xứ và Ủy ban Chứng khoán Nhà nước đã ký kết thỏa thuận hợp tác song phương hoặc đa phương về trao đổi thông tin, hợp tác quản lý, thanh tra, giám sát hoạt động về chứng khoán và thị trường chứng khoán; Hoạt động kinh doanh có lãi trong 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp và báo cáo tài chính năm gần nhất phải được kiểm toán với ý kiến chấp nhận toàn phần.\n+ Việc tổ chức lại phải tuân thủ pháp luật khác có liên quan.",
   "results": [
     {
       "title": "+ Văn bản từ chối (nêu rõ lý do).",
       "code": "KQ.G12.001213",
-      "id": "019d2bb2-1c72-75fa-a592-f82376ee3f00",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Quyết định chấp thuận tổ chức lại; hoặc văn bản từ chối và nêu rõ lý do.",
       "code": "KQ.G12.000153",
-      "id": "019d2bb2-1c70-724b-96dd-e66701ac0c4f",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Giấy phép thành lập và hoạt động kinh doanh chứng khoán",
       "code": "KQ.G12.000147",
-      "id": "019d2bb2-1c70-724b-96dd-cdc66cbdfff9",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán gửi hồ sơ tổ chức lại công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán đến Ủy ban Chứng khoán Nhà nước.\nBước 2: Ủy ban Chứng khoán Nhà nước (Bộ phận một cửa) tiếp nhận và kiểm tra danh mục hồ sơ. Trường hợp danh mục chưa đầy đủ, Ủy ban Chứng khoán Nhà nước hướng dẫn bổ sung hồ sơ theo quy định.\nBước 3: Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban Chứng khoán Nhà nước xem xét tính đầy đủ, hợp lệ của hồ sơ. Trường hợp hồ sơ cần sửa đổi, bổ sung, Ủy ban Chứng khoán Nhà nước có văn bản gửi công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán nêu rõ nội dung yêu cầu sửa đổi, bổ sung.\nBước 4: Trong thời hạn 60 ngày kể từ ngày Ủy ban Chứng khoán Nhà nước có văn bản yêu cầu sửa đổi, bổ sung hồ sơ, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hoàn thiện hồ sơ và gửi đến Ủy ban Chứng khoán Nhà nước.\nBước 5: Trong thời hạn 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ, Ủy ban Chứng khoán Nhà nước có văn bản chấp thuận; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do.\nBước 6: Công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán thực hiện tổ chức lại theo quy định của Luật Doanh nghiệp. Trường hợp tổ chức lại công ty có kết hợp với chào bán cổ phần riêng lẻ, chào bán cổ phần ra công chúng, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán phải tuân thủ các quy định về chào bán có liên quan.\n\nBước 7: Công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán sau sáp nhập thực hiện thủ tục điều chỉnh Giấy phép thành lập và hoạt động kinh doanh chứng khoán.\nBước 7: Công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hình thành sau hợp nhất, chuyển đổi hình thức pháp lý công ty phải thực hiện thủ tục đề nghị cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán.\nBước 8: Công ty chứng khoán công ty quản lý quỹ đầu tư chứng khoán gửi hồ sơ đề nghị cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán đến Ủy ban Chứng khoán Nhà nước.\nBước 9: Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban Chứng khoán Nhà nước xem xét tính đầy đủ, hợp lệ của hồ sơ. Trường hợp hồ sơ cần sửa đổi, bổ sung, Ủy ban Chứng khoán Nhà nước có văn bản gửi công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán nêu rõ nội dung yêu cầu sửa đổi, bổ sung.\nBước 10: Trong thời hạn 60 ngày kể từ ngày Ủy ban Chứng khoán Nhà nước có văn bản yêu cầu sửa đổi, bổ sung hồ sơ, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hoàn thiện và gửi đến Ủy ban Chứng khoán Nhà nước.\nBước 11: Trường hợp công ty sau hợp nhất, chuyển đổi có thay đổi địa điểm đặt trụ sở chính hoặc cần làm rõ vấn đề liên quan đến cơ sở vật chất của công ty mới hình thành sau tổ chức lại, Ủy ban Chứng khoán Nhà nước kiểm tra cơ sở vật chất.\nBước 12: Trong thời hạn 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ và kết quả kiểm tra cơ sở vật chất (nếu có), Ủy ban Chứng khoán Nhà nước cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán cho công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hợp nhất, sau chuyển đổi; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "(1) Chấp thuận tổ chức lại\nTài liệu chứng minh công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hình thành sau tổ chức lại đáp ứng điều kiện nêu tại mục Yêu cầu, điều kiện thực hiện thủ tục hành chính.\nBiên bản họp, quyết định của Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty về việc tổ chức lại công ty\nHợp đồng nguyên tắc đối với trường hợp hợp nhất, sáp nhập;\nPhương án tổ chức lại đã được Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty thông qua;\n+ Giấy đề nghị.\n(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán\n+ Danh sách Tổng giám đốc (Giám đốc) và người hành nghề chứng khoán tại trụ sở chính và mạng lưới hoạt động; Bản thông tin cá nhân của Tổng giám đốc (Giám đốc), Giám đốc chi nhánh kèm theo Phiếu lý lịch tư pháp không quá 06 tháng tính đến thời điểm nộp hồ sơ đối với trường hợp thay đổi Tổng giám đốc (Giám đốc), Giám đốc chi nhánh;\n+ Thuyết minh cơ sở vật chất kèm theo hợp đồng thuê trụ sở, giấy tờ chứng minh quyền sở hữu trụ sở, quyền sử dụng trụ sở;\n...Khi sử dụng tài khoản định danh điện tử để giải quyết thủ tục hành chính thì thông tin về danh tính điện tử, thông tin tích hợp trên căn cước điện tử, tài khoản định danh điện tử có giá trị chứng minh, tương đương với việc cung cấp thông tin hoặc sử dụng, xuất trình giấy tờ, tài liệu có chứa thông tin đó trong thực hiện thủ tục hành chính.\n+ Bản gốc Giấy phép hoạt động kinh doanh chứng khoán của công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán được tổ chức lại.\n+ Dự thảo Điều lệ công ty sau chuyển đổi, hợp nhất;\n+ Báo cáo kết quả thực hiện phương án tổ chức lại, bao gồm Danh sách cổ đông, thành viên góp vốn của công ty sau tổ chức lại, kết quả thực hiện chuyển nhượng (nếu có), kết quả chào bán cổ phần (nếu có);\n+ Xác nhận về khoản vốn tăng thêm (nếu có) của ngân hàng nơi mở tài khoản phong toả hoặc báo cáo vốn chủ sở hữu được kiểm toán bởi tổ chức kiểm toán được chấp thuận;;Thành phần hồ sơ trong thủ tục hành chính này được thay thế hoặc cắt giảm trong trường hợp cơ quan tiếp nhận, giải quyết thủ tục hành chính khai thác được thông tin từ các cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, không chính xác thì cơ quan, người có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính yêu cầu cá nhân, tổ chức bổ sung thành phần hồ sơ để giải quyết thủ tục hành chính; đồng thời đề nghị cá nhân, tổ chức thực hiện cập nhật, điều chỉnh thông tin trong các cơ sở dữ liệu theo quy định của pháp luật.\n+ Giấy đề nghị.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 30 ngày - (1) Chấp thuận tổ chức lại: 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ.\n(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ và kết quả kiểm tra cơ sở vật chất (nếu có).\n(3) Điều chỉnh Giấy phép thành lập và hoạt động kinh doanh chứng khoán: 07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ.\n\nQua dịch vụ bưu chính: 30 ngày - (1) Chấp thuận tổ chức lại: 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ.\n(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ và kết quả kiểm tra cơ sở vật chất (nếu có).\n(3) Điều chỉnh Giấy phép thành lập và hoạt động kinh doanh chứng khoán: 07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ.\n\nTrực tiếp: 30 ngày - (1) Chấp thuận tổ chức lại: 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ.\n(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ và kết quả kiểm tra cơ sở vật chất (nếu có).\n(3) Điều chỉnh Giấy phép thành lập và hoạt động kinh doanh chứng khoán: 07 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ.\n",
-    "CĂN CỨ PHÁP LÝ": "Thông tư số 25/2022/TT-BTC ngày 28/4/2022 - 25\nThông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân - 64/2025/TT-BTC\nNghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu - 66.7/2025/NQ-CP\nNghị định 155/2020/NĐ-CP - 155/2020/NĐ-CP\nLuật 54/2019/QH14 - 54/2019/QH14\nNghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu - 66.7/2025/NQ-CP\nNghị quyết số 24/2026/NQ-CP ngày 29/4/2026 của Chính phủ cắt giảm, phân cấp, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh lĩnh vực quốc phòng, nội vụ, tài chính, xây dựng, ngoại giao, tư pháp, ngân hàng. - 24/2026/NQ-CP ",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán gửi hồ sơ tổ chức lại công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán đến Ủy ban Chứng khoán Nhà nước.\nBước 2: Ủy ban Chứng khoán Nhà nước (Bộ phận một cửa) tiếp nhận và kiểm tra danh mục hồ sơ. Trường hợp danh mục chưa đầy đủ, Ủy ban Chứng khoán Nhà nước hướng dẫn bổ sung hồ sơ theo quy định.\nBước 3: Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban Chứng khoán Nhà nước xem xét tính đầy đủ, hợp lệ của hồ sơ. Trường hợp hồ sơ cần sửa đổi, bổ sung, Ủy ban Chứng khoán Nhà nước có văn bản gửi công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán nêu rõ nội dung yêu cầu sửa đổi, bổ sung.\nBước 4: Trong thời hạn 60 ngày kể từ ngày Ủy ban Chứng khoán Nhà nước có văn bản yêu cầu sửa đổi, bổ sung hồ sơ, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hoàn thiện hồ sơ và gửi đến Ủy ban Chứng khoán Nhà nước.\nBước 5: Trong thời hạn 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ, Ủy ban Chứng khoán Nhà nước có văn bản chấp thuận; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do.\nBước 6: Công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán thực hiện tổ chức lại theo quy định của Luật Doanh nghiệp. Trường hợp tổ chức lại công ty có kết hợp với chào bán cổ phần riêng lẻ, chào bán cổ phần ra công chúng, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán phải tuân thủ các quy định về chào bán có liên quan.\nBước 7: Công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán sau sáp nhập thực hiện thủ tục điều chỉnh Giấy phép thành lập và hoạt động kinh doanh chứng khoán.\nBước 7: Công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hình thành sau hợp nhất, chuyển đổi hình thức pháp lý công ty phải thực hiện thủ tục đề nghị cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán.\nBước 8: Công ty chứng khoán công ty quản lý quỹ đầu tư chứng khoán gửi hồ sơ đề nghị cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán đến Ủy ban Chứng khoán Nhà nước.\nBước 9: Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban Chứng khoán Nhà nước xem xét tính đầy đủ, hợp lệ của hồ sơ. Trường hợp hồ sơ cần sửa đổi, bổ sung, Ủy ban Chứng khoán Nhà nước có văn bản gửi công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán nêu rõ nội dung yêu cầu sửa đổi, bổ sung.\nBước 10: Trong thời hạn 60 ngày kể từ ngày Ủy ban Chứng khoán Nhà nước có văn bản yêu cầu sửa đổi, bổ sung hồ sơ, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hoàn thiện và gửi đến Ủy ban Chứng khoán Nhà nước.\nBước 11: Trường hợp công ty sau hợp nhất, chuyển đổi có thay đổi địa điểm đặt trụ sở chính hoặc cần làm rõ vấn đề liên quan đến cơ sở vật chất của công ty mới hình thành sau tổ chức lại, Ủy ban Chứng khoán Nhà nước kiểm tra cơ sở vật chất.\nBước 12: Trong thời hạn 30 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ và kết quả kiểm tra cơ sở vật chất (nếu có), Ủy ban Chứng khoán Nhà nước cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán cho công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hợp nhất, sau chuyển đổi; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "(1) Chấp thuận tổ chức lại: Hợp đồng nguyên tắc đối với trường hợp hợp nhất, sáp nhập;\n(1) Chấp thuận tổ chức lại: Phương án tổ chức lại đã được Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty thông qua;\n(1) Chấp thuận tổ chức lại: + Giấy đề nghị.\n(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: + Danh sách Tổng giám đốc (Giám đốc) và người hành nghề chứng khoán tại trụ sở chính và mạng lưới hoạt động; Bản thông tin cá nhân của Tổng giám đốc (Giám đốc), Giám đốc chi nhánh kèm theo Phiếu lý lịch tư pháp không quá 06 tháng tính đến thời điểm nộp hồ sơ đối với trường hợp thay đổi Tổng giám đốc (Giám đốc), Giám đốc chi nhánh;\n(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: + Thuyết minh cơ sở vật chất kèm theo hợp đồng thuê trụ sở, giấy tờ chứng minh quyền sở hữu trụ sở, quyền sử dụng trụ sở;\n(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: + Báo cáo kết quả thực hiện phương án tổ chức lại, bao gồm Danh sách cổ đông, thành viên góp vốn của công ty sau tổ chức lại, kết quả thực hiện chuyển nhượng (nếu có), kết quả chào bán cổ phần (nếu có);\n(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: + Giấy đề nghị.\n(1) Chấp thuận tổ chức lại: Tài liệu chứng minh công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán hình thành sau tổ chức lại đáp ứng điều kiện nêu tại mục Yêu cầu, điều kiện thực hiện thủ tục hành chính.\n(1) Chấp thuận tổ chức lại: Biên bản họp, quyết định của Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty về việc tổ chức lại công ty\n(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: ...Khi sử dụng tài khoản định danh điện tử để giải quyết thủ tục hành chính thì thông tin về danh tính điện tử, thông tin tích hợp trên căn cước điện tử, tài khoản định danh điện tử có giá trị chứng minh, tương đương với việc cung cấp thông tin hoặc sử dụng, xuất trình giấy tờ, tài liệu có chứa thông tin đó trong thực hiện thủ tục hành chính.\n(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: + Bản gốc Giấy phép hoạt động kinh doanh chứng khoán của công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán được tổ chức lại.\n(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: + Dự thảo Điều lệ công ty sau chuyển đổi, hợp nhất;\n(2) Cấp lại Giấy phép thành lập và hoạt động kinh doanh chứng khoán: + Xác nhận về khoản vốn tăng thêm (nếu có) của ngân hàng nơi mở tài khoản phong toả hoặc báo cáo vốn chủ sở hữu được kiểm toán bởi tổ chức kiểm toán được chấp thuận;;Thành phần hồ sơ trong thủ tục hành chính này được thay thế hoặc cắt giảm trong trường hợp cơ quan tiếp nhận, giải quyết thủ tục hành chính khai thác được thông tin từ các cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, không chính xác thì cơ quan, người có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính yêu cầu cá nhân, tổ chức bổ sung thành phần hồ sơ để giải quyết thủ tục hành chính; đồng thời đề nghị cá nhân, tổ chức thực hiện cập nhật, điều chỉnh thông tin trong các cơ sở dữ liệu theo quy định của pháp luật.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 30 ngày\nQua dịch vụ bưu chính: 30 ngày\nTrực tiếp: 30 ngày",
+    "CĂN CỨ PHÁP LÝ": "Thông tư số 25/2022/TT-BTC ngày 28/4/2022 - 25\nThông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân - 64/2025/TT-BTC\nNghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu - 66.7/2025/NQ-CP\nNghị định 155/2020/NĐ-CP - 155/2020/NĐ-CP\nLuật 54/2019/QH14 - 54/2019/QH14\nNghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu - 66.7/2025/NQ-CP\nNghị quyết số 24/2026/NQ-CP ngày 29/4/2026 của Chính phủ cắt giảm, phân cấp, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh lĩnh vực quốc phòng, nội vụ, tài chính, xây dựng, ngoại giao, tư pháp, ngân hàng. - 24/2026/NQ-CP",
     "CƠ QUAN THỰC HIỆN": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "+ Việc tổ chức lại, phương án tổ chức lại được Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty thông qua.\n+ Công ty chứng khoán hình thành sau tổ chức lại phải đáp ứng các điều kiện:\n1) Điều kiện về vốn bao gồm: Việc góp vốn điều lệ vào công ty chứng khoán phải bằng Đồng Việt Nam; Vốn điều lệ tối thiểu cho các nghiệp vụ kinh doanh của công ty chứng khoán tại Việt Nam như sau: Môi giới chứng khoán: 25 tỷ đồng; Tự doanh chứng khoán: 50 tỷ đồng; Bảo lãnh phát hành chứng khoán: 165 tỷ đồng; Tư vấn đầu tư chứng khoán: 10 tỷ đồng. Trường hợp tổ chức đề nghị cấp phép cho nhiều nghiệp vụ kinh doanh, vốn điều lệ tối thiểu là tổng số vốn tương ứng với từng nghiệp vụ đề nghị cấp phép.\n2) Điều kiện về cổ đông, thành viên góp vốn: Cổ đông, thành viên góp vốn sở hữu từ 10% trở lên vốn điều lệ của 01 công ty chứng khoán và người có liên quan của cổ đông, thành viên góp vốn đó (nếu có) không sở hữu trên 5% vốn điều lệ của 01 công ty chứng khoán khác.\n3) Điều kiện về cơ sở vật chất bao gồm: Có trụ sở làm việc bảo đảm cho hoạt động kinh doanh chứng khoán; Có đủ cơ sở vật chất, kỹ thuật, trang bị, thiết bị văn phòng, hệ thống công nghệ phù hợp với quy trình nghiệp vụ về hoạt động kinh doanh chứng khoán.\n4) Điều kiện về nhân sự bao gồm: \nCó Tổng giám đốc (Giám đốc), tối thiểu 03 nhân viên có chứng chỉ hành nghề chứng khoán phù hợp cho mỗi nghiệp vụ kinh doanh chứng khoán đề nghị cấp phép và tối thiểu 01 nhân viên kiểm soát tuân thủ.\nTổng giám đốc (Giám đốc) phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 02 năm kinh nghiệm làm việc tại bộ phận nghiệp vụ của các tổ chức trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Có chứng chỉ hành nghề phân tích tài chính hoặc chứng chỉ hành nghề quản lý quỹ; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ.\nTrường hợp có Phó Tổng giám đốc (Phó Giám đốc) phụ trách nghiệp vụ thì phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 02 năm kinh nghiệm làm việc tại bộ phận nghiệp vụ của các tổ chức trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ và Có chứng chỉ hành nghề chứng khoán phù hợp với nghiệp vụ phụ trách.\n+ Công ty quản lý quỹ đầu tư chứng khoán hình thành sau tổ chức lại phải đáp ứng các điều kiện:\n1) Điều kiện về vốn bao gồm: Việc góp vốn điều lệ vào công ty chứng khoán phải bằng Đồng Việt Nam; Vốn điều lệ tối thiểu của công ty quản lý quỹ là 25 tỷ đồng.\n2) Điều kiện về cổ đông, thành viên góp vốn: Cổ đông, thành viên góp vốn sở hữu từ 10% trở lên vốn điều lệ của 01 công ty quản lý quỹ đầu tư chứng khoán và người có liên quan của cổ đông, thành viên góp vốn đó (nếu có) không sở hữu trên 5% vốn điều lệ của 01 công ty quản lý quỹ đầu tư chứng khoán khác.\n3) Điều kiện về cơ sở vật chất bao gồm: Có trụ sở làm việc bảo đảm cho hoạt động kinh doanh chứng khoán; Có đủ cơ sở vật chất, kỹ thuật, trang bị, thiết bị văn phòng, hệ thống công nghệ phù hợp với quy trình nghiệp vụ về hoạt động kinh doanh chứng khoán.\n4) Điều kiện về nhân sự bao gồm:\nCó Tổng giám đốc (Giám đốc), tối thiểu 05 nhân viên có chứng chỉ hành nghề quản lý quỹ và tối thiểu 01 nhân viên kiểm soát tuân thủ. Tổng giám đốc (Giám đốc) phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 04 năm kinh nghiệm tại bộ phận nghiệp vụ của các tổ chức hoạt động trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Có chứng chỉ hành nghề quản lý quỹ hoặc chứng chỉ tương đương theo quy định của Chính phủ; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ.\nTrường hợp có Phó Tổng giám đốc (Phó Giám đốc) phụ trách nghiệp vụ thì phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 04 năm kinh nghiệm tại bộ phận nghiệp vụ của các tổ chức hoạt động trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ và Có chứng chỉ hành nghề chứng khoán phù hợp với nghiệp vụ phụ trách.\n+ Trường hợp tổ chức lại để trở thành công ty trách nhiệm hữu hạn một thành viên, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán phải có tối thiểu 02 cổ đông sáng lập, thành viên góp vốn là tổ chức.\nTrường hợp công ty chứng khoán được tổ chức dưới hình thức công ty trách nhiệm hữu hạn một thành viên, chủ sở hữu phải là doanh nghiệp bảo hiểm hoặc ngân hàng thương mại hoặc tổ chức nước ngoài đáp ứng quy định: Được cấp phép và có thời gian hoạt động liên tục trong lĩnh vực ngân hàng, chứng khoán, bảo hiểm trong thời hạn 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp; Cơ quan cấp phép của nước nguyên xứ và Ủy ban Chứng khoán Nhà nước đã ký kết thỏa thuận hợp tác song phương hoặc đa phương về trao đổi thông tin, hợp tác quản lý, thanh tra, giám sát hoạt động về chứng khoán và thị trường chứng khoán; Hoạt động kinh doanh có lãi trong 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp và báo cáo tài chính năm gần nhất phải được kiểm toán với ý kiến chấp nhận toàn phần.\nTrường hợp công ty quản lý quỹ đầu tư chứng khoán được tổ chức dưới hình thức công ty trách nhiệm hữu hạn một thành viên, chủ sở hữu phải là ngân hàng thương mại hoặc doanh nghiệp bảo hiểm hoặc công ty chứng khoán hoặc tổ chức nước ngoài đáp ứng quy định: Được cấp phép và có thời gian hoạt động liên tục trong lĩnh vực ngân hàng, chứng khoán, bảo hiểm trong thời hạn 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp; Cơ quan cấp phép của nước nguyên xứ và Ủy ban Chứng khoán Nhà nước đã ký kết thỏa thuận hợp tác song phương hoặc đa phương về trao đổi thông tin, hợp tác quản lý, thanh tra, giám sát hoạt động về chứng khoán và thị trường chứng khoán; Hoạt động kinh doanh có lãi trong 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp và báo cáo tài chính năm gần nhất phải được kiểm toán với ý kiến chấp nhận toàn phần.\n+ Việc tổ chức lại phải tuân thủ pháp luật khác có liên quan.\n",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "+ Việc tổ chức lại, phương án tổ chức lại được Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty thông qua.\n+ Công ty chứng khoán hình thành sau tổ chức lại phải đáp ứng các điều kiện:\n1) Điều kiện về vốn bao gồm: Việc góp vốn điều lệ vào công ty chứng khoán phải bằng Đồng Việt Nam; Vốn điều lệ tối thiểu cho các nghiệp vụ kinh doanh của công ty chứng khoán tại Việt Nam như sau: Môi giới chứng khoán: 25 tỷ đồng; Tự doanh chứng khoán: 50 tỷ đồng; Bảo lãnh phát hành chứng khoán: 165 tỷ đồng; Tư vấn đầu tư chứng khoán: 10 tỷ đồng. Trường hợp tổ chức đề nghị cấp phép cho nhiều nghiệp vụ kinh doanh, vốn điều lệ tối thiểu là tổng số vốn tương ứng với từng nghiệp vụ đề nghị cấp phép.\n2) Điều kiện về cổ đông, thành viên góp vốn: Cổ đông, thành viên góp vốn sở hữu từ 10% trở lên vốn điều lệ của 01 công ty chứng khoán và người có liên quan của cổ đông, thành viên góp vốn đó (nếu có) không sở hữu trên 5% vốn điều lệ của 01 công ty chứng khoán khác.\n3) Điều kiện về cơ sở vật chất bao gồm: Có trụ sở làm việc bảo đảm cho hoạt động kinh doanh chứng khoán; Có đủ cơ sở vật chất, kỹ thuật, trang bị, thiết bị văn phòng, hệ thống công nghệ phù hợp với quy trình nghiệp vụ về hoạt động kinh doanh chứng khoán.\n4) Điều kiện về nhân sự bao gồm: \nCó Tổng giám đốc (Giám đốc), tối thiểu 03 nhân viên có chứng chỉ hành nghề chứng khoán phù hợp cho mỗi nghiệp vụ kinh doanh chứng khoán đề nghị cấp phép và tối thiểu 01 nhân viên kiểm soát tuân thủ.\nTổng giám đốc (Giám đốc) phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 02 năm kinh nghiệm làm việc tại bộ phận nghiệp vụ của các tổ chức trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Có chứng chỉ hành nghề phân tích tài chính hoặc chứng chỉ hành nghề quản lý quỹ; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ.\nTrường hợp có Phó Tổng giám đốc (Phó Giám đốc) phụ trách nghiệp vụ thì phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 02 năm kinh nghiệm làm việc tại bộ phận nghiệp vụ của các tổ chức trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ và Có chứng chỉ hành nghề chứng khoán phù hợp với nghiệp vụ phụ trách.\n+ Công ty quản lý quỹ đầu tư chứng khoán hình thành sau tổ chức lại phải đáp ứng các điều kiện:\n1) Điều kiện về vốn bao gồm: Việc góp vốn điều lệ vào công ty chứng khoán phải bằng Đồng Việt Nam; Vốn điều lệ tối thiểu của công ty quản lý quỹ là 25 tỷ đồng.\n2) Điều kiện về cổ đông, thành viên góp vốn: Cổ đông, thành viên góp vốn sở hữu từ 10% trở lên vốn điều lệ của 01 công ty quản lý quỹ đầu tư chứng khoán và người có liên quan của cổ đông, thành viên góp vốn đó (nếu có) không sở hữu trên 5% vốn điều lệ của 01 công ty quản lý quỹ đầu tư chứng khoán khác.\n3) Điều kiện về cơ sở vật chất bao gồm: Có trụ sở làm việc bảo đảm cho hoạt động kinh doanh chứng khoán; Có đủ cơ sở vật chất, kỹ thuật, trang bị, thiết bị văn phòng, hệ thống công nghệ phù hợp với quy trình nghiệp vụ về hoạt động kinh doanh chứng khoán.\n4) Điều kiện về nhân sự bao gồm:\nCó Tổng giám đốc (Giám đốc), tối thiểu 05 nhân viên có chứng chỉ hành nghề quản lý quỹ và tối thiểu 01 nhân viên kiểm soát tuân thủ. Tổng giám đốc (Giám đốc) phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 04 năm kinh nghiệm tại bộ phận nghiệp vụ của các tổ chức hoạt động trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Có chứng chỉ hành nghề quản lý quỹ hoặc chứng chỉ tương đương theo quy định của Chính phủ; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ.\nTrường hợp có Phó Tổng giám đốc (Phó Giám đốc) phụ trách nghiệp vụ thì phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 04 năm kinh nghiệm tại bộ phận nghiệp vụ của các tổ chức hoạt động trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ và Có chứng chỉ hành nghề chứng khoán phù hợp với nghiệp vụ phụ trách.\n+ Trường hợp tổ chức lại để trở thành công ty trách nhiệm hữu hạn một thành viên, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán phải có tối thiểu 02 cổ đông sáng lập, thành viên góp vốn là tổ chức.\nTrường hợp công ty chứng khoán được tổ chức dưới hình thức công ty trách nhiệm hữu hạn một thành viên, chủ sở hữu phải là doanh nghiệp bảo hiểm hoặc ngân hàng thương mại hoặc tổ chức nước ngoài đáp ứng quy định: Được cấp phép và có thời gian hoạt động liên tục trong lĩnh vực ngân hàng, chứng khoán, bảo hiểm trong thời hạn 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp; Cơ quan cấp phép của nước nguyên xứ và Ủy ban Chứng khoán Nhà nước đã ký kết thỏa thuận hợp tác song phương hoặc đa phương về trao đổi thông tin, hợp tác quản lý, thanh tra, giám sát hoạt động về chứng khoán và thị trường chứng khoán; Hoạt động kinh doanh có lãi trong 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp và báo cáo tài chính năm gần nhất phải được kiểm toán với ý kiến chấp nhận toàn phần.\nTrường hợp công ty quản lý quỹ đầu tư chứng khoán được tổ chức dưới hình thức công ty trách nhiệm hữu hạn một thành viên, chủ sở hữu phải là ngân hàng thương mại hoặc doanh nghiệp bảo hiểm hoặc công ty chứng khoán hoặc tổ chức nước ngoài đáp ứng quy định: Được cấp phép và có thời gian hoạt động liên tục trong lĩnh vực ngân hàng, chứng khoán, bảo hiểm trong thời hạn 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp; Cơ quan cấp phép của nước nguyên xứ và Ủy ban Chứng khoán Nhà nước đã ký kết thỏa thuận hợp tác song phương hoặc đa phương về trao đổi thông tin, hợp tác quản lý, thanh tra, giám sát hoạt động về chứng khoán và thị trường chứng khoán; Hoạt động kinh doanh có lãi trong 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp và báo cáo tài chính năm gần nhất phải được kiểm toán với ý kiến chấp nhận toàn phần.\n+ Việc tổ chức lại phải tuân thủ pháp luật khác có liên quan.",
     "KẾT QUẢ XỬ LÝ": "+ Văn bản từ chối (nêu rõ lý do). - KQ.G12.001213\nQuyết định chấp thuận tổ chức lại; hoặc văn bản từ chối và nêu rõ lý do. - KQ.G12.000153\nGiấy phép thành lập và hoạt động kinh doanh chứng khoán - KQ.G12.000147",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "+ Việc tổ chức lại, phương án tổ chức lại được Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty thông qua.\n+ Công ty chứng khoán hình thành sau tổ chức lại phải đáp ứng các điều kiện:\n1) Điều kiện về vốn bao gồm: Việc góp vốn điều lệ vào công ty chứng khoán phải bằng Đồng Việt Nam; Vốn điều lệ tối thiểu cho các nghiệp vụ kinh doanh của công ty chứng khoán tại Việt Nam như sau: Môi giới chứng khoán: 25 tỷ đồng; Tự doanh chứng khoán: 50 tỷ đồng; Bảo lãnh phát hành chứng khoán: 165 tỷ đồng; Tư vấn đầu tư chứng khoán: 10 tỷ đồng. Trường hợp tổ chức đề nghị cấp phép cho nhiều nghiệp vụ kinh doanh, vốn điều lệ tối thiểu là tổng số vốn tương ứng với từng nghiệp vụ đề nghị cấp phép.\n2) Điều kiện về cổ đông, thành viên góp vốn: Cổ đông, thành viên góp vốn sở hữu từ 10% trở lên vốn điều lệ của 01 công ty chứng khoán và người có liên quan của cổ đông, thành viên góp vốn đó (nếu có) không sở hữu trên 5% vốn điều lệ của 01 công ty chứng khoán khác.\n3) Điều kiện về cơ sở vật chất bao gồm: Có trụ sở làm việc bảo đảm cho hoạt động kinh doanh chứng khoán; Có đủ cơ sở vật chất, kỹ thuật, trang bị, thiết bị văn phòng, hệ thống công nghệ phù hợp với quy trình nghiệp vụ về hoạt động kinh doanh chứng khoán.\n4) Điều kiện về nhân sự bao gồm: \nCó Tổng giám đốc (Giám đốc), tối thiểu 03 nhân viên có chứng chỉ hành nghề chứng khoán phù hợp cho mỗi nghiệp vụ kinh doanh chứng khoán đề nghị cấp phép và tối thiểu 01 nhân viên kiểm soát tuân thủ.\nTổng giám đốc (Giám đốc) phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 02 năm kinh nghiệm làm việc tại bộ phận nghiệp vụ của các tổ chức trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Có chứng chỉ hành nghề phân tích tài chính hoặc chứng chỉ hành nghề quản lý quỹ; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ.\nTrường hợp có Phó Tổng giám đốc (Phó Giám đốc) phụ trách nghiệp vụ thì phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 02 năm kinh nghiệm làm việc tại bộ phận nghiệp vụ của các tổ chức trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ và Có chứng chỉ hành nghề chứng khoán phù hợp với nghiệp vụ phụ trách.\n+ Công ty quản lý quỹ đầu tư chứng khoán hình thành sau tổ chức lại phải đáp ứng các điều kiện:\n1) Điều kiện về vốn bao gồm: Việc góp vốn điều lệ vào công ty chứng khoán phải bằng Đồng Việt Nam; Vốn điều lệ tối thiểu của công ty quản lý quỹ là 25 tỷ đồng.\n2) Điều kiện về cổ đông, thành viên góp vốn: Cổ đông, thành viên góp vốn sở hữu từ 10% trở lên vốn điều lệ của 01 công ty quản lý quỹ đầu tư chứng khoán và người có liên quan của cổ đông, thành viên góp vốn đó (nếu có) không sở hữu trên 5% vốn điều lệ của 01 công ty quản lý quỹ đầu tư chứng khoán khác.\n3) Điều kiện về cơ sở vật chất bao gồm: Có trụ sở làm việc bảo đảm cho hoạt động kinh doanh chứng khoán; Có đủ cơ sở vật chất, kỹ thuật, trang bị, thiết bị văn phòng, hệ thống công nghệ phù hợp với quy trình nghiệp vụ về hoạt động kinh doanh chứng khoán.\n4) Điều kiện về nhân sự bao gồm:\nCó Tổng giám đốc (Giám đốc), tối thiểu 05 nhân viên có chứng chỉ hành nghề quản lý quỹ và tối thiểu 01 nhân viên kiểm soát tuân thủ. Tổng giám đốc (Giám đốc) phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 04 năm kinh nghiệm tại bộ phận nghiệp vụ của các tổ chức hoạt động trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Có chứng chỉ hành nghề quản lý quỹ hoặc chứng chỉ tương đương theo quy định của Chính phủ; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ.\nTrường hợp có Phó Tổng giám đốc (Phó Giám đốc) phụ trách nghiệp vụ thì phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 04 năm kinh nghiệm tại bộ phận nghiệp vụ của các tổ chức hoạt động trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ và Có chứng chỉ hành nghề chứng khoán phù hợp với nghiệp vụ phụ trách.\n+ Trường hợp tổ chức lại để trở thành công ty trách nhiệm hữu hạn một thành viên, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán phải có tối thiểu 02 cổ đông sáng lập, thành viên góp vốn là tổ chức.\nTrường hợp công ty chứng khoán được tổ chức dưới hình thức công ty trách nhiệm hữu hạn một thành viên, chủ sở hữu phải là doanh nghiệp bảo hiểm hoặc ngân hàng thương mại hoặc tổ chức nước ngoài đáp ứng quy định: Được cấp phép và có thời gian hoạt động liên tục trong lĩnh vực ngân hàng, chứng khoán, bảo hiểm trong thời hạn 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp; Cơ quan cấp phép của nước nguyên xứ và Ủy ban Chứng khoán Nhà nước đã ký kết thỏa thuận hợp tác song phương hoặc đa phương về trao đổi thông tin, hợp tác quản lý, thanh tra, giám sát hoạt động về chứng khoán và thị trường chứng khoán; Hoạt động kinh doanh có lãi trong 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp và báo cáo tài chính năm gần nhất phải được kiểm toán với ý kiến chấp nhận toàn phần.\nTrường hợp công ty quản lý quỹ đầu tư chứng khoán được tổ chức dưới hình thức công ty trách nhiệm hữu hạn một thành viên, chủ sở hữu phải là ngân hàng thương mại hoặc doanh nghiệp bảo hiểm hoặc công ty chứng khoán hoặc tổ chức nước ngoài đáp ứng quy định: Được cấp phép và có thời gian hoạt động liên tục trong lĩnh vực ngân hàng, chứng khoán, bảo hiểm trong thời hạn 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp; Cơ quan cấp phép của nước nguyên xứ và Ủy ban Chứng khoán Nhà nước đã ký kết thỏa thuận hợp tác song phương hoặc đa phương về trao đổi thông tin, hợp tác quản lý, thanh tra, giám sát hoạt động về chứng khoán và thị trường chứng khoán; Hoạt động kinh doanh có lãi trong 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp và báo cáo tài chính năm gần nhất phải được kiểm toán với ý kiến chấp nhận toàn phần.\n+ Việc tổ chức lại phải tuân thủ pháp luật khác có liên quan.\n"
+    "MÔ TẢ": "+ Việc tổ chức lại, phương án tổ chức lại được Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty thông qua.\n+ Công ty chứng khoán hình thành sau tổ chức lại phải đáp ứng các điều kiện:\n1) Điều kiện về vốn bao gồm: Việc góp vốn điều lệ vào công ty chứng khoán phải bằng Đồng Việt Nam; Vốn điều lệ tối thiểu cho các nghiệp vụ kinh doanh của công ty chứng khoán tại Việt Nam như sau: Môi giới chứng khoán: 25 tỷ đồng; Tự doanh chứng khoán: 50 tỷ đồng; Bảo lãnh phát hành chứng khoán: 165 tỷ đồng; Tư vấn đầu tư chứng khoán: 10 tỷ đồng. Trường hợp tổ chức đề nghị cấp phép cho nhiều nghiệp vụ kinh doanh, vốn điều lệ tối thiểu là tổng số vốn tương ứng với từng nghiệp vụ đề nghị cấp phép.\n2) Điều kiện về cổ đông, thành viên góp vốn: Cổ đông, thành viên góp vốn sở hữu từ 10% trở lên vốn điều lệ của 01 công ty chứng khoán và người có liên quan của cổ đông, thành viên góp vốn đó (nếu có) không sở hữu trên 5% vốn điều lệ của 01 công ty chứng khoán khác.\n3) Điều kiện về cơ sở vật chất bao gồm: Có trụ sở làm việc bảo đảm cho hoạt động kinh doanh chứng khoán; Có đủ cơ sở vật chất, kỹ thuật, trang bị, thiết bị văn phòng, hệ thống công nghệ phù hợp với quy trình nghiệp vụ về hoạt động kinh doanh chứng khoán.\n4) Điều kiện về nhân sự bao gồm: \nCó Tổng giám đốc (Giám đốc), tối thiểu 03 nhân viên có chứng chỉ hành nghề chứng khoán phù hợp cho mỗi nghiệp vụ kinh doanh chứng khoán đề nghị cấp phép và tối thiểu 01 nhân viên kiểm soát tuân thủ.\nTổng giám đốc (Giám đốc) phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 02 năm kinh nghiệm làm việc tại bộ phận nghiệp vụ của các tổ chức trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Có chứng chỉ hành nghề phân tích tài chính hoặc chứng chỉ hành nghề quản lý quỹ; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ.\nTrường hợp có Phó Tổng giám đốc (Phó Giám đốc) phụ trách nghiệp vụ thì phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 02 năm kinh nghiệm làm việc tại bộ phận nghiệp vụ của các tổ chức trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ và Có chứng chỉ hành nghề chứng khoán phù hợp với nghiệp vụ phụ trách.\n+ Công ty quản lý quỹ đầu tư chứng khoán hình thành sau tổ chức lại phải đáp ứng các điều kiện:\n1) Điều kiện về vốn bao gồm: Việc góp vốn điều lệ vào công ty chứng khoán phải bằng Đồng Việt Nam; Vốn điều lệ tối thiểu của công ty quản lý quỹ là 25 tỷ đồng.\n2) Điều kiện về cổ đông, thành viên góp vốn: Cổ đông, thành viên góp vốn sở hữu từ 10% trở lên vốn điều lệ của 01 công ty quản lý quỹ đầu tư chứng khoán và người có liên quan của cổ đông, thành viên góp vốn đó (nếu có) không sở hữu trên 5% vốn điều lệ của 01 công ty quản lý quỹ đầu tư chứng khoán khác.\n3) Điều kiện về cơ sở vật chất bao gồm: Có trụ sở làm việc bảo đảm cho hoạt động kinh doanh chứng khoán; Có đủ cơ sở vật chất, kỹ thuật, trang bị, thiết bị văn phòng, hệ thống công nghệ phù hợp với quy trình nghiệp vụ về hoạt động kinh doanh chứng khoán.\n4) Điều kiện về nhân sự bao gồm:\nCó Tổng giám đốc (Giám đốc), tối thiểu 05 nhân viên có chứng chỉ hành nghề quản lý quỹ và tối thiểu 01 nhân viên kiểm soát tuân thủ. Tổng giám đốc (Giám đốc) phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 04 năm kinh nghiệm tại bộ phận nghiệp vụ của các tổ chức hoạt động trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Có chứng chỉ hành nghề quản lý quỹ hoặc chứng chỉ tương đương theo quy định của Chính phủ; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ.\nTrường hợp có Phó Tổng giám đốc (Phó Giám đốc) phụ trách nghiệp vụ thì phải đáp ứng các tiêu chuẩn sau đây: Không thuộc trường hợp đang bị truy cứu trách nhiệm hình sự hoặc chấp hành án phạt tù hoặc bị cấm hành nghề chứng khoán theo quy định của pháp luật; Có tối thiểu 04 năm kinh nghiệm tại bộ phận nghiệp vụ của các tổ chức hoạt động trong lĩnh vực tài chính, chứng khoán, ngân hàng, bảo hiểm hoặc tại bộ phận tài chính, kế toán, đầu tư trong các doanh nghiệp khác; Không bị xử phạt vi phạm hành chính trong lĩnh vực chứng khoán và thị trường chứng khoán trong thời hạn 06 tháng gần nhất tính đến thời điểm nộp hồ sơ và Có chứng chỉ hành nghề chứng khoán phù hợp với nghiệp vụ phụ trách.\n+ Trường hợp tổ chức lại để trở thành công ty trách nhiệm hữu hạn một thành viên, công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán phải có tối thiểu 02 cổ đông sáng lập, thành viên góp vốn là tổ chức.\nTrường hợp công ty chứng khoán được tổ chức dưới hình thức công ty trách nhiệm hữu hạn một thành viên, chủ sở hữu phải là doanh nghiệp bảo hiểm hoặc ngân hàng thương mại hoặc tổ chức nước ngoài đáp ứng quy định: Được cấp phép và có thời gian hoạt động liên tục trong lĩnh vực ngân hàng, chứng khoán, bảo hiểm trong thời hạn 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp; Cơ quan cấp phép của nước nguyên xứ và Ủy ban Chứng khoán Nhà nước đã ký kết thỏa thuận hợp tác song phương hoặc đa phương về trao đổi thông tin, hợp tác quản lý, thanh tra, giám sát hoạt động về chứng khoán và thị trường chứng khoán; Hoạt động kinh doanh có lãi trong 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp và báo cáo tài chính năm gần nhất phải được kiểm toán với ý kiến chấp nhận toàn phần.\nTrường hợp công ty quản lý quỹ đầu tư chứng khoán được tổ chức dưới hình thức công ty trách nhiệm hữu hạn một thành viên, chủ sở hữu phải là ngân hàng thương mại hoặc doanh nghiệp bảo hiểm hoặc công ty chứng khoán hoặc tổ chức nước ngoài đáp ứng quy định: Được cấp phép và có thời gian hoạt động liên tục trong lĩnh vực ngân hàng, chứng khoán, bảo hiểm trong thời hạn 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp; Cơ quan cấp phép của nước nguyên xứ và Ủy ban Chứng khoán Nhà nước đã ký kết thỏa thuận hợp tác song phương hoặc đa phương về trao đổi thông tin, hợp tác quản lý, thanh tra, giám sát hoạt động về chứng khoán và thị trường chứng khoán; Hoạt động kinh doanh có lãi trong 02 năm liền trước năm tham gia góp vốn thành lập, mua cổ phần, phần vốn góp và báo cáo tài chính năm gần nhất phải được kiểm toán với ý kiến chấp nhận toàn phần.\n+ Việc tổ chức lại phải tuân thủ pháp luật khác có liên quan."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Chứng khoán",
       "slug": "chung-khoan"
@@ -533,6 +400,6 @@
         "slug": "uy-ban-chung-khoan-nha-nuoc-bo-tai-chinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

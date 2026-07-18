@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-2b17-7428-8fea-e4094684d06b",
   "procedure_code": "1.014350",
   "title": "Hỗ trợ thân nhân của người lao động bị chết, mất tích trong thời gian làm việc ở nước ngoài.",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-2b17-7428-8fea-e4094684d06b",
     "source_file": "chi-tiet-thu-tuc-1.014350.pdf",
     "source_path": "procedures/viec-lam/1.014350/chi-tiet-thu-tuc-1.014350.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:13.162494+00:00",
-    "source_updated_at": "2026-05-27T02:45:34.139Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:33.050626+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "33b87fdebfe151fc1b3aac5154fa897159526cc85b44b9f747065e0ffb44e3a6"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:13.162494+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "530/QĐ-BNV",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Quản lý lao động ngoài nước",
   "target_users": [
@@ -37,10 +33,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Quỹ Hỗ trợ việc làm ngoài nước",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Quỹ Hỗ trợ việc làm ngoài nước"
   },
   "steps": [
     {
@@ -48,77 +41,50 @@
       "title": "Bước 1",
       "description": "- Bước 1. Đại diện thân nhân của người lao động (bố, mẹ, vợ, chồng, con, anh/chị/em ruột) hoặc người được thân nhân của người lao động uỷ quyền hoặc người đại diện theo pháp luật của thân nhân của người lao động hoặc doanh nghiệp, tổ chức, cá nhân đưa đi gửi 01 bộ hồ sơ theo một trong các cách thức đến Quỹ Hỗ trợ việc làm ngoài nước.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 2,
       "title": "Bước 2",
       "description": "- Bước 2. Trong thời gian 08 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định, Quỹ Hỗ trợ việc làm ngoài nước kiểm tra, đối chiếu hồ sơ và thực hiện hỗ trợ cho thân nhân người lao động. Trường hợp không hỗ trợ phải trả lời bằng văn bản và nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "- Danh sách người lao động đề nghị hỗ trợ do tổ chức, cá nhân đưa đi lập (Mẫu theo Phụ lục II ban hành kèm theo Quyết định số 34/2025/QĐ-TTg) đối với trường hợp hồ sơ nộp thông qua doanh nghiệp, tổ chức, cá nhân đưa đi ;",
-        "code": "G09-KQ003172",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d75b4-5660-716e-af99-c3007df1e754",
-            "name": "Phụ lục II.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục II.docx",
+        "source_page": 2
       },
       {
         "name": "- Giấy đề nghị về việc hỗ trợ rủi ro trong thời gian làm việc ở nước ngoài (Mẫu theo Phụ lục I ban hành kèm theo Quyết định số 34/2025/QĐ-TTg)  ;",
-        "code": "G09-KQ003171",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d75b4-8faa-706b-812a-3a12bc2a5a29",
-            "name": "Phụ lục I.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục I.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "- Văn bản uỷ quyền (ghi rõ nội dung ủy quyền) hoặc giấy tờ chứng minh quyền đại diện theo pháp luật theo quy định trong trường hợp người được thân nhân của người lao động uỷ quyền hoặc người đại diện theo pháp luật của thân nhân của người lao động nộp hồ sơ;",
-        "code": "G09-KQ003175",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Giấy tờ chứng minh quan hệ thân nhân với người lao động ;",
-        "code": "G09-KQ003174",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Bản sao giấy chứng tử của người lao động hoặc văn bản của cơ quan có thẩm quyền của Việt Nam về việc tuyên bố người lao động đã chết hoặc mất tích trong thời gian làm việc ở nước ngoài theo hợp đồng ;",
-        "code": "G09-KQ003173",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -127,87 +93,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "8 ngày làm việc",
-      "processing_time_value": 8,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Trực tiếp, trực tuyến hoặc qua dịch vụ bưu chính. 08 ngày làm việc (kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ).",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "8 ngày làm việc",
-      "processing_time_value": 8,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Trực tiếp, trực tuyến hoặc qua dịch vụ bưu chính. 08 ngày làm việc (kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ).",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "8 ngày làm việc",
-      "processing_time_value": 8,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Trực tiếp, trực tuyến hoặc qua dịch vụ bưu chính. 08 ngày làm việc (kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ).",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -215,39 +146,32 @@
     {
       "title": "VỀ QUỸ HỖ TRỢ VIỆC LÀM NGOÀI NƯỚC",
       "document_number": "34/2025/QĐ-TTg",
-      "id": "019d2bb3-5d84-71c5-b678-8d27f0a334e0",
-      "source_page": null
+      "source_page": 3
     }
   ],
-  "conditions": "Người lao động bị chết, mất tích trong thời gian làm việc ở nước ngoài. ",
+  "conditions": "Người lao động bị chết, mất tích trong thời gian làm việc ở nước ngoài.",
   "results": [
     {
       "title": "Quyết định hỗ trợ..",
       "code": "KQ.G09.000481",
-      "id": "019d2bb2-1c4d-7725-9d9d-3a55ca234c15",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "- Bước 1. Đại diện thân nhân của người lao động (bố, mẹ, vợ, chồng, con, anh/chị/em ruột) hoặc người được thân nhân của người lao động uỷ quyền hoặc người đại diện theo pháp luật của thân nhân của người lao động hoặc doanh nghiệp, tổ chức, cá nhân đưa đi gửi 01 bộ hồ sơ theo một trong các cách thức đến Quỹ Hỗ trợ việc làm ngoài nước.\n- Bước 2. Trong thời gian 08 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định, Quỹ Hỗ trợ việc làm ngoài nước kiểm tra, đối chiếu hồ sơ và thực hiện hỗ trợ cho thân nhân người lao động. Trường hợp không hỗ trợ phải trả lời bằng văn bản và nêu rõ lý do.",
-    "THÀNH PHẦN HỒ SƠ": "\n- Danh sách người lao động đề nghị hỗ trợ do tổ chức, cá nhân đưa đi lập (Mẫu theo Phụ lục II ban hành kèm theo Quyết định số 34/2025/QĐ-TTg) đối với trường hợp hồ sơ nộp thông qua doanh nghiệp, tổ chức, cá nhân đưa đi ;\n- Văn bản uỷ quyền (ghi rõ nội dung ủy quyền) hoặc giấy tờ chứng minh quyền đại diện theo pháp luật theo quy định trong trường hợp người được thân nhân của người lao động uỷ quyền hoặc người đại diện theo pháp luật của thân nhân của người lao động nộp hồ sơ;\n- Giấy tờ chứng minh quan hệ thân nhân với người lao động ;\n- Giấy đề nghị về việc hỗ trợ rủi ro trong thời gian làm việc ở nước ngoài (Mẫu theo Phụ lục I ban hành kèm theo Quyết định số 34/2025/QĐ-TTg)  ;\n- Bản sao giấy chứng tử của người lao động hoặc văn bản của cơ quan có thẩm quyền của Việt Nam về việc tuyên bố người lao động đã chết hoặc mất tích trong thời gian làm việc ở nước ngoài theo hợp đồng ;",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 8 ngày làm việc - Trực tiếp, trực tuyến hoặc qua dịch vụ bưu chính. 08 ngày làm việc (kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ).\nQua dịch vụ bưu chính: 8 ngày làm việc - Trực tiếp, trực tuyến hoặc qua dịch vụ bưu chính. 08 ngày làm việc (kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ).\nTrực tiếp: 8 ngày làm việc - Trực tiếp, trực tuyến hoặc qua dịch vụ bưu chính. 08 ngày làm việc (kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ).",
+    "THÀNH PHẦN HỒ SƠ": "- Danh sách người lao động đề nghị hỗ trợ do tổ chức, cá nhân đưa đi lập (Mẫu theo Phụ lục II ban hành kèm theo Quyết định số 34/2025/QĐ-TTg) đối với trường hợp hồ sơ nộp thông qua doanh nghiệp, tổ chức, cá nhân đưa đi ;\n- Giấy đề nghị về việc hỗ trợ rủi ro trong thời gian làm việc ở nước ngoài (Mẫu theo Phụ lục I ban hành kèm theo Quyết định số 34/2025/QĐ-TTg)  ;\n- Văn bản uỷ quyền (ghi rõ nội dung ủy quyền) hoặc giấy tờ chứng minh quyền đại diện theo pháp luật theo quy định trong trường hợp người được thân nhân của người lao động uỷ quyền hoặc người đại diện theo pháp luật của thân nhân của người lao động nộp hồ sơ;\n- Giấy tờ chứng minh quan hệ thân nhân với người lao động ;\n- Bản sao giấy chứng tử của người lao động hoặc văn bản của cơ quan có thẩm quyền của Việt Nam về việc tuyên bố người lao động đã chết hoặc mất tích trong thời gian làm việc ở nước ngoài theo hợp đồng ;",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 8 ngày làm việc\nQua dịch vụ bưu chính: 8 ngày làm việc\nTrực tiếp: 8 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "VỀ QUỸ HỖ TRỢ VIỆC LÀM NGOÀI NƯỚC - 34/2025/QĐ-TTg",
     "CƠ QUAN THỰC HIỆN": "Quỹ Hỗ trợ việc làm ngoài nước",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Người lao động bị chết, mất tích trong thời gian làm việc ở nước ngoài. ",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Người lao động bị chết, mất tích trong thời gian làm việc ở nước ngoài.",
     "KẾT QUẢ XỬ LÝ": "Quyết định hỗ trợ.. - KQ.G09.000481",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "Người lao động bị chết, mất tích trong thời gian làm việc ở nước ngoài. "
+    "MÔ TẢ": "Người lao động bị chết, mất tích trong thời gian làm việc ở nước ngoài."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Quản lý lao động ngoài nước",
-      "slug": "quan-ly-lao-dong-ngoai-nuoc"
+      "slug": "quan-ly-lao-ong-ngoai-nuoc"
     },
     "implementation_levels": [
       {
@@ -275,6 +199,6 @@
         "slug": "quy-ho-tro-viec-lam-ngoai-nuoc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

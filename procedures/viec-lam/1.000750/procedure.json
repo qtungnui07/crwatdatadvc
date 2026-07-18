@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf8-e76a-7517-beb6-d335bbba9174",
   "procedure_code": "1.000750",
   "title": "Thủ tục đánh giá, nghiệm thu nhiệm vụ cấp quốc gia sử dụng ngân sách nhà nước",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-e76a-7517-beb6-d335bbba9174",
     "source_file": "chi-tiet-thu-tuc-1.000750.pdf",
     "source_path": "procedures/viec-lam/1.000750/chi-tiet-thu-tuc-1.000750.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:21:58.768572+00:00",
-    "source_updated_at": "2026-04-24T01:57:19.115Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:48.907478+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "339d1027e3a152de67c2b2801b9f883bc1e56338a41e11ee3c1f7222b57fd830"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:58.768572+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2687/QĐ-BKHCN",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hoạt động khoa học và công nghệ",
   "target_users": [
@@ -35,18 +31,29 @@
   ],
   "agency": {
     "competent_agency": "Bộ Khoa học và Công nghệ",
-    "executing_agency": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Tổ chức chủ trì thực hiện nhiệm vụ nộp Hồ sơ đánh giá, nghiệm thu cho đơn vị quản lý nhiệm vụ.\nBước 2: Đơn vị quản lý nhiệm vụ xem xét tính hợp lệ của hồ sơ trong thời hạn 03 ngày làm việc. Trường hợp hồ sơ chưa hợp lệ theo quy định thì Tổ chức chủ trì phải bổ sung trong thời hạn 05 ngày làm việc kể từ ngày nhận được thông báo của đơn vị quản lý nhiệm vụ.\nBước 3: Thủ trưởng Bộ chủ trì nhiệm vụ quyết định thành lập Hội đồng và tổ chuyên gia tư vấn đánh giá, nghiệm thu kết quả thực hiện nhiệm vụ cấp quốc gia do trong thời hạn 15 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ.\n",
+      "description": "Bước 1: Tổ chức chủ trì thực hiện nhiệm vụ nộp Hồ sơ đánh giá, nghiệm thu cho đơn vị quản lý nhiệm vụ.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Đơn vị quản lý nhiệm vụ xem xét tính hợp lệ của hồ sơ trong thời hạn 03 ngày làm việc. Trường hợp hồ sơ chưa hợp lệ theo quy định thì Tổ chức chủ trì phải bổ sung trong thời hạn 05 ngày làm việc kể từ ngày nhận được thông báo của đơn vị quản lý nhiệm vụ.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Thủ trưởng Bộ chủ trì nhiệm vụ quyết định thành lập Hội đồng và tổ chuyên gia tư vấn đánh giá, nghiệm thu kết quả thực hiện nhiệm vụ cấp quốc gia do trong thời hạn 15 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -55,93 +62,63 @@
     "conditional": [
       {
         "name": "- Các văn bản xác nhận và tài liệu liên quan đến việc công bố, xuất bản, đào tạo, tiếp nhận và sử dụng kết quả nghiên cứu (nếu có).",
-        "code": "000.00.00.G06-KQ0767",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Các tài liệu khác (nếu có).",
-        "code": "000.00.00.G06-KQ0772",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Văn bản xác nhận về sự thỏa thuận của các tác giả về việc sắp xếp thứ tự tên trong danh sách tác giả thực hiện nhiệm vụ.",
-        "code": "000.00.00.G06-KQ0769",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Bản sao hợp đồng và thuyết minh nhiệm vụ.",
-        "code": "000.00.00.G06-KQ0766",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Các số liệu (điều tra, khảo sát, phân tích…), sổ nhật ký của nhiệm vụ.",
-        "code": "000.00.00.G06-KQ0768",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Công văn đề nghị đánh giá, nghiệm thu nhiệm vụ cấp quốc gia của tổ chức chủ trì.",
-        "code": "000.00.00.G06-KQ0763",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Báo cáo tình hình sử dụng kinh phí của nhiệm vụ.",
-        "code": "000.00.00.G06-KQ0770",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Báo cáo tự đánh giá kết quả thực hiện nhiệm vụ.",
-        "code": "000.00.00.G06-KQ0771",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Báo cáo về sản phẩm khoa học và công nghệ của nhiệm vụ.",
-        "code": "000.00.00.G06-KQ0765",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Báo cáo tổng hợp và báo cáo tóm tắt kết quả thực hiện nhiệm vụ.",
-        "code": "000.00.00.G06-KQ0764",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -150,17 +127,7 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "47 ngày làm việc",
-      "processing_time_value": 47,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -168,42 +135,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "47 ngày làm việc",
-      "processing_time_value": 47,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -211,20 +165,17 @@
     {
       "title": "Luật Khoa học và công nghệ",
       "document_number": "29/2013/QH13",
-      "id": "019d2bb3-5d84-71c5-b670-ae711677e212",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư số 11/2014/TT-BKHCN ngày 30/5/2014 của Bộ trưởng Bộ Khoa học và Công nghệ quy định việc đánh giá, nghiệm thu kết quả thực hiện nhiệm vụ khoa học và công nghệ cấp quốc gia sử dụng ngân sách nhà nước",
       "document_number": "11/2014/TT-BKHCN",
-      "id": "019d2bb3-5d7c-71ab-9f02-8182c50b4d59",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 08/2014/NĐ-CP",
       "document_number": "08/2014/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe7-9bc40d8edb27",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -232,13 +183,12 @@
     {
       "title": "Biên bản nghiệm thu nhiệm vụ cấp quốc gia sử dụng ngân sách nhà nước",
       "code": "KQ.G06.000232",
-      "id": "019d2bb2-1c3e-70b9-8aee-b1df34026008",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Tổ chức chủ trì thực hiện nhiệm vụ nộp Hồ sơ đánh giá, nghiệm thu cho đơn vị quản lý nhiệm vụ.\nBước 2: Đơn vị quản lý nhiệm vụ xem xét tính hợp lệ của hồ sơ trong thời hạn 03 ngày làm việc. Trường hợp hồ sơ chưa hợp lệ theo quy định thì Tổ chức chủ trì phải bổ sung trong thời hạn 05 ngày làm việc kể từ ngày nhận được thông báo của đơn vị quản lý nhiệm vụ.\nBước 3: Thủ trưởng Bộ chủ trì nhiệm vụ quyết định thành lập Hội đồng và tổ chuyên gia tư vấn đánh giá, nghiệm thu kết quả thực hiện nhiệm vụ cấp quốc gia do trong thời hạn 15 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n- Các văn bản xác nhận và tài liệu liên quan đến việc công bố, xuất bản, đào tạo, tiếp nhận và sử dụng kết quả nghiên cứu (nếu có).\n- Các tài liệu khác (nếu có).\n- Văn bản xác nhận về sự thỏa thuận của các tác giả về việc sắp xếp thứ tự tên trong danh sách tác giả thực hiện nhiệm vụ.\n- Bản sao hợp đồng và thuyết minh nhiệm vụ.\n- Các số liệu (điều tra, khảo sát, phân tích…), sổ nhật ký của nhiệm vụ.\n- Công văn đề nghị đánh giá, nghiệm thu nhiệm vụ cấp quốc gia của tổ chức chủ trì.\n- Báo cáo tình hình sử dụng kinh phí của nhiệm vụ.\n- Báo cáo tự đánh giá kết quả thực hiện nhiệm vụ.\n- Báo cáo về sản phẩm khoa học và công nghệ của nhiệm vụ.\n- Báo cáo tổng hợp và báo cáo tóm tắt kết quả thực hiện nhiệm vụ.",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Tổ chức chủ trì thực hiện nhiệm vụ nộp Hồ sơ đánh giá, nghiệm thu cho đơn vị quản lý nhiệm vụ.\nBước 2: Đơn vị quản lý nhiệm vụ xem xét tính hợp lệ của hồ sơ trong thời hạn 03 ngày làm việc. Trường hợp hồ sơ chưa hợp lệ theo quy định thì Tổ chức chủ trì phải bổ sung trong thời hạn 05 ngày làm việc kể từ ngày nhận được thông báo của đơn vị quản lý nhiệm vụ.\nBước 3: Thủ trưởng Bộ chủ trì nhiệm vụ quyết định thành lập Hội đồng và tổ chuyên gia tư vấn đánh giá, nghiệm thu kết quả thực hiện nhiệm vụ cấp quốc gia do trong thời hạn 15 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ.",
+    "THÀNH PHẦN HỒ SƠ": "- Các văn bản xác nhận và tài liệu liên quan đến việc công bố, xuất bản, đào tạo, tiếp nhận và sử dụng kết quả nghiên cứu (nếu có).\n- Các tài liệu khác (nếu có).\n- Văn bản xác nhận về sự thỏa thuận của các tác giả về việc sắp xếp thứ tự tên trong danh sách tác giả thực hiện nhiệm vụ.\n- Bản sao hợp đồng và thuyết minh nhiệm vụ.\n- Các số liệu (điều tra, khảo sát, phân tích…), sổ nhật ký của nhiệm vụ.\n- Công văn đề nghị đánh giá, nghiệm thu nhiệm vụ cấp quốc gia của tổ chức chủ trì.\n- Báo cáo tình hình sử dụng kinh phí của nhiệm vụ.\n- Báo cáo tự đánh giá kết quả thực hiện nhiệm vụ.\n- Báo cáo về sản phẩm khoa học và công nghệ của nhiệm vụ.\n- Báo cáo tổng hợp và báo cáo tóm tắt kết quả thực hiện nhiệm vụ.",
     "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 47 ngày làm việc\nTrực tiếp: 47 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Luật Khoa học và công nghệ - 29/2013/QH13\nThông tư số 11/2014/TT-BKHCN ngày 30/5/2014 của Bộ trưởng Bộ Khoa học và Công nghệ quy định việc đánh giá, nghiệm thu kết quả thực hiện nhiệm vụ khoa học và công nghệ cấp quốc gia sử dụng ngân sách nhà nước - 11/2014/TT-BKHCN\nNghị định 08/2014/NĐ-CP - 08/2014/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ",
@@ -248,14 +198,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hoạt động khoa học và công nghệ",
-      "slug": "hoat-dong-khoa-hoc-va-cong-nghe"
+      "slug": "hoat-ong-khoa-hoc-va-cong-nghe"
     },
     "implementation_levels": [
       {
@@ -275,6 +220,6 @@
         "slug": "bo-co-quan-ngang-bo-co-quan-thuoc-chinh-phu"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

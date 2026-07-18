@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf9-f1ea-76cf-9fe1-23b471ee5a35",
   "procedure_code": "2.000772",
   "title": "Thủ tục xác định có quốc tịch Việt Nam và cấp hộ chiếu Việt Nam",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf9-f1ea-76cf-9fe1-23b471ee5a35",
     "source_file": "chi-tiet-thu-tuc-2.000772.pdf",
     "source_path": "procedures/cu-tru-va-giay-to-tuy-than/2.000772/chi-tiet-thu-tuc-2.000772.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:20.823439+00:00",
-    "source_updated_at": "2026-04-15T17:26:19.587Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:55:43.188435+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "20626b61b6cc3bc6a78cd50035bef022937bbd81d8c5db08507f34771257f9bd"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:20.823439+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1061/QĐ-BNG",
   "implementation_level": "Cơ quan khác",
-  "implementation_levels": [
-    "Cơ quan khác"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Quốc tịch",
   "target_users": [
@@ -36,66 +32,45 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cơ quan đại diện Việt Nam ở nước ngoài",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cơ quan đại diện Việt Nam ở nước ngoài"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Người Việt Nam định cư ở nước ngoài chưa mất quốc tịch Việt Nam theo pháp luật Việt Nam trước ngày 01 tháng 7 năm 2009 mà không có giấy tờ chứng minh quốc tịch Việt Nam theo quy định tại Điều 11 của Luật Quốc tịch Việt Nam năm 2008, nếu có yêu cầu thì đăng ký với cơ quan đại diện Việt Nam ở nước ngoài để được xác định có quốc tịch Việt Nam và cấp hộ chiếu Việt Nam theo trình tự, thủ tục quy định.\n",
+      "description": "Người Việt Nam định cư ở nước ngoài chưa mất quốc tịch Việt Nam theo pháp luật Việt Nam trước ngày 01 tháng 7 năm 2009 mà không có giấy tờ chứng minh quốc tịch Việt Nam theo quy định tại Điều 11 của Luật Quốc tịch Việt Nam năm 2008, nếu có yêu cầu thì đăng ký với cơ quan đại diện Việt Nam ở nước ngoài để được xác định có quốc tịch Việt Nam và cấp hộ chiếu Việt Nam theo trình tự, thủ tục quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Tờ khai đăng ký xác định quốc tịch và cấp hộ chiếu Việt Nam theo mẫu ban hành kèm theo Nghị định số 97/2014/NĐ-CP",
-        "code": "000.00.00.G08-KQ0238",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d922a-d2cb-74db-8331-5506e4759b81",
-            "name": "Mau dang ky xac nhan lai quoc tich Viet Nam.doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau dang ky xac nhan lai quoc tich Viet Nam.doc",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Một trong các giấy tờ chứng minh về nhân thân của như giấy tờ tùy thân, thẻ căn cước, giấy tờ cư trú, thẻ tạm trú, giấy thông hành, giấy tờ có giá trị đi lại quốc tế hoặc giấy tờ khác có giá trị chứng minh về nhân thân",
-        "code": "000.00.00.G08-KQ0240",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Giấy tờ về hộ tịch, quốc tịch, hộ khẩu, căn cước hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp cho công dân Việt Nam qua các thời kỳ từ năm 1945 đến trước ngày 01 tháng 7 năm 2009, trong đó có ghi rõ quốc tịch Việt Nam hoặc thông tin liên quan đến quốc tịch Việt Nam. + Giấy tờ về hộ tịch, quốc tịch, hộ khẩu, căn cước hoặc giấy tờ khác do chế độ cũ cấp trước ngày 30 tháng 4 năm 1975 ở miền Nam Việt Nam hoặc do cơ quan có thẩm quyền của nước ngoài cấp, trong đó có thông tin liên quan đến quốc tịch Việt Nam, cũng được coi là cơ sở tham khảo để xem xét, xác định quốc tịch Việt Nam.",
-        "code": "000.00.00.G08-KQ0241",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Ảnh 4 cm x 6 cm chụp chưa quá 6 tháng",
-        "code": "000.00.00.G08-KQ0239",
         "quantity": "4 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -104,92 +79,51 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày",
-      "processing_time_value": 5,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 70,
-          "currency": "019b3fb2-dee2-76ab-aa53-22d4d903a2bb",
-          "description": "Cấp hộ chiếu Việt Nam",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 5,
-          "currency": "VND",
-          "description": "(Cấp trích lục xác nhận về việc người làm thủ tục đã được xác định có quốc tịch Việt Nam)",
-          "attachment": null
-        }
-      ],
+      "fee": "Cấp hộ chiếu Việt Nam; (Cấp trích lục xác nhận về việc người làm thủ tục đã được xác định có quốc tịch Việt Nam)",
       "description": "Nộp hồ sơ trực tiếp tại cơ quan đại diện; trong thời hạn 5 ngày làm việc, kể từ ngày tiếp nhận hồ sơ;",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "50 ngày",
-      "processing_time_value": 50,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 5,
-          "currency": "019b3fb2-dee2-76ab-aa53-22d4d903a2bb",
-          "description": "Cấp trích lục xác nhận về việc người làm thủ tục đã được xác định có quốc tịch Việt Nam",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 70,
-          "currency": "VND",
-          "description": "Cấp trích lục xác nhận về việc người làm thủ tục đã được xác định có quốc tịch Việt Nam",
-          "attachment": null
-        }
-      ],
+      "fee": "Cấp trích lục xác nhận về việc người làm thủ tục đã được xác định có quốc tịch Việt Nam",
       "description": "Nộp hồ sơ trực tiếp tại cơ quan đại diện; đối với trường hợp Người yêu cầu xác định quốc tịch sinh ra ở nước ngoài và chưa bao giờ thường trú tại Việt Nam, hạn 50 ngày làm việc, kể từ ngày nhận được yêu cầu xác minh quốc tịch,",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Cấp hộ chiếu Việt Nam; (Cấp trích lục xác nhận về việc người làm thủ tục đã được xác định có quốc tịch Việt Nam); Cấp trích lục xác nhận về việc người làm thủ tục đã được xác định có quốc tịch Việt Nam",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 70,
-        "currency": "019b3fb2-dee2-76ab-aa53-22d4d903a2bb",
-        "description": "Cấp hộ chiếu Việt Nam",
-        "attachment": null
+        "amount_text": "Cấp hộ chiếu Việt Nam",
+        "is_free": false,
+        "source_page": 1
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 5,
-        "currency": "VND",
-        "description": "(Cấp trích lục xác nhận về việc người làm thủ tục đã được xác định có quốc tịch Việt Nam)",
-        "attachment": null
+        "amount_text": "(Cấp trích lục xác nhận về việc người làm thủ tục đã được xác định có quốc tịch Việt Nam)",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 5,
-        "currency": "019b3fb2-dee2-76ab-aa53-22d4d903a2bb",
-        "description": "Cấp trích lục xác nhận về việc người làm thủ tục đã được xác định có quốc tịch Việt Nam",
-        "attachment": null
+        "amount_text": "Cấp trích lục xác nhận về việc người làm thủ tục đã được xác định có quốc tịch Việt Nam",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 70,
-        "currency": "VND",
-        "description": "Cấp trích lục xác nhận về việc người làm thủ tục đã được xác định có quốc tịch Việt Nam",
-        "attachment": null
+        "amount_text": "Cấp trích lục xác nhận về việc người làm thủ tục đã được xác định có quốc tịch Việt Nam",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -197,26 +131,22 @@
     {
       "title": "Luật 33/2009/QH12",
       "document_number": "33/2009/QH12",
-      "id": "019d2bb3-5d84-71c5-b672-b26617491ecd",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực ngoại giao áp dụng tại các Cơ quan đại diện Việt Nam ở nước ngoài",
       "document_number": "264/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be47-dcd0b7b78f14",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 97/2014/NĐ-CP",
       "document_number": "7/2014/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-87741c337e09",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Luật Quốc tịch Việt Nam",
       "document_number": "56/2014/QH13",
-      "id": "019d2bb3-5d84-71c5-b673-8a4b7da727b2",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Người Việt Nam định cư ở nước ngoài chưa mất quốc tịch Việt Nam theo pháp luật Việt Nam trước ngày 01 tháng 7 năm 2009 mà không có giấy tờ chứng minh quốc tịch Việt Nam theo quy định tại Điều 11 của Luật Quốc tịch Việt Nam năm 2008, đăng ký với cơ quan đại diện Việt Nam ở nước ngoài để được xác định có quốc tịch Việt Nam và cấp hộ chiếu Việt Nam theo trình tự, thủ tục quy định.",
@@ -224,20 +154,18 @@
     {
       "title": "trường hợp yêu cầu cấp hộ chiếu Việt Nam, cơ quan đại diện làm thủ tục cấp hộ chiếu Việt Nam cho họ hoặc thông báo cho họ đến Cơ quan đại diện để làm thủ tục cấp hộ chiếu Việt Nam, nếu nhận hồ sơ qua đường bưu điện",
       "code": "000.00.00.G08-KQ0243",
-      "id": "019d922b-e62f-73cb-bf73-9e15cfb22002",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Cấp hộ chiếu Việt Nam hoặc thông báo cho họ đến Cơ quan đại diện để làm thủ tục cấp hộ chiếu Việt Nam trong trường hợp yêu cầu cấp hộ chiếu Việt NamĐối với trường hợp chỉ yêu cầu xác định có quốc tịch Việt Nam mà không yêu cầu cấp hộ chiếu Việt Nam, sau khi ghi vào Sổ đăng ký là người đó có quốc tịch Việt Nam, cơ quan đại diện cấp cho họ bản trích lục xác nhận về việc người đó đã được xác định có quốc tịch Việt Nam, trong đó ghi rõ mục đích và thời hạn sử dụng bản trích lục",
       "code": "000.00.00.G08-KQ0242",
-      "id": "019d922b-4ea0-725b-a03e-3a6d9b67388c",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Người Việt Nam định cư ở nước ngoài chưa mất quốc tịch Việt Nam theo pháp luật Việt Nam trước ngày 01 tháng 7 năm 2009 mà không có giấy tờ chứng minh quốc tịch Việt Nam theo quy định tại Điều 11 của Luật Quốc tịch Việt Nam năm 2008, nếu có yêu cầu thì đăng ký với cơ quan đại diện Việt Nam ở nước ngoài để được xác định có quốc tịch Việt Nam và cấp hộ chiếu Việt Nam theo trình tự, thủ tục quy định.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nTờ khai đăng ký xác định quốc tịch và cấp hộ chiếu Việt Nam theo mẫu ban hành kèm theo Nghị định số 97/2014/NĐ-CP\nMột trong các giấy tờ chứng minh về nhân thân của như giấy tờ tùy thân, thẻ căn cước, giấy tờ cư trú, thẻ tạm trú, giấy thông hành, giấy tờ có giá trị đi lại quốc tế hoặc giấy tờ khác có giá trị chứng minh về nhân thân\n+ Giấy tờ về hộ tịch, quốc tịch, hộ khẩu, căn cước hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp cho công dân Việt Nam qua các thời kỳ từ năm 1945 đến trước ngày 01 tháng 7 năm 2009, trong đó có ghi rõ quốc tịch Việt Nam hoặc thông tin liên quan đến quốc tịch Việt Nam. + Giấy tờ về hộ tịch, quốc tịch, hộ khẩu, căn cước hoặc giấy tờ khác do chế độ cũ cấp trước ngày 30 tháng 4 năm 1975 ở miền Nam Việt Nam hoặc do cơ quan có thẩm quyền của nước ngoài cấp, trong đó có thông tin liên quan đến quốc tịch Việt Nam, cũng được coi là cơ sở tham khảo để xem xét, xác định quốc tịch Việt Nam.\nẢnh 4 cm x 6 cm chụp chưa quá 6 tháng",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 5 ngày - Nộp hồ sơ trực tiếp tại cơ quan đại diện; trong thời hạn 5 ngày làm việc, kể từ ngày tiếp nhận hồ sơ;\nTrực tiếp: 50 ngày - Nộp hồ sơ trực tiếp tại cơ quan đại diện; đối với trường hợp Người yêu cầu xác định quốc tịch sinh ra ở nước ngoài và chưa bao giờ thường trú tại Việt Nam, hạn 50 ngày làm việc, kể từ ngày nhận được yêu cầu xác minh quốc tịch,",
+    "TRÌNH TỰ THỰC HIỆN": "Người Việt Nam định cư ở nước ngoài chưa mất quốc tịch Việt Nam theo pháp luật Việt Nam trước ngày 01 tháng 7 năm 2009 mà không có giấy tờ chứng minh quốc tịch Việt Nam theo quy định tại Điều 11 của Luật Quốc tịch Việt Nam năm 2008, nếu có yêu cầu thì đăng ký với cơ quan đại diện Việt Nam ở nước ngoài để được xác định có quốc tịch Việt Nam và cấp hộ chiếu Việt Nam theo trình tự, thủ tục quy định.",
+    "THÀNH PHẦN HỒ SƠ": "Tờ khai đăng ký xác định quốc tịch và cấp hộ chiếu Việt Nam theo mẫu ban hành kèm theo Nghị định số 97/2014/NĐ-CP\nMột trong các giấy tờ chứng minh về nhân thân của như giấy tờ tùy thân, thẻ căn cước, giấy tờ cư trú, thẻ tạm trú, giấy thông hành, giấy tờ có giá trị đi lại quốc tế hoặc giấy tờ khác có giá trị chứng minh về nhân thân\n+ Giấy tờ về hộ tịch, quốc tịch, hộ khẩu, căn cước hoặc giấy tờ khác do cơ quan có thẩm quyền của Việt Nam cấp cho công dân Việt Nam qua các thời kỳ từ năm 1945 đến trước ngày 01 tháng 7 năm 2009, trong đó có ghi rõ quốc tịch Việt Nam hoặc thông tin liên quan đến quốc tịch Việt Nam. + Giấy tờ về hộ tịch, quốc tịch, hộ khẩu, căn cước hoặc giấy tờ khác do chế độ cũ cấp trước ngày 30 tháng 4 năm 1975 ở miền Nam Việt Nam hoặc do cơ quan có thẩm quyền của nước ngoài cấp, trong đó có thông tin liên quan đến quốc tịch Việt Nam, cũng được coi là cơ sở tham khảo để xem xét, xác định quốc tịch Việt Nam.\nẢnh 4 cm x 6 cm chụp chưa quá 6 tháng",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 5 ngày\nTrực tiếp: 50 ngày",
     "CĂN CỨ PHÁP LÝ": "Luật 33/2009/QH12 - 33/2009/QH12\nQuy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực ngoại giao áp dụng tại các Cơ quan đại diện Việt Nam ở nước ngoài - 264/2016/TT-BTC\nNghị định 97/2014/NĐ-CP - 7/2014/NĐ-CP\nSửa đổi, bổ sung một số điều của Luật Quốc tịch Việt Nam - 56/2014/QH13",
     "CƠ QUAN THỰC HIỆN": "Cơ quan đại diện Việt Nam ở nước ngoài",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Người Việt Nam định cư ở nước ngoài chưa mất quốc tịch Việt Nam theo pháp luật Việt Nam trước ngày 01 tháng 7 năm 2009 mà không có giấy tờ chứng minh quốc tịch Việt Nam theo quy định tại Điều 11 của Luật Quốc tịch Việt Nam năm 2008, đăng ký với cơ quan đại diện Việt Nam ở nước ngoài để được xác định có quốc tịch Việt Nam và cấp hộ chiếu Việt Nam theo trình tự, thủ tục quy định.",
@@ -246,11 +174,6 @@
     "MÔ TẢ": "Người Việt Nam định cư ở nước ngoài chưa mất quốc tịch Việt Nam theo pháp luật Việt Nam trước ngày 01 tháng 7 năm 2009 mà không có giấy tờ chứng minh quốc tịch Việt Nam theo quy định tại Điều 11 của Luật Quốc tịch Việt Nam năm 2008, đăng ký với cơ quan đại diện Việt Nam ở nước ngoài để được xác định có quốc tịch Việt Nam và cấp hộ chiếu Việt Nam theo trình tự, thủ tục quy định."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Cư trú và giấy tờ tùy thân",
-      "slug": "cu-tru-va-giay-to-tuy-than",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Quốc tịch",
       "slug": "quoc-tich"
@@ -264,7 +187,7 @@
     "target_users": [
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -274,9 +197,9 @@
     "agencies": [
       {
         "name": "Cơ quan đại diện Việt Nam ở nước ngoài",
-        "slug": "co-quan-dai-dien-viet-nam-o-nuoc-ngoai"
+        "slug": "co-quan-ai-dien-viet-nam-o-nuoc-ngoai"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

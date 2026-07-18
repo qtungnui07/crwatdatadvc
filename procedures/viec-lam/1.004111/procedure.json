@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfd-ccbb-7048-8deb-fbcf839e5bc1",
   "procedure_code": "1.004111",
   "title": "Cấp giấy phép thành lập nhà xuất bản",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-ccbb-7048-8deb-fbcf839e5bc1",
     "source_file": "chi-tiet-thu-tuc-1.004111.pdf",
     "source_path": "procedures/viec-lam/1.004111/chi-tiet-thu-tuc-1.004111.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:01.792366+00:00",
-    "source_updated_at": "2026-06-02T09:17:55.555Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:07.731967+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "152fa1d572cececa7ae60adc7223395a62dfcfec7b92e646ef314319134a6127"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:01.792366+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "893/QĐ-BVHTTDL",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Xuất Bản, In và Phát hành",
   "target_users": [
@@ -36,18 +32,15 @@
   ],
   "agency": {
     "competent_agency": "Bộ Văn hóa, Thể thao và Du lịch",
-    "executing_agency": "Cục Xuất bản, In và Phát hành",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Xuất bản, In và Phát hành"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Cơ quan chủ quản nhà xuất bản lập hồ sơ đề nghị cấp giấy phép thành lập nhà xuất bản gửi Bộ Văn hóa, Thể thao và Du lịch (VHTTDL);\n- Trong thời hạn 30 ngày kể từ ngày nhận đủ hồ sơ, Bộ Văn hóa, Thể thao và Du lịch phải cấp giấy phép thành lập nhà xuất bản; trường hợp không cấp giấy phép phải có văn bản trả lời nêu rõ lý do.\n",
+      "description": "- Cơ quan chủ quản nhà xuất bản lập hồ sơ đề nghị cấp giấy phép thành lập nhà xuất bản gửi Bộ Văn hóa, Thể thao và Du lịch (VHTTDL);\n- Trong thời hạn 30 ngày kể từ ngày nhận đủ hồ sơ, Bộ Văn hóa, Thể thao và Du lịch phải cấp giấy phép thành lập nhà xuất bản; trường hợp không cấp giấy phép phải có văn bản trả lời nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -56,21 +49,15 @@
     "conditional": [
       {
         "name": "Đề án thành lập nhà xuất bản và giấy tờ kèm theo chứng minh có đủ các điều kiện quy định tại Điều 13 Luật Xuất bản (mẫu số 03 Phụ lục I.12 ban hành  kèm theo Nghị quyết số 66.16/2026/NQ-CP).",
-        "code": "G16-KQ001990",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Đơn đề nghị cấp giấy phép thành lập nhà xuất bản (mẫu số 01 Phụ lục  kèm theo Thông tư số 23/2023/TT-BTTTT ngày 31/12/2023);",
-        "code": "G16-KQ001989",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -79,35 +66,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Không có",
-          "attachment": null
-        }
-      ],
+      "fee": "Không có",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Không có",
-          "attachment": null
-        }
-      ],
+      "fee": "Không có",
       "description": "",
       "source_page": null
     },
@@ -115,51 +82,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Không có",
-          "attachment": null
-        }
-      ],
+      "fee": "Không có",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "free",
+    "summary": "Không có",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Không có",
-        "attachment": null
+        "amount_text": "Không có",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Không có",
-        "attachment": null
+        "amount_text": "Không có",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Không có",
-        "attachment": null
+        "amount_text": "Không có",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -167,38 +119,32 @@
     {
       "title": "Thông tư 01/2020/TT-BTTTT",
       "document_number": "01/2020/TT-BTTTT",
-      "id": "019d2bb3-5d7c-71ab-9f03-e8a624fc3eca",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Sửa đổi một số Nghị định liên quan đến điều kiện đầu tư kinh doanh và thủ tục hành chính trong lĩnh vực thông tin và truyền thông",
       "document_number": "150/2018/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-8dc5cf990676",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị quyết của Chính phủ quy định cắt giảm, đơn giản hóa thủ tục hành chính, quy định liên quan đến hoạt động sản xuất, kinh doanh",
-      "document_number": "66.16/2026/NQ-CP ",
-      "id": "019df0a7-9b83-75ea-abf3-9982f285a420",
-      "source_page": null
+      "document_number": "66.16/2026/NQ-CP",
+      "source_page": 2
     },
     {
       "title": "23/2023/TT-BTTTT",
       "document_number": "23/2023/TT-BTTTT",
-      "id": "019d2bb3-5d7c-71ab-9f04-ccd0480fc664",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định 195/2013/NĐ-CP",
       "document_number": "195/2013/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afed-006a4d6d88d0",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "sửa đổi, bổ sung một số điều của 37 Luật có liên quan đến quy hoạch;",
       "document_number": "35/2018/QH14",
-      "id": "019d2bb3-5d84-71c5-b672-ca36a081117c",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "",
@@ -206,15 +152,14 @@
     {
       "title": "Giấy phép thành lập nhà xuất bản",
       "code": "KQ.G14.000042",
-      "id": "019d2bb2-1c74-72d6-adbb-6e1eb15b3c00",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Cơ quan chủ quản nhà xuất bản lập hồ sơ đề nghị cấp giấy phép thành lập nhà xuất bản gửi Bộ Văn hóa, Thể thao và Du lịch (VHTTDL);\n- Trong thời hạn 30 ngày kể từ ngày nhận đủ hồ sơ, Bộ Văn hóa, Thể thao và Du lịch phải cấp giấy phép thành lập nhà xuất bản; trường hợp không cấp giấy phép phải có văn bản trả lời nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nĐề án thành lập nhà xuất bản và giấy tờ kèm theo chứng minh có đủ các điều kiện quy định tại Điều 13 Luật Xuất bản (mẫu số 03 Phụ lục I.12 ban hành  kèm theo Nghị quyết số 66.16/2026/NQ-CP).\nĐơn đề nghị cấp giấy phép thành lập nhà xuất bản (mẫu số 01 Phụ lục  kèm theo Thông tư số 23/2023/TT-BTTTT ngày 31/12/2023);",
+    "TRÌNH TỰ THỰC HIỆN": "- Cơ quan chủ quản nhà xuất bản lập hồ sơ đề nghị cấp giấy phép thành lập nhà xuất bản gửi Bộ Văn hóa, Thể thao và Du lịch (VHTTDL);\n- Trong thời hạn 30 ngày kể từ ngày nhận đủ hồ sơ, Bộ Văn hóa, Thể thao và Du lịch phải cấp giấy phép thành lập nhà xuất bản; trường hợp không cấp giấy phép phải có văn bản trả lời nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "Đề án thành lập nhà xuất bản và giấy tờ kèm theo chứng minh có đủ các điều kiện quy định tại Điều 13 Luật Xuất bản (mẫu số 03 Phụ lục I.12 ban hành  kèm theo Nghị quyết số 66.16/2026/NQ-CP).\nĐơn đề nghị cấp giấy phép thành lập nhà xuất bản (mẫu số 01 Phụ lục  kèm theo Thông tư số 23/2023/TT-BTTTT ngày 31/12/2023);",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 30 ngày\nQua dịch vụ bưu chính: 30 ngày\nTrực tiếp: 30 ngày",
-    "CĂN CỨ PHÁP LÝ": "Thông tư 01/2020/TT-BTTTT - 01/2020/TT-BTTTT\nSửa đổi một số Nghị định liên quan đến điều kiện đầu tư kinh doanh và thủ tục hành chính trong lĩnh vực thông tin và truyền thông - 150/2018/NĐ-CP\nNghị quyết của Chính phủ quy định cắt giảm, đơn giản hóa thủ tục hành chính, quy định liên quan đến hoạt động sản xuất, kinh doanh - 66.16/2026/NQ-CP \n23/2023/TT-BTTTT - 23/2023/TT-BTTTT\nNghị định 195/2013/NĐ-CP - 195/2013/NĐ-CP\nsửa đổi, bổ sung một số điều của 37 Luật có liên quan đến quy hoạch; - 35/2018/QH14",
+    "CĂN CỨ PHÁP LÝ": "Thông tư 01/2020/TT-BTTTT - 01/2020/TT-BTTTT\nSửa đổi một số Nghị định liên quan đến điều kiện đầu tư kinh doanh và thủ tục hành chính trong lĩnh vực thông tin và truyền thông - 150/2018/NĐ-CP\nNghị quyết của Chính phủ quy định cắt giảm, đơn giản hóa thủ tục hành chính, quy định liên quan đến hoạt động sản xuất, kinh doanh - 66.16/2026/NQ-CP\n23/2023/TT-BTTTT - 23/2023/TT-BTTTT\nNghị định 195/2013/NĐ-CP - 195/2013/NĐ-CP\nsửa đổi, bổ sung một số điều của 37 Luật có liên quan đến quy hoạch; - 35/2018/QH14",
     "CƠ QUAN THỰC HIỆN": "Cục Xuất bản, In và Phát hành",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
     "KẾT QUẢ XỬ LÝ": "Giấy phép thành lập nhà xuất bản - KQ.G14.000042",
@@ -222,11 +167,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Xuất Bản, In và Phát hành",
       "slug": "xuat-ban-in-va-phat-hanh"
@@ -253,6 +193,6 @@
         "slug": "cuc-xuat-ban-in-va-phat-hanh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

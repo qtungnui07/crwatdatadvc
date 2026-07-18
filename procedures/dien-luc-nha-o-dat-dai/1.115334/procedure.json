@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019f042c-dce0-76cc-b5d7-44f8481d89f5",
   "procedure_code": "1.115334",
   "title": "Đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất lần đầu đối với hộ gia đình, cá nhân, cộng đồng dân cư, người gốc Việt Nam định cư ở nước ngoài",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019f042c-dce0-76cc-b5d7-44f8481d89f5",
     "source_file": "chi-tiet-thu-tuc-1.115334.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.115334/chi-tiet-thu-tuc-1.115334.pdf",
     "page_count": 11,
-    "extracted_at": "2026-07-18T02:22:17.311469+00:00",
-    "source_updated_at": "2026-07-10T08:01:10.738Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:56:37.097880+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "af2c1a086343e83031ef75ec913cbff78d6713ac6254e73c29f3a3308d64fe0e"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:17.311469+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2175/QĐ-UBND",
   "implementation_level": "Cấp xã",
-  "implementation_levels": [
-    "Cấp xã"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đất đai",
   "target_users": [
@@ -38,162 +34,122 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ủy ban nhân dân cấp xã",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ủy ban nhân dân cấp xã"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến Bộ phận Một cửa. \nKhi nộp các giấy tờ quy định, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực theo quy định của pháp luật. \nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định. \nBước 2: Cơ quan tiếp nhận hồ sơ thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả. Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định. \n- Chuyển hồ sơ đến Ủy ban nhân dân cấp xã nơi có đất. \nBước 3: \n3.1. Đối với trường hợp thực hiện thủ tục đăng ký, cấp Giấy chứng nhận thì Ủy ban nhân dân cấp xã tổ chức thực hiện các nội dung sau: \na) Trích lục bản đồ địa chính đối với nơi đã có bản đồ địa chính. Đối với nơi chưa có bản đồ địa chính và trong hồ sơ đăng ký, cấp Giấy chứng nhận đã có mảnh trích đo bản đồ địa chính thì kiểm tra, ký xác nhận mảnh trích đo bản đồ địa chính theo quy định, trừ trường hợp mảnh trích đo bản đồ địa chính đã được Ủy ban nhân dân cấp xã xác nhận hoặc Chi nhánh Văn phòng đăng ký đất đai kiểm tra, ký duyệt trước ngày 01 tháng 7 năm 2025; trường hợp trong hồ sơ đăng ký, cấp Giấy chứng nhận chưa có mảnh trích đo bản đồ địa chính thì đề nghị đơn vị đo đạc thực hiện việc trích đo bản đồ địa chính; đơn vị đo đạc có trách nhiệm thực hiện trích đo bản đồ địa chính trong thời gian không quá 05 ngày làm việc kể từ ngày nhận được đề nghị. \nb) Xác nhận hiện trạng sử dụng đất có hay không có nhà ở, công trình xây dựng; tình trạng tranh chấp đất đai, tài sản gắn liền với đất, việc sử dụng đất ổn định; đối với trường hợp không có giấy tờ về quyền sử dụng đất thì xác nhận thêm nguồn gốc sử dụng đất. \nc) Kiểm tra sự phù hợp với quy hoạch đối với các trường hợp có yêu cầu phải phù hợp với quy hoạch để cấp Giấy chứng nhận. \nd) Niêm yết công khai kết quả kiểm tra, rà soát theo Mẫu số 17 ban hành kèm theo Quyết định 57/2026/QĐ-UBND tại trụ sở Ủy ban nhân dân cấp xã, khu dân cư nơi có đất, tài sản gắn liền với đất trong thời gian 15 ngày, đồng thời thực hiện xem xét giải quyết các ý kiến phản ánh về nội dung đã công khai (nếu có). \nđ) Kiểm tra việc đủ điều kiện hay không đủ điều kiện được cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai: \n- Đối với trường hợp không có nhu cầu hoặc không đủ điều kiện cấp Giấy chứng nhận thì thực hiện: \n+ Ban hành Thông báo xác nhận kết quả đăng ký đất đai theo Mẫu số 16 ban hành kèm theo Quyết định 57/2026/QĐ-UBND; chuyển Thông báo đến nơi nộp hồ sơ để trả cho người yêu cầu đăng ký. \n+ Chuyển hồ sơ đến Chi nhánh Văn phòng đăng ký đất đai để lập, cập nhật thông tin đăng ký đất đai, tài sản gắn liền với đất vào hồ sơ địa chính, cơ sở dữ liệu đất đai. \n- Đối với trường hợp có nhu cầu và đủ điều kiện cấp Giấy chứng nhận thì gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 19 ban hành kèm theo Quyết định 57/2026/QĐ-UBND đến cơ quan thuế để cơ quan thuế xác định và thông báo thu nghĩa vụ tài chính cho người sử dụng đất, chủ sở hữu tài sản gắn liền với đất. \ne) Khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính hoặc được ghi nợ nghĩa vụ tài chính: \n- Chủ tịch Ủy ban nhân dân cấp xã cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất. \n- Chuyển Giấy chứng nhận cho cơ quan tiếp nhận hồ sơ để trao cho người sử dụng đất, chủ sở hữu tài sản gắn liền với đất. \n- Chuyển hồ sơ kèm theo bản sao Giấy chứng nhận đã cấp đến Chi nhánh Văn phòng đăng ký đất đai để lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai. \n3.2. Đối với trường hợp đã có Thông báo xác nhận kết quả đăng ký đất đai thì Ủy ban nhân dân cấp xã nơi có đất tổ chức thực hiện: \n- Đối với trường hợp Thông báo xác nhận kết quả đăng ký đất đai, tài sản gắn liền với đất thể hiện đủ điều kiện cấp Giấy chứng nhận và tại thời điểm cấp Giấy chứng nhận không thuộc trường hợp quy định tại điểm đ và e khoản 1 Điều 151 Luật Đất đai thì gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 19 ban hành kèm theo Quyết định 57/2026/QĐ-UBND đến cơ quan thuế để cơ quan thuế xác định và thông báo thu nghĩa vụ tài chính cho người sử dụng đất, chủ sở hữu tài sản gắn liền với đất. \n- Đối với trường hợp Thông báo xác nhận kết quả đăng ký đất đai không thể hiện đủ điều kiện cấp Giấy chứng nhận thì thực hiện các công việc tại các điểm b, c, d, đ mục 3.1. \n- Khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính hoặc được ghi nợ nghĩa vụ tài chính: \n+ Chủ tịch Ủy ban nhân dân cấp xã cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất. \n+ Chuyển Giấy chứng nhận cho cơ quan tiếp nhận hồ sơ để trao cho người sử dụng đất, chủ sở hữu tài sản gắn liền với đất. \n+ Chuyển hồ sơ kèm theo bản sao Giấy chứng nhận đã cấp đến Chi nhánh Văn phòng đăng ký đất đai để lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai.",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến Bộ phận Một cửa. \nKhi nộp các giấy tờ quy định, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực theo quy định của pháp luật. \nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Cơ quan tiếp nhận hồ sơ thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả. Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định. \n- Chuyển hồ sơ đến Ủy ban nhân dân cấp xã nơi có đất.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: \n3.1. Đối với trường hợp thực hiện thủ tục đăng ký, cấp Giấy chứng nhận thì Ủy ban nhân dân cấp xã tổ chức thực hiện các nội dung sau: \na) Trích lục bản đồ địa chính đối với nơi đã có bản đồ địa chính. Đối với nơi chưa có bản đồ địa chính và trong hồ sơ đăng ký, cấp Giấy chứng nhận đã có mảnh trích đo bản đồ địa chính thì kiểm tra, ký xác nhận mảnh trích đo bản đồ địa chính theo quy định, trừ trường hợp mảnh trích đo bản đồ địa chính đã được Ủy ban nhân dân cấp xã xác nhận hoặc Chi nhánh Văn phòng đăng ký đất đai kiểm tra, ký duyệt trước ngày 01 tháng 7 năm 2025; trường hợp trong hồ sơ đăng ký, cấp Giấy chứng nhận chưa có mảnh trích đo bản đồ địa chính thì đề nghị đơn vị đo đạc thực hiện việc trích đo bản đồ địa chính; đơn vị đo đạc có trách nhiệm thực hiện trích đo bản đồ địa chính trong thời gian không quá 05 ngày làm việc kể từ ngày nhận được đề nghị. \nb) Xác nhận hiện trạng sử dụng đất có hay không có nhà ở, công trình xây dựng; tình trạng tranh chấp đất đai, tài sản gắn liền với đất, việc sử dụng đất ổn định; đối với trường hợp không có giấy tờ về quyền sử dụng đất thì xác nhận thêm nguồn gốc sử dụng đất. \nc) Kiểm tra sự phù hợp với quy hoạch đối với các trường hợp có yêu cầu phải phù hợp với quy hoạch để cấp Giấy chứng nhận. \nd) Niêm yết công khai kết quả kiểm tra, rà soát theo Mẫu số 17 ban hành kèm theo Quyết định 57/2026/QĐ-UBND tại trụ sở Ủy ban nhân dân cấp xã, khu dân cư nơi có đất, tài sản gắn liền với đất trong thời gian 15 ngày, đồng thời thực hiện xem xét giải quyết các ý kiến phản ánh về nội dung đã công khai (nếu có). \nđ) Kiểm tra việc đủ điều kiện hay không đủ điều kiện được cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai: \n- Đối với trường hợp không có nhu cầu hoặc không đủ điều kiện cấp Giấy chứng nhận thì thực hiện: \n+ Ban hành Thông báo xác nhận kết quả đăng ký đất đai theo Mẫu số 16 ban hành kèm theo Quyết định 57/2026/QĐ-UBND; chuyển Thông báo đến nơi nộp hồ sơ để trả cho người yêu cầu đăng ký. \n+ Chuyển hồ sơ đến Chi nhánh Văn phòng đăng ký đất đai để lập, cập nhật thông tin đăng ký đất đai, tài sản gắn liền với đất vào hồ sơ địa chính, cơ sở dữ liệu đất đai. \n- Đối với trường hợp có nhu cầu và đủ điều kiện cấp Giấy chứng nhận thì gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 19 ban hành kèm theo Quyết định 57/2026/QĐ-UBND đến cơ quan thuế để cơ quan thuế xác định và thông báo thu nghĩa vụ tài chính cho người sử dụng đất, chủ sở hữu tài sản gắn liền với đất. \ne) Khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính hoặc được ghi nợ nghĩa vụ tài chính: \n- Chủ tịch Ủy ban nhân dân cấp xã cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất. \n- Chuyển Giấy chứng nhận cho cơ quan tiếp nhận hồ sơ để trao cho người sử dụng đất, chủ sở hữu tài sản gắn liền với đất. \n- Chuyển hồ sơ kèm theo bản sao Giấy chứng nhận đã cấp đến Chi nhánh Văn phòng đăng ký đất đai để lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai. \n3.2. Đối với trường hợp đã có Thông báo xác nhận kết quả đăng ký đất đai thì Ủy ban nhân dân cấp xã nơi có đất tổ chức thực hiện: \n- Đối với trường hợp Thông báo xác nhận kết quả đăng ký đất đai, tài sản gắn liền với đất thể hiện đủ điều kiện cấp Giấy chứng nhận và tại thời điểm cấp Giấy chứng nhận không thuộc trường hợp quy định tại điểm đ và e khoản 1 Điều 151 Luật Đất đai thì gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 19 ban hành kèm theo Quyết định 57/2026/QĐ-UBND đến cơ quan thuế để cơ quan thuế xác định và thông báo thu nghĩa vụ tài chính cho người sử dụng đất, chủ sở hữu tài sản gắn liền với đất. \n- Đối với trường hợp Thông báo xác nhận kết quả đăng ký đất đai không thể hiện đủ điều kiện cấp Giấy chứng nhận thì thực hiện các công việc tại các điểm b, c, d, đ mục 3.1. \n- Khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính hoặc được ghi nợ nghĩa vụ tài chính: \n+ Chủ tịch Ủy ban nhân dân cấp xã cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất. \n+ Chuyển Giấy chứng nhận cho cơ quan tiếp nhận hồ sơ để trao cho người sử dụng đất, chủ sở hữu tài sản gắn liền với đất. \n+ Chuyển hồ sơ kèm theo bản sao Giấy chứng nhận đã cấp đến Chi nhánh Văn phòng đăng ký đất đai để lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Đơn đăng ký đất đai, tài sản gắn liền với đất (theo Mẫu số 15)",
-        "code": "H15-KQ000282",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019f1146-f3a1-76bf-bdc9-328b638e5833",
-            "name": "Mau don so 15. Don dang ky dat dai, tai san gan lien voi dat.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau don so 15. Don dang ky dat dai, tai san gan lien voi dat.docx",
+        "source_page": 3
       },
       {
         "name": "Một trong các loại giấy tờ về quyền sở hữu tài sản theo khoản 1, khoản 5 Điều 148, khoản 1, khoản 5 Điều 149 Luật Đất đai; sơ đồ nhà ở, công trình xây dựng (nếu có)",
-        "code": "H15-KQ000223",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Giấy tờ về việc chuyển quyền sử dụng đất và Giấy chứng nhận đã cấp cho phần diện tích tăng thêm (thửa đất gốc có giấy tờ theo Điều 137 mà có phần diện tích tăng thêm đã được cấp GCN)",
-        "code": "H15-KQ000291",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Văn bản cam kết của người nhận thừa kế hoặc văn bản thỏa thuận của những người nhận thừa kế (trường hợp nhận thừa kế QSDĐ chưa được cấp Giấy chứng nhận)",
-        "code": "H15-KQ000292",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Giấy tờ về việc nhận thừa kế quyền sử dụng đất theo pháp luật dân sự và giấy tờ về việc chuyển quyền sử dụng đất (khoản 4 Điều 45 Luật Đất đai)",
-        "code": "H15-KQ000293",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "Giấy tờ về giao đất không đúng thẩm quyền hoặc giấy tờ về việc mua, nhận thanh lý, hóa giá, phân phối nhà ở, công trình xây dựng gắn liền với đất theo Điều 140 Luật Đất đai (nếu có)",
-        "code": "H15-KQ000294",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "Quyết định xử phạt vi phạm hành chính trong lĩnh vực đất đai và giấy tờ chứng minh đã thực hiện quyết định xử phạt (nếu có vi phạm)",
-        "code": "H15-KQ000295",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "Hợp đồng/văn bản thỏa thuận/quyết định của Tòa án về việc xác lập quyền đối với thửa đất liền kề kèm sơ đồ (trường hợp đăng ký quyền đối với thửa đất liền kề)",
-        "code": "H15-KQ000296",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "Văn bản xác định các thành viên có chung quyền sử dụng đất của hộ gia đình đang sử dụng đất",
-        "code": "H15-KQ000297",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "Mảnh trích đo bản đồ địa chính thửa đất / trích lục bản đồ địa chính (nếu có hoặc theo yêu cầu đo đạc lại)",
-        "code": "H15-KQ000244",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "Hồ sơ thiết kế xây dựng công trình đã được thẩm định hoặc văn bản chấp thuận kết quả nghiệm thu công trình (trường hợp công trình trên đất nông nghiệp không có giấy tờ theo Điều 149 hoặc được miễn phép xây dựng)",
-        "code": "H15-KQ000245",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "Quyết định xử phạt vi phạm hành chính trong lĩnh vực đất đai và giấy tờ chứng minh đã thực hiện (điểm a khoản 6 Điều 25 Nghị định 101/2024/NĐ-CP)",
-        "code": "H15-KQ000298",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "Chứng từ/giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính về đất đai",
-        "code": "H15-KQ000250",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "Hợp đồng, văn bản chuyển quyền sử dụng đất có chữ ký bên chuyển và bên nhận (trường hợp đã chuyển quyền trước 01/8/2024 chưa làm thủ tục)",
-        "code": "H15-KQ000229",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "Giấy xác nhận của cơ quan có chức năng quản lý về xây dựng cấp huyện trước ngày 01/7/2025 về đủ điều kiện tồn tại nhà ở, công trình xây dựng (nếu có)",
-        "code": "H15-KQ000299",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       }
     ],
     "normally_required": [],
@@ -204,34 +160,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "20 ngày làm việc",
-      "processing_time_value": 20,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Không quá 17 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất lần đầu; không quá 20 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận lần đầu (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 17 ngày làm việc; cấp Giấy chứng nhận lần đầu là không quá 03 ngày làm việc). \nĐối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 27 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất lần đầu; không quá 30 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất lần đầu.",
-      "source_page": null
+      "source_page": 6
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "20 ngày làm việc",
-      "processing_time_value": 20,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Không quá 17 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất lần đầu; không quá 20 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận lần đầu (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 17 ngày làm việc; cấp Giấy chứng nhận lần đầu là không quá 03 ngày làm việc). \nĐối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 27 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất lần đầu; không quá 30 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất lần đầu.",
-      "source_page": null
+      "source_page": 6
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "20 ngày làm việc",
-      "processing_time_value": 20,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Không quá 17 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất lần đầu; không quá 20 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận lần đầu (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 17 ngày làm việc; cấp Giấy chứng nhận lần đầu là không quá 03 ngày làm việc). \nĐối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 27 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất lần đầu; không quá 30 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất lần đầu.",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -240,50 +191,42 @@
     {
       "title": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
       "document_number": "118/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "49/2026/NĐ-CP",
-      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Quy định trình tự, thủ tục hành chính trong lĩnh vực đất đai trên địa bàn tỉnh Đắk Lắk.",
       "document_number": "57/2026/QĐ-UBND",
-      "id": "019f2ffa-2f3b-7794-b60f-1680aa30f6fa",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Nghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai.",
       "document_number": "102/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe8-0a00a8be7fd7",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
       "document_number": "151/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai",
       "document_number": "226/2025/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a644-ce39f72a6124",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
-      "document_number": "31/2024/QH15 ",
-      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
-      "source_page": null
+      "document_number": "31/2024/QH15",
+      "source_page": 11
     },
     {
       "title": "Nghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
-      "document_number": "101/2024/NĐ-CP ",
-      "id": "019eab72-e75f-7064-886d-9dddc82fa4a4",
-      "source_page": null
+      "document_number": "101/2024/NĐ-CP",
+      "source_page": 11
     }
   ],
   "conditions": "",
@@ -291,21 +234,19 @@
     {
       "title": "Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất",
       "code": "H15-KQ000200",
-      "id": "019ef891-5c01-75a4-b040-65e14d5654e6",
-      "source_page": null
+      "source_page": 1
     },
     {
       "title": "Thông báo xác nhận kết quả đăng ký đất đai",
       "code": "H15-KQ000312",
-      "id": "019f3061-8608-76ca-9cc2-5ba645f9b88b",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến Bộ phận Một cửa. \nKhi nộp các giấy tờ quy định, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực theo quy định của pháp luật. \nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định. \nBước 2: Cơ quan tiếp nhận hồ sơ thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả. Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định. \n- Chuyển hồ sơ đến Ủy ban nhân dân cấp xã nơi có đất. \nBước 3: \n3.1. Đối với trường hợp thực hiện thủ tục đăng ký, cấp Giấy chứng nhận thì Ủy ban nhân dân cấp xã tổ chức thực hiện các nội dung sau: \na) Trích lục bản đồ địa chính đối với nơi đã có bản đồ địa chính. Đối với nơi chưa có bản đồ địa chính và trong hồ sơ đăng ký, cấp Giấy chứng nhận đã có mảnh trích đo bản đồ địa chính thì kiểm tra, ký xác nhận mảnh trích đo bản đồ địa chính theo quy định, trừ trường hợp mảnh trích đo bản đồ địa chính đã được Ủy ban nhân dân cấp xã xác nhận hoặc Chi nhánh Văn phòng đăng ký đất đai kiểm tra, ký duyệt trước ngày 01 tháng 7 năm 2025; trường hợp trong hồ sơ đăng ký, cấp Giấy chứng nhận chưa có mảnh trích đo bản đồ địa chính thì đề nghị đơn vị đo đạc thực hiện việc trích đo bản đồ địa chính; đơn vị đo đạc có trách nhiệm thực hiện trích đo bản đồ địa chính trong thời gian không quá 05 ngày làm việc kể từ ngày nhận được đề nghị. \nb) Xác nhận hiện trạng sử dụng đất có hay không có nhà ở, công trình xây dựng; tình trạng tranh chấp đất đai, tài sản gắn liền với đất, việc sử dụng đất ổn định; đối với trường hợp không có giấy tờ về quyền sử dụng đất thì xác nhận thêm nguồn gốc sử dụng đất. \nc) Kiểm tra sự phù hợp với quy hoạch đối với các trường hợp có yêu cầu phải phù hợp với quy hoạch để cấp Giấy chứng nhận. \nd) Niêm yết công khai kết quả kiểm tra, rà soát theo Mẫu số 17 ban hành kèm theo Quyết định 57/2026/QĐ-UBND tại trụ sở Ủy ban nhân dân cấp xã, khu dân cư nơi có đất, tài sản gắn liền với đất trong thời gian 15 ngày, đồng thời thực hiện xem xét giải quyết các ý kiến phản ánh về nội dung đã công khai (nếu có). \nđ) Kiểm tra việc đủ điều kiện hay không đủ điều kiện được cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai: \n- Đối với trường hợp không có nhu cầu hoặc không đủ điều kiện cấp Giấy chứng nhận thì thực hiện: \n+ Ban hành Thông báo xác nhận kết quả đăng ký đất đai theo Mẫu số 16 ban hành kèm theo Quyết định 57/2026/QĐ-UBND; chuyển Thông báo đến nơi nộp hồ sơ để trả cho người yêu cầu đăng ký. \n+ Chuyển hồ sơ đến Chi nhánh Văn phòng đăng ký đất đai để lập, cập nhật thông tin đăng ký đất đai, tài sản gắn liền với đất vào hồ sơ địa chính, cơ sở dữ liệu đất đai. \n- Đối với trường hợp có nhu cầu và đủ điều kiện cấp Giấy chứng nhận thì gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 19 ban hành kèm theo Quyết định 57/2026/QĐ-UBND đến cơ quan thuế để cơ quan thuế xác định và thông báo thu nghĩa vụ tài chính cho người sử dụng đất, chủ sở hữu tài sản gắn liền với đất. \ne) Khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính hoặc được ghi nợ nghĩa vụ tài chính: \n- Chủ tịch Ủy ban nhân dân cấp xã cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất. \n- Chuyển Giấy chứng nhận cho cơ quan tiếp nhận hồ sơ để trao cho người sử dụng đất, chủ sở hữu tài sản gắn liền với đất. \n- Chuyển hồ sơ kèm theo bản sao Giấy chứng nhận đã cấp đến Chi nhánh Văn phòng đăng ký đất đai để lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai. \n3.2. Đối với trường hợp đã có Thông báo xác nhận kết quả đăng ký đất đai thì Ủy ban nhân dân cấp xã nơi có đất tổ chức thực hiện: \n- Đối với trường hợp Thông báo xác nhận kết quả đăng ký đất đai, tài sản gắn liền với đất thể hiện đủ điều kiện cấp Giấy chứng nhận và tại thời điểm cấp Giấy chứng nhận không thuộc trường hợp quy định tại điểm đ và e khoản 1 Điều 151 Luật Đất đai thì gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 19 ban hành kèm theo Quyết định 57/2026/QĐ-UBND đến cơ quan thuế để cơ quan thuế xác định và thông báo thu nghĩa vụ tài chính cho người sử dụng đất, chủ sở hữu tài sản gắn liền với đất. \n- Đối với trường hợp Thông báo xác nhận kết quả đăng ký đất đai không thể hiện đủ điều kiện cấp Giấy chứng nhận thì thực hiện các công việc tại các điểm b, c, d, đ mục 3.1. \n- Khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính hoặc được ghi nợ nghĩa vụ tài chính: \n+ Chủ tịch Ủy ban nhân dân cấp xã cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất. \n+ Chuyển Giấy chứng nhận cho cơ quan tiếp nhận hồ sơ để trao cho người sử dụng đất, chủ sở hữu tài sản gắn liền với đất. \n+ Chuyển hồ sơ kèm theo bản sao Giấy chứng nhận đã cấp đến Chi nhánh Văn phòng đăng ký đất đai để lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai.",
-    "THÀNH PHẦN HỒ SƠ": "\nĐơn đăng ký đất đai, tài sản gắn liền với đất (theo Mẫu số 15)\nMột trong các loại giấy tờ về quyền sở hữu tài sản theo khoản 1, khoản 5 Điều 148, khoản 1, khoản 5 Điều 149 Luật Đất đai; sơ đồ nhà ở, công trình xây dựng (nếu có)\nGiấy tờ về việc chuyển quyền sử dụng đất và Giấy chứng nhận đã cấp cho phần diện tích tăng thêm (thửa đất gốc có giấy tờ theo Điều 137 mà có phần diện tích tăng thêm đã được cấp GCN)\nVăn bản cam kết của người nhận thừa kế hoặc văn bản thỏa thuận của những người nhận thừa kế (trường hợp nhận thừa kế QSDĐ chưa được cấp Giấy chứng nhận)\nGiấy tờ về việc nhận thừa kế quyền sử dụng đất theo pháp luật dân sự và giấy tờ về việc chuyển quyền sử dụng đất (khoản 4 Điều 45 Luật Đất đai)\nGiấy tờ về giao đất không đúng thẩm quyền hoặc giấy tờ về việc mua, nhận thanh lý, hóa giá, phân phối nhà ở, công trình xây dựng gắn liền với đất theo Điều 140 Luật Đất đai (nếu có)\nQuyết định xử phạt vi phạm hành chính trong lĩnh vực đất đai và giấy tờ chứng minh đã thực hiện quyết định xử phạt (nếu có vi phạm)\nHợp đồng/văn bản thỏa thuận/quyết định của Tòa án về việc xác lập quyền đối với thửa đất liền kề kèm sơ đồ (trường hợp đăng ký quyền đối với thửa đất liền kề)\nVăn bản xác định các thành viên có chung quyền sử dụng đất của hộ gia đình đang sử dụng đất\nMảnh trích đo bản đồ địa chính thửa đất / trích lục bản đồ địa chính (nếu có hoặc theo yêu cầu đo đạc lại)\nHồ sơ thiết kế xây dựng công trình đã được thẩm định hoặc văn bản chấp thuận kết quả nghiệm thu công trình (trường hợp công trình trên đất nông nghiệp không có giấy tờ theo Điều 149 hoặc được miễn phép xây dựng)\nQuyết định xử phạt vi phạm hành chính trong lĩnh vực đất đai và giấy tờ chứng minh đã thực hiện (điểm a khoản 6 Điều 25 Nghị định 101/2024/NĐ-CP)\nChứng từ/giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính về đất đai\nHợp đồng, văn bản chuyển quyền sử dụng đất có chữ ký bên chuyển và bên nhận (trường hợp đã chuyển quyền trước 01/8/2024 chưa làm thủ tục)\nGiấy xác nhận của cơ quan có chức năng quản lý về xây dựng cấp huyện trước ngày 01/7/2025 về đủ điều kiện tồn tại nhà ở, công trình xây dựng (nếu có)",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 20 ngày làm việc - Không quá 17 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất lần đầu; không quá 20 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận lần đầu (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 17 ngày làm việc; cấp Giấy chứng nhận lần đầu là không quá 03 ngày làm việc). \nĐối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 27 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất lần đầu; không quá 30 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất lần đầu.\nTrực tuyến: 20 ngày làm việc - Không quá 17 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất lần đầu; không quá 20 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận lần đầu (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 17 ngày làm việc; cấp Giấy chứng nhận lần đầu là không quá 03 ngày làm việc). \nĐối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 27 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất lần đầu; không quá 30 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất lần đầu.\nQua dịch vụ bưu chính: 20 ngày làm việc - Không quá 17 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất lần đầu; không quá 20 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận lần đầu (trong đó đăng ký đất đai, tài sản gắn liền với đất lần đầu là không quá 17 ngày làm việc; cấp Giấy chứng nhận lần đầu là không quá 03 ngày làm việc). \nĐối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 27 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất lần đầu; không quá 30 ngày làm việc đối với trường hợp đăng ký đất đai, tài sản gắn liền với đất, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất lần đầu.",
-    "CĂN CỨ PHÁP LÝ": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP\nQuy định trình tự, thủ tục hành chính trong lĩnh vực đất đai trên địa bàn tỉnh Đắk Lắk. - 57/2026/QĐ-UBND\nNghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai. - 102/2024/NĐ-CP\nQuy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai - 151/2025/NĐ-CP\nSửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai - 226/2025/NĐ-CP\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15 \nNghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai. - 101/2024/NĐ-CP ",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến Bộ phận Một cửa. \nKhi nộp các giấy tờ quy định, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực theo quy định của pháp luật. \nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.\nBước 2: Cơ quan tiếp nhận hồ sơ thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả. Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định. \n- Chuyển hồ sơ đến Ủy ban nhân dân cấp xã nơi có đất.\nBước 3: \n3.1. Đối với trường hợp thực hiện thủ tục đăng ký, cấp Giấy chứng nhận thì Ủy ban nhân dân cấp xã tổ chức thực hiện các nội dung sau: \na) Trích lục bản đồ địa chính đối với nơi đã có bản đồ địa chính. Đối với nơi chưa có bản đồ địa chính và trong hồ sơ đăng ký, cấp Giấy chứng nhận đã có mảnh trích đo bản đồ địa chính thì kiểm tra, ký xác nhận mảnh trích đo bản đồ địa chính theo quy định, trừ trường hợp mảnh trích đo bản đồ địa chính đã được Ủy ban nhân dân cấp xã xác nhận hoặc Chi nhánh Văn phòng đăng ký đất đai kiểm tra, ký duyệt trước ngày 01 tháng 7 năm 2025; trường hợp trong hồ sơ đăng ký, cấp Giấy chứng nhận chưa có mảnh trích đo bản đồ địa chính thì đề nghị đơn vị đo đạc thực hiện việc trích đo bản đồ địa chính; đơn vị đo đạc có trách nhiệm thực hiện trích đo bản đồ địa chính trong thời gian không quá 05 ngày làm việc kể từ ngày nhận được đề nghị. \nb) Xác nhận hiện trạng sử dụng đất có hay không có nhà ở, công trình xây dựng; tình trạng tranh chấp đất đai, tài sản gắn liền với đất, việc sử dụng đất ổn định; đối với trường hợp không có giấy tờ về quyền sử dụng đất thì xác nhận thêm nguồn gốc sử dụng đất. \nc) Kiểm tra sự phù hợp với quy hoạch đối với các trường hợp có yêu cầu phải phù hợp với quy hoạch để cấp Giấy chứng nhận. \nd) Niêm yết công khai kết quả kiểm tra, rà soát theo Mẫu số 17 ban hành kèm theo Quyết định 57/2026/QĐ-UBND tại trụ sở Ủy ban nhân dân cấp xã, khu dân cư nơi có đất, tài sản gắn liền với đất trong thời gian 15 ngày, đồng thời thực hiện xem xét giải quyết các ý kiến phản ánh về nội dung đã công khai (nếu có). \nđ) Kiểm tra việc đủ điều kiện hay không đủ điều kiện được cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai: \n- Đối với trường hợp không có nhu cầu hoặc không đủ điều kiện cấp Giấy chứng nhận thì thực hiện: \n+ Ban hành Thông báo xác nhận kết quả đăng ký đất đai theo Mẫu số 16 ban hành kèm theo Quyết định 57/2026/QĐ-UBND; chuyển Thông báo đến nơi nộp hồ sơ để trả cho người yêu cầu đăng ký. \n+ Chuyển hồ sơ đến Chi nhánh Văn phòng đăng ký đất đai để lập, cập nhật thông tin đăng ký đất đai, tài sản gắn liền với đất vào hồ sơ địa chính, cơ sở dữ liệu đất đai. \n- Đối với trường hợp có nhu cầu và đủ điều kiện cấp Giấy chứng nhận thì gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 19 ban hành kèm theo Quyết định 57/2026/QĐ-UBND đến cơ quan thuế để cơ quan thuế xác định và thông báo thu nghĩa vụ tài chính cho người sử dụng đất, chủ sở hữu tài sản gắn liền với đất. \ne) Khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính hoặc được ghi nợ nghĩa vụ tài chính: \n- Chủ tịch Ủy ban nhân dân cấp xã cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất. \n- Chuyển Giấy chứng nhận cho cơ quan tiếp nhận hồ sơ để trao cho người sử dụng đất, chủ sở hữu tài sản gắn liền với đất. \n- Chuyển hồ sơ kèm theo bản sao Giấy chứng nhận đã cấp đến Chi nhánh Văn phòng đăng ký đất đai để lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai. \n3.2. Đối với trường hợp đã có Thông báo xác nhận kết quả đăng ký đất đai thì Ủy ban nhân dân cấp xã nơi có đất tổ chức thực hiện: \n- Đối với trường hợp Thông báo xác nhận kết quả đăng ký đất đai, tài sản gắn liền với đất thể hiện đủ điều kiện cấp Giấy chứng nhận và tại thời điểm cấp Giấy chứng nhận không thuộc trường hợp quy định tại điểm đ và e khoản 1 Điều 151 Luật Đất đai thì gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 19 ban hành kèm theo Quyết định 57/2026/QĐ-UBND đến cơ quan thuế để cơ quan thuế xác định và thông báo thu nghĩa vụ tài chính cho người sử dụng đất, chủ sở hữu tài sản gắn liền với đất. \n- Đối với trường hợp Thông báo xác nhận kết quả đăng ký đất đai không thể hiện đủ điều kiện cấp Giấy chứng nhận thì thực hiện các công việc tại các điểm b, c, d, đ mục 3.1. \n- Khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính hoặc được ghi nợ nghĩa vụ tài chính: \n+ Chủ tịch Ủy ban nhân dân cấp xã cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất. \n+ Chuyển Giấy chứng nhận cho cơ quan tiếp nhận hồ sơ để trao cho người sử dụng đất, chủ sở hữu tài sản gắn liền với đất. \n+ Chuyển hồ sơ kèm theo bản sao Giấy chứng nhận đã cấp đến Chi nhánh Văn phòng đăng ký đất đai để lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai.",
+    "THÀNH PHẦN HỒ SƠ": "Đơn đăng ký đất đai, tài sản gắn liền với đất (theo Mẫu số 15)\nMột trong các loại giấy tờ về quyền sở hữu tài sản theo khoản 1, khoản 5 Điều 148, khoản 1, khoản 5 Điều 149 Luật Đất đai; sơ đồ nhà ở, công trình xây dựng (nếu có)\nGiấy tờ về việc chuyển quyền sử dụng đất và Giấy chứng nhận đã cấp cho phần diện tích tăng thêm (thửa đất gốc có giấy tờ theo Điều 137 mà có phần diện tích tăng thêm đã được cấp GCN)\nVăn bản cam kết của người nhận thừa kế hoặc văn bản thỏa thuận của những người nhận thừa kế (trường hợp nhận thừa kế QSDĐ chưa được cấp Giấy chứng nhận)\nGiấy tờ về việc nhận thừa kế quyền sử dụng đất theo pháp luật dân sự và giấy tờ về việc chuyển quyền sử dụng đất (khoản 4 Điều 45 Luật Đất đai)\nGiấy tờ về giao đất không đúng thẩm quyền hoặc giấy tờ về việc mua, nhận thanh lý, hóa giá, phân phối nhà ở, công trình xây dựng gắn liền với đất theo Điều 140 Luật Đất đai (nếu có)\nQuyết định xử phạt vi phạm hành chính trong lĩnh vực đất đai và giấy tờ chứng minh đã thực hiện quyết định xử phạt (nếu có vi phạm)\nHợp đồng/văn bản thỏa thuận/quyết định của Tòa án về việc xác lập quyền đối với thửa đất liền kề kèm sơ đồ (trường hợp đăng ký quyền đối với thửa đất liền kề)\nVăn bản xác định các thành viên có chung quyền sử dụng đất của hộ gia đình đang sử dụng đất\nMảnh trích đo bản đồ địa chính thửa đất / trích lục bản đồ địa chính (nếu có hoặc theo yêu cầu đo đạc lại)\nHồ sơ thiết kế xây dựng công trình đã được thẩm định hoặc văn bản chấp thuận kết quả nghiệm thu công trình (trường hợp công trình trên đất nông nghiệp không có giấy tờ theo Điều 149 hoặc được miễn phép xây dựng)\nQuyết định xử phạt vi phạm hành chính trong lĩnh vực đất đai và giấy tờ chứng minh đã thực hiện (điểm a khoản 6 Điều 25 Nghị định 101/2024/NĐ-CP)\nChứng từ/giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính về đất đai\nHợp đồng, văn bản chuyển quyền sử dụng đất có chữ ký bên chuyển và bên nhận (trường hợp đã chuyển quyền trước 01/8/2024 chưa làm thủ tục)\nGiấy xác nhận của cơ quan có chức năng quản lý về xây dựng cấp huyện trước ngày 01/7/2025 về đủ điều kiện tồn tại nhà ở, công trình xây dựng (nếu có)",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 20 ngày làm việc\nTrực tuyến: 20 ngày làm việc\nQua dịch vụ bưu chính: 20 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP\nQuy định trình tự, thủ tục hành chính trong lĩnh vực đất đai trên địa bàn tỉnh Đắk Lắk. - 57/2026/QĐ-UBND\nNghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai. - 102/2024/NĐ-CP\nQuy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai - 151/2025/NĐ-CP\nSửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai - 226/2025/NĐ-CP\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15\nNghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai. - 101/2024/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Ủy ban nhân dân cấp xã",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
     "KẾT QUẢ XỬ LÝ": "Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất - H15-KQ000200\nThông báo xác nhận kết quả đăng ký đất đai - H15-KQ000312",
@@ -313,14 +254,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đất đai",
-      "slug": "dat-dai"
+      "slug": "at-ai"
     },
     "implementation_levels": [
       {
@@ -331,7 +267,7 @@
     "target_users": [
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -352,6 +288,6 @@
         "slug": "uy-ban-nhan-dan-cap-xa"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

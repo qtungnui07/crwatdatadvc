@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-f15b-769a-b98c-98dad3297fc3",
   "procedure_code": "2.002610",
   "title": "Đăng ký tham gia Hệ thống mạng đấu thầu quốc gia",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-f15b-769a-b98c-98dad3297fc3",
     "source_file": "chi-tiet-thu-tuc-2.002610.pdf",
     "source_path": "procedures/viec-lam/2.002610/chi-tiet-thu-tuc-2.002610.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:22.254122+00:00",
-    "source_updated_at": "2026-07-01T02:53:28.009Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:25.802040+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "e1704fe10ea2541174a6c7cde38806c48949826f34fe4f2aabaef7784b1c3a78"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:22.254122+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2757/QĐ-BTC",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Đấu thầu",
   "target_users": [
@@ -39,18 +35,22 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cục Quản lý đấu thầu - Bộ Tài chính",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Quản lý đấu thầu - Bộ Tài chính"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Đăng ký thông tin tổ chức, cá nhân\n+ Tổ chức, cá nhân nhập thông tin vào đơn đăng ký được hình thành trên Hệ thống mạng đấu thầu quốc gia tại địa chỉ https://muasamcong.mof.gov.vn hoặc Cổng dịch vụ công quốc gia (nếu có) (sau đây gọi tắt là Hệ thống);\n+ Tổ chức, cá nhân nộp Hồ sơ đăng ký theo quy định tại điểm c khoản này trên Hệ thống;\n- Bước 2: Nhận kết quả xử lý Hồ sơ đăng ký và thông tin tài khoản đăng nhập của tổ chức, cá nhân tham gia Hệ thống qua thư điện tử.",
+      "description": "Bước 1: Đăng ký thông tin tổ chức, cá nhân\n+ Tổ chức, cá nhân nhập thông tin vào đơn đăng ký được hình thành trên Hệ thống mạng đấu thầu quốc gia tại địa chỉ https://muasamcong.mof.gov.vn hoặc Cổng dịch vụ công quốc gia (nếu có) (sau đây gọi tắt là Hệ thống);\n+ Tổ chức, cá nhân nộp Hồ sơ đăng ký theo quy định tại điểm c khoản này trên Hệ thống;",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Nhận kết quả xử lý Hồ sơ đăng ký và thông tin tài khoản đăng nhập của tổ chức, cá nhân tham gia Hệ thống qua thư điện tử.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -58,49 +58,34 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "(i) Đơn đăng ký hình thành trên Hệ thống được ký hoặc xác thực điện tử, đóng dấu (nếu có) bởi đại diện hợp pháp của tổ chức",
-        "code": "000.00.00.G12-KQ014393",
+        "name": "+ Tổ chức nộp Hồ sơ đăng ký trên Hệ thống gồm các tài liệu sau:: (i) Đơn đăng ký hình thành trên Hệ thống được ký hoặc xác thực điện tử, đóng dấu (nếu có) bởi đại diện hợp pháp của tổ chức",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "+ Tổ chức nộp Hồ sơ đăng ký trên Hệ thống gồm các tài liệu sau:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "(ii) Giấy ủy quyền (nếu có)",
-        "code": "000.00.00.G12-KQ014394",
+        "name": "+ Tổ chức nộp Hồ sơ đăng ký trên Hệ thống gồm các tài liệu sau:: (ii) Giấy ủy quyền (nếu có)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "+ Tổ chức nộp Hồ sơ đăng ký trên Hệ thống gồm các tài liệu sau:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "(iii) Quyết định thành lập hoặc Giấy chứng nhận đăng ký doanh nghiệp hoặc Giấy chứng nhận đăng ký hộ kinh doanh hoặc Giấy chứng nhận đăng ký hợp tác xã, liên hiệp hợp tác xã, tổ hợp tác hoặc các tài liệu tương đương khác trong trường hợp tổ chức không có tên trên Hệ thống thông tin quốc gia về đăng ký doanh nghiệp",
-        "code": "000.00.00.G12-KQ014395",
+        "name": "+ Tổ chức nộp Hồ sơ đăng ký trên Hệ thống gồm các tài liệu sau:: (iii) Quyết định thành lập hoặc Giấy chứng nhận đăng ký doanh nghiệp hoặc Giấy chứng nhận đăng ký hộ kinh doanh hoặc Giấy chứng nhận đăng ký hợp tác xã, liên hiệp hợp tác xã, tổ hợp tác hoặc các tài liệu tương đương khác trong trường hợp tổ chức không có tên trên Hệ thống thông tin quốc gia về đăng ký doanh nghiệp",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "+ Tổ chức nộp Hồ sơ đăng ký trên Hệ thống gồm các tài liệu sau:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "(ii) Bản chụp hộ chiếu hoặc tài liệu tương đương đối với cá nhân mang quốc tịch nước  ngoài.",
-        "code": "000.00.00.G12-KQ014397",
+        "name": "+ Cá nhân nộp Hồ sơ đăng ký trên Hệ thống gồm các tài liệu sau: (ii) Bản chụp hộ chiếu hoặc tài liệu tương đương đối với cá nhân mang quốc tịch nước  ngoài.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "+ Cá nhân nộp Hồ sơ đăng ký trên Hệ thống gồm các tài liệu sau",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "(i) Đơn đăng ký hình thành trên Hệ thống được ký hoặc xác thực điện tử bởi cá nhân đăng ký;",
-        "code": "000.00.00.G12-KQ014396",
+        "name": "+ Cá nhân nộp Hồ sơ đăng ký trên Hệ thống gồm các tài liệu sau: (i) Đơn đăng ký hình thành trên Hệ thống được ký hoặc xác thực điện tử bởi cá nhân đăng ký;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "+ Cá nhân nộp Hồ sơ đăng ký trên Hệ thống gồm các tài liệu sau",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -109,33 +94,22 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "2 ngày làm việc",
-      "processing_time_value": 2,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Không",
-          "attachment": null
-        }
-      ],
+      "fee": "Không",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "free",
+    "summary": "Không",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Không",
-        "attachment": null
+        "amount_text": "Không",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -143,14 +117,12 @@
     {
       "title": "Luật Đấu thầu",
       "document_number": "22/2023/QH15",
-      "id": "019d2bb3-5d86-7760-a644-adcfadd69c99",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định số 214/2025/NĐ-CP của Chính phủ: Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu",
       "document_number": "214/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afed-5680da360d57",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -158,13 +130,12 @@
     {
       "title": "Nhà thầu, nhà đầu tư có tên trong danh sách cơ sở dữ liệu nhà thầu, nhà đầu tư được phê duyệt trên Hệ thống, được cấp Tài khoản tham gia Hệ thống",
       "code": "KQ.G12.001364",
-      "id": "019d2bb2-1c73-70ac-aa19-03967d7596ed",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Bước 1: Đăng ký thông tin tổ chức, cá nhân\n+ Tổ chức, cá nhân nhập thông tin vào đơn đăng ký được hình thành trên Hệ thống mạng đấu thầu quốc gia tại địa chỉ https://muasamcong.mof.gov.vn hoặc Cổng dịch vụ công quốc gia (nếu có) (sau đây gọi tắt là Hệ thống);\n+ Tổ chức, cá nhân nộp Hồ sơ đăng ký theo quy định tại điểm c khoản này trên Hệ thống;\n- Bước 2: Nhận kết quả xử lý Hồ sơ đăng ký và thông tin tài khoản đăng nhập của tổ chức, cá nhân tham gia Hệ thống qua thư điện tử.",
-    "THÀNH PHẦN HỒ SƠ": "+ Tổ chức nộp Hồ sơ đăng ký trên Hệ thống gồm các tài liệu sau:\n(i) Đơn đăng ký hình thành trên Hệ thống được ký hoặc xác thực điện tử, đóng dấu (nếu có) bởi đại diện hợp pháp của tổ chức\n(ii) Giấy ủy quyền (nếu có)\n(iii) Quyết định thành lập hoặc Giấy chứng nhận đăng ký doanh nghiệp hoặc Giấy chứng nhận đăng ký hộ kinh doanh hoặc Giấy chứng nhận đăng ký hợp tác xã, liên hiệp hợp tác xã, tổ hợp tác hoặc các tài liệu tương đương khác trong trường hợp tổ chức không có tên trên Hệ thống thông tin quốc gia về đăng ký doanh nghiệp\n+ Cá nhân nộp Hồ sơ đăng ký trên Hệ thống gồm các tài liệu sau\n(ii) Bản chụp hộ chiếu hoặc tài liệu tương đương đối với cá nhân mang quốc tịch nước  ngoài.\n(i) Đơn đăng ký hình thành trên Hệ thống được ký hoặc xác thực điện tử bởi cá nhân đăng ký;",
+    "THÀNH PHẦN HỒ SƠ": "+ Tổ chức nộp Hồ sơ đăng ký trên Hệ thống gồm các tài liệu sau:: (i) Đơn đăng ký hình thành trên Hệ thống được ký hoặc xác thực điện tử, đóng dấu (nếu có) bởi đại diện hợp pháp của tổ chức\n+ Tổ chức nộp Hồ sơ đăng ký trên Hệ thống gồm các tài liệu sau:: (ii) Giấy ủy quyền (nếu có)\n+ Tổ chức nộp Hồ sơ đăng ký trên Hệ thống gồm các tài liệu sau:: (iii) Quyết định thành lập hoặc Giấy chứng nhận đăng ký doanh nghiệp hoặc Giấy chứng nhận đăng ký hộ kinh doanh hoặc Giấy chứng nhận đăng ký hợp tác xã, liên hiệp hợp tác xã, tổ hợp tác hoặc các tài liệu tương đương khác trong trường hợp tổ chức không có tên trên Hệ thống thông tin quốc gia về đăng ký doanh nghiệp\n+ Cá nhân nộp Hồ sơ đăng ký trên Hệ thống gồm các tài liệu sau: (ii) Bản chụp hộ chiếu hoặc tài liệu tương đương đối với cá nhân mang quốc tịch nước  ngoài.\n+ Cá nhân nộp Hồ sơ đăng ký trên Hệ thống gồm các tài liệu sau: (i) Đơn đăng ký hình thành trên Hệ thống được ký hoặc xác thực điện tử bởi cá nhân đăng ký;",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 2 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Luật Đấu thầu - 22/2023/QH15\nNghị định số 214/2025/NĐ-CP của Chính phủ: Quy định chi tiết một số điều và biện pháp thi hành Luật Đấu thầu về lựa chọn nhà thầu - 214/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cục Quản lý đấu thầu - Bộ Tài chính",
@@ -174,14 +145,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Đấu thầu",
-      "slug": "dau-thau"
+      "slug": "au-thau"
     },
     "implementation_levels": [
       {
@@ -196,7 +162,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -214,9 +180,9 @@
     "agencies": [
       {
         "name": "Cục Quản lý đấu thầu - Bộ Tài chính",
-        "slug": "cuc-quan-ly-dau-thau-bo-tai-chinh"
+        "slug": "cuc-quan-ly-au-thau-bo-tai-chinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

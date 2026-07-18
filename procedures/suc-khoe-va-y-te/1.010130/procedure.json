@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d8f4a-099a-70bd-b8ac-855c6f576ddc",
   "procedure_code": "1.010130",
   "title": "Xét chọn nhân viên y tế thôn và cô đỡ thôn",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d8f4a-099a-70bd-b8ac-855c6f576ddc",
     "source_file": "chi-tiet-thu-tuc-1.010130.pdf",
     "source_path": "procedures/suc-khoe-va-y-te/1.010130/chi-tiet-thu-tuc-1.010130.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:05.683467+00:00",
-    "source_updated_at": "2026-04-15T04:14:47.493Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:16.298436+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "734368bbf96e72950edbcf50f7001478731346187e35fadb0bfe1b2a1f8e5507"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:05.683467+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2073/QĐ-UBND",
   "implementation_level": "Cấp tỉnh, Cấp xã",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cấp xã"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Tổ chức cán bộ",
   "target_users": [
@@ -36,75 +31,82 @@
   ],
   "agency": {
     "competent_agency": "Trung tâm Y tế",
-    "executing_agency": "Trung tâm Y tế",
-    "authorized_agency": "",
-    "coordinating_agency": "Chủ tịch UBND cấp xã",
-    "receiving_address": "Trạm Y tế xã"
+    "executing_agency": "Trung tâm Y tế"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Thông báo việc xét chọn\nCăn cứ nhu cầu thực tế về nhân viên y tế thôn, cô đỡ thôn Trạm Y tế xã (TYT) báo cáo với UBND xã; phối hợp với Trưởng thôn thông báo việc xét chọn nhân viên y tế thôn và cô đỡ thôn.\nBước 2: Tiếp nhận hồ sơ\nTrưởng Trạm Y tế xã, chịu trách nhiệm tiếp nhận hồ sơ, xem xét, trao đổi thống nhất với Trưởng thôn; tổng hợp danh sách, báo cáo Chủ tịch UBND xã xem xét, cho ý kiến bằng văn bản.\nBước 3: Tổ chức hội nghị thôn\nTrưởng Trạm Y tế xã thông báo đến toàn thể nhân dân trong thôn về địa điểm, nội dung, thời gian triệu tập họp thôn. Thành phần dự họp mời toàn thể nhân dân trong thôn, đại diện UBND xã, Trạm Y tế xã.\nTại buổi họp Trưởng thôn thông qua các Quy định tiêu chuẩn, chức năng, nhiệm vụ của nhân viên y tế thôn, cô đỡ thôn nêu tại Thông tư số 07/2013/TT-BYT ngày 08/3/2013 của Bộ Y tế, các văn bản của Nhà nước và UBND tỉnh liên quan đến nhân viên y tế thôn, cô đỡ thôn; thông qua danh sách tham gia xét chọn nhân viên y tế thôn, cô đỡ thôn.\nCuộc họp thôn thảo luận và thống nhất giới thiệu người làm nhân viên y tế thôn, cô đỡ thôn (có biên bản cuộc họp và kết quả tín nhiệm của các thành viên tại cuộc họp bằng hình thức giơ tay biểu quyết hoặc bỏ phiếu kín; ký xác nhận của đại diện Trạm Y tế và UBND xã).\nBước 4: Hoàn thiện hồ sơ đề nghị xét chọn\nCăn cứ kết quả giới thiệu người làm nhân viên y tế thôn tại cuộc họp thôn, trong thời hạn 15 ngày làm việc kể từ ngày nhận đầy đủ hồ sơ Trưởng Trạm Y tế xã có trách nhiệm kiểm tra, tổng hợp, lập danh sách trích ngang những người đề nghị được tham gia xét chọn làm nhân viên y tế thôn, cô đỡ thôn; có công văn gửi Trung tâm Y tế huyện, thành phố xem xét quyết định (kèm theo hồ sơ cá nhân).\nBước 5: Xét chọn\nTrên cơ sở văn bản đề nghị của Trạm Y tế xã, trong thời hạn 15 ngày làm việc kể từ khi nhận được văn bản đề nghị, Giám đốc Trung tâm Y tế huyện, thành phố xem xét, ban hành quyết định xét chọn người làm nhân viên y tế thôn, cô đỡ thôn; ký hợp đồng trách nhiệm đối với nhân viên y tế thôn, cô đỡ thôn.",
+      "description": "Bước 1: Thông báo việc xét chọn\nCăn cứ nhu cầu thực tế về nhân viên y tế thôn, cô đỡ thôn Trạm Y tế xã (TYT) báo cáo với UBND xã; phối hợp với Trưởng thôn thông báo việc xét chọn nhân viên y tế thôn và cô đỡ thôn.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Tiếp nhận hồ sơ\nTrưởng Trạm Y tế xã, chịu trách nhiệm tiếp nhận hồ sơ, xem xét, trao đổi thống nhất với Trưởng thôn; tổng hợp danh sách, báo cáo Chủ tịch UBND xã xem xét, cho ý kiến bằng văn bản.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Tổ chức hội nghị thôn\nTrưởng Trạm Y tế xã thông báo đến toàn thể nhân dân trong thôn về địa điểm, nội dung, thời gian triệu tập họp thôn. Thành phần dự họp mời toàn thể nhân dân trong thôn, đại diện UBND xã, Trạm Y tế xã.\nTại buổi họp Trưởng thôn thông qua các Quy định tiêu chuẩn, chức năng, nhiệm vụ của nhân viên y tế thôn, cô đỡ thôn nêu tại Thông tư số 07/2013/TT-BYT ngày 08/3/2013 của Bộ Y tế, các văn bản của Nhà nước và UBND tỉnh liên quan đến nhân viên y tế thôn, cô đỡ thôn; thông qua danh sách tham gia xét chọn nhân viên y tế thôn, cô đỡ thôn.\nCuộc họp thôn thảo luận và thống nhất giới thiệu người làm nhân viên y tế thôn, cô đỡ thôn (có biên bản cuộc họp và kết quả tín nhiệm của các thành viên tại cuộc họp bằng hình thức giơ tay biểu quyết hoặc bỏ phiếu kín; ký xác nhận của đại diện Trạm Y tế và UBND xã).",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "Bước 4: Hoàn thiện hồ sơ đề nghị xét chọn\nCăn cứ kết quả giới thiệu người làm nhân viên y tế thôn tại cuộc họp thôn, trong thời hạn 15 ngày làm việc kể từ ngày nhận đầy đủ hồ sơ Trưởng Trạm Y tế xã có trách nhiệm kiểm tra, tổng hợp, lập danh sách trích ngang những người đề nghị được tham gia xét chọn làm nhân viên y tế thôn, cô đỡ thôn; có công văn gửi Trung tâm Y tế huyện, thành phố xem xét quyết định (kèm theo hồ sơ cá nhân).",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 5,
+      "title": "Bước 5",
+      "description": "Bước 5: Xét chọn\nTrên cơ sở văn bản đề nghị của Trạm Y tế xã, trong thời hạn 15 ngày làm việc kể từ khi nhận được văn bản đề nghị, Giám đốc Trung tâm Y tế huyện, thành phố xem xét, ban hành quyết định xét chọn người làm nhân viên y tế thôn, cô đỡ thôn; ký hợp đồng trách nhiệm đối với nhân viên y tế thôn, cô đỡ thôn.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "- Đơn xin làm nhân viên y tế thôn, cô đỡ thôn của cá nhân",
-        "code": "000.00.00.H37-KQ0067",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Biên bản họp thôn (có xác nhận của UBND  xã)",
-        "code": "000.00.00.H37-KQ0068",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Sơ yếu lý lịch tự thuật (có xác nhận của UBND xã, phường, thị trấn nơi đang cư trú)",
-        "code": "000.00.00.H37-KQ0069",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Bản sao văn bằng chuyên môn về y (có chứng thực hoặc nộp bản sao xuất trình kèm bản chính để đối chiếu) theo quy định tại Điểm a, b Khoản 1 Điều 2 Thông tư số 07/2013/TT-BYT ngày 08/3/2013 của Bộ Y tế",
-        "code": "000.00.00.H37-KQ0070",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Giấy chứng nhận sức khỏe do cơ quan y tế có thẩm quyền cấp trong thời hạn 30 ngày, tính đến ngày nộp hồ sơ xét chọn",
-        "code": "000.00.00.H37-KQ0071",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "- Công văn đề nghị xét chọn của Trạm Y tế xã",
-        "code": "000.00.00.H37-KQ0072",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -115,34 +117,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "30 ngày làm việc",
-      "processing_time_value": 30,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "30 ngày làm việc",
-      "processing_time_value": 30,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "30 ngày làm việc",
-      "processing_time_value": 30,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "",
       "source_page": null
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -151,14 +148,12 @@
     {
       "title": "Ban hành Quy định số lượng, quy trình xét chọn, đơn vị quản lý và chi trả phụ cấp đối với nhân viên y tế thôn; tiêu chí thôn còn có khó khăn về công tác chăm sóc sức khoẻ bà mẹ và trẻ em trên địa bàn tỉnh Lạng Sơn",
       "document_number": "20/2014/QĐ-UBND",
-      "id": "019d2bb3-5d85-73da-8eb0-46e4ce4805e7",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Quy định tiêu chuẩn, chức năng, nhiệm vụ của nhân viên y tế thôn, bản",
       "document_number": "07/2013/TT-BYT",
-      "id": "019d2bb3-5d86-7760-a63a-9529bbfa7481",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -166,13 +161,12 @@
     {
       "title": "xét chọn người làm nhân viên Y tế thôn, cô đỡ thôn",
       "code": "000.00.00.H37-KQ0073",
-      "id": "019d37d6-e191-75d9-b7c7-d77cda46647c",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Bước 1: Thông báo việc xét chọn\nCăn cứ nhu cầu thực tế về nhân viên y tế thôn, cô đỡ thôn Trạm Y tế xã (TYT) báo cáo với UBND xã; phối hợp với Trưởng thôn thông báo việc xét chọn nhân viên y tế thôn và cô đỡ thôn.\nBước 2: Tiếp nhận hồ sơ\nTrưởng Trạm Y tế xã, chịu trách nhiệm tiếp nhận hồ sơ, xem xét, trao đổi thống nhất với Trưởng thôn; tổng hợp danh sách, báo cáo Chủ tịch UBND xã xem xét, cho ý kiến bằng văn bản.\nBước 3: Tổ chức hội nghị thôn\nTrưởng Trạm Y tế xã thông báo đến toàn thể nhân dân trong thôn về địa điểm, nội dung, thời gian triệu tập họp thôn. Thành phần dự họp mời toàn thể nhân dân trong thôn, đại diện UBND xã, Trạm Y tế xã.\nTại buổi họp Trưởng thôn thông qua các Quy định tiêu chuẩn, chức năng, nhiệm vụ của nhân viên y tế thôn, cô đỡ thôn nêu tại Thông tư số 07/2013/TT-BYT ngày 08/3/2013 của Bộ Y tế, các văn bản của Nhà nước và UBND tỉnh liên quan đến nhân viên y tế thôn, cô đỡ thôn; thông qua danh sách tham gia xét chọn nhân viên y tế thôn, cô đỡ thôn.\nCuộc họp thôn thảo luận và thống nhất giới thiệu người làm nhân viên y tế thôn, cô đỡ thôn (có biên bản cuộc họp và kết quả tín nhiệm của các thành viên tại cuộc họp bằng hình thức giơ tay biểu quyết hoặc bỏ phiếu kín; ký xác nhận của đại diện Trạm Y tế và UBND xã).\nBước 4: Hoàn thiện hồ sơ đề nghị xét chọn\nCăn cứ kết quả giới thiệu người làm nhân viên y tế thôn tại cuộc họp thôn, trong thời hạn 15 ngày làm việc kể từ ngày nhận đầy đủ hồ sơ Trưởng Trạm Y tế xã có trách nhiệm kiểm tra, tổng hợp, lập danh sách trích ngang những người đề nghị được tham gia xét chọn làm nhân viên y tế thôn, cô đỡ thôn; có công văn gửi Trung tâm Y tế huyện, thành phố xem xét quyết định (kèm theo hồ sơ cá nhân).\nBước 5: Xét chọn\nTrên cơ sở văn bản đề nghị của Trạm Y tế xã, trong thời hạn 15 ngày làm việc kể từ khi nhận được văn bản đề nghị, Giám đốc Trung tâm Y tế huyện, thành phố xem xét, ban hành quyết định xét chọn người làm nhân viên y tế thôn, cô đỡ thôn; ký hợp đồng trách nhiệm đối với nhân viên y tế thôn, cô đỡ thôn.",
-    "THÀNH PHẦN HỒ SƠ": "\n- Đơn xin làm nhân viên y tế thôn, cô đỡ thôn của cá nhân\n- Biên bản họp thôn (có xác nhận của UBND  xã)\n- Sơ yếu lý lịch tự thuật (có xác nhận của UBND xã, phường, thị trấn nơi đang cư trú)\n- Bản sao văn bằng chuyên môn về y (có chứng thực hoặc nộp bản sao xuất trình kèm bản chính để đối chiếu) theo quy định tại Điểm a, b Khoản 1 Điều 2 Thông tư số 07/2013/TT-BYT ngày 08/3/2013 của Bộ Y tế\n- Giấy chứng nhận sức khỏe do cơ quan y tế có thẩm quyền cấp trong thời hạn 30 ngày, tính đến ngày nộp hồ sơ xét chọn\n- Công văn đề nghị xét chọn của Trạm Y tế xã",
+    "THÀNH PHẦN HỒ SƠ": "- Đơn xin làm nhân viên y tế thôn, cô đỡ thôn của cá nhân\n- Biên bản họp thôn (có xác nhận của UBND  xã)\n- Sơ yếu lý lịch tự thuật (có xác nhận của UBND xã, phường, thị trấn nơi đang cư trú)\n- Bản sao văn bằng chuyên môn về y (có chứng thực hoặc nộp bản sao xuất trình kèm bản chính để đối chiếu) theo quy định tại Điểm a, b Khoản 1 Điều 2 Thông tư số 07/2013/TT-BYT ngày 08/3/2013 của Bộ Y tế\n- Giấy chứng nhận sức khỏe do cơ quan y tế có thẩm quyền cấp trong thời hạn 30 ngày, tính đến ngày nộp hồ sơ xét chọn\n- Công văn đề nghị xét chọn của Trạm Y tế xã",
     "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 30 ngày làm việc\nTrực tuyến: 30 ngày làm việc\nQua dịch vụ bưu chính: 30 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Ban hành Quy định số lượng, quy trình xét chọn, đơn vị quản lý và chi trả phụ cấp đối với nhân viên y tế thôn; tiêu chí thôn còn có khó khăn về công tác chăm sóc sức khoẻ bà mẹ và trẻ em trên địa bàn tỉnh Lạng Sơn - 20/2014/QĐ-UBND\nQuy định tiêu chuẩn, chức năng, nhiệm vụ của nhân viên y tế thôn, bản - 07/2013/TT-BYT",
     "CƠ QUAN THỰC HIỆN": "Trung tâm Y tế",
@@ -182,11 +176,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Sức khỏe và y tế",
-      "slug": "suc-khoe-va-y-te",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Tổ chức cán bộ",
       "slug": "to-chuc-can-bo"
@@ -213,6 +202,6 @@
         "slug": "trung-tam-y-te"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

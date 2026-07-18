@@ -1,35 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bff-9319-74ab-b133-0fef74a218d3",
   "procedure_code": "1.001081",
   "title": "Thủ tục chấp thuận tạm ngừng giao dịch từ 05 ngày làm việc trở lên (trừ trường hợp tạm ngừng giao dịch do sự kiện bất khả kháng) của ngân hàng thương mại và chi nhánh ngân hàng nước ngoài",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-9319-74ab-b133-0fef74a218d3",
     "source_file": "chi-tiet-thu-tuc-1.001081.pdf",
     "source_path": "procedures/viec-lam/1.001081/chi-tiet-thu-tuc-1.001081.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:21:59.099721+00:00",
-    "source_updated_at": "2026-05-26T16:38:41.615Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:51.641141+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "36a3ebb68b21530032a62c73b4dc39717843765a9cba8f3cf0fdad2201b65a52"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:59.099721+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1106/QĐ-NHNN",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thành lập và hoạt động ngân hàng",
   "target_users": [
@@ -38,18 +32,29 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ngân hàng Nhà nước Việt Nam, Ngân hàng Nhà nước Khu vực",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ngân hàng Nhà nước Việt Nam, Ngân hàng Nhà nước Khu vực"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "+ Bước 1: Tối thiểu 45 ngày làm việc trước ngày dự kiến tạm ngừng giao dịch, ngân hàng thương mại, chi nhánh ngân hàng nước ngoài lập hồ sơ gửi Ngân hàng Nhà nước.\n+ Bước 2: Trường hợp hồ sơ chưa đầy đủ, hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu ngân hàng thương mại, chi nhánh ngân hàng nước ngoài bổ sung, hoàn thiện hồ sơ.\n+ Bước 3: Trong thời hạn 15 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Ngân hàng Nhà nước có văn bản chấp thuận đề nghị của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài; trường hợp không chấp thuận, Ngân hàng Nhà nước có văn bản trả lời và nêu rõ lý do.\n",
+      "description": "+ Bước 1: Tối thiểu 45 ngày làm việc trước ngày dự kiến tạm ngừng giao dịch, ngân hàng thương mại, chi nhánh ngân hàng nước ngoài lập hồ sơ gửi Ngân hàng Nhà nước.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "+ Bước 2: Trường hợp hồ sơ chưa đầy đủ, hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu ngân hàng thương mại, chi nhánh ngân hàng nước ngoài bổ sung, hoàn thiện hồ sơ.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "+ Bước 3: Trong thời hạn 15 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Ngân hàng Nhà nước có văn bản chấp thuận đề nghị của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài; trường hợp không chấp thuận, Ngân hàng Nhà nước có văn bản trả lời và nêu rõ lý do.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -58,30 +63,21 @@
     "conditional": [
       {
         "name": "a) Văn bản đề nghị, trong đó tối thiểu bao gồm các nội dung sau: (i) Số ngày và thời gian dự kiến tạm ngừng giao dịch;  (ii) Lý do, sự cần thiết của việc tạm ngừng giao dịch; (iii) Các giải pháp dự kiến thực hiện để giảm thiểu tối đa ảnh hưởng của việc tạm ngừng giao dịch đến quyền và lợi ích của khách hàng;",
-        "code": "G19-KQ005397",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "b) Nghị quyết hoặc quyết định của Hội đồng quản trị đối với ngân hàng thương mại cổ phần, Nghị quyết hoặc quyết định của Hội đồng thành viên đối với ngân hàng thương mại trách nhiệm hữu hạn về việc tạm ngừng giao dịch; Quyết định của Tổng Giám đốc chi nhánh ngân hàng nước ngoài về việc tạm ngừng giao dịch;",
-        "code": "G19-KQ005396",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "c)Tài liệu chứng minh sự cần thiết của việc tạm ngừng giao dịch.",
-        "code": "G19-KQ005398",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -90,17 +86,7 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -108,42 +94,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -151,20 +124,17 @@
     {
       "title": "50/2025/TT-NHNN",
       "document_number": "số 50/2025/TT-NHNN",
-      "id": "019d2bb3-5d87-7195-a44a-7b431f641225",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "phân cấp thực hiện thủ tục hành chính trong lĩnh vực thông tin tín dụng và sủa đổi, bổ sung một số điều của các Thông tư liên quan đến cắt giảm, đơn giản hóa, phân cấp thực hiện thủ tục hành chính trong lĩnh vực thành lập và hoạt động ngân hàng",
       "document_number": "11/2026/TT-NHNN",
-      "id": "019e5a86-02a8-7245-8b3b-17e740bdce16",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Luật Các tổ chức tín dụng",
       "document_number": "Luật số 32/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b675-1125e97928b3",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -172,19 +142,17 @@
     {
       "title": "Văn bản chấp thuận đề nghị của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài",
       "code": "KQ.G19.000195",
-      "id": "019d2bb2-1c7c-74ea-bcd4-7c59610643bd",
-      "source_page": null
+      "source_page": 1
     },
     {
       "title": "Văn bản không  chấp thuận đề nghị của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài",
       "code": "KQ.G19.000444",
-      "id": "019d2bb2-1c7d-740f-b033-1bce4640a2b6",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Tối thiểu 45 ngày làm việc trước ngày dự kiến tạm ngừng giao dịch, ngân hàng thương mại, chi nhánh ngân hàng nước ngoài lập hồ sơ gửi Ngân hàng Nhà nước.\n+ Bước 2: Trường hợp hồ sơ chưa đầy đủ, hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu ngân hàng thương mại, chi nhánh ngân hàng nước ngoài bổ sung, hoàn thiện hồ sơ.\n+ Bước 3: Trong thời hạn 15 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Ngân hàng Nhà nước có văn bản chấp thuận đề nghị của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài; trường hợp không chấp thuận, Ngân hàng Nhà nước có văn bản trả lời và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\na) Văn bản đề nghị, trong đó tối thiểu bao gồm các nội dung sau: (i) Số ngày và thời gian dự kiến tạm ngừng giao dịch;  (ii) Lý do, sự cần thiết của việc tạm ngừng giao dịch; (iii) Các giải pháp dự kiến thực hiện để giảm thiểu tối đa ảnh hưởng của việc tạm ngừng giao dịch đến quyền và lợi ích của khách hàng;\nb) Nghị quyết hoặc quyết định của Hội đồng quản trị đối với ngân hàng thương mại cổ phần, Nghị quyết hoặc quyết định của Hội đồng thành viên đối với ngân hàng thương mại trách nhiệm hữu hạn về việc tạm ngừng giao dịch; Quyết định của Tổng Giám đốc chi nhánh ngân hàng nước ngoài về việc tạm ngừng giao dịch;\nc)Tài liệu chứng minh sự cần thiết của việc tạm ngừng giao dịch.",
+    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Tối thiểu 45 ngày làm việc trước ngày dự kiến tạm ngừng giao dịch, ngân hàng thương mại, chi nhánh ngân hàng nước ngoài lập hồ sơ gửi Ngân hàng Nhà nước.\n+ Bước 2: Trường hợp hồ sơ chưa đầy đủ, hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu ngân hàng thương mại, chi nhánh ngân hàng nước ngoài bổ sung, hoàn thiện hồ sơ.\n+ Bước 3: Trong thời hạn 15 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Ngân hàng Nhà nước có văn bản chấp thuận đề nghị của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài; trường hợp không chấp thuận, Ngân hàng Nhà nước có văn bản trả lời và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "a) Văn bản đề nghị, trong đó tối thiểu bao gồm các nội dung sau: (i) Số ngày và thời gian dự kiến tạm ngừng giao dịch;  (ii) Lý do, sự cần thiết của việc tạm ngừng giao dịch; (iii) Các giải pháp dự kiến thực hiện để giảm thiểu tối đa ảnh hưởng của việc tạm ngừng giao dịch đến quyền và lợi ích của khách hàng;\nb) Nghị quyết hoặc quyết định của Hội đồng quản trị đối với ngân hàng thương mại cổ phần, Nghị quyết hoặc quyết định của Hội đồng thành viên đối với ngân hàng thương mại trách nhiệm hữu hạn về việc tạm ngừng giao dịch; Quyết định của Tổng Giám đốc chi nhánh ngân hàng nước ngoài về việc tạm ngừng giao dịch;\nc)Tài liệu chứng minh sự cần thiết của việc tạm ngừng giao dịch.",
     "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 15 ngày làm việc\nTrực tiếp: 15 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "50/2025/TT-NHNN - số 50/2025/TT-NHNN\nphân cấp thực hiện thủ tục hành chính trong lĩnh vực thông tin tín dụng và sủa đổi, bổ sung một số điều của các Thông tư liên quan đến cắt giảm, đơn giản hóa, phân cấp thực hiện thủ tục hành chính trong lĩnh vực thành lập và hoạt động ngân hàng - 11/2026/TT-NHNN\nLuật Các tổ chức tín dụng - Luật số 32/2024/QH15",
     "CƠ QUAN THỰC HIỆN": "Ngân hàng Nhà nước Việt Nam, Ngân hàng Nhà nước Khu vực",
@@ -194,14 +162,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thành lập và hoạt động ngân hàng",
-      "slug": "thanh-lap-va-hoat-dong-ngan-hang"
+      "slug": "thanh-lap-va-hoat-ong-ngan-hang"
     },
     "implementation_levels": [
       {
@@ -237,6 +200,6 @@
         "slug": "ngan-hang-nha-nuoc-khu-vuc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

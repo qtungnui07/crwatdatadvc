@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bff-1dbf-701a-a79e-5889c51598ba",
   "procedure_code": "1.012295",
   "title": "Công nhận biết tiếng Việt thành thạo hoặc sử dụng thành thạo ngôn ngữ khác hoặc đủ trình độ phiên dịch.",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-1dbf-701a-a79e-5889c51598ba",
     "source_file": "chi-tiet-thu-tuc-1.012295.pdf",
     "source_path": "procedures/hoc-tap/1.012295/chi-tiet-thu-tuc-1.012295.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:07.591314+00:00",
-    "source_updated_at": "2026-05-13T07:01:40.000Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:16.422608+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "a82106ceac6f53562a50a0fe503c326767770cdf17d87e04687de3a1b208c345"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:07.591314+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "159/QĐ-BYT",
   "implementation_level": "Cơ quan khác",
-  "implementation_levels": [
-    "Cơ quan khác"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đào tạo và Nghiên cứu khoa học",
   "target_users": [
@@ -38,57 +34,46 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cơ sở giáo dục",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cơ sở giáo dục"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: \nNgười đề nghị công nhận gửi 01 bộ hồ sơ quy định tại khoản 2 Điều 142 Nghị định số 96/2023/NĐ-CP tới cơ sở giáo dục quy định tại Điều 140 Nghị định số 96/2023/NĐ-CP;\nBước 2: \nTrong thời hạn 10 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, cơ sở giáo dục phải cấp giấy chứng nhận theo Mẫu 02 Phụ lục III ban hành kèm theo Nghị định số 96/2023/NĐ-CP đối với các trường hợp quy định tại khoản 3 Điều 138, khoản 2 Điều 139 Nghị định số 96/2023/NĐ-CP. Trường hợp không cấp giấy chứng nhận phải có văn bản trả lời và nêu rõ lý do.\n",
+      "description": "Bước 1: \nNgười đề nghị công nhận gửi 01 bộ hồ sơ quy định tại khoản 2 Điều 142 Nghị định số 96/2023/NĐ-CP tới cơ sở giáo dục quy định tại Điều 140 Nghị định số 96/2023/NĐ-CP;",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: \nTrong thời hạn 10 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, cơ sở giáo dục phải cấp giấy chứng nhận theo Mẫu 02 Phụ lục III ban hành kèm theo Nghị định số 96/2023/NĐ-CP đối với các trường hợp quy định tại khoản 3 Điều 138, khoản 2 Điều 139 Nghị định số 96/2023/NĐ-CP. Trường hợp không cấp giấy chứng nhận phải có văn bản trả lời và nêu rõ lý do.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "a) Đơn đề nghị công nhận biết thành thạo tiếng Việt hoặc sử dụng thành thạo ngôn ngữ khác hoặc đủ trình độ phiên dịch trong khám bệnh, chữa bệnh quy định tại Mẫu 01 Phụ lục III ban hành kèm theo Nghị định số 96/2023/NĐ-CP;",
-        "code": "000.00.00.G18-KQ004667",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e2024-9b7c-713d-a07a-4530b14c3034",
-            "name": "Mẫu 01 PL 3.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu 01 PL 3.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "c) Bản sao hợp lệ văn bằng, chứng chỉ quy định tại khoản 3 Điều 138 Nghị định số 96/2023/NĐ-CP đối với trường hợp đề nghị công nhận biết tiếng Việt thành thạo hoặc sử dụng thành thạo ngôn ngữ khác để khám bệnh, chữa bệnh; văn bằng, chứng chỉ quy định tại khoản 2 Điều 139 Nghị định số 96/2023/NĐ-CP đối với người đề nghị công nhận có đủ trình độ phiên dịch trong khám bệnh, chữa bệnh",
-        "code": "000.00.00.G18-KQ004669",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "b) Các giấy tờ quy định tại các điểm b và c khoản 1 Điều 142 Nghị định số 96/2023/NĐ-CP;",
-        "code": "000.00.00.G18-KQ004668",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -97,34 +82,29 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày",
-      "processing_time_value": 10,
-      "processing_time_unit": "DAY",
-      "fees": [],
+      "fee": null,
       "description": "10 ngày kể từ nhận được hồ sơ hợp lệ",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày",
-      "processing_time_value": 10,
-      "processing_time_unit": "DAY",
-      "fees": [],
+      "fee": null,
       "description": "10 ngày kể từ nhận được hồ sơ hợp lệ",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày",
-      "processing_time_value": 10,
-      "processing_time_unit": "DAY",
-      "fees": [],
+      "fee": null,
       "description": "10 ngày kể từ nhận được hồ sơ hợp lệ",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -133,14 +113,12 @@
     {
       "title": "Luật Khám, chữa bệnh 15/2023/QH15 (09/1/2023)",
       "document_number": "15/2023/QH15",
-      "id": "019d2bb3-5d85-73da-8eb9-b34bf387534d",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định số 96/2023/NĐ-CP ngày 30 tháng 12 năm 2023 của Chính phủ quy định chi tiết một số điều của Luật Khám bệnh, chữa bệnh.",
       "document_number": "96/2023/NĐ-CP",
-      "id": "019d2bb3-5d87-7195-a447-769d1061fb26",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -148,14 +126,13 @@
     {
       "title": "Giấy chứng nhận thành thạo ngôn ngữ trong khám bệnh, chữa bệnh",
       "code": "KQ.G18.000062",
-      "id": "019d2bb2-1c7b-7208-ba48-58eac909268d",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: \nNgười đề nghị công nhận gửi 01 bộ hồ sơ quy định tại khoản 2 Điều 142 Nghị định số 96/2023/NĐ-CP tới cơ sở giáo dục quy định tại Điều 140 Nghị định số 96/2023/NĐ-CP;\nBước 2: \nTrong thời hạn 10 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, cơ sở giáo dục phải cấp giấy chứng nhận theo Mẫu 02 Phụ lục III ban hành kèm theo Nghị định số 96/2023/NĐ-CP đối với các trường hợp quy định tại khoản 3 Điều 138, khoản 2 Điều 139 Nghị định số 96/2023/NĐ-CP. Trường hợp không cấp giấy chứng nhận phải có văn bản trả lời và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nc) Bản sao hợp lệ văn bằng, chứng chỉ quy định tại khoản 3 Điều 138 Nghị định số 96/2023/NĐ-CP đối với trường hợp đề nghị công nhận biết tiếng Việt thành thạo hoặc sử dụng thành thạo ngôn ngữ khác để khám bệnh, chữa bệnh; văn bằng, chứng chỉ quy định tại khoản 2 Điều 139 Nghị định số 96/2023/NĐ-CP đối với người đề nghị công nhận có đủ trình độ phiên dịch trong khám bệnh, chữa bệnh\nb) Các giấy tờ quy định tại các điểm b và c khoản 1 Điều 142 Nghị định số 96/2023/NĐ-CP;\na) Đơn đề nghị công nhận biết thành thạo tiếng Việt hoặc sử dụng thành thạo ngôn ngữ khác hoặc đủ trình độ phiên dịch trong khám bệnh, chữa bệnh quy định tại Mẫu 01 Phụ lục III ban hành kèm theo Nghị định số 96/2023/NĐ-CP;",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày - 10 ngày kể từ nhận được hồ sơ hợp lệ\nQua dịch vụ bưu chính: 10 ngày - 10 ngày kể từ nhận được hồ sơ hợp lệ\nTrực tiếp: 10 ngày - 10 ngày kể từ nhận được hồ sơ hợp lệ",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: \nNgười đề nghị công nhận gửi 01 bộ hồ sơ quy định tại khoản 2 Điều 142 Nghị định số 96/2023/NĐ-CP tới cơ sở giáo dục quy định tại Điều 140 Nghị định số 96/2023/NĐ-CP;\nBước 2: \nTrong thời hạn 10 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, cơ sở giáo dục phải cấp giấy chứng nhận theo Mẫu 02 Phụ lục III ban hành kèm theo Nghị định số 96/2023/NĐ-CP đối với các trường hợp quy định tại khoản 3 Điều 138, khoản 2 Điều 139 Nghị định số 96/2023/NĐ-CP. Trường hợp không cấp giấy chứng nhận phải có văn bản trả lời và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "a) Đơn đề nghị công nhận biết thành thạo tiếng Việt hoặc sử dụng thành thạo ngôn ngữ khác hoặc đủ trình độ phiên dịch trong khám bệnh, chữa bệnh quy định tại Mẫu 01 Phụ lục III ban hành kèm theo Nghị định số 96/2023/NĐ-CP;\nc) Bản sao hợp lệ văn bằng, chứng chỉ quy định tại khoản 3 Điều 138 Nghị định số 96/2023/NĐ-CP đối với trường hợp đề nghị công nhận biết tiếng Việt thành thạo hoặc sử dụng thành thạo ngôn ngữ khác để khám bệnh, chữa bệnh; văn bằng, chứng chỉ quy định tại khoản 2 Điều 139 Nghị định số 96/2023/NĐ-CP đối với người đề nghị công nhận có đủ trình độ phiên dịch trong khám bệnh, chữa bệnh\nb) Các giấy tờ quy định tại các điểm b và c khoản 1 Điều 142 Nghị định số 96/2023/NĐ-CP;",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày\nQua dịch vụ bưu chính: 10 ngày\nTrực tiếp: 10 ngày",
     "CĂN CỨ PHÁP LÝ": "Luật Khám, chữa bệnh 15/2023/QH15 (09/1/2023) - 15/2023/QH15\nNghị định số 96/2023/NĐ-CP ngày 30 tháng 12 năm 2023 của Chính phủ quy định chi tiết một số điều của Luật Khám bệnh, chữa bệnh. - 96/2023/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cơ sở giáo dục",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
@@ -164,14 +141,9 @@
     "MÔ TẢ": "Mô tả đối tượng thực hiện: Tổ chức"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Học tập",
-      "slug": "hoc-tap",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đào tạo và Nghiên cứu khoa học",
-      "slug": "dao-tao-va-nghien-cuu-khoa-hoc"
+      "slug": "ao-tao-va-nghien-cuu-khoa-hoc"
     },
     "implementation_levels": [
       {
@@ -194,7 +166,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -203,6 +175,6 @@
         "slug": "co-so-giao-duc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

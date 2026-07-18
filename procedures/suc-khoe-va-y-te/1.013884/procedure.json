@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bff-2d4f-740f-bf4b-83897c316ca6",
   "procedure_code": "1.013884",
   "title": "Cấp lại giấy chứng nhận cơ sở xét nghiệm đạt tiêu chuẩn an toàn sinh học cấp III do hết hạn.",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-2d4f-740f-bf4b-83897c316ca6",
     "source_file": "chi-tiet-thu-tuc-1.013884.pdf",
     "source_path": "procedures/suc-khoe-va-y-te/1.013884/chi-tiet-thu-tuc-1.013884.pdf",
     "page_count": 8,
-    "extracted_at": "2026-07-18T02:22:11.384986+00:00",
-    "source_updated_at": "2026-05-11T08:07:25.100Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:25.121618+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "7943dc61adba3f76232c28d84ccf02972b3cf89283513768bbceb9ee06ff0797"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:11.384986+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2002/QĐ-BYT",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Phòng bệnh",
   "target_users": [
@@ -39,84 +35,78 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Y tế",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Y tế"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1. Cơ sở xét nghiệm phải gửi Đơn đề nghị cấp lại Giấy chứng nhận an toàn sinh học theo Mẫu số 05 tại Phụ lục ban hành kèm theo Nghị định số 103/2016/NĐ-CP kèm theo hồ sơ đến cơ quan chuyên môn về y tế thuộc Ủy ban nhân dân cấp tỉnh (cơ quan tiếp nhận hồ sơ)chậm nhất là 60 ngày, trước khi Giấy chứng nhận đạt tiêu chuẩn an toàn sinh học hết hiệu lực. Trường hợp quá thời hạn trên mà chưa nộp hồ sơ đề nghị cấp lại Giấy chứng nhận an toàn sinh học thì phải thực hiện theo thủ tục cấp mới Giấy chứng nhận an toàn sinh học.\nBước 2. Khi nhận được hồ sơ hợp lệ, cơ quan tiếp nhận hồ sơ cấp phiếu tiếp nhận hồ sơ theo Mẫu số 06 tại Phụ lục ban hành kèm theo Nghị định số 103/2016/NĐ-CP.\nBước 3. Trong thời gian 10 (mười) ngày kể từ ngày tiếp nhận hồ sơ, cơ quan tiếp nhận hồ sơ phải tiến hành thẩm định hồ sơ và kiểm tra hồ sơ thẩm định đã cấp Giấy chứng nhận an toàn sinh học trước đó.\nBước 4. Trường hợp hồ sơ chưa đầy đủ thì trong thời gian 05 (năm) ngày làm việc kể từ ngày thẩm định hồ sơ, cơ quan tiếp nhận hồ sơ phải thông báo bằng văn bản cho cơ sở đề nghị cấp lại giấy chứng nhận để hoàn chỉnh hồ sơ. Văn bản thông báo phải nêu cụ thể những nội dung cần bổ sung, nội dung cần sửa đổi. Cơ sở đề nghị cấp giấy chứng nhận phải bổ sung, sửa đổi theo đúng những nội dung đã được ghi trong văn bản và gửi về cơ quan tiếp nhận hồ sơ.\nTrong trường hợp cần thiết thì tiến hành thẩm định tại phòng xét nghiệm trong vòng 10 (mười) ngày kể từ ngày thẩm định hồ sơ. Trường hợp hồ sơ đầy đủ và cơ sở xét nghiệm đáp ứng đầy đủ các điều kiện theo biên bản thẩm định tại cơ sở xét nghiệm, cơ quan tiếp nhận hồ sơ báo cáo người đứng đầu cơ quan tiếp nhận hồ sơ cấp lại Giấy chứng nhận an toàn sinh học trong thời hạn 07 (bảy) ngày làm việc, kể từ ngày thẩm định tại phòng xét nghiệm.\nTrong trường hợp hồ sơ đầy đủ và không thẩm định tại cơ sở xét nghiệm, thì phải cấp lại Giấy chứng nhận an toàn sinh học theo Mẫu số 07 tại Phụ lục ban hành kèm theo Nghị định số 103/2016/NĐ-CP trong vòng 10 (mười) ngày, kể từ ngày thẩm định hồ sơ.\n",
+      "description": "Bước 1. Cơ sở xét nghiệm phải gửi Đơn đề nghị cấp lại Giấy chứng nhận an toàn sinh học theo Mẫu số 05 tại Phụ lục ban hành kèm theo Nghị định số 103/2016/NĐ-CP kèm theo hồ sơ đến cơ quan chuyên môn về y tế thuộc Ủy ban nhân dân cấp tỉnh (cơ quan tiếp nhận hồ sơ)chậm nhất là 60 ngày, trước khi Giấy chứng nhận đạt tiêu chuẩn an toàn sinh học hết hiệu lực. Trường hợp quá thời hạn trên mà chưa nộp hồ sơ đề nghị cấp lại Giấy chứng nhận an toàn sinh học thì phải thực hiện theo thủ tục cấp mới Giấy chứng nhận an toàn sinh học.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2. Khi nhận được hồ sơ hợp lệ, cơ quan tiếp nhận hồ sơ cấp phiếu tiếp nhận hồ sơ theo Mẫu số 06 tại Phụ lục ban hành kèm theo Nghị định số 103/2016/NĐ-CP.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3. Trong thời gian 10 (mười) ngày kể từ ngày tiếp nhận hồ sơ, cơ quan tiếp nhận hồ sơ phải tiến hành thẩm định hồ sơ và kiểm tra hồ sơ thẩm định đã cấp Giấy chứng nhận an toàn sinh học trước đó.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "Bước 4. Trường hợp hồ sơ chưa đầy đủ thì trong thời gian 05 (năm) ngày làm việc kể từ ngày thẩm định hồ sơ, cơ quan tiếp nhận hồ sơ phải thông báo bằng văn bản cho cơ sở đề nghị cấp lại giấy chứng nhận để hoàn chỉnh hồ sơ. Văn bản thông báo phải nêu cụ thể những nội dung cần bổ sung, nội dung cần sửa đổi. Cơ sở đề nghị cấp giấy chứng nhận phải bổ sung, sửa đổi theo đúng những nội dung đã được ghi trong văn bản và gửi về cơ quan tiếp nhận hồ sơ.\nTrong trường hợp cần thiết thì tiến hành thẩm định tại phòng xét nghiệm trong vòng 10 (mười) ngày kể từ ngày thẩm định hồ sơ. Trường hợp hồ sơ đầy đủ và cơ sở xét nghiệm đáp ứng đầy đủ các điều kiện theo biên bản thẩm định tại cơ sở xét nghiệm, cơ quan tiếp nhận hồ sơ báo cáo người đứng đầu cơ quan tiếp nhận hồ sơ cấp lại Giấy chứng nhận an toàn sinh học trong thời hạn 07 (bảy) ngày làm việc, kể từ ngày thẩm định tại phòng xét nghiệm.\nTrong trường hợp hồ sơ đầy đủ và không thẩm định tại cơ sở xét nghiệm, thì phải cấp lại Giấy chứng nhận an toàn sinh học theo Mẫu số 07 tại Phụ lục ban hành kèm theo Nghị định số 103/2016/NĐ-CP trong vòng 10 (mười) ngày, kể từ ngày thẩm định hồ sơ.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Đơn đề nghị cấp lại giấy chứng nhận an toàn sinh học theo Mẫu số 05 tại Phụ lục  ban hành kèm theo Nghị định số 103/2016/NĐ-CP.",
-        "code": "000.00.00.G18-KQ005231",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e2ae8-baec-73fe-9d5c-d4588f05d461",
-            "name": "MUS345.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "MUS345.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Báo cáo về các sự cố an toàn sinh học đã xảy ra (nếu có). Nội dung báo cáo phải nêu rõ thời gian xảy ra sự cố, mức độ của sự cố, các biện pháp đã áp  dụng để xử lý, khắc phục sự cố an toàn sinh học.",
-        "code": "000.00.00.G18-KQ005236",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Báo cáo về các thay đổi liên quan đến  thiết bị y tế: ghi rõ tên thiết bị, số lượng, tình trạng thiết bị mới được bổ sung hoặc thay thế theo quy định tại Mẫu số 04 tại Phụ  lục ban hành kèm theo  Nghị định số 103/2016/NĐ-CP.",
-        "code": "000.00.00.G18-KQ005234",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Bản sao Giấy chứng nhận  an toàn sinh học đã được cấp;",
-        "code": "000.00.00.G18-KQ005232",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
+        "attachment": null,
         "source_page": null
       },
       {
         "name": "Báo cáo  về các thay đổi liên  quan đến nhân sự (nếu có);",
-        "code": "000.00.00.G18-KQ005233",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "- Báo cáo về các thay  đổi liên quan đến cơ sở vật chất",
-        "code": "000.00.00.G18-KQ005235",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -125,168 +115,97 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "27 ngày",
-      "processing_time_value": 27,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 4500000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "\tTrường hợp 1: Có thẩm định tại phòng xét nghiệm\n27 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ",
-      "source_page": null
+      "fee": "4500000",
+      "description": "Trường hợp 1: Có thẩm định tại phòng xét nghiệm\n27 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ",
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "17 ngày",
-      "processing_time_value": 17,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 4500000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "4500000",
       "description": "Trường hợp 2: Không thẩm định tại phòng xét nghiệm\n17 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "27 ngày",
-      "processing_time_value": 27,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 4500000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "\tTrường hợp 1: Có thẩm định tại phòng xét nghiệm\n27 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ",
-      "source_page": null
+      "fee": "4500000",
+      "description": "Trường hợp 1: Có thẩm định tại phòng xét nghiệm\n27 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ",
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "17 ngày",
-      "processing_time_value": 17,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 4500000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "4500000",
       "description": "Trường hợp 2: Không thẩm định tại phòng xét nghiệm\n17 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "27 ngày",
-      "processing_time_value": 27,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 4500000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "\tTrường hợp 1: Có thẩm định tại phòng xét nghiệm\n27 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ",
-      "source_page": null
+      "fee": "4500000",
+      "description": "Trường hợp 1: Có thẩm định tại phòng xét nghiệm\n27 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ",
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "17 ngày",
-      "processing_time_value": 17,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 4500000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "4500000",
       "description": "Trường hợp 2: Không thẩm định tại phòng xét nghiệm\n17 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "4500000",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 4500000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "4500000",
+        "is_free": false,
+        "source_page": 3
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 4500000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "4500000",
+        "is_free": false,
+        "source_page": 3
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 4500000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "4500000",
+        "is_free": false,
+        "source_page": 4
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 4500000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "4500000",
+        "is_free": false,
+        "source_page": 4
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 4500000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "4500000",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 4500000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "4500000",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -294,14 +213,12 @@
     {
       "title": "Thông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân",
       "document_number": "64/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-69cce97f8824",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "NGHỊ ĐỊNH  QUY ĐỊNH VỀ PHÂN QUYỀN, PHÂN CẤP TRONG LĨNH VỰC Y TẾ",
       "document_number": "148/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-5aa2d036b45a",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "conditions": "1. Điều kiện về cơ sở vật chất:\na) Có phòng thực hiện xét nghiệm và phòng đệm;\nb) Các Điều kiện quy định tại Điểm a, Điểm b và Điểm d Khoản 1 Điều 6 Nghị định số 103/2016/NĐ-CP;\nc) Riêng biệt với các phòng xét nghiệm và khu vực khác của cơ sở xét nghiệm;\nd) Phòng xét nghiệm phải kín để bảo đảm tiệt trùng;\nđ) Hệ thống cửa ra vào khu vực xét nghiệm phải bảo đảm trong Điều kiện bình thường chỉ mở được cửa phòng đệm hoặc cửa khu vực xét nghiệm trong một thời Điểm;\ne) Phòng xét nghiệm có ô kính trong suốt hoặc thiết bị quan sát bên trong khu vực xét nghiệm từ bên ngoài;\ng) Hệ thống thông khí phải thiết kế theo nguyên tắc một chiều; không khí ra khỏi khu vực xét nghiệm phải qua bộ lọc không khí hiệu suất lọc cao;\nh) Có hệ thống báo động khi áp suất của khu vực xét nghiệm không đạt chuẩn; áp suất khu vực xét nghiệm luôn thấp hơn so với bên ngoài khi khu vực xét nghiệm hoạt động bình thường;\ni) Tần suất trao đổi không khí của khu vực xét nghiệm ít nhất là 6 lần/giờ;\nk) Hệ thống cấp khí chỉ hoạt động được khi hệ thống thoát khí đã hoạt động và tự động dừng lại khi hệ thống thoát khí ngừng hoạt động;\nl) Có thiết bị tắm, rửa trong trường hợp khẩn cấp tại khu vực xét nghiệm;\nm) Phòng xét nghiệm có hệ thống liên lạc hai chiều và hệ thống cảnh báo.\n2. Điều kiện về trang thiết bị:\na) Các Điều kiện về trang thiết bị quy định tại Điểm a và Điểm b Khoản 2 Điều 5 Nghị định này;\nb) Có tủ an toàn sinh học cấp II trở lên;\nc) Các trang thiết bị bảo hộ cá nhân phù hợp với loại kỹ thuật xét nghiệm thực hiện tại khu vực xét nghiệm an toàn sinh học cấp III.\n3. Điều kiện về nhân sự:\na) Số lượng nhân viên: ít nhất 02 nhân viên xét nghiệm và 01 nhân viên kỹ thuật vận hành phòng xét nghiệm. Các nhân viên xét nghiệm phải có văn bằng, chứng chỉ đào tạo phù hợp với loại hình xét nghiệm, nhân viên kỹ thuật vận hành phải có chứng chỉ đào tạo phù hợp với công việc vận hành khu vực xét nghiệm;\nb) Điều kiện quy định tại Điểm b Khoản 3 Điều 5 Nghị định số 103/2016/NĐ-CP;\nc) Nhân viên xét nghiệm, nhân viên kỹ thuật vận hành khu vực xét nghiệm và người chịu trách nhiệm về an toàn sinh học phải được tập huấn về an toàn sinh học từ cấp III trở lên.\n4. Điều kiện về quy định thực hành:\na) Có các quy định theo Khoản 4 Điều 6 Nghị định số 103/2016/NĐ-CP;\nb) Có quy trình khử trùng vật liệu, dụng cụ, thiết bị, chất lây nhiễm trước khi mang ra khỏi khu vực xét nghiệm;\nc) Có quy trình tiệt trùng khu vực xét nghiệm;\nd) Có quy trình xử lý tình huống khẩn cấp trong khu vực xét nghiệm;\nđ) Có kế hoạch phòng ngừa, phương án khắc phục và xử lý sự cố an toàn sinh học.",
@@ -309,14 +226,13 @@
     {
       "title": "Giấy chứng nhận cơ sở xét nghiệm đạt tiêu chuẩn an toàn sinh học cấp III",
       "code": "KQ.G18.000232",
-      "id": "019d2bb2-1c7b-7208-ba4a-f37266295bd0",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1. Cơ sở xét nghiệm phải gửi Đơn đề nghị cấp lại Giấy chứng nhận an toàn sinh học theo Mẫu số 05 tại Phụ lục ban hành kèm theo Nghị định số 103/2016/NĐ-CP kèm theo hồ sơ đến cơ quan chuyên môn về y tế thuộc Ủy ban nhân dân cấp tỉnh (cơ quan tiếp nhận hồ sơ)chậm nhất là 60 ngày, trước khi Giấy chứng nhận đạt tiêu chuẩn an toàn sinh học hết hiệu lực. Trường hợp quá thời hạn trên mà chưa nộp hồ sơ đề nghị cấp lại Giấy chứng nhận an toàn sinh học thì phải thực hiện theo thủ tục cấp mới Giấy chứng nhận an toàn sinh học.\nBước 2. Khi nhận được hồ sơ hợp lệ, cơ quan tiếp nhận hồ sơ cấp phiếu tiếp nhận hồ sơ theo Mẫu số 06 tại Phụ lục ban hành kèm theo Nghị định số 103/2016/NĐ-CP.\nBước 3. Trong thời gian 10 (mười) ngày kể từ ngày tiếp nhận hồ sơ, cơ quan tiếp nhận hồ sơ phải tiến hành thẩm định hồ sơ và kiểm tra hồ sơ thẩm định đã cấp Giấy chứng nhận an toàn sinh học trước đó.\nBước 4. Trường hợp hồ sơ chưa đầy đủ thì trong thời gian 05 (năm) ngày làm việc kể từ ngày thẩm định hồ sơ, cơ quan tiếp nhận hồ sơ phải thông báo bằng văn bản cho cơ sở đề nghị cấp lại giấy chứng nhận để hoàn chỉnh hồ sơ. Văn bản thông báo phải nêu cụ thể những nội dung cần bổ sung, nội dung cần sửa đổi. Cơ sở đề nghị cấp giấy chứng nhận phải bổ sung, sửa đổi theo đúng những nội dung đã được ghi trong văn bản và gửi về cơ quan tiếp nhận hồ sơ.\nTrong trường hợp cần thiết thì tiến hành thẩm định tại phòng xét nghiệm trong vòng 10 (mười) ngày kể từ ngày thẩm định hồ sơ. Trường hợp hồ sơ đầy đủ và cơ sở xét nghiệm đáp ứng đầy đủ các điều kiện theo biên bản thẩm định tại cơ sở xét nghiệm, cơ quan tiếp nhận hồ sơ báo cáo người đứng đầu cơ quan tiếp nhận hồ sơ cấp lại Giấy chứng nhận an toàn sinh học trong thời hạn 07 (bảy) ngày làm việc, kể từ ngày thẩm định tại phòng xét nghiệm.\nTrong trường hợp hồ sơ đầy đủ và không thẩm định tại cơ sở xét nghiệm, thì phải cấp lại Giấy chứng nhận an toàn sinh học theo Mẫu số 07 tại Phụ lục ban hành kèm theo Nghị định số 103/2016/NĐ-CP trong vòng 10 (mười) ngày, kể từ ngày thẩm định hồ sơ.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nĐơn đề nghị cấp lại giấy chứng nhận an toàn sinh học theo Mẫu số 05 tại Phụ lục  ban hành kèm theo Nghị định số 103/2016/NĐ-CP.\nBáo cáo về các sự cố an toàn sinh học đã xảy ra (nếu có). Nội dung báo cáo phải nêu rõ thời gian xảy ra sự cố, mức độ của sự cố, các biện pháp đã áp  dụng để xử lý, khắc phục sự cố an toàn sinh học.\nBáo cáo về các thay đổi liên quan đến  thiết bị y tế: ghi rõ tên thiết bị, số lượng, tình trạng thiết bị mới được bổ sung hoặc thay thế theo quy định tại Mẫu số 04 tại Phụ  lục ban hành kèm theo  Nghị định số 103/2016/NĐ-CP.\nBản sao Giấy chứng nhận  an toàn sinh học đã được cấp;\nBáo cáo  về các thay đổi liên  quan đến nhân sự (nếu có);\n- Báo cáo về các thay  đổi liên quan đến cơ sở vật chất",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 27 ngày - \tTrường hợp 1: Có thẩm định tại phòng xét nghiệm\n27 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ\nTrực tiếp: 17 ngày - Trường hợp 2: Không thẩm định tại phòng xét nghiệm\n17 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ\nTrực tuyến: 27 ngày - \tTrường hợp 1: Có thẩm định tại phòng xét nghiệm\n27 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ\nTrực tuyến: 17 ngày - Trường hợp 2: Không thẩm định tại phòng xét nghiệm\n17 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ\nQua dịch vụ bưu chính: 27 ngày - \tTrường hợp 1: Có thẩm định tại phòng xét nghiệm\n27 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ\nQua dịch vụ bưu chính: 17 ngày - Trường hợp 2: Không thẩm định tại phòng xét nghiệm\n17 ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1. Cơ sở xét nghiệm phải gửi Đơn đề nghị cấp lại Giấy chứng nhận an toàn sinh học theo Mẫu số 05 tại Phụ lục ban hành kèm theo Nghị định số 103/2016/NĐ-CP kèm theo hồ sơ đến cơ quan chuyên môn về y tế thuộc Ủy ban nhân dân cấp tỉnh (cơ quan tiếp nhận hồ sơ)chậm nhất là 60 ngày, trước khi Giấy chứng nhận đạt tiêu chuẩn an toàn sinh học hết hiệu lực. Trường hợp quá thời hạn trên mà chưa nộp hồ sơ đề nghị cấp lại Giấy chứng nhận an toàn sinh học thì phải thực hiện theo thủ tục cấp mới Giấy chứng nhận an toàn sinh học.\nBước 2. Khi nhận được hồ sơ hợp lệ, cơ quan tiếp nhận hồ sơ cấp phiếu tiếp nhận hồ sơ theo Mẫu số 06 tại Phụ lục ban hành kèm theo Nghị định số 103/2016/NĐ-CP.\nBước 3. Trong thời gian 10 (mười) ngày kể từ ngày tiếp nhận hồ sơ, cơ quan tiếp nhận hồ sơ phải tiến hành thẩm định hồ sơ và kiểm tra hồ sơ thẩm định đã cấp Giấy chứng nhận an toàn sinh học trước đó.\nBước 4. Trường hợp hồ sơ chưa đầy đủ thì trong thời gian 05 (năm) ngày làm việc kể từ ngày thẩm định hồ sơ, cơ quan tiếp nhận hồ sơ phải thông báo bằng văn bản cho cơ sở đề nghị cấp lại giấy chứng nhận để hoàn chỉnh hồ sơ. Văn bản thông báo phải nêu cụ thể những nội dung cần bổ sung, nội dung cần sửa đổi. Cơ sở đề nghị cấp giấy chứng nhận phải bổ sung, sửa đổi theo đúng những nội dung đã được ghi trong văn bản và gửi về cơ quan tiếp nhận hồ sơ.\nTrong trường hợp cần thiết thì tiến hành thẩm định tại phòng xét nghiệm trong vòng 10 (mười) ngày kể từ ngày thẩm định hồ sơ. Trường hợp hồ sơ đầy đủ và cơ sở xét nghiệm đáp ứng đầy đủ các điều kiện theo biên bản thẩm định tại cơ sở xét nghiệm, cơ quan tiếp nhận hồ sơ báo cáo người đứng đầu cơ quan tiếp nhận hồ sơ cấp lại Giấy chứng nhận an toàn sinh học trong thời hạn 07 (bảy) ngày làm việc, kể từ ngày thẩm định tại phòng xét nghiệm.\nTrong trường hợp hồ sơ đầy đủ và không thẩm định tại cơ sở xét nghiệm, thì phải cấp lại Giấy chứng nhận an toàn sinh học theo Mẫu số 07 tại Phụ lục ban hành kèm theo Nghị định số 103/2016/NĐ-CP trong vòng 10 (mười) ngày, kể từ ngày thẩm định hồ sơ.",
+    "THÀNH PHẦN HỒ SƠ": "Đơn đề nghị cấp lại giấy chứng nhận an toàn sinh học theo Mẫu số 05 tại Phụ lục  ban hành kèm theo Nghị định số 103/2016/NĐ-CP.\nBáo cáo về các sự cố an toàn sinh học đã xảy ra (nếu có). Nội dung báo cáo phải nêu rõ thời gian xảy ra sự cố, mức độ của sự cố, các biện pháp đã áp  dụng để xử lý, khắc phục sự cố an toàn sinh học.\nBáo cáo về các thay đổi liên quan đến  thiết bị y tế: ghi rõ tên thiết bị, số lượng, tình trạng thiết bị mới được bổ sung hoặc thay thế theo quy định tại Mẫu số 04 tại Phụ  lục ban hành kèm theo  Nghị định số 103/2016/NĐ-CP.\nBản sao Giấy chứng nhận  an toàn sinh học đã được cấp;\nBáo cáo  về các thay đổi liên  quan đến nhân sự (nếu có);\n- Báo cáo về các thay  đổi liên quan đến cơ sở vật chất",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 27 ngày\nTrực tiếp: 17 ngày\nTrực tuyến: 27 ngày\nTrực tuyến: 17 ngày\nQua dịch vụ bưu chính: 27 ngày\nQua dịch vụ bưu chính: 17 ngày",
     "CĂN CỨ PHÁP LÝ": "Thông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân - 64/2025/TT-BTC\nNGHỊ ĐỊNH  QUY ĐỊNH VỀ PHÂN QUYỀN, PHÂN CẤP TRONG LĨNH VỰC Y TẾ - 148/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Sở Y tế",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "1. Điều kiện về cơ sở vật chất:\na) Có phòng thực hiện xét nghiệm và phòng đệm;\nb) Các Điều kiện quy định tại Điểm a, Điểm b và Điểm d Khoản 1 Điều 6 Nghị định số 103/2016/NĐ-CP;\nc) Riêng biệt với các phòng xét nghiệm và khu vực khác của cơ sở xét nghiệm;\nd) Phòng xét nghiệm phải kín để bảo đảm tiệt trùng;\nđ) Hệ thống cửa ra vào khu vực xét nghiệm phải bảo đảm trong Điều kiện bình thường chỉ mở được cửa phòng đệm hoặc cửa khu vực xét nghiệm trong một thời Điểm;\ne) Phòng xét nghiệm có ô kính trong suốt hoặc thiết bị quan sát bên trong khu vực xét nghiệm từ bên ngoài;\ng) Hệ thống thông khí phải thiết kế theo nguyên tắc một chiều; không khí ra khỏi khu vực xét nghiệm phải qua bộ lọc không khí hiệu suất lọc cao;\nh) Có hệ thống báo động khi áp suất của khu vực xét nghiệm không đạt chuẩn; áp suất khu vực xét nghiệm luôn thấp hơn so với bên ngoài khi khu vực xét nghiệm hoạt động bình thường;\ni) Tần suất trao đổi không khí của khu vực xét nghiệm ít nhất là 6 lần/giờ;\nk) Hệ thống cấp khí chỉ hoạt động được khi hệ thống thoát khí đã hoạt động và tự động dừng lại khi hệ thống thoát khí ngừng hoạt động;\nl) Có thiết bị tắm, rửa trong trường hợp khẩn cấp tại khu vực xét nghiệm;\nm) Phòng xét nghiệm có hệ thống liên lạc hai chiều và hệ thống cảnh báo.\n2. Điều kiện về trang thiết bị:\na) Các Điều kiện về trang thiết bị quy định tại Điểm a và Điểm b Khoản 2 Điều 5 Nghị định này;\nb) Có tủ an toàn sinh học cấp II trở lên;\nc) Các trang thiết bị bảo hộ cá nhân phù hợp với loại kỹ thuật xét nghiệm thực hiện tại khu vực xét nghiệm an toàn sinh học cấp III.\n3. Điều kiện về nhân sự:\na) Số lượng nhân viên: ít nhất 02 nhân viên xét nghiệm và 01 nhân viên kỹ thuật vận hành phòng xét nghiệm. Các nhân viên xét nghiệm phải có văn bằng, chứng chỉ đào tạo phù hợp với loại hình xét nghiệm, nhân viên kỹ thuật vận hành phải có chứng chỉ đào tạo phù hợp với công việc vận hành khu vực xét nghiệm;\nb) Điều kiện quy định tại Điểm b Khoản 3 Điều 5 Nghị định số 103/2016/NĐ-CP;\nc) Nhân viên xét nghiệm, nhân viên kỹ thuật vận hành khu vực xét nghiệm và người chịu trách nhiệm về an toàn sinh học phải được tập huấn về an toàn sinh học từ cấp III trở lên.\n4. Điều kiện về quy định thực hành:\na) Có các quy định theo Khoản 4 Điều 6 Nghị định số 103/2016/NĐ-CP;\nb) Có quy trình khử trùng vật liệu, dụng cụ, thiết bị, chất lây nhiễm trước khi mang ra khỏi khu vực xét nghiệm;\nc) Có quy trình tiệt trùng khu vực xét nghiệm;\nd) Có quy trình xử lý tình huống khẩn cấp trong khu vực xét nghiệm;\nđ) Có kế hoạch phòng ngừa, phương án khắc phục và xử lý sự cố an toàn sinh học.",
@@ -325,11 +241,6 @@
     "MÔ TẢ": "1. Điều kiện về cơ sở vật chất:\na) Có phòng thực hiện xét nghiệm và phòng đệm;\nb) Các Điều kiện quy định tại Điểm a, Điểm b và Điểm d Khoản 1 Điều 6 Nghị định số 103/2016/NĐ-CP;\nc) Riêng biệt với các phòng xét nghiệm và khu vực khác của cơ sở xét nghiệm;\nd) Phòng xét nghiệm phải kín để bảo đảm tiệt trùng;\nđ) Hệ thống cửa ra vào khu vực xét nghiệm phải bảo đảm trong Điều kiện bình thường chỉ mở được cửa phòng đệm hoặc cửa khu vực xét nghiệm trong một thời Điểm;\ne) Phòng xét nghiệm có ô kính trong suốt hoặc thiết bị quan sát bên trong khu vực xét nghiệm từ bên ngoài;\ng) Hệ thống thông khí phải thiết kế theo nguyên tắc một chiều; không khí ra khỏi khu vực xét nghiệm phải qua bộ lọc không khí hiệu suất lọc cao;\nh) Có hệ thống báo động khi áp suất của khu vực xét nghiệm không đạt chuẩn; áp suất khu vực xét nghiệm luôn thấp hơn so với bên ngoài khi khu vực xét nghiệm hoạt động bình thường;\ni) Tần suất trao đổi không khí của khu vực xét nghiệm ít nhất là 6 lần/giờ;\nk) Hệ thống cấp khí chỉ hoạt động được khi hệ thống thoát khí đã hoạt động và tự động dừng lại khi hệ thống thoát khí ngừng hoạt động;\nl) Có thiết bị tắm, rửa trong trường hợp khẩn cấp tại khu vực xét nghiệm;\nm) Phòng xét nghiệm có hệ thống liên lạc hai chiều và hệ thống cảnh báo.\n2. Điều kiện về trang thiết bị:\na) Các Điều kiện về trang thiết bị quy định tại Điểm a và Điểm b Khoản 2 Điều 5 Nghị định này;\nb) Có tủ an toàn sinh học cấp II trở lên;\nc) Các trang thiết bị bảo hộ cá nhân phù hợp với loại kỹ thuật xét nghiệm thực hiện tại khu vực xét nghiệm an toàn sinh học cấp III.\n3. Điều kiện về nhân sự:\na) Số lượng nhân viên: ít nhất 02 nhân viên xét nghiệm và 01 nhân viên kỹ thuật vận hành phòng xét nghiệm. Các nhân viên xét nghiệm phải có văn bằng, chứng chỉ đào tạo phù hợp với loại hình xét nghiệm, nhân viên kỹ thuật vận hành phải có chứng chỉ đào tạo phù hợp với công việc vận hành khu vực xét nghiệm;\nb) Điều kiện quy định tại Điểm b Khoản 3 Điều 5 Nghị định số 103/2016/NĐ-CP;\nc) Nhân viên xét nghiệm, nhân viên kỹ thuật vận hành khu vực xét nghiệm và người chịu trách nhiệm về an toàn sinh học phải được tập huấn về an toàn sinh học từ cấp III trở lên.\n4. Điều kiện về quy định thực hành:\na) Có các quy định theo Khoản 4 Điều 6 Nghị định số 103/2016/NĐ-CP;\nb) Có quy trình khử trùng vật liệu, dụng cụ, thiết bị, chất lây nhiễm trước khi mang ra khỏi khu vực xét nghiệm;\nc) Có quy trình tiệt trùng khu vực xét nghiệm;\nd) Có quy trình xử lý tình huống khẩn cấp trong khu vực xét nghiệm;\nđ) Có kế hoạch phòng ngừa, phương án khắc phục và xử lý sự cố an toàn sinh học."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Sức khỏe và y tế",
-      "slug": "suc-khoe-va-y-te",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Phòng bệnh",
       "slug": "phong-benh"
@@ -351,7 +262,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Doanh nghiệp",
@@ -368,6 +279,6 @@
         "slug": "so-y-te"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

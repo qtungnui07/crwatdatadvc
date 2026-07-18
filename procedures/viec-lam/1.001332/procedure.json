@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bff-9ad4-76d5-925b-a8fb4acedd07",
   "procedure_code": "1.001332",
   "title": "Thủ tục đăng ký thay đổi khoản thu hồi nợ bảo lãnh cho người không cư trú của tổ chức kinh tế",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-9ad4-76d5-925b-a8fb4acedd07",
     "source_file": "chi-tiet-thu-tuc-1.001332.pdf",
     "source_path": "procedures/viec-lam/1.001332/chi-tiet-thu-tuc-1.001332.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:21:59.408881+00:00",
-    "source_updated_at": "2026-06-19T09:05:26.796Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:54.343392+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "7ea1a55372a2cd2fc46ff4644558cd07320207acf3a9e8ca3a370c425390ef6e"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:59.408881+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1306/QĐ-NHNN",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hoạt động ngoại hối",
   "target_users": [
@@ -36,10 +32,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ngân hàng Nhà nước Khu vực",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Bộ phận Một cửa Ngân hàng Nhà nước Khu vực"
+    "executing_agency": "Ngân hàng Nhà nước Khu vực"
   },
   "steps": [
     {
@@ -47,69 +40,51 @@
       "title": "Bước 1",
       "description": "+ Bước 1: Trong thời hạn ba mươi (30) ngày kể từ ngày ký thỏa thuận thay đổi khoản thu hồi nợ bảo lãnh, bên bảo lãnh nộp hồ sơ đến Ngân hàng Nhà nước.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 2,
       "title": "Bước 2",
-      "description": " + Bước 2: Thời hạn kiểm tra tính đầy đủ của hồ sơ là ba (03) ngày làm việc kể từ khi Bộ phận Một cửa của Ngân hàng Nhà nước tiếp nhận hồ sơ theo phương thức trực tiếp hoặc qua dịch vụ bưu chính.",
+      "description": "+ Bước 2: Thời hạn kiểm tra tính đầy đủ của hồ sơ là ba (03) ngày làm việc kể từ khi Bộ phận Một cửa của Ngân hàng Nhà nước tiếp nhận hồ sơ theo phương thức trực tiếp hoặc qua dịch vụ bưu chính.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 3,
       "title": "Bước 3",
-      "description": "+ Bước 3: Trong thời hạn năm (05) ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ của Bên bảo lãnh, Ngân hàng Nhà nước gửi bên bảo lãnh văn bản xác nhận đăng ký thay đổi khoản thu hồi nợ bảo lãnh. Trường hợp từ chối xác nhận đăng ký thay đổi khoản thu hồi nợ bảo lãnh, Ngân hàng Nhà nước có văn bản nêu rõ lý do.\nTrường hợp hồ sơ chưa đủ điều kiện giải quyết, trong thời hạn bốn (04) ngày làm việc kể từ ngày tiếp nhận hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu bên bảo lãnh bổ sung, hoàn thiện hồ sơ. Thời hạn giải quyết được tính lại từ đầu sau khi nhận đủ hồ sơ. Sau sáu mươi (60) ngày kể từ khi thông báo, nếu bên bảo lãnh không hoàn thành việc hoàn thiện hồ sơ, Ngân hàng Nhà nước thực hiện đóng hồ sơ đăng ký thay đổi khoản thu hồi nợ bảo lãnh của tổ chức kinh tế.\n",
+      "description": "+ Bước 3: Trong thời hạn năm (05) ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ của Bên bảo lãnh, Ngân hàng Nhà nước gửi bên bảo lãnh văn bản xác nhận đăng ký thay đổi khoản thu hồi nợ bảo lãnh. Trường hợp từ chối xác nhận đăng ký thay đổi khoản thu hồi nợ bảo lãnh, Ngân hàng Nhà nước có văn bản nêu rõ lý do.\nTrường hợp hồ sơ chưa đủ điều kiện giải quyết, trong thời hạn bốn (04) ngày làm việc kể từ ngày tiếp nhận hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu bên bảo lãnh bổ sung, hoàn thiện hồ sơ. Thời hạn giải quyết được tính lại từ đầu sau khi nhận đủ hồ sơ. Sau sáu mươi (60) ngày kể từ khi thông báo, nếu bên bảo lãnh không hoàn thành việc hoàn thiện hồ sơ, Ngân hàng Nhà nước thực hiện đóng hồ sơ đăng ký thay đổi khoản thu hồi nợ bảo lãnh của tổ chức kinh tế.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "1. Đơn đăng ký thay đổi khoản thu hồi nợ bảo lãnh (theo Phụ lục số 4 thuộc Phụ lục II kèm theo Thông tư số 17/2026/TT-NHNN).",
-        "code": "G19-KQ005538",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019edf1e-6bed-7728-8cdf-f30c753ad528",
-            "name": "PL 4  Thong tu 17.2026.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PL 4  Thong tu 17.2026.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "4. Văn bản xác nhận của ngân hàng cung ứng dịch vụ tài khoản về tình hình thực hiện nghĩa vụ bảo lãnh, thu hồi nợ đến thời điểm ngân hàng cung ứng dịch vụ tài khoản có văn bản xác nhận đối với trường hợp đăng ký thay đổi kế hoạch thu hồi nợ (thời điểm thực hiện việc xác nhận là trong vòng 10 ngày làm việc trước thời điểm gửi hồ sơ).",
-        "code": "G19-KQ005541",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "2. Các thỏa thuận thay đổi cam kết bảo lãnh, thỏa thuận cấp bảo lãnh đã ký trong trường hợp các nội dung thay đổi cần được thỏa thuận giữa các bên.",
-        "code": "G19-KQ005539",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "3. Văn bản nêu ý kiến chấp thuận của Thủ tướng Chính phủ về nội dung thay đổi liên quan đến việc bảo lãnh cho người không cư trú của tổ chức kinh tế (trường hợp thay đổi tăng số tiền bảo lãnh của tổ chức kinh tế hoặc kéo dài thời hạn bảo lãnh của khoản bảo lãnh hoặc thay đổi bên bảo lãnh). Trường hợp không có thành phần hồ sơ này, Bên bảo lãnh phải có văn bản giải trình nêu rõ lý do, căn cứ xác định việc thay đổi tăng số tiền bảo lãnh hoặc kéo dài thời hạn bảo lãnh của khoản bảo lãnh hoặc thay đổi bên bảo lãnh đã được Thủ tướng Chính phủ chấp thuận.",
-        "code": "G19-KQ005540",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -118,60 +93,37 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 1
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       }
     ]
   },
@@ -179,20 +131,17 @@
     {
       "title": "Thông tư sửa đổi, bổ sung, bãi bỏ một số quy định tại các văn bản quy phạm pháp luật trong lĩnh vực quản lý ngoại hối đối với các giao dịch vốn để thực thi phương án cắt giảm, đơn giản hóa thủ tục hành chính",
       "document_number": "78/2025/TT-NHNN",
-      "id": "019d2bb3-5d80-7608-8ccf-3a1b829332ee",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư 37/2013/TT-NHNN",
       "document_number": "37/2013/TT-NHNN",
-      "id": "019d2bb3-5d80-7608-8cce-d3f5c993b0f5",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư số 17/2026/TT-NHNN của Thống đốc Ngân hàng Nhà nước sửa đổi, bổ sung một số Thông tư của Thống đốc Ngân hàng Nhà nước Việt Nam trong lĩnh vực quản lý ngoại hối liên quan đến phân cấp, đơn giản hóa thủ tục hành chính",
       "document_number": "17/2026/TT-NHNN",
-      "id": "019ede1b-bdda-705b-9b57-13f33e787210",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Không",
@@ -200,13 +149,12 @@
     {
       "title": "Văn bản xác nhận/từ chối xác nhận đăng ký thay đổi khoản thu hồi nợ bảo lãnh.",
       "code": "KQ.G19.000010",
-      "id": "019d2bb2-1c7c-74ea-bcd1-cfd49b5cb498",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Trong thời hạn ba mươi (30) ngày kể từ ngày ký thỏa thuận thay đổi khoản thu hồi nợ bảo lãnh, bên bảo lãnh nộp hồ sơ đến Ngân hàng Nhà nước.\n + Bước 2: Thời hạn kiểm tra tính đầy đủ của hồ sơ là ba (03) ngày làm việc kể từ khi Bộ phận Một cửa của Ngân hàng Nhà nước tiếp nhận hồ sơ theo phương thức trực tiếp hoặc qua dịch vụ bưu chính.\n+ Bước 3: Trong thời hạn năm (05) ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ của Bên bảo lãnh, Ngân hàng Nhà nước gửi bên bảo lãnh văn bản xác nhận đăng ký thay đổi khoản thu hồi nợ bảo lãnh. Trường hợp từ chối xác nhận đăng ký thay đổi khoản thu hồi nợ bảo lãnh, Ngân hàng Nhà nước có văn bản nêu rõ lý do.\nTrường hợp hồ sơ chưa đủ điều kiện giải quyết, trong thời hạn bốn (04) ngày làm việc kể từ ngày tiếp nhận hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu bên bảo lãnh bổ sung, hoàn thiện hồ sơ. Thời hạn giải quyết được tính lại từ đầu sau khi nhận đủ hồ sơ. Sau sáu mươi (60) ngày kể từ khi thông báo, nếu bên bảo lãnh không hoàn thành việc hoàn thiện hồ sơ, Ngân hàng Nhà nước thực hiện đóng hồ sơ đăng ký thay đổi khoản thu hồi nợ bảo lãnh của tổ chức kinh tế.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n4. Văn bản xác nhận của ngân hàng cung ứng dịch vụ tài khoản về tình hình thực hiện nghĩa vụ bảo lãnh, thu hồi nợ đến thời điểm ngân hàng cung ứng dịch vụ tài khoản có văn bản xác nhận đối với trường hợp đăng ký thay đổi kế hoạch thu hồi nợ (thời điểm thực hiện việc xác nhận là trong vòng 10 ngày làm việc trước thời điểm gửi hồ sơ).\n1. Đơn đăng ký thay đổi khoản thu hồi nợ bảo lãnh (theo Phụ lục số 4 thuộc Phụ lục II kèm theo Thông tư số 17/2026/TT-NHNN).\n2. Các thỏa thuận thay đổi cam kết bảo lãnh, thỏa thuận cấp bảo lãnh đã ký trong trường hợp các nội dung thay đổi cần được thỏa thuận giữa các bên.\n3. Văn bản nêu ý kiến chấp thuận của Thủ tướng Chính phủ về nội dung thay đổi liên quan đến việc bảo lãnh cho người không cư trú của tổ chức kinh tế (trường hợp thay đổi tăng số tiền bảo lãnh của tổ chức kinh tế hoặc kéo dài thời hạn bảo lãnh của khoản bảo lãnh hoặc thay đổi bên bảo lãnh). Trường hợp không có thành phần hồ sơ này, Bên bảo lãnh phải có văn bản giải trình nêu rõ lý do, căn cứ xác định việc thay đổi tăng số tiền bảo lãnh hoặc kéo dài thời hạn bảo lãnh của khoản bảo lãnh hoặc thay đổi bên bảo lãnh đã được Thủ tướng Chính phủ chấp thuận.",
+    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Trong thời hạn ba mươi (30) ngày kể từ ngày ký thỏa thuận thay đổi khoản thu hồi nợ bảo lãnh, bên bảo lãnh nộp hồ sơ đến Ngân hàng Nhà nước.\n+ Bước 2: Thời hạn kiểm tra tính đầy đủ của hồ sơ là ba (03) ngày làm việc kể từ khi Bộ phận Một cửa của Ngân hàng Nhà nước tiếp nhận hồ sơ theo phương thức trực tiếp hoặc qua dịch vụ bưu chính.\n+ Bước 3: Trong thời hạn năm (05) ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ của Bên bảo lãnh, Ngân hàng Nhà nước gửi bên bảo lãnh văn bản xác nhận đăng ký thay đổi khoản thu hồi nợ bảo lãnh. Trường hợp từ chối xác nhận đăng ký thay đổi khoản thu hồi nợ bảo lãnh, Ngân hàng Nhà nước có văn bản nêu rõ lý do.\nTrường hợp hồ sơ chưa đủ điều kiện giải quyết, trong thời hạn bốn (04) ngày làm việc kể từ ngày tiếp nhận hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu bên bảo lãnh bổ sung, hoàn thiện hồ sơ. Thời hạn giải quyết được tính lại từ đầu sau khi nhận đủ hồ sơ. Sau sáu mươi (60) ngày kể từ khi thông báo, nếu bên bảo lãnh không hoàn thành việc hoàn thiện hồ sơ, Ngân hàng Nhà nước thực hiện đóng hồ sơ đăng ký thay đổi khoản thu hồi nợ bảo lãnh của tổ chức kinh tế.",
+    "THÀNH PHẦN HỒ SƠ": "1. Đơn đăng ký thay đổi khoản thu hồi nợ bảo lãnh (theo Phụ lục số 4 thuộc Phụ lục II kèm theo Thông tư số 17/2026/TT-NHNN).\n4. Văn bản xác nhận của ngân hàng cung ứng dịch vụ tài khoản về tình hình thực hiện nghĩa vụ bảo lãnh, thu hồi nợ đến thời điểm ngân hàng cung ứng dịch vụ tài khoản có văn bản xác nhận đối với trường hợp đăng ký thay đổi kế hoạch thu hồi nợ (thời điểm thực hiện việc xác nhận là trong vòng 10 ngày làm việc trước thời điểm gửi hồ sơ).\n2. Các thỏa thuận thay đổi cam kết bảo lãnh, thỏa thuận cấp bảo lãnh đã ký trong trường hợp các nội dung thay đổi cần được thỏa thuận giữa các bên.\n3. Văn bản nêu ý kiến chấp thuận của Thủ tướng Chính phủ về nội dung thay đổi liên quan đến việc bảo lãnh cho người không cư trú của tổ chức kinh tế (trường hợp thay đổi tăng số tiền bảo lãnh của tổ chức kinh tế hoặc kéo dài thời hạn bảo lãnh của khoản bảo lãnh hoặc thay đổi bên bảo lãnh). Trường hợp không có thành phần hồ sơ này, Bên bảo lãnh phải có văn bản giải trình nêu rõ lý do, căn cứ xác định việc thay đổi tăng số tiền bảo lãnh hoặc kéo dài thời hạn bảo lãnh của khoản bảo lãnh hoặc thay đổi bên bảo lãnh đã được Thủ tướng Chính phủ chấp thuận.",
     "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 5 ngày làm việc\nTrực tiếp: 5 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Thông tư sửa đổi, bổ sung, bãi bỏ một số quy định tại các văn bản quy phạm pháp luật trong lĩnh vực quản lý ngoại hối đối với các giao dịch vốn để thực thi phương án cắt giảm, đơn giản hóa thủ tục hành chính - 78/2025/TT-NHNN\nThông tư 37/2013/TT-NHNN - 37/2013/TT-NHNN\nThông tư số 17/2026/TT-NHNN của Thống đốc Ngân hàng Nhà nước sửa đổi, bổ sung một số Thông tư của Thống đốc Ngân hàng Nhà nước Việt Nam trong lĩnh vực quản lý ngoại hối liên quan đến phân cấp, đơn giản hóa thủ tục hành chính - 17/2026/TT-NHNN",
     "CƠ QUAN THỰC HIỆN": "Ngân hàng Nhà nước Khu vực",
@@ -216,14 +164,9 @@
     "MÔ TẢ": "Không"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hoạt động ngoại hối",
-      "slug": "hoat-dong-ngoai-hoi"
+      "slug": "hoat-ong-ngoai-hoi"
     },
     "implementation_levels": [
       {
@@ -247,6 +190,6 @@
         "slug": "ngan-hang-nha-nuoc-khu-vuc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

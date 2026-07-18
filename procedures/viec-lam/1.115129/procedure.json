@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019e4e81-38e3-700f-839f-f1089ae9ff6e",
   "procedure_code": "1.115129",
   "title": "Cấp phép thi công nút giao đấu nối với đường tỉnh đang khai thác",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019e4e81-38e3-700f-839f-f1089ae9ff6e",
     "source_file": "chi-tiet-thu-tuc-1.115129.pdf",
     "source_path": "procedures/viec-lam/1.115129/chi-tiet-thu-tuc-1.115129.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:16.017741+00:00",
-    "source_updated_at": "2026-05-22T07:45:11.282Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:55.657559+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "984e2a8737e8c0b0009b96f1103979d01224211b7be5ca90b1344ddd670c0a74"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:16.017741+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "127/QĐ-VP.UBND.KSTT",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Quản lý kết cấu hạ tầng giao thông",
   "target_users": [
@@ -37,48 +33,36 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Xây dựng - tỉnh Quảng Ninh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Xây dựng - tỉnh Quảng Ninh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Trình tự thực hiện:\n- Giai đoạn chuẩn bị: Chủ đầu tư nút giao thực hiện hoàn chỉnh hồ sơ thiết kế theo nội dung văn bản chấp thuận trước đó; tổ chức thẩm định và phê duyệt dự án theo đúng quy định hiện hành.\n- Giai đoạn nộp hồ sơ: Chủ đầu tư gửi hồ sơ đề nghị cấp phép thi công đến Trung tâm Phục vụ hành chính công tỉnh; Trung tâm Phục vụ hành chính công cấp xã  và Điểm tiếp nhận và Trả kết quả; qua Dịch vụ bưu chính hoặc trực tuyến tại Cổng Dịch vụ công quốc gia.\n- Giai đoạn tiếp nhận và kiểm tra:\n+ Đối với hồ sơ nộp trực tiếp: Cơ quan có thẩm quyền kiểm tra thành phần hồ sơ. Nếu hồ sơ đầy đủ, thực hiện tiếp nhận và viết phiếu hẹn trả kết quả; nếu hồ sơ chưa đầy đủ, hướng dẫn chủ đầu tư hoàn thiện theo quy định.\n+ Đối với hồ sơ nộp trực tuyến/ bưu chính công ích: Trong thời hạn 02 ngày làm việc kể từ ngày nhận hồ sơ, cơ quan có thẩm quyền kiểm tra tính hợp lệ. Trường hợp hồ sơ chưa đủ, cơ quan phải có văn bản thông báo rõ nội dung cần bổ sung, hoàn thiện.\n- Giai đoạn thẩm định và trả kết quả: Trong thời hạn 3,5 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền tiến hành xem xét các điều kiện về kỹ thuật và an toàn. Nếu đủ điều kiện, thực hiện cấp Giấy phép thi công nút giao; trường hợp không chấp thuận, phải có văn bản trả lời và nêu rõ lý do.\n",
+      "description": "Trình tự thực hiện:\n- Giai đoạn chuẩn bị: Chủ đầu tư nút giao thực hiện hoàn chỉnh hồ sơ thiết kế theo nội dung văn bản chấp thuận trước đó; tổ chức thẩm định và phê duyệt dự án theo đúng quy định hiện hành.\n- Giai đoạn nộp hồ sơ: Chủ đầu tư gửi hồ sơ đề nghị cấp phép thi công đến Trung tâm Phục vụ hành chính công tỉnh; Trung tâm Phục vụ hành chính công cấp xã  và Điểm tiếp nhận và Trả kết quả; qua Dịch vụ bưu chính hoặc trực tuyến tại Cổng Dịch vụ công quốc gia.\n- Giai đoạn tiếp nhận và kiểm tra:\n+ Đối với hồ sơ nộp trực tiếp: Cơ quan có thẩm quyền kiểm tra thành phần hồ sơ. Nếu hồ sơ đầy đủ, thực hiện tiếp nhận và viết phiếu hẹn trả kết quả; nếu hồ sơ chưa đầy đủ, hướng dẫn chủ đầu tư hoàn thiện theo quy định.\n+ Đối với hồ sơ nộp trực tuyến/ bưu chính công ích: Trong thời hạn 02 ngày làm việc kể từ ngày nhận hồ sơ, cơ quan có thẩm quyền kiểm tra tính hợp lệ. Trường hợp hồ sơ chưa đủ, cơ quan phải có văn bản thông báo rõ nội dung cần bổ sung, hoàn thiện.\n- Giai đoạn thẩm định và trả kết quả: Trong thời hạn 3,5 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền tiến hành xem xét các điều kiện về kỹ thuật và an toàn. Nếu đủ điều kiện, thực hiện cấp Giấy phép thi công nút giao; trường hợp không chấp thuận, phải có văn bản trả lời và nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Đơn đề nghị",
-        "code": "TP-H49.000001",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Thuyết minh và bản vẽ biện pháp tổ chức thi công",
-        "code": "H49-KQ000130",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Phương án/biện pháp bảo đảm an toàn giao thông đường bộ trong quá trình thi công xây dựng nút giao",
-        "code": "H49-KQ000128",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -89,34 +73,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "3.5 ngày làm việc",
-      "processing_time_value": 3.5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "- Trực tiếp tại: Trung tâm Phục vụ hành chính công tỉnh; Trung tâm Phục vụ hành chính công cấp xã và Điểm Tiếp nhận và trả kết quả;",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "3.5 ngày làm việc",
-      "processing_time_value": 3.5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Nộp trực tuyến tại: https://dichvucong.gov.vn",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "3.5 ngày làm việc",
-      "processing_time_value": 3.5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -125,84 +104,69 @@
     {
       "title": "Quy định về quản lý, vận hành, khai thác và bảo trì kết cấu hạ tầng đường bộ",
       "document_number": "41/2024/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9efe-861fc61c691f",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật Trật tự, an toàn giao thông đường bộ",
       "document_number": "36/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b672-dfa7472cab6e",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật số 62/2020/QH14 của Quốc hội: Luật sửa đổi, bổ sung một số điều của Luật Xây dựng",
       "document_number": "62/2020/QH14",
-      "id": "019d2bb3-5d87-7195-a444-3572483f4e46",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật 50/2014/QH13",
       "document_number": "Luật 50/2014/QH13",
-      "id": "019d2bb3-5d87-7195-a447-e16d08dfe38b",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Xây dựng",
       "document_number": "140/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-f01696ee65ca",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "quy định về phân quyền, phân cấp trong lĩnh vực quản lý nhà nước của Bộ Xây dựng",
       "document_number": "144/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-29dc4def8482",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định số 165/2024/NĐ- CP ngày 26/12/2024 của Chính phủ quy định chi tiết, hướng dẫn thi hành một số điều của Luật Đường bộ và Điều 77 Luật Trật tự, an toàn giao thông đường bộ",
       "document_number": "165/2024/NĐ- CP",
-      "id": "019d2bb3-5d7e-72d1-afec-3b5eca366973",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật số 35/2024/QH15 của Quốc hội: Luật Đường bộ",
       "document_number": "35/2024/QH15",
-      "id": "019d2bb3-5d87-7195-a43f-93bce5b79e49",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "ban hành quy định về trình tự, thủ tục chấp thuận thiết kế, trình tự thủ tục cấp phép thi công nút giao đấu nối với đường địa phương đang khai thác trên địa bàn tỉnh Quảng Ninh",
       "document_number": "83/2025/QĐ-UBND",
-      "id": "019e4e20-0a7e-74ff-9d76-d59db8963073",
-      "source_page": null
+      "source_page": 3
     }
   ],
-  "conditions": "- Thời hạn hiệu lực của giấy phép:\n+ Đối với dự án đầu tư công hoặc đối tác công tư (PPP): Hiệu lực theo tiến độ thực hiện của dự án.\n+ Đối với các trường hợp còn lại: Thời hạn không quá 24 tháng kể từ ngày cấp phép.\n- Trách nhiệm sau cấp phép: * Nếu hết thời hạn mà chưa hoàn thành thi công, chủ đầu tư phải thực hiện lại thủ tục cấp phép từ đầu.\n+ Chủ đầu tư chịu trách nhiệm toàn diện về chất lượng công trình, an toàn giao thông và độ bền vững của kết cấu đường bộ.\n+ Sau khi hoàn thành, phải nộp 01 bộ hồ sơ hoàn công để cơ quan quản lý lưu trữ và cập nhật vào hồ sơ tuyến đường.\n+ Chủ sử dụng nút giao có trách nhiệm bảo trì và đảm bảo an toàn giao thông trong quá trình khai thác.\n",
+  "conditions": "- Thời hạn hiệu lực của giấy phép:\n+ Đối với dự án đầu tư công hoặc đối tác công tư (PPP): Hiệu lực theo tiến độ thực hiện của dự án.\n+ Đối với các trường hợp còn lại: Thời hạn không quá 24 tháng kể từ ngày cấp phép.\n- Trách nhiệm sau cấp phép: * Nếu hết thời hạn mà chưa hoàn thành thi công, chủ đầu tư phải thực hiện lại thủ tục cấp phép từ đầu.\n+ Chủ đầu tư chịu trách nhiệm toàn diện về chất lượng công trình, an toàn giao thông và độ bền vững của kết cấu đường bộ.\n+ Sau khi hoàn thành, phải nộp 01 bộ hồ sơ hoàn công để cơ quan quản lý lưu trữ và cập nhật vào hồ sơ tuyến đường.\n+ Chủ sử dụng nút giao có trách nhiệm bảo trì và đảm bảo an toàn giao thông trong quá trình khai thác.",
   "results": [
     {
       "title": "Giấy phép thi công nút giao đấu nối với đường tỉnh đang khai thác",
       "code": "KQ.H49.000008",
-      "id": "019e4e7d-5e61-762d-b54e-e9e5e9d81644",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Trình tự thực hiện:\n- Giai đoạn chuẩn bị: Chủ đầu tư nút giao thực hiện hoàn chỉnh hồ sơ thiết kế theo nội dung văn bản chấp thuận trước đó; tổ chức thẩm định và phê duyệt dự án theo đúng quy định hiện hành.\n- Giai đoạn nộp hồ sơ: Chủ đầu tư gửi hồ sơ đề nghị cấp phép thi công đến Trung tâm Phục vụ hành chính công tỉnh; Trung tâm Phục vụ hành chính công cấp xã  và Điểm tiếp nhận và Trả kết quả; qua Dịch vụ bưu chính hoặc trực tuyến tại Cổng Dịch vụ công quốc gia.\n- Giai đoạn tiếp nhận và kiểm tra:\n+ Đối với hồ sơ nộp trực tiếp: Cơ quan có thẩm quyền kiểm tra thành phần hồ sơ. Nếu hồ sơ đầy đủ, thực hiện tiếp nhận và viết phiếu hẹn trả kết quả; nếu hồ sơ chưa đầy đủ, hướng dẫn chủ đầu tư hoàn thiện theo quy định.\n+ Đối với hồ sơ nộp trực tuyến/ bưu chính công ích: Trong thời hạn 02 ngày làm việc kể từ ngày nhận hồ sơ, cơ quan có thẩm quyền kiểm tra tính hợp lệ. Trường hợp hồ sơ chưa đủ, cơ quan phải có văn bản thông báo rõ nội dung cần bổ sung, hoàn thiện.\n- Giai đoạn thẩm định và trả kết quả: Trong thời hạn 3,5 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền tiến hành xem xét các điều kiện về kỹ thuật và an toàn. Nếu đủ điều kiện, thực hiện cấp Giấy phép thi công nút giao; trường hợp không chấp thuận, phải có văn bản trả lời và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nĐơn đề nghị\nThuyết minh và bản vẽ biện pháp tổ chức thi công\nPhương án/biện pháp bảo đảm an toàn giao thông đường bộ trong quá trình thi công xây dựng nút giao",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 3.5 ngày làm việc - - Trực tiếp tại: Trung tâm Phục vụ hành chính công tỉnh; Trung tâm Phục vụ hành chính công cấp xã và Điểm Tiếp nhận và trả kết quả;\nTrực tuyến: 3.5 ngày làm việc - Nộp trực tuyến tại: https://dichvucong.gov.vn\nQua dịch vụ bưu chính: 3.5 ngày làm việc",
+    "TRÌNH TỰ THỰC HIỆN": "Trình tự thực hiện:\n- Giai đoạn chuẩn bị: Chủ đầu tư nút giao thực hiện hoàn chỉnh hồ sơ thiết kế theo nội dung văn bản chấp thuận trước đó; tổ chức thẩm định và phê duyệt dự án theo đúng quy định hiện hành.\n- Giai đoạn nộp hồ sơ: Chủ đầu tư gửi hồ sơ đề nghị cấp phép thi công đến Trung tâm Phục vụ hành chính công tỉnh; Trung tâm Phục vụ hành chính công cấp xã  và Điểm tiếp nhận và Trả kết quả; qua Dịch vụ bưu chính hoặc trực tuyến tại Cổng Dịch vụ công quốc gia.\n- Giai đoạn tiếp nhận và kiểm tra:\n+ Đối với hồ sơ nộp trực tiếp: Cơ quan có thẩm quyền kiểm tra thành phần hồ sơ. Nếu hồ sơ đầy đủ, thực hiện tiếp nhận và viết phiếu hẹn trả kết quả; nếu hồ sơ chưa đầy đủ, hướng dẫn chủ đầu tư hoàn thiện theo quy định.\n+ Đối với hồ sơ nộp trực tuyến/ bưu chính công ích: Trong thời hạn 02 ngày làm việc kể từ ngày nhận hồ sơ, cơ quan có thẩm quyền kiểm tra tính hợp lệ. Trường hợp hồ sơ chưa đủ, cơ quan phải có văn bản thông báo rõ nội dung cần bổ sung, hoàn thiện.\n- Giai đoạn thẩm định và trả kết quả: Trong thời hạn 3,5 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền tiến hành xem xét các điều kiện về kỹ thuật và an toàn. Nếu đủ điều kiện, thực hiện cấp Giấy phép thi công nút giao; trường hợp không chấp thuận, phải có văn bản trả lời và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "Đơn đề nghị\nThuyết minh và bản vẽ biện pháp tổ chức thi công\nPhương án/biện pháp bảo đảm an toàn giao thông đường bộ trong quá trình thi công xây dựng nút giao",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 3.5 ngày làm việc\nTrực tuyến: 3.5 ngày làm việc\nQua dịch vụ bưu chính: 3.5 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Quy định về quản lý, vận hành, khai thác và bảo trì kết cấu hạ tầng đường bộ - 41/2024/TT-BGTVT\nLuật Trật tự, an toàn giao thông đường bộ - 36/2024/QH15\nLuật số 62/2020/QH14 của Quốc hội: Luật sửa đổi, bổ sung một số điều của Luật Xây dựng - 62/2020/QH14\nLuật 50/2014/QH13 - Luật 50/2014/QH13\nQuy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Xây dựng - 140/2025/NĐ-CP\nquy định về phân quyền, phân cấp trong lĩnh vực quản lý nhà nước của Bộ Xây dựng - 144/2025/NĐ-CP\nNghị định số 165/2024/NĐ- CP ngày 26/12/2024 của Chính phủ quy định chi tiết, hướng dẫn thi hành một số điều của Luật Đường bộ và Điều 77 Luật Trật tự, an toàn giao thông đường bộ - 165/2024/NĐ- CP\nLuật số 35/2024/QH15 của Quốc hội: Luật Đường bộ - 35/2024/QH15\nban hành quy định về trình tự, thủ tục chấp thuận thiết kế, trình tự thủ tục cấp phép thi công nút giao đấu nối với đường địa phương đang khai thác trên địa bàn tỉnh Quảng Ninh - 83/2025/QĐ-UBND",
     "CƠ QUAN THỰC HIỆN": "Sở Xây dựng - tỉnh Quảng Ninh",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "- Thời hạn hiệu lực của giấy phép:\n+ Đối với dự án đầu tư công hoặc đối tác công tư (PPP): Hiệu lực theo tiến độ thực hiện của dự án.\n+ Đối với các trường hợp còn lại: Thời hạn không quá 24 tháng kể từ ngày cấp phép.\n- Trách nhiệm sau cấp phép: * Nếu hết thời hạn mà chưa hoàn thành thi công, chủ đầu tư phải thực hiện lại thủ tục cấp phép từ đầu.\n+ Chủ đầu tư chịu trách nhiệm toàn diện về chất lượng công trình, an toàn giao thông và độ bền vững của kết cấu đường bộ.\n+ Sau khi hoàn thành, phải nộp 01 bộ hồ sơ hoàn công để cơ quan quản lý lưu trữ và cập nhật vào hồ sơ tuyến đường.\n+ Chủ sử dụng nút giao có trách nhiệm bảo trì và đảm bảo an toàn giao thông trong quá trình khai thác.\n",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "- Thời hạn hiệu lực của giấy phép:\n+ Đối với dự án đầu tư công hoặc đối tác công tư (PPP): Hiệu lực theo tiến độ thực hiện của dự án.\n+ Đối với các trường hợp còn lại: Thời hạn không quá 24 tháng kể từ ngày cấp phép.\n- Trách nhiệm sau cấp phép: * Nếu hết thời hạn mà chưa hoàn thành thi công, chủ đầu tư phải thực hiện lại thủ tục cấp phép từ đầu.\n+ Chủ đầu tư chịu trách nhiệm toàn diện về chất lượng công trình, an toàn giao thông và độ bền vững của kết cấu đường bộ.\n+ Sau khi hoàn thành, phải nộp 01 bộ hồ sơ hoàn công để cơ quan quản lý lưu trữ và cập nhật vào hồ sơ tuyến đường.\n+ Chủ sử dụng nút giao có trách nhiệm bảo trì và đảm bảo an toàn giao thông trong quá trình khai thác.",
     "KẾT QUẢ XỬ LÝ": "Giấy phép thi công nút giao đấu nối với đường tỉnh đang khai thác - KQ.H49.000008",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "- Thời hạn hiệu lực của giấy phép:\n+ Đối với dự án đầu tư công hoặc đối tác công tư (PPP): Hiệu lực theo tiến độ thực hiện của dự án.\n+ Đối với các trường hợp còn lại: Thời hạn không quá 24 tháng kể từ ngày cấp phép.\n- Trách nhiệm sau cấp phép: * Nếu hết thời hạn mà chưa hoàn thành thi công, chủ đầu tư phải thực hiện lại thủ tục cấp phép từ đầu.\n+ Chủ đầu tư chịu trách nhiệm toàn diện về chất lượng công trình, an toàn giao thông và độ bền vững của kết cấu đường bộ.\n+ Sau khi hoàn thành, phải nộp 01 bộ hồ sơ hoàn công để cơ quan quản lý lưu trữ và cập nhật vào hồ sơ tuyến đường.\n+ Chủ sử dụng nút giao có trách nhiệm bảo trì và đảm bảo an toàn giao thông trong quá trình khai thác.\n"
+    "MÔ TẢ": "- Thời hạn hiệu lực của giấy phép:\n+ Đối với dự án đầu tư công hoặc đối tác công tư (PPP): Hiệu lực theo tiến độ thực hiện của dự án.\n+ Đối với các trường hợp còn lại: Thời hạn không quá 24 tháng kể từ ngày cấp phép.\n- Trách nhiệm sau cấp phép: * Nếu hết thời hạn mà chưa hoàn thành thi công, chủ đầu tư phải thực hiện lại thủ tục cấp phép từ đầu.\n+ Chủ đầu tư chịu trách nhiệm toàn diện về chất lượng công trình, an toàn giao thông và độ bền vững của kết cấu đường bộ.\n+ Sau khi hoàn thành, phải nộp 01 bộ hồ sơ hoàn công để cơ quan quản lý lưu trữ và cập nhật vào hồ sơ tuyến đường.\n+ Chủ sử dụng nút giao có trách nhiệm bảo trì và đảm bảo an toàn giao thông trong quá trình khai thác."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Quản lý kết cấu hạ tầng giao thông",
       "slug": "quan-ly-ket-cau-ha-tang-giao-thong"
@@ -233,6 +197,6 @@
         "slug": "so-xay-dung-tinh-quang-ninh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

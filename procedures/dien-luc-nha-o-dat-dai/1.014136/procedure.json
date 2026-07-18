@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfa-86b6-72a8-aa81-d93e55441e1f",
   "procedure_code": "1.014136",
   "title": "Đăng ký/Điều chỉnh dự án theo cơ chế trao đổi, bù trừ tín chỉ các-bon trong nước",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-86b6-72a8-aa81-d93e55441e1f",
     "source_file": "chi-tiet-thu-tuc-1.014136.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.014136/chi-tiet-thu-tuc-1.014136.pdf",
     "page_count": 7,
-    "extracted_at": "2026-07-18T02:22:12.340669+00:00",
-    "source_updated_at": "2026-05-19T09:38:16.473Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:56:09.712171+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "5623861f4178f4387c02d2c74feaa50ddcc3fcba1dcc3c53e7254f3a3087448c"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:12.340669+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1603/QĐ-BNNMT",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Biến đổi khí hậu",
   "target_users": [
@@ -39,172 +35,112 @@
   ],
   "agency": {
     "competent_agency": "Chủ tịch ủy ban nhân dân cấp tỉnh",
-    "executing_agency": "UBND cấp tỉnh hoặc cơ quan có thẩm quyền do UBND cấp tỉnh quyết định việc phân cấp hoặc ủy quyền theo quy định của Luật Tổ chức chính quyền địa phương số 72/2025/QH15",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện."
+    "executing_agency": "UBND cấp tỉnh hoặc cơ quan có thẩm quyền do UBND cấp tỉnh quyết định việc phân cấp hoặc ủy quyền theo quy định của Luật Tổ chức chính quyền địa phương số 72/2025/QH15"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Nộp hồ sơ\nCơ quan, tổ chức có đề nghị đăng ký dự án hoặc có nhu cầu điều chỉnh quy mô, công suất của dự án đã được đăng ký dự án theo cơ chế trao đổi, bù trừ tín chỉ các-bon trong nước gửi hồ sơ đăng ký/điều chỉnh dự án tới Chủ tịch Ủy ban nhân dân cấp tỉnh trong trường hợp dự án đăng ký trên địa bàn 01 đơn vị hành chính cấp tỉnh hoặc tới Chủ tịch Ủy ban nhân cấp tỉnh của một trong các khu vực thực hiện dự án trong trường hợp dự án đăng ký trên địa bàn 02 đơn vị hành chính cấp tỉnh trở lên theo một trong các hình thức: \n- Trực tiếp hoặc gửi qua dịch vụ bưu chính đến Bộ phận Tiếp nhận và Trả kết quả giải quyết thủ tục hành chính của Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh của một trong các khu vực thực hiện dự án giao thực hiện (sau đây gọi tắt là Bộ phận Một cửa). \n- Trực tuyến qua Cổng dịch vụ công quốc gia tại địa chỉ http://dichvucong.gov.vn hoặc qua Ứng dụng định danh quốc gia.\n",
+      "description": "Bước 1: Nộp hồ sơ\nCơ quan, tổ chức có đề nghị đăng ký dự án hoặc có nhu cầu điều chỉnh quy mô, công suất của dự án đã được đăng ký dự án theo cơ chế trao đổi, bù trừ tín chỉ các-bon trong nước gửi hồ sơ đăng ký/điều chỉnh dự án tới Chủ tịch Ủy ban nhân dân cấp tỉnh trong trường hợp dự án đăng ký trên địa bàn 01 đơn vị hành chính cấp tỉnh hoặc tới Chủ tịch Ủy ban nhân cấp tỉnh của một trong các khu vực thực hiện dự án trong trường hợp dự án đăng ký trên địa bàn 02 đơn vị hành chính cấp tỉnh trở lên theo một trong các hình thức: \n- Trực tiếp hoặc gửi qua dịch vụ bưu chính đến Bộ phận Tiếp nhận và Trả kết quả giải quyết thủ tục hành chính của Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh của một trong các khu vực thực hiện dự án giao thực hiện (sau đây gọi tắt là Bộ phận Một cửa). \n- Trực tuyến qua Cổng dịch vụ công quốc gia tại địa chỉ http://dichvucong.gov.vn hoặc qua Ứng dụng định danh quốc gia.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "Bước 2",
-      "description": "Bước 2: Kiểm tra tính hợp lệ của hồ sơ\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện thông báo cho cơ quan, tổ chức về tính hợp lệ của hồ sơ. \nTrường hợp hồ sơ không hợp lệ, tổ chức hoàn thiện hồ sơ trong thời hạn không quá 15 ngày kể từ ngày có thông báo. \nThời gian hoàn thiện hồ sơ không tính vào thời hạn thực hiện thủ tục đăng ký, điều chỉnh dự án\n",
+      "description": "Bước 2: Kiểm tra tính hợp lệ của hồ sơ\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện thông báo cho cơ quan, tổ chức về tính hợp lệ của hồ sơ. \nTrường hợp hồ sơ không hợp lệ, tổ chức hoàn thiện hồ sơ trong thời hạn không quá 15 ngày kể từ ngày có thông báo. \nThời gian hoàn thiện hồ sơ không tính vào thời hạn thực hiện thủ tục đăng ký, điều chỉnh dự án",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 3,
       "title": "Bước 3",
-      "description": "Bước 3: Đăng tải hồ sơ lấy ý kiến rộng rãi\nTrong thời hạn 01 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện đăng tải hồ sơ đề nghị đăng ký/điều chỉnh dự án trên trang thông tin điện tử của tỉnh để lấy ý kiến rộng rãi trong thời gian 30 ngày.\n",
+      "description": "Bước 3: Đăng tải hồ sơ lấy ý kiến rộng rãi\nTrong thời hạn 01 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện đăng tải hồ sơ đề nghị đăng ký/điều chỉnh dự án trên trang thông tin điện tử của tỉnh để lấy ý kiến rộng rãi trong thời gian 30 ngày.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 4,
       "title": "Bước 4",
-      "description": "Bước 4: Tổng hợp và thông báo ý kiến góp ý\nTrong thời hạn 05 ngày làm việc kể từ ngày kết thúc lấy ý kiến rộng rãi, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện tổng hợp ý kiến và thông báo cho cơ quan, tổ chức nộp hồ sơ.\n",
+      "description": "Bước 4: Tổng hợp và thông báo ý kiến góp ý\nTrong thời hạn 05 ngày làm việc kể từ ngày kết thúc lấy ý kiến rộng rãi, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện tổng hợp ý kiến và thông báo cho cơ quan, tổ chức nộp hồ sơ.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 5,
       "title": "Bước 5",
-      "description": "Bước 5: Hoàn thiện hồ sơ theo ý kiến tại thông báo \nCơ quan, tổ chức hoàn thiện hồ sơ theo ý kiến tại thông báo và gửi đơn vị khoản 2 Điều 20 Nghị định số 06/2022/NĐ-CP đã được sửa đổi, bổ sung bởi Nghị định số 119/2025/NĐ-CP và Nghị định số 83/2026/NĐ-CP để thực hiện thẩm định. \nTrong thời hạn 60 ngày kể từ ngày nhận được thông báo, cơ quan, tổ chức gửi hồ sơ đề nghị đăng ký/điều chỉnh dự án đã hoàn thiện kèm báo cáo thẩm định tài liệu dự án theo Phụ lục 12.7 kèm theo Phụ lục XII ban hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính phủ tới Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện.\nĐơn vị thẩm định quy định tại khoản 2 Điều 20 Nghị định số 06/2022/NĐ-CP đã được sửa đổi, bổ sung bởi Nghị định số 119/2025/NĐ-CP và Nghị định số 83/2026/NĐ-CP lựa chọn thực hiện thẩm định tài liệu dự án trước, trong hoặc sau thời hạn lấy ý kiến rộng rãi.\n",
+      "description": "Bước 5: Hoàn thiện hồ sơ theo ý kiến tại thông báo \nCơ quan, tổ chức hoàn thiện hồ sơ theo ý kiến tại thông báo và gửi đơn vị khoản 2 Điều 20 Nghị định số 06/2022/NĐ-CP đã được sửa đổi, bổ sung bởi Nghị định số 119/2025/NĐ-CP và Nghị định số 83/2026/NĐ-CP để thực hiện thẩm định. \nTrong thời hạn 60 ngày kể từ ngày nhận được thông báo, cơ quan, tổ chức gửi hồ sơ đề nghị đăng ký/điều chỉnh dự án đã hoàn thiện kèm báo cáo thẩm định tài liệu dự án theo Phụ lục 12.7 kèm theo Phụ lục XII ban hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính phủ tới Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện.\nĐơn vị thẩm định quy định tại khoản 2 Điều 20 Nghị định số 06/2022/NĐ-CP đã được sửa đổi, bổ sung bởi Nghị định số 119/2025/NĐ-CP và Nghị định số 83/2026/NĐ-CP lựa chọn thực hiện thẩm định tài liệu dự án trước, trong hoặc sau thời hạn lấy ý kiến rộng rãi.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 6,
       "title": "Bước 6",
-      "description": "Bước 6: Kiểm tra tính hợp lệ của hồ sơ sau hoàn thiện\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ đề nghị đăng ký/điều chỉnh dự án đã hoàn thiện, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện thông báo cho cơ quan, tổ chức đề xuất về tính hợp lệ của hồ sơ.\nTrong trường hợp hồ sơ không hợp lệ, cơ quan, tổ chức đề xuất hoàn thiện hồ sơ trong thời hạn không quá 05 ngày kể từ ngày có thông báo. Thời gian hoàn thiện hồ sơ không tính vào thời hạn thực hiện thủ tục đăng ký/điều chỉnh dự án.\n",
+      "description": "Bước 6: Kiểm tra tính hợp lệ của hồ sơ sau hoàn thiện\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ đề nghị đăng ký/điều chỉnh dự án đã hoàn thiện, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện thông báo cho cơ quan, tổ chức đề xuất về tính hợp lệ của hồ sơ.\nTrong trường hợp hồ sơ không hợp lệ, cơ quan, tổ chức đề xuất hoàn thiện hồ sơ trong thời hạn không quá 05 ngày kể từ ngày có thông báo. Thời gian hoàn thiện hồ sơ không tính vào thời hạn thực hiện thủ tục đăng ký/điều chỉnh dự án.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 7,
       "title": "Bước 7",
-      "description": "Bước 7: Lấy ý kiến về việc phê duyệt đăng ký/điều chỉnh dự án\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện gửi hồ sơ tới Chủ tịch Ủy ban nhân dân cấp tỉnh của các khu vực thực hiện dự án (nếu có) và các cơ quan, tổ chức liên quan lấy ý kiến về việc phê duyệt đăng ký/điều chỉnh dự án. Cơ quan, tổ chức được lấy ý kiến có trách nhiệm trả lời bằng văn bản trong thời hạn tối đa 10 ngày kể từ ngày nhận được hồ sơ lấy ý kiến. \n",
+      "description": "Bước 7: Lấy ý kiến về việc phê duyệt đăng ký/điều chỉnh dự án\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện gửi hồ sơ tới Chủ tịch Ủy ban nhân dân cấp tỉnh của các khu vực thực hiện dự án (nếu có) và các cơ quan, tổ chức liên quan lấy ý kiến về việc phê duyệt đăng ký/điều chỉnh dự án. Cơ quan, tổ chức được lấy ý kiến có trách nhiệm trả lời bằng văn bản trong thời hạn tối đa 10 ngày kể từ ngày nhận được hồ sơ lấy ý kiến.",
       "example": null,
-      "source_page": null
+      "source_page": 3
     },
     {
       "order": 8,
       "title": "Bước 8",
-      "description": "Bước 8: Tổ chức đánh giá, quyết định phê duyệt đăng ký/điều chỉnh dự án \nTrong thời hạn 07 ngày sau khi nhận được ý kiến của các cơ quan, tổ chức, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện tổ chức đánh giá theo các nội dung: biện pháp giảm phát thải khí nhà kính, phương pháp tạo tín chỉ các-bon, các tham số giám sát hoạt động dự án; phê duyệt đăng ký/điều chỉnh dự án bằng quyết định theo Phụ lục 12.8 kèm theo Phụ lục XII ban hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính phủ; gửi cho tổ chức, cá nhân đề nghị đăng ký và công bố trên Hệ thống đăng ký quốc gia về hạn ngạch phát thải khí nhà kính và tín chỉ các-bon; trường hợp không phê duyệt đăng ký phải nêu rõ lý do.\n",
+      "description": "Bước 8: Tổ chức đánh giá, quyết định phê duyệt đăng ký/điều chỉnh dự án \nTrong thời hạn 07 ngày sau khi nhận được ý kiến của các cơ quan, tổ chức, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện tổ chức đánh giá theo các nội dung: biện pháp giảm phát thải khí nhà kính, phương pháp tạo tín chỉ các-bon, các tham số giám sát hoạt động dự án; phê duyệt đăng ký/điều chỉnh dự án bằng quyết định theo Phụ lục 12.8 kèm theo Phụ lục XII ban hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính phủ; gửi cho tổ chức, cá nhân đề nghị đăng ký và công bố trên Hệ thống đăng ký quốc gia về hạn ngạch phát thải khí nhà kính và tín chỉ các-bon; trường hợp không phê duyệt đăng ký phải nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 3
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "(4) Kế hoạch thực hiện phát triển bền vững theo Phụ lục 12.5 kèm theo  Phụ lục XII ban hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026  của Chính phủ (bản sao)",
-        "code": "000.00.00.G10-KQ006438",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e3e9f-c323-7284-ad72-cdb6a194c4aa",
-            "name": "Phụ lục 12.5.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục 12.5.docx",
+        "source_page": 3
       },
       {
         "name": "(5) Phương thức liên lạc theo Phụ lục 12.6 kèm theo Phụ lục XII ban hành  kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính phủ (bản  sao)",
-        "code": "000.00.00.G10-KQ006439",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e3e9f-ed2b-741a-a76a-14a7ed67b00f",
-            "name": "Phụ lục 12.6.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục 12.6.docx",
+        "source_page": 3
       },
       {
         "name": "(6) Báo cáo thẩm định tài liệu dự án theo Phụ lục 12.7 kèm theo Phụ lục  XII ban hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của  Chính phủ (bản sao kèm bản chính để đối chiếu hoặc bản sao có chứng thực)",
-        "code": "000.00.00.G10-KQ006440",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e3ea0-1c2f-7369-9f57-07a2dd713e2d",
-            "name": "Phụ lục 12.7.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục 12.7.docx",
+        "source_page": 3
       },
       {
         "name": "(3) Kế hoạch giám sát dự án theo Phụ lục 12.4 kèm theo Phụ lục XII ban  hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính phủ  (bản sao)",
-        "code": "000.00.00.G10-KQ006437",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e3ea0-413d-772e-8b91-e8a3b442e3b9",
-            "name": "Phụ lục 12.4.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục 12.4.docx",
+        "source_page": 3
       },
       {
         "name": "(2) Tài liệu thiết kế dự án theo Phụ lục 12.3 kèm theo Phụ lục XII ban  hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính phủ  (bản sao)",
-        "code": "000.00.00.G10-KQ006436",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e3ea0-6a20-7537-adad-67a18e5789d3",
-            "name": "Phụ lục 12.3.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục 12.3.docx",
+        "source_page": 4
       },
       {
         "name": "(1) Đơn đề nghị đăng ký dự án theo Phụ lục 12.2 kèm theo Phụ lục XII  ban hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính  phủ (bản chính)",
-        "code": "000.00.00.G10-KQ006435",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e3ea0-8dec-761d-9fb6-028df2448d6e",
-            "name": "Phụ lục 12.2.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục 12.2.docx",
+        "source_page": 4
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "(7) Các loại giấy phép liên quan đến hoạt động chuyên môn của dự án  theo quy định pháp luật hiện hành (bản sao)",
-        "code": "000.00.00.G10-KQ006441",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -213,87 +149,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "0",
-      "processing_time_value": 0,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Thời gian giải quyết 15 ngày làm việc và 47 ngày.\nHồ sơ gửi trực tuyến qua Cổng dịch vụ công quốc gia tại địa chỉ http://dichvucong.gov.vn hoặc Ứng dụng định danh quốc gia.",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "0",
-      "processing_time_value": 0,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Thời gian giải quyết 15 ngày làm việc và 47 ngày. \nHồ sơ gửi qua dịch vụ bưu chính đến Bộ phận Tiếp nhận và Trả kết quả giải quyết thủ tục hành chính của Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh của một trong các khu vực thực hiện dự án giao thực hiện (sau đây gọi tắt là Bộ phận Một cửa). ",
-      "source_page": null
+      "fee": "0",
+      "description": "Thời gian giải quyết 15 ngày làm việc và 47 ngày. \nHồ sơ gửi qua dịch vụ bưu chính đến Bộ phận Tiếp nhận và Trả kết quả giải quyết thủ tục hành chính của Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh của một trong các khu vực thực hiện dự án giao thực hiện (sau đây gọi tắt là Bộ phận Một cửa).",
+      "source_page": 4
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "0",
-      "processing_time_value": 0,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Thời gian giải quyết 15 ngày làm việc và 47 ngày.\nHồ sơ gửi trực tiếp tại Bộ phận Tiếp nhận và Trả kết quả giải quyết thủ tục hành chính của Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh của một trong các khu vực thực hiện dự án giao thực hiện (sau đây gọi tắt là Bộ phận Một cửa). ",
-      "source_page": null
+      "fee": "0",
+      "description": "Thời gian giải quyết 15 ngày làm việc và 47 ngày.\nHồ sơ gửi trực tiếp tại Bộ phận Tiếp nhận và Trả kết quả giải quyết thủ tục hành chính của Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh của một trong các khu vực thực hiện dự án giao thực hiện (sau đây gọi tắt là Bộ phận Một cửa).",
+      "source_page": 4
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -301,26 +202,22 @@
     {
       "title": "Luật Bảo vệ môi trường số 72/2020/QH14 ngày 17 tháng 11 năm 2020",
       "document_number": "72/2020/QH14",
-      "id": "019d2bb3-5d85-73da-8eb9-fbf4344c3579",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Nghị định số 06/2022/NĐ-CP ngày 07 tháng 01 năm 2022 của Chính phủ quy định giảm nhẹ phát thải khí nhà kính và bảo vệ tầng ô-dôn",
       "document_number": "83/2026/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a63d-d5936d807820",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Về cắt giảm, phân cấp, đơn giản hóa thủ tục hành chính và cắt giảm, đơn giản hóa điều kiện kinh doanh thuộc phạm vi quản lý của Bộ Nông nghiệp và Môi trường",
       "document_number": "17/2026/NQ-CP",
-      "id": "019e0be0-1ccd-7462-b7f5-5a312790c821",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Nghị định số 06/2022/NĐ-CP ngày 07 tháng 01 năm 2022 của Chính phủ quy định giảm nhẹ phát thải khí nhà kính và bảo vệ tầng ô-dôn",
       "document_number": "119/2025/NĐ-CP",
-      "id": "019d9480-0490-750d-98e4-6acdefaa7c72",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "conditions": "Cơ quan, tổ chức có đề nghị đăng ký dự án hoặc có nhu cầu điều chỉnh quy mô, công suất của dự án đã được đăng ký dự án theo cơ chế trao đổi, bù trừ tín chỉ các-bon trong nước gửi hồ sơ tới Chủ tịch Ủy ban nhân dân cấp tỉnh từ ngày 01 tháng 8 năm 2026.",
@@ -328,14 +225,13 @@
     {
       "title": "Quyết định về việc phê duyệt đăng ký dự án tạo tín chỉ các-bon",
       "code": "KQ.G10.000985",
-      "id": "019d2bb2-1c6d-743d-a39b-4bcd9328ff51",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Nộp hồ sơ\nCơ quan, tổ chức có đề nghị đăng ký dự án hoặc có nhu cầu điều chỉnh quy mô, công suất của dự án đã được đăng ký dự án theo cơ chế trao đổi, bù trừ tín chỉ các-bon trong nước gửi hồ sơ đăng ký/điều chỉnh dự án tới Chủ tịch Ủy ban nhân dân cấp tỉnh trong trường hợp dự án đăng ký trên địa bàn 01 đơn vị hành chính cấp tỉnh hoặc tới Chủ tịch Ủy ban nhân cấp tỉnh của một trong các khu vực thực hiện dự án trong trường hợp dự án đăng ký trên địa bàn 02 đơn vị hành chính cấp tỉnh trở lên theo một trong các hình thức: \n- Trực tiếp hoặc gửi qua dịch vụ bưu chính đến Bộ phận Tiếp nhận và Trả kết quả giải quyết thủ tục hành chính của Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh của một trong các khu vực thực hiện dự án giao thực hiện (sau đây gọi tắt là Bộ phận Một cửa). \n- Trực tuyến qua Cổng dịch vụ công quốc gia tại địa chỉ http://dichvucong.gov.vn hoặc qua Ứng dụng định danh quốc gia.\n\nBước 2: Kiểm tra tính hợp lệ của hồ sơ\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện thông báo cho cơ quan, tổ chức về tính hợp lệ của hồ sơ. \nTrường hợp hồ sơ không hợp lệ, tổ chức hoàn thiện hồ sơ trong thời hạn không quá 15 ngày kể từ ngày có thông báo. \nThời gian hoàn thiện hồ sơ không tính vào thời hạn thực hiện thủ tục đăng ký, điều chỉnh dự án\n\nBước 3: Đăng tải hồ sơ lấy ý kiến rộng rãi\nTrong thời hạn 01 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện đăng tải hồ sơ đề nghị đăng ký/điều chỉnh dự án trên trang thông tin điện tử của tỉnh để lấy ý kiến rộng rãi trong thời gian 30 ngày.\n\nBước 4: Tổng hợp và thông báo ý kiến góp ý\nTrong thời hạn 05 ngày làm việc kể từ ngày kết thúc lấy ý kiến rộng rãi, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện tổng hợp ý kiến và thông báo cho cơ quan, tổ chức nộp hồ sơ.\n\nBước 5: Hoàn thiện hồ sơ theo ý kiến tại thông báo \nCơ quan, tổ chức hoàn thiện hồ sơ theo ý kiến tại thông báo và gửi đơn vị khoản 2 Điều 20 Nghị định số 06/2022/NĐ-CP đã được sửa đổi, bổ sung bởi Nghị định số 119/2025/NĐ-CP và Nghị định số 83/2026/NĐ-CP để thực hiện thẩm định. \nTrong thời hạn 60 ngày kể từ ngày nhận được thông báo, cơ quan, tổ chức gửi hồ sơ đề nghị đăng ký/điều chỉnh dự án đã hoàn thiện kèm báo cáo thẩm định tài liệu dự án theo Phụ lục 12.7 kèm theo Phụ lục XII ban hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính phủ tới Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện.\nĐơn vị thẩm định quy định tại khoản 2 Điều 20 Nghị định số 06/2022/NĐ-CP đã được sửa đổi, bổ sung bởi Nghị định số 119/2025/NĐ-CP và Nghị định số 83/2026/NĐ-CP lựa chọn thực hiện thẩm định tài liệu dự án trước, trong hoặc sau thời hạn lấy ý kiến rộng rãi.\n\nBước 6: Kiểm tra tính hợp lệ của hồ sơ sau hoàn thiện\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ đề nghị đăng ký/điều chỉnh dự án đã hoàn thiện, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện thông báo cho cơ quan, tổ chức đề xuất về tính hợp lệ của hồ sơ.\nTrong trường hợp hồ sơ không hợp lệ, cơ quan, tổ chức đề xuất hoàn thiện hồ sơ trong thời hạn không quá 05 ngày kể từ ngày có thông báo. Thời gian hoàn thiện hồ sơ không tính vào thời hạn thực hiện thủ tục đăng ký/điều chỉnh dự án.\n\nBước 7: Lấy ý kiến về việc phê duyệt đăng ký/điều chỉnh dự án\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện gửi hồ sơ tới Chủ tịch Ủy ban nhân dân cấp tỉnh của các khu vực thực hiện dự án (nếu có) và các cơ quan, tổ chức liên quan lấy ý kiến về việc phê duyệt đăng ký/điều chỉnh dự án. Cơ quan, tổ chức được lấy ý kiến có trách nhiệm trả lời bằng văn bản trong thời hạn tối đa 10 ngày kể từ ngày nhận được hồ sơ lấy ý kiến. \n\nBước 8: Tổ chức đánh giá, quyết định phê duyệt đăng ký/điều chỉnh dự án \nTrong thời hạn 07 ngày sau khi nhận được ý kiến của các cơ quan, tổ chức, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện tổ chức đánh giá theo các nội dung: biện pháp giảm phát thải khí nhà kính, phương pháp tạo tín chỉ các-bon, các tham số giám sát hoạt động dự án; phê duyệt đăng ký/điều chỉnh dự án bằng quyết định theo Phụ lục 12.8 kèm theo Phụ lục XII ban hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính phủ; gửi cho tổ chức, cá nhân đề nghị đăng ký và công bố trên Hệ thống đăng ký quốc gia về hạn ngạch phát thải khí nhà kính và tín chỉ các-bon; trường hợp không phê duyệt đăng ký phải nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n(4) Kế hoạch thực hiện phát triển bền vững theo Phụ lục 12.5 kèm theo  Phụ lục XII ban hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026  của Chính phủ (bản sao)\n(5) Phương thức liên lạc theo Phụ lục 12.6 kèm theo Phụ lục XII ban hành  kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính phủ (bản  sao)\n(6) Báo cáo thẩm định tài liệu dự án theo Phụ lục 12.7 kèm theo Phụ lục  XII ban hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của  Chính phủ (bản sao kèm bản chính để đối chiếu hoặc bản sao có chứng thực)\n(3) Kế hoạch giám sát dự án theo Phụ lục 12.4 kèm theo Phụ lục XII ban  hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính phủ  (bản sao)\n(7) Các loại giấy phép liên quan đến hoạt động chuyên môn của dự án  theo quy định pháp luật hiện hành (bản sao)\n(2) Tài liệu thiết kế dự án theo Phụ lục 12.3 kèm theo Phụ lục XII ban  hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính phủ  (bản sao)\n(1) Đơn đề nghị đăng ký dự án theo Phụ lục 12.2 kèm theo Phụ lục XII  ban hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính  phủ (bản chính)",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 0 - Thời gian giải quyết 15 ngày làm việc và 47 ngày.\nHồ sơ gửi trực tuyến qua Cổng dịch vụ công quốc gia tại địa chỉ http://dichvucong.gov.vn hoặc Ứng dụng định danh quốc gia.\nQua dịch vụ bưu chính: 0 - Thời gian giải quyết 15 ngày làm việc và 47 ngày. \nHồ sơ gửi qua dịch vụ bưu chính đến Bộ phận Tiếp nhận và Trả kết quả giải quyết thủ tục hành chính của Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh của một trong các khu vực thực hiện dự án giao thực hiện (sau đây gọi tắt là Bộ phận Một cửa). \nTrực tiếp: 0 - Thời gian giải quyết 15 ngày làm việc và 47 ngày.\nHồ sơ gửi trực tiếp tại Bộ phận Tiếp nhận và Trả kết quả giải quyết thủ tục hành chính của Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh của một trong các khu vực thực hiện dự án giao thực hiện (sau đây gọi tắt là Bộ phận Một cửa). ",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Nộp hồ sơ\nCơ quan, tổ chức có đề nghị đăng ký dự án hoặc có nhu cầu điều chỉnh quy mô, công suất của dự án đã được đăng ký dự án theo cơ chế trao đổi, bù trừ tín chỉ các-bon trong nước gửi hồ sơ đăng ký/điều chỉnh dự án tới Chủ tịch Ủy ban nhân dân cấp tỉnh trong trường hợp dự án đăng ký trên địa bàn 01 đơn vị hành chính cấp tỉnh hoặc tới Chủ tịch Ủy ban nhân cấp tỉnh của một trong các khu vực thực hiện dự án trong trường hợp dự án đăng ký trên địa bàn 02 đơn vị hành chính cấp tỉnh trở lên theo một trong các hình thức: \n- Trực tiếp hoặc gửi qua dịch vụ bưu chính đến Bộ phận Tiếp nhận và Trả kết quả giải quyết thủ tục hành chính của Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh của một trong các khu vực thực hiện dự án giao thực hiện (sau đây gọi tắt là Bộ phận Một cửa). \n- Trực tuyến qua Cổng dịch vụ công quốc gia tại địa chỉ http://dichvucong.gov.vn hoặc qua Ứng dụng định danh quốc gia.\nBước 2: Kiểm tra tính hợp lệ của hồ sơ\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện thông báo cho cơ quan, tổ chức về tính hợp lệ của hồ sơ. \nTrường hợp hồ sơ không hợp lệ, tổ chức hoàn thiện hồ sơ trong thời hạn không quá 15 ngày kể từ ngày có thông báo. \nThời gian hoàn thiện hồ sơ không tính vào thời hạn thực hiện thủ tục đăng ký, điều chỉnh dự án\nBước 3: Đăng tải hồ sơ lấy ý kiến rộng rãi\nTrong thời hạn 01 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện đăng tải hồ sơ đề nghị đăng ký/điều chỉnh dự án trên trang thông tin điện tử của tỉnh để lấy ý kiến rộng rãi trong thời gian 30 ngày.\nBước 4: Tổng hợp và thông báo ý kiến góp ý\nTrong thời hạn 05 ngày làm việc kể từ ngày kết thúc lấy ý kiến rộng rãi, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện tổng hợp ý kiến và thông báo cho cơ quan, tổ chức nộp hồ sơ.\nBước 5: Hoàn thiện hồ sơ theo ý kiến tại thông báo \nCơ quan, tổ chức hoàn thiện hồ sơ theo ý kiến tại thông báo và gửi đơn vị khoản 2 Điều 20 Nghị định số 06/2022/NĐ-CP đã được sửa đổi, bổ sung bởi Nghị định số 119/2025/NĐ-CP và Nghị định số 83/2026/NĐ-CP để thực hiện thẩm định. \nTrong thời hạn 60 ngày kể từ ngày nhận được thông báo, cơ quan, tổ chức gửi hồ sơ đề nghị đăng ký/điều chỉnh dự án đã hoàn thiện kèm báo cáo thẩm định tài liệu dự án theo Phụ lục 12.7 kèm theo Phụ lục XII ban hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính phủ tới Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện.\nĐơn vị thẩm định quy định tại khoản 2 Điều 20 Nghị định số 06/2022/NĐ-CP đã được sửa đổi, bổ sung bởi Nghị định số 119/2025/NĐ-CP và Nghị định số 83/2026/NĐ-CP lựa chọn thực hiện thẩm định tài liệu dự án trước, trong hoặc sau thời hạn lấy ý kiến rộng rãi.\nBước 6: Kiểm tra tính hợp lệ của hồ sơ sau hoàn thiện\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ đề nghị đăng ký/điều chỉnh dự án đã hoàn thiện, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện thông báo cho cơ quan, tổ chức đề xuất về tính hợp lệ của hồ sơ.\nTrong trường hợp hồ sơ không hợp lệ, cơ quan, tổ chức đề xuất hoàn thiện hồ sơ trong thời hạn không quá 05 ngày kể từ ngày có thông báo. Thời gian hoàn thiện hồ sơ không tính vào thời hạn thực hiện thủ tục đăng ký/điều chỉnh dự án.\nBước 7: Lấy ý kiến về việc phê duyệt đăng ký/điều chỉnh dự án\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện gửi hồ sơ tới Chủ tịch Ủy ban nhân dân cấp tỉnh của các khu vực thực hiện dự án (nếu có) và các cơ quan, tổ chức liên quan lấy ý kiến về việc phê duyệt đăng ký/điều chỉnh dự án. Cơ quan, tổ chức được lấy ý kiến có trách nhiệm trả lời bằng văn bản trong thời hạn tối đa 10 ngày kể từ ngày nhận được hồ sơ lấy ý kiến.\nBước 8: Tổ chức đánh giá, quyết định phê duyệt đăng ký/điều chỉnh dự án \nTrong thời hạn 07 ngày sau khi nhận được ý kiến của các cơ quan, tổ chức, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao thực hiện tổ chức đánh giá theo các nội dung: biện pháp giảm phát thải khí nhà kính, phương pháp tạo tín chỉ các-bon, các tham số giám sát hoạt động dự án; phê duyệt đăng ký/điều chỉnh dự án bằng quyết định theo Phụ lục 12.8 kèm theo Phụ lục XII ban hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính phủ; gửi cho tổ chức, cá nhân đề nghị đăng ký và công bố trên Hệ thống đăng ký quốc gia về hạn ngạch phát thải khí nhà kính và tín chỉ các-bon; trường hợp không phê duyệt đăng ký phải nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "(4) Kế hoạch thực hiện phát triển bền vững theo Phụ lục 12.5 kèm theo  Phụ lục XII ban hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026  của Chính phủ (bản sao)\n(5) Phương thức liên lạc theo Phụ lục 12.6 kèm theo Phụ lục XII ban hành  kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính phủ (bản  sao)\n(6) Báo cáo thẩm định tài liệu dự án theo Phụ lục 12.7 kèm theo Phụ lục  XII ban hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của  Chính phủ (bản sao kèm bản chính để đối chiếu hoặc bản sao có chứng thực)\n(3) Kế hoạch giám sát dự án theo Phụ lục 12.4 kèm theo Phụ lục XII ban  hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính phủ  (bản sao)\n(2) Tài liệu thiết kế dự án theo Phụ lục 12.3 kèm theo Phụ lục XII ban  hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính phủ  (bản sao)\n(1) Đơn đề nghị đăng ký dự án theo Phụ lục 12.2 kèm theo Phụ lục XII  ban hành kèm theo Nghị quyết số 17/2026/NQ-CP ngày 29/4/2026 của Chính  phủ (bản chính)\n(7) Các loại giấy phép liên quan đến hoạt động chuyên môn của dự án  theo quy định pháp luật hiện hành (bản sao)",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 0\nQua dịch vụ bưu chính: 0\nTrực tiếp: 0",
     "CĂN CỨ PHÁP LÝ": "Luật Bảo vệ môi trường số 72/2020/QH14 ngày 17 tháng 11 năm 2020 - 72/2020/QH14\nSửa đổi, bổ sung một số điều của Nghị định số 06/2022/NĐ-CP ngày 07 tháng 01 năm 2022 của Chính phủ quy định giảm nhẹ phát thải khí nhà kính và bảo vệ tầng ô-dôn - 83/2026/NĐ-CP\nVề cắt giảm, phân cấp, đơn giản hóa thủ tục hành chính và cắt giảm, đơn giản hóa điều kiện kinh doanh thuộc phạm vi quản lý của Bộ Nông nghiệp và Môi trường - 17/2026/NQ-CP\nSửa đổi, bổ sung một số điều của Nghị định số 06/2022/NĐ-CP ngày 07 tháng 01 năm 2022 của Chính phủ quy định giảm nhẹ phát thải khí nhà kính và bảo vệ tầng ô-dôn - 119/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "UBND cấp tỉnh hoặc cơ quan có thẩm quyền do UBND cấp tỉnh quyết định việc phân cấp hoặc ủy quyền theo quy định của Luật Tổ chức chính quyền địa phương số 72/2025/QH15",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Cơ quan, tổ chức có đề nghị đăng ký dự án hoặc có nhu cầu điều chỉnh quy mô, công suất của dự án đã được đăng ký dự án theo cơ chế trao đổi, bù trừ tín chỉ các-bon trong nước gửi hồ sơ tới Chủ tịch Ủy ban nhân dân cấp tỉnh từ ngày 01 tháng 8 năm 2026.",
@@ -344,14 +240,9 @@
     "MÔ TẢ": "Cơ quan, tổ chức có đề nghị đăng ký dự án hoặc có nhu cầu điều chỉnh quy mô, công suất của dự án đã được đăng ký dự án theo cơ chế trao đổi, bù trừ tín chỉ các-bon trong nước gửi hồ sơ tới Chủ tịch Ủy ban nhân dân cấp tỉnh từ ngày 01 tháng 8 năm 2026."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Biến đổi khí hậu",
-      "slug": "bien-doi-khi-hau"
+      "slug": "bien-oi-khi-hau"
     },
     "implementation_levels": [
       {
@@ -370,7 +261,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Doanh nghiệp",
@@ -384,9 +275,9 @@
     "agencies": [
       {
         "name": "UBND cấp tỉnh hoặc cơ quan có thẩm quyền do UBND cấp tỉnh quyết định việc phân cấp hoặc ủy quyền theo quy định của Luật Tổ chức chính quyền địa phương số 72/2025/QH15",
-        "slug": "ubnd-cap-tinh-hoac-co-quan-co-tham-quyen-do-ubnd-cap-tinh-quyet-dinh-viec-phan-cap-hoac-uy-quyen-theo-quy-dinh-cua-luat-to-chuc-chinh-quyen-dia-phuong-so-72-2025-qh15"
+        "slug": "ubnd-cap-tinh-hoac-co-quan-co-tham-quyen-do-ubnd-cap-tinh-quyet-inh-viec-phan-cap-hoac-uy-quyen-theo-quy-inh-cua-luat-to-chuc-chinh-quyen-ia-phuong-so-72-2025-qh15"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

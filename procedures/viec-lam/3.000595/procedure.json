@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019eceb2-c0c2-700d-aa7c-fe5e85071e83",
   "procedure_code": "3.000595",
   "title": "Thủ tục tặng thưởng Bằng khen của Chủ tịch UBND thành phố về thành tích đối ngoại",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019eceb2-c0c2-700d-aa7c-fe5e85071e83",
     "source_file": "chi-tiet-thu-tuc-3.000595.pdf",
     "source_path": "procedures/viec-lam/3.000595/chi-tiet-thu-tuc-3.000595.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:24.556493+00:00",
-    "source_updated_at": "2026-07-09T01:07:45.643Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:41.415502+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "e5bc7a53141c32f9892ac92686293dff0d8bdbd91fc0eae08f9a1a9dfcc43124"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:24.556493+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1776/QĐ-UBND",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "OTHER",
   "sector": "Thi đua - khen thưởng",
   "target_users": [
@@ -36,10 +32,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Nội vụ TP.Đà Nẵng",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Nội vụ TP.Đà Nẵng"
   },
   "steps": [
     {
@@ -47,94 +40,61 @@
       "title": "Bước 1",
       "description": "- Bước 1: Tổ chức hoàn thiện hồ sơ theo hướng dẫn và nộp trực tuyến, trực tiếp hoặc qua dịch vụ bưu chính công ích đến Trung tâm Phục vụ hành chính công cấp xã/thành phố.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 2,
       "title": "Bước 2",
       "description": "- Bước 2: Bộ phận Tiếp nhận và trả kết quả của đơn vị tiếp nhận hồ sơ (yêu cầu bổ sung, hoàn thiện nếu hồ sơ chưa đầy đủ); chuyển Sở Nội vụ (Ban Thi đua - Khen thưởng thành phố) thẩm định.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 3,
       "title": "Bước 3",
       "description": "- Bước 3: Thẩm định hồ sơ, xin ý kiến các cơ quan liên quan, tổng hợp tham mưu Sở Nội vụ xem xét trình Chủ tịch UBND thành phố quyết định khen thưởng nếu hồ sơ đảm bảo. Các trường hợp không được khen thưởng (không đúng đối tượng, không đủ tiêu chuẩn, không đủ hồ sơ hoặc vi phạm pháp luật), Sở Nội vụ thông báo đến các đơn vị trình khen biết.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 4,
       "title": "Bước 4",
       "description": "- Bước 4: Khi có Quyết định của Chủ tịch UBND thành phố, Sở Nội vụ thông báo Quyết định, viết bằng, đóng dấu và cấp phát cho đơn vị trình khen.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Tờ trình đề nghị xét tặng giải thưởng",
-        "code": "TP-H17.000041",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019ebae5-94ec-722c-9627-ac3101fa1028",
-            "name": "Mau 1.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau 1.docx",
+        "source_page": 2
       },
       {
         "name": "Báo cáo thành tích theo mẫu số mẫu số 12A đối với tập thể",
-        "code": "TP-H17.000115",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019eceb5-3ed8-751e-90f5-d95f8a6b3945",
-            "name": "Mau12A.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau12A.docx",
+        "source_page": 2
       },
       {
         "name": "Báo cáo thành tích theo mẫu số mẫu số 9 đối với cá nhân",
-        "code": "TP-H17.000116",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019eceb5-c27e-72c8-a8a3-f8de76957d69",
-            "name": "Mau09.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau09.docx",
+        "source_page": 2
       },
       {
         "name": "Đối với đề nghị khen thưởng liên quan đến tổ chức kinh tế, người đại diện pháp luật của tổ chức kinh tế kèm theo văn bản xác nhận của các cơ quan có liên quan về việc thực hiện nghĩa vụ đối với Nhà nước (thuế, bảo hiểm xã hội; môi trường, an toàn vệ sinh lao động, an toàn vệ sinh thực phẩm nếu lĩnh vực hoạt động có liên quan).",
-        "code": "TP-H17.000310",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Văn bản ý kiến của các cơ quan có liên quan theo điều kiện, tiêu chuẩn (nếu có).",
-        "code": "TP-H17.000311",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -145,34 +105,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "25 ngày làm việc",
-      "processing_time_value": 25,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "25 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định.",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "25 ngày làm việc",
-      "processing_time_value": 25,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "25 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định.",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "25 ngày làm việc",
-      "processing_time_value": 25,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "25 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định.",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -181,20 +136,17 @@
     {
       "title": "Quy định về phân cấp, phân quyền trong lĩnh vực thi đua, khen thưởng; quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi đua, khen thưởng",
       "document_number": "152/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-a91bedd97ae5",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Về việc ban hành Quy định về công tác thi đua, khen thưởng trên địa bàn thành phố Đà Nẵng",
       "document_number": "85/2025/QĐ-UBND (thành phố Đà Nẵng)",
-      "id": "019f4446-6900-738a-bc04-23f63dc58e45",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật Thi đua, khen thưởng",
       "document_number": "06/2022/QH15",
-      "id": "019d2bb3-5d84-71c5-b671-4c4f0784f204",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Căn cứ Điều 12 Quyết định số 85/2025/QĐ-UBND ngày 05 tháng 12 năm 2025 của UBND thành phố về việc ban hành Quy định về công tác thi đua, khen thưởng trên địa bàn thành phố Đà Nẵng.",
@@ -202,14 +154,13 @@
     {
       "title": "Quyết định của Chủ tịch UBND thành phố tặng thưởng Bằng khen.",
       "code": "KQ.H17.000227",
-      "id": "019eceb2-90ea-721e-bb3d-96c734e5a497",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Tổ chức hoàn thiện hồ sơ theo hướng dẫn và nộp trực tuyến, trực tiếp hoặc qua dịch vụ bưu chính công ích đến Trung tâm Phục vụ hành chính công cấp xã/thành phố.\n- Bước 2: Bộ phận Tiếp nhận và trả kết quả của đơn vị tiếp nhận hồ sơ (yêu cầu bổ sung, hoàn thiện nếu hồ sơ chưa đầy đủ); chuyển Sở Nội vụ (Ban Thi đua - Khen thưởng thành phố) thẩm định.\n- Bước 3: Thẩm định hồ sơ, xin ý kiến các cơ quan liên quan, tổng hợp tham mưu Sở Nội vụ xem xét trình Chủ tịch UBND thành phố quyết định khen thưởng nếu hồ sơ đảm bảo. Các trường hợp không được khen thưởng (không đúng đối tượng, không đủ tiêu chuẩn, không đủ hồ sơ hoặc vi phạm pháp luật), Sở Nội vụ thông báo đến các đơn vị trình khen biết.\n- Bước 4: Khi có Quyết định của Chủ tịch UBND thành phố, Sở Nội vụ thông báo Quyết định, viết bằng, đóng dấu và cấp phát cho đơn vị trình khen.",
-    "THÀNH PHẦN HỒ SƠ": "\nTờ trình đề nghị xét tặng giải thưởng\nBáo cáo thành tích theo mẫu số mẫu số 12A đối với tập thể\nBáo cáo thành tích theo mẫu số mẫu số 9 đối với cá nhân\nĐối với đề nghị khen thưởng liên quan đến tổ chức kinh tế, người đại diện pháp luật của tổ chức kinh tế kèm theo văn bản xác nhận của các cơ quan có liên quan về việc thực hiện nghĩa vụ đối với Nhà nước (thuế, bảo hiểm xã hội; môi trường, an toàn vệ sinh lao động, an toàn vệ sinh thực phẩm nếu lĩnh vực hoạt động có liên quan).\nVăn bản ý kiến của các cơ quan có liên quan theo điều kiện, tiêu chuẩn (nếu có).",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 25 ngày làm việc - 25 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định.\nTrực tuyến: 25 ngày làm việc - 25 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định.\nQua dịch vụ bưu chính: 25 ngày làm việc - 25 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định.",
+    "THÀNH PHẦN HỒ SƠ": "Tờ trình đề nghị xét tặng giải thưởng\nBáo cáo thành tích theo mẫu số mẫu số 12A đối với tập thể\nBáo cáo thành tích theo mẫu số mẫu số 9 đối với cá nhân\nĐối với đề nghị khen thưởng liên quan đến tổ chức kinh tế, người đại diện pháp luật của tổ chức kinh tế kèm theo văn bản xác nhận của các cơ quan có liên quan về việc thực hiện nghĩa vụ đối với Nhà nước (thuế, bảo hiểm xã hội; môi trường, an toàn vệ sinh lao động, an toàn vệ sinh thực phẩm nếu lĩnh vực hoạt động có liên quan).\nVăn bản ý kiến của các cơ quan có liên quan theo điều kiện, tiêu chuẩn (nếu có).",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 25 ngày làm việc\nTrực tuyến: 25 ngày làm việc\nQua dịch vụ bưu chính: 25 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Quy định về phân cấp, phân quyền trong lĩnh vực thi đua, khen thưởng; quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi đua, khen thưởng - 152/2025/NĐ-CP\nVề việc ban hành Quy định về công tác thi đua, khen thưởng trên địa bàn thành phố Đà Nẵng - 85/2025/QĐ-UBND (thành phố Đà Nẵng)\nLuật Thi đua, khen thưởng - 06/2022/QH15",
     "CƠ QUAN THỰC HIỆN": "Sở Nội vụ TP.Đà Nẵng",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Căn cứ Điều 12 Quyết định số 85/2025/QĐ-UBND ngày 05 tháng 12 năm 2025 của UBND thành phố về việc ban hành Quy định về công tác thi đua, khen thưởng trên địa bàn thành phố Đà Nẵng.",
@@ -218,14 +169,9 @@
     "MÔ TẢ": "Căn cứ Điều 12 Quyết định số 85/2025/QĐ-UBND ngày 05 tháng 12 năm 2025 của UBND thành phố về việc ban hành Quy định về công tác thi đua, khen thưởng trên địa bàn thành phố Đà Nẵng."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Thi đua - khen thưởng",
-      "slug": "thi-dua-khen-thuong"
+      "slug": "thi-ua-khen-thuong"
     },
     "implementation_levels": [
       {
@@ -240,15 +186,15 @@
       },
       {
         "name": "Tổ chức Đảng",
-        "slug": "to-chuc-dang"
+        "slug": "to-chuc-ang"
       }
     ],
     "agencies": [
       {
         "name": "Sở Nội vụ TP.Đà Nẵng",
-        "slug": "so-noi-vu-tp-da-nang"
+        "slug": "so-noi-vu-tp-a-nang"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

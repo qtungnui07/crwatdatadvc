@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfd-5743-729a-8d4f-382ac45d3780",
   "procedure_code": "1.002270",
   "title": "Xác nhận kết quả thi hành án",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-5743-729a-8d4f-382ac45d3780",
     "source_file": "chi-tiet-thu-tuc-1.002270.pdf",
     "source_path": "procedures/giai-quyet-khieu-kien/1.002270/chi-tiet-thu-tuc-1.002270.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:00.181351+00:00",
-    "source_updated_at": "2026-05-05T10:09:13.703Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:01.796931+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "4eaed9c95d9173a97a47fd14f67466122174d7d7ebf7710abcf9cd0cb75b8bcc"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:00.181351+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1162/QĐ-BTP",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thi hành án dân sự",
   "target_users": [
@@ -37,10 +33,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Thi hành án dân sự tỉnh, thành phố, Phòng thi hành án cấp quân khu",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Thi hành án dân sự tỉnh, thành phố, Phòng thi hành án cấp quân khu"
   },
   "steps": [
     {
@@ -48,46 +41,31 @@
       "title": "Bước 1",
       "description": "- Đương sự có quyền yêu cầu cơ quan thi hành án dân sự xác nhận kết quả\nthi hành án.\n- Trong thời hạn 03 ngày làm việc, kể từ ngày nhận được yêu cầu của\nđương sự. Thủ trưởng cơ quan thi hành án dân sự cấp giấy xác nhận kết quả thi\nhành án.\nNội dung của văn bản xác nhận phải thể hiện rõ khoản nghĩa vụ theo bản\nán, quyết định, nghĩa vụ phải thi hành theo quyết định thi hành án và kết quả thi\nhành án cho đến thời điểm xác nhận.\nKết quả thi hành án được xác nhận thể hiện việc đương sự đã thực hiện\nxong toàn bộ hoặc một phần quyền, nghĩa vụ của mình theo quyết định thi hành\nán hoặc thi hành xong nghĩa vụ thi hành án của từng định kỳ trong trường hợp\nviệc thi hành án được tiến hành theo định kỳ.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "- Đơn đề nghị xác nhận kết quả thi hành án (Mẫu D07-THADS).",
-        "code": "000.00.00.G15-KQ005004",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019df79b-dba5-70fd-8aa6-da4de1222a2d",
-            "name": "MauDon.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "MauDon.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "- Trường hợp ủy quyền phải kèm theo giấy ủy quyền hợp pháp và xuất trình tài khoản định danh điện tử theo quy định của pháp luật.",
-        "code": "000.00.00.G15-KQ005005",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Nếu không thể khai thác được thông tin cư trú của công dân theo các phương thức nêu tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP hoặc thông tin khai thác trên cơ sở dữ liệu quốc gia về dân cư không được đầy đủ, không chính xác thì cơ quan có thẩm quyền, cán bộ, công chức, viên chức, cá nhân được giao trách nhiệm tiếp nhận, giải quyết thủ tục hành chính, cung cấp dịch vụ công có thể yêu cầu công dân nộp bản sao hoặc xuất trình một trong các giấy tờ có giá trị chứng minh thông tin về cư trú theo quy định tại khoản 3 Điều 14 Nghị định số 104/2022/NĐ-CP. Các loại giấy tờ có giá trị chứng minh thông tin về cư trú được quy định tại khoản 4 Điều 14 Nghị định số 104/2022/NĐ-CP bao gồm: Thẻ Căn cước công dân, Chứng minh nhân dân, Giấy xác nhận thông tin về cư trú, Giấy thông báo số định danh cá nhân và thông tin công dân trong Cơ sở dữ liệu quốc gia về dân cư.",
-        "code": "000.00.00.G15-KQ005006",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -96,17 +74,7 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -114,69 +82,44 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Được thực hiện trên Hệ thống thông tin giải quyết thủ tục hành chính dùng chung Ngành Tư pháp bằng cách nộp hồ sơ qua Cổng Dịch vụ công quốc gia, Ứng dụng định danh điện tử (VneID) ",
-      "source_page": null
+      "fee": "0",
+      "description": "Được thực hiện trên Hệ thống thông tin giải quyết thủ tục hành chính dùng chung Ngành Tư pháp bằng cách nộp hồ sơ qua Cổng Dịch vụ công quốc gia, Ứng dụng định danh điện tử (VneID)",
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -184,44 +127,37 @@
     {
       "title": "Luật Thi hành án dân sự.",
       "document_number": "26/2008/QH12",
-      "id": "019d2bb3-5d84-71c5-b672-5add0db73695",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu",
       "document_number": "66.7/2025/NQ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-22af3c5ee091",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Quyết định của Bộ trưởng Bộ Tư pháp quy định chức năng, nhiệm vụ, quyền hạn, cơ cấu tổ chức của Cục Quản lý Thi hành án dân sự.",
       "document_number": "1898/QĐ-BTP",
-      "id": "019d2bb3-5d86-7760-a642-f9662ec70bfc",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định sửa đổi, bổ sung một số điều của các Nghị định liên quan đến việc nộp xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công",
       "document_number": "104/2022/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe8-3ac91da2e6b0",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi hành án dân sự",
       "document_number": "62/2015/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46f-aa89a480e518",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Trang chủ\nThông tư số 04/2023/TT-BTP của Bộ Tư pháp: Hướng dẫn thực hiện một số thủ tục về quản lý hành chính và biểu mẫu nghiệp vụ trong thi hành án dân sự",
       "document_number": "04/2023/TT-BTP",
-      "id": "019d9993-e124-7009-960d-78077c943238",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị quyết của Chính phủ quy định cắt giảm, đơn giản hóa thủ tục hành chính, quy định liên quan đến hoạt động sản xuất, kinh doanh",
-      "document_number": "66.16/2026/NQ-CP ",
-      "id": "019df0a7-9b83-75ea-abf3-9982f285a420",
-      "source_page": null
+      "document_number": "66.16/2026/NQ-CP",
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -229,15 +165,14 @@
     {
       "title": "Giấy xác nhận kết quả thi hành án",
       "code": "KQ.G15.000209",
-      "id": "019d2bb2-1c79-762e-8b28-dfcda78a5f1f",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "- Đương sự có quyền yêu cầu cơ quan thi hành án dân sự xác nhận kết quả\nthi hành án.\n- Trong thời hạn 03 ngày làm việc, kể từ ngày nhận được yêu cầu của\nđương sự. Thủ trưởng cơ quan thi hành án dân sự cấp giấy xác nhận kết quả thi\nhành án.\nNội dung của văn bản xác nhận phải thể hiện rõ khoản nghĩa vụ theo bản\nán, quyết định, nghĩa vụ phải thi hành theo quyết định thi hành án và kết quả thi\nhành án cho đến thời điểm xác nhận.\nKết quả thi hành án được xác nhận thể hiện việc đương sự đã thực hiện\nxong toàn bộ hoặc một phần quyền, nghĩa vụ của mình theo quyết định thi hành\nán hoặc thi hành xong nghĩa vụ thi hành án của từng định kỳ trong trường hợp\nviệc thi hành án được tiến hành theo định kỳ.",
-    "THÀNH PHẦN HỒ SƠ": "\n- Trường hợp ủy quyền phải kèm theo giấy ủy quyền hợp pháp và xuất trình tài khoản định danh điện tử theo quy định của pháp luật.\nNếu không thể khai thác được thông tin cư trú của công dân theo các phương thức nêu tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP hoặc thông tin khai thác trên cơ sở dữ liệu quốc gia về dân cư không được đầy đủ, không chính xác thì cơ quan có thẩm quyền, cán bộ, công chức, viên chức, cá nhân được giao trách nhiệm tiếp nhận, giải quyết thủ tục hành chính, cung cấp dịch vụ công có thể yêu cầu công dân nộp bản sao hoặc xuất trình một trong các giấy tờ có giá trị chứng minh thông tin về cư trú theo quy định tại khoản 3 Điều 14 Nghị định số 104/2022/NĐ-CP. Các loại giấy tờ có giá trị chứng minh thông tin về cư trú được quy định tại khoản 4 Điều 14 Nghị định số 104/2022/NĐ-CP bao gồm: Thẻ Căn cước công dân, Chứng minh nhân dân, Giấy xác nhận thông tin về cư trú, Giấy thông báo số định danh cá nhân và thông tin công dân trong Cơ sở dữ liệu quốc gia về dân cư.\n- Đơn đề nghị xác nhận kết quả thi hành án (Mẫu D07-THADS).",
-    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 3 ngày làm việc\nTrực tiếp: 3 ngày làm việc\nTrực tuyến: 3 ngày làm việc - Được thực hiện trên Hệ thống thông tin giải quyết thủ tục hành chính dùng chung Ngành Tư pháp bằng cách nộp hồ sơ qua Cổng Dịch vụ công quốc gia, Ứng dụng định danh điện tử (VneID) ",
-    "CĂN CỨ PHÁP LÝ": "Luật Thi hành án dân sự. - 26/2008/QH12\nNghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu - 66.7/2025/NQ-CP\nQuyết định của Bộ trưởng Bộ Tư pháp quy định chức năng, nhiệm vụ, quyền hạn, cơ cấu tổ chức của Cục Quản lý Thi hành án dân sự. - 1898/QĐ-BTP\nNghị định sửa đổi, bổ sung một số điều của các Nghị định liên quan đến việc nộp xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công - 104/2022/NĐ-CP\nNghị định quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi hành án dân sự - 62/2015/NĐ-CP\nTrang chủ\nThông tư số 04/2023/TT-BTP của Bộ Tư pháp: Hướng dẫn thực hiện một số thủ tục về quản lý hành chính và biểu mẫu nghiệp vụ trong thi hành án dân sự - 04/2023/TT-BTP\nNghị quyết của Chính phủ quy định cắt giảm, đơn giản hóa thủ tục hành chính, quy định liên quan đến hoạt động sản xuất, kinh doanh - 66.16/2026/NQ-CP ",
+    "THÀNH PHẦN HỒ SƠ": "- Đơn đề nghị xác nhận kết quả thi hành án (Mẫu D07-THADS).\n- Trường hợp ủy quyền phải kèm theo giấy ủy quyền hợp pháp và xuất trình tài khoản định danh điện tử theo quy định của pháp luật.\nNếu không thể khai thác được thông tin cư trú của công dân theo các phương thức nêu tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP hoặc thông tin khai thác trên cơ sở dữ liệu quốc gia về dân cư không được đầy đủ, không chính xác thì cơ quan có thẩm quyền, cán bộ, công chức, viên chức, cá nhân được giao trách nhiệm tiếp nhận, giải quyết thủ tục hành chính, cung cấp dịch vụ công có thể yêu cầu công dân nộp bản sao hoặc xuất trình một trong các giấy tờ có giá trị chứng minh thông tin về cư trú theo quy định tại khoản 3 Điều 14 Nghị định số 104/2022/NĐ-CP. Các loại giấy tờ có giá trị chứng minh thông tin về cư trú được quy định tại khoản 4 Điều 14 Nghị định số 104/2022/NĐ-CP bao gồm: Thẻ Căn cước công dân, Chứng minh nhân dân, Giấy xác nhận thông tin về cư trú, Giấy thông báo số định danh cá nhân và thông tin công dân trong Cơ sở dữ liệu quốc gia về dân cư.",
+    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 3 ngày làm việc\nTrực tiếp: 3 ngày làm việc\nTrực tuyến: 3 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "Luật Thi hành án dân sự. - 26/2008/QH12\nNghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu - 66.7/2025/NQ-CP\nQuyết định của Bộ trưởng Bộ Tư pháp quy định chức năng, nhiệm vụ, quyền hạn, cơ cấu tổ chức của Cục Quản lý Thi hành án dân sự. - 1898/QĐ-BTP\nNghị định sửa đổi, bổ sung một số điều của các Nghị định liên quan đến việc nộp xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công - 104/2022/NĐ-CP\nNghị định quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi hành án dân sự - 62/2015/NĐ-CP\nTrang chủ\nThông tư số 04/2023/TT-BTP của Bộ Tư pháp: Hướng dẫn thực hiện một số thủ tục về quản lý hành chính và biểu mẫu nghiệp vụ trong thi hành án dân sự - 04/2023/TT-BTP\nNghị quyết của Chính phủ quy định cắt giảm, đơn giản hóa thủ tục hành chính, quy định liên quan đến hoạt động sản xuất, kinh doanh - 66.16/2026/NQ-CP",
     "CƠ QUAN THỰC HIỆN": "Thi hành án dân sự tỉnh, thành phố, Phòng thi hành án cấp quân khu",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
     "KẾT QUẢ XỬ LÝ": "Giấy xác nhận kết quả thi hành án - KQ.G15.000209",
@@ -245,11 +180,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Giải quyết khiếu kiện",
-      "slug": "giai-quyet-khieu-kien",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thi hành án dân sự",
       "slug": "thi-hanh-an-dan-su"
@@ -263,7 +193,7 @@
     "target_users": [
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -284,6 +214,6 @@
         "slug": "phong-thi-hanh-an-cap-quan-khu"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

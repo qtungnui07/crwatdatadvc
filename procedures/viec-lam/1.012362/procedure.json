@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-c28d-7238-95c2-b4204b9601c1",
   "procedure_code": "1.012362",
   "title": "Thực hiện (hoặc điều chỉnh, chấm dứt) hoạt động đầu tư ra nước ngoài.",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-c28d-7238-95c2-b4204b9601c1",
     "source_file": "chi-tiet-thu-tuc-1.012362.pdf",
     "source_path": "procedures/viec-lam/1.012362/chi-tiet-thu-tuc-1.012362.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:07.763939+00:00",
-    "source_updated_at": "2026-04-08T10:32:26.577Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:00.807082+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "ee912ec14107fdb183c547cc81f8f1bfe94f90318d8920f079bc0fe01ea47ead"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:07.763939+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "220/QĐ-BTC",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Bảo hiểm",
   "target_users": [
@@ -35,18 +31,15 @@
   ],
   "agency": {
     "competent_agency": "Bộ Tài chính",
-    "executing_agency": "Bộ Tài chính",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Tài chính"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "+ Doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm nộp hồ sơ đến Bộ Tài chính\n+ Trong thời hạn 30 ngày, kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ Tài chính có văn bản chấp thuận hoặc từ chối. Trường hợp từ chối, Bộ Tài chính có văn bản giải thích rõ lý do;\n+ Sau khi hoàn thành việc thực hiện hoặc điều chỉnh hoặc chấm dứt hoạt động đầu tư ra nước ngoài, doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm gửi  thông báo cho Bộ Tài chính.\n",
+      "description": "+ Doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm nộp hồ sơ đến Bộ Tài chính\n+ Trong thời hạn 30 ngày, kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ Tài chính có văn bản chấp thuận hoặc từ chối. Trường hợp từ chối, Bộ Tài chính có văn bản giải thích rõ lý do;\n+ Sau khi hoàn thành việc thực hiện hoặc điều chỉnh hoặc chấm dứt hoạt động đầu tư ra nước ngoài, doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm gửi  thông báo cho Bộ Tài chính.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -55,93 +48,63 @@
     "conditional": [
       {
         "name": "3.2. Đối với trường hợp điều chỉnh quy mô nguồn vốn đầu tư, hình thức đầu tư ra nước ngoài, tài liệu phải nêu rõ tình hình, kết quả thực hiện đầu tư, các khó khăn, thuận lợi (nếu có) và phương án điều chỉnh.",
-        "code": "000.00.00.G12-KQ013008",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "3.3. Đối với trường hợp chấm dứt hoạt động đầu tư ở nước ngoài, tài liệu giải trình phải nêu rõ lý do chấm dứt, kết quả thực hiện đầu tư, khả năng thu hồi vốn đầu tư và thời hạn dự kiến chấm dứt hoạt động đầu tư;",
-        "code": "000.00.00.G12-KQ013009",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "6. Bằng chứng chứng minh doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm đáp ứng quy định tại các điểm a, b và c khoản 2 Điều 47 Nghị định số 46/2023/NĐ-CP ngày 01/7/2023 của Chính phủ đối với trường hợp nộp hồ sơ đề nghị chấp thuận việc thực hiện đầu tư ra nước ngoài",
-        "code": "000.00.00.G12-KQ013012",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "3. Tài liệu giải trình về việc thực hiện hoặc điều chỉnh hoặc chấm dứt hoạt động đầu tư ra nước ngoài:",
-        "code": "000.00.00.G12-KQ013006",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "1. Văn bản đề nghị theo mẫu quy định tại Phụ lục X ban hành kèm theo Nghị định số 46/2023/NĐ-CP ngày 01/7/2023 của Chính phủ",
-        "code": "000.00.00.G12-KQ013004",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "3.1. Đối với trường hợp tiến hành thực hiện hoạt động đầu tư ra nước ngoài, tài liệu phải nêu rõ: Quốc gia dự kiến đầu tư, mục tiêu đầu tư, hình thức đầu tư, nguồn vốn đầu tư, quy mô vốn đầu tư, tiến độ thực hiện đầu tư, dự kiến hiệu quả đầu tư; hợp đồng hoặc bản thỏa thuận với đối tác (nếu có).",
-        "code": "000.00.00.G12-KQ013007",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "2. Văn bản của cấp có thẩm quyền theo Điều lệ công ty về việc doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm tiến hành thực hiện hoặc điều chỉnh hoặc chấm dứt hoạt động đầu tư ra nước ngoài",
-        "code": "000.00.00.G12-KQ013005",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "5. Trường hợp thành lập chi nhánh, văn phòng đại diện và hình thức hiện diện thương mại khác tại nước ngoài, doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm phải nộp dự thảo Quy chế tổ chức và hoạt động của chi nhánh, văn phòng đại diện và hình thức hiện diện thương mại khác tại nước ngoài theo quy định pháp luật",
-        "code": "000.00.00.G12-KQ013011",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "4. Quy trình nội bộ về đầu tư ra nước ngoài, bao gồm nội dung về cơ chế kiểm soát nội bộ, kiểm toán nội bộ, nhận dạng và quản trị rủi ro liên quan đến hoạt động đầu tư ra nước ngoài trong trường hợp đề nghị chấp thuận thực hiện hoặc điều chỉnh hoạt động đầu tư ra nước ngoài",
-        "code": "000.00.00.G12-KQ013010",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "7. Văn bản của cơ quan thuế xác nhận đã thực hiện đầy đủ nghĩa vụ thuế với Nhà nước Việt Nam tính tới thời điểm nộp hồ sơ trong trường hợp đề nghị chấp thuận thực hiện hoặc điều chỉnh.",
-        "code": "000.00.00.G12-KQ013013",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -150,17 +113,7 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -168,42 +121,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -213,19 +153,17 @@
     {
       "title": "Văn bản thông báo lý do từ chối của Bộ Tài chính",
       "code": "KQ.G12.001161",
-      "id": "019d2bb2-1c72-75fa-a592-2cb8cbfdec82",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Văn bản chấp thuận đề nghị thực hiện (hoặc điều chỉnh, chấm dứt) hoạt động đầu tư ra nước ngoài",
       "code": "KQ.G12.000777",
-      "id": "019d2bb2-1c71-7574-afea-4c0129cbecb2",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "+ Doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm nộp hồ sơ đến Bộ Tài chính\n+ Trong thời hạn 30 ngày, kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ Tài chính có văn bản chấp thuận hoặc từ chối. Trường hợp từ chối, Bộ Tài chính có văn bản giải thích rõ lý do;\n+ Sau khi hoàn thành việc thực hiện hoặc điều chỉnh hoặc chấm dứt hoạt động đầu tư ra nước ngoài, doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm gửi  thông báo cho Bộ Tài chính.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n3.2. Đối với trường hợp điều chỉnh quy mô nguồn vốn đầu tư, hình thức đầu tư ra nước ngoài, tài liệu phải nêu rõ tình hình, kết quả thực hiện đầu tư, các khó khăn, thuận lợi (nếu có) và phương án điều chỉnh.\n3.3. Đối với trường hợp chấm dứt hoạt động đầu tư ở nước ngoài, tài liệu giải trình phải nêu rõ lý do chấm dứt, kết quả thực hiện đầu tư, khả năng thu hồi vốn đầu tư và thời hạn dự kiến chấm dứt hoạt động đầu tư;\n6. Bằng chứng chứng minh doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm đáp ứng quy định tại các điểm a, b và c khoản 2 Điều 47 Nghị định số 46/2023/NĐ-CP ngày 01/7/2023 của Chính phủ đối với trường hợp nộp hồ sơ đề nghị chấp thuận việc thực hiện đầu tư ra nước ngoài\n3. Tài liệu giải trình về việc thực hiện hoặc điều chỉnh hoặc chấm dứt hoạt động đầu tư ra nước ngoài:\n1. Văn bản đề nghị theo mẫu quy định tại Phụ lục X ban hành kèm theo Nghị định số 46/2023/NĐ-CP ngày 01/7/2023 của Chính phủ\n3.1. Đối với trường hợp tiến hành thực hiện hoạt động đầu tư ra nước ngoài, tài liệu phải nêu rõ: Quốc gia dự kiến đầu tư, mục tiêu đầu tư, hình thức đầu tư, nguồn vốn đầu tư, quy mô vốn đầu tư, tiến độ thực hiện đầu tư, dự kiến hiệu quả đầu tư; hợp đồng hoặc bản thỏa thuận với đối tác (nếu có).\n2. Văn bản của cấp có thẩm quyền theo Điều lệ công ty về việc doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm tiến hành thực hiện hoặc điều chỉnh hoặc chấm dứt hoạt động đầu tư ra nước ngoài\n5. Trường hợp thành lập chi nhánh, văn phòng đại diện và hình thức hiện diện thương mại khác tại nước ngoài, doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm phải nộp dự thảo Quy chế tổ chức và hoạt động của chi nhánh, văn phòng đại diện và hình thức hiện diện thương mại khác tại nước ngoài theo quy định pháp luật\n4. Quy trình nội bộ về đầu tư ra nước ngoài, bao gồm nội dung về cơ chế kiểm soát nội bộ, kiểm toán nội bộ, nhận dạng và quản trị rủi ro liên quan đến hoạt động đầu tư ra nước ngoài trong trường hợp đề nghị chấp thuận thực hiện hoặc điều chỉnh hoạt động đầu tư ra nước ngoài\n7. Văn bản của cơ quan thuế xác nhận đã thực hiện đầy đủ nghĩa vụ thuế với Nhà nước Việt Nam tính tới thời điểm nộp hồ sơ trong trường hợp đề nghị chấp thuận thực hiện hoặc điều chỉnh.",
+    "TRÌNH TỰ THỰC HIỆN": "+ Doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm nộp hồ sơ đến Bộ Tài chính\n+ Trong thời hạn 30 ngày, kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ Tài chính có văn bản chấp thuận hoặc từ chối. Trường hợp từ chối, Bộ Tài chính có văn bản giải thích rõ lý do;\n+ Sau khi hoàn thành việc thực hiện hoặc điều chỉnh hoặc chấm dứt hoạt động đầu tư ra nước ngoài, doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm gửi  thông báo cho Bộ Tài chính.",
+    "THÀNH PHẦN HỒ SƠ": "3.2. Đối với trường hợp điều chỉnh quy mô nguồn vốn đầu tư, hình thức đầu tư ra nước ngoài, tài liệu phải nêu rõ tình hình, kết quả thực hiện đầu tư, các khó khăn, thuận lợi (nếu có) và phương án điều chỉnh.\n3.3. Đối với trường hợp chấm dứt hoạt động đầu tư ở nước ngoài, tài liệu giải trình phải nêu rõ lý do chấm dứt, kết quả thực hiện đầu tư, khả năng thu hồi vốn đầu tư và thời hạn dự kiến chấm dứt hoạt động đầu tư;\n6. Bằng chứng chứng minh doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm đáp ứng quy định tại các điểm a, b và c khoản 2 Điều 47 Nghị định số 46/2023/NĐ-CP ngày 01/7/2023 của Chính phủ đối với trường hợp nộp hồ sơ đề nghị chấp thuận việc thực hiện đầu tư ra nước ngoài\n3. Tài liệu giải trình về việc thực hiện hoặc điều chỉnh hoặc chấm dứt hoạt động đầu tư ra nước ngoài:\n1. Văn bản đề nghị theo mẫu quy định tại Phụ lục X ban hành kèm theo Nghị định số 46/2023/NĐ-CP ngày 01/7/2023 của Chính phủ\n3.1. Đối với trường hợp tiến hành thực hiện hoạt động đầu tư ra nước ngoài, tài liệu phải nêu rõ: Quốc gia dự kiến đầu tư, mục tiêu đầu tư, hình thức đầu tư, nguồn vốn đầu tư, quy mô vốn đầu tư, tiến độ thực hiện đầu tư, dự kiến hiệu quả đầu tư; hợp đồng hoặc bản thỏa thuận với đối tác (nếu có).\n2. Văn bản của cấp có thẩm quyền theo Điều lệ công ty về việc doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm tiến hành thực hiện hoặc điều chỉnh hoặc chấm dứt hoạt động đầu tư ra nước ngoài\n5. Trường hợp thành lập chi nhánh, văn phòng đại diện và hình thức hiện diện thương mại khác tại nước ngoài, doanh nghiệp bảo hiểm, doanh nghiệp tái bảo hiểm phải nộp dự thảo Quy chế tổ chức và hoạt động của chi nhánh, văn phòng đại diện và hình thức hiện diện thương mại khác tại nước ngoài theo quy định pháp luật\n4. Quy trình nội bộ về đầu tư ra nước ngoài, bao gồm nội dung về cơ chế kiểm soát nội bộ, kiểm toán nội bộ, nhận dạng và quản trị rủi ro liên quan đến hoạt động đầu tư ra nước ngoài trong trường hợp đề nghị chấp thuận thực hiện hoặc điều chỉnh hoạt động đầu tư ra nước ngoài\n7. Văn bản của cơ quan thuế xác nhận đã thực hiện đầy đủ nghĩa vụ thuế với Nhà nước Việt Nam tính tới thời điểm nộp hồ sơ trong trường hợp đề nghị chấp thuận thực hiện hoặc điều chỉnh.",
     "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 30 ngày\nTrực tiếp: 30 ngày",
     "CĂN CỨ PHÁP LÝ": "",
     "CƠ QUAN THỰC HIỆN": "Bộ Tài chính",
@@ -235,11 +173,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Bảo hiểm",
       "slug": "bao-hiem"
@@ -262,6 +195,6 @@
         "slug": "bo-tai-chinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

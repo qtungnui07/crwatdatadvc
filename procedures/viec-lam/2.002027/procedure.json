@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-42b5-75c7-8d9d-e8e3dddafe2a",
   "procedure_code": "2.002027",
   "title": "Cấp Giấy phép hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-42b5-75c7-8d9d-e8e3dddafe2a",
     "source_file": "chi-tiet-thu-tuc-2.002027.pdf",
     "source_path": "procedures/viec-lam/2.002027/chi-tiet-thu-tuc-2.002027.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:22:21.828290+00:00",
-    "source_updated_at": "2026-04-29T03:51:31.898Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:20.380602+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "a4b92637a490a92a6fa54fdd9cbf5d21dd0317f3240dc55a575edd9877d384a4"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:21.828290+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "458/QĐ-BNV",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Quản lý lao động ngoài nước",
   "target_users": [
@@ -35,109 +31,67 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Bộ Nội vụ",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Nội vụ"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1. Doanh nghiệp dịch vụ nộp 01 bộ hồ sơ trực tiếp hoặc qua dịch vụ bưu chính tới Bộ Nội vụ hoặc trực tuyến tại Cổng dịch vụ công quốc gia https://dichvucong.gov.vn\n",
+      "description": "Bước 1. Doanh nghiệp dịch vụ nộp 01 bộ hồ sơ trực tiếp hoặc qua dịch vụ bưu chính tới Bộ Nội vụ hoặc trực tuyến tại Cổng dịch vụ công quốc gia https://dichvucong.gov.vn",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 2,
       "title": "Bước 2",
       "description": "Bước 2. Trong thời hạn 15 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ trưởng Bộ Nội vụ xem xét và cấp Giấy phép cho doanh nghiệp; trường hợp không cấp Giấy phép phải trả lời bằng văn bản và nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "- Văn bản đề nghị cấp Giấy phép của doanh nghiệp (theo Mẫu số 02 Phụ lục I ban hành kèm theo Nghị định số 372/2025/NĐ-CP);",
-        "code": "G09-KQ003323",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d754d-17ef-75f7-a861-01c172684cf8",
-            "name": "Mẫu số 02 Phụ lục I.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 02 Phụ lục I.docx",
+        "source_page": 2
       },
       {
         "name": "- Bản sao Giấy chứng nhận đăng ký doanh nghiệp;",
-        "code": "000.00.00.G07-KQ001633",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "+ 01 bản sao sổ đăng ký thành viên mới nhất đối với công ty trách nhiệm hữu hạn, công ty hợp danh; 01 bản sao sổ đăng ký cổ đông mới nhất đối với công ty cổ phần;",
-        "code": "G09-KQ003324",
+        "name": "- Giấy tờ chứng minh đáp ứng các điều kiện quy định tại Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể gồm:: + 01 bản sao sổ đăng ký thành viên mới nhất đối với công ty trách nhiệm hữu hạn, công ty hợp danh; 01 bản sao sổ đăng ký cổ đông mới nhất đối với công ty cổ phần;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Giấy tờ chứng minh đáp ứng các điều kiện quy định tại Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "+ 01 bản chính Giấy xác nhận nộp tiền ký quỹ hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng (theo Mẫu số 03 Phụ lục I ban hành kèm theo Nghị định số 372/2025/NĐ-CP);",
-        "code": "G09-KQ003325",
+        "name": "- Giấy tờ chứng minh đáp ứng các điều kiện quy định tại Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể gồm:: + 01 bản chính Giấy xác nhận nộp tiền ký quỹ hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng (theo Mẫu số 03 Phụ lục I ban hành kèm theo Nghị định số 372/2025/NĐ-CP);",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Giấy tờ chứng minh đáp ứng các điều kiện quy định tại Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể gồm:",
-        "attachments": [
-          {
-            "id": "019d754e-e70b-75ce-a453-fe7a85ba6bea",
-            "name": "Mẫu số 03 Phụ lục I.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 03 Phụ lục I.docx",
+        "source_page": 2
       },
       {
-        "name": "+ 01 bản sao văn bằng chuyên môn; 01 bản sao giấy tờ chứng minh kinh nghiệm làm việc (được thể hiện bằng một trong các giấy tờ sau: quyết định bổ nhiệm hoặc hợp đồng lao động, văn bản chấm dứt hợp đồng lao động; thông báo xác nhận thời gian tham gia bảo hiểm xã hội; giấy xác nhận kinh nghiệm của nơi đã làm việc) của người đại diện theo pháp luật.",
-        "code": "G09-KQ003326",
+        "name": "- Giấy tờ chứng minh đáp ứng các điều kiện quy định tại Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể gồm:: + 01 bản sao văn bằng chuyên môn; 01 bản sao giấy tờ chứng minh kinh nghiệm làm việc (được thể hiện bằng một trong các giấy tờ sau: quyết định bổ nhiệm hoặc hợp đồng lao động, văn bản chấm dứt hợp đồng lao động; thông báo xác nhận thời gian tham gia bảo hiểm xã hội; giấy xác nhận kinh nghiệm của nơi đã làm việc) của người đại diện theo pháp luật.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Giấy tờ chứng minh đáp ứng các điều kiện quy định tại Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "+ 01 bản chính Danh sách nhân viên nghiệp vụ thực hiện hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng theo Mẫu số 04 ban hành kèm theo Nghị định số 372/2025/NĐ-CP; 01 bản sao văn bằng chuyên môn, văn bằng hoặc chứng chỉ ngoại ngữ (nếu có) đối với mỗi nhân viên nghiệp vụ;",
-        "code": "G09-KQ003327",
+        "name": "- Giấy tờ chứng minh đáp ứng các điều kiện quy định tại Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể gồm:: + 01 bản chính Danh sách nhân viên nghiệp vụ thực hiện hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng theo Mẫu số 04 ban hành kèm theo Nghị định số 372/2025/NĐ-CP; 01 bản sao văn bằng chuyên môn, văn bằng hoặc chứng chỉ ngoại ngữ (nếu có) đối với mỗi nhân viên nghiệp vụ;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Giấy tờ chứng minh đáp ứng các điều kiện quy định tại Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể gồm:",
-        "attachments": [
-          {
-            "id": "019d754f-9327-721e-bc69-d48fa906d955",
-            "name": "Mẫu số 04 Phụ lục I.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 04 Phụ lục I.docx",
+        "source_page": 2
       },
       {
-        "name": "+ 01 bản sao giấy chứng nhận quyền sở hữu nhà ở và tài sản khác gắn liền với đất hoặc hợp đồng thuê cơ sở vật chất để tổ chức giáo dục định hướng, kèm theo bảng kê do doanh nghiệp xác nhận về trang thiết bị, sơ đồ mặt bằng phòng học và khu vực nội trú.",
-        "code": "G09-KQ003328",
+        "name": "- Giấy tờ chứng minh đáp ứng các điều kiện quy định tại Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể gồm:: + 01 bản sao giấy chứng nhận quyền sở hữu nhà ở và tài sản khác gắn liền với đất hoặc hợp đồng thuê cơ sở vật chất để tổ chức giáo dục định hướng, kèm theo bảng kê do doanh nghiệp xác nhận về trang thiết bị, sơ đồ mặt bằng phòng học và khu vực nội trú.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Giấy tờ chứng minh đáp ứng các điều kiện quy định tại Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -148,87 +102,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "15 ngày",
-      "processing_time_value": 15,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "theo quy định của pháp luật về phí và lệ phí",
-          "attachment": null
-        }
-      ],
+      "fee": "theo quy định của pháp luật về phí và lệ phí",
       "description": "Trực tiếp, qua dịch vụ bưu chính hoặc trực tuyến. 15 ngày (kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ).",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "15 ngày",
-      "processing_time_value": 15,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "theo quy định của pháp luật về phí và lệ phí",
-          "attachment": null
-        }
-      ],
+      "fee": "theo quy định của pháp luật về phí và lệ phí",
       "description": "Trực tiếp, qua dịch vụ bưu chính hoặc trực tuyến. 15 ngày (kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ).",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "15 ngày",
-      "processing_time_value": 15,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "theo quy định của pháp luật về phí và lệ phí",
-          "attachment": null
-        }
-      ],
+      "fee": "theo quy định của pháp luật về phí và lệ phí",
       "description": "Trực tiếp, qua dịch vụ bưu chính hoặc trực tuyến. 15 ngày (kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ).",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "theo quy định của pháp luật về phí và lệ phí",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "theo quy định của pháp luật về phí và lệ phí",
-        "attachment": null
+        "amount_text": "theo quy định của pháp luật về phí và lệ phí",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "theo quy định của pháp luật về phí và lệ phí",
-        "attachment": null
+        "amount_text": "theo quy định của pháp luật về phí và lệ phí",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "theo quy định của pháp luật về phí và lệ phí",
-        "attachment": null
+        "amount_text": "theo quy định của pháp luật về phí và lệ phí",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -236,69 +155,57 @@
     {
       "title": "Nghị định số 25/2025/NĐ-CP ngày 21 tháng 02 năm 2025 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nội vụ",
       "document_number": "Nghị định số 25/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b474-93996f3f00db",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước",
       "document_number": "190/2025/NQ-QH15",
-      "id": "019d2bb3-5d84-71c5-b671-f40a5ee32475",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "69-2020-QH14 Luật Ng VN đi LĐNN ngày 13.11.2020",
       "document_number": "69/2020/QH14",
-      "id": "019d2bb3-5d84-71c5-b674-0ff98d7121f9",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "NGHỊ ĐỊNH QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP THI HÀNH LUẬT NGƯỜI LAO ĐỘNG VIỆT NAM ĐI LÀM VIỆC Ở NƯỚC NGOÀI THEO HỢP ĐỒNG",
       "document_number": "112/2021/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe8-f619eeb30642",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Nghị định số 112/2021/NĐ-CР ngày 10 tháng 12 năm 2021 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng",
       "document_number": "372/2025/NĐ-CP",
-      "id": "019d2bb3-5d87-7195-a440-1ee1004bbb05",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị quyết số 66.16/2026/NQ-CP của Chính phủ ngày 07/04/2026 về việc Cắt giảm, đơn giản hóa thủ tục hành chính,quy định liên quan đến hoạt động sản xuất, kinh doanh",
       "document_number": "66.16/2026/NQ-CP",
-      "id": "019db156-3f02-71fb-9cc1-ee7db9cf4fb6",
-      "source_page": null
+      "source_page": 4
     }
   ],
-  "conditions": "Doanh nghiệp được cấp Giấy phép hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng khi có đủ các điều kiện sau đây:\n- Có vốn điều lệ từ 05 tỷ đồng trở lên; có chủ sở hữu, tất cả thành viên, cổ đông là nhà đầu tư trong nước theo quy định của Luật Đầu tư;\n- Đã ký quỹ theo quy định tại Điều 24 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020;\n- Có người đại diện theo pháp luật là công dân Việt Nam, trình độ từ đại học trở lên và có ít nhất 05 năm kinh nghiệm trong lĩnh vực đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng hoặc dịch vụ việc làm; không thuộc diện đang bị truy cứu trách nhiệm hình sự; không có án tích về một trong các tội xâm phạm an ninh quốc gia, các tội xâm phạm tính mạng, sức khỏe, nhân phẩm, danh dự của con người, tội lừa đảo chiếm đoạt tài sản, tội lạm dụng tín nhiệm chiếm đoạt tài sản, tội quảng cáo gian dối, tội lừa dối khách hàng, tội tổ chức, môi giới cho người khác xuất cảnh, nhập cảnh hoặc ở lại Việt Nam trái phép, tội tổ chức, môi giới cho người khác trốn đi nước ngoài hoặc ở lại nước ngoài trái phép, tội cưỡng ép người khác trốn đi nước ngoài hoặc ở lại nước ngoài trái phép;\n- Có đủ số lượng nhân viên nghiệp vụ thực hiện các nội dung quy định tại Điều 9 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể:\n+ Doanh nghiệp bố trí nhân viên nghiệp vụ có trình độ chuyên môn từ cao đẳng trở lên để thực hiện đủ các nội dung hoạt động quy định tại Điều 9 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng.\n+ Nhân viên nghiệp vụ phải có giao kết hợp đồng lao động và tham gia bảo hiểm xã hội bắt buộc tại doanh nghiệp, trừ trường hợp không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc theo quy định của pháp luật về bảo hiểm xã hội.\n- Có cơ sở vật chất của doanh nghiệp hoặc được doanh nghiệp thuê ổn định để đáp ứng yêu cầu giáo dục định hướng cho người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng. \n+ Cơ sở vật chất để tổ chức giáo dục định hướng phải đảm bảo điều kiện an toàn, vệ sinh và đáp ứng các tiêu chuẩn sau:\n++ Có phòng học và phòng nội trú cho ít nhất 100 học viên tại một thời điểm; có nơi sơ cứu, cấp cứu với trang thiết bị, phương tiện sơ cứu, cấp cứu;\n++ Phòng học có diện tích tối thiểu 1,4 m2/học viên, có trang thiết bị cơ bản phục vụ học tập;\n++ Phòng nội trú có diện tích tối thiểu 3,5 m2/học viên, có trang thiết bị cơ bản bảo đảm phục vụ sinh hoạt nội trú; bố trí không quá 12 học viên/phòng; bố trí khu vực riêng biệt cho học viên nam và nữ (nếu có học viên nữ), có đủ buồng tắm và nhà vệ sinh.\n- Có trang thông tin điện tử đáp ứng các điều kiện sau:\n+ Trang thông tin điện tử của doanh nghiệp dịch vụ phải sử dụng tên miền quốc gia Việt Nam “.vn”, đăng tải hình ảnh của Giấy phép được cấp gần nhất và các thông tin quy định tại điểm b khoản 2 Điều 26 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng.\n+ Trong thời hạn 07 ngày kể từ ngày có thay đổi về thông tin quy định tại điểm b khoản 2 Điều 26 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng, doanh nghiệp dịch vụ phải cập nhật lên trang thông tin điện tử của doanh nghiệp.\n",
+  "conditions": "Doanh nghiệp được cấp Giấy phép hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng khi có đủ các điều kiện sau đây:\n- Có vốn điều lệ từ 05 tỷ đồng trở lên; có chủ sở hữu, tất cả thành viên, cổ đông là nhà đầu tư trong nước theo quy định của Luật Đầu tư;\n- Đã ký quỹ theo quy định tại Điều 24 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020;\n- Có người đại diện theo pháp luật là công dân Việt Nam, trình độ từ đại học trở lên và có ít nhất 05 năm kinh nghiệm trong lĩnh vực đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng hoặc dịch vụ việc làm; không thuộc diện đang bị truy cứu trách nhiệm hình sự; không có án tích về một trong các tội xâm phạm an ninh quốc gia, các tội xâm phạm tính mạng, sức khỏe, nhân phẩm, danh dự của con người, tội lừa đảo chiếm đoạt tài sản, tội lạm dụng tín nhiệm chiếm đoạt tài sản, tội quảng cáo gian dối, tội lừa dối khách hàng, tội tổ chức, môi giới cho người khác xuất cảnh, nhập cảnh hoặc ở lại Việt Nam trái phép, tội tổ chức, môi giới cho người khác trốn đi nước ngoài hoặc ở lại nước ngoài trái phép, tội cưỡng ép người khác trốn đi nước ngoài hoặc ở lại nước ngoài trái phép;\n- Có đủ số lượng nhân viên nghiệp vụ thực hiện các nội dung quy định tại Điều 9 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể:\n+ Doanh nghiệp bố trí nhân viên nghiệp vụ có trình độ chuyên môn từ cao đẳng trở lên để thực hiện đủ các nội dung hoạt động quy định tại Điều 9 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng.\n+ Nhân viên nghiệp vụ phải có giao kết hợp đồng lao động và tham gia bảo hiểm xã hội bắt buộc tại doanh nghiệp, trừ trường hợp không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc theo quy định của pháp luật về bảo hiểm xã hội.\n- Có cơ sở vật chất của doanh nghiệp hoặc được doanh nghiệp thuê ổn định để đáp ứng yêu cầu giáo dục định hướng cho người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng. \n+ Cơ sở vật chất để tổ chức giáo dục định hướng phải đảm bảo điều kiện an toàn, vệ sinh và đáp ứng các tiêu chuẩn sau:\n++ Có phòng học và phòng nội trú cho ít nhất 100 học viên tại một thời điểm; có nơi sơ cứu, cấp cứu với trang thiết bị, phương tiện sơ cứu, cấp cứu;\n++ Phòng học có diện tích tối thiểu 1,4 m2/học viên, có trang thiết bị cơ bản phục vụ học tập;\n++ Phòng nội trú có diện tích tối thiểu 3,5 m2/học viên, có trang thiết bị cơ bản bảo đảm phục vụ sinh hoạt nội trú; bố trí không quá 12 học viên/phòng; bố trí khu vực riêng biệt cho học viên nam và nữ (nếu có học viên nữ), có đủ buồng tắm và nhà vệ sinh.\n- Có trang thông tin điện tử đáp ứng các điều kiện sau:\n+ Trang thông tin điện tử của doanh nghiệp dịch vụ phải sử dụng tên miền quốc gia Việt Nam “.vn”, đăng tải hình ảnh của Giấy phép được cấp gần nhất và các thông tin quy định tại điểm b khoản 2 Điều 26 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng.\n+ Trong thời hạn 07 ngày kể từ ngày có thay đổi về thông tin quy định tại điểm b khoản 2 Điều 26 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng, doanh nghiệp dịch vụ phải cập nhật lên trang thông tin điện tử của doanh nghiệp.",
   "results": [
     {
       "title": "Giấy phép hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng.",
       "code": "KQ.G07.000149",
-      "id": "019d2bb2-1c4a-754a-9b17-d9f157513c5f",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1. Doanh nghiệp dịch vụ nộp 01 bộ hồ sơ trực tiếp hoặc qua dịch vụ bưu chính tới Bộ Nội vụ hoặc trực tuyến tại Cổng dịch vụ công quốc gia https://dichvucong.gov.vn\n\nBước 2. Trong thời hạn 15 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ trưởng Bộ Nội vụ xem xét và cấp Giấy phép cho doanh nghiệp; trường hợp không cấp Giấy phép phải trả lời bằng văn bản và nêu rõ lý do.",
-    "THÀNH PHẦN HỒ SƠ": "\n- Văn bản đề nghị cấp Giấy phép của doanh nghiệp (theo Mẫu số 02 Phụ lục I ban hành kèm theo Nghị định số 372/2025/NĐ-CP);\n- Bản sao Giấy chứng nhận đăng ký doanh nghiệp;\n- Giấy tờ chứng minh đáp ứng các điều kiện quy định tại Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể gồm:\n+ 01 bản sao sổ đăng ký thành viên mới nhất đối với công ty trách nhiệm hữu hạn, công ty hợp danh; 01 bản sao sổ đăng ký cổ đông mới nhất đối với công ty cổ phần;\n+ 01 bản chính Giấy xác nhận nộp tiền ký quỹ hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng (theo Mẫu số 03 Phụ lục I ban hành kèm theo Nghị định số 372/2025/NĐ-CP);\n+ 01 bản sao văn bằng chuyên môn; 01 bản sao giấy tờ chứng minh kinh nghiệm làm việc (được thể hiện bằng một trong các giấy tờ sau: quyết định bổ nhiệm hoặc hợp đồng lao động, văn bản chấm dứt hợp đồng lao động; thông báo xác nhận thời gian tham gia bảo hiểm xã hội; giấy xác nhận kinh nghiệm của nơi đã làm việc) của người đại diện theo pháp luật.\n+ 01 bản chính Danh sách nhân viên nghiệp vụ thực hiện hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng theo Mẫu số 04 ban hành kèm theo Nghị định số 372/2025/NĐ-CP; 01 bản sao văn bằng chuyên môn, văn bằng hoặc chứng chỉ ngoại ngữ (nếu có) đối với mỗi nhân viên nghiệp vụ;\n+ 01 bản sao giấy chứng nhận quyền sở hữu nhà ở và tài sản khác gắn liền với đất hoặc hợp đồng thuê cơ sở vật chất để tổ chức giáo dục định hướng, kèm theo bảng kê do doanh nghiệp xác nhận về trang thiết bị, sơ đồ mặt bằng phòng học và khu vực nội trú.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 15 ngày - Trực tiếp, qua dịch vụ bưu chính hoặc trực tuyến. 15 ngày (kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ).\nTrực tiếp: 15 ngày - Trực tiếp, qua dịch vụ bưu chính hoặc trực tuyến. 15 ngày (kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ).\nQua dịch vụ bưu chính: 15 ngày - Trực tiếp, qua dịch vụ bưu chính hoặc trực tuyến. 15 ngày (kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ).",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1. Doanh nghiệp dịch vụ nộp 01 bộ hồ sơ trực tiếp hoặc qua dịch vụ bưu chính tới Bộ Nội vụ hoặc trực tuyến tại Cổng dịch vụ công quốc gia https://dichvucong.gov.vn\nBước 2. Trong thời hạn 15 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ trưởng Bộ Nội vụ xem xét và cấp Giấy phép cho doanh nghiệp; trường hợp không cấp Giấy phép phải trả lời bằng văn bản và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "- Văn bản đề nghị cấp Giấy phép của doanh nghiệp (theo Mẫu số 02 Phụ lục I ban hành kèm theo Nghị định số 372/2025/NĐ-CP);\n- Bản sao Giấy chứng nhận đăng ký doanh nghiệp;\n- Giấy tờ chứng minh đáp ứng các điều kiện quy định tại Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể gồm:: + 01 bản sao sổ đăng ký thành viên mới nhất đối với công ty trách nhiệm hữu hạn, công ty hợp danh; 01 bản sao sổ đăng ký cổ đông mới nhất đối với công ty cổ phần;\n- Giấy tờ chứng minh đáp ứng các điều kiện quy định tại Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể gồm:: + 01 bản chính Giấy xác nhận nộp tiền ký quỹ hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng (theo Mẫu số 03 Phụ lục I ban hành kèm theo Nghị định số 372/2025/NĐ-CP);\n- Giấy tờ chứng minh đáp ứng các điều kiện quy định tại Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể gồm:: + 01 bản sao văn bằng chuyên môn; 01 bản sao giấy tờ chứng minh kinh nghiệm làm việc (được thể hiện bằng một trong các giấy tờ sau: quyết định bổ nhiệm hoặc hợp đồng lao động, văn bản chấm dứt hợp đồng lao động; thông báo xác nhận thời gian tham gia bảo hiểm xã hội; giấy xác nhận kinh nghiệm của nơi đã làm việc) của người đại diện theo pháp luật.\n- Giấy tờ chứng minh đáp ứng các điều kiện quy định tại Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể gồm:: + 01 bản chính Danh sách nhân viên nghiệp vụ thực hiện hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng theo Mẫu số 04 ban hành kèm theo Nghị định số 372/2025/NĐ-CP; 01 bản sao văn bằng chuyên môn, văn bằng hoặc chứng chỉ ngoại ngữ (nếu có) đối với mỗi nhân viên nghiệp vụ;\n- Giấy tờ chứng minh đáp ứng các điều kiện quy định tại Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể gồm:: + 01 bản sao giấy chứng nhận quyền sở hữu nhà ở và tài sản khác gắn liền với đất hoặc hợp đồng thuê cơ sở vật chất để tổ chức giáo dục định hướng, kèm theo bảng kê do doanh nghiệp xác nhận về trang thiết bị, sơ đồ mặt bằng phòng học và khu vực nội trú.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 15 ngày\nTrực tiếp: 15 ngày\nQua dịch vụ bưu chính: 15 ngày",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 25/2025/NĐ-CP ngày 21 tháng 02 năm 2025 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nội vụ - Nghị định số 25/2025/NĐ-CP\nNghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước - 190/2025/NQ-QH15\n69-2020-QH14 Luật Ng VN đi LĐNN ngày 13.11.2020 - 69/2020/QH14\nNGHỊ ĐỊNH QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP THI HÀNH LUẬT NGƯỜI LAO ĐỘNG VIỆT NAM ĐI LÀM VIỆC Ở NƯỚC NGOÀI THEO HỢP ĐỒNG - 112/2021/NĐ-CP\nSửa đổi, bổ sung một số điều của Nghị định số 112/2021/NĐ-CР ngày 10 tháng 12 năm 2021 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng - 372/2025/NĐ-CP\nNghị quyết số 66.16/2026/NQ-CP của Chính phủ ngày 07/04/2026 về việc Cắt giảm, đơn giản hóa thủ tục hành chính,quy định liên quan đến hoạt động sản xuất, kinh doanh - 66.16/2026/NQ-CP",
     "CƠ QUAN THỰC HIỆN": "Bộ Nội vụ",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Doanh nghiệp được cấp Giấy phép hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng khi có đủ các điều kiện sau đây:\n- Có vốn điều lệ từ 05 tỷ đồng trở lên; có chủ sở hữu, tất cả thành viên, cổ đông là nhà đầu tư trong nước theo quy định của Luật Đầu tư;\n- Đã ký quỹ theo quy định tại Điều 24 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020;\n- Có người đại diện theo pháp luật là công dân Việt Nam, trình độ từ đại học trở lên và có ít nhất 05 năm kinh nghiệm trong lĩnh vực đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng hoặc dịch vụ việc làm; không thuộc diện đang bị truy cứu trách nhiệm hình sự; không có án tích về một trong các tội xâm phạm an ninh quốc gia, các tội xâm phạm tính mạng, sức khỏe, nhân phẩm, danh dự của con người, tội lừa đảo chiếm đoạt tài sản, tội lạm dụng tín nhiệm chiếm đoạt tài sản, tội quảng cáo gian dối, tội lừa dối khách hàng, tội tổ chức, môi giới cho người khác xuất cảnh, nhập cảnh hoặc ở lại Việt Nam trái phép, tội tổ chức, môi giới cho người khác trốn đi nước ngoài hoặc ở lại nước ngoài trái phép, tội cưỡng ép người khác trốn đi nước ngoài hoặc ở lại nước ngoài trái phép;\n- Có đủ số lượng nhân viên nghiệp vụ thực hiện các nội dung quy định tại Điều 9 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể:\n+ Doanh nghiệp bố trí nhân viên nghiệp vụ có trình độ chuyên môn từ cao đẳng trở lên để thực hiện đủ các nội dung hoạt động quy định tại Điều 9 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng.\n+ Nhân viên nghiệp vụ phải có giao kết hợp đồng lao động và tham gia bảo hiểm xã hội bắt buộc tại doanh nghiệp, trừ trường hợp không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc theo quy định của pháp luật về bảo hiểm xã hội.\n- Có cơ sở vật chất của doanh nghiệp hoặc được doanh nghiệp thuê ổn định để đáp ứng yêu cầu giáo dục định hướng cho người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng. \n+ Cơ sở vật chất để tổ chức giáo dục định hướng phải đảm bảo điều kiện an toàn, vệ sinh và đáp ứng các tiêu chuẩn sau:\n++ Có phòng học và phòng nội trú cho ít nhất 100 học viên tại một thời điểm; có nơi sơ cứu, cấp cứu với trang thiết bị, phương tiện sơ cứu, cấp cứu;\n++ Phòng học có diện tích tối thiểu 1,4 m2/học viên, có trang thiết bị cơ bản phục vụ học tập;\n++ Phòng nội trú có diện tích tối thiểu 3,5 m2/học viên, có trang thiết bị cơ bản bảo đảm phục vụ sinh hoạt nội trú; bố trí không quá 12 học viên/phòng; bố trí khu vực riêng biệt cho học viên nam và nữ (nếu có học viên nữ), có đủ buồng tắm và nhà vệ sinh.\n- Có trang thông tin điện tử đáp ứng các điều kiện sau:\n+ Trang thông tin điện tử của doanh nghiệp dịch vụ phải sử dụng tên miền quốc gia Việt Nam “.vn”, đăng tải hình ảnh của Giấy phép được cấp gần nhất và các thông tin quy định tại điểm b khoản 2 Điều 26 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng.\n+ Trong thời hạn 07 ngày kể từ ngày có thay đổi về thông tin quy định tại điểm b khoản 2 Điều 26 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng, doanh nghiệp dịch vụ phải cập nhật lên trang thông tin điện tử của doanh nghiệp.\n",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Doanh nghiệp được cấp Giấy phép hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng khi có đủ các điều kiện sau đây:\n- Có vốn điều lệ từ 05 tỷ đồng trở lên; có chủ sở hữu, tất cả thành viên, cổ đông là nhà đầu tư trong nước theo quy định của Luật Đầu tư;\n- Đã ký quỹ theo quy định tại Điều 24 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020;\n- Có người đại diện theo pháp luật là công dân Việt Nam, trình độ từ đại học trở lên và có ít nhất 05 năm kinh nghiệm trong lĩnh vực đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng hoặc dịch vụ việc làm; không thuộc diện đang bị truy cứu trách nhiệm hình sự; không có án tích về một trong các tội xâm phạm an ninh quốc gia, các tội xâm phạm tính mạng, sức khỏe, nhân phẩm, danh dự của con người, tội lừa đảo chiếm đoạt tài sản, tội lạm dụng tín nhiệm chiếm đoạt tài sản, tội quảng cáo gian dối, tội lừa dối khách hàng, tội tổ chức, môi giới cho người khác xuất cảnh, nhập cảnh hoặc ở lại Việt Nam trái phép, tội tổ chức, môi giới cho người khác trốn đi nước ngoài hoặc ở lại nước ngoài trái phép, tội cưỡng ép người khác trốn đi nước ngoài hoặc ở lại nước ngoài trái phép;\n- Có đủ số lượng nhân viên nghiệp vụ thực hiện các nội dung quy định tại Điều 9 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể:\n+ Doanh nghiệp bố trí nhân viên nghiệp vụ có trình độ chuyên môn từ cao đẳng trở lên để thực hiện đủ các nội dung hoạt động quy định tại Điều 9 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng.\n+ Nhân viên nghiệp vụ phải có giao kết hợp đồng lao động và tham gia bảo hiểm xã hội bắt buộc tại doanh nghiệp, trừ trường hợp không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc theo quy định của pháp luật về bảo hiểm xã hội.\n- Có cơ sở vật chất của doanh nghiệp hoặc được doanh nghiệp thuê ổn định để đáp ứng yêu cầu giáo dục định hướng cho người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng. \n+ Cơ sở vật chất để tổ chức giáo dục định hướng phải đảm bảo điều kiện an toàn, vệ sinh và đáp ứng các tiêu chuẩn sau:\n++ Có phòng học và phòng nội trú cho ít nhất 100 học viên tại một thời điểm; có nơi sơ cứu, cấp cứu với trang thiết bị, phương tiện sơ cứu, cấp cứu;\n++ Phòng học có diện tích tối thiểu 1,4 m2/học viên, có trang thiết bị cơ bản phục vụ học tập;\n++ Phòng nội trú có diện tích tối thiểu 3,5 m2/học viên, có trang thiết bị cơ bản bảo đảm phục vụ sinh hoạt nội trú; bố trí không quá 12 học viên/phòng; bố trí khu vực riêng biệt cho học viên nam và nữ (nếu có học viên nữ), có đủ buồng tắm và nhà vệ sinh.\n- Có trang thông tin điện tử đáp ứng các điều kiện sau:\n+ Trang thông tin điện tử của doanh nghiệp dịch vụ phải sử dụng tên miền quốc gia Việt Nam “.vn”, đăng tải hình ảnh của Giấy phép được cấp gần nhất và các thông tin quy định tại điểm b khoản 2 Điều 26 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng.\n+ Trong thời hạn 07 ngày kể từ ngày có thay đổi về thông tin quy định tại điểm b khoản 2 Điều 26 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng, doanh nghiệp dịch vụ phải cập nhật lên trang thông tin điện tử của doanh nghiệp.",
     "KẾT QUẢ XỬ LÝ": "Giấy phép hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng. - KQ.G07.000149",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "Doanh nghiệp được cấp Giấy phép hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng khi có đủ các điều kiện sau đây:\n- Có vốn điều lệ từ 05 tỷ đồng trở lên; có chủ sở hữu, tất cả thành viên, cổ đông là nhà đầu tư trong nước theo quy định của Luật Đầu tư;\n- Đã ký quỹ theo quy định tại Điều 24 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020;\n- Có người đại diện theo pháp luật là công dân Việt Nam, trình độ từ đại học trở lên và có ít nhất 05 năm kinh nghiệm trong lĩnh vực đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng hoặc dịch vụ việc làm; không thuộc diện đang bị truy cứu trách nhiệm hình sự; không có án tích về một trong các tội xâm phạm an ninh quốc gia, các tội xâm phạm tính mạng, sức khỏe, nhân phẩm, danh dự của con người, tội lừa đảo chiếm đoạt tài sản, tội lạm dụng tín nhiệm chiếm đoạt tài sản, tội quảng cáo gian dối, tội lừa dối khách hàng, tội tổ chức, môi giới cho người khác xuất cảnh, nhập cảnh hoặc ở lại Việt Nam trái phép, tội tổ chức, môi giới cho người khác trốn đi nước ngoài hoặc ở lại nước ngoài trái phép, tội cưỡng ép người khác trốn đi nước ngoài hoặc ở lại nước ngoài trái phép;\n- Có đủ số lượng nhân viên nghiệp vụ thực hiện các nội dung quy định tại Điều 9 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể:\n+ Doanh nghiệp bố trí nhân viên nghiệp vụ có trình độ chuyên môn từ cao đẳng trở lên để thực hiện đủ các nội dung hoạt động quy định tại Điều 9 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng.\n+ Nhân viên nghiệp vụ phải có giao kết hợp đồng lao động và tham gia bảo hiểm xã hội bắt buộc tại doanh nghiệp, trừ trường hợp không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc theo quy định của pháp luật về bảo hiểm xã hội.\n- Có cơ sở vật chất của doanh nghiệp hoặc được doanh nghiệp thuê ổn định để đáp ứng yêu cầu giáo dục định hướng cho người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng. \n+ Cơ sở vật chất để tổ chức giáo dục định hướng phải đảm bảo điều kiện an toàn, vệ sinh và đáp ứng các tiêu chuẩn sau:\n++ Có phòng học và phòng nội trú cho ít nhất 100 học viên tại một thời điểm; có nơi sơ cứu, cấp cứu với trang thiết bị, phương tiện sơ cứu, cấp cứu;\n++ Phòng học có diện tích tối thiểu 1,4 m2/học viên, có trang thiết bị cơ bản phục vụ học tập;\n++ Phòng nội trú có diện tích tối thiểu 3,5 m2/học viên, có trang thiết bị cơ bản bảo đảm phục vụ sinh hoạt nội trú; bố trí không quá 12 học viên/phòng; bố trí khu vực riêng biệt cho học viên nam và nữ (nếu có học viên nữ), có đủ buồng tắm và nhà vệ sinh.\n- Có trang thông tin điện tử đáp ứng các điều kiện sau:\n+ Trang thông tin điện tử của doanh nghiệp dịch vụ phải sử dụng tên miền quốc gia Việt Nam “.vn”, đăng tải hình ảnh của Giấy phép được cấp gần nhất và các thông tin quy định tại điểm b khoản 2 Điều 26 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng.\n+ Trong thời hạn 07 ngày kể từ ngày có thay đổi về thông tin quy định tại điểm b khoản 2 Điều 26 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng, doanh nghiệp dịch vụ phải cập nhật lên trang thông tin điện tử của doanh nghiệp.\n"
+    "MÔ TẢ": "Doanh nghiệp được cấp Giấy phép hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng khi có đủ các điều kiện sau đây:\n- Có vốn điều lệ từ 05 tỷ đồng trở lên; có chủ sở hữu, tất cả thành viên, cổ đông là nhà đầu tư trong nước theo quy định của Luật Đầu tư;\n- Đã ký quỹ theo quy định tại Điều 24 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020;\n- Có người đại diện theo pháp luật là công dân Việt Nam, trình độ từ đại học trở lên và có ít nhất 05 năm kinh nghiệm trong lĩnh vực đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng hoặc dịch vụ việc làm; không thuộc diện đang bị truy cứu trách nhiệm hình sự; không có án tích về một trong các tội xâm phạm an ninh quốc gia, các tội xâm phạm tính mạng, sức khỏe, nhân phẩm, danh dự của con người, tội lừa đảo chiếm đoạt tài sản, tội lạm dụng tín nhiệm chiếm đoạt tài sản, tội quảng cáo gian dối, tội lừa dối khách hàng, tội tổ chức, môi giới cho người khác xuất cảnh, nhập cảnh hoặc ở lại Việt Nam trái phép, tội tổ chức, môi giới cho người khác trốn đi nước ngoài hoặc ở lại nước ngoài trái phép, tội cưỡng ép người khác trốn đi nước ngoài hoặc ở lại nước ngoài trái phép;\n- Có đủ số lượng nhân viên nghiệp vụ thực hiện các nội dung quy định tại Điều 9 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020, cụ thể:\n+ Doanh nghiệp bố trí nhân viên nghiệp vụ có trình độ chuyên môn từ cao đẳng trở lên để thực hiện đủ các nội dung hoạt động quy định tại Điều 9 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng.\n+ Nhân viên nghiệp vụ phải có giao kết hợp đồng lao động và tham gia bảo hiểm xã hội bắt buộc tại doanh nghiệp, trừ trường hợp không thuộc đối tượng tham gia bảo hiểm xã hội bắt buộc theo quy định của pháp luật về bảo hiểm xã hội.\n- Có cơ sở vật chất của doanh nghiệp hoặc được doanh nghiệp thuê ổn định để đáp ứng yêu cầu giáo dục định hướng cho người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng. \n+ Cơ sở vật chất để tổ chức giáo dục định hướng phải đảm bảo điều kiện an toàn, vệ sinh và đáp ứng các tiêu chuẩn sau:\n++ Có phòng học và phòng nội trú cho ít nhất 100 học viên tại một thời điểm; có nơi sơ cứu, cấp cứu với trang thiết bị, phương tiện sơ cứu, cấp cứu;\n++ Phòng học có diện tích tối thiểu 1,4 m2/học viên, có trang thiết bị cơ bản phục vụ học tập;\n++ Phòng nội trú có diện tích tối thiểu 3,5 m2/học viên, có trang thiết bị cơ bản bảo đảm phục vụ sinh hoạt nội trú; bố trí không quá 12 học viên/phòng; bố trí khu vực riêng biệt cho học viên nam và nữ (nếu có học viên nữ), có đủ buồng tắm và nhà vệ sinh.\n- Có trang thông tin điện tử đáp ứng các điều kiện sau:\n+ Trang thông tin điện tử của doanh nghiệp dịch vụ phải sử dụng tên miền quốc gia Việt Nam “.vn”, đăng tải hình ảnh của Giấy phép được cấp gần nhất và các thông tin quy định tại điểm b khoản 2 Điều 26 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng.\n+ Trong thời hạn 07 ngày kể từ ngày có thay đổi về thông tin quy định tại điểm b khoản 2 Điều 26 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng, doanh nghiệp dịch vụ phải cập nhật lên trang thông tin điện tử của doanh nghiệp."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Quản lý lao động ngoài nước",
-      "slug": "quan-ly-lao-dong-ngoai-nuoc"
+      "slug": "quan-ly-lao-ong-ngoai-nuoc"
     },
     "implementation_levels": [
       {
@@ -318,6 +225,6 @@
         "slug": "bo-noi-vu"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

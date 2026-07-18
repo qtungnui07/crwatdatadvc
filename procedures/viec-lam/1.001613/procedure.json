@@ -1,35 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-d775-76cf-83da-dc00816c97e0",
   "procedure_code": "1.001613",
   "title": "Giải quyết hưởng bảo hiểm xã hội một lần",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-d775-76cf-83da-dc00816c97e0",
     "source_file": "chi-tiet-thu-tuc-1.001613.pdf",
     "source_path": "procedures/viec-lam/1.001613/chi-tiet-thu-tuc-1.001613.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:21:59.591842+00:00",
-    "source_updated_at": "2026-04-16T02:56:44.063Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:55.631272+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "0cc7a15e91b65870d893252300c1264133fdba88e3f00adf5f221c73099510eb"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:59.591842+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1474/QĐ-BTC",
   "implementation_level": "Cấp tỉnh, Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thực hiện chính sách BHXH",
   "target_users": [
@@ -37,32 +31,29 @@
   ],
   "agency": {
     "competent_agency": "Bảo hiểm xã hội cấp Tỉnh; Bảo hiểm xã hội cấp huyện",
-    "executing_agency": "Bảo hiểm xã hội cấp Tỉnh, Bảo hiểm xã hội cấp huyện",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bảo hiểm xã hội cấp Tỉnh, Bảo hiểm xã hội cấp huyện"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1. Lập, nộp hồ sơ",
-      "description": "NLĐ lập hồ sơ theo quy định tại mục 9.3 (Thành phần hồ sơ) và nộp cho cơ quan BHXH.\n",
+      "description": "NLĐ lập hồ sơ theo quy định tại mục 9.3 (Thành phần hồ sơ) và nộp cho cơ quan BHXH.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 2,
       "title": "Bước 2.",
-      "description": "Cơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định.\n",
+      "description": "Cơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 3,
       "title": "Bước 3. Nhận kết quả giải quyết",
-      "description": "NLĐ nhận kết quả giải quyết, gồm: Quyết định về việc hưởng BHXH một lần; Bản quá trình đóng BHXH; Tiền trợ cấp.\n",
+      "description": "NLĐ nhận kết quả giải quyết, gồm: Quyết định về việc hưởng BHXH một lần; Bản quá trình đóng BHXH; Tiền trợ cấp.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -70,76 +61,52 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "Trường hợp không quy định rõ bản chính thì có thể nộp bản sao hợp lệ",
-        "code": "000.00.00.G24-KQ0305",
+        "name": "(Trường hợp không quy định là bản chính thì có thể nộp bản sao hợp lệ. Trường hợp nộp hồ sơ trực tuyến: thành phần hồ sơ quy định là bản sao nhưng NLĐ có thể nộp bản chính điện tử).: Trường hợp không quy định rõ bản chính thì có thể nộp bản sao hợp lệ",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "(Trường hợp không quy định là bản chính thì có thể nộp bản sao hợp lệ. Trường hợp nộp hồ sơ trực tuyến: thành phần hồ sơ quy định là bản sao nhưng NLĐ có thể nộp bản chính điện tử).",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "d) Trường hợp bị mắc những bệnh nguy hiểm đến tính mạng như: Ung thư, bại liệt, xơ gan cổ chướng, phong, lao nặng, nhiễm HIV đã chuyển sang giai đoạn AIDS thì có thêm trích sao/tóm tắt hồ sơ bệnh án thể hiện tình trạng không tự phục vụ được; nếu bị mắc các bệnh khác thì thay bằng Biên bản giám định mức suy giảm từ 81% KNLĐ trở lên của Hội đồng GĐYK thể hiện tình trạng không tự phục vụ được.",
-        "code": "000.00.00.G24-KQ0271",
+        "name": "1. Trường hợp hưởng BHXH một lần: d) Trường hợp bị mắc những bệnh nguy hiểm đến tính mạng như: Ung thư, bại liệt, xơ gan cổ chướng, phong, lao nặng, nhiễm HIV đã chuyển sang giai đoạn AIDS thì có thêm trích sao/tóm tắt hồ sơ bệnh án thể hiện tình trạng không tự phục vụ được; nếu bị mắc các bệnh khác thì thay bằng Biên bản giám định mức suy giảm từ 81% KNLĐ trở lên của Hội đồng GĐYK thể hiện tình trạng không tự phục vụ được.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "1. Trường hợp hưởng BHXH một lần",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "b) Đơn đề nghị (Mẫu số 14-HSB)",
-        "code": "000.00.00.G24-KQ0269",
+        "name": "1. Trường hợp hưởng BHXH một lần: b) Đơn đề nghị (Mẫu số 14-HSB)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "1. Trường hợp hưởng BHXH một lần",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "đ) Trường hợp thanh toán phí GĐYK thì có thêm hóa đơn, chứng từ thu phí giám định kèm theo bản chính bảng kê các nội dung giám định của cơ sở thực hiện GĐYK.",
-        "code": "000.00.00.G24-KQ0272",
+        "name": "1. Trường hợp hưởng BHXH một lần: đ) Trường hợp thanh toán phí GĐYK thì có thêm hóa đơn, chứng từ thu phí giám định kèm theo bản chính bảng kê các nội dung giám định của cơ sở thực hiện GĐYK.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "1. Trường hợp hưởng BHXH một lần",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "c) Đối với người ra nước ngoài để định cư phải nộp thêm bản sao Giấy xác nhận của cơ quan có thẩm quyền về việc thôi quốc tịch Việt Nam hoặc bản dịch tiếng Việt được chứng thực hoặc công chứng một trong các giấy tờ sau đây: - Hộ chiếu do nước ngoài cấp. - Thị thực của cơ quan nước ngoài có thẩm quyền cấp có xác nhận việc cho phép nhập cảnh với lý do định cư ở nước ngoài. - Giấy tờ xác nhận về việc đang làm thủ tục nhập quốc tịch nước ngoài; giấy tờ xác nhận hoặc thẻ thường trú, cư trú có thời hạn từ 05 năm trở lên của cơ quan nước ngoài có thẩm quyền cấp.",
-        "code": "000.00.00.G24-KQ0270",
+        "name": "1. Trường hợp hưởng BHXH một lần: c) Đối với người ra nước ngoài để định cư phải nộp thêm bản sao Giấy xác nhận của cơ quan có thẩm quyền về việc thôi quốc tịch Việt Nam hoặc bản dịch tiếng Việt được chứng thực hoặc công chứng một trong các giấy tờ sau đây: - Hộ chiếu do nước ngoài cấp. - Thị thực của cơ quan nước ngoài có thẩm quyền cấp có xác nhận việc cho phép nhập cảnh với lý do định cư ở nước ngoài. - Giấy tờ xác nhận về việc đang làm thủ tục nhập quốc tịch nước ngoài; giấy tờ xác nhận hoặc thẻ thường trú, cư trú có thời hạn từ 05 năm trở lên của cơ quan nước ngoài có thẩm quyền cấp.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "1. Trường hợp hưởng BHXH một lần",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "e) Bản chính Bản khai cá nhân về thời gian, địa bàn phục vụ trong Quân đội có hưởng phụ cấp khu vực (Mẫu số 04B – HBQP ban hành kèm theo Thông tư số 136/2020/TT-BQP ngày 29/10/2020) đối với người có thời gian phục vụ trong Quân đội trước ngày 01/01/2007 tại địa bàn có hưởng phụ cấp khu vực mà sổ BHXH không thể hiện đầy đủ thông tin làm căn cứ tính phụ cấp khu vực.",
-        "code": "000.00.00.G24-KQ0273",
+        "name": "1. Trường hợp hưởng BHXH một lần: e) Bản chính Bản khai cá nhân về thời gian, địa bàn phục vụ trong Quân đội có hưởng phụ cấp khu vực (Mẫu số 04B – HBQP ban hành kèm theo Thông tư số 136/2020/TT-BQP ngày 29/10/2020) đối với người có thời gian phục vụ trong Quân đội trước ngày 01/01/2007 tại địa bàn có hưởng phụ cấp khu vực mà sổ BHXH không thể hiện đầy đủ thông tin làm căn cứ tính phụ cấp khu vực.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "1. Trường hợp hưởng BHXH một lần",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "a) Sổ BHXH",
-        "code": "000.00.00.G24-KQ0268",
+        "name": "1. Trường hợp hưởng BHXH một lần: a) Sổ BHXH",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "1. Trường hợp hưởng BHXH một lần",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Hồ sơ như nêu tại nội dung 1a, 1b, 1d, 1đ.",
-        "code": "G24-KQ000381",
+        "name": "2. Đối với người lao động là công dân nước ngoài làm việc tại Việt Nam hưởng BHXH một lần: Hồ sơ như nêu tại nội dung 1a, 1b, 1d, 1đ.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2. Đối với người lao động là công dân nước ngoài làm việc tại Việt Nam hưởng BHXH một lần",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -148,35 +115,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -184,51 +131,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -236,68 +168,57 @@
     {
       "title": "Nghị định 166/2016/NĐ-CP-Quy định về giao dịch điện tử trong lĩnh vực bảo hiểm xã hội, bảo hiểm y tế và bảo hiểm thất nghiệp",
       "document_number": "166/2016/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afec-42c383b8b740",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "LUẬT  Bảo hiểm xã hội",
       "document_number": "58/2014/QH13",
-      "id": "019d2bb3-5d84-71c5-b673-9d8fafaf3543",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư 01/2016/TT-BLĐTBXH",
       "document_number": "01/2016/TT-BLĐTBXH",
-      "id": "019d2bb3-5d7c-71ab-9f06-2cea6b32fca4",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "BAN HÀNH QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP",
       "document_number": "2222/QĐ-BHXH",
-      "id": "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư 56/2017/TT-BYT",
       "document_number": "56/2017/TT-BYT",
-      "id": "019d2bb3-5d7e-72d1-afe4-13c710a5b3df",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định 115/2015/NĐ-CP",
       "document_number": "115/2015/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-2d2bfff2574b",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định 143/2018/NĐ-CP",
       "document_number": "143/2018/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-11fd5024debc",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư liên tịch 105/2016/TTLT-BQP-BCA-BLĐTBXH",
       "document_number": "105/2016/TTLT-BQP-BCA-BLĐTBXH",
-      "id": "019d2bb3-5d86-7760-a63c-74870c22a136",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định 134/2015/NĐ-CP",
       "document_number": "134/2015/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-74c2735764bd",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Về việc thực hiện chính sách hưởng bảo hiểm xã hội một lần đối với người lao động",
       "document_number": "93/2015/QH13",
-      "id": "019d2bb3-5d84-71c5-b674-6b8b1db49e90",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư 136/2020/TT-BQP",
       "document_number": "136/2020/TT-BQP",
-      "id": "019d2bb3-5d86-7760-a63f-86fb70a72ee2",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "",
@@ -305,25 +226,22 @@
     {
       "title": "Tiền trợ cấp",
       "code": "KQ.G24.000053",
-      "id": "019d2bb2-1c82-739b-8b99-d6be7cc06c52",
-      "source_page": null
+      "source_page": 1
     },
     {
       "title": "Quyết định về việc hưởng BHXH một lần",
       "code": "KQ.G24.000030",
-      "id": "019d2bb2-1c82-739b-8b99-a45e7c4f69fb",
-      "source_page": null
+      "source_page": 1
     },
     {
       "title": "Bản quá trình đóng BHXH",
       "code": "KQ.G24.000012",
-      "id": "019d2bb2-1c82-739b-8b99-71f2b510b501",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "NLĐ lập hồ sơ theo quy định tại mục 9.3 (Thành phần hồ sơ) và nộp cho cơ quan BHXH.\n\nCơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định.\n\nNLĐ nhận kết quả giải quyết, gồm: Quyết định về việc hưởng BHXH một lần; Bản quá trình đóng BHXH; Tiền trợ cấp.\n",
-    "THÀNH PHẦN HỒ SƠ": "(Trường hợp không quy định là bản chính thì có thể nộp bản sao hợp lệ. Trường hợp nộp hồ sơ trực tuyến: thành phần hồ sơ quy định là bản sao nhưng NLĐ có thể nộp bản chính điện tử).\nTrường hợp không quy định rõ bản chính thì có thể nộp bản sao hợp lệ\n1. Trường hợp hưởng BHXH một lần\nd) Trường hợp bị mắc những bệnh nguy hiểm đến tính mạng như: Ung thư, bại liệt, xơ gan cổ chướng, phong, lao nặng, nhiễm HIV đã chuyển sang giai đoạn AIDS thì có thêm trích sao/tóm tắt hồ sơ bệnh án thể hiện tình trạng không tự phục vụ được; nếu bị mắc các bệnh khác thì thay bằng Biên bản giám định mức suy giảm từ 81% KNLĐ trở lên của Hội đồng GĐYK thể hiện tình trạng không tự phục vụ được.\nb) Đơn đề nghị (Mẫu số 14-HSB)\nđ) Trường hợp thanh toán phí GĐYK thì có thêm hóa đơn, chứng từ thu phí giám định kèm theo bản chính bảng kê các nội dung giám định của cơ sở thực hiện GĐYK.\nc) Đối với người ra nước ngoài để định cư phải nộp thêm bản sao Giấy xác nhận của cơ quan có thẩm quyền về việc thôi quốc tịch Việt Nam hoặc bản dịch tiếng Việt được chứng thực hoặc công chứng một trong các giấy tờ sau đây: - Hộ chiếu do nước ngoài cấp. - Thị thực của cơ quan nước ngoài có thẩm quyền cấp có xác nhận việc cho phép nhập cảnh với lý do định cư ở nước ngoài. - Giấy tờ xác nhận về việc đang làm thủ tục nhập quốc tịch nước ngoài; giấy tờ xác nhận hoặc thẻ thường trú, cư trú có thời hạn từ 05 năm trở lên của cơ quan nước ngoài có thẩm quyền cấp.\ne) Bản chính Bản khai cá nhân về thời gian, địa bàn phục vụ trong Quân đội có hưởng phụ cấp khu vực (Mẫu số 04B – HBQP ban hành kèm theo Thông tư số 136/2020/TT-BQP ngày 29/10/2020) đối với người có thời gian phục vụ trong Quân đội trước ngày 01/01/2007 tại địa bàn có hưởng phụ cấp khu vực mà sổ BHXH không thể hiện đầy đủ thông tin làm căn cứ tính phụ cấp khu vực.\na) Sổ BHXH\n2. Đối với người lao động là công dân nước ngoài làm việc tại Việt Nam hưởng BHXH một lần\nHồ sơ như nêu tại nội dung 1a, 1b, 1d, 1đ.",
+    "TRÌNH TỰ THỰC HIỆN": "NLĐ lập hồ sơ theo quy định tại mục 9.3 (Thành phần hồ sơ) và nộp cho cơ quan BHXH.\nCơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định.\nNLĐ nhận kết quả giải quyết, gồm: Quyết định về việc hưởng BHXH một lần; Bản quá trình đóng BHXH; Tiền trợ cấp.",
+    "THÀNH PHẦN HỒ SƠ": "(Trường hợp không quy định là bản chính thì có thể nộp bản sao hợp lệ. Trường hợp nộp hồ sơ trực tuyến: thành phần hồ sơ quy định là bản sao nhưng NLĐ có thể nộp bản chính điện tử).: Trường hợp không quy định rõ bản chính thì có thể nộp bản sao hợp lệ\n1. Trường hợp hưởng BHXH một lần: d) Trường hợp bị mắc những bệnh nguy hiểm đến tính mạng như: Ung thư, bại liệt, xơ gan cổ chướng, phong, lao nặng, nhiễm HIV đã chuyển sang giai đoạn AIDS thì có thêm trích sao/tóm tắt hồ sơ bệnh án thể hiện tình trạng không tự phục vụ được; nếu bị mắc các bệnh khác thì thay bằng Biên bản giám định mức suy giảm từ 81% KNLĐ trở lên của Hội đồng GĐYK thể hiện tình trạng không tự phục vụ được.\n1. Trường hợp hưởng BHXH một lần: b) Đơn đề nghị (Mẫu số 14-HSB)\n1. Trường hợp hưởng BHXH một lần: đ) Trường hợp thanh toán phí GĐYK thì có thêm hóa đơn, chứng từ thu phí giám định kèm theo bản chính bảng kê các nội dung giám định của cơ sở thực hiện GĐYK.\n1. Trường hợp hưởng BHXH một lần: c) Đối với người ra nước ngoài để định cư phải nộp thêm bản sao Giấy xác nhận của cơ quan có thẩm quyền về việc thôi quốc tịch Việt Nam hoặc bản dịch tiếng Việt được chứng thực hoặc công chứng một trong các giấy tờ sau đây: - Hộ chiếu do nước ngoài cấp. - Thị thực của cơ quan nước ngoài có thẩm quyền cấp có xác nhận việc cho phép nhập cảnh với lý do định cư ở nước ngoài. - Giấy tờ xác nhận về việc đang làm thủ tục nhập quốc tịch nước ngoài; giấy tờ xác nhận hoặc thẻ thường trú, cư trú có thời hạn từ 05 năm trở lên của cơ quan nước ngoài có thẩm quyền cấp.\n1. Trường hợp hưởng BHXH một lần: e) Bản chính Bản khai cá nhân về thời gian, địa bàn phục vụ trong Quân đội có hưởng phụ cấp khu vực (Mẫu số 04B – HBQP ban hành kèm theo Thông tư số 136/2020/TT-BQP ngày 29/10/2020) đối với người có thời gian phục vụ trong Quân đội trước ngày 01/01/2007 tại địa bàn có hưởng phụ cấp khu vực mà sổ BHXH không thể hiện đầy đủ thông tin làm căn cứ tính phụ cấp khu vực.\n1. Trường hợp hưởng BHXH một lần: a) Sổ BHXH\n2. Đối với người lao động là công dân nước ngoài làm việc tại Việt Nam hưởng BHXH một lần: Hồ sơ như nêu tại nội dung 1a, 1b, 1d, 1đ.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 5 ngày làm việc\nQua dịch vụ bưu chính: 5 ngày làm việc\nTrực tiếp: 5 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định 166/2016/NĐ-CP-Quy định về giao dịch điện tử trong lĩnh vực bảo hiểm xã hội, bảo hiểm y tế và bảo hiểm thất nghiệp - 166/2016/NĐ-CP\nLUẬT  Bảo hiểm xã hội - 58/2014/QH13\nThông tư 01/2016/TT-BLĐTBXH - 01/2016/TT-BLĐTBXH\nBAN HÀNH QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP - 2222/QĐ-BHXH\nThông tư 56/2017/TT-BYT - 56/2017/TT-BYT\nNghị định 115/2015/NĐ-CP - 115/2015/NĐ-CP\nNghị định 143/2018/NĐ-CP - 143/2018/NĐ-CP\nThông tư liên tịch 105/2016/TTLT-BQP-BCA-BLĐTBXH - 105/2016/TTLT-BQP-BCA-BLĐTBXH\nNghị định 134/2015/NĐ-CP - 134/2015/NĐ-CP\nVề việc thực hiện chính sách hưởng bảo hiểm xã hội một lần đối với người lao động - 93/2015/QH13\nThông tư 136/2020/TT-BQP - 136/2020/TT-BQP",
     "CƠ QUAN THỰC HIỆN": "Bảo hiểm xã hội cấp Tỉnh, Bảo hiểm xã hội cấp huyện",
@@ -333,11 +251,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Thực hiện chính sách BHXH",
       "slug": "thuc-hien-chinh-sach-bhxh"
@@ -372,6 +285,6 @@
         "slug": "bao-hiem-xa-hoi-cap-huyen"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

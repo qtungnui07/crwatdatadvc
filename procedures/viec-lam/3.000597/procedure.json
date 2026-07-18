@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019ecf1f-0b52-73ed-809f-f14aee6849db",
   "procedure_code": "3.000597",
   "title": "Thủ tục cấp lại hiện vật khen thưởng cấp thành phố",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019ecf1f-0b52-73ed-809f-f14aee6849db",
     "source_file": "chi-tiet-thu-tuc-3.000597.pdf",
     "source_path": "procedures/viec-lam/3.000597/chi-tiet-thu-tuc-3.000597.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:24.568200+00:00",
-    "source_updated_at": "2026-07-09T01:10:44.325Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:41.495865+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "133f890d3e204b34cd02facab7829a838e9551ad388c59444e8188ef98b09041"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:24.568200+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1776/QĐ-UBND",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "OTHER",
   "sector": "Thi đua - khen thưởng",
   "target_users": [
@@ -37,10 +33,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Nội vụ TP.Đà Nẵng",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Nội vụ TP.Đà Nẵng"
   },
   "steps": [
     {
@@ -48,55 +41,43 @@
       "title": "Bước 1",
       "description": "- Bước 1: Tổ chức, cá nhân hoàn thiện hồ sơ theo hướng dẫn và nộp trực tuyến, trực tiếp hoặc qua dịch vụ bưu chính công ích đến Trung tâm Phục vụ hành chính công cấp xã/thành phố.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 2,
       "title": "Bước 2",
       "description": "- Bước 2: Bộ phận Tiếp nhận và trả kết quả của đơn vị tiếp nhận hồ sơ (yêu cầu bổ sung, hoàn thiện nếu hồ sơ chưa đầy đủ); chuyển Sở Nội vụ (Ban Thi đua - Khen thưởng thành phố) tra cứu.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 3,
       "title": "Bước 3",
       "description": "- Bước 3: Tham mưu Sở Nội vụ xem xét tham trình Chủ tịch UBND thành phố cấp lại hiện vật khen thưởng nếu có hồ sơ. Các trường hợp không tra cứu ra, Sở Nội vụ thông báo đến các đơn vị trình hồ sơ hoặc cá nhân nộp hồ sơ được biết.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 4,
       "title": "Bước 4",
       "description": "- Bước 4: Khi có hiện vật khen thưởng do Chủ tịch UBND thành phố cấp lại, Sở Nội vụ thông báo và cấp phát cho đơn vị trình hồ sơ hoặc cá nhân nộp hồ sơ.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Đơn đề nghị cấp lại hiện vật khen thưởng.",
-        "code": "TP-H17.000120",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019ecf20-d468-7355-8991-2d7ff0a5f029",
-            "name": "Mau18.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau18.docx",
+        "source_page": 2
       },
       {
         "name": "Văn bản đề nghị cấp lại của cơ quan, đơn vị (trong trường hợp tập thể, cá nhân nộp hồ sơ thông qua đơn vị)",
-        "code": "TP-H17.000121",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -107,34 +88,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "25 ngày làm việc",
-      "processing_time_value": 25,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "25 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "25 ngày làm việc",
-      "processing_time_value": 25,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "25 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "25 ngày làm việc",
-      "processing_time_value": 25,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "25 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -143,20 +119,17 @@
     {
       "title": "Quy định về phân cấp, phân quyền trong lĩnh vực thi đua, khen thưởng; quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi đua, khen thưởng",
       "document_number": "152/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-a91bedd97ae5",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật Thi đua, khen thưởng",
       "document_number": "06/2022/QH15",
-      "id": "019d2bb3-5d84-71c5-b671-4c4f0784f204",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Về việc ban hành Quy định về công tác thi đua, khen thưởng trên địa bàn thành phố Đà Nẵng",
       "document_number": "85/2025/QĐ-UBND (thành phố Đà Nẵng)",
-      "id": "019f4446-6900-738a-bc04-23f63dc58e45",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Căn cứ Chương VIII Quyết định số 85/2025/QĐ-UBND ngày 05 tháng 12 năm 2025 của UBND thành phố về việc ban hành Quy định về công tác thi đua, khen thưởng trên địa bàn thành phố Đà Nẵng",
@@ -164,20 +137,18 @@
     {
       "title": "Bằng khen của Chủ tịch UBND tỉnh Quảng Nam (cũ), Cờ thi đua của UBND tỉnh Quảng Nam (cũ), Bằng chứng nhận các danh hiệu thi đua, hình thức khen: “Tập thể lao động xuất sắc”, “Chiến sĩ thi đua cấp tỉnh”…của tỉnh Quảng Nam (cũ) được cấp lại.",
       "code": "KQ.H17.000231",
-      "id": "019ecf1e-b8e3-7616-98d6-45677d7894b3",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Bằng khen của Chủ tịch UBND thành phố Đà Nẵng, Cờ thi đua của UBND thành phố Đà Nẵng, Bằng chứng nhận các danh hiệu thi đua, hình thức khen: “Tập thể lao động xuất sắc”, “Chiến sĩ thi đua cấp thành phố”… của thành phố Đà Nẵng được cấp lại",
       "code": "KQ.H17.000230",
-      "id": "019ecf1e-71d2-70bb-90a8-5d3c6af169c0",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Tổ chức, cá nhân hoàn thiện hồ sơ theo hướng dẫn và nộp trực tuyến, trực tiếp hoặc qua dịch vụ bưu chính công ích đến Trung tâm Phục vụ hành chính công cấp xã/thành phố.\n- Bước 2: Bộ phận Tiếp nhận và trả kết quả của đơn vị tiếp nhận hồ sơ (yêu cầu bổ sung, hoàn thiện nếu hồ sơ chưa đầy đủ); chuyển Sở Nội vụ (Ban Thi đua - Khen thưởng thành phố) tra cứu.\n- Bước 3: Tham mưu Sở Nội vụ xem xét tham trình Chủ tịch UBND thành phố cấp lại hiện vật khen thưởng nếu có hồ sơ. Các trường hợp không tra cứu ra, Sở Nội vụ thông báo đến các đơn vị trình hồ sơ hoặc cá nhân nộp hồ sơ được biết.\n- Bước 4: Khi có hiện vật khen thưởng do Chủ tịch UBND thành phố cấp lại, Sở Nội vụ thông báo và cấp phát cho đơn vị trình hồ sơ hoặc cá nhân nộp hồ sơ.",
-    "THÀNH PHẦN HỒ SƠ": "\nĐơn đề nghị cấp lại hiện vật khen thưởng.\nVăn bản đề nghị cấp lại của cơ quan, đơn vị (trong trường hợp tập thể, cá nhân nộp hồ sơ thông qua đơn vị)",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 25 ngày làm việc - 25 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định\nTrực tuyến: 25 ngày làm việc - 25 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định\nQua dịch vụ bưu chính: 25 ngày làm việc - 25 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định",
+    "THÀNH PHẦN HỒ SƠ": "Đơn đề nghị cấp lại hiện vật khen thưởng.\nVăn bản đề nghị cấp lại của cơ quan, đơn vị (trong trường hợp tập thể, cá nhân nộp hồ sơ thông qua đơn vị)",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 25 ngày làm việc\nTrực tuyến: 25 ngày làm việc\nQua dịch vụ bưu chính: 25 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Quy định về phân cấp, phân quyền trong lĩnh vực thi đua, khen thưởng; quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi đua, khen thưởng - 152/2025/NĐ-CP\nLuật Thi đua, khen thưởng - 06/2022/QH15\nVề việc ban hành Quy định về công tác thi đua, khen thưởng trên địa bàn thành phố Đà Nẵng - 85/2025/QĐ-UBND (thành phố Đà Nẵng)",
     "CƠ QUAN THỰC HIỆN": "Sở Nội vụ TP.Đà Nẵng",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Căn cứ Chương VIII Quyết định số 85/2025/QĐ-UBND ngày 05 tháng 12 năm 2025 của UBND thành phố về việc ban hành Quy định về công tác thi đua, khen thưởng trên địa bàn thành phố Đà Nẵng",
@@ -186,14 +157,9 @@
     "MÔ TẢ": "Căn cứ Chương VIII Quyết định số 85/2025/QĐ-UBND ngày 05 tháng 12 năm 2025 của UBND thành phố về việc ban hành Quy định về công tác thi đua, khen thưởng trên địa bàn thành phố Đà Nẵng"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Thi đua - khen thưởng",
-      "slug": "thi-dua-khen-thuong"
+      "slug": "thi-ua-khen-thuong"
     },
     "implementation_levels": [
       {
@@ -218,9 +184,9 @@
     "agencies": [
       {
         "name": "Sở Nội vụ TP.Đà Nẵng",
-        "slug": "so-noi-vu-tp-da-nang"
+        "slug": "so-noi-vu-tp-a-nang"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

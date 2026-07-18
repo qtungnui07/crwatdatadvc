@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bff-3535-706d-beaf-fbb7ab107552",
   "procedure_code": "1.014082",
   "title": "Cấp phép nhập khẩu thuốc chưa có Giấy đăng ký lưu hành thuốc tại Việt Nam đáp ứng nhu cầu điều trị đặc biệt",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-3535-706d-beaf-fbb7ab107552",
     "source_file": "chi-tiet-thu-tuc-1.014082.pdf",
     "source_path": "procedures/suc-khoe-va-y-te/1.014082/chi-tiet-thu-tuc-1.014082.pdf",
     "page_count": 7,
-    "extracted_at": "2026-07-18T02:22:12.115132+00:00",
-    "source_updated_at": "2026-05-05T04:29:57.797Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:28.030576+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "b8811fe8d13f3d568d7371c9c9349407a9d702e621614ce6df5f7983d691e973"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:12.115132+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2278/QĐ-BYT",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Dược phẩm",
   "target_users": [
@@ -40,102 +36,97 @@
   ],
   "agency": {
     "competent_agency": "Cục Quản lý Dược - Bộ Y tế; Cục Quản lý Y, Dược cổ truyền - Bộ Y tế",
-    "executing_agency": "Bộ Y tế",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Y tế"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Cơ sở đề nghị cấp phép nhập khẩu nộp hồ sơ trực tiếp hoặc qua dịch vụ bưu chính hoặc trực tuyến về Bộ Y tế, cụ thể:  \n- Cục Quản lý Dược đối với vắc xin, sinh phẩm, thuốc hóa dược, thuốc dược liệu;\n- Cục Quản lý Y, Dược cổ truyền đối với thuốc cổ truyền;\nBước 2: Sau khi nhận được hồ sơ, cơ quan tiếp nhận hồ sơ trả cho cơ sở đề nghị Phiếu tiếp nhận hồ sơ theo Mẫu số 01 Phụ lục I của Nghị định số 163/2025/NĐ-CP; \nBước 3: Trường hợp không có yêu cầu sửa đổi, bổ sung hồ sơ, kể từ ngày ghi trên Phiếu tiếp nhận hồ sơ, trong thời hạn 15 (mười lăm) ngày, Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền cấp phép nhập khẩu. Trường hợp có yêu cầu sửa đổi, bổ sung hồ sơ, kể từ ngày ghi trên Phiếu tiếp nhận hồ sơ, trong thời hạn 15 (mười lăm) ngày, Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền gửi văn bản cho cơ sở để yêu cầu sửa đổi, bổ sung hồ sơ; \nBước 4: Sau khi nhận hồ sơ sửa đổi, bổ sung, cơ quan tiếp nhận hồ sơ trả cơ sở Phiếu tiếp nhận hồ sơ sửa đổi, bổ sung theo Mẫu số 01 Phụ lục I của Nghị định số 163/2025/NĐ-CP. Trường hợp hồ sơ sửa đổi, bổ sung không đáp ứng yêu cầu, trong thời hạn 15 ngày kể từ ngày ghi trên Phiếu tiếp nhận hồ sơ, Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền có văn bản thông báo cho cơ sở về việc không cấp phép nhập khẩu theo Mẫu số 16 tại Phụ lục I Nghị định số 163/2025/NĐ-CP. Trường hợp không có yêu cầu sửa đổi, bổ sung đối với hồ sơ sửa đổi, bổ sung, Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền cấp phép nhập khẩu theo bước 3. Trong thời hạn 06 tháng kể từ ngày Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền có văn bản thông báo sửa đổi, bổ sung, cơ sở đề nghị cấp phép nhập khẩu phải nộp hồ sơ sửa đổi, bổ sung theo yêu cầu. Sau thời hạn trên, cơ sở không nộp hồ sơ sửa đổi, bổ sung thì hồ sơ đã nộp không còn giá trị; \nBước 5: Trong thời hạn 05 (năm) ngày làm việc, kể từ ngày cấp phép nhập khẩu thuốc, Bộ Y tế có trách nhiệm công bố trên Cổng thông tin điện tử của Bộ Y tế bao gồm thông tin nhà nhập khẩu, nhà sản xuất, số lượng, tên thuốc và số giấy phép nhập khẩu, số lượng giấy đăng ký lưu hành đối với mỗi hoạt chất.\n* Thời gian cấp phép nhập khẩu hoặc có văn bản thông báo sửa đổi, bổ sung đối với các hồ sơ đề nghị cấp phép nhập khẩu thuốc mới, thuốc hiếm, vắc xin đã được Tổ chức Y tế Thế giới tiền thẩm định, thuốc công nghệ cao, thuốc đã được thử lâm sàng tại Việt Nam được ưu tiên rút ngắn 05 ngày so với thời gian tại bước 3, bước 4.\n",
+      "description": "Bước 1: Cơ sở đề nghị cấp phép nhập khẩu nộp hồ sơ trực tiếp hoặc qua dịch vụ bưu chính hoặc trực tuyến về Bộ Y tế, cụ thể:  \n- Cục Quản lý Dược đối với vắc xin, sinh phẩm, thuốc hóa dược, thuốc dược liệu;\n- Cục Quản lý Y, Dược cổ truyền đối với thuốc cổ truyền;",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Sau khi nhận được hồ sơ, cơ quan tiếp nhận hồ sơ trả cho cơ sở đề nghị Phiếu tiếp nhận hồ sơ theo Mẫu số 01 Phụ lục I của Nghị định số 163/2025/NĐ-CP;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Trường hợp không có yêu cầu sửa đổi, bổ sung hồ sơ, kể từ ngày ghi trên Phiếu tiếp nhận hồ sơ, trong thời hạn 15 (mười lăm) ngày, Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền cấp phép nhập khẩu. Trường hợp có yêu cầu sửa đổi, bổ sung hồ sơ, kể từ ngày ghi trên Phiếu tiếp nhận hồ sơ, trong thời hạn 15 (mười lăm) ngày, Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền gửi văn bản cho cơ sở để yêu cầu sửa đổi, bổ sung hồ sơ;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "Bước 4: Sau khi nhận hồ sơ sửa đổi, bổ sung, cơ quan tiếp nhận hồ sơ trả cơ sở Phiếu tiếp nhận hồ sơ sửa đổi, bổ sung theo Mẫu số 01 Phụ lục I của Nghị định số 163/2025/NĐ-CP. Trường hợp hồ sơ sửa đổi, bổ sung không đáp ứng yêu cầu, trong thời hạn 15 ngày kể từ ngày ghi trên Phiếu tiếp nhận hồ sơ, Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền có văn bản thông báo cho cơ sở về việc không cấp phép nhập khẩu theo Mẫu số 16 tại Phụ lục I Nghị định số 163/2025/NĐ-CP. Trường hợp không có yêu cầu sửa đổi, bổ sung đối với hồ sơ sửa đổi, bổ sung, Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền cấp phép nhập khẩu theo bước 3. Trong thời hạn 06 tháng kể từ ngày Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền có văn bản thông báo sửa đổi, bổ sung, cơ sở đề nghị cấp phép nhập khẩu phải nộp hồ sơ sửa đổi, bổ sung theo yêu cầu. Sau thời hạn trên, cơ sở không nộp hồ sơ sửa đổi, bổ sung thì hồ sơ đã nộp không còn giá trị;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 5,
+      "title": "Bước 5",
+      "description": "Bước 5: Trong thời hạn 05 (năm) ngày làm việc, kể từ ngày cấp phép nhập khẩu thuốc, Bộ Y tế có trách nhiệm công bố trên Cổng thông tin điện tử của Bộ Y tế bao gồm thông tin nhà nhập khẩu, nhà sản xuất, số lượng, tên thuốc và số giấy phép nhập khẩu, số lượng giấy đăng ký lưu hành đối với mỗi hoạt chất.\n* Thời gian cấp phép nhập khẩu hoặc có văn bản thông báo sửa đổi, bổ sung đối với các hồ sơ đề nghị cấp phép nhập khẩu thuốc mới, thuốc hiếm, vắc xin đã được Tổ chức Y tế Thế giới tiền thẩm định, thuốc công nghệ cao, thuốc đã được thử lâm sàng tại Việt Nam được ưu tiên rút ngắn 05 ngày so với thời gian tại bước 3, bước 4.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "a) Đơn hàng nhập khẩu  - Mẫu số 15 Phụ lục III của Nghị định số 163/2025/NĐ-CP đối với vắc xin, sinh phẩm, thuốc hóa dược;  - Mẫu số 16 Phụ lục III của Nghị định số 163/2025/NĐ-CP đối với thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, thuốc dạng phối hợp có chứa dược chất gây nghiện, thuốc dạng phối hợp có chứa dược chất hướng thần, thuốc dạng phối hợp có chứa tiền chất;  - Mẫu số 17 Phụ lục III của Nghị định số 163/2025/NĐ-CP đối với thuốc dược liệu, thuốc cổ truyền;",
-        "code": "000.00.00.G18-KQ005733",
         "quantity": "3 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e29c0-71fd-71d2-b498-52bf01c831aa",
-            "name": "Mu.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mu.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "đ) Báo cáo của cơ sở khám bệnh, chữa bệnh, cơ sở tiêm chủng về thuốc đề nghị nhập khẩu theo Mẫu số 22 tại Phụ lục III NNghị định số 163/2025/NĐ-CP; Mẫu số 22 tại Phụ lục III Nghị định số 163/2025/NĐ-CP",
-        "code": "000.00.00.G18-KQ005737",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "e) Bản chính Bản cam kết của cơ sở sản xuất và cơ sở cung cấp thuốc nước ngoài về việc đảm bảo chất lượng, an toàn, hiệu quả vắc xin cung cấp cho Việt Nam theo Mẫu số 23 tại Phụ lục III Nghị định số 163/2025/NĐ-CP; Mẫu số 23 tại Phụ lục III Nghị định số 163/2025/NĐ-CP",
-        "code": "000.00.00.G18-KQ005738",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "c) Bản chính văn bản của cơ sở khám bệnh, chữa bệnh nêu rõ lý do đề nghị nhập khẩu thuốc, số lượng bệnh nhân dự kiến cần sử dụng thuốc, nhu cầu thuốc tương ứng và cam kết chịu hoàn toàn trách nhiệm liên quan đến việc sử dụng thuốc đề nghị nhập khẩu; bản chính văn bản của cơ sở tiêm chủng nêu rõ lý do đề nghị nhập khẩu vắc xin, số lượng người dự kiến cần sử dụng vắc xin, nhu cầu vắc xin tương ứng và cam kết chịu hoàn toàn trách nhiệm liên quan đến việc sử dụng vắc xin đề nghị nhập khẩu. Văn bản phải kèm theo bản chính hoặc bản sao có đóng dấu của cơ sở khám bệnh, chữa bệnh biên bản họp Hội đồng thuốc và điều trị đối với nhu cầu nhập khẩu thuốc. Trường hợp cơ sở tiêm chủng không có Hội đồng thuốc và điều trị hoặc trường hợp thuốc sử dụng cho mục đích cấp cứu, chống độc mà trong văn bản của cơ sở khám bệnh,chữa bệnh đã ghi rõ danh sách bệnh nhân có nhu cầu sử dụng thuốc thì không phải nộp kèm theo biên bản;",
-        "code": "000.00.00.G18-KQ005735",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Giấy tờ trong hồ sơ đề nghị cấp phép nhập khẩu thuốc: theo quy định tại Điều 61 Nghị định số 163/2025/NĐ-CP",
-        "code": "000.00.00.G18-KQ005740",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "d) Danh mục thuốc đề nghị nhập khẩu của cơ sở khám bệnh, chữa bệnh, cơ sở tiêm chủng theo Mẫu số 19, 20 hoặc 21 tại Phụ lục III Nghị định số 163/2025/NĐ-CP; Mẫu số 19, 20 hoặc 21 tại Phụ lục III Nghị định số 163/2025/NĐ-CP",
-        "code": "000.00.00.G18-KQ005736",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "g) Không bắt buộc cơ sở cung cấp thuốc phải thực hiện quy định tại Điều 78 của Nghị định số 163/2025/NĐ-CP nếu có bản sao Giấy phép kinh doanh dược do cơ quan có thẩm quyền nước sở tại cấp được chứng thực và hợp pháp hóa lãnh sự theo quy định.",
-        "code": "000.00.00.G18-KQ005739",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "b) Tài liệu chứng minh về chất lượng, an toàn, hiệu quả của vắc xin đề nghị nhập khẩu đối với trường hợp nhập khẩu vắc xin. Miễn nộp tài liệu tại điểm này trong trường hợp vắc xin đã được Tổ chức Y tế Thế giới tiền thẩm định. Miễn nộp tài liệu chứng minh an toàn, hiệu quả trong trường hợp vắc xin thuộc danh mục thuốc hiếm;",
-        "code": "000.00.00.G18-KQ005734",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       }
     ]
   },
@@ -144,87 +135,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "15 ngày",
-      "processing_time_value": 15,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 1200000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "1.200.000 đồng/ khoản thuốc",
-          "attachment": null
-        }
-      ],
+      "fee": "1.200.000 đồng/ khoản thuốc",
       "description": "15 ngày (hoặc 10 ngày trong trường hợp thuốc đề nghị nhập khẩu là thuốc mới, thuốc hiếm, vắc xin đã được Tổ chức Y tế Thế giới tiền thẩm định, thuốc công nghệ cao, thuốc đã được thử lâm sàng tại Việt Nam)",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "15 ngày",
-      "processing_time_value": 15,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 1200000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "1.200.000 đồng/ khoản thuốc",
-          "attachment": null
-        }
-      ],
+      "fee": "1.200.000 đồng/ khoản thuốc",
       "description": "15 ngày (hoặc 10 ngày trong trường hợp thuốc đề nghị nhập khẩu là thuốc mới, thuốc hiếm, vắc xin đã được Tổ chức Y tế Thế giới tiền thẩm định, thuốc công nghệ cao, thuốc đã được thử lâm sàng tại Việt Nam)",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "15 ngày",
-      "processing_time_value": 15,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 1200000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "1.200.000 đồng/ khoản thuốc",
-          "attachment": null
-        }
-      ],
+      "fee": "1.200.000 đồng/ khoản thuốc",
       "description": "15 ngày (hoặc 10 ngày trong trường hợp thuốc đề nghị nhập khẩu là thuốc mới, thuốc hiếm, vắc xin đã được Tổ chức Y tế Thế giới tiền thẩm định, thuốc công nghệ cao, thuốc đã được thử lâm sàng tại Việt Nam)",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "1.200.000 đồng/ khoản thuốc",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 1200000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "1.200.000 đồng/ khoản thuốc",
-        "attachment": null
+        "amount_text": "1.200.000 đồng/ khoản thuốc",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 1200000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "1.200.000 đồng/ khoản thuốc",
-        "attachment": null
+        "amount_text": "1.200.000 đồng/ khoản thuốc",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 1200000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "1.200.000 đồng/ khoản thuốc",
-        "attachment": null
+        "amount_text": "1.200.000 đồng/ khoản thuốc",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -232,26 +188,22 @@
     {
       "title": "Nghị định của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật dược",
       "document_number": "163/2025/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a641-a5bf3c937d87",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Luật 105/2016/QH13 Dược",
       "document_number": "105/2016/QH13",
-      "id": "019d2bb3-5d84-71c5-b671-851dee5b046a",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "41/2023/TT-BTC",
       "document_number": "41/2023/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4d-509dfdfda336",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Luật số 44/2024/QH15",
       "document_number": "44/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b673-2c1d1c312179",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "conditions": "",
@@ -259,39 +211,31 @@
     {
       "title": "Giấy phép nhập khẩu",
       "code": "KQ.G18.000263",
-      "id": "019d2bb2-1c7c-74ea-bcd0-6cef556e7bb9",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Văn bản yêu cầu sửa đổi, bổ sung hồ sơ",
       "code": "KQ.G18.000264",
-      "id": "019d2bb2-1c7c-74ea-bcd0-703e6b5448c5",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Văn bản thông báo cho cơ sở về việc không cấp phép nhập",
       "code": "KQ.G18.000266",
-      "id": "019d2bb2-1c7c-74ea-bcd0-7b3e062a1ab7",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Cơ sở đề nghị cấp phép nhập khẩu nộp hồ sơ trực tiếp hoặc qua dịch vụ bưu chính hoặc trực tuyến về Bộ Y tế, cụ thể:  \n- Cục Quản lý Dược đối với vắc xin, sinh phẩm, thuốc hóa dược, thuốc dược liệu;\n- Cục Quản lý Y, Dược cổ truyền đối với thuốc cổ truyền;\nBước 2: Sau khi nhận được hồ sơ, cơ quan tiếp nhận hồ sơ trả cho cơ sở đề nghị Phiếu tiếp nhận hồ sơ theo Mẫu số 01 Phụ lục I của Nghị định số 163/2025/NĐ-CP; \nBước 3: Trường hợp không có yêu cầu sửa đổi, bổ sung hồ sơ, kể từ ngày ghi trên Phiếu tiếp nhận hồ sơ, trong thời hạn 15 (mười lăm) ngày, Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền cấp phép nhập khẩu. Trường hợp có yêu cầu sửa đổi, bổ sung hồ sơ, kể từ ngày ghi trên Phiếu tiếp nhận hồ sơ, trong thời hạn 15 (mười lăm) ngày, Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền gửi văn bản cho cơ sở để yêu cầu sửa đổi, bổ sung hồ sơ; \nBước 4: Sau khi nhận hồ sơ sửa đổi, bổ sung, cơ quan tiếp nhận hồ sơ trả cơ sở Phiếu tiếp nhận hồ sơ sửa đổi, bổ sung theo Mẫu số 01 Phụ lục I của Nghị định số 163/2025/NĐ-CP. Trường hợp hồ sơ sửa đổi, bổ sung không đáp ứng yêu cầu, trong thời hạn 15 ngày kể từ ngày ghi trên Phiếu tiếp nhận hồ sơ, Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền có văn bản thông báo cho cơ sở về việc không cấp phép nhập khẩu theo Mẫu số 16 tại Phụ lục I Nghị định số 163/2025/NĐ-CP. Trường hợp không có yêu cầu sửa đổi, bổ sung đối với hồ sơ sửa đổi, bổ sung, Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền cấp phép nhập khẩu theo bước 3. Trong thời hạn 06 tháng kể từ ngày Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền có văn bản thông báo sửa đổi, bổ sung, cơ sở đề nghị cấp phép nhập khẩu phải nộp hồ sơ sửa đổi, bổ sung theo yêu cầu. Sau thời hạn trên, cơ sở không nộp hồ sơ sửa đổi, bổ sung thì hồ sơ đã nộp không còn giá trị; \nBước 5: Trong thời hạn 05 (năm) ngày làm việc, kể từ ngày cấp phép nhập khẩu thuốc, Bộ Y tế có trách nhiệm công bố trên Cổng thông tin điện tử của Bộ Y tế bao gồm thông tin nhà nhập khẩu, nhà sản xuất, số lượng, tên thuốc và số giấy phép nhập khẩu, số lượng giấy đăng ký lưu hành đối với mỗi hoạt chất.\n* Thời gian cấp phép nhập khẩu hoặc có văn bản thông báo sửa đổi, bổ sung đối với các hồ sơ đề nghị cấp phép nhập khẩu thuốc mới, thuốc hiếm, vắc xin đã được Tổ chức Y tế Thế giới tiền thẩm định, thuốc công nghệ cao, thuốc đã được thử lâm sàng tại Việt Nam được ưu tiên rút ngắn 05 ngày so với thời gian tại bước 3, bước 4.\n",
-    "THÀNH PHẦN HỒ SƠ": "\na) Đơn hàng nhập khẩu  - Mẫu số 15 Phụ lục III của Nghị định số 163/2025/NĐ-CP đối với vắc xin, sinh phẩm, thuốc hóa dược;  - Mẫu số 16 Phụ lục III của Nghị định số 163/2025/NĐ-CP đối với thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, thuốc dạng phối hợp có chứa dược chất gây nghiện, thuốc dạng phối hợp có chứa dược chất hướng thần, thuốc dạng phối hợp có chứa tiền chất;  - Mẫu số 17 Phụ lục III của Nghị định số 163/2025/NĐ-CP đối với thuốc dược liệu, thuốc cổ truyền;\nđ) Báo cáo của cơ sở khám bệnh, chữa bệnh, cơ sở tiêm chủng về thuốc đề nghị nhập khẩu theo Mẫu số 22 tại Phụ lục III NNghị định số 163/2025/NĐ-CP; Mẫu số 22 tại Phụ lục III Nghị định số 163/2025/NĐ-CP\ne) Bản chính Bản cam kết của cơ sở sản xuất và cơ sở cung cấp thuốc nước ngoài về việc đảm bảo chất lượng, an toàn, hiệu quả vắc xin cung cấp cho Việt Nam theo Mẫu số 23 tại Phụ lục III Nghị định số 163/2025/NĐ-CP; Mẫu số 23 tại Phụ lục III Nghị định số 163/2025/NĐ-CP\nc) Bản chính văn bản của cơ sở khám bệnh, chữa bệnh nêu rõ lý do đề nghị nhập khẩu thuốc, số lượng bệnh nhân dự kiến cần sử dụng thuốc, nhu cầu thuốc tương ứng và cam kết chịu hoàn toàn trách nhiệm liên quan đến việc sử dụng thuốc đề nghị nhập khẩu; bản chính văn bản của cơ sở tiêm chủng nêu rõ lý do đề nghị nhập khẩu vắc xin, số lượng người dự kiến cần sử dụng vắc xin, nhu cầu vắc xin tương ứng và cam kết chịu hoàn toàn trách nhiệm liên quan đến việc sử dụng vắc xin đề nghị nhập khẩu. Văn bản phải kèm theo bản chính hoặc bản sao có đóng dấu của cơ sở khám bệnh, chữa bệnh biên bản họp Hội đồng thuốc và điều trị đối với nhu cầu nhập khẩu thuốc. Trường hợp cơ sở tiêm chủng không có Hội đồng thuốc và điều trị hoặc trường hợp thuốc sử dụng cho mục đích cấp cứu, chống độc mà trong văn bản của cơ sở khám bệnh,chữa bệnh đã ghi rõ danh sách bệnh nhân có nhu cầu sử dụng thuốc thì không phải nộp kèm theo biên bản;\nGiấy tờ trong hồ sơ đề nghị cấp phép nhập khẩu thuốc: theo quy định tại Điều 61 Nghị định số 163/2025/NĐ-CP\nd) Danh mục thuốc đề nghị nhập khẩu của cơ sở khám bệnh, chữa bệnh, cơ sở tiêm chủng theo Mẫu số 19, 20 hoặc 21 tại Phụ lục III Nghị định số 163/2025/NĐ-CP; Mẫu số 19, 20 hoặc 21 tại Phụ lục III Nghị định số 163/2025/NĐ-CP\ng) Không bắt buộc cơ sở cung cấp thuốc phải thực hiện quy định tại Điều 78 của Nghị định số 163/2025/NĐ-CP nếu có bản sao Giấy phép kinh doanh dược do cơ quan có thẩm quyền nước sở tại cấp được chứng thực và hợp pháp hóa lãnh sự theo quy định.\nb) Tài liệu chứng minh về chất lượng, an toàn, hiệu quả của vắc xin đề nghị nhập khẩu đối với trường hợp nhập khẩu vắc xin. Miễn nộp tài liệu tại điểm này trong trường hợp vắc xin đã được Tổ chức Y tế Thế giới tiền thẩm định. Miễn nộp tài liệu chứng minh an toàn, hiệu quả trong trường hợp vắc xin thuộc danh mục thuốc hiếm;",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 15 ngày - 15 ngày (hoặc 10 ngày trong trường hợp thuốc đề nghị nhập khẩu là thuốc mới, thuốc hiếm, vắc xin đã được Tổ chức Y tế Thế giới tiền thẩm định, thuốc công nghệ cao, thuốc đã được thử lâm sàng tại Việt Nam)\nQua dịch vụ bưu chính: 15 ngày - 15 ngày (hoặc 10 ngày trong trường hợp thuốc đề nghị nhập khẩu là thuốc mới, thuốc hiếm, vắc xin đã được Tổ chức Y tế Thế giới tiền thẩm định, thuốc công nghệ cao, thuốc đã được thử lâm sàng tại Việt Nam)\nTrực tiếp: 15 ngày - 15 ngày (hoặc 10 ngày trong trường hợp thuốc đề nghị nhập khẩu là thuốc mới, thuốc hiếm, vắc xin đã được Tổ chức Y tế Thế giới tiền thẩm định, thuốc công nghệ cao, thuốc đã được thử lâm sàng tại Việt Nam)",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Cơ sở đề nghị cấp phép nhập khẩu nộp hồ sơ trực tiếp hoặc qua dịch vụ bưu chính hoặc trực tuyến về Bộ Y tế, cụ thể:  \n- Cục Quản lý Dược đối với vắc xin, sinh phẩm, thuốc hóa dược, thuốc dược liệu;\n- Cục Quản lý Y, Dược cổ truyền đối với thuốc cổ truyền;\nBước 2: Sau khi nhận được hồ sơ, cơ quan tiếp nhận hồ sơ trả cho cơ sở đề nghị Phiếu tiếp nhận hồ sơ theo Mẫu số 01 Phụ lục I của Nghị định số 163/2025/NĐ-CP;\nBước 3: Trường hợp không có yêu cầu sửa đổi, bổ sung hồ sơ, kể từ ngày ghi trên Phiếu tiếp nhận hồ sơ, trong thời hạn 15 (mười lăm) ngày, Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền cấp phép nhập khẩu. Trường hợp có yêu cầu sửa đổi, bổ sung hồ sơ, kể từ ngày ghi trên Phiếu tiếp nhận hồ sơ, trong thời hạn 15 (mười lăm) ngày, Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền gửi văn bản cho cơ sở để yêu cầu sửa đổi, bổ sung hồ sơ;\nBước 4: Sau khi nhận hồ sơ sửa đổi, bổ sung, cơ quan tiếp nhận hồ sơ trả cơ sở Phiếu tiếp nhận hồ sơ sửa đổi, bổ sung theo Mẫu số 01 Phụ lục I của Nghị định số 163/2025/NĐ-CP. Trường hợp hồ sơ sửa đổi, bổ sung không đáp ứng yêu cầu, trong thời hạn 15 ngày kể từ ngày ghi trên Phiếu tiếp nhận hồ sơ, Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền có văn bản thông báo cho cơ sở về việc không cấp phép nhập khẩu theo Mẫu số 16 tại Phụ lục I Nghị định số 163/2025/NĐ-CP. Trường hợp không có yêu cầu sửa đổi, bổ sung đối với hồ sơ sửa đổi, bổ sung, Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền cấp phép nhập khẩu theo bước 3. Trong thời hạn 06 tháng kể từ ngày Cục Quản lý Dược/ Cục Quản lý Y, Dược cổ truyền có văn bản thông báo sửa đổi, bổ sung, cơ sở đề nghị cấp phép nhập khẩu phải nộp hồ sơ sửa đổi, bổ sung theo yêu cầu. Sau thời hạn trên, cơ sở không nộp hồ sơ sửa đổi, bổ sung thì hồ sơ đã nộp không còn giá trị;\nBước 5: Trong thời hạn 05 (năm) ngày làm việc, kể từ ngày cấp phép nhập khẩu thuốc, Bộ Y tế có trách nhiệm công bố trên Cổng thông tin điện tử của Bộ Y tế bao gồm thông tin nhà nhập khẩu, nhà sản xuất, số lượng, tên thuốc và số giấy phép nhập khẩu, số lượng giấy đăng ký lưu hành đối với mỗi hoạt chất.\n* Thời gian cấp phép nhập khẩu hoặc có văn bản thông báo sửa đổi, bổ sung đối với các hồ sơ đề nghị cấp phép nhập khẩu thuốc mới, thuốc hiếm, vắc xin đã được Tổ chức Y tế Thế giới tiền thẩm định, thuốc công nghệ cao, thuốc đã được thử lâm sàng tại Việt Nam được ưu tiên rút ngắn 05 ngày so với thời gian tại bước 3, bước 4.",
+    "THÀNH PHẦN HỒ SƠ": "a) Đơn hàng nhập khẩu  - Mẫu số 15 Phụ lục III của Nghị định số 163/2025/NĐ-CP đối với vắc xin, sinh phẩm, thuốc hóa dược;  - Mẫu số 16 Phụ lục III của Nghị định số 163/2025/NĐ-CP đối với thuốc gây nghiện, thuốc hướng thần, thuốc tiền chất, thuốc dạng phối hợp có chứa dược chất gây nghiện, thuốc dạng phối hợp có chứa dược chất hướng thần, thuốc dạng phối hợp có chứa tiền chất;  - Mẫu số 17 Phụ lục III của Nghị định số 163/2025/NĐ-CP đối với thuốc dược liệu, thuốc cổ truyền;\nđ) Báo cáo của cơ sở khám bệnh, chữa bệnh, cơ sở tiêm chủng về thuốc đề nghị nhập khẩu theo Mẫu số 22 tại Phụ lục III NNghị định số 163/2025/NĐ-CP; Mẫu số 22 tại Phụ lục III Nghị định số 163/2025/NĐ-CP\ne) Bản chính Bản cam kết của cơ sở sản xuất và cơ sở cung cấp thuốc nước ngoài về việc đảm bảo chất lượng, an toàn, hiệu quả vắc xin cung cấp cho Việt Nam theo Mẫu số 23 tại Phụ lục III Nghị định số 163/2025/NĐ-CP; Mẫu số 23 tại Phụ lục III Nghị định số 163/2025/NĐ-CP\nc) Bản chính văn bản của cơ sở khám bệnh, chữa bệnh nêu rõ lý do đề nghị nhập khẩu thuốc, số lượng bệnh nhân dự kiến cần sử dụng thuốc, nhu cầu thuốc tương ứng và cam kết chịu hoàn toàn trách nhiệm liên quan đến việc sử dụng thuốc đề nghị nhập khẩu; bản chính văn bản của cơ sở tiêm chủng nêu rõ lý do đề nghị nhập khẩu vắc xin, số lượng người dự kiến cần sử dụng vắc xin, nhu cầu vắc xin tương ứng và cam kết chịu hoàn toàn trách nhiệm liên quan đến việc sử dụng vắc xin đề nghị nhập khẩu. Văn bản phải kèm theo bản chính hoặc bản sao có đóng dấu của cơ sở khám bệnh, chữa bệnh biên bản họp Hội đồng thuốc và điều trị đối với nhu cầu nhập khẩu thuốc. Trường hợp cơ sở tiêm chủng không có Hội đồng thuốc và điều trị hoặc trường hợp thuốc sử dụng cho mục đích cấp cứu, chống độc mà trong văn bản của cơ sở khám bệnh,chữa bệnh đã ghi rõ danh sách bệnh nhân có nhu cầu sử dụng thuốc thì không phải nộp kèm theo biên bản;\nGiấy tờ trong hồ sơ đề nghị cấp phép nhập khẩu thuốc: theo quy định tại Điều 61 Nghị định số 163/2025/NĐ-CP\nd) Danh mục thuốc đề nghị nhập khẩu của cơ sở khám bệnh, chữa bệnh, cơ sở tiêm chủng theo Mẫu số 19, 20 hoặc 21 tại Phụ lục III Nghị định số 163/2025/NĐ-CP; Mẫu số 19, 20 hoặc 21 tại Phụ lục III Nghị định số 163/2025/NĐ-CP\ng) Không bắt buộc cơ sở cung cấp thuốc phải thực hiện quy định tại Điều 78 của Nghị định số 163/2025/NĐ-CP nếu có bản sao Giấy phép kinh doanh dược do cơ quan có thẩm quyền nước sở tại cấp được chứng thực và hợp pháp hóa lãnh sự theo quy định.\nb) Tài liệu chứng minh về chất lượng, an toàn, hiệu quả của vắc xin đề nghị nhập khẩu đối với trường hợp nhập khẩu vắc xin. Miễn nộp tài liệu tại điểm này trong trường hợp vắc xin đã được Tổ chức Y tế Thế giới tiền thẩm định. Miễn nộp tài liệu chứng minh an toàn, hiệu quả trong trường hợp vắc xin thuộc danh mục thuốc hiếm;",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 15 ngày\nQua dịch vụ bưu chính: 15 ngày\nTrực tiếp: 15 ngày",
     "CĂN CỨ PHÁP LÝ": "Nghị định của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật dược - 163/2025/NĐ-CP\nLuật 105/2016/QH13 Dược - 105/2016/QH13\n41/2023/TT-BTC - 41/2023/TT-BTC\nLuật số 44/2024/QH15 - 44/2024/QH15",
     "CƠ QUAN THỰC HIỆN": "Bộ Y tế",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
     "KẾT QUẢ XỬ LÝ": "Giấy phép nhập khẩu - KQ.G18.000263\nVăn bản yêu cầu sửa đổi, bổ sung hồ sơ - KQ.G18.000264\nVăn bản thông báo cho cơ sở về việc không cấp phép nhập - KQ.G18.000266",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "\tYêu cầu, Điều kiện thực hiện thủ tục hành chính (nếu có): \n1. Thuốc (trừ vắc xin) chưa có Giấy đăng ký lưu hành thuốc tại Việt Nam được cấp phép nhập khẩu khi đáp ứng tiêu chí sau:\nThuốc (trừ vắc xin) cần thiết để đáp ứng cho nhu cầu điều trị đặc biệt khi không có thuốc có cùng hoạt chất, nồng độ, hàm lượng, dạng bào chế được cấp giấy đăng ký lưu hành tại Việt Nam hoặc đã có thuốc được cấp giấy đăng ký lưu hành tại Việt Nam nhưng không cung ứng đủ cho nhu cầu điều trị hoặc đã có thuốc được cấp giấy đăng ký lưu hành tại Việt Nam nhưng có khác biệt về điều trị so với thuốc đã được cấp giấy đăng ký lưu hành tại Việt Nam thuộc một trong các trường hợp sau:\na) Được sử dụng cho mục đích cấp cứu hoặc chống độc, chống thải ghép hoặc thuốc thuộc Danh mục thuốc hiếm; \nb) Có trong hướng dẫn phòng và xử trí sốc phản vệ do Bộ Y tế ban hành, phê duyệt;\nc) Được sử dụng cho người bệnh cụ thể đang điều trị tại cơ sở khám bệnh, chữa bệnh để chẩn đoán, dự phòng hoặc điều trị đối với: bệnh truyền nhiễm nhóm A; bệnh ung thư; HIV/AIDS; bệnh lao; bệnh sốt rét; các bệnh hiểm nghèo khác do Bộ trưởng Bộ Y tế quyết định;\nd) Được sử dụng để điều trị các bệnh thuộc Danh mục bệnh hiếm do Bộ trưởng Bộ Y tế ban hành.\n2. Vắc xin chưa có Giấy đăng ký lưu hành thuốc tại Việt Nam được cấp phép nhập khẩu khi đáp ứng tiêu chí sau:\nVắc xin cần thiết để phục vụ nhu cầu tiêm phòng cho người dân di chuyển tới các quốc gia, vùng lãnh thổ có bệnh không có ở Việt Nam và chưa có vắc xin cùng loại được cấp giấy đăng ký lưu hành tại Việt Nam. \n3. Cơ sở nhập khẩu là cơ sở đã được cấp Giấy chứng nhận đủ điều kiện kinh doanh dược, phạm vi: xuất khẩu, nhập khẩu thuốc có phạm vi kinh doanh phù hợp với thuốc đề nghị nhập khẩu thuốc hoặc cơ sở khám bệnh, chữa bệnh có Hội đồng thuốc và điều trị đáp ứng quy định tại Điều 35 Luật Dược."
+    "MÔ TẢ": "Yêu cầu, Điều kiện thực hiện thủ tục hành chính (nếu có): \n1. Thuốc (trừ vắc xin) chưa có Giấy đăng ký lưu hành thuốc tại Việt Nam được cấp phép nhập khẩu khi đáp ứng tiêu chí sau:\nThuốc (trừ vắc xin) cần thiết để đáp ứng cho nhu cầu điều trị đặc biệt khi không có thuốc có cùng hoạt chất, nồng độ, hàm lượng, dạng bào chế được cấp giấy đăng ký lưu hành tại Việt Nam hoặc đã có thuốc được cấp giấy đăng ký lưu hành tại Việt Nam nhưng không cung ứng đủ cho nhu cầu điều trị hoặc đã có thuốc được cấp giấy đăng ký lưu hành tại Việt Nam nhưng có khác biệt về điều trị so với thuốc đã được cấp giấy đăng ký lưu hành tại Việt Nam thuộc một trong các trường hợp sau:\na) Được sử dụng cho mục đích cấp cứu hoặc chống độc, chống thải ghép hoặc thuốc thuộc Danh mục thuốc hiếm; \nb) Có trong hướng dẫn phòng và xử trí sốc phản vệ do Bộ Y tế ban hành, phê duyệt;\nc) Được sử dụng cho người bệnh cụ thể đang điều trị tại cơ sở khám bệnh, chữa bệnh để chẩn đoán, dự phòng hoặc điều trị đối với: bệnh truyền nhiễm nhóm A; bệnh ung thư; HIV/AIDS; bệnh lao; bệnh sốt rét; các bệnh hiểm nghèo khác do Bộ trưởng Bộ Y tế quyết định;\nd) Được sử dụng để điều trị các bệnh thuộc Danh mục bệnh hiếm do Bộ trưởng Bộ Y tế ban hành.\n2. Vắc xin chưa có Giấy đăng ký lưu hành thuốc tại Việt Nam được cấp phép nhập khẩu khi đáp ứng tiêu chí sau:\nVắc xin cần thiết để phục vụ nhu cầu tiêm phòng cho người dân di chuyển tới các quốc gia, vùng lãnh thổ có bệnh không có ở Việt Nam và chưa có vắc xin cùng loại được cấp giấy đăng ký lưu hành tại Việt Nam. \n3. Cơ sở nhập khẩu là cơ sở đã được cấp Giấy chứng nhận đủ điều kiện kinh doanh dược, phạm vi: xuất khẩu, nhập khẩu thuốc có phạm vi kinh doanh phù hợp với thuốc đề nghị nhập khẩu thuốc hoặc cơ sở khám bệnh, chữa bệnh có Hội đồng thuốc và điều trị đáp ứng quy định tại Điều 35 Luật Dược."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Sức khỏe và y tế",
-      "slug": "suc-khoe-va-y-te",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Dược phẩm",
       "slug": "duoc-pham"
@@ -305,7 +249,7 @@
     "target_users": [
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Doanh nghiệp Việt Nam",
@@ -334,6 +278,6 @@
         "slug": "bo-y-te"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

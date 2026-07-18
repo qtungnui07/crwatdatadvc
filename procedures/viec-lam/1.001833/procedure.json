@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfd-b55d-725a-a5e9-b5eb9fbaffd6",
   "procedure_code": "1.001833",
   "title": "Thủ tục tiếp nhận thông báo tổ chức thi sáng tác tác phẩm mỹ thuật (thẩm quyền của Sở Văn hóa, Thể thao và Du lịch)",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-b55d-725a-a5e9-b5eb9fbaffd6",
     "source_file": "chi-tiet-thu-tuc-1.001833.pdf",
     "source_path": "procedures/viec-lam/1.001833/chi-tiet-thu-tuc-1.001833.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:21:59.864159+00:00",
-    "source_updated_at": "2026-06-02T09:00:55.815Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:57.481941+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "33a45da2b3599d2bacc03f244685e97a8d7db0e23101cf7dcc84f74c1e994759"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:59.864159+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "3684/QĐ-BVHTTDL",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Mỹ thuật, nhiếp ảnh, triển lãm",
   "target_users": [
@@ -37,18 +33,15 @@
   ],
   "agency": {
     "competent_agency": "Sở Văn hóa, Thể thao và Du lịch",
-    "executing_agency": "Sở Văn hóa, Thể thao và Du lịch",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Văn hóa, Thể thao và Du lịch"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Tổ chức, cá nhân tổ chức thi, sáng tác tác phẩm mỹ thuật quy mô cấp tỉnh gửi trực tiếp hoặc qua đường bưu điện 01 bộ hồ sơ thông báo đến Sở Văn hóa, Thể thao và Du lịch chậm nhất là 30 ngày trước ngày tổ chức cuộc thi.\n- Trong thời hạn 07 ngày làm việc kể từ ngày nhận đầy đủ hồ sơ hợp lệ, Sở Văn hóa, Thể thao và Du lịch có văn bản trả lời, trường hợp không đồng ý phải nêu rõ lý do.\n",
+      "description": "- Tổ chức, cá nhân tổ chức thi, sáng tác tác phẩm mỹ thuật quy mô cấp tỉnh gửi trực tiếp hoặc qua đường bưu điện 01 bộ hồ sơ thông báo đến Sở Văn hóa, Thể thao và Du lịch chậm nhất là 30 ngày trước ngày tổ chức cuộc thi.\n- Trong thời hạn 07 ngày làm việc kể từ ngày nhận đầy đủ hồ sơ hợp lệ, Sở Văn hóa, Thể thao và Du lịch có văn bản trả lời, trường hợp không đồng ý phải nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -57,21 +50,15 @@
     "conditional": [
       {
         "name": "(2) Trường hợp phối hợp với tổ chức, cá nhân nước ngoài, tổ chức quốc tế phải kèm theo văn bản thoả thuận giữa các bên.",
-        "code": "000.00.00.G16-KQ0442",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "(1) Đề án tổ chức, thể lệ cuộc thi;",
-        "code": "000.00.00.G16-KQ0441",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -80,17 +67,7 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -98,42 +75,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       }
     ]
   },
@@ -141,14 +105,12 @@
     {
       "title": "Quy định chi tiết thi hành một số điều tại Nghị định số 113/2013/NĐ-CP ngày 02 tháng 10 năm 2013 của chính phủ về hoạt động mỹ thuật",
       "document_number": "18/2013/TT-BVHTTDL",
-      "id": "019d2bb3-5d7e-72d1-afe0-198bc4676a43",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Về hoạt động mỹ thuật",
       "document_number": "113/2013/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-018d8e840e98",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "",
@@ -156,13 +118,12 @@
     {
       "title": "Văn bản trả lời việc tiếp nhận thông báo tổ chức thi sáng tác tác phẩm mỹ thuật",
       "code": "KQ.G16.000122",
-      "id": "019d2bb2-1c79-762e-8b2b-8d5c85c80e62",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Tổ chức, cá nhân tổ chức thi, sáng tác tác phẩm mỹ thuật quy mô cấp tỉnh gửi trực tiếp hoặc qua đường bưu điện 01 bộ hồ sơ thông báo đến Sở Văn hóa, Thể thao và Du lịch chậm nhất là 30 ngày trước ngày tổ chức cuộc thi.\n- Trong thời hạn 07 ngày làm việc kể từ ngày nhận đầy đủ hồ sơ hợp lệ, Sở Văn hóa, Thể thao và Du lịch có văn bản trả lời, trường hợp không đồng ý phải nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n(2) Trường hợp phối hợp với tổ chức, cá nhân nước ngoài, tổ chức quốc tế phải kèm theo văn bản thoả thuận giữa các bên.\n(1) Đề án tổ chức, thể lệ cuộc thi;",
+    "TRÌNH TỰ THỰC HIỆN": "- Tổ chức, cá nhân tổ chức thi, sáng tác tác phẩm mỹ thuật quy mô cấp tỉnh gửi trực tiếp hoặc qua đường bưu điện 01 bộ hồ sơ thông báo đến Sở Văn hóa, Thể thao và Du lịch chậm nhất là 30 ngày trước ngày tổ chức cuộc thi.\n- Trong thời hạn 07 ngày làm việc kể từ ngày nhận đầy đủ hồ sơ hợp lệ, Sở Văn hóa, Thể thao và Du lịch có văn bản trả lời, trường hợp không đồng ý phải nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "(2) Trường hợp phối hợp với tổ chức, cá nhân nước ngoài, tổ chức quốc tế phải kèm theo văn bản thoả thuận giữa các bên.\n(1) Đề án tổ chức, thể lệ cuộc thi;",
     "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 7 ngày làm việc\nTrực tiếp: 7 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Quy định chi tiết thi hành một số điều tại Nghị định số 113/2013/NĐ-CP ngày 02 tháng 10 năm 2013 của chính phủ về hoạt động mỹ thuật - 18/2013/TT-BVHTTDL\nVề hoạt động mỹ thuật - 113/2013/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Sở Văn hóa, Thể thao và Du lịch",
@@ -172,11 +133,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Mỹ thuật, nhiếp ảnh, triển lãm",
       "slug": "my-thuat-nhiep-anh-trien-lam"
@@ -207,6 +163,6 @@
         "slug": "so-van-hoa-the-thao-va-du-lich"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

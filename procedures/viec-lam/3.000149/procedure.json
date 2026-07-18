@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfd-091d-771a-8b03-7fc13844e31a",
   "procedure_code": "3.000149",
   "title": "Thủ tục miễn bảo lãnh nhiều hành trình thông qua Hệ thống ACTS",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-091d-771a-8b03-7fc13844e31a",
     "source_file": "chi-tiet-thu-tuc-3.000149.pdf",
     "source_path": "procedures/viec-lam/3.000149/chi-tiet-thu-tuc-3.000149.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:23.303619+00:00",
-    "source_updated_at": "2026-04-08T09:19:53.689Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:34.783499+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "8153a99c4fad0cae4f65ded16a470d60f5731ac5bbd5e8d3624b476f37013134"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:23.303619+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "710/QĐ-BTC",
   "implementation_level": "Cơ quan khác, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cơ quan khác",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "OTHER",
   "sector": "Hải quan",
   "target_users": [
@@ -36,18 +31,29 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Chi cục Hải quan khu vực",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Chi cục Hải quan khu vực"
   },
   "steps": [
     {
       "order": 1,
-      "title": "Thủ tục miễn bảo lãnh nhiều hành trình thông qua Hệ thống ACTS",
-      "description": "Bước 1: Người khai hải quan gửi hồ sơ đề nghị miễn bảo lãnh cho cơ quan hải quan nơi đăng ký tờ khai quá cảnh hải quan lần đầu thông qua Hệ thống ACTS. \nBước 2: Trong thời hạn 05 ngày làm việc kể từ ngày nhận được văn bản đề nghị miễn bảo lãnh, cơ quan hải quan kiểm tra, đối chiếu với các quy định nêu tại khoản 1 Điều 26 Nghị định số 46/2020/NĐ-CP và thông báo cho người khai hải quan về việc miễn bảo lãnh theo mẫu do Bộ Tài chính ban hành, đồng thời cập nhật thông tin thông qua Hệ thống ACTS để người khai hải quan khai số GRN trên tờ khai quá cảnh hải quan\nBước 3: Hệ thống ACTS tự động cấp số tham chiếu miễn bảo lãnh để người khai hải quan khai trên tờ khai quá cảnh hải quan\n",
+      "title": "Bước 1",
+      "description": "Bước 1: Người khai hải quan gửi hồ sơ đề nghị miễn bảo lãnh cho cơ quan hải quan nơi đăng ký tờ khai quá cảnh hải quan lần đầu thông qua Hệ thống ACTS.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Trong thời hạn 05 ngày làm việc kể từ ngày nhận được văn bản đề nghị miễn bảo lãnh, cơ quan hải quan kiểm tra, đối chiếu với các quy định nêu tại khoản 1 Điều 26 Nghị định số 46/2020/NĐ-CP và thông báo cho người khai hải quan về việc miễn bảo lãnh theo mẫu do Bộ Tài chính ban hành, đồng thời cập nhật thông tin thông qua Hệ thống ACTS để người khai hải quan khai số GRN trên tờ khai quá cảnh hải quan",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Hệ thống ACTS tự động cấp số tham chiếu miễn bảo lãnh để người khai hải quan khai trên tờ khai quá cảnh hải quan",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -55,13 +61,10 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "a) Văn bản đề nghị miễn bảo lãnh theo Mẫu số 08/TBMBL tại Phụ lục VI  ban hành kèm theo  Thông tư số 42/2020/TT-BTC ngày 22/05/2020 của Bộ Tài chính: 01 bản chính; b) Quyết định công nhận doanh nghiệp quá cảnh được ưu tiên theo Mẫu số 04/QĐCNDNƯT Phụ lục IV tại Thông tư số 42/2020/TT-BTC ngày 22/05/2020 của Bộ Tài chính: 01 bản chụp đối với trường hợp lần đầu đề nghị miễn bảo lãnh;",
-        "code": "000.00.00.G12-KQ9420",
+        "name": "Thủ tục miễn bảo lãnh nhiều hành trình thông qua Hệ thống ACTS: a) Văn bản đề nghị miễn bảo lãnh theo Mẫu số 08/TBMBL tại Phụ lục VI  ban hành kèm theo  Thông tư số 42/2020/TT-BTC ngày 22/05/2020 của Bộ Tài chính: 01 bản chính; b) Quyết định công nhận doanh nghiệp quá cảnh được ưu tiên theo Mẫu số 04/QĐCNDNƯT Phụ lục IV tại Thông tư số 42/2020/TT-BTC ngày 22/05/2020 của Bộ Tài chính: 01 bản chụp đối với trường hợp lần đầu đề nghị miễn bảo lãnh;",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Thủ tục miễn bảo lãnh nhiều hành trình thông qua Hệ thống ACTS",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -70,33 +73,22 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày",
-      "processing_time_value": 5,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -104,8 +96,7 @@
     {
       "title": "Nghị định số 46/2020/NĐ-CP",
       "document_number": "46/2020",
-      "id": "019d2bb3-5d7f-719e-b46e-4e7d2a8af97a",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "conditions": "",
@@ -113,13 +104,12 @@
     {
       "title": "Số tham chiếu bảo lãnh GRN do Hệ thống tự động cấp được gửi tới người khai hải quan",
       "code": "KQ.G12.000382",
-      "id": "019d2bb2-1c70-724b-96e0-ad8ebac1b62c",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Người khai hải quan gửi hồ sơ đề nghị miễn bảo lãnh cho cơ quan hải quan nơi đăng ký tờ khai quá cảnh hải quan lần đầu thông qua Hệ thống ACTS. \nBước 2: Trong thời hạn 05 ngày làm việc kể từ ngày nhận được văn bản đề nghị miễn bảo lãnh, cơ quan hải quan kiểm tra, đối chiếu với các quy định nêu tại khoản 1 Điều 26 Nghị định số 46/2020/NĐ-CP và thông báo cho người khai hải quan về việc miễn bảo lãnh theo mẫu do Bộ Tài chính ban hành, đồng thời cập nhật thông tin thông qua Hệ thống ACTS để người khai hải quan khai số GRN trên tờ khai quá cảnh hải quan\nBước 3: Hệ thống ACTS tự động cấp số tham chiếu miễn bảo lãnh để người khai hải quan khai trên tờ khai quá cảnh hải quan\n",
-    "THÀNH PHẦN HỒ SƠ": "Thủ tục miễn bảo lãnh nhiều hành trình thông qua Hệ thống ACTS\na) Văn bản đề nghị miễn bảo lãnh theo Mẫu số 08/TBMBL tại Phụ lục VI  ban hành kèm theo  Thông tư số 42/2020/TT-BTC ngày 22/05/2020 của Bộ Tài chính: 01 bản chính; b) Quyết định công nhận doanh nghiệp quá cảnh được ưu tiên theo Mẫu số 04/QĐCNDNƯT Phụ lục IV tại Thông tư số 42/2020/TT-BTC ngày 22/05/2020 của Bộ Tài chính: 01 bản chụp đối với trường hợp lần đầu đề nghị miễn bảo lãnh;",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Người khai hải quan gửi hồ sơ đề nghị miễn bảo lãnh cho cơ quan hải quan nơi đăng ký tờ khai quá cảnh hải quan lần đầu thông qua Hệ thống ACTS.\nBước 2: Trong thời hạn 05 ngày làm việc kể từ ngày nhận được văn bản đề nghị miễn bảo lãnh, cơ quan hải quan kiểm tra, đối chiếu với các quy định nêu tại khoản 1 Điều 26 Nghị định số 46/2020/NĐ-CP và thông báo cho người khai hải quan về việc miễn bảo lãnh theo mẫu do Bộ Tài chính ban hành, đồng thời cập nhật thông tin thông qua Hệ thống ACTS để người khai hải quan khai số GRN trên tờ khai quá cảnh hải quan\nBước 3: Hệ thống ACTS tự động cấp số tham chiếu miễn bảo lãnh để người khai hải quan khai trên tờ khai quá cảnh hải quan",
+    "THÀNH PHẦN HỒ SƠ": "Thủ tục miễn bảo lãnh nhiều hành trình thông qua Hệ thống ACTS: a) Văn bản đề nghị miễn bảo lãnh theo Mẫu số 08/TBMBL tại Phụ lục VI  ban hành kèm theo  Thông tư số 42/2020/TT-BTC ngày 22/05/2020 của Bộ Tài chính: 01 bản chính; b) Quyết định công nhận doanh nghiệp quá cảnh được ưu tiên theo Mẫu số 04/QĐCNDNƯT Phụ lục IV tại Thông tư số 42/2020/TT-BTC ngày 22/05/2020 của Bộ Tài chính: 01 bản chụp đối với trường hợp lần đầu đề nghị miễn bảo lãnh;",
     "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 5 ngày",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 46/2020/NĐ-CP - 46/2020",
     "CƠ QUAN THỰC HIỆN": "Chi cục Hải quan khu vực",
@@ -129,11 +119,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hải quan",
       "slug": "hai-quan"
@@ -160,6 +145,6 @@
         "slug": "chi-cuc-hai-quan-khu-vuc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

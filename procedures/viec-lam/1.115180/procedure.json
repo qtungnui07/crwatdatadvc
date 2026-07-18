@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019edf55-8c2b-7403-b09b-6b4cbf22e52d",
   "procedure_code": "1.115180",
   "title": "Kiểm tra chất lượng hàng hóa nhập khẩu có mức độ rủi ro cao thuộc phạm vi quản lý của Bộ Khoa học và Công nghệ",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019edf55-8c2b-7403-b09b-6b4cbf22e52d",
     "source_file": "chi-tiet-thu-tuc-1.115180.pdf",
     "source_path": "procedures/viec-lam/1.115180/chi-tiet-thu-tuc-1.115180.pdf",
     "page_count": 18,
-    "extracted_at": "2026-07-18T02:22:16.219970+00:00",
-    "source_updated_at": "2026-06-20T11:36:43.435Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:57.955138+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "25c61dc45abeeb5cfeaa98010a2efd0f51f0a364b40f333b4f640f57e7a82b49"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:16.219970+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2839/QĐ-BKHCN",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Tiêu chuẩn đo lường chất lượng",
   "target_users": [
@@ -38,103 +34,109 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia"
   },
   "steps": [
     {
       "order": 1,
-      "title": "Trường hợp hàng hóa nhập khẩu đã có Giấy chứng nhận hợp quy",
-      "description": "Bước 1: Tổ chức, cá nhân nhập khẩu thực hiện đăng ký kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu theo quy định tại Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia đối với các hàng hóa được Bộ Khoa học và Công nghệ phân công thực hiện (sau đây gọi là cơ quan kiểm tra).\nBước 2: Cơ quan kiểm tra tiếp nhận hồ sơ đăng ký kiểm tra chất lượng hàng hóa nhập khẩu theo Mẫu số 2 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP.\nTrường hợp hồ sơ không đầy đủ, cơ quan kiểm tra xác nhận các nội dung còn thiếu, đồng thời xác nhận việc tổ chức, cá nhân nhập khẩu đã đăng ký kiểm tra chất lượng hàng hóa nhập khẩu trên bản đăng ký kiểm tra và yêu cầu tổ chức, cá nhân nhập khẩu bổ sung, hoàn thiện hồ sơ trong thời hạn 07 ngày làm việc kể từ ngày tiếp nhận hồ sơ. Nếu quá thời hạn nêu trên mà hồ sơ vẫn chưa được bổ sung đầy đủ, tổ chức, cá nhân nhập khẩu phải có văn bản gửi cơ quan kiểm tra nêu rõ lý do và thời gian dự kiến hoàn thành việc bổ sung hồ sơ.\nBước 3: Sau khi tổ chức, cá nhân nhập khẩu hoàn thiện đầy đủ hồ sơ:\n- Trường hợp hồ sơ đầy đủ và phù hợp: Trong thời hạn 01 ngày làm việc kể từ ngày hồ sơ đầy đủ và hợp lệ, cơ quan kiểm tra ra Thông báo kết quả kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu đáp ứng yêu cầu chất lượng theo Mẫu số 3 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP, gửi cho tổ chức, cá nhân nhập khẩu để thực hiện thủ tục thông quan.\n- Trường hợp hồ sơ đầy đủ nhưng không đáp ứng yêu cầu về nhãn: Cơ quan kiểm tra yêu cầu tổ chức, cá nhân nhập khẩu khắc phục trong thời hạn không quá 05 ngày làm việc. Cơ quan kiểm tra chỉ ra Thông báo lô hàng đáp ứng yêu cầu chất lượng khi có bằng chứng chứng minh việc khắc phục về nhãn theo quy định. Trường hợp không khắc phục được, cơ quan kiểm tra ra Thông báo kết quả kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu không đáp ứng yêu cầu về nhãn theo Mẫu số 3 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP.\n- Trường hợp hồ sơ đầy đủ nhưng Giấy chứng nhận hợp quy không phù hợp với quy chuẩn kỹ thuật tương ứng hoặc không phù hợp với hồ sơ của lô hàng nhập khẩu: Cơ quan kiểm tra ra Thông báo kết quả kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu không đáp ứng yêu cầu chất lượng, nêu rõ các nội dung không phù hợp và gửi cho tổ chức, cá nhân nhập khẩu và cơ quan hải quan để xử lý theo thẩm quyền.\n- Trường hợp tổ chức, cá nhân nhập khẩu không hoàn thiện đầy đủ hồ sơ trong thời hạn quy định: Trong thời hạn 01 ngày làm việc kể từ khi hết thời hạn bổ sung hồ sơ, cơ quan kiểm tra ra Thông báo kết quả kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu theo Mẫu số 3 Phụ lục VII Nghị định số 37/2026/NĐ-CP, trong đó ghi rõ: “Lô hàng không hoàn thiện đầy đủ hồ sơ”, gửi cho tổ chức, cá nhân nhập khẩu và cơ quan hải quan.\n- Trường hợp phát hiện dấu hiệu rủi ro, gian lận hoặc thông tin không thống nhất giữa hồ sơ và dữ liệu quản lý, cơ quan kiểm tra ban hành Thông báo kết quả kiểm tra chất lượng hàng hóa nhập khẩu không đáp ứng yêu cầu theo Mẫu số 3 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP.",
+      "title": "Bước 1",
+      "description": "Bước 1: Tổ chức, cá nhân nhập khẩu thực hiện đăng ký kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu theo quy định tại Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia đối với các hàng hóa được Bộ Khoa học và Công nghệ phân công thực hiện (sau đây gọi là cơ quan kiểm tra).",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
-      "title": "Trường hợp hàng hóa nhập khẩu chưa có Giấy chứng nhận hợp quy",
-      "description": "Bước 1: Tổ chức, cá nhân nhập khẩu thực hiện đăng ký kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu theo quy định tại Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia đối với các hàng hóa được Bộ Khoa học và Công nghệ phân công thực hiện (sau đây gọi là cơ quan kiểm tra).\nTrường hợp sử dụng nhãn điện tử, việc ghi nhãn phải đáp ứng quy định của pháp luật về nhãn hàng hóa. Tổ chức, cá nhân nhập khẩu chịu trách nhiệm về tính hợp lệ của hồ sơ nhập khẩu.\nBước 2: Cơ quan kiểm tra tiếp nhận hồ sơ đăng ký kiểm tra chất lượng hàng hóa nhập khẩu theo Mẫu số 2 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP.\nTrường hợp hồ sơ không đầy đủ, cơ quan kiểm tra xác nhận các nội dung còn thiếu, đồng thời xác nhận việc tổ chức, cá nhân nhập khẩu đã đăng ký kiểm tra chất lượng hàng hóa nhập khẩu và yêu cầu tổ chức, cá nhân nhập khẩu bổ sung, hoàn thiện hồ sơ trong thời hạn 07 ngày làm việc kể từ ngày tiếp nhận hồ sơ.\nNếu quá thời hạn nêu trên mà hồ sơ vẫn chưa được bổ sung đầy đủ, tổ chức, cá nhân nhập khẩu phải có văn bản gửi cơ quan kiểm tra nêu rõ lý do và thời gian dự kiến hoàn thành việc bổ sung hồ sơ.\nBước 4: Tổ chức, cá nhân làm thủ tục với cơ quan hải quan để đưa hàng hóa nhập khẩu về địa điểm bảo quản hàng hóa theo quy định của pháp luật hải quan.\nBước 5: Tổ chức, cá nhân liên hệ với tổ chức chứng nhận được chỉ định để thực hiện đánh giá phù hợp quy chuẩn kỹ thuật quốc gia tương ứng.\nBước 6: Sau khi tổ chức, cá nhân nhập khẩu hoàn thiện đầy đủ hồ sơ, trình tự thực hiện theo quy định như bước 3 của trường hợp hàng hóa nhập khẩu đã có Giấy chứng nhận hợp quy.",
+      "title": "Bước 2",
+      "description": "Bước 2: Cơ quan kiểm tra tiếp nhận hồ sơ đăng ký kiểm tra chất lượng hàng hóa nhập khẩu theo Mẫu số 2 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP.\nTrường hợp hồ sơ không đầy đủ, cơ quan kiểm tra xác nhận các nội dung còn thiếu, đồng thời xác nhận việc tổ chức, cá nhân nhập khẩu đã đăng ký kiểm tra chất lượng hàng hóa nhập khẩu trên bản đăng ký kiểm tra và yêu cầu tổ chức, cá nhân nhập khẩu bổ sung, hoàn thiện hồ sơ trong thời hạn 07 ngày làm việc kể từ ngày tiếp nhận hồ sơ. Nếu quá thời hạn nêu trên mà hồ sơ vẫn chưa được bổ sung đầy đủ, tổ chức, cá nhân nhập khẩu phải có văn bản gửi cơ quan kiểm tra nêu rõ lý do và thời gian dự kiến hoàn thành việc bổ sung hồ sơ.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Sau khi tổ chức, cá nhân nhập khẩu hoàn thiện đầy đủ hồ sơ:\n- Trường hợp hồ sơ đầy đủ và phù hợp: Trong thời hạn 01 ngày làm việc kể từ ngày hồ sơ đầy đủ và hợp lệ, cơ quan kiểm tra ra Thông báo kết quả kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu đáp ứng yêu cầu chất lượng theo Mẫu số 3 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP, gửi cho tổ chức, cá nhân nhập khẩu để thực hiện thủ tục thông quan.\n- Trường hợp hồ sơ đầy đủ nhưng không đáp ứng yêu cầu về nhãn: Cơ quan kiểm tra yêu cầu tổ chức, cá nhân nhập khẩu khắc phục trong thời hạn không quá 05 ngày làm việc. Cơ quan kiểm tra chỉ ra Thông báo lô hàng đáp ứng yêu cầu chất lượng khi có bằng chứng chứng minh việc khắc phục về nhãn theo quy định. Trường hợp không khắc phục được, cơ quan kiểm tra ra Thông báo kết quả kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu không đáp ứng yêu cầu về nhãn theo Mẫu số 3 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP.\n- Trường hợp hồ sơ đầy đủ nhưng Giấy chứng nhận hợp quy không phù hợp với quy chuẩn kỹ thuật tương ứng hoặc không phù hợp với hồ sơ của lô hàng nhập khẩu: Cơ quan kiểm tra ra Thông báo kết quả kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu không đáp ứng yêu cầu chất lượng, nêu rõ các nội dung không phù hợp và gửi cho tổ chức, cá nhân nhập khẩu và cơ quan hải quan để xử lý theo thẩm quyền.\n- Trường hợp tổ chức, cá nhân nhập khẩu không hoàn thiện đầy đủ hồ sơ trong thời hạn quy định: Trong thời hạn 01 ngày làm việc kể từ khi hết thời hạn bổ sung hồ sơ, cơ quan kiểm tra ra Thông báo kết quả kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu theo Mẫu số 3 Phụ lục VII Nghị định số 37/2026/NĐ-CP, trong đó ghi rõ: “Lô hàng không hoàn thiện đầy đủ hồ sơ”, gửi cho tổ chức, cá nhân nhập khẩu và cơ quan hải quan.\n- Trường hợp phát hiện dấu hiệu rủi ro, gian lận hoặc thông tin không thống nhất giữa hồ sơ và dữ liệu quản lý, cơ quan kiểm tra ban hành Thông báo kết quả kiểm tra chất lượng hàng hóa nhập khẩu không đáp ứng yêu cầu theo Mẫu số 3 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 1",
+      "description": "Bước 1: Tổ chức, cá nhân nhập khẩu thực hiện đăng ký kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu theo quy định tại Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia đối với các hàng hóa được Bộ Khoa học và Công nghệ phân công thực hiện (sau đây gọi là cơ quan kiểm tra).\nTrường hợp sử dụng nhãn điện tử, việc ghi nhãn phải đáp ứng quy định của pháp luật về nhãn hàng hóa. Tổ chức, cá nhân nhập khẩu chịu trách nhiệm về tính hợp lệ của hồ sơ nhập khẩu.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 5,
+      "title": "Bước 2",
+      "description": "Bước 2: Cơ quan kiểm tra tiếp nhận hồ sơ đăng ký kiểm tra chất lượng hàng hóa nhập khẩu theo Mẫu số 2 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP.\nTrường hợp hồ sơ không đầy đủ, cơ quan kiểm tra xác nhận các nội dung còn thiếu, đồng thời xác nhận việc tổ chức, cá nhân nhập khẩu đã đăng ký kiểm tra chất lượng hàng hóa nhập khẩu và yêu cầu tổ chức, cá nhân nhập khẩu bổ sung, hoàn thiện hồ sơ trong thời hạn 07 ngày làm việc kể từ ngày tiếp nhận hồ sơ.\nNếu quá thời hạn nêu trên mà hồ sơ vẫn chưa được bổ sung đầy đủ, tổ chức, cá nhân nhập khẩu phải có văn bản gửi cơ quan kiểm tra nêu rõ lý do và thời gian dự kiến hoàn thành việc bổ sung hồ sơ.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 6,
+      "title": "Bước 4",
+      "description": "Bước 4: Tổ chức, cá nhân làm thủ tục với cơ quan hải quan để đưa hàng hóa nhập khẩu về địa điểm bảo quản hàng hóa theo quy định của pháp luật hải quan.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 7,
+      "title": "Bước 5",
+      "description": "Bước 5: Tổ chức, cá nhân liên hệ với tổ chức chứng nhận được chỉ định để thực hiện đánh giá phù hợp quy chuẩn kỹ thuật quốc gia tương ứng.",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 8,
+      "title": "Bước 6",
+      "description": "Bước 6: Sau khi tổ chức, cá nhân nhập khẩu hoàn thiện đầy đủ hồ sơ, trình tự thực hiện theo quy định như bước 3 của trường hợp hàng hóa nhập khẩu đã có Giấy chứng nhận hợp quy.",
+      "example": null,
+      "source_page": 3
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Đăng ký kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu theo Mẫu số 1 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP",
-        "code": "TP-G06.00028391",
+        "name": "Trường hợp hàng hóa nhập khẩu đã có Giấy chứng nhận hợp quy:: Đăng ký kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu theo Mẫu số 1 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp hàng hóa nhập khẩu đã có Giấy chứng nhận hợp quy:",
-        "attachments": [
-          {
-            "id": "019edf3f-3fc4-730f-8e9f-dab905a1b133",
-            "name": "Mẫu số 1 NĐ37.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 1 NĐ37.docx",
+        "source_page": 3
       },
       {
-        "name": "Giấy chứng nhận hợp quy do tổ chức đánh giá sự phù hợp được chỉ định cấp, trong đó có các thông tin liên quan đến hàng hóa nhập khẩu. Trường hợp Giấy chứng nhận hợp quy cấp cho lô hàng, phải có các thông tin liên quan đến lô hàng nhập khẩu (tên hàng hóa; nhãn hiệu, kiểu loại; đặc tính kỹ thuật; xuất xứ, nhà sản xuất; khối lượng/số lượng; tờ khai hàng hóa nhập khẩu; hóa đơn)",
-        "code": "TP-G06.00028392",
+        "name": "Trường hợp hàng hóa nhập khẩu đã có Giấy chứng nhận hợp quy:: Giấy chứng nhận hợp quy do tổ chức đánh giá sự phù hợp được chỉ định cấp, trong đó có các thông tin liên quan đến hàng hóa nhập khẩu. Trường hợp Giấy chứng nhận hợp quy cấp cho lô hàng, phải có các thông tin liên quan đến lô hàng nhập khẩu (tên hàng hóa; nhãn hiệu, kiểu loại; đặc tính kỹ thuật; xuất xứ, nhà sản xuất; khối lượng/số lượng; tờ khai hàng hóa nhập khẩu; hóa đơn)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp hàng hóa nhập khẩu đã có Giấy chứng nhận hợp quy:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Ảnh hoặc bản mô tả đặc tính hàng hóa kèm theo các nội dung của nhãn chính (đối với hàng hóa phải ghi nhãn)",
-        "code": "TP-G06.00023481",
+        "name": "Trường hợp hàng hóa nhập khẩu đã có Giấy chứng nhận hợp quy:: Ảnh hoặc bản mô tả đặc tính hàng hóa kèm theo các nội dung của nhãn chính (đối với hàng hóa phải ghi nhãn)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp hàng hóa nhập khẩu đã có Giấy chứng nhận hợp quy:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Mẫu nhãn phụ (nếu nhãn chính chưa đủ nội dung theo quy định) đối với hàng hóa phải ghi nhãn. Trường hợp sử dụng nhãn điện tử, việc ghi nhãn phải đáp ứng quy định của pháp luật về nhãn hàng hóa. Tổ chức, cá nhân nhập khẩu chịu trách nhiệm về tính hợp lệ của hồ sơ nhập khẩu.",
-        "code": "TP-G06.00023482",
+        "name": "Trường hợp hàng hóa nhập khẩu đã có Giấy chứng nhận hợp quy:: Mẫu nhãn phụ (nếu nhãn chính chưa đủ nội dung theo quy định) đối với hàng hóa phải ghi nhãn. Trường hợp sử dụng nhãn điện tử, việc ghi nhãn phải đáp ứng quy định của pháp luật về nhãn hàng hóa. Tổ chức, cá nhân nhập khẩu chịu trách nhiệm về tính hợp lệ của hồ sơ nhập khẩu.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp hàng hóa nhập khẩu đã có Giấy chứng nhận hợp quy:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Đăng ký kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu theo Mẫu số 1 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP",
-        "code": "TP-G06.00028391",
+        "name": "Trường hợp hàng hóa nhập khẩu chưa có Giấy chứng nhận hợp quy: Đăng ký kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu theo Mẫu số 1 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp hàng hóa nhập khẩu chưa có Giấy chứng nhận hợp quy",
-        "attachments": [
-          {
-            "id": "019edf3f-3fc4-730f-8e9f-dab905a1b133",
-            "name": "Mẫu số 1 NĐ37.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 1 NĐ37.docx",
+        "source_page": 3
       },
       {
-        "name": "Ảnh hoặc bản mô tả đặc tính hàng hóa kèm theo các nội dung của nhãn chính (đối với hàng hóa phải ghi nhãn)",
-        "code": "TP-G06.00023481",
+        "name": "Trường hợp hàng hóa nhập khẩu chưa có Giấy chứng nhận hợp quy: Ảnh hoặc bản mô tả đặc tính hàng hóa kèm theo các nội dung của nhãn chính (đối với hàng hóa phải ghi nhãn)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp hàng hóa nhập khẩu chưa có Giấy chứng nhận hợp quy",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Mẫu nhãn phụ (nếu nhãn chính chưa đủ nội dung theo quy định) đối với hàng hóa phải ghi nhãn. Trường hợp sử dụng nhãn điện tử, việc ghi nhãn phải đáp ứng quy định của pháp luật về nhãn hàng hóa. Tổ chức, cá nhân nhập khẩu chịu trách nhiệm về tính hợp lệ của hồ sơ nhập khẩu.",
-        "code": "TP-G06.00023482",
+        "name": "Trường hợp hàng hóa nhập khẩu chưa có Giấy chứng nhận hợp quy: Mẫu nhãn phụ (nếu nhãn chính chưa đủ nội dung theo quy định) đối với hàng hóa phải ghi nhãn. Trường hợp sử dụng nhãn điện tử, việc ghi nhãn phải đáp ứng quy định của pháp luật về nhãn hàng hóa. Tổ chức, cá nhân nhập khẩu chịu trách nhiệm về tính hợp lệ của hồ sơ nhập khẩu.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp hàng hóa nhập khẩu chưa có Giấy chứng nhận hợp quy",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -145,124 +147,101 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1 ngày làm việc",
-      "processing_time_value": 1,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Trường hợp hồ sơ đầy đủ và hợp lệ: 01 ngày làm việc kể từ ngày hồ sơ đầy đủ, hợp lệ",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "1 ngày làm việc",
-      "processing_time_value": 1,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Trường hợp hồ sơ đầy đủ và hợp lệ: 01 ngày làm việc kể từ ngày hồ sơ đầy đủ, hợp lệ",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "1 ngày làm việc",
-      "processing_time_value": 1,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Trường hợp hồ sơ đầy đủ và hợp lệ: 01 ngày làm việc kể từ ngày hồ sơ đầy đủ, hợp lệ",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "6 ngày làm việc",
-      "processing_time_value": 6,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Trường hợp hồ sơ đầy đủ nhưng không đáp ứng yêu cầu về nhãn: 06 ngày làm việc (bao gồm 05 ngày khắc phục và 01 ngày kể từ ngày hồ sơ đầy đủ và hợp lệ)",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "6 ngày làm việc",
-      "processing_time_value": 6,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Trường hợp hồ sơ đầy đủ nhưng không đáp ứng yêu cầu về nhãn: 06 ngày làm việc (bao gồm 05 ngày khắc phục và 01 ngày kể từ ngày hồ sơ đầy đủ và hợp lệ)",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "6 ngày làm việc",
-      "processing_time_value": 6,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Trường hợp hồ sơ đầy đủ nhưng không đáp ứng yêu cầu về nhãn: 06 ngày làm việc (bao gồm 05 ngày khắc phục và 01 ngày kể từ ngày hồ sơ đầy đủ và hợp lệ)",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Trường hợp hồ sơ không đầy đủ theo quy định: 08 ngày làm việc không tính thời gian xin gia hạn và khắc phục về nhãn (gồm 07 ngày bổ sung hồ sơ từ ngày tiếp nhận và 01 ngày kể từ ngày hồ sơ đầy đủ, hợp lệ)",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1 ngày làm việc",
-      "processing_time_value": 1,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Trường hợp tổ chức, cá nhân nhập khẩu không hoàn thiện đầy đủ hồ sơ trong thời hạn quy định: Trong thời hạn 01 ngày làm việc kể từ khi hết thời hạn bổ sung hồ sơ",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "1 ngày làm việc",
-      "processing_time_value": 1,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Trường hợp tổ chức, cá nhân nhập khẩu không hoàn thiện đầy đủ hồ sơ trong thời hạn quy định: Trong thời hạn 01 ngày làm việc kể từ khi hết thời hạn bổ sung hồ sơ",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "1 ngày làm việc",
-      "processing_time_value": 1,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Trường hợp tổ chức, cá nhân nhập khẩu không hoàn thiện đầy đủ hồ sơ trong thời hạn quy định: Trong thời hạn 01 ngày làm việc kể từ khi hết thời hạn bổ sung hồ sơ",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Trường hợp hồ sơ không đầy đủ theo quy định: 08 ngày làm việc không tính thời gian xin gia hạn và khắc phục về nhãn (gồm 07 ngày bổ sung hồ sơ từ ngày tiếp nhận và 01 ngày kể từ ngày hồ sơ đầy đủ, hợp lệ)",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Trường hợp hồ sơ không đầy đủ theo quy định: 08 ngày làm việc không tính thời gian xin gia hạn và khắc phục về nhãn (gồm 07 ngày bổ sung hồ sơ từ ngày tiếp nhận và 01 ngày kể từ ngày hồ sơ đầy đủ, hợp lệ)",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -271,20 +250,17 @@
     {
       "title": "Luật sửa đổi, bổ sung một số điều của Luật Chất lượng sản phẩm, hàng hoá số 78/2025/QH15 ngày 18 tháng 6 năm 2025;",
       "document_number": "78/2025/QH15",
-      "id": "019ee3d2-b3a8-73fc-bc69-2570dbac14ed",
-      "source_page": null
+      "source_page": 18
     },
     {
       "title": "Nghị định số 37/2026/NĐ-CP ngày 23/01/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Chất lượng sản phẩm, hàng hóa",
       "document_number": "37/2026/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46d-47da712d5452",
-      "source_page": null
+      "source_page": 18
     },
     {
       "title": "Luật Chất lượng sản phẩm, hàng hoá",
       "document_number": "05/2007/QH12",
-      "id": "019d2bb3-5d84-71c5-b670-e74129169d90",
-      "source_page": null
+      "source_page": 18
     }
   ],
   "conditions": "Không có",
@@ -292,14 +268,13 @@
     {
       "title": "Thông báo kết quả kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu",
       "code": "KQ-G06.00028391",
-      "id": "019edf53-fe41-7010-967e-a2a283b947ec",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Bước 1: Tổ chức, cá nhân nhập khẩu thực hiện đăng ký kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu theo quy định tại Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia đối với các hàng hóa được Bộ Khoa học và Công nghệ phân công thực hiện (sau đây gọi là cơ quan kiểm tra).\nBước 2: Cơ quan kiểm tra tiếp nhận hồ sơ đăng ký kiểm tra chất lượng hàng hóa nhập khẩu theo Mẫu số 2 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP.\nTrường hợp hồ sơ không đầy đủ, cơ quan kiểm tra xác nhận các nội dung còn thiếu, đồng thời xác nhận việc tổ chức, cá nhân nhập khẩu đã đăng ký kiểm tra chất lượng hàng hóa nhập khẩu trên bản đăng ký kiểm tra và yêu cầu tổ chức, cá nhân nhập khẩu bổ sung, hoàn thiện hồ sơ trong thời hạn 07 ngày làm việc kể từ ngày tiếp nhận hồ sơ. Nếu quá thời hạn nêu trên mà hồ sơ vẫn chưa được bổ sung đầy đủ, tổ chức, cá nhân nhập khẩu phải có văn bản gửi cơ quan kiểm tra nêu rõ lý do và thời gian dự kiến hoàn thành việc bổ sung hồ sơ.\nBước 3: Sau khi tổ chức, cá nhân nhập khẩu hoàn thiện đầy đủ hồ sơ:\n- Trường hợp hồ sơ đầy đủ và phù hợp: Trong thời hạn 01 ngày làm việc kể từ ngày hồ sơ đầy đủ và hợp lệ, cơ quan kiểm tra ra Thông báo kết quả kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu đáp ứng yêu cầu chất lượng theo Mẫu số 3 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP, gửi cho tổ chức, cá nhân nhập khẩu để thực hiện thủ tục thông quan.\n- Trường hợp hồ sơ đầy đủ nhưng không đáp ứng yêu cầu về nhãn: Cơ quan kiểm tra yêu cầu tổ chức, cá nhân nhập khẩu khắc phục trong thời hạn không quá 05 ngày làm việc. Cơ quan kiểm tra chỉ ra Thông báo lô hàng đáp ứng yêu cầu chất lượng khi có bằng chứng chứng minh việc khắc phục về nhãn theo quy định. Trường hợp không khắc phục được, cơ quan kiểm tra ra Thông báo kết quả kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu không đáp ứng yêu cầu về nhãn theo Mẫu số 3 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP.\n- Trường hợp hồ sơ đầy đủ nhưng Giấy chứng nhận hợp quy không phù hợp với quy chuẩn kỹ thuật tương ứng hoặc không phù hợp với hồ sơ của lô hàng nhập khẩu: Cơ quan kiểm tra ra Thông báo kết quả kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu không đáp ứng yêu cầu chất lượng, nêu rõ các nội dung không phù hợp và gửi cho tổ chức, cá nhân nhập khẩu và cơ quan hải quan để xử lý theo thẩm quyền.\n- Trường hợp tổ chức, cá nhân nhập khẩu không hoàn thiện đầy đủ hồ sơ trong thời hạn quy định: Trong thời hạn 01 ngày làm việc kể từ khi hết thời hạn bổ sung hồ sơ, cơ quan kiểm tra ra Thông báo kết quả kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu theo Mẫu số 3 Phụ lục VII Nghị định số 37/2026/NĐ-CP, trong đó ghi rõ: “Lô hàng không hoàn thiện đầy đủ hồ sơ”, gửi cho tổ chức, cá nhân nhập khẩu và cơ quan hải quan.\n- Trường hợp phát hiện dấu hiệu rủi ro, gian lận hoặc thông tin không thống nhất giữa hồ sơ và dữ liệu quản lý, cơ quan kiểm tra ban hành Thông báo kết quả kiểm tra chất lượng hàng hóa nhập khẩu không đáp ứng yêu cầu theo Mẫu số 3 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP.\nBước 1: Tổ chức, cá nhân nhập khẩu thực hiện đăng ký kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu theo quy định tại Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia đối với các hàng hóa được Bộ Khoa học và Công nghệ phân công thực hiện (sau đây gọi là cơ quan kiểm tra).\nTrường hợp sử dụng nhãn điện tử, việc ghi nhãn phải đáp ứng quy định của pháp luật về nhãn hàng hóa. Tổ chức, cá nhân nhập khẩu chịu trách nhiệm về tính hợp lệ của hồ sơ nhập khẩu.\nBước 2: Cơ quan kiểm tra tiếp nhận hồ sơ đăng ký kiểm tra chất lượng hàng hóa nhập khẩu theo Mẫu số 2 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP.\nTrường hợp hồ sơ không đầy đủ, cơ quan kiểm tra xác nhận các nội dung còn thiếu, đồng thời xác nhận việc tổ chức, cá nhân nhập khẩu đã đăng ký kiểm tra chất lượng hàng hóa nhập khẩu và yêu cầu tổ chức, cá nhân nhập khẩu bổ sung, hoàn thiện hồ sơ trong thời hạn 07 ngày làm việc kể từ ngày tiếp nhận hồ sơ.\nNếu quá thời hạn nêu trên mà hồ sơ vẫn chưa được bổ sung đầy đủ, tổ chức, cá nhân nhập khẩu phải có văn bản gửi cơ quan kiểm tra nêu rõ lý do và thời gian dự kiến hoàn thành việc bổ sung hồ sơ.\nBước 4: Tổ chức, cá nhân làm thủ tục với cơ quan hải quan để đưa hàng hóa nhập khẩu về địa điểm bảo quản hàng hóa theo quy định của pháp luật hải quan.\nBước 5: Tổ chức, cá nhân liên hệ với tổ chức chứng nhận được chỉ định để thực hiện đánh giá phù hợp quy chuẩn kỹ thuật quốc gia tương ứng.\nBước 6: Sau khi tổ chức, cá nhân nhập khẩu hoàn thiện đầy đủ hồ sơ, trình tự thực hiện theo quy định như bước 3 của trường hợp hàng hóa nhập khẩu đã có Giấy chứng nhận hợp quy.",
-    "THÀNH PHẦN HỒ SƠ": "Trường hợp hàng hóa nhập khẩu đã có Giấy chứng nhận hợp quy:\nĐăng ký kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu theo Mẫu số 1 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP\nGiấy chứng nhận hợp quy do tổ chức đánh giá sự phù hợp được chỉ định cấp, trong đó có các thông tin liên quan đến hàng hóa nhập khẩu. Trường hợp Giấy chứng nhận hợp quy cấp cho lô hàng, phải có các thông tin liên quan đến lô hàng nhập khẩu (tên hàng hóa; nhãn hiệu, kiểu loại; đặc tính kỹ thuật; xuất xứ, nhà sản xuất; khối lượng/số lượng; tờ khai hàng hóa nhập khẩu; hóa đơn)\nẢnh hoặc bản mô tả đặc tính hàng hóa kèm theo các nội dung của nhãn chính (đối với hàng hóa phải ghi nhãn)\nMẫu nhãn phụ (nếu nhãn chính chưa đủ nội dung theo quy định) đối với hàng hóa phải ghi nhãn. Trường hợp sử dụng nhãn điện tử, việc ghi nhãn phải đáp ứng quy định của pháp luật về nhãn hàng hóa. Tổ chức, cá nhân nhập khẩu chịu trách nhiệm về tính hợp lệ của hồ sơ nhập khẩu.\nTrường hợp hàng hóa nhập khẩu chưa có Giấy chứng nhận hợp quy\nĐăng ký kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu theo Mẫu số 1 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP\nẢnh hoặc bản mô tả đặc tính hàng hóa kèm theo các nội dung của nhãn chính (đối với hàng hóa phải ghi nhãn)\nMẫu nhãn phụ (nếu nhãn chính chưa đủ nội dung theo quy định) đối với hàng hóa phải ghi nhãn. Trường hợp sử dụng nhãn điện tử, việc ghi nhãn phải đáp ứng quy định của pháp luật về nhãn hàng hóa. Tổ chức, cá nhân nhập khẩu chịu trách nhiệm về tính hợp lệ của hồ sơ nhập khẩu.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 1 ngày làm việc - Trường hợp hồ sơ đầy đủ và hợp lệ: 01 ngày làm việc kể từ ngày hồ sơ đầy đủ, hợp lệ\nTrực tuyến: 1 ngày làm việc - Trường hợp hồ sơ đầy đủ và hợp lệ: 01 ngày làm việc kể từ ngày hồ sơ đầy đủ, hợp lệ\nQua dịch vụ bưu chính: 1 ngày làm việc - Trường hợp hồ sơ đầy đủ và hợp lệ: 01 ngày làm việc kể từ ngày hồ sơ đầy đủ, hợp lệ\nTrực tiếp: 6 ngày làm việc - Trường hợp hồ sơ đầy đủ nhưng không đáp ứng yêu cầu về nhãn: 06 ngày làm việc (bao gồm 05 ngày khắc phục và 01 ngày kể từ ngày hồ sơ đầy đủ và hợp lệ)\nTrực tuyến: 6 ngày làm việc - Trường hợp hồ sơ đầy đủ nhưng không đáp ứng yêu cầu về nhãn: 06 ngày làm việc (bao gồm 05 ngày khắc phục và 01 ngày kể từ ngày hồ sơ đầy đủ và hợp lệ)\nQua dịch vụ bưu chính: 6 ngày làm việc - Trường hợp hồ sơ đầy đủ nhưng không đáp ứng yêu cầu về nhãn: 06 ngày làm việc (bao gồm 05 ngày khắc phục và 01 ngày kể từ ngày hồ sơ đầy đủ và hợp lệ)\nTrực tiếp: 15 ngày làm việc - Trường hợp hồ sơ không đầy đủ theo quy định: 08 ngày làm việc không tính thời gian xin gia hạn và khắc phục về nhãn (gồm 07 ngày bổ sung hồ sơ từ ngày tiếp nhận và 01 ngày kể từ ngày hồ sơ đầy đủ, hợp lệ)\nTrực tiếp: 1 ngày làm việc - Trường hợp tổ chức, cá nhân nhập khẩu không hoàn thiện đầy đủ hồ sơ trong thời hạn quy định: Trong thời hạn 01 ngày làm việc kể từ khi hết thời hạn bổ sung hồ sơ\nTrực tuyến: 1 ngày làm việc - Trường hợp tổ chức, cá nhân nhập khẩu không hoàn thiện đầy đủ hồ sơ trong thời hạn quy định: Trong thời hạn 01 ngày làm việc kể từ khi hết thời hạn bổ sung hồ sơ\nQua dịch vụ bưu chính: 1 ngày làm việc - Trường hợp tổ chức, cá nhân nhập khẩu không hoàn thiện đầy đủ hồ sơ trong thời hạn quy định: Trong thời hạn 01 ngày làm việc kể từ khi hết thời hạn bổ sung hồ sơ\nQua dịch vụ bưu chính: 15 ngày làm việc - Trường hợp hồ sơ không đầy đủ theo quy định: 08 ngày làm việc không tính thời gian xin gia hạn và khắc phục về nhãn (gồm 07 ngày bổ sung hồ sơ từ ngày tiếp nhận và 01 ngày kể từ ngày hồ sơ đầy đủ, hợp lệ)\nTrực tuyến: 15 ngày làm việc - Trường hợp hồ sơ không đầy đủ theo quy định: 08 ngày làm việc không tính thời gian xin gia hạn và khắc phục về nhãn (gồm 07 ngày bổ sung hồ sơ từ ngày tiếp nhận và 01 ngày kể từ ngày hồ sơ đầy đủ, hợp lệ)",
+    "THÀNH PHẦN HỒ SƠ": "Trường hợp hàng hóa nhập khẩu đã có Giấy chứng nhận hợp quy:: Đăng ký kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu theo Mẫu số 1 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP\nTrường hợp hàng hóa nhập khẩu đã có Giấy chứng nhận hợp quy:: Giấy chứng nhận hợp quy do tổ chức đánh giá sự phù hợp được chỉ định cấp, trong đó có các thông tin liên quan đến hàng hóa nhập khẩu. Trường hợp Giấy chứng nhận hợp quy cấp cho lô hàng, phải có các thông tin liên quan đến lô hàng nhập khẩu (tên hàng hóa; nhãn hiệu, kiểu loại; đặc tính kỹ thuật; xuất xứ, nhà sản xuất; khối lượng/số lượng; tờ khai hàng hóa nhập khẩu; hóa đơn)\nTrường hợp hàng hóa nhập khẩu đã có Giấy chứng nhận hợp quy:: Ảnh hoặc bản mô tả đặc tính hàng hóa kèm theo các nội dung của nhãn chính (đối với hàng hóa phải ghi nhãn)\nTrường hợp hàng hóa nhập khẩu đã có Giấy chứng nhận hợp quy:: Mẫu nhãn phụ (nếu nhãn chính chưa đủ nội dung theo quy định) đối với hàng hóa phải ghi nhãn. Trường hợp sử dụng nhãn điện tử, việc ghi nhãn phải đáp ứng quy định của pháp luật về nhãn hàng hóa. Tổ chức, cá nhân nhập khẩu chịu trách nhiệm về tính hợp lệ của hồ sơ nhập khẩu.\nTrường hợp hàng hóa nhập khẩu chưa có Giấy chứng nhận hợp quy: Đăng ký kiểm tra nhà nước về chất lượng hàng hóa nhập khẩu theo Mẫu số 1 Phụ lục VII ban hành kèm theo Nghị định số 37/2026/NĐ-CP\nTrường hợp hàng hóa nhập khẩu chưa có Giấy chứng nhận hợp quy: Ảnh hoặc bản mô tả đặc tính hàng hóa kèm theo các nội dung của nhãn chính (đối với hàng hóa phải ghi nhãn)\nTrường hợp hàng hóa nhập khẩu chưa có Giấy chứng nhận hợp quy: Mẫu nhãn phụ (nếu nhãn chính chưa đủ nội dung theo quy định) đối với hàng hóa phải ghi nhãn. Trường hợp sử dụng nhãn điện tử, việc ghi nhãn phải đáp ứng quy định của pháp luật về nhãn hàng hóa. Tổ chức, cá nhân nhập khẩu chịu trách nhiệm về tính hợp lệ của hồ sơ nhập khẩu.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 1 ngày làm việc\nTrực tuyến: 1 ngày làm việc\nQua dịch vụ bưu chính: 1 ngày làm việc\nTrực tiếp: 6 ngày làm việc\nTrực tuyến: 6 ngày làm việc\nQua dịch vụ bưu chính: 6 ngày làm việc\nTrực tiếp: 15 ngày làm việc\nTrực tiếp: 1 ngày làm việc\nTrực tuyến: 1 ngày làm việc\nQua dịch vụ bưu chính: 1 ngày làm việc\nQua dịch vụ bưu chính: 15 ngày làm việc\nTrực tuyến: 15 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Luật sửa đổi, bổ sung một số điều của Luật Chất lượng sản phẩm, hàng hoá số 78/2025/QH15 ngày 18 tháng 6 năm 2025; - 78/2025/QH15\nNghị định số 37/2026/NĐ-CP ngày 23/01/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Chất lượng sản phẩm, hàng hóa - 37/2026/NĐ-CP\nLuật Chất lượng sản phẩm, hàng hoá - 05/2007/QH12",
     "CƠ QUAN THỰC HIỆN": "Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Không có",
@@ -308,14 +283,9 @@
     "MÔ TẢ": "Không có"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Tiêu chuẩn đo lường chất lượng",
-      "slug": "tieu-chuan-do-luong-chat-luong"
+      "slug": "tieu-chuan-o-luong-chat-luong"
     },
     "implementation_levels": [
       {
@@ -344,9 +314,9 @@
     "agencies": [
       {
         "name": "Ủy ban Tiêu chuẩn Đo lường Chất lượng Quốc gia",
-        "slug": "uy-ban-tieu-chuan-do-luong-chat-luong-quoc-gia"
+        "slug": "uy-ban-tieu-chuan-o-luong-chat-luong-quoc-gia"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

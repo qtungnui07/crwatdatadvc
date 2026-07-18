@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf9-6c72-779d-a29b-9d255a0871a8",
   "procedure_code": "1.013964",
   "title": "Thủ tục cấp Giấy chứng nhận hoạt động nghiên cứu và phát triển công nghệ cao cho tổ chức.",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf9-6c72-779d-a29b-9d255a0871a8",
     "source_file": "chi-tiet-thu-tuc-1.013964.pdf",
     "source_path": "procedures/viec-lam/1.013964/chi-tiet-thu-tuc-1.013964.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:11.721561+00:00",
-    "source_updated_at": "2026-04-21T09:46:54.685Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:25.090740+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "a4ef8addfaddb6acec1e36e39b8f4db30d913ed60eaa51ae6409355cee1323c6"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:11.721561+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "3110/QĐ-BKHCN",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hoạt động khoa học và công nghệ",
   "target_users": [
@@ -36,96 +32,57 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ủy ban nhân dân cấp tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ủy ban nhân dân cấp tỉnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Tổ chức nộp hồ sơ đề nghị cấp Giấy chứng nhận hoạt động nghiên cứu và phát triển công nghệ cao. \n- Ủy ban nhân dân cấp tỉnh tổ chức tiếp nhận, thẩm định hồ sơ.\n+ Trong thời hạn 07 ngày làm việc, kể từ khi nhận được đơn đề nghị xác nhận cho tổ chức, Ủy ban nhân dân cấp tỉnh có trách nhiệm xác nhận. Trường hợp từ chối xác nhận thì phải thông báo lý do bằng văn bản cho cá nhân đề nghị xác nhận.\n+ Trường hợp hồ sơ chưa đầy đủ thì Ủy ban nhân dân cấp tỉnh phải có công văn yêu cầu bổ sung, hoàn thiện hồ sơ gửi trực tiếp hoặc qua đường bưu điện cho cá nhân đề nghị cấp Giấy chứng nhận hoạt động. Trong thời hạn 07 ngày làm việc, kể từ ngày nhận được công văn yêu cầu của Ủy ban nhân dân cấp tỉnh, tổ chức đề nghị cấp Giấy chứng nhận hoạt động có trách nhiệm bổ sung, sửa chữa và gửi lại Ủy ban nhân dân cấp tỉnh.\n+ Trong thời hạn 10 ngày làm việc, kể từ ngày nhận được hồ sơ đề nghị cấp Giấy chứng nhận hoạt động do tổ chức gửi, Ủy ban nhân dân cấp tỉnh thẩm định và cấp Giấy chứng nhận hoạt động và gửi cho cá nhân đề nghị cấp Giấy chứng nhận hoạt động. Trường hợp từ chối cấp thì phải thông báo lý do bằng văn bản cho cá nhân đề nghị cấp Giấy chứng nhận hoạt động.\n",
+      "description": "- Tổ chức nộp hồ sơ đề nghị cấp Giấy chứng nhận hoạt động nghiên cứu và phát triển công nghệ cao. \n- Ủy ban nhân dân cấp tỉnh tổ chức tiếp nhận, thẩm định hồ sơ.\n+ Trong thời hạn 07 ngày làm việc, kể từ khi nhận được đơn đề nghị xác nhận cho tổ chức, Ủy ban nhân dân cấp tỉnh có trách nhiệm xác nhận. Trường hợp từ chối xác nhận thì phải thông báo lý do bằng văn bản cho cá nhân đề nghị xác nhận.\n+ Trường hợp hồ sơ chưa đầy đủ thì Ủy ban nhân dân cấp tỉnh phải có công văn yêu cầu bổ sung, hoàn thiện hồ sơ gửi trực tiếp hoặc qua đường bưu điện cho cá nhân đề nghị cấp Giấy chứng nhận hoạt động. Trong thời hạn 07 ngày làm việc, kể từ ngày nhận được công văn yêu cầu của Ủy ban nhân dân cấp tỉnh, tổ chức đề nghị cấp Giấy chứng nhận hoạt động có trách nhiệm bổ sung, sửa chữa và gửi lại Ủy ban nhân dân cấp tỉnh.\n+ Trong thời hạn 10 ngày làm việc, kể từ ngày nhận được hồ sơ đề nghị cấp Giấy chứng nhận hoạt động do tổ chức gửi, Ủy ban nhân dân cấp tỉnh thẩm định và cấp Giấy chứng nhận hoạt động và gửi cho cá nhân đề nghị cấp Giấy chứng nhận hoạt động. Trường hợp từ chối cấp thì phải thông báo lý do bằng văn bản cho cá nhân đề nghị cấp Giấy chứng nhận hoạt động.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "+  Đơn đề nghị cấp Giấy chứng nhận hoạt động nghiên cứu và phát triển công nghệ cao của tổ chức theo mẫu số B1-TCĐTĐA tại Phụ lục VI Nghị đinh số 133/2025/NĐ-CP;",
-        "code": "G06-KQ004109",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d9460-3a1d-74a9-8987-0261343cc8d4",
-            "name": "MuB1.4.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "MuB1.4.docx",
+        "source_page": 2
       },
       {
         "name": "+ Bản thuyết minh đề tài, đề án nghiên cứu và phát triển công nghệ cao (công nghệ cao thuộc Danh mục công nghệ cao được ưu tiên đầu tư phát triển) theo mẫu số B2-TMĐTĐA tại Phụ lục VI Nghị định số 133/2025/NĐ-CP;",
-        "code": "G06-KQ004984",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d9460-8c38-773d-917f-47537f0c7b8f",
-            "name": "MuB2.4.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "MuB2.4.docx",
+        "source_page": 2
       },
       {
         "name": "+  Xác nhận bằng văn bản của cơ quan chủ quản đối với các nội dung đã trình bày trong Bản thuyết minh dự án ứng dụng công nghệ cao (đối với tổ chức thuộc quyền quản lý của các Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ) theo mẫu số B3-XNĐTĐA tại Phụ lục VI Nghị định số 133/2025/NĐ-CP;",
-        "code": "G06-KQ004985",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d9460-f719-75c9-9b79-d2ba83a5c8ce",
-            "name": "MuB3.4.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "MuB3.4.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "+  Bản sao có chứng thực của một trong các loại giấy tờ sau: Giấy chứng nhận đăng ký kinh doanh; Giấy chứng nhận đầu tư; Giấy chứng nhận doanh nghiệp khoa học và công nghệ;  Cơ quan tiếp nhận, giải quyết thủ tục hành chính khai thác, sử dụng thông tin đã có trong các cơ sở dữ liệu được cơ quan chủ quản cơ sở dữ liệu công bố để thay thế thành phần hồ sơ giải quyết thủ tục hành chính. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, chính xác thì cơ quan, người có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính yêu cầu cá nhân, tổ chức bổ sung thành phần hồ sơ để giải quyết thủ tục hành chính.",
-        "code": "G06-KQ004983",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "-  Số lượng hồ sơ: 02 bộ, trong đó có 01 một bộ hồ sơ gốc và 01 bộ hồ sơ phô tô.",
-        "code": "G06-KQ004986",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "-  Hồ sơ đề nghị cấp Giấy chứng nhận hoạt động nghiên cứu và phát triển công nghệ cao cho tổ chức, bao gồm:",
-        "code": "G06-KQ004108",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -134,87 +91,52 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "10 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "10 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "10 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -222,62 +144,52 @@
     {
       "title": "Quy định về phân quyền, phân cấp trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ",
       "document_number": "133/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-69a13ce4eb56",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu",
       "document_number": "66.7/2025/NQ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-22af3c5ee091",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư 01/2013/TT-BKHCN-Quy định về việc xác định tiêu chí đề tài, đề án nghiên cứu và phát triển công nghệ cao và thẩm định hồ sơ đề nghị cấp giấy chứng nhận hoạt động nghiên cứu và phát triển công nghệ cao",
       "document_number": "01/2013/TT-BKHCN",
-      "id": "019d2bb3-5d7c-71ab-9f01-fa5a523e82a1",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước",
       "document_number": "190/2025/NQ-QH15",
-      "id": "019d2bb3-5d84-71c5-b671-f40a5ee32475",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật Công nghệ cao",
       "document_number": "21/2008/QH12",
-      "id": "019d2bb3-5d84-71c5-b672-106a910c9999",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư 32/2011/TT-BKHCN- Quy định về việc xác định tiêu chí dự án ứng dụng công nghệ cao, dự án đầu tư sản xuất sản phẩm công nghệ cao và thẩm định hồ sơ đề nghị cấp Giấy chứng nhận hoạt động ứng dụng công nghệ cao, doanh nghiệp thành lập mới từ dự án đầu tư sản xuất sản phẩm công nghệ cao, doanh nghiệp công nghệ cao",
       "document_number": "32/2011/TT-BKHCN",
-      "id": "019d2bb3-5d7c-71ab-9f03-73823a4347dd",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư số 15/2023/TT-BKHCN - Sửa đổi, bổ sung một số điều của Thông tư số 32/2011/TT-BKHCN và Thông tư số 03/2014/TT-BKHCN",
       "document_number": "15/2023/TT-BKHCN",
-      "id": "019d2bb3-5d7c-71ab-9f02-cdf84e045cc5",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư số 04/2020/TT-BKHCN sửa đổi, bổ sung một số điều của Thông tư số 32/2011/TT-BKHCN ngày 15/11/2011 của Bộ trưởng Bộ Khoa học và Công nghệ về việc xác định tiêu chí dự án ứng dụng công nghệ cao, dự án đầu tư sản xuất sản phẩm công nghệ cao và thẩm định hồ sơ đề nghị cấp Giấy chứng nhận hoạt động ứng dụng công nghệ cao, doanh nghiệp thành lập mới từ dự án đầu tư sản xuất sản phẩm công nghệ cao, doanh nghiệp công nghệ cao",
       "document_number": "04/2020/TT-BKHCN",
-      "id": "019d2bb3-5d7c-71ab-9f02-25e88003dc24",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quyết định số 38/2020/QĐ-TTg ban hành Danh mục công nghệ cao được ưu tiên đầu tư phát triển và Danh mục sản phẩm công nghệ cao được khuyến khích phát triển",
       "document_number": "38/2020/QĐ-TTg",
-      "id": "019d2bb3-5d84-71c5-b678-98aa45ac08b3",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quyết định 55/2010/QĐ-TTg-Thẩm quyền, trình tự, thủ tục chứng nhận tổ chức, cá nhân hoạt động ứng dụng công nghệ cao, chứng nhận tổ chức, cá nhân nghiên cứu và phát triển công nghệ cao và công nhận doanh nghiệp công nghệ cao",
       "document_number": "55/2010/QĐ-TTg",
-      "id": "019d2bb3-5d84-71c5-b679-217a893ff9a1",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "Không có",
@@ -285,14 +197,13 @@
     {
       "title": "Giấy chứng nhận hoạt động nghiên cứu và phát triển công nghệ cao cho tổ chức",
       "code": "KQ.G06.000650",
-      "id": "019d2bb2-1c40-7090-9826-4d67b84ebc98",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Tổ chức nộp hồ sơ đề nghị cấp Giấy chứng nhận hoạt động nghiên cứu và phát triển công nghệ cao. \n- Ủy ban nhân dân cấp tỉnh tổ chức tiếp nhận, thẩm định hồ sơ.\n+ Trong thời hạn 07 ngày làm việc, kể từ khi nhận được đơn đề nghị xác nhận cho tổ chức, Ủy ban nhân dân cấp tỉnh có trách nhiệm xác nhận. Trường hợp từ chối xác nhận thì phải thông báo lý do bằng văn bản cho cá nhân đề nghị xác nhận.\n+ Trường hợp hồ sơ chưa đầy đủ thì Ủy ban nhân dân cấp tỉnh phải có công văn yêu cầu bổ sung, hoàn thiện hồ sơ gửi trực tiếp hoặc qua đường bưu điện cho cá nhân đề nghị cấp Giấy chứng nhận hoạt động. Trong thời hạn 07 ngày làm việc, kể từ ngày nhận được công văn yêu cầu của Ủy ban nhân dân cấp tỉnh, tổ chức đề nghị cấp Giấy chứng nhận hoạt động có trách nhiệm bổ sung, sửa chữa và gửi lại Ủy ban nhân dân cấp tỉnh.\n+ Trong thời hạn 10 ngày làm việc, kể từ ngày nhận được hồ sơ đề nghị cấp Giấy chứng nhận hoạt động do tổ chức gửi, Ủy ban nhân dân cấp tỉnh thẩm định và cấp Giấy chứng nhận hoạt động và gửi cho cá nhân đề nghị cấp Giấy chứng nhận hoạt động. Trường hợp từ chối cấp thì phải thông báo lý do bằng văn bản cho cá nhân đề nghị cấp Giấy chứng nhận hoạt động.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n+  Đơn đề nghị cấp Giấy chứng nhận hoạt động nghiên cứu và phát triển công nghệ cao của tổ chức theo mẫu số B1-TCĐTĐA tại Phụ lục VI Nghị đinh số 133/2025/NĐ-CP;\n+ Bản thuyết minh đề tài, đề án nghiên cứu và phát triển công nghệ cao (công nghệ cao thuộc Danh mục công nghệ cao được ưu tiên đầu tư phát triển) theo mẫu số B2-TMĐTĐA tại Phụ lục VI Nghị định số 133/2025/NĐ-CP;\n+  Xác nhận bằng văn bản của cơ quan chủ quản đối với các nội dung đã trình bày trong Bản thuyết minh dự án ứng dụng công nghệ cao (đối với tổ chức thuộc quyền quản lý của các Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ) theo mẫu số B3-XNĐTĐA tại Phụ lục VI Nghị định số 133/2025/NĐ-CP;\n+  Bản sao có chứng thực của một trong các loại giấy tờ sau: Giấy chứng nhận đăng ký kinh doanh; Giấy chứng nhận đầu tư; Giấy chứng nhận doanh nghiệp khoa học và công nghệ;  Cơ quan tiếp nhận, giải quyết thủ tục hành chính khai thác, sử dụng thông tin đã có trong các cơ sở dữ liệu được cơ quan chủ quản cơ sở dữ liệu công bố để thay thế thành phần hồ sơ giải quyết thủ tục hành chính. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, chính xác thì cơ quan, người có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính yêu cầu cá nhân, tổ chức bổ sung thành phần hồ sơ để giải quyết thủ tục hành chính.\n-  Số lượng hồ sơ: 02 bộ, trong đó có 01 một bộ hồ sơ gốc và 01 bộ hồ sơ phô tô.\n-  Hồ sơ đề nghị cấp Giấy chứng nhận hoạt động nghiên cứu và phát triển công nghệ cao cho tổ chức, bao gồm:",
-    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 10 ngày làm việc - 10 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ\nTrực tiếp: 10 ngày làm việc - 10 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ\nTrực tuyến: 10 ngày làm việc - 10 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ",
+    "TRÌNH TỰ THỰC HIỆN": "- Tổ chức nộp hồ sơ đề nghị cấp Giấy chứng nhận hoạt động nghiên cứu và phát triển công nghệ cao. \n- Ủy ban nhân dân cấp tỉnh tổ chức tiếp nhận, thẩm định hồ sơ.\n+ Trong thời hạn 07 ngày làm việc, kể từ khi nhận được đơn đề nghị xác nhận cho tổ chức, Ủy ban nhân dân cấp tỉnh có trách nhiệm xác nhận. Trường hợp từ chối xác nhận thì phải thông báo lý do bằng văn bản cho cá nhân đề nghị xác nhận.\n+ Trường hợp hồ sơ chưa đầy đủ thì Ủy ban nhân dân cấp tỉnh phải có công văn yêu cầu bổ sung, hoàn thiện hồ sơ gửi trực tiếp hoặc qua đường bưu điện cho cá nhân đề nghị cấp Giấy chứng nhận hoạt động. Trong thời hạn 07 ngày làm việc, kể từ ngày nhận được công văn yêu cầu của Ủy ban nhân dân cấp tỉnh, tổ chức đề nghị cấp Giấy chứng nhận hoạt động có trách nhiệm bổ sung, sửa chữa và gửi lại Ủy ban nhân dân cấp tỉnh.\n+ Trong thời hạn 10 ngày làm việc, kể từ ngày nhận được hồ sơ đề nghị cấp Giấy chứng nhận hoạt động do tổ chức gửi, Ủy ban nhân dân cấp tỉnh thẩm định và cấp Giấy chứng nhận hoạt động và gửi cho cá nhân đề nghị cấp Giấy chứng nhận hoạt động. Trường hợp từ chối cấp thì phải thông báo lý do bằng văn bản cho cá nhân đề nghị cấp Giấy chứng nhận hoạt động.",
+    "THÀNH PHẦN HỒ SƠ": "+  Đơn đề nghị cấp Giấy chứng nhận hoạt động nghiên cứu và phát triển công nghệ cao của tổ chức theo mẫu số B1-TCĐTĐA tại Phụ lục VI Nghị đinh số 133/2025/NĐ-CP;\n+ Bản thuyết minh đề tài, đề án nghiên cứu và phát triển công nghệ cao (công nghệ cao thuộc Danh mục công nghệ cao được ưu tiên đầu tư phát triển) theo mẫu số B2-TMĐTĐA tại Phụ lục VI Nghị định số 133/2025/NĐ-CP;\n+  Xác nhận bằng văn bản của cơ quan chủ quản đối với các nội dung đã trình bày trong Bản thuyết minh dự án ứng dụng công nghệ cao (đối với tổ chức thuộc quyền quản lý của các Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ) theo mẫu số B3-XNĐTĐA tại Phụ lục VI Nghị định số 133/2025/NĐ-CP;\n+  Bản sao có chứng thực của một trong các loại giấy tờ sau: Giấy chứng nhận đăng ký kinh doanh; Giấy chứng nhận đầu tư; Giấy chứng nhận doanh nghiệp khoa học và công nghệ;  Cơ quan tiếp nhận, giải quyết thủ tục hành chính khai thác, sử dụng thông tin đã có trong các cơ sở dữ liệu được cơ quan chủ quản cơ sở dữ liệu công bố để thay thế thành phần hồ sơ giải quyết thủ tục hành chính. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, chính xác thì cơ quan, người có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính yêu cầu cá nhân, tổ chức bổ sung thành phần hồ sơ để giải quyết thủ tục hành chính.\n-  Số lượng hồ sơ: 02 bộ, trong đó có 01 một bộ hồ sơ gốc và 01 bộ hồ sơ phô tô.\n-  Hồ sơ đề nghị cấp Giấy chứng nhận hoạt động nghiên cứu và phát triển công nghệ cao cho tổ chức, bao gồm:",
+    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 10 ngày làm việc\nTrực tiếp: 10 ngày làm việc\nTrực tuyến: 10 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Quy định về phân quyền, phân cấp trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ - 133/2025/NĐ-CP\nNghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu - 66.7/2025/NQ-CP\nThông tư 01/2013/TT-BKHCN-Quy định về việc xác định tiêu chí đề tài, đề án nghiên cứu và phát triển công nghệ cao và thẩm định hồ sơ đề nghị cấp giấy chứng nhận hoạt động nghiên cứu và phát triển công nghệ cao - 01/2013/TT-BKHCN\nNghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước - 190/2025/NQ-QH15\nLuật Công nghệ cao - 21/2008/QH12\nThông tư 32/2011/TT-BKHCN- Quy định về việc xác định tiêu chí dự án ứng dụng công nghệ cao, dự án đầu tư sản xuất sản phẩm công nghệ cao và thẩm định hồ sơ đề nghị cấp Giấy chứng nhận hoạt động ứng dụng công nghệ cao, doanh nghiệp thành lập mới từ dự án đầu tư sản xuất sản phẩm công nghệ cao, doanh nghiệp công nghệ cao - 32/2011/TT-BKHCN\nThông tư số 15/2023/TT-BKHCN - Sửa đổi, bổ sung một số điều của Thông tư số 32/2011/TT-BKHCN và Thông tư số 03/2014/TT-BKHCN - 15/2023/TT-BKHCN\nThông tư số 04/2020/TT-BKHCN sửa đổi, bổ sung một số điều của Thông tư số 32/2011/TT-BKHCN ngày 15/11/2011 của Bộ trưởng Bộ Khoa học và Công nghệ về việc xác định tiêu chí dự án ứng dụng công nghệ cao, dự án đầu tư sản xuất sản phẩm công nghệ cao và thẩm định hồ sơ đề nghị cấp Giấy chứng nhận hoạt động ứng dụng công nghệ cao, doanh nghiệp thành lập mới từ dự án đầu tư sản xuất sản phẩm công nghệ cao, doanh nghiệp công nghệ cao - 04/2020/TT-BKHCN\nQuyết định số 38/2020/QĐ-TTg ban hành Danh mục công nghệ cao được ưu tiên đầu tư phát triển và Danh mục sản phẩm công nghệ cao được khuyến khích phát triển - 38/2020/QĐ-TTg\nQuyết định 55/2010/QĐ-TTg-Thẩm quyền, trình tự, thủ tục chứng nhận tổ chức, cá nhân hoạt động ứng dụng công nghệ cao, chứng nhận tổ chức, cá nhân nghiên cứu và phát triển công nghệ cao và công nhận doanh nghiệp công nghệ cao - 55/2010/QĐ-TTg",
     "CƠ QUAN THỰC HIỆN": "Ủy ban nhân dân cấp tỉnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Không có",
@@ -301,14 +212,9 @@
     "MÔ TẢ": "Không có"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hoạt động khoa học và công nghệ",
-      "slug": "hoat-dong-khoa-hoc-va-cong-nghe"
+      "slug": "hoat-ong-khoa-hoc-va-cong-nghe"
     },
     "implementation_levels": [
       {
@@ -332,6 +238,6 @@
         "slug": "uy-ban-nhan-dan-cap-tinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

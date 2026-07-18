@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfd-7e7c-70f9-8a6f-4654d36890da",
   "procedure_code": "1.013832",
   "title": "Thu hồi Thẻ công chứng viên",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-7e7c-70f9-8a6f-4654d36890da",
     "source_file": "chi-tiet-thu-tuc-1.013832.pdf",
     "source_path": "procedures/giai-quyet-khieu-kien/1.013832/chi-tiet-thu-tuc-1.013832.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:11.176315+00:00",
-    "source_updated_at": "2026-05-17T05:51:56.201Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:05.574068+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "2ba558ff5db7d479ea0fb6209d01aded5ead8004bd89e8d0289d78d6a70243cf"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:11.176315+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1859/QĐ-BTP",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Công chứng",
   "target_users": [
@@ -35,35 +31,23 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Tư Pháp",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Tư Pháp"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được quyết định miễn nhiệm công chứng viên, Sở Tư pháp nơi cấp thẻ công chứng viên ra quyết định thu hồi thẻ công chứng viên.\n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được văn bản thông báo của Phòng công chứng về việc công chứng viên không còn hành nghề tại Phòng công chứng hoặc kể từ ngày quyết định chuyển đổi, giải thể Phòng công chứng có hiệu lực, Sở Tư pháp nơi Phòng công chứng đặt trụ sở ra quyết định thu hồi thẻ công chứng viên.\n- Trường hợp công chứng viên không còn hành nghề tại Văn phòng công chứng thì việc thu hồi thẻ công chứng viên được thực hiện cùng với thủ tục thay đổi nội dung đăng ký hoạt động của Văn phòng công chứng do giảm bớt số lượng công chứng viên (quy định tại Điều 21 của Nghị định số 104/2025/NĐ-CP).\n- Văn phòng công chứng thực hiện thủ tục chấm dứt hoạt động theo quy định tại điểm a và c khoản 1 Điều 34 của Luật Công chứng thì đồng thời đề nghị Sở Tư pháp thu hồi thẻ của công chứng viên hành nghề tại Văn phòng công chứng.  \n- Văn phòng công chứng chấm dứt hoạt động theo quy định tại điểm b khoản 1 Điều 34 của Luật Công chứng thì trong thời hạn 05 ngày làm việc kể từ ngày quyết định thu hồi quyết định cho phép thành lập Văn phòng công chứng có hiệu lực, Sở Tư pháp ra quyết định thu hồi thẻ của công chứng viên hành nghề tại Văn phòng công chứng đó.\n",
+      "description": "- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được quyết định miễn nhiệm công chứng viên, Sở Tư pháp nơi cấp thẻ công chứng viên ra quyết định thu hồi thẻ công chứng viên.\n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được văn bản thông báo của Phòng công chứng về việc công chứng viên không còn hành nghề tại Phòng công chứng hoặc kể từ ngày quyết định chuyển đổi, giải thể Phòng công chứng có hiệu lực, Sở Tư pháp nơi Phòng công chứng đặt trụ sở ra quyết định thu hồi thẻ công chứng viên.\n- Trường hợp công chứng viên không còn hành nghề tại Văn phòng công chứng thì việc thu hồi thẻ công chứng viên được thực hiện cùng với thủ tục thay đổi nội dung đăng ký hoạt động của Văn phòng công chứng do giảm bớt số lượng công chứng viên (quy định tại Điều 21 của Nghị định số 104/2025/NĐ-CP).\n- Văn phòng công chứng thực hiện thủ tục chấm dứt hoạt động theo quy định tại điểm a và c khoản 1 Điều 34 của Luật Công chứng thì đồng thời đề nghị Sở Tư pháp thu hồi thẻ của công chứng viên hành nghề tại Văn phòng công chứng.  \n- Văn phòng công chứng chấm dứt hoạt động theo quy định tại điểm b khoản 1 Điều 34 của Luật Công chứng thì trong thời hạn 05 ngày làm việc kể từ ngày quyết định thu hồi quyết định cho phép thành lập Văn phòng công chứng có hiệu lực, Sở Tư pháp ra quyết định thu hồi thẻ của công chứng viên hành nghề tại Văn phòng công chứng đó.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Văn bản thông báo của Phòng công chứng hoặc hồ sơ thay đổi nội dung đăng ký hoạt động của Văn phòng công chứng hoặc hồ sơ chấm dứt hoạt động của Văn phòng công chứng (tùy trường hợp thu hồi thẻ công chứng viên)",
-        "code": "000.00.00.G15-KQ004591",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019da937-8b9c-72a8-9840-82f8b28b1589",
-            "name": "Mẫu TP-CC-07.doc",
-            "url": ""
-          }
-        ],
+        "attachment": "Mẫu TP-CC-07.doc",
         "source_page": null
       }
     ],
@@ -75,35 +59,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -111,51 +75,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -163,20 +112,17 @@
     {
       "title": "Thông tư 05/2025/TT-BTP hướng dẫn Luật Công chứng do Bộ trưởng Bộ Tư pháp ban hành",
       "document_number": "05/2025/TT-BTP",
-      "id": "019d2bb3-5d7e-72d1-afe4-f8bbb8f2bd2f",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định số 104/2025/NĐ-CP ngày 15/5/2025 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Công chứng",
       "document_number": "104/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe8-3ee18693f7b7",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật Công chứng năm 2024",
       "document_number": "46/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b673-466b5f2947a5",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Thẻ công chứng viên bị thu hồi trong trường hợp miễn nhiệm công chứng viên hoặc công chứng viên không còn hành nghề tại tổ chức hành nghề công chứng mà mình được cấp thẻ, tổ chức hành nghề công chứng giải thể, chấm dứt hoạt động hoặc thay đổi tên.",
@@ -184,13 +130,12 @@
     {
       "title": "Quyết định thu hồi Thẻ công chứng viên",
       "code": "KQ.G15.000302",
-      "id": "019d2bb2-1c79-762e-8b29-cfaf8b81e41e",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được quyết định miễn nhiệm công chứng viên, Sở Tư pháp nơi cấp thẻ công chứng viên ra quyết định thu hồi thẻ công chứng viên.\n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được văn bản thông báo của Phòng công chứng về việc công chứng viên không còn hành nghề tại Phòng công chứng hoặc kể từ ngày quyết định chuyển đổi, giải thể Phòng công chứng có hiệu lực, Sở Tư pháp nơi Phòng công chứng đặt trụ sở ra quyết định thu hồi thẻ công chứng viên.\n- Trường hợp công chứng viên không còn hành nghề tại Văn phòng công chứng thì việc thu hồi thẻ công chứng viên được thực hiện cùng với thủ tục thay đổi nội dung đăng ký hoạt động của Văn phòng công chứng do giảm bớt số lượng công chứng viên (quy định tại Điều 21 của Nghị định số 104/2025/NĐ-CP).\n- Văn phòng công chứng thực hiện thủ tục chấm dứt hoạt động theo quy định tại điểm a và c khoản 1 Điều 34 của Luật Công chứng thì đồng thời đề nghị Sở Tư pháp thu hồi thẻ của công chứng viên hành nghề tại Văn phòng công chứng.  \n- Văn phòng công chứng chấm dứt hoạt động theo quy định tại điểm b khoản 1 Điều 34 của Luật Công chứng thì trong thời hạn 05 ngày làm việc kể từ ngày quyết định thu hồi quyết định cho phép thành lập Văn phòng công chứng có hiệu lực, Sở Tư pháp ra quyết định thu hồi thẻ của công chứng viên hành nghề tại Văn phòng công chứng đó.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nVăn bản thông báo của Phòng công chứng hoặc hồ sơ thay đổi nội dung đăng ký hoạt động của Văn phòng công chứng hoặc hồ sơ chấm dứt hoạt động của Văn phòng công chứng (tùy trường hợp thu hồi thẻ công chứng viên)",
+    "TRÌNH TỰ THỰC HIỆN": "- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được quyết định miễn nhiệm công chứng viên, Sở Tư pháp nơi cấp thẻ công chứng viên ra quyết định thu hồi thẻ công chứng viên.\n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được văn bản thông báo của Phòng công chứng về việc công chứng viên không còn hành nghề tại Phòng công chứng hoặc kể từ ngày quyết định chuyển đổi, giải thể Phòng công chứng có hiệu lực, Sở Tư pháp nơi Phòng công chứng đặt trụ sở ra quyết định thu hồi thẻ công chứng viên.\n- Trường hợp công chứng viên không còn hành nghề tại Văn phòng công chứng thì việc thu hồi thẻ công chứng viên được thực hiện cùng với thủ tục thay đổi nội dung đăng ký hoạt động của Văn phòng công chứng do giảm bớt số lượng công chứng viên (quy định tại Điều 21 của Nghị định số 104/2025/NĐ-CP).\n- Văn phòng công chứng thực hiện thủ tục chấm dứt hoạt động theo quy định tại điểm a và c khoản 1 Điều 34 của Luật Công chứng thì đồng thời đề nghị Sở Tư pháp thu hồi thẻ của công chứng viên hành nghề tại Văn phòng công chứng.  \n- Văn phòng công chứng chấm dứt hoạt động theo quy định tại điểm b khoản 1 Điều 34 của Luật Công chứng thì trong thời hạn 05 ngày làm việc kể từ ngày quyết định thu hồi quyết định cho phép thành lập Văn phòng công chứng có hiệu lực, Sở Tư pháp ra quyết định thu hồi thẻ của công chứng viên hành nghề tại Văn phòng công chứng đó.",
+    "THÀNH PHẦN HỒ SƠ": "Văn bản thông báo của Phòng công chứng hoặc hồ sơ thay đổi nội dung đăng ký hoạt động của Văn phòng công chứng hoặc hồ sơ chấm dứt hoạt động của Văn phòng công chứng (tùy trường hợp thu hồi thẻ công chứng viên)",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 15 ngày làm việc\nQua dịch vụ bưu chính: 15 ngày làm việc\nTrực tiếp: 15 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Thông tư 05/2025/TT-BTP hướng dẫn Luật Công chứng do Bộ trưởng Bộ Tư pháp ban hành - 05/2025/TT-BTP\nNghị định số 104/2025/NĐ-CP ngày 15/5/2025 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Công chứng - 104/2025/NĐ-CP\nLuật Công chứng năm 2024 - 46/2024/QH15",
     "CƠ QUAN THỰC HIỆN": "Sở Tư Pháp",
@@ -200,11 +145,6 @@
     "MÔ TẢ": "Thẻ công chứng viên bị thu hồi trong trường hợp miễn nhiệm công chứng viên hoặc công chứng viên không còn hành nghề tại tổ chức hành nghề công chứng mà mình được cấp thẻ, tổ chức hành nghề công chứng giải thể, chấm dứt hoạt động hoặc thay đổi tên."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Giải quyết khiếu kiện",
-      "slug": "giai-quyet-khieu-kien",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Công chứng",
       "slug": "cong-chung"
@@ -227,6 +167,6 @@
         "slug": "so-tu-phap"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

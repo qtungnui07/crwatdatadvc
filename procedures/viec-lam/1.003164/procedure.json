@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-df22-7787-8e7c-00812b915c6a",
   "procedure_code": "1.003164",
   "title": "Thủ tục hải quan đối với xăng dầu, hóa chất, khí quá cảnh",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-df22-7787-8e7c-00812b915c6a",
     "source_file": "chi-tiet-thu-tuc-1.003164.pdf",
     "source_path": "procedures/viec-lam/1.003164/chi-tiet-thu-tuc-1.003164.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:00.862016+00:00",
-    "source_updated_at": "2026-05-07T03:35:53.926Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:01.759273+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "72e02770c5c18213af74f93462ddb4b27f0a80f2c90604b8319c61aa89e9227c"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:00.862016+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2628/QĐ-BTC",
   "implementation_level": "Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hải quan",
   "target_users": [
@@ -36,18 +31,29 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Chi cục Hải quan khu vực",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Chi cục Hải quan khu vực"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1:Người khai hải quan làm kê khai và nộp đủ hồ sơ theo quy định tại trụ sở  cơ quan hải quan. Nếu hàng hoá quá cảnh có lưu kho ngoài khu vực cửa khẩu hoặc đi qua lãnh thổ đất liền thì phải xin phép Bộ Công Thương.\nBước 2:\n     + Cơ quan hải quan cửa khẩu nơi hàng hoá nhập cảnh tiếp nhận bản kê khai hàng hoá quá cảnh hoặc tờ khai hải quan về lô hàng quá cảnh, niêm phong nơi chứa hàng hoá và xác nhận nguyên trạng hàng hóa trên bản kê khai hàng hóa và tờ khai hải quan (đối với trường hợp phải khai hải quan) và giao cho người điều khiển phương tiện vận tải chuyển đến cơ quan hải quan cửa khẩu nơi hàng hoá xuất cảnh;\n+ Trường hợp hàng hoá quá cảnh thuộc diện không niêm phong được thì người vận tải, người khai hải quan, công chức hải quan đi cùng (nếu có) chịu trách nhiệm bảo đảm nguyên trạng hàng hóa từ cửa khẩu nơi hàng hoá nhập cảnh đến cửa khẩu nơi hàng hoá xuất cảnh;   \n+ Cơ quan hải quan cửa khẩu nơi hàng hoá xuất cảnh tiếp nhận bản kê khai hoặc tờ khai hải quan do cơ quan hải quan cửa khẩu nơi hàng hoá nhập cảnh chuyển đến, kiểm tra tình trạng niêm phong hải quan hoặc nguyên trạng hàng hoá để đối chiếu với các nội dung xác nhận của cơ quan hải quan cửa khẩu nơi hàng hoá nhập cảnh trên bản kê khai hàng hóa hoặc tờ khai hải quan quá cảnh để làm thủ tục xuất cảnh.\n+ Trường hợp xảy ra tai nạn, sự cố bất khả kháng làm suy chuyển niêm phong hải quan hoặc thay đổi nguyên trạng hàng hoá thì người vận tải, người khai hải quan, công chức hải quan đi cùng (nếu có) phải áp dụng các biện pháp để hạn chế tổn thất và báo ngay cho ủy ban nhân dân xã, phường, thị trấn nơi gần nhất để lập biên bản xác nhận hiện trạng của hàng hoá.\nBước 3: Doanh nghiệp thực hiện nộp các khoản phí theo quy định.\n",
+      "description": "Bước 1:Người khai hải quan làm kê khai và nộp đủ hồ sơ theo quy định tại trụ sở  cơ quan hải quan. Nếu hàng hoá quá cảnh có lưu kho ngoài khu vực cửa khẩu hoặc đi qua lãnh thổ đất liền thì phải xin phép Bộ Công Thương.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2:\n     + Cơ quan hải quan cửa khẩu nơi hàng hoá nhập cảnh tiếp nhận bản kê khai hàng hoá quá cảnh hoặc tờ khai hải quan về lô hàng quá cảnh, niêm phong nơi chứa hàng hoá và xác nhận nguyên trạng hàng hóa trên bản kê khai hàng hóa và tờ khai hải quan (đối với trường hợp phải khai hải quan) và giao cho người điều khiển phương tiện vận tải chuyển đến cơ quan hải quan cửa khẩu nơi hàng hoá xuất cảnh;\n+ Trường hợp hàng hoá quá cảnh thuộc diện không niêm phong được thì người vận tải, người khai hải quan, công chức hải quan đi cùng (nếu có) chịu trách nhiệm bảo đảm nguyên trạng hàng hóa từ cửa khẩu nơi hàng hoá nhập cảnh đến cửa khẩu nơi hàng hoá xuất cảnh;   \n+ Cơ quan hải quan cửa khẩu nơi hàng hoá xuất cảnh tiếp nhận bản kê khai hoặc tờ khai hải quan do cơ quan hải quan cửa khẩu nơi hàng hoá nhập cảnh chuyển đến, kiểm tra tình trạng niêm phong hải quan hoặc nguyên trạng hàng hoá để đối chiếu với các nội dung xác nhận của cơ quan hải quan cửa khẩu nơi hàng hoá nhập cảnh trên bản kê khai hàng hóa hoặc tờ khai hải quan quá cảnh để làm thủ tục xuất cảnh.\n+ Trường hợp xảy ra tai nạn, sự cố bất khả kháng làm suy chuyển niêm phong hải quan hoặc thay đổi nguyên trạng hàng hoá thì người vận tải, người khai hải quan, công chức hải quan đi cùng (nếu có) phải áp dụng các biện pháp để hạn chế tổn thất và báo ngay cho ủy ban nhân dân xã, phường, thị trấn nơi gần nhất để lập biên bản xác nhận hiện trạng của hàng hoá.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Doanh nghiệp thực hiện nộp các khoản phí theo quy định.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
@@ -56,48 +62,33 @@
     "conditional": [
       {
         "name": "Bản kê khai hàng hoá quá cảnh do người khai hải quan hoặc người đại diện nộp cho cơ quan hải quan cửa khẩu đối với hàng hóa quá cảnh giữ nguyên trạng đi thẳng; quá cảnh chuyển tải sang cùng loại phương tiện vận tải đường bộ, đường sắt, đường sông, đường biển, đường hàng không (trừ hàng hoá quá cảnh đi thẳng bằng đường hàng không)",
-        "code": "000.00.00.G12-KQ3057",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Giấy phép hàng quá cảnh (nếu có)",
-        "code": "000.00.00.G12-KQ3061",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Vận tải đơn",
-        "code": "000.00.00.G12-KQ3060",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Bản kê chi tiết",
-        "code": "000.00.00.G12-KQ3059",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Tờ khai hải quan hàng hoá quá cảnh và bản kê khai hàng hoá quá cảnh do người khai hải quan hoặc người đại diện nộp cho cơ quan hải quan cửa khẩu đối với hàng hóa quá cảnh phải lưu kho hoặc thay đổi loại phương tiện vận tải.",
-        "code": "000.00.00.G12-KQ3058",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -106,33 +97,22 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "2 ngày",
-      "processing_time_value": 2,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 20000,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "20000",
       "description": "",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "20000",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 20000,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "20000",
+        "is_free": false,
+        "source_page": 3
       }
     ]
   },
@@ -140,26 +120,22 @@
     {
       "title": "Quy định thủ tục hải quan đối với xăng dầu, hóa chất, khí xuất khẩu, nhập khẩu, tạm nhập tái xuất, chuyển khẩu, quá cảnh; nguyên liệu nhập khẩu để sản xuất và pha chế hoặc gia công xuất khẩu xăng, dầu, khí; dầu thô xuất khẩu, nhập khẩu; hàng hóa xuất khẩu, nhập khẩu phục vụ hoạt động dầu khí",
       "document_number": "69/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-8e22567edc3a",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 08/2015/NĐ-CP",
       "document_number": "08/2015/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe7-9c25863596db",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu thuế nhập khẩu và quản lý thuế đối vớỉ hàng hoá xuất khẩu, nhập khẩu.",
       "document_number": "38/2015/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4d-1c6dbc289d7a",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật 54/2014/QH13",
       "document_number": "54/2014/QH13",
-      "id": "019d2bb3-5d7d-7398-be4d-ff62cdf67da5",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -167,13 +143,12 @@
     {
       "title": "Xác nhận thông quan",
       "code": "KQ.G12.000327",
-      "id": "019d2bb2-1c70-724b-96df-ddc2578f60d3",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1:Người khai hải quan làm kê khai và nộp đủ hồ sơ theo quy định tại trụ sở  cơ quan hải quan. Nếu hàng hoá quá cảnh có lưu kho ngoài khu vực cửa khẩu hoặc đi qua lãnh thổ đất liền thì phải xin phép Bộ Công Thương.\nBước 2:\n     + Cơ quan hải quan cửa khẩu nơi hàng hoá nhập cảnh tiếp nhận bản kê khai hàng hoá quá cảnh hoặc tờ khai hải quan về lô hàng quá cảnh, niêm phong nơi chứa hàng hoá và xác nhận nguyên trạng hàng hóa trên bản kê khai hàng hóa và tờ khai hải quan (đối với trường hợp phải khai hải quan) và giao cho người điều khiển phương tiện vận tải chuyển đến cơ quan hải quan cửa khẩu nơi hàng hoá xuất cảnh;\n+ Trường hợp hàng hoá quá cảnh thuộc diện không niêm phong được thì người vận tải, người khai hải quan, công chức hải quan đi cùng (nếu có) chịu trách nhiệm bảo đảm nguyên trạng hàng hóa từ cửa khẩu nơi hàng hoá nhập cảnh đến cửa khẩu nơi hàng hoá xuất cảnh;   \n+ Cơ quan hải quan cửa khẩu nơi hàng hoá xuất cảnh tiếp nhận bản kê khai hoặc tờ khai hải quan do cơ quan hải quan cửa khẩu nơi hàng hoá nhập cảnh chuyển đến, kiểm tra tình trạng niêm phong hải quan hoặc nguyên trạng hàng hoá để đối chiếu với các nội dung xác nhận của cơ quan hải quan cửa khẩu nơi hàng hoá nhập cảnh trên bản kê khai hàng hóa hoặc tờ khai hải quan quá cảnh để làm thủ tục xuất cảnh.\n+ Trường hợp xảy ra tai nạn, sự cố bất khả kháng làm suy chuyển niêm phong hải quan hoặc thay đổi nguyên trạng hàng hoá thì người vận tải, người khai hải quan, công chức hải quan đi cùng (nếu có) phải áp dụng các biện pháp để hạn chế tổn thất và báo ngay cho ủy ban nhân dân xã, phường, thị trấn nơi gần nhất để lập biên bản xác nhận hiện trạng của hàng hoá.\nBước 3: Doanh nghiệp thực hiện nộp các khoản phí theo quy định.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nBản kê khai hàng hoá quá cảnh do người khai hải quan hoặc người đại diện nộp cho cơ quan hải quan cửa khẩu đối với hàng hóa quá cảnh giữ nguyên trạng đi thẳng; quá cảnh chuyển tải sang cùng loại phương tiện vận tải đường bộ, đường sắt, đường sông, đường biển, đường hàng không (trừ hàng hoá quá cảnh đi thẳng bằng đường hàng không)\nGiấy phép hàng quá cảnh (nếu có)\nVận tải đơn\nBản kê chi tiết\nTờ khai hải quan hàng hoá quá cảnh và bản kê khai hàng hoá quá cảnh do người khai hải quan hoặc người đại diện nộp cho cơ quan hải quan cửa khẩu đối với hàng hóa quá cảnh phải lưu kho hoặc thay đổi loại phương tiện vận tải.",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1:Người khai hải quan làm kê khai và nộp đủ hồ sơ theo quy định tại trụ sở  cơ quan hải quan. Nếu hàng hoá quá cảnh có lưu kho ngoài khu vực cửa khẩu hoặc đi qua lãnh thổ đất liền thì phải xin phép Bộ Công Thương.\nBước 2:\n     + Cơ quan hải quan cửa khẩu nơi hàng hoá nhập cảnh tiếp nhận bản kê khai hàng hoá quá cảnh hoặc tờ khai hải quan về lô hàng quá cảnh, niêm phong nơi chứa hàng hoá và xác nhận nguyên trạng hàng hóa trên bản kê khai hàng hóa và tờ khai hải quan (đối với trường hợp phải khai hải quan) và giao cho người điều khiển phương tiện vận tải chuyển đến cơ quan hải quan cửa khẩu nơi hàng hoá xuất cảnh;\n+ Trường hợp hàng hoá quá cảnh thuộc diện không niêm phong được thì người vận tải, người khai hải quan, công chức hải quan đi cùng (nếu có) chịu trách nhiệm bảo đảm nguyên trạng hàng hóa từ cửa khẩu nơi hàng hoá nhập cảnh đến cửa khẩu nơi hàng hoá xuất cảnh;   \n+ Cơ quan hải quan cửa khẩu nơi hàng hoá xuất cảnh tiếp nhận bản kê khai hoặc tờ khai hải quan do cơ quan hải quan cửa khẩu nơi hàng hoá nhập cảnh chuyển đến, kiểm tra tình trạng niêm phong hải quan hoặc nguyên trạng hàng hoá để đối chiếu với các nội dung xác nhận của cơ quan hải quan cửa khẩu nơi hàng hoá nhập cảnh trên bản kê khai hàng hóa hoặc tờ khai hải quan quá cảnh để làm thủ tục xuất cảnh.\n+ Trường hợp xảy ra tai nạn, sự cố bất khả kháng làm suy chuyển niêm phong hải quan hoặc thay đổi nguyên trạng hàng hoá thì người vận tải, người khai hải quan, công chức hải quan đi cùng (nếu có) phải áp dụng các biện pháp để hạn chế tổn thất và báo ngay cho ủy ban nhân dân xã, phường, thị trấn nơi gần nhất để lập biên bản xác nhận hiện trạng của hàng hoá.\nBước 3: Doanh nghiệp thực hiện nộp các khoản phí theo quy định.",
+    "THÀNH PHẦN HỒ SƠ": "Bản kê khai hàng hoá quá cảnh do người khai hải quan hoặc người đại diện nộp cho cơ quan hải quan cửa khẩu đối với hàng hóa quá cảnh giữ nguyên trạng đi thẳng; quá cảnh chuyển tải sang cùng loại phương tiện vận tải đường bộ, đường sắt, đường sông, đường biển, đường hàng không (trừ hàng hoá quá cảnh đi thẳng bằng đường hàng không)\nGiấy phép hàng quá cảnh (nếu có)\nVận tải đơn\nBản kê chi tiết\nTờ khai hải quan hàng hoá quá cảnh và bản kê khai hàng hoá quá cảnh do người khai hải quan hoặc người đại diện nộp cho cơ quan hải quan cửa khẩu đối với hàng hóa quá cảnh phải lưu kho hoặc thay đổi loại phương tiện vận tải.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 2 ngày",
     "CĂN CỨ PHÁP LÝ": "Quy định thủ tục hải quan đối với xăng dầu, hóa chất, khí xuất khẩu, nhập khẩu, tạm nhập tái xuất, chuyển khẩu, quá cảnh; nguyên liệu nhập khẩu để sản xuất và pha chế hoặc gia công xuất khẩu xăng, dầu, khí; dầu thô xuất khẩu, nhập khẩu; hàng hóa xuất khẩu, nhập khẩu phục vụ hoạt động dầu khí - 69/2016/TT-BTC\nNghị định 08/2015/NĐ-CP - 08/2015/NĐ-CP\nQuy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu thuế nhập khẩu và quản lý thuế đối vớỉ hàng hoá xuất khẩu, nhập khẩu. - 38/2015/TT-BTC\nLuật 54/2014/QH13 - 54/2014/QH13",
     "CƠ QUAN THỰC HIỆN": "Chi cục Hải quan khu vực",
@@ -183,11 +158,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hải quan",
       "slug": "hai-quan"
@@ -214,6 +184,6 @@
         "slug": "chi-cuc-hai-quan-khu-vuc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

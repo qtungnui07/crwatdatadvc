@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019da9a8-d9ea-7188-a087-4c71dad7cd53",
   "procedure_code": "1.115014",
   "title": "Chia sẻ phần giảm doanh thu",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019da9a8-d9ea-7188-a087-4c71dad7cd53",
     "source_file": "chi-tiet-thu-tuc-1.115014.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.115014/chi-tiet-thu-tuc-1.115014.pdf",
     "page_count": 8,
-    "extracted_at": "2026-07-18T02:22:15.966334+00:00",
-    "source_updated_at": "2026-05-07T03:25:07.167Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:00.643005+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "b0989a4535a66345d19554fd4d5a14c6b1b8acc784e5eaad0a6ac0abc98cbe26"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:15.966334+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "464/QĐ-BXD",
   "implementation_level": "Cấp bộ, Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đường bộ",
   "target_users": [
@@ -36,10 +31,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Bộ Xây dựng, Cục Đường bộ Việt Nam, Sở Tài chính các tỉnh, thành phố",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Xây dựng, Cục Đường bộ Việt Nam, Sở Tài chính các tỉnh, thành phố"
   },
   "steps": [
     {
@@ -47,14 +39,14 @@
       "title": "Nộp TTHC",
       "description": "Nhà đầu tư, doanh nghiệp dự án gửi 01 bộ hồ sơ đề nghị chia sẻ phần giảm doanh thu đến cơ quan ký kết hợp đồng.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "Giải quyết TTHC",
-      "description": "- Trong vòng 45 ngày kể từ ngày nhận đủ hồ sơ, cơ quan ký kết hợp đồng thực hiện rà soát hồ sơ:\n+ Trường hợp phù hợp, cơ quan ký kết hợp đồng phối hợp với nhà đầu tư, doanh nghiệp dự án và bên cho vay ký kết biên bản thống nhất xác định tỷ lệ và mức vốn nhà nước chia sẻ phần giảm doanh thu, trách nhiệm của nhà đầu tư, doanh nghiệp dự án và bên cho vay;\n+ Trường hợp không phù hợp, cơ quan ký kết hợp đồng thông báo từ chối việc chia sẻ phần giảm doanh thu đến nhà đầu tư, doanh nghiệp dự án (trong đó nêu rõ lý do từ chối việc chia sẻ phần giảm doanh thu).\n- Trong vòng 10 ngày kể từ ngày các bên ký kết biên bản thống nhất, cơ quan ký kết hợp đồng đề nghị Kiểm toán Nhà nước thực hiện kiểm toán phần giảm doanh thu và số tiền Nhà nước chia sẻ phần giảm doanh thu.\n- Trường hợp cần thiết, cơ quan ký kết hợp đồng đề nghị nhà đầu tư, doanh nghiệp dự án đàm phán, thống nhất với bên cho vay cập nhật các nội dung bảo đảm phù hợp với báo cáo kiểm toán của Kiểm toán Nhà nước.\n- Trong vòng 10 ngày kể từ ngày nhận được báo cáo kiểm toán của Kiểm toán Nhà nước (hoặc ngày nhận được báo cáo kết quả cập nhật), cơ quan ký kết hợp đồng báo cáo cơ quan có thẩm quyền quyết định việc áp dụng chia sẻ phần giảm doanh thu, tỷ lệ và mức vốn nhà nước thực hiện chia sẻ doanh thu, trách nhiệm chia sẻ của nhà đầu tư, doanh nghiệp dự án và bên cho vay. Cơ quan có thẩm quyền xem xét, quyết định trong vòng 15 ngày kể từ ngày nhận được báo cáo của cơ quan ký kết hợp đồng.\n- Cơ quan ký kết hợp đồng phối hợp với nhà đầu tư, doanh nghiệp dự án thực hiện điều chỉnh hợp đồng dự án; nhà đầu tư, doanh nghiệp dự án phối hợp với bên cho vay thực hiện điều chỉnh hợp đồng tín dụng.\n",
+      "description": "- Trong vòng 45 ngày kể từ ngày nhận đủ hồ sơ, cơ quan ký kết hợp đồng thực hiện rà soát hồ sơ:\n+ Trường hợp phù hợp, cơ quan ký kết hợp đồng phối hợp với nhà đầu tư, doanh nghiệp dự án và bên cho vay ký kết biên bản thống nhất xác định tỷ lệ và mức vốn nhà nước chia sẻ phần giảm doanh thu, trách nhiệm của nhà đầu tư, doanh nghiệp dự án và bên cho vay;\n+ Trường hợp không phù hợp, cơ quan ký kết hợp đồng thông báo từ chối việc chia sẻ phần giảm doanh thu đến nhà đầu tư, doanh nghiệp dự án (trong đó nêu rõ lý do từ chối việc chia sẻ phần giảm doanh thu).\n- Trong vòng 10 ngày kể từ ngày các bên ký kết biên bản thống nhất, cơ quan ký kết hợp đồng đề nghị Kiểm toán Nhà nước thực hiện kiểm toán phần giảm doanh thu và số tiền Nhà nước chia sẻ phần giảm doanh thu.\n- Trường hợp cần thiết, cơ quan ký kết hợp đồng đề nghị nhà đầu tư, doanh nghiệp dự án đàm phán, thống nhất với bên cho vay cập nhật các nội dung bảo đảm phù hợp với báo cáo kiểm toán của Kiểm toán Nhà nước.\n- Trong vòng 10 ngày kể từ ngày nhận được báo cáo kiểm toán của Kiểm toán Nhà nước (hoặc ngày nhận được báo cáo kết quả cập nhật), cơ quan ký kết hợp đồng báo cáo cơ quan có thẩm quyền quyết định việc áp dụng chia sẻ phần giảm doanh thu, tỷ lệ và mức vốn nhà nước thực hiện chia sẻ doanh thu, trách nhiệm chia sẻ của nhà đầu tư, doanh nghiệp dự án và bên cho vay. Cơ quan có thẩm quyền xem xét, quyết định trong vòng 15 ngày kể từ ngày nhận được báo cáo của cơ quan ký kết hợp đồng.\n- Cơ quan ký kết hợp đồng phối hợp với nhà đầu tư, doanh nghiệp dự án thực hiện điều chỉnh hợp đồng dự án; nhà đầu tư, doanh nghiệp dự án phối hợp với bên cho vay thực hiện điều chỉnh hợp đồng tín dụng.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
@@ -62,67 +54,46 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "Văn bản đề nghị chia sẻ phần giảm doanh thu",
-        "code": "TP-G17.000001",
+        "name": "Hồ sơ Nhà đầu tư, doanh nghiệp dự án gửi đến Cơ quan ký kết hợp đồng: Văn bản đề nghị chia sẻ phần giảm doanh thu",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ Nhà đầu tư, doanh nghiệp dự án gửi đến Cơ quan ký kết hợp đồng",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Thuyết minh báo cáo về các nội dung: thông tin chung dự án; quá trình thực hiện hợp đồng; báo cáo về tỷ lệ sụt giảm doanh thu giữa doanh thu trong phương án tài chính và doanh thu thực tế trong 03 năm gần nhất; đánh giá nguyên nhân giảm doanh thu; thuyết minh việc đáp ứng các điều kiện chia sẻ phần giảm doanh thu; xác định tỷ lệ và mức vốn nhà nước chia sẻ phần giảm doanh thu; xác định trách nhiệm chia sẻ của nhà đầu tư, doanh nghiệp dự án và bên cho vay; kết quả tính toán phương án tài chính điều chỉnh; nội dung thống nhất giữa bên cho vay với nhà đầu tư, doanh nghiệp dự án; các nội dung cần thiết khác (nếu có)",
-        "code": "TP-G17.000002",
+        "name": "Hồ sơ Nhà đầu tư, doanh nghiệp dự án gửi đến Cơ quan ký kết hợp đồng: Thuyết minh báo cáo về các nội dung: thông tin chung dự án; quá trình thực hiện hợp đồng; báo cáo về tỷ lệ sụt giảm doanh thu giữa doanh thu trong phương án tài chính và doanh thu thực tế trong 03 năm gần nhất; đánh giá nguyên nhân giảm doanh thu; thuyết minh việc đáp ứng các điều kiện chia sẻ phần giảm doanh thu; xác định tỷ lệ và mức vốn nhà nước chia sẻ phần giảm doanh thu; xác định trách nhiệm chia sẻ của nhà đầu tư, doanh nghiệp dự án và bên cho vay; kết quả tính toán phương án tài chính điều chỉnh; nội dung thống nhất giữa bên cho vay với nhà đầu tư, doanh nghiệp dự án; các nội dung cần thiết khác (nếu có)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ Nhà đầu tư, doanh nghiệp dự án gửi đến Cơ quan ký kết hợp đồng",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Các tài liệu kèm theo: phương án tài chính dự kiến điều chỉnh; biên bản thống nhất giữa nhà đầu tư, doanh nghiệp dự án và bên cho vay",
-        "code": "TP-G17.000003",
+        "name": "Hồ sơ Nhà đầu tư, doanh nghiệp dự án gửi đến Cơ quan ký kết hợp đồng: Các tài liệu kèm theo: phương án tài chính dự kiến điều chỉnh; biên bản thống nhất giữa nhà đầu tư, doanh nghiệp dự án và bên cho vay",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ Nhà đầu tư, doanh nghiệp dự án gửi đến Cơ quan ký kết hợp đồng",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Văn bản đề nghị Kiểm toán Nhà nước thực hiện kiểm toán phần giảm doanh thu và số tiền Nhà nước chia sẻ phần giảm doanh thu",
-        "code": "TP-G17.000004",
+        "name": "Hồ sơ cơ quan ký kết hợp đồng gửi đến Kiểm toán Nhà nước: Văn bản đề nghị Kiểm toán Nhà nước thực hiện kiểm toán phần giảm doanh thu và số tiền Nhà nước chia sẻ phần giảm doanh thu",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ cơ quan ký kết hợp đồng gửi đến Kiểm toán Nhà nước ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Hồ sơ Nhà đầu tư, doanh nghiệp dự án gửi đến Cơ quan ký kết hợp đồng",
-        "code": "TP-G17.000005",
+        "name": "Hồ sơ cơ quan ký kết hợp đồng gửi đến Kiểm toán Nhà nước: Hồ sơ Nhà đầu tư, doanh nghiệp dự án gửi đến Cơ quan ký kết hợp đồng",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ cơ quan ký kết hợp đồng gửi đến Kiểm toán Nhà nước ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Biên bản thống nhất biên bản thống nhất xác định tỷ lệ và mức vốn nhà nước chia sẻ phần giảm doanh thu",
-        "code": "TP-G17.000006",
+        "name": "Hồ sơ cơ quan ký kết hợp đồng gửi đến Kiểm toán Nhà nước: Biên bản thống nhất biên bản thống nhất xác định tỷ lệ và mức vốn nhà nước chia sẻ phần giảm doanh thu",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ cơ quan ký kết hợp đồng gửi đến Kiểm toán Nhà nước ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Văn bản của cấp có thẩm quyền về chủ trương đầu tư; quyết định phê duyệt dự án; quyết định phê duyệt điều chỉnh dự án, điều chỉnh tổng mức đầu tư (nếu có); hợp đồng dự án BOT; các văn bản, tài liệu có liên quan (nếu có)",
-        "code": "TP-G17.000007",
+        "name": "Hồ sơ cơ quan ký kết hợp đồng gửi đến Kiểm toán Nhà nước: Văn bản của cấp có thẩm quyền về chủ trương đầu tư; quyết định phê duyệt dự án; quyết định phê duyệt điều chỉnh dự án, điều chỉnh tổng mức đầu tư (nếu có); hợp đồng dự án BOT; các văn bản, tài liệu có liên quan (nếu có)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ cơ quan ký kết hợp đồng gửi đến Kiểm toán Nhà nước ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -131,34 +102,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "80 ngày làm việc",
-      "processing_time_value": 80,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
-      "description": "- Thời hạn rà soát hồ sơ, ký kết biên bản thống nhất hoặc ra thông báo từ chối việc chia sẻ phần giảm doanh thu: trong vòng 45 ngày kể từ ngày nhận đủ hồ sơ.\n- Thời hạn gửi hồ sơ đề nghị Kiểm toán Nhà nước: trong vòng 10 ngày kể từ ngày các bên ký kết biên bản thống nhất.\n- Thời hạn gửi báo cáo cơ quan có thẩm quyền quyết định việc áp dụng chia sẻ phần giảm doanh thu: trong vòng 10 ngày kể từ ngày nhận được báo cáo kiểm toán của Kiểm toán Nhà nước (hoặc ngày nhận được báo cáo kết quả cập nhật).\n- Thời hạn xem xét, quyết định áp dụng chia sẻ phần giảm doanh thu: trong vòng 15 ngày kể từ ngày nhận được báo cáo của cơ quan ký kết hợp đồng.\n",
-      "source_page": null
+      "fee": null,
+      "description": "- Thời hạn rà soát hồ sơ, ký kết biên bản thống nhất hoặc ra thông báo từ chối việc chia sẻ phần giảm doanh thu: trong vòng 45 ngày kể từ ngày nhận đủ hồ sơ.\n- Thời hạn gửi hồ sơ đề nghị Kiểm toán Nhà nước: trong vòng 10 ngày kể từ ngày các bên ký kết biên bản thống nhất.\n- Thời hạn gửi báo cáo cơ quan có thẩm quyền quyết định việc áp dụng chia sẻ phần giảm doanh thu: trong vòng 10 ngày kể từ ngày nhận được báo cáo kiểm toán của Kiểm toán Nhà nước (hoặc ngày nhận được báo cáo kết quả cập nhật).\n- Thời hạn xem xét, quyết định áp dụng chia sẻ phần giảm doanh thu: trong vòng 15 ngày kể từ ngày nhận được báo cáo của cơ quan ký kết hợp đồng.",
+      "source_page": 4
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "80 ngày làm việc",
-      "processing_time_value": 80,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
-      "description": "- Thời hạn rà soát hồ sơ, ký kết biên bản thống nhất hoặc ra thông báo từ chối việc chia sẻ phần giảm doanh thu: trong vòng 45 ngày kể từ ngày nhận đủ hồ sơ.\n- Thời hạn gửi hồ sơ đề nghị Kiểm toán Nhà nước: trong vòng 10 ngày kể từ ngày các bên ký kết biên bản thống nhất.\n- Thời hạn gửi báo cáo cơ quan có thẩm quyền quyết định việc áp dụng chia sẻ phần giảm doanh thu: trong vòng 10 ngày kể từ ngày nhận được báo cáo kiểm toán của Kiểm toán Nhà nước (hoặc ngày nhận được báo cáo kết quả cập nhật).\n- Thời hạn xem xét, quyết định áp dụng chia sẻ phần giảm doanh thu: trong vòng 15 ngày kể từ ngày nhận được báo cáo của cơ quan ký kết hợp đồng.\n",
-      "source_page": null
+      "fee": null,
+      "description": "- Thời hạn rà soát hồ sơ, ký kết biên bản thống nhất hoặc ra thông báo từ chối việc chia sẻ phần giảm doanh thu: trong vòng 45 ngày kể từ ngày nhận đủ hồ sơ.\n- Thời hạn gửi hồ sơ đề nghị Kiểm toán Nhà nước: trong vòng 10 ngày kể từ ngày các bên ký kết biên bản thống nhất.\n- Thời hạn gửi báo cáo cơ quan có thẩm quyền quyết định việc áp dụng chia sẻ phần giảm doanh thu: trong vòng 10 ngày kể từ ngày nhận được báo cáo kiểm toán của Kiểm toán Nhà nước (hoặc ngày nhận được báo cáo kết quả cập nhật).\n- Thời hạn xem xét, quyết định áp dụng chia sẻ phần giảm doanh thu: trong vòng 15 ngày kể từ ngày nhận được báo cáo của cơ quan ký kết hợp đồng.",
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "80 ngày làm việc",
-      "processing_time_value": 80,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
-      "description": "- Thời hạn rà soát hồ sơ, ký kết biên bản thống nhất hoặc ra thông báo từ chối việc chia sẻ phần giảm doanh thu: trong vòng 45 ngày kể từ ngày nhận đủ hồ sơ.\n- Thời hạn gửi hồ sơ đề nghị Kiểm toán Nhà nước: trong vòng 10 ngày kể từ ngày các bên ký kết biên bản thống nhất.\n- Thời hạn gửi báo cáo cơ quan có thẩm quyền quyết định việc áp dụng chia sẻ phần giảm doanh thu: trong vòng 10 ngày kể từ ngày nhận được báo cáo kiểm toán của Kiểm toán Nhà nước (hoặc ngày nhận được báo cáo kết quả cập nhật).\n- Thời hạn xem xét, quyết định áp dụng chia sẻ phần giảm doanh thu: trong vòng 15 ngày kể từ ngày nhận được báo cáo của cơ quan ký kết hợp đồng.\n",
-      "source_page": null
+      "fee": null,
+      "description": "- Thời hạn rà soát hồ sơ, ký kết biên bản thống nhất hoặc ra thông báo từ chối việc chia sẻ phần giảm doanh thu: trong vòng 45 ngày kể từ ngày nhận đủ hồ sơ.\n- Thời hạn gửi hồ sơ đề nghị Kiểm toán Nhà nước: trong vòng 10 ngày kể từ ngày các bên ký kết biên bản thống nhất.\n- Thời hạn gửi báo cáo cơ quan có thẩm quyền quyết định việc áp dụng chia sẻ phần giảm doanh thu: trong vòng 10 ngày kể từ ngày nhận được báo cáo kiểm toán của Kiểm toán Nhà nước (hoặc ngày nhận được báo cáo kết quả cập nhật).\n- Thời hạn xem xét, quyết định áp dụng chia sẻ phần giảm doanh thu: trong vòng 15 ngày kể từ ngày nhận được báo cáo của cơ quan ký kết hợp đồng.",
+      "source_page": 4
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -167,8 +133,7 @@
     {
       "title": "Nghị định số 122/2026/NĐ-CP ngày 03 tháng 4 năm 2026 của Chính phủ quy định chi tiết về việc xử lý vướng mắc của dự án BOT giao thông.",
       "document_number": "122/2026/NĐ-CP",
-      "id": "019da3ac-7220-720b-ad52-bd8a15f84b47",
-      "source_page": null
+      "source_page": 8
     }
   ],
   "conditions": "Phù hợp với quy định tại Điều 4, Điều 5, Điều 6 và Điều 7 Nghị định số 122/2026/NĐ-CP.",
@@ -176,14 +141,13 @@
     {
       "title": "Quyết định áp dụng chia sẻ phần giảm doanh thu hoặc Thông báo từ chối việc chia sẻ phần giảm doanh thu.",
       "code": "KQ-G17.000001",
-      "id": "019db475-d034-76a0-a2a3-a8d9c06f59ce",
-      "source_page": null
+      "source_page": 8
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Nhà đầu tư, doanh nghiệp dự án gửi 01 bộ hồ sơ đề nghị chia sẻ phần giảm doanh thu đến cơ quan ký kết hợp đồng.\n- Trong vòng 45 ngày kể từ ngày nhận đủ hồ sơ, cơ quan ký kết hợp đồng thực hiện rà soát hồ sơ:\n+ Trường hợp phù hợp, cơ quan ký kết hợp đồng phối hợp với nhà đầu tư, doanh nghiệp dự án và bên cho vay ký kết biên bản thống nhất xác định tỷ lệ và mức vốn nhà nước chia sẻ phần giảm doanh thu, trách nhiệm của nhà đầu tư, doanh nghiệp dự án và bên cho vay;\n+ Trường hợp không phù hợp, cơ quan ký kết hợp đồng thông báo từ chối việc chia sẻ phần giảm doanh thu đến nhà đầu tư, doanh nghiệp dự án (trong đó nêu rõ lý do từ chối việc chia sẻ phần giảm doanh thu).\n- Trong vòng 10 ngày kể từ ngày các bên ký kết biên bản thống nhất, cơ quan ký kết hợp đồng đề nghị Kiểm toán Nhà nước thực hiện kiểm toán phần giảm doanh thu và số tiền Nhà nước chia sẻ phần giảm doanh thu.\n- Trường hợp cần thiết, cơ quan ký kết hợp đồng đề nghị nhà đầu tư, doanh nghiệp dự án đàm phán, thống nhất với bên cho vay cập nhật các nội dung bảo đảm phù hợp với báo cáo kiểm toán của Kiểm toán Nhà nước.\n- Trong vòng 10 ngày kể từ ngày nhận được báo cáo kiểm toán của Kiểm toán Nhà nước (hoặc ngày nhận được báo cáo kết quả cập nhật), cơ quan ký kết hợp đồng báo cáo cơ quan có thẩm quyền quyết định việc áp dụng chia sẻ phần giảm doanh thu, tỷ lệ và mức vốn nhà nước thực hiện chia sẻ doanh thu, trách nhiệm chia sẻ của nhà đầu tư, doanh nghiệp dự án và bên cho vay. Cơ quan có thẩm quyền xem xét, quyết định trong vòng 15 ngày kể từ ngày nhận được báo cáo của cơ quan ký kết hợp đồng.\n- Cơ quan ký kết hợp đồng phối hợp với nhà đầu tư, doanh nghiệp dự án thực hiện điều chỉnh hợp đồng dự án; nhà đầu tư, doanh nghiệp dự án phối hợp với bên cho vay thực hiện điều chỉnh hợp đồng tín dụng.\n",
-    "THÀNH PHẦN HỒ SƠ": "Hồ sơ Nhà đầu tư, doanh nghiệp dự án gửi đến Cơ quan ký kết hợp đồng\nVăn bản đề nghị chia sẻ phần giảm doanh thu\nThuyết minh báo cáo về các nội dung: thông tin chung dự án; quá trình thực hiện hợp đồng; báo cáo về tỷ lệ sụt giảm doanh thu giữa doanh thu trong phương án tài chính và doanh thu thực tế trong 03 năm gần nhất; đánh giá nguyên nhân giảm doanh thu; thuyết minh việc đáp ứng các điều kiện chia sẻ phần giảm doanh thu; xác định tỷ lệ và mức vốn nhà nước chia sẻ phần giảm doanh thu; xác định trách nhiệm chia sẻ của nhà đầu tư, doanh nghiệp dự án và bên cho vay; kết quả tính toán phương án tài chính điều chỉnh; nội dung thống nhất giữa bên cho vay với nhà đầu tư, doanh nghiệp dự án; các nội dung cần thiết khác (nếu có)\nCác tài liệu kèm theo: phương án tài chính dự kiến điều chỉnh; biên bản thống nhất giữa nhà đầu tư, doanh nghiệp dự án và bên cho vay\nHồ sơ cơ quan ký kết hợp đồng gửi đến Kiểm toán Nhà nước \nVăn bản đề nghị Kiểm toán Nhà nước thực hiện kiểm toán phần giảm doanh thu và số tiền Nhà nước chia sẻ phần giảm doanh thu\nHồ sơ Nhà đầu tư, doanh nghiệp dự án gửi đến Cơ quan ký kết hợp đồng\nBiên bản thống nhất biên bản thống nhất xác định tỷ lệ và mức vốn nhà nước chia sẻ phần giảm doanh thu\nVăn bản của cấp có thẩm quyền về chủ trương đầu tư; quyết định phê duyệt dự án; quyết định phê duyệt điều chỉnh dự án, điều chỉnh tổng mức đầu tư (nếu có); hợp đồng dự án BOT; các văn bản, tài liệu có liên quan (nếu có)",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 80 ngày làm việc - - Thời hạn rà soát hồ sơ, ký kết biên bản thống nhất hoặc ra thông báo từ chối việc chia sẻ phần giảm doanh thu: trong vòng 45 ngày kể từ ngày nhận đủ hồ sơ.\n- Thời hạn gửi hồ sơ đề nghị Kiểm toán Nhà nước: trong vòng 10 ngày kể từ ngày các bên ký kết biên bản thống nhất.\n- Thời hạn gửi báo cáo cơ quan có thẩm quyền quyết định việc áp dụng chia sẻ phần giảm doanh thu: trong vòng 10 ngày kể từ ngày nhận được báo cáo kiểm toán của Kiểm toán Nhà nước (hoặc ngày nhận được báo cáo kết quả cập nhật).\n- Thời hạn xem xét, quyết định áp dụng chia sẻ phần giảm doanh thu: trong vòng 15 ngày kể từ ngày nhận được báo cáo của cơ quan ký kết hợp đồng.\n\nTrực tuyến: 80 ngày làm việc - - Thời hạn rà soát hồ sơ, ký kết biên bản thống nhất hoặc ra thông báo từ chối việc chia sẻ phần giảm doanh thu: trong vòng 45 ngày kể từ ngày nhận đủ hồ sơ.\n- Thời hạn gửi hồ sơ đề nghị Kiểm toán Nhà nước: trong vòng 10 ngày kể từ ngày các bên ký kết biên bản thống nhất.\n- Thời hạn gửi báo cáo cơ quan có thẩm quyền quyết định việc áp dụng chia sẻ phần giảm doanh thu: trong vòng 10 ngày kể từ ngày nhận được báo cáo kiểm toán của Kiểm toán Nhà nước (hoặc ngày nhận được báo cáo kết quả cập nhật).\n- Thời hạn xem xét, quyết định áp dụng chia sẻ phần giảm doanh thu: trong vòng 15 ngày kể từ ngày nhận được báo cáo của cơ quan ký kết hợp đồng.\n\nQua dịch vụ bưu chính: 80 ngày làm việc - - Thời hạn rà soát hồ sơ, ký kết biên bản thống nhất hoặc ra thông báo từ chối việc chia sẻ phần giảm doanh thu: trong vòng 45 ngày kể từ ngày nhận đủ hồ sơ.\n- Thời hạn gửi hồ sơ đề nghị Kiểm toán Nhà nước: trong vòng 10 ngày kể từ ngày các bên ký kết biên bản thống nhất.\n- Thời hạn gửi báo cáo cơ quan có thẩm quyền quyết định việc áp dụng chia sẻ phần giảm doanh thu: trong vòng 10 ngày kể từ ngày nhận được báo cáo kiểm toán của Kiểm toán Nhà nước (hoặc ngày nhận được báo cáo kết quả cập nhật).\n- Thời hạn xem xét, quyết định áp dụng chia sẻ phần giảm doanh thu: trong vòng 15 ngày kể từ ngày nhận được báo cáo của cơ quan ký kết hợp đồng.\n",
+    "TRÌNH TỰ THỰC HIỆN": "Nhà đầu tư, doanh nghiệp dự án gửi 01 bộ hồ sơ đề nghị chia sẻ phần giảm doanh thu đến cơ quan ký kết hợp đồng.\n- Trong vòng 45 ngày kể từ ngày nhận đủ hồ sơ, cơ quan ký kết hợp đồng thực hiện rà soát hồ sơ:\n+ Trường hợp phù hợp, cơ quan ký kết hợp đồng phối hợp với nhà đầu tư, doanh nghiệp dự án và bên cho vay ký kết biên bản thống nhất xác định tỷ lệ và mức vốn nhà nước chia sẻ phần giảm doanh thu, trách nhiệm của nhà đầu tư, doanh nghiệp dự án và bên cho vay;\n+ Trường hợp không phù hợp, cơ quan ký kết hợp đồng thông báo từ chối việc chia sẻ phần giảm doanh thu đến nhà đầu tư, doanh nghiệp dự án (trong đó nêu rõ lý do từ chối việc chia sẻ phần giảm doanh thu).\n- Trong vòng 10 ngày kể từ ngày các bên ký kết biên bản thống nhất, cơ quan ký kết hợp đồng đề nghị Kiểm toán Nhà nước thực hiện kiểm toán phần giảm doanh thu và số tiền Nhà nước chia sẻ phần giảm doanh thu.\n- Trường hợp cần thiết, cơ quan ký kết hợp đồng đề nghị nhà đầu tư, doanh nghiệp dự án đàm phán, thống nhất với bên cho vay cập nhật các nội dung bảo đảm phù hợp với báo cáo kiểm toán của Kiểm toán Nhà nước.\n- Trong vòng 10 ngày kể từ ngày nhận được báo cáo kiểm toán của Kiểm toán Nhà nước (hoặc ngày nhận được báo cáo kết quả cập nhật), cơ quan ký kết hợp đồng báo cáo cơ quan có thẩm quyền quyết định việc áp dụng chia sẻ phần giảm doanh thu, tỷ lệ và mức vốn nhà nước thực hiện chia sẻ doanh thu, trách nhiệm chia sẻ của nhà đầu tư, doanh nghiệp dự án và bên cho vay. Cơ quan có thẩm quyền xem xét, quyết định trong vòng 15 ngày kể từ ngày nhận được báo cáo của cơ quan ký kết hợp đồng.\n- Cơ quan ký kết hợp đồng phối hợp với nhà đầu tư, doanh nghiệp dự án thực hiện điều chỉnh hợp đồng dự án; nhà đầu tư, doanh nghiệp dự án phối hợp với bên cho vay thực hiện điều chỉnh hợp đồng tín dụng.",
+    "THÀNH PHẦN HỒ SƠ": "Hồ sơ Nhà đầu tư, doanh nghiệp dự án gửi đến Cơ quan ký kết hợp đồng: Văn bản đề nghị chia sẻ phần giảm doanh thu\nHồ sơ Nhà đầu tư, doanh nghiệp dự án gửi đến Cơ quan ký kết hợp đồng: Thuyết minh báo cáo về các nội dung: thông tin chung dự án; quá trình thực hiện hợp đồng; báo cáo về tỷ lệ sụt giảm doanh thu giữa doanh thu trong phương án tài chính và doanh thu thực tế trong 03 năm gần nhất; đánh giá nguyên nhân giảm doanh thu; thuyết minh việc đáp ứng các điều kiện chia sẻ phần giảm doanh thu; xác định tỷ lệ và mức vốn nhà nước chia sẻ phần giảm doanh thu; xác định trách nhiệm chia sẻ của nhà đầu tư, doanh nghiệp dự án và bên cho vay; kết quả tính toán phương án tài chính điều chỉnh; nội dung thống nhất giữa bên cho vay với nhà đầu tư, doanh nghiệp dự án; các nội dung cần thiết khác (nếu có)\nHồ sơ Nhà đầu tư, doanh nghiệp dự án gửi đến Cơ quan ký kết hợp đồng: Các tài liệu kèm theo: phương án tài chính dự kiến điều chỉnh; biên bản thống nhất giữa nhà đầu tư, doanh nghiệp dự án và bên cho vay\nHồ sơ cơ quan ký kết hợp đồng gửi đến Kiểm toán Nhà nước: Văn bản đề nghị Kiểm toán Nhà nước thực hiện kiểm toán phần giảm doanh thu và số tiền Nhà nước chia sẻ phần giảm doanh thu\nHồ sơ cơ quan ký kết hợp đồng gửi đến Kiểm toán Nhà nước: Hồ sơ Nhà đầu tư, doanh nghiệp dự án gửi đến Cơ quan ký kết hợp đồng\nHồ sơ cơ quan ký kết hợp đồng gửi đến Kiểm toán Nhà nước: Biên bản thống nhất biên bản thống nhất xác định tỷ lệ và mức vốn nhà nước chia sẻ phần giảm doanh thu\nHồ sơ cơ quan ký kết hợp đồng gửi đến Kiểm toán Nhà nước: Văn bản của cấp có thẩm quyền về chủ trương đầu tư; quyết định phê duyệt dự án; quyết định phê duyệt điều chỉnh dự án, điều chỉnh tổng mức đầu tư (nếu có); hợp đồng dự án BOT; các văn bản, tài liệu có liên quan (nếu có)",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 80 ngày làm việc\nTrực tuyến: 80 ngày làm việc\nQua dịch vụ bưu chính: 80 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 122/2026/NĐ-CP ngày 03 tháng 4 năm 2026 của Chính phủ quy định chi tiết về việc xử lý vướng mắc của dự án BOT giao thông. - 122/2026/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Bộ Xây dựng, Cục Đường bộ Việt Nam, Sở Tài chính các tỉnh, thành phố",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Phù hợp với quy định tại Điều 4, Điều 5, Điều 6 và Điều 7 Nghị định số 122/2026/NĐ-CP.",
@@ -192,14 +156,9 @@
     "MÔ TẢ": "Phù hợp với quy định tại Điều 4, Điều 5, Điều 6 và Điều 7 Nghị định số 122/2026/NĐ-CP."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đường bộ",
-      "slug": "duong-bo"
+      "slug": "uong-bo"
     },
     "implementation_levels": [
       {
@@ -224,7 +183,7 @@
       },
       {
         "name": "Cục Đường bộ Việt Nam",
-        "slug": "cuc-duong-bo-viet-nam"
+        "slug": "cuc-uong-bo-viet-nam"
       },
       {
         "name": "Sở Tài chính các tỉnh, thành phố",
@@ -239,6 +198,6 @@
         "slug": "so-xay-dung"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

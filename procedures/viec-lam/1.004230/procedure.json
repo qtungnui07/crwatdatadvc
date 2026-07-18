@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfd-cce9-7501-ab94-d3928ff8718e",
   "procedure_code": "1.004230",
   "title": "Cấp lại Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-cce9-7501-ab94-d3928ff8718e",
     "source_file": "chi-tiet-thu-tuc-1.004230.pdf",
     "source_path": "procedures/viec-lam/1.004230/chi-tiet-thu-tuc-1.004230.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:01.902895+00:00",
-    "source_updated_at": "2026-06-02T09:20:50.607Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:08.242330+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "f005e710e308cbe56b56c61154c592c2a5f7df72de82ce9772cd85c88c062e24"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:01.902895+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "821/QĐ-BVHTTDL",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Phát thanh, truyền hình và thông tin điện tử",
   "target_users": [
@@ -36,18 +32,15 @@
   ],
   "agency": {
     "competent_agency": "Bộ Văn hóa, Thể thao và Du lịch",
-    "executing_agency": "Cục Phát thanh, truyền hình và thông tin điện tử",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Phát thanh, truyền hình và thông tin điện tử"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Doanh nghiệp có nhu cầu gửi hồ sơ về Bộ VHTTDL (Cục Phát thanh, truyền hình và thông tin điện tử).\n- Trong thời hạn 08 (tám) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Bộ VHTTDL (Cục Phát thanh, truyền hình và thông tin điện tử) có trách nhiệm xét cấp lại Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền. Trường hợp không cấp Giấy phép, Bộ VHTTDL có văn bản trả lời nêu rõ lý do.\n",
+      "description": "- Doanh nghiệp có nhu cầu gửi hồ sơ về Bộ VHTTDL (Cục Phát thanh, truyền hình và thông tin điện tử).\n- Trong thời hạn 08 (tám) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Bộ VHTTDL (Cục Phát thanh, truyền hình và thông tin điện tử) có trách nhiệm xét cấp lại Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền. Trường hợp không cấp Giấy phép, Bộ VHTTDL có văn bản trả lời nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -56,21 +49,15 @@
     "conditional": [
       {
         "name": "Văn bản đề nghị cấp lại Giấy phép gửi đến Bộ Thông tin và Truyền thông",
-        "code": "000.00.00.G14-KQ001950",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Văn bản đề nghị phải nêu rõ số Giấy phép, ngày cấp của Giấy phép đã cấp và lý do đề nghị cấp lại Giấy phép. Trường hợp Giấy phép bị hư hỏng thì phải gửi kèm theo bản Giấy phép bị hư hỏng",
-        "code": "000.00.00.G14-KQ001951",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -79,35 +66,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "8 ngày làm việc",
-      "processing_time_value": 8,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "8 ngày làm việc",
-      "processing_time_value": 8,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -115,51 +82,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "8 ngày làm việc",
-      "processing_time_value": 8,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -167,26 +119,22 @@
     {
       "title": "Nghị định 71/2022/NĐ-CP",
       "document_number": "71/2022/NĐ-CP",
-      "id": "019d2bb3-5d87-7195-a445-11ca5010ee5b",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Viễn thông",
       "document_number": "41/2009/QH12",
-      "id": "019d2bb3-5d84-71c5-b672-ff0a7a1febcd",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư số 19/2016/TT-BTTTT ngày 30 tháng 6 năm 2016 của Bộ Thông tin và Truyền thông \tQuy định các biểu mẫu Tờ khai đăng ký, Đơn đề nghị cấp Giấy phép, Giấy Chứng nhận, Giấy phép và Báo cáo nghiệp vụ theo quy định tại Nghị định số 06/2016/NĐ-CP ngày 18 tháng 01 năm 2016 của Chính phủ về quản lý, cung cấp và sử dụng dịch vụ phát thanh, truyền hình",
       "document_number": "19/2016/TT-BTTTT",
-      "id": "019d2bb3-5d7c-71ab-9f04-a2f6a3dd61a6",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "QUẢN LÝ, CUNG CẤP VÀ SỬ DỤNG DỊCH VỤ PHÁT THANH, TRUYỀN HÌNH",
       "document_number": "06/2016/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe7-52a06d86a489",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "",
@@ -194,13 +142,12 @@
     {
       "title": "Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền",
       "code": "KQ.G14.000128",
-      "id": "019d2bb2-1c75-741b-9abe-cf3a0c4823ff",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Doanh nghiệp có nhu cầu gửi hồ sơ về Bộ VHTTDL (Cục Phát thanh, truyền hình và thông tin điện tử).\n- Trong thời hạn 08 (tám) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Bộ VHTTDL (Cục Phát thanh, truyền hình và thông tin điện tử) có trách nhiệm xét cấp lại Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền. Trường hợp không cấp Giấy phép, Bộ VHTTDL có văn bản trả lời nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nVăn bản đề nghị cấp lại Giấy phép gửi đến Bộ Thông tin và Truyền thông\nVăn bản đề nghị phải nêu rõ số Giấy phép, ngày cấp của Giấy phép đã cấp và lý do đề nghị cấp lại Giấy phép. Trường hợp Giấy phép bị hư hỏng thì phải gửi kèm theo bản Giấy phép bị hư hỏng",
+    "TRÌNH TỰ THỰC HIỆN": "- Doanh nghiệp có nhu cầu gửi hồ sơ về Bộ VHTTDL (Cục Phát thanh, truyền hình và thông tin điện tử).\n- Trong thời hạn 08 (tám) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Bộ VHTTDL (Cục Phát thanh, truyền hình và thông tin điện tử) có trách nhiệm xét cấp lại Giấy phép cung cấp dịch vụ phát thanh, truyền hình trả tiền. Trường hợp không cấp Giấy phép, Bộ VHTTDL có văn bản trả lời nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "Văn bản đề nghị cấp lại Giấy phép gửi đến Bộ Thông tin và Truyền thông\nVăn bản đề nghị phải nêu rõ số Giấy phép, ngày cấp của Giấy phép đã cấp và lý do đề nghị cấp lại Giấy phép. Trường hợp Giấy phép bị hư hỏng thì phải gửi kèm theo bản Giấy phép bị hư hỏng",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 8 ngày làm việc\nQua dịch vụ bưu chính: 8 ngày làm việc\nTrực tiếp: 8 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định 71/2022/NĐ-CP - 71/2022/NĐ-CP\nViễn thông - 41/2009/QH12\nThông tư số 19/2016/TT-BTTTT ngày 30 tháng 6 năm 2016 của Bộ Thông tin và Truyền thông \tQuy định các biểu mẫu Tờ khai đăng ký, Đơn đề nghị cấp Giấy phép, Giấy Chứng nhận, Giấy phép và Báo cáo nghiệp vụ theo quy định tại Nghị định số 06/2016/NĐ-CP ngày 18 tháng 01 năm 2016 của Chính phủ về quản lý, cung cấp và sử dụng dịch vụ phát thanh, truyền hình - 19/2016/TT-BTTTT\nQUẢN LÝ, CUNG CẤP VÀ SỬ DỤNG DỊCH VỤ PHÁT THANH, TRUYỀN HÌNH - 06/2016/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cục Phát thanh, truyền hình và thông tin điện tử",
@@ -210,14 +157,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Phát thanh, truyền hình và thông tin điện tử",
-      "slug": "phat-thanh-truyen-hinh-va-thong-tin-dien-tu"
+      "slug": "phat-thanh-truyen-hinh-va-thong-tin-ien-tu"
     },
     "implementation_levels": [
       {
@@ -238,9 +180,9 @@
     "agencies": [
       {
         "name": "Cục Phát thanh, truyền hình và thông tin điện tử",
-        "slug": "cuc-phat-thanh-truyen-hinh-va-thong-tin-dien-tu"
+        "slug": "cuc-phat-thanh-truyen-hinh-va-thong-tin-ien-tu"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

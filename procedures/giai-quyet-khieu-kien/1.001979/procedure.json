@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfd-4f6e-74cf-86ae-aeb81d24d904",
   "procedure_code": "1.001979",
   "title": "Cấp lại Giấy phép thành lập chi nhánh, công ty luật nước ngoài",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-4f6e-74cf-86ae-aeb81d24d904",
     "source_file": "chi-tiet-thu-tuc-1.001979.pdf",
     "source_path": "procedures/giai-quyet-khieu-kien/1.001979/chi-tiet-thu-tuc-1.001979.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:21:59.960784+00:00",
-    "source_updated_at": "2026-04-23T11:20:11.023Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:01.233791+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "2f3a1e9535bb510f70823e2cd1c2c904ff9d2e74514b5ab68e50e06d27985bd8"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:59.960784+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "517/QĐ-BTP",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Luật sư",
   "target_users": [
@@ -35,36 +31,24 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cục Bổ trợ tư pháp",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Bổ trợ tư pháp"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Trong trường hợp Giấy phép thành lập chi nhánh, công ty luật nước ngoài bị mất, bị rách, bị cháy hoặc vì lý do khách quan mà thông tin trên Giấy phép thành lập bị thay đổi thì chi nhánh, công ty luật nước ngoài gửi trực tiếp hoặc qua dịch vụ bưu chính đến Cục Bổ trợ tư pháp, Bộ Tư pháp hoặc trực tuyến trên Cổng dịch vụ công quốc gia.\nTrong thời hạn 10 ngày làm việc kể từ ngày nhận được văn bản đề nghị cấp lại Giấy phép thành lập, Cục trưởng Cục Bổ trợ tư pháp, Bộ Tư pháp xem xét cấp lại Giấy phép thành lập chi nhánh, công ty luật nước ngoài; trường hợp từ chối phải thông báo bằng văn bản và nêu rõ lý do. \n",
+      "description": "Trong trường hợp Giấy phép thành lập chi nhánh, công ty luật nước ngoài bị mất, bị rách, bị cháy hoặc vì lý do khách quan mà thông tin trên Giấy phép thành lập bị thay đổi thì chi nhánh, công ty luật nước ngoài gửi trực tiếp hoặc qua dịch vụ bưu chính đến Cục Bổ trợ tư pháp, Bộ Tư pháp hoặc trực tuyến trên Cổng dịch vụ công quốc gia.\nTrong thời hạn 10 ngày làm việc kể từ ngày nhận được văn bản đề nghị cấp lại Giấy phép thành lập, Cục trưởng Cục Bổ trợ tư pháp, Bộ Tư pháp xem xét cấp lại Giấy phép thành lập chi nhánh, công ty luật nước ngoài; trường hợp từ chối phải thông báo bằng văn bản và nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Văn bản đề nghị cấp lại Giấy phép thành lập chi nhánh, công ty luật nước ngoài",
-        "code": "000.00.00.G15-KQ004661",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d9acd-b1c6-7432-bcdd-3016aa8ea95a",
-            "name": "Mẫu số 09-PLIII-LS.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 09-PLIII-LS.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -75,87 +59,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 20000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "(áp dụng mức phí 10.000.000 đồng/hồ sơ kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo Thông tư số 64/2025/TT-BTC)",
-          "attachment": null
-        }
-      ],
+      "fee": "(áp dụng mức phí 10.000.000 đồng/hồ sơ kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo Thông tư số 64/2025/TT-BTC)",
       "description": "",
-      "source_page": null
+      "source_page": 1
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 20000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "(áp dụng mức phí 10.000.000 đồng/hồ sơ kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo Thông tư số 64/2025/TT-BTC)",
-          "attachment": null
-        }
-      ],
+      "fee": "(áp dụng mức phí 10.000.000 đồng/hồ sơ kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo Thông tư số 64/2025/TT-BTC)",
       "description": "",
-      "source_page": null
+      "source_page": 1
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 20000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "(áp dụng mức phí 10.000.000 đồng/hồ sơ kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo Thông tư số 64/2025/TT-BTC)",
-          "attachment": null
-        }
-      ],
+      "fee": "(áp dụng mức phí 10.000.000 đồng/hồ sơ kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo Thông tư số 64/2025/TT-BTC)",
       "description": "",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "(áp dụng mức phí 10.000.000 đồng/hồ sơ kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo Thông tư số 64/2025/TT-BTC)",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 20000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "(áp dụng mức phí 10.000.000 đồng/hồ sơ kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo Thông tư số 64/2025/TT-BTC)",
-        "attachment": null
+        "amount_text": "(áp dụng mức phí 10.000.000 đồng/hồ sơ kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo Thông tư số 64/2025/TT-BTC)",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 20000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "(áp dụng mức phí 10.000.000 đồng/hồ sơ kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo Thông tư số 64/2025/TT-BTC)",
-        "attachment": null
+        "amount_text": "(áp dụng mức phí 10.000.000 đồng/hồ sơ kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo Thông tư số 64/2025/TT-BTC)",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 20000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "(áp dụng mức phí 10.000.000 đồng/hồ sơ kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo Thông tư số 64/2025/TT-BTC)",
-        "attachment": null
+        "amount_text": "(áp dụng mức phí 10.000.000 đồng/hồ sơ kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo Thông tư số 64/2025/TT-BTC)",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -163,32 +112,27 @@
     {
       "title": "Thông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân",
       "document_number": "64/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-69cce97f8824",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Luật 65/2006/QH11",
       "document_number": "65/2006/QH11",
-      "id": "019d2bb3-5d84-71c5-b673-e35e393d0c28",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư số 08/2025/TT-BTP ngày 12/6/2025 của Bộ trưởng Bộ Tư pháp quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp và phân cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp",
       "document_number": "08/2025/TT-BTP",
-      "id": "019d2bb3-5d86-7760-a63b-4a861344d691",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư số 220/2016/TT-BTC của Bộ trưởng Bộ Tài chính ngày 10/11/2016 quy định mức thu, chế độ thu, nộp, quản lý phí, lệ phí trong lĩnh vực hoạt động luật sư",
       "document_number": "220/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be48-16487abac133",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Luật 20/2012/QH13",
       "document_number": "20/2012/QH13",
-      "id": "019d2bb3-5d84-71c5-b672-05ecd30521ff",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "",
@@ -196,13 +140,12 @@
     {
       "title": "Giấy phép thành lập chi nhánh, công ty luật nước ngoài",
       "code": "KQ.G15.000117",
-      "id": "019d2bb2-1c78-7725-a750-ae2d9b82578a",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Trong trường hợp Giấy phép thành lập chi nhánh, công ty luật nước ngoài bị mất, bị rách, bị cháy hoặc vì lý do khách quan mà thông tin trên Giấy phép thành lập bị thay đổi thì chi nhánh, công ty luật nước ngoài gửi trực tiếp hoặc qua dịch vụ bưu chính đến Cục Bổ trợ tư pháp, Bộ Tư pháp hoặc trực tuyến trên Cổng dịch vụ công quốc gia.\nTrong thời hạn 10 ngày làm việc kể từ ngày nhận được văn bản đề nghị cấp lại Giấy phép thành lập, Cục trưởng Cục Bổ trợ tư pháp, Bộ Tư pháp xem xét cấp lại Giấy phép thành lập chi nhánh, công ty luật nước ngoài; trường hợp từ chối phải thông báo bằng văn bản và nêu rõ lý do. \n",
-    "THÀNH PHẦN HỒ SƠ": "\nVăn bản đề nghị cấp lại Giấy phép thành lập chi nhánh, công ty luật nước ngoài",
+    "TRÌNH TỰ THỰC HIỆN": "Trong trường hợp Giấy phép thành lập chi nhánh, công ty luật nước ngoài bị mất, bị rách, bị cháy hoặc vì lý do khách quan mà thông tin trên Giấy phép thành lập bị thay đổi thì chi nhánh, công ty luật nước ngoài gửi trực tiếp hoặc qua dịch vụ bưu chính đến Cục Bổ trợ tư pháp, Bộ Tư pháp hoặc trực tuyến trên Cổng dịch vụ công quốc gia.\nTrong thời hạn 10 ngày làm việc kể từ ngày nhận được văn bản đề nghị cấp lại Giấy phép thành lập, Cục trưởng Cục Bổ trợ tư pháp, Bộ Tư pháp xem xét cấp lại Giấy phép thành lập chi nhánh, công ty luật nước ngoài; trường hợp từ chối phải thông báo bằng văn bản và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "Văn bản đề nghị cấp lại Giấy phép thành lập chi nhánh, công ty luật nước ngoài",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày làm việc\nQua dịch vụ bưu chính: 10 ngày làm việc\nTrực tiếp: 10 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Thông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân - 64/2025/TT-BTC\nLuật 65/2006/QH11 - 65/2006/QH11\nThông tư số 08/2025/TT-BTP ngày 12/6/2025 của Bộ trưởng Bộ Tư pháp quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp và phân cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp - 08/2025/TT-BTP\nThông tư số 220/2016/TT-BTC của Bộ trưởng Bộ Tài chính ngày 10/11/2016 quy định mức thu, chế độ thu, nộp, quản lý phí, lệ phí trong lĩnh vực hoạt động luật sư - 220/2016/TT-BTC\nLuật 20/2012/QH13 - 20/2012/QH13",
     "CƠ QUAN THỰC HIỆN": "Cục Bổ trợ tư pháp",
@@ -212,11 +155,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Giải quyết khiếu kiện",
-      "slug": "giai-quyet-khieu-kien",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Luật sư",
       "slug": "luat-su"
@@ -239,6 +177,6 @@
         "slug": "cuc-bo-tro-tu-phap"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfe-4270-70cf-acdc-01ba179e6c01",
   "procedure_code": "1.004372",
   "title": "Cấp lại Giấy phép và năng định cho nhân viên sửa chữa chuyên ngành hàng không (ARS)",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-4270-70cf-acdc-01ba179e6c01",
     "source_file": "chi-tiet-thu-tuc-1.004372.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.004372/chi-tiet-thu-tuc-1.004372.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:02.168661+00:00",
-    "source_updated_at": "2026-04-16T12:38:23.405Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:45.879555+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "f98caaef6e617f182c3338af140d7318131c9a37999c9ff8e02a862ef4bcfe6c"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:02.168661+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2533/QĐ-BXD",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hàng không",
   "target_users": [
@@ -37,72 +33,45 @@
   ],
   "agency": {
     "competent_agency": "Cục Hàng không Việt Nam",
-    "executing_agency": "Cục Hàng không Việt Nam",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "119 Nguyễn Sơn, phường Bồ Đề, thành phố Hà Nội"
+    "executing_agency": "Cục Hàng không Việt Nam"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "a) Nộp hồ sơ thủ tục hành chính:\nNgười đề nghị phải hoàn thành 01 bộ hồ sơ nộp trực tiếp hoặc qua hệ thống bưu chính hoặc qua hệ thống dịch vụ công trực tuyến đến Cục Hàng không Việt Nam và phải chịu trách nhiệm về các thông tin trong hồ sơ.\nb) Giải quyết thủ tục hành chính:\nTrong thời hạn 06 ngày, kể từ thời điểm nhận đủ hồ sơ, Cục Hàng không Việt Nam có trách nhiệm thẩm định hồ sơ, tổ chức kiểm tra và thực hiện việc cấp lại, gia hạn năng định phù hợp.\n",
+      "description": "a) Nộp hồ sơ thủ tục hành chính:\nNgười đề nghị phải hoàn thành 01 bộ hồ sơ nộp trực tiếp hoặc qua hệ thống bưu chính hoặc qua hệ thống dịch vụ công trực tuyến đến Cục Hàng không Việt Nam và phải chịu trách nhiệm về các thông tin trong hồ sơ.\nb) Giải quyết thủ tục hành chính:\nTrong thời hạn 06 ngày, kể từ thời điểm nhận đủ hồ sơ, Cục Hàng không Việt Nam có trách nhiệm thẩm định hồ sơ, tổ chức kiểm tra và thực hiện việc cấp lại, gia hạn năng định phù hợp.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "- Bản sao hoặc biểu mẫu điện tử đơn đề nghị cấp lại theo mẫu.",
-        "code": "000.00.00.G04-KQ004146",
+        "name": "Trong trường hợp Giấy phép hết hạn: - Bản sao hoặc biểu mẫu điện tử đơn đề nghị cấp lại theo mẫu.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trong trường hợp Giấy phép hết hạn",
-        "attachments": [
-          {
-            "id": "019d9242-4959-7446-a494-8736cf69458b",
-            "name": "1.004372.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "1.004372.docx",
+        "source_page": 2
       },
       {
-        "name": "- Bản sao hoặc biểu mẫu điện tử đơn đề nghị cấp lại theo mẫu.",
-        "code": "000.00.00.G04-KQ004148",
+        "name": "Trong trường hợp Giấy phép mất, rách.: - Bản sao hoặc biểu mẫu điện tử đơn đề nghị cấp lại theo mẫu.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trong trường hợp Giấy phép mất, rách.",
-        "attachments": [
-          {
-            "id": "019d9242-964e-77dd-84de-ead85e43bf5e",
-            "name": "1.004372.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "1.004372.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "- Bản sao hoặc bản sao điện tử tài liệu duy trì kinh nghiệm với các nội dung áp dụng cho năng định của người đề nghị.",
-        "code": "000.00.00.G04-KQ004147",
+        "name": "Trong trường hợp Giấy phép hết hạn: - Bản sao hoặc bản sao điện tử tài liệu duy trì kinh nghiệm với các nội dung áp dụng cho năng định của người đề nghị.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trong trường hợp Giấy phép hết hạn",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Bản sao hoặc bản sao điện tử giấy phép và năng định đã được cấp (nếu có).",
-        "code": "000.00.00.G04-KQ004149",
+        "name": "Trong trường hợp Giấy phép mất, rách.: - Bản sao hoặc bản sao điện tử giấy phép và năng định đã được cấp (nếu có).",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trong trường hợp Giấy phép mất, rách.",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -111,87 +80,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "6 ngày",
-      "processing_time_value": 6,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "6 ngày, kể từ ngày nhận được hồ sơ hợp lệ.",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "6 ngày",
-      "processing_time_value": 6,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "6 ngày, kể từ ngày nhận được hồ sơ hợp lệ.",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "6 ngày",
-      "processing_time_value": 6,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "6 ngày, kể từ ngày nhận được hồ sơ hợp lệ.",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       }
     ]
   },
@@ -199,56 +133,47 @@
     {
       "title": "Thông tư sửa đổi, bổ sung một số điều của Bộ quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay",
       "document_number": "56/2018/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9eff-381a3d04a81d",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật 61/2014/QH13",
       "document_number": "61/2014/QH13",
-      "id": "019d2bb3-5d84-71c5-b670-c71b96f6d323",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư 11/2022/TT-BGTVT",
       "document_number": "11/2022/TT-BGTVT",
-      "id": "019d2bb3-5d86-7760-a63d-276c6c8ae67c",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Thông tư số 01/2011/TT-BGTVT ngày 27 tháng 01 năm 2011 của Bộ trưởng Bộ Giao thông vận tải ban hành Bộ Quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay",
       "document_number": "03/2016/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9efc-7cb4244dc2af",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư 42/2020/TT-BGTVT",
       "document_number": "42/2020/TT-BGTVT",
-      "id": "019d2bb3-5d87-7195-a441-197c1ed4c448",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của các Thông tư trong lĩnh vực hàng không dân dụng",
       "document_number": "28/2023/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9efd-e7336e177bb6",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "LUẬT HÀNG KHÔNG DÂN DỤNG VIỆT NAM",
       "document_number": "130/2025/QH15",
-      "id": "019d2bb3-5d84-71c5-b673-eb8f88e8cb17",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư sửa đổi, bổ sung một số điều của các Thông tư để cắt giảm, đơn giản hóa thủ tục hành chính trong lĩnh vực đăng kiểm đường bộ, hàng không dân dụng và thanh tra thuộc phạm vi quản lý của Bộ Xây dựng",
       "document_number": "71/2025/TT-BXD",
-      "id": "019d2bb3-5d7e-72d1-afe1-e85ed69c2c4c",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Ban hành Bộ quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay",
       "document_number": "01/2011/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9efc-64166e2f4b36",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Người làm đơn đề nghị cấp lại giấy phép nhân viên phải nộp hồ sơ tối thiểu 10 ngày trước ngày hết hạn của giấy phép đã được cấp.\nTrường hợp giấy phép bị mất, bị rách, người làm đơn đề nghị cấp lại giấy phép nhân viên trong phải nộp hồ sơ đến Cục Hàng không Việt Nam tối thiểu 7 ngày làm việc.",
@@ -256,14 +181,13 @@
     {
       "title": "Giấy phép và năng định nhân viên AMT/ARS",
       "code": "000.00.00.G04-KQ1786",
-      "id": "019d9243-1e7a-73e7-a84c-cd2fcfa85a9e",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "a) Nộp hồ sơ thủ tục hành chính:\nNgười đề nghị phải hoàn thành 01 bộ hồ sơ nộp trực tiếp hoặc qua hệ thống bưu chính hoặc qua hệ thống dịch vụ công trực tuyến đến Cục Hàng không Việt Nam và phải chịu trách nhiệm về các thông tin trong hồ sơ.\nb) Giải quyết thủ tục hành chính:\nTrong thời hạn 06 ngày, kể từ thời điểm nhận đủ hồ sơ, Cục Hàng không Việt Nam có trách nhiệm thẩm định hồ sơ, tổ chức kiểm tra và thực hiện việc cấp lại, gia hạn năng định phù hợp.\n",
-    "THÀNH PHẦN HỒ SƠ": "Trong trường hợp Giấy phép hết hạn\n- Bản sao hoặc bản sao điện tử tài liệu duy trì kinh nghiệm với các nội dung áp dụng cho năng định của người đề nghị.\n- Bản sao hoặc biểu mẫu điện tử đơn đề nghị cấp lại theo mẫu.\nTrong trường hợp Giấy phép mất, rách.\n- Bản sao hoặc biểu mẫu điện tử đơn đề nghị cấp lại theo mẫu.\n- Bản sao hoặc bản sao điện tử giấy phép và năng định đã được cấp (nếu có).",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 6 ngày - 6 ngày, kể từ ngày nhận được hồ sơ hợp lệ.\nQua dịch vụ bưu chính: 6 ngày - 6 ngày, kể từ ngày nhận được hồ sơ hợp lệ.\nTrực tiếp: 6 ngày - 6 ngày, kể từ ngày nhận được hồ sơ hợp lệ.",
+    "TRÌNH TỰ THỰC HIỆN": "a) Nộp hồ sơ thủ tục hành chính:\nNgười đề nghị phải hoàn thành 01 bộ hồ sơ nộp trực tiếp hoặc qua hệ thống bưu chính hoặc qua hệ thống dịch vụ công trực tuyến đến Cục Hàng không Việt Nam và phải chịu trách nhiệm về các thông tin trong hồ sơ.\nb) Giải quyết thủ tục hành chính:\nTrong thời hạn 06 ngày, kể từ thời điểm nhận đủ hồ sơ, Cục Hàng không Việt Nam có trách nhiệm thẩm định hồ sơ, tổ chức kiểm tra và thực hiện việc cấp lại, gia hạn năng định phù hợp.",
+    "THÀNH PHẦN HỒ SƠ": "Trong trường hợp Giấy phép hết hạn: - Bản sao hoặc biểu mẫu điện tử đơn đề nghị cấp lại theo mẫu.\nTrong trường hợp Giấy phép mất, rách.: - Bản sao hoặc biểu mẫu điện tử đơn đề nghị cấp lại theo mẫu.\nTrong trường hợp Giấy phép hết hạn: - Bản sao hoặc bản sao điện tử tài liệu duy trì kinh nghiệm với các nội dung áp dụng cho năng định của người đề nghị.\nTrong trường hợp Giấy phép mất, rách.: - Bản sao hoặc bản sao điện tử giấy phép và năng định đã được cấp (nếu có).",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 6 ngày\nQua dịch vụ bưu chính: 6 ngày\nTrực tiếp: 6 ngày",
     "CĂN CỨ PHÁP LÝ": "Thông tư sửa đổi, bổ sung một số điều của Bộ quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay - 56/2018/TT-BGTVT\nLuật 61/2014/QH13 - 61/2014/QH13\nThông tư 11/2022/TT-BGTVT - 11/2022/TT-BGTVT\nSửa đổi, bổ sung một số điều của Thông tư số 01/2011/TT-BGTVT ngày 27 tháng 01 năm 2011 của Bộ trưởng Bộ Giao thông vận tải ban hành Bộ Quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay - 03/2016/TT-BGTVT\nThông tư 42/2020/TT-BGTVT - 42/2020/TT-BGTVT\nSửa đổi, bổ sung một số điều của các Thông tư trong lĩnh vực hàng không dân dụng - 28/2023/TT-BGTVT\nLUẬT HÀNG KHÔNG DÂN DỤNG VIỆT NAM - 130/2025/QH15\nThông tư sửa đổi, bổ sung một số điều của các Thông tư để cắt giảm, đơn giản hóa thủ tục hành chính trong lĩnh vực đăng kiểm đường bộ, hàng không dân dụng và thanh tra thuộc phạm vi quản lý của Bộ Xây dựng - 71/2025/TT-BXD\nBan hành Bộ quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay - 01/2011/TT-BGTVT",
     "CƠ QUAN THỰC HIỆN": "Cục Hàng không Việt Nam",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Người làm đơn đề nghị cấp lại giấy phép nhân viên phải nộp hồ sơ tối thiểu 10 ngày trước ngày hết hạn của giấy phép đã được cấp.\nTrường hợp giấy phép bị mất, bị rách, người làm đơn đề nghị cấp lại giấy phép nhân viên trong phải nộp hồ sơ đến Cục Hàng không Việt Nam tối thiểu 7 ngày làm việc.",
@@ -272,11 +196,6 @@
     "MÔ TẢ": "Người làm đơn đề nghị cấp lại giấy phép nhân viên phải nộp hồ sơ tối thiểu 10 ngày trước ngày hết hạn của giấy phép đã được cấp.\nTrường hợp giấy phép bị mất, bị rách, người làm đơn đề nghị cấp lại giấy phép nhân viên trong phải nộp hồ sơ đến Cục Hàng không Việt Nam tối thiểu 7 ngày làm việc."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hàng không",
       "slug": "hang-khong"
@@ -290,7 +209,7 @@
     "target_users": [
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -307,6 +226,6 @@
         "slug": "cuc-hang-khong-viet-nam"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

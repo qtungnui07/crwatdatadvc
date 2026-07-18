@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfe-c787-714e-9bd0-86110a9ff70f",
   "procedure_code": "1.002155",
   "title": "Cấp mới số lưu hành trang thiết bị y tế thuộc loại C, D thuộc trường hợp cấp nhanh",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-c787-714e-9bd0-86110a9ff70f",
     "source_file": "chi-tiet-thu-tuc-1.002155.pdf",
     "source_path": "procedures/suc-khoe-va-y-te/1.002155/chi-tiet-thu-tuc-1.002155.pdf",
     "page_count": 12,
-    "extracted_at": "2026-07-18T02:22:00.112629+00:00",
-    "source_updated_at": "2026-05-15T07:00:53.060Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:10.692897+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "706a2ebb5b2b7963b23d54093bc4f8add74c1f92274fe234b8dfa5d79bf616e3"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:00.112629+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "3618/QĐ-BYT",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thiết bị y tế",
   "target_users": [
@@ -38,156 +34,121 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cục Hạ tầng và Thiết bị y tế - Bộ Y tế",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Hạ tầng và Thiết bị y tế - Bộ Y tế"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Tổ chức đề nghị cấp số lưu hành nộp hồ sơ cho Bộ Y tế thông qua  Hệ thống thông tin giải quyết thủ tục hành chính Bộ Y tế (https://dichvucong.moh.gov.vn) hoặc Cổng thông tin điện tử về quản lý thiết bị y tế (https://dmec.moh.gov.vn/).\nBước 2: \na) Trường hợp hồ sơ thuộc trường hợp ưu tiên theo quy định tại khoản 21, Điều 147 Nghị định số 96/2023/NĐ-CP ngày 30 tháng 12 năm 2023 của Chính phủ quy định chi tiết một số điều của Luật Khám bệnh, chữa bệnh và cơ sở đăng ký có văn bản đề nghị ưu tiên xử lý trước (trong đó có đủ thông tin về mã hồ sơ đã nộp trên cổng thông tin điện tử của Bộ Y tế; tài liệu chứng minh tương ứng với các trường hợp ưu tiên) thì Bộ Y tế xem xét, cho phép xử lý ưu tiên hồ sơ đăng ký lưu hành thiết bị y tế trong thời hạn 10 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của cơ sở đăng ký đề nghị ưu tiên xử lý trước hồ sơ đăng ký lưu hành thiết bị y tế và tài liệu kèm theo. Trường hợp không cho phép xử lý ưu tiên phải có văn bản trả lời và nêu rõ lý do. Trường hợp hồ sơ đủ tiêu chuẩn ưu tiên theo quy định, thực hiện ưu tiên thẩm định ngay hồ sơ theo quy định tại Bước 3 và các bước tiếp theo. \nb) Trường hợp hồ sơ không thuộc trường hợp ưu tiên thực hiện theo quy định tại Bước 3.\nBước 3: Trường hợp không có yêu cầu sửa đổi, bổ sung hồ sơ đăng ký lưu hành, Bộ trưởng Bộ Y tế có trách nhiệm: Tổ chức thẩm định để cấp số lưu hành trong thời hạn 10 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ (bao gồm cả giấy tờ xác nhận đã nộp phí thẩm định cấp giấy phép lưu hành theo quy định của Bộ Tài chính). Trường hợp không cấp số lưu hành phải có văn bản trả lời và nêu rõ lý do.\nTrường hợp hồ sơ đăng ký lưu hành chưa hoàn chỉnh thì Bộ Y tế phải thông báo cho tổ chức đề nghị cấp số lưu hành để bổ sung, sửa đổi hồ sơ đăng ký lưu hành, trong đó phải nêu cụ thể là bổ sung những tài liệu nào, nội dung nào cần sửa đổi trong thời hạn 12 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ.\nBước 4: Khi nhận được yêu cầu bổ sung, sửa đổi hồ sơ đề nghị cấp số lưu hành, cơ sở đề nghị cấp số lưu hành phải bổ sung, sửa đổi theo đúng những nội dung đã thông báo và gửi về Bộ Y tế.\nTrường hợp cơ sở đề nghị cấp số lưu hành đã bổ sung, sửa đổi hồ sơ nhưng không đúng với yêu cầu thì Bộ Y tế sẽ thông báo cho cơ sở để tiếp tục hoàn chỉnh hồ sơ theo quy định.\nSau 90 ngày, kể từ ngày Bộ Y tế có thông báo yêu cầu mà cơ sở không bổ sung, sửa đổi hồ sơ hoặc nếu sau 03 lần sửa đổi, bổ sung hồ sơ kể từ ngày Bộ Y tế có yêu cầu sửa đổi, bổ sung lần đầu mà hồ sơ vẫn không đáp ứng yêu cầu thì phải thực hiện lại từ đầu thủ tục đề nghị cấp số lưu hành.\nBước 5: Trong thời hạn 01 ngày làm việc, kể từ ngày cấp số lưu hành, Bộ Y tế có trách nhiệm công khai trên Cổng thông tin điện tử về quản lý thiết bị y tế các thông tin sau:\na) Tên, phân loại, cơ sở sản xuất, nước sản xuất thiết bị y tế;\nb) Số lưu hành của thiết bị y tế;\nc) Tên, địa chỉ của chủ sở hữu thiết bị y tế;\nd) Tên, địa chỉ của chủ sở hữu số lưu hành;\nđ) Tên, địa chỉ của cơ sở bảo hành thiết bị y tế;\ne) Các tài liệu trong hồ sơ đăng ký lưu hành của thiết bị y tế, trừ Hồ sơ kỹ thuật chung về thiết bị y tế theo quy định của ASEAN.\n",
+      "description": "Bước 1: Tổ chức đề nghị cấp số lưu hành nộp hồ sơ cho Bộ Y tế thông qua  Hệ thống thông tin giải quyết thủ tục hành chính Bộ Y tế (https://dichvucong.moh.gov.vn) hoặc Cổng thông tin điện tử về quản lý thiết bị y tế (https://dmec.moh.gov.vn/).",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: \na) Trường hợp hồ sơ thuộc trường hợp ưu tiên theo quy định tại khoản 21, Điều 147 Nghị định số 96/2023/NĐ-CP ngày 30 tháng 12 năm 2023 của Chính phủ quy định chi tiết một số điều của Luật Khám bệnh, chữa bệnh và cơ sở đăng ký có văn bản đề nghị ưu tiên xử lý trước (trong đó có đủ thông tin về mã hồ sơ đã nộp trên cổng thông tin điện tử của Bộ Y tế; tài liệu chứng minh tương ứng với các trường hợp ưu tiên) thì Bộ Y tế xem xét, cho phép xử lý ưu tiên hồ sơ đăng ký lưu hành thiết bị y tế trong thời hạn 10 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của cơ sở đăng ký đề nghị ưu tiên xử lý trước hồ sơ đăng ký lưu hành thiết bị y tế và tài liệu kèm theo. Trường hợp không cho phép xử lý ưu tiên phải có văn bản trả lời và nêu rõ lý do. Trường hợp hồ sơ đủ tiêu chuẩn ưu tiên theo quy định, thực hiện ưu tiên thẩm định ngay hồ sơ theo quy định tại Bước 3 và các bước tiếp theo. \nb) Trường hợp hồ sơ không thuộc trường hợp ưu tiên thực hiện theo quy định tại Bước 3.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Trường hợp không có yêu cầu sửa đổi, bổ sung hồ sơ đăng ký lưu hành, Bộ trưởng Bộ Y tế có trách nhiệm: Tổ chức thẩm định để cấp số lưu hành trong thời hạn 10 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ (bao gồm cả giấy tờ xác nhận đã nộp phí thẩm định cấp giấy phép lưu hành theo quy định của Bộ Tài chính). Trường hợp không cấp số lưu hành phải có văn bản trả lời và nêu rõ lý do.\nTrường hợp hồ sơ đăng ký lưu hành chưa hoàn chỉnh thì Bộ Y tế phải thông báo cho tổ chức đề nghị cấp số lưu hành để bổ sung, sửa đổi hồ sơ đăng ký lưu hành, trong đó phải nêu cụ thể là bổ sung những tài liệu nào, nội dung nào cần sửa đổi trong thời hạn 12 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "Bước 4: Khi nhận được yêu cầu bổ sung, sửa đổi hồ sơ đề nghị cấp số lưu hành, cơ sở đề nghị cấp số lưu hành phải bổ sung, sửa đổi theo đúng những nội dung đã thông báo và gửi về Bộ Y tế.\nTrường hợp cơ sở đề nghị cấp số lưu hành đã bổ sung, sửa đổi hồ sơ nhưng không đúng với yêu cầu thì Bộ Y tế sẽ thông báo cho cơ sở để tiếp tục hoàn chỉnh hồ sơ theo quy định.\nSau 90 ngày, kể từ ngày Bộ Y tế có thông báo yêu cầu mà cơ sở không bổ sung, sửa đổi hồ sơ hoặc nếu sau 03 lần sửa đổi, bổ sung hồ sơ kể từ ngày Bộ Y tế có yêu cầu sửa đổi, bổ sung lần đầu mà hồ sơ vẫn không đáp ứng yêu cầu thì phải thực hiện lại từ đầu thủ tục đề nghị cấp số lưu hành.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 5,
+      "title": "Bước 5",
+      "description": "Bước 5: Trong thời hạn 01 ngày làm việc, kể từ ngày cấp số lưu hành, Bộ Y tế có trách nhiệm công khai trên Cổng thông tin điện tử về quản lý thiết bị y tế các thông tin sau:\na) Tên, phân loại, cơ sở sản xuất, nước sản xuất thiết bị y tế;\nb) Số lưu hành của thiết bị y tế;\nc) Tên, địa chỉ của chủ sở hữu thiết bị y tế;\nd) Tên, địa chỉ của chủ sở hữu số lưu hành;\nđ) Tên, địa chỉ của cơ sở bảo hành thiết bị y tế;\ne) Các tài liệu trong hồ sơ đăng ký lưu hành của thiết bị y tế, trừ Hồ sơ kỹ thuật chung về thiết bị y tế theo quy định của ASEAN.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Văn bản đề nghị Cấp mới số lưu hành trang thiết bị y tế thuộc loại C, D thuộc trường hợp cấp nhanh theo Mẫu số 03.03 quy định tại Phụ lục I ban hành kèm theo Thông tư 10/2023/TT-BYT.",
-        "code": "000.00.00.G18-KQ004052",
+        "name": "Trường hợp xử lý bình thường:: Văn bản đề nghị Cấp mới số lưu hành trang thiết bị y tế thuộc loại C, D thuộc trường hợp cấp nhanh theo Mẫu số 03.03 quy định tại Phụ lục I ban hành kèm theo Thông tư 10/2023/TT-BYT.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp xử lý bình thường:",
-        "attachments": [
-          {
-            "id": "019e29fa-b835-7055-8bb7-9332525fb321",
-            "name": "Phụ lục I 3.3.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục I 3.3.docx",
+        "source_page": 3
       },
       {
-        "name": "Giấy xác nhận đủ điều kiện bảo hành quy định tại phụ lục VII ban hành kèm theo Thông tư 19/2021/TT-BYT do chủ sở hữu trang thiết bị y tế cấp, trừ trường hợp trang thiết bị y tế sử dụng một lần theo quy định của chủ sở hữu trang thiết bị y tế hoặc có tài liệu chứng minh không có chế độ bảo hành.",
-        "code": "000.00.00.G18-KQ004055",
+        "name": "Trường hợp xử lý bình thường:: Giấy xác nhận đủ điều kiện bảo hành quy định tại phụ lục VII ban hành kèm theo Thông tư 19/2021/TT-BYT do chủ sở hữu trang thiết bị y tế cấp, trừ trường hợp trang thiết bị y tế sử dụng một lần theo quy định của chủ sở hữu trang thiết bị y tế hoặc có tài liệu chứng minh không có chế độ bảo hành.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp xử lý bình thường:",
-        "attachments": [
-          {
-            "id": "019e29fc-d366-75c8-9fda-4c0f3d5510b7",
-            "name": "Phụ lục III 2962QĐBYT (1).docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục III 2962QĐBYT (1).docx",
+        "source_page": 3
       },
       {
-        "name": "Hồ sơ kỹ thuật chung về trang thiết bị y tế theo quy định của ASEAN (hồ sơ CSDT) đối với hồ sơ nộp từ ngày 01/01/2024",
-        "code": "000.00.00.G18-KQ004059",
+        "name": "Trường hợp xử lý bình thường:: Hồ sơ kỹ thuật chung về trang thiết bị y tế theo quy định của ASEAN (hồ sơ CSDT) đối với hồ sơ nộp từ ngày 01/01/2024",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp xử lý bình thường:",
-        "attachments": [
-          {
-            "id": "019e29fd-a9d8-71a4-8dee-eeebe28f5f62",
-            "name": "Phụ lục IV 2962QĐBYT (2).docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục IV 2962QĐBYT (2).docx",
+        "source_page": 3
       },
       {
-        "name": "Giấy ủy quyền của chủ sở hữu trang thiết bị y tế cho cơ sở thực hiện việc đăng ký lưu hành theo Mẫu quy định tại Phụ lục VI ban hành kèm theo Thông tư  19/2021/TT-BYT còn hiệu lực tại thời điểm nộp hồ sơ, trừ trường hợp quy định tại điểm a khoản 1 Điều 25 Nghị định 98/2021/NĐ-CP (Doanh nghiệp, hợp tác xã, hộ kinh doanh của Việt Nam là chủ sở hữu trang thiết bị y tế).",
-        "code": "000.00.00.G18-KQ004054",
+        "name": "Trường hợp xử lý bình thường:: Giấy ủy quyền của chủ sở hữu trang thiết bị y tế cho cơ sở thực hiện việc đăng ký lưu hành theo Mẫu quy định tại Phụ lục VI ban hành kèm theo Thông tư  19/2021/TT-BYT còn hiệu lực tại thời điểm nộp hồ sơ, trừ trường hợp quy định tại điểm a khoản 1 Điều 25 Nghị định 98/2021/NĐ-CP (Doanh nghiệp, hợp tác xã, hộ kinh doanh của Việt Nam là chủ sở hữu trang thiết bị y tế).",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp xử lý bình thường:",
-        "attachments": [
-          {
-            "id": "019e29fb-94ff-7059-8d59-90433cb0dffa",
-            "name": "Phụ lục II 2962QĐBYT (2).docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục II 2962QĐBYT (2).docx",
+        "source_page": 4
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "Giấy lưu hành được cấp bởi một trong các nước tham chiếu đối với trường hợp quy định tại điểm a khoản 2 Điều 29 Nghị định 98/2021/NĐ-CP.",
-        "code": "000.00.00.G18-KQ004056",
+        "name": "Trường hợp xử lý bình thường:: Giấy lưu hành được cấp bởi một trong các nước tham chiếu đối với trường hợp quy định tại điểm a khoản 2 Điều 29 Nghị định 98/2021/NĐ-CP.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp xử lý bình thường:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Đối với hồ sơ nộp trước ngày 01/01/2024. - Tài liệu mô tả tóm tắt kỹ thuật trang thiết bị y tế bằng tiếng Việt, kèm theo tài liệu kỹ thuật mô tả chức năng, thông số kỹ thuật của trang thiết bị y tế do chủ sở hữu trang thiết bị y tế ban hành.  Riêng đối với thuốc thử, chất hiệu chuẩn, vật liệu kiểm soát in vitro: tài liệu kỹ thuật bằng tiếng Việt kèm theo tài liệu về nguyên vật liệu, về an toàn của sản phẩm, quy trình sản xuất và kiểm soát chất lượng sản phẩm, các báo cáo nghiên cứu lâm sàng và tiền lâm sàng bao gồm báo cáo độ ổn định. - Tài liệu hướng dẫn sử dụng của trang thiết bị y tế. - Mẫu nhãn sẽ sử dụng khi lưu hành tại Việt Nam của trang thiết bị y tế.",
-        "code": "000.00.00.G18-KQ004060",
+        "name": "Trường hợp xử lý bình thường:: Đối với hồ sơ nộp trước ngày 01/01/2024. - Tài liệu mô tả tóm tắt kỹ thuật trang thiết bị y tế bằng tiếng Việt, kèm theo tài liệu kỹ thuật mô tả chức năng, thông số kỹ thuật của trang thiết bị y tế do chủ sở hữu trang thiết bị y tế ban hành.  Riêng đối với thuốc thử, chất hiệu chuẩn, vật liệu kiểm soát in vitro: tài liệu kỹ thuật bằng tiếng Việt kèm theo tài liệu về nguyên vật liệu, về an toàn của sản phẩm, quy trình sản xuất và kiểm soát chất lượng sản phẩm, các báo cáo nghiên cứu lâm sàng và tiền lâm sàng bao gồm báo cáo độ ổn định. - Tài liệu hướng dẫn sử dụng của trang thiết bị y tế. - Mẫu nhãn sẽ sử dụng khi lưu hành tại Việt Nam của trang thiết bị y tế.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp xử lý bình thường:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Giấy lưu hành đối với trang thiết bị y tế nhập khẩu và Giấy phép nhập khẩu hoặc Số lưu hành hoặc Giấy chứng nhận đăng ký lưu hành đối với trường hợp quy định tại điểm b khoản 2 Điều 29 Nghị định 98/2021/NĐ-CP.",
-        "code": "000.00.00.G18-KQ004057",
+        "name": "Trường hợp xử lý bình thường:: Giấy lưu hành đối với trang thiết bị y tế nhập khẩu và Giấy phép nhập khẩu hoặc Số lưu hành hoặc Giấy chứng nhận đăng ký lưu hành đối với trường hợp quy định tại điểm b khoản 2 Điều 29 Nghị định 98/2021/NĐ-CP.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp xử lý bình thường:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng ISO 13845 còn hiệu lực tại thời điểm nộp hồ sơ.",
-        "code": "000.00.00.G18-KQ004053",
+        "name": "Trường hợp xử lý bình thường:: Giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng ISO 13845 còn hiệu lực tại thời điểm nộp hồ sơ.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp xử lý bình thường:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Giấy chứng nhận đánh giá chất lượng do cơ quan có thẩm quyền của Việt Nam cấp đối với trang thiết bị y tế chẩn đoán in vitro, trừ các trường hợp sau: - Thuộc danh mục A, B phụ lục 2 Hiệp định trang thiết bị y tế chẩn đoán in vitro tại Châu Âu và đã được cấp giấy chứng nhận lưu hành tự do (Certifcate of Free Sale) của một trong các nước thuộc thành viên EU, Anh, Thụy Sỹ; - Thuộc danh mục A, B phụ lục 2 Hiệp định trang thiết bị y tế chẩn đoán in vitro tại Châu Âu và đã được cấp giấy chứng nhận lưu hành (Market Authorization) của một trong các nước tham chiếu; - Không thuộc danh mục A, B phụ lục 2 Hiệp định trang thiết bị y tế chẩn đoán in vitro tại Châu Âu nhưng đã được cấp giấy chứng nhận lưu hành (Market Authorization) của một trong các nước tham chiếu; - Thuộc danh sách do Bộ trưởng Bộ Y tế công bố.",
-        "code": "000.00.00.G18-KQ004058",
+        "name": "Trường hợp xử lý bình thường:: Giấy chứng nhận đánh giá chất lượng do cơ quan có thẩm quyền của Việt Nam cấp đối với trang thiết bị y tế chẩn đoán in vitro, trừ các trường hợp sau: - Thuộc danh mục A, B phụ lục 2 Hiệp định trang thiết bị y tế chẩn đoán in vitro tại Châu Âu và đã được cấp giấy chứng nhận lưu hành tự do (Certifcate of Free Sale) của một trong các nước thuộc thành viên EU, Anh, Thụy Sỹ; - Thuộc danh mục A, B phụ lục 2 Hiệp định trang thiết bị y tế chẩn đoán in vitro tại Châu Âu và đã được cấp giấy chứng nhận lưu hành (Market Authorization) của một trong các nước tham chiếu; - Không thuộc danh mục A, B phụ lục 2 Hiệp định trang thiết bị y tế chẩn đoán in vitro tại Châu Âu nhưng đã được cấp giấy chứng nhận lưu hành (Market Authorization) của một trong các nước tham chiếu; - Thuộc danh sách do Bộ trưởng Bộ Y tế công bố.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp xử lý bình thường:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "(Yêu cầu đối với một số giấy tờ trong bộ hồ sơ đề nghị cấp mới số lưu hành: a) Đối với giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng: Nộp bản gốc hoặc bản sao có chứng thực hoặc bản sao có xác nhận của cơ sở đề nghị cấp số lưu hành. Trường hợp giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật. b) Đối với giấy ủy quyền của chủ sở hữu trang thiết bị y tế và giấy xác nhận cơ sở đủ điều kiện bảo hành:  - Đối với trang thiết bị y tế sản xuất trong nước: Nộp bản gốc hoặc bản sao có chứng thực; - Đối với trang thiết bị y tế nhập khẩu: Nộp bản đã được hợp pháp hóa lãnh sự hoặc bản sao có chứng thực của bản đã được hợp pháp hóa lãnh sự. c) Đối với giấy lưu hành: Nộp bản đã được hợp pháp hóa lãnh sự hoặc bản sao có chứng thực của bản đã được hợp pháp hóa lãnh sự. Trường hợp giấy lưu hành không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật. d) Đối với Giấy chứng nhận đánh giá chất lượng: Nộp bản gốc hoặc bản sao có chứng thực hoặc bản sao có xác nhận của cơ sở đề nghị cấp số lưu hành. đ) Đối với hồ sơ CSDT: Nộp bản có xác nhận của tổ chức đề nghị cấp số lưu hành. Trường hợp hồ sơ CSDT không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật. e) Đối với tài liệu kỹ thuật của trang thiết bị y tế: Nộp bản có xác nhận của tổ chức đề nghị cấp số lưu hành. - Đối với tài liệu hướng dẫn sử dụng của trang thiết bị y tế: Nộp bản bằng tiếng Việt có xác nhận của tổ chức đề nghị cấp số lưu hành, kèm theo bản gốc bằng tiếng Anh do chủ sở hữu trang thiết bị y tế ban hành đối với trang thiết bị y tế nhập khẩu. - Đối với mẫu nhãn: Nộp bản mẫu nhãn có xác nhận của tổ chức đề nghị cấp số lưu hành. Mẫu nhãn phải đáp ứng các yêu cầu theo quy định của pháp luật về nhãn hàng hóa.)",
-        "code": "000.00.00.G18-KQ004061",
+        "name": "Trường hợp xử lý bình thường:: (Yêu cầu đối với một số giấy tờ trong bộ hồ sơ đề nghị cấp mới số lưu hành: a) Đối với giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng: Nộp bản gốc hoặc bản sao có chứng thực hoặc bản sao có xác nhận của cơ sở đề nghị cấp số lưu hành. Trường hợp giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật. b) Đối với giấy ủy quyền của chủ sở hữu trang thiết bị y tế và giấy xác nhận cơ sở đủ điều kiện bảo hành:  - Đối với trang thiết bị y tế sản xuất trong nước: Nộp bản gốc hoặc bản sao có chứng thực; - Đối với trang thiết bị y tế nhập khẩu: Nộp bản đã được hợp pháp hóa lãnh sự hoặc bản sao có chứng thực của bản đã được hợp pháp hóa lãnh sự. c) Đối với giấy lưu hành: Nộp bản đã được hợp pháp hóa lãnh sự hoặc bản sao có chứng thực của bản đã được hợp pháp hóa lãnh sự. Trường hợp giấy lưu hành không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật. d) Đối với Giấy chứng nhận đánh giá chất lượng: Nộp bản gốc hoặc bản sao có chứng thực hoặc bản sao có xác nhận của cơ sở đề nghị cấp số lưu hành. đ) Đối với hồ sơ CSDT: Nộp bản có xác nhận của tổ chức đề nghị cấp số lưu hành. Trường hợp hồ sơ CSDT không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật. e) Đối với tài liệu kỹ thuật của trang thiết bị y tế: Nộp bản có xác nhận của tổ chức đề nghị cấp số lưu hành. - Đối với tài liệu hướng dẫn sử dụng của trang thiết bị y tế: Nộp bản bằng tiếng Việt có xác nhận của tổ chức đề nghị cấp số lưu hành, kèm theo bản gốc bằng tiếng Anh do chủ sở hữu trang thiết bị y tế ban hành đối với trang thiết bị y tế nhập khẩu. - Đối với mẫu nhãn: Nộp bản mẫu nhãn có xác nhận của tổ chức đề nghị cấp số lưu hành. Mẫu nhãn phải đáp ứng các yêu cầu theo quy định của pháp luật về nhãn hàng hóa.)",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp xử lý bình thường:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 10
       },
       {
-        "name": "Văn bản đề nghị ưu tiên xử lý trước, trong đó có đủ thông tin về mã hồ sơ đã nộp trên cổng thông tin điện tử của Bộ Y tế",
-        "code": "000.00.00.G18-KQ004758",
+        "name": "Trường hợp xử lý ưu tiên:: Văn bản đề nghị ưu tiên xử lý trước, trong đó có đủ thông tin về mã hồ sơ đã nộp trên cổng thông tin điện tử của Bộ Y tế",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp xử lý ưu tiên:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Tài liệu chứng minh tương ứng đối với các trường hợp quy định tại khoản 1 Điều 32a Nghị định số 98/2021/NĐ-CP (được bổ sung theo quy định tại khoản 21, Điều 147 Nghị định số 96/2023/NĐ-CP ngày 30 tháng 12 năm 2023 của Chính phủ quy định chi tiết một số điều của Luật Khám bệnh, chữa bệnh).",
-        "code": "000.00.00.G18-KQ004759",
+        "name": "Trường hợp xử lý ưu tiên:: Tài liệu chứng minh tương ứng đối với các trường hợp quy định tại khoản 1 Điều 32a Nghị định số 98/2021/NĐ-CP (được bổ sung theo quy định tại khoản 21, Điều 147 Nghị định số 96/2023/NĐ-CP ngày 30 tháng 12 năm 2023 của Chính phủ quy định chi tiết một số điều của Luật Khám bệnh, chữa bệnh).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp xử lý ưu tiên:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       }
     ]
   },
@@ -196,63 +157,46 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "- Trường hợp xử lý ưu tiên: xác định hồ sơ có đủ điều kiện xử lý ưu tiên hay không trong 10 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của cơ sở đăng ký đề nghị ưu tiên xử lý trước hồ sơ đăng ký lưu hành thiết bị y tế và tài liệu kèm theo. Trường hợp đủ điều kiện xử lý ưu tiên, thực hiện xử lý ưu tiên ngay theo quy định.",
-      "source_page": null
+      "source_page": 6
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "- Trường hợp xử lý ưu tiên: xác định hồ sơ có đủ điều kiện xử lý ưu tiên hay không trong 10 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của cơ sở đăng ký đề nghị ưu tiên xử lý trước hồ sơ đăng ký lưu hành thiết bị y tế và tài liệu kèm theo. Trường hợp đủ điều kiện xử lý ưu tiên, thực hiện xử lý ưu tiên ngay theo quy định.",
-      "source_page": null
+      "source_page": 6
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "- Trường hợp xử lý ưu tiên: xác định hồ sơ có đủ điều kiện xử lý ưu tiên hay không trong 10 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của cơ sở đăng ký đề nghị ưu tiên xử lý trước hồ sơ đăng ký lưu hành thiết bị y tế và tài liệu kèm theo. Trường hợp đủ điều kiện xử lý ưu tiên, thực hiện xử lý ưu tiên ngay theo quy định.",
-      "source_page": null
+      "source_page": 6
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày",
-      "processing_time_value": 10,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 3000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "3000000",
       "description": "Trường hợp xử lý bình thường: Sau 10 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ (bao gồm cả giấy tờ xác nhận đã nộp phí thẩm định cấp giấy phép lưu hành theo quy định của Bộ Tài chính).",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "3000000",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 3000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "3000000",
+        "is_free": false,
+        "source_page": 6
       }
     ]
   },
@@ -260,38 +204,32 @@
     {
       "title": "Thông tư 19/2021/TT-BYT quy định về mẫu văn bản, báo cáo thực hiện Nghị định 98/2021/NĐ-CP về quản lý trang thiết bị y tế do Bộ trưởng Bộ Y tế ban hành (link lấy từ thuvienphapluat.vn vì cơ sở dữ liệu về văn bản qppl ko có)",
       "document_number": "19/2021/TT-BYT",
-      "id": "019d2bb3-5d7e-72d1-afe3-12fc3b7a4346",
-      "source_page": null
+      "source_page": 9
     },
     {
       "title": "Nghị định",
       "document_number": "07/2023/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe7-86c6f1a5b675",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân",
       "document_number": "64/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-69cce97f8824",
-      "source_page": null
+      "source_page": 9
     },
     {
       "title": "Thông tư 10/2023/TT-BYT sửa đổi Thông tư 19/2021/TT-BYT",
       "document_number": "10/2023/TT-BYT",
-      "id": "019d2bb3-5d7e-72d1-afe5-5a1a14e2a602",
-      "source_page": null
+      "source_page": 9
     },
     {
       "title": "Thông tư",
       "document_number": "59/2023/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-348a964d7a84",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định về trang thiết bị y tế số 98/2021/NĐ-CP  (link trên thư viện pl vì trên cơ sở dữ liệu về văn bản QPPL ko có)",
       "document_number": "98/2021/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b473-39ed8785d3bc",
-      "source_page": null
+      "source_page": 9
     }
   ],
   "conditions": "Yêu cầu đối với một số giấy tờ trong bộ hồ sơ đề nghị cấp mới số lưu hành:\na) Đối với giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng: Nộp bản gốc hoặc bản sao có chứng thực hoặc bản sao có xác nhận của cơ sở đề nghị cấp số lưu hành.\nTrường hợp giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật.\nb) Đối với giấy ủy quyền của chủ sở hữu thiết bị y tế và giấy xác nhận cơ sở đủ điều kiện bảo hành: \n- Đối với thiết bị y tế sản xuất trong nước: Nộp bản gốc hoặc bản sao có chứng thực;\n- Đối với thiết bị y tế nhập khẩu: Nộp bản đã được hợp pháp hóa lãnh sự hoặc bản sao có chứng thực của bản đã được hợp pháp hóa lãnh sự.\nc) Đối với giấy lưu hành: Nộp bản đã được hợp pháp hóa lãnh sự hoặc bản sao có chứng thực của bản đã được hợp pháp hóa lãnh sự.\nTrường hợp giấy lưu hành không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật.\nd) Đối với Giấy chứng nhận đánh giá chất lượng: Nộp bản gốc hoặc bản sao có chứng thực hoặc bản sao có xác nhận của cơ sở đề nghị cấp số lưu hành.\nđ) Đối với hồ sơ CSDT: Nộp bản có xác nhận của tổ chức đề nghị cấp số lưu hành. Trường hợp hồ sơ CSDT không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật.\ne) Đối với tài liệu kỹ thuật của thiết bị y tế: Nộp bản có xác nhận của tổ chức đề nghị cấp số lưu hành.\n- Đối với tài liệu hướng dẫn sử dụng của thiết bị y tế: Nộp bản bằng tiếng Việt có xác nhận của tổ chức đề nghị cấp số lưu hành, kèm theo bản gốc bằng tiếng Anh do chủ sở hữu thiết bị y tế ban hành đối với thiết bị y tế nhập khẩu.\n- Đối với mẫu nhãn: Nộp bản mẫu nhãn có xác nhận của tổ chức đề nghị cấp số lưu hành. Mẫu nhãn phải đáp ứng các yêu cầu theo quy định của pháp luật về nhãn hàng hóa.)\n\nĐiều 25 Nghị định số 98/2021/NĐ-CP: Điều kiện của tổ chức được đứng tên công bố tiêu chuẩn áp dụng hoặc đăng ký lưu hành thiết bị y tế\n1. Tổ chức được đứng tên công bố tiêu chuẩn áp dụng hoặc đăng ký lưu hành thiết bị y tế bao gồm:\na) Doanh nghiệp, hợp tác xã, hộ kinh doanh của Việt Nam là chủ sở hữu thiết bị y tế;\nb) Doanh nghiệp, hợp tác xã, hộ kinh doanh của Việt Nam được ủy quyền của chủ sở hữu thiết bị y tế;\nc) Văn phòng đại diện thường trú tại Việt Nam của thương nhân nước ngoài mà thương nhân đó là chủ sở hữu thiết bị y tế hoặc được ủy quyền của chủ sở hữu thiết bị y tế.\n2. Tổ chức đứng tên công bố tiêu chuẩn áp dụng hoặc đăng ký lưu hành thiết bị y tế phải có cơ sở bảo hành tại Việt Nam hoặc phải có hợp đồng với tổ chức đủ năng lực bảo hành thiết bị y tế, trừ trường hợp các thiết bị y tế sử dụng một lần theo quy định của chủ sở hữu thiết bị y tế hoặc có tài liệu chứng minh không có chế độ bảo hành.\nTrường hợp tổ chức đứng tên công bố tiêu chuẩn áp dụng hoặc đăng ký lưu hành thiết bị y tế thuộc quy định tại điểm c khoản 1 Điều này thì chủ sở hữu thiết bị y tế phải có cơ sở bảo hành tại Việt Nam hoặc phải có hợp đồng với cơ sở đủ năng lực bảo hành thiết bị y tế, trừ trường hợp các thiết bị y tế sử dụng một lần theo quy định của chủ sở hữu thiết bị y tế hoặc có tài liệu chứng minh không có chế độ bảo hành.\nCơ sở bảo hành phải được chủ sở hữu thiết bị y tế chứng nhận đủ năng lực bảo hành sản phẩm.\nKhoản 2 Điều 29. Các hình thức đăng ký lưu hành \n3.  Cấp nhanh số lưu hành mới đối với thiết bị y tế thuộc một trong các trường hợp sau đây:\na) Đã được một trong các tổ chức hoặc nước sau cấp giấy chứng nhận lưu hành tự do (Certificate of Free Sale) hoặc giấy chứng nhận lưu hành (Market Authorization) (sau đây viết tắt là giấy lưu hành): Cục Quản lý Thực phẩm và Dược phẩm Hoa Kỳ (FDA) - Mỹ; Cục Quản lý hàng hóa trị liệu (TGA) - Úc; Cơ quan quản lý y tế Canada (Health Canada); Bộ Y tế, Lao động và Phúc lợi Nhật Bản (MHLW) hoặc Cơ quan Dược phẩm và Thiết bị y tế (PMDA) - Nhật Bản, các nước thành viên EU, Anh, Thụy Sỹ; Cục Quản lý sản phẩm y tế quốc gia cấp trung ương (National Medical Products Administration - NMPA) - Trung Quốc;  Bộ An toàn thực phẩm và dược phẩm (Ministry of Food & Drug Safety - MFDS) - Hàn Quốc hoặc thuộc danh sách các tổ chức cấp giấy lưu hành được cơ quan có thẩm quyền của Việt Nam công nhận (sau đây viết tắt là nước tham chiếu);\nb) Đã được cấp Giấy phép nhập khẩu hoặc Số lưu hành hoặc Giấy chứng nhận đăng ký lưu hành theo hình thức thương mại tại Việt Nam, trừ các trường hợp đã bị thu hồi trước ngày Nghị định 98/2021/NĐ-CP có hiệu lực.\n\nĐiều kiện để hồ sơ được xử lý ưu tiên:\nĐiều 32a. Ưu tiên xử lý hồ sơ đăng ký lưu hành thiết bị y tế\n1. Cho phép ưu tiên xử lý trước đối với hồ sơ đăng ký lưu hành thiết bị y tế thuộc một trong các trường hợp sau đây:\na) Thiết bị y tế được sản xuất trong nước;\nb) Thiết bị y tế nhập khẩu đã nộp hồ sơ đề nghị cấp giấy phép nhập khẩu thiết bị y tế về Bộ Y tế trước ngày 01 tháng 01 năm 2022 nhưng chưa được cấp giấy phép nhập khẩu và đã nộp hồ sơ đề nghị cấp giấy chứng nhận đăng ký lưu hành thiết bị y tế;\nc) Hóa chất, chế phẩm chỉ có một mục đích là khử khuẩn thiết bị y tế;\nd) Thiết bị y tế để thực hiện kỹ thuật mới, phương pháp mới áp dụng trong khám bệnh, chữa bệnh đã được Bộ Y tế có văn bản cho phép áp dụng chính thức nhưng chưa được cấp số lưu hành tại Việt Nam;\nđ) Thiết bị y tế không thay đổi thông tin về chủng loại, mã sản phẩm trên giấy phép nhập khẩu hoặc quyết định cấp số đăng ký lưu hành hoặc giấy chứng nhận đăng ký lưu hành đã cấp còn hiệu lực nhưng thuộc một trong các trường hợp sau:\n- Thay đổi về cơ sở nhập khẩu hoặc đơn vị đăng ký lưu hành;\n- Thay đổi tên gọi của cơ sở sản xuất nhưng không thay đổi địa chỉ của cơ sở sản xuất;\n- Thay đổi tên gọi của chủ sở hữu thiết bị y tế nhưng không thay đổi địa chỉ của chủ sở hữu thiết bị y tế;\ne) Thiết bị y tế không thay đổi thông tin về chủng loại nhưng có thay đổi thông tin về mã sản phẩm do mã sản phẩm cũ đã ngừng sản xuất trên một trong các giấy tờ sau: giấy phép nhập khẩu hoặc quyết định cấp số đăng ký lưu hành hoặc giấy chứng nhận đăng ký lưu hành đã cấp còn hiệu lực;\ng) Hồ sơ đăng ký lưu hành thiết bị y tế trước đó đã có văn bản yêu cầu bổ sung hoặc văn bản từ chối cấp phép của Bộ Y tế mà nội dung của văn bản chỉ liên quan đến yêu cầu cập nhật hiệu lực của một trong các giấy tờ sau: giấy ủy quyền của chủ sở hữu số lưu hành thiết bị y tế, giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng ISO 13485, giấy lưu hành thiết bị y tế;\nh) Hồ sơ đăng ký lưu hành thiết bị y tế trước đó đã có văn bản yêu cầu bổ sung hoặc văn bản từ chối cấp phép của Bộ Y tế mà nội dung của văn bản chỉ yêu cầu về sửa đổi, bổ sung tên gọi của thiết bị y tế.",
@@ -299,14 +237,13 @@
     {
       "title": "Số đăng ký lưu hành trang thiết bị y tế",
       "code": "KQ.G18.000040",
-      "id": "019d2bb2-1c7b-7208-ba48-00b5038e8d76",
-      "source_page": null
+      "source_page": 11
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Tổ chức đề nghị cấp số lưu hành nộp hồ sơ cho Bộ Y tế thông qua  Hệ thống thông tin giải quyết thủ tục hành chính Bộ Y tế (https://dichvucong.moh.gov.vn) hoặc Cổng thông tin điện tử về quản lý thiết bị y tế (https://dmec.moh.gov.vn/).\nBước 2: \na) Trường hợp hồ sơ thuộc trường hợp ưu tiên theo quy định tại khoản 21, Điều 147 Nghị định số 96/2023/NĐ-CP ngày 30 tháng 12 năm 2023 của Chính phủ quy định chi tiết một số điều của Luật Khám bệnh, chữa bệnh và cơ sở đăng ký có văn bản đề nghị ưu tiên xử lý trước (trong đó có đủ thông tin về mã hồ sơ đã nộp trên cổng thông tin điện tử của Bộ Y tế; tài liệu chứng minh tương ứng với các trường hợp ưu tiên) thì Bộ Y tế xem xét, cho phép xử lý ưu tiên hồ sơ đăng ký lưu hành thiết bị y tế trong thời hạn 10 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của cơ sở đăng ký đề nghị ưu tiên xử lý trước hồ sơ đăng ký lưu hành thiết bị y tế và tài liệu kèm theo. Trường hợp không cho phép xử lý ưu tiên phải có văn bản trả lời và nêu rõ lý do. Trường hợp hồ sơ đủ tiêu chuẩn ưu tiên theo quy định, thực hiện ưu tiên thẩm định ngay hồ sơ theo quy định tại Bước 3 và các bước tiếp theo. \nb) Trường hợp hồ sơ không thuộc trường hợp ưu tiên thực hiện theo quy định tại Bước 3.\nBước 3: Trường hợp không có yêu cầu sửa đổi, bổ sung hồ sơ đăng ký lưu hành, Bộ trưởng Bộ Y tế có trách nhiệm: Tổ chức thẩm định để cấp số lưu hành trong thời hạn 10 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ (bao gồm cả giấy tờ xác nhận đã nộp phí thẩm định cấp giấy phép lưu hành theo quy định của Bộ Tài chính). Trường hợp không cấp số lưu hành phải có văn bản trả lời và nêu rõ lý do.\nTrường hợp hồ sơ đăng ký lưu hành chưa hoàn chỉnh thì Bộ Y tế phải thông báo cho tổ chức đề nghị cấp số lưu hành để bổ sung, sửa đổi hồ sơ đăng ký lưu hành, trong đó phải nêu cụ thể là bổ sung những tài liệu nào, nội dung nào cần sửa đổi trong thời hạn 12 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ.\nBước 4: Khi nhận được yêu cầu bổ sung, sửa đổi hồ sơ đề nghị cấp số lưu hành, cơ sở đề nghị cấp số lưu hành phải bổ sung, sửa đổi theo đúng những nội dung đã thông báo và gửi về Bộ Y tế.\nTrường hợp cơ sở đề nghị cấp số lưu hành đã bổ sung, sửa đổi hồ sơ nhưng không đúng với yêu cầu thì Bộ Y tế sẽ thông báo cho cơ sở để tiếp tục hoàn chỉnh hồ sơ theo quy định.\nSau 90 ngày, kể từ ngày Bộ Y tế có thông báo yêu cầu mà cơ sở không bổ sung, sửa đổi hồ sơ hoặc nếu sau 03 lần sửa đổi, bổ sung hồ sơ kể từ ngày Bộ Y tế có yêu cầu sửa đổi, bổ sung lần đầu mà hồ sơ vẫn không đáp ứng yêu cầu thì phải thực hiện lại từ đầu thủ tục đề nghị cấp số lưu hành.\nBước 5: Trong thời hạn 01 ngày làm việc, kể từ ngày cấp số lưu hành, Bộ Y tế có trách nhiệm công khai trên Cổng thông tin điện tử về quản lý thiết bị y tế các thông tin sau:\na) Tên, phân loại, cơ sở sản xuất, nước sản xuất thiết bị y tế;\nb) Số lưu hành của thiết bị y tế;\nc) Tên, địa chỉ của chủ sở hữu thiết bị y tế;\nd) Tên, địa chỉ của chủ sở hữu số lưu hành;\nđ) Tên, địa chỉ của cơ sở bảo hành thiết bị y tế;\ne) Các tài liệu trong hồ sơ đăng ký lưu hành của thiết bị y tế, trừ Hồ sơ kỹ thuật chung về thiết bị y tế theo quy định của ASEAN.\n",
-    "THÀNH PHẦN HỒ SƠ": "Trường hợp xử lý bình thường:\nVăn bản đề nghị Cấp mới số lưu hành trang thiết bị y tế thuộc loại C, D thuộc trường hợp cấp nhanh theo Mẫu số 03.03 quy định tại Phụ lục I ban hành kèm theo Thông tư 10/2023/TT-BYT.\nGiấy lưu hành được cấp bởi một trong các nước tham chiếu đối với trường hợp quy định tại điểm a khoản 2 Điều 29 Nghị định 98/2021/NĐ-CP.\nGiấy xác nhận đủ điều kiện bảo hành quy định tại phụ lục VII ban hành kèm theo Thông tư 19/2021/TT-BYT do chủ sở hữu trang thiết bị y tế cấp, trừ trường hợp trang thiết bị y tế sử dụng một lần theo quy định của chủ sở hữu trang thiết bị y tế hoặc có tài liệu chứng minh không có chế độ bảo hành.\nHồ sơ kỹ thuật chung về trang thiết bị y tế theo quy định của ASEAN (hồ sơ CSDT) đối với hồ sơ nộp từ ngày 01/01/2024\nĐối với hồ sơ nộp trước ngày 01/01/2024. - Tài liệu mô tả tóm tắt kỹ thuật trang thiết bị y tế bằng tiếng Việt, kèm theo tài liệu kỹ thuật mô tả chức năng, thông số kỹ thuật của trang thiết bị y tế do chủ sở hữu trang thiết bị y tế ban hành.  Riêng đối với thuốc thử, chất hiệu chuẩn, vật liệu kiểm soát in vitro: tài liệu kỹ thuật bằng tiếng Việt kèm theo tài liệu về nguyên vật liệu, về an toàn của sản phẩm, quy trình sản xuất và kiểm soát chất lượng sản phẩm, các báo cáo nghiên cứu lâm sàng và tiền lâm sàng bao gồm báo cáo độ ổn định. - Tài liệu hướng dẫn sử dụng của trang thiết bị y tế. - Mẫu nhãn sẽ sử dụng khi lưu hành tại Việt Nam của trang thiết bị y tế.\nGiấy lưu hành đối với trang thiết bị y tế nhập khẩu và Giấy phép nhập khẩu hoặc Số lưu hành hoặc Giấy chứng nhận đăng ký lưu hành đối với trường hợp quy định tại điểm b khoản 2 Điều 29 Nghị định 98/2021/NĐ-CP.\nGiấy ủy quyền của chủ sở hữu trang thiết bị y tế cho cơ sở thực hiện việc đăng ký lưu hành theo Mẫu quy định tại Phụ lục VI ban hành kèm theo Thông tư  19/2021/TT-BYT còn hiệu lực tại thời điểm nộp hồ sơ, trừ trường hợp quy định tại điểm a khoản 1 Điều 25 Nghị định 98/2021/NĐ-CP (Doanh nghiệp, hợp tác xã, hộ kinh doanh của Việt Nam là chủ sở hữu trang thiết bị y tế).\nGiấy chứng nhận đạt tiêu chuẩn quản lý chất lượng ISO 13845 còn hiệu lực tại thời điểm nộp hồ sơ.\nGiấy chứng nhận đánh giá chất lượng do cơ quan có thẩm quyền của Việt Nam cấp đối với trang thiết bị y tế chẩn đoán in vitro, trừ các trường hợp sau: - Thuộc danh mục A, B phụ lục 2 Hiệp định trang thiết bị y tế chẩn đoán in vitro tại Châu Âu và đã được cấp giấy chứng nhận lưu hành tự do (Certifcate of Free Sale) của một trong các nước thuộc thành viên EU, Anh, Thụy Sỹ; - Thuộc danh mục A, B phụ lục 2 Hiệp định trang thiết bị y tế chẩn đoán in vitro tại Châu Âu và đã được cấp giấy chứng nhận lưu hành (Market Authorization) của một trong các nước tham chiếu; - Không thuộc danh mục A, B phụ lục 2 Hiệp định trang thiết bị y tế chẩn đoán in vitro tại Châu Âu nhưng đã được cấp giấy chứng nhận lưu hành (Market Authorization) của một trong các nước tham chiếu; - Thuộc danh sách do Bộ trưởng Bộ Y tế công bố.\n(Yêu cầu đối với một số giấy tờ trong bộ hồ sơ đề nghị cấp mới số lưu hành: a) Đối với giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng: Nộp bản gốc hoặc bản sao có chứng thực hoặc bản sao có xác nhận của cơ sở đề nghị cấp số lưu hành. Trường hợp giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật. b) Đối với giấy ủy quyền của chủ sở hữu trang thiết bị y tế và giấy xác nhận cơ sở đủ điều kiện bảo hành:  - Đối với trang thiết bị y tế sản xuất trong nước: Nộp bản gốc hoặc bản sao có chứng thực; - Đối với trang thiết bị y tế nhập khẩu: Nộp bản đã được hợp pháp hóa lãnh sự hoặc bản sao có chứng thực của bản đã được hợp pháp hóa lãnh sự. c) Đối với giấy lưu hành: Nộp bản đã được hợp pháp hóa lãnh sự hoặc bản sao có chứng thực của bản đã được hợp pháp hóa lãnh sự. Trường hợp giấy lưu hành không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật. d) Đối với Giấy chứng nhận đánh giá chất lượng: Nộp bản gốc hoặc bản sao có chứng thực hoặc bản sao có xác nhận của cơ sở đề nghị cấp số lưu hành. đ) Đối với hồ sơ CSDT: Nộp bản có xác nhận của tổ chức đề nghị cấp số lưu hành. Trường hợp hồ sơ CSDT không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật. e) Đối với tài liệu kỹ thuật của trang thiết bị y tế: Nộp bản có xác nhận của tổ chức đề nghị cấp số lưu hành. - Đối với tài liệu hướng dẫn sử dụng của trang thiết bị y tế: Nộp bản bằng tiếng Việt có xác nhận của tổ chức đề nghị cấp số lưu hành, kèm theo bản gốc bằng tiếng Anh do chủ sở hữu trang thiết bị y tế ban hành đối với trang thiết bị y tế nhập khẩu. - Đối với mẫu nhãn: Nộp bản mẫu nhãn có xác nhận của tổ chức đề nghị cấp số lưu hành. Mẫu nhãn phải đáp ứng các yêu cầu theo quy định của pháp luật về nhãn hàng hóa.)\nTrường hợp xử lý ưu tiên:\nVăn bản đề nghị ưu tiên xử lý trước, trong đó có đủ thông tin về mã hồ sơ đã nộp trên cổng thông tin điện tử của Bộ Y tế\nTài liệu chứng minh tương ứng đối với các trường hợp quy định tại khoản 1 Điều 32a Nghị định số 98/2021/NĐ-CP (được bổ sung theo quy định tại khoản 21, Điều 147 Nghị định số 96/2023/NĐ-CP ngày 30 tháng 12 năm 2023 của Chính phủ quy định chi tiết một số điều của Luật Khám bệnh, chữa bệnh).",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày làm việc - - Trường hợp xử lý ưu tiên: xác định hồ sơ có đủ điều kiện xử lý ưu tiên hay không trong 10 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của cơ sở đăng ký đề nghị ưu tiên xử lý trước hồ sơ đăng ký lưu hành thiết bị y tế và tài liệu kèm theo. Trường hợp đủ điều kiện xử lý ưu tiên, thực hiện xử lý ưu tiên ngay theo quy định.\nQua dịch vụ bưu chính: 10 ngày làm việc - - Trường hợp xử lý ưu tiên: xác định hồ sơ có đủ điều kiện xử lý ưu tiên hay không trong 10 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của cơ sở đăng ký đề nghị ưu tiên xử lý trước hồ sơ đăng ký lưu hành thiết bị y tế và tài liệu kèm theo. Trường hợp đủ điều kiện xử lý ưu tiên, thực hiện xử lý ưu tiên ngay theo quy định.\nTrực tiếp: 10 ngày làm việc - - Trường hợp xử lý ưu tiên: xác định hồ sơ có đủ điều kiện xử lý ưu tiên hay không trong 10 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của cơ sở đăng ký đề nghị ưu tiên xử lý trước hồ sơ đăng ký lưu hành thiết bị y tế và tài liệu kèm theo. Trường hợp đủ điều kiện xử lý ưu tiên, thực hiện xử lý ưu tiên ngay theo quy định.\nTrực tuyến: 10 ngày - Trường hợp xử lý bình thường: Sau 10 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ (bao gồm cả giấy tờ xác nhận đã nộp phí thẩm định cấp giấy phép lưu hành theo quy định của Bộ Tài chính).",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Tổ chức đề nghị cấp số lưu hành nộp hồ sơ cho Bộ Y tế thông qua  Hệ thống thông tin giải quyết thủ tục hành chính Bộ Y tế (https://dichvucong.moh.gov.vn) hoặc Cổng thông tin điện tử về quản lý thiết bị y tế (https://dmec.moh.gov.vn/).\nBước 2: \na) Trường hợp hồ sơ thuộc trường hợp ưu tiên theo quy định tại khoản 21, Điều 147 Nghị định số 96/2023/NĐ-CP ngày 30 tháng 12 năm 2023 của Chính phủ quy định chi tiết một số điều của Luật Khám bệnh, chữa bệnh và cơ sở đăng ký có văn bản đề nghị ưu tiên xử lý trước (trong đó có đủ thông tin về mã hồ sơ đã nộp trên cổng thông tin điện tử của Bộ Y tế; tài liệu chứng minh tương ứng với các trường hợp ưu tiên) thì Bộ Y tế xem xét, cho phép xử lý ưu tiên hồ sơ đăng ký lưu hành thiết bị y tế trong thời hạn 10 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của cơ sở đăng ký đề nghị ưu tiên xử lý trước hồ sơ đăng ký lưu hành thiết bị y tế và tài liệu kèm theo. Trường hợp không cho phép xử lý ưu tiên phải có văn bản trả lời và nêu rõ lý do. Trường hợp hồ sơ đủ tiêu chuẩn ưu tiên theo quy định, thực hiện ưu tiên thẩm định ngay hồ sơ theo quy định tại Bước 3 và các bước tiếp theo. \nb) Trường hợp hồ sơ không thuộc trường hợp ưu tiên thực hiện theo quy định tại Bước 3.\nBước 3: Trường hợp không có yêu cầu sửa đổi, bổ sung hồ sơ đăng ký lưu hành, Bộ trưởng Bộ Y tế có trách nhiệm: Tổ chức thẩm định để cấp số lưu hành trong thời hạn 10 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ (bao gồm cả giấy tờ xác nhận đã nộp phí thẩm định cấp giấy phép lưu hành theo quy định của Bộ Tài chính). Trường hợp không cấp số lưu hành phải có văn bản trả lời và nêu rõ lý do.\nTrường hợp hồ sơ đăng ký lưu hành chưa hoàn chỉnh thì Bộ Y tế phải thông báo cho tổ chức đề nghị cấp số lưu hành để bổ sung, sửa đổi hồ sơ đăng ký lưu hành, trong đó phải nêu cụ thể là bổ sung những tài liệu nào, nội dung nào cần sửa đổi trong thời hạn 12 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ.\nBước 4: Khi nhận được yêu cầu bổ sung, sửa đổi hồ sơ đề nghị cấp số lưu hành, cơ sở đề nghị cấp số lưu hành phải bổ sung, sửa đổi theo đúng những nội dung đã thông báo và gửi về Bộ Y tế.\nTrường hợp cơ sở đề nghị cấp số lưu hành đã bổ sung, sửa đổi hồ sơ nhưng không đúng với yêu cầu thì Bộ Y tế sẽ thông báo cho cơ sở để tiếp tục hoàn chỉnh hồ sơ theo quy định.\nSau 90 ngày, kể từ ngày Bộ Y tế có thông báo yêu cầu mà cơ sở không bổ sung, sửa đổi hồ sơ hoặc nếu sau 03 lần sửa đổi, bổ sung hồ sơ kể từ ngày Bộ Y tế có yêu cầu sửa đổi, bổ sung lần đầu mà hồ sơ vẫn không đáp ứng yêu cầu thì phải thực hiện lại từ đầu thủ tục đề nghị cấp số lưu hành.\nBước 5: Trong thời hạn 01 ngày làm việc, kể từ ngày cấp số lưu hành, Bộ Y tế có trách nhiệm công khai trên Cổng thông tin điện tử về quản lý thiết bị y tế các thông tin sau:\na) Tên, phân loại, cơ sở sản xuất, nước sản xuất thiết bị y tế;\nb) Số lưu hành của thiết bị y tế;\nc) Tên, địa chỉ của chủ sở hữu thiết bị y tế;\nd) Tên, địa chỉ của chủ sở hữu số lưu hành;\nđ) Tên, địa chỉ của cơ sở bảo hành thiết bị y tế;\ne) Các tài liệu trong hồ sơ đăng ký lưu hành của thiết bị y tế, trừ Hồ sơ kỹ thuật chung về thiết bị y tế theo quy định của ASEAN.",
+    "THÀNH PHẦN HỒ SƠ": "Trường hợp xử lý bình thường:: Văn bản đề nghị Cấp mới số lưu hành trang thiết bị y tế thuộc loại C, D thuộc trường hợp cấp nhanh theo Mẫu số 03.03 quy định tại Phụ lục I ban hành kèm theo Thông tư 10/2023/TT-BYT.\nTrường hợp xử lý bình thường:: Giấy xác nhận đủ điều kiện bảo hành quy định tại phụ lục VII ban hành kèm theo Thông tư 19/2021/TT-BYT do chủ sở hữu trang thiết bị y tế cấp, trừ trường hợp trang thiết bị y tế sử dụng một lần theo quy định của chủ sở hữu trang thiết bị y tế hoặc có tài liệu chứng minh không có chế độ bảo hành.\nTrường hợp xử lý bình thường:: Hồ sơ kỹ thuật chung về trang thiết bị y tế theo quy định của ASEAN (hồ sơ CSDT) đối với hồ sơ nộp từ ngày 01/01/2024\nTrường hợp xử lý bình thường:: Giấy ủy quyền của chủ sở hữu trang thiết bị y tế cho cơ sở thực hiện việc đăng ký lưu hành theo Mẫu quy định tại Phụ lục VI ban hành kèm theo Thông tư  19/2021/TT-BYT còn hiệu lực tại thời điểm nộp hồ sơ, trừ trường hợp quy định tại điểm a khoản 1 Điều 25 Nghị định 98/2021/NĐ-CP (Doanh nghiệp, hợp tác xã, hộ kinh doanh của Việt Nam là chủ sở hữu trang thiết bị y tế).\nTrường hợp xử lý bình thường:: Giấy lưu hành được cấp bởi một trong các nước tham chiếu đối với trường hợp quy định tại điểm a khoản 2 Điều 29 Nghị định 98/2021/NĐ-CP.\nTrường hợp xử lý bình thường:: Đối với hồ sơ nộp trước ngày 01/01/2024. - Tài liệu mô tả tóm tắt kỹ thuật trang thiết bị y tế bằng tiếng Việt, kèm theo tài liệu kỹ thuật mô tả chức năng, thông số kỹ thuật của trang thiết bị y tế do chủ sở hữu trang thiết bị y tế ban hành.  Riêng đối với thuốc thử, chất hiệu chuẩn, vật liệu kiểm soát in vitro: tài liệu kỹ thuật bằng tiếng Việt kèm theo tài liệu về nguyên vật liệu, về an toàn của sản phẩm, quy trình sản xuất và kiểm soát chất lượng sản phẩm, các báo cáo nghiên cứu lâm sàng và tiền lâm sàng bao gồm báo cáo độ ổn định. - Tài liệu hướng dẫn sử dụng của trang thiết bị y tế. - Mẫu nhãn sẽ sử dụng khi lưu hành tại Việt Nam của trang thiết bị y tế.\nTrường hợp xử lý bình thường:: Giấy lưu hành đối với trang thiết bị y tế nhập khẩu và Giấy phép nhập khẩu hoặc Số lưu hành hoặc Giấy chứng nhận đăng ký lưu hành đối với trường hợp quy định tại điểm b khoản 2 Điều 29 Nghị định 98/2021/NĐ-CP.\nTrường hợp xử lý bình thường:: Giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng ISO 13845 còn hiệu lực tại thời điểm nộp hồ sơ.\nTrường hợp xử lý bình thường:: Giấy chứng nhận đánh giá chất lượng do cơ quan có thẩm quyền của Việt Nam cấp đối với trang thiết bị y tế chẩn đoán in vitro, trừ các trường hợp sau: - Thuộc danh mục A, B phụ lục 2 Hiệp định trang thiết bị y tế chẩn đoán in vitro tại Châu Âu và đã được cấp giấy chứng nhận lưu hành tự do (Certifcate of Free Sale) của một trong các nước thuộc thành viên EU, Anh, Thụy Sỹ; - Thuộc danh mục A, B phụ lục 2 Hiệp định trang thiết bị y tế chẩn đoán in vitro tại Châu Âu và đã được cấp giấy chứng nhận lưu hành (Market Authorization) của một trong các nước tham chiếu; - Không thuộc danh mục A, B phụ lục 2 Hiệp định trang thiết bị y tế chẩn đoán in vitro tại Châu Âu nhưng đã được cấp giấy chứng nhận lưu hành (Market Authorization) của một trong các nước tham chiếu; - Thuộc danh sách do Bộ trưởng Bộ Y tế công bố.\nTrường hợp xử lý bình thường:: (Yêu cầu đối với một số giấy tờ trong bộ hồ sơ đề nghị cấp mới số lưu hành: a) Đối với giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng: Nộp bản gốc hoặc bản sao có chứng thực hoặc bản sao có xác nhận của cơ sở đề nghị cấp số lưu hành. Trường hợp giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật. b) Đối với giấy ủy quyền của chủ sở hữu trang thiết bị y tế và giấy xác nhận cơ sở đủ điều kiện bảo hành:  - Đối với trang thiết bị y tế sản xuất trong nước: Nộp bản gốc hoặc bản sao có chứng thực; - Đối với trang thiết bị y tế nhập khẩu: Nộp bản đã được hợp pháp hóa lãnh sự hoặc bản sao có chứng thực của bản đã được hợp pháp hóa lãnh sự. c) Đối với giấy lưu hành: Nộp bản đã được hợp pháp hóa lãnh sự hoặc bản sao có chứng thực của bản đã được hợp pháp hóa lãnh sự. Trường hợp giấy lưu hành không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật. d) Đối với Giấy chứng nhận đánh giá chất lượng: Nộp bản gốc hoặc bản sao có chứng thực hoặc bản sao có xác nhận của cơ sở đề nghị cấp số lưu hành. đ) Đối với hồ sơ CSDT: Nộp bản có xác nhận của tổ chức đề nghị cấp số lưu hành. Trường hợp hồ sơ CSDT không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật. e) Đối với tài liệu kỹ thuật của trang thiết bị y tế: Nộp bản có xác nhận của tổ chức đề nghị cấp số lưu hành. - Đối với tài liệu hướng dẫn sử dụng của trang thiết bị y tế: Nộp bản bằng tiếng Việt có xác nhận của tổ chức đề nghị cấp số lưu hành, kèm theo bản gốc bằng tiếng Anh do chủ sở hữu trang thiết bị y tế ban hành đối với trang thiết bị y tế nhập khẩu. - Đối với mẫu nhãn: Nộp bản mẫu nhãn có xác nhận của tổ chức đề nghị cấp số lưu hành. Mẫu nhãn phải đáp ứng các yêu cầu theo quy định của pháp luật về nhãn hàng hóa.)\nTrường hợp xử lý ưu tiên:: Văn bản đề nghị ưu tiên xử lý trước, trong đó có đủ thông tin về mã hồ sơ đã nộp trên cổng thông tin điện tử của Bộ Y tế\nTrường hợp xử lý ưu tiên:: Tài liệu chứng minh tương ứng đối với các trường hợp quy định tại khoản 1 Điều 32a Nghị định số 98/2021/NĐ-CP (được bổ sung theo quy định tại khoản 21, Điều 147 Nghị định số 96/2023/NĐ-CP ngày 30 tháng 12 năm 2023 của Chính phủ quy định chi tiết một số điều của Luật Khám bệnh, chữa bệnh).",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày làm việc\nQua dịch vụ bưu chính: 10 ngày làm việc\nTrực tiếp: 10 ngày làm việc\nTrực tuyến: 10 ngày",
     "CĂN CỨ PHÁP LÝ": "Thông tư 19/2021/TT-BYT quy định về mẫu văn bản, báo cáo thực hiện Nghị định 98/2021/NĐ-CP về quản lý trang thiết bị y tế do Bộ trưởng Bộ Y tế ban hành (link lấy từ thuvienphapluat.vn vì cơ sở dữ liệu về văn bản qppl ko có) - 19/2021/TT-BYT\nNghị định - 07/2023/NĐ-CP\nThông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân - 64/2025/TT-BTC\nThông tư 10/2023/TT-BYT sửa đổi Thông tư 19/2021/TT-BYT - 10/2023/TT-BYT\nThông tư - 59/2023/TT-BTC\nNghị định về trang thiết bị y tế số 98/2021/NĐ-CP  (link trên thư viện pl vì trên cơ sở dữ liệu về văn bản QPPL ko có) - 98/2021/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cục Hạ tầng và Thiết bị y tế - Bộ Y tế",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Yêu cầu đối với một số giấy tờ trong bộ hồ sơ đề nghị cấp mới số lưu hành:\na) Đối với giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng: Nộp bản gốc hoặc bản sao có chứng thực hoặc bản sao có xác nhận của cơ sở đề nghị cấp số lưu hành.\nTrường hợp giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật.\nb) Đối với giấy ủy quyền của chủ sở hữu thiết bị y tế và giấy xác nhận cơ sở đủ điều kiện bảo hành: \n- Đối với thiết bị y tế sản xuất trong nước: Nộp bản gốc hoặc bản sao có chứng thực;\n- Đối với thiết bị y tế nhập khẩu: Nộp bản đã được hợp pháp hóa lãnh sự hoặc bản sao có chứng thực của bản đã được hợp pháp hóa lãnh sự.\nc) Đối với giấy lưu hành: Nộp bản đã được hợp pháp hóa lãnh sự hoặc bản sao có chứng thực của bản đã được hợp pháp hóa lãnh sự.\nTrường hợp giấy lưu hành không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật.\nd) Đối với Giấy chứng nhận đánh giá chất lượng: Nộp bản gốc hoặc bản sao có chứng thực hoặc bản sao có xác nhận của cơ sở đề nghị cấp số lưu hành.\nđ) Đối với hồ sơ CSDT: Nộp bản có xác nhận của tổ chức đề nghị cấp số lưu hành. Trường hợp hồ sơ CSDT không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật.\ne) Đối với tài liệu kỹ thuật của thiết bị y tế: Nộp bản có xác nhận của tổ chức đề nghị cấp số lưu hành.\n- Đối với tài liệu hướng dẫn sử dụng của thiết bị y tế: Nộp bản bằng tiếng Việt có xác nhận của tổ chức đề nghị cấp số lưu hành, kèm theo bản gốc bằng tiếng Anh do chủ sở hữu thiết bị y tế ban hành đối với thiết bị y tế nhập khẩu.\n- Đối với mẫu nhãn: Nộp bản mẫu nhãn có xác nhận của tổ chức đề nghị cấp số lưu hành. Mẫu nhãn phải đáp ứng các yêu cầu theo quy định của pháp luật về nhãn hàng hóa.)\n\nĐiều 25 Nghị định số 98/2021/NĐ-CP: Điều kiện của tổ chức được đứng tên công bố tiêu chuẩn áp dụng hoặc đăng ký lưu hành thiết bị y tế\n1. Tổ chức được đứng tên công bố tiêu chuẩn áp dụng hoặc đăng ký lưu hành thiết bị y tế bao gồm:\na) Doanh nghiệp, hợp tác xã, hộ kinh doanh của Việt Nam là chủ sở hữu thiết bị y tế;\nb) Doanh nghiệp, hợp tác xã, hộ kinh doanh của Việt Nam được ủy quyền của chủ sở hữu thiết bị y tế;\nc) Văn phòng đại diện thường trú tại Việt Nam của thương nhân nước ngoài mà thương nhân đó là chủ sở hữu thiết bị y tế hoặc được ủy quyền của chủ sở hữu thiết bị y tế.\n2. Tổ chức đứng tên công bố tiêu chuẩn áp dụng hoặc đăng ký lưu hành thiết bị y tế phải có cơ sở bảo hành tại Việt Nam hoặc phải có hợp đồng với tổ chức đủ năng lực bảo hành thiết bị y tế, trừ trường hợp các thiết bị y tế sử dụng một lần theo quy định của chủ sở hữu thiết bị y tế hoặc có tài liệu chứng minh không có chế độ bảo hành.\nTrường hợp tổ chức đứng tên công bố tiêu chuẩn áp dụng hoặc đăng ký lưu hành thiết bị y tế thuộc quy định tại điểm c khoản 1 Điều này thì chủ sở hữu thiết bị y tế phải có cơ sở bảo hành tại Việt Nam hoặc phải có hợp đồng với cơ sở đủ năng lực bảo hành thiết bị y tế, trừ trường hợp các thiết bị y tế sử dụng một lần theo quy định của chủ sở hữu thiết bị y tế hoặc có tài liệu chứng minh không có chế độ bảo hành.\nCơ sở bảo hành phải được chủ sở hữu thiết bị y tế chứng nhận đủ năng lực bảo hành sản phẩm.\nKhoản 2 Điều 29. Các hình thức đăng ký lưu hành \n3.  Cấp nhanh số lưu hành mới đối với thiết bị y tế thuộc một trong các trường hợp sau đây:\na) Đã được một trong các tổ chức hoặc nước sau cấp giấy chứng nhận lưu hành tự do (Certificate of Free Sale) hoặc giấy chứng nhận lưu hành (Market Authorization) (sau đây viết tắt là giấy lưu hành): Cục Quản lý Thực phẩm và Dược phẩm Hoa Kỳ (FDA) - Mỹ; Cục Quản lý hàng hóa trị liệu (TGA) - Úc; Cơ quan quản lý y tế Canada (Health Canada); Bộ Y tế, Lao động và Phúc lợi Nhật Bản (MHLW) hoặc Cơ quan Dược phẩm và Thiết bị y tế (PMDA) - Nhật Bản, các nước thành viên EU, Anh, Thụy Sỹ; Cục Quản lý sản phẩm y tế quốc gia cấp trung ương (National Medical Products Administration - NMPA) - Trung Quốc;  Bộ An toàn thực phẩm và dược phẩm (Ministry of Food & Drug Safety - MFDS) - Hàn Quốc hoặc thuộc danh sách các tổ chức cấp giấy lưu hành được cơ quan có thẩm quyền của Việt Nam công nhận (sau đây viết tắt là nước tham chiếu);\nb) Đã được cấp Giấy phép nhập khẩu hoặc Số lưu hành hoặc Giấy chứng nhận đăng ký lưu hành theo hình thức thương mại tại Việt Nam, trừ các trường hợp đã bị thu hồi trước ngày Nghị định 98/2021/NĐ-CP có hiệu lực.\n\nĐiều kiện để hồ sơ được xử lý ưu tiên:\nĐiều 32a. Ưu tiên xử lý hồ sơ đăng ký lưu hành thiết bị y tế\n1. Cho phép ưu tiên xử lý trước đối với hồ sơ đăng ký lưu hành thiết bị y tế thuộc một trong các trường hợp sau đây:\na) Thiết bị y tế được sản xuất trong nước;\nb) Thiết bị y tế nhập khẩu đã nộp hồ sơ đề nghị cấp giấy phép nhập khẩu thiết bị y tế về Bộ Y tế trước ngày 01 tháng 01 năm 2022 nhưng chưa được cấp giấy phép nhập khẩu và đã nộp hồ sơ đề nghị cấp giấy chứng nhận đăng ký lưu hành thiết bị y tế;\nc) Hóa chất, chế phẩm chỉ có một mục đích là khử khuẩn thiết bị y tế;\nd) Thiết bị y tế để thực hiện kỹ thuật mới, phương pháp mới áp dụng trong khám bệnh, chữa bệnh đã được Bộ Y tế có văn bản cho phép áp dụng chính thức nhưng chưa được cấp số lưu hành tại Việt Nam;\nđ) Thiết bị y tế không thay đổi thông tin về chủng loại, mã sản phẩm trên giấy phép nhập khẩu hoặc quyết định cấp số đăng ký lưu hành hoặc giấy chứng nhận đăng ký lưu hành đã cấp còn hiệu lực nhưng thuộc một trong các trường hợp sau:\n- Thay đổi về cơ sở nhập khẩu hoặc đơn vị đăng ký lưu hành;\n- Thay đổi tên gọi của cơ sở sản xuất nhưng không thay đổi địa chỉ của cơ sở sản xuất;\n- Thay đổi tên gọi của chủ sở hữu thiết bị y tế nhưng không thay đổi địa chỉ của chủ sở hữu thiết bị y tế;\ne) Thiết bị y tế không thay đổi thông tin về chủng loại nhưng có thay đổi thông tin về mã sản phẩm do mã sản phẩm cũ đã ngừng sản xuất trên một trong các giấy tờ sau: giấy phép nhập khẩu hoặc quyết định cấp số đăng ký lưu hành hoặc giấy chứng nhận đăng ký lưu hành đã cấp còn hiệu lực;\ng) Hồ sơ đăng ký lưu hành thiết bị y tế trước đó đã có văn bản yêu cầu bổ sung hoặc văn bản từ chối cấp phép của Bộ Y tế mà nội dung của văn bản chỉ liên quan đến yêu cầu cập nhật hiệu lực của một trong các giấy tờ sau: giấy ủy quyền của chủ sở hữu số lưu hành thiết bị y tế, giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng ISO 13485, giấy lưu hành thiết bị y tế;\nh) Hồ sơ đăng ký lưu hành thiết bị y tế trước đó đã có văn bản yêu cầu bổ sung hoặc văn bản từ chối cấp phép của Bộ Y tế mà nội dung của văn bản chỉ yêu cầu về sửa đổi, bổ sung tên gọi của thiết bị y tế.",
@@ -315,11 +252,6 @@
     "MÔ TẢ": "Yêu cầu đối với một số giấy tờ trong bộ hồ sơ đề nghị cấp mới số lưu hành:\na) Đối với giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng: Nộp bản gốc hoặc bản sao có chứng thực hoặc bản sao có xác nhận của cơ sở đề nghị cấp số lưu hành.\nTrường hợp giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật.\nb) Đối với giấy ủy quyền của chủ sở hữu thiết bị y tế và giấy xác nhận cơ sở đủ điều kiện bảo hành: \n- Đối với thiết bị y tế sản xuất trong nước: Nộp bản gốc hoặc bản sao có chứng thực;\n- Đối với thiết bị y tế nhập khẩu: Nộp bản đã được hợp pháp hóa lãnh sự hoặc bản sao có chứng thực của bản đã được hợp pháp hóa lãnh sự.\nc) Đối với giấy lưu hành: Nộp bản đã được hợp pháp hóa lãnh sự hoặc bản sao có chứng thực của bản đã được hợp pháp hóa lãnh sự.\nTrường hợp giấy lưu hành không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật.\nd) Đối với Giấy chứng nhận đánh giá chất lượng: Nộp bản gốc hoặc bản sao có chứng thực hoặc bản sao có xác nhận của cơ sở đề nghị cấp số lưu hành.\nđ) Đối với hồ sơ CSDT: Nộp bản có xác nhận của tổ chức đề nghị cấp số lưu hành. Trường hợp hồ sơ CSDT không bằng tiếng Anh hoặc không bằng tiếng Việt thì phải dịch ra tiếng Việt. Bản dịch phải được chứng thực theo quy định của pháp luật.\ne) Đối với tài liệu kỹ thuật của thiết bị y tế: Nộp bản có xác nhận của tổ chức đề nghị cấp số lưu hành.\n- Đối với tài liệu hướng dẫn sử dụng của thiết bị y tế: Nộp bản bằng tiếng Việt có xác nhận của tổ chức đề nghị cấp số lưu hành, kèm theo bản gốc bằng tiếng Anh do chủ sở hữu thiết bị y tế ban hành đối với thiết bị y tế nhập khẩu.\n- Đối với mẫu nhãn: Nộp bản mẫu nhãn có xác nhận của tổ chức đề nghị cấp số lưu hành. Mẫu nhãn phải đáp ứng các yêu cầu theo quy định của pháp luật về nhãn hàng hóa.)\n\nĐiều 25 Nghị định số 98/2021/NĐ-CP: Điều kiện của tổ chức được đứng tên công bố tiêu chuẩn áp dụng hoặc đăng ký lưu hành thiết bị y tế\n1. Tổ chức được đứng tên công bố tiêu chuẩn áp dụng hoặc đăng ký lưu hành thiết bị y tế bao gồm:\na) Doanh nghiệp, hợp tác xã, hộ kinh doanh của Việt Nam là chủ sở hữu thiết bị y tế;\nb) Doanh nghiệp, hợp tác xã, hộ kinh doanh của Việt Nam được ủy quyền của chủ sở hữu thiết bị y tế;\nc) Văn phòng đại diện thường trú tại Việt Nam của thương nhân nước ngoài mà thương nhân đó là chủ sở hữu thiết bị y tế hoặc được ủy quyền của chủ sở hữu thiết bị y tế.\n2. Tổ chức đứng tên công bố tiêu chuẩn áp dụng hoặc đăng ký lưu hành thiết bị y tế phải có cơ sở bảo hành tại Việt Nam hoặc phải có hợp đồng với tổ chức đủ năng lực bảo hành thiết bị y tế, trừ trường hợp các thiết bị y tế sử dụng một lần theo quy định của chủ sở hữu thiết bị y tế hoặc có tài liệu chứng minh không có chế độ bảo hành.\nTrường hợp tổ chức đứng tên công bố tiêu chuẩn áp dụng hoặc đăng ký lưu hành thiết bị y tế thuộc quy định tại điểm c khoản 1 Điều này thì chủ sở hữu thiết bị y tế phải có cơ sở bảo hành tại Việt Nam hoặc phải có hợp đồng với cơ sở đủ năng lực bảo hành thiết bị y tế, trừ trường hợp các thiết bị y tế sử dụng một lần theo quy định của chủ sở hữu thiết bị y tế hoặc có tài liệu chứng minh không có chế độ bảo hành.\nCơ sở bảo hành phải được chủ sở hữu thiết bị y tế chứng nhận đủ năng lực bảo hành sản phẩm.\nKhoản 2 Điều 29. Các hình thức đăng ký lưu hành \n3.  Cấp nhanh số lưu hành mới đối với thiết bị y tế thuộc một trong các trường hợp sau đây:\na) Đã được một trong các tổ chức hoặc nước sau cấp giấy chứng nhận lưu hành tự do (Certificate of Free Sale) hoặc giấy chứng nhận lưu hành (Market Authorization) (sau đây viết tắt là giấy lưu hành): Cục Quản lý Thực phẩm và Dược phẩm Hoa Kỳ (FDA) - Mỹ; Cục Quản lý hàng hóa trị liệu (TGA) - Úc; Cơ quan quản lý y tế Canada (Health Canada); Bộ Y tế, Lao động và Phúc lợi Nhật Bản (MHLW) hoặc Cơ quan Dược phẩm và Thiết bị y tế (PMDA) - Nhật Bản, các nước thành viên EU, Anh, Thụy Sỹ; Cục Quản lý sản phẩm y tế quốc gia cấp trung ương (National Medical Products Administration - NMPA) - Trung Quốc;  Bộ An toàn thực phẩm và dược phẩm (Ministry of Food & Drug Safety - MFDS) - Hàn Quốc hoặc thuộc danh sách các tổ chức cấp giấy lưu hành được cơ quan có thẩm quyền của Việt Nam công nhận (sau đây viết tắt là nước tham chiếu);\nb) Đã được cấp Giấy phép nhập khẩu hoặc Số lưu hành hoặc Giấy chứng nhận đăng ký lưu hành theo hình thức thương mại tại Việt Nam, trừ các trường hợp đã bị thu hồi trước ngày Nghị định 98/2021/NĐ-CP có hiệu lực.\n\nĐiều kiện để hồ sơ được xử lý ưu tiên:\nĐiều 32a. Ưu tiên xử lý hồ sơ đăng ký lưu hành thiết bị y tế\n1. Cho phép ưu tiên xử lý trước đối với hồ sơ đăng ký lưu hành thiết bị y tế thuộc một trong các trường hợp sau đây:\na) Thiết bị y tế được sản xuất trong nước;\nb) Thiết bị y tế nhập khẩu đã nộp hồ sơ đề nghị cấp giấy phép nhập khẩu thiết bị y tế về Bộ Y tế trước ngày 01 tháng 01 năm 2022 nhưng chưa được cấp giấy phép nhập khẩu và đã nộp hồ sơ đề nghị cấp giấy chứng nhận đăng ký lưu hành thiết bị y tế;\nc) Hóa chất, chế phẩm chỉ có một mục đích là khử khuẩn thiết bị y tế;\nd) Thiết bị y tế để thực hiện kỹ thuật mới, phương pháp mới áp dụng trong khám bệnh, chữa bệnh đã được Bộ Y tế có văn bản cho phép áp dụng chính thức nhưng chưa được cấp số lưu hành tại Việt Nam;\nđ) Thiết bị y tế không thay đổi thông tin về chủng loại, mã sản phẩm trên giấy phép nhập khẩu hoặc quyết định cấp số đăng ký lưu hành hoặc giấy chứng nhận đăng ký lưu hành đã cấp còn hiệu lực nhưng thuộc một trong các trường hợp sau:\n- Thay đổi về cơ sở nhập khẩu hoặc đơn vị đăng ký lưu hành;\n- Thay đổi tên gọi của cơ sở sản xuất nhưng không thay đổi địa chỉ của cơ sở sản xuất;\n- Thay đổi tên gọi của chủ sở hữu thiết bị y tế nhưng không thay đổi địa chỉ của chủ sở hữu thiết bị y tế;\ne) Thiết bị y tế không thay đổi thông tin về chủng loại nhưng có thay đổi thông tin về mã sản phẩm do mã sản phẩm cũ đã ngừng sản xuất trên một trong các giấy tờ sau: giấy phép nhập khẩu hoặc quyết định cấp số đăng ký lưu hành hoặc giấy chứng nhận đăng ký lưu hành đã cấp còn hiệu lực;\ng) Hồ sơ đăng ký lưu hành thiết bị y tế trước đó đã có văn bản yêu cầu bổ sung hoặc văn bản từ chối cấp phép của Bộ Y tế mà nội dung của văn bản chỉ liên quan đến yêu cầu cập nhật hiệu lực của một trong các giấy tờ sau: giấy ủy quyền của chủ sở hữu số lưu hành thiết bị y tế, giấy chứng nhận đạt tiêu chuẩn quản lý chất lượng ISO 13485, giấy lưu hành thiết bị y tế;\nh) Hồ sơ đăng ký lưu hành thiết bị y tế trước đó đã có văn bản yêu cầu bổ sung hoặc văn bản từ chối cấp phép của Bộ Y tế mà nội dung của văn bản chỉ yêu cầu về sửa đổi, bổ sung tên gọi của thiết bị y tế."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Sức khỏe và y tế",
-      "slug": "suc-khoe-va-y-te",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thiết bị y tế",
       "slug": "thiet-bi-y-te"
@@ -345,7 +277,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -354,6 +286,6 @@
         "slug": "cuc-ha-tang-va-thiet-bi-y-te-bo-y-te"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

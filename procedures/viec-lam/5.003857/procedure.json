@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019f21ea-739d-75a3-82b4-241af1190bd2",
   "procedure_code": "5.003857",
   "title": "Thủ tục thu hồi quyết định chỉ định",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019f21ea-739d-75a3-82b4-241af1190bd2",
     "source_file": "chi-tiet-thu-tuc-5.003857.pdf",
     "source_path": "procedures/viec-lam/5.003857/chi-tiet-thu-tuc-5.003857.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:24.962208+00:00",
-    "source_updated_at": "2026-07-02T08:28:35.073Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:42.679016+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "08da1f5786b3834ff77a32f3040f17c4c5846991d906d028fa3aae266252ce26"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:24.962208+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1612/QĐ-BCT",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "CENTRAL_REGULATION",
   "sector": "Tiêu chuẩn đo lường chất lượng (Bộ Công Thương)",
   "target_users": [
@@ -35,10 +31,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Bộ Công thương",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Công thương"
   },
   "steps": [
     {
@@ -46,19 +39,16 @@
       "title": "Bước 1",
       "description": "Cơ quan chỉ định (đơn vị đã thực hiện cấp quyết định chỉ định), căn cứ các vi phạm sau của tổ chức đánh giá sự phù hợp đã được chỉ định xem xét, quyết định thu hồi quyết định chỉ định:\n+ Vi phạm 02 lần liên tiếp các quy định về đánh giá sự phù hợp theo pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật và các quy định tại Nghị định số 37/2026/NĐ-CP ngày 23 tháng 01 năm 2026 của Chính phủ;\n+ Không thực hiện đầy đủ trách nhiệm tương ứng quy định tại Điều 77 Nghị định số 37/2026/NĐ-CP ngày 23 tháng 01 năm 2026 của Chính phủ trong 02 năm liên tiếp;\n+ Không bảo đảm một trong các điều kiện tương ứng đối với tổ chức đánh giá sự phù hợp được chỉ định theo quy định tại Nghị định số 37/2026/NĐ-CP ngày 23 tháng 01 năm 2026 của Chính phủ;\n+ Giả mạo hoặc khai man các tài liệu trong hồ sơ đăng ký chỉ định; cấp khống kết quả đánh giá sự phù hợp;\n+ Tẩy xóa, sửa chữa làm sai lệch nội dung trên quyết định chỉ định được cấp;\n+ Không thực hiện khắc phục các vi phạm theo yêu cầu của cơ quan thanh tra, kiểm tra;\n+ Tổ chức đánh giá sự phù hợp không còn hoạt động trong phạm vi đã được chỉ định, bị giải thể, thu hồi quyết định theo đề nghị của tổ chức đánh giá sự phù hợp.\nTrong thời hạn 03 ngày làm việc, cơ quan có thẩm quyền ban hành quyết định thu hồi quyết định chỉ định, trong đó nêu rõ lý do thu hồi;\nQuyết định thu hồi phải được gửi cho tổ chức liên quan và công bố trên Cổng thông tin điện tử của cơ quan có thẩm quyền, đồng thời cập nhật vào Cơ sở dữ liệu quốc gia về tiêu chuẩn, đo lường, chất lượng.\nTrường hợp lý do thu hồi đồng thời là hành vi vi phạm hành chính quy định tại Nghị định về xử phạt vi phạm hành chính trong lĩnh vực tiêu chuẩn, đo lường, chất lượng sản phẩm, hàng hóa, cơ quan chỉ định thực hiện:\n+ Ban hành quyết định thu hồi quyết định chỉ định;\n+ Chuyển hồ sơ cho cơ quan thanh tra để xử lý, xử phạt vi phạm hành chính theo đúng thẩm quyền, trình tự, thủ tục quy định tại pháp luật về xử phạt vi phạm hành chính.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": ",., Không quy định",
-        "code": "000.00.00.G02-KQ005557",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -69,50 +59,43 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "thông qua hệ thống xử lý văn bản iMOIT/ cổng dịch vụ công trực tuyến hoặc trực tiếp hoặc qua dịch vụ bưu chính",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "thông qua hệ thống xử lý văn bản iMOIT/ cổng dịch vụ công trực tuyến hoặc trực tiếp hoặc qua dịch vụ bưu chính",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "thông qua hệ thống xử lý văn bản iMOIT/ cổng dịch vụ công trực tuyến hoặc trực tiếp hoặc qua dịch vụ bưu chính",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
   },
   "legal_bases": [
     {
-      "title": "Thông tư số 34/2026/TT-BCT  ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Công Thương quy định về quản lý chất lượng sản phẩm, hàng hóa thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương \n\n",
-      "document_number": "34/2026/TT-BCT ",
-      "id": "019f210e-67fa-72cf-bbcd-1b24267c3467",
-      "source_page": null
+      "title": "Thông tư số 34/2026/TT-BCT  ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Công Thương quy định về quản lý chất lượng sản phẩm, hàng hóa thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương",
+      "document_number": "34/2026/TT-BCT",
+      "source_page": 4
     },
     {
       "title": "Nghị định số 37/2026/NĐ-CP ngày 23/01/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Chất lượng sản phẩm, hàng hóa",
       "document_number": "37/2026/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46d-47da712d5452",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "Không quy định",
@@ -120,15 +103,14 @@
     {
       "title": "Quyết định thu hồi Quyết định chỉ định",
       "code": "KQ-NB-1000",
-      "id": "019f21e9-acac-7696-b7e7-75ccdabc7a55",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Cơ quan chỉ định (đơn vị đã thực hiện cấp quyết định chỉ định), căn cứ các vi phạm sau của tổ chức đánh giá sự phù hợp đã được chỉ định xem xét, quyết định thu hồi quyết định chỉ định:\n+ Vi phạm 02 lần liên tiếp các quy định về đánh giá sự phù hợp theo pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật và các quy định tại Nghị định số 37/2026/NĐ-CP ngày 23 tháng 01 năm 2026 của Chính phủ;\n+ Không thực hiện đầy đủ trách nhiệm tương ứng quy định tại Điều 77 Nghị định số 37/2026/NĐ-CP ngày 23 tháng 01 năm 2026 của Chính phủ trong 02 năm liên tiếp;\n+ Không bảo đảm một trong các điều kiện tương ứng đối với tổ chức đánh giá sự phù hợp được chỉ định theo quy định tại Nghị định số 37/2026/NĐ-CP ngày 23 tháng 01 năm 2026 của Chính phủ;\n+ Giả mạo hoặc khai man các tài liệu trong hồ sơ đăng ký chỉ định; cấp khống kết quả đánh giá sự phù hợp;\n+ Tẩy xóa, sửa chữa làm sai lệch nội dung trên quyết định chỉ định được cấp;\n+ Không thực hiện khắc phục các vi phạm theo yêu cầu của cơ quan thanh tra, kiểm tra;\n+ Tổ chức đánh giá sự phù hợp không còn hoạt động trong phạm vi đã được chỉ định, bị giải thể, thu hồi quyết định theo đề nghị của tổ chức đánh giá sự phù hợp.\nTrong thời hạn 03 ngày làm việc, cơ quan có thẩm quyền ban hành quyết định thu hồi quyết định chỉ định, trong đó nêu rõ lý do thu hồi;\nQuyết định thu hồi phải được gửi cho tổ chức liên quan và công bố trên Cổng thông tin điện tử của cơ quan có thẩm quyền, đồng thời cập nhật vào Cơ sở dữ liệu quốc gia về tiêu chuẩn, đo lường, chất lượng.\nTrường hợp lý do thu hồi đồng thời là hành vi vi phạm hành chính quy định tại Nghị định về xử phạt vi phạm hành chính trong lĩnh vực tiêu chuẩn, đo lường, chất lượng sản phẩm, hàng hóa, cơ quan chỉ định thực hiện:\n+ Ban hành quyết định thu hồi quyết định chỉ định;\n+ Chuyển hồ sơ cho cơ quan thanh tra để xử lý, xử phạt vi phạm hành chính theo đúng thẩm quyền, trình tự, thủ tục quy định tại pháp luật về xử phạt vi phạm hành chính.",
-    "THÀNH PHẦN HỒ SƠ": "\n,., Không quy định",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 3 ngày làm việc - thông qua hệ thống xử lý văn bản iMOIT/ cổng dịch vụ công trực tuyến hoặc trực tiếp hoặc qua dịch vụ bưu chính\nTrực tuyến: 3 ngày làm việc - thông qua hệ thống xử lý văn bản iMOIT/ cổng dịch vụ công trực tuyến hoặc trực tiếp hoặc qua dịch vụ bưu chính\nQua dịch vụ bưu chính: 3 ngày làm việc - thông qua hệ thống xử lý văn bản iMOIT/ cổng dịch vụ công trực tuyến hoặc trực tiếp hoặc qua dịch vụ bưu chính",
-    "CĂN CỨ PHÁP LÝ": "Thông tư số 34/2026/TT-BCT  ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Công Thương quy định về quản lý chất lượng sản phẩm, hàng hóa thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương \n\n - 34/2026/TT-BCT \nNghị định số 37/2026/NĐ-CP ngày 23/01/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Chất lượng sản phẩm, hàng hóa - 37/2026/NĐ-CP",
+    "THÀNH PHẦN HỒ SƠ": ",., Không quy định",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 3 ngày làm việc\nTrực tuyến: 3 ngày làm việc\nQua dịch vụ bưu chính: 3 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "Thông tư số 34/2026/TT-BCT  ngày 30 tháng 6 năm 2026 của Bộ trưởng Bộ Công Thương quy định về quản lý chất lượng sản phẩm, hàng hóa thuộc trách nhiệm quản lý nhà nước của Bộ Công Thương - 34/2026/TT-BCT\nNghị định số 37/2026/NĐ-CP ngày 23/01/2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Chất lượng sản phẩm, hàng hóa - 37/2026/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Bộ Công thương",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Không quy định",
     "KẾT QUẢ XỬ LÝ": "Quyết định thu hồi Quyết định chỉ định - KQ-NB-1000",
@@ -136,14 +118,9 @@
     "MÔ TẢ": "Không quy định"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Tiêu chuẩn đo lường chất lượng (Bộ Công Thương)",
-      "slug": "tieu-chuan-do-luong-chat-luong-bo-cong-thuong"
+      "slug": "tieu-chuan-o-luong-chat-luong-bo-cong-thuong"
     },
     "implementation_levels": [
       {
@@ -163,6 +140,6 @@
         "slug": "bo-cong-thuong"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

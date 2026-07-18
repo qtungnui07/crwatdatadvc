@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf7-6f1f-73d2-85f8-0e58d86e9ddd",
   "procedure_code": "1.003173",
   "title": "Đăng ký lại mẫu con dấu (thực hiện tại cấp trung ương)",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-6f1f-73d2-85f8-0e58d86e9ddd",
     "source_file": "chi-tiet-thu-tuc-1.003173.pdf",
     "source_path": "procedures/viec-lam/1.003173/chi-tiet-thu-tuc-1.003173.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:00.869046+00:00",
-    "source_updated_at": "2026-04-27T15:53:02.513Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:01.978565+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "ae4a6b93a3382c68041cd635b14ab26fc1ed981f7f078983a1f8ce9e5923173c"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:00.869046+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1523/QĐ-BCA-C06",
   "implementation_level": "Cấp bộ, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đăng ký, quản lý con dấu",
   "target_users": [
@@ -42,18 +37,29 @@
   ],
   "agency": {
     "competent_agency": "Cục cảnh sát quản lý hành chính về trật tự, xã hội",
-    "executing_agency": "Cục cảnh sát quản lý hành chính về trật tự, xã hội",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Cục Cảnh sát quản lý hành chính về trật tự xã hội - Bộ Công an"
+    "executing_agency": "Cục cảnh sát quản lý hành chính về trật tự, xã hội"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Cơ quan, tổ chức, chức danh nhà nước có nhu cầu đăng ký lại mẫu con dấu do con dấu bị biến dạng, mòn, hỏng hoặc thay đổi chất liệu hoặc có sự thay đổi về tổ chức, đổi tên hoặc bị mất con dấu nộp hồ sơ về Cục Cảnh sát quản lý hành chính về trật tự xã hội, Bộ Công an.\n- Bước 2: Cán bộ tiếp nhận kiểm tra tính hợp lệ và thành phần của hồ sơ\n+ Nếu hồ sơ hợp lệ và đủ thành phần thì tiếp nhận hồ sơ và gửi Giấy biên nhận hồ sơ trực tiếp hoặc qua dịch vụ bưu chính hoặc qua Cổng dịch vụ công cho người được cơ quan, tổ chức, chức danh nhà nước cử liên hệ nộp hồ sơ. \n+ Nếu hồ sơ chưa đầy đủ thành phần hoặc không hợp lệ thì hướng dẫn và gửi Phiếu hướng dẫn hoàn thiện hồ sơ trực tiếp hoặc qua dịch vụ bưu chính hoặc gửi Cổng dịch vụ công cho người được cơ quan, tổ chức, chức danh nhà nước cử liên hệ nộp hồ sơ. \n+ Nếu hồ sơ không đủ điều kiện theo quy định tại Điều 5 Nghị định số 99/2016/NĐ-CP ngày 01/7/2016 của Chính phủ về quản lý và sử dụng con dấu thì không tiếp nhận hồ sơ, thông báo lý do từ chối và gửi Thông báo về việc từ chối giải quyết hồ sơ trực tiếp hoặc qua dịch vụ bưu chính hoặc qua Cổng dịch vụ công cho người được cơ quan, tổ chức, chức danh nhà nước cử liên hệ nộp hồ sơ.\n- Bước 3: Căn cứ ngày hẹn trả kết quả trên Giấy biên nhận hồ sơ, Cục Cảnh sát quản lý hành chính về trật tự xã hội trả kết quả trực tiếp hoặc qua dịch vụ bưu chính hoặc qua Cổng dịch vụ công.\n",
+      "description": "- Bước 1: Cơ quan, tổ chức, chức danh nhà nước có nhu cầu đăng ký lại mẫu con dấu do con dấu bị biến dạng, mòn, hỏng hoặc thay đổi chất liệu hoặc có sự thay đổi về tổ chức, đổi tên hoặc bị mất con dấu nộp hồ sơ về Cục Cảnh sát quản lý hành chính về trật tự xã hội, Bộ Công an.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Cán bộ tiếp nhận kiểm tra tính hợp lệ và thành phần của hồ sơ\n+ Nếu hồ sơ hợp lệ và đủ thành phần thì tiếp nhận hồ sơ và gửi Giấy biên nhận hồ sơ trực tiếp hoặc qua dịch vụ bưu chính hoặc qua Cổng dịch vụ công cho người được cơ quan, tổ chức, chức danh nhà nước cử liên hệ nộp hồ sơ. \n+ Nếu hồ sơ chưa đầy đủ thành phần hoặc không hợp lệ thì hướng dẫn và gửi Phiếu hướng dẫn hoàn thiện hồ sơ trực tiếp hoặc qua dịch vụ bưu chính hoặc gửi Cổng dịch vụ công cho người được cơ quan, tổ chức, chức danh nhà nước cử liên hệ nộp hồ sơ. \n+ Nếu hồ sơ không đủ điều kiện theo quy định tại Điều 5 Nghị định số 99/2016/NĐ-CP ngày 01/7/2016 của Chính phủ về quản lý và sử dụng con dấu thì không tiếp nhận hồ sơ, thông báo lý do từ chối và gửi Thông báo về việc từ chối giải quyết hồ sơ trực tiếp hoặc qua dịch vụ bưu chính hoặc qua Cổng dịch vụ công cho người được cơ quan, tổ chức, chức danh nhà nước cử liên hệ nộp hồ sơ.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "- Bước 3: Căn cứ ngày hẹn trả kết quả trên Giấy biên nhận hồ sơ, Cục Cảnh sát quản lý hành chính về trật tự xã hội trả kết quả trực tiếp hoặc qua dịch vụ bưu chính hoặc qua Cổng dịch vụ công.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
@@ -62,30 +68,21 @@
     "conditional": [
       {
         "name": "a) Đối với cơ quan, tổ chức, chức danh nhà nước có con dấu bị biến dạng, mòn, hỏng hoặc thay đổi chất liệu: Văn bản đề nghị đăng ký lại mẫu con dấu của cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu, trong đó nêu rõ lý do và người được cử liên hệ nộp hồ sơ.",
-        "code": "000.00.00.G01-KQ002547",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "c) Đối với cơ quan, tổ chức, chức danh nhà nước bị mất con dấu: - Văn bản đề nghị đăng ký lại mẫu con dấu của cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu, trong đó nêu rõ lý do và người được cử liên hệ nộp hồ sơ và có xác nhận của cơ quan quản lý trực tiếp hoặc cơ quan có thẩm quyền; - Giấy chứng nhận đăng ký mẫu con dấu được cấp trước đó.",
-        "code": "000.00.00.G01-KQ002549",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "b) Đối với cơ quan, tổ chức, chức danh nhà nước có sự thay đổi về tổ chức, đổi tên: - Văn bản đề nghị đăng ký lại mẫu con dấu của cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu, trong đó nêu rõ lý do và người được cử liên hệ nộp hồ sơ;  - Quyết định thay đổi về tổ chức, đổi tên cơ quan, tổ chức, chức danh nhà nước của cơ quan có thẩm quyền.",
-        "code": "000.00.00.G01-KQ002548",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -94,34 +91,29 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -130,20 +122,17 @@
     {
       "title": "Nghị định 56/2023/NĐ-CP",
       "document_number": "56/2023/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46f-0ca240576c04",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 99/2016/NĐ-CP",
       "document_number": "99/2016/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b473-61b8951d61e3",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư 15/2022/TT-BCA",
       "document_number": "15/2022/TT-BCA",
-      "id": "019d2bb3-5d86-7760-a640-a84d6eed6a9d",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Cơ quan, tổ chức, chức danh nhà nước thực hiện việc đăng ký lại mẫu con dấu khi con dấu bị biến dạng, mòn, hỏng hoặc thay đổi chất liệu hoặc có sự thay đổi về tổ chức, đổi tên hoặc bị mất con dấu.",
@@ -151,13 +140,12 @@
     {
       "title": "Con dấu và Giấy chứng nhận đăng ký mẫu con dấu",
       "code": "KQ.G01.000031",
-      "id": "019d2bb2-1c36-71b8-ad26-c9e7b11b974d",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Cơ quan, tổ chức, chức danh nhà nước có nhu cầu đăng ký lại mẫu con dấu do con dấu bị biến dạng, mòn, hỏng hoặc thay đổi chất liệu hoặc có sự thay đổi về tổ chức, đổi tên hoặc bị mất con dấu nộp hồ sơ về Cục Cảnh sát quản lý hành chính về trật tự xã hội, Bộ Công an.\n- Bước 2: Cán bộ tiếp nhận kiểm tra tính hợp lệ và thành phần của hồ sơ\n+ Nếu hồ sơ hợp lệ và đủ thành phần thì tiếp nhận hồ sơ và gửi Giấy biên nhận hồ sơ trực tiếp hoặc qua dịch vụ bưu chính hoặc qua Cổng dịch vụ công cho người được cơ quan, tổ chức, chức danh nhà nước cử liên hệ nộp hồ sơ. \n+ Nếu hồ sơ chưa đầy đủ thành phần hoặc không hợp lệ thì hướng dẫn và gửi Phiếu hướng dẫn hoàn thiện hồ sơ trực tiếp hoặc qua dịch vụ bưu chính hoặc gửi Cổng dịch vụ công cho người được cơ quan, tổ chức, chức danh nhà nước cử liên hệ nộp hồ sơ. \n+ Nếu hồ sơ không đủ điều kiện theo quy định tại Điều 5 Nghị định số 99/2016/NĐ-CP ngày 01/7/2016 của Chính phủ về quản lý và sử dụng con dấu thì không tiếp nhận hồ sơ, thông báo lý do từ chối và gửi Thông báo về việc từ chối giải quyết hồ sơ trực tiếp hoặc qua dịch vụ bưu chính hoặc qua Cổng dịch vụ công cho người được cơ quan, tổ chức, chức danh nhà nước cử liên hệ nộp hồ sơ.\n- Bước 3: Căn cứ ngày hẹn trả kết quả trên Giấy biên nhận hồ sơ, Cục Cảnh sát quản lý hành chính về trật tự xã hội trả kết quả trực tiếp hoặc qua dịch vụ bưu chính hoặc qua Cổng dịch vụ công.\n",
-    "THÀNH PHẦN HỒ SƠ": "\na) Đối với cơ quan, tổ chức, chức danh nhà nước có con dấu bị biến dạng, mòn, hỏng hoặc thay đổi chất liệu: Văn bản đề nghị đăng ký lại mẫu con dấu của cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu, trong đó nêu rõ lý do và người được cử liên hệ nộp hồ sơ.\nc) Đối với cơ quan, tổ chức, chức danh nhà nước bị mất con dấu: - Văn bản đề nghị đăng ký lại mẫu con dấu của cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu, trong đó nêu rõ lý do và người được cử liên hệ nộp hồ sơ và có xác nhận của cơ quan quản lý trực tiếp hoặc cơ quan có thẩm quyền; - Giấy chứng nhận đăng ký mẫu con dấu được cấp trước đó.\nb) Đối với cơ quan, tổ chức, chức danh nhà nước có sự thay đổi về tổ chức, đổi tên: - Văn bản đề nghị đăng ký lại mẫu con dấu của cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu, trong đó nêu rõ lý do và người được cử liên hệ nộp hồ sơ;  - Quyết định thay đổi về tổ chức, đổi tên cơ quan, tổ chức, chức danh nhà nước của cơ quan có thẩm quyền.",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Cơ quan, tổ chức, chức danh nhà nước có nhu cầu đăng ký lại mẫu con dấu do con dấu bị biến dạng, mòn, hỏng hoặc thay đổi chất liệu hoặc có sự thay đổi về tổ chức, đổi tên hoặc bị mất con dấu nộp hồ sơ về Cục Cảnh sát quản lý hành chính về trật tự xã hội, Bộ Công an.\n- Bước 2: Cán bộ tiếp nhận kiểm tra tính hợp lệ và thành phần của hồ sơ\n+ Nếu hồ sơ hợp lệ và đủ thành phần thì tiếp nhận hồ sơ và gửi Giấy biên nhận hồ sơ trực tiếp hoặc qua dịch vụ bưu chính hoặc qua Cổng dịch vụ công cho người được cơ quan, tổ chức, chức danh nhà nước cử liên hệ nộp hồ sơ. \n+ Nếu hồ sơ chưa đầy đủ thành phần hoặc không hợp lệ thì hướng dẫn và gửi Phiếu hướng dẫn hoàn thiện hồ sơ trực tiếp hoặc qua dịch vụ bưu chính hoặc gửi Cổng dịch vụ công cho người được cơ quan, tổ chức, chức danh nhà nước cử liên hệ nộp hồ sơ. \n+ Nếu hồ sơ không đủ điều kiện theo quy định tại Điều 5 Nghị định số 99/2016/NĐ-CP ngày 01/7/2016 của Chính phủ về quản lý và sử dụng con dấu thì không tiếp nhận hồ sơ, thông báo lý do từ chối và gửi Thông báo về việc từ chối giải quyết hồ sơ trực tiếp hoặc qua dịch vụ bưu chính hoặc qua Cổng dịch vụ công cho người được cơ quan, tổ chức, chức danh nhà nước cử liên hệ nộp hồ sơ.\n- Bước 3: Căn cứ ngày hẹn trả kết quả trên Giấy biên nhận hồ sơ, Cục Cảnh sát quản lý hành chính về trật tự xã hội trả kết quả trực tiếp hoặc qua dịch vụ bưu chính hoặc qua Cổng dịch vụ công.",
+    "THÀNH PHẦN HỒ SƠ": "a) Đối với cơ quan, tổ chức, chức danh nhà nước có con dấu bị biến dạng, mòn, hỏng hoặc thay đổi chất liệu: Văn bản đề nghị đăng ký lại mẫu con dấu của cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu, trong đó nêu rõ lý do và người được cử liên hệ nộp hồ sơ.\nc) Đối với cơ quan, tổ chức, chức danh nhà nước bị mất con dấu: - Văn bản đề nghị đăng ký lại mẫu con dấu của cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu, trong đó nêu rõ lý do và người được cử liên hệ nộp hồ sơ và có xác nhận của cơ quan quản lý trực tiếp hoặc cơ quan có thẩm quyền; - Giấy chứng nhận đăng ký mẫu con dấu được cấp trước đó.\nb) Đối với cơ quan, tổ chức, chức danh nhà nước có sự thay đổi về tổ chức, đổi tên: - Văn bản đề nghị đăng ký lại mẫu con dấu của cơ quan, tổ chức, chức danh nhà nước sử dụng con dấu, trong đó nêu rõ lý do và người được cử liên hệ nộp hồ sơ;  - Quyết định thay đổi về tổ chức, đổi tên cơ quan, tổ chức, chức danh nhà nước của cơ quan có thẩm quyền.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 3 ngày làm việc\nQua dịch vụ bưu chính: 3 ngày làm việc\nTrực tiếp: 3 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định 56/2023/NĐ-CP - 56/2023/NĐ-CP\nNghị định 99/2016/NĐ-CP - 99/2016/NĐ-CP\nThông tư 15/2022/TT-BCA - 15/2022/TT-BCA",
     "CƠ QUAN THỰC HIỆN": "Cục cảnh sát quản lý hành chính về trật tự, xã hội",
@@ -167,14 +155,9 @@
     "MÔ TẢ": "Cơ quan, tổ chức, chức danh nhà nước thực hiện việc đăng ký lại mẫu con dấu khi con dấu bị biến dạng, mòn, hỏng hoặc thay đổi chất liệu hoặc có sự thay đổi về tổ chức, đổi tên hoặc bị mất con dấu."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Đăng ký, quản lý con dấu",
-      "slug": "dang-ky-quan-ly-con-dau"
+      "slug": "ang-ky-quan-ly-con-dau"
     },
     "implementation_levels": [
       {
@@ -209,7 +192,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
@@ -222,6 +205,6 @@
         "slug": "cuc-canh-sat-quan-ly-hanh-chinh-ve-trat-tu-xa-hoi"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

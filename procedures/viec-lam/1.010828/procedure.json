@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-03d4-71f5-b93e-c6c57d772177",
   "procedure_code": "1.010828",
   "title": "Cấp trích lục hoặc sao hồ sơ người có công với cách mạng",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-03d4-71f5-b93e-c6c57d772177",
     "source_file": "chi-tiet-thu-tuc-1.010828.pdf",
     "source_path": "procedures/viec-lam/1.010828/chi-tiet-thu-tuc-1.010828.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:06.481706+00:00",
-    "source_updated_at": "2026-04-18T08:47:42.834Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:51.374996+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "0c6771a23fa561a1b79226fa8108a0f13e83c37c11e4f697156fa10200a26b79"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:06.481706+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "320/QĐ-BNV",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Người có công",
   "target_users": [
@@ -35,18 +31,22 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Nội vụ",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Nội vụ"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Cá nhân, cơ quan, tổ chức có đơn hoặc văn bản nêu rõ lý do đề nghị cấp trích lục hoặc sao một số giấy tờ trong hồ sơ hoặc toàn bộ hồ sơ người có công gửi đến Sở Nội vụ.\n      Bước 2: Sở Nội vụ trong thời gian 12 ngày kể từ ngày tiếp nhận đơn hoặc văn bản đề nghị, có trách nhiệm kiểm tra, đối chiếu lý do theo quy định để cấp trích lục hồ sơ, sao một số giấy tờ trong hồ sơ hoặc toàn bộ hồ sơ gửi đến nơi đề nghị; lập phiếu theo dõi theo Mẫu số 92 Phụ lục I Nghị định số 131/2021/NĐ-CP.\n",
+      "description": "Bước 1: Cá nhân, cơ quan, tổ chức có đơn hoặc văn bản nêu rõ lý do đề nghị cấp trích lục hoặc sao một số giấy tờ trong hồ sơ hoặc toàn bộ hồ sơ người có công gửi đến Sở Nội vụ.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Sở Nội vụ trong thời gian 12 ngày kể từ ngày tiếp nhận đơn hoặc văn bản đề nghị, có trách nhiệm kiểm tra, đối chiếu lý do theo quy định để cấp trích lục hồ sơ, sao một số giấy tờ trong hồ sơ hoặc toàn bộ hồ sơ gửi đến nơi đề nghị; lập phiếu theo dõi theo Mẫu số 92 Phụ lục I Nghị định số 131/2021/NĐ-CP.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -55,12 +55,9 @@
     "conditional": [
       {
         "name": "Đơn đề nghị hoặc văn bản đề nghị cấp trích lục hoặc sao một số giấy tờ trong hồ sơ hoặc toàn bộ hồ sơ người có công.",
-        "code": "000.00.00.G07-KQ001811",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -69,60 +66,37 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "12 ngày",
-      "processing_time_value": 12,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Kể từ ngày nhận đủ giấy tờ theo quy định.",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "12 ngày",
-      "processing_time_value": 12,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Kể từ ngày nhận đủ giấy tờ theo quy định.",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -130,32 +104,27 @@
     {
       "title": "Nghị định số 25/2025/NĐ-CP ngày 21 tháng 02 năm 2025 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nội vụ",
       "document_number": "Nghị định số 25/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b474-93996f3f00db",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước",
       "document_number": "190/2025/NQ-QH15",
-      "id": "019d2bb3-5d84-71c5-b671-f40a5ee32475",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định số 45/2025/NĐ-CP ngày 28/02/2025 của Chính phủ quy định tổ chức các cơ quan chuyên môn thuộc Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và Ủy ban nhân dân huyện, quận, thị xã, thành phố thuộc tỉnh, thành phố thuộc thành phố trực thuộc trung ương",
       "document_number": "45/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46e-3b82195c2d48",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "QUY ĐỊNH CHI TIẾT VÀ BIỆN PHÁP THI HÀNH PHÁP LỆNH ƯU ĐÃI NGƯỜI CÓ CÔNG VỚI CÁCH MẠNG",
       "document_number": "Nghị định số 131/2021/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b474-516a799e2145",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "ƯU ĐÃI NGƯỜI CÓ CÔNG VỚI CÁCH MẠNG",
       "document_number": "Pháp lệnh số: 02/2020/UBTVQH14",
-      "id": "019d2bb3-5d85-73da-8eba-20bc75de794b",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "- Cấp trích lục hồ sơ người có công hoặc sao một số giấy tờ trong hồ sơ người có công theo đề nghị của người có công hoặc thân nhân để giải quyết chế độ có liên quan đến nội dung đề nghị.\nThân nhân đang hưởng trợ cấp tuất hằng tháng thay đổi nơi thường trú mà vẫn còn thân nhân khác đang hưởng trợ cấp tuất hằng tháng tại nơi đi thì Sở Lao động - Thương binh và Xã hội cấp bản trích lục hồ sơ người có công kèm bản sao y quyết định hưởng trợ cấp tuất hàng tháng đến nơi thường trú mới.\n- Cấp trích lục hoặc sao hồ sơ người có công theo đề nghị của cơ quan, tổ chức để giải quyết vụ việc có liên quan.",
@@ -163,14 +132,13 @@
     {
       "title": "- Cấp trích lục hồ sơ, sao một số giấy tờ hoặc toàn bộ hồ sơ người có công. - Phiếu theo dõi sao hồ sơ người có công",
       "code": "KQ.G09.000438",
-      "id": "019d2bb2-1c4d-7725-9d9c-8f336f33eb61",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Cá nhân, cơ quan, tổ chức có đơn hoặc văn bản nêu rõ lý do đề nghị cấp trích lục hoặc sao một số giấy tờ trong hồ sơ hoặc toàn bộ hồ sơ người có công gửi đến Sở Nội vụ.\n      Bước 2: Sở Nội vụ trong thời gian 12 ngày kể từ ngày tiếp nhận đơn hoặc văn bản đề nghị, có trách nhiệm kiểm tra, đối chiếu lý do theo quy định để cấp trích lục hồ sơ, sao một số giấy tờ trong hồ sơ hoặc toàn bộ hồ sơ gửi đến nơi đề nghị; lập phiếu theo dõi theo Mẫu số 92 Phụ lục I Nghị định số 131/2021/NĐ-CP.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nĐơn đề nghị hoặc văn bản đề nghị cấp trích lục hoặc sao một số giấy tờ trong hồ sơ hoặc toàn bộ hồ sơ người có công.",
-    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 12 ngày - Kể từ ngày nhận đủ giấy tờ theo quy định.\nTrực tiếp: 12 ngày - Kể từ ngày nhận đủ giấy tờ theo quy định.",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Cá nhân, cơ quan, tổ chức có đơn hoặc văn bản nêu rõ lý do đề nghị cấp trích lục hoặc sao một số giấy tờ trong hồ sơ hoặc toàn bộ hồ sơ người có công gửi đến Sở Nội vụ.\nBước 2: Sở Nội vụ trong thời gian 12 ngày kể từ ngày tiếp nhận đơn hoặc văn bản đề nghị, có trách nhiệm kiểm tra, đối chiếu lý do theo quy định để cấp trích lục hồ sơ, sao một số giấy tờ trong hồ sơ hoặc toàn bộ hồ sơ gửi đến nơi đề nghị; lập phiếu theo dõi theo Mẫu số 92 Phụ lục I Nghị định số 131/2021/NĐ-CP.",
+    "THÀNH PHẦN HỒ SƠ": "Đơn đề nghị hoặc văn bản đề nghị cấp trích lục hoặc sao một số giấy tờ trong hồ sơ hoặc toàn bộ hồ sơ người có công.",
+    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 12 ngày\nTrực tiếp: 12 ngày",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 25/2025/NĐ-CP ngày 21 tháng 02 năm 2025 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nội vụ - Nghị định số 25/2025/NĐ-CP\nNghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước - 190/2025/NQ-QH15\nNghị định số 45/2025/NĐ-CP ngày 28/02/2025 của Chính phủ quy định tổ chức các cơ quan chuyên môn thuộc Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và Ủy ban nhân dân huyện, quận, thị xã, thành phố thuộc tỉnh, thành phố thuộc thành phố trực thuộc trung ương - 45/2025/NĐ-CP\nQUY ĐỊNH CHI TIẾT VÀ BIỆN PHÁP THI HÀNH PHÁP LỆNH ƯU ĐÃI NGƯỜI CÓ CÔNG VỚI CÁCH MẠNG - Nghị định số 131/2021/NĐ-CP\nƯU ĐÃI NGƯỜI CÓ CÔNG VỚI CÁCH MẠNG - Pháp lệnh số: 02/2020/UBTVQH14",
     "CƠ QUAN THỰC HIỆN": "Sở Nội vụ",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "- Cấp trích lục hồ sơ người có công hoặc sao một số giấy tờ trong hồ sơ người có công theo đề nghị của người có công hoặc thân nhân để giải quyết chế độ có liên quan đến nội dung đề nghị.\nThân nhân đang hưởng trợ cấp tuất hằng tháng thay đổi nơi thường trú mà vẫn còn thân nhân khác đang hưởng trợ cấp tuất hằng tháng tại nơi đi thì Sở Lao động - Thương binh và Xã hội cấp bản trích lục hồ sơ người có công kèm bản sao y quyết định hưởng trợ cấp tuất hàng tháng đến nơi thường trú mới.\n- Cấp trích lục hoặc sao hồ sơ người có công theo đề nghị của cơ quan, tổ chức để giải quyết vụ việc có liên quan.",
@@ -179,11 +147,6 @@
     "MÔ TẢ": "- Cấp trích lục hồ sơ người có công hoặc sao một số giấy tờ trong hồ sơ người có công theo đề nghị của người có công hoặc thân nhân để giải quyết chế độ có liên quan đến nội dung đề nghị.\nThân nhân đang hưởng trợ cấp tuất hằng tháng thay đổi nơi thường trú mà vẫn còn thân nhân khác đang hưởng trợ cấp tuất hằng tháng tại nơi đi thì Sở Lao động - Thương binh và Xã hội cấp bản trích lục hồ sơ người có công kèm bản sao y quyết định hưởng trợ cấp tuất hàng tháng đến nơi thường trú mới.\n- Cấp trích lục hoặc sao hồ sơ người có công theo đề nghị của cơ quan, tổ chức để giải quyết vụ việc có liên quan."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Người có công",
       "slug": "nguoi-co-cong"
@@ -206,6 +169,6 @@
         "slug": "so-noi-vu"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

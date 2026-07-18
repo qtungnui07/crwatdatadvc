@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-ca20-712e-aaf7-2e77712a2cbe",
   "procedure_code": "1.012839",
   "title": "Thủ tục tham vấn trị giá hải qua đối với hàng hóa xuất khẩu, nhập khẩu",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-ca20-712e-aaf7-2e77712a2cbe",
     "source_file": "chi-tiet-thu-tuc-1.012839.pdf",
     "source_path": "procedures/viec-lam/1.012839/chi-tiet-thu-tuc-1.012839.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:08.376326+00:00",
-    "source_updated_at": "2026-04-08T09:16:13.085Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:07.407499+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "5f43e6e751ff1736c20caba0ab00b123f2dd4631cb95cd04da6f07ab4429c18d"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:08.376326+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2065/QĐ-BTC",
   "implementation_level": "Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hải quan",
   "target_users": [
@@ -39,18 +34,29 @@
   ],
   "agency": {
     "competent_agency": "Cục Hải quan tỉnh, thành phố",
-    "executing_agency": "Chi cục Hải quan khu vực",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Chi cục Hải quan khu vực"
   },
   "steps": [
     {
       "order": 1,
-      "title": "Thủ tục tham vấn trị giá hải quan đối với hàng hóa xuất khẩu, nhập khẩu",
-      "description": "- Bước 1: Tổ chức, cá nhân:\n\t+ Cung cấp hồ sơ, chứng từ, tài liệu;\n\t+ Cử đại diện theo pháp luật của người khai hải quan hoặc người được uỷ quyền tham gia tham vấn đúng thời gian tham vấn;\n\t+ Có trách nhiệm giải trình những nội dung liên quan đến trị giá khai báo theo đề nghị của cơ quan hải quan.\n- Bước 2: Cơ quan hải quan:\n\t+ Tổ chức tham vấn, kiểm tra hồ sơ, chứng từ, tài liệu do người khai hải quan nộp, xuất trình;\n\t+ Lập biên bản tham vấn.\n- Bước 3: Các bên tham gia tham vấn cùng ký vào biên bản tham vấn.\n",
+      "title": "Bước 1",
+      "description": "- Bước 1: Tổ chức, cá nhân:\n\t+ Cung cấp hồ sơ, chứng từ, tài liệu;\n\t+ Cử đại diện theo pháp luật của người khai hải quan hoặc người được uỷ quyền tham gia tham vấn đúng thời gian tham vấn;\n\t+ Có trách nhiệm giải trình những nội dung liên quan đến trị giá khai báo theo đề nghị của cơ quan hải quan.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Cơ quan hải quan:\n\t+ Tổ chức tham vấn, kiểm tra hồ sơ, chứng từ, tài liệu do người khai hải quan nộp, xuất trình;\n\t+ Lập biên bản tham vấn.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "- Bước 3: Các bên tham gia tham vấn cùng ký vào biên bản tham vấn.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -58,13 +64,10 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "+ Thành phần hồ sơ: Hợp đồng mua bán hàng hoá, hoá đơn thương mại; chứng từ thể hiện chi phí vận tải (nếu có); chứng từ bảo hiểm (nếu có); chứng nhận xuất xứ hàng hoá theo quy định của pháp luật đối với hàng hoá nhập khẩu (nếu có); chứng từ thanh toán (nếu có) và các chứng từ, tài liệu theo phương pháp xác định trị giá khai báo quy định tại Điều 8, Điều 9, Điều 10, Điều 11 Thông tư số 39/2015/TT-BTC ngày 25/3/2015; khoản 3, khoản 5, k hoản 7 Điều 1 Thông tư số 60/2019/TT-BTC ngày 30/8/2019; khoản 14 Điều 1 Thông tư số 39/2018/TT-BTC ngày 20/4/2018.",
-        "code": "000.00.00.G12-KQ013245",
+        "name": "Thủ tục tham vấn trị giá hải quan đối với hàng hoá xuất khẩu, nhập khẩu: + Thành phần hồ sơ: Hợp đồng mua bán hàng hoá, hoá đơn thương mại; chứng từ thể hiện chi phí vận tải (nếu có); chứng từ bảo hiểm (nếu có); chứng nhận xuất xứ hàng hoá theo quy định của pháp luật đối với hàng hoá nhập khẩu (nếu có); chứng từ thanh toán (nếu có) và các chứng từ, tài liệu theo phương pháp xác định trị giá khai báo quy định tại Điều 8, Điều 9, Điều 10, Điều 11 Thông tư số 39/2015/TT-BTC ngày 25/3/2015; khoản 3, khoản 5, k hoản 7 Điều 1 Thông tư số 60/2019/TT-BTC ngày 30/8/2019; khoản 14 Điều 1 Thông tư số 39/2018/TT-BTC ngày 20/4/2018.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Thủ tục tham vấn trị giá hải quan đối với hàng hoá xuất khẩu, nhập khẩu",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -73,33 +76,22 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "30 ngày làm việc",
-      "processing_time_value": 30,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -107,14 +99,12 @@
     {
       "title": "Thông tư số 39/2018/TT-BTC ngày 20/4/2018 của Bộ Tài chính sửa đổi, bổ sung một số điều tại Thông tư số 38/2015/TT-BTC ngày 25/3/2015 của Bộ Tài chính quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu.",
       "document_number": "39/2018/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be48-2ce7181d92a3",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư số 39/2015/TT-BTC",
       "document_number": "39/2015/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4d-34a9ab45c003",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "",
@@ -122,19 +112,17 @@
     {
       "title": "Biên bản tham vấn",
       "code": "KQ.G12.000802",
-      "id": "019d2bb2-1c71-7574-afea-b360345c57f5",
-      "source_page": null
+      "source_page": 1
     },
     {
       "title": "Thông báo trị giá hải quan",
       "code": "KQ.G12.000801",
-      "id": "019d2bb2-1c71-7574-afea-afeca0106cc7",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Tổ chức, cá nhân:\n\t+ Cung cấp hồ sơ, chứng từ, tài liệu;\n\t+ Cử đại diện theo pháp luật của người khai hải quan hoặc người được uỷ quyền tham gia tham vấn đúng thời gian tham vấn;\n\t+ Có trách nhiệm giải trình những nội dung liên quan đến trị giá khai báo theo đề nghị của cơ quan hải quan.\n- Bước 2: Cơ quan hải quan:\n\t+ Tổ chức tham vấn, kiểm tra hồ sơ, chứng từ, tài liệu do người khai hải quan nộp, xuất trình;\n\t+ Lập biên bản tham vấn.\n- Bước 3: Các bên tham gia tham vấn cùng ký vào biên bản tham vấn.\n",
-    "THÀNH PHẦN HỒ SƠ": "Thủ tục tham vấn trị giá hải quan đối với hàng hoá xuất khẩu, nhập khẩu\n+ Thành phần hồ sơ: Hợp đồng mua bán hàng hoá, hoá đơn thương mại; chứng từ thể hiện chi phí vận tải (nếu có); chứng từ bảo hiểm (nếu có); chứng nhận xuất xứ hàng hoá theo quy định của pháp luật đối với hàng hoá nhập khẩu (nếu có); chứng từ thanh toán (nếu có) và các chứng từ, tài liệu theo phương pháp xác định trị giá khai báo quy định tại Điều 8, Điều 9, Điều 10, Điều 11 Thông tư số 39/2015/TT-BTC ngày 25/3/2015; khoản 3, khoản 5, k hoản 7 Điều 1 Thông tư số 60/2019/TT-BTC ngày 30/8/2019; khoản 14 Điều 1 Thông tư số 39/2018/TT-BTC ngày 20/4/2018.",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Tổ chức, cá nhân:\n\t+ Cung cấp hồ sơ, chứng từ, tài liệu;\n\t+ Cử đại diện theo pháp luật của người khai hải quan hoặc người được uỷ quyền tham gia tham vấn đúng thời gian tham vấn;\n\t+ Có trách nhiệm giải trình những nội dung liên quan đến trị giá khai báo theo đề nghị của cơ quan hải quan.\n- Bước 2: Cơ quan hải quan:\n\t+ Tổ chức tham vấn, kiểm tra hồ sơ, chứng từ, tài liệu do người khai hải quan nộp, xuất trình;\n\t+ Lập biên bản tham vấn.\n- Bước 3: Các bên tham gia tham vấn cùng ký vào biên bản tham vấn.",
+    "THÀNH PHẦN HỒ SƠ": "Thủ tục tham vấn trị giá hải quan đối với hàng hoá xuất khẩu, nhập khẩu: + Thành phần hồ sơ: Hợp đồng mua bán hàng hoá, hoá đơn thương mại; chứng từ thể hiện chi phí vận tải (nếu có); chứng từ bảo hiểm (nếu có); chứng nhận xuất xứ hàng hoá theo quy định của pháp luật đối với hàng hoá nhập khẩu (nếu có); chứng từ thanh toán (nếu có) và các chứng từ, tài liệu theo phương pháp xác định trị giá khai báo quy định tại Điều 8, Điều 9, Điều 10, Điều 11 Thông tư số 39/2015/TT-BTC ngày 25/3/2015; khoản 3, khoản 5, k hoản 7 Điều 1 Thông tư số 60/2019/TT-BTC ngày 30/8/2019; khoản 14 Điều 1 Thông tư số 39/2018/TT-BTC ngày 20/4/2018.",
     "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 30 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Thông tư số 39/2018/TT-BTC ngày 20/4/2018 của Bộ Tài chính sửa đổi, bổ sung một số điều tại Thông tư số 38/2015/TT-BTC ngày 25/3/2015 của Bộ Tài chính quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu, thuế nhập khẩu và quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu. - 39/2018/TT-BTC\nThông tư số 39/2015/TT-BTC - 39/2015/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Chi cục Hải quan khu vực",
@@ -144,11 +132,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hải quan",
       "slug": "hai-quan"
@@ -174,7 +157,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
@@ -187,6 +170,6 @@
         "slug": "chi-cuc-hai-quan-khu-vuc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

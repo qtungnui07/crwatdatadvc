@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf7-6f5f-706a-9432-20029f910282",
   "procedure_code": "1.003799",
   "title": "Xét hưởng chế độ trợ cấp một lần đối với sĩ quan, hạ sĩ quan, cán bộ, chiến sĩ, công nhân viên Công an nhân dân trực tiếp tham gia kháng chiến chống Mỹ cứu nước ở chiến trường B, C, K trong khoảng thời gian từ ngày 20-7-1954 đến 30-4-1975, về gia đình từ ngày 31-12-1976 trở về trước, chưa được hưởng một trong các chế độ phục viên, xuất ngũ, thôi việc, bệnh binh, mất sức lao động hàng tháng và chế độ hưu trí hàng tháng, trước khi về gia đình thuộc biên chế Công an nhân dân (thực hiện tại cấp tỉnh)",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-6f5f-706a-9432-20029f910282",
     "source_file": "chi-tiet-thu-tuc-1.003799.pdf",
     "source_path": "procedures/huu-tri/1.003799/chi-tiet-thu-tuc-1.003799.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:01.449673+00:00",
-    "source_updated_at": "2026-05-01T08:15:31.373Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:32.434216+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "afb6bcf06a24867f2ad4a55914a53245b1ac95d0b4979b386030abfe2fa1b233"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:01.449673+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "QĐ/0001-BCA",
   "implementation_level": "Cấp tỉnh, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Chính sách",
   "target_users": [
@@ -36,100 +31,58 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Công an cấp Tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Phòng Tổ chức cán bộ, Công an tỉnh, thành phố trực thuộc Trung ương.\n"
+    "executing_agency": "Công an cấp Tỉnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "1. Trách nhiệm của đối tượng và thân nhân đối tượng",
-      "description": "+ Làm bản khai theo mẫu quy định (KHÔNG CẦN CÓ XÁC NHẬN CỦA CHÍNH QUYỀN XÃ, PHƯỜNG NƠI CƯ TRÚ).\n\n+ Nộp bản khai và các giấy tờ gốc hoặc giấy tờ được coi là gốc, giấy tờ có liên quan cho UBND xã, phường (trừ các đối tượng là người cộng tác bí mật với cơ quan Công an thì nộp cho đơn vị trực tiếp quản lý, giao nhiệm vụ hoặc Công an cấp huyện).\n\n+ Bảo đảm tính trung thực của bản khai, các giấy tờ có liên quan và chịu trách nhiệm pháp lý khi có hành vi vi phạm pháp luật.\n",
+      "description": "+ Làm bản khai theo mẫu quy định (KHÔNG CẦN CÓ XÁC NHẬN CỦA CHÍNH QUYỀN XÃ, PHƯỜNG NƠI CƯ TRÚ).\n\n+ Nộp bản khai và các giấy tờ gốc hoặc giấy tờ được coi là gốc, giấy tờ có liên quan cho UBND xã, phường (trừ các đối tượng là người cộng tác bí mật với cơ quan Công an thì nộp cho đơn vị trực tiếp quản lý, giao nhiệm vụ hoặc Công an cấp huyện).\n\n+ Bảo đảm tính trung thực của bản khai, các giấy tờ có liên quan và chịu trách nhiệm pháp lý khi có hành vi vi phạm pháp luật.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "2. Trách nhiệm của các cấp Công an trong việc tiếp nhận hồ sơ giải quyết chế độ một lần",
-      "description": "a) Đối với Công an cấp huyện có trách nhiệm:\n\n+ Tiếp nhận hồ sơ của các đối tượng quy định tại khoản 1, 2 Mục I Thông tư số 04/TT-BCA(X13), ngày 28/4/2006 của Bộ Công an hướng dẫn thực hiện Quyết định số 290/2005/QĐ-TTg ngày 08/11/2005 của Thủ tướng Chính phủ trong Công an nhân dân (sau đây gọi tắt là Thông tư số 04/TT-BCA(X13)) do UBND cấp xã chuyển đến.\n\n+ Tiếp nhận hồ sơ của người cộng tác bí mật với cơ quan Công an chuyển đến, tổng hợp các tài liệu liên quan đến đối tượng, lập biên bản đề nghị giải quyết chế độ (theo mẫu 6A).\n\n+ Tổng hợp các tài liệu trên báo cáo về Công an tỉnh, thành phố trực thuộc Trung ương.\nb) Đối với Công an tỉnh, thành phố trực thuộc Trung ương có trách nhiệm tiếp nhận hồ sơ của các đối tượng tại địa phương.\n\nSau khi tiếp nhận hồ sơ, Công an các địa phương hoàn chỉnh hồ sơ các đối tượng và gửi về Tổng cục Chính trị Công an nhân dân (qua Cục Chính sách) 01 bộ hồ sơ; 01 bộ hồ sơ lưu tại đơn vị, địa phương.\nc) Cục Chính sách có trách nhiệm: Tiếp nhận hồ sơ đối tượng của các đơn vị, địa phương báo cáo. Tổ chức xét duyệt hồ sơ theo quy định.\n\n+ Tổng hợp danh sách các đối tượng hưởng chế độ và phối hợp với Cục Tài chính lập dự toán kinh phí đảm bảo đề nghị Bộ Tài chính cấp kinh phí.\n\n+ Ra quyết định hưởng chế độ kèm theo danh sách đối tượng được hưởng chuyển về Công an các đơn vị, địa phương thực hiện chi trả.\nd) Cục Tài chính có trách nhiệm:\n\n+ Phối hợp với Cục Chính sách lập dự toán kinh phí và đề nghị Bộ Tài chính cấp kinh phí đảm bảo theo quy định.\n\n+ Tiếp nhận kinh phí Bộ Tài chính cấp; cấp phát cho Công an các đơn vị, địa phương thực hiện và hướng dẫn chi trả, thanh quyết toán theo quy định.\n\n \n",
+      "description": "a) Đối với Công an cấp huyện có trách nhiệm:\n\n+ Tiếp nhận hồ sơ của các đối tượng quy định tại khoản 1, 2 Mục I Thông tư số 04/TT-BCA(X13), ngày 28/4/2006 của Bộ Công an hướng dẫn thực hiện Quyết định số 290/2005/QĐ-TTg ngày 08/11/2005 của Thủ tướng Chính phủ trong Công an nhân dân (sau đây gọi tắt là Thông tư số 04/TT-BCA(X13)) do UBND cấp xã chuyển đến.\n\n+ Tiếp nhận hồ sơ của người cộng tác bí mật với cơ quan Công an chuyển đến, tổng hợp các tài liệu liên quan đến đối tượng, lập biên bản đề nghị giải quyết chế độ (theo mẫu 6A).\n\n+ Tổng hợp các tài liệu trên báo cáo về Công an tỉnh, thành phố trực thuộc Trung ương.\nb) Đối với Công an tỉnh, thành phố trực thuộc Trung ương có trách nhiệm tiếp nhận hồ sơ của các đối tượng tại địa phương.\n\nSau khi tiếp nhận hồ sơ, Công an các địa phương hoàn chỉnh hồ sơ các đối tượng và gửi về Tổng cục Chính trị Công an nhân dân (qua Cục Chính sách) 01 bộ hồ sơ; 01 bộ hồ sơ lưu tại đơn vị, địa phương.\nc) Cục Chính sách có trách nhiệm: Tiếp nhận hồ sơ đối tượng của các đơn vị, địa phương báo cáo. Tổ chức xét duyệt hồ sơ theo quy định.\n\n+ Tổng hợp danh sách các đối tượng hưởng chế độ và phối hợp với Cục Tài chính lập dự toán kinh phí đảm bảo đề nghị Bộ Tài chính cấp kinh phí.\n\n+ Ra quyết định hưởng chế độ kèm theo danh sách đối tượng được hưởng chuyển về Công an các đơn vị, địa phương thực hiện chi trả.\nd) Cục Tài chính có trách nhiệm:\n\n+ Phối hợp với Cục Chính sách lập dự toán kinh phí và đề nghị Bộ Tài chính cấp kinh phí đảm bảo theo quy định.\n\n+ Tiếp nhận kinh phí Bộ Tài chính cấp; cấp phát cho Công an các đơn vị, địa phương thực hiện và hướng dẫn chi trả, thanh quyết toán theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Công văn đề nghị (mẫu 8A) kèm theo danh sách đối tượng chưa được hưởng chế độ chính sách (mẫu 9A)",
-        "code": "000.00.00.G01-KQ0942",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dcfb4-5220-7228-aaba-879b17234089",
-            "name": "47-Mẫu 8A-Công văn đề nghị trợ cấp một lần.doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "47-Mẫu 8A-Công văn đề nghị trợ cấp một lần.doc",
+        "source_page": 3
       },
       {
         "name": "Bản khai cá nhân có xác nhận của chính quyền xã (phường) nơi cư trú (mẫu 1 A) hoặc của thân nhân (mẫu 1B)",
-        "code": "000.00.00.G01-KQ0938",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dcfb4-0c96-73ed-afc8-7ef0bdcc6a47",
-            "name": "66-Mẫu 01B-Bản khai cá nhân (trợ cấp một lần).doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "66-Mẫu 01B-Bản khai cá nhân (trợ cấp một lần).doc",
+        "source_page": 3
       },
       {
         "name": "Bản khai cá nhân KHÔNG CẦN CÓ XÁC NHẬN CỦA CHÍNH QUYỀN XÃ (PHƯỜNG) NƠI CƯ TRÚ (mẫu 1 A) hoặc của thân nhân (mẫu 1B)",
-        "code": "000.00.00.G01-KQ002383",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dcfb5-1784-728a-aec4-eeecdb9fb44b",
-            "name": "66-Mẫu 01B-Bản khai cá nhân (trợ cấp một lần).doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "66-Mẫu 01B-Bản khai cá nhân (trợ cấp một lần).doc",
+        "source_page": 3
       },
       {
         "name": "Biên bản hội nghị liên tịch (mẫu 05)",
-        "code": "000.00.00.G01-KQ0941",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dcfb3-cf01-704c-8ea1-2b1ed56aec2b",
-            "name": "45-Mẫu 05-Biên bản hội nghị liên tịch.doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "45-Mẫu 05-Biên bản hội nghị liên tịch.doc",
+        "source_page": 3
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Bản sao một trong các giấy tờ gốc hoặc các giấy tờ có liên quan theo quy định tại khoản 1, Mục II Thông tư số 04/TT-BCA(X13), ngày 28/4/2006 của Bộ Công an.",
-        "code": "000.00.00.G01-KQ0940",
         "quantity": "2 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -138,14 +91,13 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "0",
-      "processing_time_value": 0,
-      "processing_time_unit": "OTHER",
-      "fees": [],
+      "fee": null,
       "description": "trực tiếp tại Phòng Tổ chức cán bộ, Công an tỉnh, thành phố trực thuộc Trung ương",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -154,20 +106,17 @@
     {
       "title": "Thông tư liên tịch 21/2008/TTLT- BQP-BLĐTBXH-BTC",
       "document_number": "21/2008/TTLT- BQP-BLĐTBXH-BTC",
-      "id": "019d2bb3-5d7d-7398-be47-5a8fc8d265c9",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quyết định số 290/2005/QĐ-TTg của Thủ tướng Chính phủ về chế độ, chính sách đối với một số đối tượng trực tiếp tham gia kháng chiến chống Mỹ cứu nước nhưng chưa được hưởng chính sách của Đảng và Nhà nước",
       "document_number": "290/2005/QĐ-TTg",
-      "id": "019d2bb3-5d84-71c5-b676-47c8fd7b5106",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Hướng dẫn thực hiện Quyết định số 290/2005/QĐ-TTg ngày 08/11/2005 về chế độ, chính sách đối với một số đối tượng trực tiếp tham gia kháng chiến chống mỹ cứu nước nhưng chưa được hưởng chính sách của Đảng và Nhà nước",
       "document_number": "191/2005/TTLT/BQP-BLĐTBXH-BTC",
-      "id": "019d2bb3-5d7d-7398-be47-5468065fd1ad",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "áp dụng với đối tượng là công an nhân dân, công nhân viên công an trực tiếp tham gia kháng chiến chống Mỹ cứu nước ở chiến trường B, C, K trong khoảng thời gian từ ngày 20/7/1954 đến 30/4/1975, về gia đình từ ngày 31/12/1976 trở về trước, chưa được hưởng một trong các chế độ phục viên, xuất ngũ, thôi việc, bệnh binh, mất sức lao động hàng tháng và chế độ hưu trí hàng tháng theo quy định tại Thông tư liên tịch số 191/2005/TTLT-BQP-BLĐTBXH-BTC, ngày 07/12/2005 của Bộ Quốc phòng, Bộ Lao động Thương binh và Xã hội và Bộ Tài chính hướng dẫn thực hiện Quyết định số 290/2005/QĐ-TTg ngày 08/11/2005 của Thủ tướng Chính phủ.",
@@ -175,14 +124,13 @@
     {
       "title": "Quyết định hưởng chế độ.",
       "code": "KQ.G01.00280",
-      "id": "019dcfbb-3c30-726a-a2a1-2969a9a6d808",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "+ Làm bản khai theo mẫu quy định (KHÔNG CẦN CÓ XÁC NHẬN CỦA CHÍNH QUYỀN XÃ, PHƯỜNG NƠI CƯ TRÚ).\n\n+ Nộp bản khai và các giấy tờ gốc hoặc giấy tờ được coi là gốc, giấy tờ có liên quan cho UBND xã, phường (trừ các đối tượng là người cộng tác bí mật với cơ quan Công an thì nộp cho đơn vị trực tiếp quản lý, giao nhiệm vụ hoặc Công an cấp huyện).\n\n+ Bảo đảm tính trung thực của bản khai, các giấy tờ có liên quan và chịu trách nhiệm pháp lý khi có hành vi vi phạm pháp luật.\n\na) Đối với Công an cấp huyện có trách nhiệm:\n\n+ Tiếp nhận hồ sơ của các đối tượng quy định tại khoản 1, 2 Mục I Thông tư số 04/TT-BCA(X13), ngày 28/4/2006 của Bộ Công an hướng dẫn thực hiện Quyết định số 290/2005/QĐ-TTg ngày 08/11/2005 của Thủ tướng Chính phủ trong Công an nhân dân (sau đây gọi tắt là Thông tư số 04/TT-BCA(X13)) do UBND cấp xã chuyển đến.\n\n+ Tiếp nhận hồ sơ của người cộng tác bí mật với cơ quan Công an chuyển đến, tổng hợp các tài liệu liên quan đến đối tượng, lập biên bản đề nghị giải quyết chế độ (theo mẫu 6A).\n\n+ Tổng hợp các tài liệu trên báo cáo về Công an tỉnh, thành phố trực thuộc Trung ương.\nb) Đối với Công an tỉnh, thành phố trực thuộc Trung ương có trách nhiệm tiếp nhận hồ sơ của các đối tượng tại địa phương.\n\nSau khi tiếp nhận hồ sơ, Công an các địa phương hoàn chỉnh hồ sơ các đối tượng và gửi về Tổng cục Chính trị Công an nhân dân (qua Cục Chính sách) 01 bộ hồ sơ; 01 bộ hồ sơ lưu tại đơn vị, địa phương.\nc) Cục Chính sách có trách nhiệm: Tiếp nhận hồ sơ đối tượng của các đơn vị, địa phương báo cáo. Tổ chức xét duyệt hồ sơ theo quy định.\n\n+ Tổng hợp danh sách các đối tượng hưởng chế độ và phối hợp với Cục Tài chính lập dự toán kinh phí đảm bảo đề nghị Bộ Tài chính cấp kinh phí.\n\n+ Ra quyết định hưởng chế độ kèm theo danh sách đối tượng được hưởng chuyển về Công an các đơn vị, địa phương thực hiện chi trả.\nd) Cục Tài chính có trách nhiệm:\n\n+ Phối hợp với Cục Chính sách lập dự toán kinh phí và đề nghị Bộ Tài chính cấp kinh phí đảm bảo theo quy định.\n\n+ Tiếp nhận kinh phí Bộ Tài chính cấp; cấp phát cho Công an các đơn vị, địa phương thực hiện và hướng dẫn chi trả, thanh quyết toán theo quy định.\n\n \n",
-    "THÀNH PHẦN HỒ SƠ": "\nCông văn đề nghị (mẫu 8A) kèm theo danh sách đối tượng chưa được hưởng chế độ chính sách (mẫu 9A)\nBản khai cá nhân có xác nhận của chính quyền xã (phường) nơi cư trú (mẫu 1 A) hoặc của thân nhân (mẫu 1B)\nBản khai cá nhân KHÔNG CẦN CÓ XÁC NHẬN CỦA CHÍNH QUYỀN XÃ (PHƯỜNG) NƠI CƯ TRÚ (mẫu 1 A) hoặc của thân nhân (mẫu 1B)\nBản sao một trong các giấy tờ gốc hoặc các giấy tờ có liên quan theo quy định tại khoản 1, Mục II Thông tư số 04/TT-BCA(X13), ngày 28/4/2006 của Bộ Công an.\nBiên bản hội nghị liên tịch (mẫu 05)",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 0 - trực tiếp tại Phòng Tổ chức cán bộ, Công an tỉnh, thành phố trực thuộc Trung ương",
+    "TRÌNH TỰ THỰC HIỆN": "+ Làm bản khai theo mẫu quy định (KHÔNG CẦN CÓ XÁC NHẬN CỦA CHÍNH QUYỀN XÃ, PHƯỜNG NƠI CƯ TRÚ).\n\n+ Nộp bản khai và các giấy tờ gốc hoặc giấy tờ được coi là gốc, giấy tờ có liên quan cho UBND xã, phường (trừ các đối tượng là người cộng tác bí mật với cơ quan Công an thì nộp cho đơn vị trực tiếp quản lý, giao nhiệm vụ hoặc Công an cấp huyện).\n\n+ Bảo đảm tính trung thực của bản khai, các giấy tờ có liên quan và chịu trách nhiệm pháp lý khi có hành vi vi phạm pháp luật.\na) Đối với Công an cấp huyện có trách nhiệm:\n\n+ Tiếp nhận hồ sơ của các đối tượng quy định tại khoản 1, 2 Mục I Thông tư số 04/TT-BCA(X13), ngày 28/4/2006 của Bộ Công an hướng dẫn thực hiện Quyết định số 290/2005/QĐ-TTg ngày 08/11/2005 của Thủ tướng Chính phủ trong Công an nhân dân (sau đây gọi tắt là Thông tư số 04/TT-BCA(X13)) do UBND cấp xã chuyển đến.\n\n+ Tiếp nhận hồ sơ của người cộng tác bí mật với cơ quan Công an chuyển đến, tổng hợp các tài liệu liên quan đến đối tượng, lập biên bản đề nghị giải quyết chế độ (theo mẫu 6A).\n\n+ Tổng hợp các tài liệu trên báo cáo về Công an tỉnh, thành phố trực thuộc Trung ương.\nb) Đối với Công an tỉnh, thành phố trực thuộc Trung ương có trách nhiệm tiếp nhận hồ sơ của các đối tượng tại địa phương.\n\nSau khi tiếp nhận hồ sơ, Công an các địa phương hoàn chỉnh hồ sơ các đối tượng và gửi về Tổng cục Chính trị Công an nhân dân (qua Cục Chính sách) 01 bộ hồ sơ; 01 bộ hồ sơ lưu tại đơn vị, địa phương.\nc) Cục Chính sách có trách nhiệm: Tiếp nhận hồ sơ đối tượng của các đơn vị, địa phương báo cáo. Tổ chức xét duyệt hồ sơ theo quy định.\n\n+ Tổng hợp danh sách các đối tượng hưởng chế độ và phối hợp với Cục Tài chính lập dự toán kinh phí đảm bảo đề nghị Bộ Tài chính cấp kinh phí.\n\n+ Ra quyết định hưởng chế độ kèm theo danh sách đối tượng được hưởng chuyển về Công an các đơn vị, địa phương thực hiện chi trả.\nd) Cục Tài chính có trách nhiệm:\n\n+ Phối hợp với Cục Chính sách lập dự toán kinh phí và đề nghị Bộ Tài chính cấp kinh phí đảm bảo theo quy định.\n\n+ Tiếp nhận kinh phí Bộ Tài chính cấp; cấp phát cho Công an các đơn vị, địa phương thực hiện và hướng dẫn chi trả, thanh quyết toán theo quy định.",
+    "THÀNH PHẦN HỒ SƠ": "Công văn đề nghị (mẫu 8A) kèm theo danh sách đối tượng chưa được hưởng chế độ chính sách (mẫu 9A)\nBản khai cá nhân có xác nhận của chính quyền xã (phường) nơi cư trú (mẫu 1 A) hoặc của thân nhân (mẫu 1B)\nBản khai cá nhân KHÔNG CẦN CÓ XÁC NHẬN CỦA CHÍNH QUYỀN XÃ (PHƯỜNG) NƠI CƯ TRÚ (mẫu 1 A) hoặc của thân nhân (mẫu 1B)\nBiên bản hội nghị liên tịch (mẫu 05)\nBản sao một trong các giấy tờ gốc hoặc các giấy tờ có liên quan theo quy định tại khoản 1, Mục II Thông tư số 04/TT-BCA(X13), ngày 28/4/2006 của Bộ Công an.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 0",
     "CĂN CỨ PHÁP LÝ": "Thông tư liên tịch 21/2008/TTLT- BQP-BLĐTBXH-BTC - 21/2008/TTLT- BQP-BLĐTBXH-BTC\nQuyết định số 290/2005/QĐ-TTg của Thủ tướng Chính phủ về chế độ, chính sách đối với một số đối tượng trực tiếp tham gia kháng chiến chống Mỹ cứu nước nhưng chưa được hưởng chính sách của Đảng và Nhà nước - 290/2005/QĐ-TTg\nHướng dẫn thực hiện Quyết định số 290/2005/QĐ-TTg ngày 08/11/2005 về chế độ, chính sách đối với một số đối tượng trực tiếp tham gia kháng chiến chống mỹ cứu nước nhưng chưa được hưởng chính sách của Đảng và Nhà nước - 191/2005/TTLT/BQP-BLĐTBXH-BTC",
     "CƠ QUAN THỰC HIỆN": "Công an cấp Tỉnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "áp dụng với đối tượng là công an nhân dân, công nhân viên công an trực tiếp tham gia kháng chiến chống Mỹ cứu nước ở chiến trường B, C, K trong khoảng thời gian từ ngày 20/7/1954 đến 30/4/1975, về gia đình từ ngày 31/12/1976 trở về trước, chưa được hưởng một trong các chế độ phục viên, xuất ngũ, thôi việc, bệnh binh, mất sức lao động hàng tháng và chế độ hưu trí hàng tháng theo quy định tại Thông tư liên tịch số 191/2005/TTLT-BQP-BLĐTBXH-BTC, ngày 07/12/2005 của Bộ Quốc phòng, Bộ Lao động Thương binh và Xã hội và Bộ Tài chính hướng dẫn thực hiện Quyết định số 290/2005/QĐ-TTg ngày 08/11/2005 của Thủ tướng Chính phủ.",
@@ -191,11 +139,6 @@
     "MÔ TẢ": "áp dụng với đối tượng là công an nhân dân, công nhân viên công an trực tiếp tham gia kháng chiến chống Mỹ cứu nước ở chiến trường B, C, K trong khoảng thời gian từ ngày 20/7/1954 đến 30/4/1975, về gia đình từ ngày 31/12/1976 trở về trước, chưa được hưởng một trong các chế độ phục viên, xuất ngũ, thôi việc, bệnh binh, mất sức lao động hàng tháng và chế độ hưu trí hàng tháng theo quy định tại Thông tư liên tịch số 191/2005/TTLT-BQP-BLĐTBXH-BTC, ngày 07/12/2005 của Bộ Quốc phòng, Bộ Lao động Thương binh và Xã hội và Bộ Tài chính hướng dẫn thực hiện Quyết định số 290/2005/QĐ-TTg ngày 08/11/2005 của Thủ tướng Chính phủ."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Hưu trí",
-      "slug": "huu-tri",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Chính sách",
       "slug": "chinh-sach"
@@ -222,6 +165,6 @@
         "slug": "cong-an-cap-tinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

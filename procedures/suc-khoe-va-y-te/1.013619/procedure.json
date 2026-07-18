@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-b043-7027-a1dd-bda10b401a26",
   "procedure_code": "1.013619",
   "title": "Thủ tục cấp lại giấy phép hành nghề khám bệnh, chữa bệnh trong giai đoạn chuyển tiếp.",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-b043-7027-a1dd-bda10b401a26",
     "source_file": "chi-tiet-thu-tuc-1.013619.pdf",
     "source_path": "procedures/suc-khoe-va-y-te/1.013619/chi-tiet-thu-tuc-1.013619.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:10.660454+00:00",
-    "source_updated_at": "2026-04-13T14:45:11.273Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:21.210998+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "99ff59538a3a2d643b9e763f0caa8a73a52adaac2acc0d8696e4e34bc4335db7"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:10.660454+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "6225/QĐ-BQP",
   "implementation_level": "Cấp bộ, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Khám bệnh, chữa bệnh BQP",
   "target_users": [
@@ -36,18 +31,36 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cục Quân y/Tổng cục Hậu cần - Kỹ thuật",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Quân y/Tổng cục Hậu cần - Kỹ thuật"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1. Người đề nghị cấp lại giấy phép hành nghề gửi 01 bộ hồ sơ quy định tại Điều 46 Nghị định số 16/2024/NĐ-CP trực tiếp hoặc qua đường bưu chính hoặc trên môi trường điện tử về Phòng/Ban quân y cấp trên trực tiếp cho tới đơn vị đầu mối trực thuộc Bộ Quốc phòng;\nBước 2. Trường hợp hồ sơ hợp lệ, trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ, đơn vị đầu mối trực thuộc Bộ Quốc phòng tổng hợp, lập danh sách gửi trực tiếp hoặc qua đường bưu chính hoặc trên môi trường điện tử về Cơ quan được giao quản lý về y tế kèm theo hồ sơ đề nghị của người hành nghề và công văn đề nghị của thủ trưởng đơn vị đầu mối trực thuộc Bộ Quốc phòng.\nTrường hợp hồ sơ không hợp lệ, trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ, đơn vị đầu mối trực thuộc Bộ Quốc phòng hoặc Cơ quan được giao quản lý về y tế phải có văn bản trả lời đơn vị gửi hồ sơ, trong đó nêu cụ thể lý do không hợp lệ, yêu cầu sửa đổi hoặc bổ sung tài liệu có trong hồ sơ đề nghị. Thời gian sửa đổi, bổ sung tài liệu có trong hồ sơ không được tính vào thời hạn giải quyết;\nBước 3. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ hợp lệ, Cơ quan được giao quản lý về y tế xét duyệt hồ sơ, hoàn thiện thủ tục, trình cấp có thẩm quyền cấp lại giấy phép hành nghề. Trường hợp không cấp lại giấy phép hành nghề thì phải trả lời bằng văn bản và nêu rõ lý do;\nBước 4. Trong thời gian 05 ngày làm việc, kể từ ngày nhận được tờ trình của Cơ quan được giao quản lý về y tế, cấp có thẩm quyền ban hành quyết định cấp lại giấy phép hành nghề và trả giấy phép hành nghề cho người hành nghề.\n",
+      "description": "Bước 1. Người đề nghị cấp lại giấy phép hành nghề gửi 01 bộ hồ sơ quy định tại Điều 46 Nghị định số 16/2024/NĐ-CP trực tiếp hoặc qua đường bưu chính hoặc trên môi trường điện tử về Phòng/Ban quân y cấp trên trực tiếp cho tới đơn vị đầu mối trực thuộc Bộ Quốc phòng;",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2. Trường hợp hồ sơ hợp lệ, trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ, đơn vị đầu mối trực thuộc Bộ Quốc phòng tổng hợp, lập danh sách gửi trực tiếp hoặc qua đường bưu chính hoặc trên môi trường điện tử về Cơ quan được giao quản lý về y tế kèm theo hồ sơ đề nghị của người hành nghề và công văn đề nghị của thủ trưởng đơn vị đầu mối trực thuộc Bộ Quốc phòng.\nTrường hợp hồ sơ không hợp lệ, trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ, đơn vị đầu mối trực thuộc Bộ Quốc phòng hoặc Cơ quan được giao quản lý về y tế phải có văn bản trả lời đơn vị gửi hồ sơ, trong đó nêu cụ thể lý do không hợp lệ, yêu cầu sửa đổi hoặc bổ sung tài liệu có trong hồ sơ đề nghị. Thời gian sửa đổi, bổ sung tài liệu có trong hồ sơ không được tính vào thời hạn giải quyết;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ hợp lệ, Cơ quan được giao quản lý về y tế xét duyệt hồ sơ, hoàn thiện thủ tục, trình cấp có thẩm quyền cấp lại giấy phép hành nghề. Trường hợp không cấp lại giấy phép hành nghề thì phải trả lời bằng văn bản và nêu rõ lý do;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "Bước 4. Trong thời gian 05 ngày làm việc, kể từ ngày nhận được tờ trình của Cơ quan được giao quản lý về y tế, cấp có thẩm quyền ban hành quyết định cấp lại giấy phép hành nghề và trả giấy phép hành nghề cho người hành nghề.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
@@ -56,39 +69,27 @@
     "conditional": [
       {
         "name": "b) Bản chính chứng chỉ hành nghề đã được cấp trừ trường hợp chứng chỉ hành nghề bị mất;.",
-        "code": "G11.01.003.005-TP0051",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "2. Hồ sơ đề nghị cấp giấy phép hành nghề đối với người hành nghề đã được cấp chứng chỉ hành nghề trước ngày 01 tháng 01 năm 2024: a) Đơn đề nghị cấp lại giấy phép hành nghề theo Mẫu số 02 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP;",
-        "code": "G11.01.003.005-TP0049",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "c) Hai ảnh chân dung màu, nền trắng, kích thước 04 cm x 06 cm, được chụp trong thời gian không quá 06 tháng tính đến ngày nộp đơn..",
-        "code": "G11.01.003.005-TP0052",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "1. Hồ sơ đề nghị cấp lại giấy phép hành nghề đối với trường hợp quy định tại khoản 2 Điều 7 Nghị định số 16/2024/NĐ-CP trong giai đoạn chuyển tiếp thực hiện theo quy định tại Điều 9 Nghị định số 16/2024/NĐ-CP.",
-        "code": "000.00.00.G11-KQ003623",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -97,17 +98,7 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "15 ngày",
-      "processing_time_value": 15,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -115,42 +106,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "15 ngày",
-      "processing_time_value": 15,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -158,8 +136,7 @@
     {
       "title": "Nghị định số 16/2024/NĐ-CP ngày 16/02/2024 của Chính phủ về người hành nghề khám bệnh, chữa bệnh và cơ sở khám bệnh, chữa bệnh thuộc lực lượng vũ trang nhân dân",
       "document_number": "16/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afec-0b187cb9989d",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -167,13 +144,12 @@
     {
       "title": "Giấy phép hành nghề.",
       "code": "G11.01.003.005-KQ0008",
-      "id": "019d2bb2-1c6f-72b5-bd0a-57e04cb26528",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1. Người đề nghị cấp lại giấy phép hành nghề gửi 01 bộ hồ sơ quy định tại Điều 46 Nghị định số 16/2024/NĐ-CP trực tiếp hoặc qua đường bưu chính hoặc trên môi trường điện tử về Phòng/Ban quân y cấp trên trực tiếp cho tới đơn vị đầu mối trực thuộc Bộ Quốc phòng;\nBước 2. Trường hợp hồ sơ hợp lệ, trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ, đơn vị đầu mối trực thuộc Bộ Quốc phòng tổng hợp, lập danh sách gửi trực tiếp hoặc qua đường bưu chính hoặc trên môi trường điện tử về Cơ quan được giao quản lý về y tế kèm theo hồ sơ đề nghị của người hành nghề và công văn đề nghị của thủ trưởng đơn vị đầu mối trực thuộc Bộ Quốc phòng.\nTrường hợp hồ sơ không hợp lệ, trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ, đơn vị đầu mối trực thuộc Bộ Quốc phòng hoặc Cơ quan được giao quản lý về y tế phải có văn bản trả lời đơn vị gửi hồ sơ, trong đó nêu cụ thể lý do không hợp lệ, yêu cầu sửa đổi hoặc bổ sung tài liệu có trong hồ sơ đề nghị. Thời gian sửa đổi, bổ sung tài liệu có trong hồ sơ không được tính vào thời hạn giải quyết;\nBước 3. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ hợp lệ, Cơ quan được giao quản lý về y tế xét duyệt hồ sơ, hoàn thiện thủ tục, trình cấp có thẩm quyền cấp lại giấy phép hành nghề. Trường hợp không cấp lại giấy phép hành nghề thì phải trả lời bằng văn bản và nêu rõ lý do;\nBước 4. Trong thời gian 05 ngày làm việc, kể từ ngày nhận được tờ trình của Cơ quan được giao quản lý về y tế, cấp có thẩm quyền ban hành quyết định cấp lại giấy phép hành nghề và trả giấy phép hành nghề cho người hành nghề.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nb) Bản chính chứng chỉ hành nghề đã được cấp trừ trường hợp chứng chỉ hành nghề bị mất;.\n2. Hồ sơ đề nghị cấp giấy phép hành nghề đối với người hành nghề đã được cấp chứng chỉ hành nghề trước ngày 01 tháng 01 năm 2024: a) Đơn đề nghị cấp lại giấy phép hành nghề theo Mẫu số 02 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP;\nc) Hai ảnh chân dung màu, nền trắng, kích thước 04 cm x 06 cm, được chụp trong thời gian không quá 06 tháng tính đến ngày nộp đơn..\n1. Hồ sơ đề nghị cấp lại giấy phép hành nghề đối với trường hợp quy định tại khoản 2 Điều 7 Nghị định số 16/2024/NĐ-CP trong giai đoạn chuyển tiếp thực hiện theo quy định tại Điều 9 Nghị định số 16/2024/NĐ-CP.",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1. Người đề nghị cấp lại giấy phép hành nghề gửi 01 bộ hồ sơ quy định tại Điều 46 Nghị định số 16/2024/NĐ-CP trực tiếp hoặc qua đường bưu chính hoặc trên môi trường điện tử về Phòng/Ban quân y cấp trên trực tiếp cho tới đơn vị đầu mối trực thuộc Bộ Quốc phòng;\nBước 2. Trường hợp hồ sơ hợp lệ, trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ, đơn vị đầu mối trực thuộc Bộ Quốc phòng tổng hợp, lập danh sách gửi trực tiếp hoặc qua đường bưu chính hoặc trên môi trường điện tử về Cơ quan được giao quản lý về y tế kèm theo hồ sơ đề nghị của người hành nghề và công văn đề nghị của thủ trưởng đơn vị đầu mối trực thuộc Bộ Quốc phòng.\nTrường hợp hồ sơ không hợp lệ, trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ, đơn vị đầu mối trực thuộc Bộ Quốc phòng hoặc Cơ quan được giao quản lý về y tế phải có văn bản trả lời đơn vị gửi hồ sơ, trong đó nêu cụ thể lý do không hợp lệ, yêu cầu sửa đổi hoặc bổ sung tài liệu có trong hồ sơ đề nghị. Thời gian sửa đổi, bổ sung tài liệu có trong hồ sơ không được tính vào thời hạn giải quyết;\nBước 3. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ hợp lệ, Cơ quan được giao quản lý về y tế xét duyệt hồ sơ, hoàn thiện thủ tục, trình cấp có thẩm quyền cấp lại giấy phép hành nghề. Trường hợp không cấp lại giấy phép hành nghề thì phải trả lời bằng văn bản và nêu rõ lý do;\nBước 4. Trong thời gian 05 ngày làm việc, kể từ ngày nhận được tờ trình của Cơ quan được giao quản lý về y tế, cấp có thẩm quyền ban hành quyết định cấp lại giấy phép hành nghề và trả giấy phép hành nghề cho người hành nghề.",
+    "THÀNH PHẦN HỒ SƠ": "b) Bản chính chứng chỉ hành nghề đã được cấp trừ trường hợp chứng chỉ hành nghề bị mất;.\n2. Hồ sơ đề nghị cấp giấy phép hành nghề đối với người hành nghề đã được cấp chứng chỉ hành nghề trước ngày 01 tháng 01 năm 2024: a) Đơn đề nghị cấp lại giấy phép hành nghề theo Mẫu số 02 Phụ lục II kèm theo Nghị định số 16/2024/NĐ-CP;\nc) Hai ảnh chân dung màu, nền trắng, kích thước 04 cm x 06 cm, được chụp trong thời gian không quá 06 tháng tính đến ngày nộp đơn..\n1. Hồ sơ đề nghị cấp lại giấy phép hành nghề đối với trường hợp quy định tại khoản 2 Điều 7 Nghị định số 16/2024/NĐ-CP trong giai đoạn chuyển tiếp thực hiện theo quy định tại Điều 9 Nghị định số 16/2024/NĐ-CP.",
     "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 15 ngày\nTrực tiếp: 15 ngày",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 16/2024/NĐ-CP ngày 16/02/2024 của Chính phủ về người hành nghề khám bệnh, chữa bệnh và cơ sở khám bệnh, chữa bệnh thuộc lực lượng vũ trang nhân dân - 16/2024/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cục Quân y/Tổng cục Hậu cần - Kỹ thuật",
@@ -183,11 +159,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Sức khỏe và y tế",
-      "slug": "suc-khoe-va-y-te",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Khám bệnh, chữa bệnh BQP",
       "slug": "kham-benh-chua-benh-bqp"
@@ -214,6 +185,6 @@
         "slug": "cuc-quan-y-tong-cuc-hau-can-ky-thuat"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

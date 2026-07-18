@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf8-0bc6-70b4-a0e2-0cfd46fe44a6",
   "procedure_code": "1.013642",
   "title": "Cấp Giấy chứng nhận xuất xứ hàng hoá (C/O) mẫu GSTP",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-0bc6-70b4-a0e2-0cfd46fe44a6",
     "source_file": "chi-tiet-thu-tuc-1.013642.pdf",
     "source_path": "procedures/viec-lam/1.013642/chi-tiet-thu-tuc-1.013642.pdf",
     "page_count": 7,
-    "extracted_at": "2026-07-18T02:22:10.726436+00:00",
-    "source_updated_at": "2026-06-09T07:36:52.153Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:19.158411+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "79e0a4cd633dbaf88243f14caa859f0998de337dd6ec231cc810c2e7fc535176"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:10.726436+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1213/QĐ-BCT",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Xuất nhập khẩu",
   "target_users": [
@@ -36,225 +32,173 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ủy ban nhân dân cấp tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ủy ban nhân dân cấp tỉnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: \n- Thương nhân khai báo hồ sơ đăng ký thương nhân lần đầu qua Hệ thống quản lý và cấp chứng nhận xuất xứ điện tử (eCoSys) của Bộ Công Thương tại địa chỉ www.ecosys.gov.vn.\n- Thương nhân khai báo thông tin, đính kèm hồ sơ đề nghị cấp C/O tại địa chỉ www.ecosys.gov.vn, hoặc nộp trực tiếp hồ sơ đề nghị cấp C/O tại trụ sở của Tổ chức cấp C/O, hoặc gửi hồ sơ qua bưu điện đến Tổ chức cấp C/O và nộp phí C/O.\n\tBước 2: Cán bộ của Tổ chức cấp C/O kiểm tra xem bộ hồ sơ có hợp lệ hay không và thông báo cho thương nhân một trong các nội dung sau:\n1. Chấp nhận cấp C/O và thời gian thương nhân sẽ nhận được C/O;\n2. Đề nghị bổ sung chứng từ (nêu cụ thể những chứng từ cần bổ sung);\n3. Đề nghị kiểm tra lại chứng từ (nêu cụ thể thông tin cần kiểm tra nếu có bằng chứng cụ thể, xác thực làm căn cứ cho việc đề nghị kiểm tra này);\n4. Từ chối cấp C/O nếu phát hiện những trường hợp quy định tại Điều 21 Nghị định số 31/2018/NĐ-CP ngày 08/3/2018 của Chính phủ quy định Luật Quản lý ngoại thương về xuất xứ hàng hóa (sau đây gọi là Nghị định số 31/2018/NĐ-CP) hoặc nếu phát hiện lô hàng đã được xuất khẩu quá 1 năm kể từ ngày giao hàng;\n5. Đề nghị kiểm tra tại cơ sở sản xuất của thương nhân theo quy định tại khoản 1 Điều 28 Nghị định số 31/2018/NĐ-CP (nếu cần thiết).\nBước 3: Cán bộ của Tổ chức cấp C/O thẩm định hồ sơ bổ sung (nếu có); ký phê duyệt và trình người có thẩm quyền của Tổ chức cấp C/O ký cấp phép C/O.\n\tBước 4: Người có thẩm quyền của Tổ chức cấp C/O ký cấp phép C/O trên hệ thống eCoSys hoặc ký cấp tay C/O giấy. \n\tBước 5: Cán bộ của Tổ chức cấp C/O đóng dấu lên C/O, vào sổ theo dõi và kết thúc hồ sơ trên hệ thống eCoSys.\n\tBước 6: Tổ chức cấp C/O trả C/O cho thương nhân.\n",
+      "description": "Bước 1: \n- Thương nhân khai báo hồ sơ đăng ký thương nhân lần đầu qua Hệ thống quản lý và cấp chứng nhận xuất xứ điện tử (eCoSys) của Bộ Công Thương tại địa chỉ www.ecosys.gov.vn.\n- Thương nhân khai báo thông tin, đính kèm hồ sơ đề nghị cấp C/O tại địa chỉ www.ecosys.gov.vn, hoặc nộp trực tiếp hồ sơ đề nghị cấp C/O tại trụ sở của Tổ chức cấp C/O, hoặc gửi hồ sơ qua bưu điện đến Tổ chức cấp C/O và nộp phí C/O.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Cán bộ của Tổ chức cấp C/O kiểm tra xem bộ hồ sơ có hợp lệ hay không và thông báo cho thương nhân một trong các nội dung sau:\n1. Chấp nhận cấp C/O và thời gian thương nhân sẽ nhận được C/O;\n2. Đề nghị bổ sung chứng từ (nêu cụ thể những chứng từ cần bổ sung);\n3. Đề nghị kiểm tra lại chứng từ (nêu cụ thể thông tin cần kiểm tra nếu có bằng chứng cụ thể, xác thực làm căn cứ cho việc đề nghị kiểm tra này);\n4. Từ chối cấp C/O nếu phát hiện những trường hợp quy định tại Điều 21 Nghị định số 31/2018/NĐ-CP ngày 08/3/2018 của Chính phủ quy định Luật Quản lý ngoại thương về xuất xứ hàng hóa (sau đây gọi là Nghị định số 31/2018/NĐ-CP) hoặc nếu phát hiện lô hàng đã được xuất khẩu quá 1 năm kể từ ngày giao hàng;\n5. Đề nghị kiểm tra tại cơ sở sản xuất của thương nhân theo quy định tại khoản 1 Điều 28 Nghị định số 31/2018/NĐ-CP (nếu cần thiết).",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Cán bộ của Tổ chức cấp C/O thẩm định hồ sơ bổ sung (nếu có); ký phê duyệt và trình người có thẩm quyền của Tổ chức cấp C/O ký cấp phép C/O.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "Bước 4: Người có thẩm quyền của Tổ chức cấp C/O ký cấp phép C/O trên hệ thống eCoSys hoặc ký cấp tay C/O giấy.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 5,
+      "title": "Bước 5",
+      "description": "Bước 5: Cán bộ của Tổ chức cấp C/O đóng dấu lên C/O, vào sổ theo dõi và kết thúc hồ sơ trên hệ thống eCoSys.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 6,
+      "title": "Bước 6",
+      "description": "Bước 6: Tổ chức cấp C/O trả C/O cho thương nhân.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "1. Hồ sơ đăng ký thương nhân gồm:",
-        "code": "000.00.00.G02-KQ3244",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Đăng ký mẫu chữ ký của người được ủy quyền ký Đơn đề nghị cấp C/O và con dấu của thương nhân (Mẫu số 01 thuộc Phụ lục ban hành kèm theo Nghị định số 31/2018/NĐ-CP);",
-        "code": "000.00.00.G02-KQ3245",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019ea521-2c45-7439-b22c-d607bb40c9bb",
-            "name": "mau chu ky.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "mau chu ky.docx",
+        "source_page": 2
       },
       {
         "name": "- Giấy chứng nhận đăng ký doanh nghiệp (bản sao có dấu sao y bản chính của thương nhân);",
-        "code": "000.00.00.G02-KQ3246",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Danh mục các cơ sở sản xuất của thương nhân (Mẫu số 02 thuộc Phụ lục ban hành kèm theo Nghị định số 31/2018/NĐ-CP);",
-        "code": "000.00.00.G02-KQ3247",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019ea522-0e30-7711-88eb-f123b04b558c",
-            "name": "danh muc csss.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "danh muc csss.docx",
+        "source_page": 2
       },
       {
         "name": "- Đơn đề nghị thay đổi nơi cấp C/O (Mẫu số 03 thuộc Phụ lục ban hành kèm theo Nghị định số 31/2018/NĐ-CP).",
-        "code": "000.00.00.G02-KQ3248",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019ea523-6b42-7175-85ee-7b62593ddc8f",
-            "name": "Mẫu số 03.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 03.docx",
+        "source_page": 2
       },
       {
         "name": "2. Hồ sơ đề nghị cấp C/O bao gồm:",
-        "code": "000.00.00.G02-KQ3249",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "2.1. Đối với thương nhân đề nghị cấp C/O lần đầu hoặc cho sản phẩm mới xuất khẩu lần đầu hoặc cho sản phẩm không cố định, hồ sơ đề nghị cấp C/O gồm:",
-        "code": "000.00.00.G02-KQ3250",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "a) Đơn đề nghị cấp C/O được kê khai hoàn chỉnh và hợp lệ (Mẫu số 04 thuộc Phụ lục ban hành kèm theo Nghị định số 31/2018/NĐ-CP);",
-        "code": "000.00.00.G02-KQ3251",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019ea523-2cf0-75f8-95f4-5f39deb41c0d",
-            "name": "mau 04.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "mau 04.docx",
+        "source_page": 3
       },
       {
         "name": "b) Mẫu C/O mẫu GSTP đã được khai hoàn chỉnh (Mẫu theo Hiệp định Hệ thống ưu đãi thương mại toàn cầu ngày 12/4/1988);",
-        "code": "XNK-26--108",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "c) Bản in tờ khai hải quan xuất khẩu. Trường hợp hàng xuất khẩu không phải khai báo tờ khai hải quan theo quy định của pháp luật sẽ không phải nộp bản sao tờ khai hải quan;",
-        "code": "000.00.00.G02-KQ3253",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "d) Bản sao hoá đơn thương mại (có đóng dấu sao y bản chính của thương nhân);",
-        "code": "000.00.00.G02-KQ3254",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "đ) Bản sao vận tải đơn hoặc bản sao chứng từ vận tải tương đương (có đóng dấu sao y bản chính của thương nhân) trong trường hợp thương nhân không có vận tải đơn. Thương nhân được xem xét không cần nộp chứng từ này trong trường hợp xuất khẩu hàng hóa có hình thức giao hàng không sử dụng vận tải đơn hoặc chứng từ vận tải khác theo quy định của pháp luật hoặc thông lệ quốc tế;",
-        "code": "000.00.00.G02-KQ3255",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "e) Bảng kê khai chi tiết hàng hóa xuất khẩu đạt tiêu chí xuất xứ ưu đãi theo mẫu tương ứng do Bộ Công Thương quy định tại Thông tư số 05/2018/TT-BCT ngày 03/4/2018 quy định về xuất xứ hàng hóa (sau đây gọi là Thông tư số 05/2018/TT-BCT), được sửa đổi, bổ sung tại Thông tư số 44/2023/TT-BTC ngày 29/12/2023 của Bộ trưởng Bộ Công Thương;",
-        "code": "000.00.00.G02-KQ004681",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "g) Bản khai báo xuất xứ của nhà sản xuất hoặc nhà cung cấp nguyên liệu có xuất xứ hoặc hàng hóa có xuất xứ được sản xuất trong nước theo mẫu do Bộ Công Thương quy định trong trường hợp nguyên liệu đó được sử dụng cho một công đoạn tiếp theo để sản xuất ra một hàng hóa khác (Phụ lục X ban hành kèm theo Thông tư số 05/2018/TT-BCT);",
-        "code": "000.00.00.G02-KQ3257",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "h) Bản sao Quy trình sản xuất hàng hóa (có đóng dấu sao y bản chính của thương nhân).",
-        "code": "000.00.00.G02-KQ3258",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "Trong trường hợp cần thiết, Tổ chức cấp C/O yêu cầu thương nhân đề nghị cấp C/O nộp bổ sung các chứng từ thương mại dưới dạng bản sao (đóng dấu sao y bản chính của thương nhân) liên quan đến nguyên liệu nhập khẩu hoặc nguyên liệu mua bán/sản xuất trong nước.",
-        "code": "000.00.00.G02-KQ3259",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "2.2. Đối với thương nhân sản xuất và xuất khẩu các sản phẩm cố định, hồ sơ đề nghị cấp C/O gồm:",
-        "code": "000.00.00.G02-KQ3260",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "- Trong lần đề nghị cấp C/O đầu tiên, hồ sơ bao gồm các chứng từ đã liệt kê tại mục 2.1.",
-        "code": "000.00.00.G02-KQ3261",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "- Từ lần đề nghị cấp C/O tiếp theo, hồ sơ chỉ cần chứng từ theo quy định từ điểm a đến điểm đ, mục 2.1. Các chứng từ trong hồ sơ đề nghị cấp C/O nêu tại các điểm e, điểm g và điểm h, mục 2.1 có giá trị trong thời hạn 2 năm kể từ ngày thương nhân nộp cho Tổ chức cấp C/O. Trong trường hợp có sự thay đổi liên quan các chứng từ này trong thời hạn 2 năm, thương nhân phải cập nhật cho Tổ chức cấp C/O.",
-        "code": "000.00.00.G02-KQ3262",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "2.3. Trong trường hợp chưa có các chứng từ nêu tại điểm c và điểm đ mục 2.1, thương nhân đề nghị cấp C/O có thể được nợ các chứng từ này nhưng không quá 15 ngày làm việc kể từ ngày được cấp C/O. Sau thời hạn này nếu thương nhân không bổ sung chứng từ, Tổ chức cấp C/O yêu cầu thu hồi hoặc hủy C/O theo quy định tại Điều 22 Nghị định số 31/2018/NĐ-CP.",
-        "code": "000.00.00.G02-KQ3263",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       }
     ],
     "normally_required": [],
@@ -265,35 +209,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "8 giờ",
-      "processing_time_value": 8,
-      "processing_time_unit": "HOUR",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Bộ Tài chính",
-          "attachment": null
-        }
-      ],
-      "description": "+) Trong thời hạn 6 giờ làm việc kể từ khi Tổ chức cấp C/O nhận được hồ sơ đầy đủ và hợp lệ dưới dạng điện tử, kết quả xét duyệt hồ sơ đề nghị cấp C/O được thông báo trên hệ thống eCoSys; \n+) Trong thời hạn 2 giờ làm việc kể từ khi Tổ chức cấp C/O nhận được Đơn đề nghị cấp C/O và C/O đã được khai hoàn chỉnh và hợp lệ dưới dạng bản giấy, Tổ chức cấp C/O trả kết quả cấp C/O dưới dạng bản giấy.\n",
-      "source_page": null
+      "fee": "Theo quy định của Bộ Tài chính",
+      "description": "+) Trong thời hạn 6 giờ làm việc kể từ khi Tổ chức cấp C/O nhận được hồ sơ đầy đủ và hợp lệ dưới dạng điện tử, kết quả xét duyệt hồ sơ đề nghị cấp C/O được thông báo trên hệ thống eCoSys; \n+) Trong thời hạn 2 giờ làm việc kể từ khi Tổ chức cấp C/O nhận được Đơn đề nghị cấp C/O và C/O đã được khai hoàn chỉnh và hợp lệ dưới dạng bản giấy, Tổ chức cấp C/O trả kết quả cấp C/O dưới dạng bản giấy.",
+      "source_page": 5
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "24 giờ",
-      "processing_time_value": 24,
-      "processing_time_unit": "HOUR",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Bộ Tài chính",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của Bộ Tài chính",
       "description": "",
       "source_page": null
     },
@@ -301,51 +225,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "8 giờ",
-      "processing_time_value": 8,
-      "processing_time_unit": "HOUR",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Bộ Tài chính",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của Bộ Tài chính",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Theo quy định của Bộ Tài chính",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Bộ Tài chính",
-        "attachment": null
+        "amount_text": "Theo quy định của Bộ Tài chính",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Bộ Tài chính",
-        "attachment": null
+        "amount_text": "Theo quy định của Bộ Tài chính",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Bộ Tài chính",
-        "attachment": null
+        "amount_text": "Theo quy định của Bộ Tài chính",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -353,38 +262,32 @@
     {
       "title": "Thông tư số 40/2025/TT-BCT",
       "document_number": "Thông tư số 40/2025/TT-BCT",
-      "id": "019d2bb3-5d7c-71ab-9efc-0b660479fe91",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Nghị định 31/2018/NĐ-CP",
       "document_number": "31/2018/NĐ-CP\t31/2018/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46c-6d4147cc6483",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Thông tư số 26/2026/TT-BCT ngày 20 tháng 5 năm 2026 của Bộ trưởng Bộ Công Thương sửa đổi bổ sung một số quy định về phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong các lĩnh vực thuộc phạm vi quản lý của Bộ Công Thương.",
-      "document_number": "26/2026/TT-BCT ",
-      "id": "019e96bc-0d1e-727a-a09f-ef293ddf47f2",
-      "source_page": null
+      "document_number": "26/2026/TT-BCT",
+      "source_page": 6
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Thông tư số 05/2018/TT-BCT ngày 03 tháng 4 năm 2018 của Bộ trưởng Bộ Công Thương quy định về xuất xứ hàng hóa và Thông tư số 38/2018/TT-BCT ngày 30 tháng 10 năm 2018 của Bộ trưởng Bộ Công Thương quy định thực hiện chứng nhận xuất xứ hàng hoá theo chế độ thuế quan phổ cập của Liên minh châu Âu, Na Uy, Thụy Sỹ và Thổ Nhĩ Kỳ",
       "document_number": "23/2025/TT-BCT",
-      "id": "019d2bb3-5d7c-71ab-9efa-c0756a988ed6",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Thông tư số 05/2018/TT-BCT ngày 03 tháng 4 năm 2018 của Bộ trưởng Bộ Công Thương quy định về xuất xứ hàng hóa",
       "document_number": "44/2023/TT-BCT",
-      "id": "019d2bb3-5d7c-71ab-9efb-87f9182d2e86",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí chứng nhận xuất xứ hàng hóa (C/O)",
       "document_number": "36/2023/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4d-165472b999f6",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "conditions": "",
@@ -392,15 +295,14 @@
     {
       "title": "Giấy chứng nhận xuất xứ hàng hoá (C/O) mẫu GSTP",
       "code": "KQ.G02.000398",
-      "id": "019d2bb2-1c39-7291-ba49-c5ccec332727",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: \n- Thương nhân khai báo hồ sơ đăng ký thương nhân lần đầu qua Hệ thống quản lý và cấp chứng nhận xuất xứ điện tử (eCoSys) của Bộ Công Thương tại địa chỉ www.ecosys.gov.vn.\n- Thương nhân khai báo thông tin, đính kèm hồ sơ đề nghị cấp C/O tại địa chỉ www.ecosys.gov.vn, hoặc nộp trực tiếp hồ sơ đề nghị cấp C/O tại trụ sở của Tổ chức cấp C/O, hoặc gửi hồ sơ qua bưu điện đến Tổ chức cấp C/O và nộp phí C/O.\n\tBước 2: Cán bộ của Tổ chức cấp C/O kiểm tra xem bộ hồ sơ có hợp lệ hay không và thông báo cho thương nhân một trong các nội dung sau:\n1. Chấp nhận cấp C/O và thời gian thương nhân sẽ nhận được C/O;\n2. Đề nghị bổ sung chứng từ (nêu cụ thể những chứng từ cần bổ sung);\n3. Đề nghị kiểm tra lại chứng từ (nêu cụ thể thông tin cần kiểm tra nếu có bằng chứng cụ thể, xác thực làm căn cứ cho việc đề nghị kiểm tra này);\n4. Từ chối cấp C/O nếu phát hiện những trường hợp quy định tại Điều 21 Nghị định số 31/2018/NĐ-CP ngày 08/3/2018 của Chính phủ quy định Luật Quản lý ngoại thương về xuất xứ hàng hóa (sau đây gọi là Nghị định số 31/2018/NĐ-CP) hoặc nếu phát hiện lô hàng đã được xuất khẩu quá 1 năm kể từ ngày giao hàng;\n5. Đề nghị kiểm tra tại cơ sở sản xuất của thương nhân theo quy định tại khoản 1 Điều 28 Nghị định số 31/2018/NĐ-CP (nếu cần thiết).\nBước 3: Cán bộ của Tổ chức cấp C/O thẩm định hồ sơ bổ sung (nếu có); ký phê duyệt và trình người có thẩm quyền của Tổ chức cấp C/O ký cấp phép C/O.\n\tBước 4: Người có thẩm quyền của Tổ chức cấp C/O ký cấp phép C/O trên hệ thống eCoSys hoặc ký cấp tay C/O giấy. \n\tBước 5: Cán bộ của Tổ chức cấp C/O đóng dấu lên C/O, vào sổ theo dõi và kết thúc hồ sơ trên hệ thống eCoSys.\n\tBước 6: Tổ chức cấp C/O trả C/O cho thương nhân.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n1. Hồ sơ đăng ký thương nhân gồm:\n- Đăng ký mẫu chữ ký của người được ủy quyền ký Đơn đề nghị cấp C/O và con dấu của thương nhân (Mẫu số 01 thuộc Phụ lục ban hành kèm theo Nghị định số 31/2018/NĐ-CP);\n- Giấy chứng nhận đăng ký doanh nghiệp (bản sao có dấu sao y bản chính của thương nhân);\n- Danh mục các cơ sở sản xuất của thương nhân (Mẫu số 02 thuộc Phụ lục ban hành kèm theo Nghị định số 31/2018/NĐ-CP);\n- Đơn đề nghị thay đổi nơi cấp C/O (Mẫu số 03 thuộc Phụ lục ban hành kèm theo Nghị định số 31/2018/NĐ-CP).\n2. Hồ sơ đề nghị cấp C/O bao gồm:\n2.1. Đối với thương nhân đề nghị cấp C/O lần đầu hoặc cho sản phẩm mới xuất khẩu lần đầu hoặc cho sản phẩm không cố định, hồ sơ đề nghị cấp C/O gồm:\na) Đơn đề nghị cấp C/O được kê khai hoàn chỉnh và hợp lệ (Mẫu số 04 thuộc Phụ lục ban hành kèm theo Nghị định số 31/2018/NĐ-CP);\nb) Mẫu C/O mẫu GSTP đã được khai hoàn chỉnh (Mẫu theo Hiệp định Hệ thống ưu đãi thương mại toàn cầu ngày 12/4/1988);\nc) Bản in tờ khai hải quan xuất khẩu. Trường hợp hàng xuất khẩu không phải khai báo tờ khai hải quan theo quy định của pháp luật sẽ không phải nộp bản sao tờ khai hải quan;\nd) Bản sao hoá đơn thương mại (có đóng dấu sao y bản chính của thương nhân);\nđ) Bản sao vận tải đơn hoặc bản sao chứng từ vận tải tương đương (có đóng dấu sao y bản chính của thương nhân) trong trường hợp thương nhân không có vận tải đơn. Thương nhân được xem xét không cần nộp chứng từ này trong trường hợp xuất khẩu hàng hóa có hình thức giao hàng không sử dụng vận tải đơn hoặc chứng từ vận tải khác theo quy định của pháp luật hoặc thông lệ quốc tế;\ne) Bảng kê khai chi tiết hàng hóa xuất khẩu đạt tiêu chí xuất xứ ưu đãi theo mẫu tương ứng do Bộ Công Thương quy định tại Thông tư số 05/2018/TT-BCT ngày 03/4/2018 quy định về xuất xứ hàng hóa (sau đây gọi là Thông tư số 05/2018/TT-BCT), được sửa đổi, bổ sung tại Thông tư số 44/2023/TT-BTC ngày 29/12/2023 của Bộ trưởng Bộ Công Thương;\ng) Bản khai báo xuất xứ của nhà sản xuất hoặc nhà cung cấp nguyên liệu có xuất xứ hoặc hàng hóa có xuất xứ được sản xuất trong nước theo mẫu do Bộ Công Thương quy định trong trường hợp nguyên liệu đó được sử dụng cho một công đoạn tiếp theo để sản xuất ra một hàng hóa khác (Phụ lục X ban hành kèm theo Thông tư số 05/2018/TT-BCT);\nh) Bản sao Quy trình sản xuất hàng hóa (có đóng dấu sao y bản chính của thương nhân).\nTrong trường hợp cần thiết, Tổ chức cấp C/O yêu cầu thương nhân đề nghị cấp C/O nộp bổ sung các chứng từ thương mại dưới dạng bản sao (đóng dấu sao y bản chính của thương nhân) liên quan đến nguyên liệu nhập khẩu hoặc nguyên liệu mua bán/sản xuất trong nước.\n2.2. Đối với thương nhân sản xuất và xuất khẩu các sản phẩm cố định, hồ sơ đề nghị cấp C/O gồm:\n- Trong lần đề nghị cấp C/O đầu tiên, hồ sơ bao gồm các chứng từ đã liệt kê tại mục 2.1.\n- Từ lần đề nghị cấp C/O tiếp theo, hồ sơ chỉ cần chứng từ theo quy định từ điểm a đến điểm đ, mục 2.1. Các chứng từ trong hồ sơ đề nghị cấp C/O nêu tại các điểm e, điểm g và điểm h, mục 2.1 có giá trị trong thời hạn 2 năm kể từ ngày thương nhân nộp cho Tổ chức cấp C/O. Trong trường hợp có sự thay đổi liên quan các chứng từ này trong thời hạn 2 năm, thương nhân phải cập nhật cho Tổ chức cấp C/O.\n2.3. Trong trường hợp chưa có các chứng từ nêu tại điểm c và điểm đ mục 2.1, thương nhân đề nghị cấp C/O có thể được nợ các chứng từ này nhưng không quá 15 ngày làm việc kể từ ngày được cấp C/O. Sau thời hạn này nếu thương nhân không bổ sung chứng từ, Tổ chức cấp C/O yêu cầu thu hồi hoặc hủy C/O theo quy định tại Điều 22 Nghị định số 31/2018/NĐ-CP.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 8 giờ - +) Trong thời hạn 6 giờ làm việc kể từ khi Tổ chức cấp C/O nhận được hồ sơ đầy đủ và hợp lệ dưới dạng điện tử, kết quả xét duyệt hồ sơ đề nghị cấp C/O được thông báo trên hệ thống eCoSys; \n+) Trong thời hạn 2 giờ làm việc kể từ khi Tổ chức cấp C/O nhận được Đơn đề nghị cấp C/O và C/O đã được khai hoàn chỉnh và hợp lệ dưới dạng bản giấy, Tổ chức cấp C/O trả kết quả cấp C/O dưới dạng bản giấy.\n\nQua dịch vụ bưu chính: 24 giờ\nTrực tiếp: 8 giờ",
-    "CĂN CỨ PHÁP LÝ": "Thông tư số 40/2025/TT-BCT - Thông tư số 40/2025/TT-BCT\nNghị định 31/2018/NĐ-CP - 31/2018/NĐ-CP\t31/2018/NĐ-CP\nThông tư số 26/2026/TT-BCT ngày 20 tháng 5 năm 2026 của Bộ trưởng Bộ Công Thương sửa đổi bổ sung một số quy định về phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong các lĩnh vực thuộc phạm vi quản lý của Bộ Công Thương. - 26/2026/TT-BCT \nSửa đổi, bổ sung một số điều của Thông tư số 05/2018/TT-BCT ngày 03 tháng 4 năm 2018 của Bộ trưởng Bộ Công Thương quy định về xuất xứ hàng hóa và Thông tư số 38/2018/TT-BCT ngày 30 tháng 10 năm 2018 của Bộ trưởng Bộ Công Thương quy định thực hiện chứng nhận xuất xứ hàng hoá theo chế độ thuế quan phổ cập của Liên minh châu Âu, Na Uy, Thụy Sỹ và Thổ Nhĩ Kỳ - 23/2025/TT-BCT\nSửa đổi, bổ sung một số điều của Thông tư số 05/2018/TT-BCT ngày 03 tháng 4 năm 2018 của Bộ trưởng Bộ Công Thương quy định về xuất xứ hàng hóa - 44/2023/TT-BCT\nQuy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí chứng nhận xuất xứ hàng hóa (C/O) - 36/2023/TT-BTC",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: \n- Thương nhân khai báo hồ sơ đăng ký thương nhân lần đầu qua Hệ thống quản lý và cấp chứng nhận xuất xứ điện tử (eCoSys) của Bộ Công Thương tại địa chỉ www.ecosys.gov.vn.\n- Thương nhân khai báo thông tin, đính kèm hồ sơ đề nghị cấp C/O tại địa chỉ www.ecosys.gov.vn, hoặc nộp trực tiếp hồ sơ đề nghị cấp C/O tại trụ sở của Tổ chức cấp C/O, hoặc gửi hồ sơ qua bưu điện đến Tổ chức cấp C/O và nộp phí C/O.\nBước 2: Cán bộ của Tổ chức cấp C/O kiểm tra xem bộ hồ sơ có hợp lệ hay không và thông báo cho thương nhân một trong các nội dung sau:\n1. Chấp nhận cấp C/O và thời gian thương nhân sẽ nhận được C/O;\n2. Đề nghị bổ sung chứng từ (nêu cụ thể những chứng từ cần bổ sung);\n3. Đề nghị kiểm tra lại chứng từ (nêu cụ thể thông tin cần kiểm tra nếu có bằng chứng cụ thể, xác thực làm căn cứ cho việc đề nghị kiểm tra này);\n4. Từ chối cấp C/O nếu phát hiện những trường hợp quy định tại Điều 21 Nghị định số 31/2018/NĐ-CP ngày 08/3/2018 của Chính phủ quy định Luật Quản lý ngoại thương về xuất xứ hàng hóa (sau đây gọi là Nghị định số 31/2018/NĐ-CP) hoặc nếu phát hiện lô hàng đã được xuất khẩu quá 1 năm kể từ ngày giao hàng;\n5. Đề nghị kiểm tra tại cơ sở sản xuất của thương nhân theo quy định tại khoản 1 Điều 28 Nghị định số 31/2018/NĐ-CP (nếu cần thiết).\nBước 3: Cán bộ của Tổ chức cấp C/O thẩm định hồ sơ bổ sung (nếu có); ký phê duyệt và trình người có thẩm quyền của Tổ chức cấp C/O ký cấp phép C/O.\nBước 4: Người có thẩm quyền của Tổ chức cấp C/O ký cấp phép C/O trên hệ thống eCoSys hoặc ký cấp tay C/O giấy.\nBước 5: Cán bộ của Tổ chức cấp C/O đóng dấu lên C/O, vào sổ theo dõi và kết thúc hồ sơ trên hệ thống eCoSys.\nBước 6: Tổ chức cấp C/O trả C/O cho thương nhân.",
+    "THÀNH PHẦN HỒ SƠ": "1. Hồ sơ đăng ký thương nhân gồm:\n- Đăng ký mẫu chữ ký của người được ủy quyền ký Đơn đề nghị cấp C/O và con dấu của thương nhân (Mẫu số 01 thuộc Phụ lục ban hành kèm theo Nghị định số 31/2018/NĐ-CP);\n- Giấy chứng nhận đăng ký doanh nghiệp (bản sao có dấu sao y bản chính của thương nhân);\n- Danh mục các cơ sở sản xuất của thương nhân (Mẫu số 02 thuộc Phụ lục ban hành kèm theo Nghị định số 31/2018/NĐ-CP);\n- Đơn đề nghị thay đổi nơi cấp C/O (Mẫu số 03 thuộc Phụ lục ban hành kèm theo Nghị định số 31/2018/NĐ-CP).\n2. Hồ sơ đề nghị cấp C/O bao gồm:\n2.1. Đối với thương nhân đề nghị cấp C/O lần đầu hoặc cho sản phẩm mới xuất khẩu lần đầu hoặc cho sản phẩm không cố định, hồ sơ đề nghị cấp C/O gồm:\na) Đơn đề nghị cấp C/O được kê khai hoàn chỉnh và hợp lệ (Mẫu số 04 thuộc Phụ lục ban hành kèm theo Nghị định số 31/2018/NĐ-CP);\nb) Mẫu C/O mẫu GSTP đã được khai hoàn chỉnh (Mẫu theo Hiệp định Hệ thống ưu đãi thương mại toàn cầu ngày 12/4/1988);\nc) Bản in tờ khai hải quan xuất khẩu. Trường hợp hàng xuất khẩu không phải khai báo tờ khai hải quan theo quy định của pháp luật sẽ không phải nộp bản sao tờ khai hải quan;\nd) Bản sao hoá đơn thương mại (có đóng dấu sao y bản chính của thương nhân);\nđ) Bản sao vận tải đơn hoặc bản sao chứng từ vận tải tương đương (có đóng dấu sao y bản chính của thương nhân) trong trường hợp thương nhân không có vận tải đơn. Thương nhân được xem xét không cần nộp chứng từ này trong trường hợp xuất khẩu hàng hóa có hình thức giao hàng không sử dụng vận tải đơn hoặc chứng từ vận tải khác theo quy định của pháp luật hoặc thông lệ quốc tế;\ne) Bảng kê khai chi tiết hàng hóa xuất khẩu đạt tiêu chí xuất xứ ưu đãi theo mẫu tương ứng do Bộ Công Thương quy định tại Thông tư số 05/2018/TT-BCT ngày 03/4/2018 quy định về xuất xứ hàng hóa (sau đây gọi là Thông tư số 05/2018/TT-BCT), được sửa đổi, bổ sung tại Thông tư số 44/2023/TT-BTC ngày 29/12/2023 của Bộ trưởng Bộ Công Thương;\ng) Bản khai báo xuất xứ của nhà sản xuất hoặc nhà cung cấp nguyên liệu có xuất xứ hoặc hàng hóa có xuất xứ được sản xuất trong nước theo mẫu do Bộ Công Thương quy định trong trường hợp nguyên liệu đó được sử dụng cho một công đoạn tiếp theo để sản xuất ra một hàng hóa khác (Phụ lục X ban hành kèm theo Thông tư số 05/2018/TT-BCT);\nh) Bản sao Quy trình sản xuất hàng hóa (có đóng dấu sao y bản chính của thương nhân).\nTrong trường hợp cần thiết, Tổ chức cấp C/O yêu cầu thương nhân đề nghị cấp C/O nộp bổ sung các chứng từ thương mại dưới dạng bản sao (đóng dấu sao y bản chính của thương nhân) liên quan đến nguyên liệu nhập khẩu hoặc nguyên liệu mua bán/sản xuất trong nước.\n2.2. Đối với thương nhân sản xuất và xuất khẩu các sản phẩm cố định, hồ sơ đề nghị cấp C/O gồm:\n- Trong lần đề nghị cấp C/O đầu tiên, hồ sơ bao gồm các chứng từ đã liệt kê tại mục 2.1.\n- Từ lần đề nghị cấp C/O tiếp theo, hồ sơ chỉ cần chứng từ theo quy định từ điểm a đến điểm đ, mục 2.1. Các chứng từ trong hồ sơ đề nghị cấp C/O nêu tại các điểm e, điểm g và điểm h, mục 2.1 có giá trị trong thời hạn 2 năm kể từ ngày thương nhân nộp cho Tổ chức cấp C/O. Trong trường hợp có sự thay đổi liên quan các chứng từ này trong thời hạn 2 năm, thương nhân phải cập nhật cho Tổ chức cấp C/O.\n2.3. Trong trường hợp chưa có các chứng từ nêu tại điểm c và điểm đ mục 2.1, thương nhân đề nghị cấp C/O có thể được nợ các chứng từ này nhưng không quá 15 ngày làm việc kể từ ngày được cấp C/O. Sau thời hạn này nếu thương nhân không bổ sung chứng từ, Tổ chức cấp C/O yêu cầu thu hồi hoặc hủy C/O theo quy định tại Điều 22 Nghị định số 31/2018/NĐ-CP.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 8 giờ\nQua dịch vụ bưu chính: 24 giờ\nTrực tiếp: 8 giờ",
+    "CĂN CỨ PHÁP LÝ": "Thông tư số 40/2025/TT-BCT - Thông tư số 40/2025/TT-BCT\nNghị định 31/2018/NĐ-CP - 31/2018/NĐ-CP\t31/2018/NĐ-CP\nThông tư số 26/2026/TT-BCT ngày 20 tháng 5 năm 2026 của Bộ trưởng Bộ Công Thương sửa đổi bổ sung một số quy định về phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong các lĩnh vực thuộc phạm vi quản lý của Bộ Công Thương. - 26/2026/TT-BCT\nSửa đổi, bổ sung một số điều của Thông tư số 05/2018/TT-BCT ngày 03 tháng 4 năm 2018 của Bộ trưởng Bộ Công Thương quy định về xuất xứ hàng hóa và Thông tư số 38/2018/TT-BCT ngày 30 tháng 10 năm 2018 của Bộ trưởng Bộ Công Thương quy định thực hiện chứng nhận xuất xứ hàng hoá theo chế độ thuế quan phổ cập của Liên minh châu Âu, Na Uy, Thụy Sỹ và Thổ Nhĩ Kỳ - 23/2025/TT-BCT\nSửa đổi, bổ sung một số điều của Thông tư số 05/2018/TT-BCT ngày 03 tháng 4 năm 2018 của Bộ trưởng Bộ Công Thương quy định về xuất xứ hàng hóa - 44/2023/TT-BCT\nQuy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí chứng nhận xuất xứ hàng hóa (C/O) - 36/2023/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Ủy ban nhân dân cấp tỉnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
     "KẾT QUẢ XỬ LÝ": "Giấy chứng nhận xuất xứ hàng hoá (C/O) mẫu GSTP - KQ.G02.000398",
@@ -408,11 +310,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Xuất nhập khẩu",
       "slug": "xuat-nhap-khau"
@@ -439,6 +336,6 @@
         "slug": "uy-ban-nhan-dan-cap-tinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

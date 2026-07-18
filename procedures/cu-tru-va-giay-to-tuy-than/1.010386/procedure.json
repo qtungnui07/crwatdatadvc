@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf7-868d-73ed-93ce-00643818b2e7",
   "procedure_code": "1.010386",
   "title": "Trình báo mất hộ chiếu phổ thông (thực hiện tại cấp xã)",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-868d-73ed-93ce-00643818b2e7",
     "source_file": "chi-tiet-thu-tuc-1.010386.pdf",
     "source_path": "procedures/cu-tru-va-giay-to-tuy-than/1.010386/chi-tiet-thu-tuc-1.010386.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:22:06.073230+00:00",
-    "source_updated_at": "2026-04-29T03:38:41.987Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:55:38.727879+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "011b789dee5c26b8b7fd807fbb06db16ab8f924732f17905e2a0b58efb6697a0"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:06.073230+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "5568/QĐ-BCA",
   "implementation_level": "Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Quản lý xuất nhập cảnh",
   "target_users": [
@@ -36,36 +31,38 @@
   ],
   "agency": {
     "competent_agency": "Công an cấp Xã",
-    "executing_agency": "Công an cấp Xã",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Công an cấp Xã"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Chuẩn bị hồ sơ theo quy định của pháp luật.\nBước 2: Nộp hồ sơ\n* Công dân Việt Nam bị mất hộ chiếu phổ thông ở trong nước thực hiện việc trình báo mất hộ chiếu phổ thông qua Cổng dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an, qua dịch vụ bưu chính công ích hoặc tại trụ sở Công an cấp xã nơi gần nhất.\nKhi đến nộp hồ sơ phải xuất trình Chứng minh nhân dân hoặc Thẻ căn cước công dân còn giá trị sử dụng để kiểm tra, đối chiếu.\n* Thời gian tiếp nhận hồ sơ: Từ thứ 2 đến thứ 6 hàng tuần và sáng thứ 7 (đối với các đơn vị bố trí tiếp nhận hồ sơ vào sáng thứ 7); trừ ngày Tết, ngày lễ.\n* Cán bộ tiếp nhận hồ sơ kiểm tra tính pháp lý và nội dung hồ sơ:\n+ Nếu hồ sơ đầy đủ, hợp lệ thì tiếp nhận.\n+ Nếu hồ sơ chưa đầy đủ, hợp lệ thì hướng dẫn người trình báo mất hộ chiếu hoàn chỉnh hồ sơ theo quy định.\nBước 3: Nhận kết quả\nCông an cấp xã gửi thông báo về việc đã tiếp nhận đơn trình báo mất hộ chiếu phổ thông cho người gửi đơn.\n",
+      "description": "Bước 1: Chuẩn bị hồ sơ theo quy định của pháp luật.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Nộp hồ sơ\n* Công dân Việt Nam bị mất hộ chiếu phổ thông ở trong nước thực hiện việc trình báo mất hộ chiếu phổ thông qua Cổng dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an, qua dịch vụ bưu chính công ích hoặc tại trụ sở Công an cấp xã nơi gần nhất.\nKhi đến nộp hồ sơ phải xuất trình Chứng minh nhân dân hoặc Thẻ căn cước công dân còn giá trị sử dụng để kiểm tra, đối chiếu.\n* Thời gian tiếp nhận hồ sơ: Từ thứ 2 đến thứ 6 hàng tuần và sáng thứ 7 (đối với các đơn vị bố trí tiếp nhận hồ sơ vào sáng thứ 7); trừ ngày Tết, ngày lễ.\n* Cán bộ tiếp nhận hồ sơ kiểm tra tính pháp lý và nội dung hồ sơ:\n+ Nếu hồ sơ đầy đủ, hợp lệ thì tiếp nhận.\n+ Nếu hồ sơ chưa đầy đủ, hợp lệ thì hướng dẫn người trình báo mất hộ chiếu hoàn chỉnh hồ sơ theo quy định.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Nhận kết quả\nCông an cấp xã gửi thông báo về việc đã tiếp nhận đơn trình báo mất hộ chiếu phổ thông cho người gửi đơn.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "01 đơn trình báo mất hộ chiếu phổ thông (mẫu TK05) ban hành kèm theo Thông tư số 31/2023/TT-BCA ngày 20/7/2023 của Bộ Công an. Đối với người mất năng lực hành vi dân sự, có khó khăn trong nhận thức và làm chủ hành vi, người chưa đủ 14 tuổi thì người đại diện hợp pháp khai và ký thay.",
-        "code": "000.00.00.G01-KQ002601",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dd018-c88c-746b-af89-2ac2626f957c",
-            "name": "Mẫu TK05 báo mất HC 05 7 TK05 MỚI.doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu TK05 báo mất HC 05 7 TK05 MỚI.doc",
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -76,34 +73,29 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "1 ngày làm việc",
-      "processing_time_value": 1,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
-      "description": "\t01 ngày làm việc kể từ khi nhận đơn trình báo mất hộ chiếu phổ thông, Công an cấp xã thông báo bằng văn bản cho người gửi đơn và Cục Quản lý xuất nhập cảnh; trong thời hạn 01 ngày làm việc kể từ ngày nhận được thông báo của Công an cấp xã, Cục Quản lý xuất nhập cảnh thực hiện hủy giá trị sử dụng của hộ chiếu và thông báo về việc giải quyết đơn trình báo mất hộ chiếu cho người gửi đơn. Nộp hồ sơ trực tuyến qua Cổng Dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an.",
-      "source_page": null
+      "fee": null,
+      "description": "01 ngày làm việc kể từ khi nhận đơn trình báo mất hộ chiếu phổ thông, Công an cấp xã thông báo bằng văn bản cho người gửi đơn và Cục Quản lý xuất nhập cảnh; trong thời hạn 01 ngày làm việc kể từ ngày nhận được thông báo của Công an cấp xã, Cục Quản lý xuất nhập cảnh thực hiện hủy giá trị sử dụng của hộ chiếu và thông báo về việc giải quyết đơn trình báo mất hộ chiếu cho người gửi đơn. Nộp hồ sơ trực tuyến qua Cổng Dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an.",
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "1 ngày làm việc",
-      "processing_time_value": 1,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "01 ngày làm việc kể từ khi nhận đơn trình báo mất hộ chiếu phổ thông, Công an cấp xã thông báo bằng văn bản cho người gửi đơn và Cục Quản lý xuất nhập cảnh; trong thời hạn 01 ngày làm việc kể từ ngày nhận được thông báo của Công an cấp xã, Cục Quản lý xuất nhập cảnh thực hiện hủy giá trị sử dụng của hộ chiếu và thông báo về việc giải quyết đơn trình báo mất hộ chiếu cho người gửi đơn. Nộp hồ sơ qua dịch vụ bưu chính.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1 ngày làm việc",
-      "processing_time_value": 1,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
-      "description": "\t01 ngày làm việc kể từ khi nhận đơn trình báo mất hộ chiếu phổ thông, Công an cấp xã thông báo bằng văn bản cho người gửi đơn và Cục Quản lý xuất nhập cảnh; trong thời hạn 01 ngày làm việc kể từ ngày nhận được thông báo của Công an cấp xã, Cục Quản lý xuất nhập cảnh thực hiện hủy giá trị sử dụng của hộ chiếu và thông báo về việc giải quyết đơn trình báo mất hộ chiếu cho người gửi đơn. Trực tiếp nộp hồ sơ tại trụ sở làm việc của Công an cấp xã.",
-      "source_page": null
+      "fee": null,
+      "description": "01 ngày làm việc kể từ khi nhận đơn trình báo mất hộ chiếu phổ thông, Công an cấp xã thông báo bằng văn bản cho người gửi đơn và Cục Quản lý xuất nhập cảnh; trong thời hạn 01 ngày làm việc kể từ ngày nhận được thông báo của Công an cấp xã, Cục Quản lý xuất nhập cảnh thực hiện hủy giá trị sử dụng của hộ chiếu và thông báo về việc giải quyết đơn trình báo mất hộ chiếu cho người gửi đơn. Trực tiếp nộp hồ sơ tại trụ sở làm việc của Công an cấp xã.",
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -112,14 +104,12 @@
     {
       "title": "Luật 49/2019/QH14",
       "document_number": "49/2019/QH14",
-      "id": "019d2bb3-5d87-7195-a442-1fc2d8d3cd84",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư số 31/2023/TT-BCA ngày 20/7/2023 của Bộ Công an quy định về mẫu hộ chiếu, mẫu giấy thông hành và các biểu mẫu liên quan.",
       "document_number": "31/2023/TT-BCA",
-      "id": "019d2bb3-5d7e-72d1-afe4-5d8a077ce01e",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "conditions": "Trong thời hạn 02 ngày làm việc kể từ ngày phát hiện hộ chiếu phổ thông bị mất, người bị mất hộ chiếu trực tiếp nộp hoặc gửi đơn báo mất hộ chiếu theo mẫu cho Công an cấp xã hoặc trên môi trường điện tử tại Cổng dịch vụ công quốc gia hoặc Cổng dịch vục công Bộ Công an. Trường hợp vì lý do bất khả kháng, thời hạn nộp hoặc gửi đơn báo mất có thể dài hơn nhưng trong đơn phải giải thích cụ thể về lý do bất khả kháng.",
@@ -127,20 +117,18 @@
     {
       "title": "Thông báo của Cục Quản lý xuất nhập cảnh về việc giải quyết đơn trình báo mất hộ chiếu phổ thông (mẫu VB03) ban hành kèm theo Thông tư số 31/2023/TT-BCA ngày 20/7/2023 của Bộ Công an.",
       "code": "KQ.G01.000030",
-      "id": "019d2bb2-1c36-71b8-ad26-c67f8565ea06",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Thông báo về việc chuyển đơn trình báo mất hộ chiếu phổ thông (mẫu VB01) ban hành kèm theo Thông tư số 31/2023/TT-BCA ngày 20/7/2023 của Bộ Công an.T-BCA ngày 20/7/2023 của Bộ Công an.",
       "code": "KQ.G01.000078",
-      "id": "019d2bb2-1c37-76e8-b48c-9f760a965fa2",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Chuẩn bị hồ sơ theo quy định của pháp luật.\nBước 2: Nộp hồ sơ\n* Công dân Việt Nam bị mất hộ chiếu phổ thông ở trong nước thực hiện việc trình báo mất hộ chiếu phổ thông qua Cổng dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an, qua dịch vụ bưu chính công ích hoặc tại trụ sở Công an cấp xã nơi gần nhất.\nKhi đến nộp hồ sơ phải xuất trình Chứng minh nhân dân hoặc Thẻ căn cước công dân còn giá trị sử dụng để kiểm tra, đối chiếu.\n* Thời gian tiếp nhận hồ sơ: Từ thứ 2 đến thứ 6 hàng tuần và sáng thứ 7 (đối với các đơn vị bố trí tiếp nhận hồ sơ vào sáng thứ 7); trừ ngày Tết, ngày lễ.\n* Cán bộ tiếp nhận hồ sơ kiểm tra tính pháp lý và nội dung hồ sơ:\n+ Nếu hồ sơ đầy đủ, hợp lệ thì tiếp nhận.\n+ Nếu hồ sơ chưa đầy đủ, hợp lệ thì hướng dẫn người trình báo mất hộ chiếu hoàn chỉnh hồ sơ theo quy định.\nBước 3: Nhận kết quả\nCông an cấp xã gửi thông báo về việc đã tiếp nhận đơn trình báo mất hộ chiếu phổ thông cho người gửi đơn.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n01 đơn trình báo mất hộ chiếu phổ thông (mẫu TK05) ban hành kèm theo Thông tư số 31/2023/TT-BCA ngày 20/7/2023 của Bộ Công an. Đối với người mất năng lực hành vi dân sự, có khó khăn trong nhận thức và làm chủ hành vi, người chưa đủ 14 tuổi thì người đại diện hợp pháp khai và ký thay.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 1 ngày làm việc - \t01 ngày làm việc kể từ khi nhận đơn trình báo mất hộ chiếu phổ thông, Công an cấp xã thông báo bằng văn bản cho người gửi đơn và Cục Quản lý xuất nhập cảnh; trong thời hạn 01 ngày làm việc kể từ ngày nhận được thông báo của Công an cấp xã, Cục Quản lý xuất nhập cảnh thực hiện hủy giá trị sử dụng của hộ chiếu và thông báo về việc giải quyết đơn trình báo mất hộ chiếu cho người gửi đơn. Nộp hồ sơ trực tuyến qua Cổng Dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an.\nQua dịch vụ bưu chính: 1 ngày làm việc - 01 ngày làm việc kể từ khi nhận đơn trình báo mất hộ chiếu phổ thông, Công an cấp xã thông báo bằng văn bản cho người gửi đơn và Cục Quản lý xuất nhập cảnh; trong thời hạn 01 ngày làm việc kể từ ngày nhận được thông báo của Công an cấp xã, Cục Quản lý xuất nhập cảnh thực hiện hủy giá trị sử dụng của hộ chiếu và thông báo về việc giải quyết đơn trình báo mất hộ chiếu cho người gửi đơn. Nộp hồ sơ qua dịch vụ bưu chính.\nTrực tiếp: 1 ngày làm việc - \t01 ngày làm việc kể từ khi nhận đơn trình báo mất hộ chiếu phổ thông, Công an cấp xã thông báo bằng văn bản cho người gửi đơn và Cục Quản lý xuất nhập cảnh; trong thời hạn 01 ngày làm việc kể từ ngày nhận được thông báo của Công an cấp xã, Cục Quản lý xuất nhập cảnh thực hiện hủy giá trị sử dụng của hộ chiếu và thông báo về việc giải quyết đơn trình báo mất hộ chiếu cho người gửi đơn. Trực tiếp nộp hồ sơ tại trụ sở làm việc của Công an cấp xã.",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Chuẩn bị hồ sơ theo quy định của pháp luật.\nBước 2: Nộp hồ sơ\n* Công dân Việt Nam bị mất hộ chiếu phổ thông ở trong nước thực hiện việc trình báo mất hộ chiếu phổ thông qua Cổng dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an, qua dịch vụ bưu chính công ích hoặc tại trụ sở Công an cấp xã nơi gần nhất.\nKhi đến nộp hồ sơ phải xuất trình Chứng minh nhân dân hoặc Thẻ căn cước công dân còn giá trị sử dụng để kiểm tra, đối chiếu.\n* Thời gian tiếp nhận hồ sơ: Từ thứ 2 đến thứ 6 hàng tuần và sáng thứ 7 (đối với các đơn vị bố trí tiếp nhận hồ sơ vào sáng thứ 7); trừ ngày Tết, ngày lễ.\n* Cán bộ tiếp nhận hồ sơ kiểm tra tính pháp lý và nội dung hồ sơ:\n+ Nếu hồ sơ đầy đủ, hợp lệ thì tiếp nhận.\n+ Nếu hồ sơ chưa đầy đủ, hợp lệ thì hướng dẫn người trình báo mất hộ chiếu hoàn chỉnh hồ sơ theo quy định.\nBước 3: Nhận kết quả\nCông an cấp xã gửi thông báo về việc đã tiếp nhận đơn trình báo mất hộ chiếu phổ thông cho người gửi đơn.",
+    "THÀNH PHẦN HỒ SƠ": "01 đơn trình báo mất hộ chiếu phổ thông (mẫu TK05) ban hành kèm theo Thông tư số 31/2023/TT-BCA ngày 20/7/2023 của Bộ Công an. Đối với người mất năng lực hành vi dân sự, có khó khăn trong nhận thức và làm chủ hành vi, người chưa đủ 14 tuổi thì người đại diện hợp pháp khai và ký thay.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 1 ngày làm việc\nQua dịch vụ bưu chính: 1 ngày làm việc\nTrực tiếp: 1 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Luật 49/2019/QH14 - 49/2019/QH14\nThông tư số 31/2023/TT-BCA ngày 20/7/2023 của Bộ Công an quy định về mẫu hộ chiếu, mẫu giấy thông hành và các biểu mẫu liên quan. - 31/2023/TT-BCA",
     "CƠ QUAN THỰC HIỆN": "Công an cấp Xã",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Trong thời hạn 02 ngày làm việc kể từ ngày phát hiện hộ chiếu phổ thông bị mất, người bị mất hộ chiếu trực tiếp nộp hoặc gửi đơn báo mất hộ chiếu theo mẫu cho Công an cấp xã hoặc trên môi trường điện tử tại Cổng dịch vụ công quốc gia hoặc Cổng dịch vục công Bộ Công an. Trường hợp vì lý do bất khả kháng, thời hạn nộp hoặc gửi đơn báo mất có thể dài hơn nhưng trong đơn phải giải thích cụ thể về lý do bất khả kháng.",
@@ -149,11 +137,6 @@
     "MÔ TẢ": "Trong thời hạn 02 ngày làm việc kể từ ngày phát hiện hộ chiếu phổ thông bị mất, người bị mất hộ chiếu trực tiếp nộp hoặc gửi đơn báo mất hộ chiếu theo mẫu cho Công an cấp xã hoặc trên môi trường điện tử tại Cổng dịch vụ công quốc gia hoặc Cổng dịch vục công Bộ Công an. Trường hợp vì lý do bất khả kháng, thời hạn nộp hoặc gửi đơn báo mất có thể dài hơn nhưng trong đơn phải giải thích cụ thể về lý do bất khả kháng."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Cư trú và giấy tờ tùy thân",
-      "slug": "cu-tru-va-giay-to-tuy-than",
-      "method": "service_group"
-    },
     "sector": {
       "name": "Quản lý xuất nhập cảnh",
       "slug": "quan-ly-xuat-nhap-canh"
@@ -180,6 +163,6 @@
         "slug": "cong-an-cap-xa"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

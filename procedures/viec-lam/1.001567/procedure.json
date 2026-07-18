@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bff-9af0-76e2-ac81-19d9f001e0c1",
   "procedure_code": "1.001567",
   "title": "Thủ tục chấp thuận và sửa đổi, bổ sung Giấy phép của ngân hàng thương mại trách nhiệm hữu hạn trong trường hợp tăng vốn điều lệ từ quỹ dự trữ bổ sung vốn điều lệ, lợi nhuận lũy kế chưa phân phối và các quỹ khác theo quy định của pháp luật",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-9af0-76e2-ac81-19d9f001e0c1",
     "source_file": "chi-tiet-thu-tuc-1.001567.pdf",
     "source_path": "procedures/viec-lam/1.001567/chi-tiet-thu-tuc-1.001567.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:21:59.535563+00:00",
-    "source_updated_at": "2026-04-12T09:08:11.268Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:55.228783+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "1dc409fa333e18c52a8dd00609ee5067be1755dc257da63d2c45bf3f4c1ab408"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:59.535563+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "SỐ 64/QĐ-NHNN",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thành lập và hoạt động ngân hàng",
   "target_users": [
@@ -35,18 +31,29 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ngân hàng Nhà nước Việt Nam",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ngân hàng Nhà nước Việt Nam"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Ngân hàng thương mại lập 01 bộ hồ sơ theo quy định gửi Ngân hàng Nhà nước.\n- Bước 2: Trường hợp hồ sơ chưa đầy đủ, hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu ngân hàng thương mại bổ sung, hoàn thiện hồ sơ.\n- Bước 3: Trong thời hạn 25 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Ngân hàng Nhà nước xem xét, có quyết định sửa đổi Giấy phép; trường hợp không chấp thuận, Ngân hàng Nhà nước có văn bản trả lời và nêu rõ lý do.\n",
+      "description": "- Bước 1: Ngân hàng thương mại lập 01 bộ hồ sơ theo quy định gửi Ngân hàng Nhà nước.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Trường hợp hồ sơ chưa đầy đủ, hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu ngân hàng thương mại bổ sung, hoàn thiện hồ sơ.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "- Bước 3: Trong thời hạn 25 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Ngân hàng Nhà nước xem xét, có quyết định sửa đổi Giấy phép; trường hợp không chấp thuận, Ngân hàng Nhà nước có văn bản trả lời và nêu rõ lý do.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -55,21 +62,15 @@
     "conditional": [
       {
         "name": "- Nghị quyết, quyết định của Hội đồng thành viên đối với ngân hàng thương mại trách nhiệm hữu hạn hai thành viên trở lên, Quyết định của chủ sở hữu đối với ngân hàng thương mại trách nhiệm hữu hạn một thành viên thông qua việc tăng mức vốn điều lệ của ngân hàng thương mại hoặc Quyết định của cấp có thẩm quyền thông qua việc đầu tư bổ sung vốn điều lệ của ngân hàng thương mại do Nhà nước nắm giữ 100% vốn điều lệ, trong đó tối thiểu phải có các nội dung sau: (i) Tổng mức vốn điều lệ dự kiến tăng thêm;  (ii) Các đợt dự kiến tăng mức vốn điều lệ;  (iii) Nguồn sử dụng để tăng vốn điều lệ; (iv) Thời gian dự kiến hoàn thành việc tăng vốn điều lệ;",
-        "code": "G19-KQ005461",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Văn bản đề nghị, trong đó tối thiểu bao gồm các nội dung sau: (i) Sự cần thiết của việc tăng mức vốn điều lệ; (ii) Mức vốn điều lệ hiện tại và mức vốn điều lệ dự kiến tăng; (iii) Thông tin về quỹ dự trữ bổ sung vốn điều lệ, lợi nhuận lũy kế chưa phân phối và các quỹ khác được xác định theo báo cáo tài chính riêng lẻ của năm liền kề năm đề nghị tăng vốn đã được kiểm toán bởi tổ chức kiểm toán độc lập theo quy định của pháp luật; thông tin về số tiền từ quỹ dự trữ bổ sung vốn điều lệ, lợi nhuận lũy kế chưa phân phối và các quỹ khác được sử dụng để tăng vốn điều lệ;",
-        "code": "G19-KQ005460",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -78,17 +79,7 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "25 ngày làm việc",
-      "processing_time_value": 25,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -96,42 +87,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "25 ngày làm việc",
-      "processing_time_value": 25,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -139,14 +117,12 @@
     {
       "title": "Luật Các tổ chức tín dụng",
       "document_number": "Luật số 32/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b675-1125e97928b3",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "50/2025/TT-NHNN",
       "document_number": "số 50/2025/TT-NHNN",
-      "id": "019d2bb3-5d87-7195-a44a-7b431f641225",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -154,19 +130,17 @@
     {
       "title": "Quyết định sửa đổi mức vốn điều lệ tại Giấy phép của ngân hàng thương mại trách nhiệm hữu hạn",
       "code": "KQ.G19.000293",
-      "id": "019d2bb2-1c7d-740f-b030-c9c516ce8a93",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Văn bản không chấp thuận tăng  mức vốn điều lệ tại Giấy phép",
       "code": "KQ.G19.000440",
-      "id": "019d2bb2-1c7d-740f-b033-0b5ced1bab7a",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Ngân hàng thương mại lập 01 bộ hồ sơ theo quy định gửi Ngân hàng Nhà nước.\n- Bước 2: Trường hợp hồ sơ chưa đầy đủ, hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu ngân hàng thương mại bổ sung, hoàn thiện hồ sơ.\n- Bước 3: Trong thời hạn 25 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Ngân hàng Nhà nước xem xét, có quyết định sửa đổi Giấy phép; trường hợp không chấp thuận, Ngân hàng Nhà nước có văn bản trả lời và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n- Nghị quyết, quyết định của Hội đồng thành viên đối với ngân hàng thương mại trách nhiệm hữu hạn hai thành viên trở lên, Quyết định của chủ sở hữu đối với ngân hàng thương mại trách nhiệm hữu hạn một thành viên thông qua việc tăng mức vốn điều lệ của ngân hàng thương mại hoặc Quyết định của cấp có thẩm quyền thông qua việc đầu tư bổ sung vốn điều lệ của ngân hàng thương mại do Nhà nước nắm giữ 100% vốn điều lệ, trong đó tối thiểu phải có các nội dung sau: (i) Tổng mức vốn điều lệ dự kiến tăng thêm;  (ii) Các đợt dự kiến tăng mức vốn điều lệ;  (iii) Nguồn sử dụng để tăng vốn điều lệ; (iv) Thời gian dự kiến hoàn thành việc tăng vốn điều lệ;\n- Văn bản đề nghị, trong đó tối thiểu bao gồm các nội dung sau: (i) Sự cần thiết của việc tăng mức vốn điều lệ; (ii) Mức vốn điều lệ hiện tại và mức vốn điều lệ dự kiến tăng; (iii) Thông tin về quỹ dự trữ bổ sung vốn điều lệ, lợi nhuận lũy kế chưa phân phối và các quỹ khác được xác định theo báo cáo tài chính riêng lẻ của năm liền kề năm đề nghị tăng vốn đã được kiểm toán bởi tổ chức kiểm toán độc lập theo quy định của pháp luật; thông tin về số tiền từ quỹ dự trữ bổ sung vốn điều lệ, lợi nhuận lũy kế chưa phân phối và các quỹ khác được sử dụng để tăng vốn điều lệ;",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Ngân hàng thương mại lập 01 bộ hồ sơ theo quy định gửi Ngân hàng Nhà nước.\n- Bước 2: Trường hợp hồ sơ chưa đầy đủ, hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu ngân hàng thương mại bổ sung, hoàn thiện hồ sơ.\n- Bước 3: Trong thời hạn 25 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Ngân hàng Nhà nước xem xét, có quyết định sửa đổi Giấy phép; trường hợp không chấp thuận, Ngân hàng Nhà nước có văn bản trả lời và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "- Nghị quyết, quyết định của Hội đồng thành viên đối với ngân hàng thương mại trách nhiệm hữu hạn hai thành viên trở lên, Quyết định của chủ sở hữu đối với ngân hàng thương mại trách nhiệm hữu hạn một thành viên thông qua việc tăng mức vốn điều lệ của ngân hàng thương mại hoặc Quyết định của cấp có thẩm quyền thông qua việc đầu tư bổ sung vốn điều lệ của ngân hàng thương mại do Nhà nước nắm giữ 100% vốn điều lệ, trong đó tối thiểu phải có các nội dung sau: (i) Tổng mức vốn điều lệ dự kiến tăng thêm;  (ii) Các đợt dự kiến tăng mức vốn điều lệ;  (iii) Nguồn sử dụng để tăng vốn điều lệ; (iv) Thời gian dự kiến hoàn thành việc tăng vốn điều lệ;\n- Văn bản đề nghị, trong đó tối thiểu bao gồm các nội dung sau: (i) Sự cần thiết của việc tăng mức vốn điều lệ; (ii) Mức vốn điều lệ hiện tại và mức vốn điều lệ dự kiến tăng; (iii) Thông tin về quỹ dự trữ bổ sung vốn điều lệ, lợi nhuận lũy kế chưa phân phối và các quỹ khác được xác định theo báo cáo tài chính riêng lẻ của năm liền kề năm đề nghị tăng vốn đã được kiểm toán bởi tổ chức kiểm toán độc lập theo quy định của pháp luật; thông tin về số tiền từ quỹ dự trữ bổ sung vốn điều lệ, lợi nhuận lũy kế chưa phân phối và các quỹ khác được sử dụng để tăng vốn điều lệ;",
     "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 25 ngày làm việc\nTrực tiếp: 25 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Luật Các tổ chức tín dụng - Luật số 32/2024/QH15\n50/2025/TT-NHNN - số 50/2025/TT-NHNN",
     "CƠ QUAN THỰC HIỆN": "Ngân hàng Nhà nước Việt Nam",
@@ -176,14 +150,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thành lập và hoạt động ngân hàng",
-      "slug": "thanh-lap-va-hoat-dong-ngan-hang"
+      "slug": "thanh-lap-va-hoat-ong-ngan-hang"
     },
     "implementation_levels": [
       {
@@ -203,6 +172,6 @@
         "slug": "ngan-hang-nha-nuoc-viet-nam"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

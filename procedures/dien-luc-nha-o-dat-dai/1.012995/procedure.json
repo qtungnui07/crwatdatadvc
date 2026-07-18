@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-ca1c-706f-b190-0cdc7be4c4fa",
   "procedure_code": "1.012995",
   "title": "Ghi nợ tiền sử dụng đất của hộ gia đình, cá nhân trong trường hợp được bố trí tái định cư",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-ca1c-706f-b190-0cdc7be4c4fa",
     "source_file": "chi-tiet-thu-tuc-1.012995.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.012995/chi-tiet-thu-tuc-1.012995.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:08.671549+00:00",
-    "source_updated_at": "2026-04-08T10:56:37.856Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:56:01.399501+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "ca95dd73ad3c951f766297989fa4377663aafb3f2bbdced73d8000dcd3c04f31"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:08.671549+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2589/QĐ-BTC",
   "implementation_level": "Cấp tỉnh, Cấp xã",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cấp xã"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Tài chính đất đai",
   "target_users": [
@@ -37,18 +32,43 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Chi nhánh Văn phòng đăng ký đất đai",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Chi nhánh Văn phòng đăng ký đất đai"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1. Hộ gia đình, cá nhân nộp hồ sơ tại Văn phòng đăng ký đất đai hoặc cơ quan tài nguyên và môi trường.\nBước 2. Văn phòng đăng ký đất đai hoặc cơ quan có chức năng quản lý đất đai hoặc bộ phận một cửa liên thông giải quyết hồ sơ: Rà soát, kiểm tra hồ sơ và  Lập Phiếu chuyển thông tin gửi đến cơ quan thuế và các cơ quan liên quan (Phiếu chuyển có nội dung về đối tượng được ghi nợ, thời hạn sử dụng đất được ghi nợ);\nBước 3. Cơ quan thuế ban hành thông báo theo quy định gửi đến hộ gia đình, cá nhân, Văn phòng đăng ký đất đai hoặc cơ quan có chức năng quản lý đất đai hoặc bộ phận một cửa liên thông và cơ quan liên quan (nếu cần) trong thời hạn không quá 05 ngày làm việc kể từ ngày ra thông báo. Thông báo gồm các nội dung:\n- Tổng số tiền sử dụng đất hộ gia đình, cá nhân phải nộp;\n- Số tiền sử dụng đất không được ghi nợ (số tiền bồi thường, hỗ trợ về đất mà hộ gia đình, cá nhân được nhận);\n- Số tiền sử dụng đất được ghi nợ = Tổng số tiền sử dụng đất phải nộp - Số tiền sử dụng đất không được ghi nợ.\nBước 4. Căn cứ Thông báo của cơ quan thuế, hộ gia đình, cá nhân nộp số tiền sử dụng đất không được ghi nợ (nếu có) vào ngân sách nhà nước theo thông báo của cơ quan thuế và nộp chứng từ tại Văn phòng đăng ký đất đai hoặc cơ quan có chức năng quản lý đất đai hoặc bộ phận một cửa liên thông để được cấp Giấy chứng nhận.\nBước 5. Hộ gia đình, cá nhân nhận Giấy chứng nhận\nCăn cứ chứng từ mà hộ gia đình, cá nhân nộp, Văn phòng đăng ký đất đai trả Giấy chứng nhận cho hộ gia đình, cá nhân.\nGiấy chứng nhận sẽ có nội dung về số tiền sử dụng đất ghi nợ và thời hạn ghi nợ).\n",
+      "description": "Bước 1. Hộ gia đình, cá nhân nộp hồ sơ tại Văn phòng đăng ký đất đai hoặc cơ quan tài nguyên và môi trường.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2. Văn phòng đăng ký đất đai hoặc cơ quan có chức năng quản lý đất đai hoặc bộ phận một cửa liên thông giải quyết hồ sơ: Rà soát, kiểm tra hồ sơ và  Lập Phiếu chuyển thông tin gửi đến cơ quan thuế và các cơ quan liên quan (Phiếu chuyển có nội dung về đối tượng được ghi nợ, thời hạn sử dụng đất được ghi nợ);",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3. Cơ quan thuế ban hành thông báo theo quy định gửi đến hộ gia đình, cá nhân, Văn phòng đăng ký đất đai hoặc cơ quan có chức năng quản lý đất đai hoặc bộ phận một cửa liên thông và cơ quan liên quan (nếu cần) trong thời hạn không quá 05 ngày làm việc kể từ ngày ra thông báo. Thông báo gồm các nội dung:\n- Tổng số tiền sử dụng đất hộ gia đình, cá nhân phải nộp;\n- Số tiền sử dụng đất không được ghi nợ (số tiền bồi thường, hỗ trợ về đất mà hộ gia đình, cá nhân được nhận);\n- Số tiền sử dụng đất được ghi nợ = Tổng số tiền sử dụng đất phải nộp - Số tiền sử dụng đất không được ghi nợ.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "Bước 4. Căn cứ Thông báo của cơ quan thuế, hộ gia đình, cá nhân nộp số tiền sử dụng đất không được ghi nợ (nếu có) vào ngân sách nhà nước theo thông báo của cơ quan thuế và nộp chứng từ tại Văn phòng đăng ký đất đai hoặc cơ quan có chức năng quản lý đất đai hoặc bộ phận một cửa liên thông để được cấp Giấy chứng nhận.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 5,
+      "title": "Bước 5",
+      "description": "Bước 5. Hộ gia đình, cá nhân nhận Giấy chứng nhận\nCăn cứ chứng từ mà hộ gia đình, cá nhân nộp, Văn phòng đăng ký đất đai trả Giấy chứng nhận cho hộ gia đình, cá nhân.\nGiấy chứng nhận sẽ có nội dung về số tiền sử dụng đất ghi nợ và thời hạn ghi nợ).",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
@@ -57,30 +77,21 @@
     "conditional": [
       {
         "name": "Đơn đề nghị ghi nợ tiền sử dụng đấ",
-        "code": "000.00.00.G12-KQ013275",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Hồ sơ xin cấp Giấy chứng nhận: Quyết định giao đất tái định cư, phương án bồi thường, hỗ trợ, tái định cư do cơ quan Nhà nước có thẩm quyền phê duyệt",
-        "code": "000.00.00.G12-KQ013277",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Giấy tờ chứng minh thuộc đối tượng được ghi nợ tiền sử dụng đất",
-        "code": "000.00.00.G12-KQ013276",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -89,17 +100,7 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -107,42 +108,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -150,8 +138,7 @@
     {
       "title": "Nghị định số 103/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định về tiền sử dụng đất, tiền thuê đất",
       "document_number": "103/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe8-2d2590ea131f",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -159,13 +146,12 @@
     {
       "title": "Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất trong đó có nội dung về số tiền sử dụng đất ghi nợ và thời hạn ghi nợ",
       "code": "KQ.G12.000805",
-      "id": "019d2bb2-1c71-7574-afea-bc895ffb0930",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1. Hộ gia đình, cá nhân nộp hồ sơ tại Văn phòng đăng ký đất đai hoặc cơ quan tài nguyên và môi trường.\nBước 2. Văn phòng đăng ký đất đai hoặc cơ quan có chức năng quản lý đất đai hoặc bộ phận một cửa liên thông giải quyết hồ sơ: Rà soát, kiểm tra hồ sơ và  Lập Phiếu chuyển thông tin gửi đến cơ quan thuế và các cơ quan liên quan (Phiếu chuyển có nội dung về đối tượng được ghi nợ, thời hạn sử dụng đất được ghi nợ);\nBước 3. Cơ quan thuế ban hành thông báo theo quy định gửi đến hộ gia đình, cá nhân, Văn phòng đăng ký đất đai hoặc cơ quan có chức năng quản lý đất đai hoặc bộ phận một cửa liên thông và cơ quan liên quan (nếu cần) trong thời hạn không quá 05 ngày làm việc kể từ ngày ra thông báo. Thông báo gồm các nội dung:\n- Tổng số tiền sử dụng đất hộ gia đình, cá nhân phải nộp;\n- Số tiền sử dụng đất không được ghi nợ (số tiền bồi thường, hỗ trợ về đất mà hộ gia đình, cá nhân được nhận);\n- Số tiền sử dụng đất được ghi nợ = Tổng số tiền sử dụng đất phải nộp - Số tiền sử dụng đất không được ghi nợ.\nBước 4. Căn cứ Thông báo của cơ quan thuế, hộ gia đình, cá nhân nộp số tiền sử dụng đất không được ghi nợ (nếu có) vào ngân sách nhà nước theo thông báo của cơ quan thuế và nộp chứng từ tại Văn phòng đăng ký đất đai hoặc cơ quan có chức năng quản lý đất đai hoặc bộ phận một cửa liên thông để được cấp Giấy chứng nhận.\nBước 5. Hộ gia đình, cá nhân nhận Giấy chứng nhận\nCăn cứ chứng từ mà hộ gia đình, cá nhân nộp, Văn phòng đăng ký đất đai trả Giấy chứng nhận cho hộ gia đình, cá nhân.\nGiấy chứng nhận sẽ có nội dung về số tiền sử dụng đất ghi nợ và thời hạn ghi nợ).\n",
-    "THÀNH PHẦN HỒ SƠ": "\nĐơn đề nghị ghi nợ tiền sử dụng đấ\nHồ sơ xin cấp Giấy chứng nhận: Quyết định giao đất tái định cư, phương án bồi thường, hỗ trợ, tái định cư do cơ quan Nhà nước có thẩm quyền phê duyệt\nGiấy tờ chứng minh thuộc đối tượng được ghi nợ tiền sử dụng đất",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1. Hộ gia đình, cá nhân nộp hồ sơ tại Văn phòng đăng ký đất đai hoặc cơ quan tài nguyên và môi trường.\nBước 2. Văn phòng đăng ký đất đai hoặc cơ quan có chức năng quản lý đất đai hoặc bộ phận một cửa liên thông giải quyết hồ sơ: Rà soát, kiểm tra hồ sơ và  Lập Phiếu chuyển thông tin gửi đến cơ quan thuế và các cơ quan liên quan (Phiếu chuyển có nội dung về đối tượng được ghi nợ, thời hạn sử dụng đất được ghi nợ);\nBước 3. Cơ quan thuế ban hành thông báo theo quy định gửi đến hộ gia đình, cá nhân, Văn phòng đăng ký đất đai hoặc cơ quan có chức năng quản lý đất đai hoặc bộ phận một cửa liên thông và cơ quan liên quan (nếu cần) trong thời hạn không quá 05 ngày làm việc kể từ ngày ra thông báo. Thông báo gồm các nội dung:\n- Tổng số tiền sử dụng đất hộ gia đình, cá nhân phải nộp;\n- Số tiền sử dụng đất không được ghi nợ (số tiền bồi thường, hỗ trợ về đất mà hộ gia đình, cá nhân được nhận);\n- Số tiền sử dụng đất được ghi nợ = Tổng số tiền sử dụng đất phải nộp - Số tiền sử dụng đất không được ghi nợ.\nBước 4. Căn cứ Thông báo của cơ quan thuế, hộ gia đình, cá nhân nộp số tiền sử dụng đất không được ghi nợ (nếu có) vào ngân sách nhà nước theo thông báo của cơ quan thuế và nộp chứng từ tại Văn phòng đăng ký đất đai hoặc cơ quan có chức năng quản lý đất đai hoặc bộ phận một cửa liên thông để được cấp Giấy chứng nhận.\nBước 5. Hộ gia đình, cá nhân nhận Giấy chứng nhận\nCăn cứ chứng từ mà hộ gia đình, cá nhân nộp, Văn phòng đăng ký đất đai trả Giấy chứng nhận cho hộ gia đình, cá nhân.\nGiấy chứng nhận sẽ có nội dung về số tiền sử dụng đất ghi nợ và thời hạn ghi nợ).",
+    "THÀNH PHẦN HỒ SƠ": "Đơn đề nghị ghi nợ tiền sử dụng đấ\nHồ sơ xin cấp Giấy chứng nhận: Quyết định giao đất tái định cư, phương án bồi thường, hỗ trợ, tái định cư do cơ quan Nhà nước có thẩm quyền phê duyệt\nGiấy tờ chứng minh thuộc đối tượng được ghi nợ tiền sử dụng đất",
     "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 1\nTrực tiếp: 1",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 103/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định về tiền sử dụng đất, tiền thuê đất - 103/2024/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Chi nhánh Văn phòng đăng ký đất đai",
@@ -175,14 +161,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Tài chính đất đai",
-      "slug": "tai-chinh-dat-dai"
+      "slug": "tai-chinh-at-ai"
     },
     "implementation_levels": [
       {
@@ -197,7 +178,7 @@
     "target_users": [
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -207,9 +188,9 @@
     "agencies": [
       {
         "name": "Chi nhánh Văn phòng đăng ký đất đai",
-        "slug": "chi-nhanh-van-phong-dang-ky-dat-dai"
+        "slug": "chi-nhanh-van-phong-ang-ky-at-ai"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

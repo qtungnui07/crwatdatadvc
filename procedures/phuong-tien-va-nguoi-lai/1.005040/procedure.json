@@ -1,35 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfe-51d5-757f-b5c5-97ba7e88aed2",
   "procedure_code": "1.005040",
   "title": "Xác nhận trình báo đường thủy nội địa hoặc trình báo đường thủy nội địa bổ sung",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-51d5-757f-b5c5-97ba7e88aed2",
     "source_file": "chi-tiet-thu-tuc-1.005040.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.005040/chi-tiet-thu-tuc-1.005040.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:02.738059+00:00",
-    "source_updated_at": "2026-04-16T16:30:35.058Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:47.866846+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "1bf12ef2436780abad034f4472baed3e738ea9d542ac158b2c5933517959a352"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:02.738059+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "902/QĐ-BXD",
   "implementation_level": "Cấp tỉnh, Cấp xã, Cơ quan khác",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cấp xã",
-    "Cơ quan khác"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hàng hải và đường thủy nội địa",
   "target_users": [
@@ -45,118 +39,82 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ủy ban nhân dân cấp tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ủy ban nhân dân cấp tỉnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "a) Nộp hồ sơ TTHC:",
-      "description": "- Tổ chức, cá nhân gửi hồ sơ đề nghị xác nhận trình báo đường thủy nội địa đến Cảnh sát đường thủy hoặc Ủy ban nhân dân gần nhất nơi xảy ra tai nạn, sự cố.\n- Thời hạn trình xác nhận trình báo đường thủy nội địa bao gồm:\n+ Trường hợp phương tiện thủy nội địa, tàu biển, tàu cá bị tai nạn, sự cố trong vùng nước cảng, bến thủy nội địa thì trình báo đường thủy nội địa phải được trình Cảnh sát đường thủy hoặc Ủy ban nhân dân gần nhất nơi xảy ra tai nạn, sự cố trong thời hạn 48 (bốn mươi tám) giờ sau khi xảy ra tai nạn, sự cố.\n+ Trường hợp phương tiện thủy nội địa, tàu biển, tàu cá bị tai nạn, sự cố trên đường thủy nội địa (ngoài vùng nước cảng, bến thủy nội địa) thì trình báo đường thủy nội địa phải được trình Cảnh sát đường thủy hoặc Ủy ban nhân dân gần nhất  nơi xảy ra tai nạn, sự cố chậm nhất 03 (ba) ngày làm việc, kể từ thời điểm xảy ra tai nạn, sự cố hoặc kể từ khi phương tiện thủy nội địa, tàu biển, tàu cá ghé vào cảng, bến thủy nội địa đầu tiên sau khi xảy ra tai nạn, sự cố.\n+ Trường hợp tai nạn, sự cố xảy ra có liên quan đến hàng hóa trong hầm hàng thì trình báo đường thủy nội địa phải được trình Cảnh sát đường thủy hoặc Ủy ban nhân dân gần nhất  nơi xảy ra tai nạn, sự cố trước khi mở nắp hầm hàng. Trường hợp tai nạn, sự cố xảy ra với hàng hóa trong quá trình làm hàng (đã mở nắp hầm hàng) thì thực hiện, như trường hợp phương tiện thủy nội địa, tàu biển, tàu cá bị tai nạn, sự cố trên đường thủy nội địa.\n+ Trường hợp không thể trình báo đường thủy nội địa trong thời hạn quy định thì trong trình báo đường thủy nội địa phải ghi rõ nguyên nhân của sự chậm trễ đó.\n",
+      "description": "- Tổ chức, cá nhân gửi hồ sơ đề nghị xác nhận trình báo đường thủy nội địa đến Cảnh sát đường thủy hoặc Ủy ban nhân dân gần nhất nơi xảy ra tai nạn, sự cố.\n- Thời hạn trình xác nhận trình báo đường thủy nội địa bao gồm:\n+ Trường hợp phương tiện thủy nội địa, tàu biển, tàu cá bị tai nạn, sự cố trong vùng nước cảng, bến thủy nội địa thì trình báo đường thủy nội địa phải được trình Cảnh sát đường thủy hoặc Ủy ban nhân dân gần nhất nơi xảy ra tai nạn, sự cố trong thời hạn 48 (bốn mươi tám) giờ sau khi xảy ra tai nạn, sự cố.\n+ Trường hợp phương tiện thủy nội địa, tàu biển, tàu cá bị tai nạn, sự cố trên đường thủy nội địa (ngoài vùng nước cảng, bến thủy nội địa) thì trình báo đường thủy nội địa phải được trình Cảnh sát đường thủy hoặc Ủy ban nhân dân gần nhất  nơi xảy ra tai nạn, sự cố chậm nhất 03 (ba) ngày làm việc, kể từ thời điểm xảy ra tai nạn, sự cố hoặc kể từ khi phương tiện thủy nội địa, tàu biển, tàu cá ghé vào cảng, bến thủy nội địa đầu tiên sau khi xảy ra tai nạn, sự cố.\n+ Trường hợp tai nạn, sự cố xảy ra có liên quan đến hàng hóa trong hầm hàng thì trình báo đường thủy nội địa phải được trình Cảnh sát đường thủy hoặc Ủy ban nhân dân gần nhất  nơi xảy ra tai nạn, sự cố trước khi mở nắp hầm hàng. Trường hợp tai nạn, sự cố xảy ra với hàng hóa trong quá trình làm hàng (đã mở nắp hầm hàng) thì thực hiện, như trường hợp phương tiện thủy nội địa, tàu biển, tàu cá bị tai nạn, sự cố trên đường thủy nội địa.\n+ Trường hợp không thể trình báo đường thủy nội địa trong thời hạn quy định thì trong trình báo đường thủy nội địa phải ghi rõ nguyên nhân của sự chậm trễ đó.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "b) Giải quyết TTHC",
-      "description": "- Khi thuyền trưởng hoặc người lái phương tiện hoặc người được thuyền trưởng, người lái phương tiện ủy quyền nộp và xuất trình đủ các giấy tờ theo quy định, cơ quan có thẩm quyền tiến hành xác nhận việc trình báo đường thủy nội địa vào bản trình báo đường thủy nội địa.\n- Thời hạn giải quyết xác nhận việc trình báo đường thủy nội địa không quá 02 (hai) giờ làm việc, kể từ khi đã nhận đủ các giấy tờ hợp lệ theo quy định.\n",
+      "description": "- Khi thuyền trưởng hoặc người lái phương tiện hoặc người được thuyền trưởng, người lái phương tiện ủy quyền nộp và xuất trình đủ các giấy tờ theo quy định, cơ quan có thẩm quyền tiến hành xác nhận việc trình báo đường thủy nội địa vào bản trình báo đường thủy nội địa.\n- Thời hạn giải quyết xác nhận việc trình báo đường thủy nội địa không quá 02 (hai) giờ làm việc, kể từ khi đã nhận đủ các giấy tờ hợp lệ theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Trình báo đường thủy nội địa theo mẫu (02 bản)",
-        "code": "000.00.00.G04-KQ2217",
+        "name": "Các giấy tờ phải nộp đối với phương tiện thủy nội địa, tàu cá: Trình báo đường thủy nội địa theo mẫu (02 bản)",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": "Các giấy tờ phải nộp đối với phương tiện thủy nội địa, tàu cá",
-        "attachments": [
-          {
-            "id": "019d95cc-c1c9-772f-b7b1-d72bd28ca6f4",
-            "name": "MauTrinhbaoTN.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "MauTrinhbaoTN.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "Bản sao Tự họa có mô tả sơ đồ vị trí xảy ra tai nạn, sự cố và đính kèm hình ảnh (nếu có), (02 bản)",
-        "code": "000.00.00.G04-KQ2218",
+        "name": "Các giấy tờ phải nộp đối với phương tiện thủy nội địa, tàu cá: Bản sao Tự họa có mô tả sơ đồ vị trí xảy ra tai nạn, sự cố và đính kèm hình ảnh (nếu có), (02 bản)",
         "quantity": "2 bản sao",
-        "required": false,
-        "case": "Các giấy tờ phải nộp đối với phương tiện thủy nội địa, tàu cá",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Bản trích sao Nhật ký hàng hải những phần có liên quan đến vụ việc (02 bản)",
-        "code": "000.00.00.G04-KQ2215",
+        "name": "Các giấy tờ phải nộp đối với tàu biển: Bản trích sao Nhật ký hàng hải những phần có liên quan đến vụ việc (02 bản)",
         "quantity": "2 bản sao",
-        "required": false,
-        "case": "Các giấy tờ phải nộp đối với tàu biển",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Bản trích sao Hải đồ liên quan đến vụ việc (02 bản)",
-        "code": "000.00.00.G04-KQ2216",
+        "name": "Các giấy tờ phải nộp đối với tàu biển: Bản trích sao Hải đồ liên quan đến vụ việc (02 bản)",
         "quantity": "2 bản sao",
-        "required": false,
-        "case": "Các giấy tờ phải nộp đối với tàu biển",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Trình báo đường thủy nội địa theo mẫu (02 bản)",
-        "code": "000.00.00.G04-KQ2214",
+        "name": "Các giấy tờ phải nộp đối với tàu biển: Trình báo đường thủy nội địa theo mẫu (02 bản)",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": "Các giấy tờ phải nộp đối với tàu biển",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Đối với tàu biển: Bản trích sao Nhật ký hàng hải những phần có liên quan đến vụ việc, Bản trích sao Hải đồ liên quan đến vụ việc;",
-        "code": "000.00.00.G04-KQ2219",
+        "name": "Các giấy tờ phải xuất trình (bản chính):: Đối với tàu biển: Bản trích sao Nhật ký hàng hải những phần có liên quan đến vụ việc, Bản trích sao Hải đồ liên quan đến vụ việc;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Các giấy tờ phải xuất trình (bản chính):",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Đối với phương tiện thủy nội địa, tàu cá: Bản sao Tự họa có mô tả sơ đồ vị trí xảy ra tai nạn, sự cố và đính kèm hình ảnh (nếu có).",
-        "code": "000.00.00.G04-KQ2220",
+        "name": "Các giấy tờ phải xuất trình (bản chính):: Đối với phương tiện thủy nội địa, tàu cá: Bản sao Tự họa có mô tả sơ đồ vị trí xảy ra tai nạn, sự cố và đính kèm hình ảnh (nếu có).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Các giấy tờ phải xuất trình (bản chính):",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Ngoài số lượng trình báo đường thủy nội địa được quy định nói trên, thuyền trưởng hoặc người lái phương tiện có thể đề nghị xác nhận thêm các bản khác có cùng nội dung, nếu thấy cần thiết.",
-        "code": "000.00.00.G04-KQ2222",
+        "name": "Hồ sơ khác: Ngoài số lượng trình báo đường thủy nội địa được quy định nói trên, thuyền trưởng hoặc người lái phương tiện có thể đề nghị xác nhận thêm các bản khác có cùng nội dung, nếu thấy cần thiết.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ khác",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Đối với bản trình báo đường thủy nội địa, ngoài chữ ký của thuyền trưởng hoặc người lái phương tiện và đóng dấu của tàu biển, phương tiện thủy nội địa, tàu cá (nếu có con dấu), còn phải có chữ ký của máy trưởng hoặc 01 (một) thủy thủ với tư cách là người làm chứng.",
-        "code": "000.00.00.G04-KQ2221",
+        "name": "Hồ sơ khác: Đối với bản trình báo đường thủy nội địa, ngoài chữ ký của thuyền trưởng hoặc người lái phương tiện và đóng dấu của tàu biển, phương tiện thủy nội địa, tàu cá (nếu có con dấu), còn phải có chữ ký của máy trưởng hoặc 01 (một) thủy thủ với tư cách là người làm chứng.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ khác",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -165,33 +123,22 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "2 giờ",
-      "processing_time_value": 2,
-      "processing_time_unit": "HOUR",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Phí : Đồng Từ ngày 01/7/2025 đến hết ngày 31/12/2026 áp dụng theo quy định tại Thông tư số 64/2025/TT-BTC ngày 30/6/2025 của Bộ trưởng Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí : Đồng Từ ngày 01/7/2025 đến hết ngày 31/12/2026 áp dụng theo quy định tại Thông tư số 64/2025/TT-BTC ngày 30/6/2025 của Bộ trưởng Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân",
       "description": "- Khi thuyền trưởng hoặc người lái phương tiện hoặc người được thuyền trưởng, người lái phương tiện ủy quyền nộp và xuất trình đủ các giấy tờ theo quy định, cơ quan có thẩm quyền tiến hành xác nhận việc trình báo đường thủy nội địa vào bản trình báo đường thủy nội địa.\n- Thời hạn giải quyết xác nhận việc trình báo đường thủy nội địa không quá 02 (hai) giờ làm việc, kể từ khi đã nhận đủ các giấy tờ hợp lệ theo quy định.",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Phí : Đồng Từ ngày 01/7/2025 đến hết ngày 31/12/2026 áp dụng theo quy định tại Thông tư số 64/2025/TT-BTC ngày 30/6/2025 của Bộ trưởng Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Phí : Đồng Từ ngày 01/7/2025 đến hết ngày 31/12/2026 áp dụng theo quy định tại Thông tư số 64/2025/TT-BTC ngày 30/6/2025 của Bộ trưởng Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân",
-        "attachment": null
+        "amount_text": "Phí : Đồng Từ ngày 01/7/2025 đến hết ngày 31/12/2026 áp dụng theo quy định tại Thông tư số 64/2025/TT-BTC ngày 30/6/2025 của Bộ trưởng Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -199,38 +146,32 @@
     {
       "title": "Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí áp dụng tại cảng, bến thủy nội địa",
       "document_number": "248/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4b-e85edce6cd09",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Giao thông đường thủy nội địa",
       "document_number": "23/2004/QH11",
-      "id": "019d2bb3-5d84-71c5-b672-345fa89f8a03",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư sửa đổi, bổ sung một số điều của các Thông tư thuộc lĩnh vực quản lý nhà nước của Bộ Xây dựng liên quan đến sắp xếp tổ chức bộ máy, thực hiện chính quyền địa phương hai cấp và phân cấp cho chính quyền địa phương.",
       "document_number": "09/2025/TT-BXD",
-      "id": "019d2bb3-5d7e-72d1-afe1-1e8732e4a2c4",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "sửa đổi, bổ sung một số Điều của Luật 23/2004/QH11 2004",
       "document_number": "48/2014/QH13",
-      "id": "019d2bb3-5d84-71c5-b673-4c2d13d60f2a",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư 43/2024/TT-BTC của Bộ Tài chính",
       "document_number": "43/2024/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4d-7fccad76a3e1",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quy định thủ tục xác nhận việc trình báo đường thủy nội địa",
       "document_number": "69/2014/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9eff-6b45bb034f95",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "",
@@ -238,14 +179,13 @@
     {
       "title": "Xác nhận việc trình báo đường thủy nội địa.",
       "code": "KQ.G17.000324",
-      "id": "019d2bb2-1c7a-7554-ace6-0f150cb375be",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Tổ chức, cá nhân gửi hồ sơ đề nghị xác nhận trình báo đường thủy nội địa đến Cảnh sát đường thủy hoặc Ủy ban nhân dân gần nhất nơi xảy ra tai nạn, sự cố.\n- Thời hạn trình xác nhận trình báo đường thủy nội địa bao gồm:\n+ Trường hợp phương tiện thủy nội địa, tàu biển, tàu cá bị tai nạn, sự cố trong vùng nước cảng, bến thủy nội địa thì trình báo đường thủy nội địa phải được trình Cảnh sát đường thủy hoặc Ủy ban nhân dân gần nhất nơi xảy ra tai nạn, sự cố trong thời hạn 48 (bốn mươi tám) giờ sau khi xảy ra tai nạn, sự cố.\n+ Trường hợp phương tiện thủy nội địa, tàu biển, tàu cá bị tai nạn, sự cố trên đường thủy nội địa (ngoài vùng nước cảng, bến thủy nội địa) thì trình báo đường thủy nội địa phải được trình Cảnh sát đường thủy hoặc Ủy ban nhân dân gần nhất  nơi xảy ra tai nạn, sự cố chậm nhất 03 (ba) ngày làm việc, kể từ thời điểm xảy ra tai nạn, sự cố hoặc kể từ khi phương tiện thủy nội địa, tàu biển, tàu cá ghé vào cảng, bến thủy nội địa đầu tiên sau khi xảy ra tai nạn, sự cố.\n+ Trường hợp tai nạn, sự cố xảy ra có liên quan đến hàng hóa trong hầm hàng thì trình báo đường thủy nội địa phải được trình Cảnh sát đường thủy hoặc Ủy ban nhân dân gần nhất  nơi xảy ra tai nạn, sự cố trước khi mở nắp hầm hàng. Trường hợp tai nạn, sự cố xảy ra với hàng hóa trong quá trình làm hàng (đã mở nắp hầm hàng) thì thực hiện, như trường hợp phương tiện thủy nội địa, tàu biển, tàu cá bị tai nạn, sự cố trên đường thủy nội địa.\n+ Trường hợp không thể trình báo đường thủy nội địa trong thời hạn quy định thì trong trình báo đường thủy nội địa phải ghi rõ nguyên nhân của sự chậm trễ đó.\n\n- Khi thuyền trưởng hoặc người lái phương tiện hoặc người được thuyền trưởng, người lái phương tiện ủy quyền nộp và xuất trình đủ các giấy tờ theo quy định, cơ quan có thẩm quyền tiến hành xác nhận việc trình báo đường thủy nội địa vào bản trình báo đường thủy nội địa.\n- Thời hạn giải quyết xác nhận việc trình báo đường thủy nội địa không quá 02 (hai) giờ làm việc, kể từ khi đã nhận đủ các giấy tờ hợp lệ theo quy định.\n",
-    "THÀNH PHẦN HỒ SƠ": "Các giấy tờ phải nộp đối với phương tiện thủy nội địa, tàu cá\nTrình báo đường thủy nội địa theo mẫu (02 bản)\nBản sao Tự họa có mô tả sơ đồ vị trí xảy ra tai nạn, sự cố và đính kèm hình ảnh (nếu có), (02 bản)\nCác giấy tờ phải nộp đối với tàu biển\nBản trích sao Nhật ký hàng hải những phần có liên quan đến vụ việc (02 bản)\nBản trích sao Hải đồ liên quan đến vụ việc (02 bản)\nTrình báo đường thủy nội địa theo mẫu (02 bản)\nCác giấy tờ phải xuất trình (bản chính):\nĐối với tàu biển: Bản trích sao Nhật ký hàng hải những phần có liên quan đến vụ việc, Bản trích sao Hải đồ liên quan đến vụ việc;\nĐối với phương tiện thủy nội địa, tàu cá: Bản sao Tự họa có mô tả sơ đồ vị trí xảy ra tai nạn, sự cố và đính kèm hình ảnh (nếu có).\nHồ sơ khác\nNgoài số lượng trình báo đường thủy nội địa được quy định nói trên, thuyền trưởng hoặc người lái phương tiện có thể đề nghị xác nhận thêm các bản khác có cùng nội dung, nếu thấy cần thiết.\nĐối với bản trình báo đường thủy nội địa, ngoài chữ ký của thuyền trưởng hoặc người lái phương tiện và đóng dấu của tàu biển, phương tiện thủy nội địa, tàu cá (nếu có con dấu), còn phải có chữ ký của máy trưởng hoặc 01 (một) thủy thủ với tư cách là người làm chứng.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 2 giờ - - Khi thuyền trưởng hoặc người lái phương tiện hoặc người được thuyền trưởng, người lái phương tiện ủy quyền nộp và xuất trình đủ các giấy tờ theo quy định, cơ quan có thẩm quyền tiến hành xác nhận việc trình báo đường thủy nội địa vào bản trình báo đường thủy nội địa.\n- Thời hạn giải quyết xác nhận việc trình báo đường thủy nội địa không quá 02 (hai) giờ làm việc, kể từ khi đã nhận đủ các giấy tờ hợp lệ theo quy định.",
+    "TRÌNH TỰ THỰC HIỆN": "- Tổ chức, cá nhân gửi hồ sơ đề nghị xác nhận trình báo đường thủy nội địa đến Cảnh sát đường thủy hoặc Ủy ban nhân dân gần nhất nơi xảy ra tai nạn, sự cố.\n- Thời hạn trình xác nhận trình báo đường thủy nội địa bao gồm:\n+ Trường hợp phương tiện thủy nội địa, tàu biển, tàu cá bị tai nạn, sự cố trong vùng nước cảng, bến thủy nội địa thì trình báo đường thủy nội địa phải được trình Cảnh sát đường thủy hoặc Ủy ban nhân dân gần nhất nơi xảy ra tai nạn, sự cố trong thời hạn 48 (bốn mươi tám) giờ sau khi xảy ra tai nạn, sự cố.\n+ Trường hợp phương tiện thủy nội địa, tàu biển, tàu cá bị tai nạn, sự cố trên đường thủy nội địa (ngoài vùng nước cảng, bến thủy nội địa) thì trình báo đường thủy nội địa phải được trình Cảnh sát đường thủy hoặc Ủy ban nhân dân gần nhất  nơi xảy ra tai nạn, sự cố chậm nhất 03 (ba) ngày làm việc, kể từ thời điểm xảy ra tai nạn, sự cố hoặc kể từ khi phương tiện thủy nội địa, tàu biển, tàu cá ghé vào cảng, bến thủy nội địa đầu tiên sau khi xảy ra tai nạn, sự cố.\n+ Trường hợp tai nạn, sự cố xảy ra có liên quan đến hàng hóa trong hầm hàng thì trình báo đường thủy nội địa phải được trình Cảnh sát đường thủy hoặc Ủy ban nhân dân gần nhất  nơi xảy ra tai nạn, sự cố trước khi mở nắp hầm hàng. Trường hợp tai nạn, sự cố xảy ra với hàng hóa trong quá trình làm hàng (đã mở nắp hầm hàng) thì thực hiện, như trường hợp phương tiện thủy nội địa, tàu biển, tàu cá bị tai nạn, sự cố trên đường thủy nội địa.\n+ Trường hợp không thể trình báo đường thủy nội địa trong thời hạn quy định thì trong trình báo đường thủy nội địa phải ghi rõ nguyên nhân của sự chậm trễ đó.\n- Khi thuyền trưởng hoặc người lái phương tiện hoặc người được thuyền trưởng, người lái phương tiện ủy quyền nộp và xuất trình đủ các giấy tờ theo quy định, cơ quan có thẩm quyền tiến hành xác nhận việc trình báo đường thủy nội địa vào bản trình báo đường thủy nội địa.\n- Thời hạn giải quyết xác nhận việc trình báo đường thủy nội địa không quá 02 (hai) giờ làm việc, kể từ khi đã nhận đủ các giấy tờ hợp lệ theo quy định.",
+    "THÀNH PHẦN HỒ SƠ": "Các giấy tờ phải nộp đối với phương tiện thủy nội địa, tàu cá: Trình báo đường thủy nội địa theo mẫu (02 bản)\nCác giấy tờ phải nộp đối với phương tiện thủy nội địa, tàu cá: Bản sao Tự họa có mô tả sơ đồ vị trí xảy ra tai nạn, sự cố và đính kèm hình ảnh (nếu có), (02 bản)\nCác giấy tờ phải nộp đối với tàu biển: Bản trích sao Nhật ký hàng hải những phần có liên quan đến vụ việc (02 bản)\nCác giấy tờ phải nộp đối với tàu biển: Bản trích sao Hải đồ liên quan đến vụ việc (02 bản)\nCác giấy tờ phải nộp đối với tàu biển: Trình báo đường thủy nội địa theo mẫu (02 bản)\nCác giấy tờ phải xuất trình (bản chính):: Đối với tàu biển: Bản trích sao Nhật ký hàng hải những phần có liên quan đến vụ việc, Bản trích sao Hải đồ liên quan đến vụ việc;\nCác giấy tờ phải xuất trình (bản chính):: Đối với phương tiện thủy nội địa, tàu cá: Bản sao Tự họa có mô tả sơ đồ vị trí xảy ra tai nạn, sự cố và đính kèm hình ảnh (nếu có).\nHồ sơ khác: Ngoài số lượng trình báo đường thủy nội địa được quy định nói trên, thuyền trưởng hoặc người lái phương tiện có thể đề nghị xác nhận thêm các bản khác có cùng nội dung, nếu thấy cần thiết.\nHồ sơ khác: Đối với bản trình báo đường thủy nội địa, ngoài chữ ký của thuyền trưởng hoặc người lái phương tiện và đóng dấu của tàu biển, phương tiện thủy nội địa, tàu cá (nếu có con dấu), còn phải có chữ ký của máy trưởng hoặc 01 (một) thủy thủ với tư cách là người làm chứng.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 2 giờ",
     "CĂN CỨ PHÁP LÝ": "Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí áp dụng tại cảng, bến thủy nội địa - 248/2016/TT-BTC\nGiao thông đường thủy nội địa - 23/2004/QH11\nThông tư sửa đổi, bổ sung một số điều của các Thông tư thuộc lĩnh vực quản lý nhà nước của Bộ Xây dựng liên quan đến sắp xếp tổ chức bộ máy, thực hiện chính quyền địa phương hai cấp và phân cấp cho chính quyền địa phương. - 09/2025/TT-BXD\nsửa đổi, bổ sung một số Điều của Luật 23/2004/QH11 2004 - 48/2014/QH13\nThông tư 43/2024/TT-BTC của Bộ Tài chính - 43/2024/TT-BTC\nQuy định thủ tục xác nhận việc trình báo đường thủy nội địa - 69/2014/TT-BGTVT",
     "CƠ QUAN THỰC HIỆN": "Ủy ban nhân dân cấp tỉnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
@@ -254,14 +194,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hàng hải và đường thủy nội địa",
-      "slug": "hang-hai-va-duong-thuy-noi-dia"
+      "slug": "hang-hai-va-uong-thuy-noi-ia"
     },
     "implementation_levels": [
       {
@@ -284,7 +219,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -312,7 +247,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -325,6 +260,6 @@
         "slug": "uy-ban-nhan-dan-cap-xa"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf8-1394-7409-bd2f-53b7af755e9d",
   "procedure_code": "1.014695",
   "title": "Thủ tục cấp lại Giấy phép sản xuất, kinh doanh hóa chất kiểm soát đặc biệt thuộc thẩm quyền của Bộ Công Thương",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-1394-7409-bd2f-53b7af755e9d",
     "source_file": "chi-tiet-thu-tuc-1.014695.pdf",
     "source_path": "procedures/viec-lam/1.014695/chi-tiet-thu-tuc-1.014695.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:14.789187+00:00",
-    "source_updated_at": "2026-06-09T07:30:32.814Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:42.282393+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "44aa0d71ab165e5422f0f27ebb365f12f222b236642ce2ff2677d206881d9a94"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:14.789187+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1213/QĐ-BCT",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hóa chất",
   "target_users": [
@@ -36,36 +32,24 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cục Hóa chất",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Hóa chất"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bộ Công Thương cấp giấy phép sản xuất, kinh doanh hoá chất cần kiểm soát đặc biệt đối với nhóm 1; nhóm 1 và nhóm 2 trong trường hợp tổ chức có cả hoạt động 2 nhóm hoá chất.\nTrường hợp Giấy phép bị mất, sai sót, hư hỏng, tổ chức lập 01 bộ hồ sơ đề nghị cấp lại Giấy phép và gửi cơ quan cấp Giấy phép qua đường bưu điện hoặc gửi trực tiếp hoặc qua hệ thống dịch vụ công trực tuyến;\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền kiểm tra, cấp lại Giấy phép cho tổ chức đồng thời gửi cho các đơn vị liên quan. Trường hợp không cấp lại Giấy phép, cơ quan có thẩm quyền cấp Giấy phép có văn bản trả lời, nêu rõ lý do;\nd) Thời hạn của Giấy phép cấp lại bằng thời hạn còn lại của Giấy phép đã cấp.\n\n",
+      "description": "Bộ Công Thương cấp giấy phép sản xuất, kinh doanh hoá chất cần kiểm soát đặc biệt đối với nhóm 1; nhóm 1 và nhóm 2 trong trường hợp tổ chức có cả hoạt động 2 nhóm hoá chất.\nTrường hợp Giấy phép bị mất, sai sót, hư hỏng, tổ chức lập 01 bộ hồ sơ đề nghị cấp lại Giấy phép và gửi cơ quan cấp Giấy phép qua đường bưu điện hoặc gửi trực tiếp hoặc qua hệ thống dịch vụ công trực tuyến;\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền kiểm tra, cấp lại Giấy phép cho tổ chức đồng thời gửi cho các đơn vị liên quan. Trường hợp không cấp lại Giấy phép, cơ quan có thẩm quyền cấp Giấy phép có văn bản trả lời, nêu rõ lý do;\nd) Thời hạn của Giấy phép cấp lại bằng thời hạn còn lại của Giấy phép đã cấp.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "+ Văn bản đề nghị cấp lại Giấy phép",
-        "code": "000.00.00.G02-KQ006288",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e96d1-b009-745d-82f1-709de8338534",
-            "name": "Mẫu 06b.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu 06b.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -76,35 +60,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Tổ chức thực hiện nộp phí thẩm định theo quy định của pháp luật về phí và lệ phí khi nộp hồ sơ đề nghị cấp Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt",
-          "attachment": null
-        }
-      ],
+      "fee": "Tổ chức thực hiện nộp phí thẩm định theo quy định của pháp luật về phí và lệ phí khi nộp hồ sơ đề nghị cấp Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt",
       "description": "",
-      "source_page": null
+      "source_page": 1
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Tổ chức thực hiện nộp phí thẩm định theo quy định của pháp luật về phí và lệ phí khi nộp hồ sơ đề nghị cấp Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt",
-          "attachment": null
-        }
-      ],
+      "fee": "Tổ chức thực hiện nộp phí thẩm định theo quy định của pháp luật về phí và lệ phí khi nộp hồ sơ đề nghị cấp Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt",
       "description": "",
       "source_page": null
     },
@@ -112,51 +76,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Tổ chức thực hiện nộp phí thẩm định theo quy định của pháp luật về phí và lệ phí khi nộp hồ sơ đề nghị cấp Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt",
-          "attachment": null
-        }
-      ],
+      "fee": "Tổ chức thực hiện nộp phí thẩm định theo quy định của pháp luật về phí và lệ phí khi nộp hồ sơ đề nghị cấp Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt",
       "description": "",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Tổ chức thực hiện nộp phí thẩm định theo quy định của pháp luật về phí và lệ phí khi nộp hồ sơ đề nghị cấp Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Tổ chức thực hiện nộp phí thẩm định theo quy định của pháp luật về phí và lệ phí khi nộp hồ sơ đề nghị cấp Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt",
-        "attachment": null
+        "amount_text": "Tổ chức thực hiện nộp phí thẩm định theo quy định của pháp luật về phí và lệ phí khi nộp hồ sơ đề nghị cấp Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt",
+        "is_free": false,
+        "source_page": 3
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Tổ chức thực hiện nộp phí thẩm định theo quy định của pháp luật về phí và lệ phí khi nộp hồ sơ đề nghị cấp Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt",
-        "attachment": null
+        "amount_text": "Tổ chức thực hiện nộp phí thẩm định theo quy định của pháp luật về phí và lệ phí khi nộp hồ sơ đề nghị cấp Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt",
+        "is_free": false,
+        "source_page": 3
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Tổ chức thực hiện nộp phí thẩm định theo quy định của pháp luật về phí và lệ phí khi nộp hồ sơ đề nghị cấp Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt",
-        "attachment": null
+        "amount_text": "Tổ chức thực hiện nộp phí thẩm định theo quy định của pháp luật về phí và lệ phí khi nộp hồ sơ đề nghị cấp Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt",
+        "is_free": false,
+        "source_page": 3
       }
     ]
   },
@@ -164,60 +113,49 @@
     {
       "title": "Thông tư số 01/2026/TT-BCT của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số 26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa.",
       "document_number": "01/2026/TT-BCT",
-      "id": "019d2bb3-5d86-7760-a638-2ffcbfde6414",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định số 26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa;",
       "document_number": "26/2026/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a646-3fab7ddf6d84",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Luật số 69/2025/QH15 của Quốc hội: Luật Hóa chất",
       "document_number": "69/2025/QH15",
-      "id": "019d2bb3-5d87-7195-a444-c2c79e28d0e1",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư số 26/2026/TT-BCT ngày 20 tháng 5 năm 2026 của Bộ trưởng Bộ Công Thương sửa đổi bổ sung một số quy định về phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong các lĩnh vực thuộc phạm vi quản lý của Bộ Công Thương.",
-      "document_number": "26/2026/TT-BCT ",
-      "id": "019e96bc-0d1e-727a-a09f-ef293ddf47f2",
-      "source_page": null
+      "document_number": "26/2026/TT-BCT",
+      "source_page": 2
     },
     {
       "title": "Nghị quyết số 19/2026/NQ-CP ngày 29 tháng 4 năm 2026 của Chính phủ về cắt giảm, phân cấp, đơn giản hoá thủ tục hành chính, điều kiện kinh doanh thuộc quản lý của Bộ Công Thương",
       "document_number": "19/2026/NQ-CP",
-      "id": "019e1627-6140-7639-ae90-2e4878db9890",
-      "source_page": null
+      "source_page": 2
     }
   ],
-  "conditions": "Trường hợp Giấy phép bị mất, sai sót, hư hỏng ",
+  "conditions": "Trường hợp Giấy phép bị mất, sai sót, hư hỏng",
   "results": [
     {
       "title": "Cấp lại Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt",
       "code": "KQ.G02.000499",
-      "id": "019d2bb2-1c3a-7502-a840-657d69a93c98",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bộ Công Thương cấp giấy phép sản xuất, kinh doanh hoá chất cần kiểm soát đặc biệt đối với nhóm 1; nhóm 1 và nhóm 2 trong trường hợp tổ chức có cả hoạt động 2 nhóm hoá chất.\nTrường hợp Giấy phép bị mất, sai sót, hư hỏng, tổ chức lập 01 bộ hồ sơ đề nghị cấp lại Giấy phép và gửi cơ quan cấp Giấy phép qua đường bưu điện hoặc gửi trực tiếp hoặc qua hệ thống dịch vụ công trực tuyến;\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền kiểm tra, cấp lại Giấy phép cho tổ chức đồng thời gửi cho các đơn vị liên quan. Trường hợp không cấp lại Giấy phép, cơ quan có thẩm quyền cấp Giấy phép có văn bản trả lời, nêu rõ lý do;\nd) Thời hạn của Giấy phép cấp lại bằng thời hạn còn lại của Giấy phép đã cấp.\n\n",
-    "THÀNH PHẦN HỒ SƠ": "\n+ Văn bản đề nghị cấp lại Giấy phép",
+    "TRÌNH TỰ THỰC HIỆN": "Bộ Công Thương cấp giấy phép sản xuất, kinh doanh hoá chất cần kiểm soát đặc biệt đối với nhóm 1; nhóm 1 và nhóm 2 trong trường hợp tổ chức có cả hoạt động 2 nhóm hoá chất.\nTrường hợp Giấy phép bị mất, sai sót, hư hỏng, tổ chức lập 01 bộ hồ sơ đề nghị cấp lại Giấy phép và gửi cơ quan cấp Giấy phép qua đường bưu điện hoặc gửi trực tiếp hoặc qua hệ thống dịch vụ công trực tuyến;\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền kiểm tra, cấp lại Giấy phép cho tổ chức đồng thời gửi cho các đơn vị liên quan. Trường hợp không cấp lại Giấy phép, cơ quan có thẩm quyền cấp Giấy phép có văn bản trả lời, nêu rõ lý do;\nd) Thời hạn của Giấy phép cấp lại bằng thời hạn còn lại của Giấy phép đã cấp.",
+    "THÀNH PHẦN HỒ SƠ": "+ Văn bản đề nghị cấp lại Giấy phép",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 3 ngày làm việc\nQua dịch vụ bưu chính: 3 ngày làm việc\nTrực tiếp: 3 ngày làm việc",
-    "CĂN CỨ PHÁP LÝ": "Thông tư số 01/2026/TT-BCT của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số 26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa. - 01/2026/TT-BCT\nNghị định số 26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa; - 26/2026/NĐ-CP\nLuật số 69/2025/QH15 của Quốc hội: Luật Hóa chất - 69/2025/QH15\nThông tư số 26/2026/TT-BCT ngày 20 tháng 5 năm 2026 của Bộ trưởng Bộ Công Thương sửa đổi bổ sung một số quy định về phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong các lĩnh vực thuộc phạm vi quản lý của Bộ Công Thương. - 26/2026/TT-BCT \nNghị quyết số 19/2026/NQ-CP ngày 29 tháng 4 năm 2026 của Chính phủ về cắt giảm, phân cấp, đơn giản hoá thủ tục hành chính, điều kiện kinh doanh thuộc quản lý của Bộ Công Thương - 19/2026/NQ-CP",
+    "CĂN CỨ PHÁP LÝ": "Thông tư số 01/2026/TT-BCT của Bộ trưởng Bộ Công Thương quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất và Nghị định số 26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa. - 01/2026/TT-BCT\nNghị định số 26/2026/NĐ-CP của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hóa chất về quản lý hoạt động hóa chất và hóa chất nguy hiểm trong sản phẩm, hàng hóa; - 26/2026/NĐ-CP\nLuật số 69/2025/QH15 của Quốc hội: Luật Hóa chất - 69/2025/QH15\nThông tư số 26/2026/TT-BCT ngày 20 tháng 5 năm 2026 của Bộ trưởng Bộ Công Thương sửa đổi bổ sung một số quy định về phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong các lĩnh vực thuộc phạm vi quản lý của Bộ Công Thương. - 26/2026/TT-BCT\nNghị quyết số 19/2026/NQ-CP ngày 29 tháng 4 năm 2026 của Chính phủ về cắt giảm, phân cấp, đơn giản hoá thủ tục hành chính, điều kiện kinh doanh thuộc quản lý của Bộ Công Thương - 19/2026/NQ-CP",
     "CƠ QUAN THỰC HIỆN": "Cục Hóa chất",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Trường hợp Giấy phép bị mất, sai sót, hư hỏng ",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Trường hợp Giấy phép bị mất, sai sót, hư hỏng",
     "KẾT QUẢ XỬ LÝ": "Cấp lại Giấy phép sản xuất, kinh doanh hóa chất cần kiểm soát đặc biệt - KQ.G02.000499",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "Trường hợp Giấy phép bị mất, sai sót, hư hỏng "
+    "MÔ TẢ": "Trường hợp Giấy phép bị mất, sai sót, hư hỏng"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Hóa chất",
       "slug": "hoa-chat"
@@ -244,6 +182,6 @@
         "slug": "cuc-hoa-chat"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

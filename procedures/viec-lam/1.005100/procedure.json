@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-df25-737f-9ede-32a225e7ea43",
   "procedure_code": "1.005100",
   "title": "Thủ tục đăng ký vào mạng lưới tư vấn viên",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-df25-737f-9ede-32a225e7ea43",
     "source_file": "chi-tiet-thu-tuc-1.005100.pdf",
     "source_path": "procedures/viec-lam/1.005100/chi-tiet-thu-tuc-1.005100.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:02.769440+00:00",
-    "source_updated_at": "2026-04-08T09:08:48.168Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:12.103885+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "299842b66a6d492e03e17533388717b47b4ef9fd288fcab7de6cbbd29280a8ab"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:02.769440+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1474/QĐ-BTC",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hỗ trợ doanh nghiệp nhỏ và vừa",
   "target_users": [
@@ -37,18 +33,15 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Đơn vị đầu mối thuộc bộ, cơ quan ngang bộ được giao tổ chức hoạt động mạng lưới tư vấn viên.",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Đơn vị đầu mối thuộc bộ, cơ quan ngang bộ được giao tổ chức hoạt động mạng lưới tư vấn viên."
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Cá nhân, tổ chức tư vấn gửi hồ sơ đăng ký tham gia mạng lưới đến bộ, cơ quan ngang bộ phù hợp để được công nhận. Các tài liệu bằng tiếng nước ngoài thì gửi bản dịch tiếng Việt có chứng thực.\n- Tư vấn viên truy cập vào Cổng thông tin, đăng ký và được Bộ Kế hoạch và và Đầu tư cấp tài khoản để cập nhật thông tin vào cơ sở dữ liệu mạng lưới tư vấn viên. Tư vấn viên chịu trách nhiệm toàn diện trước pháp luật về tính chính xác của thông tin được công khai trên Cổng thông tin.\n",
+      "description": "- Cá nhân, tổ chức tư vấn gửi hồ sơ đăng ký tham gia mạng lưới đến bộ, cơ quan ngang bộ phù hợp để được công nhận. Các tài liệu bằng tiếng nước ngoài thì gửi bản dịch tiếng Việt có chứng thực.\n- Tư vấn viên truy cập vào Cổng thông tin, đăng ký và được Bộ Kế hoạch và và Đầu tư cấp tài khoản để cập nhật thông tin vào cơ sở dữ liệu mạng lưới tư vấn viên. Tư vấn viên chịu trách nhiệm toàn diện trước pháp luật về tính chính xác của thông tin được công khai trên Cổng thông tin.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -56,76 +49,52 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "- Sơ yếu lý lịch và hồ sơ tóm tắt năng lực;",
-        "code": "000.00.00.G05-KQ005100",
+        "name": "(1) Đối với trường hợp cá nhân tư vấn, hồ sơ bao gồm:: - Sơ yếu lý lịch và hồ sơ tóm tắt năng lực;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(1) Đối với trường hợp cá nhân tư vấn, hồ sơ bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Đơn đăng ký tham gia mạng lưới tư vấn viên;",
-        "code": "000.00.00.G05-KQ005099",
+        "name": "(1) Đối với trường hợp cá nhân tư vấn, hồ sơ bao gồm:: - Đơn đăng ký tham gia mạng lưới tư vấn viên;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(1) Đối với trường hợp cá nhân tư vấn, hồ sơ bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Bản sao có chứng thực các văn bản, giấy tờ có liên quan được cơ quan có thẩm quyền cấp.",
-        "code": "000.00.00.G05-KQ005102",
+        "name": "(1) Đối với trường hợp cá nhân tư vấn, hồ sơ bao gồm:: - Bản sao có chứng thực các văn bản, giấy tờ có liên quan được cơ quan có thẩm quyền cấp.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "(1) Đối với trường hợp cá nhân tư vấn, hồ sơ bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Bản sao có chứng thực văn bằng đào tạo;",
-        "code": "000.00.00.G05-KQ005101",
+        "name": "(1) Đối với trường hợp cá nhân tư vấn, hồ sơ bao gồm:: - Bản sao có chứng thực văn bằng đào tạo;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "(1) Đối với trường hợp cá nhân tư vấn, hồ sơ bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Đơn đăng ký tham gia mạng lưới tư vấn viên;",
-        "code": "000.00.00.G05-KQ005103",
+        "name": "(2) Đối với trường hợp tổ chức tư vấn:: - Đơn đăng ký tham gia mạng lưới tư vấn viên;",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "(2) Đối với trường hợp tổ chức tư vấn:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Hồ sơ tóm tắt năng lực; bản sao có chứng thực hồ sơ của các cá nhân tư vấn thuộc tổ chức;",
-        "code": "000.00.00.G05-KQ005105",
+        "name": "(2) Đối với trường hợp tổ chức tư vấn:: - Hồ sơ tóm tắt năng lực; bản sao có chứng thực hồ sơ của các cá nhân tư vấn thuộc tổ chức;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "(2) Đối với trường hợp tổ chức tư vấn:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Bản sao có chứng thực Giấy chứng nhận đăng ký doanh nghiệp hoặc Quyết định thành lập;",
-        "code": "000.00.00.G05-KQ005104",
+        "name": "(2) Đối với trường hợp tổ chức tư vấn:: - Bản sao có chứng thực Giấy chứng nhận đăng ký doanh nghiệp hoặc Quyết định thành lập;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "(2) Đối với trường hợp tổ chức tư vấn:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Bản sao có chứng thực các văn bản, giấy tờ chứng minh đủ điều kiện kinh doanh theo quy định của pháp luật (đối với doanh nghiệp kinh doanh ngành, nghề kinh doanh có điều kiện).",
-        "code": "000.00.00.G05-KQ005106",
+        "name": "(2) Đối với trường hợp tổ chức tư vấn:: - Bản sao có chứng thực các văn bản, giấy tờ chứng minh đủ điều kiện kinh doanh theo quy định của pháp luật (đối với doanh nghiệp kinh doanh ngành, nghề kinh doanh có điều kiện).",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "(2) Đối với trường hợp tổ chức tư vấn:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -134,60 +103,37 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Không có",
-          "attachment": null
-        }
-      ],
+      "fee": "Không có",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Không có",
-          "attachment": null
-        }
-      ],
+      "fee": "Không có",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "free",
+    "summary": "Không có",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Không có",
-        "attachment": null
+        "amount_text": "Không có",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Không có",
-        "attachment": null
+        "amount_text": "Không có",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -195,20 +141,17 @@
     {
       "title": "Thông tư số 06/2022/TT-BKHĐT của Bộ Kế hoạch và Đầu tư: Hướng dẫn một số điều của Nghị định số 80/2021/NĐ-CP ngày 26 tháng 8 năm 2021 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hỗ trợ doanh nghiệp nhỏ và vừa",
       "document_number": "06/2022/TT-BKHĐT",
-      "id": "019d2bb3-5d7c-71ab-9f05-77a2490db0e3",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định số 80/2021/NĐ-CP của Chính phủ: Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hỗ trợ doanh nghiệp nhỏ và vừa",
       "document_number": "80/2021/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b471-881661e777e5",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật 04/2017/QH14",
       "document_number": "04/2017/QH14",
-      "id": "019d2bb3-5d84-71c5-b670-d98040039a23",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -216,13 +159,12 @@
     {
       "title": "Tư vấn viên, tổ chức tư vấn được công nhận vào mạng lưới tư vấn viên và được công bố trên trang thông tin điện tử của Bộ, cơ quan ngang Bộ và Cổng thông tin quốc gia hỗ trợ DNNVV",
       "code": "KQ.G12.001357",
-      "id": "019d2bb2-1c73-70ac-aa18-e6bb554e47d2",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Cá nhân, tổ chức tư vấn gửi hồ sơ đăng ký tham gia mạng lưới đến bộ, cơ quan ngang bộ phù hợp để được công nhận. Các tài liệu bằng tiếng nước ngoài thì gửi bản dịch tiếng Việt có chứng thực.\n- Tư vấn viên truy cập vào Cổng thông tin, đăng ký và được Bộ Kế hoạch và và Đầu tư cấp tài khoản để cập nhật thông tin vào cơ sở dữ liệu mạng lưới tư vấn viên. Tư vấn viên chịu trách nhiệm toàn diện trước pháp luật về tính chính xác của thông tin được công khai trên Cổng thông tin.\n",
-    "THÀNH PHẦN HỒ SƠ": "(1) Đối với trường hợp cá nhân tư vấn, hồ sơ bao gồm:\n- Sơ yếu lý lịch và hồ sơ tóm tắt năng lực;\n- Đơn đăng ký tham gia mạng lưới tư vấn viên;\n- Bản sao có chứng thực các văn bản, giấy tờ có liên quan được cơ quan có thẩm quyền cấp.\n- Bản sao có chứng thực văn bằng đào tạo;\n(2) Đối với trường hợp tổ chức tư vấn:\n- Đơn đăng ký tham gia mạng lưới tư vấn viên;\n- Hồ sơ tóm tắt năng lực; bản sao có chứng thực hồ sơ của các cá nhân tư vấn thuộc tổ chức;\n- Bản sao có chứng thực Giấy chứng nhận đăng ký doanh nghiệp hoặc Quyết định thành lập;\n- Bản sao có chứng thực các văn bản, giấy tờ chứng minh đủ điều kiện kinh doanh theo quy định của pháp luật (đối với doanh nghiệp kinh doanh ngành, nghề kinh doanh có điều kiện).",
+    "TRÌNH TỰ THỰC HIỆN": "- Cá nhân, tổ chức tư vấn gửi hồ sơ đăng ký tham gia mạng lưới đến bộ, cơ quan ngang bộ phù hợp để được công nhận. Các tài liệu bằng tiếng nước ngoài thì gửi bản dịch tiếng Việt có chứng thực.\n- Tư vấn viên truy cập vào Cổng thông tin, đăng ký và được Bộ Kế hoạch và và Đầu tư cấp tài khoản để cập nhật thông tin vào cơ sở dữ liệu mạng lưới tư vấn viên. Tư vấn viên chịu trách nhiệm toàn diện trước pháp luật về tính chính xác của thông tin được công khai trên Cổng thông tin.",
+    "THÀNH PHẦN HỒ SƠ": "(1) Đối với trường hợp cá nhân tư vấn, hồ sơ bao gồm:: - Sơ yếu lý lịch và hồ sơ tóm tắt năng lực;\n(1) Đối với trường hợp cá nhân tư vấn, hồ sơ bao gồm:: - Đơn đăng ký tham gia mạng lưới tư vấn viên;\n(1) Đối với trường hợp cá nhân tư vấn, hồ sơ bao gồm:: - Bản sao có chứng thực các văn bản, giấy tờ có liên quan được cơ quan có thẩm quyền cấp.\n(1) Đối với trường hợp cá nhân tư vấn, hồ sơ bao gồm:: - Bản sao có chứng thực văn bằng đào tạo;\n(2) Đối với trường hợp tổ chức tư vấn:: - Đơn đăng ký tham gia mạng lưới tư vấn viên;\n(2) Đối với trường hợp tổ chức tư vấn:: - Hồ sơ tóm tắt năng lực; bản sao có chứng thực hồ sơ của các cá nhân tư vấn thuộc tổ chức;\n(2) Đối với trường hợp tổ chức tư vấn:: - Bản sao có chứng thực Giấy chứng nhận đăng ký doanh nghiệp hoặc Quyết định thành lập;\n(2) Đối với trường hợp tổ chức tư vấn:: - Bản sao có chứng thực các văn bản, giấy tờ chứng minh đủ điều kiện kinh doanh theo quy định của pháp luật (đối với doanh nghiệp kinh doanh ngành, nghề kinh doanh có điều kiện).",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 1\nTrực tiếp: 1",
     "CĂN CỨ PHÁP LÝ": "Thông tư số 06/2022/TT-BKHĐT của Bộ Kế hoạch và Đầu tư: Hướng dẫn một số điều của Nghị định số 80/2021/NĐ-CP ngày 26 tháng 8 năm 2021 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hỗ trợ doanh nghiệp nhỏ và vừa - 06/2022/TT-BKHĐT\nNghị định số 80/2021/NĐ-CP của Chính phủ: Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Hỗ trợ doanh nghiệp nhỏ và vừa - 80/2021/NĐ-CP\nLuật 04/2017/QH14 - 04/2017/QH14",
     "CƠ QUAN THỰC HIỆN": "Đơn vị đầu mối thuộc bộ, cơ quan ngang bộ được giao tổ chức hoạt động mạng lưới tư vấn viên.",
@@ -232,11 +174,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hỗ trợ doanh nghiệp nhỏ và vừa",
       "slug": "ho-tro-doanh-nghiep-nho-va-vua"
@@ -264,9 +201,9 @@
     "agencies": [
       {
         "name": "Đơn vị đầu mối thuộc bộ, cơ quan ngang bộ được giao tổ chức hoạt động mạng lưới tư vấn viên.",
-        "slug": "don-vi-dau-moi-thuoc-bo-co-quan-ngang-bo-duoc-giao-to-chuc-hoat-dong-mang-luoi-tu-van-vien"
+        "slug": "on-vi-au-moi-thuoc-bo-co-quan-ngang-bo-uoc-giao-to-chuc-hoat-ong-mang-luoi-tu-van-vien"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

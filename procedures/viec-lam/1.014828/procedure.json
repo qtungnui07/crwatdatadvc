@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf8-1b64-71bf-9bfe-728a29046404",
   "procedure_code": "1.014828",
   "title": "Công bố tổ chức kiểm toán năng lượng",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-1b64-71bf-9bfe-728a29046404",
     "source_file": "chi-tiet-thu-tuc-1.014828.pdf",
     "source_path": "procedures/viec-lam/1.014828/chi-tiet-thu-tuc-1.014828.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:15.168019+00:00",
-    "source_updated_at": "2026-05-15T07:33:11.405Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:45.998792+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "e66483083278c7a38c518b23dd968c11d4e446bfaf30302acb3763cbf4ca0ca1"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:15.168019+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "169/QĐ-BCT",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Năng lượng",
   "target_users": [
@@ -36,36 +32,31 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Bộ Công thương",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Công thương"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Tổ chức kiểm toán năng lượng gửi văn bản đề nghị công bố theo Mẫu số 01 tại Phụ lục kèm theo Nghị định số 30/2026/NĐ-CP ngày 21 tháng 01 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Sử dụng năng lượng tiết kiệm và hiệu quả và hồ sơ kèm theo đến Bộ Công Thương theo đường bưu điện, nộp trực tiếp hoặc nộp qua Cổng dịch vụ công Quốc gia.\nBước 2: Trong thời hạn 10 ngày làm việc kể từ ngày nhận được văn bản và hồ sơ kèm theo, Bộ Công Thương rà soát hồ sơ, công bố các tổ chức hoạt động kiểm toán năng lượng đáp ứng các điều kiện quy định tại Điều 6 Nghị định số 30/2026/NĐ-CP.\n",
+      "description": "Bước 1: Tổ chức kiểm toán năng lượng gửi văn bản đề nghị công bố theo Mẫu số 01 tại Phụ lục kèm theo Nghị định số 30/2026/NĐ-CP ngày 21 tháng 01 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Sử dụng năng lượng tiết kiệm và hiệu quả và hồ sơ kèm theo đến Bộ Công Thương theo đường bưu điện, nộp trực tiếp hoặc nộp qua Cổng dịch vụ công Quốc gia.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Trong thời hạn 10 ngày làm việc kể từ ngày nhận được văn bản và hồ sơ kèm theo, Bộ Công Thương rà soát hồ sơ, công bố các tổ chức hoạt động kiểm toán năng lượng đáp ứng các điều kiện quy định tại Điều 6 Nghị định số 30/2026/NĐ-CP.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "- Hồ sơ đề nghị công bố tổ chức kiểm toán năng lượng gồm: Văn bản đề nghị công bố theo Mẫu số 01 tại Phụ lục kèm theo Nghị định số 30/2026/NĐ-CP.",
-        "code": "000.00.00.G02-KQ006444",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d9464-0360-737f-ae9a-6ec16d789c7e",
-            "name": "DCKCBNL.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "DCKCBNL.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -76,35 +67,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -112,51 +83,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       }
     ]
   },
@@ -164,14 +120,12 @@
     {
       "title": "Nghị định số 30/2026/NĐ-CP ngày 21 tháng 01 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Sử dụng năng lượng tiết kiệm và hiệu quả",
       "document_number": "30/2026/NĐ-CP",
-      "id": "019d2bb3-5d87-7195-a43e-37a51eecb305",
-      "source_page": null
+      "source_page": 1
     },
     {
       "title": "Luật số 77/2025/QH15 của Quốc hội: Luật sửa đổi, bổ sung một số điều của Luật Sử dụng năng lượng tiết kiệm và hiệu quả",
       "document_number": "77/2025/QH15",
-      "id": "019d2bb3-5d87-7195-a445-c97cbc1a29b8",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "- Là tổ chức được thành lập theo quy định của pháp luật.\n- Có năng lực hoạt động đáp ứng các yêu cầu kiểm toán năng lượng, phù hợp với đối tượng được kiểm toán năng lượng.\n- Điều kiện về nhân lực:\n+ Người quản lý kỹ thuật của tổ chức kiểm toán năng lượng phải có bằng cử nhân trở lên thuộc chuyên ngành năng lượng hoặc các ngành kỹ thuật có liên quan, có tối thiểu 05 năm kinh nghiệm và có chứng chỉ kiểm toán viên năng lượng;\n+ Người phụ trách bảo đảm chất lượng và kiểm soát chất lượng của tổ chức kiểm toán năng lượng phải có bằng cử nhân trở lên, có tối thiểu 03 năm kinh nghiệm trong lĩnh vực kiểm toán năng lượng và có chứng chỉ kiểm toán viên năng lượng; \n+ Tổ chức có ít nhất 03 kiểm toán viên năng lượng làm việc theo hợp đồng lao động có thời hạn từ 12 tháng trở lên.\n- Có phương tiện, thiết bị, dụng cụ (hoặc có hợp đồng thuê dài hạn), quy trình đo đạc, phù hợp với lĩnh vực được kiểm toán năng lượng (điện, nhiệt, hơi, khí nén, chiếu sáng) và quy định của pháp luật hiện hành; đồng thời phải có quy trình quản lý, vận hành, bảo dưỡng phương tiện, thiết bị đo; đảm bảo tính chính xác của phương tiện, thiết bị đo.\n- Hằng năm, tổ chức kiểm toán năng lượng phải tổ chức đào tạo, đánh giá tay nghề của kiểm toán viên năng lượng.",
@@ -179,13 +133,12 @@
     {
       "title": "Công bố tổ chức kiểm toán năng lượng trên Cổng thông tin điện tử của Bộ Công Thương.",
       "code": "KQ.G02.000519",
-      "id": "019d2bb2-1c3a-7502-a840-b7c06f18e230",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Tổ chức kiểm toán năng lượng gửi văn bản đề nghị công bố theo Mẫu số 01 tại Phụ lục kèm theo Nghị định số 30/2026/NĐ-CP ngày 21 tháng 01 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Sử dụng năng lượng tiết kiệm và hiệu quả và hồ sơ kèm theo đến Bộ Công Thương theo đường bưu điện, nộp trực tiếp hoặc nộp qua Cổng dịch vụ công Quốc gia.\nBước 2: Trong thời hạn 10 ngày làm việc kể từ ngày nhận được văn bản và hồ sơ kèm theo, Bộ Công Thương rà soát hồ sơ, công bố các tổ chức hoạt động kiểm toán năng lượng đáp ứng các điều kiện quy định tại Điều 6 Nghị định số 30/2026/NĐ-CP.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n- Hồ sơ đề nghị công bố tổ chức kiểm toán năng lượng gồm: Văn bản đề nghị công bố theo Mẫu số 01 tại Phụ lục kèm theo Nghị định số 30/2026/NĐ-CP.",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Tổ chức kiểm toán năng lượng gửi văn bản đề nghị công bố theo Mẫu số 01 tại Phụ lục kèm theo Nghị định số 30/2026/NĐ-CP ngày 21 tháng 01 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Sử dụng năng lượng tiết kiệm và hiệu quả và hồ sơ kèm theo đến Bộ Công Thương theo đường bưu điện, nộp trực tiếp hoặc nộp qua Cổng dịch vụ công Quốc gia.\nBước 2: Trong thời hạn 10 ngày làm việc kể từ ngày nhận được văn bản và hồ sơ kèm theo, Bộ Công Thương rà soát hồ sơ, công bố các tổ chức hoạt động kiểm toán năng lượng đáp ứng các điều kiện quy định tại Điều 6 Nghị định số 30/2026/NĐ-CP.",
+    "THÀNH PHẦN HỒ SƠ": "- Hồ sơ đề nghị công bố tổ chức kiểm toán năng lượng gồm: Văn bản đề nghị công bố theo Mẫu số 01 tại Phụ lục kèm theo Nghị định số 30/2026/NĐ-CP.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày làm việc\nQua dịch vụ bưu chính: 10 ngày làm việc\nTrực tiếp: 10 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 30/2026/NĐ-CP ngày 21 tháng 01 năm 2026 của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Sử dụng năng lượng tiết kiệm và hiệu quả - 30/2026/NĐ-CP\nLuật số 77/2025/QH15 của Quốc hội: Luật sửa đổi, bổ sung một số điều của Luật Sử dụng năng lượng tiết kiệm và hiệu quả - 77/2025/QH15",
     "CƠ QUAN THỰC HIỆN": "Bộ Công thương",
@@ -195,11 +148,6 @@
     "MÔ TẢ": "- Là tổ chức được thành lập theo quy định của pháp luật.\n- Có năng lực hoạt động đáp ứng các yêu cầu kiểm toán năng lượng, phù hợp với đối tượng được kiểm toán năng lượng.\n- Điều kiện về nhân lực:\n+ Người quản lý kỹ thuật của tổ chức kiểm toán năng lượng phải có bằng cử nhân trở lên thuộc chuyên ngành năng lượng hoặc các ngành kỹ thuật có liên quan, có tối thiểu 05 năm kinh nghiệm và có chứng chỉ kiểm toán viên năng lượng;\n+ Người phụ trách bảo đảm chất lượng và kiểm soát chất lượng của tổ chức kiểm toán năng lượng phải có bằng cử nhân trở lên, có tối thiểu 03 năm kinh nghiệm trong lĩnh vực kiểm toán năng lượng và có chứng chỉ kiểm toán viên năng lượng; \n+ Tổ chức có ít nhất 03 kiểm toán viên năng lượng làm việc theo hợp đồng lao động có thời hạn từ 12 tháng trở lên.\n- Có phương tiện, thiết bị, dụng cụ (hoặc có hợp đồng thuê dài hạn), quy trình đo đạc, phù hợp với lĩnh vực được kiểm toán năng lượng (điện, nhiệt, hơi, khí nén, chiếu sáng) và quy định của pháp luật hiện hành; đồng thời phải có quy trình quản lý, vận hành, bảo dưỡng phương tiện, thiết bị đo; đảm bảo tính chính xác của phương tiện, thiết bị đo.\n- Hằng năm, tổ chức kiểm toán năng lượng phải tổ chức đào tạo, đánh giá tay nghề của kiểm toán viên năng lượng."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Năng lượng",
       "slug": "nang-luong"
@@ -226,6 +174,6 @@
         "slug": "bo-cong-thuong"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

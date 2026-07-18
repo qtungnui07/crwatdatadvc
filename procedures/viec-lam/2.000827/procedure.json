@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bff-ca0f-73e9-be5b-6c914946feca",
   "procedure_code": "2.000827",
   "title": "Thủ tục cấp Giấy phép thành lập Văn phòng đại diện nước ngoài",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-ca0f-73e9-be5b-6c914946feca",
     "source_file": "chi-tiet-thu-tuc-2.000827.pdf",
     "source_path": "procedures/viec-lam/2.000827/chi-tiet-thu-tuc-2.000827.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:20.884535+00:00",
-    "source_updated_at": "2026-05-26T16:44:19.318Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:12.401040+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "87bb48216b1cf44974e0cacbdef369c406df5721174e14443b6e7f2be435f916"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:20.884535+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1106/QĐ-NHNN",
   "implementation_level": "Cấp tỉnh, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Thành lập và hoạt động ngân hàng",
   "target_users": [
@@ -36,105 +31,80 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ngân hàng Nhà nước Khu vực",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ngân hàng Nhà nước Khu vực"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "+ Bước 1: Tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng lập hồ sơ đề nghị cấp Giấy phép theo quy định gửi Ngân hàng Nhà nước chi nhánh Khu vực nơi văn phòng đại diện nước ngoài dự kiến đặt trụ sở.\n+ Bước 2: Trong thời hạn 30 ngày kể từ ngày nhận được hồ sơ đề nghị cấp Giấy phép, Ngân hàng Nhà nước chi nhánh Khu vực có văn bản gửi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng xác nhận đã nhận đầy đủ hồ sơ hợp lệ. Trường hợp hồ sơ đề nghị cấp Giấy phép chưa đầy đủ, hợp lệ theo quy định, Ngân hàng Nhà nước chi nhánh Khu vực có văn bản gửi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng yêu cầu bổ sung hồ sơ. \n+ Bước 3: Trong thời hạn 30 ngày, kể từ ngày gửi văn bản xác nhận đã nhận đầy đủ hồ sơ hợp lệ, Ngân hàng Nhà nước chi nhánh Khu vực tiến hành cấp Giấy phép theo quy định. Trường hợp không cấp Giấy phép, Ngân hàng Nhà nước chi nhánh Khu vực có văn bản trả lời tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng, trong đó nêu rõ lý do không cấp Giấy phép. \n",
+      "description": "+ Bước 1: Tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng lập hồ sơ đề nghị cấp Giấy phép theo quy định gửi Ngân hàng Nhà nước chi nhánh Khu vực nơi văn phòng đại diện nước ngoài dự kiến đặt trụ sở.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "+ Bước 2: Trong thời hạn 30 ngày kể từ ngày nhận được hồ sơ đề nghị cấp Giấy phép, Ngân hàng Nhà nước chi nhánh Khu vực có văn bản gửi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng xác nhận đã nhận đầy đủ hồ sơ hợp lệ. Trường hợp hồ sơ đề nghị cấp Giấy phép chưa đầy đủ, hợp lệ theo quy định, Ngân hàng Nhà nước chi nhánh Khu vực có văn bản gửi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng yêu cầu bổ sung hồ sơ.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "+ Bước 3: Trong thời hạn 30 ngày, kể từ ngày gửi văn bản xác nhận đã nhận đầy đủ hồ sơ hợp lệ, Ngân hàng Nhà nước chi nhánh Khu vực tiến hành cấp Giấy phép theo quy định. Trường hợp không cấp Giấy phép, Ngân hàng Nhà nước chi nhánh Khu vực có văn bản trả lời tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng, trong đó nêu rõ lý do không cấp Giấy phép.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "1. Đơn đề nghị cấp Giấy phép thành lập văn phòng đại diện nước ngoài do người đại diện theo pháp luật của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng ký theo mẫu quy định tại Phụ lục số 06 ban hành kèm theo Thông tư số 56/2024/TT-NHNN.",
-        "code": "G19-KQ006378",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e64b4-e9df-76fb-8e7c-647b82482230",
-            "name": "Phụ lục số 06- tt56.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục số 06- tt56.docx",
+        "source_page": 2
       },
       {
         "name": "2. Giấy phép hoạt động hoặc văn bản tương đương do cơ quan có thẩm quyền của nước nơi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng đặt trụ sở chính cấp cho tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng.",
-        "code": "G19-KQ006379",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "3. Văn bản của cơ quan có thẩm quyền của nước nơi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng đặt trụ sở chính cung cấp thông tin về tình hình tuân thủ pháp luật của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng.",
-        "code": "G19-KQ006380",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "4. Văn bản của cơ quan có thẩm quyền của nước nơi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng đặt trụ sở chính cho phép tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng thành lập Văn phòng đại diện nước ngoài tại Việt Nam.",
-        "code": "G19-KQ006381",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "5. Báo cáo quá trình thành lập, hoạt động của tổ chức tín dụng, tổ chức nước ngoài khác có hoạt động ngân hàng cho đến thời điểm nộp hồ sơ đề nghị cấp Giấy phép và định hướng phát triển của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng tại Việt Nam.",
-        "code": "G19-KQ006383",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "7. Tài liệu chứng minh năng lực của Trưởng Văn phòng đại diện nước ngoài dự kiến: a) Sơ yếu lý lịch của Trưởng Văn phòng đại diện nước ngoài dự kiến theo mẫu quy định tại Phụ lục số 07 ban hành kèm theo Thông tư số 56/2024/TT-NHNN có xác nhận của có xác nhận của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng;  b) Đối với nhân sự dự kiến không có quốc tịch Việt Nam: Phiếu lý lịch tư pháp hoặc văn bản có giá trị tương đương (có đầy đủ thông tin về tình trạng án tích; thông tin về việc cấm đảm nhiệm chức vụ, thành lập, quản lý doanh nghiệp, hợp tác xã) do cơ quan có thẩm quyền của nước ngoài cấp theo quy định. Trường hợp phiếu lý lịch tư pháp hoặc văn bản có giá trị tương đương do cơ quan có thẩm quyền nước ngoài cấp không có thông tin về việc cấm đảm nhiệm chức vụ, thành lập, quản lý doanh nghiệp, hợp tác xã thì Trưởng Ban trù bị phải có văn bản giải trình về việc phiếu lý lịch tư pháp hoặc văn bản có giá trị tương đương do cơ quan có thẩm quyền nước ngoài cấp không có thông tin này và cam kết chịu trách nhiệm trước pháp luật về việc nhân sự dự kiến không thuộc các trường hợp không được đảm nhiệm chức vụ theo quy định tại Luật các tổ chức tín dụng; Phiếu lý lịch tư pháp hoặc văn bản có giá trị tương đương quy định tại điểm này phải được cơ quan có thẩm quyền cấp trước thời điểm nộp hồ sơ đề nghị Cấp giấy phép không quá 06 tháng; c) Các văn bằng, chứng chỉ chứng minh năng lực, trình độ chuyên môn của Trưởng Văn phòng đại diện nước ngoài dự kiến tại Việt Nam.",
-        "code": "G19-KQ006385",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e64b8-2e70-70ad-84bd-0691552be30d",
-            "name": "Phụ lục số 07- tt56.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục số 07- tt56.docx",
+        "source_page": 3
       },
       {
         "name": "8. Văn bản chứng minh quyền sử dụng hoặc sẽ có quyền sử dụng hợp pháp trụ sở của văn phòng đại diện nước ngoài.  Trường hợp các giấy tờ là bản sao mà không phải là bản sao có chứng thực, bản sao được cấp từ số gốc thì phải xuất trình kèm theo bản chính để đối chiếu, người đổi chiều chịu trách nhiệm về tính chính xác của bản sao so với bản chính.",
-        "code": "G19-KQ006386",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "6. Báo cáo tài chính năm liền kề trước năm nộp hồ sơ đề nghị cấp Giấy phép đã được kiểm toán của tổ chức tín dụng, tổ chức nước ngoài khác có hoạt động ngân hàng.",
-        "code": "G19-KQ006406",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -145,35 +115,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 1000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "1000000",
       "description": "",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 1000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "1000000",
       "description": "",
       "source_page": null
     },
@@ -181,51 +131,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 1000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "1000000",
       "description": "",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "1000000",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 1000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "1000000",
+        "is_free": false,
+        "source_page": 4
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": 1000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "1000000",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 1000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "1000000",
+        "is_free": false,
+        "source_page": 4
       }
     ]
   },
@@ -233,69 +168,57 @@
     {
       "title": "quy định hồ sơ, thủ tục cấp Giấy phép lần đầu của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài, văn phòng đại diện nước ngoài",
       "document_number": "Thông tư 56/2024/TT-NHNN",
-      "id": "019d2bb3-5d87-7195-a449-64e8b1694bf0",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quy định mức thu, chế độ thu, nộp lệ phí cấp giấy phép thành lập và hoạt động của tổ chức tín dụng; giấy phép thành lập chi nhánh ngân hàng nước ngoài, văn phòng đại diện của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng; giấy phép hoạt động cung ứng dịch vụ trung gian thanh toán cho các tổ chức không phải là ngân hàng",
       "document_number": "150/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be47-c01c7d0bad8e",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật Các tổ chức tín dụng",
       "document_number": "Luật số 32/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b675-1125e97928b3",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư  Sửa đổi, bổ sung một số điều của các Thông tư quy định hồ sơ, thủ tục cấp Giấy phép lần đầu của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài, văn phòng đại diện nước ngoài, tổ chức tín dụng phi ngân hàng",
       "document_number": "Thông tư số 12/2025/TT-NHNN",
-      "id": "019d2bb3-5d80-7608-8ccf-83f2b6f646f8",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "phân cấp thực hiện thủ tục hành chính trong lĩnh vực thông tin tín dụng và sủa đổi, bổ sung một số điều của các Thông tư liên quan đến cắt giảm, đơn giản hóa, phân cấp thực hiện thủ tục hành chính trong lĩnh vực thành lập và hoạt động ngân hàng",
       "document_number": "11/2026/TT-NHNN",
-      "id": "019e5a86-02a8-7245-8b3b-17e740bdce16",
-      "source_page": null
+      "source_page": 4
     }
   ],
-  "conditions": "+ Tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng là pháp nhân được phép hoạt động ngân hàng ở nước ngoài;\n+ Quy định của pháp luật của nước nơi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng đặt trụ sở chính cho phép tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng được phép thành lập văn phòng đại diện tại Việt Nam. \n",
+  "conditions": "+ Tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng là pháp nhân được phép hoạt động ngân hàng ở nước ngoài;\n+ Quy định của pháp luật của nước nơi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng đặt trụ sở chính cho phép tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng được phép thành lập văn phòng đại diện tại Việt Nam.",
   "results": [
     {
       "title": "Giấy phép thành lập Văn phòng đại diện nước ngoài",
       "code": "KQ.G19.000258",
-      "id": "019d2bb2-1c7d-740f-b030-42b865dd6434",
-      "source_page": null
+      "source_page": 1
     },
     {
       "title": "văn bản từ chối",
       "code": "KQ.G19.000567",
-      "id": "019e652b-a4f4-7578-8a36-7998fa58f180",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng lập hồ sơ đề nghị cấp Giấy phép theo quy định gửi Ngân hàng Nhà nước chi nhánh Khu vực nơi văn phòng đại diện nước ngoài dự kiến đặt trụ sở.\n+ Bước 2: Trong thời hạn 30 ngày kể từ ngày nhận được hồ sơ đề nghị cấp Giấy phép, Ngân hàng Nhà nước chi nhánh Khu vực có văn bản gửi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng xác nhận đã nhận đầy đủ hồ sơ hợp lệ. Trường hợp hồ sơ đề nghị cấp Giấy phép chưa đầy đủ, hợp lệ theo quy định, Ngân hàng Nhà nước chi nhánh Khu vực có văn bản gửi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng yêu cầu bổ sung hồ sơ. \n+ Bước 3: Trong thời hạn 30 ngày, kể từ ngày gửi văn bản xác nhận đã nhận đầy đủ hồ sơ hợp lệ, Ngân hàng Nhà nước chi nhánh Khu vực tiến hành cấp Giấy phép theo quy định. Trường hợp không cấp Giấy phép, Ngân hàng Nhà nước chi nhánh Khu vực có văn bản trả lời tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng, trong đó nêu rõ lý do không cấp Giấy phép. \n",
-    "THÀNH PHẦN HỒ SƠ": "\n1. Đơn đề nghị cấp Giấy phép thành lập văn phòng đại diện nước ngoài do người đại diện theo pháp luật của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng ký theo mẫu quy định tại Phụ lục số 06 ban hành kèm theo Thông tư số 56/2024/TT-NHNN.\n2. Giấy phép hoạt động hoặc văn bản tương đương do cơ quan có thẩm quyền của nước nơi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng đặt trụ sở chính cấp cho tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng.\n3. Văn bản của cơ quan có thẩm quyền của nước nơi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng đặt trụ sở chính cung cấp thông tin về tình hình tuân thủ pháp luật của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng.\n4. Văn bản của cơ quan có thẩm quyền của nước nơi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng đặt trụ sở chính cho phép tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng thành lập Văn phòng đại diện nước ngoài tại Việt Nam.\n5. Báo cáo quá trình thành lập, hoạt động của tổ chức tín dụng, tổ chức nước ngoài khác có hoạt động ngân hàng cho đến thời điểm nộp hồ sơ đề nghị cấp Giấy phép và định hướng phát triển của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng tại Việt Nam.\n7. Tài liệu chứng minh năng lực của Trưởng Văn phòng đại diện nước ngoài dự kiến: a) Sơ yếu lý lịch của Trưởng Văn phòng đại diện nước ngoài dự kiến theo mẫu quy định tại Phụ lục số 07 ban hành kèm theo Thông tư số 56/2024/TT-NHNN có xác nhận của có xác nhận của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng;  b) Đối với nhân sự dự kiến không có quốc tịch Việt Nam: Phiếu lý lịch tư pháp hoặc văn bản có giá trị tương đương (có đầy đủ thông tin về tình trạng án tích; thông tin về việc cấm đảm nhiệm chức vụ, thành lập, quản lý doanh nghiệp, hợp tác xã) do cơ quan có thẩm quyền của nước ngoài cấp theo quy định. Trường hợp phiếu lý lịch tư pháp hoặc văn bản có giá trị tương đương do cơ quan có thẩm quyền nước ngoài cấp không có thông tin về việc cấm đảm nhiệm chức vụ, thành lập, quản lý doanh nghiệp, hợp tác xã thì Trưởng Ban trù bị phải có văn bản giải trình về việc phiếu lý lịch tư pháp hoặc văn bản có giá trị tương đương do cơ quan có thẩm quyền nước ngoài cấp không có thông tin này và cam kết chịu trách nhiệm trước pháp luật về việc nhân sự dự kiến không thuộc các trường hợp không được đảm nhiệm chức vụ theo quy định tại Luật các tổ chức tín dụng; Phiếu lý lịch tư pháp hoặc văn bản có giá trị tương đương quy định tại điểm này phải được cơ quan có thẩm quyền cấp trước thời điểm nộp hồ sơ đề nghị Cấp giấy phép không quá 06 tháng; c) Các văn bằng, chứng chỉ chứng minh năng lực, trình độ chuyên môn của Trưởng Văn phòng đại diện nước ngoài dự kiến tại Việt Nam.\n8. Văn bản chứng minh quyền sử dụng hoặc sẽ có quyền sử dụng hợp pháp trụ sở của văn phòng đại diện nước ngoài.  Trường hợp các giấy tờ là bản sao mà không phải là bản sao có chứng thực, bản sao được cấp từ số gốc thì phải xuất trình kèm theo bản chính để đối chiếu, người đổi chiều chịu trách nhiệm về tính chính xác của bản sao so với bản chính.\n6. Báo cáo tài chính năm liền kề trước năm nộp hồ sơ đề nghị cấp Giấy phép đã được kiểm toán của tổ chức tín dụng, tổ chức nước ngoài khác có hoạt động ngân hàng.",
+    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng lập hồ sơ đề nghị cấp Giấy phép theo quy định gửi Ngân hàng Nhà nước chi nhánh Khu vực nơi văn phòng đại diện nước ngoài dự kiến đặt trụ sở.\n+ Bước 2: Trong thời hạn 30 ngày kể từ ngày nhận được hồ sơ đề nghị cấp Giấy phép, Ngân hàng Nhà nước chi nhánh Khu vực có văn bản gửi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng xác nhận đã nhận đầy đủ hồ sơ hợp lệ. Trường hợp hồ sơ đề nghị cấp Giấy phép chưa đầy đủ, hợp lệ theo quy định, Ngân hàng Nhà nước chi nhánh Khu vực có văn bản gửi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng yêu cầu bổ sung hồ sơ.\n+ Bước 3: Trong thời hạn 30 ngày, kể từ ngày gửi văn bản xác nhận đã nhận đầy đủ hồ sơ hợp lệ, Ngân hàng Nhà nước chi nhánh Khu vực tiến hành cấp Giấy phép theo quy định. Trường hợp không cấp Giấy phép, Ngân hàng Nhà nước chi nhánh Khu vực có văn bản trả lời tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng, trong đó nêu rõ lý do không cấp Giấy phép.",
+    "THÀNH PHẦN HỒ SƠ": "1. Đơn đề nghị cấp Giấy phép thành lập văn phòng đại diện nước ngoài do người đại diện theo pháp luật của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng ký theo mẫu quy định tại Phụ lục số 06 ban hành kèm theo Thông tư số 56/2024/TT-NHNN.\n2. Giấy phép hoạt động hoặc văn bản tương đương do cơ quan có thẩm quyền của nước nơi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng đặt trụ sở chính cấp cho tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng.\n3. Văn bản của cơ quan có thẩm quyền của nước nơi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng đặt trụ sở chính cung cấp thông tin về tình hình tuân thủ pháp luật của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng.\n4. Văn bản của cơ quan có thẩm quyền của nước nơi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng đặt trụ sở chính cho phép tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng thành lập Văn phòng đại diện nước ngoài tại Việt Nam.\n5. Báo cáo quá trình thành lập, hoạt động của tổ chức tín dụng, tổ chức nước ngoài khác có hoạt động ngân hàng cho đến thời điểm nộp hồ sơ đề nghị cấp Giấy phép và định hướng phát triển của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng tại Việt Nam.\n7. Tài liệu chứng minh năng lực của Trưởng Văn phòng đại diện nước ngoài dự kiến: a) Sơ yếu lý lịch của Trưởng Văn phòng đại diện nước ngoài dự kiến theo mẫu quy định tại Phụ lục số 07 ban hành kèm theo Thông tư số 56/2024/TT-NHNN có xác nhận của có xác nhận của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng;  b) Đối với nhân sự dự kiến không có quốc tịch Việt Nam: Phiếu lý lịch tư pháp hoặc văn bản có giá trị tương đương (có đầy đủ thông tin về tình trạng án tích; thông tin về việc cấm đảm nhiệm chức vụ, thành lập, quản lý doanh nghiệp, hợp tác xã) do cơ quan có thẩm quyền của nước ngoài cấp theo quy định. Trường hợp phiếu lý lịch tư pháp hoặc văn bản có giá trị tương đương do cơ quan có thẩm quyền nước ngoài cấp không có thông tin về việc cấm đảm nhiệm chức vụ, thành lập, quản lý doanh nghiệp, hợp tác xã thì Trưởng Ban trù bị phải có văn bản giải trình về việc phiếu lý lịch tư pháp hoặc văn bản có giá trị tương đương do cơ quan có thẩm quyền nước ngoài cấp không có thông tin này và cam kết chịu trách nhiệm trước pháp luật về việc nhân sự dự kiến không thuộc các trường hợp không được đảm nhiệm chức vụ theo quy định tại Luật các tổ chức tín dụng; Phiếu lý lịch tư pháp hoặc văn bản có giá trị tương đương quy định tại điểm này phải được cơ quan có thẩm quyền cấp trước thời điểm nộp hồ sơ đề nghị Cấp giấy phép không quá 06 tháng; c) Các văn bằng, chứng chỉ chứng minh năng lực, trình độ chuyên môn của Trưởng Văn phòng đại diện nước ngoài dự kiến tại Việt Nam.\n8. Văn bản chứng minh quyền sử dụng hoặc sẽ có quyền sử dụng hợp pháp trụ sở của văn phòng đại diện nước ngoài.  Trường hợp các giấy tờ là bản sao mà không phải là bản sao có chứng thực, bản sao được cấp từ số gốc thì phải xuất trình kèm theo bản chính để đối chiếu, người đổi chiều chịu trách nhiệm về tính chính xác của bản sao so với bản chính.\n6. Báo cáo tài chính năm liền kề trước năm nộp hồ sơ đề nghị cấp Giấy phép đã được kiểm toán của tổ chức tín dụng, tổ chức nước ngoài khác có hoạt động ngân hàng.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 30 ngày\nQua dịch vụ bưu chính: 30 ngày\nTrực tiếp: 30 ngày",
     "CĂN CỨ PHÁP LÝ": "quy định hồ sơ, thủ tục cấp Giấy phép lần đầu của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài, văn phòng đại diện nước ngoài - Thông tư 56/2024/TT-NHNN\nQuy định mức thu, chế độ thu, nộp lệ phí cấp giấy phép thành lập và hoạt động của tổ chức tín dụng; giấy phép thành lập chi nhánh ngân hàng nước ngoài, văn phòng đại diện của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng; giấy phép hoạt động cung ứng dịch vụ trung gian thanh toán cho các tổ chức không phải là ngân hàng - 150/2016/TT-BTC\nLuật Các tổ chức tín dụng - Luật số 32/2024/QH15\nThông tư  Sửa đổi, bổ sung một số điều của các Thông tư quy định hồ sơ, thủ tục cấp Giấy phép lần đầu của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài, văn phòng đại diện nước ngoài, tổ chức tín dụng phi ngân hàng - Thông tư số 12/2025/TT-NHNN\nphân cấp thực hiện thủ tục hành chính trong lĩnh vực thông tin tín dụng và sủa đổi, bổ sung một số điều của các Thông tư liên quan đến cắt giảm, đơn giản hóa, phân cấp thực hiện thủ tục hành chính trong lĩnh vực thành lập và hoạt động ngân hàng - 11/2026/TT-NHNN",
     "CƠ QUAN THỰC HIỆN": "Ngân hàng Nhà nước Khu vực",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "+ Tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng là pháp nhân được phép hoạt động ngân hàng ở nước ngoài;\n+ Quy định của pháp luật của nước nơi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng đặt trụ sở chính cho phép tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng được phép thành lập văn phòng đại diện tại Việt Nam. \n",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "+ Tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng là pháp nhân được phép hoạt động ngân hàng ở nước ngoài;\n+ Quy định của pháp luật của nước nơi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng đặt trụ sở chính cho phép tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng được phép thành lập văn phòng đại diện tại Việt Nam.",
     "KẾT QUẢ XỬ LÝ": "Giấy phép thành lập Văn phòng đại diện nước ngoài - KQ.G19.000258\nvăn bản từ chối - KQ.G19.000567",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "+ Tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng là pháp nhân được phép hoạt động ngân hàng ở nước ngoài;\n+ Quy định của pháp luật của nước nơi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng đặt trụ sở chính cho phép tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng được phép thành lập văn phòng đại diện tại Việt Nam. \n"
+    "MÔ TẢ": "+ Tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng là pháp nhân được phép hoạt động ngân hàng ở nước ngoài;\n+ Quy định của pháp luật của nước nơi tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng đặt trụ sở chính cho phép tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng được phép thành lập văn phòng đại diện tại Việt Nam."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thành lập và hoạt động ngân hàng",
-      "slug": "thanh-lap-va-hoat-dong-ngan-hang"
+      "slug": "thanh-lap-va-hoat-ong-ngan-hang"
     },
     "implementation_levels": [
       {
@@ -319,6 +242,6 @@
         "slug": "ngan-hang-nha-nuoc-khu-vuc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf9-7463-7379-9f86-c7f2fbc2387a",
   "procedure_code": "1.014441",
   "title": "Thủ tục công nhận trung tâm đổi mới sáng tạo cấp quốc gia",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf9-7463-7379-9f86-c7f2fbc2387a",
     "source_file": "chi-tiet-thu-tuc-1.014441.pdf",
     "source_path": "procedures/viec-lam/1.014441/chi-tiet-thu-tuc-1.014441.pdf",
     "page_count": 10,
-    "extracted_at": "2026-07-18T02:22:13.460513+00:00",
-    "source_updated_at": "2026-04-20T07:36:26.756Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:36.051106+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "dcfc92b993ed9b37273f82610df560877a8b9300f5eedd7c00ad49a8fde35357"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:13.460513+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "3578/QĐ-BKHCN",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hoạt động khoa học và công nghệ",
   "target_users": [
@@ -38,72 +34,45 @@
   ],
   "agency": {
     "competent_agency": "Bộ Khoa học và Công nghệ",
-    "executing_agency": "Cục Đổi mới sáng tạo",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Đổi mới sáng tạo"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Tổ chức có yêu cầu công nhận nộp 01 bộ hồ sơ theo quy định đến Bộ Khoa học và Công nghệ. \n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ, cơ quan có thẩm quyền công nhận có trách nhiệm trả lời tổ chức về tính hợp lệ của hồ sơ;\n- Trong thời hạn 15 ngày kể từ ngày nhận được hồ sơ hợp lệ, cơ quan có thẩm quyền công nhận thành lập Hội đồng tư vấn công nhận;\n- Trường hợp cần giải trình, làm rõ theo kiến nghị của Hội đồng tư vấn công nhận, trong thời hạn 05 ngày làm việc kể từ ngày họp hội đồng, cơ quan có thẩm quyền công nhận yêu cầu tổ chức giải trình, hoàn thiện hồ sơ trong thời hạn 15 ngày kể từ khi nhận được yêu cầu. Sau thời hạn này tổ chức không có văn bản giải trình, bổ sung, cơ quan có thẩm quyền công nhận dừng xử lý hồ sơ;\n- Trường hợp đồng ý với yêu cầu của hồ sơ, trong thời hạn 07 ngày làm việc kể từ ngày họp Hội đồng tư vấn công nhận hoặc kể từ ngày nhận được hồ sơ hoàn thiện sau khi giải trình, cơ quan có thẩm quyền công nhận ban hành quyết định công nhận và cấp Giấy công nhận;\n- Trường hợp không đồng ý với yêu cầu của hồ sơ, trong thời hạn 07 ngày làm việc kể từ ngày họp Hội đồng tư vấn công nhận hoặc kể từ ngày nhận được hồ sơ hoàn thiện sau khi giải trình, cơ quan có thẩm quyền công nhận thông báo kết quả để tổ chức được biết và nêu rõ lý do.\n",
+      "description": "- Tổ chức có yêu cầu công nhận nộp 01 bộ hồ sơ theo quy định đến Bộ Khoa học và Công nghệ. \n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ, cơ quan có thẩm quyền công nhận có trách nhiệm trả lời tổ chức về tính hợp lệ của hồ sơ;\n- Trong thời hạn 15 ngày kể từ ngày nhận được hồ sơ hợp lệ, cơ quan có thẩm quyền công nhận thành lập Hội đồng tư vấn công nhận;\n- Trường hợp cần giải trình, làm rõ theo kiến nghị của Hội đồng tư vấn công nhận, trong thời hạn 05 ngày làm việc kể từ ngày họp hội đồng, cơ quan có thẩm quyền công nhận yêu cầu tổ chức giải trình, hoàn thiện hồ sơ trong thời hạn 15 ngày kể từ khi nhận được yêu cầu. Sau thời hạn này tổ chức không có văn bản giải trình, bổ sung, cơ quan có thẩm quyền công nhận dừng xử lý hồ sơ;\n- Trường hợp đồng ý với yêu cầu của hồ sơ, trong thời hạn 07 ngày làm việc kể từ ngày họp Hội đồng tư vấn công nhận hoặc kể từ ngày nhận được hồ sơ hoàn thiện sau khi giải trình, cơ quan có thẩm quyền công nhận ban hành quyết định công nhận và cấp Giấy công nhận;\n- Trường hợp không đồng ý với yêu cầu của hồ sơ, trong thời hạn 07 ngày làm việc kể từ ngày họp Hội đồng tư vấn công nhận hoặc kể từ ngày nhận được hồ sơ hoàn thiện sau khi giải trình, cơ quan có thẩm quyền công nhận thông báo kết quả để tổ chức được biết và nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Thuyết minh theo Mẫu số IV.2.1 tại Phụ lục IV.2 ban hành kèm theo Nghị định số 268/2025/NĐ-CP",
-        "code": "G06-KQ004498",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d8c8a-37e0-779c-8eb9-f105cabab586",
-            "name": "MausoIV.2.1.ThuyetminhTrungtamDMSTcaccap.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "MausoIV.2.1.ThuyetminhTrungtamDMSTcaccap.docx",
+        "source_page": 2
       },
       {
         "name": "Văn bản yêu cầu công nhận theo Mẫu số IV.1.1 tại Phụ lục IV.1 ban hành kèm theo Nghị định số 268/2025/NĐ-CP",
-        "code": "G06-KQ004497",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d8c89-370a-7082-9987-8bdd9faaa8cb",
-            "name": "MausoIV.1.1Yeucaucongnhan.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "MausoIV.1.1Yeucaucongnhan.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Văn bản xác nhận của cơ quan chủ quản đối với các nội dung đã trình bày trong thuyết minh trong trường hợp tổ chức thuộc quyền quản lý của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, cơ quan khác ở trung ương, Ủy ban nhân dân cấp tỉnh; văn bản xác nhận của Ủy ban nhân dân cấp tỉnh hoặc cơ quan được Ủy ban nhân dân cấp tỉnh phân cấp, nơi tổ chức có trụ sở chính đối với các nội dung đã trình bày trong thuyết minh trong trường hợp tổ chức không thuộc quyền quản lý của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, cơ quan khác ở trung ương, Ủy ban nhân dân cấp tỉnh",
-        "code": "G06-KQ004500",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Các tài liệu chứng minh tổ chức đáp ứng tiêu chí trung tâm đổi mới sáng tạo cấp quốc gia;",
-        "code": "G06-KQ004499",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -112,87 +81,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "32 ngày",
-      "processing_time_value": 32,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "- Trong thời hạn 05 ngày làm việc cơ quan có thẩm quyền công nhận trả lời tổ chức về tính hợp lệ của hồ sơ.\n- Trong thời hạn 15 ngày kể từ ngày nhận được hồ sơ hợp lệ, cơ quan có thẩm quyền công nhận thành lập Hội đồng tư vấn công nhận.\n- Trong thời hạn 05 ngày làm việc kể từ ngày họp hội đồng, cơ quan có thẩm quyền công nhận yêu cầu tổ chức giải trình, hoàn thiện hồ sơ (trường hợp cần giải trình, làm rõ theo kiến nghị của Hội đồng tư vấn công nhận). \n- Trong thời hạn 07 ngày làm việc kể từ ngày họp Hội đồng tư vấn công nhận hoặc kể từ ngày nhận được hồ sơ hoàn thiện sau khi giải trình, cơ quan có thẩm quyền công nhận ban hành quyết định công nhận và cấp Giấy công nhận hoặc không công nhận.",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "32 ngày",
-      "processing_time_value": 32,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "- Trong thời hạn 05 ngày làm việc cơ quan có thẩm quyền công nhận trả lời tổ chức về tính hợp lệ của hồ sơ.\n- Trong thời hạn 15 ngày kể từ ngày nhận được hồ sơ hợp lệ, cơ quan có thẩm quyền công nhận thành lập Hội đồng tư vấn công nhận.\n- Trong thời hạn 05 ngày làm việc kể từ ngày họp hội đồng, cơ quan có thẩm quyền công nhận yêu cầu tổ chức giải trình, hoàn thiện hồ sơ (trường hợp cần giải trình, làm rõ theo kiến nghị của Hội đồng tư vấn công nhận). \n- Trong thời hạn 07 ngày làm việc kể từ ngày họp Hội đồng tư vấn công nhận hoặc kể từ ngày nhận được hồ sơ hoàn thiện sau khi giải trình, cơ quan có thẩm quyền công nhận ban hành quyết định công nhận và cấp Giấy công nhận hoặc không công nhận.",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "32 ngày",
-      "processing_time_value": 32,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "- Trong thời hạn 05 ngày làm việc cơ quan có thẩm quyền công nhận trả lời tổ chức về tính hợp lệ của hồ sơ.\n- Trong thời hạn 15 ngày kể từ ngày nhận được hồ sơ hợp lệ, cơ quan có thẩm quyền công nhận thành lập Hội đồng tư vấn công nhận.\n- Trong thời hạn 05 ngày làm việc kể từ ngày họp hội đồng, cơ quan có thẩm quyền công nhận yêu cầu tổ chức giải trình, hoàn thiện hồ sơ (trường hợp cần giải trình, làm rõ theo kiến nghị của Hội đồng tư vấn công nhận). \n- Trong thời hạn 07 ngày làm việc kể từ ngày họp Hội đồng tư vấn công nhận hoặc kể từ ngày nhận được hồ sơ hoàn thiện sau khi giải trình, cơ quan có thẩm quyền công nhận ban hành quyết định công nhận và cấp Giấy công nhận hoặc không công nhận.",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 4
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 6
       }
     ]
   },
@@ -200,14 +134,12 @@
     {
       "title": "Luật số 93/2025/QH15 của Quốc hội: Luật Khoa học, công nghệ và đổi mới sáng tạo",
       "document_number": "93/2025/QH15",
-      "id": "019d2bb3-5d85-73da-8eba-0eadc81b4d09",
-      "source_page": null
+      "source_page": 8
     },
     {
       "title": "Nghị định số 268/2025/NĐ-CP của Chính phủ: Quy định chi tiết và hướng dẫn một số điều của Luật Khoa học, công nghệ và đổi mới sáng tạo về đổi mới sáng tạo; khuyến khích hoạt động khoa học, công nghệ và đổi mới sáng tạo trong doanh nghiệp; công nhận trung tâm đổi mới sáng tạo, hỗ trợ khởi nghiệp sáng tạo; công nhận cá nhân, doanh nghiệp khởi nghiệp sáng tạo; hạ tầng mạng lưới và hệ sinh thái khởi nghiệp sáng tạo",
       "document_number": "268/2025/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a646-57b420e11c32",
-      "source_page": null
+      "source_page": 8
     }
   ],
   "conditions": "1. Đáp ứng tiêu chí quy định tại khoản 1 và khoản 2 Điều 29 Nghị định số 268/2025/NĐ-CP, cụ thể:\n(1). Là các loại hình tổ chức có hoạt động đổi mới sáng tạo, khởi nghiệp sáng tạo, hỗ trợ đổi mới sáng tạo, hỗ trợ khởi nghiệp sáng tạo theo quy định tại Điều 47 Luật Khoa học, công nghệ và đổi mới sáng tạo, có mục tiêu kết nối, tập hợp và huy động các nguồn lực trong và ngoài nước để hỗ trợ tổ chức, doanh nghiệp và cá nhân thực hiện hoạt động đổi mới sáng tạo; cung cấp dịch vụ, hạ tầng và giải pháp để thúc đẩy ứng dụng công nghệ, chuyển giao công nghệ, đổi mới công nghệ, phát triển sản phẩm mới, khai thá và thương mại hóa quyền sở hữu trí tuệ, nâng cao năng suất, chuyển đổi số, phát triển doanh nghiệp khởi nghiệp sáng tạo, đồng thời kết nối và phát triển hệ thống đổi mới sáng tạo.\n(2). Thực hiện một số hoạt động chính sau:\na) Khảo sát, thu thập và phân tích nhu cầu ứng dụng công nghệ, chuyển giao công nghệ, đổi mới công nghệ, chuyển đổi số, nâng cao năng suất và phát triển sản phẩm mới của tổ chức, doanh nghiệp và cá nhân;\nb) Tư vấn, đề xuất các giải pháp đổi mới sáng tạo phù hợp với từng đối tượng, bao gồm: Công nghệ, mô hình tổ chức - sản xuất - kinh doanh, quyền sở hữu trí tuệ và phương thức huy động nguồn lực;\nc) Tổ chức các hoạt động kết nối cung - cầu công nghệ, kết nối chuyên gia, tổ chức khoa học và công nghệ, viện, trường, doanh nghiệp và các bên liên quan trong và ngoài nước phục vụ đổi mới sáng tạo;\nd) Triển khai các hoạt động hỗ trợ ứng dụng công nghệ, chuyển giao công nghệ, đổi mới công nghệ, cải tiến quy trình, áp dụng hệ thống quản lý chất lượng và chuyển đổi số;\nđ) Phát triển và cung cấp các dịch vụ hỗ trợ đổi mới sáng tạo, bao gồm: Trình diễn công nghệ, thử nghiệm - đánh giá công nghệ, đào tạo, bồi dưỡng, tập huấn - tư vấn kỹ thuật, cung cấp hạ tầng và thiết bị phục vụ nghiên cứu - phát triển - đổi mới sản phẩm;\ne) Tổ chức hoạt động ươm tạo công nghệ và ươm tạo khởi nghiệp; hỗ trợ doanh nghiệp khởi nghiệp sáng tạo hoàn thiện sản phẩm, dịch vụ, mô hình kinh doanh, xây dựng chiến lược phát triển và tiếp cận thị trường;\ng) Hỗ trợ tổ chức, doanh nghiệp và cá nhân trong việc bảo hộ, quản trị, khai thác và thương mại hóa quyền sở hữu trí tuệ; tư vấn định giá quyền sở hữu trí tuệ và tiếp cận các cơ chế tài chính dựa trên quyền sở hữu trí tuệ;\nh) Phát triển hệ thống đổi mới sáng tạo, hệ sinh thái khởi nghiệp sáng tạo, thúc đẩy văn hóa đổi mới sáng tạo, khởi nghiệp sáng tạo;\ni) Xây dựng và duy trì cơ sở dữ liệu, hệ thống thông tin phục vụ hoạt động đổi mới sáng tạo và chuyển giao công nghệ.\n2. Về nguồn lực, năng lực thực hiện:\na) Có ít nhất 30 nhân lực cơ hữu, trong đó tối thiểu 50% nhân lực có trình độ đại học trở lên có chuyên môn phù hợp với ngành, lĩnh vực hoạt động trực tiếp thực hiện hoạt động đổi mới sáng tạo, hỗ trợ đổi mới sáng tạo và khởi nghiệp sáng tạo;\nb) Có văn bản cam kết hợp tác với các chuyên gia, cố vấn về công nghệ, pháp lý, sở hữu trí tuệ, tài chính - đầu tư;\nc) Có mạng lưới kết nối các viện nghiên cứu, trường đại học, tổ chức khoa học công nghệ, các quỹ đầu tư, doanh nghiệp trong lĩnh vực hoạt động;\nd) Có khả năng hỗ trợ phát triển, tạo ra các công nghệ, sản phẩm, dịch vụ, mô hình kinh doanh mới hoặc cải tiến đóng vai trò quan trọng đối với phát triển kinh tế - xã hội, quốc phòng, an ninh và giải quyết các vấn đề liên quan đến nhiều ngành, nhiều lĩnh vực, liên vùng trong phạm vi cả nước;\nđ) Có năng lực kết nối, hỗ trợ, hợp tác với các tổ chức, hiệp hội nghề nghiệp, mạng lưới đổi mới sáng tạo, khởi nghiệp sáng tạo trong nước và ngoài nước.\n3. Kết quả hoạt động hằng năm\na) Hỗ trợ ít nhất 50 doanh nghiệp thực hiện một trong số các hoạt động ứng dụng công nghệ, chuyển giao công nghệ, đổi mới công nghệ, sáng tạo công nghệ, nâng cao hiệu suất công nghệ;\nb) Hỗ trợ ít nhất 30 cá nhân, nhóm cá nhân, doanh nghiệp khởi nghiệp sáng tạo tham gia các chương trình, khóa đào tạo, tập huấn về khởi nghiệp sáng tạo;\nc) Có doanh thu trực tiếp từ kết quả tư vấn, hỗ trợ ứng dụng công nghệ, chuyển giao công nghệ, đổi mới công nghệ, sáng tạo công nghệ, nâng cao hiệu suất công nghệ đạt ít nhất 50 tỷ đồng Việt Nam.",
@@ -215,20 +147,18 @@
     {
       "title": ".Quyết định công nhận",
       "code": "KQ.H05.000058",
-      "id": "019d2bb2-1c85-700a-af46-21ff7c13402c",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Giấy công nhận trung tâm đổi mới sáng tạo cấp quốc gia",
       "code": "KQ.G06.000936",
-      "id": "019d90ce-afce-7186-97ef-ca9d70351ce4",
-      "source_page": null
+      "source_page": 10
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Tổ chức có yêu cầu công nhận nộp 01 bộ hồ sơ theo quy định đến Bộ Khoa học và Công nghệ. \n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ, cơ quan có thẩm quyền công nhận có trách nhiệm trả lời tổ chức về tính hợp lệ của hồ sơ;\n- Trong thời hạn 15 ngày kể từ ngày nhận được hồ sơ hợp lệ, cơ quan có thẩm quyền công nhận thành lập Hội đồng tư vấn công nhận;\n- Trường hợp cần giải trình, làm rõ theo kiến nghị của Hội đồng tư vấn công nhận, trong thời hạn 05 ngày làm việc kể từ ngày họp hội đồng, cơ quan có thẩm quyền công nhận yêu cầu tổ chức giải trình, hoàn thiện hồ sơ trong thời hạn 15 ngày kể từ khi nhận được yêu cầu. Sau thời hạn này tổ chức không có văn bản giải trình, bổ sung, cơ quan có thẩm quyền công nhận dừng xử lý hồ sơ;\n- Trường hợp đồng ý với yêu cầu của hồ sơ, trong thời hạn 07 ngày làm việc kể từ ngày họp Hội đồng tư vấn công nhận hoặc kể từ ngày nhận được hồ sơ hoàn thiện sau khi giải trình, cơ quan có thẩm quyền công nhận ban hành quyết định công nhận và cấp Giấy công nhận;\n- Trường hợp không đồng ý với yêu cầu của hồ sơ, trong thời hạn 07 ngày làm việc kể từ ngày họp Hội đồng tư vấn công nhận hoặc kể từ ngày nhận được hồ sơ hoàn thiện sau khi giải trình, cơ quan có thẩm quyền công nhận thông báo kết quả để tổ chức được biết và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nThuyết minh theo Mẫu số IV.2.1 tại Phụ lục IV.2 ban hành kèm theo Nghị định số 268/2025/NĐ-CP\nVăn bản xác nhận của cơ quan chủ quản đối với các nội dung đã trình bày trong thuyết minh trong trường hợp tổ chức thuộc quyền quản lý của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, cơ quan khác ở trung ương, Ủy ban nhân dân cấp tỉnh; văn bản xác nhận của Ủy ban nhân dân cấp tỉnh hoặc cơ quan được Ủy ban nhân dân cấp tỉnh phân cấp, nơi tổ chức có trụ sở chính đối với các nội dung đã trình bày trong thuyết minh trong trường hợp tổ chức không thuộc quyền quản lý của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, cơ quan khác ở trung ương, Ủy ban nhân dân cấp tỉnh\nCác tài liệu chứng minh tổ chức đáp ứng tiêu chí trung tâm đổi mới sáng tạo cấp quốc gia;\nVăn bản yêu cầu công nhận theo Mẫu số IV.1.1 tại Phụ lục IV.1 ban hành kèm theo Nghị định số 268/2025/NĐ-CP",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 32 ngày - - Trong thời hạn 05 ngày làm việc cơ quan có thẩm quyền công nhận trả lời tổ chức về tính hợp lệ của hồ sơ.\n- Trong thời hạn 15 ngày kể từ ngày nhận được hồ sơ hợp lệ, cơ quan có thẩm quyền công nhận thành lập Hội đồng tư vấn công nhận.\n- Trong thời hạn 05 ngày làm việc kể từ ngày họp hội đồng, cơ quan có thẩm quyền công nhận yêu cầu tổ chức giải trình, hoàn thiện hồ sơ (trường hợp cần giải trình, làm rõ theo kiến nghị của Hội đồng tư vấn công nhận). \n- Trong thời hạn 07 ngày làm việc kể từ ngày họp Hội đồng tư vấn công nhận hoặc kể từ ngày nhận được hồ sơ hoàn thiện sau khi giải trình, cơ quan có thẩm quyền công nhận ban hành quyết định công nhận và cấp Giấy công nhận hoặc không công nhận.\nQua dịch vụ bưu chính: 32 ngày - - Trong thời hạn 05 ngày làm việc cơ quan có thẩm quyền công nhận trả lời tổ chức về tính hợp lệ của hồ sơ.\n- Trong thời hạn 15 ngày kể từ ngày nhận được hồ sơ hợp lệ, cơ quan có thẩm quyền công nhận thành lập Hội đồng tư vấn công nhận.\n- Trong thời hạn 05 ngày làm việc kể từ ngày họp hội đồng, cơ quan có thẩm quyền công nhận yêu cầu tổ chức giải trình, hoàn thiện hồ sơ (trường hợp cần giải trình, làm rõ theo kiến nghị của Hội đồng tư vấn công nhận). \n- Trong thời hạn 07 ngày làm việc kể từ ngày họp Hội đồng tư vấn công nhận hoặc kể từ ngày nhận được hồ sơ hoàn thiện sau khi giải trình, cơ quan có thẩm quyền công nhận ban hành quyết định công nhận và cấp Giấy công nhận hoặc không công nhận.\nTrực tiếp: 32 ngày - - Trong thời hạn 05 ngày làm việc cơ quan có thẩm quyền công nhận trả lời tổ chức về tính hợp lệ của hồ sơ.\n- Trong thời hạn 15 ngày kể từ ngày nhận được hồ sơ hợp lệ, cơ quan có thẩm quyền công nhận thành lập Hội đồng tư vấn công nhận.\n- Trong thời hạn 05 ngày làm việc kể từ ngày họp hội đồng, cơ quan có thẩm quyền công nhận yêu cầu tổ chức giải trình, hoàn thiện hồ sơ (trường hợp cần giải trình, làm rõ theo kiến nghị của Hội đồng tư vấn công nhận). \n- Trong thời hạn 07 ngày làm việc kể từ ngày họp Hội đồng tư vấn công nhận hoặc kể từ ngày nhận được hồ sơ hoàn thiện sau khi giải trình, cơ quan có thẩm quyền công nhận ban hành quyết định công nhận và cấp Giấy công nhận hoặc không công nhận.",
+    "TRÌNH TỰ THỰC HIỆN": "- Tổ chức có yêu cầu công nhận nộp 01 bộ hồ sơ theo quy định đến Bộ Khoa học và Công nghệ. \n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ, cơ quan có thẩm quyền công nhận có trách nhiệm trả lời tổ chức về tính hợp lệ của hồ sơ;\n- Trong thời hạn 15 ngày kể từ ngày nhận được hồ sơ hợp lệ, cơ quan có thẩm quyền công nhận thành lập Hội đồng tư vấn công nhận;\n- Trường hợp cần giải trình, làm rõ theo kiến nghị của Hội đồng tư vấn công nhận, trong thời hạn 05 ngày làm việc kể từ ngày họp hội đồng, cơ quan có thẩm quyền công nhận yêu cầu tổ chức giải trình, hoàn thiện hồ sơ trong thời hạn 15 ngày kể từ khi nhận được yêu cầu. Sau thời hạn này tổ chức không có văn bản giải trình, bổ sung, cơ quan có thẩm quyền công nhận dừng xử lý hồ sơ;\n- Trường hợp đồng ý với yêu cầu của hồ sơ, trong thời hạn 07 ngày làm việc kể từ ngày họp Hội đồng tư vấn công nhận hoặc kể từ ngày nhận được hồ sơ hoàn thiện sau khi giải trình, cơ quan có thẩm quyền công nhận ban hành quyết định công nhận và cấp Giấy công nhận;\n- Trường hợp không đồng ý với yêu cầu của hồ sơ, trong thời hạn 07 ngày làm việc kể từ ngày họp Hội đồng tư vấn công nhận hoặc kể từ ngày nhận được hồ sơ hoàn thiện sau khi giải trình, cơ quan có thẩm quyền công nhận thông báo kết quả để tổ chức được biết và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "Thuyết minh theo Mẫu số IV.2.1 tại Phụ lục IV.2 ban hành kèm theo Nghị định số 268/2025/NĐ-CP\nVăn bản yêu cầu công nhận theo Mẫu số IV.1.1 tại Phụ lục IV.1 ban hành kèm theo Nghị định số 268/2025/NĐ-CP\nVăn bản xác nhận của cơ quan chủ quản đối với các nội dung đã trình bày trong thuyết minh trong trường hợp tổ chức thuộc quyền quản lý của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, cơ quan khác ở trung ương, Ủy ban nhân dân cấp tỉnh; văn bản xác nhận của Ủy ban nhân dân cấp tỉnh hoặc cơ quan được Ủy ban nhân dân cấp tỉnh phân cấp, nơi tổ chức có trụ sở chính đối với các nội dung đã trình bày trong thuyết minh trong trường hợp tổ chức không thuộc quyền quản lý của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, cơ quan khác ở trung ương, Ủy ban nhân dân cấp tỉnh\nCác tài liệu chứng minh tổ chức đáp ứng tiêu chí trung tâm đổi mới sáng tạo cấp quốc gia;",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 32 ngày\nQua dịch vụ bưu chính: 32 ngày\nTrực tiếp: 32 ngày",
     "CĂN CỨ PHÁP LÝ": "Luật số 93/2025/QH15 của Quốc hội: Luật Khoa học, công nghệ và đổi mới sáng tạo - 93/2025/QH15\nNghị định số 268/2025/NĐ-CP của Chính phủ: Quy định chi tiết và hướng dẫn một số điều của Luật Khoa học, công nghệ và đổi mới sáng tạo về đổi mới sáng tạo; khuyến khích hoạt động khoa học, công nghệ và đổi mới sáng tạo trong doanh nghiệp; công nhận trung tâm đổi mới sáng tạo, hỗ trợ khởi nghiệp sáng tạo; công nhận cá nhân, doanh nghiệp khởi nghiệp sáng tạo; hạ tầng mạng lưới và hệ sinh thái khởi nghiệp sáng tạo - 268/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cục Đổi mới sáng tạo",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "1. Đáp ứng tiêu chí quy định tại khoản 1 và khoản 2 Điều 29 Nghị định số 268/2025/NĐ-CP, cụ thể:\n(1). Là các loại hình tổ chức có hoạt động đổi mới sáng tạo, khởi nghiệp sáng tạo, hỗ trợ đổi mới sáng tạo, hỗ trợ khởi nghiệp sáng tạo theo quy định tại Điều 47 Luật Khoa học, công nghệ và đổi mới sáng tạo, có mục tiêu kết nối, tập hợp và huy động các nguồn lực trong và ngoài nước để hỗ trợ tổ chức, doanh nghiệp và cá nhân thực hiện hoạt động đổi mới sáng tạo; cung cấp dịch vụ, hạ tầng và giải pháp để thúc đẩy ứng dụng công nghệ, chuyển giao công nghệ, đổi mới công nghệ, phát triển sản phẩm mới, khai thá và thương mại hóa quyền sở hữu trí tuệ, nâng cao năng suất, chuyển đổi số, phát triển doanh nghiệp khởi nghiệp sáng tạo, đồng thời kết nối và phát triển hệ thống đổi mới sáng tạo.\n(2). Thực hiện một số hoạt động chính sau:\na) Khảo sát, thu thập và phân tích nhu cầu ứng dụng công nghệ, chuyển giao công nghệ, đổi mới công nghệ, chuyển đổi số, nâng cao năng suất và phát triển sản phẩm mới của tổ chức, doanh nghiệp và cá nhân;\nb) Tư vấn, đề xuất các giải pháp đổi mới sáng tạo phù hợp với từng đối tượng, bao gồm: Công nghệ, mô hình tổ chức - sản xuất - kinh doanh, quyền sở hữu trí tuệ và phương thức huy động nguồn lực;\nc) Tổ chức các hoạt động kết nối cung - cầu công nghệ, kết nối chuyên gia, tổ chức khoa học và công nghệ, viện, trường, doanh nghiệp và các bên liên quan trong và ngoài nước phục vụ đổi mới sáng tạo;\nd) Triển khai các hoạt động hỗ trợ ứng dụng công nghệ, chuyển giao công nghệ, đổi mới công nghệ, cải tiến quy trình, áp dụng hệ thống quản lý chất lượng và chuyển đổi số;\nđ) Phát triển và cung cấp các dịch vụ hỗ trợ đổi mới sáng tạo, bao gồm: Trình diễn công nghệ, thử nghiệm - đánh giá công nghệ, đào tạo, bồi dưỡng, tập huấn - tư vấn kỹ thuật, cung cấp hạ tầng và thiết bị phục vụ nghiên cứu - phát triển - đổi mới sản phẩm;\ne) Tổ chức hoạt động ươm tạo công nghệ và ươm tạo khởi nghiệp; hỗ trợ doanh nghiệp khởi nghiệp sáng tạo hoàn thiện sản phẩm, dịch vụ, mô hình kinh doanh, xây dựng chiến lược phát triển và tiếp cận thị trường;\ng) Hỗ trợ tổ chức, doanh nghiệp và cá nhân trong việc bảo hộ, quản trị, khai thác và thương mại hóa quyền sở hữu trí tuệ; tư vấn định giá quyền sở hữu trí tuệ và tiếp cận các cơ chế tài chính dựa trên quyền sở hữu trí tuệ;\nh) Phát triển hệ thống đổi mới sáng tạo, hệ sinh thái khởi nghiệp sáng tạo, thúc đẩy văn hóa đổi mới sáng tạo, khởi nghiệp sáng tạo;\ni) Xây dựng và duy trì cơ sở dữ liệu, hệ thống thông tin phục vụ hoạt động đổi mới sáng tạo và chuyển giao công nghệ.\n2. Về nguồn lực, năng lực thực hiện:\na) Có ít nhất 30 nhân lực cơ hữu, trong đó tối thiểu 50% nhân lực có trình độ đại học trở lên có chuyên môn phù hợp với ngành, lĩnh vực hoạt động trực tiếp thực hiện hoạt động đổi mới sáng tạo, hỗ trợ đổi mới sáng tạo và khởi nghiệp sáng tạo;\nb) Có văn bản cam kết hợp tác với các chuyên gia, cố vấn về công nghệ, pháp lý, sở hữu trí tuệ, tài chính - đầu tư;\nc) Có mạng lưới kết nối các viện nghiên cứu, trường đại học, tổ chức khoa học công nghệ, các quỹ đầu tư, doanh nghiệp trong lĩnh vực hoạt động;\nd) Có khả năng hỗ trợ phát triển, tạo ra các công nghệ, sản phẩm, dịch vụ, mô hình kinh doanh mới hoặc cải tiến đóng vai trò quan trọng đối với phát triển kinh tế - xã hội, quốc phòng, an ninh và giải quyết các vấn đề liên quan đến nhiều ngành, nhiều lĩnh vực, liên vùng trong phạm vi cả nước;\nđ) Có năng lực kết nối, hỗ trợ, hợp tác với các tổ chức, hiệp hội nghề nghiệp, mạng lưới đổi mới sáng tạo, khởi nghiệp sáng tạo trong nước và ngoài nước.\n3. Kết quả hoạt động hằng năm\na) Hỗ trợ ít nhất 50 doanh nghiệp thực hiện một trong số các hoạt động ứng dụng công nghệ, chuyển giao công nghệ, đổi mới công nghệ, sáng tạo công nghệ, nâng cao hiệu suất công nghệ;\nb) Hỗ trợ ít nhất 30 cá nhân, nhóm cá nhân, doanh nghiệp khởi nghiệp sáng tạo tham gia các chương trình, khóa đào tạo, tập huấn về khởi nghiệp sáng tạo;\nc) Có doanh thu trực tiếp từ kết quả tư vấn, hỗ trợ ứng dụng công nghệ, chuyển giao công nghệ, đổi mới công nghệ, sáng tạo công nghệ, nâng cao hiệu suất công nghệ đạt ít nhất 50 tỷ đồng Việt Nam.",
@@ -237,14 +167,9 @@
     "MÔ TẢ": "1. Đáp ứng tiêu chí quy định tại khoản 1 và khoản 2 Điều 29 Nghị định số 268/2025/NĐ-CP, cụ thể:\n(1). Là các loại hình tổ chức có hoạt động đổi mới sáng tạo, khởi nghiệp sáng tạo, hỗ trợ đổi mới sáng tạo, hỗ trợ khởi nghiệp sáng tạo theo quy định tại Điều 47 Luật Khoa học, công nghệ và đổi mới sáng tạo, có mục tiêu kết nối, tập hợp và huy động các nguồn lực trong và ngoài nước để hỗ trợ tổ chức, doanh nghiệp và cá nhân thực hiện hoạt động đổi mới sáng tạo; cung cấp dịch vụ, hạ tầng và giải pháp để thúc đẩy ứng dụng công nghệ, chuyển giao công nghệ, đổi mới công nghệ, phát triển sản phẩm mới, khai thá và thương mại hóa quyền sở hữu trí tuệ, nâng cao năng suất, chuyển đổi số, phát triển doanh nghiệp khởi nghiệp sáng tạo, đồng thời kết nối và phát triển hệ thống đổi mới sáng tạo.\n(2). Thực hiện một số hoạt động chính sau:\na) Khảo sát, thu thập và phân tích nhu cầu ứng dụng công nghệ, chuyển giao công nghệ, đổi mới công nghệ, chuyển đổi số, nâng cao năng suất và phát triển sản phẩm mới của tổ chức, doanh nghiệp và cá nhân;\nb) Tư vấn, đề xuất các giải pháp đổi mới sáng tạo phù hợp với từng đối tượng, bao gồm: Công nghệ, mô hình tổ chức - sản xuất - kinh doanh, quyền sở hữu trí tuệ và phương thức huy động nguồn lực;\nc) Tổ chức các hoạt động kết nối cung - cầu công nghệ, kết nối chuyên gia, tổ chức khoa học và công nghệ, viện, trường, doanh nghiệp và các bên liên quan trong và ngoài nước phục vụ đổi mới sáng tạo;\nd) Triển khai các hoạt động hỗ trợ ứng dụng công nghệ, chuyển giao công nghệ, đổi mới công nghệ, cải tiến quy trình, áp dụng hệ thống quản lý chất lượng và chuyển đổi số;\nđ) Phát triển và cung cấp các dịch vụ hỗ trợ đổi mới sáng tạo, bao gồm: Trình diễn công nghệ, thử nghiệm - đánh giá công nghệ, đào tạo, bồi dưỡng, tập huấn - tư vấn kỹ thuật, cung cấp hạ tầng và thiết bị phục vụ nghiên cứu - phát triển - đổi mới sản phẩm;\ne) Tổ chức hoạt động ươm tạo công nghệ và ươm tạo khởi nghiệp; hỗ trợ doanh nghiệp khởi nghiệp sáng tạo hoàn thiện sản phẩm, dịch vụ, mô hình kinh doanh, xây dựng chiến lược phát triển và tiếp cận thị trường;\ng) Hỗ trợ tổ chức, doanh nghiệp và cá nhân trong việc bảo hộ, quản trị, khai thác và thương mại hóa quyền sở hữu trí tuệ; tư vấn định giá quyền sở hữu trí tuệ và tiếp cận các cơ chế tài chính dựa trên quyền sở hữu trí tuệ;\nh) Phát triển hệ thống đổi mới sáng tạo, hệ sinh thái khởi nghiệp sáng tạo, thúc đẩy văn hóa đổi mới sáng tạo, khởi nghiệp sáng tạo;\ni) Xây dựng và duy trì cơ sở dữ liệu, hệ thống thông tin phục vụ hoạt động đổi mới sáng tạo và chuyển giao công nghệ.\n2. Về nguồn lực, năng lực thực hiện:\na) Có ít nhất 30 nhân lực cơ hữu, trong đó tối thiểu 50% nhân lực có trình độ đại học trở lên có chuyên môn phù hợp với ngành, lĩnh vực hoạt động trực tiếp thực hiện hoạt động đổi mới sáng tạo, hỗ trợ đổi mới sáng tạo và khởi nghiệp sáng tạo;\nb) Có văn bản cam kết hợp tác với các chuyên gia, cố vấn về công nghệ, pháp lý, sở hữu trí tuệ, tài chính - đầu tư;\nc) Có mạng lưới kết nối các viện nghiên cứu, trường đại học, tổ chức khoa học công nghệ, các quỹ đầu tư, doanh nghiệp trong lĩnh vực hoạt động;\nd) Có khả năng hỗ trợ phát triển, tạo ra các công nghệ, sản phẩm, dịch vụ, mô hình kinh doanh mới hoặc cải tiến đóng vai trò quan trọng đối với phát triển kinh tế - xã hội, quốc phòng, an ninh và giải quyết các vấn đề liên quan đến nhiều ngành, nhiều lĩnh vực, liên vùng trong phạm vi cả nước;\nđ) Có năng lực kết nối, hỗ trợ, hợp tác với các tổ chức, hiệp hội nghề nghiệp, mạng lưới đổi mới sáng tạo, khởi nghiệp sáng tạo trong nước và ngoài nước.\n3. Kết quả hoạt động hằng năm\na) Hỗ trợ ít nhất 50 doanh nghiệp thực hiện một trong số các hoạt động ứng dụng công nghệ, chuyển giao công nghệ, đổi mới công nghệ, sáng tạo công nghệ, nâng cao hiệu suất công nghệ;\nb) Hỗ trợ ít nhất 30 cá nhân, nhóm cá nhân, doanh nghiệp khởi nghiệp sáng tạo tham gia các chương trình, khóa đào tạo, tập huấn về khởi nghiệp sáng tạo;\nc) Có doanh thu trực tiếp từ kết quả tư vấn, hỗ trợ ứng dụng công nghệ, chuyển giao công nghệ, đổi mới công nghệ, sáng tạo công nghệ, nâng cao hiệu suất công nghệ đạt ít nhất 50 tỷ đồng Việt Nam."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hoạt động khoa học và công nghệ",
-      "slug": "hoat-dong-khoa-hoc-va-cong-nghe"
+      "slug": "hoat-ong-khoa-hoc-va-cong-nghe"
     },
     "implementation_levels": [
       {
@@ -267,15 +192,15 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       }
     ],
     "agencies": [
       {
         "name": "Cục Đổi mới sáng tạo",
-        "slug": "cuc-doi-moi-sang-tao"
+        "slug": "cuc-oi-moi-sang-tao"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

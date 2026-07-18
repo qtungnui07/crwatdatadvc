@@ -1,35 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-ab13-76ae-89e3-9188798088b5",
   "procedure_code": "1.010339",
   "title": "Cấp/ Điều chỉnh/Thay thế hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-ab13-76ae-89e3-9188798088b5",
     "source_file": "chi-tiet-thu-tuc-1.010339.pdf",
     "source_path": "procedures/viec-lam/1.010339/chi-tiet-thu-tuc-1.010339.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:06.038952+00:00",
-    "source_updated_at": "2026-05-07T04:12:51.306Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:46.065357+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "749afc0ac874338bcb569c57144652f43c96ea90fb256ad19edf72bd2b3f5f7d"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:06.038952+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "4472/QĐ-BTC",
   "implementation_level": "Cấp tỉnh, Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thuế",
   "target_users": [
@@ -45,25 +39,71 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cục Thuế - Bộ tài chính, Thuế tỉnh, thành phố, Thuế cơ sở",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Thuế - Bộ tài chính, Thuế tỉnh, thành phố, Thuế cơ sở"
   },
   "steps": [
     {
       "order": 1,
-      "title": "Trường hợp (1): Cấp mới hóa đơnđiện tử có mã của cơ quan thuế theo từng lần phát sinh",
-      "description": "Đối với hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh là hóa đơn bán hàng:\nBước 1: Lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế\nĐối tượng được cấp hóa đơn điện tử có mã của cơ quan thuế, loại hóa đơn bán hàng cấp theo từng lần phát sinh, gồm:\na.1.1) Hộ kinh doanh, cá nhân kinh doanh theo quy định tại khoản 4 Điều 91 Luật Quản lý thuế số 38/2019/QH14 không đáp ứng điều kiện phải sử dụng hóa đơn điện tử có mã của cơ quan thuế nhưng cần có hóa đơn để giao cho khách hàng;\na.1.2) Tổ chức không kinh doanh nhưng có phát sinh giao dịch bán hàng hóa, cung cấp dịch vụ;\na.1.3) Doanh nghiệp sau khi đã giải thể, phá sản, đã chấm dứt hiệu lực mã số thuế có phát sinh thanh lý tài sản cần có hóa đơn để giao cho người mua;\na.1.4) Doanh nghiệp, tổ chức kinh tế, hộ kinh doanh, cá nhân kinh doanh thuộc diện nộp thuế giá trị gia tăng theo phương pháp trực tiếp thuộc các trường hợp sau:\na.1.4.1) Ngừng hoạt động kinh doanh nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực mã số thuế có phát sinh thanh lý tài sản, hàng hóa cần có hóa đơn để giao cho người mua;\na.1.4.2) Tạm ngừng hoạt động kinh doanh cần có hóa đơn giao cho khách hàng để thực hiện các hợp đồng đã ký trước ngày cơ quan thuế thông báo tạm ngừng kinh doanh;\na.1.4.3) Bị cơ quan thuế cưỡng chế bằng biện pháp ngừng sử dụng hóa đơn;\na.1.4.4) Doanh nghiệp đang làm thủ tục phá sản nhưng vẫn có hoạt động kinh doanh dưới sự giám sát của Tòa án;\na.1.4.5) Doanh nghiệp, tổ chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh trong thời gian giải trình hoặc bổ sung tài liệu quy định tại điểm d khoản 2 Điều 16 Nghị định này;\nThực hiện lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế theo Mẫu số 06/ĐN-PSĐT Phụ lục IA ban hành kèm theo Nghị định số 70/2025/NĐ-CP ngày 20/3/2025 của Chính phủ quy định về hóa đơn, chứng từ và gửi đến Cục Thuế.\nBước 2: Người nộp thuế truy cập vào hệ thống lập hóa đơn điện tử của cơ quan thuế để lập hóa đơn điện tử theo quy định.\nBước 3: Cơ quan Thuế tiếp nhận, kiểm tra hồ sơ và và cấp mã của cơ quan thuế trên hóa đơn điện tử do doanh nghiệp, tổ chức kinh tế, tổ chức khác lập.\nĐối với hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh là hóa đơn giá trị gia tăng:\nBước 1: Lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế\nĐối tượng được cấp hóa đơn điện tử có mã của cơ quan thuế, loại hóa đơn giá trị gia tăng (GTGT) cấp theo từng lần phát sinh, gồm:\n+ Doanh nghiệp, tổ chức kinh tế, tổ chức khác thuộc diện nộp thuế giá trị gia tăng theo phương pháp khấu trừ thuộc các trường hợp sau:\na.2.1) Doanh nghiệp, tổ chức kinh tế, tổ chức khác thuộc diện nộp thuế giá trị gia tăng theo phương pháp khấu trừ thuộc các trường hợp sau:\na.2.1.1) Ngừng hoạt động kinh doanh nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực mã số thuế có phát sinh thanh lý tài sản, hàng hóa cần có hóa đơn để giao cho người mua;\na.2.1.2) Tạm ngừng hoạt động kinh doanh cần có hóa đơn giao cho khách hàng để thực hiện các hợp đồng đã ký trước ngày cơ quan nhà nước có thẩm quyền thông báo tạm ngừng kinh doanh;\na.2.1.3) Bị cơ quan thuế cưỡng chế bằng biện pháp ngừng sử dụng hóa đơn;\na.2.1.4)Doanh nghiệp đang làm thủ tục phá sản nhưng vẫn có hoạt động kinh doanh dưới sự giám sát của Tòa án;\na.2.1.5) Doanh nghiệp, tổ chức kinh tế, tổ chức khác trong thời gian giải trình hoặc bổ sung tài liệu quy định tại điểm d khoản 2 Điều 16 Nghị định này.\n+ Tổ chức, cơ quan nhà nước không thuộc đối tượng nộp thuế giá trị gia tăng theo phương pháp khấu trừ có bán đấu giá tài sản (trừ trường hợp bán tài sản công nêu tại khoản 3 Điều 8 Nghị định này), trường hợp giá trúng đấu giá là giá bán đã có thuế giá trị gia tăng được công bố rõ trong hồ sơ bán đấu giá do cơ quan có thẩm quyền phê duyệt thì được cấp hóa đơn giá trị gia tăng để giao cho người mua.\nThực hiện lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế theo Mẫu số 06/ĐN-PSĐT Phụ lục IA ban hành kèm theo Nghị định số 70/2025/NĐ-CP ngày 20/3/2025 của Chính phủvà gửi đến Cục Thuế.\nBước 2: Người nộp thuế truy cập vào hệ thống lập hóa đơn điện tử của cơ quan thuế để lập hóa đơn điện tử theo quy định.\nBước 3: Cơ quan Thuế tiếp nhận, kiểm tra hồ sơ và và cấp mã của cơ quan thuế trên hóa đơn điện tử do doanh nghiệp, tổ chức kinh tế, tổ chức khác lập.\n",
+      "title": "Bước 1",
+      "description": "Đối với hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh là hóa đơn bán hàng:\nBước 1: Lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế\nĐối tượng được cấp hóa đơn điện tử có mã của cơ quan thuế, loại hóa đơn bán hàng cấp theo từng lần phát sinh, gồm:\na.1.1) Hộ kinh doanh, cá nhân kinh doanh theo quy định tại khoản 4 Điều 91 Luật Quản lý thuế số 38/2019/QH14 không đáp ứng điều kiện phải sử dụng hóa đơn điện tử có mã của cơ quan thuế nhưng cần có hóa đơn để giao cho khách hàng;\na.1.2) Tổ chức không kinh doanh nhưng có phát sinh giao dịch bán hàng hóa, cung cấp dịch vụ;\na.1.3) Doanh nghiệp sau khi đã giải thể, phá sản, đã chấm dứt hiệu lực mã số thuế có phát sinh thanh lý tài sản cần có hóa đơn để giao cho người mua;\na.1.4) Doanh nghiệp, tổ chức kinh tế, hộ kinh doanh, cá nhân kinh doanh thuộc diện nộp thuế giá trị gia tăng theo phương pháp trực tiếp thuộc các trường hợp sau:\na.1.4.1) Ngừng hoạt động kinh doanh nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực mã số thuế có phát sinh thanh lý tài sản, hàng hóa cần có hóa đơn để giao cho người mua;\na.1.4.2) Tạm ngừng hoạt động kinh doanh cần có hóa đơn giao cho khách hàng để thực hiện các hợp đồng đã ký trước ngày cơ quan thuế thông báo tạm ngừng kinh doanh;\na.1.4.3) Bị cơ quan thuế cưỡng chế bằng biện pháp ngừng sử dụng hóa đơn;\na.1.4.4) Doanh nghiệp đang làm thủ tục phá sản nhưng vẫn có hoạt động kinh doanh dưới sự giám sát của Tòa án;\na.1.4.5) Doanh nghiệp, tổ chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh trong thời gian giải trình hoặc bổ sung tài liệu quy định tại điểm d khoản 2 Điều 16 Nghị định này;\nThực hiện lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế theo Mẫu số 06/ĐN-PSĐT Phụ lục IA ban hành kèm theo Nghị định số 70/2025/NĐ-CP ngày 20/3/2025 của Chính phủ quy định về hóa đơn, chứng từ và gửi đến Cục Thuế.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
-      "title": "Trường hợp (2): Điều chỉnh/thay thế hóa đơn điện tử có mã của Cơ quan thuế theo từng lần phát sinh",
-      "description": "Trường hợp hóa đơn điện tử theo từng lần phát sinh cần phải lập hóa đơn điều chỉnh hoặc thay thế, doanh nghiệp, tổ chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh gửi đơn đề nghị cấp hóa đơn điện tử có mã của cơ quan thuế theo Mẫu số 06/ĐN-PSĐT Phụ lục IA ban hành kèm theo Nghị định này đến cơ quan thuế để được cấp hóa đơn điện tử điều chỉnh hoặc thay thế cho hóa đơn đã lập.\nBước 1: Lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế: NNT đã được cấp hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh.\nBước 2: Người nộp thuế truy cập vào hệ thống lập hóa đơn điện tử của cơ quan thuế để cấp/điều chỉnh/thay thế hóa đơn điện tử theo quy định.\nBước 3: Cơ quan Thuế tiếp nhận, kiểm tra hồ sơ và và cấp mã của cơ quan thuế trên hóa đơn điện tử do doanh nghiệp, tổ chức kinh tế, tổ chức khác lập.\n",
+      "title": "Bước 2",
+      "description": "Bước 2: Người nộp thuế truy cập vào hệ thống lập hóa đơn điện tử của cơ quan thuế để lập hóa đơn điện tử theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Cơ quan Thuế tiếp nhận, kiểm tra hồ sơ và và cấp mã của cơ quan thuế trên hóa đơn điện tử do doanh nghiệp, tổ chức kinh tế, tổ chức khác lập.\nĐối với hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh là hóa đơn giá trị gia tăng:",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 1",
+      "description": "Bước 1: Lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế\nĐối tượng được cấp hóa đơn điện tử có mã của cơ quan thuế, loại hóa đơn giá trị gia tăng (GTGT) cấp theo từng lần phát sinh, gồm:\n+ Doanh nghiệp, tổ chức kinh tế, tổ chức khác thuộc diện nộp thuế giá trị gia tăng theo phương pháp khấu trừ thuộc các trường hợp sau:\na.2.1) Doanh nghiệp, tổ chức kinh tế, tổ chức khác thuộc diện nộp thuế giá trị gia tăng theo phương pháp khấu trừ thuộc các trường hợp sau:\na.2.1.1) Ngừng hoạt động kinh doanh nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực mã số thuế có phát sinh thanh lý tài sản, hàng hóa cần có hóa đơn để giao cho người mua;\na.2.1.2) Tạm ngừng hoạt động kinh doanh cần có hóa đơn giao cho khách hàng để thực hiện các hợp đồng đã ký trước ngày cơ quan nhà nước có thẩm quyền thông báo tạm ngừng kinh doanh;\na.2.1.3) Bị cơ quan thuế cưỡng chế bằng biện pháp ngừng sử dụng hóa đơn;\na.2.1.4)Doanh nghiệp đang làm thủ tục phá sản nhưng vẫn có hoạt động kinh doanh dưới sự giám sát của Tòa án;\na.2.1.5) Doanh nghiệp, tổ chức kinh tế, tổ chức khác trong thời gian giải trình hoặc bổ sung tài liệu quy định tại điểm d khoản 2 Điều 16 Nghị định này.\n+ Tổ chức, cơ quan nhà nước không thuộc đối tượng nộp thuế giá trị gia tăng theo phương pháp khấu trừ có bán đấu giá tài sản (trừ trường hợp bán tài sản công nêu tại khoản 3 Điều 8 Nghị định này), trường hợp giá trúng đấu giá là giá bán đã có thuế giá trị gia tăng được công bố rõ trong hồ sơ bán đấu giá do cơ quan có thẩm quyền phê duyệt thì được cấp hóa đơn giá trị gia tăng để giao cho người mua.\nThực hiện lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế theo Mẫu số 06/ĐN-PSĐT Phụ lục IA ban hành kèm theo Nghị định số 70/2025/NĐ-CP ngày 20/3/2025 của Chính phủvà gửi đến Cục Thuế.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 5,
+      "title": "Bước 2",
+      "description": "Bước 2: Người nộp thuế truy cập vào hệ thống lập hóa đơn điện tử của cơ quan thuế để lập hóa đơn điện tử theo quy định.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 6,
+      "title": "Bước 3",
+      "description": "Bước 3: Cơ quan Thuế tiếp nhận, kiểm tra hồ sơ và và cấp mã của cơ quan thuế trên hóa đơn điện tử do doanh nghiệp, tổ chức kinh tế, tổ chức khác lập.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 7,
+      "title": "Bước 7",
+      "description": "Trường hợp hóa đơn điện tử theo từng lần phát sinh cần phải lập hóa đơn điều chỉnh hoặc thay thế, doanh nghiệp, tổ chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh gửi đơn đề nghị cấp hóa đơn điện tử có mã của cơ quan thuế theo Mẫu số 06/ĐN-PSĐT Phụ lục IA ban hành kèm theo Nghị định này đến cơ quan thuế để được cấp hóa đơn điện tử điều chỉnh hoặc thay thế cho hóa đơn đã lập.\nBước 1: Lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế: NNT đã được cấp hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh.",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 8,
+      "title": "Bước 2",
+      "description": "Bước 2: Người nộp thuế truy cập vào hệ thống lập hóa đơn điện tử của cơ quan thuế để cấp/điều chỉnh/thay thế hóa đơn điện tử theo quy định.",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 9,
+      "title": "Bước 3",
+      "description": "Bước 3: Cơ quan Thuế tiếp nhận, kiểm tra hồ sơ và và cấp mã của cơ quan thuế trên hóa đơn điện tử do doanh nghiệp, tổ chức kinh tế, tổ chức khác lập.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
@@ -72,21 +112,15 @@
     "conditional": [
       {
         "name": "Số lượng hồ sơ: 01(bộ)",
-        "code": "000.00.00.G12-KQ013907",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Mẫu số 06/ĐN-PSĐT Đơn đề nghị cấp hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh",
-        "code": "000.00.00.G12-KQ013906",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -95,35 +129,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -131,51 +145,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -183,26 +182,22 @@
     {
       "title": "Luật Quản lý thuế",
       "document_number": "38/2019/QH14",
-      "id": "019d2bb3-5d85-73da-8eb9-e5214fd5ac79",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
       "document_number": "118/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định 123/2020/NĐ-CP",
       "document_number": "123/2020/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a63e-7a35aa2ed73a",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định số 70/2025/NĐ-CP ngày ngày 20 tháng 3 năm 2025 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 123/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định về hóa đơn, chứng từ.",
       "document_number": "70/2025/NĐ-CP",
-      "id": "019d2bb3-5d87-7195-a444-f7af6096dd40",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "",
@@ -210,13 +205,12 @@
     {
       "title": "Cấp/Điều chỉnh/Thay thế Hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh.",
       "code": "KQ.G12.000965",
-      "id": "019d2bb2-1c71-7574-afec-75685c8dfd2e",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Đối với hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh là hóa đơn bán hàng:\nBước 1: Lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế\nĐối tượng được cấp hóa đơn điện tử có mã của cơ quan thuế, loại hóa đơn bán hàng cấp theo từng lần phát sinh, gồm:\na.1.1) Hộ kinh doanh, cá nhân kinh doanh theo quy định tại khoản 4 Điều 91 Luật Quản lý thuế số 38/2019/QH14 không đáp ứng điều kiện phải sử dụng hóa đơn điện tử có mã của cơ quan thuế nhưng cần có hóa đơn để giao cho khách hàng;\na.1.2) Tổ chức không kinh doanh nhưng có phát sinh giao dịch bán hàng hóa, cung cấp dịch vụ;\na.1.3) Doanh nghiệp sau khi đã giải thể, phá sản, đã chấm dứt hiệu lực mã số thuế có phát sinh thanh lý tài sản cần có hóa đơn để giao cho người mua;\na.1.4) Doanh nghiệp, tổ chức kinh tế, hộ kinh doanh, cá nhân kinh doanh thuộc diện nộp thuế giá trị gia tăng theo phương pháp trực tiếp thuộc các trường hợp sau:\na.1.4.1) Ngừng hoạt động kinh doanh nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực mã số thuế có phát sinh thanh lý tài sản, hàng hóa cần có hóa đơn để giao cho người mua;\na.1.4.2) Tạm ngừng hoạt động kinh doanh cần có hóa đơn giao cho khách hàng để thực hiện các hợp đồng đã ký trước ngày cơ quan thuế thông báo tạm ngừng kinh doanh;\na.1.4.3) Bị cơ quan thuế cưỡng chế bằng biện pháp ngừng sử dụng hóa đơn;\na.1.4.4) Doanh nghiệp đang làm thủ tục phá sản nhưng vẫn có hoạt động kinh doanh dưới sự giám sát của Tòa án;\na.1.4.5) Doanh nghiệp, tổ chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh trong thời gian giải trình hoặc bổ sung tài liệu quy định tại điểm d khoản 2 Điều 16 Nghị định này;\nThực hiện lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế theo Mẫu số 06/ĐN-PSĐT Phụ lục IA ban hành kèm theo Nghị định số 70/2025/NĐ-CP ngày 20/3/2025 của Chính phủ quy định về hóa đơn, chứng từ và gửi đến Cục Thuế.\nBước 2: Người nộp thuế truy cập vào hệ thống lập hóa đơn điện tử của cơ quan thuế để lập hóa đơn điện tử theo quy định.\nBước 3: Cơ quan Thuế tiếp nhận, kiểm tra hồ sơ và và cấp mã của cơ quan thuế trên hóa đơn điện tử do doanh nghiệp, tổ chức kinh tế, tổ chức khác lập.\nĐối với hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh là hóa đơn giá trị gia tăng:\nBước 1: Lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế\nĐối tượng được cấp hóa đơn điện tử có mã của cơ quan thuế, loại hóa đơn giá trị gia tăng (GTGT) cấp theo từng lần phát sinh, gồm:\n+ Doanh nghiệp, tổ chức kinh tế, tổ chức khác thuộc diện nộp thuế giá trị gia tăng theo phương pháp khấu trừ thuộc các trường hợp sau:\na.2.1) Doanh nghiệp, tổ chức kinh tế, tổ chức khác thuộc diện nộp thuế giá trị gia tăng theo phương pháp khấu trừ thuộc các trường hợp sau:\na.2.1.1) Ngừng hoạt động kinh doanh nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực mã số thuế có phát sinh thanh lý tài sản, hàng hóa cần có hóa đơn để giao cho người mua;\na.2.1.2) Tạm ngừng hoạt động kinh doanh cần có hóa đơn giao cho khách hàng để thực hiện các hợp đồng đã ký trước ngày cơ quan nhà nước có thẩm quyền thông báo tạm ngừng kinh doanh;\na.2.1.3) Bị cơ quan thuế cưỡng chế bằng biện pháp ngừng sử dụng hóa đơn;\na.2.1.4)Doanh nghiệp đang làm thủ tục phá sản nhưng vẫn có hoạt động kinh doanh dưới sự giám sát của Tòa án;\na.2.1.5) Doanh nghiệp, tổ chức kinh tế, tổ chức khác trong thời gian giải trình hoặc bổ sung tài liệu quy định tại điểm d khoản 2 Điều 16 Nghị định này.\n+ Tổ chức, cơ quan nhà nước không thuộc đối tượng nộp thuế giá trị gia tăng theo phương pháp khấu trừ có bán đấu giá tài sản (trừ trường hợp bán tài sản công nêu tại khoản 3 Điều 8 Nghị định này), trường hợp giá trúng đấu giá là giá bán đã có thuế giá trị gia tăng được công bố rõ trong hồ sơ bán đấu giá do cơ quan có thẩm quyền phê duyệt thì được cấp hóa đơn giá trị gia tăng để giao cho người mua.\nThực hiện lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế theo Mẫu số 06/ĐN-PSĐT Phụ lục IA ban hành kèm theo Nghị định số 70/2025/NĐ-CP ngày 20/3/2025 của Chính phủvà gửi đến Cục Thuế.\nBước 2: Người nộp thuế truy cập vào hệ thống lập hóa đơn điện tử của cơ quan thuế để lập hóa đơn điện tử theo quy định.\nBước 3: Cơ quan Thuế tiếp nhận, kiểm tra hồ sơ và và cấp mã của cơ quan thuế trên hóa đơn điện tử do doanh nghiệp, tổ chức kinh tế, tổ chức khác lập.\n\nTrường hợp hóa đơn điện tử theo từng lần phát sinh cần phải lập hóa đơn điều chỉnh hoặc thay thế, doanh nghiệp, tổ chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh gửi đơn đề nghị cấp hóa đơn điện tử có mã của cơ quan thuế theo Mẫu số 06/ĐN-PSĐT Phụ lục IA ban hành kèm theo Nghị định này đến cơ quan thuế để được cấp hóa đơn điện tử điều chỉnh hoặc thay thế cho hóa đơn đã lập.\nBước 1: Lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế: NNT đã được cấp hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh.\nBước 2: Người nộp thuế truy cập vào hệ thống lập hóa đơn điện tử của cơ quan thuế để cấp/điều chỉnh/thay thế hóa đơn điện tử theo quy định.\nBước 3: Cơ quan Thuế tiếp nhận, kiểm tra hồ sơ và và cấp mã của cơ quan thuế trên hóa đơn điện tử do doanh nghiệp, tổ chức kinh tế, tổ chức khác lập.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nSố lượng hồ sơ: 01(bộ)\nMẫu số 06/ĐN-PSĐT Đơn đề nghị cấp hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh",
+    "TRÌNH TỰ THỰC HIỆN": "Đối với hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh là hóa đơn bán hàng:\nBước 1: Lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế\nĐối tượng được cấp hóa đơn điện tử có mã của cơ quan thuế, loại hóa đơn bán hàng cấp theo từng lần phát sinh, gồm:\na.1.1) Hộ kinh doanh, cá nhân kinh doanh theo quy định tại khoản 4 Điều 91 Luật Quản lý thuế số 38/2019/QH14 không đáp ứng điều kiện phải sử dụng hóa đơn điện tử có mã của cơ quan thuế nhưng cần có hóa đơn để giao cho khách hàng;\na.1.2) Tổ chức không kinh doanh nhưng có phát sinh giao dịch bán hàng hóa, cung cấp dịch vụ;\na.1.3) Doanh nghiệp sau khi đã giải thể, phá sản, đã chấm dứt hiệu lực mã số thuế có phát sinh thanh lý tài sản cần có hóa đơn để giao cho người mua;\na.1.4) Doanh nghiệp, tổ chức kinh tế, hộ kinh doanh, cá nhân kinh doanh thuộc diện nộp thuế giá trị gia tăng theo phương pháp trực tiếp thuộc các trường hợp sau:\na.1.4.1) Ngừng hoạt động kinh doanh nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực mã số thuế có phát sinh thanh lý tài sản, hàng hóa cần có hóa đơn để giao cho người mua;\na.1.4.2) Tạm ngừng hoạt động kinh doanh cần có hóa đơn giao cho khách hàng để thực hiện các hợp đồng đã ký trước ngày cơ quan thuế thông báo tạm ngừng kinh doanh;\na.1.4.3) Bị cơ quan thuế cưỡng chế bằng biện pháp ngừng sử dụng hóa đơn;\na.1.4.4) Doanh nghiệp đang làm thủ tục phá sản nhưng vẫn có hoạt động kinh doanh dưới sự giám sát của Tòa án;\na.1.4.5) Doanh nghiệp, tổ chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh trong thời gian giải trình hoặc bổ sung tài liệu quy định tại điểm d khoản 2 Điều 16 Nghị định này;\nThực hiện lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế theo Mẫu số 06/ĐN-PSĐT Phụ lục IA ban hành kèm theo Nghị định số 70/2025/NĐ-CP ngày 20/3/2025 của Chính phủ quy định về hóa đơn, chứng từ và gửi đến Cục Thuế.\nBước 2: Người nộp thuế truy cập vào hệ thống lập hóa đơn điện tử của cơ quan thuế để lập hóa đơn điện tử theo quy định.\nBước 3: Cơ quan Thuế tiếp nhận, kiểm tra hồ sơ và và cấp mã của cơ quan thuế trên hóa đơn điện tử do doanh nghiệp, tổ chức kinh tế, tổ chức khác lập.\nĐối với hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh là hóa đơn giá trị gia tăng:\nBước 1: Lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế\nĐối tượng được cấp hóa đơn điện tử có mã của cơ quan thuế, loại hóa đơn giá trị gia tăng (GTGT) cấp theo từng lần phát sinh, gồm:\n+ Doanh nghiệp, tổ chức kinh tế, tổ chức khác thuộc diện nộp thuế giá trị gia tăng theo phương pháp khấu trừ thuộc các trường hợp sau:\na.2.1) Doanh nghiệp, tổ chức kinh tế, tổ chức khác thuộc diện nộp thuế giá trị gia tăng theo phương pháp khấu trừ thuộc các trường hợp sau:\na.2.1.1) Ngừng hoạt động kinh doanh nhưng chưa hoàn thành thủ tục chấm dứt hiệu lực mã số thuế có phát sinh thanh lý tài sản, hàng hóa cần có hóa đơn để giao cho người mua;\na.2.1.2) Tạm ngừng hoạt động kinh doanh cần có hóa đơn giao cho khách hàng để thực hiện các hợp đồng đã ký trước ngày cơ quan nhà nước có thẩm quyền thông báo tạm ngừng kinh doanh;\na.2.1.3) Bị cơ quan thuế cưỡng chế bằng biện pháp ngừng sử dụng hóa đơn;\na.2.1.4)Doanh nghiệp đang làm thủ tục phá sản nhưng vẫn có hoạt động kinh doanh dưới sự giám sát của Tòa án;\na.2.1.5) Doanh nghiệp, tổ chức kinh tế, tổ chức khác trong thời gian giải trình hoặc bổ sung tài liệu quy định tại điểm d khoản 2 Điều 16 Nghị định này.\n+ Tổ chức, cơ quan nhà nước không thuộc đối tượng nộp thuế giá trị gia tăng theo phương pháp khấu trừ có bán đấu giá tài sản (trừ trường hợp bán tài sản công nêu tại khoản 3 Điều 8 Nghị định này), trường hợp giá trúng đấu giá là giá bán đã có thuế giá trị gia tăng được công bố rõ trong hồ sơ bán đấu giá do cơ quan có thẩm quyền phê duyệt thì được cấp hóa đơn giá trị gia tăng để giao cho người mua.\nThực hiện lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế theo Mẫu số 06/ĐN-PSĐT Phụ lục IA ban hành kèm theo Nghị định số 70/2025/NĐ-CP ngày 20/3/2025 của Chính phủvà gửi đến Cục Thuế.\nBước 2: Người nộp thuế truy cập vào hệ thống lập hóa đơn điện tử của cơ quan thuế để lập hóa đơn điện tử theo quy định.\nBước 3: Cơ quan Thuế tiếp nhận, kiểm tra hồ sơ và và cấp mã của cơ quan thuế trên hóa đơn điện tử do doanh nghiệp, tổ chức kinh tế, tổ chức khác lập.\nTrường hợp hóa đơn điện tử theo từng lần phát sinh cần phải lập hóa đơn điều chỉnh hoặc thay thế, doanh nghiệp, tổ chức kinh tế, tổ chức khác, hộ kinh doanh, cá nhân kinh doanh gửi đơn đề nghị cấp hóa đơn điện tử có mã của cơ quan thuế theo Mẫu số 06/ĐN-PSĐT Phụ lục IA ban hành kèm theo Nghị định này đến cơ quan thuế để được cấp hóa đơn điện tử điều chỉnh hoặc thay thế cho hóa đơn đã lập.\nBước 1: Lập hồ sơ đề nghị cấp/điều chỉnh/thay thế hóa đơn điện tử có mã của cơ quan thuế: NNT đã được cấp hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh.\nBước 2: Người nộp thuế truy cập vào hệ thống lập hóa đơn điện tử của cơ quan thuế để cấp/điều chỉnh/thay thế hóa đơn điện tử theo quy định.\nBước 3: Cơ quan Thuế tiếp nhận, kiểm tra hồ sơ và và cấp mã của cơ quan thuế trên hóa đơn điện tử do doanh nghiệp, tổ chức kinh tế, tổ chức khác lập.",
+    "THÀNH PHẦN HỒ SƠ": "Số lượng hồ sơ: 01(bộ)\nMẫu số 06/ĐN-PSĐT Đơn đề nghị cấp hóa đơn điện tử có mã của cơ quan thuế theo từng lần phát sinh",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 1\nQua dịch vụ bưu chính: 1\nTrực tiếp: 1",
     "CĂN CỨ PHÁP LÝ": "Luật Quản lý thuế - 38/2019/QH14\nNghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nNghị định 123/2020/NĐ-CP - 123/2020/NĐ-CP\nNghị định số 70/2025/NĐ-CP ngày ngày 20 tháng 3 năm 2025 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 123/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định về hóa đơn, chứng từ. - 70/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cục Thuế - Bộ tài chính, Thuế tỉnh, thành phố, Thuế cơ sở",
@@ -226,11 +220,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thuế",
       "slug": "thue"
@@ -252,7 +241,7 @@
     "target_users": [
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
@@ -260,7 +249,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -301,6 +290,6 @@
         "slug": "thue-co-so"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

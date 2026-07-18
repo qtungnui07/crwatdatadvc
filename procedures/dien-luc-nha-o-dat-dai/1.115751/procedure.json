@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019f6a2d-dca2-7179-9ebc-234bff669259",
   "procedure_code": "1.115751",
   "title": "Xác định lại diện tích đất ở của hộ gia đình, cá nhân đã được cấp\nGiấy chứng nhận trước ngày 01 tháng 7 năm 2004",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019f6a2d-dca2-7179-9ebc-234bff669259",
     "source_file": "chi-tiet-thu-tuc-1.115751.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.115751/chi-tiet-thu-tuc-1.115751.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:19.543628+00:00",
-    "source_updated_at": "2026-07-17T02:13:11.571Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:57:37.185247+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "7ec319cd086da5c2febd2592e9891ef560b6e49667b0a7af243623952d4b5441"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:19.543628+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1282/QĐ-UBND",
   "implementation_level": "Cấp xã",
-  "implementation_levels": [
-    "Cấp xã"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đất đai",
   "target_users": [
@@ -35,10 +31,7 @@
   ],
   "agency": {
     "competent_agency": "Chi nhánh Văn phòng đăng ký đất đai khu vực; Ủy ban nhân dân cấp xã",
-    "executing_agency": "Phòng Kinh tế, Phòng Kinh tế, Hạ tầng và Đô thị",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Phòng Kinh tế, Phòng Kinh tế, Hạ tầng và Đô thị"
   },
   "steps": [
     {
@@ -46,48 +39,36 @@
       "title": "Bước 1: Nộp, tiếp nhận và kiểm tra hồ sơ",
       "description": "- Người yêu cầu đăng ký nộp hồ sơ trực tiếp hoặc thông qua dịch vụ bưu\nchính công ích hoặc trực tuyến đến Trung tâm Phục vụ hành chính công.\nKhi nộp các giấy tờ quy định, người yêu cầu đăng ký được lựa chọn nộp\nbản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối\nchiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng\nhoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường\nhợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản\nchính hoặc bản sao giấy tờ đã được công chứng, chứng thực theo quy định của\npháp luật.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết\nquả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các\ngiấy tờ thuộc thành phần hồ sơ theo quy định.\n- Cơ quan tiếp nhận hồ sơ thực hiện: kiểm tra tính đầy đủ của thành phần\nhồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\n+ Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu\ncầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung\ntheo quy định.\n+ Chuyển hồ sơ đến Chi nhánh Văn phòng đăng ký đất đai",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "Bước 2. Chi nhánh Văn phòng đăng ký đất đai thực hiện:",
       "description": "- Lấy ý kiến của Ủy ban nhân dân cấp xã nơi có đất về hiện trạng sử dụng\nđất, tình trạng tranh chấp đất đai;\n- Trường hợp đất không có tranh chấp và người sử dụng đất không có\ngiấy tờ về quyền sử dụng đất quy định tại Điều 137 Luật Đất đai hoặc có giấy tờ về quyền sử dụng đất quy định tại Điều 137 Luật Đất đai nhưng không có nhu\ncầu xác định lại diện tích đất ở thì Văn phòng đăng ký đất đai gửi Phiếu chuyển\nthông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 11 ban hành kèm\ntheo Quyết định số 28/2026/QĐ-UBND ngày 20 tháng 6 năm 2026 của Ủy ban\nnhân dân tỉnh Lạng Sơn đến cơ quan thuế để xác định và thông báo nghĩa vụ tài\nchính cho người sử dụng đất.\nKhi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy\ntờ chứng minh đã hoàn thành nghĩa vụ tài chính, Văn phòng đăng ký đất đai\nthực hiện việc cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản\ngắn liền với đất cho toàn bộ diện tích của thửa đất theo quy định tại Mục 1 Phần\nnày; - Trường hợp người sử dụng đất có nhu cầu xác định lại diện tích đất ở\ntheo quy định tại khoản 6 Điều 141 Luật Đất đai thì Chi nhánh Văn phòng đăng\nký đất đai kiểm tra hồ sơ cấp Giấy chứng nhận trước đây, nếu đủ điều kiện xác\nđịnh lại diện tích đất ở thì chuyển hồ sơ theo quy định kèm theo hồ sơ cấp Giấy\nchứng nhận trước đây đến cơ quan có chức năng quản lý đất đai cấp xã để thực\nhiện công việc quy định tại bước tiếp theo.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 3,
       "title": "Bước 3: Cơ quan có chức năng quản lý đất đai cấp xã thực hiện:",
       "description": "- Xác định diện tích, loại đất theo quy định tại các điểm a, b và c khoản 4\nvà khoản 6 Điều 141 Luật Đất đai;\n- Gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai\ntheo Mẫu số 11 ban hành kèm theo Quyết định số 28/2026/QĐ-UBND ngày 20\ntháng 6 năm 2026 của Ủy ban nhân dân tỉnh Lạng Sơn đến cơ quan thuế để xác\nđịnh và thông báo thu nghĩa vụ tài chính cho người sử dụng đất;\n- Khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc\ngiấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính, cơ quan có chức năng\nquản lý đất đai cấp xã trình Chủ tịch Ủy ban nhân dân cấp xã ký Giấy chứng\nnhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất; chuyển hồ sơ và\nGiấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đã\ncấp đến Văn phòng đăng ký đất đai để chỉnh lý, cập nhật biến động vào hồ sơ\nđịa chính, cơ sở dữ liệu đất đai và trao Giấy chứng nhận quyền sử dụng đất,\nquyền sở hữu tài sản gắn liền với đất cho người được cấp.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Mẫu số 24. Đơn đăng ký biến động đất đai, tài sản gắn liền với đất",
-        "code": "H37.000024",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019f5f7f-576f-720f-b10f-bf423df71c4f",
-            "name": "Mẫu số 24.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 24.docx",
+        "source_page": 3
       },
       {
         "name": "Giấy chứng nhận đã cấp",
-        "code": "000.00.00.H37-KQ000076",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -98,237 +79,94 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "Không quá 15 ngày.",
-      "processing_time_value": "Không quá 15 ngày.",
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": null,
-          "currency": "VND",
-          "description": "Hội đồng nhân dân cấp tỉnh quy định.",
-          "attachment": {
-            "fileId": "019f6a2a-c756-7715-8881-9f2165d0fc7a",
-            "fileName": "5.Nghị Quyết số 25 sửa đổi bổ sung NQ 21.pdf"
-          }
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": null,
-          "currency": "VND",
-          "description": "Hội đồng nhân dân cấp tỉnh quy định.",
-          "attachment": {
-            "fileId": "019f6a2a-e065-72c2-853d-59cacf9fab03",
-            "fileName": "2.nghị Quyết 12 thu phí 0đ.pdf"
-          }
-        },
-        {
-          "type": "PRICE_LEVEL",
-          "amount": null,
-          "currency": "VND",
-          "description": "Hội đồng nhân dân cấp tỉnh quy định.",
-          "attachment": {
-            "fileId": "019f6a2a-effa-774e-bf98-f23f60c8da60",
-            "fileName": "1.Quy định kèm theo Nghị quyết 21.pdf"
-          }
-        }
-      ],
+      "fee": "Hội đồng nhân dân cấp tỉnh quy định.",
       "description": "Nộp trực tiếp tại Trung tâm Phục vụ hành chính công cấp xã",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "Không quá 15 ngày.",
-      "processing_time_value": "Không quá 15 ngày.",
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": null,
-          "currency": "VND",
-          "description": "Hội đồng nhân dân cấp tỉnh quy định.",
-          "attachment": {
-            "fileId": "019f6a2b-544b-76a1-9826-d8325f8528c1",
-            "fileName": "5.Nghị Quyết số 25 sửa đổi bổ sung NQ 21.pdf"
-          }
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": null,
-          "currency": "VND",
-          "description": "Hội đồng nhân dân cấp tỉnh quy định.",
-          "attachment": {
-            "fileId": "019f6a2b-5bde-7369-87d8-ded73d8dc1f4",
-            "fileName": "2.nghị Quyết 12 thu phí 0đ.pdf"
-          }
-        },
-        {
-          "type": "PRICE_LEVEL",
-          "amount": null,
-          "currency": "VND",
-          "description": "Hội đồng nhân dân cấp tỉnh quy định.",
-          "attachment": {
-            "fileId": "019f6a2b-6b3a-70f4-a393-8ee26c4c5a5d",
-            "fileName": "1.Quy định kèm theo Nghị quyết 21.pdf"
-          }
-        }
-      ],
+      "fee": "Hội đồng nhân dân cấp tỉnh quy định.",
       "description": "Nộp trực tuyến tại địa chỉ https://dichvucong.gov.vn",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "Không quá 15 ngày.",
-      "processing_time_value": "Không quá 15 ngày.",
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": null,
-          "currency": "VND",
-          "description": "Hội đồng nhân dân cấp tỉnh quy định.",
-          "attachment": {
-            "fileId": "019f6a2b-c128-746b-8010-2b893b008ac7",
-            "fileName": "5.Nghị Quyết số 25 sửa đổi bổ sung NQ 21.pdf"
-          }
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": null,
-          "currency": "VND",
-          "description": "Hội đồng nhân dân cấp tỉnh quy định.",
-          "attachment": {
-            "fileId": "019f6a2b-d1d7-759e-82ed-d817289de69f",
-            "fileName": "2.nghị Quyết 12 thu phí 0đ.pdf"
-          }
-        },
-        {
-          "type": "PRICE_LEVEL",
-          "amount": null,
-          "currency": "VND",
-          "description": "Hội đồng nhân dân cấp tỉnh quy định.",
-          "attachment": {
-            "fileId": "019f6a2b-e769-74e8-9d37-7da8ac11739e",
-            "fileName": "1.Quy định kèm theo Nghị quyết 21.pdf"
-          }
-        }
-      ],
+      "fee": "Hội đồng nhân dân cấp tỉnh quy định.",
       "description": "Nộp thông qua dịch vụ bưu chính công ích.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Hội đồng nhân dân cấp tỉnh quy định.",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": null,
-        "currency": "VND",
-        "description": "Hội đồng nhân dân cấp tỉnh quy định.",
-        "attachment": {
-          "fileId": "019f6a2a-c756-7715-8881-9f2165d0fc7a",
-          "fileName": "5.Nghị Quyết số 25 sửa đổi bổ sung NQ 21.pdf"
-        }
+        "amount_text": "Hội đồng nhân dân cấp tỉnh quy định.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": null,
-        "currency": "VND",
-        "description": "Hội đồng nhân dân cấp tỉnh quy định.",
-        "attachment": {
-          "fileId": "019f6a2a-e065-72c2-853d-59cacf9fab03",
-          "fileName": "2.nghị Quyết 12 thu phí 0đ.pdf"
-        }
+        "amount_text": "Hội đồng nhân dân cấp tỉnh quy định.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "PRICE_LEVEL",
-        "amount": null,
-        "currency": "VND",
-        "description": "Hội đồng nhân dân cấp tỉnh quy định.",
-        "attachment": {
-          "fileId": "019f6a2a-effa-774e-bf98-f23f60c8da60",
-          "fileName": "1.Quy định kèm theo Nghị quyết 21.pdf"
-        }
+        "amount_text": "Hội đồng nhân dân cấp tỉnh quy định.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": null,
-        "currency": "VND",
-        "description": "Hội đồng nhân dân cấp tỉnh quy định.",
-        "attachment": {
-          "fileId": "019f6a2b-544b-76a1-9826-d8325f8528c1",
-          "fileName": "5.Nghị Quyết số 25 sửa đổi bổ sung NQ 21.pdf"
-        }
+        "amount_text": "Hội đồng nhân dân cấp tỉnh quy định.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": null,
-        "currency": "VND",
-        "description": "Hội đồng nhân dân cấp tỉnh quy định.",
-        "attachment": {
-          "fileId": "019f6a2b-5bde-7369-87d8-ded73d8dc1f4",
-          "fileName": "2.nghị Quyết 12 thu phí 0đ.pdf"
-        }
+        "amount_text": "Hội đồng nhân dân cấp tỉnh quy định.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "PRICE_LEVEL",
-        "amount": null,
-        "currency": "VND",
-        "description": "Hội đồng nhân dân cấp tỉnh quy định.",
-        "attachment": {
-          "fileId": "019f6a2b-6b3a-70f4-a393-8ee26c4c5a5d",
-          "fileName": "1.Quy định kèm theo Nghị quyết 21.pdf"
-        }
+        "amount_text": "Hội đồng nhân dân cấp tỉnh quy định.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": null,
-        "currency": "VND",
-        "description": "Hội đồng nhân dân cấp tỉnh quy định.",
-        "attachment": {
-          "fileId": "019f6a2b-c128-746b-8010-2b893b008ac7",
-          "fileName": "5.Nghị Quyết số 25 sửa đổi bổ sung NQ 21.pdf"
-        }
+        "amount_text": "Hội đồng nhân dân cấp tỉnh quy định.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": null,
-        "currency": "VND",
-        "description": "Hội đồng nhân dân cấp tỉnh quy định.",
-        "attachment": {
-          "fileId": "019f6a2b-d1d7-759e-82ed-d817289de69f",
-          "fileName": "2.nghị Quyết 12 thu phí 0đ.pdf"
-        }
+        "amount_text": "Hội đồng nhân dân cấp tỉnh quy định.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "PRICE_LEVEL",
-        "amount": null,
-        "currency": "VND",
-        "description": "Hội đồng nhân dân cấp tỉnh quy định.",
-        "attachment": {
-          "fileId": "019f6a2b-e769-74e8-9d37-7da8ac11739e",
-          "fileName": "1.Quy định kèm theo Nghị quyết 21.pdf"
-        }
+        "amount_text": "Hội đồng nhân dân cấp tỉnh quy định.",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -336,26 +174,22 @@
     {
       "title": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "254/2025/QH15",
-      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
-      "document_number": "31/2024/QH15 ",
-      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
-      "source_page": null
+      "document_number": "31/2024/QH15",
+      "source_page": 4
     },
     {
       "title": "Quy định về phân cấp trong lĩnh vực đất đai theo quy định tại khoản 1 Điều 14 và quy định trình tự, thủ tục hành chính quy định tại khoản 1 Điều 15 Nghị định số 49/2026/NĐ-CP ngày 31 tháng 01 năm 2026 của Chính phủ",
       "document_number": "28/2026/QĐ-UBND.",
-      "id": "019f593c-5bdc-768d-b687-a68492bac0e1",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "49/2026/NĐ-CP",
-      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "a) Trường hợp tại thời điểm cấp Giấy chứng nhận trước đây mà người sử\ndụng đất có giấy tờ về quyền sử dụng đất quy định tại Điều 137 Luật Đất đai thì\ndiện tích đất ở được xác định theo Giấy chứng nhận đã cấp, nếu người sử dụng\nđất có nhu cầu thì được xác định lại diện tích đất ở theo quy định tại khoản 6\nĐiều 141 Luật Đất đai, phần diện tích còn lại được xác định theo quy định tại\ncác điểm a, b và c khoản 4 Điều 141 Luật Đất đai;\nb) Trường hợp tại thời điểm cấp Giấy chứng nhận trước đây mà người sử\ndụng đất không có giấy tờ về quyền sử dụng đất quy định tại Điều 137 Luật Đất\nđai thì diện tích đất ở được xác định theo Giấy chứng nhận đã cấp, phần diện\ntích còn lại được xác định theo quy định tại các điểm a, b và c khoản 4 Điều 141\nLuật Đất đai.",
@@ -363,15 +197,14 @@
     {
       "title": "Giấy chứng nhận",
       "code": "H37.0010",
-      "id": "019f6907-2615-7422-9221-388a1b8b6bed",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "- Người yêu cầu đăng ký nộp hồ sơ trực tiếp hoặc thông qua dịch vụ bưu\nchính công ích hoặc trực tuyến đến Trung tâm Phục vụ hành chính công.\nKhi nộp các giấy tờ quy định, người yêu cầu đăng ký được lựa chọn nộp\nbản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối\nchiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng\nhoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường\nhợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản\nchính hoặc bản sao giấy tờ đã được công chứng, chứng thực theo quy định của\npháp luật.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết\nquả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các\ngiấy tờ thuộc thành phần hồ sơ theo quy định.\n- Cơ quan tiếp nhận hồ sơ thực hiện: kiểm tra tính đầy đủ của thành phần\nhồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\n+ Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu\ncầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung\ntheo quy định.\n+ Chuyển hồ sơ đến Chi nhánh Văn phòng đăng ký đất đai\n- Lấy ý kiến của Ủy ban nhân dân cấp xã nơi có đất về hiện trạng sử dụng\nđất, tình trạng tranh chấp đất đai;\n- Trường hợp đất không có tranh chấp và người sử dụng đất không có\ngiấy tờ về quyền sử dụng đất quy định tại Điều 137 Luật Đất đai hoặc có giấy tờ về quyền sử dụng đất quy định tại Điều 137 Luật Đất đai nhưng không có nhu\ncầu xác định lại diện tích đất ở thì Văn phòng đăng ký đất đai gửi Phiếu chuyển\nthông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 11 ban hành kèm\ntheo Quyết định số 28/2026/QĐ-UBND ngày 20 tháng 6 năm 2026 của Ủy ban\nnhân dân tỉnh Lạng Sơn đến cơ quan thuế để xác định và thông báo nghĩa vụ tài\nchính cho người sử dụng đất.\nKhi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy\ntờ chứng minh đã hoàn thành nghĩa vụ tài chính, Văn phòng đăng ký đất đai\nthực hiện việc cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản\ngắn liền với đất cho toàn bộ diện tích của thửa đất theo quy định tại Mục 1 Phần\nnày; - Trường hợp người sử dụng đất có nhu cầu xác định lại diện tích đất ở\ntheo quy định tại khoản 6 Điều 141 Luật Đất đai thì Chi nhánh Văn phòng đăng\nký đất đai kiểm tra hồ sơ cấp Giấy chứng nhận trước đây, nếu đủ điều kiện xác\nđịnh lại diện tích đất ở thì chuyển hồ sơ theo quy định kèm theo hồ sơ cấp Giấy\nchứng nhận trước đây đến cơ quan có chức năng quản lý đất đai cấp xã để thực\nhiện công việc quy định tại bước tiếp theo.\n- Xác định diện tích, loại đất theo quy định tại các điểm a, b và c khoản 4\nvà khoản 6 Điều 141 Luật Đất đai;\n- Gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai\ntheo Mẫu số 11 ban hành kèm theo Quyết định số 28/2026/QĐ-UBND ngày 20\ntháng 6 năm 2026 của Ủy ban nhân dân tỉnh Lạng Sơn đến cơ quan thuế để xác\nđịnh và thông báo thu nghĩa vụ tài chính cho người sử dụng đất;\n- Khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc\ngiấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính, cơ quan có chức năng\nquản lý đất đai cấp xã trình Chủ tịch Ủy ban nhân dân cấp xã ký Giấy chứng\nnhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất; chuyển hồ sơ và\nGiấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đã\ncấp đến Văn phòng đăng ký đất đai để chỉnh lý, cập nhật biến động vào hồ sơ\nđịa chính, cơ sở dữ liệu đất đai và trao Giấy chứng nhận quyền sử dụng đất,\nquyền sở hữu tài sản gắn liền với đất cho người được cấp.",
-    "THÀNH PHẦN HỒ SƠ": "\nMẫu số 24. Đơn đăng ký biến động đất đai, tài sản gắn liền với đất\nGiấy chứng nhận đã cấp",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: Không quá 15 ngày. - Nộp trực tiếp tại Trung tâm Phục vụ hành chính công cấp xã\nTrực tuyến: Không quá 15 ngày. - Nộp trực tuyến tại địa chỉ https://dichvucong.gov.vn\nQua dịch vụ bưu chính: Không quá 15 ngày. - Nộp thông qua dịch vụ bưu chính công ích.",
-    "CĂN CỨ PHÁP LÝ": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 254/2025/QH15\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15 \nQuy định về phân cấp trong lĩnh vực đất đai theo quy định tại khoản 1 Điều 14 và quy định trình tự, thủ tục hành chính quy định tại khoản 1 Điều 15 Nghị định số 49/2026/NĐ-CP ngày 31 tháng 01 năm 2026 của Chính phủ - 28/2026/QĐ-UBND.\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP",
+    "THÀNH PHẦN HỒ SƠ": "Mẫu số 24. Đơn đăng ký biến động đất đai, tài sản gắn liền với đất\nGiấy chứng nhận đã cấp",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: Không quá 15 ngày.\nTrực tuyến: Không quá 15 ngày.\nQua dịch vụ bưu chính: Không quá 15 ngày.",
+    "CĂN CỨ PHÁP LÝ": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 254/2025/QH15\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15\nQuy định về phân cấp trong lĩnh vực đất đai theo quy định tại khoản 1 Điều 14 và quy định trình tự, thủ tục hành chính quy định tại khoản 1 Điều 15 Nghị định số 49/2026/NĐ-CP ngày 31 tháng 01 năm 2026 của Chính phủ - 28/2026/QĐ-UBND.\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Phòng Kinh tế, Phòng Kinh tế, Hạ tầng và Đô thị",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "a) Trường hợp tại thời điểm cấp Giấy chứng nhận trước đây mà người sử\ndụng đất có giấy tờ về quyền sử dụng đất quy định tại Điều 137 Luật Đất đai thì\ndiện tích đất ở được xác định theo Giấy chứng nhận đã cấp, nếu người sử dụng\nđất có nhu cầu thì được xác định lại diện tích đất ở theo quy định tại khoản 6\nĐiều 141 Luật Đất đai, phần diện tích còn lại được xác định theo quy định tại\ncác điểm a, b và c khoản 4 Điều 141 Luật Đất đai;\nb) Trường hợp tại thời điểm cấp Giấy chứng nhận trước đây mà người sử\ndụng đất không có giấy tờ về quyền sử dụng đất quy định tại Điều 137 Luật Đất\nđai thì diện tích đất ở được xác định theo Giấy chứng nhận đã cấp, phần diện\ntích còn lại được xác định theo quy định tại các điểm a, b và c khoản 4 Điều 141\nLuật Đất đai.",
     "KẾT QUẢ XỬ LÝ": "Giấy chứng nhận - H37.0010",
@@ -379,14 +212,9 @@
     "MÔ TẢ": "a) Trường hợp tại thời điểm cấp Giấy chứng nhận trước đây mà người sử\ndụng đất có giấy tờ về quyền sử dụng đất quy định tại Điều 137 Luật Đất đai thì\ndiện tích đất ở được xác định theo Giấy chứng nhận đã cấp, nếu người sử dụng\nđất có nhu cầu thì được xác định lại diện tích đất ở theo quy định tại khoản 6\nĐiều 141 Luật Đất đai, phần diện tích còn lại được xác định theo quy định tại\ncác điểm a, b và c khoản 4 Điều 141 Luật Đất đai;\nb) Trường hợp tại thời điểm cấp Giấy chứng nhận trước đây mà người sử\ndụng đất không có giấy tờ về quyền sử dụng đất quy định tại Điều 137 Luật Đất\nđai thì diện tích đất ở được xác định theo Giấy chứng nhận đã cấp, phần diện\ntích còn lại được xác định theo quy định tại các điểm a, b và c khoản 4 Điều 141\nLuật Đất đai."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đất đai",
-      "slug": "dat-dai"
+      "slug": "at-ai"
     },
     "implementation_levels": [
       {
@@ -407,13 +235,13 @@
       },
       {
         "name": "Phòng Kinh tế, Hạ tầng và Đô thị",
-        "slug": "phong-kinh-te-ha-tang-va-do-thi"
+        "slug": "phong-kinh-te-ha-tang-va-o-thi"
       },
       {
         "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực",
-        "slug": "chi-nhanh-van-phong-dang-ky-dat-dai-khu-vuc"
+        "slug": "chi-nhanh-van-phong-ang-ky-at-ai-khu-vuc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "non_territorial"
   }
 }

@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf9-f976-73dd-a730-7077f36f7ed3",
   "procedure_code": "2.002352",
   "title": "Thủ tục cấp hộ chiếu ngoại giao, hộ chiếu công vụ tại cơ quan trong nước của Bộ Ngoại giao",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf9-f976-73dd-a730-7077f36f7ed3",
     "source_file": "chi-tiet-thu-tuc-2.002352.pdf",
     "source_path": "procedures/cu-tru-va-giay-to-tuy-than/2.002352/chi-tiet-thu-tuc-2.002352.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:22:22.140575+00:00",
-    "source_updated_at": "2026-04-14T14:22:27.583Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:55:44.131314+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "eeeb1dce27eb51ace6a0cea22b8be44addcc50caf6571c6767f523df21158618"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:22.140575+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2401/QĐ-BNG",
   "implementation_level": "Cấp bộ, Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Công tác lãnh sự",
   "target_users": [
@@ -37,102 +32,69 @@
   ],
   "agency": {
     "competent_agency": "Bộ Ngoại giao",
-    "executing_agency": "Sở Ngoại vụ Thành phố Hồ Chí Minh - Bộ Ngoại giao, Cục Lãnh sự - Bộ Ngoại giao",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Bộ phận tiếp nhận bao gồm:\n- Bộ phận Một cửa của Bộ Ngoại giao tại số 40 Trần Phú, phường Ba Đình, Hà Nội\n- Sở Ngoại vụ TP.HCM tại số 6 Alexandre De Rhodes, phường Sài Gòn, TP.HCM"
+    "executing_agency": "Sở Ngoại vụ Thành phố Hồ Chí Minh - Bộ Ngoại giao, Cục Lãnh sự - Bộ Ngoại giao"
   },
   "steps": [
     {
       "order": 1,
       "title": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao",
-      "description": "a.\tBước 1: Tổ chức, cá nhân chuẩn bị hồ sơ theo quy định và nộp hồ sơ tại Bộ phận tiếp nhận.\nb.\tBước 2: Bộ phận tiếp nhận kiểm tra tính hợp lệ, đầy đủ của hồ sơ:\n-\tTrường hợp hồ sơ không thuộc phạm vi giải quyết, Bộ phận tiếp nhận hướng dẫn tổ chức, cá nhân liên hệ với cơ quan có thẩm quyền để giải quyết theo quy định. \n-\tTrường hợp hồ sơ chưa hợp lệ, chưa đầy đủ, Bộ phận tiếp nhận hướng dẫn tổ chức, cá nhân bổ sung, hoàn thiện hồ sơ theo quy định và trả lại hồ sơ kèm “Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ”. Việc yêu cầu bổ sung, hoàn thiện hồ sơ phải cụ thể, đầy đủ một lần để tổ chức, cá nhân bổ sung đầy đủ, chính xác. Thời hạn giải quyết TTHC được tính từ ngày hồ sơ được bổ sung, hoàn thiện đầy đủ theo quy định.\n-\tTrường hợp hồ sơ không đủ điều kiện giải quyết theo quy định, Bộ phận tiếp nhận từ chối nhận hồ sơ và trả lại hồ sơ kèm “Phiếu từ chối tiếp nhận giải quyết hồ sơ” cho tổ chức, cá nhân.\n-\tTrường hợp hồ sơ hợp lệ, đủ điều kiện giải quyết, Bộ phận tiếp nhận tiến hành nhận hồ sơ, in “Giấy tiếp nhận hồ sơ và hẹn trả kết quả” và chuyển hồ sơ đến Đơn vị chuyên môn để giải quyết theo thẩm quyền.\nc.\tBước 3: Đơn vị chuyên môn giải quyết và trả kết quả cho Bộ phận tiếp nhận theo quy định: \n-\tTrường hợp hồ sơ phải bổ sung, hoàn thiện theo quy định, Đơn vị chuyên môn phải thông báo bằng văn bản, ghi rõ lý do, nội dung cần bổ sung theo mẫu “Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ” để gửi cho tổ chức, cá nhân thông qua Bộ phận tiếp nhận. Việc yêu cầu bổ sung, hoàn thiện hồ sơ chỉ được thực hiện một (01) lần. Thời hạn giải quyết TTHC được tính lại từ đầu, sau khi nhận đầy đủ hồ sơ.\n-\tTrường hợp không thể trả kết quả đúng thời hạn hoặc hồ sơ phải xin ý kiến của cấp/cơ quan có thẩm quyền liên quan, Đơn vị chuyên môn phải thông báo bằng văn bản cho Bộ phận tiếp nhận và gửi văn bản xin lỗi tổ chức, cá nhân, trong đó ghi rõ lý do quá hạn và thời gian sẽ trả kết quả theo mẫu “Phiếu xin lỗi và hẹn lại ngày trả kết quả”. Việc hẹn lại ngày trả kết quả được thực hiện không quá một (01) lần.\n-\tTrường hợp hồ sơ không đủ điều kiện giải quyết, Đơn vị chuyên môn trả lại hồ sơ, kèm văn bản nêu rõ lý do không giải quyết hồ sơ theo mẫu “Phiếu từ chối tiếp nhận giải quyết hồ sơ” để gửi cho tổ chức, cá nhân thông qua Bộ phận tiếp nhận. \n-\tTrường hợp hồ sơ đủ điều kiện giải quyết, Đơn vị chuyên môn giải quyết và trả kết quả cho Bộ phận tiếp nhận đúng thời gian quy định.\nd.\tBước 4: Sau khi nhận kết quả giải quyết TTHC từ Đơn vị chuyên môn, Bộ phận tiếp nhận kiểm tra lại các thông tin và trả kết quả cho tổ chức, cá nhân. \nTrường hợp hồ sơ không đủ điều kiện giải quyết, Bộ phận tiếp nhận giải thích rõ cho tổ chức, cá nhân về lý do từ chối giải quyết hồ sơ theo nội dung trong “Phiếu từ chối tiếp nhận giải quyết hồ sơ” của Đơn vị chuyên môn.\n",
+      "description": "a.\tBước 1: Tổ chức, cá nhân chuẩn bị hồ sơ theo quy định và nộp hồ sơ tại Bộ phận tiếp nhận.\nb.\tBước 2: Bộ phận tiếp nhận kiểm tra tính hợp lệ, đầy đủ của hồ sơ:\n-\tTrường hợp hồ sơ không thuộc phạm vi giải quyết, Bộ phận tiếp nhận hướng dẫn tổ chức, cá nhân liên hệ với cơ quan có thẩm quyền để giải quyết theo quy định. \n-\tTrường hợp hồ sơ chưa hợp lệ, chưa đầy đủ, Bộ phận tiếp nhận hướng dẫn tổ chức, cá nhân bổ sung, hoàn thiện hồ sơ theo quy định và trả lại hồ sơ kèm “Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ”. Việc yêu cầu bổ sung, hoàn thiện hồ sơ phải cụ thể, đầy đủ một lần để tổ chức, cá nhân bổ sung đầy đủ, chính xác. Thời hạn giải quyết TTHC được tính từ ngày hồ sơ được bổ sung, hoàn thiện đầy đủ theo quy định.\n-\tTrường hợp hồ sơ không đủ điều kiện giải quyết theo quy định, Bộ phận tiếp nhận từ chối nhận hồ sơ và trả lại hồ sơ kèm “Phiếu từ chối tiếp nhận giải quyết hồ sơ” cho tổ chức, cá nhân.\n-\tTrường hợp hồ sơ hợp lệ, đủ điều kiện giải quyết, Bộ phận tiếp nhận tiến hành nhận hồ sơ, in “Giấy tiếp nhận hồ sơ và hẹn trả kết quả” và chuyển hồ sơ đến Đơn vị chuyên môn để giải quyết theo thẩm quyền.\nc.\tBước 3: Đơn vị chuyên môn giải quyết và trả kết quả cho Bộ phận tiếp nhận theo quy định: \n-\tTrường hợp hồ sơ phải bổ sung, hoàn thiện theo quy định, Đơn vị chuyên môn phải thông báo bằng văn bản, ghi rõ lý do, nội dung cần bổ sung theo mẫu “Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ” để gửi cho tổ chức, cá nhân thông qua Bộ phận tiếp nhận. Việc yêu cầu bổ sung, hoàn thiện hồ sơ chỉ được thực hiện một (01) lần. Thời hạn giải quyết TTHC được tính lại từ đầu, sau khi nhận đầy đủ hồ sơ.\n-\tTrường hợp không thể trả kết quả đúng thời hạn hoặc hồ sơ phải xin ý kiến của cấp/cơ quan có thẩm quyền liên quan, Đơn vị chuyên môn phải thông báo bằng văn bản cho Bộ phận tiếp nhận và gửi văn bản xin lỗi tổ chức, cá nhân, trong đó ghi rõ lý do quá hạn và thời gian sẽ trả kết quả theo mẫu “Phiếu xin lỗi và hẹn lại ngày trả kết quả”. Việc hẹn lại ngày trả kết quả được thực hiện không quá một (01) lần.\n-\tTrường hợp hồ sơ không đủ điều kiện giải quyết, Đơn vị chuyên môn trả lại hồ sơ, kèm văn bản nêu rõ lý do không giải quyết hồ sơ theo mẫu “Phiếu từ chối tiếp nhận giải quyết hồ sơ” để gửi cho tổ chức, cá nhân thông qua Bộ phận tiếp nhận. \n-\tTrường hợp hồ sơ đủ điều kiện giải quyết, Đơn vị chuyên môn giải quyết và trả kết quả cho Bộ phận tiếp nhận đúng thời gian quy định.\nd.\tBước 4: Sau khi nhận kết quả giải quyết TTHC từ Đơn vị chuyên môn, Bộ phận tiếp nhận kiểm tra lại các thông tin và trả kết quả cho tổ chức, cá nhân. \nTrường hợp hồ sơ không đủ điều kiện giải quyết, Bộ phận tiếp nhận giải thích rõ cho tổ chức, cá nhân về lý do từ chối giải quyết hồ sơ theo nội dung trong “Phiếu từ chối tiếp nhận giải quyết hồ sơ” của Đơn vị chuyên môn.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "- Tờ khai đề nghị cấp, gia hạn hộ chiếu ngoại giao, hộ chiếu công vụ và công hàm đề nghị phía nước ngoài cấp thị thực. (theo Mẫu 01/2023/LS-XNC ban hành kèm theo Thông tư số 06/2023/TT-BNG ngày 26/12/2023 của Bộ trưởng Bộ Ngoại giao hoặc tờ khai điện tử                  (có mã vạch) được in từ Cổng dịch vụ công của Bộ Ngoại giao tại địa chỉ http://dichvucong.mofa.gov.vn)",
-        "code": "000.00.00.G08-KQ000700",
+        "name": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao: - Tờ khai đề nghị cấp, gia hạn hộ chiếu ngoại giao, hộ chiếu công vụ và công hàm đề nghị phía nước ngoài cấp thị thực. (theo Mẫu 01/2023/LS-XNC ban hành kèm theo Thông tư số 06/2023/TT-BNG ngày 26/12/2023 của Bộ trưởng Bộ Ngoại giao hoặc tờ khai điện tử                  (có mã vạch) được in từ Cổng dịch vụ công của Bộ Ngoại giao tại địa chỉ http://dichvucong.mofa.gov.vn)",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao ",
-        "attachments": [
-          {
-            "id": "019d8c5e-e71f-7179-8a43-25a52b8e220b",
-            "name": "Mẫu 01 TT 08.2025.pdf",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu 01 TT 08.2025.pdf",
+        "source_page": 3
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "- 02 ảnh giống nhau, cỡ 4cm x 6cm, nền màu trắng, đầu để trần, không đeo kính màu, chụp không quá 01 năm (01 ảnh dán vào Tờ khai và 01 ảnh đính kèm).",
-        "code": "000.00.00.G08-KQ000701",
+        "name": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao: - 02 ảnh giống nhau, cỡ 4cm x 6cm, nền màu trắng, đầu để trần, không đeo kính màu, chụp không quá 01 năm (01 ảnh dán vào Tờ khai và 01 ảnh đính kèm).",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- 01 bản chụp Căn cước công dân hoặc Giấy chứng minh sỹ quan đối với lực lượng vũ trang (xuất trình bản chính để đối chiếu).",
-        "code": "000.00.00.G08-KQ000703",
+        "name": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao: - 01 bản chụp Căn cước công dân hoặc Giấy chứng minh sỹ quan đối với lực lượng vũ trang (xuất trình bản chính để đối chiếu).",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "+ 01 bản chụp Giấy khai sinh hoặc Bản sao trích lục khai sinh hoặc Giấy chứng nhận việc nuôi con nuôi đối với con dưới 18 tuổi (xuất trình bản chính để đối chiếu). Trong trường hợp điều kiện kỹ thuật cho phép, Bộ phận tiếp nhận thực hiện khai thác, đối chiếu thông tin liên quan từ Cơ sở dữ liệu hộ tịch điện tử và không yêu cầu người đề nghị nộp thành phần hồ sơ này.",
-        "code": "000.00.00.G08-KQ000702",
+        "name": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao: + 01 bản chụp Giấy khai sinh hoặc Bản sao trích lục khai sinh hoặc Giấy chứng nhận việc nuôi con nuôi đối với con dưới 18 tuổi (xuất trình bản chính để đối chiếu). Trong trường hợp điều kiện kỹ thuật cho phép, Bộ phận tiếp nhận thực hiện khai thác, đối chiếu thông tin liên quan từ Cơ sở dữ liệu hộ tịch điện tử và không yêu cầu người đề nghị nộp thành phần hồ sơ này.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- 01 bản chính văn bản cử hoặc cho phép cán bộ, công chức, viên chức quản lý, sỹ quan, quân nhân chuyên nghiệp đi nước ngoài.",
-        "code": "000.00.00.G08-KQ000705",
+        "name": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao: - 01 bản chính văn bản cử hoặc cho phép cán bộ, công chức, viên chức quản lý, sỹ quan, quân nhân chuyên nghiệp đi nước ngoài.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Giấy giới thiệu của cơ quan, tổ chức đối với trường hợp người đại diện nộp thay và xuất trình giấy tờ tùy thân để đối chiếu.",
-        "code": "000.00.00.G08-KQ0544",
+        "name": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao: Giấy giới thiệu của cơ quan, tổ chức đối với trường hợp người đại diện nộp thay và xuất trình giấy tờ tùy thân để đối chiếu.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Hộ chiếu ngoại giao hoặc hộ chiếu công vụ cấp lần gần nhất. Trường hợp mất hộ chiếu thì nộp 01 bản chính văn bản thông báo mất hộ chiếu Cơ quan quản lý hộ chiếu.",
-        "code": "000.00.00.G08-KQ0534",
+        "name": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao: Hộ chiếu ngoại giao hoặc hộ chiếu công vụ cấp lần gần nhất. Trường hợp mất hộ chiếu thì nộp 01 bản chính văn bản thông báo mất hộ chiếu Cơ quan quản lý hộ chiếu.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Trường hợp đề nghị cấp hộ chiếu ngoại giao, hộ chiếu công vụ theo quy định tại Khoản 15 Điều 8 và Khoản 6 Điều 9 Luật Xuất cảnh, nhập cảnh của công dân Việt Nam thì cần bổ sung 01 bản chính văn bản đề nghị gửi Bộ Ngoại giao của cơ quan có thẩm quyền quy định tại Điều 11 Luật Xuất cảnh, nhập cảnh của công dân Việt Nam.",
-        "code": "000.00.00.G08-KQ0535",
+        "name": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao: Trường hợp đề nghị cấp hộ chiếu ngoại giao, hộ chiếu công vụ theo quy định tại Khoản 15 Điều 8 và Khoản 6 Điều 9 Luật Xuất cảnh, nhập cảnh của công dân Việt Nam thì cần bổ sung 01 bản chính văn bản đề nghị gửi Bộ Ngoại giao của cơ quan có thẩm quyền quy định tại Điều 11 Luật Xuất cảnh, nhập cảnh của công dân Việt Nam.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -141,156 +103,79 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 100000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Áp dụng đến hết ngày 31/12/2026 đối với cấp mới",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 200000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Áp dụng đến hết ngày 31/12/2026 đối với cấp lại do hỏng hoặc bị mất",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 200000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Áp dụng từ 01/01/2027 nếu không có quy định khác đối với cấp mới",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 200000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Áp dụng từ 01/01/2027 nếu không có quy định khác đối với cấp lại do hỏng hoặc bị mất",
-          "attachment": null
-        }
-      ],
+      "fee": "Áp dụng đến hết ngày 31/12/2026 đối với cấp mới; Áp dụng đến hết ngày 31/12/2026 đối với cấp lại do hỏng hoặc bị mất; Áp dụng từ 01/01/2027 nếu không có quy định khác đối với cấp mới; Áp dụng từ 01/01/2027 nếu không có quy định khác đối với cấp lại do hỏng hoặc bị mất",
       "description": "- Trực tiếp nộp hồ sơ và nhận kết quả tại Bộ phận Một cửa của Bộ Ngoại giao.\n- Trực tiếp nộp hồ sơ và nhận kết quả tại S ở Ngoại vụ TP. Hồ Chí Minh.\n- Nộp hồ sơ và nhận kết quả tại C ơ quan Ngoại vụ địa phương các tỉnh, thành phố trực thuộc Trung ương theo hướng dẫn và địa điểm công bố của các Cơ quan Ngoại vụ địa phương.",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 100000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Áp dụng đến hết ngày 31/12/2026 đối với cấp mới",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 200000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Áp dụng đến hết ngày 31/12/2026 đối với cấp lại do hỏng hoặc bị mất",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 200000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Áp dụng từ 01/01/2027 nếu không có quy định khác đối với cấp mới",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 400000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Áp dụng từ 01/01/2027 nếu không có quy định khác đối với cấp lại do hỏng hoặc bị mất",
-          "attachment": null
-        }
-      ],
+      "fee": "Áp dụng đến hết ngày 31/12/2026 đối với cấp mới; Áp dụng đến hết ngày 31/12/2026 đối với cấp lại do hỏng hoặc bị mất; Áp dụng từ 01/01/2027 nếu không có quy định khác đối với cấp mới; Áp dụng từ 01/01/2027 nếu không có quy định khác đối với cấp lại do hỏng hoặc bị mất",
       "description": "Theo hướng dẫn của Bộ Ngoại giao",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Áp dụng đến hết ngày 31/12/2026 đối với cấp mới; Áp dụng đến hết ngày 31/12/2026 đối với cấp lại do hỏng hoặc bị mất; Áp dụng từ 01/01/2027 nếu không có quy định khác đối với cấp mới; Áp dụng từ 01/01/2027 nếu không có quy định khác đối với cấp lại do hỏng hoặc bị mất",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 100000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Áp dụng đến hết ngày 31/12/2026 đối với cấp mới",
-        "attachment": null
+        "amount_text": "Áp dụng đến hết ngày 31/12/2026 đối với cấp mới",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 200000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Áp dụng đến hết ngày 31/12/2026 đối với cấp lại do hỏng hoặc bị mất",
-        "attachment": null
+        "amount_text": "Áp dụng đến hết ngày 31/12/2026 đối với cấp lại do hỏng hoặc bị mất",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 200000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Áp dụng từ 01/01/2027 nếu không có quy định khác đối với cấp mới",
-        "attachment": null
+        "amount_text": "Áp dụng từ 01/01/2027 nếu không có quy định khác đối với cấp mới",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 200000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Áp dụng từ 01/01/2027 nếu không có quy định khác đối với cấp lại do hỏng hoặc bị mất",
-        "attachment": null
+        "amount_text": "Áp dụng từ 01/01/2027 nếu không có quy định khác đối với cấp lại do hỏng hoặc bị mất",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 100000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Áp dụng đến hết ngày 31/12/2026 đối với cấp mới",
-        "attachment": null
+        "amount_text": "Áp dụng đến hết ngày 31/12/2026 đối với cấp mới",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 200000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Áp dụng đến hết ngày 31/12/2026 đối với cấp lại do hỏng hoặc bị mất",
-        "attachment": null
+        "amount_text": "Áp dụng đến hết ngày 31/12/2026 đối với cấp lại do hỏng hoặc bị mất",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 200000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Áp dụng từ 01/01/2027 nếu không có quy định khác đối với cấp mới",
-        "attachment": null
+        "amount_text": "Áp dụng từ 01/01/2027 nếu không có quy định khác đối với cấp mới",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 400000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Áp dụng từ 01/01/2027 nếu không có quy định khác đối với cấp lại do hỏng hoặc bị mất",
-        "attachment": null
+        "amount_text": "Áp dụng từ 01/01/2027 nếu không có quy định khác đối với cấp lại do hỏng hoặc bị mất",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -298,56 +183,47 @@
     {
       "title": "Thông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân",
       "document_number": "64/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-69cce97f8824",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "QUY ĐỊNH MỨC THU, CHẾ ĐỘ THU, NỘP, QUẢN LÝ VÀ SỬ DỤNG PHÍ, LỆ PHÍ TRONG LĨNH VỰC XUẤT CẢNH, NHẬP CẢNH, QUÁ CẢNH, CƯ TRÚ TẠI VIỆT NAM",
       "document_number": "25/2021/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4b-fbb10e115bac",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư số 02/2017/TT-VPCP",
       "document_number": "02/2017/TT-VPCP",
-      "id": "019d2bb3-5d85-73da-8eb7-c896c5a64fd7",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư 06/2023/TT-BNG sửa đổi, bổ sung một số điều của Thông tư số 01/2011/TT-BNG ngày 20 tháng 6 năm 2011 của Bộ Ngoại giao Quy định thủ tục cấp giấy phép nhập cảnh thi hài, hài cốt, tro cốt về Việt Nam; Thông tư số 02/2011/TT-BNG ngày 27 tháng 6 năm 2011 của Bộ Ngoại giao Hướng dẫn thủ tục đăng ký công dân Việt Nam ở nước ngoài; Thông tư số 04/2020/TT-BNG ngày 25 tháng 9 năm 2020 Hướng dẫn việc cấp, gia hạn, hủy giá trị sử dụng hộ chiếu ngoại giao, hộ chiếu công vụ và cấp công hàm đề nghị phía nước ngoài cấp thị thực.",
       "document_number": "Thông tư 06/2023/TT-BNG",
-      "id": "019d2bb3-5d7c-71ab-9f08-66b609744fce",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư 04/2020/TT-BNG",
       "document_number": "04/2020/TT-BNG",
-      "id": "019d2bb3-5d86-7760-a639-59616fe314c7",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư số 08/2025/TT-BNG ngày 13/6/2025 của Bộ trưởng B ộ Ngoại giao hướng dẫn việc cấp, gia hạn, thu hồi, hủy giá trị sử dụng hộ chiếu ngoại giao, hộ chiếu công v ụ và cấp công hàm hỗ trợ xin thị thực.",
       "document_number": "08/2025/TT-BNG",
-      "id": "019d8c52-fa19-72b6-9f15-6fd4d23bc3d5",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực xuất cảnh, nhập cảnh, quá cảnh, cư trú tại Việt Nam",
       "document_number": "219/2016/TT-BTC",
-      "id": "019d2bb3-5d7b-7049-8fc6-673526419815",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật Xuất cảnh, nhập cảnh của công dân Việt Nam và Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam sửa đổi 2023",
       "document_number": "23/2023/QH15",
-      "id": "019d2bb3-5d86-7760-a645-08dd5ede9baf",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật 49/2019/QH14",
       "document_number": "49/2019/QH14",
-      "id": "019d2bb3-5d87-7195-a442-1fc2d8d3cd84",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "- Cơ quan, người có thẩm quyền cử người mang hộ chiếu ngoại giao, hộ chiếu công vụ đi công tác nước ngoài: quy định tại Điều 11 Luật Xuất cảnh, nhập cảnh của công dân Việt Nam năm 2019; sửa đổi, bổ sung năm 2023.\n- Văn bản cử hoặc cho phép cán bộ, công chức, viên chức quản lý, sỹ quan, quân nhân chuyên nghiệp đi nước ngoài: quy định tại Điều 4 Thông tư số 08/2025/TT-BNG ngày 13/6/2025 của B ộ trưởng Bộ Ngoại giao hướng dẫn việc cấp, gia hạn, thu hồi, hủy giá trị sử dụng hộ chiếu ngoại giao, hộ chiếu công vụ và cấp công hàm hỗ trợ xin thị thực.\n- Văn bản ủy quyền hoặc cho phép đ i công tác nước ngoài đáp ứng quy định tại Điều 5 Thông tư số 08/2025/TT-BNG ngày 13/6/2025 của Bộ trưởng Bộ Ngoại giao hướng dẫn việc cấp, gia hạn, thu hồi, hủy giá trị sử dụng hộ chiếu ngoại giao, hộ chiếu công vụ và cấp công hàm hỗ trợ xin thị thực.\n- Người thuộc diện được cấp hộ chiếu ngoại giao, hộ chiếu công vụ quy định tại các Điều 8 và 9 của Luật Xuất cảnh, nhập cảnh của công dân Việt Nam.",
@@ -355,14 +231,13 @@
     {
       "title": "Hộ chiếu ngoại giao hoặc hộ chiếu công vụ (không gắn chip điện tử hoặc có gắn chip điện tử theo lựa chọn của người đề nghị) có thời hạn từ 01 - 05 năm",
       "code": "KQ.G08.000051",
-      "id": "019d2bb2-1c4b-710f-bf4e-39ddf855cc38",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "a.\tBước 1: Tổ chức, cá nhân chuẩn bị hồ sơ theo quy định và nộp hồ sơ tại Bộ phận tiếp nhận.\nb.\tBước 2: Bộ phận tiếp nhận kiểm tra tính hợp lệ, đầy đủ của hồ sơ:\n-\tTrường hợp hồ sơ không thuộc phạm vi giải quyết, Bộ phận tiếp nhận hướng dẫn tổ chức, cá nhân liên hệ với cơ quan có thẩm quyền để giải quyết theo quy định. \n-\tTrường hợp hồ sơ chưa hợp lệ, chưa đầy đủ, Bộ phận tiếp nhận hướng dẫn tổ chức, cá nhân bổ sung, hoàn thiện hồ sơ theo quy định và trả lại hồ sơ kèm “Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ”. Việc yêu cầu bổ sung, hoàn thiện hồ sơ phải cụ thể, đầy đủ một lần để tổ chức, cá nhân bổ sung đầy đủ, chính xác. Thời hạn giải quyết TTHC được tính từ ngày hồ sơ được bổ sung, hoàn thiện đầy đủ theo quy định.\n-\tTrường hợp hồ sơ không đủ điều kiện giải quyết theo quy định, Bộ phận tiếp nhận từ chối nhận hồ sơ và trả lại hồ sơ kèm “Phiếu từ chối tiếp nhận giải quyết hồ sơ” cho tổ chức, cá nhân.\n-\tTrường hợp hồ sơ hợp lệ, đủ điều kiện giải quyết, Bộ phận tiếp nhận tiến hành nhận hồ sơ, in “Giấy tiếp nhận hồ sơ và hẹn trả kết quả” và chuyển hồ sơ đến Đơn vị chuyên môn để giải quyết theo thẩm quyền.\nc.\tBước 3: Đơn vị chuyên môn giải quyết và trả kết quả cho Bộ phận tiếp nhận theo quy định: \n-\tTrường hợp hồ sơ phải bổ sung, hoàn thiện theo quy định, Đơn vị chuyên môn phải thông báo bằng văn bản, ghi rõ lý do, nội dung cần bổ sung theo mẫu “Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ” để gửi cho tổ chức, cá nhân thông qua Bộ phận tiếp nhận. Việc yêu cầu bổ sung, hoàn thiện hồ sơ chỉ được thực hiện một (01) lần. Thời hạn giải quyết TTHC được tính lại từ đầu, sau khi nhận đầy đủ hồ sơ.\n-\tTrường hợp không thể trả kết quả đúng thời hạn hoặc hồ sơ phải xin ý kiến của cấp/cơ quan có thẩm quyền liên quan, Đơn vị chuyên môn phải thông báo bằng văn bản cho Bộ phận tiếp nhận và gửi văn bản xin lỗi tổ chức, cá nhân, trong đó ghi rõ lý do quá hạn và thời gian sẽ trả kết quả theo mẫu “Phiếu xin lỗi và hẹn lại ngày trả kết quả”. Việc hẹn lại ngày trả kết quả được thực hiện không quá một (01) lần.\n-\tTrường hợp hồ sơ không đủ điều kiện giải quyết, Đơn vị chuyên môn trả lại hồ sơ, kèm văn bản nêu rõ lý do không giải quyết hồ sơ theo mẫu “Phiếu từ chối tiếp nhận giải quyết hồ sơ” để gửi cho tổ chức, cá nhân thông qua Bộ phận tiếp nhận. \n-\tTrường hợp hồ sơ đủ điều kiện giải quyết, Đơn vị chuyên môn giải quyết và trả kết quả cho Bộ phận tiếp nhận đúng thời gian quy định.\nd.\tBước 4: Sau khi nhận kết quả giải quyết TTHC từ Đơn vị chuyên môn, Bộ phận tiếp nhận kiểm tra lại các thông tin và trả kết quả cho tổ chức, cá nhân. \nTrường hợp hồ sơ không đủ điều kiện giải quyết, Bộ phận tiếp nhận giải thích rõ cho tổ chức, cá nhân về lý do từ chối giải quyết hồ sơ theo nội dung trong “Phiếu từ chối tiếp nhận giải quyết hồ sơ” của Đơn vị chuyên môn.\n",
-    "THÀNH PHẦN HỒ SƠ": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao \n- 02 ảnh giống nhau, cỡ 4cm x 6cm, nền màu trắng, đầu để trần, không đeo kính màu, chụp không quá 01 năm (01 ảnh dán vào Tờ khai và 01 ảnh đính kèm).\n- 01 bản chụp Căn cước công dân hoặc Giấy chứng minh sỹ quan đối với lực lượng vũ trang (xuất trình bản chính để đối chiếu).\n+ 01 bản chụp Giấy khai sinh hoặc Bản sao trích lục khai sinh hoặc Giấy chứng nhận việc nuôi con nuôi đối với con dưới 18 tuổi (xuất trình bản chính để đối chiếu). Trong trường hợp điều kiện kỹ thuật cho phép, Bộ phận tiếp nhận thực hiện khai thác, đối chiếu thông tin liên quan từ Cơ sở dữ liệu hộ tịch điện tử và không yêu cầu người đề nghị nộp thành phần hồ sơ này.\n- Tờ khai đề nghị cấp, gia hạn hộ chiếu ngoại giao, hộ chiếu công vụ và công hàm đề nghị phía nước ngoài cấp thị thực. (theo Mẫu 01/2023/LS-XNC ban hành kèm theo Thông tư số 06/2023/TT-BNG ngày 26/12/2023 của Bộ trưởng Bộ Ngoại giao hoặc tờ khai điện tử                  (có mã vạch) được in từ Cổng dịch vụ công của Bộ Ngoại giao tại địa chỉ http://dichvucong.mofa.gov.vn)\n- 01 bản chính văn bản cử hoặc cho phép cán bộ, công chức, viên chức quản lý, sỹ quan, quân nhân chuyên nghiệp đi nước ngoài.\nGiấy giới thiệu của cơ quan, tổ chức đối với trường hợp người đại diện nộp thay và xuất trình giấy tờ tùy thân để đối chiếu.\nHộ chiếu ngoại giao hoặc hộ chiếu công vụ cấp lần gần nhất. Trường hợp mất hộ chiếu thì nộp 01 bản chính văn bản thông báo mất hộ chiếu Cơ quan quản lý hộ chiếu.\nTrường hợp đề nghị cấp hộ chiếu ngoại giao, hộ chiếu công vụ theo quy định tại Khoản 15 Điều 8 và Khoản 6 Điều 9 Luật Xuất cảnh, nhập cảnh của công dân Việt Nam thì cần bổ sung 01 bản chính văn bản đề nghị gửi Bộ Ngoại giao của cơ quan có thẩm quyền quy định tại Điều 11 Luật Xuất cảnh, nhập cảnh của công dân Việt Nam.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 5 ngày làm việc - - Trực tiếp nộp hồ sơ và nhận kết quả tại Bộ phận Một cửa của Bộ Ngoại giao.\n- Trực tiếp nộp hồ sơ và nhận kết quả tại S ở Ngoại vụ TP. Hồ Chí Minh.\n- Nộp hồ sơ và nhận kết quả tại C ơ quan Ngoại vụ địa phương các tỉnh, thành phố trực thuộc Trung ương theo hướng dẫn và địa điểm công bố của các Cơ quan Ngoại vụ địa phương.\nTrực tuyến: 5 ngày làm việc - Theo hướng dẫn của Bộ Ngoại giao",
+    "TRÌNH TỰ THỰC HIỆN": "a.\tBước 1: Tổ chức, cá nhân chuẩn bị hồ sơ theo quy định và nộp hồ sơ tại Bộ phận tiếp nhận.\nb.\tBước 2: Bộ phận tiếp nhận kiểm tra tính hợp lệ, đầy đủ của hồ sơ:\n-\tTrường hợp hồ sơ không thuộc phạm vi giải quyết, Bộ phận tiếp nhận hướng dẫn tổ chức, cá nhân liên hệ với cơ quan có thẩm quyền để giải quyết theo quy định. \n-\tTrường hợp hồ sơ chưa hợp lệ, chưa đầy đủ, Bộ phận tiếp nhận hướng dẫn tổ chức, cá nhân bổ sung, hoàn thiện hồ sơ theo quy định và trả lại hồ sơ kèm “Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ”. Việc yêu cầu bổ sung, hoàn thiện hồ sơ phải cụ thể, đầy đủ một lần để tổ chức, cá nhân bổ sung đầy đủ, chính xác. Thời hạn giải quyết TTHC được tính từ ngày hồ sơ được bổ sung, hoàn thiện đầy đủ theo quy định.\n-\tTrường hợp hồ sơ không đủ điều kiện giải quyết theo quy định, Bộ phận tiếp nhận từ chối nhận hồ sơ và trả lại hồ sơ kèm “Phiếu từ chối tiếp nhận giải quyết hồ sơ” cho tổ chức, cá nhân.\n-\tTrường hợp hồ sơ hợp lệ, đủ điều kiện giải quyết, Bộ phận tiếp nhận tiến hành nhận hồ sơ, in “Giấy tiếp nhận hồ sơ và hẹn trả kết quả” và chuyển hồ sơ đến Đơn vị chuyên môn để giải quyết theo thẩm quyền.\nc.\tBước 3: Đơn vị chuyên môn giải quyết và trả kết quả cho Bộ phận tiếp nhận theo quy định: \n-\tTrường hợp hồ sơ phải bổ sung, hoàn thiện theo quy định, Đơn vị chuyên môn phải thông báo bằng văn bản, ghi rõ lý do, nội dung cần bổ sung theo mẫu “Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ” để gửi cho tổ chức, cá nhân thông qua Bộ phận tiếp nhận. Việc yêu cầu bổ sung, hoàn thiện hồ sơ chỉ được thực hiện một (01) lần. Thời hạn giải quyết TTHC được tính lại từ đầu, sau khi nhận đầy đủ hồ sơ.\n-\tTrường hợp không thể trả kết quả đúng thời hạn hoặc hồ sơ phải xin ý kiến của cấp/cơ quan có thẩm quyền liên quan, Đơn vị chuyên môn phải thông báo bằng văn bản cho Bộ phận tiếp nhận và gửi văn bản xin lỗi tổ chức, cá nhân, trong đó ghi rõ lý do quá hạn và thời gian sẽ trả kết quả theo mẫu “Phiếu xin lỗi và hẹn lại ngày trả kết quả”. Việc hẹn lại ngày trả kết quả được thực hiện không quá một (01) lần.\n-\tTrường hợp hồ sơ không đủ điều kiện giải quyết, Đơn vị chuyên môn trả lại hồ sơ, kèm văn bản nêu rõ lý do không giải quyết hồ sơ theo mẫu “Phiếu từ chối tiếp nhận giải quyết hồ sơ” để gửi cho tổ chức, cá nhân thông qua Bộ phận tiếp nhận. \n-\tTrường hợp hồ sơ đủ điều kiện giải quyết, Đơn vị chuyên môn giải quyết và trả kết quả cho Bộ phận tiếp nhận đúng thời gian quy định.\nd.\tBước 4: Sau khi nhận kết quả giải quyết TTHC từ Đơn vị chuyên môn, Bộ phận tiếp nhận kiểm tra lại các thông tin và trả kết quả cho tổ chức, cá nhân. \nTrường hợp hồ sơ không đủ điều kiện giải quyết, Bộ phận tiếp nhận giải thích rõ cho tổ chức, cá nhân về lý do từ chối giải quyết hồ sơ theo nội dung trong “Phiếu từ chối tiếp nhận giải quyết hồ sơ” của Đơn vị chuyên môn.",
+    "THÀNH PHẦN HỒ SƠ": "Cấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao: - Tờ khai đề nghị cấp, gia hạn hộ chiếu ngoại giao, hộ chiếu công vụ và công hàm đề nghị phía nước ngoài cấp thị thực. (theo Mẫu 01/2023/LS-XNC ban hành kèm theo Thông tư số 06/2023/TT-BNG ngày 26/12/2023 của Bộ trưởng Bộ Ngoại giao hoặc tờ khai điện tử                  (có mã vạch) được in từ Cổng dịch vụ công của Bộ Ngoại giao tại địa chỉ http://dichvucong.mofa.gov.vn)\nCấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao: - 02 ảnh giống nhau, cỡ 4cm x 6cm, nền màu trắng, đầu để trần, không đeo kính màu, chụp không quá 01 năm (01 ảnh dán vào Tờ khai và 01 ảnh đính kèm).\nCấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao: - 01 bản chụp Căn cước công dân hoặc Giấy chứng minh sỹ quan đối với lực lượng vũ trang (xuất trình bản chính để đối chiếu).\nCấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao: + 01 bản chụp Giấy khai sinh hoặc Bản sao trích lục khai sinh hoặc Giấy chứng nhận việc nuôi con nuôi đối với con dưới 18 tuổi (xuất trình bản chính để đối chiếu). Trong trường hợp điều kiện kỹ thuật cho phép, Bộ phận tiếp nhận thực hiện khai thác, đối chiếu thông tin liên quan từ Cơ sở dữ liệu hộ tịch điện tử và không yêu cầu người đề nghị nộp thành phần hồ sơ này.\nCấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao: - 01 bản chính văn bản cử hoặc cho phép cán bộ, công chức, viên chức quản lý, sỹ quan, quân nhân chuyên nghiệp đi nước ngoài.\nCấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao: Giấy giới thiệu của cơ quan, tổ chức đối với trường hợp người đại diện nộp thay và xuất trình giấy tờ tùy thân để đối chiếu.\nCấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao: Hộ chiếu ngoại giao hoặc hộ chiếu công vụ cấp lần gần nhất. Trường hợp mất hộ chiếu thì nộp 01 bản chính văn bản thông báo mất hộ chiếu Cơ quan quản lý hộ chiếu.\nCấp hộ chiếu ngoại giao, hộ chiếu công vụ (không gắn chip điện tử) tại cơ quan trong nước của Bộ Ngoại giao: Trường hợp đề nghị cấp hộ chiếu ngoại giao, hộ chiếu công vụ theo quy định tại Khoản 15 Điều 8 và Khoản 6 Điều 9 Luật Xuất cảnh, nhập cảnh của công dân Việt Nam thì cần bổ sung 01 bản chính văn bản đề nghị gửi Bộ Ngoại giao của cơ quan có thẩm quyền quy định tại Điều 11 Luật Xuất cảnh, nhập cảnh của công dân Việt Nam.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 5 ngày làm việc\nTrực tuyến: 5 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Thông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân - 64/2025/TT-BTC\nQUY ĐỊNH MỨC THU, CHẾ ĐỘ THU, NỘP, QUẢN LÝ VÀ SỬ DỤNG PHÍ, LỆ PHÍ TRONG LĨNH VỰC XUẤT CẢNH, NHẬP CẢNH, QUÁ CẢNH, CƯ TRÚ TẠI VIỆT NAM - 25/2021/TT-BTC\nThông tư số 02/2017/TT-VPCP - 02/2017/TT-VPCP\nThông tư 06/2023/TT-BNG sửa đổi, bổ sung một số điều của Thông tư số 01/2011/TT-BNG ngày 20 tháng 6 năm 2011 của Bộ Ngoại giao Quy định thủ tục cấp giấy phép nhập cảnh thi hài, hài cốt, tro cốt về Việt Nam; Thông tư số 02/2011/TT-BNG ngày 27 tháng 6 năm 2011 của Bộ Ngoại giao Hướng dẫn thủ tục đăng ký công dân Việt Nam ở nước ngoài; Thông tư số 04/2020/TT-BNG ngày 25 tháng 9 năm 2020 Hướng dẫn việc cấp, gia hạn, hủy giá trị sử dụng hộ chiếu ngoại giao, hộ chiếu công vụ và cấp công hàm đề nghị phía nước ngoài cấp thị thực. - Thông tư 06/2023/TT-BNG\nThông tư 04/2020/TT-BNG - 04/2020/TT-BNG\nThông tư số 08/2025/TT-BNG ngày 13/6/2025 của Bộ trưởng B ộ Ngoại giao hướng dẫn việc cấp, gia hạn, thu hồi, hủy giá trị sử dụng hộ chiếu ngoại giao, hộ chiếu công v ụ và cấp công hàm hỗ trợ xin thị thực. - 08/2025/TT-BNG\nQuy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực xuất cảnh, nhập cảnh, quá cảnh, cư trú tại Việt Nam - 219/2016/TT-BTC\nLuật Xuất cảnh, nhập cảnh của công dân Việt Nam và Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam sửa đổi 2023 - 23/2023/QH15\nLuật 49/2019/QH14 - 49/2019/QH14",
     "CƠ QUAN THỰC HIỆN": "Sở Ngoại vụ Thành phố Hồ Chí Minh - Bộ Ngoại giao, Cục Lãnh sự - Bộ Ngoại giao",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "- Cơ quan, người có thẩm quyền cử người mang hộ chiếu ngoại giao, hộ chiếu công vụ đi công tác nước ngoài: quy định tại Điều 11 Luật Xuất cảnh, nhập cảnh của công dân Việt Nam năm 2019; sửa đổi, bổ sung năm 2023.\n- Văn bản cử hoặc cho phép cán bộ, công chức, viên chức quản lý, sỹ quan, quân nhân chuyên nghiệp đi nước ngoài: quy định tại Điều 4 Thông tư số 08/2025/TT-BNG ngày 13/6/2025 của B ộ trưởng Bộ Ngoại giao hướng dẫn việc cấp, gia hạn, thu hồi, hủy giá trị sử dụng hộ chiếu ngoại giao, hộ chiếu công vụ và cấp công hàm hỗ trợ xin thị thực.\n- Văn bản ủy quyền hoặc cho phép đ i công tác nước ngoài đáp ứng quy định tại Điều 5 Thông tư số 08/2025/TT-BNG ngày 13/6/2025 của Bộ trưởng Bộ Ngoại giao hướng dẫn việc cấp, gia hạn, thu hồi, hủy giá trị sử dụng hộ chiếu ngoại giao, hộ chiếu công vụ và cấp công hàm hỗ trợ xin thị thực.\n- Người thuộc diện được cấp hộ chiếu ngoại giao, hộ chiếu công vụ quy định tại các Điều 8 và 9 của Luật Xuất cảnh, nhập cảnh của công dân Việt Nam.",
@@ -371,11 +246,6 @@
     "MÔ TẢ": "- Cơ quan, người có thẩm quyền cử người mang hộ chiếu ngoại giao, hộ chiếu công vụ đi công tác nước ngoài: quy định tại Điều 11 Luật Xuất cảnh, nhập cảnh của công dân Việt Nam năm 2019; sửa đổi, bổ sung năm 2023.\n- Văn bản cử hoặc cho phép cán bộ, công chức, viên chức quản lý, sỹ quan, quân nhân chuyên nghiệp đi nước ngoài: quy định tại Điều 4 Thông tư số 08/2025/TT-BNG ngày 13/6/2025 của B ộ trưởng Bộ Ngoại giao hướng dẫn việc cấp, gia hạn, thu hồi, hủy giá trị sử dụng hộ chiếu ngoại giao, hộ chiếu công vụ và cấp công hàm hỗ trợ xin thị thực.\n- Văn bản ủy quyền hoặc cho phép đ i công tác nước ngoài đáp ứng quy định tại Điều 5 Thông tư số 08/2025/TT-BNG ngày 13/6/2025 của Bộ trưởng Bộ Ngoại giao hướng dẫn việc cấp, gia hạn, thu hồi, hủy giá trị sử dụng hộ chiếu ngoại giao, hộ chiếu công vụ và cấp công hàm hỗ trợ xin thị thực.\n- Người thuộc diện được cấp hộ chiếu ngoại giao, hộ chiếu công vụ quy định tại các Điều 8 và 9 của Luật Xuất cảnh, nhập cảnh của công dân Việt Nam."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Cư trú và giấy tờ tùy thân",
-      "slug": "cu-tru-va-giay-to-tuy-than",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Công tác lãnh sự",
       "slug": "cong-tac-lanh-su"
@@ -410,6 +280,6 @@
         "slug": "cuc-lanh-su-bo-ngoai-giao"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

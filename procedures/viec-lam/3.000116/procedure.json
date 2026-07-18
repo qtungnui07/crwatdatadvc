@@ -1,36 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfd-08dd-71d8-b216-1e9cbb44bc34",
   "procedure_code": "3.000116",
   "title": "Thủ tục hoàn trả các khoản thu ngân sách nhà nước qua KBNN",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-08dd-71d8-b216-1e9cbb44bc34",
     "source_file": "chi-tiet-thu-tuc-3.000116.pdf",
     "source_path": "procedures/viec-lam/3.000116/chi-tiet-thu-tuc-3.000116.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:23.224014+00:00",
-    "source_updated_at": "2026-04-08T08:19:20.560Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:33.785706+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "535fac7e16aa7658f12a4acdf75abb68b8cca660285f144f2ca5281572952e85"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:23.224014+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "4488/QĐ-BTC",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "OTHER",
   "sector": "Kho bạc Nhà nước",
   "target_users": [
@@ -38,25 +31,22 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Kho bạc nhà nước các cấp",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Kho bạc nhà nước các cấp"
   },
   "steps": [
     {
       "order": 1,
       "title": "Trường hợp hoàn trả bằng tiền mặt tại KBNN",
-      "description": "-KBNN nhận lệnh hoàn trả khoản thu ngân sách nhà nước từ cơ quan nhà nước có thẩm quyền quyết định hoàn trả chuyển đến.\n- Cá nhân mang theo chứng minh nhân dân hoặc giấy chứng minh, chứng nhận của lực lượng vũ trang hoặc thẻ căn cước công dân hoặc hộ chiếu và giấy ủy quyền nhận tiền hoàn trả của người được hoàn trả các khoản thu ngân sách nhà nước (đối với trường hợp ủy quyền) đến KBNN để thực hiện thủ tục nhận tiền hoàn trả.\n-KBNN kiểm tra tính hợp pháp, hợp lệ của lệnh hoàn trả khoản thu ngân sách nhà nước; đối chiếu với các thông tin trên chứng minh nhân dân hoặc giấy chứng minh, chứng nhận của lực lượng vũ trang hoặc thẻ căn cước công dân hoặc hộ chiếu và giấy ủy quyền nhận tiền hoàn trả của người được hoàn trả các khoản thu ngân sách nhà nước (đối với trường hợp ủy quyền) để thực hiện hoàn trả.\n",
+      "description": "-KBNN nhận lệnh hoàn trả khoản thu ngân sách nhà nước từ cơ quan nhà nước có thẩm quyền quyết định hoàn trả chuyển đến.\n- Cá nhân mang theo chứng minh nhân dân hoặc giấy chứng minh, chứng nhận của lực lượng vũ trang hoặc thẻ căn cước công dân hoặc hộ chiếu và giấy ủy quyền nhận tiền hoàn trả của người được hoàn trả các khoản thu ngân sách nhà nước (đối với trường hợp ủy quyền) đến KBNN để thực hiện thủ tục nhận tiền hoàn trả.\n-KBNN kiểm tra tính hợp pháp, hợp lệ của lệnh hoàn trả khoản thu ngân sách nhà nước; đối chiếu với các thông tin trên chứng minh nhân dân hoặc giấy chứng minh, chứng nhận của lực lượng vũ trang hoặc thẻ căn cước công dân hoặc hộ chiếu và giấy ủy quyền nhận tiền hoàn trả của người được hoàn trả các khoản thu ngân sách nhà nước (đối với trường hợp ủy quyền) để thực hiện hoàn trả.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "Trường hợp hoàn trả theo phương thức thanh toán không dùng tiền mặt",
-      "description": "-KBNN nhận lệnh hoàn trả khoản thu ngân sách nhà nước hoặc lệnh hoàn trả kiêm bù trừ thu ngân sách nhà nước do cơ quan nhà nước có thẩm quyền quyết định hoàn trả chuyển đến.\n-KBNN kiểm tra tính hợp pháp, hợp lệ của lệnh hoàn trả khoản thu ngân sách nhà nước hoặc lệnh hoàn trả kiêm bù trừ thu ngân sách nhà nước; thực hiện hạch toán hoàn trả, hạch toán bù trừ thu ngân sách nhà nước và chuyển tiền hoàn trả các khoản thu ngân sách nhà nước vào tài khoản của người nộp ngân sách nhà nước theo thông tin do cơ quan nhà nước có thẩm quyền quyết định hoàn trả chuyển đến.\n",
+      "description": "-KBNN nhận lệnh hoàn trả khoản thu ngân sách nhà nước hoặc lệnh hoàn trả kiêm bù trừ thu ngân sách nhà nước do cơ quan nhà nước có thẩm quyền quyết định hoàn trả chuyển đến.\n-KBNN kiểm tra tính hợp pháp, hợp lệ của lệnh hoàn trả khoản thu ngân sách nhà nước hoặc lệnh hoàn trả kiêm bù trừ thu ngân sách nhà nước; thực hiện hạch toán hoàn trả, hạch toán bù trừ thu ngân sách nhà nước và chuyển tiền hoàn trả các khoản thu ngân sách nhà nước vào tài khoản của người nộp ngân sách nhà nước theo thông tin do cơ quan nhà nước có thẩm quyền quyết định hoàn trả chuyển đến.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
@@ -64,31 +54,22 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "Chứng minh nhân dân hoặc giấy chứng minh, chứng nhận của lực lượng vũ trang hoặc thẻ căn cước công dân hoặc hộ chiếu còn hạn sử dụng xuất trình tại Kho bạc Nhà nước khi làm thủ tục",
-        "code": "000.00.00.G12-KQ011084",
+        "name": "Trường hợp hoàn trả bằng tiền mặt trực tiếp tại KBNN cho cá nhân: Chứng minh nhân dân hoặc giấy chứng minh, chứng nhận của lực lượng vũ trang hoặc thẻ căn cước công dân hoặc hộ chiếu còn hạn sử dụng xuất trình tại Kho bạc Nhà nước khi làm thủ tục",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp hoàn trả bằng tiền mặt trực tiếp tại KBNN cho cá nhân",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Bản chính hoặc bản sao y bản chính giấy ủy quyền nhận tiền hoàn trả của người được hoàn trả các khoản thu ngân sách nhà nước (đối với trường hợp ủy quyền).",
-        "code": "000.00.00.G12-KQ011085",
+        "name": "Trường hợp hoàn trả bằng tiền mặt trực tiếp tại KBNN cho cá nhân: Bản chính hoặc bản sao y bản chính giấy ủy quyền nhận tiền hoàn trả của người được hoàn trả các khoản thu ngân sách nhà nước (đối với trường hợp ủy quyền).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp hoàn trả bằng tiền mặt trực tiếp tại KBNN cho cá nhân",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Kho bạc Nhà nước thực hiện hoàn trả vào tài khoản của người được hoàn trả theo lệnh hoàn trả của cơ quan nhà nước có thẩm quyền quyết định hoàn trả",
-        "code": "000.00.00.G12-KQ011086",
+        "name": "Trường hợp hoàn trả qua tài khoản của người được hoàn trả: Kho bạc Nhà nước thực hiện hoàn trả vào tài khoản của người được hoàn trả theo lệnh hoàn trả của cơ quan nhà nước có thẩm quyền quyết định hoàn trả",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp hoàn trả qua tài khoản của người được hoàn trả",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -97,60 +78,37 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "1 ngày",
-      "processing_time_value": 1,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Không",
-          "attachment": null
-        }
-      ],
+      "fee": "Không",
       "description": "",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1 giờ",
-      "processing_time_value": 1,
-      "processing_time_unit": "HOUR",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Không",
-          "attachment": null
-        }
-      ],
+      "fee": "Không",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "free",
+    "summary": "Không",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Không",
-        "attachment": null
+        "amount_text": "Không",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Không",
-        "attachment": null
+        "amount_text": "Không",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -158,8 +116,7 @@
     {
       "title": "QUY ĐỊNH VỀ MẪU THẺ, TRÌNH TỰ, THỦ TỤC CẤP MỚI, CẤP LẠI THẺ GIÁM ĐỊNH VIÊN TƯ PHÁP",
       "document_number": "11/2020/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe8-bc7231a7bf09",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -167,19 +124,17 @@
     {
       "title": "Chứng từ hoàn trả thu ngân sách nhà nước của KBNN có chữ ký xác nhận đã nhận đủ tiền của người nhận tiền",
       "code": "KQ.G12.000099",
-      "id": "019d2bb2-1c70-724b-96dd-1a58d811fe59",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "KBNN hoặc ngân hàng hoặc tổ chức cung ứng dịch vụ trung gian thanh toán báo Có cho tổ chức, cá nhân được hoàn trả các khoản thu ngân sách nhà nước",
       "code": "KQ.G12.001328",
-      "id": "019d2bb2-1c73-70ac-aa18-72d151c5ba8e",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "-KBNN nhận lệnh hoàn trả khoản thu ngân sách nhà nước từ cơ quan nhà nước có thẩm quyền quyết định hoàn trả chuyển đến.\n- Cá nhân mang theo chứng minh nhân dân hoặc giấy chứng minh, chứng nhận của lực lượng vũ trang hoặc thẻ căn cước công dân hoặc hộ chiếu và giấy ủy quyền nhận tiền hoàn trả của người được hoàn trả các khoản thu ngân sách nhà nước (đối với trường hợp ủy quyền) đến KBNN để thực hiện thủ tục nhận tiền hoàn trả.\n-KBNN kiểm tra tính hợp pháp, hợp lệ của lệnh hoàn trả khoản thu ngân sách nhà nước; đối chiếu với các thông tin trên chứng minh nhân dân hoặc giấy chứng minh, chứng nhận của lực lượng vũ trang hoặc thẻ căn cước công dân hoặc hộ chiếu và giấy ủy quyền nhận tiền hoàn trả của người được hoàn trả các khoản thu ngân sách nhà nước (đối với trường hợp ủy quyền) để thực hiện hoàn trả.\n\n-KBNN nhận lệnh hoàn trả khoản thu ngân sách nhà nước hoặc lệnh hoàn trả kiêm bù trừ thu ngân sách nhà nước do cơ quan nhà nước có thẩm quyền quyết định hoàn trả chuyển đến.\n-KBNN kiểm tra tính hợp pháp, hợp lệ của lệnh hoàn trả khoản thu ngân sách nhà nước hoặc lệnh hoàn trả kiêm bù trừ thu ngân sách nhà nước; thực hiện hạch toán hoàn trả, hạch toán bù trừ thu ngân sách nhà nước và chuyển tiền hoàn trả các khoản thu ngân sách nhà nước vào tài khoản của người nộp ngân sách nhà nước theo thông tin do cơ quan nhà nước có thẩm quyền quyết định hoàn trả chuyển đến.\n",
-    "THÀNH PHẦN HỒ SƠ": "Trường hợp hoàn trả bằng tiền mặt trực tiếp tại KBNN cho cá nhân\nChứng minh nhân dân hoặc giấy chứng minh, chứng nhận của lực lượng vũ trang hoặc thẻ căn cước công dân hoặc hộ chiếu còn hạn sử dụng xuất trình tại Kho bạc Nhà nước khi làm thủ tục\nBản chính hoặc bản sao y bản chính giấy ủy quyền nhận tiền hoàn trả của người được hoàn trả các khoản thu ngân sách nhà nước (đối với trường hợp ủy quyền).\nTrường hợp hoàn trả qua tài khoản của người được hoàn trả\nKho bạc Nhà nước thực hiện hoàn trả vào tài khoản của người được hoàn trả theo lệnh hoàn trả của cơ quan nhà nước có thẩm quyền quyết định hoàn trả",
+    "TRÌNH TỰ THỰC HIỆN": "-KBNN nhận lệnh hoàn trả khoản thu ngân sách nhà nước từ cơ quan nhà nước có thẩm quyền quyết định hoàn trả chuyển đến.\n- Cá nhân mang theo chứng minh nhân dân hoặc giấy chứng minh, chứng nhận của lực lượng vũ trang hoặc thẻ căn cước công dân hoặc hộ chiếu và giấy ủy quyền nhận tiền hoàn trả của người được hoàn trả các khoản thu ngân sách nhà nước (đối với trường hợp ủy quyền) đến KBNN để thực hiện thủ tục nhận tiền hoàn trả.\n-KBNN kiểm tra tính hợp pháp, hợp lệ của lệnh hoàn trả khoản thu ngân sách nhà nước; đối chiếu với các thông tin trên chứng minh nhân dân hoặc giấy chứng minh, chứng nhận của lực lượng vũ trang hoặc thẻ căn cước công dân hoặc hộ chiếu và giấy ủy quyền nhận tiền hoàn trả của người được hoàn trả các khoản thu ngân sách nhà nước (đối với trường hợp ủy quyền) để thực hiện hoàn trả.\n-KBNN nhận lệnh hoàn trả khoản thu ngân sách nhà nước hoặc lệnh hoàn trả kiêm bù trừ thu ngân sách nhà nước do cơ quan nhà nước có thẩm quyền quyết định hoàn trả chuyển đến.\n-KBNN kiểm tra tính hợp pháp, hợp lệ của lệnh hoàn trả khoản thu ngân sách nhà nước hoặc lệnh hoàn trả kiêm bù trừ thu ngân sách nhà nước; thực hiện hạch toán hoàn trả, hạch toán bù trừ thu ngân sách nhà nước và chuyển tiền hoàn trả các khoản thu ngân sách nhà nước vào tài khoản của người nộp ngân sách nhà nước theo thông tin do cơ quan nhà nước có thẩm quyền quyết định hoàn trả chuyển đến.",
+    "THÀNH PHẦN HỒ SƠ": "Trường hợp hoàn trả bằng tiền mặt trực tiếp tại KBNN cho cá nhân: Chứng minh nhân dân hoặc giấy chứng minh, chứng nhận của lực lượng vũ trang hoặc thẻ căn cước công dân hoặc hộ chiếu còn hạn sử dụng xuất trình tại Kho bạc Nhà nước khi làm thủ tục\nTrường hợp hoàn trả bằng tiền mặt trực tiếp tại KBNN cho cá nhân: Bản chính hoặc bản sao y bản chính giấy ủy quyền nhận tiền hoàn trả của người được hoàn trả các khoản thu ngân sách nhà nước (đối với trường hợp ủy quyền).\nTrường hợp hoàn trả qua tài khoản của người được hoàn trả: Kho bạc Nhà nước thực hiện hoàn trả vào tài khoản của người được hoàn trả theo lệnh hoàn trả của cơ quan nhà nước có thẩm quyền quyết định hoàn trả",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 1 ngày\nTrực tiếp: 1 giờ",
     "CĂN CỨ PHÁP LÝ": "QUY ĐỊNH VỀ MẪU THẺ, TRÌNH TỰ, THỦ TỤC CẤP MỚI, CẤP LẠI THẺ GIÁM ĐỊNH VIÊN TƯ PHÁP - 11/2020/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Kho bạc nhà nước các cấp",
@@ -189,11 +144,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Kho bạc Nhà nước",
       "slug": "kho-bac-nha-nuoc"
@@ -228,6 +178,6 @@
         "slug": "kho-bac-nha-nuoc-cac-cap"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfe-133c-73d1-8a02-7f61b196c313",
   "procedure_code": "1.001765",
   "title": "Cấp Giấy chứng nhận giáo viên dạy thực hành lái xe",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-133c-73d1-8a02-7f61b196c313",
     "source_file": "chi-tiet-thu-tuc-1.001765.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.001765/chi-tiet-thu-tuc-1.001765.pdf",
     "page_count": 10,
-    "extracted_at": "2026-07-18T02:21:59.798558+00:00",
-    "source_updated_at": "2026-07-03T07:42:53.157Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:38.180859+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "44baca98b966bcf321b5a7f8b0ea4b3fac81872fe34703825e63b5841b5a6e50"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:59.798558+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "891/QĐ-BXD",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đường bộ",
   "target_users": [
@@ -42,10 +38,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Xây dựng",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Xây dựng"
   },
   "steps": [
     {
@@ -53,86 +46,56 @@
       "title": "Nộp TTHC",
       "description": "- Cá nhân có nhu cầu cấp giấy chứng nhận giáo viên dạy thực hành lái xe lần đầu đăng ký với cơ sở đào tạo lái xe để được tập huấn về nghiệp vụ theo quy định;\n- Cơ sở đào tạo có văn bản đề nghị kiểm tra cấp giấy chứng nhận giáo viên dạy thực hành lái xe gửi Trung tâm Phục vụ hành chính công cấp tỉnh, cấp xã bằng hình thức trực tiếp hoặc qua dịch vụ bưu chính hoặc trực tuyến qua cổng dịch vụ công quốc gia.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "Giải quyết TTHC",
       "description": "- Trong thời hạn không quá 02 ngày làm việc kể từ ngày kết thúc chương trình tập huấn, cơ sở đào tạo có văn bản đề nghị kiểm tra cấp giấy chứng nhận giáo viên dạy thực hành lái xe và hồ sơ của cá nhân tham dự tập huấn gửi Trung tâm Phục vụ hành chính công cấp tỉnh, cấp xã bằng hình thức trực tiếp hoặc qua dịch vụ bưu chính hoặc qua cổng dịch vụ công quốc gia.\nSở Xây dựng tiếp nhận danh sách do cơ sở đào tạo lập và hồ sơ cá nhân; trường hợp hồ sơ chưa đầy đủ, chính xác, trong thời hạn không quá 02 ngày làm việc (kể cả thời gian xác thực điện tử thông tin về giấy phép lái xe) phải có văn bản nêu rõ nội dung, lý do đề nghị cơ sở đào tạo lái xe bổ sung đầy đủ, chính xác; trường hợp hồ sơ đầy đủ, chính xác, trong thời hạn không quá 03 ngày làm việc (kể cả thời gian xác thực điện tử thông tin về giấy phép lái xe), phải tổ chức kiểm tra, đánh giá theo quy trình. \nTrường hợp cá nhân không đạt kết quả kiểm tra, Sở Xây dựng phải đăng tải kết quả trên Hệ thống thông tin giải quyết thủ tục chính cấp tỉnh, cấp xã.\nTrường hợp cá nhân đạt kết quả kiểm tra, trong thời hạn không quá 02 ngày làm việc, Sở Xây dựng cấp giấy chứng nhận giáo viên dạy thực hành lái xe và vào sổ theo dõi theo mẫu quy định.\nKết quả giải quyết thủ tục hành chính được trả bằng bản điện tử có giá trị như bản giấy bằng một trong các hình thức: qua VNeiD, Cổng Dịch vụ công quốc gia, Hệ thống thông tin giải quyết thủ tục chính cấp tỉnh, cấp xã; trường hợp cá nhân có nhu cầu nhận bản giấy thì được cấp bổ sung.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Đơn đề nghị cấp GCN GV thực hành LX mẫu NĐ94.2026",
-        "code": "TP-G17.000049",
+        "name": "- Cá nhân:: Đơn đề nghị cấp GCN GV thực hành LX mẫu NĐ94.2026",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Cá nhân:",
-        "attachments": [
-          {
-            "id": "019f1b70-97a7-74f2-81b0-eb01a020c55c",
-            "name": "G17.000049_TK1.001765_94.2026.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "G17.000049_TK1.001765_94.2026.docx",
+        "source_page": 2
       },
       {
-        "name": "Bằng tốt nghiệp trung cấp chuyên nghiệp hoặc trung cấp nghề trở lên (bản sao kèm bản chính để đối chiếu hoặc bản sao có chứng thực hoặc bản sao điện tử được chứng thực từ bản chính hoặc bản sao điện tử từ sổ gốc hoặc dữ liệu điện tử",
-        "code": "TP-G17.000050",
+        "name": "- Cá nhân:: Bằng tốt nghiệp trung cấp chuyên nghiệp hoặc trung cấp nghề trở lên (bản sao kèm bản chính để đối chiếu hoặc bản sao có chứng thực hoặc bản sao điện tử được chứng thực từ bản chính hoặc bản sao điện tử từ sổ gốc hoặc dữ liệu điện tử",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Cá nhân:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Văn bằng, chứng chỉ về trình độ nghiệp vụ sư phạm (bản sao kèm bản chính để đối chiếu hoặc bản sao có chứng thực hoặc bản sao điện tử được chứng thực từ bản chính hoặc bản sao điện tử từ sổ gốc hoặc dữ liệu điện tử); Trường hợp giấy tờ là bằng tốt nghiệp, văn bằng, chứng chỉ đã được tích hợp vào tài khoản định danh điện tử thì việc xuất trình, kiểm tra có thể thực hiện thông qua tài khoản định danh điện tử.",
-        "code": "TP-G17.000051",
+        "name": "- Cá nhân:: Văn bằng, chứng chỉ về trình độ nghiệp vụ sư phạm (bản sao kèm bản chính để đối chiếu hoặc bản sao có chứng thực hoặc bản sao điện tử được chứng thực từ bản chính hoặc bản sao điện tử từ sổ gốc hoặc dữ liệu điện tử); Trường hợp giấy tờ là bằng tốt nghiệp, văn bằng, chứng chỉ đã được tích hợp vào tài khoản định danh điện tử thì việc xuất trình, kiểm tra có thể thực hiện thông qua tài khoản định danh điện tử.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Cá nhân:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Văn bản đề nghị kiểm tra cấp giấy chứng nhận giáo viên _NĐ94.2026",
-        "code": "TP-G17.000052",
+        "name": "* Hồ sơ do Cơ sở đào tạo lái xe nộp:: Văn bản đề nghị kiểm tra cấp giấy chứng nhận giáo viên _NĐ94.2026",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ do Cơ sở đào tạo lái xe nộp:",
-        "attachments": [
-          {
-            "id": "019f1b70-fb03-7226-bc9d-75aff687854b",
-            "name": "G17.000052_TP_1.001765_94.2026.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "G17.000052_TP_1.001765_94.2026.docx",
+        "source_page": 3
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "01 ảnh màu cỡ 3 cm x 4 cm nền màu xanh, kiểu thẻ căn cước, được chụp trong thời gian không quá 06 tháng",
-        "code": "000.00.00.G04-KQ005056",
+        "name": "- Cá nhân:: 01 ảnh màu cỡ 3 cm x 4 cm nền màu xanh, kiểu thẻ căn cước, được chụp trong thời gian không quá 06 tháng",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Cá nhân:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Hồ sơ cá nhân",
-        "code": "000.00.00.G04-KQ005059",
+        "name": "* Hồ sơ do Cơ sở đào tạo lái xe nộp:: Hồ sơ cá nhân",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "* Hồ sơ do Cơ sở đào tạo lái xe nộp:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -141,94 +104,77 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "2 ngày làm việc",
-      "processing_time_value": 2,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Thời hạn Cơ sở đào tạo gửi đề nghị đến Sở Xây dựng: 02 ngày làm việc kể từ ngày kết thúc chương trình tập huấn",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Thời hạn Sở Xây dựng tổ chức kiểm tra, đánh giá: 03 ngày làm việc, kể từ khi nhận hồ sơ đầy đủ theo quy định.",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "2 ngày làm việc",
-      "processing_time_value": 2,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Thời hạn cấp giấy chứng nhận giáo viên dạy thực hành lái xe: 02 ngày làm việc, kể từ ngày đạt kết quả kiểm tra",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "2 ngày làm việc",
-      "processing_time_value": 2,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Thời hạn Cơ sở đào tạo gửi đề nghị đến Sở Xây dựng: 02 ngày làm việc kể từ ngày kết thúc chương trình tập huấn",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Thời hạn Sở Xây dựng tổ chức kiểm tra, đánh giá: 03 ngày làm việc, kể từ khi nhận hồ sơ đầy đủ theo quy định.",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "2 ngày làm việc",
-      "processing_time_value": 2,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Thời hạn cấp giấy chứng nhận giáo viên dạy thực hành lái xe: 02 ngày làm việc, kể từ ngày đạt kết quả kiểm tra.",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "2 ngày làm việc",
-      "processing_time_value": 2,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Thời hạn Cơ sở đào tạo gửi đề nghị đến Sở Xây dựng: 02 ngày làm việc kể từ ngày kết thúc chương trình tập huấn",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Thời hạn Sở Xây dựng tổ chức kiểm tra, đánh giá: 03 ngày làm việc, kể từ khi nhận hồ sơ đầy đủ theo quy định.",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "2 ngày làm việc",
-      "processing_time_value": 2,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Thời hạn cấp giấy chứng nhận giáo viên dạy thực hành lái xe: 02 ngày làm việc, kể từ ngày đạt kết quả kiểm tra.",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -237,8 +183,7 @@
     {
       "title": "Quy định hoạt động đào tạo và sát hạch lái xe",
       "document_number": "94/2026/NĐ-CP",
-      "id": "019f02c1-6a44-7041-b5f1-245cfe35310d",
-      "source_page": null
+      "source_page": 9
     }
   ],
   "conditions": "Đáp ứng tiêu chuẩn quy định tại Điều 10 Nghị định số 94/2026/NĐ-CP ngày 31/3/2026 của Chính phủ quy định về hoạt động đào tạo và sát hạch lái xe.",
@@ -246,14 +191,13 @@
     {
       "title": "Giấy chứng nhận giáo viên dạy thực hành lái xe",
       "code": "KQ.G04.000054",
-      "id": "019d2bb2-1c3b-735b-85a9-dd5243ffc3e9",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "- Cá nhân có nhu cầu cấp giấy chứng nhận giáo viên dạy thực hành lái xe lần đầu đăng ký với cơ sở đào tạo lái xe để được tập huấn về nghiệp vụ theo quy định;\n- Cơ sở đào tạo có văn bản đề nghị kiểm tra cấp giấy chứng nhận giáo viên dạy thực hành lái xe gửi Trung tâm Phục vụ hành chính công cấp tỉnh, cấp xã bằng hình thức trực tiếp hoặc qua dịch vụ bưu chính hoặc trực tuyến qua cổng dịch vụ công quốc gia.\n- Trong thời hạn không quá 02 ngày làm việc kể từ ngày kết thúc chương trình tập huấn, cơ sở đào tạo có văn bản đề nghị kiểm tra cấp giấy chứng nhận giáo viên dạy thực hành lái xe và hồ sơ của cá nhân tham dự tập huấn gửi Trung tâm Phục vụ hành chính công cấp tỉnh, cấp xã bằng hình thức trực tiếp hoặc qua dịch vụ bưu chính hoặc qua cổng dịch vụ công quốc gia.\nSở Xây dựng tiếp nhận danh sách do cơ sở đào tạo lập và hồ sơ cá nhân; trường hợp hồ sơ chưa đầy đủ, chính xác, trong thời hạn không quá 02 ngày làm việc (kể cả thời gian xác thực điện tử thông tin về giấy phép lái xe) phải có văn bản nêu rõ nội dung, lý do đề nghị cơ sở đào tạo lái xe bổ sung đầy đủ, chính xác; trường hợp hồ sơ đầy đủ, chính xác, trong thời hạn không quá 03 ngày làm việc (kể cả thời gian xác thực điện tử thông tin về giấy phép lái xe), phải tổ chức kiểm tra, đánh giá theo quy trình. \nTrường hợp cá nhân không đạt kết quả kiểm tra, Sở Xây dựng phải đăng tải kết quả trên Hệ thống thông tin giải quyết thủ tục chính cấp tỉnh, cấp xã.\nTrường hợp cá nhân đạt kết quả kiểm tra, trong thời hạn không quá 02 ngày làm việc, Sở Xây dựng cấp giấy chứng nhận giáo viên dạy thực hành lái xe và vào sổ theo dõi theo mẫu quy định.\nKết quả giải quyết thủ tục hành chính được trả bằng bản điện tử có giá trị như bản giấy bằng một trong các hình thức: qua VNeiD, Cổng Dịch vụ công quốc gia, Hệ thống thông tin giải quyết thủ tục chính cấp tỉnh, cấp xã; trường hợp cá nhân có nhu cầu nhận bản giấy thì được cấp bổ sung.",
-    "THÀNH PHẦN HỒ SƠ": "- Cá nhân:\n01 ảnh màu cỡ 3 cm x 4 cm nền màu xanh, kiểu thẻ căn cước, được chụp trong thời gian không quá 06 tháng\nĐơn đề nghị cấp GCN GV thực hành LX mẫu NĐ94.2026\nBằng tốt nghiệp trung cấp chuyên nghiệp hoặc trung cấp nghề trở lên (bản sao kèm bản chính để đối chiếu hoặc bản sao có chứng thực hoặc bản sao điện tử được chứng thực từ bản chính hoặc bản sao điện tử từ sổ gốc hoặc dữ liệu điện tử\nVăn bằng, chứng chỉ về trình độ nghiệp vụ sư phạm (bản sao kèm bản chính để đối chiếu hoặc bản sao có chứng thực hoặc bản sao điện tử được chứng thực từ bản chính hoặc bản sao điện tử từ sổ gốc hoặc dữ liệu điện tử); Trường hợp giấy tờ là bằng tốt nghiệp, văn bằng, chứng chỉ đã được tích hợp vào tài khoản định danh điện tử thì việc xuất trình, kiểm tra có thể thực hiện thông qua tài khoản định danh điện tử.\n* Hồ sơ do Cơ sở đào tạo lái xe nộp:\nHồ sơ cá nhân\nVăn bản đề nghị kiểm tra cấp giấy chứng nhận giáo viên _NĐ94.2026",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 2 ngày làm việc - Thời hạn Cơ sở đào tạo gửi đề nghị đến Sở Xây dựng: 02 ngày làm việc kể từ ngày kết thúc chương trình tập huấn\nTrực tiếp: 3 ngày làm việc - Thời hạn Sở Xây dựng tổ chức kiểm tra, đánh giá: 03 ngày làm việc, kể từ khi nhận hồ sơ đầy đủ theo quy định.\nTrực tiếp: 2 ngày làm việc - Thời hạn cấp giấy chứng nhận giáo viên dạy thực hành lái xe: 02 ngày làm việc, kể từ ngày đạt kết quả kiểm tra\nQua dịch vụ bưu chính: 2 ngày làm việc - Thời hạn Cơ sở đào tạo gửi đề nghị đến Sở Xây dựng: 02 ngày làm việc kể từ ngày kết thúc chương trình tập huấn\nQua dịch vụ bưu chính: 3 ngày làm việc - Thời hạn Sở Xây dựng tổ chức kiểm tra, đánh giá: 03 ngày làm việc, kể từ khi nhận hồ sơ đầy đủ theo quy định.\nQua dịch vụ bưu chính: 2 ngày làm việc - Thời hạn cấp giấy chứng nhận giáo viên dạy thực hành lái xe: 02 ngày làm việc, kể từ ngày đạt kết quả kiểm tra.\nTrực tuyến: 2 ngày làm việc - Thời hạn Cơ sở đào tạo gửi đề nghị đến Sở Xây dựng: 02 ngày làm việc kể từ ngày kết thúc chương trình tập huấn\nTrực tuyến: 3 ngày làm việc - Thời hạn Sở Xây dựng tổ chức kiểm tra, đánh giá: 03 ngày làm việc, kể từ khi nhận hồ sơ đầy đủ theo quy định.\nTrực tuyến: 2 ngày làm việc - Thời hạn cấp giấy chứng nhận giáo viên dạy thực hành lái xe: 02 ngày làm việc, kể từ ngày đạt kết quả kiểm tra.",
+    "THÀNH PHẦN HỒ SƠ": "- Cá nhân:: Đơn đề nghị cấp GCN GV thực hành LX mẫu NĐ94.2026\n- Cá nhân:: Bằng tốt nghiệp trung cấp chuyên nghiệp hoặc trung cấp nghề trở lên (bản sao kèm bản chính để đối chiếu hoặc bản sao có chứng thực hoặc bản sao điện tử được chứng thực từ bản chính hoặc bản sao điện tử từ sổ gốc hoặc dữ liệu điện tử\n- Cá nhân:: Văn bằng, chứng chỉ về trình độ nghiệp vụ sư phạm (bản sao kèm bản chính để đối chiếu hoặc bản sao có chứng thực hoặc bản sao điện tử được chứng thực từ bản chính hoặc bản sao điện tử từ sổ gốc hoặc dữ liệu điện tử); Trường hợp giấy tờ là bằng tốt nghiệp, văn bằng, chứng chỉ đã được tích hợp vào tài khoản định danh điện tử thì việc xuất trình, kiểm tra có thể thực hiện thông qua tài khoản định danh điện tử.\n* Hồ sơ do Cơ sở đào tạo lái xe nộp:: Văn bản đề nghị kiểm tra cấp giấy chứng nhận giáo viên _NĐ94.2026\n- Cá nhân:: 01 ảnh màu cỡ 3 cm x 4 cm nền màu xanh, kiểu thẻ căn cước, được chụp trong thời gian không quá 06 tháng\n* Hồ sơ do Cơ sở đào tạo lái xe nộp:: Hồ sơ cá nhân",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 2 ngày làm việc\nTrực tiếp: 3 ngày làm việc\nTrực tiếp: 2 ngày làm việc\nQua dịch vụ bưu chính: 2 ngày làm việc\nQua dịch vụ bưu chính: 3 ngày làm việc\nQua dịch vụ bưu chính: 2 ngày làm việc\nTrực tuyến: 2 ngày làm việc\nTrực tuyến: 3 ngày làm việc\nTrực tuyến: 2 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Quy định hoạt động đào tạo và sát hạch lái xe - 94/2026/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Sở Xây dựng",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Đáp ứng tiêu chuẩn quy định tại Điều 10 Nghị định số 94/2026/NĐ-CP ngày 31/3/2026 của Chính phủ quy định về hoạt động đào tạo và sát hạch lái xe.",
@@ -262,14 +206,9 @@
     "MÔ TẢ": "Đáp ứng tiêu chuẩn quy định tại Điều 10 Nghị định số 94/2026/NĐ-CP ngày 31/3/2026 của Chính phủ quy định về hoạt động đào tạo và sát hạch lái xe."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đường bộ",
-      "slug": "duong-bo"
+      "slug": "uong-bo"
     },
     "implementation_levels": [
       {
@@ -284,7 +223,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -308,7 +247,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -317,6 +256,6 @@
         "slug": "so-xay-dung"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf8-2b0a-716b-9bd1-5c2eda04726b",
   "procedure_code": "2.000334",
   "title": "Điều chỉnh tăng diện tích cơ sở bán lẻ thứ nhất trong trung tâm thương mại; tăng diện dích cơ sở bán lẻ ngoài cơ sở bán lẻ thứ nhất được lập trong trung tâm thương mại và không thuộc loại hình cửa hàng tiện lợi, siêu thị mini, đến mức dưới 500m2",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-2b0a-716b-9bd1-5c2eda04726b",
     "source_file": "chi-tiet-thu-tuc-2.000334.pdf",
     "source_path": "procedures/viec-lam/2.000334/chi-tiet-thu-tuc-2.000334.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:20.378119+00:00",
-    "source_updated_at": "2026-04-16T06:44:19.642Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:08.167513+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "d69c761ee4e249cf35c38c5656c6b4bc56f0d4a7ea1265cf810d9714e5b66a42"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:20.378119+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2866/QĐ-BCT",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Thương mại quốc tế",
   "target_users": [
@@ -35,57 +31,39 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Công Thương",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Công Thương"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "a) Hồ sơ 01 bộ gửi trực tiếp hoặc qua đường bưu chính hoặc qua mạng điện tử (nếu đủ điều kiện áp dụng) đến Cơ quan cấp Giấy phép;\nb) Trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Cơ quan cấp Giấy phép kiểm tra và yêu cầu sửa đổi, bổ sung nếu hồ sơ chưa đủ và hợp lệ; \nc) Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đủ và hợp lệ, Cơ quan cấp giấy phép điều chỉnh Giấy phép lập cơ sở bán lẻ, trường hợp từ chối phải có văn bản trả lời và nêu rõ lý do. \n",
+      "description": "a) Hồ sơ 01 bộ gửi trực tiếp hoặc qua đường bưu chính hoặc qua mạng điện tử (nếu đủ điều kiện áp dụng) đến Cơ quan cấp Giấy phép;\nb) Trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Cơ quan cấp Giấy phép kiểm tra và yêu cầu sửa đổi, bổ sung nếu hồ sơ chưa đủ và hợp lệ; \nc) Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đủ và hợp lệ, Cơ quan cấp giấy phép điều chỉnh Giấy phép lập cơ sở bán lẻ, trường hợp từ chối phải có văn bản trả lời và nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "a) Đơn đề nghị điều chỉnh Giấy phép lập cơ sở bán lẻ (Mẫu số 05 Phụ lục ban hành kèm theo Nghị định).",
-        "code": "000.00.00.G02-KQ0952",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d8f5d-36a9-700f-952a-85e43697c171",
-            "name": "05MĐ-Đơn điều chỉnh GPBL (1).doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "05MĐ-Đơn điều chỉnh GPBL (1).doc",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "b) Bản giải trình có nội dung: - Địa điểm lập cơ sở bán lẻ: địa chỉ cơ sở bán lẻ; mô tả khu vực chung, có liên quan và khu vực sử dụng để lập cơ sở bán lẻ; kèm theo tài liệu về địa điểm lập cơ sở bán lẻ;\t\t- Báo cáo tình hình hoạt động kinh doanh của cơ sở bán lẻ trong năm gần nhất.",
-        "code": "000.00.00.G02-KQ0953",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "c) Tài liệu của cơ quan thuế chứng minh không còn nợ thuế quá hạn.",
-        "code": "000.00.00.G02-KQ0954",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -94,35 +72,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -130,51 +88,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       }
     ]
   },
@@ -182,38 +125,32 @@
     {
       "title": "Quy định chi tiết Luật thương mại và Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam",
       "document_number": "09/2018/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe7-b6eaffca16c9",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Luật đầu tư",
       "document_number": "67/2014/QH13",
-      "id": "019d2bb3-5d7d-7398-be4e-7ac1d9bebe0e",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định số 146/2025/NĐ-CP",
       "document_number": "nghị định 146/2025",
-      "id": "019d2bb3-5d87-7195-a44a-592f046b043c",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Luật sửa đổi, bổ sung Điều 6 và Phụ lục 4 về Danh mục ngành, nghề đầu tư kinh doanh có điều kiện của Luật đầu tư",
       "document_number": "03/2016/QH14",
-      "id": "019d2bb3-5d84-71c5-b671-2f4563a0edba",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật Thương mại",
       "document_number": "36/2005/QH11",
-      "id": "019d2bb3-5d84-71c5-b672-cff0cd8ef16a",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Luật quản lý ngoại thương",
       "document_number": "05/2017/QH14",
-      "id": "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "- Điều kiện chung:\nĐảm bảo các điều kiện chung được quy định tại Điều 22 Nghị định số 09/2018/NĐ-CP\n- Điều kiện riêng:\nTổ chức kinh tế có vốn đầu tư nước ngoài có nhu cầu điều chỉnh tăng diện tích cơ sở bán lẻ thứ nhất trong trung tâm thương mại; tăng diện dích cơ sở bán lẻ ngoài cơ sở bán lẻ thứ nhất được lập trong trung tâm thương mại và không thuộc loại hình cửa hàng tiện lợi, siêu thị mini, đến mức dưới 500m2",
@@ -221,13 +158,12 @@
     {
       "title": "GIẤY PHÉP LẬP CƠ SỞ BÁN LẺ",
       "code": "KQ.G02.000091",
-      "id": "019d2bb2-1c38-75c9-8e13-addb09e4c0d7",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "a) Hồ sơ 01 bộ gửi trực tiếp hoặc qua đường bưu chính hoặc qua mạng điện tử (nếu đủ điều kiện áp dụng) đến Cơ quan cấp Giấy phép;\nb) Trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Cơ quan cấp Giấy phép kiểm tra và yêu cầu sửa đổi, bổ sung nếu hồ sơ chưa đủ và hợp lệ; \nc) Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đủ và hợp lệ, Cơ quan cấp giấy phép điều chỉnh Giấy phép lập cơ sở bán lẻ, trường hợp từ chối phải có văn bản trả lời và nêu rõ lý do. \n",
-    "THÀNH PHẦN HỒ SƠ": "\na) Đơn đề nghị điều chỉnh Giấy phép lập cơ sở bán lẻ (Mẫu số 05 Phụ lục ban hành kèm theo Nghị định).\nb) Bản giải trình có nội dung: - Địa điểm lập cơ sở bán lẻ: địa chỉ cơ sở bán lẻ; mô tả khu vực chung, có liên quan và khu vực sử dụng để lập cơ sở bán lẻ; kèm theo tài liệu về địa điểm lập cơ sở bán lẻ;\t\t- Báo cáo tình hình hoạt động kinh doanh của cơ sở bán lẻ trong năm gần nhất.\nc) Tài liệu của cơ quan thuế chứng minh không còn nợ thuế quá hạn.",
+    "TRÌNH TỰ THỰC HIỆN": "a) Hồ sơ 01 bộ gửi trực tiếp hoặc qua đường bưu chính hoặc qua mạng điện tử (nếu đủ điều kiện áp dụng) đến Cơ quan cấp Giấy phép;\nb) Trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Cơ quan cấp Giấy phép kiểm tra và yêu cầu sửa đổi, bổ sung nếu hồ sơ chưa đủ và hợp lệ; \nc) Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đủ và hợp lệ, Cơ quan cấp giấy phép điều chỉnh Giấy phép lập cơ sở bán lẻ, trường hợp từ chối phải có văn bản trả lời và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "a) Đơn đề nghị điều chỉnh Giấy phép lập cơ sở bán lẻ (Mẫu số 05 Phụ lục ban hành kèm theo Nghị định).\nb) Bản giải trình có nội dung: - Địa điểm lập cơ sở bán lẻ: địa chỉ cơ sở bán lẻ; mô tả khu vực chung, có liên quan và khu vực sử dụng để lập cơ sở bán lẻ; kèm theo tài liệu về địa điểm lập cơ sở bán lẻ;\t\t- Báo cáo tình hình hoạt động kinh doanh của cơ sở bán lẻ trong năm gần nhất.\nc) Tài liệu của cơ quan thuế chứng minh không còn nợ thuế quá hạn.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 5 ngày làm việc\nQua dịch vụ bưu chính: 5 ngày làm việc\nTrực tiếp: 5 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Quy định chi tiết Luật thương mại và Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam - 09/2018/NĐ-CP\nLuật đầu tư - 67/2014/QH13\nNghị định số 146/2025/NĐ-CP - nghị định 146/2025\nLuật sửa đổi, bổ sung Điều 6 và Phụ lục 4 về Danh mục ngành, nghề đầu tư kinh doanh có điều kiện của Luật đầu tư - 03/2016/QH14\nLuật Thương mại - 36/2005/QH11\nLuật quản lý ngoại thương - 05/2017/QH14",
     "CƠ QUAN THỰC HIỆN": "Sở Công Thương",
@@ -237,11 +173,6 @@
     "MÔ TẢ": "- Điều kiện chung:\nĐảm bảo các điều kiện chung được quy định tại Điều 22 Nghị định số 09/2018/NĐ-CP\n- Điều kiện riêng:\nTổ chức kinh tế có vốn đầu tư nước ngoài có nhu cầu điều chỉnh tăng diện tích cơ sở bán lẻ thứ nhất trong trung tâm thương mại; tăng diện dích cơ sở bán lẻ ngoài cơ sở bán lẻ thứ nhất được lập trong trung tâm thương mại và không thuộc loại hình cửa hàng tiện lợi, siêu thị mini, đến mức dưới 500m2"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thương mại quốc tế",
       "slug": "thuong-mai-quoc-te"
@@ -264,6 +195,6 @@
         "slug": "so-cong-thuong"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

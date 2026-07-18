@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-44f6-724f-83b9-3de5b4768991",
   "procedure_code": "1.007843",
   "title": "Thủ tục hải quan đối với hàng hoá đã xuất khẩu nhưng bị trả lại",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-44f6-724f-83b9-3de5b4768991",
     "source_file": "chi-tiet-thu-tuc-1.007843.pdf",
     "source_path": "procedures/viec-lam/1.007843/chi-tiet-thu-tuc-1.007843.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:03.701642+00:00",
-    "source_updated_at": "2026-04-08T09:24:34.206Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:18.673250+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "c84820e4c4c6aa98b008eac0601159ee6a12ff3d309244a1c9dd40f71334537a"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:03.701642+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2770/QĐ-BTC",
   "implementation_level": "Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hải quan",
   "target_users": [
@@ -39,18 +34,22 @@
   ],
   "agency": {
     "competent_agency": "Chi cục Hải quan khu vực",
-    "executing_agency": "Chi cục Hải quan khu vực",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Chi cục Hải quan khu vực"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "+ Bước 1: Người khai hải quan thực hiện việc mở tờ khai hải quan đối với hàng hoá xuất khẩu nhưng bị trả lại.\n+ Bước 2: Cơ quan hải quan quyết định thông quan cho tờ khai hàng hoá.\n",
+      "description": "+ Bước 1: Người khai hải quan thực hiện việc mở tờ khai hải quan đối với hàng hoá xuất khẩu nhưng bị trả lại.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "+ Bước 2: Cơ quan hải quan quyết định thông quan cho tờ khai hàng hoá.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -59,30 +58,21 @@
     "conditional": [
       {
         "name": "b) Chứng từ vận tải trong trường hợp hàng hóa vận chuyển bằng đường biển, đường hàng không, đường sắt: 01 bản chụp;",
-        "code": "000.00.00.G12-KQ8792",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "c) Văn bản của bên nước ngoài thông báo hàng bị trả lại hoặc văn bản của hãng tàu/đại lý hãng tàu thông báo không có người nhận hàng: 01 bản chụp.",
-        "code": "000.00.00.G12-KQ8793",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "a) Tờ khai hải quan hàng hóa nhập khẩu;",
-        "code": "000.00.00.G12-KQ8791",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -91,33 +81,22 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 20,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "20",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "20",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 20,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "20",
+        "is_free": false,
+        "source_page": 2
       }
     ]
   },
@@ -125,38 +104,32 @@
     {
       "title": "Luật 54/2014/QH13",
       "document_number": "54/2014/QH13",
-      "id": "019d2bb3-5d7d-7398-be4d-ff62cdf67da5",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Luật 51/2005/QH11",
       "document_number": "51/2005/QH11",
-      "id": "019d2bb3-5d84-71c5-b673-5f4f0ddd4079",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Quy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu thuế nhập khẩu và quản lý thuế đối vớỉ hàng hoá xuất khẩu, nhập khẩu.",
       "document_number": "38/2015/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4d-1c6dbc289d7a",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư 172/2010/TT-BTC",
       "document_number": "172/2010/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4a-5fe7c5952529",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Về giao dịch điện tử trong hoạt động tài chính",
       "document_number": "27/2007/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46b-b6df3641dbeb",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định 08/2015/NĐ-CP",
       "document_number": "08/2015/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe7-9c25863596db",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "",
@@ -164,13 +137,12 @@
     {
       "title": "Quyết định thông quan",
       "code": "KQ.G12.001272",
-      "id": "019d2bb2-1c73-70ac-aa17-98a63c4b2b69",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Người khai hải quan thực hiện việc mở tờ khai hải quan đối với hàng hoá xuất khẩu nhưng bị trả lại.\n+ Bước 2: Cơ quan hải quan quyết định thông quan cho tờ khai hàng hoá.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nb) Chứng từ vận tải trong trường hợp hàng hóa vận chuyển bằng đường biển, đường hàng không, đường sắt: 01 bản chụp;\nc) Văn bản của bên nước ngoài thông báo hàng bị trả lại hoặc văn bản của hãng tàu/đại lý hãng tàu thông báo không có người nhận hàng: 01 bản chụp.\na) Tờ khai hải quan hàng hóa nhập khẩu;",
+    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Người khai hải quan thực hiện việc mở tờ khai hải quan đối với hàng hoá xuất khẩu nhưng bị trả lại.\n+ Bước 2: Cơ quan hải quan quyết định thông quan cho tờ khai hàng hoá.",
+    "THÀNH PHẦN HỒ SƠ": "b) Chứng từ vận tải trong trường hợp hàng hóa vận chuyển bằng đường biển, đường hàng không, đường sắt: 01 bản chụp;\nc) Văn bản của bên nước ngoài thông báo hàng bị trả lại hoặc văn bản của hãng tàu/đại lý hãng tàu thông báo không có người nhận hàng: 01 bản chụp.\na) Tờ khai hải quan hàng hóa nhập khẩu;",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 1",
     "CĂN CỨ PHÁP LÝ": "Luật 54/2014/QH13 - 54/2014/QH13\nLuật 51/2005/QH11 - 51/2005/QH11\nQuy định về thủ tục hải quan; kiểm tra, giám sát hải quan; thuế xuất khẩu thuế nhập khẩu và quản lý thuế đối vớỉ hàng hoá xuất khẩu, nhập khẩu. - 38/2015/TT-BTC\nThông tư 172/2010/TT-BTC - 172/2010/TT-BTC\nVề giao dịch điện tử trong hoạt động tài chính - 27/2007/NĐ-CP\nNghị định 08/2015/NĐ-CP - 08/2015/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Chi cục Hải quan khu vực",
@@ -180,11 +152,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hải quan",
       "slug": "hai-quan"
@@ -206,7 +173,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -223,6 +190,6 @@
         "slug": "chi-cuc-hai-quan-khu-vuc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

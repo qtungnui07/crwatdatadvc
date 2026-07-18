@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019f1b98-ec2b-775f-bc76-ba96e5b710cd",
   "procedure_code": "2.002896",
   "title": "Thủ tục phát hành, phổ biến phim phục vụ nhiệm vụ chính trị có phát sinh doanh thu (cấp Trung ương)",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019f1b98-ec2b-775f-bc76-ba96e5b710cd",
     "source_file": "chi-tiet-thu-tuc-2.002896.pdf",
     "source_path": "procedures/viec-lam/2.002896/chi-tiet-thu-tuc-2.002896.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:22.983650+00:00",
-    "source_updated_at": "2026-07-01T03:07:20.553Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:30.888554+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "cd1ea8381db696e5123179b33c31130f70084aec5972150ebb1ffbc3041eb11d"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:22.983650+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1447/QĐ-BVHTTDL",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Điện ảnh",
   "target_users": [
@@ -39,10 +35,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cục Điện ảnh - Bộ Văn hóa, Thể thao và Du lịch",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Điện ảnh - Bộ Văn hóa, Thể thao và Du lịch"
   },
   "steps": [
     {
@@ -50,7 +43,7 @@
       "title": "Bước 1",
       "description": "- Tổ chức, cá nhân có nhu cầu phát hành, phổ biến phim phục vụ nhiệm vụ chính trị có phát sinh doanh thu gửi 01 bộ hồ sơ đến cơ quan đại diện chủ sở hữu phim; cơ quan, tổ chức, cá nhân được các đồng chủ sở hữu phim giao hoặc ủy quyền thực hiện theo quy định tại Nghị định số 189/2026/NĐ-CP, thuộc phạm vi quản lý của cơ quan trung ương.\n- Trong thời hạn 15 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền có văn bản đồng ý phát hành, phổ biến phim; trường hợp không đồng ý phải trả lời bằng văn bản và nêu rõ lý do. \n- Trường hợp hồ sơ đề nghị chưa đầy đủ hoặc chưa hợp lệ, cơ quan có thẩm quyền có văn bản đề nghị bổ sung, hoàn thiện hồ sơ trong thời gian 02 ngày làm việc kể từ ngày nhận được hồ sơ.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -59,21 +52,15 @@
     "conditional": [
       {
         "name": "Văn bản đề nghị theo mẫu quy định tại Phụ lục ban hành kèm theo Nghị định số 189/2026/NĐ-CP",
-        "code": "G16-TPHS00726.2",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Kế hoạch thực hiện phát hành, phổ biến phim bao gồm các nội dung: Tên phim đề nghị phát hành, phổ biến; Cơ quan đại diện chủ sở hữu phim hoặc cơ quan đồng chủ sở hữu phim; Phạm vi, địa điểm thực hiện phát hành, phổ biến phim; Thời gian thực hiện; Hình thức phát hành, phổ biến phim; Đối tượng thụ hưởng; Cách thức triển khai thực hiện; Phương án thống kê số lượt xem; Quyền và nghĩa vụ của các bên có liên quan; Cách thức xử lý các vi phạm; Tỷ lệ hoặc cách thức phân chia doanh thu; Phương án báo cáo, đối soát doanh thu; Kỳ đối soát, chứng từ; nghĩa vụ báo cáo, kê khai, nộp và quyết toán doanh thu; Các nội dung khác có liên quan (nếu có).",
-        "code": "G16-TPHS0726.1",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -82,34 +69,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Kể từ ngày nhận đủ hồ sơ hợp lệ.",
-      "source_page": null
+      "source_page": 1
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Kể từ ngày nhận đủ hồ sơ hợp lệ.",
-      "source_page": null
+      "source_page": 1
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Kể từ ngày nhận đủ hồ sơ hợp lệ.",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -117,9 +99,8 @@
   "legal_bases": [
     {
       "title": "Nghị định quy định về phát hành, phổ biến phim phục vụ nhiệm vụ chính trị",
-      "document_number": "189/2026/NĐ-CP ",
-      "id": "019f1b93-67d2-75ef-be93-e7e3f0c5be17",
-      "source_page": null
+      "document_number": "189/2026/NĐ-CP",
+      "source_page": 3
     }
   ],
   "conditions": "Không quy định",
@@ -127,15 +108,14 @@
     {
       "title": "Văn bản đồng ý phát hành, phổ biến phim",
       "code": "G16-KQ0726.1",
-      "id": "019f1b92-adb5-7102-9fc6-344a58a576ac",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "- Tổ chức, cá nhân có nhu cầu phát hành, phổ biến phim phục vụ nhiệm vụ chính trị có phát sinh doanh thu gửi 01 bộ hồ sơ đến cơ quan đại diện chủ sở hữu phim; cơ quan, tổ chức, cá nhân được các đồng chủ sở hữu phim giao hoặc ủy quyền thực hiện theo quy định tại Nghị định số 189/2026/NĐ-CP, thuộc phạm vi quản lý của cơ quan trung ương.\n- Trong thời hạn 15 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan có thẩm quyền có văn bản đồng ý phát hành, phổ biến phim; trường hợp không đồng ý phải trả lời bằng văn bản và nêu rõ lý do. \n- Trường hợp hồ sơ đề nghị chưa đầy đủ hoặc chưa hợp lệ, cơ quan có thẩm quyền có văn bản đề nghị bổ sung, hoàn thiện hồ sơ trong thời gian 02 ngày làm việc kể từ ngày nhận được hồ sơ.",
-    "THÀNH PHẦN HỒ SƠ": "\nVăn bản đề nghị theo mẫu quy định tại Phụ lục ban hành kèm theo Nghị định số 189/2026/NĐ-CP\nKế hoạch thực hiện phát hành, phổ biến phim bao gồm các nội dung: Tên phim đề nghị phát hành, phổ biến; Cơ quan đại diện chủ sở hữu phim hoặc cơ quan đồng chủ sở hữu phim; Phạm vi, địa điểm thực hiện phát hành, phổ biến phim; Thời gian thực hiện; Hình thức phát hành, phổ biến phim; Đối tượng thụ hưởng; Cách thức triển khai thực hiện; Phương án thống kê số lượt xem; Quyền và nghĩa vụ của các bên có liên quan; Cách thức xử lý các vi phạm; Tỷ lệ hoặc cách thức phân chia doanh thu; Phương án báo cáo, đối soát doanh thu; Kỳ đối soát, chứng từ; nghĩa vụ báo cáo, kê khai, nộp và quyết toán doanh thu; Các nội dung khác có liên quan (nếu có).",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 15 ngày làm việc - Kể từ ngày nhận đủ hồ sơ hợp lệ.\nTrực tuyến: 15 ngày làm việc - Kể từ ngày nhận đủ hồ sơ hợp lệ.\nQua dịch vụ bưu chính: 15 ngày làm việc - Kể từ ngày nhận đủ hồ sơ hợp lệ.",
-    "CĂN CỨ PHÁP LÝ": "Nghị định quy định về phát hành, phổ biến phim phục vụ nhiệm vụ chính trị - 189/2026/NĐ-CP ",
+    "THÀNH PHẦN HỒ SƠ": "Văn bản đề nghị theo mẫu quy định tại Phụ lục ban hành kèm theo Nghị định số 189/2026/NĐ-CP\nKế hoạch thực hiện phát hành, phổ biến phim bao gồm các nội dung: Tên phim đề nghị phát hành, phổ biến; Cơ quan đại diện chủ sở hữu phim hoặc cơ quan đồng chủ sở hữu phim; Phạm vi, địa điểm thực hiện phát hành, phổ biến phim; Thời gian thực hiện; Hình thức phát hành, phổ biến phim; Đối tượng thụ hưởng; Cách thức triển khai thực hiện; Phương án thống kê số lượt xem; Quyền và nghĩa vụ của các bên có liên quan; Cách thức xử lý các vi phạm; Tỷ lệ hoặc cách thức phân chia doanh thu; Phương án báo cáo, đối soát doanh thu; Kỳ đối soát, chứng từ; nghĩa vụ báo cáo, kê khai, nộp và quyết toán doanh thu; Các nội dung khác có liên quan (nếu có).",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 15 ngày làm việc\nTrực tuyến: 15 ngày làm việc\nQua dịch vụ bưu chính: 15 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "Nghị định quy định về phát hành, phổ biến phim phục vụ nhiệm vụ chính trị - 189/2026/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cục Điện ảnh - Bộ Văn hóa, Thể thao và Du lịch",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Không quy định",
     "KẾT QUẢ XỬ LÝ": "Văn bản đồng ý phát hành, phổ biến phim - G16-KQ0726.1",
@@ -143,14 +123,9 @@
     "MÔ TẢ": "Không quy định"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Điện ảnh",
-      "slug": "dien-anh"
+      "slug": "ien-anh"
     },
     "implementation_levels": [
       {
@@ -183,13 +158,13 @@
     "agencies": [
       {
         "name": "Cục Điện ảnh - Bộ Văn hóa, Thể thao và Du lịch",
-        "slug": "cuc-dien-anh-bo-van-hoa-the-thao-va-du-lich"
+        "slug": "cuc-ien-anh-bo-van-hoa-the-thao-va-du-lich"
       },
       {
         "name": "Cơ quan đại diện chủ sở hữu",
-        "slug": "co-quan-dai-dien-chu-so-huu"
+        "slug": "co-quan-ai-dien-chu-so-huu"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "non_territorial"
   }
 }

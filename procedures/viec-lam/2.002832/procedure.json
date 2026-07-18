@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-f924-7088-aa02-19ced37d6274",
   "procedure_code": "2.002832",
   "title": "Điều chỉnh Giấy phép cung cấp dịch vụ tổ chức thị trường giao dịch tài sản mã hóa",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-f924-7088-aa02-19ced37d6274",
     "source_file": "chi-tiet-thu-tuc-2.002832.pdf",
     "source_path": "procedures/viec-lam/2.002832/chi-tiet-thu-tuc-2.002832.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:22.669238+00:00",
-    "source_updated_at": "2026-04-08T10:27:02.166Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:29.983703+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "808fc7a580e4ca5da7211967fb519bc4f00bbb301273c0a82b93d2b8829ea513"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:22.669238+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "96/QĐ-BTC",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Chứng khoán",
   "target_users": [
@@ -36,18 +32,29 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Bộ Tài chính",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Tài chính"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "+ Bước 1: Tổ chức cung cấp dịch vụ tổ chức thị trường giao dịch tài sản mã hóa nộp hồ sơ điều chỉnh Giấy phép cung cấp dịch vụ tổ chức thị trường giao dịch tài sản mã hóa.\n+ Bước 2: Ủy ban Chứng khoán Nhà nước (Bộ phận một cửa) tiếp nhận và kiểm tra danh mục hồ sơ. Trường hợp danh mục hồ sơ chưa đầy đủ, Ủy ban Chứng khoán Nhà nước hướng dẫn bổ sung danh mục hồ sơ theo quy định.\n+ Bước 3: Trong thời hạn 07 (bẩy) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Bộ Tài chính  điều chỉnh Giấy phép cung cấp dịch vụ tổ chức thị trường giao dịch tài sản mã hóa; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do.\n",
+      "description": "+ Bước 1: Tổ chức cung cấp dịch vụ tổ chức thị trường giao dịch tài sản mã hóa nộp hồ sơ điều chỉnh Giấy phép cung cấp dịch vụ tổ chức thị trường giao dịch tài sản mã hóa.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "+ Bước 2: Ủy ban Chứng khoán Nhà nước (Bộ phận một cửa) tiếp nhận và kiểm tra danh mục hồ sơ. Trường hợp danh mục hồ sơ chưa đầy đủ, Ủy ban Chứng khoán Nhà nước hướng dẫn bổ sung danh mục hồ sơ theo quy định.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "+ Bước 3: Trong thời hạn 07 (bẩy) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Bộ Tài chính  điều chỉnh Giấy phép cung cấp dịch vụ tổ chức thị trường giao dịch tài sản mã hóa; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -56,66 +63,45 @@
     "conditional": [
       {
         "name": "+ Trường hợp giảm vốn điều lệ, hồ sơ kèm theo báo cáo vốn chủ sở hữu sau khi giảm được kiểm toán bởi tổ chức kiểm toán được chấp thuận;",
-        "code": "000.00.00.G12-KQ015946",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Trường hợp tăng vốn điều lệ, hồ sơ kèm theo xác nhận của tổ chức kiểm toán được chấp thuận về khoản vốn tăng thêm hoặc báo cáo tài chính tại thời điểm sau khi tổ chức cung cấp dịch vụ tài sản mã hóa hoàn thành việc tăng vốn điều lệ đã được kiểm toán bởi tổ chức kiểm toán được chấp thuận;",
-        "code": "000.00.00.G12-KQ015945",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Trường hợp thay đổi tên công ty, địa chỉ đặt trụ sở chính, vốn điều lệ, hồ sơ kèm theo Quyết định của Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty về việc thay đổi tên công ty, địa chỉ đặt trụ sở chính, vốn điều lệ;",
-        "code": "000.00.00.G12-KQ015943",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Trường hợp thay đổi địa chỉ trụ sở chính, hồ sơ kèm theo tài liệu bao gồm: Bản thuyết minh cơ sở vật chất theo Mẫu số 04 Phụ lục ban hành kèm Nghị Quyết 05/2025/NQ-CP, kèm theo giấy tờ chứng minh quyền sở hữu trụ sở, quyền sử dụng trụ sở hoặc hợp đồng thuê trụ sở quy định tại khoản 4 Điều 9 Nghị Quyết số 05/2025/NQ-CP; Văn bản thẩm định của Bộ công an đối với hồ sơ đề xuất an toàn hệ thống thông tin cấp độ 4 của tổ chức đăng ký quy định tại  khoản 7 Điều 9  Nghị quyết số 05/2025/NQ-CP;",
-        "code": "000.00.00.G12-KQ015944",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Trường hợp thay đổi người đại diện theo pháp luật mà không thay đổi chức danh, hồ sơ kèm theo Quyết định của Hội đồng quản trị, Hội đồng thành viên, chủ sở hữu công ty thông qua việc bổ nhiệm, miễn nhiệm Chủ tịch Hội đồng quản trị, Chủ tịch Hội đồng thành viên, Chủ tịch công ty hoặc Tổng giám đốc (Giám đốc) kèm theo Bản thông tin cá nhân theo Mẫu số 06 Phụ lục ban hành kèm theo Nghị quyết số 05/2025/NQ-CP;",
-        "code": "000.00.00.G12-KQ015947",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Văn bản đề nghị điều chỉnh Giấy phép cung cấp dịch vụ tổ chức thị trường giao dịch tài sản mã hóa theo Mẫu số 08 Phụ lục ban hành kèm theo Nghị quyết số 05/2025/NQ-CP",
-        "code": "000.00.00.G12-KQ015942",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Trường hợp thay đổi thông tin, chức danh của người đại diện theo pháp luật, hồ sơ kèm theo Quyết định của Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty thông qua thay đổi chức danh của người đại diện theo pháp luật, Điều lệ công ty sửa đổi (trường hợp thay đổi chức danh) và các tài liệu quy định tại điểm e khoản 1 Điều 11 Nghị quyết số 05/2025/NQ-CP (tài liệu bao gồm : Quyết định của Hội đồng quản trị, Hội đồng thành viên, chủ sở hữu công ty thông qua việc bổ nhiệm, miễn nhiệm Chủ tịch Hội đồng quản trị, chủ tịch Hội đồng thành viên, chủ tịch công ty hoặc Tổng Giám đốc (Giám đốc) kèm theo Bản thông tin cá nhân theo Mẫu số 06 Phục lục ban hành kèm theo Nghị Quyết 05/2025/NQ-CP.",
-        "code": "000.00.00.G12-KQ015948",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -124,35 +110,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -160,51 +126,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -212,8 +163,7 @@
     {
       "title": "Về việc triển khai thí điểm thị trường tài sản mã hóa tại Việt Nam",
       "document_number": "05/2025/NQ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe7-4380aa67e69f",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -221,19 +171,17 @@
     {
       "title": "Văn bản thông báo lý do từ chối của Bộ Tài chính",
       "code": "KQ.G12.001161",
-      "id": "019d2bb2-1c72-75fa-a592-2cb8cbfdec82",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Giấy phép điều chỉnh Giấy phép cung cấp dịch vụ tổ chức thị trường giao dịch tài sản mã hóa",
       "code": "KQ.G12.001431",
-      "id": "019d2bb2-1c73-70ac-aa1a-07ad75fd1ddb",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Tổ chức cung cấp dịch vụ tổ chức thị trường giao dịch tài sản mã hóa nộp hồ sơ điều chỉnh Giấy phép cung cấp dịch vụ tổ chức thị trường giao dịch tài sản mã hóa.\n+ Bước 2: Ủy ban Chứng khoán Nhà nước (Bộ phận một cửa) tiếp nhận và kiểm tra danh mục hồ sơ. Trường hợp danh mục hồ sơ chưa đầy đủ, Ủy ban Chứng khoán Nhà nước hướng dẫn bổ sung danh mục hồ sơ theo quy định.\n+ Bước 3: Trong thời hạn 07 (bẩy) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Bộ Tài chính  điều chỉnh Giấy phép cung cấp dịch vụ tổ chức thị trường giao dịch tài sản mã hóa; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n+ Trường hợp giảm vốn điều lệ, hồ sơ kèm theo báo cáo vốn chủ sở hữu sau khi giảm được kiểm toán bởi tổ chức kiểm toán được chấp thuận;\n+ Trường hợp tăng vốn điều lệ, hồ sơ kèm theo xác nhận của tổ chức kiểm toán được chấp thuận về khoản vốn tăng thêm hoặc báo cáo tài chính tại thời điểm sau khi tổ chức cung cấp dịch vụ tài sản mã hóa hoàn thành việc tăng vốn điều lệ đã được kiểm toán bởi tổ chức kiểm toán được chấp thuận;\n+ Trường hợp thay đổi tên công ty, địa chỉ đặt trụ sở chính, vốn điều lệ, hồ sơ kèm theo Quyết định của Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty về việc thay đổi tên công ty, địa chỉ đặt trụ sở chính, vốn điều lệ;\n+ Trường hợp thay đổi địa chỉ trụ sở chính, hồ sơ kèm theo tài liệu bao gồm: Bản thuyết minh cơ sở vật chất theo Mẫu số 04 Phụ lục ban hành kèm Nghị Quyết 05/2025/NQ-CP, kèm theo giấy tờ chứng minh quyền sở hữu trụ sở, quyền sử dụng trụ sở hoặc hợp đồng thuê trụ sở quy định tại khoản 4 Điều 9 Nghị Quyết số 05/2025/NQ-CP; Văn bản thẩm định của Bộ công an đối với hồ sơ đề xuất an toàn hệ thống thông tin cấp độ 4 của tổ chức đăng ký quy định tại  khoản 7 Điều 9  Nghị quyết số 05/2025/NQ-CP;\n+ Trường hợp thay đổi người đại diện theo pháp luật mà không thay đổi chức danh, hồ sơ kèm theo Quyết định của Hội đồng quản trị, Hội đồng thành viên, chủ sở hữu công ty thông qua việc bổ nhiệm, miễn nhiệm Chủ tịch Hội đồng quản trị, Chủ tịch Hội đồng thành viên, Chủ tịch công ty hoặc Tổng giám đốc (Giám đốc) kèm theo Bản thông tin cá nhân theo Mẫu số 06 Phụ lục ban hành kèm theo Nghị quyết số 05/2025/NQ-CP;\n+ Văn bản đề nghị điều chỉnh Giấy phép cung cấp dịch vụ tổ chức thị trường giao dịch tài sản mã hóa theo Mẫu số 08 Phụ lục ban hành kèm theo Nghị quyết số 05/2025/NQ-CP\n+ Trường hợp thay đổi thông tin, chức danh của người đại diện theo pháp luật, hồ sơ kèm theo Quyết định của Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty thông qua thay đổi chức danh của người đại diện theo pháp luật, Điều lệ công ty sửa đổi (trường hợp thay đổi chức danh) và các tài liệu quy định tại điểm e khoản 1 Điều 11 Nghị quyết số 05/2025/NQ-CP (tài liệu bao gồm : Quyết định của Hội đồng quản trị, Hội đồng thành viên, chủ sở hữu công ty thông qua việc bổ nhiệm, miễn nhiệm Chủ tịch Hội đồng quản trị, chủ tịch Hội đồng thành viên, chủ tịch công ty hoặc Tổng Giám đốc (Giám đốc) kèm theo Bản thông tin cá nhân theo Mẫu số 06 Phục lục ban hành kèm theo Nghị Quyết 05/2025/NQ-CP.",
+    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Tổ chức cung cấp dịch vụ tổ chức thị trường giao dịch tài sản mã hóa nộp hồ sơ điều chỉnh Giấy phép cung cấp dịch vụ tổ chức thị trường giao dịch tài sản mã hóa.\n+ Bước 2: Ủy ban Chứng khoán Nhà nước (Bộ phận một cửa) tiếp nhận và kiểm tra danh mục hồ sơ. Trường hợp danh mục hồ sơ chưa đầy đủ, Ủy ban Chứng khoán Nhà nước hướng dẫn bổ sung danh mục hồ sơ theo quy định.\n+ Bước 3: Trong thời hạn 07 (bẩy) ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Bộ Tài chính  điều chỉnh Giấy phép cung cấp dịch vụ tổ chức thị trường giao dịch tài sản mã hóa; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "+ Trường hợp giảm vốn điều lệ, hồ sơ kèm theo báo cáo vốn chủ sở hữu sau khi giảm được kiểm toán bởi tổ chức kiểm toán được chấp thuận;\n+ Trường hợp tăng vốn điều lệ, hồ sơ kèm theo xác nhận của tổ chức kiểm toán được chấp thuận về khoản vốn tăng thêm hoặc báo cáo tài chính tại thời điểm sau khi tổ chức cung cấp dịch vụ tài sản mã hóa hoàn thành việc tăng vốn điều lệ đã được kiểm toán bởi tổ chức kiểm toán được chấp thuận;\n+ Trường hợp thay đổi tên công ty, địa chỉ đặt trụ sở chính, vốn điều lệ, hồ sơ kèm theo Quyết định của Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty về việc thay đổi tên công ty, địa chỉ đặt trụ sở chính, vốn điều lệ;\n+ Trường hợp thay đổi địa chỉ trụ sở chính, hồ sơ kèm theo tài liệu bao gồm: Bản thuyết minh cơ sở vật chất theo Mẫu số 04 Phụ lục ban hành kèm Nghị Quyết 05/2025/NQ-CP, kèm theo giấy tờ chứng minh quyền sở hữu trụ sở, quyền sử dụng trụ sở hoặc hợp đồng thuê trụ sở quy định tại khoản 4 Điều 9 Nghị Quyết số 05/2025/NQ-CP; Văn bản thẩm định của Bộ công an đối với hồ sơ đề xuất an toàn hệ thống thông tin cấp độ 4 của tổ chức đăng ký quy định tại  khoản 7 Điều 9  Nghị quyết số 05/2025/NQ-CP;\n+ Trường hợp thay đổi người đại diện theo pháp luật mà không thay đổi chức danh, hồ sơ kèm theo Quyết định của Hội đồng quản trị, Hội đồng thành viên, chủ sở hữu công ty thông qua việc bổ nhiệm, miễn nhiệm Chủ tịch Hội đồng quản trị, Chủ tịch Hội đồng thành viên, Chủ tịch công ty hoặc Tổng giám đốc (Giám đốc) kèm theo Bản thông tin cá nhân theo Mẫu số 06 Phụ lục ban hành kèm theo Nghị quyết số 05/2025/NQ-CP;\n+ Văn bản đề nghị điều chỉnh Giấy phép cung cấp dịch vụ tổ chức thị trường giao dịch tài sản mã hóa theo Mẫu số 08 Phụ lục ban hành kèm theo Nghị quyết số 05/2025/NQ-CP\n+ Trường hợp thay đổi thông tin, chức danh của người đại diện theo pháp luật, hồ sơ kèm theo Quyết định của Đại hội đồng cổ đông, Hội đồng thành viên hoặc chủ sở hữu công ty thông qua thay đổi chức danh của người đại diện theo pháp luật, Điều lệ công ty sửa đổi (trường hợp thay đổi chức danh) và các tài liệu quy định tại điểm e khoản 1 Điều 11 Nghị quyết số 05/2025/NQ-CP (tài liệu bao gồm : Quyết định của Hội đồng quản trị, Hội đồng thành viên, chủ sở hữu công ty thông qua việc bổ nhiệm, miễn nhiệm Chủ tịch Hội đồng quản trị, chủ tịch Hội đồng thành viên, chủ tịch công ty hoặc Tổng Giám đốc (Giám đốc) kèm theo Bản thông tin cá nhân theo Mẫu số 06 Phục lục ban hành kèm theo Nghị Quyết 05/2025/NQ-CP.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 7 ngày làm việc\nQua dịch vụ bưu chính: 7 ngày làm việc\nTrực tiếp: 7 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Về việc triển khai thí điểm thị trường tài sản mã hóa tại Việt Nam - 05/2025/NQ-CP",
     "CƠ QUAN THỰC HIỆN": "Bộ Tài chính",
@@ -243,11 +191,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Chứng khoán",
       "slug": "chung-khoan"
@@ -274,6 +217,6 @@
         "slug": "bo-tai-chinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

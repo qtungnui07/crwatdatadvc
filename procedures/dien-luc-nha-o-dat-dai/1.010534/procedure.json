@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019dc569-4132-70da-9489-6985c7bfe138",
   "procedure_code": "1.010534",
   "title": "Trợ cấp tiền tuất, tai nạn (đối với trường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên) cho lực lượng xung kích phòng chống thiên tai cấp xã chưa tham gia bảo hiểm xã hội",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019dc569-4132-70da-9489-6985c7bfe138",
     "source_file": "chi-tiet-thu-tuc-1.010534.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.010534/chi-tiet-thu-tuc-1.010534.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:06.117563+00:00",
-    "source_updated_at": "2026-04-26T08:49:28.275Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:55:53.503926+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "75f42f4a09003315a3c40a12d9e0039884514dc9be5f8f56ed8115a39c226862"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:06.117563+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1722/QĐ-UBND",
   "implementation_level": "Cấp xã",
-  "implementation_levels": [
-    "Cấp xã"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Quản lý Đê điều và Phòng, chống thiên tai",
   "target_users": [
@@ -35,129 +31,104 @@
   ],
   "agency": {
     "competent_agency": "Ủy ban nhân dân cấp xã",
-    "executing_agency": "Ủy ban nhân dân cấp xã",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ủy ban nhân dân cấp xã"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "\t\nGửi (nộp) hồ sơ TTHC\nNgười tham gia lực lượng xung kích phòng chống thiên tai cấp xã hoặc người đại diện hợp pháp lập 01 bộ hồ sơ gửi Ủy ban nhân dân xã.\nCách thức thực hiện: Nộp Trực tiếp hoặc qua dịch vụ Bưu chính công ích (BCCI) hoặc DVC trực tuyến mức độ 4.\n\nBước 1: UBND cấp xã tổng hợp báo cáo Ủy ban nhân dân cấp huyện chậm nhất 10 ngày kể từ ngày nhận được hồ sơ hợp lệ.\n Đối với các trường hợp không đủ điều kiện, hóa đơn, giấy tờ theo quy định hoặc không hợp lệ, trong thời hạn 03 ngày làm việc kể từ ngày nhận được đơn đề nghị, cấp xã phải có văn bản hướng dẫn gửi người nộp đơn để bổ sung, hoàn thiện. \nCách thức thực hiện: Trực tiếp hoặc gửi liên thông qua Hệ thống thông tin một cửa điện tử.\n\nBước 2:  Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ do Chủ tịch Ủy ban nhân dân xã trình, Ủy ban nhân dân cấp huyện lập 01 bộ hồ sơ trình Chủ tịch Ủy ban nhân dân cấp tỉnh.\nCách thức thực hiện:  Nộp Trực tiếp hoặc qua dịch vụ Bưu chính công ích (BCCI) hoặc DVC trực tuyến mức độ 4.\n\nBước 3: Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ do Chủ tịch Ủy ban nhân dân cấp huyện trình, Chủ tịch Ủy ban nhân dân tỉnh quyết định trợ cấp tai nạn, bị chết cho người tham gia lực lượng xung kích.\nCách thức trả kết quả: Trực tiếp hoặc qua dich vụ BCCI hoặc qua địa chỉ thư điện tử khách hàng đã đăng ký.",
+      "description": "Gửi (nộp) hồ sơ TTHC\nNgười tham gia lực lượng xung kích phòng chống thiên tai cấp xã hoặc người đại diện hợp pháp lập 01 bộ hồ sơ gửi Ủy ban nhân dân xã.\nCách thức thực hiện: Nộp Trực tiếp hoặc qua dịch vụ Bưu chính công ích (BCCI) hoặc DVC trực tuyến mức độ 4.\nBước 1: UBND cấp xã tổng hợp báo cáo Ủy ban nhân dân cấp huyện chậm nhất 10 ngày kể từ ngày nhận được hồ sơ hợp lệ.\n Đối với các trường hợp không đủ điều kiện, hóa đơn, giấy tờ theo quy định hoặc không hợp lệ, trong thời hạn 03 ngày làm việc kể từ ngày nhận được đơn đề nghị, cấp xã phải có văn bản hướng dẫn gửi người nộp đơn để bổ sung, hoàn thiện. \nCách thức thực hiện: Trực tiếp hoặc gửi liên thông qua Hệ thống thông tin một cửa điện tử.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2:  Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ do Chủ tịch Ủy ban nhân dân xã trình, Ủy ban nhân dân cấp huyện lập 01 bộ hồ sơ trình Chủ tịch Ủy ban nhân dân cấp tỉnh.\nCách thức thực hiện:  Nộp Trực tiếp hoặc qua dịch vụ Bưu chính công ích (BCCI) hoặc DVC trực tuyến mức độ 4.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ do Chủ tịch Ủy ban nhân dân cấp huyện trình, Chủ tịch Ủy ban nhân dân tỉnh quyết định trợ cấp tai nạn, bị chết cho người tham gia lực lượng xung kích.\nCách thức trả kết quả: Trực tiếp hoặc qua dich vụ BCCI hoặc qua địa chỉ thư điện tử khách hàng đã đăng ký.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Đơn đề nghị trợ cấp tai nạn theo mẫu quy định tại Phụ lục VII ban hành kèm theo Nghị định số 66/2021/NĐ-CP ngày 06/7/2021 của Chính phủ",
-        "code": "000.00.00.H22-KQ000163",
+        "name": "Trường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên: Đơn đề nghị trợ cấp tai nạn theo mẫu quy định tại Phụ lục VII ban hành kèm theo Nghị định số 66/2021/NĐ-CP ngày 06/7/2021 của Chính phủ",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Giấy ra viện",
-        "code": "000.00.00.H22-KQ000164",
+        "name": "Trường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên: Giấy ra viện",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Trích sao hồ sơ bệnh án hoặc bản sao giấy chứng nhận thương tích do cơ sở y tế nơi đã cấp cứu, điều trị",
-        "code": "000.00.00.H22-KQ000165",
+        "name": "Trường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên: Trích sao hồ sơ bệnh án hoặc bản sao giấy chứng nhận thương tích do cơ sở y tế nơi đã cấp cứu, điều trị",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Biên bản giám định mức suy giảm khả năng lao động của hội đồng giám định y khoa bệnh viện cấp tỉnh và tương đương trở lên",
-        "code": "000.00.00.H22-KQ000166",
+        "name": "Trường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên: Biên bản giám định mức suy giảm khả năng lao động của hội đồng giám định y khoa bệnh viện cấp tỉnh và tương đương trở lên",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Biên bản điều tra của cơ quan công an (trường hợp bị tai nạn giao thông)",
-        "code": "000.00.00.H22-KQ000170",
+        "name": "Trường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên: Biên bản điều tra của cơ quan công an (trường hợp bị tai nạn giao thông)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Tờ trình của UBND cấp xã",
-        "code": "000.00.00.H22-KQ000173",
+        "name": "Trường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên: Tờ trình của UBND cấp xã",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Hồ sơ đã tiếp nhận của khách hàng tại Bộ phận tiếp nhận và trả kết quả giải quyết TTHC cấp xã",
-        "code": "000.00.00.H22-KQ000176",
+        "name": "Trường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên: Hồ sơ đã tiếp nhận của khách hàng tại Bộ phận tiếp nhận và trả kết quả giải quyết TTHC cấp xã",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Đơn đề nghị trợ cấp tiền tuất theo mẫu quy định tại Phụ lục VII ban hành kèm theo Nghị định số 66/2021/NĐ-CP ngày 06/7/2021 của Chính phủ",
-        "code": "000.00.00.H22-KQ000168",
+        "name": "Trường hợp trợ cấp tiền tuất: Đơn đề nghị trợ cấp tiền tuất theo mẫu quy định tại Phụ lục VII ban hành kèm theo Nghị định số 66/2021/NĐ-CP ngày 06/7/2021 của Chính phủ",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp trợ cấp tiền tuất ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Giấy ra viện hoặc trích sao hồ sơ bệnh án hoặc bản sao giấy chứng tử hoặc trích lục khai tử",
-        "code": "000.00.00.H22-KQ000169",
+        "name": "Trường hợp trợ cấp tiền tuất: Giấy ra viện hoặc trích sao hồ sơ bệnh án hoặc bản sao giấy chứng tử hoặc trích lục khai tử",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp trợ cấp tiền tuất ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Biên bản điều tra của cơ quan công an (trường hợp bị tai nạn giao thông)",
-        "code": "000.00.00.H22-KQ000170",
+        "name": "Trường hợp trợ cấp tiền tuất: Biên bản điều tra của cơ quan công an (trường hợp bị tai nạn giao thông)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp trợ cấp tiền tuất ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Tờ trình của UBND cấp xã",
-        "code": "000.00.00.H22-KQ000173",
+        "name": "Trường hợp trợ cấp tiền tuất: Tờ trình của UBND cấp xã",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp trợ cấp tiền tuất ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Hồ sơ đã tiếp nhận của khách hàng tại Bộ phận tiếp nhận và trả kết quả giải quyết TTHC cấp xã",
-        "code": "000.00.00.H22-KQ000176",
+        "name": "Trường hợp trợ cấp tiền tuất: Hồ sơ đã tiếp nhận của khách hàng tại Bộ phận tiếp nhận và trả kết quả giải quyết TTHC cấp xã",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp trợ cấp tiền tuất ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -168,24 +139,21 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Trong thời hạn 10 ngày làm việc, kể từ ngày có quyết định trợ cấp, Ủy ban nhân dân cấp xã có trách nhiệm thực hiện chi trả trợ cấp cho đối tượng được hưởng",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Trong thời hạn 10 ngày làm việc, kể từ ngày có quyết định trợ cấp, Ủy ban nhân dân cấp xã có trách nhiệm thực hiện chi trả trợ cấp cho đối tượng được hưởng",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -194,8 +162,7 @@
     {
       "title": "Nghị định quy định chi tiết thi hành một số điều của Luật Phòng, chống thiên tai và Luật sửa đổi, bổ sung một số điều của Luật Phòng, chống thiên tai và Luật Đê điều.",
       "document_number": "66/2021/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-35c222f3204b",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "",
@@ -203,14 +170,13 @@
     {
       "title": "Danh sách các đối tượng được chi trả kinh phí trợ cấp tai nạn, bị chết cho người tham gia lực lượng xung kích theo đúng Quyết định của UBND cấp tỉnh phê duyệt",
       "code": "000.00.00.H22-KQ000177",
-      "id": "019dc569-15f1-738e-b09e-943f484998af",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "\t\nGửi (nộp) hồ sơ TTHC\nNgười tham gia lực lượng xung kích phòng chống thiên tai cấp xã hoặc người đại diện hợp pháp lập 01 bộ hồ sơ gửi Ủy ban nhân dân xã.\nCách thức thực hiện: Nộp Trực tiếp hoặc qua dịch vụ Bưu chính công ích (BCCI) hoặc DVC trực tuyến mức độ 4.\n\nBước 1: UBND cấp xã tổng hợp báo cáo Ủy ban nhân dân cấp huyện chậm nhất 10 ngày kể từ ngày nhận được hồ sơ hợp lệ.\n Đối với các trường hợp không đủ điều kiện, hóa đơn, giấy tờ theo quy định hoặc không hợp lệ, trong thời hạn 03 ngày làm việc kể từ ngày nhận được đơn đề nghị, cấp xã phải có văn bản hướng dẫn gửi người nộp đơn để bổ sung, hoàn thiện. \nCách thức thực hiện: Trực tiếp hoặc gửi liên thông qua Hệ thống thông tin một cửa điện tử.\n\nBước 2:  Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ do Chủ tịch Ủy ban nhân dân xã trình, Ủy ban nhân dân cấp huyện lập 01 bộ hồ sơ trình Chủ tịch Ủy ban nhân dân cấp tỉnh.\nCách thức thực hiện:  Nộp Trực tiếp hoặc qua dịch vụ Bưu chính công ích (BCCI) hoặc DVC trực tuyến mức độ 4.\n\nBước 3: Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ do Chủ tịch Ủy ban nhân dân cấp huyện trình, Chủ tịch Ủy ban nhân dân tỉnh quyết định trợ cấp tai nạn, bị chết cho người tham gia lực lượng xung kích.\nCách thức trả kết quả: Trực tiếp hoặc qua dich vụ BCCI hoặc qua địa chỉ thư điện tử khách hàng đã đăng ký.",
-    "THÀNH PHẦN HỒ SƠ": "Trường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên \nĐơn đề nghị trợ cấp tai nạn theo mẫu quy định tại Phụ lục VII ban hành kèm theo Nghị định số 66/2021/NĐ-CP ngày 06/7/2021 của Chính phủ\nGiấy ra viện\nTrích sao hồ sơ bệnh án hoặc bản sao giấy chứng nhận thương tích do cơ sở y tế nơi đã cấp cứu, điều trị\nBiên bản giám định mức suy giảm khả năng lao động của hội đồng giám định y khoa bệnh viện cấp tỉnh và tương đương trở lên\nBiên bản điều tra của cơ quan công an (trường hợp bị tai nạn giao thông)\nTờ trình của UBND cấp xã\nHồ sơ đã tiếp nhận của khách hàng tại Bộ phận tiếp nhận và trả kết quả giải quyết TTHC cấp xã\nTrường hợp trợ cấp tiền tuất \nĐơn đề nghị trợ cấp tiền tuất theo mẫu quy định tại Phụ lục VII ban hành kèm theo Nghị định số 66/2021/NĐ-CP ngày 06/7/2021 của Chính phủ\nGiấy ra viện hoặc trích sao hồ sơ bệnh án hoặc bản sao giấy chứng tử hoặc trích lục khai tử\nBiên bản điều tra của cơ quan công an (trường hợp bị tai nạn giao thông)\nTờ trình của UBND cấp xã\nHồ sơ đã tiếp nhận của khách hàng tại Bộ phận tiếp nhận và trả kết quả giải quyết TTHC cấp xã",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 10 ngày làm việc - Trong thời hạn 10 ngày làm việc, kể từ ngày có quyết định trợ cấp, Ủy ban nhân dân cấp xã có trách nhiệm thực hiện chi trả trợ cấp cho đối tượng được hưởng\nQua dịch vụ bưu chính: 10 ngày làm việc - Trong thời hạn 10 ngày làm việc, kể từ ngày có quyết định trợ cấp, Ủy ban nhân dân cấp xã có trách nhiệm thực hiện chi trả trợ cấp cho đối tượng được hưởng",
+    "TRÌNH TỰ THỰC HIỆN": "Gửi (nộp) hồ sơ TTHC\nNgười tham gia lực lượng xung kích phòng chống thiên tai cấp xã hoặc người đại diện hợp pháp lập 01 bộ hồ sơ gửi Ủy ban nhân dân xã.\nCách thức thực hiện: Nộp Trực tiếp hoặc qua dịch vụ Bưu chính công ích (BCCI) hoặc DVC trực tuyến mức độ 4.\nBước 1: UBND cấp xã tổng hợp báo cáo Ủy ban nhân dân cấp huyện chậm nhất 10 ngày kể từ ngày nhận được hồ sơ hợp lệ.\n Đối với các trường hợp không đủ điều kiện, hóa đơn, giấy tờ theo quy định hoặc không hợp lệ, trong thời hạn 03 ngày làm việc kể từ ngày nhận được đơn đề nghị, cấp xã phải có văn bản hướng dẫn gửi người nộp đơn để bổ sung, hoàn thiện. \nCách thức thực hiện: Trực tiếp hoặc gửi liên thông qua Hệ thống thông tin một cửa điện tử.\nBước 2:  Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ do Chủ tịch Ủy ban nhân dân xã trình, Ủy ban nhân dân cấp huyện lập 01 bộ hồ sơ trình Chủ tịch Ủy ban nhân dân cấp tỉnh.\nCách thức thực hiện:  Nộp Trực tiếp hoặc qua dịch vụ Bưu chính công ích (BCCI) hoặc DVC trực tuyến mức độ 4.\nBước 3: Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được hồ sơ do Chủ tịch Ủy ban nhân dân cấp huyện trình, Chủ tịch Ủy ban nhân dân tỉnh quyết định trợ cấp tai nạn, bị chết cho người tham gia lực lượng xung kích.\nCách thức trả kết quả: Trực tiếp hoặc qua dich vụ BCCI hoặc qua địa chỉ thư điện tử khách hàng đã đăng ký.",
+    "THÀNH PHẦN HỒ SƠ": "Trường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên: Đơn đề nghị trợ cấp tai nạn theo mẫu quy định tại Phụ lục VII ban hành kèm theo Nghị định số 66/2021/NĐ-CP ngày 06/7/2021 của Chính phủ\nTrường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên: Giấy ra viện\nTrường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên: Trích sao hồ sơ bệnh án hoặc bản sao giấy chứng nhận thương tích do cơ sở y tế nơi đã cấp cứu, điều trị\nTrường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên: Biên bản giám định mức suy giảm khả năng lao động của hội đồng giám định y khoa bệnh viện cấp tỉnh và tương đương trở lên\nTrường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên: Biên bản điều tra của cơ quan công an (trường hợp bị tai nạn giao thông)\nTrường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên: Tờ trình của UBND cấp xã\nTrường hợp tai nạn suy giảm khả năng lao động từ 5% trở lên: Hồ sơ đã tiếp nhận của khách hàng tại Bộ phận tiếp nhận và trả kết quả giải quyết TTHC cấp xã\nTrường hợp trợ cấp tiền tuất: Đơn đề nghị trợ cấp tiền tuất theo mẫu quy định tại Phụ lục VII ban hành kèm theo Nghị định số 66/2021/NĐ-CP ngày 06/7/2021 của Chính phủ\nTrường hợp trợ cấp tiền tuất: Giấy ra viện hoặc trích sao hồ sơ bệnh án hoặc bản sao giấy chứng tử hoặc trích lục khai tử\nTrường hợp trợ cấp tiền tuất: Biên bản điều tra của cơ quan công an (trường hợp bị tai nạn giao thông)\nTrường hợp trợ cấp tiền tuất: Tờ trình của UBND cấp xã\nTrường hợp trợ cấp tiền tuất: Hồ sơ đã tiếp nhận của khách hàng tại Bộ phận tiếp nhận và trả kết quả giải quyết TTHC cấp xã",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 10 ngày làm việc\nQua dịch vụ bưu chính: 10 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định quy định chi tiết thi hành một số điều của Luật Phòng, chống thiên tai và Luật sửa đổi, bổ sung một số điều của Luật Phòng, chống thiên tai và Luật Đê điều. - 66/2021/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Ủy ban nhân dân cấp xã",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
@@ -219,14 +185,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Quản lý Đê điều và Phòng, chống thiên tai",
-      "slug": "quan-ly-de-dieu-va-phong-chong-thien-tai"
+      "slug": "quan-ly-e-ieu-va-phong-chong-thien-tai"
     },
     "implementation_levels": [
       {
@@ -246,6 +207,6 @@
         "slug": "uy-ban-nhan-dan-cap-xa"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

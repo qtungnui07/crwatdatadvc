@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bff-7bb8-7351-987e-44b25d660cce",
   "procedure_code": "1.000129",
   "title": "Thủ tục đăng ký khoản cho vay ra nước ngoài của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-7bb8-7351-987e-44b25d660cce",
     "source_file": "chi-tiet-thu-tuc-1.000129.pdf",
     "source_path": "procedures/viec-lam/1.000129/chi-tiet-thu-tuc-1.000129.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:21:58.058799+00:00",
-    "source_updated_at": "2026-04-10T10:01:03.500Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:43.047179+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "d2f3804968df9a1627ac8493cb2133c65fcde081ec7de2b119094dbd61552541"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:58.058799+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "4091/QĐ-NHNN",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hoạt động ngoại hối",
   "target_users": [
@@ -35,84 +31,64 @@
   ],
   "agency": {
     "competent_agency": "Ngân hàng Nhà nước Việt Nam",
-    "executing_agency": "Ngân hàng Nhà nước Việt Nam",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Bộ phận Một cửa Ngân hàng Nhà nước 49 Lý Thái Tổ, Hoàn Kiếm, Hà Nội"
+    "executing_agency": "Ngân hàng Nhà nước Việt Nam"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Bên cho vay gửi 01 bộ hồ sơ đăng ký khoản cho vay ra nước ngoài theo quy định đến Ngân hàng Nhà nước trong thời hạn: (i) 30 ngày kể từ ngày ký thỏa thuận cho vay, thỏa thuận gia hạn khoản cho vay đối với khoản cho vay ra nước ngoài quy định tại khoản 1 Điều 14 Thông tư số 79/2025/TT-NHNN; (ii)  30 ngày kể từ thời điểm 90 ngày quá hạn thanh toán đối với trường hợp quy định tại khoản 2 Điều 14 Thông tư số 79/2025/TT-NHNN\nNgân hàng Nhà nước thông báo về việc tiếp nhận chính thức hoặc yêu cầu chỉnh sửa, bổ sung hồ sơ để tiếp nhận cho tổ chức, cá nhân không muộn hơn 03 ngày làm việc kể từ khi tiếp nhận hồ sơ.\n- Bước 2: Trong thời hạn 15 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ, Ngân hàng Nhà nước có văn bản xác nhận hoặc từ chối xác nhận đăng ký khoản cho vay ra nước ngoài (có nêu rõ lý do).\nTrường hợp hồ sơ chưa đầy đủ, hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu nhà đầu tư chỉnh sửa, bổ sung hồ sơ. \nSau 60 ngày kể từ ngày yêu cầu, nếu Bên cho vay không hoàn thành việc hoàn thiện hồ sơ, Ngân hàng Nhà nước thực hiện đóng hồ sơ đề nghị xác nhận đăng ký khoản cho vay ra nước ngoài.\n",
+      "description": "- Bước 1: Bên cho vay gửi 01 bộ hồ sơ đăng ký khoản cho vay ra nước ngoài theo quy định đến Ngân hàng Nhà nước trong thời hạn: (i) 30 ngày kể từ ngày ký thỏa thuận cho vay, thỏa thuận gia hạn khoản cho vay đối với khoản cho vay ra nước ngoài quy định tại khoản 1 Điều 14 Thông tư số 79/2025/TT-NHNN; (ii)  30 ngày kể từ thời điểm 90 ngày quá hạn thanh toán đối với trường hợp quy định tại khoản 2 Điều 14 Thông tư số 79/2025/TT-NHNN\nNgân hàng Nhà nước thông báo về việc tiếp nhận chính thức hoặc yêu cầu chỉnh sửa, bổ sung hồ sơ để tiếp nhận cho tổ chức, cá nhân không muộn hơn 03 ngày làm việc kể từ khi tiếp nhận hồ sơ.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Trong thời hạn 15 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ, Ngân hàng Nhà nước có văn bản xác nhận hoặc từ chối xác nhận đăng ký khoản cho vay ra nước ngoài (có nêu rõ lý do).\nTrường hợp hồ sơ chưa đầy đủ, hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu nhà đầu tư chỉnh sửa, bổ sung hồ sơ. \nSau 60 ngày kể từ ngày yêu cầu, nếu Bên cho vay không hoàn thành việc hoàn thiện hồ sơ, Ngân hàng Nhà nước thực hiện đóng hồ sơ đề nghị xác nhận đăng ký khoản cho vay ra nước ngoài.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Đơn đăng ký khoản cho vay ra nước ngoài (theo Phụ lục số I ban hành kèm theo Thông tư số 79/2025/TT-NHNN).",
-        "code": "G19-KQ005309",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d76d4-f1b5-7428-b9b3-2358126ab453",
-            "name": "PL I TT 79.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PL I TT 79.docx",
+        "source_page": 3
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Báo cáo việc đáp ứng các quy định của pháp luật về hoạt động cho vay của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài đối với khách hàng.",
-        "code": "G19-KQ005311",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Văn bản ủy quyền (nếu có) của các thành viên hợp vốn cho một bên cho vay thực hiện thủ tục đăng ký khoản cho vay ra nước ngoài (áp dụng đối với khoản cho vay ra nước ngoài hợp vốn)",
-        "code": "G19-KQ005314",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Tài liệu về bên vay nước ngoài bao gồm: a) Quyết định thành lập hoặc Giấy chứng nhận đăng ký đầu tư của bên vay nước ngoài hoặc tài liệu khác có giá trị tương đương theo quy định của nước sở tại chứng minh bên vay nước ngoài thuộc đối tượng quy định tại điểm a, điểm b khoản 1 Điều 10 Thông tư số 79/2025/TT-NHNN; b) Thoả thuận quan hệ đại lý thanh, quyết toán với bên cho vay của bên vay nước ngoài quy định tại điểm c khoản 1 Điều 10 Thông tư số 79/2025/TT-NHNN;",
-        "code": "G19-KQ005312",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Báo cáo về khoản cho vay ra nước ngoài gồm các nội dung chủ yếu sau: bên vay nước ngoài; mục đích sử dụng vốn vay của bên vay nước ngoài; sự phù hợp về trị giá khoản cho vay với quy mô của phương án sử dụng vốn vay; nguồn vốn ngoại tệ cho vay (áp dụng đối với khoản cho vay bằng ngoại tệ); các biện pháp phòng ngừa rủi ro liên quan; đánh giá tính khả thi của khoản cho vay; khả năng thu hồi vốn; tình hình giải ngân, thu hồi nợ (áp dụng đối với khoản cho vay quy định tại khoản 2 Điều 14 của Thông tư số 79/2025/TT-NHNN).",
-        "code": "G19-KQ005310",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Thỏa thuận cho vay, thỏa thuận gia hạn khoản cho vay ra nước ngoài đã ký (nếu có).",
-        "code": "G19-KQ005313",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -121,35 +97,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -157,51 +113,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -209,8 +150,7 @@
     {
       "title": "Thông tư hướng dẫn về quản lý ngoại hối đối với việc cho vay ra nước ngoài và thu hồi nợ nước ngoài của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài",
       "document_number": "Thông tư số 79/2025/TT-NHNN",
-      "id": "019d2bb3-5d80-7608-8ccf-c4f42c8f781a",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Không",
@@ -218,19 +158,17 @@
     {
       "title": "Công văn từ chối xác nhận đăng ký khoản cho vay ra nước ngoài",
       "code": "KQ.G19.000416",
-      "id": "019d2bb2-1c7d-740f-b032-aacfc2338310",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Văn bản xác nhận/từ chối xác nhận đăng ký khoản cho vay ra nước ngoài",
       "code": "KQ.G19.000006",
-      "id": "019d2bb2-1c7c-74ea-bcd1-bde1efd5f606",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Bên cho vay gửi 01 bộ hồ sơ đăng ký khoản cho vay ra nước ngoài theo quy định đến Ngân hàng Nhà nước trong thời hạn: (i) 30 ngày kể từ ngày ký thỏa thuận cho vay, thỏa thuận gia hạn khoản cho vay đối với khoản cho vay ra nước ngoài quy định tại khoản 1 Điều 14 Thông tư số 79/2025/TT-NHNN; (ii)  30 ngày kể từ thời điểm 90 ngày quá hạn thanh toán đối với trường hợp quy định tại khoản 2 Điều 14 Thông tư số 79/2025/TT-NHNN\nNgân hàng Nhà nước thông báo về việc tiếp nhận chính thức hoặc yêu cầu chỉnh sửa, bổ sung hồ sơ để tiếp nhận cho tổ chức, cá nhân không muộn hơn 03 ngày làm việc kể từ khi tiếp nhận hồ sơ.\n- Bước 2: Trong thời hạn 15 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ, Ngân hàng Nhà nước có văn bản xác nhận hoặc từ chối xác nhận đăng ký khoản cho vay ra nước ngoài (có nêu rõ lý do).\nTrường hợp hồ sơ chưa đầy đủ, hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu nhà đầu tư chỉnh sửa, bổ sung hồ sơ. \nSau 60 ngày kể từ ngày yêu cầu, nếu Bên cho vay không hoàn thành việc hoàn thiện hồ sơ, Ngân hàng Nhà nước thực hiện đóng hồ sơ đề nghị xác nhận đăng ký khoản cho vay ra nước ngoài.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nBáo cáo việc đáp ứng các quy định của pháp luật về hoạt động cho vay của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài đối với khách hàng.\nVăn bản ủy quyền (nếu có) của các thành viên hợp vốn cho một bên cho vay thực hiện thủ tục đăng ký khoản cho vay ra nước ngoài (áp dụng đối với khoản cho vay ra nước ngoài hợp vốn)\nTài liệu về bên vay nước ngoài bao gồm: a) Quyết định thành lập hoặc Giấy chứng nhận đăng ký đầu tư của bên vay nước ngoài hoặc tài liệu khác có giá trị tương đương theo quy định của nước sở tại chứng minh bên vay nước ngoài thuộc đối tượng quy định tại điểm a, điểm b khoản 1 Điều 10 Thông tư số 79/2025/TT-NHNN; b) Thoả thuận quan hệ đại lý thanh, quyết toán với bên cho vay của bên vay nước ngoài quy định tại điểm c khoản 1 Điều 10 Thông tư số 79/2025/TT-NHNN;\nBáo cáo về khoản cho vay ra nước ngoài gồm các nội dung chủ yếu sau: bên vay nước ngoài; mục đích sử dụng vốn vay của bên vay nước ngoài; sự phù hợp về trị giá khoản cho vay với quy mô của phương án sử dụng vốn vay; nguồn vốn ngoại tệ cho vay (áp dụng đối với khoản cho vay bằng ngoại tệ); các biện pháp phòng ngừa rủi ro liên quan; đánh giá tính khả thi của khoản cho vay; khả năng thu hồi vốn; tình hình giải ngân, thu hồi nợ (áp dụng đối với khoản cho vay quy định tại khoản 2 Điều 14 của Thông tư số 79/2025/TT-NHNN).\nThỏa thuận cho vay, thỏa thuận gia hạn khoản cho vay ra nước ngoài đã ký (nếu có).\nĐơn đăng ký khoản cho vay ra nước ngoài (theo Phụ lục số I ban hành kèm theo Thông tư số 79/2025/TT-NHNN).",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Bên cho vay gửi 01 bộ hồ sơ đăng ký khoản cho vay ra nước ngoài theo quy định đến Ngân hàng Nhà nước trong thời hạn: (i) 30 ngày kể từ ngày ký thỏa thuận cho vay, thỏa thuận gia hạn khoản cho vay đối với khoản cho vay ra nước ngoài quy định tại khoản 1 Điều 14 Thông tư số 79/2025/TT-NHNN; (ii)  30 ngày kể từ thời điểm 90 ngày quá hạn thanh toán đối với trường hợp quy định tại khoản 2 Điều 14 Thông tư số 79/2025/TT-NHNN\nNgân hàng Nhà nước thông báo về việc tiếp nhận chính thức hoặc yêu cầu chỉnh sửa, bổ sung hồ sơ để tiếp nhận cho tổ chức, cá nhân không muộn hơn 03 ngày làm việc kể từ khi tiếp nhận hồ sơ.\n- Bước 2: Trong thời hạn 15 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ, Ngân hàng Nhà nước có văn bản xác nhận hoặc từ chối xác nhận đăng ký khoản cho vay ra nước ngoài (có nêu rõ lý do).\nTrường hợp hồ sơ chưa đầy đủ, hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu nhà đầu tư chỉnh sửa, bổ sung hồ sơ. \nSau 60 ngày kể từ ngày yêu cầu, nếu Bên cho vay không hoàn thành việc hoàn thiện hồ sơ, Ngân hàng Nhà nước thực hiện đóng hồ sơ đề nghị xác nhận đăng ký khoản cho vay ra nước ngoài.",
+    "THÀNH PHẦN HỒ SƠ": "Đơn đăng ký khoản cho vay ra nước ngoài (theo Phụ lục số I ban hành kèm theo Thông tư số 79/2025/TT-NHNN).\nBáo cáo việc đáp ứng các quy định của pháp luật về hoạt động cho vay của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài đối với khách hàng.\nVăn bản ủy quyền (nếu có) của các thành viên hợp vốn cho một bên cho vay thực hiện thủ tục đăng ký khoản cho vay ra nước ngoài (áp dụng đối với khoản cho vay ra nước ngoài hợp vốn)\nTài liệu về bên vay nước ngoài bao gồm: a) Quyết định thành lập hoặc Giấy chứng nhận đăng ký đầu tư của bên vay nước ngoài hoặc tài liệu khác có giá trị tương đương theo quy định của nước sở tại chứng minh bên vay nước ngoài thuộc đối tượng quy định tại điểm a, điểm b khoản 1 Điều 10 Thông tư số 79/2025/TT-NHNN; b) Thoả thuận quan hệ đại lý thanh, quyết toán với bên cho vay của bên vay nước ngoài quy định tại điểm c khoản 1 Điều 10 Thông tư số 79/2025/TT-NHNN;\nBáo cáo về khoản cho vay ra nước ngoài gồm các nội dung chủ yếu sau: bên vay nước ngoài; mục đích sử dụng vốn vay của bên vay nước ngoài; sự phù hợp về trị giá khoản cho vay với quy mô của phương án sử dụng vốn vay; nguồn vốn ngoại tệ cho vay (áp dụng đối với khoản cho vay bằng ngoại tệ); các biện pháp phòng ngừa rủi ro liên quan; đánh giá tính khả thi của khoản cho vay; khả năng thu hồi vốn; tình hình giải ngân, thu hồi nợ (áp dụng đối với khoản cho vay quy định tại khoản 2 Điều 14 của Thông tư số 79/2025/TT-NHNN).\nThỏa thuận cho vay, thỏa thuận gia hạn khoản cho vay ra nước ngoài đã ký (nếu có).",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 15 ngày làm việc\nQua dịch vụ bưu chính: 15 ngày làm việc\nTrực tiếp: 15 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Thông tư hướng dẫn về quản lý ngoại hối đối với việc cho vay ra nước ngoài và thu hồi nợ nước ngoài của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài - Thông tư số 79/2025/TT-NHNN",
     "CƠ QUAN THỰC HIỆN": "Ngân hàng Nhà nước Việt Nam",
@@ -240,14 +178,9 @@
     "MÔ TẢ": "Không"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hoạt động ngoại hối",
-      "slug": "hoat-dong-ngoai-hoi"
+      "slug": "hoat-ong-ngoai-hoi"
     },
     "implementation_levels": [
       {
@@ -267,6 +200,6 @@
         "slug": "ngan-hang-nha-nuoc-viet-nam"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019dfd0e-8a44-71b4-a49d-0c90d86abdb7",
   "procedure_code": "6.005712",
   "title": "Thủ tục đề nghị xét tặng Bức trướng của Bộ Xây dựng",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019dfd0e-8a44-71b4-a49d-0c90d86abdb7",
     "source_file": "chi-tiet-thu-tuc-6.005712.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/6.005712/chi-tiet-thu-tuc-6.005712.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:22:25.148768+00:00",
-    "source_updated_at": "2026-05-26T08:23:54.727Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:00.608451+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "c4db6b39d0678b67d7d8d68374efcc46f9a9b800dcac73bd15bccd757095d41c"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:25.148768+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2489/QĐ-BXD",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "LOCAL_REGULATION",
   "sector": "Thi đua – Khen thưởng",
   "target_users": [
@@ -36,46 +32,31 @@
   ],
   "agency": {
     "competent_agency": "Bộ Xây dựng",
-    "executing_agency": "Bộ Xây dựng",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Bộ Xây dựng, 80 Trần Hưng Đạo, Phường Cửa Nam, TP. Hà Nội"
+    "executing_agency": "Bộ Xây dựng"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "-\tBước 1: Các cơ quan, đơn vị thuộc Bộ Xây dựng; Sở Xây dựng, Sở Quy hoạch - Kiến trúc các tỉnh, thành phố lập hồ sơ đề nghị xét tặng Bức trướng gửi về Bộ Xây dựng (qua Vụ Tổ chức cán bộ).\n-\tBước 2. Trên cơ sở kết quả xét tặng Bức trướng của Hội đồng Thi đua - Khen thưởng cấp cơ sở, Vụ Tổ chức cán bộ tổng hợp, báo cáo một số cơ quan, đơn vị có liên quan, trình Bộ trưởng xem xét, quyết định.\n",
+      "description": "-\tBước 1: Các cơ quan, đơn vị thuộc Bộ Xây dựng; Sở Xây dựng, Sở Quy hoạch - Kiến trúc các tỉnh, thành phố lập hồ sơ đề nghị xét tặng Bức trướng gửi về Bộ Xây dựng (qua Vụ Tổ chức cán bộ).",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "-\tBước 2. Trên cơ sở kết quả xét tặng Bức trướng của Hội đồng Thi đua - Khen thưởng cấp cơ sở, Vụ Tổ chức cán bộ tổng hợp, báo cáo một số cơ quan, đơn vị có liên quan, trình Bộ trưởng xem xét, quyết định.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "-\tTờ trình đề nghị tặng Bức trướng của Bộ Xây dựng; -\tBáo cáo thành tích tập thể; -\tBiên bản xét khen thưởng và kết quả bỏ phiếu của tập thể cơ quan, đơn vị hoặc Hội đồng Thi đua - Khen thưởng các cấp; - Số lượng hồ sơ: 01 bộ.",
-        "code": "6.005712",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dfd0e-6318-72f8-86fa-15d2de6ac0a3",
-            "name": "Mẫu số 1.1 To trinh.docx",
-            "url": ""
-          },
-          {
-            "id": "019dfd0e-6428-7334-9ffe-9765319eaede",
-            "name": "Mẫu số 1.2- Bien ban.docx",
-            "url": ""
-          },
-          {
-            "id": "019dfd0e-654e-7258-b964-a1271b11b3ce",
-            "name": "Mẫu số 1.5-.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 1.1 To trinh.docx; Mẫu số 1.2- Bien ban.docx; Mẫu số 1.5-.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -86,34 +67,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "25 ngày",
-      "processing_time_value": 25,
-      "processing_time_unit": "DAY",
-      "fees": [],
-      "description": "Đối với các trường hợp đủ điều kiện, tiêu chuẩn khen thưởng theo quy định, Vụ Tổ chức cán bộ thực hiện quy trình đề nghị Bộ trưởng xem xét, quyết định khen thưởng hoặc trình cấp có thẩm quyền khen thưởng và thông báo cho đơn vị trình khen trong thời gian 25 ngày kể từ ngày nhận đủ hồ sơ theo quy định;\nĐối với các trường hợp không đủ điều kiện, tiêu chuẩn, trong thời gian 10 ngày kể từ ngày nhận đủ hồ sơ đề nghị khen thưởng, Vụ Tổ chức cán bộ thông báo cho đơn vị trình khen.\n",
-      "source_page": null
+      "fee": null,
+      "description": "Đối với các trường hợp đủ điều kiện, tiêu chuẩn khen thưởng theo quy định, Vụ Tổ chức cán bộ thực hiện quy trình đề nghị Bộ trưởng xem xét, quyết định khen thưởng hoặc trình cấp có thẩm quyền khen thưởng và thông báo cho đơn vị trình khen trong thời gian 25 ngày kể từ ngày nhận đủ hồ sơ theo quy định;\nĐối với các trường hợp không đủ điều kiện, tiêu chuẩn, trong thời gian 10 ngày kể từ ngày nhận đủ hồ sơ đề nghị khen thưởng, Vụ Tổ chức cán bộ thông báo cho đơn vị trình khen.",
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "25 ngày",
-      "processing_time_value": 25,
-      "processing_time_unit": "DAY",
-      "fees": [],
-      "description": "Đối với các trường hợp đủ điều kiện, tiêu chuẩn khen thưởng theo quy định, Vụ Tổ chức cán bộ thực hiện quy trình đề nghị Bộ trưởng xem xét, quyết định khen thưởng hoặc trình cấp có thẩm quyền khen thưởng và thông báo cho đơn vị trình khen trong thời gian 25 ngày kể từ ngày nhận đủ hồ sơ theo quy định;\nĐối với các trường hợp không đủ điều kiện, tiêu chuẩn, trong thời gian 10 ngày kể từ ngày nhận đủ hồ sơ đề nghị khen thưởng, Vụ Tổ chức cán bộ thông báo cho đơn vị trình khen.\n",
-      "source_page": null
+      "fee": null,
+      "description": "Đối với các trường hợp đủ điều kiện, tiêu chuẩn khen thưởng theo quy định, Vụ Tổ chức cán bộ thực hiện quy trình đề nghị Bộ trưởng xem xét, quyết định khen thưởng hoặc trình cấp có thẩm quyền khen thưởng và thông báo cho đơn vị trình khen trong thời gian 25 ngày kể từ ngày nhận đủ hồ sơ theo quy định;\nĐối với các trường hợp không đủ điều kiện, tiêu chuẩn, trong thời gian 10 ngày kể từ ngày nhận đủ hồ sơ đề nghị khen thưởng, Vụ Tổ chức cán bộ thông báo cho đơn vị trình khen.",
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "25 ngày",
-      "processing_time_value": 25,
-      "processing_time_unit": "DAY",
-      "fees": [],
-      "description": "Đối với các trường hợp đủ điều kiện, tiêu chuẩn khen thưởng theo quy định, Vụ Tổ chức cán bộ thực hiện quy trình đề nghị Bộ trưởng xem xét, quyết định khen thưởng hoặc trình cấp có thẩm quyền khen thưởng và thông báo cho đơn vị trình khen trong thời gian 25 ngày kể từ ngày nhận đủ hồ sơ theo quy định;\nĐối với các trường hợp không đủ điều kiện, tiêu chuẩn, trong thời gian 10 ngày kể từ ngày nhận đủ hồ sơ đề nghị khen thưởng, Vụ Tổ chức cán bộ thông báo cho đơn vị trình khen.\n",
-      "source_page": null
+      "fee": null,
+      "description": "Đối với các trường hợp đủ điều kiện, tiêu chuẩn khen thưởng theo quy định, Vụ Tổ chức cán bộ thực hiện quy trình đề nghị Bộ trưởng xem xét, quyết định khen thưởng hoặc trình cấp có thẩm quyền khen thưởng và thông báo cho đơn vị trình khen trong thời gian 25 ngày kể từ ngày nhận đủ hồ sơ theo quy định;\nĐối với các trường hợp không đủ điều kiện, tiêu chuẩn, trong thời gian 10 ngày kể từ ngày nhận đủ hồ sơ đề nghị khen thưởng, Vụ Tổ chức cán bộ thông báo cho đơn vị trình khen.",
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -122,51 +98,42 @@
     {
       "title": "Quy định về công tác thi đua, khen thưởng của Bộ Xây dựng",
       "document_number": "Thông tư số 55/2025/TT-BXD",
-      "id": "019dfcdd-3121-72ef-997c-0d032292495a",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Luật Thi đua khen thưởng 2022",
       "document_number": "06",
-      "id": "019d2bb3-5d84-71c5-b671-403696fffeb6",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Quy định về phân cấp, phân quyền trong lĩnh vực thi đua, khen thưởng; quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi đua, khen thưởng",
       "document_number": "152/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-a91bedd97ae5",
-      "source_page": null
+      "source_page": 5
     }
   ],
-  "conditions": "Tập thể được xét tặng Bức trướng của Bộ Xây dựng nếu đáp ứng các tiêu chuẩn sau đây:\n- Tích cực tham gia phong trào thi đua thường xuyên, thiết thực, hiệu quả do Bộ Xây dựng phát động.\n- Nội bộ đoàn kết; tổ chức đảng, đoàn thể được cấp có thẩm quyền công nhận hoàn thành tốt nhiệm vụ; tích cực thực hành tiết kiệm, chống lãng phí, phòng, chống tham nhũng và các tệ nạn xã hội khác.\n",
+  "conditions": "Tập thể được xét tặng Bức trướng của Bộ Xây dựng nếu đáp ứng các tiêu chuẩn sau đây:\n- Tích cực tham gia phong trào thi đua thường xuyên, thiết thực, hiệu quả do Bộ Xây dựng phát động.\n- Nội bộ đoàn kết; tổ chức đảng, đoàn thể được cấp có thẩm quyền công nhận hoàn thành tốt nhiệm vụ; tích cực thực hành tiết kiệm, chống lãng phí, phòng, chống tham nhũng và các tệ nạn xã hội khác.",
   "results": [
     {
       "title": "- Quyết định tặng Bức trướng của Bộ Xây dựng",
       "code": "KQ.G17.000590",
-      "id": "019d2bb2-1c7b-7208-ba46-f9fc3cf09559",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "-\tBước 1: Các cơ quan, đơn vị thuộc Bộ Xây dựng; Sở Xây dựng, Sở Quy hoạch - Kiến trúc các tỉnh, thành phố lập hồ sơ đề nghị xét tặng Bức trướng gửi về Bộ Xây dựng (qua Vụ Tổ chức cán bộ).\n-\tBước 2. Trên cơ sở kết quả xét tặng Bức trướng của Hội đồng Thi đua - Khen thưởng cấp cơ sở, Vụ Tổ chức cán bộ tổng hợp, báo cáo một số cơ quan, đơn vị có liên quan, trình Bộ trưởng xem xét, quyết định.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n-\tTờ trình đề nghị tặng Bức trướng của Bộ Xây dựng; -\tBáo cáo thành tích tập thể; -\tBiên bản xét khen thưởng và kết quả bỏ phiếu của tập thể cơ quan, đơn vị hoặc Hội đồng Thi đua - Khen thưởng các cấp; - Số lượng hồ sơ: 01 bộ.\n\n",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 25 ngày - Đối với các trường hợp đủ điều kiện, tiêu chuẩn khen thưởng theo quy định, Vụ Tổ chức cán bộ thực hiện quy trình đề nghị Bộ trưởng xem xét, quyết định khen thưởng hoặc trình cấp có thẩm quyền khen thưởng và thông báo cho đơn vị trình khen trong thời gian 25 ngày kể từ ngày nhận đủ hồ sơ theo quy định;\nĐối với các trường hợp không đủ điều kiện, tiêu chuẩn, trong thời gian 10 ngày kể từ ngày nhận đủ hồ sơ đề nghị khen thưởng, Vụ Tổ chức cán bộ thông báo cho đơn vị trình khen.\n\nTrực tuyến: 25 ngày - Đối với các trường hợp đủ điều kiện, tiêu chuẩn khen thưởng theo quy định, Vụ Tổ chức cán bộ thực hiện quy trình đề nghị Bộ trưởng xem xét, quyết định khen thưởng hoặc trình cấp có thẩm quyền khen thưởng và thông báo cho đơn vị trình khen trong thời gian 25 ngày kể từ ngày nhận đủ hồ sơ theo quy định;\nĐối với các trường hợp không đủ điều kiện, tiêu chuẩn, trong thời gian 10 ngày kể từ ngày nhận đủ hồ sơ đề nghị khen thưởng, Vụ Tổ chức cán bộ thông báo cho đơn vị trình khen.\n\nQua dịch vụ bưu chính: 25 ngày - Đối với các trường hợp đủ điều kiện, tiêu chuẩn khen thưởng theo quy định, Vụ Tổ chức cán bộ thực hiện quy trình đề nghị Bộ trưởng xem xét, quyết định khen thưởng hoặc trình cấp có thẩm quyền khen thưởng và thông báo cho đơn vị trình khen trong thời gian 25 ngày kể từ ngày nhận đủ hồ sơ theo quy định;\nĐối với các trường hợp không đủ điều kiện, tiêu chuẩn, trong thời gian 10 ngày kể từ ngày nhận đủ hồ sơ đề nghị khen thưởng, Vụ Tổ chức cán bộ thông báo cho đơn vị trình khen.\n",
+    "TRÌNH TỰ THỰC HIỆN": "-\tBước 1: Các cơ quan, đơn vị thuộc Bộ Xây dựng; Sở Xây dựng, Sở Quy hoạch - Kiến trúc các tỉnh, thành phố lập hồ sơ đề nghị xét tặng Bức trướng gửi về Bộ Xây dựng (qua Vụ Tổ chức cán bộ).\n-\tBước 2. Trên cơ sở kết quả xét tặng Bức trướng của Hội đồng Thi đua - Khen thưởng cấp cơ sở, Vụ Tổ chức cán bộ tổng hợp, báo cáo một số cơ quan, đơn vị có liên quan, trình Bộ trưởng xem xét, quyết định.",
+    "THÀNH PHẦN HỒ SƠ": "-\tTờ trình đề nghị tặng Bức trướng của Bộ Xây dựng; -\tBáo cáo thành tích tập thể; -\tBiên bản xét khen thưởng và kết quả bỏ phiếu của tập thể cơ quan, đơn vị hoặc Hội đồng Thi đua - Khen thưởng các cấp; - Số lượng hồ sơ: 01 bộ.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 25 ngày\nTrực tuyến: 25 ngày\nQua dịch vụ bưu chính: 25 ngày",
     "CĂN CỨ PHÁP LÝ": "Quy định về công tác thi đua, khen thưởng của Bộ Xây dựng - Thông tư số 55/2025/TT-BXD\nLuật Thi đua khen thưởng 2022 - 06\nQuy định về phân cấp, phân quyền trong lĩnh vực thi đua, khen thưởng; quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi đua, khen thưởng - 152/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Bộ Xây dựng",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Tập thể được xét tặng Bức trướng của Bộ Xây dựng nếu đáp ứng các tiêu chuẩn sau đây:\n- Tích cực tham gia phong trào thi đua thường xuyên, thiết thực, hiệu quả do Bộ Xây dựng phát động.\n- Nội bộ đoàn kết; tổ chức đảng, đoàn thể được cấp có thẩm quyền công nhận hoàn thành tốt nhiệm vụ; tích cực thực hành tiết kiệm, chống lãng phí, phòng, chống tham nhũng và các tệ nạn xã hội khác.\n",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Tập thể được xét tặng Bức trướng của Bộ Xây dựng nếu đáp ứng các tiêu chuẩn sau đây:\n- Tích cực tham gia phong trào thi đua thường xuyên, thiết thực, hiệu quả do Bộ Xây dựng phát động.\n- Nội bộ đoàn kết; tổ chức đảng, đoàn thể được cấp có thẩm quyền công nhận hoàn thành tốt nhiệm vụ; tích cực thực hành tiết kiệm, chống lãng phí, phòng, chống tham nhũng và các tệ nạn xã hội khác.",
     "KẾT QUẢ XỬ LÝ": "- Quyết định tặng Bức trướng của Bộ Xây dựng - KQ.G17.000590",
     "TỪ KHÓA": "Bức trướng của Bộ Xây dựng",
-    "MÔ TẢ": "Tập thể được xét tặng Bức trướng của Bộ Xây dựng nếu đáp ứng các tiêu chuẩn sau đây:\n- Tích cực tham gia phong trào thi đua thường xuyên, thiết thực, hiệu quả do Bộ Xây dựng phát động.\n- Nội bộ đoàn kết; tổ chức đảng, đoàn thể được cấp có thẩm quyền công nhận hoàn thành tốt nhiệm vụ; tích cực thực hành tiết kiệm, chống lãng phí, phòng, chống tham nhũng và các tệ nạn xã hội khác.\n"
+    "MÔ TẢ": "Tập thể được xét tặng Bức trướng của Bộ Xây dựng nếu đáp ứng các tiêu chuẩn sau đây:\n- Tích cực tham gia phong trào thi đua thường xuyên, thiết thực, hiệu quả do Bộ Xây dựng phát động.\n- Nội bộ đoàn kết; tổ chức đảng, đoàn thể được cấp có thẩm quyền công nhận hoàn thành tốt nhiệm vụ; tích cực thực hành tiết kiệm, chống lãng phí, phòng, chống tham nhũng và các tệ nạn xã hội khác."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Thi đua – Khen thưởng",
-      "slug": "thi-dua-khen-thuong"
+      "slug": "thi-ua-khen-thuong"
     },
     "implementation_levels": [
       {
@@ -190,6 +157,6 @@
         "slug": "bo-xay-dung"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

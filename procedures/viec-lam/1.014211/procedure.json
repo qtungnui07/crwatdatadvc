@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf7-9e2b-7549-80d1-a3aca93dc29b",
   "procedure_code": "1.014211",
   "title": "Hỗ trợ chi phí từ Quỹ Phát triển dữ liệu quốc gia",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-9e2b-7549-80d1-a3aca93dc29b",
     "source_file": "chi-tiet-thu-tuc-1.014211.pdf",
     "source_path": "procedures/viec-lam/1.014211/chi-tiet-thu-tuc-1.014211.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:12.655219+00:00",
-    "source_updated_at": "2026-05-06T08:06:19.947Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:31.420760+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "a74fa15d45c12e6ea000a41e276a3673dc731b8c284557b5d3b76b674e9a483c"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:12.655219+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "6636/QĐ-BCA-C12",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Dữ liệu",
   "target_users": [
@@ -36,18 +32,29 @@
   ],
   "agency": {
     "competent_agency": "Trung tâm Dữ liệu quốc gia",
-    "executing_agency": "Bộ Công an",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Công an"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Tổ chức, cá nhân có nhu cầu hỗ trợ chi phí chuẩn bị hồ sơ theo quy định của pháp luật.\n- Bước 2: Tổ chức, cá nhân nộp hồ sơ đề nghị hỗ trợ chi phí về Quỹ Phát triển dữ liệu quốc gia (Trung tâm dữ liệu quốc gia, Bộ Công an).\n- Bước 3: Trong thời hạn 10 ngày làm việc kể từ ngày Quỹ Phát triển dữ liệu quốc gia nhận được đủ hồ sơ hợp lệ từ tổ chức, cá nhân, Quỹ Phát triển dữ liệu quốc gia tổ chức thẩm định; ra quyết định hỗ trợ và thông báo cho tổ chức, cá nhân; trường hợp từ chối hỗ trợ, Quỹ Phát triển dữ liệu quốc gia phải có văn bản thông báo cho tổ chức, cá nhân về lý do từ chối.\n",
+      "description": "- Bước 1: Tổ chức, cá nhân có nhu cầu hỗ trợ chi phí chuẩn bị hồ sơ theo quy định của pháp luật.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Tổ chức, cá nhân nộp hồ sơ đề nghị hỗ trợ chi phí về Quỹ Phát triển dữ liệu quốc gia (Trung tâm dữ liệu quốc gia, Bộ Công an).",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "- Bước 3: Trong thời hạn 10 ngày làm việc kể từ ngày Quỹ Phát triển dữ liệu quốc gia nhận được đủ hồ sơ hợp lệ từ tổ chức, cá nhân, Quỹ Phát triển dữ liệu quốc gia tổ chức thẩm định; ra quyết định hỗ trợ và thông báo cho tổ chức, cá nhân; trường hợp từ chối hỗ trợ, Quỹ Phát triển dữ liệu quốc gia phải có văn bản thông báo cho tổ chức, cá nhân về lý do từ chối.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -56,21 +63,15 @@
     "conditional": [
       {
         "name": "Hồ sơ về công trình nghiên cứu, dự án của tổ chức, cá nhân và các văn bản, tài liệu chứng minh tổ chức, cá nhân đáp ứng đủ điều kiện, tiêu chí nhận hỗ trợ",
-        "code": "000.00.00.G01-KQ003500",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Văn bản đề nghị hỗ trợ chi phí từ Quỹ Phát triển dữ liệu quốc gia",
-        "code": "000.00.00.G01-KQ003499",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -79,19 +80,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "",
       "source_page": null
     },
@@ -99,14 +96,13 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -115,14 +111,12 @@
     {
       "title": "Luật dữ liệu",
       "document_number": "60/2024/QH15",
-      "id": "019d2bb3-5d87-7195-a444-1975f9456dcc",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định quy định về Quỹ Phát triển dữ liệu quốc gia",
       "document_number": "160/2025/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a641-8ebb2324b95e",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "",
@@ -130,13 +124,12 @@
     {
       "title": "Thỏa thuận hỗ trợ chi phí",
       "code": "KQ.G01.000244",
-      "id": "019d2bb2-1c38-75c9-8e12-0768b3bfadcd",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Tổ chức, cá nhân có nhu cầu hỗ trợ chi phí chuẩn bị hồ sơ theo quy định của pháp luật.\n- Bước 2: Tổ chức, cá nhân nộp hồ sơ đề nghị hỗ trợ chi phí về Quỹ Phát triển dữ liệu quốc gia (Trung tâm dữ liệu quốc gia, Bộ Công an).\n- Bước 3: Trong thời hạn 10 ngày làm việc kể từ ngày Quỹ Phát triển dữ liệu quốc gia nhận được đủ hồ sơ hợp lệ từ tổ chức, cá nhân, Quỹ Phát triển dữ liệu quốc gia tổ chức thẩm định; ra quyết định hỗ trợ và thông báo cho tổ chức, cá nhân; trường hợp từ chối hỗ trợ, Quỹ Phát triển dữ liệu quốc gia phải có văn bản thông báo cho tổ chức, cá nhân về lý do từ chối.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nHồ sơ về công trình nghiên cứu, dự án của tổ chức, cá nhân và các văn bản, tài liệu chứng minh tổ chức, cá nhân đáp ứng đủ điều kiện, tiêu chí nhận hỗ trợ\nVăn bản đề nghị hỗ trợ chi phí từ Quỹ Phát triển dữ liệu quốc gia",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Tổ chức, cá nhân có nhu cầu hỗ trợ chi phí chuẩn bị hồ sơ theo quy định của pháp luật.\n- Bước 2: Tổ chức, cá nhân nộp hồ sơ đề nghị hỗ trợ chi phí về Quỹ Phát triển dữ liệu quốc gia (Trung tâm dữ liệu quốc gia, Bộ Công an).\n- Bước 3: Trong thời hạn 10 ngày làm việc kể từ ngày Quỹ Phát triển dữ liệu quốc gia nhận được đủ hồ sơ hợp lệ từ tổ chức, cá nhân, Quỹ Phát triển dữ liệu quốc gia tổ chức thẩm định; ra quyết định hỗ trợ và thông báo cho tổ chức, cá nhân; trường hợp từ chối hỗ trợ, Quỹ Phát triển dữ liệu quốc gia phải có văn bản thông báo cho tổ chức, cá nhân về lý do từ chối.",
+    "THÀNH PHẦN HỒ SƠ": "Hồ sơ về công trình nghiên cứu, dự án của tổ chức, cá nhân và các văn bản, tài liệu chứng minh tổ chức, cá nhân đáp ứng đủ điều kiện, tiêu chí nhận hỗ trợ\nVăn bản đề nghị hỗ trợ chi phí từ Quỹ Phát triển dữ liệu quốc gia",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày làm việc\nQua dịch vụ bưu chính: 10 ngày làm việc\nTrực tiếp: 10 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Luật dữ liệu - 60/2024/QH15\nNghị định quy định về Quỹ Phát triển dữ liệu quốc gia - 160/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Bộ Công an",
@@ -146,11 +139,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Dữ liệu",
       "slug": "du-lieu"
@@ -177,6 +165,6 @@
         "slug": "bo-cong-an"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

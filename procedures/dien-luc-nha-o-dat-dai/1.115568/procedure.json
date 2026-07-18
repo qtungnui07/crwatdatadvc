@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019f25b6-319b-773d-a3c5-d5c5f16a9269",
   "procedure_code": "1.115568",
   "title": "Xác nhận tiếp tục sử dụng đất nông nghiệp",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019f25b6-319b-773d-a3c5-d5c5f16a9269",
     "source_file": "chi-tiet-thu-tuc-1.115568.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.115568/chi-tiet-thu-tuc-1.115568.pdf",
     "page_count": 8,
-    "extracted_at": "2026-07-18T02:22:18.510218+00:00",
-    "source_updated_at": "2026-07-13T07:08:37.916Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:57:11.400186+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "efb90509613e76e3093e78b46c15aeef3b98a4f91c1af987c74211ac408f8dc9"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:18.510218+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "44/2026/QĐ-UBND",
   "implementation_level": "Cấp xã",
-  "implementation_levels": [
-    "Cấp xã"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đất đai",
   "target_users": [
@@ -37,10 +33,7 @@
   ],
   "agency": {
     "competent_agency": "Chi nhánh Văn phòng đăng ký đất đai khu vực",
-    "executing_agency": "Chi nhánh Văn phòng đăng ký đất đai khu vực",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "\"- Trực tiếp tại Trung tâm Phục vụ hành chính công cấp tỉnh tại địa chỉ: Tầng 1, Tòa nhà số 2, khu hợp khối các đơn vị sự nghiệp tỉnh Lai Châu, phường Tân Phong, tỉnh Lai Châu. Điện thoại: 0213.3796. 888\n- Trung tâm Phục vụ hành chính công các xã, phường\""
+    "executing_agency": "Chi nhánh Văn phòng đăng ký đất đai khu vực"
   },
   "steps": [
     {
@@ -48,14 +41,14 @@
       "title": "Bước 1: Người sử dụng đất nông nghiệp nộp hồ sơ tại Trung tâm Phục vụ hành chính công hoặc Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai.",
       "description": "Khi nộp hồ sơ, người nộp hồ sơ được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực\nTrường hợp Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ thì chuyển hồ sơ đến Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "Bước 2: Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai có trách nhiệm:",
       "description": "- Kiểm tra hồ sơ.\n- Xác nhận thời hạn được tiếp tục sử dụng đất vào Giấy chứng nhận đã cấp hoặc cấp mới Giấy chứng nhận nếu người sử dụng đất có nhu cầu.\n- Cập nhật, chỉnh lý cơ sở dữ liệu đất đai, hồ sơ địa chính.\n- Trao Giấy chứng nhận hoặc gửi cơ quan tiếp nhận hồ sơ để trao cho người được cấp.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
@@ -68,64 +61,53 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Nộp trực tiếp tại Trung tâm Phục vụ hành chính công hoặc Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Nộp thông qua dịch vụ bưu chính công ích.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Nộp trực tuyến trên Cổng dịch vụ công.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Nộp trực tiếp tại Trung tâm Phục vụ hành chính công hoặc Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai.\n* Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm không quá 10 ngày so với tổng thời gian thực hiện thủ tục này.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Nộp thông qua dịch vụ bưu chính công ích. \n*Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm không quá 10 ngày so với tổng thời gian thực hiện thủ tục này.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Nộp trực tuyến trên Cổng dịch vụ công.\n* Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm không quá 10 ngày so với tổng thời gian thực hiện thủ tục này.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -134,38 +116,32 @@
     {
       "title": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "49/2026/NĐ-CP",
-      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
       "document_number": "118/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Quy định trình tự, thủ tục hành chính về đất đai\ntrên địa bàn tỉnh Lai Châu",
-      "document_number": "44/2026/QĐ-UBND ",
-      "id": "019f595f-16e5-70b6-b168-5164b753a1f6",
-      "source_page": null
+      "document_number": "44/2026/QĐ-UBND",
+      "source_page": 7
     },
     {
       "title": "Nghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai.",
       "document_number": "102/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe8-0a00a8be7fd7",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "254/2025/QH15",
-      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
-      "document_number": "31/2024/QH15 ",
-      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
-      "source_page": null
+      "document_number": "31/2024/QH15",
+      "source_page": 7
     }
   ],
   "conditions": "Người sử dụng đất nông nghiệp đã được cấp Giấy chứng nhận nhưng hết thời hạn trên Giấy chứng nhận đã cấp.",
@@ -173,15 +149,14 @@
     {
       "title": "Giấy chứng nhận.",
       "code": "H35.KQ.27",
-      "id": "019f25b5-083f-7518-a23f-125ecd20209f",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Khi nộp hồ sơ, người nộp hồ sơ được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực\nTrường hợp Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ thì chuyển hồ sơ đến Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai.\n- Kiểm tra hồ sơ.\n- Xác nhận thời hạn được tiếp tục sử dụng đất vào Giấy chứng nhận đã cấp hoặc cấp mới Giấy chứng nhận nếu người sử dụng đất có nhu cầu.\n- Cập nhật, chỉnh lý cơ sở dữ liệu đất đai, hồ sơ địa chính.\n- Trao Giấy chứng nhận hoặc gửi cơ quan tiếp nhận hồ sơ để trao cho người được cấp.",
-    "THÀNH PHẦN HỒ SƠ": "\n",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 7 ngày làm việc - Nộp trực tiếp tại Trung tâm Phục vụ hành chính công hoặc Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai.\nQua dịch vụ bưu chính: 7 ngày làm việc - Nộp thông qua dịch vụ bưu chính công ích.\nTrực tuyến: 7 ngày làm việc - Nộp trực tuyến trên Cổng dịch vụ công.\nTrực tiếp: 10 ngày làm việc - Nộp trực tiếp tại Trung tâm Phục vụ hành chính công hoặc Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai.\n* Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm không quá 10 ngày so với tổng thời gian thực hiện thủ tục này.\nQua dịch vụ bưu chính: 10 ngày làm việc - Nộp thông qua dịch vụ bưu chính công ích. \n*Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm không quá 10 ngày so với tổng thời gian thực hiện thủ tục này.\nTrực tuyến: 10 ngày làm việc - Nộp trực tuyến trên Cổng dịch vụ công.\n* Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm không quá 10 ngày so với tổng thời gian thực hiện thủ tục này.",
-    "CĂN CỨ PHÁP LÝ": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP\nNghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nQuy định trình tự, thủ tục hành chính về đất đai\ntrên địa bàn tỉnh Lai Châu - 44/2026/QĐ-UBND \nNghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai. - 102/2024/NĐ-CP\nQuy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 254/2025/QH15\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15 ",
+    "THÀNH PHẦN HỒ SƠ": "",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 7 ngày làm việc\nQua dịch vụ bưu chính: 7 ngày làm việc\nTrực tuyến: 7 ngày làm việc\nTrực tiếp: 10 ngày làm việc\nQua dịch vụ bưu chính: 10 ngày làm việc\nTrực tuyến: 10 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP\nNghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nQuy định trình tự, thủ tục hành chính về đất đai\ntrên địa bàn tỉnh Lai Châu - 44/2026/QĐ-UBND\nNghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai. - 102/2024/NĐ-CP\nQuy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 254/2025/QH15\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15",
     "CƠ QUAN THỰC HIỆN": "Chi nhánh Văn phòng đăng ký đất đai khu vực",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Người sử dụng đất nông nghiệp đã được cấp Giấy chứng nhận nhưng hết thời hạn trên Giấy chứng nhận đã cấp.",
     "KẾT QUẢ XỬ LÝ": "Giấy chứng nhận. - H35.KQ.27",
@@ -189,14 +164,9 @@
     "MÔ TẢ": "Người sử dụng đất nông nghiệp đã được cấp Giấy chứng nhận nhưng hết thời hạn trên Giấy chứng nhận đã cấp."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "service_group"
-    },
     "sector": {
       "name": "Đất đai",
-      "slug": "dat-dai"
+      "slug": "at-ai"
     },
     "implementation_levels": [
       {
@@ -221,9 +191,9 @@
     "agencies": [
       {
         "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực",
-        "slug": "chi-nhanh-van-phong-dang-ky-dat-dai-khu-vuc"
+        "slug": "chi-nhanh-van-phong-ang-ky-at-ai-khu-vuc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "non_territorial"
   }
 }

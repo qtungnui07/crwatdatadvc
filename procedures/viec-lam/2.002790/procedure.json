@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf9-ab34-736d-8620-bf6716e70f61",
   "procedure_code": "2.002790",
   "title": "Sửa đổi, bổ sung giấy phép sử dụng tần số và thiết bị vô tuyến điện đối với mạng thông tin vô tuyến điện nội bộ",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf9-ab34-736d-8620-bf6716e70f61",
     "source_file": "chi-tiet-thu-tuc-2.002790.pdf",
     "source_path": "procedures/viec-lam/2.002790/chi-tiet-thu-tuc-2.002790.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:22.565193+00:00",
-    "source_updated_at": "2026-06-19T09:48:44.687Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:29.389817+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "67f71ca7e76e0c572427d8f29890efb1b585041c58271bcac9a8fe505e56278f"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:22.565193+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2776/QĐ-BKHCN",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Tần số vô tuyến điện",
   "target_users": [
@@ -42,10 +38,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ủy ban nhân dân cấp tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Trung tâm Phục vụ hành chính công cấp tỉnh (Ủy ban nhân dân cấp tỉnh).\n(Việc sửa đổi, bổ sung nội dung giấy phép sử dụng tần số và thiết bị vô tuyến điện do Ủy ban nhân dân cấp tỉnh đã cấp giấy phép thực hiện)"
+    "executing_agency": "Ủy ban nhân dân cấp tỉnh"
   },
   "steps": [
     {
@@ -53,25 +46,16 @@
       "title": "Bước 1",
       "description": "- Khi giấy phép còn hiệu lực, tổ chức, cá nhân có nhu cầu sửa đổi, bổ sung một số nội dung trong giấy phép (trừ thời hạn sử dụng) thì phải hoàn thiện hồ sơ đề nghị sửa đổi, bổ sung giấy phép sử dụng tần số và thiết bị vô tuyến điện đối với mạng thông tin vô tuyến điện nội bộ theo quy định và nộp hồ sơ đến Trung tâm Phục vụ hành chính công cấp tỉnh (Ủy ban nhân dân cấp tỉnh) hoặc Cổng dịch vụ công quốc gia.\n- Ủy ban nhân dân cấp tỉnh tiếp nhận, kiểm tra tính hợp lệ của hồ sơ. \n+ Trường hợp hồ sơ chưa đầy đủ, chưa đúng quy định thì trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh có trách nhiệm thông báo, hướng dẫn cho tổ chức, cá nhân để bổ sung, hoàn thiện hồ sơ.\n+ Trong thời hạn 09 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Ủy ban nhân dân cấp tỉnh sửa đổi, bổ sung nội dung giấy phép theo Mẫu 1g2 quy định tại mục II Phụ lục I.3.2 ban hành kèm theo Nghị quyết số 66.18/2026/NQ-CP;  trường hợp từ chối sửa đổi, bổ sung nội dung giấy phép, có văn bản thông báo và nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "- Bản khai thông tin chung theo Mẫu số 1 mục I Phụ lục I.3.2 ban hành kèm theo Nghị quyết số 66.18/2026/NQ-CP; - Bản khai thông số kỹ thuật, khai thác theo Mẫu 1g2 mục I Phụ lục I.3.2 ban hành kèm theo Nghị quyết số 66.18/2026/NQ-CP.",
-        "code": "G06-KQ005015",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019ed005-3bb0-71fb-90da-746f8ff188f6",
-            "name": "mẫu 1 và 1g2_NQ66.18.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "mẫu 1 và 1g2_NQ66.18.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -82,135 +66,73 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "9 ngày làm việc",
-      "processing_time_value": 9,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Bộ Tài chính",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Bộ Tài chính",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của Bộ Tài chính; Theo quy định của Bộ Tài chính",
       "description": "- 09 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ. \n- Nộp trực tuyến tại Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn).",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "9 ngày làm việc",
-      "processing_time_value": 9,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Bộ Tài chính",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Bộ Tài chính",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của Bộ Tài chính; Theo quy định của Bộ Tài chính",
       "description": "- 09 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ. \n- Nộp qua dịch vụ bưu chính tới Trung tâm Phục vụ hành chính công cấp tỉnh (Ủy ban nhân dân cấp tỉnh).",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "9 ngày làm việc",
-      "processing_time_value": 9,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Bộ Tài chính",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Bộ Tài chính",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của Bộ Tài chính; Theo quy định của Bộ Tài chính",
       "description": "- 09 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ. \n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công cấp tỉnh (Ủy ban nhân dân cấp tỉnh).",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Theo quy định của Bộ Tài chính; Theo quy định của Bộ Tài chính",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Bộ Tài chính",
-        "attachment": null
+        "amount_text": "Theo quy định của Bộ Tài chính",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Bộ Tài chính",
-        "attachment": null
+        "amount_text": "Theo quy định của Bộ Tài chính",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Bộ Tài chính",
-        "attachment": null
+        "amount_text": "Theo quy định của Bộ Tài chính",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Bộ Tài chính",
-        "attachment": null
+        "amount_text": "Theo quy định của Bộ Tài chính",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Bộ Tài chính",
-        "attachment": null
+        "amount_text": "Theo quy định của Bộ Tài chính",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Bộ Tài chính",
-        "attachment": null
+        "amount_text": "Theo quy định của Bộ Tài chính",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -218,50 +140,42 @@
     {
       "title": "Quy định về phân quyền, phân cấp trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ",
       "document_number": "133/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-69a13ce4eb56",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư 265/2016/TT-BTC",
-      "document_number": "265/2016/TT-BTC ",
-      "id": "019d8ee9-b042-73ff-bb3c-acba91711318",
-      "source_page": null
+      "document_number": "265/2016/TT-BTC",
+      "source_page": 3
     },
     {
       "title": "Thông tư số 11/2022/TT-BTC ngày 21/02/2022 của Bộ trưởng Bộ Tài chính",
       "document_number": "11/2022/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be48-e56c73c4fd19",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị quyết số 66.18/2026/NQ-CP ngày 18 tháng 5 năm 2026 của Chính phủ về việc phân quyền, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh",
-      "document_number": "66.18/2026/NQ-CP ",
-      "id": "019e8b88-c0b0-737a-954f-a60837c08c4f",
-      "source_page": null
+      "document_number": "66.18/2026/NQ-CP",
+      "source_page": 4
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của các Nghị định để cắt giảm, đơn giản hóa thủ tục hành chính liên quan đến hoạt động sản xuất, kinh doanh thuộc phạm vi quân lý nhà nước của Bộ Khoa học và Công nghệ",
       "document_number": "15/2026/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-8af870bb85c9",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật số 09/2022/QH15 của Quốc hội",
       "document_number": "09/2022/QH15",
-      "id": "019d2bb3-5d86-7760-a63b-937c80ef7fd8",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "THÔNG TƯ 120/2021/TT-BTC NGÀY 24/12/2021 QUY ĐỊNH VỀ MỨC THU MỘT SỐ KHOẢN PHÍ, LỆ PHÍ NHẰM HỖ TRỢ, THÁO GỠ KHÓ KHĂN CHO ĐỐI TƯỢNG CHỊU ẢNH HƯỞNG BỞI DỊCH COVID-19 DO BỘ TRƯỞNG BỘ TÀI CHÍNH BAN HÀNH",
       "document_number": "120/2021/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be49-54a6d8a19a74",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân",
       "document_number": "64/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-69cce97f8824",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Không",
@@ -269,15 +183,14 @@
     {
       "title": "Giấy phép sử dụng tần số và thiết bị vô tuyến điện (Mẫu 1g2 mục II Phụ lục I.3.2 ban hành kèm theo Nghị quyết số 66.18/2026/NQ-CP).",
       "code": "KQ.G06.000664",
-      "id": "019d2bb2-1c40-7090-9826-7b8c6105a85c",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "- Khi giấy phép còn hiệu lực, tổ chức, cá nhân có nhu cầu sửa đổi, bổ sung một số nội dung trong giấy phép (trừ thời hạn sử dụng) thì phải hoàn thiện hồ sơ đề nghị sửa đổi, bổ sung giấy phép sử dụng tần số và thiết bị vô tuyến điện đối với mạng thông tin vô tuyến điện nội bộ theo quy định và nộp hồ sơ đến Trung tâm Phục vụ hành chính công cấp tỉnh (Ủy ban nhân dân cấp tỉnh) hoặc Cổng dịch vụ công quốc gia.\n- Ủy ban nhân dân cấp tỉnh tiếp nhận, kiểm tra tính hợp lệ của hồ sơ. \n+ Trường hợp hồ sơ chưa đầy đủ, chưa đúng quy định thì trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh có trách nhiệm thông báo, hướng dẫn cho tổ chức, cá nhân để bổ sung, hoàn thiện hồ sơ.\n+ Trong thời hạn 09 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Ủy ban nhân dân cấp tỉnh sửa đổi, bổ sung nội dung giấy phép theo Mẫu 1g2 quy định tại mục II Phụ lục I.3.2 ban hành kèm theo Nghị quyết số 66.18/2026/NQ-CP;  trường hợp từ chối sửa đổi, bổ sung nội dung giấy phép, có văn bản thông báo và nêu rõ lý do.",
-    "THÀNH PHẦN HỒ SƠ": "\n- Bản khai thông tin chung theo Mẫu số 1 mục I Phụ lục I.3.2 ban hành kèm theo Nghị quyết số 66.18/2026/NQ-CP; - Bản khai thông số kỹ thuật, khai thác theo Mẫu 1g2 mục I Phụ lục I.3.2 ban hành kèm theo Nghị quyết số 66.18/2026/NQ-CP.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 9 ngày làm việc - - 09 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ. \n- Nộp trực tuyến tại Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn).\nQua dịch vụ bưu chính: 9 ngày làm việc - - 09 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ. \n- Nộp qua dịch vụ bưu chính tới Trung tâm Phục vụ hành chính công cấp tỉnh (Ủy ban nhân dân cấp tỉnh).\nTrực tiếp: 9 ngày làm việc - - 09 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ. \n- Nộp trực tiếp tại Trung tâm Phục vụ hành chính công cấp tỉnh (Ủy ban nhân dân cấp tỉnh).",
-    "CĂN CỨ PHÁP LÝ": "Quy định về phân quyền, phân cấp trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ - 133/2025/NĐ-CP\nThông tư 265/2016/TT-BTC - 265/2016/TT-BTC \nThông tư số 11/2022/TT-BTC ngày 21/02/2022 của Bộ trưởng Bộ Tài chính - 11/2022/TT-BTC\nNghị quyết số 66.18/2026/NQ-CP ngày 18 tháng 5 năm 2026 của Chính phủ về việc phân quyền, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh - 66.18/2026/NQ-CP \nSửa đổi, bổ sung một số điều của các Nghị định để cắt giảm, đơn giản hóa thủ tục hành chính liên quan đến hoạt động sản xuất, kinh doanh thuộc phạm vi quân lý nhà nước của Bộ Khoa học và Công nghệ - 15/2026/NĐ-CP\nLuật số 09/2022/QH15 của Quốc hội - 09/2022/QH15\nTHÔNG TƯ 120/2021/TT-BTC NGÀY 24/12/2021 QUY ĐỊNH VỀ MỨC THU MỘT SỐ KHOẢN PHÍ, LỆ PHÍ NHẰM HỖ TRỢ, THÁO GỠ KHÓ KHĂN CHO ĐỐI TƯỢNG CHỊU ẢNH HƯỞNG BỞI DỊCH COVID-19 DO BỘ TRƯỞNG BỘ TÀI CHÍNH BAN HÀNH - 120/2021/TT-BTC\nThông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân - 64/2025/TT-BTC",
+    "THÀNH PHẦN HỒ SƠ": "- Bản khai thông tin chung theo Mẫu số 1 mục I Phụ lục I.3.2 ban hành kèm theo Nghị quyết số 66.18/2026/NQ-CP; - Bản khai thông số kỹ thuật, khai thác theo Mẫu 1g2 mục I Phụ lục I.3.2 ban hành kèm theo Nghị quyết số 66.18/2026/NQ-CP.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 9 ngày làm việc\nQua dịch vụ bưu chính: 9 ngày làm việc\nTrực tiếp: 9 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "Quy định về phân quyền, phân cấp trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ - 133/2025/NĐ-CP\nThông tư 265/2016/TT-BTC - 265/2016/TT-BTC\nThông tư số 11/2022/TT-BTC ngày 21/02/2022 của Bộ trưởng Bộ Tài chính - 11/2022/TT-BTC\nNghị quyết số 66.18/2026/NQ-CP ngày 18 tháng 5 năm 2026 của Chính phủ về việc phân quyền, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh - 66.18/2026/NQ-CP\nSửa đổi, bổ sung một số điều của các Nghị định để cắt giảm, đơn giản hóa thủ tục hành chính liên quan đến hoạt động sản xuất, kinh doanh thuộc phạm vi quân lý nhà nước của Bộ Khoa học và Công nghệ - 15/2026/NĐ-CP\nLuật số 09/2022/QH15 của Quốc hội - 09/2022/QH15\nTHÔNG TƯ 120/2021/TT-BTC NGÀY 24/12/2021 QUY ĐỊNH VỀ MỨC THU MỘT SỐ KHOẢN PHÍ, LỆ PHÍ NHẰM HỖ TRỢ, THÁO GỠ KHÓ KHĂN CHO ĐỐI TƯỢNG CHỊU ẢNH HƯỞNG BỞI DỊCH COVID-19 DO BỘ TRƯỞNG BỘ TÀI CHÍNH BAN HÀNH - 120/2021/TT-BTC\nThông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân - 64/2025/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Ủy ban nhân dân cấp tỉnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Không",
     "KẾT QUẢ XỬ LÝ": "Giấy phép sử dụng tần số và thiết bị vô tuyến điện (Mẫu 1g2 mục II Phụ lục I.3.2 ban hành kèm theo Nghị quyết số 66.18/2026/NQ-CP). - KQ.G06.000664",
@@ -285,14 +198,9 @@
     "MÔ TẢ": "Không"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Tần số vô tuyến điện",
-      "slug": "tan-so-vo-tuyen-dien"
+      "slug": "tan-so-vo-tuyen-ien"
     },
     "implementation_levels": [
       {
@@ -311,7 +219,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -340,6 +248,6 @@
         "slug": "uy-ban-nhan-dan-cap-tinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf8-4aa2-709d-bfa6-0598b41195de",
   "procedure_code": "2.002747",
   "title": "Phê duyệt Kế hoạch sản xuất phương tiện vận tải có động cơ hàng năm của Liên doanh giữa Việt Nam và Liên bang Nga",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-4aa2-709d-bfa6-0598b41195de",
     "source_file": "chi-tiet-thu-tuc-2.002747.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/2.002747/chi-tiet-thu-tuc-2.002747.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:22:22.401008+00:00",
-    "source_updated_at": "2026-04-16T06:45:12.642Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:03.134757+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "5dcb8388650d9068736e64b05238d424ed775dda44444bb3d5be73973dd262eb"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:22.401008+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "845/QĐ-BCT",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Sản xuất, lắp ráp ô tô",
   "target_users": [
@@ -35,18 +31,15 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Bộ Công thương",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Công thương"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Liên doanh gửi kế hoạch sản xuất hàng năm tới Bộ Công Thương.\n- Bộ Công Thương chủ trì, phối hợp với các bộ có liên quan xem xét phê duyệt kế hoạch sản xuất của liên doanh được quy định tại Điều 4 và Điều 5 Quyết định số 20/2024/QĐ-TTg, trong đó có việc lấy ý kiến Bộ Tài chính về sự tương thích của Danh mục phương tiện vận tải có động cơ và bộ SKD được đề xuất để hưởng ưu đãi miễn thuế theo hạn ngạch thuế quan trong kế hoạch sản xuất, chi tiết ở cấp độ 8 chữ số với Danh mục hàng hóa xuất khẩu, nhập khẩu hiện hành của Việt Nam. \n- Trong 30 ngày kể từ khi nhận được kế hoạch sản xuất (05 bản chính) do liên doanh gửi, Bộ Công Thương thông báo về kết quả phê duyệt kế hoạch sản xuất này. Trong trường hợp cần làm rõ hoặc bổ sung thông tin về kế hoạch sản xuất, Bộ Công Thương thông báo cho liên doanh yêu cầu cụ thể về những thông tin bổ sung cần cung cấp.\n- Trong vòng 10 ngày kể từ khi nhận được thông tin bổ sung cho kế hoạch sản xuất do liên doanh gửi, Bộ Công Thương thông báo cho liên doanh về kết quả phê duyệt hoặc từ chối kế hoạch này.\n",
+      "description": "- Liên doanh gửi kế hoạch sản xuất hàng năm tới Bộ Công Thương.\n- Bộ Công Thương chủ trì, phối hợp với các bộ có liên quan xem xét phê duyệt kế hoạch sản xuất của liên doanh được quy định tại Điều 4 và Điều 5 Quyết định số 20/2024/QĐ-TTg, trong đó có việc lấy ý kiến Bộ Tài chính về sự tương thích của Danh mục phương tiện vận tải có động cơ và bộ SKD được đề xuất để hưởng ưu đãi miễn thuế theo hạn ngạch thuế quan trong kế hoạch sản xuất, chi tiết ở cấp độ 8 chữ số với Danh mục hàng hóa xuất khẩu, nhập khẩu hiện hành của Việt Nam. \n- Trong 30 ngày kể từ khi nhận được kế hoạch sản xuất (05 bản chính) do liên doanh gửi, Bộ Công Thương thông báo về kết quả phê duyệt kế hoạch sản xuất này. Trong trường hợp cần làm rõ hoặc bổ sung thông tin về kế hoạch sản xuất, Bộ Công Thương thông báo cho liên doanh yêu cầu cụ thể về những thông tin bổ sung cần cung cấp.\n- Trong vòng 10 ngày kể từ khi nhận được thông tin bổ sung cho kế hoạch sản xuất do liên doanh gửi, Bộ Công Thương thông báo cho liên doanh về kết quả phê duyệt hoặc từ chối kế hoạch này.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
@@ -55,48 +48,33 @@
     "conditional": [
       {
         "name": "+ Danh sách chi tiết của các linh kiện trong các bộ SKD",
-        "code": "000.00.00.G02-KQ005439",
         "quantity": "5 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Các dòng thuế tương ứng với các phương tiện vận tải có động cơ và bộ SKD dự kiến nhập khẩu ở cấp độ 8 chữ số theo Danh mục hàng hóa xuất khẩu, nhập khẩu hiện hành của Việt Nam",
-        "code": "000.00.00.G02-KQ005440",
         "quantity": "5 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Dự kiến thực hiện thỏa thuận về chuyển giao công nghệ, đào tạo nguồn nhân lực.",
-        "code": "000.00.00.G02-KQ005442",
         "quantity": "5 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Lộ trình đạt tỷ lệ nội địa hóa theo cam kết tại khoản 6 Điều 4 Quyết định số 20/2024/QĐ-TTg ngày 21/11/2024",
-        "code": "000.00.00.G02-KQ005441",
         "quantity": "5 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Chủng loại và số lượng xe dự kiến sản xuất",
-        "code": "000.00.00.G02-KQ005438",
         "quantity": "5 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -105,87 +83,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "40 ngày",
-      "processing_time_value": 40,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Trong 30 ngày kể từ khi nhận được kế hoạch sản xuất (05 bản chính) do liên doanh gửi, Bộ Công Thương thông báo về kết quả phê duyệt kế hoạch sản xuất này. Trong trường hợp cần làm rõ hoặc bổ sung thông tin về kế hoạch sản xuất, Bộ Công Thương thông báo cho liên doanh yêu cầu cụ thể về những thông tin bổ sung cần cung cấp.\n- Trong vòng 10 ngày kể từ khi nhận được thông tin bổ sung cho kế hoạch sản xuất do liên doanh gửi, Bộ Công Thương thông báo cho liên doanh về kết quả phê duyệt hoặc từ chối kế hoạch này.",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "40 ngày",
-      "processing_time_value": 40,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Trong 30 ngày kể từ khi nhận được kế hoạch sản xuất (05 bản chính) do liên doanh gửi, Bộ Công Thương thông báo về kết quả phê duyệt kế hoạch sản xuất này. Trong trường hợp cần làm rõ hoặc bổ sung thông tin về kế hoạch sản xuất, Bộ Công Thương thông báo cho liên doanh yêu cầu cụ thể về những thông tin bổ sung cần cung cấp.\n- Trong vòng 10 ngày kể từ khi nhận được thông tin bổ sung cho kế hoạch sản xuất do liên doanh gửi, Bộ Công Thương thông báo cho liên doanh về kết quả phê duyệt hoặc từ chối kế hoạch này.",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "40 ngày",
-      "processing_time_value": 40,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Trong 30 ngày kể từ khi nhận được kế hoạch sản xuất (05 bản chính) do liên doanh gửi, Bộ Công Thương thông báo về kết quả phê duyệt kế hoạch sản xuất này. Trong trường hợp cần làm rõ hoặc bổ sung thông tin về kế hoạch sản xuất, Bộ Công Thương thông báo cho liên doanh yêu cầu cụ thể về những thông tin bổ sung cần cung cấp.\n- Trong vòng 10 ngày kể từ khi nhận được thông tin bổ sung cho kế hoạch sản xuất do liên doanh gửi, Bộ Công Thương thông báo cho liên doanh về kết quả phê duyệt hoặc từ chối kế hoạch này.",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 4
       }
     ]
   },
@@ -193,8 +136,7 @@
     {
       "title": "Quyết định số 20/2024/QĐ-TTg ngày 21/11/2024 của Thủ tướng Chính phủ về hướng dẫn thực hiện Nghị định thư giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ Liên bang Nga về hỗ trợ sản xuất phương tiện vận tải có động cơ trên lãnh thổ Việt Nam",
       "document_number": "20/2024/QĐ-TTg",
-      "id": "019d2bb3-5d84-71c5-b677-e207777777c5",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "conditions": "Các liên doanh đủ điều kiện theo quy định tại Điều 4 Quyết định số 20/2024/QĐ-TTg ngày 21/11/2024.",
@@ -202,14 +144,13 @@
     {
       "title": "quyết định Phê duyệt Kế hoạch sản xuất phương tiện vận tải có động cơ hàng năm của Liên doanh giữa Việt Nam và Liên bang Nga",
       "code": "KQ.G02.000440",
-      "id": "019d2bb2-1c3a-7502-a83f-788c932bb325",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Liên doanh gửi kế hoạch sản xuất hàng năm tới Bộ Công Thương.\n- Bộ Công Thương chủ trì, phối hợp với các bộ có liên quan xem xét phê duyệt kế hoạch sản xuất của liên doanh được quy định tại Điều 4 và Điều 5 Quyết định số 20/2024/QĐ-TTg, trong đó có việc lấy ý kiến Bộ Tài chính về sự tương thích của Danh mục phương tiện vận tải có động cơ và bộ SKD được đề xuất để hưởng ưu đãi miễn thuế theo hạn ngạch thuế quan trong kế hoạch sản xuất, chi tiết ở cấp độ 8 chữ số với Danh mục hàng hóa xuất khẩu, nhập khẩu hiện hành của Việt Nam. \n- Trong 30 ngày kể từ khi nhận được kế hoạch sản xuất (05 bản chính) do liên doanh gửi, Bộ Công Thương thông báo về kết quả phê duyệt kế hoạch sản xuất này. Trong trường hợp cần làm rõ hoặc bổ sung thông tin về kế hoạch sản xuất, Bộ Công Thương thông báo cho liên doanh yêu cầu cụ thể về những thông tin bổ sung cần cung cấp.\n- Trong vòng 10 ngày kể từ khi nhận được thông tin bổ sung cho kế hoạch sản xuất do liên doanh gửi, Bộ Công Thương thông báo cho liên doanh về kết quả phê duyệt hoặc từ chối kế hoạch này.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n+ Danh sách chi tiết của các linh kiện trong các bộ SKD\n+ Các dòng thuế tương ứng với các phương tiện vận tải có động cơ và bộ SKD dự kiến nhập khẩu ở cấp độ 8 chữ số theo Danh mục hàng hóa xuất khẩu, nhập khẩu hiện hành của Việt Nam\n+ Dự kiến thực hiện thỏa thuận về chuyển giao công nghệ, đào tạo nguồn nhân lực.\n+ Lộ trình đạt tỷ lệ nội địa hóa theo cam kết tại khoản 6 Điều 4 Quyết định số 20/2024/QĐ-TTg ngày 21/11/2024\n+ Chủng loại và số lượng xe dự kiến sản xuất",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 40 ngày - Trong 30 ngày kể từ khi nhận được kế hoạch sản xuất (05 bản chính) do liên doanh gửi, Bộ Công Thương thông báo về kết quả phê duyệt kế hoạch sản xuất này. Trong trường hợp cần làm rõ hoặc bổ sung thông tin về kế hoạch sản xuất, Bộ Công Thương thông báo cho liên doanh yêu cầu cụ thể về những thông tin bổ sung cần cung cấp.\n- Trong vòng 10 ngày kể từ khi nhận được thông tin bổ sung cho kế hoạch sản xuất do liên doanh gửi, Bộ Công Thương thông báo cho liên doanh về kết quả phê duyệt hoặc từ chối kế hoạch này.\nQua dịch vụ bưu chính: 40 ngày - Trong 30 ngày kể từ khi nhận được kế hoạch sản xuất (05 bản chính) do liên doanh gửi, Bộ Công Thương thông báo về kết quả phê duyệt kế hoạch sản xuất này. Trong trường hợp cần làm rõ hoặc bổ sung thông tin về kế hoạch sản xuất, Bộ Công Thương thông báo cho liên doanh yêu cầu cụ thể về những thông tin bổ sung cần cung cấp.\n- Trong vòng 10 ngày kể từ khi nhận được thông tin bổ sung cho kế hoạch sản xuất do liên doanh gửi, Bộ Công Thương thông báo cho liên doanh về kết quả phê duyệt hoặc từ chối kế hoạch này.\nTrực tiếp: 40 ngày - Trong 30 ngày kể từ khi nhận được kế hoạch sản xuất (05 bản chính) do liên doanh gửi, Bộ Công Thương thông báo về kết quả phê duyệt kế hoạch sản xuất này. Trong trường hợp cần làm rõ hoặc bổ sung thông tin về kế hoạch sản xuất, Bộ Công Thương thông báo cho liên doanh yêu cầu cụ thể về những thông tin bổ sung cần cung cấp.\n- Trong vòng 10 ngày kể từ khi nhận được thông tin bổ sung cho kế hoạch sản xuất do liên doanh gửi, Bộ Công Thương thông báo cho liên doanh về kết quả phê duyệt hoặc từ chối kế hoạch này.",
+    "TRÌNH TỰ THỰC HIỆN": "- Liên doanh gửi kế hoạch sản xuất hàng năm tới Bộ Công Thương.\n- Bộ Công Thương chủ trì, phối hợp với các bộ có liên quan xem xét phê duyệt kế hoạch sản xuất của liên doanh được quy định tại Điều 4 và Điều 5 Quyết định số 20/2024/QĐ-TTg, trong đó có việc lấy ý kiến Bộ Tài chính về sự tương thích của Danh mục phương tiện vận tải có động cơ và bộ SKD được đề xuất để hưởng ưu đãi miễn thuế theo hạn ngạch thuế quan trong kế hoạch sản xuất, chi tiết ở cấp độ 8 chữ số với Danh mục hàng hóa xuất khẩu, nhập khẩu hiện hành của Việt Nam. \n- Trong 30 ngày kể từ khi nhận được kế hoạch sản xuất (05 bản chính) do liên doanh gửi, Bộ Công Thương thông báo về kết quả phê duyệt kế hoạch sản xuất này. Trong trường hợp cần làm rõ hoặc bổ sung thông tin về kế hoạch sản xuất, Bộ Công Thương thông báo cho liên doanh yêu cầu cụ thể về những thông tin bổ sung cần cung cấp.\n- Trong vòng 10 ngày kể từ khi nhận được thông tin bổ sung cho kế hoạch sản xuất do liên doanh gửi, Bộ Công Thương thông báo cho liên doanh về kết quả phê duyệt hoặc từ chối kế hoạch này.",
+    "THÀNH PHẦN HỒ SƠ": "+ Danh sách chi tiết của các linh kiện trong các bộ SKD\n+ Các dòng thuế tương ứng với các phương tiện vận tải có động cơ và bộ SKD dự kiến nhập khẩu ở cấp độ 8 chữ số theo Danh mục hàng hóa xuất khẩu, nhập khẩu hiện hành của Việt Nam\n+ Dự kiến thực hiện thỏa thuận về chuyển giao công nghệ, đào tạo nguồn nhân lực.\n+ Lộ trình đạt tỷ lệ nội địa hóa theo cam kết tại khoản 6 Điều 4 Quyết định số 20/2024/QĐ-TTg ngày 21/11/2024\n+ Chủng loại và số lượng xe dự kiến sản xuất",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 40 ngày\nQua dịch vụ bưu chính: 40 ngày\nTrực tiếp: 40 ngày",
     "CĂN CỨ PHÁP LÝ": "Quyết định số 20/2024/QĐ-TTg ngày 21/11/2024 của Thủ tướng Chính phủ về hướng dẫn thực hiện Nghị định thư giữa Chính phủ nước Cộng hòa xã hội chủ nghĩa Việt Nam và Chính phủ Liên bang Nga về hỗ trợ sản xuất phương tiện vận tải có động cơ trên lãnh thổ Việt Nam - 20/2024/QĐ-TTg",
     "CƠ QUAN THỰC HIỆN": "Bộ Công thương",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Các liên doanh đủ điều kiện theo quy định tại Điều 4 Quyết định số 20/2024/QĐ-TTg ngày 21/11/2024.",
@@ -218,11 +159,6 @@
     "MÔ TẢ": "Các liên doanh đủ điều kiện theo quy định tại Điều 4 Quyết định số 20/2024/QĐ-TTg ngày 21/11/2024."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Sản xuất, lắp ráp ô tô",
       "slug": "san-xuat-lap-rap-o-to"
@@ -245,6 +181,6 @@
         "slug": "bo-cong-thuong"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

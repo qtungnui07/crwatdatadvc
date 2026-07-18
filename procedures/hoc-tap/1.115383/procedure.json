@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019f1182-a09a-737a-9b51-cb54a642188a",
   "procedure_code": "1.115383",
   "title": "Giải thể trường đại học theo Luật Thủ đô (theo dề nghị của cơ quan, tổ chức, cá nhân)",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019f1182-a09a-737a-9b51-cb54a642188a",
     "source_file": "chi-tiet-thu-tuc-1.115383.pdf",
     "source_path": "procedures/hoc-tap/1.115383/chi-tiet-thu-tuc-1.115383.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:17.602737+00:00",
-    "source_updated_at": "2026-07-02T09:44:46.200Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:21.414974+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "11e3f5d25d1649cfc55276a3fd5371744cf7d8a8d1501c9cbf6260c4cc313d05"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:17.602737+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "893/QĐ-TTPVHCC",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Giáo dục đại học",
   "target_users": [
@@ -36,10 +32,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Chủ tịch ủy ban nhân dân cấp tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Chi nhánh Trung tâm phục vụ hành chính công Thành phố"
+    "executing_agency": "Chủ tịch ủy ban nhân dân cấp tỉnh"
   },
   "steps": [
     {
@@ -47,34 +40,22 @@
       "title": "Bước 1",
       "description": "-\tCơ quan, tổ chức, cá nhân gửi hồ sơ đề nghị giải thể theo quy định qua Cổng Dịch vụ công quốc gia hoặc bưu chính hoặc trực tiếp đến Trung tâm phục vụ hành chính công thành phố Hà Nội.\n-\tTrong thời hạn 10 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Sở Giáo dục và Đào tạo kiểm tra hồ sơ, trình Chủ tịch Ủy ban nhân dân Thành phố ra quyết định giải thể, cho phép giải thể. Trường hợp hồ sơ không hợp lệ hoặc không quyết định giải thể, cho phép giải thể thì có văn bản trả lời và nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Văn bản đề nghị giải thể, cho phép giải thể của trường đại học theo Mẫu số 04 Phụ lục I Nghị quyết số 15/2026/NQ-HĐND",
-        "code": "NQ15.2026.04.1",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019f177d-cdcd-7555-a1cf-7f8919c7450b",
-            "name": "Mẫu số 04. Văn bản đề nghị giải thể trường đại học.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 04. Văn bản đề nghị giải thể trường đại học.docx",
+        "source_page": 2
       },
       {
         "name": "Bản sao văn bản thể hiện chủ trương giải thể của cơ quan có thẩm quyền đối với trường đại học công lập và nghị quyết hoặc quyết định của Hội đồng thành viên hoặc Đại hội đồng cổ đông hoặc Hội đồng quản trị về chủ trương giải thể theo quy định đối với tổ chức thành lập trường đại học tư thục.",
-        "code": "NQ15.2026.04.2",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -85,87 +66,52 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "10 ngày làm việc ngày kể từ ngày nhận đủ hồ sơ hợp lệ.",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "10 ngày làm việc ngày kể từ ngày nhận đủ hồ sơ hợp lệ.",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "10 ngày làm việc ngày kể từ ngày nhận đủ hồ sơ hợp lệ.",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       }
     ]
   },
@@ -173,14 +119,12 @@
     {
       "title": "Luật Thủ đô",
       "document_number": "02/2026/QH16",
-      "id": "019f1160-be7f-70b8-a88d-afea0026d637",
-      "source_page": null
+      "source_page": 1
     },
     {
       "title": "Về việc quy định trình tự, thủ tục thành lập, sáp nhập, chia, tách, giải thể, đổi tên, cấp phép hoạt động trong lĩnh vực giáo dục đại học, giáo dục nghề nghiệp trên địa bàn thành phố Hà Nội (thực hiện điểm a, b khoản 3 Điều 16 Luật Thủ đô)",
-      "document_number": "15/2026/NQ-HĐND ",
-      "id": "019f1162-01cc-7409-8d63-14458a66816c",
-      "source_page": null
+      "document_number": "15/2026/NQ-HĐND",
+      "source_page": 3
     }
   ],
   "conditions": "Theo quy định của pháp luật về giáo dục đại học.",
@@ -188,15 +132,14 @@
     {
       "title": "Quyết định giải thể hoặc cho phép giải thể trường đại học.",
       "code": "NQ15.2026.KQ4",
-      "id": "019f1182-6656-7457-ae55-b11488ea1223",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "-\tCơ quan, tổ chức, cá nhân gửi hồ sơ đề nghị giải thể theo quy định qua Cổng Dịch vụ công quốc gia hoặc bưu chính hoặc trực tiếp đến Trung tâm phục vụ hành chính công thành phố Hà Nội.\n-\tTrong thời hạn 10 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Sở Giáo dục và Đào tạo kiểm tra hồ sơ, trình Chủ tịch Ủy ban nhân dân Thành phố ra quyết định giải thể, cho phép giải thể. Trường hợp hồ sơ không hợp lệ hoặc không quyết định giải thể, cho phép giải thể thì có văn bản trả lời và nêu rõ lý do.",
-    "THÀNH PHẦN HỒ SƠ": "\nVăn bản đề nghị giải thể, cho phép giải thể của trường đại học theo Mẫu số 04 Phụ lục I Nghị quyết số 15/2026/NQ-HĐND\nBản sao văn bản thể hiện chủ trương giải thể của cơ quan có thẩm quyền đối với trường đại học công lập và nghị quyết hoặc quyết định của Hội đồng thành viên hoặc Đại hội đồng cổ đông hoặc Hội đồng quản trị về chủ trương giải thể theo quy định đối với tổ chức thành lập trường đại học tư thục.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 10 ngày làm việc - 10 ngày làm việc ngày kể từ ngày nhận đủ hồ sơ hợp lệ.\nTrực tuyến: 10 ngày làm việc - 10 ngày làm việc ngày kể từ ngày nhận đủ hồ sơ hợp lệ.\nQua dịch vụ bưu chính: 10 ngày làm việc - 10 ngày làm việc ngày kể từ ngày nhận đủ hồ sơ hợp lệ.",
-    "CĂN CỨ PHÁP LÝ": "Luật Thủ đô - 02/2026/QH16\nVề việc quy định trình tự, thủ tục thành lập, sáp nhập, chia, tách, giải thể, đổi tên, cấp phép hoạt động trong lĩnh vực giáo dục đại học, giáo dục nghề nghiệp trên địa bàn thành phố Hà Nội (thực hiện điểm a, b khoản 3 Điều 16 Luật Thủ đô) - 15/2026/NQ-HĐND ",
+    "THÀNH PHẦN HỒ SƠ": "Văn bản đề nghị giải thể, cho phép giải thể của trường đại học theo Mẫu số 04 Phụ lục I Nghị quyết số 15/2026/NQ-HĐND\nBản sao văn bản thể hiện chủ trương giải thể của cơ quan có thẩm quyền đối với trường đại học công lập và nghị quyết hoặc quyết định của Hội đồng thành viên hoặc Đại hội đồng cổ đông hoặc Hội đồng quản trị về chủ trương giải thể theo quy định đối với tổ chức thành lập trường đại học tư thục.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 10 ngày làm việc\nTrực tuyến: 10 ngày làm việc\nQua dịch vụ bưu chính: 10 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "Luật Thủ đô - 02/2026/QH16\nVề việc quy định trình tự, thủ tục thành lập, sáp nhập, chia, tách, giải thể, đổi tên, cấp phép hoạt động trong lĩnh vực giáo dục đại học, giáo dục nghề nghiệp trên địa bàn thành phố Hà Nội (thực hiện điểm a, b khoản 3 Điều 16 Luật Thủ đô) - 15/2026/NQ-HĐND",
     "CƠ QUAN THỰC HIỆN": "Chủ tịch ủy ban nhân dân cấp tỉnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Theo quy định của pháp luật về giáo dục đại học.",
     "KẾT QUẢ XỬ LÝ": "Quyết định giải thể hoặc cho phép giải thể trường đại học. - NQ15.2026.KQ4",
@@ -204,14 +147,9 @@
     "MÔ TẢ": "Theo quy định của pháp luật về giáo dục đại học."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Học tập",
-      "slug": "hoc-tap",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Giáo dục đại học",
-      "slug": "giao-duc-dai-hoc"
+      "slug": "giao-duc-ai-hoc"
     },
     "implementation_levels": [
       {
@@ -236,9 +174,9 @@
       },
       {
         "name": "Sở Giáo dục và Đào tạo",
-        "slug": "so-giao-duc-va-dao-tao"
+        "slug": "so-giao-duc-va-ao-tao"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "non_territorial"
   }
 }

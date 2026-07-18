@@ -1,35 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-a33a-70fb-bcea-38cd4cab920c",
   "procedure_code": "1.010029",
   "title": "Thông báo về việc sáp nhập công ty trong trường hợp sau sáp nhập công ty, công ty nhận sáp nhập không thay đổi nội dung đăng ký doanh nghiệp",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-a33a-70fb-bcea-38cd4cab920c",
     "source_file": "chi-tiet-thu-tuc-1.010029.pdf",
     "source_path": "procedures/viec-lam/1.010029/chi-tiet-thu-tuc-1.010029.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:22:05.582846+00:00",
-    "source_updated_at": "2026-04-27T03:37:35.633Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:40.979723+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "02501306109902852c2923488b55f353046f7f594cd1f965d3b329ad812460dd"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:05.582846+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2354/QĐ-BTC",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thành lập và hoạt động của doanh nghiệp",
   "target_users": [
@@ -43,25 +37,22 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Tài chính các tỉnh, thành phố",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Tài chính các tỉnh, thành phố"
   },
   "steps": [
     {
       "order": 1,
       "title": "+ Trường hợp đăng ký trực tiếp hoặc qua dịch vụ bưu chính:",
-      "description": "Trường hợp sau khi sáp nhập doanh nghiệp mà nội dung đăng ký doanh nghiệp của công ty nhận sáp nhập không thay đổi, trong thời hạn 10 ngày làm việc kể từ ngày hoàn thành việc sáp nhập doanh nghiệp, công ty nhận sáp nhập gửi thông báo bằng văn bản đến Cơ quan đăng ký kinh doanh cấp tỉnh nơi công ty nhận sáp nhập đặt trụ sở chính để thực hiện chấm dứt tồn tại của công ty bị sáp nhập. \nCơ quan đăng ký kinh doanh cấp tỉnh thực hiện việc chấm dứt tồn tại của doanh nghiệp và chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa điểm kinh doanh trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp.\n",
+      "description": "Trường hợp sau khi sáp nhập doanh nghiệp mà nội dung đăng ký doanh nghiệp của công ty nhận sáp nhập không thay đổi, trong thời hạn 10 ngày làm việc kể từ ngày hoàn thành việc sáp nhập doanh nghiệp, công ty nhận sáp nhập gửi thông báo bằng văn bản đến Cơ quan đăng ký kinh doanh cấp tỉnh nơi công ty nhận sáp nhập đặt trụ sở chính để thực hiện chấm dứt tồn tại của công ty bị sáp nhập. \nCơ quan đăng ký kinh doanh cấp tỉnh thực hiện việc chấm dứt tồn tại của doanh nghiệp và chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa điểm kinh doanh trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "+ Trường hợp đăng ký qua mạng thông tin điện tử:",
-      "description": "Người nộp hồ sơ sử dụng tài khoản định danh điện tử để đăng nhập Cổng thông tin quốc gia về đăng ký doanh nghiệp, kê khai thông tin, tải văn bản điện tử, ký số hoặc ký xác thực hồ sơ đăng ký doanh nghiệp qua mạng thông tin điện tử và thanh toán phí, lệ phí đăng ký doanh nghiệp theo quy trình trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nNgười uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.\nSau khi hoàn thành việc gửi hồ sơ đăng ký doanh nghiệp, người nộp hồ sơ sẽ nhận được giấy tiếp nhận hồ sơ và hẹn trả kết quả điện tử qua tài khoản của người nộp hồ sơ.\nTrường hợp hồ sơ đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh thực hiện cấp đăng ký doanh nghiệp và thông báo cho doanh nghiệp về việc cấp đăng ký doanh nghiệp. Trường hợp hồ sơ chưa đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh gửi thông báo qua mạng thông tin điện tử cho doanh nghiệp để yêu cầu sửa đổi, bổ sung hồ sơ. Người nộp hồ sơ đăng nhập vào Hệ thống thông tin quốc gia về đăng ký doanh nghiệp để nhận thông tin phản hồi về kết quả xử lý hồ sơ.\n",
+      "description": "Người nộp hồ sơ sử dụng tài khoản định danh điện tử để đăng nhập Cổng thông tin quốc gia về đăng ký doanh nghiệp, kê khai thông tin, tải văn bản điện tử, ký số hoặc ký xác thực hồ sơ đăng ký doanh nghiệp qua mạng thông tin điện tử và thanh toán phí, lệ phí đăng ký doanh nghiệp theo quy trình trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nNgười uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.\nSau khi hoàn thành việc gửi hồ sơ đăng ký doanh nghiệp, người nộp hồ sơ sẽ nhận được giấy tiếp nhận hồ sơ và hẹn trả kết quả điện tử qua tài khoản của người nộp hồ sơ.\nTrường hợp hồ sơ đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh thực hiện cấp đăng ký doanh nghiệp và thông báo cho doanh nghiệp về việc cấp đăng ký doanh nghiệp. Trường hợp hồ sơ chưa đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh gửi thông báo qua mạng thông tin điện tử cho doanh nghiệp để yêu cầu sửa đổi, bổ sung hồ sơ. Người nộp hồ sơ đăng nhập vào Hệ thống thông tin quốc gia về đăng ký doanh nghiệp để nhận thông tin phản hồi về kết quả xử lý hồ sơ.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
@@ -69,94 +60,64 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "- Trường hợp chưa có tài khoản định danh điện tử để thực hiện xác thực điện tử thì hồ sơ đăng ký doanh nghiệp phải kèm theo bản sao thẻ Căn cước hoặc thẻ Căn cước công dân hoặc hộ chiếu hoặc hộ chiếu nước ngoài hoặc các giấy tờ có giá trị thay thế hộ chiếu nước ngoài còn hiệu lực của người uỷ quyền.",
-        "code": "000.00.00.G12-KQ014149",
+        "name": "Người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:: - Trường hợp chưa có tài khoản định danh điện tử để thực hiện xác thực điện tử thì hồ sơ đăng ký doanh nghiệp phải kèm theo bản sao thẻ Căn cước hoặc thẻ Căn cước công dân hoặc hộ chiếu hoặc hộ chiếu nước ngoài hoặc các giấy tờ có giá trị thay thế hộ chiếu nước ngoài còn hiệu lực của người uỷ quyền.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Trường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có: (i) Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp; (ii) Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp.",
-        "code": "000.00.00.G12-KQ014145",
+        "name": "Người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:: - Trường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có: (i) Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp; (ii) Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Trường hợp ủy quyền cho cá nhân thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:  (i) Văn bản ủy quyền cho cá nhân thực hiện thủ tục liên quan đến đăng ký doanh nghiệp. Văn bản ủy quyền này không bắt buộc phải công chứng, chứng thực.",
-        "code": "000.00.00.G12-KQ014144",
+        "name": "Người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:: - Trường hợp ủy quyền cho cá nhân thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:  (i) Văn bản ủy quyền cho cá nhân thực hiện thủ tục liên quan đến đăng ký doanh nghiệp. Văn bản ủy quyền này không bắt buộc phải công chứng, chứng thực.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì việc ủy quyền thực hiện theo quy định tại khoản 2 Điều 12 Nghị định số 168/2025/NĐ-CP, cụ thể: (i) Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp; (ii) Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp.",
-        "code": "000.00.00.G12-KQ014147",
+        "name": "Người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:: - Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì việc ủy quyền thực hiện theo quy định tại khoản 2 Điều 12 Nghị định số 168/2025/NĐ-CP, cụ thể: (i) Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp; (ii) Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì khi thực hiện thủ tục đăng ký doanh nghiệp, nhân viên bưu chính phải nộp: (i) Bản sao phiếu gửi hồ sơ theo mẫu do doanh nghiệp cung ứng dịch vụ bưu chính công ích phát hành có chữ ký xác nhận của nhân viên bưu chính và người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp.",
-        "code": "000.00.00.G12-KQ014146",
+        "name": "Người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:: - Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì khi thực hiện thủ tục đăng ký doanh nghiệp, nhân viên bưu chính phải nộp: (i) Bản sao phiếu gửi hồ sơ theo mẫu do doanh nghiệp cung ứng dịch vụ bưu chính công ích phát hành có chữ ký xác nhận của nhân viên bưu chính và người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Người ủy quyền và người được ủy quyền thực hiện thủ tục đăng ký doanh nghiệp chịu trách nhiệm trước pháp luật về tính hợp pháp, trung thực và chính xác của việc ủy quyền. Người uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp. Trường hợp người ủy quyền không xác nhận hoặc xác nhận không ủy quyền thực hiện thủ tục đăng ký doanh nghiệp thì Cơ quan đăng ký kinh doanh cấp tỉnh yêu cầu doanh nghiệp báo cáo theo quy định tại khoản 5 Điều 21 Nghị định số 168/2025/NĐ-CP. Cụ thể: Yêu cầu doanh nghiệp báo cáo về việc tuân thủ các quy định của Luật Doanh nghiệp theo quy định tại điểm c khoản 1 Điều 216 Luật Doanh nghiệp “Yêu cầu doanh nghiệp báo cáo về việc tuân thủ quy định của Luật này khi xét thấy cần thiết; đôn đốc việc thực hiện nghĩa vụ báo cáo của doanh nghiệp”.",
-        "code": "000.00.00.G12-KQ014148",
+        "name": "Người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:: - Người ủy quyền và người được ủy quyền thực hiện thủ tục đăng ký doanh nghiệp chịu trách nhiệm trước pháp luật về tính hợp pháp, trung thực và chính xác của việc ủy quyền. Người uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp. Trường hợp người ủy quyền không xác nhận hoặc xác nhận không ủy quyền thực hiện thủ tục đăng ký doanh nghiệp thì Cơ quan đăng ký kinh doanh cấp tỉnh yêu cầu doanh nghiệp báo cáo theo quy định tại khoản 5 Điều 21 Nghị định số 168/2025/NĐ-CP. Cụ thể: Yêu cầu doanh nghiệp báo cáo về việc tuân thủ các quy định của Luật Doanh nghiệp theo quy định tại điểm c khoản 1 Điều 216 Luật Doanh nghiệp “Yêu cầu doanh nghiệp báo cáo về việc tuân thủ quy định của Luật này khi xét thấy cần thiết; đôn đốc việc thực hiện nghĩa vụ báo cáo của doanh nghiệp”.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "(iv) Bản sao hoặc bản chính các giấy tờ sau đây: nghị quyết hoặc quyết định của chủ sở hữu công ty đối với công ty TNHH một thành viên; nghị quyết hoặc quyết định của Hội đồng thành viên đối với công ty TNHH hai thành viên trở lên, công ty hợp danh; của Đại hội đồng cổ đông đối với công ty cổ phần về việc thông qua hợp đồng sáp nhập của công ty bị sáp nhập.",
-        "code": "000.00.00.G12-KQ014143",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "(i) Thông báo bằng văn bản đến Cơ quan đăng ký kinh doanh cấp tỉnh nơi công ty nhận sáp nhập đặt trụ sở chính để thực hiện chấm dứt tồn tại của công ty bị sáp nhập;",
-        "code": "000.00.00.G12-KQ014141",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "(iii) Bản sao hoặc bản chính các giấy tờ sau đây: nghị quyết hoặc quyết định của chủ sở hữu công ty đối với công ty TNHH một thành viên; nghị quyết hoặc quyết định của Hội đồng thành viên đối với công ty TNHH hai thành viên trở lên, công ty hợp danh; của Đại hội đồng cổ đông đối với công ty cổ phần về việc thông qua hợp đồng sáp nhập của công ty nhận sáp nhập;",
-        "code": "000.00.00.G12-KQ014142",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "(ii) Hợp đồng sáp nhập theo quy định tại Điều 201 Luật Doanh nghiệp;",
-        "code": "000.00.00.G05-KQ4279",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       }
     ]
   },
@@ -165,49 +126,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "0",
-      "processing_time_value": 0,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 100000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Không được quy định tại Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC.",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "Không được quy định tại Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC.; 0",
       "description": "",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "0",
-      "processing_time_value": 0,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 100000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Không được quy định tại Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC.",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "Không được quy định tại Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC.; 0",
       "description": "",
       "source_page": null
     },
@@ -215,85 +142,57 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "0",
-      "processing_time_value": 0,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 100000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Không được quy định tại Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC.",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "Không được quy định tại Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC.; 0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Không được quy định tại Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC.; 0",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 100000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Không được quy định tại Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC.",
-        "attachment": null
+        "amount_text": "Không được quy định tại Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 4
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 100000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Không được quy định tại Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC.",
-        "attachment": null
+        "amount_text": "Không được quy định tại Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 100000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Không được quy định tại Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC.",
-        "attachment": null
+        "amount_text": "Không được quy định tại Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -301,38 +200,32 @@
     {
       "title": "Thông tư số 68/2025/TT-BTC của Bộ Tài chính: Ban hành biểu mẫu sử dụng trong đăng ký doanh nghiệp, đăng ký hộ kinh doanh",
       "document_number": "68/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-87184807d6b6",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "47/2019/TT-BTC",
       "document_number": "Thông tư 47/2019/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4f-e6b1d73fd7a4",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Nghị định số 168/2025/NĐ-CP ngày 30 tháng 6 năm 2025 của Chính phủ về đăng ký doanh nghiệp",
       "document_number": "168/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afec-5e297320f06a",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân",
       "document_number": "64/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-69cce97f8824",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Luật sửa đổi, bổ sung một số điều của Luật Doanh nghiệp 2020",
       "document_number": "76/2025/QH15",
-      "id": "019d2bb3-5d87-7195-a445-a84d5af06feb",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Luật Doanh nghiệp",
       "document_number": "59/2020/QH14",
-      "id": "019d2bb3-5d84-71c5-b673-a5cd7b50c21c",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "",
@@ -340,25 +233,22 @@
     {
       "title": "Thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp",
       "code": "KQ.G12.001051",
-      "id": "019d2bb2-1c72-75fa-a590-b03dba8f7347",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Văn bản nêu rõ lý do từ chối của Cơ quan đăng ký kinh doanh",
       "code": "KQ.G12.001040",
-      "id": "019d2bb2-1c72-75fa-a590-8d4ba606d3c1",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Giấy chứng nhận đăng ký doanh nghiệp",
       "code": "KQ.G12.001056",
-      "id": "019d2bb2-1c72-75fa-a590-c384d2b8c712",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Trường hợp sau khi sáp nhập doanh nghiệp mà nội dung đăng ký doanh nghiệp của công ty nhận sáp nhập không thay đổi, trong thời hạn 10 ngày làm việc kể từ ngày hoàn thành việc sáp nhập doanh nghiệp, công ty nhận sáp nhập gửi thông báo bằng văn bản đến Cơ quan đăng ký kinh doanh cấp tỉnh nơi công ty nhận sáp nhập đặt trụ sở chính để thực hiện chấm dứt tồn tại của công ty bị sáp nhập. \nCơ quan đăng ký kinh doanh cấp tỉnh thực hiện việc chấm dứt tồn tại của doanh nghiệp và chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa điểm kinh doanh trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp.\n\nNgười nộp hồ sơ sử dụng tài khoản định danh điện tử để đăng nhập Cổng thông tin quốc gia về đăng ký doanh nghiệp, kê khai thông tin, tải văn bản điện tử, ký số hoặc ký xác thực hồ sơ đăng ký doanh nghiệp qua mạng thông tin điện tử và thanh toán phí, lệ phí đăng ký doanh nghiệp theo quy trình trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nNgười uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.\nSau khi hoàn thành việc gửi hồ sơ đăng ký doanh nghiệp, người nộp hồ sơ sẽ nhận được giấy tiếp nhận hồ sơ và hẹn trả kết quả điện tử qua tài khoản của người nộp hồ sơ.\nTrường hợp hồ sơ đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh thực hiện cấp đăng ký doanh nghiệp và thông báo cho doanh nghiệp về việc cấp đăng ký doanh nghiệp. Trường hợp hồ sơ chưa đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh gửi thông báo qua mạng thông tin điện tử cho doanh nghiệp để yêu cầu sửa đổi, bổ sung hồ sơ. Người nộp hồ sơ đăng nhập vào Hệ thống thông tin quốc gia về đăng ký doanh nghiệp để nhận thông tin phản hồi về kết quả xử lý hồ sơ.\n",
-    "THÀNH PHẦN HỒ SƠ": "Người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:\n- Trường hợp chưa có tài khoản định danh điện tử để thực hiện xác thực điện tử thì hồ sơ đăng ký doanh nghiệp phải kèm theo bản sao thẻ Căn cước hoặc thẻ Căn cước công dân hoặc hộ chiếu hoặc hộ chiếu nước ngoài hoặc các giấy tờ có giá trị thay thế hộ chiếu nước ngoài còn hiệu lực của người uỷ quyền.\n- Trường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có: (i) Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp; (ii) Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp.\n- Trường hợp ủy quyền cho cá nhân thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:  (i) Văn bản ủy quyền cho cá nhân thực hiện thủ tục liên quan đến đăng ký doanh nghiệp. Văn bản ủy quyền này không bắt buộc phải công chứng, chứng thực.\n- Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì việc ủy quyền thực hiện theo quy định tại khoản 2 Điều 12 Nghị định số 168/2025/NĐ-CP, cụ thể: (i) Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp; (ii) Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp.\n- Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì khi thực hiện thủ tục đăng ký doanh nghiệp, nhân viên bưu chính phải nộp: (i) Bản sao phiếu gửi hồ sơ theo mẫu do doanh nghiệp cung ứng dịch vụ bưu chính công ích phát hành có chữ ký xác nhận của nhân viên bưu chính và người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp.\n- Người ủy quyền và người được ủy quyền thực hiện thủ tục đăng ký doanh nghiệp chịu trách nhiệm trước pháp luật về tính hợp pháp, trung thực và chính xác của việc ủy quyền. Người uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp. Trường hợp người ủy quyền không xác nhận hoặc xác nhận không ủy quyền thực hiện thủ tục đăng ký doanh nghiệp thì Cơ quan đăng ký kinh doanh cấp tỉnh yêu cầu doanh nghiệp báo cáo theo quy định tại khoản 5 Điều 21 Nghị định số 168/2025/NĐ-CP. Cụ thể: Yêu cầu doanh nghiệp báo cáo về việc tuân thủ các quy định của Luật Doanh nghiệp theo quy định tại điểm c khoản 1 Điều 216 Luật Doanh nghiệp “Yêu cầu doanh nghiệp báo cáo về việc tuân thủ quy định của Luật này khi xét thấy cần thiết; đôn đốc việc thực hiện nghĩa vụ báo cáo của doanh nghiệp”.\n\n(iv) Bản sao hoặc bản chính các giấy tờ sau đây: nghị quyết hoặc quyết định của chủ sở hữu công ty đối với công ty TNHH một thành viên; nghị quyết hoặc quyết định của Hội đồng thành viên đối với công ty TNHH hai thành viên trở lên, công ty hợp danh; của Đại hội đồng cổ đông đối với công ty cổ phần về việc thông qua hợp đồng sáp nhập của công ty bị sáp nhập.\n(i) Thông báo bằng văn bản đến Cơ quan đăng ký kinh doanh cấp tỉnh nơi công ty nhận sáp nhập đặt trụ sở chính để thực hiện chấm dứt tồn tại của công ty bị sáp nhập;\n(iii) Bản sao hoặc bản chính các giấy tờ sau đây: nghị quyết hoặc quyết định của chủ sở hữu công ty đối với công ty TNHH một thành viên; nghị quyết hoặc quyết định của Hội đồng thành viên đối với công ty TNHH hai thành viên trở lên, công ty hợp danh; của Đại hội đồng cổ đông đối với công ty cổ phần về việc thông qua hợp đồng sáp nhập của công ty nhận sáp nhập;\n(ii) Hợp đồng sáp nhập theo quy định tại Điều 201 Luật Doanh nghiệp;",
+    "TRÌNH TỰ THỰC HIỆN": "Trường hợp sau khi sáp nhập doanh nghiệp mà nội dung đăng ký doanh nghiệp của công ty nhận sáp nhập không thay đổi, trong thời hạn 10 ngày làm việc kể từ ngày hoàn thành việc sáp nhập doanh nghiệp, công ty nhận sáp nhập gửi thông báo bằng văn bản đến Cơ quan đăng ký kinh doanh cấp tỉnh nơi công ty nhận sáp nhập đặt trụ sở chính để thực hiện chấm dứt tồn tại của công ty bị sáp nhập. \nCơ quan đăng ký kinh doanh cấp tỉnh thực hiện việc chấm dứt tồn tại của doanh nghiệp và chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa điểm kinh doanh trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp.\nNgười nộp hồ sơ sử dụng tài khoản định danh điện tử để đăng nhập Cổng thông tin quốc gia về đăng ký doanh nghiệp, kê khai thông tin, tải văn bản điện tử, ký số hoặc ký xác thực hồ sơ đăng ký doanh nghiệp qua mạng thông tin điện tử và thanh toán phí, lệ phí đăng ký doanh nghiệp theo quy trình trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nNgười uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.\nSau khi hoàn thành việc gửi hồ sơ đăng ký doanh nghiệp, người nộp hồ sơ sẽ nhận được giấy tiếp nhận hồ sơ và hẹn trả kết quả điện tử qua tài khoản của người nộp hồ sơ.\nTrường hợp hồ sơ đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh thực hiện cấp đăng ký doanh nghiệp và thông báo cho doanh nghiệp về việc cấp đăng ký doanh nghiệp. Trường hợp hồ sơ chưa đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh gửi thông báo qua mạng thông tin điện tử cho doanh nghiệp để yêu cầu sửa đổi, bổ sung hồ sơ. Người nộp hồ sơ đăng nhập vào Hệ thống thông tin quốc gia về đăng ký doanh nghiệp để nhận thông tin phản hồi về kết quả xử lý hồ sơ.",
+    "THÀNH PHẦN HỒ SƠ": "Người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:: - Trường hợp chưa có tài khoản định danh điện tử để thực hiện xác thực điện tử thì hồ sơ đăng ký doanh nghiệp phải kèm theo bản sao thẻ Căn cước hoặc thẻ Căn cước công dân hoặc hộ chiếu hoặc hộ chiếu nước ngoài hoặc các giấy tờ có giá trị thay thế hộ chiếu nước ngoài còn hiệu lực của người uỷ quyền.\nNgười có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:: - Trường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có: (i) Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp; (ii) Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp.\nNgười có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:: - Trường hợp ủy quyền cho cá nhân thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:  (i) Văn bản ủy quyền cho cá nhân thực hiện thủ tục liên quan đến đăng ký doanh nghiệp. Văn bản ủy quyền này không bắt buộc phải công chứng, chứng thực.\nNgười có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:: - Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì việc ủy quyền thực hiện theo quy định tại khoản 2 Điều 12 Nghị định số 168/2025/NĐ-CP, cụ thể: (i) Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp; (ii) Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp.\nNgười có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:: - Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì khi thực hiện thủ tục đăng ký doanh nghiệp, nhân viên bưu chính phải nộp: (i) Bản sao phiếu gửi hồ sơ theo mẫu do doanh nghiệp cung ứng dịch vụ bưu chính công ích phát hành có chữ ký xác nhận của nhân viên bưu chính và người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp.\nNgười có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây:: - Người ủy quyền và người được ủy quyền thực hiện thủ tục đăng ký doanh nghiệp chịu trách nhiệm trước pháp luật về tính hợp pháp, trung thực và chính xác của việc ủy quyền. Người uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp. Trường hợp người ủy quyền không xác nhận hoặc xác nhận không ủy quyền thực hiện thủ tục đăng ký doanh nghiệp thì Cơ quan đăng ký kinh doanh cấp tỉnh yêu cầu doanh nghiệp báo cáo theo quy định tại khoản 5 Điều 21 Nghị định số 168/2025/NĐ-CP. Cụ thể: Yêu cầu doanh nghiệp báo cáo về việc tuân thủ các quy định của Luật Doanh nghiệp theo quy định tại điểm c khoản 1 Điều 216 Luật Doanh nghiệp “Yêu cầu doanh nghiệp báo cáo về việc tuân thủ quy định của Luật này khi xét thấy cần thiết; đôn đốc việc thực hiện nghĩa vụ báo cáo của doanh nghiệp”.\n(iv) Bản sao hoặc bản chính các giấy tờ sau đây: nghị quyết hoặc quyết định của chủ sở hữu công ty đối với công ty TNHH một thành viên; nghị quyết hoặc quyết định của Hội đồng thành viên đối với công ty TNHH hai thành viên trở lên, công ty hợp danh; của Đại hội đồng cổ đông đối với công ty cổ phần về việc thông qua hợp đồng sáp nhập của công ty bị sáp nhập.\n(i) Thông báo bằng văn bản đến Cơ quan đăng ký kinh doanh cấp tỉnh nơi công ty nhận sáp nhập đặt trụ sở chính để thực hiện chấm dứt tồn tại của công ty bị sáp nhập;\n(iii) Bản sao hoặc bản chính các giấy tờ sau đây: nghị quyết hoặc quyết định của chủ sở hữu công ty đối với công ty TNHH một thành viên; nghị quyết hoặc quyết định của Hội đồng thành viên đối với công ty TNHH hai thành viên trở lên, công ty hợp danh; của Đại hội đồng cổ đông đối với công ty cổ phần về việc thông qua hợp đồng sáp nhập của công ty nhận sáp nhập;\n(ii) Hợp đồng sáp nhập theo quy định tại Điều 201 Luật Doanh nghiệp;",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 0\nQua dịch vụ bưu chính: 0\nTrực tiếp: 0",
     "CĂN CỨ PHÁP LÝ": "Thông tư số 68/2025/TT-BTC của Bộ Tài chính: Ban hành biểu mẫu sử dụng trong đăng ký doanh nghiệp, đăng ký hộ kinh doanh - 68/2025/TT-BTC\n47/2019/TT-BTC - Thông tư 47/2019/TT-BTC\nNghị định số 168/2025/NĐ-CP ngày 30 tháng 6 năm 2025 của Chính phủ về đăng ký doanh nghiệp - 168/2025/NĐ-CP\nThông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân - 64/2025/TT-BTC\nLuật sửa đổi, bổ sung một số điều của Luật Doanh nghiệp 2020 - 76/2025/QH15\nLuật Doanh nghiệp - 59/2020/QH14",
     "CƠ QUAN THỰC HIỆN": "Sở Tài chính các tỉnh, thành phố",
@@ -368,14 +258,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thành lập và hoạt động của doanh nghiệp",
-      "slug": "thanh-lap-va-hoat-dong-cua-doanh-nghiep"
+      "slug": "thanh-lap-va-hoat-ong-cua-doanh-nghiep"
     },
     "implementation_levels": [
       {
@@ -418,7 +303,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -427,6 +312,6 @@
         "slug": "so-tai-chinh-cac-tinh-thanh-pho"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

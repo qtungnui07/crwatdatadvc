@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019f1b6f-5b41-7656-83f1-3457acaef6e1",
   "procedure_code": "1.115524",
   "title": "Đăng ký biến động chuyển nhượng dự án đầu tư có sử dụng đất (dự án đã được cấp Giấy chứng nhận)",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019f1b6f-5b41-7656-83f1-3457acaef6e1",
     "source_file": "chi-tiet-thu-tuc-1.115524.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.115524/chi-tiet-thu-tuc-1.115524.pdf",
     "page_count": 7,
-    "extracted_at": "2026-07-18T02:22:18.269862+00:00",
-    "source_updated_at": "2026-07-08T09:16:00.186Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:57:05.036621+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "2dab4ce690801f3677a3ea6de22035d1fd643571b0543a5a37c4445f3924a34b"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:18.269862+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2252/QĐ-VP",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đất đai",
   "target_users": [
@@ -43,96 +39,95 @@
   ],
   "agency": {
     "competent_agency": "Văn phòng Đăng ký đất đai; Chi nhánh Văn phòng đăng ký đất đai khu vực",
-    "executing_agency": "Văn phòng Đăng ký đất đai",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "- Bộ phận tiếp nhận và trả kết quả của Văn phòng đăng ký đất đai tại Trung tâm Phục vụ hành chính công tỉnh và 26 xã, phường nơi Chi nhánh Văn phòng Đăng ký đất đai khu vực liên xã đặt trụ sở. \n- Trung tâm Phục vụ hành chính công các cấp (thực hiện tiếp nhận hồ sơ, trả kết quả không phụ thuộc vào địa giới hành chính).\n- Nộp trực tuyến qua Cổng Dịch vụ công Quốc gia (một phần) tại địa chỉ: https://dichvucong.gov.vn."
+    "executing_agency": "Văn phòng Đăng ký đất đai"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến Bộ phận Một cửa\nKhi nộp hồ sơ, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nĐối với trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì người yêu cầu đăng ký nộp bản gốc Giấy chứng nhận đã cấp.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.\nBước 2: Bộ phận Một cửa thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ; cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả. Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai.\n* Trường hợp đất để thực hiện dự án không thuê của Nhà nước theo hình thức thuê đất đất trả tiền hàng năm thì:\nBước 3: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng Đăng ký đất đai thực hiện: \n- Kiểm tra các điều kiện thực hiện quyền theo quy định của Luật Đất đai đối với trường hợp thực hiện quyền của người sử dụng đất, của chủ sở hữu tài sản gắn liền với đất; trường hợp không đủ điều kiện thực hiện quyền theo quy định của Luật Đất đai thì thông báo lý do và trả hồ sơ cho người yêu cầu đăng ký.\n- Kiểm tra, ký duyệt mảnh trích đo bản đồ địa chính đối với trường hợp người sử dụng đất có nhu cầu xác định lại kích thước các cạnh, diện tích của thửa đất.\n- Trích lục bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất đối với nơi chưa có bản đồ địa chính hoặc chỉ có bản đồ địa chính dạng giấy đã rách nát, hư hỏng đối với trường hợp Giấy chứng nhận đã cấp chưa sử dụng bản đồ địa chính hoặc chưa sử dụng trích đo bản đồ địa chính thửa đất và người sử dụng đất có nhu cầu cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc thuộc trường hợp phải cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.\n- Gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 15 tại Phụ lục IV ban hành kèm theo Quyết định này đến cơ quan thuế để xác định và thông báo thu nghĩa vụ tài chính.\n- Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai; cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc xác nhận thay đổi trên Giấy chứng nhận đã cấp sau khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính; gửi Giấy chứng nhận đến Bộ phận Một cửa để trao cho người được cấp.\n* Trường hợp đất để thực hiện dự án thuê của Nhà nước theo hình thức thuê đất đất trả tiền hàng năm thì:\nBước 3: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng Đăng ký đất đai thực hiện: \n- Kiểm tra các điều kiện thực hiện quyền theo quy định của Luật Đất đai đối với trường hợp thực hiện quyền của người sử dụng đất, của chủ sở hữu tài sản gắn liền với đất; trường hợp không đủ điều kiện thực hiện quyền theo quy định của Luật Đất đai thì thông báo lý do và trả hồ sơ cho người yêu cầu đăng ký.\n- Kiểm tra, ký duyệt mảnh trích đo bản đồ địa chính đối với trường hợp người sử dụng đất có nhu cầu xác định lại kích thước các cạnh, diện tích của thửa đất.\n- Trích lục bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất đối với nơi chưa có bản đồ địa chính hoặc chỉ có bản đồ địa chính dạng giấy đã rách nát, hư hỏng đối với trường hợp Giấy chứng nhận đã cấp chưa sử dụng bản đồ địa chính hoặc chưa sử dụng trích đo bản đồ địa chính thửa đất và người sử dụng đất có nhu cầu cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc thuộc trường hợp phải cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.\n\t- Trình hồ sơ đến Sở Nông nghiệp và Môi trường hoặc chuyển hồ sơ đến UBND cấp xã để thực hiện ký hợp đồng thuê đất theo thẩm quyền.\nBước 4: Sở Nông nghiệp và Môi trường hoặc UBND cấp xã thực hiện ký hoặc trình Chủ tịch UBND cấp xã ký hợp đồng thuê đất theo thẩm quyền đối với bên nhận chuyển nhượng dự án đầu tư có sử dụng đất; chuyển hợp đồng thuê đất đã ký đến Văn phòng Đăng ký đất đai, Chi nhánh Văn phòng Đăng ký đất đai.\nBước 5: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng Đăng ký đất đai thực hiện: \n- Gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 15 tại Phụ lục IV ban hành kèm theo Quyết định này đến cơ quan thuế để xác định và thông báo thu nghĩa vụ tài chính; thông báo bằng văn bản cho cơ quan thuế về việc hết hiệu lực của hợp đồng thuê đất đối với bên chuyển nhượng.\n- Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai; cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc xác nhận thay đổi trên Giấy chứng nhận đã cấp sau khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính; gửi Giấy chứng nhận kèm Hợp đồng thuê đất đến Bộ phận Một cửa để trao cho người được cấp.",
+      "description": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến Bộ phận Một cửa\nKhi nộp hồ sơ, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nĐối với trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì người yêu cầu đăng ký nộp bản gốc Giấy chứng nhận đã cấp.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Bộ phận Một cửa thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ; cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả. Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai.\n* Trường hợp đất để thực hiện dự án không thuê của Nhà nước theo hình thức thuê đất đất trả tiền hàng năm thì:",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng Đăng ký đất đai thực hiện: \n- Kiểm tra các điều kiện thực hiện quyền theo quy định của Luật Đất đai đối với trường hợp thực hiện quyền của người sử dụng đất, của chủ sở hữu tài sản gắn liền với đất; trường hợp không đủ điều kiện thực hiện quyền theo quy định của Luật Đất đai thì thông báo lý do và trả hồ sơ cho người yêu cầu đăng ký.\n- Kiểm tra, ký duyệt mảnh trích đo bản đồ địa chính đối với trường hợp người sử dụng đất có nhu cầu xác định lại kích thước các cạnh, diện tích của thửa đất.\n- Trích lục bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất đối với nơi chưa có bản đồ địa chính hoặc chỉ có bản đồ địa chính dạng giấy đã rách nát, hư hỏng đối với trường hợp Giấy chứng nhận đã cấp chưa sử dụng bản đồ địa chính hoặc chưa sử dụng trích đo bản đồ địa chính thửa đất và người sử dụng đất có nhu cầu cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc thuộc trường hợp phải cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.\n- Gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 15 tại Phụ lục IV ban hành kèm theo Quyết định này đến cơ quan thuế để xác định và thông báo thu nghĩa vụ tài chính.\n- Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai; cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc xác nhận thay đổi trên Giấy chứng nhận đã cấp sau khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính; gửi Giấy chứng nhận đến Bộ phận Một cửa để trao cho người được cấp.\n* Trường hợp đất để thực hiện dự án thuê của Nhà nước theo hình thức thuê đất đất trả tiền hàng năm thì:",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 3",
+      "description": "Bước 3: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng Đăng ký đất đai thực hiện: \n- Kiểm tra các điều kiện thực hiện quyền theo quy định của Luật Đất đai đối với trường hợp thực hiện quyền của người sử dụng đất, của chủ sở hữu tài sản gắn liền với đất; trường hợp không đủ điều kiện thực hiện quyền theo quy định của Luật Đất đai thì thông báo lý do và trả hồ sơ cho người yêu cầu đăng ký.\n- Kiểm tra, ký duyệt mảnh trích đo bản đồ địa chính đối với trường hợp người sử dụng đất có nhu cầu xác định lại kích thước các cạnh, diện tích của thửa đất.\n- Trích lục bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất đối với nơi chưa có bản đồ địa chính hoặc chỉ có bản đồ địa chính dạng giấy đã rách nát, hư hỏng đối với trường hợp Giấy chứng nhận đã cấp chưa sử dụng bản đồ địa chính hoặc chưa sử dụng trích đo bản đồ địa chính thửa đất và người sử dụng đất có nhu cầu cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc thuộc trường hợp phải cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.\n\t- Trình hồ sơ đến Sở Nông nghiệp và Môi trường hoặc chuyển hồ sơ đến UBND cấp xã để thực hiện ký hợp đồng thuê đất theo thẩm quyền.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 5,
+      "title": "Bước 4",
+      "description": "Bước 4: Sở Nông nghiệp và Môi trường hoặc UBND cấp xã thực hiện ký hoặc trình Chủ tịch UBND cấp xã ký hợp đồng thuê đất theo thẩm quyền đối với bên nhận chuyển nhượng dự án đầu tư có sử dụng đất; chuyển hợp đồng thuê đất đã ký đến Văn phòng Đăng ký đất đai, Chi nhánh Văn phòng Đăng ký đất đai.",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 6,
+      "title": "Bước 5",
+      "description": "Bước 5: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng Đăng ký đất đai thực hiện: \n- Gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 15 tại Phụ lục IV ban hành kèm theo Quyết định này đến cơ quan thuế để xác định và thông báo thu nghĩa vụ tài chính; thông báo bằng văn bản cho cơ quan thuế về việc hết hiệu lực của hợp đồng thuê đất đối với bên chuyển nhượng.\n- Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai; cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc xác nhận thay đổi trên Giấy chứng nhận đã cấp sau khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính; gửi Giấy chứng nhận kèm Hợp đồng thuê đất đến Bộ phận Một cửa để trao cho người được cấp.",
+      "example": null,
+      "source_page": 3
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Mẫu số 29\tĐơn đăng ký biến động đất đai, tài sản gắn liền với đất",
-        "code": "TP-H56.0000066",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019f3a7a-fd09-710e-96f5-c71efd78a000",
-            "name": "Mẫu số 29.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 29.docx",
+        "source_page": 3
       },
       {
         "name": "Bản gốc Giấy chứng nhận đã cấp cho bên chuyển nhượng dự án bất động sản",
-        "code": "TP-H56.0000165",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Chứng từ chứng minh việc hoàn thành nghĩa vụ tài chính đối với trường hợp có thay đổi nghĩa vụ tài chính (trừ trường hợp được miễn hoặc chậm nộp theo quy định của pháp luật)",
-        "code": "TP-H56.0000166",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Văn bản cho phép chuyển nhượng dự án hoặc một phần dự án của cơ quan có thẩm quyền theo quy định của pháp luật",
-        "code": "TP-H56.0000167",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Hợp đồng chuyển nhượng dự án hoặc một phần dự án theo quy định của pháp luật",
-        "code": "TP-H56.0000168",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Bản vẽ tách thửa đất, hợp thửa đất theo Mẫu số 34 tại Phụ lục IV ban hành kèm theo Quyết định này đối với trường hợp chuyển nhượng một phần dự án",
-        "code": "TP-H56.0000145",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Hồ sơ kê khai xác định nghĩa vụ tài chính: Tờ khai lệ phí trước bạ, tờ khai thuế phi nông nghiệp, tờ khai thuế thu nhập từ chuyển nhượng bất động sản (trừ trường hợp bên chuyển nhượng là doanh nghiệp có chức năng kinh doanh bất động sản) theo mẫu do Bộ Tài chính quy định; Hóa đơn giá trị gia tăng đối với trường hợp tổ chức chuyển nhượng bất động sản; Văn bản đề nghị miễn, giảm tiền thuê đất, tiền sử dụng đất theo Mẫu số 11 ban hành kèm theo Quyết định này, giấy tờ chứng minh thuộc đối tượng được miễn, giảm nghĩa vụ tài chính theo quy định (nếu có)",
-        "code": "TP-H56.0000116",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019f3ac4-f12c-73bb-9645-42bce2a5b272",
-            "name": "Mẫu số 11.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 11.docx",
+        "source_page": 4
       }
     ],
     "normally_required": [],
@@ -143,171 +138,73 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": null,
-          "currency": "VND",
-          "description": "Các trường hợp được miễn, giảm nộp phí:  - Miễn phí đối với các đối tượng sau:  + Người khuyết tật và người cao tuổi (không nơi nương tựa). + Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn.  + Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hóa học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng.  + Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội. + Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất. + Trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan.  - Đối tượng được giảm nộp phí:  + Giảm 10% mức thu phí cho hộ gia đình ở các xã thuộc thành phố, thị xã và thị trấn thuộc các huyện đồng bằng.  + Giảm 20% mức thu phí cho hộ gia đình ở các xã đồng bằng thuộc huyện và các thị trấn thuộc huyện miền núi.  + Giảm 30% mức thu phí cho hộ gia đình ở các xã thuộc các huyện miền núi.",
-          "attachment": {
-            "fileId": "019f3fe6-41d3-717c-bf3b-a4a442f40c24",
-            "fileName": "PL8.2.docx"
-          }
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": null,
-          "currency": "VND",
-          "description": "Các trường hợp được miễn nộp lệ phí:  - Người khuyết tật và người cao tuổi (không nơi nương tựa). - Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn. - Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hoá học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng. - Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội.  - Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất.  - Miễn nộp lệ phí cấp Giấy chứng nhận đối với trường hợp đã được cấp giấy chứng nhận quyền sử dụng đất, giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở, giấy chứng nhận quyền sở hữu nhà ở, giấy chứng nhận quyền sở hữu công trình xây dựng trước ngày 19/10/2009 (là ngày Nghị định số 88/2009/NĐ-CP ngày 19/10/2009 của Chính phủ quy định việc cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất có hiệu lực thi hành) mà có nhu cầu cấp đổi giấy chứng nhận. - Miễn lệ phí đối với các trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan. - Miễn lệ phí cấp giấy chứng nhận đối với hộ gia đình, cá nhân ở nông thôn. Trường hợp hộ gia đình, cá nhân tại các quận thuộc thành phố trực thuộc Trung ương và các phường nội thành thuộc thành phố, thị xã trực thuộc tỉnh đươc cấp giấy chứng nhận ở nông thôn thì không được miễn lệ phí cấp giấy chứng nhận.",
-          "attachment": {
-            "fileId": "019f3fe6-5837-7103-bc24-91feb2787e53",
-            "fileName": "PL8.2.docx"
-          }
-        }
-      ],
+      "fee": "Các trường hợp được miễn, giảm nộp phí:  - Miễn phí đối với các đối tượng sau:  + Người khuyết tật và người cao tuổi (không nơi nương tựa). + Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn.  + Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hóa học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng.  + Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội. + Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất. + Trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan.  - Đối tượng được giảm nộp phí:  + Giảm 10% mức thu phí cho hộ gia đình ở các xã thuộc thành phố, thị xã và thị trấn thuộc các huyện đồng bằng.  + Giảm 20% mức thu phí cho hộ gia đình ở các xã đồng bằng thuộc huyện và các thị trấn thuộc huyện miền núi.  + Giảm 30% mức thu phí cho hộ gia đình ở các xã thuộc các huyện miền núi.; Các trường hợp được miễn nộp lệ phí:  - Người khuyết tật và người cao tuổi (không nơi nương tựa). - Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn. - Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hoá học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng. - Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội.  - Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất.  - Miễn nộp lệ phí cấp Giấy chứng nhận đối với trường hợp đã được cấp giấy chứng nhận quyền sử dụng đất, giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở, giấy chứng nhận quyền sở hữu nhà ở, giấy chứng nhận quyền sở hữu công trình xây dựng trước ngày 19/10/2009 (là ngày Nghị định số 88/2009/NĐ-CP ngày 19/10/2009 của Chính phủ quy định việc cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất có hiệu lực thi hành) mà có nhu cầu cấp đổi giấy chứng nhận. - Miễn lệ phí đối với các trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan. - Miễn lệ phí cấp giấy chứng nhận đối với hộ gia đình, cá nhân ở nông thôn. Trường hợp hộ gia đình, cá nhân tại các quận thuộc thành phố trực thuộc Trung ương và các phường nội thành thuộc thành phố, thị xã trực thuộc tỉnh đươc cấp giấy chứng nhận ở nông thôn thì không được miễn lệ phí cấp giấy chứng nhận.",
       "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 15 ngày làm việc",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": null,
-          "currency": "VND",
-          "description": "Các trường hợp được miễn, giảm nộp phí:  - Miễn phí đối với các đối tượng sau:  + Người khuyết tật và người cao tuổi (không nơi nương tựa). + Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn.  + Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hóa học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng.  + Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội. + Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất. + Trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan.  - Đối tượng được giảm nộp phí:  + Giảm 10% mức thu phí cho hộ gia đình ở các xã thuộc thành phố, thị xã và thị trấn thuộc các huyện đồng bằng.  + Giảm 20% mức thu phí cho hộ gia đình ở các xã đồng bằng thuộc huyện và các thị trấn thuộc huyện miền núi.  + Giảm 30% mức thu phí cho hộ gia đình ở các xã thuộc các huyện miền núi.",
-          "attachment": {
-            "fileId": "019f3fe6-7b63-736f-aeb0-5e32139c1b26",
-            "fileName": "PL8.2.docx"
-          }
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": null,
-          "currency": "VND",
-          "description": "Các trường hợp được miễn nộp lệ phí:  - Người khuyết tật và người cao tuổi (không nơi nương tựa). - Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn. - Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hoá học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng. - Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội.  - Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất.  - Miễn nộp lệ phí cấp Giấy chứng nhận đối với trường hợp đã được cấp giấy chứng nhận quyền sử dụng đất, giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở, giấy chứng nhận quyền sở hữu nhà ở, giấy chứng nhận quyền sở hữu công trình xây dựng trước ngày 19/10/2009 (là ngày Nghị định số 88/2009/NĐ-CP ngày 19/10/2009 của Chính phủ quy định việc cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất có hiệu lực thi hành) mà có nhu cầu cấp đổi giấy chứng nhận. - Miễn lệ phí đối với các trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan. - Miễn lệ phí cấp giấy chứng nhận đối với hộ gia đình, cá nhân ở nông thôn. Trường hợp hộ gia đình, cá nhân tại các quận thuộc thành phố trực thuộc Trung ương và các phường nội thành thuộc thành phố, thị xã trực thuộc tỉnh đươc cấp giấy chứng nhận ở nông thôn thì không được miễn lệ phí cấp giấy chứng nhận.",
-          "attachment": {
-            "fileId": "019f3fe6-98f3-77d9-97bb-23271b15becc",
-            "fileName": "PL8.2.docx"
-          }
-        }
-      ],
+      "fee": "Các trường hợp được miễn, giảm nộp phí:  - Miễn phí đối với các đối tượng sau:  + Người khuyết tật và người cao tuổi (không nơi nương tựa). + Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn.  + Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hóa học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng.  + Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội. + Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất. + Trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan.  - Đối tượng được giảm nộp phí:  + Giảm 10% mức thu phí cho hộ gia đình ở các xã thuộc thành phố, thị xã và thị trấn thuộc các huyện đồng bằng.  + Giảm 20% mức thu phí cho hộ gia đình ở các xã đồng bằng thuộc huyện và các thị trấn thuộc huyện miền núi.  + Giảm 30% mức thu phí cho hộ gia đình ở các xã thuộc các huyện miền núi.; Các trường hợp được miễn nộp lệ phí:  - Người khuyết tật và người cao tuổi (không nơi nương tựa). - Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn. - Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hoá học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng. - Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội.  - Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất.  - Miễn nộp lệ phí cấp Giấy chứng nhận đối với trường hợp đã được cấp giấy chứng nhận quyền sử dụng đất, giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở, giấy chứng nhận quyền sở hữu nhà ở, giấy chứng nhận quyền sở hữu công trình xây dựng trước ngày 19/10/2009 (là ngày Nghị định số 88/2009/NĐ-CP ngày 19/10/2009 của Chính phủ quy định việc cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất có hiệu lực thi hành) mà có nhu cầu cấp đổi giấy chứng nhận. - Miễn lệ phí đối với các trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan. - Miễn lệ phí cấp giấy chứng nhận đối với hộ gia đình, cá nhân ở nông thôn. Trường hợp hộ gia đình, cá nhân tại các quận thuộc thành phố trực thuộc Trung ương và các phường nội thành thuộc thành phố, thị xã trực thuộc tỉnh đươc cấp giấy chứng nhận ở nông thôn thì không được miễn lệ phí cấp giấy chứng nhận.",
       "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 15 ngày làm việc",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": null,
-          "currency": "VND",
-          "description": "Các trường hợp được miễn, giảm nộp phí:  - Miễn phí đối với các đối tượng sau:  + Người khuyết tật và người cao tuổi (không nơi nương tựa). + Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn.  + Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hóa học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng.  + Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội. + Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất. + Trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan.  - Đối tượng được giảm nộp phí:  + Giảm 10% mức thu phí cho hộ gia đình ở các xã thuộc thành phố, thị xã và thị trấn thuộc các huyện đồng bằng.  + Giảm 20% mức thu phí cho hộ gia đình ở các xã đồng bằng thuộc huyện và các thị trấn thuộc huyện miền núi.  + Giảm 30% mức thu phí cho hộ gia đình ở các xã thuộc các huyện miền núi.",
-          "attachment": {
-            "fileId": "019f3fe6-bce3-7291-b5dc-d81459036790",
-            "fileName": "PL8.2.docx"
-          }
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": null,
-          "currency": "VND",
-          "description": "Các trường hợp được miễn nộp lệ phí:  - Người khuyết tật và người cao tuổi (không nơi nương tựa). - Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn. - Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hoá học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng. - Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội.  - Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất.  - Miễn nộp lệ phí cấp Giấy chứng nhận đối với trường hợp đã được cấp giấy chứng nhận quyền sử dụng đất, giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở, giấy chứng nhận quyền sở hữu nhà ở, giấy chứng nhận quyền sở hữu công trình xây dựng trước ngày 19/10/2009 (là ngày Nghị định số 88/2009/NĐ-CP ngày 19/10/2009 của Chính phủ quy định việc cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất có hiệu lực thi hành) mà có nhu cầu cấp đổi giấy chứng nhận. - Miễn lệ phí đối với các trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan. - Miễn lệ phí cấp giấy chứng nhận đối với hộ gia đình, cá nhân ở nông thôn. Trường hợp hộ gia đình, cá nhân tại các quận thuộc thành phố trực thuộc Trung ương và các phường nội thành thuộc thành phố, thị xã trực thuộc tỉnh đươc cấp giấy chứng nhận ở nông thôn thì không được miễn lệ phí cấp giấy chứng nhận.",
-          "attachment": {
-            "fileId": "019f3fe6-d721-77b5-858d-ee6313512d38",
-            "fileName": "PL8.2.docx"
-          }
-        }
-      ],
+      "fee": "Các trường hợp được miễn, giảm nộp phí:  - Miễn phí đối với các đối tượng sau:  + Người khuyết tật và người cao tuổi (không nơi nương tựa). + Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn.  + Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hóa học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng.  + Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội. + Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất. + Trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan.  - Đối tượng được giảm nộp phí:  + Giảm 10% mức thu phí cho hộ gia đình ở các xã thuộc thành phố, thị xã và thị trấn thuộc các huyện đồng bằng.  + Giảm 20% mức thu phí cho hộ gia đình ở các xã đồng bằng thuộc huyện và các thị trấn thuộc huyện miền núi.  + Giảm 30% mức thu phí cho hộ gia đình ở các xã thuộc các huyện miền núi.; Các trường hợp được miễn nộp lệ phí:  - Người khuyết tật và người cao tuổi (không nơi nương tựa). - Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn. - Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hoá học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng. - Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội.  - Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất.  - Miễn nộp lệ phí cấp Giấy chứng nhận đối với trường hợp đã được cấp giấy chứng nhận quyền sử dụng đất, giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở, giấy chứng nhận quyền sở hữu nhà ở, giấy chứng nhận quyền sở hữu công trình xây dựng trước ngày 19/10/2009 (là ngày Nghị định số 88/2009/NĐ-CP ngày 19/10/2009 của Chính phủ quy định việc cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất có hiệu lực thi hành) mà có nhu cầu cấp đổi giấy chứng nhận. - Miễn lệ phí đối với các trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan. - Miễn lệ phí cấp giấy chứng nhận đối với hộ gia đình, cá nhân ở nông thôn. Trường hợp hộ gia đình, cá nhân tại các quận thuộc thành phố trực thuộc Trung ương và các phường nội thành thuộc thành phố, thị xã trực thuộc tỉnh đươc cấp giấy chứng nhận ở nông thôn thì không được miễn lệ phí cấp giấy chứng nhận.",
       "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 15 ngày làm việc",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Các trường hợp được miễn, giảm nộp phí:  - Miễn phí đối với các đối tượng sau:  + Người khuyết tật và người cao tuổi (không nơi nương tựa). + Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn.  + Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hóa học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng.  + Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội. + Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất. + Trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan.  - Đối tượng được giảm nộp phí:  + Giảm 10% mức thu phí cho hộ gia đình ở các xã thuộc thành phố, thị xã và thị trấn thuộc các huyện đồng bằng.  + Giảm 20% mức thu phí cho hộ gia đình ở các xã đồng bằng thuộc huyện và các thị trấn thuộc huyện miền núi.  + Giảm 30% mức thu phí cho hộ gia đình ở các xã thuộc các huyện miền núi.; Các trường hợp được miễn nộp lệ phí:  - Người khuyết tật và người cao tuổi (không nơi nương tựa). - Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn. - Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hoá học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng. - Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội.  - Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất.  - Miễn nộp lệ phí cấp Giấy chứng nhận đối với trường hợp đã được cấp giấy chứng nhận quyền sử dụng đất, giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở, giấy chứng nhận quyền sở hữu nhà ở, giấy chứng nhận quyền sở hữu công trình xây dựng trước ngày 19/10/2009 (là ngày Nghị định số 88/2009/NĐ-CP ngày 19/10/2009 của Chính phủ quy định việc cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất có hiệu lực thi hành) mà có nhu cầu cấp đổi giấy chứng nhận. - Miễn lệ phí đối với các trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan. - Miễn lệ phí cấp giấy chứng nhận đối với hộ gia đình, cá nhân ở nông thôn. Trường hợp hộ gia đình, cá nhân tại các quận thuộc thành phố trực thuộc Trung ương và các phường nội thành thuộc thành phố, thị xã trực thuộc tỉnh đươc cấp giấy chứng nhận ở nông thôn thì không được miễn lệ phí cấp giấy chứng nhận.",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": null,
-        "currency": "VND",
-        "description": "Các trường hợp được miễn, giảm nộp phí:  - Miễn phí đối với các đối tượng sau:  + Người khuyết tật và người cao tuổi (không nơi nương tựa). + Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn.  + Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hóa học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng.  + Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội. + Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất. + Trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan.  - Đối tượng được giảm nộp phí:  + Giảm 10% mức thu phí cho hộ gia đình ở các xã thuộc thành phố, thị xã và thị trấn thuộc các huyện đồng bằng.  + Giảm 20% mức thu phí cho hộ gia đình ở các xã đồng bằng thuộc huyện và các thị trấn thuộc huyện miền núi.  + Giảm 30% mức thu phí cho hộ gia đình ở các xã thuộc các huyện miền núi.",
-        "attachment": {
-          "fileId": "019f3fe6-41d3-717c-bf3b-a4a442f40c24",
-          "fileName": "PL8.2.docx"
-        }
+        "amount_text": "Các trường hợp được miễn, giảm nộp phí:  - Miễn phí đối với các đối tượng sau:  + Người khuyết tật và người cao tuổi (không nơi nương tựa). + Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn.  + Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hóa học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng.  + Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội. + Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất. + Trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan.  - Đối tượng được giảm nộp phí:  + Giảm 10% mức thu phí cho hộ gia đình ở các xã thuộc thành phố, thị xã và thị trấn thuộc các huyện đồng bằng.  + Giảm 20% mức thu phí cho hộ gia đình ở các xã đồng bằng thuộc huyện và các thị trấn thuộc huyện miền núi.  + Giảm 30% mức thu phí cho hộ gia đình ở các xã thuộc các huyện miền núi.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": null,
-        "currency": "VND",
-        "description": "Các trường hợp được miễn nộp lệ phí:  - Người khuyết tật và người cao tuổi (không nơi nương tựa). - Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn. - Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hoá học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng. - Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội.  - Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất.  - Miễn nộp lệ phí cấp Giấy chứng nhận đối với trường hợp đã được cấp giấy chứng nhận quyền sử dụng đất, giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở, giấy chứng nhận quyền sở hữu nhà ở, giấy chứng nhận quyền sở hữu công trình xây dựng trước ngày 19/10/2009 (là ngày Nghị định số 88/2009/NĐ-CP ngày 19/10/2009 của Chính phủ quy định việc cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất có hiệu lực thi hành) mà có nhu cầu cấp đổi giấy chứng nhận. - Miễn lệ phí đối với các trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan. - Miễn lệ phí cấp giấy chứng nhận đối với hộ gia đình, cá nhân ở nông thôn. Trường hợp hộ gia đình, cá nhân tại các quận thuộc thành phố trực thuộc Trung ương và các phường nội thành thuộc thành phố, thị xã trực thuộc tỉnh đươc cấp giấy chứng nhận ở nông thôn thì không được miễn lệ phí cấp giấy chứng nhận.",
-        "attachment": {
-          "fileId": "019f3fe6-5837-7103-bc24-91feb2787e53",
-          "fileName": "PL8.2.docx"
-        }
+        "amount_text": "Các trường hợp được miễn nộp lệ phí:  - Người khuyết tật và người cao tuổi (không nơi nương tựa). - Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn. - Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hoá học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng. - Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội.  - Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất.  - Miễn nộp lệ phí cấp Giấy chứng nhận đối với trường hợp đã được cấp giấy chứng nhận quyền sử dụng đất, giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở, giấy chứng nhận quyền sở hữu nhà ở, giấy chứng nhận quyền sở hữu công trình xây dựng trước ngày 19/10/2009 (là ngày Nghị định số 88/2009/NĐ-CP ngày 19/10/2009 của Chính phủ quy định việc cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất có hiệu lực thi hành) mà có nhu cầu cấp đổi giấy chứng nhận. - Miễn lệ phí đối với các trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan. - Miễn lệ phí cấp giấy chứng nhận đối với hộ gia đình, cá nhân ở nông thôn. Trường hợp hộ gia đình, cá nhân tại các quận thuộc thành phố trực thuộc Trung ương và các phường nội thành thuộc thành phố, thị xã trực thuộc tỉnh đươc cấp giấy chứng nhận ở nông thôn thì không được miễn lệ phí cấp giấy chứng nhận.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": null,
-        "currency": "VND",
-        "description": "Các trường hợp được miễn, giảm nộp phí:  - Miễn phí đối với các đối tượng sau:  + Người khuyết tật và người cao tuổi (không nơi nương tựa). + Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn.  + Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hóa học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng.  + Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội. + Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất. + Trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan.  - Đối tượng được giảm nộp phí:  + Giảm 10% mức thu phí cho hộ gia đình ở các xã thuộc thành phố, thị xã và thị trấn thuộc các huyện đồng bằng.  + Giảm 20% mức thu phí cho hộ gia đình ở các xã đồng bằng thuộc huyện và các thị trấn thuộc huyện miền núi.  + Giảm 30% mức thu phí cho hộ gia đình ở các xã thuộc các huyện miền núi.",
-        "attachment": {
-          "fileId": "019f3fe6-7b63-736f-aeb0-5e32139c1b26",
-          "fileName": "PL8.2.docx"
-        }
+        "amount_text": "Các trường hợp được miễn, giảm nộp phí:  - Miễn phí đối với các đối tượng sau:  + Người khuyết tật và người cao tuổi (không nơi nương tựa). + Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn.  + Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hóa học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng.  + Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội. + Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất. + Trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan.  - Đối tượng được giảm nộp phí:  + Giảm 10% mức thu phí cho hộ gia đình ở các xã thuộc thành phố, thị xã và thị trấn thuộc các huyện đồng bằng.  + Giảm 20% mức thu phí cho hộ gia đình ở các xã đồng bằng thuộc huyện và các thị trấn thuộc huyện miền núi.  + Giảm 30% mức thu phí cho hộ gia đình ở các xã thuộc các huyện miền núi.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": null,
-        "currency": "VND",
-        "description": "Các trường hợp được miễn nộp lệ phí:  - Người khuyết tật và người cao tuổi (không nơi nương tựa). - Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn. - Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hoá học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng. - Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội.  - Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất.  - Miễn nộp lệ phí cấp Giấy chứng nhận đối với trường hợp đã được cấp giấy chứng nhận quyền sử dụng đất, giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở, giấy chứng nhận quyền sở hữu nhà ở, giấy chứng nhận quyền sở hữu công trình xây dựng trước ngày 19/10/2009 (là ngày Nghị định số 88/2009/NĐ-CP ngày 19/10/2009 của Chính phủ quy định việc cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất có hiệu lực thi hành) mà có nhu cầu cấp đổi giấy chứng nhận. - Miễn lệ phí đối với các trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan. - Miễn lệ phí cấp giấy chứng nhận đối với hộ gia đình, cá nhân ở nông thôn. Trường hợp hộ gia đình, cá nhân tại các quận thuộc thành phố trực thuộc Trung ương và các phường nội thành thuộc thành phố, thị xã trực thuộc tỉnh đươc cấp giấy chứng nhận ở nông thôn thì không được miễn lệ phí cấp giấy chứng nhận.",
-        "attachment": {
-          "fileId": "019f3fe6-98f3-77d9-97bb-23271b15becc",
-          "fileName": "PL8.2.docx"
-        }
+        "amount_text": "Các trường hợp được miễn nộp lệ phí:  - Người khuyết tật và người cao tuổi (không nơi nương tựa). - Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn. - Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hoá học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng. - Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội.  - Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất.  - Miễn nộp lệ phí cấp Giấy chứng nhận đối với trường hợp đã được cấp giấy chứng nhận quyền sử dụng đất, giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở, giấy chứng nhận quyền sở hữu nhà ở, giấy chứng nhận quyền sở hữu công trình xây dựng trước ngày 19/10/2009 (là ngày Nghị định số 88/2009/NĐ-CP ngày 19/10/2009 của Chính phủ quy định việc cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất có hiệu lực thi hành) mà có nhu cầu cấp đổi giấy chứng nhận. - Miễn lệ phí đối với các trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan. - Miễn lệ phí cấp giấy chứng nhận đối với hộ gia đình, cá nhân ở nông thôn. Trường hợp hộ gia đình, cá nhân tại các quận thuộc thành phố trực thuộc Trung ương và các phường nội thành thuộc thành phố, thị xã trực thuộc tỉnh đươc cấp giấy chứng nhận ở nông thôn thì không được miễn lệ phí cấp giấy chứng nhận.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": null,
-        "currency": "VND",
-        "description": "Các trường hợp được miễn, giảm nộp phí:  - Miễn phí đối với các đối tượng sau:  + Người khuyết tật và người cao tuổi (không nơi nương tựa). + Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn.  + Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hóa học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng.  + Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội. + Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất. + Trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan.  - Đối tượng được giảm nộp phí:  + Giảm 10% mức thu phí cho hộ gia đình ở các xã thuộc thành phố, thị xã và thị trấn thuộc các huyện đồng bằng.  + Giảm 20% mức thu phí cho hộ gia đình ở các xã đồng bằng thuộc huyện và các thị trấn thuộc huyện miền núi.  + Giảm 30% mức thu phí cho hộ gia đình ở các xã thuộc các huyện miền núi.",
-        "attachment": {
-          "fileId": "019f3fe6-bce3-7291-b5dc-d81459036790",
-          "fileName": "PL8.2.docx"
-        }
+        "amount_text": "Các trường hợp được miễn, giảm nộp phí:  - Miễn phí đối với các đối tượng sau:  + Người khuyết tật và người cao tuổi (không nơi nương tựa). + Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn.  + Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hóa học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng.  + Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội. + Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất. + Trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan.  - Đối tượng được giảm nộp phí:  + Giảm 10% mức thu phí cho hộ gia đình ở các xã thuộc thành phố, thị xã và thị trấn thuộc các huyện đồng bằng.  + Giảm 20% mức thu phí cho hộ gia đình ở các xã đồng bằng thuộc huyện và các thị trấn thuộc huyện miền núi.  + Giảm 30% mức thu phí cho hộ gia đình ở các xã thuộc các huyện miền núi.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": null,
-        "currency": "VND",
-        "description": "Các trường hợp được miễn nộp lệ phí:  - Người khuyết tật và người cao tuổi (không nơi nương tựa). - Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn. - Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hoá học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng. - Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội.  - Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất.  - Miễn nộp lệ phí cấp Giấy chứng nhận đối với trường hợp đã được cấp giấy chứng nhận quyền sử dụng đất, giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở, giấy chứng nhận quyền sở hữu nhà ở, giấy chứng nhận quyền sở hữu công trình xây dựng trước ngày 19/10/2009 (là ngày Nghị định số 88/2009/NĐ-CP ngày 19/10/2009 của Chính phủ quy định việc cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất có hiệu lực thi hành) mà có nhu cầu cấp đổi giấy chứng nhận. - Miễn lệ phí đối với các trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan. - Miễn lệ phí cấp giấy chứng nhận đối với hộ gia đình, cá nhân ở nông thôn. Trường hợp hộ gia đình, cá nhân tại các quận thuộc thành phố trực thuộc Trung ương và các phường nội thành thuộc thành phố, thị xã trực thuộc tỉnh đươc cấp giấy chứng nhận ở nông thôn thì không được miễn lệ phí cấp giấy chứng nhận.",
-        "attachment": {
-          "fileId": "019f3fe6-d721-77b5-858d-ee6313512d38",
-          "fileName": "PL8.2.docx"
-        }
+        "amount_text": "Các trường hợp được miễn nộp lệ phí:  - Người khuyết tật và người cao tuổi (không nơi nương tựa). - Hộ nghèo; hộ cận nghèo; người dân tộc thiểu số ở các xã có điều kiện kinh tế - xã hội đặc biệt khó khăn. - Cha, mẹ, vợ hoặc chồng, con đẻ của liệt sỹ; người hoạt động cách mạng bị nhiễm chất độc hoá học; thương binh; bệnh binh; Anh hùng lực lượng vũ trang nhân dân; Anh hùng lao động trong thời kỳ kháng chiến; Bà mẹ Việt Nam Anh hùng. - Hộ gia đình, cơ quan, tổ chức hiến tặng đất nhằm mục đích xây dựng các công trình phúc lợi cho xã hội.  - Hộ gia đình bị tác động bởi thiên tai lũ lụt làm lở đất, mất đất.  - Miễn nộp lệ phí cấp Giấy chứng nhận đối với trường hợp đã được cấp giấy chứng nhận quyền sử dụng đất, giấy chứng nhận quyền sở hữu nhà ở và quyền sử dụng đất ở, giấy chứng nhận quyền sở hữu nhà ở, giấy chứng nhận quyền sở hữu công trình xây dựng trước ngày 19/10/2009 (là ngày Nghị định số 88/2009/NĐ-CP ngày 19/10/2009 của Chính phủ quy định việc cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà ở và tài sản khác gắn liền với đất có hiệu lực thi hành) mà có nhu cầu cấp đổi giấy chứng nhận. - Miễn lệ phí đối với các trường hợp thực hiện thủ tục hành chính về đất đai do thay đổi địa chỉ thường trú, địa chỉ thửa đất do chính sách nhà nước về sắp xếp, sáp nhập đơn vị hành chính hoặc các chính sách nhà nước khác có liên quan. - Miễn lệ phí cấp giấy chứng nhận đối với hộ gia đình, cá nhân ở nông thôn. Trường hợp hộ gia đình, cá nhân tại các quận thuộc thành phố trực thuộc Trung ương và các phường nội thành thuộc thành phố, thị xã trực thuộc tỉnh đươc cấp giấy chứng nhận ở nông thôn thì không được miễn lệ phí cấp giấy chứng nhận.",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -315,80 +212,67 @@
     {
       "title": "Sửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai",
       "document_number": "226/2025/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a644-ce39f72a6124",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
-      "document_number": "31/2024/QH15 ",
-      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
-      "source_page": null
+      "document_number": "31/2024/QH15",
+      "source_page": 5
     },
     {
       "title": "Nghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
-      "document_number": "101/2024/NĐ-CP ",
-      "id": "019eab72-e75f-7064-886d-9dddc82fa4a4",
-      "source_page": null
+      "document_number": "101/2024/NĐ-CP",
+      "source_page": 5
     },
     {
       "title": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
       "document_number": "118/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "49/2026/NĐ-CP",
-      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Nghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai.",
       "document_number": "102/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe8-0a00a8be7fd7",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
       "document_number": "151/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "254/2025/QH15",
-      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Nghị quyết số 12/2025/NQ-HĐND ngày 24/6/2025 của Hội đồng nhân dân tỉnh Thanh Hóa về việc sửa đổi một số điều của Quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng các khoản phí, lệ phí thuộc thẩm quyền của Hội đồng nhân dân tỉnh ban hành kèm theo Nghị quyết số 28/2024/NQ-HĐND ngày 10/7/2024 của Hội đồng nhân dân tỉnh.",
       "document_number": "12/2025/NQ-HĐND",
-      "id": "019d2bb3-5d7f-719e-b478-334aa55a9868",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Nghị quyết 28/2024/NQ-HĐND ngày 10/7/2024 của Hội đồng nhân dân tỉnh Thanh Hóa ban hành quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng các khoản phí, lệ phí thuộc thẩm quyền của Hội đồng nhân tỉnh",
       "document_number": "28/2024/NQ-HĐND",
-      "id": "019d2bb3-5d7f-719e-b479-6961a092cdad",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Nghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước",
       "document_number": "190/2025/QH15",
-      "id": "019d2bb3-5d84-71c5-b671-f81035b81bff",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Quy định chi tiết một số điều của Nghị quyết số 254/2025/QH15 ngày 11 tháng 12 năm 2025 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai về tiền sử dụng đất, tiền thuê đất",
       "document_number": "Nghị định số 50/2026/NĐ-CP",
-      "id": "019e8731-a144-730f-9660-6392ade03300",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Thanh Hóa",
       "document_number": "55/2026/QĐ",
-      "id": "019f17b1-9664-702e-8d67-d6ad1c252738",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "conditions": "Đảm bảo các điều kiện về chuyển nhượng dự án có sử dụng đất theo quy định của pháp luật về đầu tư, pháp luật về kinh doanh bất động sản.",
@@ -396,15 +280,14 @@
     {
       "title": "Giấy chứng nhận",
       "code": "KQ-H56.0000017",
-      "id": "019f3ba0-7726-770f-83e4-8e7929bf3b4e",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Bước 1: Người yêu cầu đăng ký nộp hồ sơ đến Bộ phận Một cửa\nKhi nộp hồ sơ, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nĐối với trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì người yêu cầu đăng ký nộp bản gốc Giấy chứng nhận đã cấp.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.\nBước 2: Bộ phận Một cửa thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ; cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả. Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai.\n* Trường hợp đất để thực hiện dự án không thuê của Nhà nước theo hình thức thuê đất đất trả tiền hàng năm thì:\nBước 3: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng Đăng ký đất đai thực hiện: \n- Kiểm tra các điều kiện thực hiện quyền theo quy định của Luật Đất đai đối với trường hợp thực hiện quyền của người sử dụng đất, của chủ sở hữu tài sản gắn liền với đất; trường hợp không đủ điều kiện thực hiện quyền theo quy định của Luật Đất đai thì thông báo lý do và trả hồ sơ cho người yêu cầu đăng ký.\n- Kiểm tra, ký duyệt mảnh trích đo bản đồ địa chính đối với trường hợp người sử dụng đất có nhu cầu xác định lại kích thước các cạnh, diện tích của thửa đất.\n- Trích lục bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất đối với nơi chưa có bản đồ địa chính hoặc chỉ có bản đồ địa chính dạng giấy đã rách nát, hư hỏng đối với trường hợp Giấy chứng nhận đã cấp chưa sử dụng bản đồ địa chính hoặc chưa sử dụng trích đo bản đồ địa chính thửa đất và người sử dụng đất có nhu cầu cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc thuộc trường hợp phải cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.\n- Gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 15 tại Phụ lục IV ban hành kèm theo Quyết định này đến cơ quan thuế để xác định và thông báo thu nghĩa vụ tài chính.\n- Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai; cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc xác nhận thay đổi trên Giấy chứng nhận đã cấp sau khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính; gửi Giấy chứng nhận đến Bộ phận Một cửa để trao cho người được cấp.\n* Trường hợp đất để thực hiện dự án thuê của Nhà nước theo hình thức thuê đất đất trả tiền hàng năm thì:\nBước 3: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng Đăng ký đất đai thực hiện: \n- Kiểm tra các điều kiện thực hiện quyền theo quy định của Luật Đất đai đối với trường hợp thực hiện quyền của người sử dụng đất, của chủ sở hữu tài sản gắn liền với đất; trường hợp không đủ điều kiện thực hiện quyền theo quy định của Luật Đất đai thì thông báo lý do và trả hồ sơ cho người yêu cầu đăng ký.\n- Kiểm tra, ký duyệt mảnh trích đo bản đồ địa chính đối với trường hợp người sử dụng đất có nhu cầu xác định lại kích thước các cạnh, diện tích của thửa đất.\n- Trích lục bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất đối với nơi chưa có bản đồ địa chính hoặc chỉ có bản đồ địa chính dạng giấy đã rách nát, hư hỏng đối với trường hợp Giấy chứng nhận đã cấp chưa sử dụng bản đồ địa chính hoặc chưa sử dụng trích đo bản đồ địa chính thửa đất và người sử dụng đất có nhu cầu cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc thuộc trường hợp phải cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.\n\t- Trình hồ sơ đến Sở Nông nghiệp và Môi trường hoặc chuyển hồ sơ đến UBND cấp xã để thực hiện ký hợp đồng thuê đất theo thẩm quyền.\nBước 4: Sở Nông nghiệp và Môi trường hoặc UBND cấp xã thực hiện ký hoặc trình Chủ tịch UBND cấp xã ký hợp đồng thuê đất theo thẩm quyền đối với bên nhận chuyển nhượng dự án đầu tư có sử dụng đất; chuyển hợp đồng thuê đất đã ký đến Văn phòng Đăng ký đất đai, Chi nhánh Văn phòng Đăng ký đất đai.\nBước 5: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng Đăng ký đất đai thực hiện: \n- Gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 15 tại Phụ lục IV ban hành kèm theo Quyết định này đến cơ quan thuế để xác định và thông báo thu nghĩa vụ tài chính; thông báo bằng văn bản cho cơ quan thuế về việc hết hiệu lực của hợp đồng thuê đất đối với bên chuyển nhượng.\n- Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai; cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc xác nhận thay đổi trên Giấy chứng nhận đã cấp sau khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính; gửi Giấy chứng nhận kèm Hợp đồng thuê đất đến Bộ phận Một cửa để trao cho người được cấp.",
-    "THÀNH PHẦN HỒ SƠ": "\nMẫu số 29\tĐơn đăng ký biến động đất đai, tài sản gắn liền với đất\nBản gốc Giấy chứng nhận đã cấp cho bên chuyển nhượng dự án bất động sản\nChứng từ chứng minh việc hoàn thành nghĩa vụ tài chính đối với trường hợp có thay đổi nghĩa vụ tài chính (trừ trường hợp được miễn hoặc chậm nộp theo quy định của pháp luật)\nVăn bản cho phép chuyển nhượng dự án hoặc một phần dự án của cơ quan có thẩm quyền theo quy định của pháp luật\nHợp đồng chuyển nhượng dự án hoặc một phần dự án theo quy định của pháp luật\nBản vẽ tách thửa đất, hợp thửa đất theo Mẫu số 34 tại Phụ lục IV ban hành kèm theo Quyết định này đối với trường hợp chuyển nhượng một phần dự án\nHồ sơ kê khai xác định nghĩa vụ tài chính: Tờ khai lệ phí trước bạ, tờ khai thuế phi nông nghiệp, tờ khai thuế thu nhập từ chuyển nhượng bất động sản (trừ trường hợp bên chuyển nhượng là doanh nghiệp có chức năng kinh doanh bất động sản) theo mẫu do Bộ Tài chính quy định; Hóa đơn giá trị gia tăng đối với trường hợp tổ chức chuyển nhượng bất động sản; Văn bản đề nghị miễn, giảm tiền thuê đất, tiền sử dụng đất theo Mẫu số 11 ban hành kèm theo Quyết định này, giấy tờ chứng minh thuộc đối tượng được miễn, giảm nghĩa vụ tài chính theo quy định (nếu có)",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 5 ngày làm việc - Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 15 ngày làm việc\nTrực tuyến: 5 ngày làm việc - Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 15 ngày làm việc\nQua dịch vụ bưu chính: 5 ngày làm việc - Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 15 ngày làm việc",
-    "CĂN CỨ PHÁP LÝ": "Sửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai - 226/2025/NĐ-CP\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15 \nNghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai. - 101/2024/NĐ-CP \nNghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP\nNghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai. - 102/2024/NĐ-CP\nQuy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai - 151/2025/NĐ-CP\nQuy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 254/2025/QH15\nNghị quyết số 12/2025/NQ-HĐND ngày 24/6/2025 của Hội đồng nhân dân tỉnh Thanh Hóa về việc sửa đổi một số điều của Quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng các khoản phí, lệ phí thuộc thẩm quyền của Hội đồng nhân dân tỉnh ban hành kèm theo Nghị quyết số 28/2024/NQ-HĐND ngày 10/7/2024 của Hội đồng nhân dân tỉnh. - 12/2025/NQ-HĐND\nNghị quyết 28/2024/NQ-HĐND ngày 10/7/2024 của Hội đồng nhân dân tỉnh Thanh Hóa ban hành quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng các khoản phí, lệ phí thuộc thẩm quyền của Hội đồng nhân tỉnh - 28/2024/NQ-HĐND\nNghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước - 190/2025/QH15\nQuy định chi tiết một số điều của Nghị quyết số 254/2025/QH15 ngày 11 tháng 12 năm 2025 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai về tiền sử dụng đất, tiền thuê đất - Nghị định số 50/2026/NĐ-CP\nBan hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Thanh Hóa - 55/2026/QĐ",
+    "THÀNH PHẦN HỒ SƠ": "Mẫu số 29\tĐơn đăng ký biến động đất đai, tài sản gắn liền với đất\nBản gốc Giấy chứng nhận đã cấp cho bên chuyển nhượng dự án bất động sản\nChứng từ chứng minh việc hoàn thành nghĩa vụ tài chính đối với trường hợp có thay đổi nghĩa vụ tài chính (trừ trường hợp được miễn hoặc chậm nộp theo quy định của pháp luật)\nVăn bản cho phép chuyển nhượng dự án hoặc một phần dự án của cơ quan có thẩm quyền theo quy định của pháp luật\nHợp đồng chuyển nhượng dự án hoặc một phần dự án theo quy định của pháp luật\nBản vẽ tách thửa đất, hợp thửa đất theo Mẫu số 34 tại Phụ lục IV ban hành kèm theo Quyết định này đối với trường hợp chuyển nhượng một phần dự án\nHồ sơ kê khai xác định nghĩa vụ tài chính: Tờ khai lệ phí trước bạ, tờ khai thuế phi nông nghiệp, tờ khai thuế thu nhập từ chuyển nhượng bất động sản (trừ trường hợp bên chuyển nhượng là doanh nghiệp có chức năng kinh doanh bất động sản) theo mẫu do Bộ Tài chính quy định; Hóa đơn giá trị gia tăng đối với trường hợp tổ chức chuyển nhượng bất động sản; Văn bản đề nghị miễn, giảm tiền thuê đất, tiền sử dụng đất theo Mẫu số 11 ban hành kèm theo Quyết định này, giấy tờ chứng minh thuộc đối tượng được miễn, giảm nghĩa vụ tài chính theo quy định (nếu có)",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 5 ngày làm việc\nTrực tuyến: 5 ngày làm việc\nQua dịch vụ bưu chính: 5 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "Sửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai - 226/2025/NĐ-CP\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15\nNghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai. - 101/2024/NĐ-CP\nNghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP\nNghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai. - 102/2024/NĐ-CP\nQuy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai - 151/2025/NĐ-CP\nQuy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 254/2025/QH15\nNghị quyết số 12/2025/NQ-HĐND ngày 24/6/2025 của Hội đồng nhân dân tỉnh Thanh Hóa về việc sửa đổi một số điều của Quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng các khoản phí, lệ phí thuộc thẩm quyền của Hội đồng nhân dân tỉnh ban hành kèm theo Nghị quyết số 28/2024/NQ-HĐND ngày 10/7/2024 của Hội đồng nhân dân tỉnh. - 12/2025/NQ-HĐND\nNghị quyết 28/2024/NQ-HĐND ngày 10/7/2024 của Hội đồng nhân dân tỉnh Thanh Hóa ban hành quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng các khoản phí, lệ phí thuộc thẩm quyền của Hội đồng nhân tỉnh - 28/2024/NQ-HĐND\nNghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước - 190/2025/QH15\nQuy định chi tiết một số điều của Nghị quyết số 254/2025/QH15 ngày 11 tháng 12 năm 2025 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai về tiền sử dụng đất, tiền thuê đất - Nghị định số 50/2026/NĐ-CP\nBan hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Thanh Hóa - 55/2026/QĐ",
     "CƠ QUAN THỰC HIỆN": "Văn phòng Đăng ký đất đai",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Đảm bảo các điều kiện về chuyển nhượng dự án có sử dụng đất theo quy định của pháp luật về đầu tư, pháp luật về kinh doanh bất động sản.",
     "KẾT QUẢ XỬ LÝ": "Giấy chứng nhận - KQ-H56.0000017",
@@ -412,14 +295,9 @@
     "MÔ TẢ": "Đảm bảo các điều kiện về chuyển nhượng dự án có sử dụng đất theo quy định của pháp luật về đầu tư, pháp luật về kinh doanh bất động sản."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đất đai",
-      "slug": "dat-dai"
+      "slug": "at-ai"
     },
     "implementation_levels": [
       {
@@ -450,7 +328,7 @@
       },
       {
         "name": "Người nước ngoài đã cư trú tại Việt Nam",
-        "slug": "nguoi-nuoc-ngoai-da-cu-tru-tai-viet-nam"
+        "slug": "nguoi-nuoc-ngoai-a-cu-tru-tai-viet-nam"
       },
       {
         "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
@@ -462,19 +340,19 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       }
     ],
     "agencies": [
       {
         "name": "Văn phòng Đăng ký đất đai",
-        "slug": "van-phong-dang-ky-dat-dai"
+        "slug": "van-phong-ang-ky-at-ai"
       },
       {
         "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực",
-        "slug": "chi-nhanh-van-phong-dang-ky-dat-dai-khu-vuc"
+        "slug": "chi-nhanh-van-phong-ang-ky-at-ai-khu-vuc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "non_territorial"
   }
 }

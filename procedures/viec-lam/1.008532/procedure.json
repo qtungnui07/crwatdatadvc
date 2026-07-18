@@ -1,36 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-6465-76fa-88ed-e34c5b2914c1",
   "procedure_code": "1.008532",
   "title": "Khai thuế thu nhập cá nhân đối với cá nhân không cư trú có thu nhập từ kinh doanh, cá nhân có thu nhập từ đầu tư vốn, bản quyền, nhượng quyền thương mại, trúng thưởng được trả từ nước ngoài",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-6465-76fa-88ed-e34c5b2914c1",
     "source_file": "chi-tiet-thu-tuc-1.008532.pdf",
     "source_path": "procedures/viec-lam/1.008532/chi-tiet-thu-tuc-1.008532.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:04.140160+00:00",
-    "source_updated_at": "2026-05-07T07:58:42.696Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:25.199488+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "6f8acede7b87837f57513d67cdccc650d67fa018661814c8c3bbc7e0887f842b"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:04.140160+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "4472/QĐ-BTC",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thuế",
   "target_users": [
@@ -40,18 +33,22 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Thuế cơ sở, Thuế tỉnh, thành phố, Cục Thuế - Bộ tài chính",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Thuế cơ sở, Thuế tỉnh, thành phố, Cục Thuế - Bộ tài chính"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Cá nhân không cư trú có thu nhập từ kinh doanh, cá nhân có thu nhập từ đầu tư vốn, bản quyền, nhượng quyền thương mại, trúng thưởng được trả từ nước ngoài, chuẩn bị hồ sơ khai thuế, gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai thuế đối với loại thuế khai và nộp theo từng lần phát sinh nghĩa vụ thuế chậm nhất là ngày thứ 10 kể từ ngày phát sinh nghĩa vụ thuế.\n- Bước 2: Cơ quan thuế thực hiện tiếp nhận: \n+ Trường hợp hồ sơ được nộp trực tiếp tại cơ quan thuế hoặc hồ sơ được gửi qua đường bưu chính: cơ quan thuế thực hiện tiếp nhận, giải quyết hồ sơ theo quy định.\n+ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận, kiểm tra, chấp nhận, giải quyết hồ sơ (và trả kết quả nếu có kết quả) thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế.\n",
+      "description": "- Bước 1: Cá nhân không cư trú có thu nhập từ kinh doanh, cá nhân có thu nhập từ đầu tư vốn, bản quyền, nhượng quyền thương mại, trúng thưởng được trả từ nước ngoài, chuẩn bị hồ sơ khai thuế, gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai thuế đối với loại thuế khai và nộp theo từng lần phát sinh nghĩa vụ thuế chậm nhất là ngày thứ 10 kể từ ngày phát sinh nghĩa vụ thuế.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Cơ quan thuế thực hiện tiếp nhận: \n+ Trường hợp hồ sơ được nộp trực tiếp tại cơ quan thuế hoặc hồ sơ được gửi qua đường bưu chính: cơ quan thuế thực hiện tiếp nhận, giải quyết hồ sơ theo quy định.\n+ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận, kiểm tra, chấp nhận, giải quyết hồ sơ (và trả kết quả nếu có kết quả) thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -60,12 +57,9 @@
     "conditional": [
       {
         "name": "Tờ khai thuế thu nhập cá nhân (áp dụng đối với cá nhân không cư trú có thu nhập từ kinh doanh, cá nhân có thu nhập từ đầu tư vốn, bản quyền, nhượng quyền thương mại, trúng thưởng được trả từ nước ngoài) mẫu số 04/NNG-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC của Bộ Tài chính",
-        "code": "000.00.00.G12-KQ011980",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -74,35 +68,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -110,51 +84,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       }
     ]
   },
@@ -162,74 +121,62 @@
     {
       "title": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
       "document_number": "118/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định số 122/2025/NĐ-CP của Chính phủ: Quy định về phân quyền, phân cấp trong lĩnh vực quản lý thuế",
       "document_number": "122/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-bbc5555242d9",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư 80/2021/TT-BTC",
       "document_number": "80/2021/TT-BTC",
-      "id": "019d2bb3-5d87-7195-a446-0e6dcc708401",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư sửa đổi, bổ sung một số điều của Thông tư số 80/2021/TT-BTC ngày 29 tháng 9 năm 2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế và sửa đổi, bổ sung một số mẫu biểu của Thông tư số 40/2021/TT-BTC ngày 01 tháng 6 năm 2021 của Bộ Tài chính hướng dẫn thuế giá trị gia tăng, thuế thu nhập cá nhân và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh",
       "document_number": "94/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4f-76aad3b97074",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật Quản lý thuế",
       "document_number": "38/2019/QH14",
-      "id": "019d2bb3-5d85-73da-8eb9-e5214fd5ac79",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 126/2020/NĐ-CP",
       "document_number": "126/2020/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a63e-9e72cf1f3ed4",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ Tài chính hướng dẫn Giao dịch điện tử trong lĩnh vực thuế",
       "document_number": "19/2021/TT-BTC",
-      "id": "019d2bb3-5d86-7760-a643-2e14de6cf380",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư số 40/2025/TT-BTC Sửa đổi, bổ sung một số điều của các Thông tư thuộc lĩnh vực quản lý thuế để phân định thẩm quyền của chính quyền địa phương theo mô hình tổ chức chính quyền địa phương 02 cấp",
       "document_number": "40/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4d-44a3539f8eba",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "sửa đổi một số điều của Thông tư 19/2021/TT-BTC ngày 18/3/2021 của Bộ trưởng Bộ Tài chính hướng dẫn giao dịch điện tử trong lĩnh vực thuế",
       "document_number": "46/2024/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4d-9f8629ebc27d",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định số 125/2025/NĐ-CP của Chính phủ: Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Tài chính",
       "document_number": "125/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-e5df60a9dbdb",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định số 91/2022/NĐ-CP sửa đổi bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế",
       "document_number": "91/2022/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b472-a31220f95d4a",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "193/2025/NĐ-CP",
       "document_number": "193/2025/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a643-57895d9499c0",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -237,13 +184,12 @@
     {
       "title": "Hồ sơ gửi đến cơ quan thuế không có kết quả giải quyết",
       "code": "KQ.G12.000429",
-      "id": "019d2bb2-1c70-724b-96e1-59c6a510ec9f",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Cá nhân không cư trú có thu nhập từ kinh doanh, cá nhân có thu nhập từ đầu tư vốn, bản quyền, nhượng quyền thương mại, trúng thưởng được trả từ nước ngoài, chuẩn bị hồ sơ khai thuế, gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai thuế đối với loại thuế khai và nộp theo từng lần phát sinh nghĩa vụ thuế chậm nhất là ngày thứ 10 kể từ ngày phát sinh nghĩa vụ thuế.\n- Bước 2: Cơ quan thuế thực hiện tiếp nhận: \n+ Trường hợp hồ sơ được nộp trực tiếp tại cơ quan thuế hoặc hồ sơ được gửi qua đường bưu chính: cơ quan thuế thực hiện tiếp nhận, giải quyết hồ sơ theo quy định.\n+ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận, kiểm tra, chấp nhận, giải quyết hồ sơ (và trả kết quả nếu có kết quả) thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nTờ khai thuế thu nhập cá nhân (áp dụng đối với cá nhân không cư trú có thu nhập từ kinh doanh, cá nhân có thu nhập từ đầu tư vốn, bản quyền, nhượng quyền thương mại, trúng thưởng được trả từ nước ngoài) mẫu số 04/NNG-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC của Bộ Tài chính",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Cá nhân không cư trú có thu nhập từ kinh doanh, cá nhân có thu nhập từ đầu tư vốn, bản quyền, nhượng quyền thương mại, trúng thưởng được trả từ nước ngoài, chuẩn bị hồ sơ khai thuế, gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai thuế đối với loại thuế khai và nộp theo từng lần phát sinh nghĩa vụ thuế chậm nhất là ngày thứ 10 kể từ ngày phát sinh nghĩa vụ thuế.\n- Bước 2: Cơ quan thuế thực hiện tiếp nhận: \n+ Trường hợp hồ sơ được nộp trực tiếp tại cơ quan thuế hoặc hồ sơ được gửi qua đường bưu chính: cơ quan thuế thực hiện tiếp nhận, giải quyết hồ sơ theo quy định.\n+ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận, kiểm tra, chấp nhận, giải quyết hồ sơ (và trả kết quả nếu có kết quả) thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế.",
+    "THÀNH PHẦN HỒ SƠ": "Tờ khai thuế thu nhập cá nhân (áp dụng đối với cá nhân không cư trú có thu nhập từ kinh doanh, cá nhân có thu nhập từ đầu tư vốn, bản quyền, nhượng quyền thương mại, trúng thưởng được trả từ nước ngoài) mẫu số 04/NNG-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC của Bộ Tài chính",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 1\nQua dịch vụ bưu chính: 1\nTrực tiếp: 1",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nNghị định số 122/2025/NĐ-CP của Chính phủ: Quy định về phân quyền, phân cấp trong lĩnh vực quản lý thuế - 122/2025/NĐ-CP\nThông tư 80/2021/TT-BTC - 80/2021/TT-BTC\nThông tư sửa đổi, bổ sung một số điều của Thông tư số 80/2021/TT-BTC ngày 29 tháng 9 năm 2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế và sửa đổi, bổ sung một số mẫu biểu của Thông tư số 40/2021/TT-BTC ngày 01 tháng 6 năm 2021 của Bộ Tài chính hướng dẫn thuế giá trị gia tăng, thuế thu nhập cá nhân và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh - 94/2025/TT-BTC\nLuật Quản lý thuế - 38/2019/QH14\nNghị định 126/2020/NĐ-CP - 126/2020/NĐ-CP\nThông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ Tài chính hướng dẫn Giao dịch điện tử trong lĩnh vực thuế - 19/2021/TT-BTC\nThông tư số 40/2025/TT-BTC Sửa đổi, bổ sung một số điều của các Thông tư thuộc lĩnh vực quản lý thuế để phân định thẩm quyền của chính quyền địa phương theo mô hình tổ chức chính quyền địa phương 02 cấp - 40/2025/TT-BTC\nsửa đổi một số điều của Thông tư 19/2021/TT-BTC ngày 18/3/2021 của Bộ trưởng Bộ Tài chính hướng dẫn giao dịch điện tử trong lĩnh vực thuế - 46/2024/TT-BTC\nNghị định số 125/2025/NĐ-CP của Chính phủ: Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Tài chính - 125/2025/NĐ-CP\nNghị định số 91/2022/NĐ-CP sửa đổi bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế - 91/2022/NĐ-CP\n193/2025/NĐ-CP - 193/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Thuế cơ sở, Thuế tỉnh, thành phố, Cục Thuế - Bộ tài chính",
@@ -253,11 +199,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thuế",
       "slug": "thue"
@@ -283,7 +224,7 @@
     "target_users": [
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -308,6 +249,6 @@
         "slug": "cuc-thue-bo-tai-chinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,36 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf7-8ebf-754a-8107-e996c9e1c18a",
   "procedure_code": "1.013067",
   "title": "Đăng ký, cấp biển số xe lần đầu thực hiện bằng dịch vụ công một phần hoặc trực tiếp thực hiện tại cấp trung ương,  cấp tỉnh, cấp xã",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-8ebf-754a-8107-e996c9e1c18a",
     "source_file": "chi-tiet-thu-tuc-1.013067.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.013067/chi-tiet-thu-tuc-1.013067.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:08.753680+00:00",
-    "source_updated_at": "2026-04-30T14:09:39.011Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:53.378199+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "172fa85e6c78398665dac3f1f8e6e75c6264ea43d83021d5a84225a905360b2a"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:08.753680+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1383/QĐ-BCA",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng",
   "target_users": [
@@ -46,57 +39,81 @@
   ],
   "agency": {
     "competent_agency": "Công an cấp Xã; Cục cảnh sát giao thông; Công an tỉnh",
-    "executing_agency": "Công an cấp Xã, Cục cảnh sát giao thông, Công an tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Công an cấp Xã, Cục cảnh sát giao thông, Công an tỉnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Chủ xe đăng nhập trên cổng dịch vụ công và kê khai chính xác, đầy đủ, trung thực các nội dung quy định trong giấy khai đăng ký xe, ký số. Trường hợp không có ký số thì chủ xe in giấy khai đăng ký xe từ cổng dịch vụ công, ký, ghi rõ họ, tên và đóng dấu (nếu là cơ quan, tổ chức). Trường hợp không thực hiện được trên cổng dịch vụ công thì chủ xe kê khai giấy khai đăng ký xe trực tiếp tại cơ quan đăng ký xe.\nBước 2: Sau khi kê khai thành công, chủ xe nhận mã hồ sơ đăng ký xe trực tuyến, lịch hẹn giải quyết hồ sơ do cổng dịch vụ công thông báo qua tin nhắn điện thoại hoặc qua địa chỉ thư điện tử để làm thủ tục đăng ký xe;\nBước 3: Chủ xe đưa xe đến cơ quan đăng ký xe để kiểm tra xe; đưa xe đến cơ quan đăng ký xe để kiểm tra, cung cấp mã hồ sơ đăng ký xe và nộp các giấy tờ quy định cho cơ quan đăng ký xe; đăng ký sử dụng dịch vụ bưu chính (nếu có nhu cầu) để nhận chứng nhận đăng ký xe, biển số xe;\nBước 3: Cán bộ đăng ký xe kiểm tra giấy tờ của chủ xe; giấy tờ của xe, đối chiếu với thông tin dữ liệu của chủ xe trên hệ thống đăng ký, quản lý xe và tiến hành kiểm tra thực tế xe theo quy định.\nBước 4: Sau khi cán bộ đăng ký xe kiểm tra hồ sơ xe, thực tế xe bảo đảm hợp lệ thì được cấp biển số theo quy định sau: Cấp biển số mới đối với trường hợp chủ xe chưa được cấp biển số định danh hoặc đã có biển số định danh nhưng đang đăng ký cho xe khác; Cấp biển số định danh đối với trường hợp chủ xe có biển số định danh đã được thu hồi từ ngày 15/8/2023.\nTrường hợp hồ sơ xe, xe không bảo đảm đúng quy định thì bổ sung, hoàn thiện hồ sơ theo hướng dẫn của cán bộ đăng ký xe tại phiếu hướng dẫn hồ sơ;\nBước 5: Chủ xe nhận giấy hẹn trả kết quả, nộp lệ phí đăng ký xe và nhận biển số xe (trường hợp được cấp biển số định danh mới hoặc trường hợp chủ xe đề nghị sử dụng lại biển số định danh cũ đã thu hồi, nếu cơ quan đăng ký xe chưa tiêu hủy biển số đó theo quy định). \nBước 7: Chủ xe lựa chọn việc nhận kết quả tại cơ quan đăng ký xe hoặc qua dịch vụ bưu chính.\n",
+      "description": "Bước 1: Chủ xe đăng nhập trên cổng dịch vụ công và kê khai chính xác, đầy đủ, trung thực các nội dung quy định trong giấy khai đăng ký xe, ký số. Trường hợp không có ký số thì chủ xe in giấy khai đăng ký xe từ cổng dịch vụ công, ký, ghi rõ họ, tên và đóng dấu (nếu là cơ quan, tổ chức). Trường hợp không thực hiện được trên cổng dịch vụ công thì chủ xe kê khai giấy khai đăng ký xe trực tiếp tại cơ quan đăng ký xe.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Sau khi kê khai thành công, chủ xe nhận mã hồ sơ đăng ký xe trực tuyến, lịch hẹn giải quyết hồ sơ do cổng dịch vụ công thông báo qua tin nhắn điện thoại hoặc qua địa chỉ thư điện tử để làm thủ tục đăng ký xe;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Chủ xe đưa xe đến cơ quan đăng ký xe để kiểm tra xe; đưa xe đến cơ quan đăng ký xe để kiểm tra, cung cấp mã hồ sơ đăng ký xe và nộp các giấy tờ quy định cho cơ quan đăng ký xe; đăng ký sử dụng dịch vụ bưu chính (nếu có nhu cầu) để nhận chứng nhận đăng ký xe, biển số xe;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 3",
+      "description": "Bước 3: Cán bộ đăng ký xe kiểm tra giấy tờ của chủ xe; giấy tờ của xe, đối chiếu với thông tin dữ liệu của chủ xe trên hệ thống đăng ký, quản lý xe và tiến hành kiểm tra thực tế xe theo quy định.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 5,
+      "title": "Bước 4",
+      "description": "Bước 4: Sau khi cán bộ đăng ký xe kiểm tra hồ sơ xe, thực tế xe bảo đảm hợp lệ thì được cấp biển số theo quy định sau: Cấp biển số mới đối với trường hợp chủ xe chưa được cấp biển số định danh hoặc đã có biển số định danh nhưng đang đăng ký cho xe khác; Cấp biển số định danh đối với trường hợp chủ xe có biển số định danh đã được thu hồi từ ngày 15/8/2023.\nTrường hợp hồ sơ xe, xe không bảo đảm đúng quy định thì bổ sung, hoàn thiện hồ sơ theo hướng dẫn của cán bộ đăng ký xe tại phiếu hướng dẫn hồ sơ;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 6,
+      "title": "Bước 5",
+      "description": "Bước 5: Chủ xe nhận giấy hẹn trả kết quả, nộp lệ phí đăng ký xe và nhận biển số xe (trường hợp được cấp biển số định danh mới hoặc trường hợp chủ xe đề nghị sử dụng lại biển số định danh cũ đã thu hồi, nếu cơ quan đăng ký xe chưa tiêu hủy biển số đó theo quy định).",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 7,
+      "title": "Bước 7",
+      "description": "Bước 7: Chủ xe lựa chọn việc nhận kết quả tại cơ quan đăng ký xe hoặc qua dịch vụ bưu chính.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Giấy khai đăng ký xe (mẫu ĐKX10/79 ban hành kèm theo Thông tư số 13/2025/TT-BCA   ngày 28/02/2025 của Bộ trưởng Bộ Công an).",
-        "code": "000.00.00.G01-KQ003333",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dcfa0-7268-741a-ab8f-cd964eca451c",
-            "name": "MauKX1079.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "MauKX1079.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Giấy tờ của chủ   xe theo quy định;",
-        "code": "000.00.00.G01-KQ003334",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Giấy tờ của xe: Chứng nhận nguồn gốc xe; Chứng nhận   quyền sở hữu hợp pháp; Chứng từ hoàn thành nghĩa vụ tài chính.",
-        "code": "000.00.00.G01-KQ003335",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -105,87 +122,52 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ. Thông tư số 06/2025/TT-BTC ngày 24/01/2025 sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí.",
-          "attachment": null
-        }
-      ],
+      "fee": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ. Thông tư số 06/2025/TT-BTC ngày 24/01/2025 sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí.",
       "description": "+ Cấp mới biển số xe trúng đấu giá, đổi biển số xe, cấp biển số xe định danh: Không quá 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ; Thời hạn giải quyết đăng ký xe được tính từ khi nhận đủ hồ sơ hợp lệ và chủ xe hoàn thành việc nộp lệ phí đăng ký xe.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1 giờ",
-      "processing_time_value": 1,
-      "processing_time_unit": "HOUR",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ. Thông tư số 06/2025/TT-BTC ngày 24/01/2025 sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí.",
-          "attachment": null
-        }
-      ],
+      "fee": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ. Thông tư số 06/2025/TT-BTC ngày 24/01/2025 sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí.",
       "description": "+ Cấp mới biển số xe: Cấp ngay sau khi nhận đủ hồ sơ hợp lệ; Thời hạn giải quyết đăng ký xe được tính từ khi nhận đủ hồ sơ hợp lệ và chủ xe hoàn thành việc nộp lệ phí đăng ký xe.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "2 ngày làm việc",
-      "processing_time_value": 2,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ. Thông tư số 06/2025/TT-BTC ngày 24/01/2025 sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí.",
-          "attachment": null
-        }
-      ],
+      "fee": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ. Thông tư số 06/2025/TT-BTC ngày 24/01/2025 sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí.",
       "description": "- Cách thức thực hiện: + Chủ xe kê khai Giấy khai đăng ký xe trên Cổng Dịch vụ công hoặc kê khai trực tiếp tại cơ quan đăng ký xe. Cơ quan đăng ký xe tiếp nhận hồ sơ trong giờ làm việc. + Trả kết quả tại cơ quan đăng ký xe hoặc qua dịch vụ bưu chính. + Cấp chứng nhận đăng ký xe: Không quá 02 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ. Thời hạn giải quyết đăng ký xe được tính từ khi nhận đủ hồ sơ hợp lệ và chủ xe hoàn thành việc nộp lệ phí đăng ký xe.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ. Thông tư số 06/2025/TT-BTC ngày 24/01/2025 sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí.",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ. Thông tư số 06/2025/TT-BTC ngày 24/01/2025 sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí.",
-        "attachment": null
+        "amount_text": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ. Thông tư số 06/2025/TT-BTC ngày 24/01/2025 sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí.",
+        "is_free": false,
+        "source_page": 5
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ. Thông tư số 06/2025/TT-BTC ngày 24/01/2025 sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí.",
-        "attachment": null
+        "amount_text": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ. Thông tư số 06/2025/TT-BTC ngày 24/01/2025 sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí.",
+        "is_free": false,
+        "source_page": 5
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ. Thông tư số 06/2025/TT-BTC ngày 24/01/2025 sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí.",
-        "attachment": null
+        "amount_text": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ. Thông tư số 06/2025/TT-BTC ngày 24/01/2025 sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí.",
+        "is_free": false,
+        "source_page": 5
       }
     ]
   },
@@ -193,32 +175,27 @@
     {
       "title": "hông tư số 06/2025/TT-BTC của Bộ Tài chính: Sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí",
       "document_number": "06/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be48-6917dee107d2",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư sửa đổi, bổ sung một số điều của các thông tư quy định về trật tự, an toàn giao thông đường bộ, đường sắt và đường thủy nội địa.",
       "document_number": "13/2025/TT-BCA",
-      "id": "019d2bb3-5d7b-7049-8fc6-2ce3171bf414",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật Trật tự, an toàn giao thông đường bộ",
       "document_number": "36/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b672-dfa7472cab6e",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ",
       "document_number": "60/2023/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-3e4b792835e1",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư số 79/2024/TT-BCA ngày 15/11/2024 của Bộ trưởng Bộ Công an quy định về cấp, thu hồi chứng nhận đăng ký, biển số xe cơ giới, xe máy chuyên dùng.",
       "document_number": "79/2024/TT-BCA",
-      "id": "019d2bb3-5d7b-7049-8fc6-ebb0bdb9e697",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "conditions": "Không",
@@ -226,20 +203,18 @@
     {
       "title": "Giấy chứng nhận đăng ký xe",
       "code": "KQ.G01.000014",
-      "id": "019d2bb2-1c36-71b8-ad26-84b1d2d9bb7d",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Biển số xe",
       "code": "KQ.G01.000015",
-      "id": "019d2bb2-1c36-71b8-ad26-899dd4578864",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Chủ xe đăng nhập trên cổng dịch vụ công và kê khai chính xác, đầy đủ, trung thực các nội dung quy định trong giấy khai đăng ký xe, ký số. Trường hợp không có ký số thì chủ xe in giấy khai đăng ký xe từ cổng dịch vụ công, ký, ghi rõ họ, tên và đóng dấu (nếu là cơ quan, tổ chức). Trường hợp không thực hiện được trên cổng dịch vụ công thì chủ xe kê khai giấy khai đăng ký xe trực tiếp tại cơ quan đăng ký xe.\nBước 2: Sau khi kê khai thành công, chủ xe nhận mã hồ sơ đăng ký xe trực tuyến, lịch hẹn giải quyết hồ sơ do cổng dịch vụ công thông báo qua tin nhắn điện thoại hoặc qua địa chỉ thư điện tử để làm thủ tục đăng ký xe;\nBước 3: Chủ xe đưa xe đến cơ quan đăng ký xe để kiểm tra xe; đưa xe đến cơ quan đăng ký xe để kiểm tra, cung cấp mã hồ sơ đăng ký xe và nộp các giấy tờ quy định cho cơ quan đăng ký xe; đăng ký sử dụng dịch vụ bưu chính (nếu có nhu cầu) để nhận chứng nhận đăng ký xe, biển số xe;\nBước 3: Cán bộ đăng ký xe kiểm tra giấy tờ của chủ xe; giấy tờ của xe, đối chiếu với thông tin dữ liệu của chủ xe trên hệ thống đăng ký, quản lý xe và tiến hành kiểm tra thực tế xe theo quy định.\nBước 4: Sau khi cán bộ đăng ký xe kiểm tra hồ sơ xe, thực tế xe bảo đảm hợp lệ thì được cấp biển số theo quy định sau: Cấp biển số mới đối với trường hợp chủ xe chưa được cấp biển số định danh hoặc đã có biển số định danh nhưng đang đăng ký cho xe khác; Cấp biển số định danh đối với trường hợp chủ xe có biển số định danh đã được thu hồi từ ngày 15/8/2023.\nTrường hợp hồ sơ xe, xe không bảo đảm đúng quy định thì bổ sung, hoàn thiện hồ sơ theo hướng dẫn của cán bộ đăng ký xe tại phiếu hướng dẫn hồ sơ;\nBước 5: Chủ xe nhận giấy hẹn trả kết quả, nộp lệ phí đăng ký xe và nhận biển số xe (trường hợp được cấp biển số định danh mới hoặc trường hợp chủ xe đề nghị sử dụng lại biển số định danh cũ đã thu hồi, nếu cơ quan đăng ký xe chưa tiêu hủy biển số đó theo quy định). \nBước 7: Chủ xe lựa chọn việc nhận kết quả tại cơ quan đăng ký xe hoặc qua dịch vụ bưu chính.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nGiấy khai đăng ký xe (mẫu ĐKX10/79 ban hành kèm theo Thông tư số 13/2025/TT-BCA   ngày 28/02/2025 của Bộ trưởng Bộ Công an).\nGiấy tờ của chủ   xe theo quy định;\nGiấy tờ của xe: Chứng nhận nguồn gốc xe; Chứng nhận   quyền sở hữu hợp pháp; Chứng từ hoàn thành nghĩa vụ tài chính.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 7 ngày làm việc - + Cấp mới biển số xe trúng đấu giá, đổi biển số xe, cấp biển số xe định danh: Không quá 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ; Thời hạn giải quyết đăng ký xe được tính từ khi nhận đủ hồ sơ hợp lệ và chủ xe hoàn thành việc nộp lệ phí đăng ký xe.\nTrực tiếp: 1 giờ - + Cấp mới biển số xe: Cấp ngay sau khi nhận đủ hồ sơ hợp lệ; Thời hạn giải quyết đăng ký xe được tính từ khi nhận đủ hồ sơ hợp lệ và chủ xe hoàn thành việc nộp lệ phí đăng ký xe.\nTrực tiếp: 2 ngày làm việc - - Cách thức thực hiện: + Chủ xe kê khai Giấy khai đăng ký xe trên Cổng Dịch vụ công hoặc kê khai trực tiếp tại cơ quan đăng ký xe. Cơ quan đăng ký xe tiếp nhận hồ sơ trong giờ làm việc. + Trả kết quả tại cơ quan đăng ký xe hoặc qua dịch vụ bưu chính. + Cấp chứng nhận đăng ký xe: Không quá 02 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ. Thời hạn giải quyết đăng ký xe được tính từ khi nhận đủ hồ sơ hợp lệ và chủ xe hoàn thành việc nộp lệ phí đăng ký xe.",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Chủ xe đăng nhập trên cổng dịch vụ công và kê khai chính xác, đầy đủ, trung thực các nội dung quy định trong giấy khai đăng ký xe, ký số. Trường hợp không có ký số thì chủ xe in giấy khai đăng ký xe từ cổng dịch vụ công, ký, ghi rõ họ, tên và đóng dấu (nếu là cơ quan, tổ chức). Trường hợp không thực hiện được trên cổng dịch vụ công thì chủ xe kê khai giấy khai đăng ký xe trực tiếp tại cơ quan đăng ký xe.\nBước 2: Sau khi kê khai thành công, chủ xe nhận mã hồ sơ đăng ký xe trực tuyến, lịch hẹn giải quyết hồ sơ do cổng dịch vụ công thông báo qua tin nhắn điện thoại hoặc qua địa chỉ thư điện tử để làm thủ tục đăng ký xe;\nBước 3: Chủ xe đưa xe đến cơ quan đăng ký xe để kiểm tra xe; đưa xe đến cơ quan đăng ký xe để kiểm tra, cung cấp mã hồ sơ đăng ký xe và nộp các giấy tờ quy định cho cơ quan đăng ký xe; đăng ký sử dụng dịch vụ bưu chính (nếu có nhu cầu) để nhận chứng nhận đăng ký xe, biển số xe;\nBước 3: Cán bộ đăng ký xe kiểm tra giấy tờ của chủ xe; giấy tờ của xe, đối chiếu với thông tin dữ liệu của chủ xe trên hệ thống đăng ký, quản lý xe và tiến hành kiểm tra thực tế xe theo quy định.\nBước 4: Sau khi cán bộ đăng ký xe kiểm tra hồ sơ xe, thực tế xe bảo đảm hợp lệ thì được cấp biển số theo quy định sau: Cấp biển số mới đối với trường hợp chủ xe chưa được cấp biển số định danh hoặc đã có biển số định danh nhưng đang đăng ký cho xe khác; Cấp biển số định danh đối với trường hợp chủ xe có biển số định danh đã được thu hồi từ ngày 15/8/2023.\nTrường hợp hồ sơ xe, xe không bảo đảm đúng quy định thì bổ sung, hoàn thiện hồ sơ theo hướng dẫn của cán bộ đăng ký xe tại phiếu hướng dẫn hồ sơ;\nBước 5: Chủ xe nhận giấy hẹn trả kết quả, nộp lệ phí đăng ký xe và nhận biển số xe (trường hợp được cấp biển số định danh mới hoặc trường hợp chủ xe đề nghị sử dụng lại biển số định danh cũ đã thu hồi, nếu cơ quan đăng ký xe chưa tiêu hủy biển số đó theo quy định).\nBước 7: Chủ xe lựa chọn việc nhận kết quả tại cơ quan đăng ký xe hoặc qua dịch vụ bưu chính.",
+    "THÀNH PHẦN HỒ SƠ": "Giấy khai đăng ký xe (mẫu ĐKX10/79 ban hành kèm theo Thông tư số 13/2025/TT-BCA   ngày 28/02/2025 của Bộ trưởng Bộ Công an).\nGiấy tờ của chủ   xe theo quy định;\nGiấy tờ của xe: Chứng nhận nguồn gốc xe; Chứng nhận   quyền sở hữu hợp pháp; Chứng từ hoàn thành nghĩa vụ tài chính.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 7 ngày làm việc\nTrực tiếp: 1 giờ\nTrực tiếp: 2 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "hông tư số 06/2025/TT-BTC của Bộ Tài chính: Sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí - 06/2025/TT-BTC\nThông tư sửa đổi, bổ sung một số điều của các thông tư quy định về trật tự, an toàn giao thông đường bộ, đường sắt và đường thủy nội địa. - 13/2025/TT-BCA\nLuật Trật tự, an toàn giao thông đường bộ - 36/2024/QH15\nThông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ - 60/2023/TT-BTC\nThông tư số 79/2024/TT-BCA ngày 15/11/2024 của Bộ trưởng Bộ Công an quy định về cấp, thu hồi chứng nhận đăng ký, biển số xe cơ giới, xe máy chuyên dùng. - 79/2024/TT-BCA",
     "CƠ QUAN THỰC HIỆN": "Công an cấp Xã, Cục cảnh sát giao thông, Công an tỉnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Không",
@@ -248,14 +223,9 @@
     "MÔ TẢ": "Không"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng",
-      "slug": "dang-ky-quan-ly-phuong-tien-giao-thong-co-gioi-xe-may-chuyen-dung"
+      "slug": "ang-ky-quan-ly-phuong-tien-giao-thong-co-gioi-xe-may-chuyen-dung"
     },
     "implementation_levels": [
       {
@@ -278,7 +248,7 @@
     "target_users": [
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -310,7 +280,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -327,6 +297,6 @@
         "slug": "cong-an-tinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

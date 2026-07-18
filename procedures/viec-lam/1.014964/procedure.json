@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d84cc-346b-761d-81a0-e21b5b938a48",
   "procedure_code": "1.014964",
   "title": "Thủ tục nhập cảnh, xuất cảnh, chuyển cảng đối với tàu quân sự nước ngoài đến lãnh hải, khu vực nội thuỷ ngoài vùng nước cảng biển.",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d84cc-346b-761d-81a0-e21b5b938a48",
     "source_file": "chi-tiet-thu-tuc-1.014964.pdf",
     "source_path": "procedures/viec-lam/1.014964/chi-tiet-thu-tuc-1.014964.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:15.659958+00:00",
-    "source_updated_at": "2026-04-15T10:09:11.162Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:51.286304+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "a5eac08cfdd460e411cfa501a00772641a62ced47f410074e0c43164e513c69c"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:15.659958+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1305/QĐ-BQP",
   "implementation_level": "Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Quản lý biên giới",
   "target_users": [
@@ -37,10 +32,7 @@
   ],
   "agency": {
     "competent_agency": "Biên phòng cửa khẩu cảng",
-    "executing_agency": "Đội Thủ tục Biên phòng cửa khẩu cảng",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Đội Thủ tục Biên phòng cửa khẩu cảng"
   },
   "steps": [
     {
@@ -48,135 +40,34 @@
       "title": "Bước 1",
       "description": "Bước 1: Sau khi tàu quân sự nước ngoài đến lãnh hải, khu vực nội thuỷ ngoài vùng nước cảng biển, người làm thủ tục nộp, xuất trình các loại giấy tờ theo quy định cho các Cơ quan quản lý nhà nước chuyên ngành tại cảng (Biên phòng cửa khẩu cảng, Cảng vụ hàng hải, Hải quan cửa khẩu cảng, Kiểm dịch y tế quốc tế, kiểm dịch động, thực vật - nếu tàu phải kiểm dịch động vật, thực vật).\nBước 2: Các Cơ quan quản lý nhà nước chuyên ngành tại cảng kiểm tra, đăng ký, kiểm chứng nhập cảnh, xuất cảnh hoặc xác nhận nhập cảnh, xuất cảnh, chuyển cảng cho tàu, thành viên trên tàu.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "- Bản khai chung (bản chính); - Danh sách thuyền viên (bản chính); - Bản kê khai hàng hoá (nếu có hàng hoá từ tàu lên bờ - bản chính); - Giấy khai báo y tế hàng hải (bản chính); - Giấy khai báo y tế mẫu vi sinh y học, sản phẩm sinh học, mô, bộ phận cơ thể người (nếu có - bản chính); - Giấy khai báo y tế, thi thể, hài cốt, tro cốt (nếu có - bản chính); - Bản khai kiểm dịch thực vật (nếu tàu phải kiểm dịch thực vật - bản chính); - Bản khai kiểm dịch động vật (nếu tàu phải kiểm dịch động vật - bản chính); - Chương trình hoạt động của tàu (bản sao).",
-        "code": "1.014964-TP1",
+        "name": "Thành phần hồ sơ đối với tàu quân sự nước ngoài nhập cảnh:: - Bản khai chung (bản chính); - Danh sách thuyền viên (bản chính); - Bản kê khai hàng hoá (nếu có hàng hoá từ tàu lên bờ - bản chính); - Giấy khai báo y tế hàng hải (bản chính); - Giấy khai báo y tế mẫu vi sinh y học, sản phẩm sinh học, mô, bộ phận cơ thể người (nếu có - bản chính); - Giấy khai báo y tế, thi thể, hài cốt, tro cốt (nếu có - bản chính); - Bản khai kiểm dịch thực vật (nếu tàu phải kiểm dịch thực vật - bản chính); - Bản khai kiểm dịch động vật (nếu tàu phải kiểm dịch động vật - bản chính); - Chương trình hoạt động của tàu (bản sao).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Thành phần hồ sơ đối với tàu quân sự nước ngoài nhập cảnh:",
-        "attachments": [
-          {
-            "id": "019d84c9-75d5-70b0-a03a-d3409a9c3718",
-            "name": "Giykhaiboythnghi.docx",
-            "url": ""
-          },
-          {
-            "id": "019d84c9-7952-7528-be2b-c18dbefc17e3",
-            "name": "Bnkhaihngha.docx",
-            "url": ""
-          },
-          {
-            "id": "019d84c9-7b85-764d-a617-513e433778ca",
-            "name": "Danhschthuynvin.docx",
-            "url": ""
-          },
-          {
-            "id": "019d84c9-7db9-73fc-bebe-f16b90256405",
-            "name": "Giyboytmuvisinhvtyhcsnphmsnhhcmbphncthngi.docx",
-            "url": ""
-          },
-          {
-            "id": "019d84c9-800a-723d-b5b4-b3f7b800504e",
-            "name": "Bnkhaikimdchthcvt.docx",
-            "url": ""
-          },
-          {
-            "id": "019d84c9-824d-715c-815a-92923e853051",
-            "name": "Bnkhaikimdchngvt.docx",
-            "url": ""
-          },
-          {
-            "id": "019d84c9-84a3-7563-8b46-38949ae2e74a",
-            "name": "Bnkhaichung.docx",
-            "url": ""
-          },
-          {
-            "id": "019d84c9-86e3-7089-ba63-e90e900a65ab",
-            "name": "Giykhaiboytthithhicttroct.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Giykhaiboythnghi.docx; Bnkhaihngha.docx; Danhschthuynvin.docx; Giyboytmuvisinhvtyhcsnphmsnhhcmbphncthngi.docx; Bnkhaikimdchthcvt.docx; Bnkhaikimdchngvt.docx; Bnkhaichung.docx; Giykhaiboytthithhicttroct.docx",
+        "source_page": 2
       },
       {
-        "name": "Bản khai chung (bản chính); - Danh sách thuyền viên (nếu có thay đổi so với lúc nhập cảnh - bản chính); - Bản kê khai hàng hoá (nếu có hàng hoá từ bờ lên tàu - bản chính); - Giấy khai báo y tế mẫu vi sinh y học, sản phẩm sinh học, mô, bộ phận cơ thể người (nếu có - bản chính); - Giấy khai báo y tế, thi thể, hài cốt, tro cốt (nếu có - bản chính).",
-        "code": "1.014964-TP2",
+        "name": "Thành phần hồ sơ đối với tàu quân sự nước ngoài xuất cảnh:: Bản khai chung (bản chính); - Danh sách thuyền viên (nếu có thay đổi so với lúc nhập cảnh - bản chính); - Bản kê khai hàng hoá (nếu có hàng hoá từ bờ lên tàu - bản chính); - Giấy khai báo y tế mẫu vi sinh y học, sản phẩm sinh học, mô, bộ phận cơ thể người (nếu có - bản chính); - Giấy khai báo y tế, thi thể, hài cốt, tro cốt (nếu có - bản chính).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Thành phần hồ sơ đối với tàu quân sự nước ngoài xuất cảnh:",
-        "attachments": [
-          {
-            "id": "019d84cd-21ab-7029-b533-b4d66bc861ce",
-            "name": "Bnkhaihngha (1).docx",
-            "url": ""
-          },
-          {
-            "id": "019d84cd-230d-71da-ac96-0c7024ca428b",
-            "name": "Giyboytmuvisinhvtyhcsnphmsnhhcmbphncthngi (1).docx",
-            "url": ""
-          },
-          {
-            "id": "019d84cd-2438-70a9-b6ab-24c2199f7195",
-            "name": "Danhschthuynvin (1).docx",
-            "url": ""
-          },
-          {
-            "id": "019d84cd-2566-708f-b12d-bb27bd46c662",
-            "name": "Giykhaiboytthithhicttroct (1).docx",
-            "url": ""
-          },
-          {
-            "id": "019d84cd-269e-74eb-926c-7d6da240ebee",
-            "name": "Bnkhaichung (1).docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Bnkhaihngha (1).docx; Giyboytmuvisinhvtyhcsnphmsnhhcmbphncthngi (1).docx; Danhschthuynvin (1).docx; Giykhaiboytthithhicttroct (1).docx; Bnkhaichung (1).docx",
+        "source_page": 2
       },
       {
-        "name": "- Bản khai chung (bản chính); - Danh sách thuyền viên (nếu có thay đổi so với lúc nhập cảnh - bản chính); - Giấy phép đi bờ của thuyền viên nước ngoài (nếu có); - Giấy phép - Permit (nếu có);",
-        "code": "1.014964-TP3",
+        "name": "Thành phần hồ sơ đối với tàu quân sự nước ngoài chuyển cảng đi:: - Bản khai chung (bản chính); - Danh sách thuyền viên (nếu có thay đổi so với lúc nhập cảnh - bản chính); - Giấy phép đi bờ của thuyền viên nước ngoài (nếu có); - Giấy phép - Permit (nếu có);",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Thành phần hồ sơ đối với tàu quân sự nước ngoài chuyển cảng đi:",
-        "attachments": [
-          {
-            "id": "019d84ce-4952-769b-947d-ad856a931622",
-            "name": "Danhschthuynvin (2).docx",
-            "url": ""
-          },
-          {
-            "id": "019d84ce-4aaf-72bb-88e7-ca8889792300",
-            "name": "Bnkhaichung (2).docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Danhschthuynvin (2).docx; Bnkhaichung (2).docx",
+        "source_page": 2
       },
       {
-        "name": "- Bản khai chung (bản chính); - Danh sách thuyền viên (nếu có thay đổi so với lúc nhập cảnh - bản chính); - Hồ sơ tàu chuyển cảng của Biên phòng cửa khẩu cảng đi; - Giấy phép rời cảng của Cảng vụ hàng hải cảng đi; - Hồ sơ tàu chuyển cảng của Hải quan cửa khẩu cảng đi.",
-        "code": "1.014964-TP4",
+        "name": "Thành phần hồ sơ đối với tàu quân sự nước ngoài chuyển cảng đến:: - Bản khai chung (bản chính); - Danh sách thuyền viên (nếu có thay đổi so với lúc nhập cảnh - bản chính); - Hồ sơ tàu chuyển cảng của Biên phòng cửa khẩu cảng đi; - Giấy phép rời cảng của Cảng vụ hàng hải cảng đi; - Hồ sơ tàu chuyển cảng của Hải quan cửa khẩu cảng đi.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Thành phần hồ sơ đối với tàu quân sự nước ngoài chuyển cảng đến:",
-        "attachments": [
-          {
-            "id": "019d84ce-e71f-75f9-8ed2-032908245d5d",
-            "name": "Danhschthuynvin (4).docx",
-            "url": ""
-          },
-          {
-            "id": "019d84ce-e8a6-714a-a32a-7c099a706dfb",
-            "name": "Bnkhaichung (3).docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Danhschthuynvin (4).docx; Bnkhaichung (3).docx",
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -187,60 +78,37 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "0",
-      "processing_time_value": 0,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Thời hạn làm thủ tục nhập cảnh, xuất cảnh, chuyển cảng kết thúc khi người làm thủ tục nộp đầy đủ bản chính các loại giấy tờ theo quy định.\nNgười làm thủ tục khai báo, nộp các loại giấy tờ tại trụ sở Cảng vụ hàng hải thuộc cấp tỉnh nơi tàu đến.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "48 giờ",
-      "processing_time_value": 48,
-      "processing_time_unit": "HOUR",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Người làm thủ tục khai báo, nộp các loại giấy tờ tại trụ sở Cảng vụ hàng hải thuộc cấp tỉnh nơi tàu đến.\nTrường hợp vì lý do khách quan không đủ thời gian để nộp bản chính các loại giấy tờ theo quy định, các cơ quan quản lý nhà nước chuyên ngành tại cảng cho phép người làm thủ tục gửi bản fax hoặc thư điện tử để làm thủ tục nhập cảnh, xuất cảnh. Trong thời hạn 48 (bốn tám) giờ, kể từ khi gửi bản fax hoặc thư điện tử, người làm thủ tục phải nộp bản chính.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -248,20 +116,17 @@
     {
       "title": "Nghị định quy định đối với tàu quân sự nước ngoài đến nước Cộng hòa xã hội chủ nghĩa Việt Nam và tàu quân sự nước Cộng hòa xã hội chủ nghĩa Việt Nam đi nước ngoài",
       "document_number": "234/2025/NĐ-CP ngày 27/8/2025 của Chính phủ",
-      "id": "019d84d3-c674-741e-b201-3c390551eede",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quy định về trình tự, thủ tục cấp phép cho tàu quân sự nước ngoài đến Việt Nam và tàu quân sự Việt Nam đi nước ngoài; thủ tục nhập cảnh, xuất cảnh, chuyển cảng đối với tàu quân sự nước ngoài đến Việt Nam; nội dung và phạm vi bảo vệ của doanh nghiệp bảo vệ được thuê bảo vệ tàu quân sự nước ngoài đến Việt Nam để sửa chữa",
       "document_number": "15/2026/TT-BQP ngày 12/02/2026 của Bộ trưởng Bộ quốc phòng",
-      "id": "019d84d4-6ad3-71bf-b9bb-2f36ce274cee",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định quy định chi tiết một số điều của Bộ luật Hàng hải Việt Nam về quản lý hoạt động hàng hải",
       "document_number": "58/2017/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46f-3623eee55f1d",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "Không",
@@ -269,14 +134,13 @@
     {
       "title": "Đóng dấu Kiểm chứng nhập cảnh, xuất cảnh hoặc xác nhận nhập cảnh, xuất cảnh, chuyển cảng",
       "code": "KQ.G11.000417-1",
-      "id": "019d84cc-200f-705b-bbd6-a03672d0e156",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Bước 1: Sau khi tàu quân sự nước ngoài đến lãnh hải, khu vực nội thuỷ ngoài vùng nước cảng biển, người làm thủ tục nộp, xuất trình các loại giấy tờ theo quy định cho các Cơ quan quản lý nhà nước chuyên ngành tại cảng (Biên phòng cửa khẩu cảng, Cảng vụ hàng hải, Hải quan cửa khẩu cảng, Kiểm dịch y tế quốc tế, kiểm dịch động, thực vật - nếu tàu phải kiểm dịch động vật, thực vật).\nBước 2: Các Cơ quan quản lý nhà nước chuyên ngành tại cảng kiểm tra, đăng ký, kiểm chứng nhập cảnh, xuất cảnh hoặc xác nhận nhập cảnh, xuất cảnh, chuyển cảng cho tàu, thành viên trên tàu.",
-    "THÀNH PHẦN HỒ SƠ": "Thành phần hồ sơ đối với tàu quân sự nước ngoài nhập cảnh:\n- Bản khai chung (bản chính); - Danh sách thuyền viên (bản chính); - Bản kê khai hàng hoá (nếu có hàng hoá từ tàu lên bờ - bản chính); - Giấy khai báo y tế hàng hải (bản chính); - Giấy khai báo y tế mẫu vi sinh y học, sản phẩm sinh học, mô, bộ phận cơ thể người (nếu có - bản chính); - Giấy khai báo y tế, thi thể, hài cốt, tro cốt (nếu có - bản chính); - Bản khai kiểm dịch thực vật (nếu tàu phải kiểm dịch thực vật - bản chính); - Bản khai kiểm dịch động vật (nếu tàu phải kiểm dịch động vật - bản chính); - Chương trình hoạt động của tàu (bản sao).\nThành phần hồ sơ đối với tàu quân sự nước ngoài xuất cảnh:\nBản khai chung (bản chính); - Danh sách thuyền viên (nếu có thay đổi so với lúc nhập cảnh - bản chính); - Bản kê khai hàng hoá (nếu có hàng hoá từ bờ lên tàu - bản chính); - Giấy khai báo y tế mẫu vi sinh y học, sản phẩm sinh học, mô, bộ phận cơ thể người (nếu có - bản chính); - Giấy khai báo y tế, thi thể, hài cốt, tro cốt (nếu có - bản chính).\nThành phần hồ sơ đối với tàu quân sự nước ngoài chuyển cảng đi:\n- Bản khai chung (bản chính); - Danh sách thuyền viên (nếu có thay đổi so với lúc nhập cảnh - bản chính); - Giấy phép đi bờ của thuyền viên nước ngoài (nếu có); - Giấy phép - Permit (nếu có);\nThành phần hồ sơ đối với tàu quân sự nước ngoài chuyển cảng đến:\n- Bản khai chung (bản chính); - Danh sách thuyền viên (nếu có thay đổi so với lúc nhập cảnh - bản chính); - Hồ sơ tàu chuyển cảng của Biên phòng cửa khẩu cảng đi; - Giấy phép rời cảng của Cảng vụ hàng hải cảng đi; - Hồ sơ tàu chuyển cảng của Hải quan cửa khẩu cảng đi.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 0 - Thời hạn làm thủ tục nhập cảnh, xuất cảnh, chuyển cảng kết thúc khi người làm thủ tục nộp đầy đủ bản chính các loại giấy tờ theo quy định.\nNgười làm thủ tục khai báo, nộp các loại giấy tờ tại trụ sở Cảng vụ hàng hải thuộc cấp tỉnh nơi tàu đến.\nTrực tiếp: 48 giờ - Người làm thủ tục khai báo, nộp các loại giấy tờ tại trụ sở Cảng vụ hàng hải thuộc cấp tỉnh nơi tàu đến.\nTrường hợp vì lý do khách quan không đủ thời gian để nộp bản chính các loại giấy tờ theo quy định, các cơ quan quản lý nhà nước chuyên ngành tại cảng cho phép người làm thủ tục gửi bản fax hoặc thư điện tử để làm thủ tục nhập cảnh, xuất cảnh. Trong thời hạn 48 (bốn tám) giờ, kể từ khi gửi bản fax hoặc thư điện tử, người làm thủ tục phải nộp bản chính.",
+    "THÀNH PHẦN HỒ SƠ": "Thành phần hồ sơ đối với tàu quân sự nước ngoài nhập cảnh:: - Bản khai chung (bản chính); - Danh sách thuyền viên (bản chính); - Bản kê khai hàng hoá (nếu có hàng hoá từ tàu lên bờ - bản chính); - Giấy khai báo y tế hàng hải (bản chính); - Giấy khai báo y tế mẫu vi sinh y học, sản phẩm sinh học, mô, bộ phận cơ thể người (nếu có - bản chính); - Giấy khai báo y tế, thi thể, hài cốt, tro cốt (nếu có - bản chính); - Bản khai kiểm dịch thực vật (nếu tàu phải kiểm dịch thực vật - bản chính); - Bản khai kiểm dịch động vật (nếu tàu phải kiểm dịch động vật - bản chính); - Chương trình hoạt động của tàu (bản sao).\nThành phần hồ sơ đối với tàu quân sự nước ngoài xuất cảnh:: Bản khai chung (bản chính); - Danh sách thuyền viên (nếu có thay đổi so với lúc nhập cảnh - bản chính); - Bản kê khai hàng hoá (nếu có hàng hoá từ bờ lên tàu - bản chính); - Giấy khai báo y tế mẫu vi sinh y học, sản phẩm sinh học, mô, bộ phận cơ thể người (nếu có - bản chính); - Giấy khai báo y tế, thi thể, hài cốt, tro cốt (nếu có - bản chính).\nThành phần hồ sơ đối với tàu quân sự nước ngoài chuyển cảng đi:: - Bản khai chung (bản chính); - Danh sách thuyền viên (nếu có thay đổi so với lúc nhập cảnh - bản chính); - Giấy phép đi bờ của thuyền viên nước ngoài (nếu có); - Giấy phép - Permit (nếu có);\nThành phần hồ sơ đối với tàu quân sự nước ngoài chuyển cảng đến:: - Bản khai chung (bản chính); - Danh sách thuyền viên (nếu có thay đổi so với lúc nhập cảnh - bản chính); - Hồ sơ tàu chuyển cảng của Biên phòng cửa khẩu cảng đi; - Giấy phép rời cảng của Cảng vụ hàng hải cảng đi; - Hồ sơ tàu chuyển cảng của Hải quan cửa khẩu cảng đi.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 0\nTrực tiếp: 48 giờ",
     "CĂN CỨ PHÁP LÝ": "Nghị định quy định đối với tàu quân sự nước ngoài đến nước Cộng hòa xã hội chủ nghĩa Việt Nam và tàu quân sự nước Cộng hòa xã hội chủ nghĩa Việt Nam đi nước ngoài - 234/2025/NĐ-CP ngày 27/8/2025 của Chính phủ\nQuy định về trình tự, thủ tục cấp phép cho tàu quân sự nước ngoài đến Việt Nam và tàu quân sự Việt Nam đi nước ngoài; thủ tục nhập cảnh, xuất cảnh, chuyển cảng đối với tàu quân sự nước ngoài đến Việt Nam; nội dung và phạm vi bảo vệ của doanh nghiệp bảo vệ được thuê bảo vệ tàu quân sự nước ngoài đến Việt Nam để sửa chữa - 15/2026/TT-BQP ngày 12/02/2026 của Bộ trưởng Bộ quốc phòng\nNghị định quy định chi tiết một số điều của Bộ luật Hàng hải Việt Nam về quản lý hoạt động hàng hải - 58/2017/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Đội Thủ tục Biên phòng cửa khẩu cảng",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Không",
@@ -285,11 +149,6 @@
     "MÔ TẢ": "Không"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Quản lý biên giới",
       "slug": "quan-ly-bien-gioi"
@@ -317,9 +176,9 @@
     "agencies": [
       {
         "name": "Đội Thủ tục Biên phòng cửa khẩu cảng",
-        "slug": "doi-thu-tuc-bien-phong-cua-khau-cang"
+        "slug": "oi-thu-tuc-bien-phong-cua-khau-cang"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

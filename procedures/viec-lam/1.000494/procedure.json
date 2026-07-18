@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf7-d515-7219-9e0b-163e5cbdfc7b",
   "procedure_code": "1.000494",
   "title": "Cấp Giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-d515-7219-9e0b-163e5cbdfc7b",
     "source_file": "chi-tiet-thu-tuc-1.000494.pdf",
     "source_path": "procedures/viec-lam/1.000494/chi-tiet-thu-tuc-1.000494.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:21:58.461668+00:00",
-    "source_updated_at": "2026-06-03T08:37:05.806Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:46.616614+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "553526405abccc04e330f00315238cc3782452bd54676c578bc29be77d2a535e"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:58.461668+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1177/QĐ-BCT",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Vật liệu nổ công nghiệp, tiền chất thuốc nổ",
   "target_users": [
@@ -35,57 +31,39 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cục Hóa chất",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Hóa chất"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "+ Nộp hồ sơ trên Cổng dịch vụ công quốc gia, Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Công Thương hoặc gửi qua đường bưu chính về cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định; trường hợp trực tiếp nộp hồ sơ thì văn bản đề nghị bổ sung họ tên, số định danh cá nhân hoặc số hộ chiếu của người đến liên hệ.\n+ Trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan có thẩm quyền cấp giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.\n+ Cục Hóa chất có thẩm quyền cấp giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ.\n",
+      "description": "+ Nộp hồ sơ trên Cổng dịch vụ công quốc gia, Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Công Thương hoặc gửi qua đường bưu chính về cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định; trường hợp trực tiếp nộp hồ sơ thì văn bản đề nghị bổ sung họ tên, số định danh cá nhân hoặc số hộ chiếu của người đến liên hệ.\n+ Trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan có thẩm quyền cấp giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.\n+ Cục Hóa chất có thẩm quyền cấp giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "- Văn bản đề nghị theo quy định tại Mẫu số 03 Phụ lục III ban hành kèm theo Thông tư số 23/2024/TT-BCT",
-        "code": "000.00.00.G02-KQ004927",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d908d-3aff-709c-9b04-d3c34f02e2ba",
-            "name": "Mau03 (1).docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau03 (1).docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "- Bản thuyết minh quy trình sản xuất, thử nghiệm hoặc đề cương nghiên cứu, trong đó có sử dụng tiền chất thuốc nổ đối với trường hợp tổ chức, doanh nghiệp nhập khẩu tiền chất thuốc nổ để sử dụng trực tiếp cho sản xuất, nghiên cứu, thử nghiệm",
-        "code": "000.00.00.G02-KQ004929",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Bản sao hợp đồng, đơn đặt hàng hoặc hoá đơn mua bán tiền chất thuốc nổ",
-        "code": "000.00.00.G02-KQ004928",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -94,34 +72,29 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Nộp hồ sơ trên Cổng dịch vụ công quốc gia, Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Công Thương hoặc gửi qua đường bưu chính về cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định; trường hợp trực tiếp nộp hồ sơ thì văn bản đề nghị bổ sung họ tên, số định danh cá nhân hoặc số hộ chiếu của người đến liên hệ.",
-      "source_page": null
+      "source_page": 1
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Nộp hồ sơ trên Cổng dịch vụ công quốc gia, Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Công Thương hoặc gửi qua đường bưu chính về cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định; trường hợp trực tiếp nộp hồ sơ thì văn bản đề nghị bổ sung họ tên, số định danh cá nhân hoặc số hộ chiếu của người đến liên hệ.",
-      "source_page": null
+      "source_page": 1
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Nộp hồ sơ trên Cổng dịch vụ công quốc gia, Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Công Thương hoặc gửi qua đường bưu chính về cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định; trường hợp trực tiếp nộp hồ sơ thì văn bản đề nghị bổ sung họ tên, số định danh cá nhân hoặc số hộ chiếu của người đến liên hệ.",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -129,21 +102,18 @@
   "legal_bases": [
     {
       "title": "Nghị quyết số 66.18/2026/NQ-CP ngày 18 tháng 5 năm 2026 của Chính phủ về việc phân quyền, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh",
-      "document_number": "66.18/2026/NQ-CP ",
-      "id": "019e8b88-c0b0-737a-954f-a60837c08c4f",
-      "source_page": null
+      "document_number": "66.18/2026/NQ-CP",
+      "source_page": 5
     },
     {
       "title": "Luật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ",
       "document_number": "42/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b673-15c26eb041eb",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư số 23/2024/TT-BCT",
       "document_number": "Thông tư số 23/2024/TT-BCT",
-      "id": "019d2bb3-5d87-7195-a449-e9d9c7f55e85",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "+ Tổ chức, doanh nghiệp được phép sản xuất, kinh doanh tiền chất thuốc nổ thì được xuất khẩu, nhập khẩu tiền chất thuốc nổ;\n+ Chỉ được xuất khẩu, nhập khẩu tiền chất thuốc nổ khi có giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ do cơ quan có thẩm quyền thuộc Bộ Công Thương cấp; \n+ Việc ủy thác nhập khẩu tiền chất thuốc nổ chỉ được thực hiện giữa tổ chức, doanh nghiệp được phép sản xuất, doanh nghiệp được phép kinh doanh, tổ chức, doanh nghiệp được phép sử dụng với tổ chức, doanh nghiệp được phép sản xuất, kinh doanh tiền chất thuốc nổ",
@@ -151,15 +121,14 @@
     {
       "title": "Giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ, vật liệu nổ công nghiệp",
       "code": "KQ.G02.000255",
-      "id": "019d2bb2-1c39-7291-ba47-9563432a3876",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "+ Nộp hồ sơ trên Cổng dịch vụ công quốc gia, Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Công Thương hoặc gửi qua đường bưu chính về cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định; trường hợp trực tiếp nộp hồ sơ thì văn bản đề nghị bổ sung họ tên, số định danh cá nhân hoặc số hộ chiếu của người đến liên hệ.\n+ Trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan có thẩm quyền cấp giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.\n+ Cục Hóa chất có thẩm quyền cấp giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n- Bản thuyết minh quy trình sản xuất, thử nghiệm hoặc đề cương nghiên cứu, trong đó có sử dụng tiền chất thuốc nổ đối với trường hợp tổ chức, doanh nghiệp nhập khẩu tiền chất thuốc nổ để sử dụng trực tiếp cho sản xuất, nghiên cứu, thử nghiệm\n- Bản sao hợp đồng, đơn đặt hàng hoặc hoá đơn mua bán tiền chất thuốc nổ\n- Văn bản đề nghị theo quy định tại Mẫu số 03 Phụ lục III ban hành kèm theo Thông tư số 23/2024/TT-BCT",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 3 ngày làm việc - Nộp hồ sơ trên Cổng dịch vụ công quốc gia, Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Công Thương hoặc gửi qua đường bưu chính về cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định; trường hợp trực tiếp nộp hồ sơ thì văn bản đề nghị bổ sung họ tên, số định danh cá nhân hoặc số hộ chiếu của người đến liên hệ.\nQua dịch vụ bưu chính: 3 ngày làm việc - Nộp hồ sơ trên Cổng dịch vụ công quốc gia, Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Công Thương hoặc gửi qua đường bưu chính về cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định; trường hợp trực tiếp nộp hồ sơ thì văn bản đề nghị bổ sung họ tên, số định danh cá nhân hoặc số hộ chiếu của người đến liên hệ.\nTrực tiếp: 3 ngày làm việc - Nộp hồ sơ trên Cổng dịch vụ công quốc gia, Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Công Thương hoặc gửi qua đường bưu chính về cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định; trường hợp trực tiếp nộp hồ sơ thì văn bản đề nghị bổ sung họ tên, số định danh cá nhân hoặc số hộ chiếu của người đến liên hệ.",
-    "CĂN CỨ PHÁP LÝ": "Nghị quyết số 66.18/2026/NQ-CP ngày 18 tháng 5 năm 2026 của Chính phủ về việc phân quyền, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh - 66.18/2026/NQ-CP \nLuật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ - 42/2024/QH15\nThông tư số 23/2024/TT-BCT - Thông tư số 23/2024/TT-BCT",
+    "TRÌNH TỰ THỰC HIỆN": "+ Nộp hồ sơ trên Cổng dịch vụ công quốc gia, Hệ thống thông tin giải quyết thủ tục hành chính của Bộ Công Thương hoặc gửi qua đường bưu chính về cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định; trường hợp trực tiếp nộp hồ sơ thì văn bản đề nghị bổ sung họ tên, số định danh cá nhân hoặc số hộ chiếu của người đến liên hệ.\n+ Trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan có thẩm quyền cấp giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.\n+ Cục Hóa chất có thẩm quyền cấp giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ.",
+    "THÀNH PHẦN HỒ SƠ": "- Văn bản đề nghị theo quy định tại Mẫu số 03 Phụ lục III ban hành kèm theo Thông tư số 23/2024/TT-BCT\n- Bản thuyết minh quy trình sản xuất, thử nghiệm hoặc đề cương nghiên cứu, trong đó có sử dụng tiền chất thuốc nổ đối với trường hợp tổ chức, doanh nghiệp nhập khẩu tiền chất thuốc nổ để sử dụng trực tiếp cho sản xuất, nghiên cứu, thử nghiệm\n- Bản sao hợp đồng, đơn đặt hàng hoặc hoá đơn mua bán tiền chất thuốc nổ",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 3 ngày làm việc\nQua dịch vụ bưu chính: 3 ngày làm việc\nTrực tiếp: 3 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "Nghị quyết số 66.18/2026/NQ-CP ngày 18 tháng 5 năm 2026 của Chính phủ về việc phân quyền, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh - 66.18/2026/NQ-CP\nLuật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ - 42/2024/QH15\nThông tư số 23/2024/TT-BCT - Thông tư số 23/2024/TT-BCT",
     "CƠ QUAN THỰC HIỆN": "Cục Hóa chất",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "+ Tổ chức, doanh nghiệp được phép sản xuất, kinh doanh tiền chất thuốc nổ thì được xuất khẩu, nhập khẩu tiền chất thuốc nổ;\n+ Chỉ được xuất khẩu, nhập khẩu tiền chất thuốc nổ khi có giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ do cơ quan có thẩm quyền thuộc Bộ Công Thương cấp; \n+ Việc ủy thác nhập khẩu tiền chất thuốc nổ chỉ được thực hiện giữa tổ chức, doanh nghiệp được phép sản xuất, doanh nghiệp được phép kinh doanh, tổ chức, doanh nghiệp được phép sử dụng với tổ chức, doanh nghiệp được phép sản xuất, kinh doanh tiền chất thuốc nổ",
     "KẾT QUẢ XỬ LÝ": "Giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ, vật liệu nổ công nghiệp - KQ.G02.000255",
@@ -167,11 +136,6 @@
     "MÔ TẢ": "+ Tổ chức, doanh nghiệp được phép sản xuất, kinh doanh tiền chất thuốc nổ thì được xuất khẩu, nhập khẩu tiền chất thuốc nổ;\n+ Chỉ được xuất khẩu, nhập khẩu tiền chất thuốc nổ khi có giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ do cơ quan có thẩm quyền thuộc Bộ Công Thương cấp; \n+ Việc ủy thác nhập khẩu tiền chất thuốc nổ chỉ được thực hiện giữa tổ chức, doanh nghiệp được phép sản xuất, doanh nghiệp được phép kinh doanh, tổ chức, doanh nghiệp được phép sử dụng với tổ chức, doanh nghiệp được phép sản xuất, kinh doanh tiền chất thuốc nổ"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Vật liệu nổ công nghiệp, tiền chất thuốc nổ",
       "slug": "vat-lieu-no-cong-nghiep-tien-chat-thuoc-no"
@@ -194,6 +158,6 @@
         "slug": "cuc-hoa-chat"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

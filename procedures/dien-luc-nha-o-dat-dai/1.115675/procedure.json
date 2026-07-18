@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019f4a19-91f1-7428-a100-1d315e2293c3",
   "procedure_code": "1.115675",
   "title": "Đăng ký, cấp Giấy chứng nhận đối với trường hợp chuyển nhượng dự án đầu tư có sử dụng đất",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019f4a19-91f1-7428-a100-1d315e2293c3",
     "source_file": "chi-tiet-thu-tuc-1.115675.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.115675/chi-tiet-thu-tuc-1.115675.pdf",
     "page_count": 10,
-    "extracted_at": "2026-07-18T02:22:19.213236+00:00",
-    "source_updated_at": "2026-07-14T03:09:21.787Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:57:31.059336+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "f1508824e42b4d4e41a0b4a04dc5aca9c021e37f1be71352af5954af8b6da595"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:19.213236+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2296/QĐ-UBND",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đất đai",
   "target_users": [
@@ -35,10 +31,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Văn phòng đăng ký đất đai",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "- Trung tâm Phục vụ hành chính công tỉnh Lào Cai (quầy giao dịch chi nhánh Văn phòng Đăng ký đất đai) tại địa chỉ:\n+ Cơ sở 1: Số 64, đường Lý Tự Trọng, phường Yên Bái, tỉnh Lào Cai.\n+ Cơ sở 2: Đại lộ Trần Hưng Đạo, phường Cam Đường, tỉnh Lào Cai.\n- Trung tâm Phục vụ hành chính công cấp xã.\n- Cổng dịch vụ công (dịch vụ công trực tuyến)."
+    "executing_agency": "Văn phòng đăng ký đất đai"
   },
   "steps": [
     {
@@ -46,141 +39,90 @@
       "title": "Bước 1:",
       "description": "Chủ đầu tư thực hiện dự án có sử dụng đất có nhu cầu nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công cấp tỉnh (hoặc cấp xã) hoặc qua dịch vụ bưu chính hoặc trực tuyến trên Cổng dịch vụ công hoặc tại địa điểm theo thỏa thuận giữa người yêu cầu đăng ký và Văn phòng Đăng ký đất đai.\nĐối với trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì người yêu cầu đăng ký nộp bản gốc Giấy chứng nhận đã cấp.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "Bước 2: Tiếp nhận hồ sơ",
       "description": "- Trường hợp nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công, cán bộ tiếp nhận kiểm tra ngay tính đầy đủ, hợp lệ của hồ sơ và chuyển đến Văn phòng Đăng ký đất đai.\n- Trường hợp nộp hồ sơ qua dịch vụ bưu chính hoặc trực tuyến trên Cổng dịch vụ công hoặc tại địa điểm theo thỏa thuận giữa người yêu cầu đăng ký và Văn phòng Đăng ký đất đai, cơ quan tiếp nhận hồ sơ kiểm tra tính đầy đủ, hợp lệ của hồ sơ. Trường hợp hồ sơ đầy đủ, hợp lệ tiếp nhận hồ sơ theo quy định. Trường hợp hồ sơ chưa đầy đủ, hợp lệ thì cơ quan tiếp nhận trả lại hồ sơ, đồng thời, hướng dẫn bổ sung, hoàn thiện hồ sơ theo mẫu Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 3,
       "title": "Bước 3: Xử lý hồ sơ",
       "description": "a) Trường hợp bên nhận chuyển nhượng dự án không phải là tổ chức kinh tế có vốn đầu tư nước ngoài và đất để thực hiện dự án đã được cấp Giấy chứng nhận, Văn phòng Đăng ký đất đai thực hiện:\n- Kiểm tra các điều kiện thực hiện quyền theo quy định của Luật Đất đai đối với trường hợp thực hiện quyền của người sử dụng đất, của chủ sở hữu tài sản gắn liền với đất; trường hợp không đủ điều kiện thực hiện quyền theo quy định của Luật Đất đai thì thông báo lý do và trả hồ sơ cho người yêu cầu đăng ký.\n- Kiểm tra, ký duyệt mảnh trích đo bản đồ địa chính đối với trường hợp người sử dụng đất có nhu cầu xác định lại kích thước các cạnh, diện tích của thửa đất.\n- Trích lục bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất đối với nơi chưa có bản đồ địa chính hoặc chỉ có bản đồ địa chính dạng giấy đã rách nát, hư hỏng đối với trường hợp Giấy chứng nhận đã cấp chưa sử dụng bản đồ địa chính hoặc chưa sử dụng trích đo bản đồ địa chính thửa đất và người sử dụng đất có nhu cầu cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc thuộc trường hợp phải cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.\n- Gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 25 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND đến cơ quan thuế để xác định và thông báo thu nghĩa vụ tài chính đối với trường hợp phải thực hiện nghĩa vụ tài chính.\n- Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai; cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc xác nhận thay đổi trên Giấy chứng nhận đã cấp đối với trường hợp không phải thực hiện nghĩa vụ tài chính; trao Giấy chứng nhận hoặc gửi cơ quan tiếp nhận hồ sơ để trao cho người được cấp.\nTrường hợp phải thực hiện nghĩa vụ tài chính thì thực hiện các công việc quy định tại điểm này khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính.\nb) Trường hợp bên nhận chuyển nhượng dự án bất động sản không phải là tổ chức kinh tế có vốn đầu tư nước ngoài và đất để thực hiện dự án chưa được cấp Giấy chứng nhận, Văn phòng Đăng ký đất đai thực hiện:\n- Gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 25 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND đến cơ quan thuế để xác định và thông báo thu nghĩa vụ tài chính.\n- Khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính thì hoàn thiện hồ sơ, trình cơ quan có chức năng quản lý đất đai cấp tỉnh cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.\n- Trao Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc chuyển cơ quan tiếp nhận hồ sơ để trao cho người được cấp; thực hiện việc lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai.\nc) Trường hợp bên nhận chuyển nhượng dự án bất động sản là tổ chức kinh tế có vốn đầu tư nước ngoài thì việc đăng ký đất đai được thực hiện trong trình tự, thủ tục giao đất, cho thuê đất theo quy định.\nd) Trường hợp chuyển nhượng dự án đầu tư có sử dụng đất được Nhà nước cho thuê đất thu tiền thuê đất hằng năm thì thực hiện các công việc sau:\n- Văn phòng Đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện chuyển hồ sơ đến cơ quan quản lý đất đai cấp xã nơi có đất để ký hợp đồng thuê đất.\n- Cơ quan quản lý đất đai cấp xã thực hiện: Ký hợp đồng thuê đất theo thẩm quyền đối với bên nhận chuyển nhượng dự án đầu tư có sử dụng đất mà không phải ban hành lại quyết định cho thuê đất; chuyển hợp đồng thuê đất đến Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai.\n- Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện:\n+ Gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 25 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND đến cơ quan thuế để xác định và thông báo thu nghĩa vụ tài chính đối với trường hợp phải thực hiện nghĩa vụ tài chính theo quy định của pháp luật.\n+ Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai.\n+ Cấp mới Giấy chứng nhận hoặc xác nhận thay đổi trên Giấy chứng nhận đã cấp đối với trường hợp không phải thực hiện nghĩa vụ tài chính; trao Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và hợp đồng thuê đất hoặc gửi cơ quan tiếp nhận hồ sơ để trao cho người được cấp.\n+ Thông báo bằng văn bản cho cơ quan thuế về việc chấm dứt quyền và nghĩa vụ của bên chuyển nhượng dự án trong hợp đồng thuê đất.\nTrường hợp phải thực hiện nghĩa vụ tài chính thì thực hiện các công việc quy định tại điểm này khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Đơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 21 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND",
-        "code": "H38-KQ000455",
+        "name": "a) Đối với trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận:: Đơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 21 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "a) Đối với trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận:",
-        "attachments": [
-          {
-            "id": "019f5ac7-68be-761c-a258-53090bae3e8e",
-            "name": "mẫu số 21.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "mẫu số 21.docx",
+        "source_page": 3
       },
       {
-        "name": "Chứng từ chứng minh việc hoàn thành nghĩa vụ tài chính của bên chuyển nhượng và bên nhận chuyển nhượng dự án, quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất để thực hiện dự án",
-        "code": "H38-KQ000456",
+        "name": "a) Đối với trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận:: Chứng từ chứng minh việc hoàn thành nghĩa vụ tài chính của bên chuyển nhượng và bên nhận chuyển nhượng dự án, quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất để thực hiện dự án",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "a) Đối với trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Văn bản cho phép chuyển nhượng dự án hoặc một phần dự án của cơ quan có thẩm quyền theo quy định của pháp luật",
-        "code": "H38-KQ000457",
+        "name": "a) Đối với trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận:: Văn bản cho phép chuyển nhượng dự án hoặc một phần dự án của cơ quan có thẩm quyền theo quy định của pháp luật",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "a) Đối với trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Hợp đồng chuyển nhượng dự án hoặc một phần dự án theo quy định của pháp luật",
-        "code": "H38-KQ000458",
+        "name": "a) Đối với trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận:: Hợp đồng chuyển nhượng dự án hoặc một phần dự án theo quy định của pháp luật",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "a) Đối với trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Mảnh trích đo bản đồ địa chính đối với trường hợp chuyển nhượng một phần dự án mà quyền sử dụng đất để thực hiện dự án chưa được cấp Giấy chứng nhận đã được Văn phòng Đăng ký đất đai ký duyệt theo quy định",
-        "code": "H38-KQ000459",
+        "name": "a) Đối với trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận:: Mảnh trích đo bản đồ địa chính đối với trường hợp chuyển nhượng một phần dự án mà quyền sử dụng đất để thực hiện dự án chưa được cấp Giấy chứng nhận đã được Văn phòng Đăng ký đất đai ký duyệt theo quy định",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "a) Đối với trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 24 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND",
-        "code": "H38-KQ000460",
+        "name": "b) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:: Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 24 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "b) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:",
-        "attachments": [
-          {
-            "id": "019f5ac8-de98-716b-94fd-a35f1b9680c5",
-            "name": "mẫu số 24.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "mẫu số 24.docx",
+        "source_page": 4
       },
       {
-        "name": "Giấy chứng nhận đã cấp cho bên chuyển nhượng dự án bất động sản",
-        "code": "H38-KQ000461",
+        "name": "b) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:: Giấy chứng nhận đã cấp cho bên chuyển nhượng dự án bất động sản",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "b) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Chứng từ chứng minh việc hoàn thành nghĩa vụ tài chính đối với trường hợp có thay đổi nghĩa vụ tài chính (trừ trường hợp được miễn hoặc chậm nộp theo quy định của pháp luật)",
-        "code": "H38-KQ000462",
+        "name": "b) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:: Chứng từ chứng minh việc hoàn thành nghĩa vụ tài chính đối với trường hợp có thay đổi nghĩa vụ tài chính (trừ trường hợp được miễn hoặc chậm nộp theo quy định của pháp luật)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "b) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Văn bản cho phép chuyển nhượng dự án hoặc một phần dự án của cơ quan có thẩm quyền theo quy định của pháp luật",
-        "code": "H38-KQ000463",
+        "name": "b) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:: Văn bản cho phép chuyển nhượng dự án hoặc một phần dự án của cơ quan có thẩm quyền theo quy định của pháp luật",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "b) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Hợp đồng chuyển nhượng dự án hoặc một phần dự án theo quy định của pháp luật",
-        "code": "H38-KQ000464",
+        "name": "b) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:: Hợp đồng chuyển nhượng dự án hoặc một phần dự án theo quy định của pháp luật",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "b) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Bản vẽ tách thửa đất, hợp thửa đất theo Mẫu số 28 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND đối với trường hợp chuyển nhượng một phần dự án mà quyền sử dụng đất để thực hiện dự án đã được cấp Giấy chứng nhận",
-        "code": "H38-KQ000465",
+        "name": "b) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:: Bản vẽ tách thửa đất, hợp thửa đất theo Mẫu số 28 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND đối với trường hợp chuyển nhượng một phần dự án mà quyền sử dụng đất để thực hiện dự án đã được cấp Giấy chứng nhận",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "b) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:",
-        "attachments": [
-          {
-            "id": "019f5aca-3833-706e-9235-69054d6c6ce3",
-            "name": "mẫu số 28.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "mẫu số 28.docx",
+        "source_page": 4
       }
     ],
     "normally_required": [],
@@ -191,87 +133,52 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "Theo mô tả",
-      "processing_time_value": "Theo mô tả",
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
       "description": "Nộp trực tiếp tại Trung tâm Phục vụ hành chính công hoặc qua dịch vụ bưu chính hoặc trực tuyến trên Cổng dịch vụ công hoặc tại địa điểm theo thỏa thuận giữa người yêu cầu đăng ký và Văn phòng Đăng ký đất đai.\n- Trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận: không quá 18 ngày làm việc. Đối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 10 ngày.\n- Trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận: không quá 08 ngày làm việc. Đối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 10 ngày.",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "Theo mô tả",
-      "processing_time_value": "Theo mô tả",
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
       "description": "Nộp trực tiếp tại Trung tâm Phục vụ hành chính công hoặc qua dịch vụ bưu chính hoặc trực tuyến trên Cổng dịch vụ công hoặc tại địa điểm theo thỏa thuận giữa người yêu cầu đăng ký và Văn phòng Đăng ký đất đai.\n- Trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận: không quá 18 ngày làm việc. Đối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 10 ngày.\n- Trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận: không quá 08 ngày làm việc. Đối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 10 ngày.",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "Theo mô tả",
-      "processing_time_value": "Theo mô tả",
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
       "description": "Nộp trực tiếp tại Trung tâm Phục vụ hành chính công hoặc qua dịch vụ bưu chính hoặc trực tuyến trên Cổng dịch vụ công hoặc tại địa điểm theo thỏa thuận giữa người yêu cầu đăng ký và Văn phòng Đăng ký đất đai.\n- Trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận: không quá 18 ngày làm việc. Đối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 10 ngày.\n- Trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận: không quá 08 ngày làm việc. Đối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 10 ngày.",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
-        "attachment": null
+        "amount_text": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
-        "attachment": null
+        "amount_text": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
-        "attachment": null
+        "amount_text": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -279,26 +186,22 @@
     {
       "title": "Sửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai",
       "document_number": "226/2025/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a644-ce39f72a6124",
-      "source_page": null
+      "source_page": 9
     },
     {
       "title": "Nghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
-      "document_number": "101/2024/NĐ-CP ",
-      "id": "019eab72-e75f-7064-886d-9dddc82fa4a4",
-      "source_page": null
+      "document_number": "101/2024/NĐ-CP",
+      "source_page": 9
     },
     {
       "title": "Quyết định số 47/2026/QĐ-UBND ngày 28/6/2026 của Ủy ban nhân dân tỉnh Lào Cai về ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Lào Cai",
-      "document_number": "47/2026/QĐ-UBND ",
-      "id": "019f461e-e4fb-77fe-844a-66a099cd75c1",
-      "source_page": null
+      "document_number": "47/2026/QĐ-UBND",
+      "source_page": 9
     },
     {
       "title": "Luật Đất đai ngày 18/01/2024;",
       "document_number": "31/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b672-a3322a8748a6",
-      "source_page": null
+      "source_page": 9
     }
   ],
   "conditions": "Đảm bảo các điều kiện về chuyển nhượng dự án có sử dụng đất theo quy định của pháp luật về đầu tư, pháp luật về kinh doanh bất động sản.",
@@ -306,15 +209,14 @@
     {
       "title": "Giấy chứng nhận",
       "code": "H38-KQ000298",
-      "id": "019f5aca-c6b3-72ef-bfd3-682f3ab64d87",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Chủ đầu tư thực hiện dự án có sử dụng đất có nhu cầu nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công cấp tỉnh (hoặc cấp xã) hoặc qua dịch vụ bưu chính hoặc trực tuyến trên Cổng dịch vụ công hoặc tại địa điểm theo thỏa thuận giữa người yêu cầu đăng ký và Văn phòng Đăng ký đất đai.\nĐối với trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì người yêu cầu đăng ký nộp bản gốc Giấy chứng nhận đã cấp.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.\n- Trường hợp nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công, cán bộ tiếp nhận kiểm tra ngay tính đầy đủ, hợp lệ của hồ sơ và chuyển đến Văn phòng Đăng ký đất đai.\n- Trường hợp nộp hồ sơ qua dịch vụ bưu chính hoặc trực tuyến trên Cổng dịch vụ công hoặc tại địa điểm theo thỏa thuận giữa người yêu cầu đăng ký và Văn phòng Đăng ký đất đai, cơ quan tiếp nhận hồ sơ kiểm tra tính đầy đủ, hợp lệ của hồ sơ. Trường hợp hồ sơ đầy đủ, hợp lệ tiếp nhận hồ sơ theo quy định. Trường hợp hồ sơ chưa đầy đủ, hợp lệ thì cơ quan tiếp nhận trả lại hồ sơ, đồng thời, hướng dẫn bổ sung, hoàn thiện hồ sơ theo mẫu Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ.\na) Trường hợp bên nhận chuyển nhượng dự án không phải là tổ chức kinh tế có vốn đầu tư nước ngoài và đất để thực hiện dự án đã được cấp Giấy chứng nhận, Văn phòng Đăng ký đất đai thực hiện:\n- Kiểm tra các điều kiện thực hiện quyền theo quy định của Luật Đất đai đối với trường hợp thực hiện quyền của người sử dụng đất, của chủ sở hữu tài sản gắn liền với đất; trường hợp không đủ điều kiện thực hiện quyền theo quy định của Luật Đất đai thì thông báo lý do và trả hồ sơ cho người yêu cầu đăng ký.\n- Kiểm tra, ký duyệt mảnh trích đo bản đồ địa chính đối với trường hợp người sử dụng đất có nhu cầu xác định lại kích thước các cạnh, diện tích của thửa đất.\n- Trích lục bản đồ địa chính hoặc trích đo bản đồ địa chính thửa đất đối với nơi chưa có bản đồ địa chính hoặc chỉ có bản đồ địa chính dạng giấy đã rách nát, hư hỏng đối với trường hợp Giấy chứng nhận đã cấp chưa sử dụng bản đồ địa chính hoặc chưa sử dụng trích đo bản đồ địa chính thửa đất và người sử dụng đất có nhu cầu cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc thuộc trường hợp phải cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.\n- Gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 25 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND đến cơ quan thuế để xác định và thông báo thu nghĩa vụ tài chính đối với trường hợp phải thực hiện nghĩa vụ tài chính.\n- Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai; cấp mới Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc xác nhận thay đổi trên Giấy chứng nhận đã cấp đối với trường hợp không phải thực hiện nghĩa vụ tài chính; trao Giấy chứng nhận hoặc gửi cơ quan tiếp nhận hồ sơ để trao cho người được cấp.\nTrường hợp phải thực hiện nghĩa vụ tài chính thì thực hiện các công việc quy định tại điểm này khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính.\nb) Trường hợp bên nhận chuyển nhượng dự án bất động sản không phải là tổ chức kinh tế có vốn đầu tư nước ngoài và đất để thực hiện dự án chưa được cấp Giấy chứng nhận, Văn phòng Đăng ký đất đai thực hiện:\n- Gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 25 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND đến cơ quan thuế để xác định và thông báo thu nghĩa vụ tài chính.\n- Khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính thì hoàn thiện hồ sơ, trình cơ quan có chức năng quản lý đất đai cấp tỉnh cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.\n- Trao Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất hoặc chuyển cơ quan tiếp nhận hồ sơ để trao cho người được cấp; thực hiện việc lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai.\nc) Trường hợp bên nhận chuyển nhượng dự án bất động sản là tổ chức kinh tế có vốn đầu tư nước ngoài thì việc đăng ký đất đai được thực hiện trong trình tự, thủ tục giao đất, cho thuê đất theo quy định.\nd) Trường hợp chuyển nhượng dự án đầu tư có sử dụng đất được Nhà nước cho thuê đất thu tiền thuê đất hằng năm thì thực hiện các công việc sau:\n- Văn phòng Đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện chuyển hồ sơ đến cơ quan quản lý đất đai cấp xã nơi có đất để ký hợp đồng thuê đất.\n- Cơ quan quản lý đất đai cấp xã thực hiện: Ký hợp đồng thuê đất theo thẩm quyền đối với bên nhận chuyển nhượng dự án đầu tư có sử dụng đất mà không phải ban hành lại quyết định cho thuê đất; chuyển hợp đồng thuê đất đến Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai.\n- Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện:\n+ Gửi Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 25 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND đến cơ quan thuế để xác định và thông báo thu nghĩa vụ tài chính đối với trường hợp phải thực hiện nghĩa vụ tài chính theo quy định của pháp luật.\n+ Chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai.\n+ Cấp mới Giấy chứng nhận hoặc xác nhận thay đổi trên Giấy chứng nhận đã cấp đối với trường hợp không phải thực hiện nghĩa vụ tài chính; trao Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và hợp đồng thuê đất hoặc gửi cơ quan tiếp nhận hồ sơ để trao cho người được cấp.\n+ Thông báo bằng văn bản cho cơ quan thuế về việc chấm dứt quyền và nghĩa vụ của bên chuyển nhượng dự án trong hợp đồng thuê đất.\nTrường hợp phải thực hiện nghĩa vụ tài chính thì thực hiện các công việc quy định tại điểm này khi có thông tin từ cơ sở dữ liệu được liên thông hoặc chứng từ hoặc giấy tờ chứng minh đã hoàn thành nghĩa vụ tài chính.",
-    "THÀNH PHẦN HỒ SƠ": "a) Đối với trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận:\nĐơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 21 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND\nChứng từ chứng minh việc hoàn thành nghĩa vụ tài chính của bên chuyển nhượng và bên nhận chuyển nhượng dự án, quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất để thực hiện dự án\nVăn bản cho phép chuyển nhượng dự án hoặc một phần dự án của cơ quan có thẩm quyền theo quy định của pháp luật\nHợp đồng chuyển nhượng dự án hoặc một phần dự án theo quy định của pháp luật\nMảnh trích đo bản đồ địa chính đối với trường hợp chuyển nhượng một phần dự án mà quyền sử dụng đất để thực hiện dự án chưa được cấp Giấy chứng nhận đã được Văn phòng Đăng ký đất đai ký duyệt theo quy định\nb) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:\nĐơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 24 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND\nGiấy chứng nhận đã cấp cho bên chuyển nhượng dự án bất động sản\nChứng từ chứng minh việc hoàn thành nghĩa vụ tài chính đối với trường hợp có thay đổi nghĩa vụ tài chính (trừ trường hợp được miễn hoặc chậm nộp theo quy định của pháp luật)\nVăn bản cho phép chuyển nhượng dự án hoặc một phần dự án của cơ quan có thẩm quyền theo quy định của pháp luật\nHợp đồng chuyển nhượng dự án hoặc một phần dự án theo quy định của pháp luật\nBản vẽ tách thửa đất, hợp thửa đất theo Mẫu số 28 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND đối với trường hợp chuyển nhượng một phần dự án mà quyền sử dụng đất để thực hiện dự án đã được cấp Giấy chứng nhận",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: Theo mô tả - Nộp trực tiếp tại Trung tâm Phục vụ hành chính công hoặc qua dịch vụ bưu chính hoặc trực tuyến trên Cổng dịch vụ công hoặc tại địa điểm theo thỏa thuận giữa người yêu cầu đăng ký và Văn phòng Đăng ký đất đai.\n- Trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận: không quá 18 ngày làm việc. Đối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 10 ngày.\n- Trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận: không quá 08 ngày làm việc. Đối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 10 ngày.\nTrực tuyến: Theo mô tả - Nộp trực tiếp tại Trung tâm Phục vụ hành chính công hoặc qua dịch vụ bưu chính hoặc trực tuyến trên Cổng dịch vụ công hoặc tại địa điểm theo thỏa thuận giữa người yêu cầu đăng ký và Văn phòng Đăng ký đất đai.\n- Trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận: không quá 18 ngày làm việc. Đối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 10 ngày.\n- Trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận: không quá 08 ngày làm việc. Đối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 10 ngày.\nQua dịch vụ bưu chính: Theo mô tả - Nộp trực tiếp tại Trung tâm Phục vụ hành chính công hoặc qua dịch vụ bưu chính hoặc trực tuyến trên Cổng dịch vụ công hoặc tại địa điểm theo thỏa thuận giữa người yêu cầu đăng ký và Văn phòng Đăng ký đất đai.\n- Trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận: không quá 18 ngày làm việc. Đối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 10 ngày.\n- Trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận: không quá 08 ngày làm việc. Đối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 10 ngày.",
-    "CĂN CỨ PHÁP LÝ": "Sửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai - 226/2025/NĐ-CP\nNghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai. - 101/2024/NĐ-CP \nQuyết định số 47/2026/QĐ-UBND ngày 28/6/2026 của Ủy ban nhân dân tỉnh Lào Cai về ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Lào Cai - 47/2026/QĐ-UBND \nLuật Đất đai ngày 18/01/2024; - 31/2024/QH15",
+    "THÀNH PHẦN HỒ SƠ": "a) Đối với trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận:: Đơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 21 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND\na) Đối với trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận:: Chứng từ chứng minh việc hoàn thành nghĩa vụ tài chính của bên chuyển nhượng và bên nhận chuyển nhượng dự án, quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất để thực hiện dự án\na) Đối với trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận:: Văn bản cho phép chuyển nhượng dự án hoặc một phần dự án của cơ quan có thẩm quyền theo quy định của pháp luật\na) Đối với trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận:: Hợp đồng chuyển nhượng dự án hoặc một phần dự án theo quy định của pháp luật\na) Đối với trường hợp đất để thực hiện dự án chưa được cấp Giấy chứng nhận:: Mảnh trích đo bản đồ địa chính đối với trường hợp chuyển nhượng một phần dự án mà quyền sử dụng đất để thực hiện dự án chưa được cấp Giấy chứng nhận đã được Văn phòng Đăng ký đất đai ký duyệt theo quy định\nb) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:: Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 24 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND\nb) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:: Giấy chứng nhận đã cấp cho bên chuyển nhượng dự án bất động sản\nb) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:: Chứng từ chứng minh việc hoàn thành nghĩa vụ tài chính đối với trường hợp có thay đổi nghĩa vụ tài chính (trừ trường hợp được miễn hoặc chậm nộp theo quy định của pháp luật)\nb) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:: Văn bản cho phép chuyển nhượng dự án hoặc một phần dự án của cơ quan có thẩm quyền theo quy định của pháp luật\nb) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:: Hợp đồng chuyển nhượng dự án hoặc một phần dự án theo quy định của pháp luật\nb) Đối với trường hợp đất để thực hiện dự án đã được cấp Giấy chứng nhận:: Bản vẽ tách thửa đất, hợp thửa đất theo Mẫu số 28 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND đối với trường hợp chuyển nhượng một phần dự án mà quyền sử dụng đất để thực hiện dự án đã được cấp Giấy chứng nhận",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: Theo mô tả\nTrực tuyến: Theo mô tả\nQua dịch vụ bưu chính: Theo mô tả",
+    "CĂN CỨ PHÁP LÝ": "Sửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai - 226/2025/NĐ-CP\nNghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai. - 101/2024/NĐ-CP\nQuyết định số 47/2026/QĐ-UBND ngày 28/6/2026 của Ủy ban nhân dân tỉnh Lào Cai về ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Lào Cai - 47/2026/QĐ-UBND\nLuật Đất đai ngày 18/01/2024; - 31/2024/QH15",
     "CƠ QUAN THỰC HIỆN": "Văn phòng đăng ký đất đai",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Đảm bảo các điều kiện về chuyển nhượng dự án có sử dụng đất theo quy định của pháp luật về đầu tư, pháp luật về kinh doanh bất động sản.",
     "KẾT QUẢ XỬ LÝ": "Giấy chứng nhận - H38-KQ000298",
@@ -322,14 +224,9 @@
     "MÔ TẢ": "Đảm bảo các điều kiện về chuyển nhượng dự án có sử dụng đất theo quy định của pháp luật về đầu tư, pháp luật về kinh doanh bất động sản."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đất đai",
-      "slug": "dat-dai"
+      "slug": "at-ai"
     },
     "implementation_levels": [
       {
@@ -346,13 +243,13 @@
     "agencies": [
       {
         "name": "Văn phòng đăng ký đất đai",
-        "slug": "van-phong-dang-ky-dat-dai"
+        "slug": "van-phong-ang-ky-at-ai"
       },
       {
         "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực",
-        "slug": "chi-nhanh-van-phong-dang-ky-dat-dai-khu-vuc"
+        "slug": "chi-nhanh-van-phong-ang-ky-at-ai-khu-vuc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

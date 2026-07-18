@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf7-9e70-7604-90a3-ba6ef3d6d4b0",
   "procedure_code": "1.014418",
   "title": "Sửa đổi, bổ sung giấy chứng nhận đăng ký hoạt động thử nghiệm/giám định/kiểm định/chứng nhận sản phẩm",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-9e70-7604-90a3-ba6ef3d6d4b0",
     "source_file": "chi-tiet-thu-tuc-1.014418.pdf",
     "source_path": "procedures/viec-lam/1.014418/chi-tiet-thu-tuc-1.014418.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:13.381824+00:00",
-    "source_updated_at": "2026-04-28T15:28:39.224Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:35.024134+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "c7a15f53fce47439efd7580812ea893c5a1a9a086b02db9e1c273ccaf7de6b71"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:13.381824+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "8928/QĐ-BCA-V04",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Quản lý chất lượng sản phẩm, hàng hoá",
   "target_users": [
@@ -36,18 +32,29 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cục khoa học, chiến lược và lịch sử Công an",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục khoa học, chiến lược và lịch sử Công an"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Nộp hồ sơ\nTổ chức nộp 01 bộ hồ sơ theo quy định tại Nghị định số 107/2016/NĐ-CP ngày 01/7/2016 và Nghị định số 154/2018/NĐ-CP ngày 09/11/2018 của Chính phủ, theo phương thức trực tiếp hoặc qua bưu điện theo địa chỉ: Cục Khoa học, chiến lược và lịch sử Công an, số 47 Phạm Văn Đồng, phường Phú Diễn, thành phố Hà Nội hoặc gửi trực tuyến trên Cổng Dịch vụ công.\n- Bước 2: Tiếp nhận hồ sơ\nCán bộ tiếp nhận, kiểm tra tính hợp lệ và thành phần của hồ sơ.\n+ Nếu hồ sơ hợp lệ và đủ thành phần thì tiếp nhận hồ sơ và cấp giấy hẹn trả kết quả.\n+ Nếu hồ sơ chưa đầy đủ thành phần hoặc chưa hợp lệ thì hướng dẫn, cấp phiếu yêu cầu bổ sung, hoàn thiện hồ sơ.\n+ Nếu hồ sơ không đủ điều kiện thì cấp giấy từ chối tiếp nhận và nêu rõ lý do.\n* Thời gian tiếp nhận hồ sơ: Từ thứ Hai đến hết ngày thứ Sáu (trừ ngày nghỉ Tết, nghỉ lễ).\n- Bước 3: Trả kết quả\n+ Nhận trực tiếp: Cục Khoa học, chiến lược và lịch sử Công an cấp giấy chứng nhận đăng ký hoạt động thử nghiệm/giám đinh/kiểm định/chứng nhận sản phẩm (Mẫu 10 tại Phụ lục II ban hành kèm Nghị định số 154/2018/NĐ-CP) và trả trực tiếp tại Cục Khoa học, chiến lược và lịch sử Công an. Khi đến nhận mang theo phiếu tiếp nhận hồ sơ và giấy tờ tuỳ thân.\n+ Nhận qua bưu điện: Cục Khoa học, chiến lược và lịch sử Công an gửi giấy chứng nhận đăng ký hoạt động thử nghiệm/giám định/kiểm định/chứng nhận sản phẩm qua dịch vụ bưu chính công ích.\n+ Nhận trực tuyến: Cục Khoa học, chiến lược và lịch sử Công an cấp giấy chứng nhận đăng ký hoạt động thử nghiệm/giám định/kiểm định/chứng nhận sản phẩm trên Cổng Dịch vụ công.\n* Thời gian trả kết quả: Từ thứ Hai đến hết ngày thứ Sáu (trừ ngày nghỉ Tết, nghỉ lễ).\n",
+      "description": "- Bước 1: Nộp hồ sơ\nTổ chức nộp 01 bộ hồ sơ theo quy định tại Nghị định số 107/2016/NĐ-CP ngày 01/7/2016 và Nghị định số 154/2018/NĐ-CP ngày 09/11/2018 của Chính phủ, theo phương thức trực tiếp hoặc qua bưu điện theo địa chỉ: Cục Khoa học, chiến lược và lịch sử Công an, số 47 Phạm Văn Đồng, phường Phú Diễn, thành phố Hà Nội hoặc gửi trực tuyến trên Cổng Dịch vụ công.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Tiếp nhận hồ sơ\nCán bộ tiếp nhận, kiểm tra tính hợp lệ và thành phần của hồ sơ.\n+ Nếu hồ sơ hợp lệ và đủ thành phần thì tiếp nhận hồ sơ và cấp giấy hẹn trả kết quả.\n+ Nếu hồ sơ chưa đầy đủ thành phần hoặc chưa hợp lệ thì hướng dẫn, cấp phiếu yêu cầu bổ sung, hoàn thiện hồ sơ.\n+ Nếu hồ sơ không đủ điều kiện thì cấp giấy từ chối tiếp nhận và nêu rõ lý do.\n* Thời gian tiếp nhận hồ sơ: Từ thứ Hai đến hết ngày thứ Sáu (trừ ngày nghỉ Tết, nghỉ lễ).",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "- Bước 3: Trả kết quả\n+ Nhận trực tiếp: Cục Khoa học, chiến lược và lịch sử Công an cấp giấy chứng nhận đăng ký hoạt động thử nghiệm/giám đinh/kiểm định/chứng nhận sản phẩm (Mẫu 10 tại Phụ lục II ban hành kèm Nghị định số 154/2018/NĐ-CP) và trả trực tiếp tại Cục Khoa học, chiến lược và lịch sử Công an. Khi đến nhận mang theo phiếu tiếp nhận hồ sơ và giấy tờ tuỳ thân.\n+ Nhận qua bưu điện: Cục Khoa học, chiến lược và lịch sử Công an gửi giấy chứng nhận đăng ký hoạt động thử nghiệm/giám định/kiểm định/chứng nhận sản phẩm qua dịch vụ bưu chính công ích.\n+ Nhận trực tuyến: Cục Khoa học, chiến lược và lịch sử Công an cấp giấy chứng nhận đăng ký hoạt động thử nghiệm/giám định/kiểm định/chứng nhận sản phẩm trên Cổng Dịch vụ công.\n* Thời gian trả kết quả: Từ thứ Hai đến hết ngày thứ Sáu (trừ ngày nghỉ Tết, nghỉ lễ).",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
@@ -56,39 +63,27 @@
     "conditional": [
       {
         "name": "Danh sách bổ sung, sửa đổi máy móc, thiết bị,  dụng cụ thử nghiệm, đo lường phục vụ hoạt động thử nghiệm/kiểm định đối với lĩnh vực đăng ký (Mẫu số 04 tại Phụ lục ban hành kèm theo Nghị định số 107/2016/NĐ-CP)",
-        "code": "000.00.00.G01-KQ003583",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Đơn đăng ký (Mẫu số 05 tại Phụ lục ban  hành kèm theo Nghị định số 107/2016/NĐ-CP).",
-        "code": "000.00.00.G01-KQ003581",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Danh sách bổ sung, sửa đổi thử nghiệm viên/giám  định viên/kiểm định viên/chuyên gia (Mẫu số 02 tại Phụ lục II ban hành kèm theo Nghị định số 154/2018/NĐ-CP) và các chứng chỉ, tài liệu liên quan đối với mỗi thử nghiệm viên/giám định viên/kiểm định viên/chuyên gia gồm: Bản sao Quyết định tuyển dụng hoặc Hợp đồng lao động; bản sao chứng chỉ đào tạo tương ứng quy định tại  Nghị định số 107/2016/NĐ-CP.",
-        "code": "000.00.00.G01-KQ003582",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Các tài liệu chứng minh năng lực hoạt động bổ sung, sửa đổi đáp  ứng các yêu cầu quy định tại Nghị định số 107/2016/NĐ-CP.",
-        "code": "000.00.00.G01-KQ003584",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -97,87 +92,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Trong thời hạn 10 ngày làm việc kể từ khi nhận đủ hồ sơ theo quy định.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Trong thời hạn 10 ngày làm việc kể từ khi nhận đủ hồ sơ theo quy định.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Trong thời hạn 10 ngày làm việc kể từ khi nhận đủ hồ sơ theo quy định.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -185,20 +145,17 @@
     {
       "title": "Sửa đổi, bổ sung, bãi bỏ một số quy định về điều kiện đầu tư, kinh doanh trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ và một số quy định về kiểm tra chuyên ngành",
       "document_number": "154/2018/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-bbd6f49e84c9",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Quy định về điều kiện kinh doanh dịch vụ đánh giá sự phù hợp",
       "document_number": "107/2016/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe8-7fe35bf482ec",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư số 90/2024/TT-BCA ngày 22/11/2024 của Bộ trưởng Bộ Công an quy định kiểm tra nhà nước và đánh giá sự phù hợp chất lượng sản phẩm, hàng hóa có khả năng gây mất an toàn trong sản xuất, nhập khẩu thuộc trách nhiệm quản lý của Bộ Công an",
       "document_number": "90/2024/TT-BCA",
-      "id": "019d2bb3-5d7b-7049-8fc6-f103dd21a8a0",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "",
@@ -206,14 +163,13 @@
     {
       "title": "Giấy chứng nhận đăng ký hoạt động dịch vụ thử nghiệm/giám định/kiểm định/chứng nhận sản phẩm",
       "code": "KQ.G01.000261",
-      "id": "019d2bb2-1c38-75c9-8e12-3fe6b1d6e5fe",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Nộp hồ sơ\nTổ chức nộp 01 bộ hồ sơ theo quy định tại Nghị định số 107/2016/NĐ-CP ngày 01/7/2016 và Nghị định số 154/2018/NĐ-CP ngày 09/11/2018 của Chính phủ, theo phương thức trực tiếp hoặc qua bưu điện theo địa chỉ: Cục Khoa học, chiến lược và lịch sử Công an, số 47 Phạm Văn Đồng, phường Phú Diễn, thành phố Hà Nội hoặc gửi trực tuyến trên Cổng Dịch vụ công.\n- Bước 2: Tiếp nhận hồ sơ\nCán bộ tiếp nhận, kiểm tra tính hợp lệ và thành phần của hồ sơ.\n+ Nếu hồ sơ hợp lệ và đủ thành phần thì tiếp nhận hồ sơ và cấp giấy hẹn trả kết quả.\n+ Nếu hồ sơ chưa đầy đủ thành phần hoặc chưa hợp lệ thì hướng dẫn, cấp phiếu yêu cầu bổ sung, hoàn thiện hồ sơ.\n+ Nếu hồ sơ không đủ điều kiện thì cấp giấy từ chối tiếp nhận và nêu rõ lý do.\n* Thời gian tiếp nhận hồ sơ: Từ thứ Hai đến hết ngày thứ Sáu (trừ ngày nghỉ Tết, nghỉ lễ).\n- Bước 3: Trả kết quả\n+ Nhận trực tiếp: Cục Khoa học, chiến lược và lịch sử Công an cấp giấy chứng nhận đăng ký hoạt động thử nghiệm/giám đinh/kiểm định/chứng nhận sản phẩm (Mẫu 10 tại Phụ lục II ban hành kèm Nghị định số 154/2018/NĐ-CP) và trả trực tiếp tại Cục Khoa học, chiến lược và lịch sử Công an. Khi đến nhận mang theo phiếu tiếp nhận hồ sơ và giấy tờ tuỳ thân.\n+ Nhận qua bưu điện: Cục Khoa học, chiến lược và lịch sử Công an gửi giấy chứng nhận đăng ký hoạt động thử nghiệm/giám định/kiểm định/chứng nhận sản phẩm qua dịch vụ bưu chính công ích.\n+ Nhận trực tuyến: Cục Khoa học, chiến lược và lịch sử Công an cấp giấy chứng nhận đăng ký hoạt động thử nghiệm/giám định/kiểm định/chứng nhận sản phẩm trên Cổng Dịch vụ công.\n* Thời gian trả kết quả: Từ thứ Hai đến hết ngày thứ Sáu (trừ ngày nghỉ Tết, nghỉ lễ).\n",
-    "THÀNH PHẦN HỒ SƠ": "\nDanh sách bổ sung, sửa đổi máy móc, thiết bị,  dụng cụ thử nghiệm, đo lường phục vụ hoạt động thử nghiệm/kiểm định đối với lĩnh vực đăng ký (Mẫu số 04 tại Phụ lục ban hành kèm theo Nghị định số 107/2016/NĐ-CP)\nĐơn đăng ký (Mẫu số 05 tại Phụ lục ban  hành kèm theo Nghị định số 107/2016/NĐ-CP).\nDanh sách bổ sung, sửa đổi thử nghiệm viên/giám  định viên/kiểm định viên/chuyên gia (Mẫu số 02 tại Phụ lục II ban hành kèm theo Nghị định số 154/2018/NĐ-CP) và các chứng chỉ, tài liệu liên quan đối với mỗi thử nghiệm viên/giám định viên/kiểm định viên/chuyên gia gồm: Bản sao Quyết định tuyển dụng hoặc Hợp đồng lao động; bản sao chứng chỉ đào tạo tương ứng quy định tại  Nghị định số 107/2016/NĐ-CP.\nCác tài liệu chứng minh năng lực hoạt động bổ sung, sửa đổi đáp  ứng các yêu cầu quy định tại Nghị định số 107/2016/NĐ-CP.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày làm việc - Trong thời hạn 10 ngày làm việc kể từ khi nhận đủ hồ sơ theo quy định.\nQua dịch vụ bưu chính: 10 ngày làm việc - Trong thời hạn 10 ngày làm việc kể từ khi nhận đủ hồ sơ theo quy định.\nTrực tiếp: 10 ngày làm việc - Trong thời hạn 10 ngày làm việc kể từ khi nhận đủ hồ sơ theo quy định.",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Nộp hồ sơ\nTổ chức nộp 01 bộ hồ sơ theo quy định tại Nghị định số 107/2016/NĐ-CP ngày 01/7/2016 và Nghị định số 154/2018/NĐ-CP ngày 09/11/2018 của Chính phủ, theo phương thức trực tiếp hoặc qua bưu điện theo địa chỉ: Cục Khoa học, chiến lược và lịch sử Công an, số 47 Phạm Văn Đồng, phường Phú Diễn, thành phố Hà Nội hoặc gửi trực tuyến trên Cổng Dịch vụ công.\n- Bước 2: Tiếp nhận hồ sơ\nCán bộ tiếp nhận, kiểm tra tính hợp lệ và thành phần của hồ sơ.\n+ Nếu hồ sơ hợp lệ và đủ thành phần thì tiếp nhận hồ sơ và cấp giấy hẹn trả kết quả.\n+ Nếu hồ sơ chưa đầy đủ thành phần hoặc chưa hợp lệ thì hướng dẫn, cấp phiếu yêu cầu bổ sung, hoàn thiện hồ sơ.\n+ Nếu hồ sơ không đủ điều kiện thì cấp giấy từ chối tiếp nhận và nêu rõ lý do.\n* Thời gian tiếp nhận hồ sơ: Từ thứ Hai đến hết ngày thứ Sáu (trừ ngày nghỉ Tết, nghỉ lễ).\n- Bước 3: Trả kết quả\n+ Nhận trực tiếp: Cục Khoa học, chiến lược và lịch sử Công an cấp giấy chứng nhận đăng ký hoạt động thử nghiệm/giám đinh/kiểm định/chứng nhận sản phẩm (Mẫu 10 tại Phụ lục II ban hành kèm Nghị định số 154/2018/NĐ-CP) và trả trực tiếp tại Cục Khoa học, chiến lược và lịch sử Công an. Khi đến nhận mang theo phiếu tiếp nhận hồ sơ và giấy tờ tuỳ thân.\n+ Nhận qua bưu điện: Cục Khoa học, chiến lược và lịch sử Công an gửi giấy chứng nhận đăng ký hoạt động thử nghiệm/giám định/kiểm định/chứng nhận sản phẩm qua dịch vụ bưu chính công ích.\n+ Nhận trực tuyến: Cục Khoa học, chiến lược và lịch sử Công an cấp giấy chứng nhận đăng ký hoạt động thử nghiệm/giám định/kiểm định/chứng nhận sản phẩm trên Cổng Dịch vụ công.\n* Thời gian trả kết quả: Từ thứ Hai đến hết ngày thứ Sáu (trừ ngày nghỉ Tết, nghỉ lễ).",
+    "THÀNH PHẦN HỒ SƠ": "Danh sách bổ sung, sửa đổi máy móc, thiết bị,  dụng cụ thử nghiệm, đo lường phục vụ hoạt động thử nghiệm/kiểm định đối với lĩnh vực đăng ký (Mẫu số 04 tại Phụ lục ban hành kèm theo Nghị định số 107/2016/NĐ-CP)\nĐơn đăng ký (Mẫu số 05 tại Phụ lục ban  hành kèm theo Nghị định số 107/2016/NĐ-CP).\nDanh sách bổ sung, sửa đổi thử nghiệm viên/giám  định viên/kiểm định viên/chuyên gia (Mẫu số 02 tại Phụ lục II ban hành kèm theo Nghị định số 154/2018/NĐ-CP) và các chứng chỉ, tài liệu liên quan đối với mỗi thử nghiệm viên/giám định viên/kiểm định viên/chuyên gia gồm: Bản sao Quyết định tuyển dụng hoặc Hợp đồng lao động; bản sao chứng chỉ đào tạo tương ứng quy định tại  Nghị định số 107/2016/NĐ-CP.\nCác tài liệu chứng minh năng lực hoạt động bổ sung, sửa đổi đáp  ứng các yêu cầu quy định tại Nghị định số 107/2016/NĐ-CP.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày làm việc\nQua dịch vụ bưu chính: 10 ngày làm việc\nTrực tiếp: 10 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Sửa đổi, bổ sung, bãi bỏ một số quy định về điều kiện đầu tư, kinh doanh trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ và một số quy định về kiểm tra chuyên ngành - 154/2018/NĐ-CP\nQuy định về điều kiện kinh doanh dịch vụ đánh giá sự phù hợp - 107/2016/NĐ-CP\nThông tư số 90/2024/TT-BCA ngày 22/11/2024 của Bộ trưởng Bộ Công an quy định kiểm tra nhà nước và đánh giá sự phù hợp chất lượng sản phẩm, hàng hóa có khả năng gây mất an toàn trong sản xuất, nhập khẩu thuộc trách nhiệm quản lý của Bộ Công an - 90/2024/TT-BCA",
     "CƠ QUAN THỰC HIỆN": "Cục khoa học, chiến lược và lịch sử Công an",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
@@ -222,11 +178,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Quản lý chất lượng sản phẩm, hàng hoá",
       "slug": "quan-ly-chat-luong-san-pham-hang-hoa"
@@ -253,6 +204,6 @@
         "slug": "cuc-khoa-hoc-chien-luoc-va-lich-su-cong-an"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

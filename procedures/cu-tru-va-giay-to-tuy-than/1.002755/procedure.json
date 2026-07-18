@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf7-6762-77ee-9a0c-965773ce7afe",
   "procedure_code": "1.002755",
   "title": "Gia hạn tạm trú",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-6762-77ee-9a0c-965773ce7afe",
     "source_file": "chi-tiet-thu-tuc-1.002755.pdf",
     "source_path": "procedures/cu-tru-va-giay-to-tuy-than/1.002755/chi-tiet-thu-tuc-1.002755.pdf",
     "page_count": 7,
-    "extracted_at": "2026-07-18T02:22:00.482758+00:00",
-    "source_updated_at": "2026-04-29T08:51:31.186Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:55:35.572674+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "252ba0b88d2304259afd2280964e83b7286bf1ef8e47e6065c77aaaa67acbd3f"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:00.482758+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "9354/QĐ-BCA-C06",
   "implementation_level": "Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đăng ký, quản lý cư trú",
   "target_users": [
@@ -37,105 +32,91 @@
   ],
   "agency": {
     "competent_agency": "Công an cấp Xã",
-    "executing_agency": "Công an cấp Xã",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Công an cấp Xã"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.\n Bước 2: Cá nhân, tổ chức nộp hồ sơ đến Công an cấp xã.\n Bước 3: Khi tiếp nhận hồ sơ gia hạn tạm trú, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n- Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (mẫu CT04 ban hành kèm theo Thông tư số 66/2023/TT-BCA) cho người đăng ký.\n- Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 66/2023/TT-BCA) cho người đăng ký.\n Bước 4: Cá nhân, tổ chức nộp lệ phí gia hạn tạm trú theo quy định.\n Bước 5: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có).\n",
+      "description": "Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Cá nhân, tổ chức nộp hồ sơ đến Công an cấp xã.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Khi tiếp nhận hồ sơ gia hạn tạm trú, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n- Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (mẫu CT04 ban hành kèm theo Thông tư số 66/2023/TT-BCA) cho người đăng ký.\n- Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 66/2023/TT-BCA) cho người đăng ký.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "Bước 4: Cá nhân, tổ chức nộp lệ phí gia hạn tạm trú theo quy định.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 5,
+      "title": "Bước 5",
+      "description": "Bước 5: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có).",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Tờ khai thay đổi thông tin cư trú (của từng người)   (Mẫu CT01 ban hành kèm theo Thông tư số 53/2025/TT-BCA).",
-        "code": "000.00.00.G01-KQ003641",
+        "name": "* Gia hạn tạm trú theo danh sách, hồ sơ gồm:: Tờ khai thay đổi thông tin cư trú (của từng người)   (Mẫu CT01 ban hành kèm theo Thông tư số 53/2025/TT-BCA).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Gia hạn tạm trú theo danh sách, hồ sơ gồm:",
-        "attachments": [
-          {
-            "id": "019dcf56-b589-74ad-94dc-63bb26e395e8",
-            "name": "1.MuCT01banhnhkmtheoThngts53.doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "1.MuCT01banhnhkmtheoThngts53.doc",
+        "source_page": 2
       },
       {
-        "name": "Tờ khai thay đổi thông tin cư   trú (Mẫu CT01 ban hành kèm theo Thông tư số 53/2025/TT-BCA).",
-        "code": "000.00.00.G01-KQ003640",
+        "name": "* Gia hạn tạm trú tại nơi đơn vị đóng quân trong Công an nhân dân, Quân đội nhân nhân (nơi đơn vị đóng quân, nhà ở công vụ) hồ sơ gồm:: Tờ khai thay đổi thông tin cư   trú (Mẫu CT01 ban hành kèm theo Thông tư số 53/2025/TT-BCA).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Gia hạn tạm trú tại nơi đơn vị đóng quân trong Công an nhân dân, Quân đội nhân nhân (nơi đơn vị đóng quân, nhà ở công vụ) hồ sơ gồm:",
-        "attachments": [
-          {
-            "id": "019dcf56-4736-7778-9864-857be33171fe",
-            "name": "1.MuCT01banhnhkmtheoThngts53.doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "1.MuCT01banhnhkmtheoThngts53.doc",
+        "source_page": 2
       },
       {
-        "name": "Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 53/2023/TT-BCA); trong đó ghi rõ ý kiến đồng ý của chủ sở hữu chỗ ở hợp pháp, trừ trường hợp đã có ý kiến đồng ý bằng văn bản. Đối với người gia hạn tạm trú là người chưa thành niên thì trong tờ khai phải ghi rõ ý kiến đồng ý của cha, mẹ hoặc người giám hộ, trừ trường hợp đã có ý kiến đồng ý bằng văn bản.",
-        "code": "000.00.00.G01-KQ003639",
+        "name": "* Hồ sơ gia hạn tạm trú gồm:: Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 53/2023/TT-BCA); trong đó ghi rõ ý kiến đồng ý của chủ sở hữu chỗ ở hợp pháp, trừ trường hợp đã có ý kiến đồng ý bằng văn bản. Đối với người gia hạn tạm trú là người chưa thành niên thì trong tờ khai phải ghi rõ ý kiến đồng ý của cha, mẹ hoặc người giám hộ, trừ trường hợp đã có ý kiến đồng ý bằng văn bản.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ gia hạn tạm trú gồm:",
-        "attachments": [
-          {
-            "id": "019dcf58-7d44-77fd-9869-2cff50e3be3a",
-            "name": "1.MuCT01banhnhkmtheoThngts53.doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "1.MuCT01banhnhkmtheoThngts53.doc",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "- Văn bản đề nghị gia hạn tạm trú trong đó ghi rõ thông tin về chỗ ở hợp pháp kèm danh sách người gia hạn tạm trú. Danh sách bao gồm những thông tin cơ bản của từng người: họ, chữ đệm và tên; ngày, tháng, năm sinh; giới tính; số định danh cá nhân và thời hạn tạm trú.",
-        "code": "000.00.00.G01-KQ002432",
+        "name": "* Gia hạn tạm trú theo danh sách, hồ sơ gồm:: - Văn bản đề nghị gia hạn tạm trú trong đó ghi rõ thông tin về chỗ ở hợp pháp kèm danh sách người gia hạn tạm trú. Danh sách bao gồm những thông tin cơ bản của từng người: họ, chữ đệm và tên; ngày, tháng, năm sinh; giới tính; số định danh cá nhân và thời hạn tạm trú.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Gia hạn tạm trú theo danh sách, hồ sơ gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Đối với Quân đội nhân dân: Giấy giới thiệu đăng ký thường trú của đơn vị cấp trung đoàn và tương đương trở lên.",
-        "code": "000.00.00.G01-KQ002431",
+        "name": "* Gia hạn tạm trú tại nơi đơn vị đóng quân trong Công an nhân dân, Quân đội nhân nhân (nơi đơn vị đóng quân, nhà ở công vụ) hồ sơ gồm:: - Đối với Quân đội nhân dân: Giấy giới thiệu đăng ký thường trú của đơn vị cấp trung đoàn và tương đương trở lên.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Gia hạn tạm trú tại nơi đơn vị đóng quân trong Công an nhân dân, Quân đội nhân nhân (nơi đơn vị đóng quân, nhà ở công vụ) hồ sơ gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Đối với Công an nhân dân: Giấy giới thiệu của Thủ trưởng đơn vị quản lý trực tiếp ghi rõ nội dung để làm thủ tục gia hạn tạm trú và đơn vị có chỗ ở cho cán bộ chiến sĩ (ký tên, đóng dấu).",
-        "code": "000.00.00.G01-KQ002430",
+        "name": "* Gia hạn tạm trú tại nơi đơn vị đóng quân trong Công an nhân dân, Quân đội nhân nhân (nơi đơn vị đóng quân, nhà ở công vụ) hồ sơ gồm:: - Đối với Công an nhân dân: Giấy giới thiệu của Thủ trưởng đơn vị quản lý trực tiếp ghi rõ nội dung để làm thủ tục gia hạn tạm trú và đơn vị có chỗ ở cho cán bộ chiến sĩ (ký tên, đóng dấu).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Gia hạn tạm trú tại nơi đơn vị đóng quân trong Công an nhân dân, Quân đội nhân nhân (nơi đơn vị đóng quân, nhà ở công vụ) hồ sơ gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Lưu ý:- Trường hợp nộp hồ sơ trực tiếp tại cơ quan đăng ký cư trú thì người yêu cầu đăng ký cư trú có thể nộp bản sao giấy tờ, tài liệu được chứng thực từ bản chính hoặc bản sao giấy tờ được cấp từ sổ gốc (sau đây gọi là bản sao) hoặc bản quét, bản chụp kèm theo bản chính giấy tờ, tài liệu để đối chiếu.  Trường hợp người yêu cầu đăng ký cư trú nộp bản quét hoặc bản chụp kèm theo bản chính giấy tờ để đối chiếu thì người tiếp nhận có trách nhiệm kiểm tra, đối chiếu bản quét, bản chụp với bản chính và ký xác nhận, không được yêu cầu nộp bản sao giấy tờ đó. - Trường hợp thực hiện đăng ký cư trú trực tuyến, người yêu cầu đăng ký cư trú khai báo thông tin theo biểu mẫu điện tử được cung cấp sẵn, đăng tải bản quét hoặc bản chụp giấy tờ, tài liệu hợp lệ (không bắt buộc phải công chứng, chứng thực, ký số hoặc xác thực bằng hình thức khác) hoặc dẫn nguồn tài liệu từ Kho quản lý dữ liệu điện tử của tổ chức, cá nhân.  Trường hợp công dân đăng tải bản quét, bản chụp giấy tờ, tài liệu mà không được ký số hoặc xác thực bằng hình thức khác thì khi cơ quan đăng ký cư trú tiến hành kiểm tra, xác minh để giải quyết thủ tục về cư trú; công dân có trách nhiệm xuất trình giấy tờ, tài liệu đã đăng tải để cơ quan đăng ký cư trú kiểm tra, đối chiếu và ghi nhận tính chính xác vào biên bản xác minh. Cơ quan đăng ký cư trú không yêu cầu công dân nộp để lưu giữ giấy tờ đó. - Bản quét hoặc bản chụp giấy tờ bằng thiết bị điện tử từ giấy tờ được cấp hợp lệ, còn giá trị sử dụng phải bảo đảm rõ nét, đầy đủ, toàn vẹn về nội dung; đã được hợp pháp hóa lãnh sự, dịch sang tiếng Việt theo quy định nếu là giấy tờ do cơ quan có thẩm quyền nước ngoài cấp trừ trường hợp được miễn hợp pháp hóa lãnh sự. - Trường hợp thông tin giấy tờ chứng minh điều kiện đăng ký cư trú đã được chia sẻ và khai thác từ cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành thì cơ quan đăng ký cư trú không được yêu cầu công dân nộp, xuất trình giấy tờ đó để giải quyết đăng ký cư trú. - Khi hết thời hạn tạm trú, đại diện thành viên hộ gia đình được kê khai, đăng ký gia hạn tạm trú cho bản thân hoặc các thành viên khác trong hộ gia đình khi được chủ sở hữu chỗ ở hợp pháp đồng ý, không phải xuất trình, cung cấp giấy tờ chứng minh chỗ ở hợp pháp.",
-        "code": "000.00.00.G01-KQ003145",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -144,92 +125,51 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 5000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "- Gia hạn tạm trú (cá nhân, hộ gia đình):  + Trường hợp công dân nộp hồ sơ qua cổng dịch vụ công trực tuyến thu 7.000 đồng/lần đăng ký.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 7000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "- Nộp hồ sơ trực tuyến qua các cổng cung cấp dịch vụ công trực tuyến như: Trực tuyến qua Cổng dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an, ứng dụng VNeID hoặc dịch vụ công trực tuyến khác theo quy định của pháp luật.\n\nThời gian tiếp nhận hồ sơ: Giờ hành chính các ngày làm việc từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ các ngày nghỉ lễ, tết theo quy định của pháp luật).\n",
-      "source_page": null
+      "fee": "- Gia hạn tạm trú (cá nhân, hộ gia đình):  + Trường hợp công dân nộp hồ sơ qua cổng dịch vụ công trực tuyến thu 7.000 đồng/lần đăng ký.; 7000",
+      "description": "- Nộp hồ sơ trực tuyến qua các cổng cung cấp dịch vụ công trực tuyến như: Trực tuyến qua Cổng dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an, ứng dụng VNeID hoặc dịch vụ công trực tuyến khác theo quy định của pháp luật.\n\nThời gian tiếp nhận hồ sơ: Giờ hành chính các ngày làm việc từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ các ngày nghỉ lễ, tết theo quy định của pháp luật).",
+      "source_page": 4
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 10000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "- Gia hạn tạm trú theo danh sách: + Trường hợp công dân nộp hồ sơ trực tiếp thu 10.000 đồng/người/lần đăng ký;",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 15000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "- Gia hạn tạm trú theo danh sách: + Trường hợp công dân nộp hồ sơ trực tiếp thu 10.000 đồng/người/lần đăng ký;; 15000",
       "description": "- Nộp hồ sơ trực tiếp tại Công an cấp xã.\nThời gian tiếp nhận hồ sơ: Giờ hành chính các ngày làm việc từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ các ngày nghỉ lễ, tết theo quy định của pháp luật).",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "- Gia hạn tạm trú (cá nhân, hộ gia đình):  + Trường hợp công dân nộp hồ sơ qua cổng dịch vụ công trực tuyến thu 7.000 đồng/lần đăng ký.; 7000; - Gia hạn tạm trú theo danh sách: + Trường hợp công dân nộp hồ sơ trực tiếp thu 10.000 đồng/người/lần đăng ký;; 15000",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 5000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "- Gia hạn tạm trú (cá nhân, hộ gia đình):  + Trường hợp công dân nộp hồ sơ qua cổng dịch vụ công trực tuyến thu 7.000 đồng/lần đăng ký.",
-        "attachment": null
+        "amount_text": "- Gia hạn tạm trú (cá nhân, hộ gia đình):  + Trường hợp công dân nộp hồ sơ qua cổng dịch vụ công trực tuyến thu 7.000 đồng/lần đăng ký.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 7000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "7000",
+        "is_free": false,
+        "source_page": 3
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 10000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "- Gia hạn tạm trú theo danh sách: + Trường hợp công dân nộp hồ sơ trực tiếp thu 10.000 đồng/người/lần đăng ký;",
-        "attachment": null
+        "amount_text": "- Gia hạn tạm trú theo danh sách: + Trường hợp công dân nộp hồ sơ trực tiếp thu 10.000 đồng/người/lần đăng ký;",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 15000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "15000",
+        "is_free": false,
+        "source_page": 2
       }
     ]
   },
@@ -237,56 +177,47 @@
     {
       "title": "Thông tư số 53/2025/TT-BCAngày 01/7/2025 của Bộ Công an sửa đổi, bổ sung một số điều của Thông tư số 55/2021/TT-BCA ngày 15 tháng 5 năm 2021 của Bộ trưởng Bộ Công an quy định chi tiết một số điều và biện pháp thi hành Luật Cư trú được sửa đổi, bổ sung bởi Thông tư số 66/2023/TT-BCA ngày 17 tháng 11 năm 2023; Thông tư số 56/2021/TT-BCA ngày 15 tháng 5 năm 2021 của Bộ trưởng Bộ Công an quy định về biểu mẫu trong đăng ký, quản lý cư trú được sửa đổi, bổ sung bởi Thông tư số 66/2023/TT-BCA ngày 17 tháng 11 năm 2023; Thông tư số 17/2024/TT-BCA ngày 15 tháng 5 năm 2024 của Bộ trưởng Bộ Công an quy định chi tiết một số điều và biện pháp thi hành Luật Căn cước.",
       "document_number": "53/2025/TT-BCA",
-      "id": "019d2bb3-5d7b-7049-8fc6-c8240af48e4c",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư số 66/2023/TT-BCA Sửa đổi, bổ sung một số điều của Thông tư số 55/2021/TT-BCA ngày 15/5/2021 quy định chi tiết một số điều và biện pháp thi hành Luật Cư trú; Thông tư số 56/2021/TT-BCA ngày 15/5/2021 của Bộ trưởng Bộ Công an quy định về biểu mẫu trong đăng ký, quản lý cư trú; Thông tư số 57/2021/TT-BCA ngày 15/5/2021 của Bộ trưởng Bộ Công an quy định về quy trình đăng ký cư trú.",
       "document_number": "66/2023/TT-BCA",
-      "id": "019d2bb3-5d7b-7049-8fc6-df465876c377",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư số 75/2022/TT-BTC của Bộ Tài chính: Quy định mức thu, chế độ thu, nộp và quản lý lệ phí đăng ký cư trú",
       "document_number": "75/2022/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-d31fd5d5b424",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Luật Cư trú 2020",
       "document_number": "68/2020/QH14",
-      "id": "019d2bb3-5d85-73da-8eb9-f36f498aefcf",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư 57/2021/TT-BCA",
       "document_number": "57/2021/TT-BCA",
-      "id": "019d2bb3-5d87-7195-a443-8305dbe9d81b",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư số 54/2025/TT-BCA ngày 01/7/2025 của Bộ trưởng Bộ Công an quy định về quy trình đăng ký cư trú.",
       "document_number": "54/2025/TT-BCA",
-      "id": "019d2bb3-5d7b-7049-8fc6-cde21d6c7dad",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Nghị định quy định chi tiết một số điều và biện pháp thi hành Luật Cư trú",
       "document_number": "154/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-c1c82d7e48fe",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Thông tư 55/2021/TT-BCA",
       "document_number": "55/2021/TT-BCA",
-      "id": "019d2bb3-5d87-7195-a443-01d8457cc192",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Thông tư 56/2021/TT-BCA",
       "document_number": "56/2021/TT-BCA",
-      "id": "019d2bb3-5d87-7195-a443-4dbaf235c978",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "conditions": "Trong thời hạn 15 ngày trước ngày kết thúc thời hạn tạm trú đã đăng ký, công dân phải làm thủ tục gia hạn tạm trú.",
@@ -294,32 +225,28 @@
     {
       "title": "Cập nhật thông tin trong Cơ sở dữ liệu quốc gia về dân cư",
       "code": "KQ.G01.000064",
-      "id": "019d2bb2-1c37-76e8-b48c-667658cd90ac",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Thông báo kết quả giải quyết thủ tục về cư trú, hủy bỏ thủ tục về cư trú",
       "code": "KQ.G01.000065",
-      "id": "019d2bb2-1c37-76e8-b48c-6a80cedea8e2",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Cập nhật thông tin trong Cơ sở dữ liệu về cư trú",
       "code": "KQ.G01.000066",
-      "id": "019d2bb2-1c37-76e8-b48c-6ca41f3fbddf",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Phiếu từ chối tiếp nhận, giải quyết hồ sơ (lĩnh vực cư trú)",
       "code": "KQ.G01.000067",
-      "id": "019d2bb2-1c37-76e8-b48c-715c6b426d4a",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.\n Bước 2: Cá nhân, tổ chức nộp hồ sơ đến Công an cấp xã.\n Bước 3: Khi tiếp nhận hồ sơ gia hạn tạm trú, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n- Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (mẫu CT04 ban hành kèm theo Thông tư số 66/2023/TT-BCA) cho người đăng ký.\n- Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 66/2023/TT-BCA) cho người đăng ký.\n Bước 4: Cá nhân, tổ chức nộp lệ phí gia hạn tạm trú theo quy định.\n Bước 5: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có).\n",
-    "THÀNH PHẦN HỒ SƠ": "* Gia hạn tạm trú theo danh sách, hồ sơ gồm:\nTờ khai thay đổi thông tin cư trú (của từng người)   (Mẫu CT01 ban hành kèm theo Thông tư số 53/2025/TT-BCA).\n- Văn bản đề nghị gia hạn tạm trú trong đó ghi rõ thông tin về chỗ ở hợp pháp kèm danh sách người gia hạn tạm trú. Danh sách bao gồm những thông tin cơ bản của từng người: họ, chữ đệm và tên; ngày, tháng, năm sinh; giới tính; số định danh cá nhân và thời hạn tạm trú.\n* Gia hạn tạm trú tại nơi đơn vị đóng quân trong Công an nhân dân, Quân đội nhân nhân (nơi đơn vị đóng quân, nhà ở công vụ) hồ sơ gồm:\n- Đối với Quân đội nhân dân: Giấy giới thiệu đăng ký thường trú của đơn vị cấp trung đoàn và tương đương trở lên.\n- Đối với Công an nhân dân: Giấy giới thiệu của Thủ trưởng đơn vị quản lý trực tiếp ghi rõ nội dung để làm thủ tục gia hạn tạm trú và đơn vị có chỗ ở cho cán bộ chiến sĩ (ký tên, đóng dấu).\nTờ khai thay đổi thông tin cư   trú (Mẫu CT01 ban hành kèm theo Thông tư số 53/2025/TT-BCA).\n* Hồ sơ gia hạn tạm trú gồm:\nTờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 53/2023/TT-BCA); trong đó ghi rõ ý kiến đồng ý của chủ sở hữu chỗ ở hợp pháp, trừ trường hợp đã có ý kiến đồng ý bằng văn bản. Đối với người gia hạn tạm trú là người chưa thành niên thì trong tờ khai phải ghi rõ ý kiến đồng ý của cha, mẹ hoặc người giám hộ, trừ trường hợp đã có ý kiến đồng ý bằng văn bản.\n\nLưu ý:- Trường hợp nộp hồ sơ trực tiếp tại cơ quan đăng ký cư trú thì người yêu cầu đăng ký cư trú có thể nộp bản sao giấy tờ, tài liệu được chứng thực từ bản chính hoặc bản sao giấy tờ được cấp từ sổ gốc (sau đây gọi là bản sao) hoặc bản quét, bản chụp kèm theo bản chính giấy tờ, tài liệu để đối chiếu.  Trường hợp người yêu cầu đăng ký cư trú nộp bản quét hoặc bản chụp kèm theo bản chính giấy tờ để đối chiếu thì người tiếp nhận có trách nhiệm kiểm tra, đối chiếu bản quét, bản chụp với bản chính và ký xác nhận, không được yêu cầu nộp bản sao giấy tờ đó. - Trường hợp thực hiện đăng ký cư trú trực tuyến, người yêu cầu đăng ký cư trú khai báo thông tin theo biểu mẫu điện tử được cung cấp sẵn, đăng tải bản quét hoặc bản chụp giấy tờ, tài liệu hợp lệ (không bắt buộc phải công chứng, chứng thực, ký số hoặc xác thực bằng hình thức khác) hoặc dẫn nguồn tài liệu từ Kho quản lý dữ liệu điện tử của tổ chức, cá nhân.  Trường hợp công dân đăng tải bản quét, bản chụp giấy tờ, tài liệu mà không được ký số hoặc xác thực bằng hình thức khác thì khi cơ quan đăng ký cư trú tiến hành kiểm tra, xác minh để giải quyết thủ tục về cư trú; công dân có trách nhiệm xuất trình giấy tờ, tài liệu đã đăng tải để cơ quan đăng ký cư trú kiểm tra, đối chiếu và ghi nhận tính chính xác vào biên bản xác minh. Cơ quan đăng ký cư trú không yêu cầu công dân nộp để lưu giữ giấy tờ đó. - Bản quét hoặc bản chụp giấy tờ bằng thiết bị điện tử từ giấy tờ được cấp hợp lệ, còn giá trị sử dụng phải bảo đảm rõ nét, đầy đủ, toàn vẹn về nội dung; đã được hợp pháp hóa lãnh sự, dịch sang tiếng Việt theo quy định nếu là giấy tờ do cơ quan có thẩm quyền nước ngoài cấp trừ trường hợp được miễn hợp pháp hóa lãnh sự. - Trường hợp thông tin giấy tờ chứng minh điều kiện đăng ký cư trú đã được chia sẻ và khai thác từ cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành thì cơ quan đăng ký cư trú không được yêu cầu công dân nộp, xuất trình giấy tờ đó để giải quyết đăng ký cư trú. - Khi hết thời hạn tạm trú, đại diện thành viên hộ gia đình được kê khai, đăng ký gia hạn tạm trú cho bản thân hoặc các thành viên khác trong hộ gia đình khi được chủ sở hữu chỗ ở hợp pháp đồng ý, không phải xuất trình, cung cấp giấy tờ chứng minh chỗ ở hợp pháp.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 3 ngày làm việc - - Nộp hồ sơ trực tuyến qua các cổng cung cấp dịch vụ công trực tuyến như: Trực tuyến qua Cổng dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an, ứng dụng VNeID hoặc dịch vụ công trực tuyến khác theo quy định của pháp luật.\n\nThời gian tiếp nhận hồ sơ: Giờ hành chính các ngày làm việc từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ các ngày nghỉ lễ, tết theo quy định của pháp luật).\n\nTrực tiếp: 3 ngày làm việc - - Nộp hồ sơ trực tiếp tại Công an cấp xã.\nThời gian tiếp nhận hồ sơ: Giờ hành chính các ngày làm việc từ thứ 2 đến thứ 6 và sáng thứ 7 hàng tuần (trừ các ngày nghỉ lễ, tết theo quy định của pháp luật).",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.\nBước 2: Cá nhân, tổ chức nộp hồ sơ đến Công an cấp xã.\nBước 3: Khi tiếp nhận hồ sơ gia hạn tạm trú, cơ quan đăng ký cư trú kiểm tra tính pháp lý và nội dung hồ sơ:\n- Trường hợp hồ sơ đã đầy đủ, hợp lệ thì tiếp nhận hồ sơ và cấp Phiếu tiếp nhận hồ sơ và hẹn trả kết quả (mẫu CT04 ban hành kèm theo Thông tư số 66/2023/TT-BCA) cho người đăng ký.\n- Trường hợp hồ sơ không đủ điều kiện thì từ chối và cấp Phiếu từ chối tiếp nhận, giải quyết hồ sơ (mẫu CT06 ban hành kèm theo Thông tư số 66/2023/TT-BCA) cho người đăng ký.\nBước 4: Cá nhân, tổ chức nộp lệ phí gia hạn tạm trú theo quy định.\nBước 5: Căn cứ theo ngày hẹn trên Phiếu tiếp nhận hồ sơ và hẹn trả kết quả để nhận thông báo kết quả giải quyết thủ tục đăng ký cư trú (nếu có).",
+    "THÀNH PHẦN HỒ SƠ": "* Gia hạn tạm trú theo danh sách, hồ sơ gồm:: Tờ khai thay đổi thông tin cư trú (của từng người)   (Mẫu CT01 ban hành kèm theo Thông tư số 53/2025/TT-BCA).\n* Gia hạn tạm trú tại nơi đơn vị đóng quân trong Công an nhân dân, Quân đội nhân nhân (nơi đơn vị đóng quân, nhà ở công vụ) hồ sơ gồm:: Tờ khai thay đổi thông tin cư   trú (Mẫu CT01 ban hành kèm theo Thông tư số 53/2025/TT-BCA).\n* Hồ sơ gia hạn tạm trú gồm:: Tờ khai thay đổi thông tin cư trú (Mẫu CT01 ban hành kèm theo Thông tư số 53/2023/TT-BCA); trong đó ghi rõ ý kiến đồng ý của chủ sở hữu chỗ ở hợp pháp, trừ trường hợp đã có ý kiến đồng ý bằng văn bản. Đối với người gia hạn tạm trú là người chưa thành niên thì trong tờ khai phải ghi rõ ý kiến đồng ý của cha, mẹ hoặc người giám hộ, trừ trường hợp đã có ý kiến đồng ý bằng văn bản.\n* Gia hạn tạm trú theo danh sách, hồ sơ gồm:: - Văn bản đề nghị gia hạn tạm trú trong đó ghi rõ thông tin về chỗ ở hợp pháp kèm danh sách người gia hạn tạm trú. Danh sách bao gồm những thông tin cơ bản của từng người: họ, chữ đệm và tên; ngày, tháng, năm sinh; giới tính; số định danh cá nhân và thời hạn tạm trú.\n* Gia hạn tạm trú tại nơi đơn vị đóng quân trong Công an nhân dân, Quân đội nhân nhân (nơi đơn vị đóng quân, nhà ở công vụ) hồ sơ gồm:: - Đối với Quân đội nhân dân: Giấy giới thiệu đăng ký thường trú của đơn vị cấp trung đoàn và tương đương trở lên.\n* Gia hạn tạm trú tại nơi đơn vị đóng quân trong Công an nhân dân, Quân đội nhân nhân (nơi đơn vị đóng quân, nhà ở công vụ) hồ sơ gồm:: - Đối với Công an nhân dân: Giấy giới thiệu của Thủ trưởng đơn vị quản lý trực tiếp ghi rõ nội dung để làm thủ tục gia hạn tạm trú và đơn vị có chỗ ở cho cán bộ chiến sĩ (ký tên, đóng dấu).\nLưu ý:- Trường hợp nộp hồ sơ trực tiếp tại cơ quan đăng ký cư trú thì người yêu cầu đăng ký cư trú có thể nộp bản sao giấy tờ, tài liệu được chứng thực từ bản chính hoặc bản sao giấy tờ được cấp từ sổ gốc (sau đây gọi là bản sao) hoặc bản quét, bản chụp kèm theo bản chính giấy tờ, tài liệu để đối chiếu.  Trường hợp người yêu cầu đăng ký cư trú nộp bản quét hoặc bản chụp kèm theo bản chính giấy tờ để đối chiếu thì người tiếp nhận có trách nhiệm kiểm tra, đối chiếu bản quét, bản chụp với bản chính và ký xác nhận, không được yêu cầu nộp bản sao giấy tờ đó. - Trường hợp thực hiện đăng ký cư trú trực tuyến, người yêu cầu đăng ký cư trú khai báo thông tin theo biểu mẫu điện tử được cung cấp sẵn, đăng tải bản quét hoặc bản chụp giấy tờ, tài liệu hợp lệ (không bắt buộc phải công chứng, chứng thực, ký số hoặc xác thực bằng hình thức khác) hoặc dẫn nguồn tài liệu từ Kho quản lý dữ liệu điện tử của tổ chức, cá nhân.  Trường hợp công dân đăng tải bản quét, bản chụp giấy tờ, tài liệu mà không được ký số hoặc xác thực bằng hình thức khác thì khi cơ quan đăng ký cư trú tiến hành kiểm tra, xác minh để giải quyết thủ tục về cư trú; công dân có trách nhiệm xuất trình giấy tờ, tài liệu đã đăng tải để cơ quan đăng ký cư trú kiểm tra, đối chiếu và ghi nhận tính chính xác vào biên bản xác minh. Cơ quan đăng ký cư trú không yêu cầu công dân nộp để lưu giữ giấy tờ đó. - Bản quét hoặc bản chụp giấy tờ bằng thiết bị điện tử từ giấy tờ được cấp hợp lệ, còn giá trị sử dụng phải bảo đảm rõ nét, đầy đủ, toàn vẹn về nội dung; đã được hợp pháp hóa lãnh sự, dịch sang tiếng Việt theo quy định nếu là giấy tờ do cơ quan có thẩm quyền nước ngoài cấp trừ trường hợp được miễn hợp pháp hóa lãnh sự. - Trường hợp thông tin giấy tờ chứng minh điều kiện đăng ký cư trú đã được chia sẻ và khai thác từ cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành thì cơ quan đăng ký cư trú không được yêu cầu công dân nộp, xuất trình giấy tờ đó để giải quyết đăng ký cư trú. - Khi hết thời hạn tạm trú, đại diện thành viên hộ gia đình được kê khai, đăng ký gia hạn tạm trú cho bản thân hoặc các thành viên khác trong hộ gia đình khi được chủ sở hữu chỗ ở hợp pháp đồng ý, không phải xuất trình, cung cấp giấy tờ chứng minh chỗ ở hợp pháp.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 3 ngày làm việc\nTrực tiếp: 3 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Thông tư số 53/2025/TT-BCAngày 01/7/2025 của Bộ Công an sửa đổi, bổ sung một số điều của Thông tư số 55/2021/TT-BCA ngày 15 tháng 5 năm 2021 của Bộ trưởng Bộ Công an quy định chi tiết một số điều và biện pháp thi hành Luật Cư trú được sửa đổi, bổ sung bởi Thông tư số 66/2023/TT-BCA ngày 17 tháng 11 năm 2023; Thông tư số 56/2021/TT-BCA ngày 15 tháng 5 năm 2021 của Bộ trưởng Bộ Công an quy định về biểu mẫu trong đăng ký, quản lý cư trú được sửa đổi, bổ sung bởi Thông tư số 66/2023/TT-BCA ngày 17 tháng 11 năm 2023; Thông tư số 17/2024/TT-BCA ngày 15 tháng 5 năm 2024 của Bộ trưởng Bộ Công an quy định chi tiết một số điều và biện pháp thi hành Luật Căn cước. - 53/2025/TT-BCA\nThông tư số 66/2023/TT-BCA Sửa đổi, bổ sung một số điều của Thông tư số 55/2021/TT-BCA ngày 15/5/2021 quy định chi tiết một số điều và biện pháp thi hành Luật Cư trú; Thông tư số 56/2021/TT-BCA ngày 15/5/2021 của Bộ trưởng Bộ Công an quy định về biểu mẫu trong đăng ký, quản lý cư trú; Thông tư số 57/2021/TT-BCA ngày 15/5/2021 của Bộ trưởng Bộ Công an quy định về quy trình đăng ký cư trú. - 66/2023/TT-BCA\nThông tư số 75/2022/TT-BTC của Bộ Tài chính: Quy định mức thu, chế độ thu, nộp và quản lý lệ phí đăng ký cư trú - 75/2022/TT-BTC\nLuật Cư trú 2020 - 68/2020/QH14\nThông tư 57/2021/TT-BCA - 57/2021/TT-BCA\nThông tư số 54/2025/TT-BCA ngày 01/7/2025 của Bộ trưởng Bộ Công an quy định về quy trình đăng ký cư trú. - 54/2025/TT-BCA\nNghị định quy định chi tiết một số điều và biện pháp thi hành Luật Cư trú - 154/2024/NĐ-CP\nThông tư 55/2021/TT-BCA - 55/2021/TT-BCA\nThông tư 56/2021/TT-BCA - 56/2021/TT-BCA",
     "CƠ QUAN THỰC HIỆN": "Công an cấp Xã",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Trong thời hạn 15 ngày trước ngày kết thúc thời hạn tạm trú đã đăng ký, công dân phải làm thủ tục gia hạn tạm trú.",
@@ -328,14 +255,9 @@
     "MÔ TẢ": "Trong thời hạn 15 ngày trước ngày kết thúc thời hạn tạm trú đã đăng ký, công dân phải làm thủ tục gia hạn tạm trú."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Cư trú và giấy tờ tùy thân",
-      "slug": "cu-tru-va-giay-to-tuy-than",
-      "method": "service_group"
-    },
     "sector": {
       "name": "Đăng ký, quản lý cư trú",
-      "slug": "dang-ky-quan-ly-cu-tru"
+      "slug": "ang-ky-quan-ly-cu-tru"
     },
     "implementation_levels": [
       {
@@ -363,6 +285,6 @@
         "slug": "cong-an-cap-xa"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

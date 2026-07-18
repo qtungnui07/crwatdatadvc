@@ -1,36 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-54c1-730e-8179-2f5bc566c038",
   "procedure_code": "1.008335",
   "title": "Khai thuế thu nhập doanh nghiệp đối với hoạt động chuyển nhượng bất động sản, khai thuế thu nhập doanh nghiệp từ hoạt động bán toàn bộ Công ty TNHH một thành viên do tổ chức làm chủ sở hữu dưới hình thức chuyển nhượng vốn có gắn với bất động sản theo lần phát sinh, khai thuế thu nhập doanh nghiệp từ bán đấu giá bất động sản, tài sản khác là tài sản bảo đảm thi hành án",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-54c1-730e-8179-2f5bc566c038",
     "source_file": "chi-tiet-thu-tuc-1.008335.pdf",
     "source_path": "procedures/viec-lam/1.008335/chi-tiet-thu-tuc-1.008335.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:22:04.022701+00:00",
-    "source_updated_at": "2026-05-26T10:18:39.642Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:23.473912+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "c3629eac56fda9807d4e91b7b4e86455d1db2e3fb78d9f546798a34576e9e1cd"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:04.022701+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1135/QĐ-BTC",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thuế",
   "target_users": [
@@ -39,51 +32,37 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Chi cục Thuế Thương mại điện tử - Cục Thuế, Thuế cơ sở, Chi cục Thuế doanh nghiệp lớn - Cục Thuế, Thuế tỉnh, thành phố",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Chi cục Thuế Thương mại điện tử - Cục Thuế, Thuế cơ sở, Chi cục Thuế doanh nghiệp lớn - Cục Thuế, Thuế tỉnh, thành phố"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "+ Bước 1. Người nộp thuế thu nhập doanh nghiệp tính thuế theo phương pháp tỷ lệ % trên doanh thu bán hàng hóa dịch vụ theo quy định của pháp luật về thuế thu nhập doanh nghiệp có phát sinh thu nhập từ hoạt động chuyển nhượng bất động sản, thuế thu nhập doanh nghiệp từ hoạt động bán toàn bộ Công ty TNHH một thành viên do tổ chức làm chủ sở hữu dưới hình thức chuyển nhượng vốn có gắn với bất động sản chuẩn bị số liệu, lập hồ sơ khai thuế theo lần phát sinh và gửi đến cơ quan thuế nơi có bất động sản được chuyển nhượng chậm nhất là ngày thứ 10 kể từ ngày phát sinh nghĩa vụ thuế.\nTrường hợp người nộp thuế gửi hồ sơ qua giao dịch điện tử: Người nộp thuế (NNT) truy cập vào Cổng thông tin điện tử mà người nộp thuế lựa chọn (Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính/Cổng thông tin điện tử của cơ quan nhà nước có thẩm quyền bao gồm: Cổng dịch vụ công quốc gia, Cổng dịch vụ công cấp Bộ, cấp tỉnh theo quy định về thực hiện cơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính và đã được kết nối với Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính/ (sau đây gọi là Cổng thông tin điện tử của cơ quan nhà nước có thẩm quyền)/Cổng thông tin của tổ chức cung cấp dịch vụ T-VAN) để khai hồ sơ khai thuế và các phụ lục đính kèm theo quy định dưới dạng điện tử (nếu có), ký điện tử và gửi đến cơ quan thuế qua Cổng thông tin điện tử mà người nộp thuế lựa chọn.\n+ Bước 2. Cơ quan thuế tiếp nhận:\n++ Trường hợp hồ sơ được nộp trực tiếp tại cơ quan thuế hoặc được gửi qua đường bưu chính: cơ quan thuế thực hiện tiếp nhận hồ sơ theo quy định.\n\t++ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận, kiểm tra, chấp nhận, giải quyết hồ sơ thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế:\n+++ Tiếp nhận hồ sơ: Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính gửi thông báo tiếp nhận việc NNT đã nộp hồ sơ hoặc thông báo lý do không tiếp nhận hồ sơ cho NNT qua Cổng thông tin điện tử mà người nộp thuế lựa chọn lập và gửi hồ sơ (Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính/Cổng thông tin điện tử của cơ quan nhà nước có thẩm quyền hoặc tổ chức cung cấp dịch vụ T-VAN) chậm nhất 15 phút kể từ khi nhận được hồ sơ khai thuế điện tử của người nộp thuế.\n+++ Kiểm tra, giải quyết hồ sơ: Cơ quan thuế thực hiện kiểm tra, giải quyết hồ sơ khai thuế của NNT theo quy định của Luật Quản lý thuế và các văn bản hướng dẫn thi hành:\nCơ quan thuế gửi thông báo chấp nhận/không chấp nhận hồ sơ đến Cổng thông tin điện tử mà NNT lựa chọn lập và gửi hồ sơ (Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính/Cổng thông tin điện tử của cơ quan nhà nước có thẩm quyền hoặc tổ chức cung cấp dịch vụ T-VAN) chậm nhất 01 ngày làm việc kể từ ngày ghi trên thông báo tiếp nhận nộp hồ sơ khai thuế điện tử.\n",
+      "description": "+ Bước 1. Người nộp thuế thu nhập doanh nghiệp tính thuế theo phương pháp tỷ lệ % trên doanh thu bán hàng hóa dịch vụ theo quy định của pháp luật về thuế thu nhập doanh nghiệp có phát sinh thu nhập từ hoạt động chuyển nhượng bất động sản, thuế thu nhập doanh nghiệp từ hoạt động bán toàn bộ Công ty TNHH một thành viên do tổ chức làm chủ sở hữu dưới hình thức chuyển nhượng vốn có gắn với bất động sản chuẩn bị số liệu, lập hồ sơ khai thuế theo lần phát sinh và gửi đến cơ quan thuế nơi có bất động sản được chuyển nhượng chậm nhất là ngày thứ 10 kể từ ngày phát sinh nghĩa vụ thuế.\nTrường hợp người nộp thuế gửi hồ sơ qua giao dịch điện tử: Người nộp thuế (NNT) truy cập vào Cổng thông tin điện tử mà người nộp thuế lựa chọn (Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính/Cổng thông tin điện tử của cơ quan nhà nước có thẩm quyền bao gồm: Cổng dịch vụ công quốc gia, Cổng dịch vụ công cấp Bộ, cấp tỉnh theo quy định về thực hiện cơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính và đã được kết nối với Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính/ (sau đây gọi là Cổng thông tin điện tử của cơ quan nhà nước có thẩm quyền)/Cổng thông tin của tổ chức cung cấp dịch vụ T-VAN) để khai hồ sơ khai thuế và các phụ lục đính kèm theo quy định dưới dạng điện tử (nếu có), ký điện tử và gửi đến cơ quan thuế qua Cổng thông tin điện tử mà người nộp thuế lựa chọn.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "+ Bước 2. Cơ quan thuế tiếp nhận:\n++ Trường hợp hồ sơ được nộp trực tiếp tại cơ quan thuế hoặc được gửi qua đường bưu chính: cơ quan thuế thực hiện tiếp nhận hồ sơ theo quy định.\n\t++ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận, kiểm tra, chấp nhận, giải quyết hồ sơ thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế:\n+++ Tiếp nhận hồ sơ: Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính gửi thông báo tiếp nhận việc NNT đã nộp hồ sơ hoặc thông báo lý do không tiếp nhận hồ sơ cho NNT qua Cổng thông tin điện tử mà người nộp thuế lựa chọn lập và gửi hồ sơ (Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính/Cổng thông tin điện tử của cơ quan nhà nước có thẩm quyền hoặc tổ chức cung cấp dịch vụ T-VAN) chậm nhất 15 phút kể từ khi nhận được hồ sơ khai thuế điện tử của người nộp thuế.\n+++ Kiểm tra, giải quyết hồ sơ: Cơ quan thuế thực hiện kiểm tra, giải quyết hồ sơ khai thuế của NNT theo quy định của Luật Quản lý thuế và các văn bản hướng dẫn thi hành:\nCơ quan thuế gửi thông báo chấp nhận/không chấp nhận hồ sơ đến Cổng thông tin điện tử mà NNT lựa chọn lập và gửi hồ sơ (Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính/Cổng thông tin điện tử của cơ quan nhà nước có thẩm quyền hoặc tổ chức cung cấp dịch vụ T-VAN) chậm nhất 01 ngày làm việc kể từ ngày ghi trên thông báo tiếp nhận nộp hồ sơ khai thuế điện tử.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Tờ khai thuế thu nhập doanh nghiệp (áp dụng đối với hoạt động chuyển nhượng bất động sản theo từng lần phát sinh) theo mẫu số 02/TNDN ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)",
-        "code": "G12.0001179",
+        "name": "Khai thuế thu nhập doanh nghiệp đối với hoạt động chuyển nhượng bất động sản, tài sản khác theo từng lần phát sinh:: Tờ khai thuế thu nhập doanh nghiệp (áp dụng đối với hoạt động chuyển nhượng bất động sản theo từng lần phát sinh) theo mẫu số 02/TNDN ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Khai thuế thu nhập doanh nghiệp đối với hoạt động chuyển nhượng bất động sản, tài sản khác theo từng lần phát sinh: ",
-        "attachments": [
-          {
-            "id": "019e63be-7155-7752-8a08-1bb9c1c04bd0",
-            "name": "02 TNDN.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "02 TNDN.docx",
+        "source_page": 2
       },
       {
-        "name": "Tờ khai thuế thu nhập doanh nghiệp (áp dụng đối với hoạt động bán toàn bộ Công ty TNHH một thành viên do tổ chức làm chủ sở hữu dưới hình thức chuyển nhượng vốn có gắn với bất động sản) theo mẫu số 06/TNDN ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)",
-        "code": "G12.0001180",
+        "name": "Khai thuế thu nhập doanh nghiệp từ hoạt động bán toàn bộ Công ty TNHH một thành viên do tổ chức làm chủ sở hữu dưới hình thức chuyển nhượng vốn có gắn với bất động sản theo từng lần phát sinh:: Tờ khai thuế thu nhập doanh nghiệp (áp dụng đối với hoạt động bán toàn bộ Công ty TNHH một thành viên do tổ chức làm chủ sở hữu dưới hình thức chuyển nhượng vốn có gắn với bất động sản) theo mẫu số 06/TNDN ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Khai thuế thu nhập doanh nghiệp từ hoạt động bán toàn bộ Công ty TNHH một thành viên do tổ chức làm chủ sở hữu dưới hình thức chuyển nhượng vốn có gắn với bất động sản theo từng lần phát sinh: ",
-        "attachments": [
-          {
-            "id": "019e63bf-b40c-7456-a7be-dd66daae5da6",
-            "name": "06 TNDN.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "06 TNDN.docx",
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -94,87 +73,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "Không phải trả kết quả cho người nộp thuế",
-      "processing_time_value": "Không phải trả kết quả cho người nộp thuế",
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Qua Cổng dịch vụ công Quốc gia hoặc Ứng dụng định danh quốc gia theo quy định về thực hiện cơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính ",
-      "source_page": null
+      "fee": "0",
+      "description": "Qua Cổng dịch vụ công Quốc gia hoặc Ứng dụng định danh quốc gia theo quy định về thực hiện cơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính",
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "Không phải trả kết quả cho người nộp thuế",
-      "processing_time_value": "Không phải trả kết quả cho người nộp thuế",
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Thông qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ, qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "Không phải trả kết quả cho người nộp thuế",
-      "processing_time_value": "Không phải trả kết quả cho người nộp thuế",
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Tại Trung tâm phục vụ hành chính công cấp tỉnh, xã",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -182,80 +126,67 @@
     {
       "title": "Thông tư sửa đổi, bổ sung một số điều của Thông tư số 80/2021/TT-BTC ngày 29 tháng 9 năm 2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế và sửa đổi, bổ sung một số mẫu biểu của Thông tư số 40/2021/TT-BTC ngày 01 tháng 6 năm 2021 của Bộ Tài chính hướng dẫn thuế giá trị gia tăng, thuế thu nhập cá nhân và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh",
       "document_number": "94/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4f-76aad3b97074",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật Quản lý thuế",
       "document_number": "38/2019/QH14",
-      "id": "019d2bb3-5d85-73da-8eb9-e5214fd5ac79",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định 126/2020/NĐ-CP",
       "document_number": "126/2020/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a63e-9e72cf1f3ed4",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
       "document_number": "118/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định số 122/2025/NĐ-CP của Chính phủ: Quy định về phân quyền, phân cấp trong lĩnh vực quản lý thuế",
       "document_number": "122/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-bbc5555242d9",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật số 56/2024/QH15 của Quốc hội: Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính",
       "document_number": "56/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b673-8c498fc98ef5",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư 80/2021/TT-BTC",
       "document_number": "80/2021/TT-BTC",
-      "id": "019d2bb3-5d87-7195-a446-0e6dcc708401",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư số 40/2025/TT-BTC Sửa đổi, bổ sung một số điều của các Thông tư thuộc lĩnh vực quản lý thuế để phân định thẩm quyền của chính quyền địa phương theo mô hình tổ chức chính quyền địa phương 02 cấp",
       "document_number": "40/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4d-44a3539f8eba",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "sửa đổi một số điều của Thông tư 19/2021/TT-BTC ngày 18/3/2021 của Bộ trưởng Bộ Tài chính hướng dẫn giao dịch điện tử trong lĩnh vực thuế",
       "document_number": "46/2024/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4d-9f8629ebc27d",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định số 373/2025/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế",
       "document_number": "373/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46d-4a90f05e7041",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Nghị định số 91/2022/NĐ-CP sửa đổi bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế",
       "document_number": "91/2022/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b472-a31220f95d4a",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật số 67/2025/QH15 của Quốc hội: Luật Thuế thu nhập doanh nghiệp",
       "document_number": "67/2025/QH15",
-      "id": "019d2bb3-5d87-7195-a444-9cb9fea5d387",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Thông tư số 80/2021/TT-BTC ngày 29 tháng 9 năm 2021 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế",
-      "document_number": "21/2026/TT-BTC ",
-      "id": "019e5d38-535f-7184-80e0-07e7873b67bf",
-      "source_page": null
+      "document_number": "21/2026/TT-BTC",
+      "source_page": 5
     }
   ],
   "conditions": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng các quy định của pháp luật về giao dịch điện tử đồng thời đăng ký và đảm bảo đầy đủ các điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế theo quy định tại Thông tư số 19/2021/TT-BTC ngày 18/3/2021 và Thông tư số 46/2024/TT-BTC ngày 09/07/2024 sửa đổi, bổ sung một số điều của Thông tư số 19/2021/TT-BTC ngày 18/3/2021 hướng dẫn giao dịch điện tử trong lĩnh vực thuế của Bộ Tài chính.",
@@ -263,15 +194,14 @@
     {
       "title": "Hồ sơ gửi đến cơ quan thuế không có kết quả giải quyết",
       "code": "KQ.G12.000429",
-      "id": "019d2bb2-1c70-724b-96e1-59c6a510ec9f",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1. Người nộp thuế thu nhập doanh nghiệp tính thuế theo phương pháp tỷ lệ % trên doanh thu bán hàng hóa dịch vụ theo quy định của pháp luật về thuế thu nhập doanh nghiệp có phát sinh thu nhập từ hoạt động chuyển nhượng bất động sản, thuế thu nhập doanh nghiệp từ hoạt động bán toàn bộ Công ty TNHH một thành viên do tổ chức làm chủ sở hữu dưới hình thức chuyển nhượng vốn có gắn với bất động sản chuẩn bị số liệu, lập hồ sơ khai thuế theo lần phát sinh và gửi đến cơ quan thuế nơi có bất động sản được chuyển nhượng chậm nhất là ngày thứ 10 kể từ ngày phát sinh nghĩa vụ thuế.\nTrường hợp người nộp thuế gửi hồ sơ qua giao dịch điện tử: Người nộp thuế (NNT) truy cập vào Cổng thông tin điện tử mà người nộp thuế lựa chọn (Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính/Cổng thông tin điện tử của cơ quan nhà nước có thẩm quyền bao gồm: Cổng dịch vụ công quốc gia, Cổng dịch vụ công cấp Bộ, cấp tỉnh theo quy định về thực hiện cơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính và đã được kết nối với Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính/ (sau đây gọi là Cổng thông tin điện tử của cơ quan nhà nước có thẩm quyền)/Cổng thông tin của tổ chức cung cấp dịch vụ T-VAN) để khai hồ sơ khai thuế và các phụ lục đính kèm theo quy định dưới dạng điện tử (nếu có), ký điện tử và gửi đến cơ quan thuế qua Cổng thông tin điện tử mà người nộp thuế lựa chọn.\n+ Bước 2. Cơ quan thuế tiếp nhận:\n++ Trường hợp hồ sơ được nộp trực tiếp tại cơ quan thuế hoặc được gửi qua đường bưu chính: cơ quan thuế thực hiện tiếp nhận hồ sơ theo quy định.\n\t++ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận, kiểm tra, chấp nhận, giải quyết hồ sơ thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế:\n+++ Tiếp nhận hồ sơ: Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính gửi thông báo tiếp nhận việc NNT đã nộp hồ sơ hoặc thông báo lý do không tiếp nhận hồ sơ cho NNT qua Cổng thông tin điện tử mà người nộp thuế lựa chọn lập và gửi hồ sơ (Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính/Cổng thông tin điện tử của cơ quan nhà nước có thẩm quyền hoặc tổ chức cung cấp dịch vụ T-VAN) chậm nhất 15 phút kể từ khi nhận được hồ sơ khai thuế điện tử của người nộp thuế.\n+++ Kiểm tra, giải quyết hồ sơ: Cơ quan thuế thực hiện kiểm tra, giải quyết hồ sơ khai thuế của NNT theo quy định của Luật Quản lý thuế và các văn bản hướng dẫn thi hành:\nCơ quan thuế gửi thông báo chấp nhận/không chấp nhận hồ sơ đến Cổng thông tin điện tử mà NNT lựa chọn lập và gửi hồ sơ (Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính/Cổng thông tin điện tử của cơ quan nhà nước có thẩm quyền hoặc tổ chức cung cấp dịch vụ T-VAN) chậm nhất 01 ngày làm việc kể từ ngày ghi trên thông báo tiếp nhận nộp hồ sơ khai thuế điện tử.\n",
-    "THÀNH PHẦN HỒ SƠ": "Khai thuế thu nhập doanh nghiệp đối với hoạt động chuyển nhượng bất động sản, tài sản khác theo từng lần phát sinh: \nTờ khai thuế thu nhập doanh nghiệp (áp dụng đối với hoạt động chuyển nhượng bất động sản theo từng lần phát sinh) theo mẫu số 02/TNDN ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)\nKhai thuế thu nhập doanh nghiệp từ hoạt động bán toàn bộ Công ty TNHH một thành viên do tổ chức làm chủ sở hữu dưới hình thức chuyển nhượng vốn có gắn với bất động sản theo từng lần phát sinh: \nTờ khai thuế thu nhập doanh nghiệp (áp dụng đối với hoạt động bán toàn bộ Công ty TNHH một thành viên do tổ chức làm chủ sở hữu dưới hình thức chuyển nhượng vốn có gắn với bất động sản) theo mẫu số 06/TNDN ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: Không phải trả kết quả cho người nộp thuế - Qua Cổng dịch vụ công Quốc gia hoặc Ứng dụng định danh quốc gia theo quy định về thực hiện cơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính \nQua dịch vụ bưu chính: Không phải trả kết quả cho người nộp thuế - Thông qua dịch vụ bưu chính công ích theo quy định của Thủ tướng Chính phủ, qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc qua ủy quyền theo quy định của pháp luật\nTrực tiếp: Không phải trả kết quả cho người nộp thuế - Tại Trung tâm phục vụ hành chính công cấp tỉnh, xã",
-    "CĂN CỨ PHÁP LÝ": "Thông tư sửa đổi, bổ sung một số điều của Thông tư số 80/2021/TT-BTC ngày 29 tháng 9 năm 2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế và sửa đổi, bổ sung một số mẫu biểu của Thông tư số 40/2021/TT-BTC ngày 01 tháng 6 năm 2021 của Bộ Tài chính hướng dẫn thuế giá trị gia tăng, thuế thu nhập cá nhân và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh - 94/2025/TT-BTC\nLuật Quản lý thuế - 38/2019/QH14\nNghị định 126/2020/NĐ-CP - 126/2020/NĐ-CP\nNghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nNghị định số 122/2025/NĐ-CP của Chính phủ: Quy định về phân quyền, phân cấp trong lĩnh vực quản lý thuế - 122/2025/NĐ-CP\nLuật số 56/2024/QH15 của Quốc hội: Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính - 56/2024/QH15\nThông tư 80/2021/TT-BTC - 80/2021/TT-BTC\nThông tư số 40/2025/TT-BTC Sửa đổi, bổ sung một số điều của các Thông tư thuộc lĩnh vực quản lý thuế để phân định thẩm quyền của chính quyền địa phương theo mô hình tổ chức chính quyền địa phương 02 cấp - 40/2025/TT-BTC\nsửa đổi một số điều của Thông tư 19/2021/TT-BTC ngày 18/3/2021 của Bộ trưởng Bộ Tài chính hướng dẫn giao dịch điện tử trong lĩnh vực thuế - 46/2024/TT-BTC\nNghị định số 373/2025/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế - 373/2025/NĐ-CP\nNghị định số 91/2022/NĐ-CP sửa đổi bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế - 91/2022/NĐ-CP\nLuật số 67/2025/QH15 của Quốc hội: Luật Thuế thu nhập doanh nghiệp - 67/2025/QH15\nSửa đổi, bổ sung một số điều của Thông tư số 80/2021/TT-BTC ngày 29 tháng 9 năm 2021 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế - 21/2026/TT-BTC ",
+    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1. Người nộp thuế thu nhập doanh nghiệp tính thuế theo phương pháp tỷ lệ % trên doanh thu bán hàng hóa dịch vụ theo quy định của pháp luật về thuế thu nhập doanh nghiệp có phát sinh thu nhập từ hoạt động chuyển nhượng bất động sản, thuế thu nhập doanh nghiệp từ hoạt động bán toàn bộ Công ty TNHH một thành viên do tổ chức làm chủ sở hữu dưới hình thức chuyển nhượng vốn có gắn với bất động sản chuẩn bị số liệu, lập hồ sơ khai thuế theo lần phát sinh và gửi đến cơ quan thuế nơi có bất động sản được chuyển nhượng chậm nhất là ngày thứ 10 kể từ ngày phát sinh nghĩa vụ thuế.\nTrường hợp người nộp thuế gửi hồ sơ qua giao dịch điện tử: Người nộp thuế (NNT) truy cập vào Cổng thông tin điện tử mà người nộp thuế lựa chọn (Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính/Cổng thông tin điện tử của cơ quan nhà nước có thẩm quyền bao gồm: Cổng dịch vụ công quốc gia, Cổng dịch vụ công cấp Bộ, cấp tỉnh theo quy định về thực hiện cơ chế một cửa, một cửa liên thông trong giải quyết thủ tục hành chính và đã được kết nối với Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính/ (sau đây gọi là Cổng thông tin điện tử của cơ quan nhà nước có thẩm quyền)/Cổng thông tin của tổ chức cung cấp dịch vụ T-VAN) để khai hồ sơ khai thuế và các phụ lục đính kèm theo quy định dưới dạng điện tử (nếu có), ký điện tử và gửi đến cơ quan thuế qua Cổng thông tin điện tử mà người nộp thuế lựa chọn.\n+ Bước 2. Cơ quan thuế tiếp nhận:\n++ Trường hợp hồ sơ được nộp trực tiếp tại cơ quan thuế hoặc được gửi qua đường bưu chính: cơ quan thuế thực hiện tiếp nhận hồ sơ theo quy định.\n\t++ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận, kiểm tra, chấp nhận, giải quyết hồ sơ thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế:\n+++ Tiếp nhận hồ sơ: Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính gửi thông báo tiếp nhận việc NNT đã nộp hồ sơ hoặc thông báo lý do không tiếp nhận hồ sơ cho NNT qua Cổng thông tin điện tử mà người nộp thuế lựa chọn lập và gửi hồ sơ (Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính/Cổng thông tin điện tử của cơ quan nhà nước có thẩm quyền hoặc tổ chức cung cấp dịch vụ T-VAN) chậm nhất 15 phút kể từ khi nhận được hồ sơ khai thuế điện tử của người nộp thuế.\n+++ Kiểm tra, giải quyết hồ sơ: Cơ quan thuế thực hiện kiểm tra, giải quyết hồ sơ khai thuế của NNT theo quy định của Luật Quản lý thuế và các văn bản hướng dẫn thi hành:\nCơ quan thuế gửi thông báo chấp nhận/không chấp nhận hồ sơ đến Cổng thông tin điện tử mà NNT lựa chọn lập và gửi hồ sơ (Cổng thông tin điện tử của Cục Thuế/Hệ thống thông tin giải quyết thủ tục hành chính/Cổng thông tin điện tử của cơ quan nhà nước có thẩm quyền hoặc tổ chức cung cấp dịch vụ T-VAN) chậm nhất 01 ngày làm việc kể từ ngày ghi trên thông báo tiếp nhận nộp hồ sơ khai thuế điện tử.",
+    "THÀNH PHẦN HỒ SƠ": "Khai thuế thu nhập doanh nghiệp đối với hoạt động chuyển nhượng bất động sản, tài sản khác theo từng lần phát sinh:: Tờ khai thuế thu nhập doanh nghiệp (áp dụng đối với hoạt động chuyển nhượng bất động sản theo từng lần phát sinh) theo mẫu số 02/TNDN ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)\nKhai thuế thu nhập doanh nghiệp từ hoạt động bán toàn bộ Công ty TNHH một thành viên do tổ chức làm chủ sở hữu dưới hình thức chuyển nhượng vốn có gắn với bất động sản theo từng lần phát sinh:: Tờ khai thuế thu nhập doanh nghiệp (áp dụng đối với hoạt động bán toàn bộ Công ty TNHH một thành viên do tổ chức làm chủ sở hữu dưới hình thức chuyển nhượng vốn có gắn với bất động sản) theo mẫu số 06/TNDN ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: Không phải trả kết quả cho người nộp thuế\nQua dịch vụ bưu chính: Không phải trả kết quả cho người nộp thuế\nTrực tiếp: Không phải trả kết quả cho người nộp thuế",
+    "CĂN CỨ PHÁP LÝ": "Thông tư sửa đổi, bổ sung một số điều của Thông tư số 80/2021/TT-BTC ngày 29 tháng 9 năm 2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế và sửa đổi, bổ sung một số mẫu biểu của Thông tư số 40/2021/TT-BTC ngày 01 tháng 6 năm 2021 của Bộ Tài chính hướng dẫn thuế giá trị gia tăng, thuế thu nhập cá nhân và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh - 94/2025/TT-BTC\nLuật Quản lý thuế - 38/2019/QH14\nNghị định 126/2020/NĐ-CP - 126/2020/NĐ-CP\nNghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nNghị định số 122/2025/NĐ-CP của Chính phủ: Quy định về phân quyền, phân cấp trong lĩnh vực quản lý thuế - 122/2025/NĐ-CP\nLuật số 56/2024/QH15 của Quốc hội: Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính - 56/2024/QH15\nThông tư 80/2021/TT-BTC - 80/2021/TT-BTC\nThông tư số 40/2025/TT-BTC Sửa đổi, bổ sung một số điều của các Thông tư thuộc lĩnh vực quản lý thuế để phân định thẩm quyền của chính quyền địa phương theo mô hình tổ chức chính quyền địa phương 02 cấp - 40/2025/TT-BTC\nsửa đổi một số điều của Thông tư 19/2021/TT-BTC ngày 18/3/2021 của Bộ trưởng Bộ Tài chính hướng dẫn giao dịch điện tử trong lĩnh vực thuế - 46/2024/TT-BTC\nNghị định số 373/2025/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế - 373/2025/NĐ-CP\nNghị định số 91/2022/NĐ-CP sửa đổi bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế - 91/2022/NĐ-CP\nLuật số 67/2025/QH15 của Quốc hội: Luật Thuế thu nhập doanh nghiệp - 67/2025/QH15\nSửa đổi, bổ sung một số điều của Thông tư số 80/2021/TT-BTC ngày 29 tháng 9 năm 2021 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế - 21/2026/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Chi cục Thuế Thương mại điện tử - Cục Thuế, Thuế cơ sở, Chi cục Thuế doanh nghiệp lớn - Cục Thuế, Thuế tỉnh, thành phố",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng các quy định của pháp luật về giao dịch điện tử đồng thời đăng ký và đảm bảo đầy đủ các điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế theo quy định tại Thông tư số 19/2021/TT-BTC ngày 18/3/2021 và Thông tư số 46/2024/TT-BTC ngày 09/07/2024 sửa đổi, bổ sung một số điều của Thông tư số 19/2021/TT-BTC ngày 18/3/2021 hướng dẫn giao dịch điện tử trong lĩnh vực thuế của Bộ Tài chính.",
     "KẾT QUẢ XỬ LÝ": "Hồ sơ gửi đến cơ quan thuế không có kết quả giải quyết - KQ.G12.000429",
@@ -279,11 +209,6 @@
     "MÔ TẢ": "Trường hợp người nộp thuế lựa chọn và gửi hồ sơ đến cơ quan thuế thông qua giao dịch điện tử thì phải tuân thủ đúng các quy định của pháp luật về giao dịch điện tử đồng thời đăng ký và đảm bảo đầy đủ các điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế theo quy định tại Thông tư số 19/2021/TT-BTC ngày 18/3/2021 và Thông tư số 46/2024/TT-BTC ngày 09/07/2024 sửa đổi, bổ sung một số điều của Thông tư số 19/2021/TT-BTC ngày 18/3/2021 hướng dẫn giao dịch điện tử trong lĩnh vực thuế của Bộ Tài chính."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thuế",
       "slug": "thue"
@@ -319,7 +244,7 @@
     "agencies": [
       {
         "name": "Chi cục Thuế Thương mại điện tử - Cục Thuế",
-        "slug": "chi-cuc-thue-thuong-mai-dien-tu-cuc-thue"
+        "slug": "chi-cuc-thue-thuong-mai-ien-tu-cuc-thue"
       },
       {
         "name": "Thuế cơ sở",
@@ -334,6 +259,6 @@
         "slug": "thue-tinh-thanh-pho"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf7-5f92-7388-a217-f036807f7b3b",
   "procedure_code": "1.001327",
   "title": "Cấp lại thẻ bảo hiểm y tế (thực hiện tại cấp trung ương)",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-5f92-7388-a217-f036807f7b3b",
     "source_file": "chi-tiet-thu-tuc-1.001327.pdf",
     "source_path": "procedures/suc-khoe-va-y-te/1.001327/chi-tiet-thu-tuc-1.001327.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:21:59.401234+00:00",
-    "source_updated_at": "2026-05-01T08:15:31.369Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:09.307372+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "d598de95f94518dc3812a73dcd8e4d67a945092b46b5a685c398847091068f10"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:59.401234+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "QĐ/0001-BCA",
   "implementation_level": "Cấp bộ, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Chính sách",
   "target_users": [
@@ -38,81 +33,63 @@
   ],
   "agency": {
     "competent_agency": "Công an tỉnh; Bảo hiểm xã hội cấp Tỉnh",
-    "executing_agency": "Bảo hiểm xã hội tỉnh, Công an tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "tại đơn vị Công an nơi quản lý trực tiếp sĩ quan, hạ sĩ quan, chiến sĩ nghĩa vụ đại diện cho thân nhân; người lao động làm việc theo hợp đồng lao động, công nhân Công an, công dân tạm tuyển trước khi chính thức được tuyển chọn vào Công an nhân dân.\n"
+    "executing_agency": "Bảo hiểm xã hội tỉnh, Công an tỉnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1:\nSĩ quan, hạ sĩ quan, chiến sĩ nghĩa vụ đại diện cho thân nhân; người lao động làm việc theo hợp đồng lao động, công nhân Công an, công dân tạm tuyển trước khi chính thức được tuyển chọn vào Công an nhân dân có trách nhiệm lập tờ khai tham gia bảo hiểm y tế (mẫu 01-BK, mẫu 02-BK) nộp cho đơn vị quản lý trực tiếp.\nĐơn vị quản lý trực tiếp tập hợp nộp cho cơ quan tổ chức cán bộ thuộc các Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ.\nBước 2: sau khi tiếp nhận bản kê khai cấp thẻ bảo hiểm y tế do đơn vị trực tiếp quản lý chuyển đến, cơ quan tổ chức cán bộ thuộc các Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ có trách nhiệm lập:\n- Danh sách người lao động, học sinh, sinh viên và thân nhân sĩ quan, hạ sĩ quan, chiến sĩ tham gia bảo hiểm y tế (Mẫu 01-DS);\n- Danh sách người lao động đang tham gia bảo hiểm xã hội trong Công an nhân dân có xác nhận của Bảo hiểm xã hội Công an nhân dân (Mẫu 02-DS), nếu có.\nBước 3: cơ quan tổ chức cán bộ thuộc các Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ có trách nhiệm lập hồ sơ đề nghị Bảo hiểm xã hội tỉnh nơi đơn vị đóng quân cấp thẻ bảo hiểm y tế.\nBước 4: Bảo hiểm xã hội tỉnh có trách nhiệm cấp và chuyển thẻ bảo hiểm y tế về các Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ để chuyển thẻ cho các đối tượng được cấp.\n",
+      "description": "Bước 1:\nSĩ quan, hạ sĩ quan, chiến sĩ nghĩa vụ đại diện cho thân nhân; người lao động làm việc theo hợp đồng lao động, công nhân Công an, công dân tạm tuyển trước khi chính thức được tuyển chọn vào Công an nhân dân có trách nhiệm lập tờ khai tham gia bảo hiểm y tế (mẫu 01-BK, mẫu 02-BK) nộp cho đơn vị quản lý trực tiếp.\nĐơn vị quản lý trực tiếp tập hợp nộp cho cơ quan tổ chức cán bộ thuộc các Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: sau khi tiếp nhận bản kê khai cấp thẻ bảo hiểm y tế do đơn vị trực tiếp quản lý chuyển đến, cơ quan tổ chức cán bộ thuộc các Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ có trách nhiệm lập:\n- Danh sách người lao động, học sinh, sinh viên và thân nhân sĩ quan, hạ sĩ quan, chiến sĩ tham gia bảo hiểm y tế (Mẫu 01-DS);\n- Danh sách người lao động đang tham gia bảo hiểm xã hội trong Công an nhân dân có xác nhận của Bảo hiểm xã hội Công an nhân dân (Mẫu 02-DS), nếu có.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: cơ quan tổ chức cán bộ thuộc các Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ có trách nhiệm lập hồ sơ đề nghị Bảo hiểm xã hội tỉnh nơi đơn vị đóng quân cấp thẻ bảo hiểm y tế.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "Bước 4: Bảo hiểm xã hội tỉnh có trách nhiệm cấp và chuyển thẻ bảo hiểm y tế về các Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ để chuyển thẻ cho các đối tượng được cấp.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "c) Danh sách người lao động đang tham gia bảo hiểm xã hội trong Công an nhân dân (nếu có);",
-        "code": "000.00.00.G01-KQ0697",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dcf4b-5e20-721c-a64c-d1c89dfcf9b0",
-            "name": "Mau02-DS(BHYT).doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau02-DS(BHYT).doc",
+        "source_page": 2
       },
       {
         "name": "b) Danh sách người lao động, học sinh, sinh viên và thân nhân sĩ quan, hạ sĩ quan, chiến sĩ trong Công an nhân dân tham gia bảo hiểm y tế;",
-        "code": "000.00.00.G01-KQ0696",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dcf4b-1e13-733b-8551-66d7712b674b",
-            "name": "Mau01-DS(BHYT).doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau01-DS(BHYT).doc",
+        "source_page": 2
       },
       {
         "name": "d) Văn bản đề nghị cấp thẻ bảo hiểm y tế của Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ",
-        "code": "000.00.00.G01-KQ0726",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dcf4b-b410-710d-91d4-fa06b4ddc1bd",
-            "name": "Mau02-ĐN(BHYT).doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau02-ĐN(BHYT).doc",
+        "source_page": 2
       },
       {
         "name": "a) Tờ khai tham gia bảo hiểm y tế;",
-        "code": "000.00.00.G01-KQ0704",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dcf4a-a551-71ed-afef-53454903bf7c",
-            "name": "Mau01-BK(BHYT).doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau01-BK(BHYT).doc",
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -123,33 +100,22 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 2000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "2.000 đồng/thẻ",
-          "attachment": null
-        }
-      ],
+      "fee": "2.000 đồng/thẻ",
       "description": "",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "2.000 đồng/thẻ",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 2000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "2.000 đồng/thẻ",
-        "attachment": null
+        "amount_text": "2.000 đồng/thẻ",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -157,14 +123,12 @@
     {
       "title": "Hướng dẫn thực hiện bảo hiểm y tế đối với người lao động, học sinh, sinh viên và thân nhân sĩ quan, hạ sĩ quan, chiến sĩ trong Công an nhân dân",
       "document_number": "09/2015/TTLT-BCA-BYT-BTC",
-      "id": "019d2bb3-5d7b-7049-8fc6-109f57eeda31",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Về việc quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí cấp lại và đổi thẻ bảo hiểm y tế",
       "document_number": "19/2010/TT-BTC",
-      "id": "019d2bb3-5d7b-7049-8fc6-59a4a8d9086c",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Đảm bảo đúng đối tượng tham gia bảo hiểm y tế theo quy định tại Điều 3 Thông tư liên tịch số 09/2015/TTLT-BCA-BYT-BTC, ngày 28/12/2015 của Bộ Công an, Bộ Y tế, Bộ Tài chính hướng dẫn thực hiện bảo hiểm y tế đối với người lao động, học sinh, sinh viên và thân nhân sĩ quan, hạ sĩ quan, chiến sĩ trong Công an nhân dân; cụ thể là:\na) Đối tượng do người lao động, Công an đơn vị, địa phương đóng bảo hiểm y tế:\n+ Công dân được tạm tuyển trước khi chính thức được tuyển chọn vào Công an nhân dân;\n+ Công nhân Công an;\n+ Người lao động làm việc theo hợp đồng không xác định thời hạn, hợp đồng có thời hạn từ đủ 3 tháng trở lên.\nb) Đối tượng do ngân sách nhà nước đóng bảo hiểm y tế\nThân nhân sĩ quan, hạ sĩ quan đang công tác, hạ sĩ quan, chiến sĩ nghĩa vụ, học viên Công an nhân dân đang học tập tại các trường trong và ngoài Công an nhân dân hưởng sinh hoạt phí từ ngân sách nhà nước.",
@@ -172,13 +136,12 @@
     {
       "title": "Thẻ bảo hiểm y tế (BHYT)",
       "code": "KQ.G01.000291",
-      "id": "019dcecc-0816-7156-aaee-2bcea22c51ea",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1:\nSĩ quan, hạ sĩ quan, chiến sĩ nghĩa vụ đại diện cho thân nhân; người lao động làm việc theo hợp đồng lao động, công nhân Công an, công dân tạm tuyển trước khi chính thức được tuyển chọn vào Công an nhân dân có trách nhiệm lập tờ khai tham gia bảo hiểm y tế (mẫu 01-BK, mẫu 02-BK) nộp cho đơn vị quản lý trực tiếp.\nĐơn vị quản lý trực tiếp tập hợp nộp cho cơ quan tổ chức cán bộ thuộc các Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ.\nBước 2: sau khi tiếp nhận bản kê khai cấp thẻ bảo hiểm y tế do đơn vị trực tiếp quản lý chuyển đến, cơ quan tổ chức cán bộ thuộc các Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ có trách nhiệm lập:\n- Danh sách người lao động, học sinh, sinh viên và thân nhân sĩ quan, hạ sĩ quan, chiến sĩ tham gia bảo hiểm y tế (Mẫu 01-DS);\n- Danh sách người lao động đang tham gia bảo hiểm xã hội trong Công an nhân dân có xác nhận của Bảo hiểm xã hội Công an nhân dân (Mẫu 02-DS), nếu có.\nBước 3: cơ quan tổ chức cán bộ thuộc các Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ có trách nhiệm lập hồ sơ đề nghị Bảo hiểm xã hội tỉnh nơi đơn vị đóng quân cấp thẻ bảo hiểm y tế.\nBước 4: Bảo hiểm xã hội tỉnh có trách nhiệm cấp và chuyển thẻ bảo hiểm y tế về các Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ để chuyển thẻ cho các đối tượng được cấp.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nc) Danh sách người lao động đang tham gia bảo hiểm xã hội trong Công an nhân dân (nếu có);\nb) Danh sách người lao động, học sinh, sinh viên và thân nhân sĩ quan, hạ sĩ quan, chiến sĩ trong Công an nhân dân tham gia bảo hiểm y tế;\nd) Văn bản đề nghị cấp thẻ bảo hiểm y tế của Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ\na) Tờ khai tham gia bảo hiểm y tế;",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1:\nSĩ quan, hạ sĩ quan, chiến sĩ nghĩa vụ đại diện cho thân nhân; người lao động làm việc theo hợp đồng lao động, công nhân Công an, công dân tạm tuyển trước khi chính thức được tuyển chọn vào Công an nhân dân có trách nhiệm lập tờ khai tham gia bảo hiểm y tế (mẫu 01-BK, mẫu 02-BK) nộp cho đơn vị quản lý trực tiếp.\nĐơn vị quản lý trực tiếp tập hợp nộp cho cơ quan tổ chức cán bộ thuộc các Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ.\nBước 2: sau khi tiếp nhận bản kê khai cấp thẻ bảo hiểm y tế do đơn vị trực tiếp quản lý chuyển đến, cơ quan tổ chức cán bộ thuộc các Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ có trách nhiệm lập:\n- Danh sách người lao động, học sinh, sinh viên và thân nhân sĩ quan, hạ sĩ quan, chiến sĩ tham gia bảo hiểm y tế (Mẫu 01-DS);\n- Danh sách người lao động đang tham gia bảo hiểm xã hội trong Công an nhân dân có xác nhận của Bảo hiểm xã hội Công an nhân dân (Mẫu 02-DS), nếu có.\nBước 3: cơ quan tổ chức cán bộ thuộc các Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ có trách nhiệm lập hồ sơ đề nghị Bảo hiểm xã hội tỉnh nơi đơn vị đóng quân cấp thẻ bảo hiểm y tế.\nBước 4: Bảo hiểm xã hội tỉnh có trách nhiệm cấp và chuyển thẻ bảo hiểm y tế về các Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ để chuyển thẻ cho các đối tượng được cấp.",
+    "THÀNH PHẦN HỒ SƠ": "c) Danh sách người lao động đang tham gia bảo hiểm xã hội trong Công an nhân dân (nếu có);\nb) Danh sách người lao động, học sinh, sinh viên và thân nhân sĩ quan, hạ sĩ quan, chiến sĩ trong Công an nhân dân tham gia bảo hiểm y tế;\nd) Văn bản đề nghị cấp thẻ bảo hiểm y tế của Tổng cục, Bộ Tư lệnh, đơn vị trực thuộc Bộ\na) Tờ khai tham gia bảo hiểm y tế;",
     "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 10 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Hướng dẫn thực hiện bảo hiểm y tế đối với người lao động, học sinh, sinh viên và thân nhân sĩ quan, hạ sĩ quan, chiến sĩ trong Công an nhân dân - 09/2015/TTLT-BCA-BYT-BTC\nVề việc quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí cấp lại và đổi thẻ bảo hiểm y tế - 19/2010/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Bảo hiểm xã hội tỉnh, Công an tỉnh",
@@ -188,11 +151,6 @@
     "MÔ TẢ": "Đảm bảo đúng đối tượng tham gia bảo hiểm y tế theo quy định tại Điều 3 Thông tư liên tịch số 09/2015/TTLT-BCA-BYT-BTC, ngày 28/12/2015 của Bộ Công an, Bộ Y tế, Bộ Tài chính hướng dẫn thực hiện bảo hiểm y tế đối với người lao động, học sinh, sinh viên và thân nhân sĩ quan, hạ sĩ quan, chiến sĩ trong Công an nhân dân; cụ thể là:\na) Đối tượng do người lao động, Công an đơn vị, địa phương đóng bảo hiểm y tế:\n+ Công dân được tạm tuyển trước khi chính thức được tuyển chọn vào Công an nhân dân;\n+ Công nhân Công an;\n+ Người lao động làm việc theo hợp đồng không xác định thời hạn, hợp đồng có thời hạn từ đủ 3 tháng trở lên.\nb) Đối tượng do ngân sách nhà nước đóng bảo hiểm y tế\nThân nhân sĩ quan, hạ sĩ quan đang công tác, hạ sĩ quan, chiến sĩ nghĩa vụ, học viên Công an nhân dân đang học tập tại các trường trong và ngoài Công an nhân dân hưởng sinh hoạt phí từ ngân sách nhà nước."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Sức khỏe và y tế",
-      "slug": "suc-khoe-va-y-te",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Chính sách",
       "slug": "chinh-sach"
@@ -231,6 +189,6 @@
         "slug": "cong-an-tinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019dd46d-72c8-74f9-9cbf-9bb94a7957b3",
   "procedure_code": "1.015007",
   "title": "Thủ tục giải quyết khiếu nại liên quan đến sở hữu công nghiệp",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019dd46d-72c8-74f9-9cbf-9bb94a7957b3",
     "source_file": "chi-tiet-thu-tuc-1.015007.pdf",
     "source_path": "procedures/viec-lam/1.015007/chi-tiet-thu-tuc-1.015007.pdf",
     "page_count": 7,
-    "extracted_at": "2026-07-18T02:22:15.870557+00:00",
-    "source_updated_at": "2026-05-19T09:31:44.915Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:54.108615+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "e35cfd1262cdd98d2b9e1d8f3ab5e47392beff22faccf26859ee8fad398a55b9"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:15.870557+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2113/QĐ-BKHCN",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Sở hữu trí tuệ",
   "target_users": [
@@ -46,72 +42,76 @@
   ],
   "agency": {
     "competent_agency": "Bộ Khoa học và Công nghệ",
-    "executing_agency": "Cục Sở hữu trí tuệ",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Sở hữu trí tuệ"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Tiếp nhận hồ sơ\n- Tổ chức, cá nhân nộp 01 bộ hồ sơ đăng ký thiết kế bố trí đến\nBộ phận một cửa của Bộ Khoa học và Công nghệ;\n- Bộ phận một cửa của Bộ Khoa học và Công nghệ tiếp nhận hồ\nsơ theo quy định tại Điều 40 Thông tư số 10/2026/TT-BKHCN.\n- Bước 2: Thẩm định hình thức\nKiểm tra việc tuân thủ các quy định về hình thức đối với đơn,\ntừ đó đưa ra kết luận đơn có được coi là hợp lệ hay không. Đơn\nđăng ký thiết kế bố trí dẫn được Cục Sở hữu trí tuệ thẩm định\nhình thức trong thời hạn 01 tháng kể từ ngày tiếp nhận đơn theo\nquy định tại Điều 41 Thông tư số 10/2026/TT-BKHCN.\n+ Trong trường hợp đơn hợp lệ hoặc người nộp đơn sửa chữa\nthiếu sót đạt yêu cầu hoặc ý kiến giải trình xác đáng trong thời\nhạn quy định, Cục Sở hữu trí tuệ ra quyết định cấp Giấy chứng\nnhận đăng ký thiết kế bố trí trong thời hạn 01 tháng kể từ ngày\nkết thúc thời hạn tương ứng.\n+ Trong trường hợp đơn không hợp lệ, Cục Sở hữu trí tuệ gửi\ncho người nộp đơn thông báo kết quả thẩm định hình thức trong\nđó nêu rõ dự định từ chối chấp cấp Giấy chứng nhận đăng ký\nthiết kế bố trí, lý do từ chối hoặc thiếu sót của đơn và ấn định\nthời hạn 02 tháng kể từ ngày ra thông báo để người nộp đơn có\ný kiến hoặc sửa chữa thiếu sót\nNếu kết thúc thời hạn quy định tại điểm a khoản này mà người\nnộp đơn không sửa chữa thiếu sót hoặc sửa chữa không đạt yêu\ncầu hoặc không có ý kiến phản đối hoặc có ý kiến phản đối\nnhưng không xác đáng, trong thời hạn 15 ngày làm việc kể từ\nngày kết thúc thời hạn nêu trên, Cục Sở hữu trí tuệ ra quyết định\ntừ chối cấp Giấy chứng nhận đăng ký thiết kế bố trí và gửi cho\nngười nộp đơn;\nXử lý yêu cầu ghi nhận thay đổi người nộp đơn đăng ký thiết\nkế bố trí (nếu có)\n+ Trường hợp yêu cầu không có thiếu sót, Cục Sở hữu trí tuệ ra\nthông báo ghi nhận thay đổi người nộp đơn và công bố trên\nCông báo Sở hữu công nghiệp (trừ trường hợp việc sửa đổi, bổ\nsung đơn được thực hiện trước khi Cục Sở hữu trí tuệ công bố\nđơn hoặc từ chối cấp Giấy chứng nhận đăng ký thiết kế bố trí do\nđơn không hợp lệ về hình thức);\n+ Trường hợp yêu cầu ghi nhận thay đổi người nộp đơn có thiếu\nsót, Cục Sở hữu trí tuệ ra thông báo dự định từ chối ghi nhận\nthay đổi người nộp đơn và ấn định thời hạn 01 tháng kể từ ngày\nra thông báo để người nộp đơn sửa chữa thiếu sót hoặc có ý kiến\nphản đối. Nếu kết thúc thời hạn đã ấn định mà người nộp đơn\nkhông sửa chữa thiếu sót hoặc sửa chữa thiếu sót không đạt yêu\ncầu, không có ý kiến phản đối hoặc ý kiến phản đối nhưng không\nxác đáng, Cục Sở hữu trí tuệ ra thông báo từ chối ghi nhận thay\nđổi người nộp đơn.\nXử lý yêu cầu sửa đổi, bổ sung đơn thiết kế bố trí do người\nnộp đơn chủ động thực hiện (nếu có)\n+ Trường hợp yêu cầu sửa đổi, bổ sung đơn đáp ứng quy định,\nCục Sở hữu trí tuệ ra thông báo chấp nhận yêu cầu sửa đổi, bổ\nsung đơn. Nội dung sửa đổi, bổ sung của đơn được công bố khi\nđơn đăng thiết kế bố trí được công bố theo quy định tại khoản 4\nĐiều 110 của Luật Sở hữu trí tuệ.\n+ Trường hợp yêu cầu sửa đổi, bổ sung đơn không đáp ứng quy\nđịnh, Cục Sở hữu trí tuệ ra thông báo dự định từ chối yêu cầu\nsửa đổi, bổ sung đơn, nêu rõ lý do và ấn định thời hạn 01 tháng\nkể từ ngày ra thông báo để người nộp đơn sửa chữa thiếu sót\nhoặc có ý kiến phản đối. Nếu kết thúc thời hạn đã ấn định mà\nngười nộp đơn không sửa chữa thiếu sót hoặc sửa chữa thiếu sót\nkhông đạt yêu cầu, không có ý kiến phản đối hoặc ý kiến phản\nđối nhưng không xác đáng, Cục Sở hữu trí tuệ ra thông báo từ\nchối yêu cầu sửa đổi, bổ sung đơn.\nXử lý sửa đổi, bổ sung đơn do người nộp đơn thực hiện trên\ncơ sở thông báo kết quả thẩm định của Cục Sở hữu trí tuệ\n(nếu có)\nViệc chấp nhận hoặc từ chối chấp nhận yêu cầu sửa đổi, bổ sung\nđơn của người nộp đơn được Cục Sở hữu trí tuệ thực hiện tại\ncác thông báo kết quả thẩm định hoặc quyết định tương ứng\ntrong quá trình xử lý đơn đăng ký thiết kế bố trí đó.\nXử lý yêu cầu rút đơn đăng ký thiết kế bố trí (nếu có)\n+ Trường hợp yêu cầu rút đơn đáp ứng quy định, Cục Sở hữu trí\ntuệ ra thông báo chấp nhận yêu cầu rút đơn và chấm dứt việc xử\nlý đơn tương ứng;\n+ Trường hợp yêu cầu rút đơn không đáp ứng quy định, Cục Sở\nhữu trí tuệ ra thông báo dự định từ chối yêu cầu rút đơn và ấn\nđịnh thời hạn 01 tháng kể từ ngày ra thông báo để người nộp\nđơn khắc phục thiếu sót. Nếu kết thúc thời hạn đã ấn định mà\nngười nộp đơn không khắc phục thiếu sót hoặc khắc phục thiếu\nsót nhưng không đạt yêu cầu, Cục Sở hữu trí tuệ thông báo từ\nchối yêu cầu rút đơn.\n- Bước 3: Ra quyết định cấp/từ chối cấp Giấy chứng nhận\nđăng ký thiết kế bố trí.\n+ Trong trường hợp Cục Sở hữu trí tuệ gửi cho người nộp đơn\nThông báo dự định cấp Giấy chứng nhận đăng ký thiết kế bố trí,\nnếu người nộp đơn nộp đủ phí, lệ phí theo thời hạn ấn định, Cục\nSở hữu trí tuệ ra Quyết định cấp Giấy chứng nhận đăng ký thiết\nkế bố trí và gửi cho người nộp đơn. Nếu người nộp đơn không\nnộp phí, lệ phí cấp Giấy chứng nhận đăng ký thiết kế bố trí theo\nquy định trong thời hạn ấn định, Cục Sở hữu trí tuệ ra quyết định\ntừ chối cấp Giấy chứng nhận đăng ký thiết kế bố trí và gửi cho\nngười nộp đơn.\n+ Trong trường hợp đơn không hợp lệ, nếu hết thời gian ấn định\ntrong thông báo dự định từ chối chấp nhận đơn mà người nộp\nđơn không sửa chữa thiếu sót hoặc sửa chữa không đạt yêu cầu\nhoặc không có ý kiến phản đối hoặc có ý kiến phản đối nhưng\nkhông xác đáng, Cục Sở hữu trí tuệ ra quyết định từ chối cấp\nGiấy chứng nhận đăng ký thiết kế bố trí và gửi cho người nộp\nđơn.\n- Bước 4: Cấp Giấy chứng nhận đăng ký thiết kế bố trí\nNếu người nộp đơn nộp phí, lệ phí đầy đủ, đúng hạn thì trong\nthời hạn 15 ngày kể từ ngày kết thúc thời hạn tương ứng, Cục\nSở hữu trí tuệ ra quyết định cấp văn bằng bảo hộ, ghi nhận vào\nSổ đăng ký quốc gia về thiết kế bố trí và công bố trên Công báo\nSở hữu công nghiệp.\n- Bước 5: Công bố, đăng bạ quyết định cấp văn bằng bảo hộ.\nĐơn đăng ký thiết kế bố trí được công bố trên Công báo sở hữu\ncông nghiệp theo quy định tại khoản 4 Điều 110 của Luật Sở\nhữu trí tuệ.\nCác thông tin cơ bản về đơn đăng ký thiết kế bố trí và văn bằng\nbảo hộ thiết kế bố trí được công bố trong thời hạn hai tháng kể\ntừ ngày cấp văn bằng bảo hộ.\nQuyết định cấp Giấy chứng nhận đăng ký thiết kế bố trí được\nCục Sở hữu trí tuệ công bố trên Công báo Sở hữu công nghiệp\ntrong thời hạn 60 ngày kể từ ngày ra quyết định và được ghi\nnhận vào Sổ đăng ký quốc gia về sở hữu công nghiệp theo quy\nđịnh.",
+      "description": "- Bước 1: Tiếp nhận hồ sơ\n- Tổ chức, cá nhân nộp 01 bộ hồ sơ đăng ký thiết kế bố trí đến\nBộ phận một cửa của Bộ Khoa học và Công nghệ;\n- Bộ phận một cửa của Bộ Khoa học và Công nghệ tiếp nhận hồ\nsơ theo quy định tại Điều 40 Thông tư số 10/2026/TT-BKHCN.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Thẩm định hình thức\nKiểm tra việc tuân thủ các quy định về hình thức đối với đơn,\ntừ đó đưa ra kết luận đơn có được coi là hợp lệ hay không. Đơn\nđăng ký thiết kế bố trí dẫn được Cục Sở hữu trí tuệ thẩm định\nhình thức trong thời hạn 01 tháng kể từ ngày tiếp nhận đơn theo\nquy định tại Điều 41 Thông tư số 10/2026/TT-BKHCN.\n+ Trong trường hợp đơn hợp lệ hoặc người nộp đơn sửa chữa\nthiếu sót đạt yêu cầu hoặc ý kiến giải trình xác đáng trong thời\nhạn quy định, Cục Sở hữu trí tuệ ra quyết định cấp Giấy chứng\nnhận đăng ký thiết kế bố trí trong thời hạn 01 tháng kể từ ngày\nkết thúc thời hạn tương ứng.\n+ Trong trường hợp đơn không hợp lệ, Cục Sở hữu trí tuệ gửi\ncho người nộp đơn thông báo kết quả thẩm định hình thức trong\nđó nêu rõ dự định từ chối chấp cấp Giấy chứng nhận đăng ký\nthiết kế bố trí, lý do từ chối hoặc thiếu sót của đơn và ấn định\nthời hạn 02 tháng kể từ ngày ra thông báo để người nộp đơn có\ný kiến hoặc sửa chữa thiếu sót\nNếu kết thúc thời hạn quy định tại điểm a khoản này mà người\nnộp đơn không sửa chữa thiếu sót hoặc sửa chữa không đạt yêu\ncầu hoặc không có ý kiến phản đối hoặc có ý kiến phản đối\nnhưng không xác đáng, trong thời hạn 15 ngày làm việc kể từ\nngày kết thúc thời hạn nêu trên, Cục Sở hữu trí tuệ ra quyết định\ntừ chối cấp Giấy chứng nhận đăng ký thiết kế bố trí và gửi cho\nngười nộp đơn;\nXử lý yêu cầu ghi nhận thay đổi người nộp đơn đăng ký thiết\nkế bố trí (nếu có)\n+ Trường hợp yêu cầu không có thiếu sót, Cục Sở hữu trí tuệ ra\nthông báo ghi nhận thay đổi người nộp đơn và công bố trên\nCông báo Sở hữu công nghiệp (trừ trường hợp việc sửa đổi, bổ\nsung đơn được thực hiện trước khi Cục Sở hữu trí tuệ công bố\nđơn hoặc từ chối cấp Giấy chứng nhận đăng ký thiết kế bố trí do\nđơn không hợp lệ về hình thức);\n+ Trường hợp yêu cầu ghi nhận thay đổi người nộp đơn có thiếu\nsót, Cục Sở hữu trí tuệ ra thông báo dự định từ chối ghi nhận\nthay đổi người nộp đơn và ấn định thời hạn 01 tháng kể từ ngày\nra thông báo để người nộp đơn sửa chữa thiếu sót hoặc có ý kiến\nphản đối. Nếu kết thúc thời hạn đã ấn định mà người nộp đơn\nkhông sửa chữa thiếu sót hoặc sửa chữa thiếu sót không đạt yêu\ncầu, không có ý kiến phản đối hoặc ý kiến phản đối nhưng không\nxác đáng, Cục Sở hữu trí tuệ ra thông báo từ chối ghi nhận thay\nđổi người nộp đơn.\nXử lý yêu cầu sửa đổi, bổ sung đơn thiết kế bố trí do người\nnộp đơn chủ động thực hiện (nếu có)\n+ Trường hợp yêu cầu sửa đổi, bổ sung đơn đáp ứng quy định,\nCục Sở hữu trí tuệ ra thông báo chấp nhận yêu cầu sửa đổi, bổ\nsung đơn. Nội dung sửa đổi, bổ sung của đơn được công bố khi\nđơn đăng thiết kế bố trí được công bố theo quy định tại khoản 4\nĐiều 110 của Luật Sở hữu trí tuệ.\n+ Trường hợp yêu cầu sửa đổi, bổ sung đơn không đáp ứng quy\nđịnh, Cục Sở hữu trí tuệ ra thông báo dự định từ chối yêu cầu\nsửa đổi, bổ sung đơn, nêu rõ lý do và ấn định thời hạn 01 tháng\nkể từ ngày ra thông báo để người nộp đơn sửa chữa thiếu sót\nhoặc có ý kiến phản đối. Nếu kết thúc thời hạn đã ấn định mà\nngười nộp đơn không sửa chữa thiếu sót hoặc sửa chữa thiếu sót\nkhông đạt yêu cầu, không có ý kiến phản đối hoặc ý kiến phản\nđối nhưng không xác đáng, Cục Sở hữu trí tuệ ra thông báo từ\nchối yêu cầu sửa đổi, bổ sung đơn.\nXử lý sửa đổi, bổ sung đơn do người nộp đơn thực hiện trên\ncơ sở thông báo kết quả thẩm định của Cục Sở hữu trí tuệ\n(nếu có)\nViệc chấp nhận hoặc từ chối chấp nhận yêu cầu sửa đổi, bổ sung\nđơn của người nộp đơn được Cục Sở hữu trí tuệ thực hiện tại\ncác thông báo kết quả thẩm định hoặc quyết định tương ứng\ntrong quá trình xử lý đơn đăng ký thiết kế bố trí đó.\nXử lý yêu cầu rút đơn đăng ký thiết kế bố trí (nếu có)\n+ Trường hợp yêu cầu rút đơn đáp ứng quy định, Cục Sở hữu trí\ntuệ ra thông báo chấp nhận yêu cầu rút đơn và chấm dứt việc xử\nlý đơn tương ứng;\n+ Trường hợp yêu cầu rút đơn không đáp ứng quy định, Cục Sở\nhữu trí tuệ ra thông báo dự định từ chối yêu cầu rút đơn và ấn\nđịnh thời hạn 01 tháng kể từ ngày ra thông báo để người nộp\nđơn khắc phục thiếu sót. Nếu kết thúc thời hạn đã ấn định mà\nngười nộp đơn không khắc phục thiếu sót hoặc khắc phục thiếu\nsót nhưng không đạt yêu cầu, Cục Sở hữu trí tuệ thông báo từ\nchối yêu cầu rút đơn.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "- Bước 3: Ra quyết định cấp/từ chối cấp Giấy chứng nhận\nđăng ký thiết kế bố trí.\n+ Trong trường hợp Cục Sở hữu trí tuệ gửi cho người nộp đơn\nThông báo dự định cấp Giấy chứng nhận đăng ký thiết kế bố trí,\nnếu người nộp đơn nộp đủ phí, lệ phí theo thời hạn ấn định, Cục\nSở hữu trí tuệ ra Quyết định cấp Giấy chứng nhận đăng ký thiết\nkế bố trí và gửi cho người nộp đơn. Nếu người nộp đơn không\nnộp phí, lệ phí cấp Giấy chứng nhận đăng ký thiết kế bố trí theo\nquy định trong thời hạn ấn định, Cục Sở hữu trí tuệ ra quyết định\ntừ chối cấp Giấy chứng nhận đăng ký thiết kế bố trí và gửi cho\nngười nộp đơn.\n+ Trong trường hợp đơn không hợp lệ, nếu hết thời gian ấn định\ntrong thông báo dự định từ chối chấp nhận đơn mà người nộp\nđơn không sửa chữa thiếu sót hoặc sửa chữa không đạt yêu cầu\nhoặc không có ý kiến phản đối hoặc có ý kiến phản đối nhưng\nkhông xác đáng, Cục Sở hữu trí tuệ ra quyết định từ chối cấp\nGiấy chứng nhận đăng ký thiết kế bố trí và gửi cho người nộp\nđơn.",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "- Bước 4: Cấp Giấy chứng nhận đăng ký thiết kế bố trí\nNếu người nộp đơn nộp phí, lệ phí đầy đủ, đúng hạn thì trong\nthời hạn 15 ngày kể từ ngày kết thúc thời hạn tương ứng, Cục\nSở hữu trí tuệ ra quyết định cấp văn bằng bảo hộ, ghi nhận vào\nSổ đăng ký quốc gia về thiết kế bố trí và công bố trên Công báo\nSở hữu công nghiệp.",
+      "example": null,
+      "source_page": 4
+    },
+    {
+      "order": 5,
+      "title": "Bước 5",
+      "description": "- Bước 5: Công bố, đăng bạ quyết định cấp văn bằng bảo hộ.\nĐơn đăng ký thiết kế bố trí được công bố trên Công báo sở hữu\ncông nghiệp theo quy định tại khoản 4 Điều 110 của Luật Sở\nhữu trí tuệ.\nCác thông tin cơ bản về đơn đăng ký thiết kế bố trí và văn bằng\nbảo hộ thiết kế bố trí được công bố trong thời hạn hai tháng kể\ntừ ngày cấp văn bằng bảo hộ.\nQuyết định cấp Giấy chứng nhận đăng ký thiết kế bố trí được\nCục Sở hữu trí tuệ công bố trên Công báo Sở hữu công nghiệp\ntrong thời hạn 60 ngày kể từ ngày ra quyết định và được ghi\nnhận vào Sổ đăng ký quốc gia về sở hữu công nghiệp theo quy\nđịnh.",
+      "example": null,
+      "source_page": 4
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Đơn giải yêu cầu quyết khiếu nại liên quan đến sở hữu công nghiệp",
-        "code": "TP-G06.19-00033",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dd527-aa87-757c-87dd-b1ed853b1df0",
-            "name": "Don Khieu nai (124_2020_ND-CP) (3).doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Don Khieu nai (124_2020_ND-CP) (3).doc",
+        "source_page": 4
       },
       {
         "name": "Bản sao quyết định hoặc thông báo bị khiếu nại của Cục Sở  hữu trí tuệ và bản sao đơn đăng ký sở hữu công nghiệp là đối  tượng của quyết định hoặc thông báo đó (trong trường hợp  người nộp đơn khiếu nại lần hai); hoặc tài liệu chỉ dẫn thông tin  về các tài liệu nêu trên;",
-        "code": "TP-G06.19-00034",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "Bản sao quyết định giải quyết khiếu nại lần thứ nhất (đối với  khiếu nại lần thứ hai);",
-        "code": "TP-G06.19-00035",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "Văn bản ủy quyền (nếu nộp qua đại diện)",
-        "code": "TP-G06.19-00036",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "Chứng cứ (bằng chứng hoặc vật chứng) dùng để chứng minh,  làm rõ lập luận khiếu nại. Chứng cứ có thể được nộp bổ sung  trong thời hạn 01 tháng kể từ ngày nộp đơn khiếu nại",
-        "code": "TP-G06.19-00037",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       }
     ],
     "normally_required": [],
@@ -122,503 +122,234 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "40 ngày",
-      "processing_time_value": 40,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 600000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí tra cứu thông tin cho mỗi điểm yêu cầu bảo hộ độc lập sáng chế nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 480000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí tra cứu thông tin kiểu dáng công nghiệp nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 180000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí tra cứu thông tin cho mỗi nhóm sản phẩm/dịch vụ mang nhãn hiệu nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 30000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí tra cứu thông tin cho sản phẩm/dịch vụ thứ 7 trong mỗi nhóm sản phâm/dịch vụ mang nhãn hiệu nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 180000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí tra cứu thông tin chỉ dẫn địa lý nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 900000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định để giải quyết khiếu nại cho mỗi điểm yêu cầu bảo hộ độc lập của sáng chế",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 700000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định để giải quyết khiếu nại mỗi phương án của kiểu dáng công nghiệp",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 550000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định để giải quyết khiếu nại cho mỗi nhóm sản phẩm/dịch vụ mang nhãn hiệu",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 120000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định để giải quyết khiếu nại cho mỗi sản phẩm/dịch vụ tử sản phẩm/dịch vụ thứ 7 trong nhóm mang nhãn hiệu",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 1200000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định để giải quyết khiếu nại chỉ dẫn địa lý",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 180000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định để giải quyết khiếu nại thiết kế bố trí",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí tra cứu thông tin cho mỗi điểm yêu cầu bảo hộ độc lập sáng chế nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm; Phí tra cứu thông tin kiểu dáng công nghiệp nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm; Phí tra cứu thông tin cho mỗi nhóm sản phẩm/dịch vụ mang nhãn hiệu nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm; Phí tra cứu thông tin cho sản phẩm/dịch vụ thứ 7 trong mỗi nhóm sản phâm/dịch vụ mang nhãn hiệu nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm; Phí tra cứu thông tin chỉ dẫn địa lý nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm; Phí thẩm định để giải quyết khiếu nại cho mỗi điểm yêu cầu bảo hộ độc lập của sáng chế; Phí thẩm định để giải quyết khiếu nại mỗi phương án của kiểu dáng công nghiệp; Phí thẩm định để giải quyết khiếu nại cho mỗi nhóm sản phẩm/dịch vụ mang nhãn hiệu; Phí thẩm định để giải quyết khiếu nại cho mỗi sản phẩm/dịch vụ tử sản phẩm/dịch vụ thứ 7 trong nhóm mang nhãn hiệu; Phí thẩm định để giải quyết khiếu nại chỉ dẫn địa lý; Phí thẩm định để giải quyết khiếu nại thiết kế bố trí",
       "description": "ngày tiếp nhận hồ sơ;\n- 01 tháng kể từ ngày ra thông báo để người có quyền, lợi ích\nliên quan trực tiếp có ý kiến;\n- 30 ngày kể từ ngày thụ lý; đối với vụ việc phức tạp thì thời hạn\nnày là 45 ngày (đối với khiếu nại lần thứ nhất);\n- 45 ngày kể từ ngày thụ lý; đối với vụ việc phức tạp thì thời hạn\nnày là 60 ngày (đối với khiếu nại lần thứ hai).",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "40 ngày",
-      "processing_time_value": 40,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 600000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Sáng chế (bao gồm cả giải pháp hữu ích): 600.000 đồng (mỗi điểm độc lập của yêu cầu bảo hộ);",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 480000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Kiểu dáng công nghiệp: 480.000 đồng (cho mỗi phương án của từng sản phẩm)",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 180000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Nhãn hiệu: 180.000 đồng (cho mỗi nhóm có đến 6 sản phẩm/dịch vụ), nếu đối tượng tra cứu là nhãn hiệu có trên 6 sản phẩm/dịch vụ trong một nhóm, phải nộp thêm cho mỗi sản phẩm/dịch vụ từ thứ 7 trở đi: 30.000 đồng",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 180000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Chỉ dẫn địa lý (bao gồm cả tên gọi xuất xứ hàng hoá): 180.000 đồng (cho mỗi đơn).",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 700000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Kiểu dáng công nghiệp: 700.000 đồng (mỗi phương án của từng sản phẩm)",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 900000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Sáng chế (bao gồm cả giải pháp hữu ích): 900.000 đồng (mỗi điểm độc lập của yêu cầu bảo hộ)",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 550000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Nhãn hiệu: 550.000 đồng (mỗi nhóm có đến 6 sản phẩm/dịch vụ) nếu đơn nhãn hiệu có trên 6 sản phẩm/dịch vụ trong một nhóm, phải nộp thêm cho mỗi sản phẩm/dịch vụ từ thứ 7 trở đi: 120.000 đồng",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 1200000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Chỉ dẫn địa lý (bao gồm cả tên gọi xuất xứ hàng hoá): 1.200.000 đồng (mỗi đơn)",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 180000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Thiết kế bố trí mạch tích hợp: 180.000 đồng (mỗi đơn)",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Sáng chế (bao gồm cả giải pháp hữu ích): 600.000 đồng (mỗi điểm độc lập của yêu cầu bảo hộ);; Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Kiểu dáng công nghiệp: 480.000 đồng (cho mỗi phương án của từng sản phẩm); Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Nhãn hiệu: 180.000 đồng (cho mỗi nhóm có đến 6 sản phẩm/dịch vụ), nếu đối tượng tra cứu là nhãn hiệu có trên 6 sản phẩm/dịch vụ trong một nhóm, phải nộp thêm cho mỗi sản phẩm/dịch vụ từ thứ 7 trở đi: 30.000 đồng; Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Chỉ dẫn địa lý (bao gồm cả tên gọi xuất xứ hàng hoá): 180.000 đồng (cho mỗi đơn).; Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Kiểu dáng công nghiệp: 700.000 đồng (mỗi phương án của từng sản phẩm); Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Sáng chế (bao gồm cả giải pháp hữu ích): 900.000 đồng (mỗi điểm độc lập của yêu cầu bảo hộ); Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Nhãn hiệu: 550.000 đồng (mỗi nhóm có đến 6 sản phẩm/dịch vụ) nếu đơn nhãn hiệu có trên 6 sản phẩm/dịch vụ trong một nhóm, phải nộp thêm cho mỗi sản phẩm/dịch vụ từ thứ 7 trở đi: 120.000 đồng; Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Chỉ dẫn địa lý (bao gồm cả tên gọi xuất xứ hàng hoá): 1.200.000 đồng (mỗi đơn); Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Thiết kế bố trí mạch tích hợp: 180.000 đồng (mỗi đơn)",
       "description": "",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "40 ngày",
-      "processing_time_value": 40,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 480000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Kiểu dáng công nghiệp: 480.000 đồng (cho mỗi phương án của từng sản phẩm)",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 180000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Nhãn hiệu: 180.000 đồng (cho mỗi nhóm có đến 6 sản phẩm/dịch vụ), nếu đối tượng tra cứu là nhãn hiệu có trên 6 sản phẩm/dịch vụ trong một nhóm, phải nộp thêm cho mỗi sản phẩm/dịch vụ từ thứ 7 trở đi: 30.000 đồng",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 180000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Chỉ dẫn địa lý (bao gồm cả tên gọi xuất xứ hàng hoá): 180.000 đồng (cho mỗi đơn).",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 900000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Sáng chế (bao gồm cả giải pháp hữu ích): 900.000 đồng (mỗi điểm độc lập của yêu cầu bảo hộ)",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 700000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Kiểu dáng công nghiệp: 700.000 đồng (mỗi phương án của từng sản phẩm)",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 550000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Nhãn hiệu: 550.000 đồng (mỗi nhóm có đến 6 sản phẩm/dịch vụ) nếu đơn nhãn hiệu có trên 6 sản phẩm/dịch vụ trong một nhóm, phải nộp thêm cho mỗi sản phẩm/dịch vụ từ thứ 7 trở đi: 120.000 đồng",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 1200000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Chỉ dẫn địa lý (bao gồm cả tên gọi xuất xứ hàng hoá): 1.200.000 đồng (mỗi đơn)",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 180000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Thiết kế bố trí mạch tích hợp: 180.000 đồng (mỗi đơn)",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 600000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Sáng chế (bao gồm cả giải pháp hữu ích): 600.000 đồng (mỗi điểm độc lập của yêu cầu bảo hộ);",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Kiểu dáng công nghiệp: 480.000 đồng (cho mỗi phương án của từng sản phẩm); Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Nhãn hiệu: 180.000 đồng (cho mỗi nhóm có đến 6 sản phẩm/dịch vụ), nếu đối tượng tra cứu là nhãn hiệu có trên 6 sản phẩm/dịch vụ trong một nhóm, phải nộp thêm cho mỗi sản phẩm/dịch vụ từ thứ 7 trở đi: 30.000 đồng; Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Chỉ dẫn địa lý (bao gồm cả tên gọi xuất xứ hàng hoá): 180.000 đồng (cho mỗi đơn).; Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Sáng chế (bao gồm cả giải pháp hữu ích): 900.000 đồng (mỗi điểm độc lập của yêu cầu bảo hộ); Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Kiểu dáng công nghiệp: 700.000 đồng (mỗi phương án của từng sản phẩm); Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Nhãn hiệu: 550.000 đồng (mỗi nhóm có đến 6 sản phẩm/dịch vụ) nếu đơn nhãn hiệu có trên 6 sản phẩm/dịch vụ trong một nhóm, phải nộp thêm cho mỗi sản phẩm/dịch vụ từ thứ 7 trở đi: 120.000 đồng; Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Chỉ dẫn địa lý (bao gồm cả tên gọi xuất xứ hàng hoá): 1.200.000 đồng (mỗi đơn); Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Thiết kế bố trí mạch tích hợp: 180.000 đồng (mỗi đơn); Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Sáng chế (bao gồm cả giải pháp hữu ích): 600.000 đồng (mỗi điểm độc lập của yêu cầu bảo hộ);",
       "description": "",
       "source_page": null
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Phí tra cứu thông tin cho mỗi điểm yêu cầu bảo hộ độc lập sáng chế nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm; Phí tra cứu thông tin kiểu dáng công nghiệp nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm; Phí tra cứu thông tin cho mỗi nhóm sản phẩm/dịch vụ mang nhãn hiệu nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm; Phí tra cứu thông tin cho sản phẩm/dịch vụ thứ 7 trong mỗi nhóm sản phâm/dịch vụ mang nhãn hiệu nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm; Phí tra cứu thông tin chỉ dẫn địa lý nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm; Phí thẩm định để giải quyết khiếu nại cho mỗi điểm yêu cầu bảo hộ độc lập của sáng chế; Phí thẩm định để giải quyết khiếu nại mỗi phương án của kiểu dáng công nghiệp; Phí thẩm định để giải quyết khiếu nại cho mỗi nhóm sản phẩm/dịch vụ mang nhãn hiệu; Phí thẩm định để giải quyết khiếu nại cho mỗi sản phẩm/dịch vụ tử sản phẩm/dịch vụ thứ 7 trong nhóm mang nhãn hiệu; Phí thẩm định để giải quyết khiếu nại chỉ dẫn địa lý; Phí thẩm định để giải quyết khiếu nại thiết kế bố trí; Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Sáng chế (bao gồm cả giải pháp hữu ích): 600.000 đồng (mỗi điểm độc lập của yêu cầu bảo hộ);; Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Kiểu dáng công nghiệp: 480.000 đồng (cho mỗi phương án của từng sản phẩm); Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Nhãn hiệu: 180.000 đồng (cho mỗi nhóm có đến 6 sản phẩm/dịch vụ), nếu đối tượng tra cứu là nhãn hiệu có trên 6 sản phẩm/dịch vụ trong một nhóm, phải nộp thêm cho mỗi sản phẩm/dịch vụ từ thứ 7 trở đi: 30.000 đồng; Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Chỉ dẫn địa lý (bao gồm cả tên gọi xuất xứ hàng hoá): 180.000 đồng (cho mỗi đơn).; Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Kiểu dáng công nghiệp: 700.000 đồng (mỗi phương án của từng sản phẩm); Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Sáng chế (bao gồm cả giải pháp hữu ích): 900.000 đồng (mỗi điểm độc lập của yêu cầu bảo hộ); Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Nhãn hiệu: 550.000 đồng (mỗi nhóm có đến 6 sản phẩm/dịch vụ) nếu đơn nhãn hiệu có trên 6 sản phẩm/dịch vụ trong một nhóm, phải nộp thêm cho mỗi sản phẩm/dịch vụ từ thứ 7 trở đi: 120.000 đồng; Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Chỉ dẫn địa lý (bao gồm cả tên gọi xuất xứ hàng hoá): 1.200.000 đồng (mỗi đơn); Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Thiết kế bố trí mạch tích hợp: 180.000 đồng (mỗi đơn)",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 600000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí tra cứu thông tin cho mỗi điểm yêu cầu bảo hộ độc lập sáng chế nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm",
-        "attachment": null
+        "amount_text": "Phí tra cứu thông tin cho mỗi điểm yêu cầu bảo hộ độc lập sáng chế nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 480000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí tra cứu thông tin kiểu dáng công nghiệp nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm",
-        "attachment": null
+        "amount_text": "Phí tra cứu thông tin kiểu dáng công nghiệp nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 180000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí tra cứu thông tin cho mỗi nhóm sản phẩm/dịch vụ mang nhãn hiệu nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm",
-        "attachment": null
+        "amount_text": "Phí tra cứu thông tin cho mỗi nhóm sản phẩm/dịch vụ mang nhãn hiệu nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 30000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí tra cứu thông tin cho sản phẩm/dịch vụ thứ 7 trong mỗi nhóm sản phâm/dịch vụ mang nhãn hiệu nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm",
-        "attachment": null
+        "amount_text": "Phí tra cứu thông tin cho sản phẩm/dịch vụ thứ 7 trong mỗi nhóm sản phâm/dịch vụ mang nhãn hiệu nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 180000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí tra cứu thông tin chỉ dẫn địa lý nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm",
-        "attachment": null
+        "amount_text": "Phí tra cứu thông tin chỉ dẫn địa lý nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 900000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định để giải quyết khiếu nại cho mỗi điểm yêu cầu bảo hộ độc lập của sáng chế",
-        "attachment": null
+        "amount_text": "Phí thẩm định để giải quyết khiếu nại cho mỗi điểm yêu cầu bảo hộ độc lập của sáng chế",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 700000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định để giải quyết khiếu nại mỗi phương án của kiểu dáng công nghiệp",
-        "attachment": null
+        "amount_text": "Phí thẩm định để giải quyết khiếu nại mỗi phương án của kiểu dáng công nghiệp",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 550000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định để giải quyết khiếu nại cho mỗi nhóm sản phẩm/dịch vụ mang nhãn hiệu",
-        "attachment": null
+        "amount_text": "Phí thẩm định để giải quyết khiếu nại cho mỗi nhóm sản phẩm/dịch vụ mang nhãn hiệu",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 120000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định để giải quyết khiếu nại cho mỗi sản phẩm/dịch vụ tử sản phẩm/dịch vụ thứ 7 trong nhóm mang nhãn hiệu",
-        "attachment": null
+        "amount_text": "Phí thẩm định để giải quyết khiếu nại cho mỗi sản phẩm/dịch vụ tử sản phẩm/dịch vụ thứ 7 trong nhóm mang nhãn hiệu",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 1200000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định để giải quyết khiếu nại chỉ dẫn địa lý",
-        "attachment": null
+        "amount_text": "Phí thẩm định để giải quyết khiếu nại chỉ dẫn địa lý",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 180000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định để giải quyết khiếu nại thiết kế bố trí",
-        "attachment": null
+        "amount_text": "Phí thẩm định để giải quyết khiếu nại thiết kế bố trí",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 600000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Sáng chế (bao gồm cả giải pháp hữu ích): 600.000 đồng (mỗi điểm độc lập của yêu cầu bảo hộ);",
-        "attachment": null
+        "amount_text": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Sáng chế (bao gồm cả giải pháp hữu ích): 600.000 đồng (mỗi điểm độc lập của yêu cầu bảo hộ);",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 480000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Kiểu dáng công nghiệp: 480.000 đồng (cho mỗi phương án của từng sản phẩm)",
-        "attachment": null
+        "amount_text": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Kiểu dáng công nghiệp: 480.000 đồng (cho mỗi phương án của từng sản phẩm)",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 180000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Nhãn hiệu: 180.000 đồng (cho mỗi nhóm có đến 6 sản phẩm/dịch vụ), nếu đối tượng tra cứu là nhãn hiệu có trên 6 sản phẩm/dịch vụ trong một nhóm, phải nộp thêm cho mỗi sản phẩm/dịch vụ từ thứ 7 trở đi: 30.000 đồng",
-        "attachment": null
+        "amount_text": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Nhãn hiệu: 180.000 đồng (cho mỗi nhóm có đến 6 sản phẩm/dịch vụ), nếu đối tượng tra cứu là nhãn hiệu có trên 6 sản phẩm/dịch vụ trong một nhóm, phải nộp thêm cho mỗi sản phẩm/dịch vụ từ thứ 7 trở đi: 30.000 đồng",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 180000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Chỉ dẫn địa lý (bao gồm cả tên gọi xuất xứ hàng hoá): 180.000 đồng (cho mỗi đơn).",
-        "attachment": null
+        "amount_text": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Chỉ dẫn địa lý (bao gồm cả tên gọi xuất xứ hàng hoá): 180.000 đồng (cho mỗi đơn).",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 700000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Kiểu dáng công nghiệp: 700.000 đồng (mỗi phương án của từng sản phẩm)",
-        "attachment": null
+        "amount_text": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Kiểu dáng công nghiệp: 700.000 đồng (mỗi phương án của từng sản phẩm)",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 900000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Sáng chế (bao gồm cả giải pháp hữu ích): 900.000 đồng (mỗi điểm độc lập của yêu cầu bảo hộ)",
-        "attachment": null
+        "amount_text": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Sáng chế (bao gồm cả giải pháp hữu ích): 900.000 đồng (mỗi điểm độc lập của yêu cầu bảo hộ)",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 550000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Nhãn hiệu: 550.000 đồng (mỗi nhóm có đến 6 sản phẩm/dịch vụ) nếu đơn nhãn hiệu có trên 6 sản phẩm/dịch vụ trong một nhóm, phải nộp thêm cho mỗi sản phẩm/dịch vụ từ thứ 7 trở đi: 120.000 đồng",
-        "attachment": null
+        "amount_text": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Nhãn hiệu: 550.000 đồng (mỗi nhóm có đến 6 sản phẩm/dịch vụ) nếu đơn nhãn hiệu có trên 6 sản phẩm/dịch vụ trong một nhóm, phải nộp thêm cho mỗi sản phẩm/dịch vụ từ thứ 7 trở đi: 120.000 đồng",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 1200000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Chỉ dẫn địa lý (bao gồm cả tên gọi xuất xứ hàng hoá): 1.200.000 đồng (mỗi đơn)",
-        "attachment": null
+        "amount_text": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Chỉ dẫn địa lý (bao gồm cả tên gọi xuất xứ hàng hoá): 1.200.000 đồng (mỗi đơn)",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 180000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Thiết kế bố trí mạch tích hợp: 180.000 đồng (mỗi đơn)",
-        "attachment": null
+        "amount_text": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Thiết kế bố trí mạch tích hợp: 180.000 đồng (mỗi đơn)",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 480000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Kiểu dáng công nghiệp: 480.000 đồng (cho mỗi phương án của từng sản phẩm)",
-        "attachment": null
+        "amount_text": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Kiểu dáng công nghiệp: 480.000 đồng (cho mỗi phương án của từng sản phẩm)",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 180000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Nhãn hiệu: 180.000 đồng (cho mỗi nhóm có đến 6 sản phẩm/dịch vụ), nếu đối tượng tra cứu là nhãn hiệu có trên 6 sản phẩm/dịch vụ trong một nhóm, phải nộp thêm cho mỗi sản phẩm/dịch vụ từ thứ 7 trở đi: 30.000 đồng",
-        "attachment": null
+        "amount_text": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Nhãn hiệu: 180.000 đồng (cho mỗi nhóm có đến 6 sản phẩm/dịch vụ), nếu đối tượng tra cứu là nhãn hiệu có trên 6 sản phẩm/dịch vụ trong một nhóm, phải nộp thêm cho mỗi sản phẩm/dịch vụ từ thứ 7 trở đi: 30.000 đồng",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 180000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Chỉ dẫn địa lý (bao gồm cả tên gọi xuất xứ hàng hoá): 180.000 đồng (cho mỗi đơn).",
-        "attachment": null
+        "amount_text": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Chỉ dẫn địa lý (bao gồm cả tên gọi xuất xứ hàng hoá): 180.000 đồng (cho mỗi đơn).",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 900000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Sáng chế (bao gồm cả giải pháp hữu ích): 900.000 đồng (mỗi điểm độc lập của yêu cầu bảo hộ)",
-        "attachment": null
+        "amount_text": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Sáng chế (bao gồm cả giải pháp hữu ích): 900.000 đồng (mỗi điểm độc lập của yêu cầu bảo hộ)",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 700000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Kiểu dáng công nghiệp: 700.000 đồng (mỗi phương án của từng sản phẩm)",
-        "attachment": null
+        "amount_text": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Kiểu dáng công nghiệp: 700.000 đồng (mỗi phương án của từng sản phẩm)",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 550000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Nhãn hiệu: 550.000 đồng (mỗi nhóm có đến 6 sản phẩm/dịch vụ) nếu đơn nhãn hiệu có trên 6 sản phẩm/dịch vụ trong một nhóm, phải nộp thêm cho mỗi sản phẩm/dịch vụ từ thứ 7 trở đi: 120.000 đồng",
-        "attachment": null
+        "amount_text": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Nhãn hiệu: 550.000 đồng (mỗi nhóm có đến 6 sản phẩm/dịch vụ) nếu đơn nhãn hiệu có trên 6 sản phẩm/dịch vụ trong một nhóm, phải nộp thêm cho mỗi sản phẩm/dịch vụ từ thứ 7 trở đi: 120.000 đồng",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 1200000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Chỉ dẫn địa lý (bao gồm cả tên gọi xuất xứ hàng hoá): 1.200.000 đồng (mỗi đơn)",
-        "attachment": null
+        "amount_text": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Chỉ dẫn địa lý (bao gồm cả tên gọi xuất xứ hàng hoá): 1.200.000 đồng (mỗi đơn)",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 180000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Thiết kế bố trí mạch tích hợp: 180.000 đồng (mỗi đơn)",
-        "attachment": null
+        "amount_text": "Phí thẩm định để giải quyết khiếu nại các đối tượng sở hữu công nghiệp. Thiết kế bố trí mạch tích hợp: 180.000 đồng (mỗi đơn)",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 600000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Sáng chế (bao gồm cả giải pháp hữu ích): 600.000 đồng (mỗi điểm độc lập của yêu cầu bảo hộ);",
-        "attachment": null
+        "amount_text": "Phí tra cứu thông tin nhằm phục vụ việc thẩm định, giải quyết khiếu nại và các công việc khác trong phạm vi trách nhiệm. Sáng chế (bao gồm cả giải pháp hữu ích): 600.000 đồng (mỗi điểm độc lập của yêu cầu bảo hộ);",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -626,50 +357,42 @@
     {
       "title": "Luật Khiếu nại  năm 2011",
       "document_number": "02/2011/QH13",
-      "id": "019d2bb3-5d84-71c5-b671-1a2d6955f75c",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ",
       "document_number": "131/2025/QH15",
-      "id": "019d2bb3-5d85-73da-8eb8-25486605b48c",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Luật số 93/2025/QH15 của Quốc hội: Luật Khoa học, công nghệ và đổi mới sáng tạo",
       "document_number": "93/2025/QH15",
-      "id": "019d2bb3-5d85-73da-8eba-0eadc81b4d09",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ, Nghị định số 65/2023/NĐ-CP ngày 23 tháng 8 năm 2023 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ được sửa đổi, bổ sung bởi Nghị định số 15/2026/NĐ-CP ngày 14 tháng 01 năm 2026, Nghị định số 33/2026/NĐ-CP ngày 21 tháng 01 năm 2026 và Nghị định số 100/2026/NĐ-CP ngày 31 tháng 3 năm 2026",
       "document_number": "10/2026/TT-BKHCN",
-      "id": "019dd361-4bd6-70fd-8f79-a127b21d8356",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Nghị định số 124/2020/NĐ-CP của Chính phủ: Quy định chi tiết một số điều và biện pháp thi hành Luật Khiếu nại",
       "document_number": "124/2020/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-d20671709c68",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "07/2022/QH15 - Luật sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ",
       "document_number": "07/2022/QH15",
-      "id": "019d2bb3-5d86-7760-a63a-d73c080790c3",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ được sửa đổi, bổ sung bởi các  Nghị định số 15/2026/NĐ-CP ngày 14 tháng 01 năm 2026, Nghị định số 33/2026/NĐ-CP ngày 21 tháng 01 năm 2026 và Nghị định số 100/2026/NĐ-CP ngày 31 tháng 3 năm 2026",
-      "document_number": "65/2023/NĐ-CP ",
-      "id": "019d2bb3-5d7f-719e-b470-10680c4760e9",
-      "source_page": null
+      "document_number": "65/2023/NĐ-CP",
+      "source_page": 6
     },
     {
       "title": "Thông tư 263/2016/TT-BTC-Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí sở hữu công nghiệp",
       "document_number": "263/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4c-13cf62169227",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "conditions": "- Người nộp đơn khiếu nại phải là người có quyền, lợi ích liên\nquan trực tiếp đến quyết định hoặc thông báo liên quan đến việc\nxử lý đơn đăng ký xác lập quyền, duy trì, gia hạn, sửa đổi, chấm\ndứt, hủy bỏ hiệu lực văn bằng bảo hộ sở hữu công nghiệp, đăng\nký hợp đồng chuyển giao quyền sở hữu công nghiệp do cơ quan\nquản lý nhà nước về quyền sở hữu công nghiệp ban hành.\n- Đơn khiếu nại phải được nộp trong thời hiệu quy định tại các\nĐiều 9 và 33 của Luật Khiếu nại.\n- Người nộp đơn nộp đủ các khoản phí, lệ phí theo quy định",
@@ -677,15 +400,14 @@
     {
       "title": "Quyết định giải quyết khiếu nại",
       "code": "KQ-G06.19-015007",
-      "id": "019dd46b-c5d4-703f-97d0-46e399323cc9",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Tiếp nhận hồ sơ\n- Tổ chức, cá nhân nộp 01 bộ hồ sơ đăng ký thiết kế bố trí đến\nBộ phận một cửa của Bộ Khoa học và Công nghệ;\n- Bộ phận một cửa của Bộ Khoa học và Công nghệ tiếp nhận hồ\nsơ theo quy định tại Điều 40 Thông tư số 10/2026/TT-BKHCN.\n- Bước 2: Thẩm định hình thức\nKiểm tra việc tuân thủ các quy định về hình thức đối với đơn,\ntừ đó đưa ra kết luận đơn có được coi là hợp lệ hay không. Đơn\nđăng ký thiết kế bố trí dẫn được Cục Sở hữu trí tuệ thẩm định\nhình thức trong thời hạn 01 tháng kể từ ngày tiếp nhận đơn theo\nquy định tại Điều 41 Thông tư số 10/2026/TT-BKHCN.\n+ Trong trường hợp đơn hợp lệ hoặc người nộp đơn sửa chữa\nthiếu sót đạt yêu cầu hoặc ý kiến giải trình xác đáng trong thời\nhạn quy định, Cục Sở hữu trí tuệ ra quyết định cấp Giấy chứng\nnhận đăng ký thiết kế bố trí trong thời hạn 01 tháng kể từ ngày\nkết thúc thời hạn tương ứng.\n+ Trong trường hợp đơn không hợp lệ, Cục Sở hữu trí tuệ gửi\ncho người nộp đơn thông báo kết quả thẩm định hình thức trong\nđó nêu rõ dự định từ chối chấp cấp Giấy chứng nhận đăng ký\nthiết kế bố trí, lý do từ chối hoặc thiếu sót của đơn và ấn định\nthời hạn 02 tháng kể từ ngày ra thông báo để người nộp đơn có\ný kiến hoặc sửa chữa thiếu sót\nNếu kết thúc thời hạn quy định tại điểm a khoản này mà người\nnộp đơn không sửa chữa thiếu sót hoặc sửa chữa không đạt yêu\ncầu hoặc không có ý kiến phản đối hoặc có ý kiến phản đối\nnhưng không xác đáng, trong thời hạn 15 ngày làm việc kể từ\nngày kết thúc thời hạn nêu trên, Cục Sở hữu trí tuệ ra quyết định\ntừ chối cấp Giấy chứng nhận đăng ký thiết kế bố trí và gửi cho\nngười nộp đơn;\nXử lý yêu cầu ghi nhận thay đổi người nộp đơn đăng ký thiết\nkế bố trí (nếu có)\n+ Trường hợp yêu cầu không có thiếu sót, Cục Sở hữu trí tuệ ra\nthông báo ghi nhận thay đổi người nộp đơn và công bố trên\nCông báo Sở hữu công nghiệp (trừ trường hợp việc sửa đổi, bổ\nsung đơn được thực hiện trước khi Cục Sở hữu trí tuệ công bố\nđơn hoặc từ chối cấp Giấy chứng nhận đăng ký thiết kế bố trí do\nđơn không hợp lệ về hình thức);\n+ Trường hợp yêu cầu ghi nhận thay đổi người nộp đơn có thiếu\nsót, Cục Sở hữu trí tuệ ra thông báo dự định từ chối ghi nhận\nthay đổi người nộp đơn và ấn định thời hạn 01 tháng kể từ ngày\nra thông báo để người nộp đơn sửa chữa thiếu sót hoặc có ý kiến\nphản đối. Nếu kết thúc thời hạn đã ấn định mà người nộp đơn\nkhông sửa chữa thiếu sót hoặc sửa chữa thiếu sót không đạt yêu\ncầu, không có ý kiến phản đối hoặc ý kiến phản đối nhưng không\nxác đáng, Cục Sở hữu trí tuệ ra thông báo từ chối ghi nhận thay\nđổi người nộp đơn.\nXử lý yêu cầu sửa đổi, bổ sung đơn thiết kế bố trí do người\nnộp đơn chủ động thực hiện (nếu có)\n+ Trường hợp yêu cầu sửa đổi, bổ sung đơn đáp ứng quy định,\nCục Sở hữu trí tuệ ra thông báo chấp nhận yêu cầu sửa đổi, bổ\nsung đơn. Nội dung sửa đổi, bổ sung của đơn được công bố khi\nđơn đăng thiết kế bố trí được công bố theo quy định tại khoản 4\nĐiều 110 của Luật Sở hữu trí tuệ.\n+ Trường hợp yêu cầu sửa đổi, bổ sung đơn không đáp ứng quy\nđịnh, Cục Sở hữu trí tuệ ra thông báo dự định từ chối yêu cầu\nsửa đổi, bổ sung đơn, nêu rõ lý do và ấn định thời hạn 01 tháng\nkể từ ngày ra thông báo để người nộp đơn sửa chữa thiếu sót\nhoặc có ý kiến phản đối. Nếu kết thúc thời hạn đã ấn định mà\nngười nộp đơn không sửa chữa thiếu sót hoặc sửa chữa thiếu sót\nkhông đạt yêu cầu, không có ý kiến phản đối hoặc ý kiến phản\nđối nhưng không xác đáng, Cục Sở hữu trí tuệ ra thông báo từ\nchối yêu cầu sửa đổi, bổ sung đơn.\nXử lý sửa đổi, bổ sung đơn do người nộp đơn thực hiện trên\ncơ sở thông báo kết quả thẩm định của Cục Sở hữu trí tuệ\n(nếu có)\nViệc chấp nhận hoặc từ chối chấp nhận yêu cầu sửa đổi, bổ sung\nđơn của người nộp đơn được Cục Sở hữu trí tuệ thực hiện tại\ncác thông báo kết quả thẩm định hoặc quyết định tương ứng\ntrong quá trình xử lý đơn đăng ký thiết kế bố trí đó.\nXử lý yêu cầu rút đơn đăng ký thiết kế bố trí (nếu có)\n+ Trường hợp yêu cầu rút đơn đáp ứng quy định, Cục Sở hữu trí\ntuệ ra thông báo chấp nhận yêu cầu rút đơn và chấm dứt việc xử\nlý đơn tương ứng;\n+ Trường hợp yêu cầu rút đơn không đáp ứng quy định, Cục Sở\nhữu trí tuệ ra thông báo dự định từ chối yêu cầu rút đơn và ấn\nđịnh thời hạn 01 tháng kể từ ngày ra thông báo để người nộp\nđơn khắc phục thiếu sót. Nếu kết thúc thời hạn đã ấn định mà\nngười nộp đơn không khắc phục thiếu sót hoặc khắc phục thiếu\nsót nhưng không đạt yêu cầu, Cục Sở hữu trí tuệ thông báo từ\nchối yêu cầu rút đơn.\n- Bước 3: Ra quyết định cấp/từ chối cấp Giấy chứng nhận\nđăng ký thiết kế bố trí.\n+ Trong trường hợp Cục Sở hữu trí tuệ gửi cho người nộp đơn\nThông báo dự định cấp Giấy chứng nhận đăng ký thiết kế bố trí,\nnếu người nộp đơn nộp đủ phí, lệ phí theo thời hạn ấn định, Cục\nSở hữu trí tuệ ra Quyết định cấp Giấy chứng nhận đăng ký thiết\nkế bố trí và gửi cho người nộp đơn. Nếu người nộp đơn không\nnộp phí, lệ phí cấp Giấy chứng nhận đăng ký thiết kế bố trí theo\nquy định trong thời hạn ấn định, Cục Sở hữu trí tuệ ra quyết định\ntừ chối cấp Giấy chứng nhận đăng ký thiết kế bố trí và gửi cho\nngười nộp đơn.\n+ Trong trường hợp đơn không hợp lệ, nếu hết thời gian ấn định\ntrong thông báo dự định từ chối chấp nhận đơn mà người nộp\nđơn không sửa chữa thiếu sót hoặc sửa chữa không đạt yêu cầu\nhoặc không có ý kiến phản đối hoặc có ý kiến phản đối nhưng\nkhông xác đáng, Cục Sở hữu trí tuệ ra quyết định từ chối cấp\nGiấy chứng nhận đăng ký thiết kế bố trí và gửi cho người nộp\nđơn.\n- Bước 4: Cấp Giấy chứng nhận đăng ký thiết kế bố trí\nNếu người nộp đơn nộp phí, lệ phí đầy đủ, đúng hạn thì trong\nthời hạn 15 ngày kể từ ngày kết thúc thời hạn tương ứng, Cục\nSở hữu trí tuệ ra quyết định cấp văn bằng bảo hộ, ghi nhận vào\nSổ đăng ký quốc gia về thiết kế bố trí và công bố trên Công báo\nSở hữu công nghiệp.\n- Bước 5: Công bố, đăng bạ quyết định cấp văn bằng bảo hộ.\nĐơn đăng ký thiết kế bố trí được công bố trên Công báo sở hữu\ncông nghiệp theo quy định tại khoản 4 Điều 110 của Luật Sở\nhữu trí tuệ.\nCác thông tin cơ bản về đơn đăng ký thiết kế bố trí và văn bằng\nbảo hộ thiết kế bố trí được công bố trong thời hạn hai tháng kể\ntừ ngày cấp văn bằng bảo hộ.\nQuyết định cấp Giấy chứng nhận đăng ký thiết kế bố trí được\nCục Sở hữu trí tuệ công bố trên Công báo Sở hữu công nghiệp\ntrong thời hạn 60 ngày kể từ ngày ra quyết định và được ghi\nnhận vào Sổ đăng ký quốc gia về sở hữu công nghiệp theo quy\nđịnh.",
-    "THÀNH PHẦN HỒ SƠ": "\nĐơn giải yêu cầu quyết khiếu nại liên quan đến sở hữu công nghiệp\nBản sao quyết định hoặc thông báo bị khiếu nại của Cục Sở  hữu trí tuệ và bản sao đơn đăng ký sở hữu công nghiệp là đối  tượng của quyết định hoặc thông báo đó (trong trường hợp  người nộp đơn khiếu nại lần hai); hoặc tài liệu chỉ dẫn thông tin  về các tài liệu nêu trên;\nBản sao quyết định giải quyết khiếu nại lần thứ nhất (đối với  khiếu nại lần thứ hai);\nVăn bản ủy quyền (nếu nộp qua đại diện)\nChứng cứ (bằng chứng hoặc vật chứng) dùng để chứng minh,  làm rõ lập luận khiếu nại. Chứng cứ có thể được nộp bổ sung  trong thời hạn 01 tháng kể từ ngày nộp đơn khiếu nại",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 40 ngày - ngày tiếp nhận hồ sơ;\n- 01 tháng kể từ ngày ra thông báo để người có quyền, lợi ích\nliên quan trực tiếp có ý kiến;\n- 30 ngày kể từ ngày thụ lý; đối với vụ việc phức tạp thì thời hạn\nnày là 45 ngày (đối với khiếu nại lần thứ nhất);\n- 45 ngày kể từ ngày thụ lý; đối với vụ việc phức tạp thì thời hạn\nnày là 60 ngày (đối với khiếu nại lần thứ hai).\nTrực tuyến: 40 ngày\nQua dịch vụ bưu chính: 40 ngày",
-    "CĂN CỨ PHÁP LÝ": "Luật Khiếu nại  năm 2011 - 02/2011/QH13\nsửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ - 131/2025/QH15\nLuật số 93/2025/QH15 của Quốc hội: Luật Khoa học, công nghệ và đổi mới sáng tạo - 93/2025/QH15\nQuy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ, Nghị định số 65/2023/NĐ-CP ngày 23 tháng 8 năm 2023 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ được sửa đổi, bổ sung bởi Nghị định số 15/2026/NĐ-CP ngày 14 tháng 01 năm 2026, Nghị định số 33/2026/NĐ-CP ngày 21 tháng 01 năm 2026 và Nghị định số 100/2026/NĐ-CP ngày 31 tháng 3 năm 2026 - 10/2026/TT-BKHCN\nNghị định số 124/2020/NĐ-CP của Chính phủ: Quy định chi tiết một số điều và biện pháp thi hành Luật Khiếu nại - 124/2020/NĐ-CP\n07/2022/QH15 - Luật sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ - 07/2022/QH15\nQuy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ được sửa đổi, bổ sung bởi các  Nghị định số 15/2026/NĐ-CP ngày 14 tháng 01 năm 2026, Nghị định số 33/2026/NĐ-CP ngày 21 tháng 01 năm 2026 và Nghị định số 100/2026/NĐ-CP ngày 31 tháng 3 năm 2026 - 65/2023/NĐ-CP \nThông tư 263/2016/TT-BTC-Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí sở hữu công nghiệp - 263/2016/TT-BTC",
+    "THÀNH PHẦN HỒ SƠ": "Đơn giải yêu cầu quyết khiếu nại liên quan đến sở hữu công nghiệp\nBản sao quyết định hoặc thông báo bị khiếu nại của Cục Sở  hữu trí tuệ và bản sao đơn đăng ký sở hữu công nghiệp là đối  tượng của quyết định hoặc thông báo đó (trong trường hợp  người nộp đơn khiếu nại lần hai); hoặc tài liệu chỉ dẫn thông tin  về các tài liệu nêu trên;\nBản sao quyết định giải quyết khiếu nại lần thứ nhất (đối với  khiếu nại lần thứ hai);\nVăn bản ủy quyền (nếu nộp qua đại diện)\nChứng cứ (bằng chứng hoặc vật chứng) dùng để chứng minh,  làm rõ lập luận khiếu nại. Chứng cứ có thể được nộp bổ sung  trong thời hạn 01 tháng kể từ ngày nộp đơn khiếu nại",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 40 ngày\nTrực tuyến: 40 ngày\nQua dịch vụ bưu chính: 40 ngày",
+    "CĂN CỨ PHÁP LÝ": "Luật Khiếu nại  năm 2011 - 02/2011/QH13\nsửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ - 131/2025/QH15\nLuật số 93/2025/QH15 của Quốc hội: Luật Khoa học, công nghệ và đổi mới sáng tạo - 93/2025/QH15\nQuy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ, Nghị định số 65/2023/NĐ-CP ngày 23 tháng 8 năm 2023 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ được sửa đổi, bổ sung bởi Nghị định số 15/2026/NĐ-CP ngày 14 tháng 01 năm 2026, Nghị định số 33/2026/NĐ-CP ngày 21 tháng 01 năm 2026 và Nghị định số 100/2026/NĐ-CP ngày 31 tháng 3 năm 2026 - 10/2026/TT-BKHCN\nNghị định số 124/2020/NĐ-CP của Chính phủ: Quy định chi tiết một số điều và biện pháp thi hành Luật Khiếu nại - 124/2020/NĐ-CP\n07/2022/QH15 - Luật sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ - 07/2022/QH15\nQuy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ được sửa đổi, bổ sung bởi các  Nghị định số 15/2026/NĐ-CP ngày 14 tháng 01 năm 2026, Nghị định số 33/2026/NĐ-CP ngày 21 tháng 01 năm 2026 và Nghị định số 100/2026/NĐ-CP ngày 31 tháng 3 năm 2026 - 65/2023/NĐ-CP\nThông tư 263/2016/TT-BTC-Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí sở hữu công nghiệp - 263/2016/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Cục Sở hữu trí tuệ",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "- Người nộp đơn khiếu nại phải là người có quyền, lợi ích liên\nquan trực tiếp đến quyết định hoặc thông báo liên quan đến việc\nxử lý đơn đăng ký xác lập quyền, duy trì, gia hạn, sửa đổi, chấm\ndứt, hủy bỏ hiệu lực văn bằng bảo hộ sở hữu công nghiệp, đăng\nký hợp đồng chuyển giao quyền sở hữu công nghiệp do cơ quan\nquản lý nhà nước về quyền sở hữu công nghiệp ban hành.\n- Đơn khiếu nại phải được nộp trong thời hiệu quy định tại các\nĐiều 9 và 33 của Luật Khiếu nại.\n- Người nộp đơn nộp đủ các khoản phí, lệ phí theo quy định",
     "KẾT QUẢ XỬ LÝ": "Quyết định giải quyết khiếu nại - KQ-G06.19-015007",
@@ -693,11 +415,6 @@
     "MÔ TẢ": "- Người nộp đơn khiếu nại phải là người có quyền, lợi ích liên\nquan trực tiếp đến quyết định hoặc thông báo liên quan đến việc\nxử lý đơn đăng ký xác lập quyền, duy trì, gia hạn, sửa đổi, chấm\ndứt, hủy bỏ hiệu lực văn bằng bảo hộ sở hữu công nghiệp, đăng\nký hợp đồng chuyển giao quyền sở hữu công nghiệp do cơ quan\nquản lý nhà nước về quyền sở hữu công nghiệp ban hành.\n- Đơn khiếu nại phải được nộp trong thời hiệu quy định tại các\nĐiều 9 và 33 của Luật Khiếu nại.\n- Người nộp đơn nộp đủ các khoản phí, lệ phí theo quy định"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Sở hữu trí tuệ",
       "slug": "so-huu-tri-tue"
@@ -723,7 +440,7 @@
       },
       {
         "name": "Tổ chức Đảng",
-        "slug": "to-chuc-dang"
+        "slug": "to-chuc-ang"
       },
       {
         "name": "Tổ chức nước ngoài",
@@ -739,7 +456,7 @@
       },
       {
         "name": "Đảng viên",
-        "slug": "dang-vien"
+        "slug": "ang-vien"
       },
       {
         "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
@@ -747,7 +464,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Doanh nghiệp Việt Nam",
@@ -755,7 +472,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -764,6 +481,6 @@
         "slug": "cuc-so-huu-tri-tue"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

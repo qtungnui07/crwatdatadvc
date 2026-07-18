@@ -1,35 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfe-1afd-749b-9051-5d4c422509e0",
   "procedure_code": "1.002372",
   "title": "Xác nhận việc trình kháng nghị hàng hải",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-1afd-749b-9051-5d4c422509e0",
     "source_file": "chi-tiet-thu-tuc-1.002372.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.002372/chi-tiet-thu-tuc-1.002372.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:00.226195+00:00",
-    "source_updated_at": "2026-04-17T02:02:16.563Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:38.894674+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "8cb57df8a459ab75a2d1864a8f4f67377a9bbe8fd012da24cb7838a300a72ad0"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:00.226195+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "461/QĐ-BXD",
   "implementation_level": "Cấp bộ, Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hàng hải và đường thủy nội địa",
   "target_users": [
@@ -41,18 +35,15 @@
   ],
   "agency": {
     "competent_agency": "Cảng vụ hàng hải; Cảng vụ đường thủy nội địa",
-    "executing_agency": "Cảng vụ hàng hải, Cảng vụ đường thủy nội địa, Hải quan cửa khẩu",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cảng vụ hàng hải, Cảng vụ đường thủy nội địa, Hải quan cửa khẩu"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "a) Nộp hồ sơ TTHC:\n- Thuyền trưởng lập hồ sơ đề nghị xác nhận việc trình kháng nghị đến cơ quan có thẩm quyền xác nhận việc trình kháng nghị hàng hải.\n- Cơ quan có thẩm quyền bao gồm:\n          + Cơ quan nhà nước có thẩm quyền xác nhận việc trình kháng nghị hàng hải tại Việt Nam là Cảng vụ hàng hải/Cảng vụ đường thủy nội địa hoặc Đại diện Cảng vụ hàng hải/Cảng vụ đường thủy nội địa hoặc Ủy ban nhân dân cấp xã nơi gần nhất.\n          + Cơ quan nhà nước có thẩm quyền xác nhận việc trình kháng nghị hàng hải ở nước ngoài là cơ quan đại diện của Việt Nam nơi gần nhất hoặc cơ quan, tổ chức có thẩm quyền của quốc gia nơi tàu thuyền hoạt động\nb) Giải quyết TTHC:\n- Cơ quan có thẩm quyền tiếp nhận hồ sơ, kiểm tra sự phù hợp của hồ sơ. Trường hợp hồ sơ chưa phù hợp, chậm nhất 30 phút, kể từ khi nhận được hồ sơ, cơ quan có thẩm quyền hướng dẫn thuyền trưởng hoàn thiện hồ sơ theo quy định. Trường hợp không chấp thuận phải trả lời cho người làm thủ tục và nêu rõ lý do.\n- Trong thời hạn không quá 01 giờ đối với Cảng vụ hàng hải/Cảng vụ đường thủy nội địa, Đại diện Cảng vụ hàng hải/Cảng vụ đường thủy nội địa và 03 giờ đối với các cơ quan có thẩm quyền khác, kể từ khi đã nhận đủ các giấy tờ hợp lệ, cơ quan có thẩm quyền xác nhận việc trình kháng nghị hàng hải.\n- Cơ quan xác nhận việc trình kháng nghị hàng hải tiến hành lưu hồ sơ và gửi trả cho thuyền trưởng các bản kháng nghị hàng hải còn lại đã được xác nhận.\n",
+      "description": "a) Nộp hồ sơ TTHC:\n- Thuyền trưởng lập hồ sơ đề nghị xác nhận việc trình kháng nghị đến cơ quan có thẩm quyền xác nhận việc trình kháng nghị hàng hải.\n- Cơ quan có thẩm quyền bao gồm:\n          + Cơ quan nhà nước có thẩm quyền xác nhận việc trình kháng nghị hàng hải tại Việt Nam là Cảng vụ hàng hải/Cảng vụ đường thủy nội địa hoặc Đại diện Cảng vụ hàng hải/Cảng vụ đường thủy nội địa hoặc Ủy ban nhân dân cấp xã nơi gần nhất.\n          + Cơ quan nhà nước có thẩm quyền xác nhận việc trình kháng nghị hàng hải ở nước ngoài là cơ quan đại diện của Việt Nam nơi gần nhất hoặc cơ quan, tổ chức có thẩm quyền của quốc gia nơi tàu thuyền hoạt động\nb) Giải quyết TTHC:\n- Cơ quan có thẩm quyền tiếp nhận hồ sơ, kiểm tra sự phù hợp của hồ sơ. Trường hợp hồ sơ chưa phù hợp, chậm nhất 30 phút, kể từ khi nhận được hồ sơ, cơ quan có thẩm quyền hướng dẫn thuyền trưởng hoàn thiện hồ sơ theo quy định. Trường hợp không chấp thuận phải trả lời cho người làm thủ tục và nêu rõ lý do.\n- Trong thời hạn không quá 01 giờ đối với Cảng vụ hàng hải/Cảng vụ đường thủy nội địa, Đại diện Cảng vụ hàng hải/Cảng vụ đường thủy nội địa và 03 giờ đối với các cơ quan có thẩm quyền khác, kể từ khi đã nhận đủ các giấy tờ hợp lệ, cơ quan có thẩm quyền xác nhận việc trình kháng nghị hàng hải.\n- Cơ quan xác nhận việc trình kháng nghị hàng hải tiến hành lưu hồ sơ và gửi trả cho thuyền trưởng các bản kháng nghị hàng hải còn lại đã được xác nhận.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
@@ -60,67 +51,46 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "Kháng nghị hàng hải (02 bản)",
-        "code": "000.00.00.G04-KQ0903",
+        "name": "Các giấy tờ phải nộp đối với phương tiện thủy nội địa (trừ phương tiện thủy nội địa mang cấp VR-SB), tàu cá,( Các giấy tờ này phải có chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có); đối với bản kháng nghị hàng hải, ngoài chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có con dấu) còn phải có chữ ký của máy trưởng, một sĩ quan hoặc một thủy thủ với tư cách là những người làm chứng)  bao gồm:: Kháng nghị hàng hải (02 bản)",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": "Các giấy tờ phải nộp đối với phương tiện thủy nội địa (trừ phương tiện thủy nội địa mang cấp VR-SB), tàu cá,( Các giấy tờ này phải có chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có); đối với bản kháng nghị hàng hải, ngoài chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có con dấu) còn phải có chữ ký của máy trưởng, một sĩ quan hoặc một thủy thủ với tư cách là những người làm chứng)  bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Bản sao Tự họa có mô tả sơ đồ vị trí xảy ra tai nạn, sự cố và đính kèm hình ảnh (01 bản, nếu có)",
-        "code": "000.00.00.G04-KQ0905",
+        "name": "Các giấy tờ phải nộp đối với phương tiện thủy nội địa (trừ phương tiện thủy nội địa mang cấp VR-SB), tàu cá,( Các giấy tờ này phải có chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có); đối với bản kháng nghị hàng hải, ngoài chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có con dấu) còn phải có chữ ký của máy trưởng, một sĩ quan hoặc một thủy thủ với tư cách là những người làm chứng)  bao gồm:: Bản sao Tự họa có mô tả sơ đồ vị trí xảy ra tai nạn, sự cố và đính kèm hình ảnh (01 bản, nếu có)",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Các giấy tờ phải nộp đối với phương tiện thủy nội địa (trừ phương tiện thủy nội địa mang cấp VR-SB), tàu cá,( Các giấy tờ này phải có chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có); đối với bản kháng nghị hàng hải, ngoài chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có con dấu) còn phải có chữ ký của máy trưởng, một sĩ quan hoặc một thủy thủ với tư cách là những người làm chứng)  bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Bản trích sao các loại Nhật ký của tàu thuyền có liên quan đến vụ việc (01 bản, nếu có)",
-        "code": "000.00.00.G04-KQ0904",
+        "name": "Các giấy tờ phải nộp đối với phương tiện thủy nội địa (trừ phương tiện thủy nội địa mang cấp VR-SB), tàu cá,( Các giấy tờ này phải có chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có); đối với bản kháng nghị hàng hải, ngoài chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có con dấu) còn phải có chữ ký của máy trưởng, một sĩ quan hoặc một thủy thủ với tư cách là những người làm chứng)  bao gồm:: Bản trích sao các loại Nhật ký của tàu thuyền có liên quan đến vụ việc (01 bản, nếu có)",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Các giấy tờ phải nộp đối với phương tiện thủy nội địa (trừ phương tiện thủy nội địa mang cấp VR-SB), tàu cá,( Các giấy tờ này phải có chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có); đối với bản kháng nghị hàng hải, ngoài chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có con dấu) còn phải có chữ ký của máy trưởng, một sĩ quan hoặc một thủy thủ với tư cách là những người làm chứng)  bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Bản trích sao các loại Nhật ký của tàu thuyền có liên quan đến vụ việc (01 bản)",
-        "code": "000.00.00.G04-KQ0901",
+        "name": "Các giấy tờ phải nộp đối với tàu biển, tàu công vụ, giàn di động, tàu ngầm, tàu lặn, thủy phi cơ và phương tiện thủy nội địa mang cấp VR-SB, bao gồm:: Bản trích sao các loại Nhật ký của tàu thuyền có liên quan đến vụ việc (01 bản)",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Các giấy tờ phải nộp đối với tàu biển, tàu công vụ, giàn di động, tàu ngầm, tàu lặn, thủy phi cơ và phương tiện thủy nội địa mang cấp VR-SB, bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Bản trích sao hải đồ liên quan đến vụ việc (trừ trường hợp tai nạn, sự cố xảy ra khi tàu thuyền đang neo đậu tại cảng biển) (01 bản)",
-        "code": "000.00.00.G04-KQ0902",
+        "name": "Các giấy tờ phải nộp đối với tàu biển, tàu công vụ, giàn di động, tàu ngầm, tàu lặn, thủy phi cơ và phương tiện thủy nội địa mang cấp VR-SB, bao gồm:: Bản trích sao hải đồ liên quan đến vụ việc (trừ trường hợp tai nạn, sự cố xảy ra khi tàu thuyền đang neo đậu tại cảng biển) (01 bản)",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Các giấy tờ phải nộp đối với tàu biển, tàu công vụ, giàn di động, tàu ngầm, tàu lặn, thủy phi cơ và phương tiện thủy nội địa mang cấp VR-SB, bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Kháng nghị hàng hải (02 bản)",
-        "code": "000.00.00.G04-KQ0900",
+        "name": "Các giấy tờ phải nộp đối với tàu biển, tàu công vụ, giàn di động, tàu ngầm, tàu lặn, thủy phi cơ và phương tiện thủy nội địa mang cấp VR-SB, bao gồm:: Kháng nghị hàng hải (02 bản)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Các giấy tờ phải nộp đối với tàu biển, tàu công vụ, giàn di động, tàu ngầm, tàu lặn, thủy phi cơ và phương tiện thủy nội địa mang cấp VR-SB, bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "các loại Nhật ký liên quan đến vụ việc (bản chính)",
-        "code": "000.00.00.G04-KQ0906",
+        "name": "Các giấy tờ phải xuất trình: Đối với tàu biển, tàu công vụ, giàn di động, tàu ngầm, tàu lặn, thủy phi cơ và phương tiện thủy nội địa mang cấp VR-SB phải xuất trình: các loại Nhật ký liên quan đến vụ việc (bản chính)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Các giấy tờ phải xuất trình: Đối với tàu biển, tàu công vụ, giàn di động, tàu ngầm, tàu lặn, thủy phi cơ và phương tiện thủy nội địa mang cấp VR-SB phải xuất trình",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -129,33 +99,22 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "3 giờ",
-      "processing_time_value": 3,
-      "processing_time_unit": "HOUR",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Phí xác nhận kháng nghị hàng hải đối với tàu thuyền hoạt động hàng hải nội địa",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí xác nhận kháng nghị hàng hải đối với tàu thuyền hoạt động hàng hải nội địa",
       "description": "",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "free",
+    "summary": "Phí xác nhận kháng nghị hàng hải đối với tàu thuyền hoạt động hàng hải nội địa",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Phí xác nhận kháng nghị hàng hải đối với tàu thuyền hoạt động hàng hải nội địa",
-        "attachment": null
+        "amount_text": "Phí xác nhận kháng nghị hàng hải đối với tàu thuyền hoạt động hàng hải nội địa",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -163,14 +122,12 @@
     {
       "title": "Quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải",
       "document_number": "261/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4c-0e59e8d816c2",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Quy định về trình tự, thủ tục xác nhận việc trình kháng nghị hàng hải",
       "document_number": "30/2016/TT-BGTVT",
-      "id": "019d2bb3-5d87-7195-a43e-134b68ee588b",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -178,13 +135,12 @@
     {
       "title": "Xác nhận việc trình kháng nghị hàng hải",
       "code": "000.00.00.G04-KQ0257",
-      "id": "019d95c5-7753-75d7-9dac-b8acce303807",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "a) Nộp hồ sơ TTHC:\n- Thuyền trưởng lập hồ sơ đề nghị xác nhận việc trình kháng nghị đến cơ quan có thẩm quyền xác nhận việc trình kháng nghị hàng hải.\n- Cơ quan có thẩm quyền bao gồm:\n          + Cơ quan nhà nước có thẩm quyền xác nhận việc trình kháng nghị hàng hải tại Việt Nam là Cảng vụ hàng hải/Cảng vụ đường thủy nội địa hoặc Đại diện Cảng vụ hàng hải/Cảng vụ đường thủy nội địa hoặc Ủy ban nhân dân cấp xã nơi gần nhất.\n          + Cơ quan nhà nước có thẩm quyền xác nhận việc trình kháng nghị hàng hải ở nước ngoài là cơ quan đại diện của Việt Nam nơi gần nhất hoặc cơ quan, tổ chức có thẩm quyền của quốc gia nơi tàu thuyền hoạt động\nb) Giải quyết TTHC:\n- Cơ quan có thẩm quyền tiếp nhận hồ sơ, kiểm tra sự phù hợp của hồ sơ. Trường hợp hồ sơ chưa phù hợp, chậm nhất 30 phút, kể từ khi nhận được hồ sơ, cơ quan có thẩm quyền hướng dẫn thuyền trưởng hoàn thiện hồ sơ theo quy định. Trường hợp không chấp thuận phải trả lời cho người làm thủ tục và nêu rõ lý do.\n- Trong thời hạn không quá 01 giờ đối với Cảng vụ hàng hải/Cảng vụ đường thủy nội địa, Đại diện Cảng vụ hàng hải/Cảng vụ đường thủy nội địa và 03 giờ đối với các cơ quan có thẩm quyền khác, kể từ khi đã nhận đủ các giấy tờ hợp lệ, cơ quan có thẩm quyền xác nhận việc trình kháng nghị hàng hải.\n- Cơ quan xác nhận việc trình kháng nghị hàng hải tiến hành lưu hồ sơ và gửi trả cho thuyền trưởng các bản kháng nghị hàng hải còn lại đã được xác nhận.\n",
-    "THÀNH PHẦN HỒ SƠ": "Các giấy tờ phải nộp đối với phương tiện thủy nội địa (trừ phương tiện thủy nội địa mang cấp VR-SB), tàu cá,( Các giấy tờ này phải có chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có); đối với bản kháng nghị hàng hải, ngoài chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có con dấu) còn phải có chữ ký của máy trưởng, một sĩ quan hoặc một thủy thủ với tư cách là những người làm chứng)  bao gồm:\nKháng nghị hàng hải (02 bản)\nBản sao Tự họa có mô tả sơ đồ vị trí xảy ra tai nạn, sự cố và đính kèm hình ảnh (01 bản, nếu có)\nBản trích sao các loại Nhật ký của tàu thuyền có liên quan đến vụ việc (01 bản, nếu có)\nCác giấy tờ phải nộp đối với tàu biển, tàu công vụ, giàn di động, tàu ngầm, tàu lặn, thủy phi cơ và phương tiện thủy nội địa mang cấp VR-SB, bao gồm:\nBản trích sao các loại Nhật ký của tàu thuyền có liên quan đến vụ việc (01 bản)\nBản trích sao hải đồ liên quan đến vụ việc (trừ trường hợp tai nạn, sự cố xảy ra khi tàu thuyền đang neo đậu tại cảng biển) (01 bản)\nKháng nghị hàng hải (02 bản)\nCác giấy tờ phải xuất trình: Đối với tàu biển, tàu công vụ, giàn di động, tàu ngầm, tàu lặn, thủy phi cơ và phương tiện thủy nội địa mang cấp VR-SB phải xuất trình\ncác loại Nhật ký liên quan đến vụ việc (bản chính)",
+    "TRÌNH TỰ THỰC HIỆN": "a) Nộp hồ sơ TTHC:\n- Thuyền trưởng lập hồ sơ đề nghị xác nhận việc trình kháng nghị đến cơ quan có thẩm quyền xác nhận việc trình kháng nghị hàng hải.\n- Cơ quan có thẩm quyền bao gồm:\n          + Cơ quan nhà nước có thẩm quyền xác nhận việc trình kháng nghị hàng hải tại Việt Nam là Cảng vụ hàng hải/Cảng vụ đường thủy nội địa hoặc Đại diện Cảng vụ hàng hải/Cảng vụ đường thủy nội địa hoặc Ủy ban nhân dân cấp xã nơi gần nhất.\n          + Cơ quan nhà nước có thẩm quyền xác nhận việc trình kháng nghị hàng hải ở nước ngoài là cơ quan đại diện của Việt Nam nơi gần nhất hoặc cơ quan, tổ chức có thẩm quyền của quốc gia nơi tàu thuyền hoạt động\nb) Giải quyết TTHC:\n- Cơ quan có thẩm quyền tiếp nhận hồ sơ, kiểm tra sự phù hợp của hồ sơ. Trường hợp hồ sơ chưa phù hợp, chậm nhất 30 phút, kể từ khi nhận được hồ sơ, cơ quan có thẩm quyền hướng dẫn thuyền trưởng hoàn thiện hồ sơ theo quy định. Trường hợp không chấp thuận phải trả lời cho người làm thủ tục và nêu rõ lý do.\n- Trong thời hạn không quá 01 giờ đối với Cảng vụ hàng hải/Cảng vụ đường thủy nội địa, Đại diện Cảng vụ hàng hải/Cảng vụ đường thủy nội địa và 03 giờ đối với các cơ quan có thẩm quyền khác, kể từ khi đã nhận đủ các giấy tờ hợp lệ, cơ quan có thẩm quyền xác nhận việc trình kháng nghị hàng hải.\n- Cơ quan xác nhận việc trình kháng nghị hàng hải tiến hành lưu hồ sơ và gửi trả cho thuyền trưởng các bản kháng nghị hàng hải còn lại đã được xác nhận.",
+    "THÀNH PHẦN HỒ SƠ": "Các giấy tờ phải nộp đối với phương tiện thủy nội địa (trừ phương tiện thủy nội địa mang cấp VR-SB), tàu cá,( Các giấy tờ này phải có chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có); đối với bản kháng nghị hàng hải, ngoài chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có con dấu) còn phải có chữ ký của máy trưởng, một sĩ quan hoặc một thủy thủ với tư cách là những người làm chứng)  bao gồm:: Kháng nghị hàng hải (02 bản)\nCác giấy tờ phải nộp đối với phương tiện thủy nội địa (trừ phương tiện thủy nội địa mang cấp VR-SB), tàu cá,( Các giấy tờ này phải có chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có); đối với bản kháng nghị hàng hải, ngoài chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có con dấu) còn phải có chữ ký của máy trưởng, một sĩ quan hoặc một thủy thủ với tư cách là những người làm chứng)  bao gồm:: Bản sao Tự họa có mô tả sơ đồ vị trí xảy ra tai nạn, sự cố và đính kèm hình ảnh (01 bản, nếu có)\nCác giấy tờ phải nộp đối với phương tiện thủy nội địa (trừ phương tiện thủy nội địa mang cấp VR-SB), tàu cá,( Các giấy tờ này phải có chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có); đối với bản kháng nghị hàng hải, ngoài chữ ký của thuyền trưởng và đóng dấu của tàu thuyền (nếu có con dấu) còn phải có chữ ký của máy trưởng, một sĩ quan hoặc một thủy thủ với tư cách là những người làm chứng)  bao gồm:: Bản trích sao các loại Nhật ký của tàu thuyền có liên quan đến vụ việc (01 bản, nếu có)\nCác giấy tờ phải nộp đối với tàu biển, tàu công vụ, giàn di động, tàu ngầm, tàu lặn, thủy phi cơ và phương tiện thủy nội địa mang cấp VR-SB, bao gồm:: Bản trích sao các loại Nhật ký của tàu thuyền có liên quan đến vụ việc (01 bản)\nCác giấy tờ phải nộp đối với tàu biển, tàu công vụ, giàn di động, tàu ngầm, tàu lặn, thủy phi cơ và phương tiện thủy nội địa mang cấp VR-SB, bao gồm:: Bản trích sao hải đồ liên quan đến vụ việc (trừ trường hợp tai nạn, sự cố xảy ra khi tàu thuyền đang neo đậu tại cảng biển) (01 bản)\nCác giấy tờ phải nộp đối với tàu biển, tàu công vụ, giàn di động, tàu ngầm, tàu lặn, thủy phi cơ và phương tiện thủy nội địa mang cấp VR-SB, bao gồm:: Kháng nghị hàng hải (02 bản)\nCác giấy tờ phải xuất trình: Đối với tàu biển, tàu công vụ, giàn di động, tàu ngầm, tàu lặn, thủy phi cơ và phương tiện thủy nội địa mang cấp VR-SB phải xuất trình: các loại Nhật ký liên quan đến vụ việc (bản chính)",
     "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 3 giờ",
     "CĂN CỨ PHÁP LÝ": "Quy định về phí, lệ phí hàng hải và biểu mức thu phí, lệ phí hàng hải - 261/2016/TT-BTC\nQuy định về trình tự, thủ tục xác nhận việc trình kháng nghị hàng hải - 30/2016/TT-BGTVT",
     "CƠ QUAN THỰC HIỆN": "Cảng vụ hàng hải, Cảng vụ đường thủy nội địa, Hải quan cửa khẩu",
@@ -194,14 +150,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hàng hải và đường thủy nội địa",
-      "slug": "hang-hai-va-duong-thuy-noi-dia"
+      "slug": "hang-hai-va-uong-thuy-noi-ia"
     },
     "implementation_levels": [
       {
@@ -224,7 +175,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -246,13 +197,13 @@
       },
       {
         "name": "Cảng vụ đường thủy nội địa",
-        "slug": "cang-vu-duong-thuy-noi-dia"
+        "slug": "cang-vu-uong-thuy-noi-ia"
       },
       {
         "name": "Hải quan cửa khẩu",
         "slug": "hai-quan-cua-khau"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,35 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-2d93-73ec-ba2f-898acd1e47b6",
   "procedure_code": "1.007695",
   "title": "Khai; miễn, giảm thuế sử dụng đất phi nông nghiệp/ Khai thuế sử dụng đất nông nghiệp",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-2d93-73ec-ba2f-898acd1e47b6",
     "source_file": "chi-tiet-thu-tuc-1.007695.pdf",
     "source_path": "procedures/viec-lam/1.007695/chi-tiet-thu-tuc-1.007695.pdf",
     "page_count": 8,
-    "extracted_at": "2026-07-18T02:22:03.586634+00:00",
-    "source_updated_at": "2026-05-07T03:27:42.894Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:17.366071+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "43dcf8c321c26dddb533229700e2095d2e42e5959943212893c03c2d5fd4667e"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:03.586634+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "216/QĐ-BTC",
   "implementation_level": "Cấp tỉnh, Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thuế",
   "target_users": [
@@ -43,32 +37,50 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Thuế cơ sở",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Thuế cơ sở"
   },
   "steps": [
     {
       "order": 1,
-      "title": "(i) Khai thuế sử dụng đất nông nghiệp",
-      "description": "+ Bước 1: Người nộp thuế sử dụng đất nông nghiệp nộp hồ sơ khai thuế, hồ sơ đề nghị miễn, giảm thuế sử dụng đất nông nghiệp cho Ủy ban nhân dân xã, phường, đặc khu nơi có đất chịu thuế, TTPVHCC cấp tỉnh, xã (trực tiếp) hoặc qua Cổng DVC Quốc gia (trực tuyến).\nThời hạn hộp hồ sơ khai thuế là 30 ngày, kể từ ngày phát sinh hoặc thay đổi nghĩa vụ thuế. Trường hợp địa phương có mùa vụ thu hoạch sản phẩm nông nghiệp không trùng với thời hạn nộp thuế quy định tại điểm này thì cơ quan thuế được phép lùi thời hạn thông báo nộp thuế và thời hạn nộp thuế không quá 60 (sáu mươi) ngày so với thời hạn quy định tại điểm này. Trường hợp người nộp thuế có yêu cầu nộp thuế một lần cho toàn bộ số thuế sử dụng đất nông nghiệp cả năm thì người nộp thuế phải thực hiện nộp tiền thuế theo thời hạn của kỳ nộp thứ nhất trong năm. Hàng năm, người nộp thuế không phải kê khai lại hồ sơ khai thuế nếu không phát sinh thay đổi tăng, giảm diện tích chịu thuế sử dụng đất nông nghiệp. Thời hạn nộp hồ sơ khai thuế năm của tổ chức chậm nhất là ngày cuối cùng của tháng đầu tiên năm dương lịch; chậm nhất 10 ngày kể từ ngày khai thác sản lượng thu hoạch đối với tổ chức nộp thuế cho diện tích trồng cây lâu năm thu hoạch một lần.\n+ Bước 2. Cơ quan thuế tiếp nhận hồ sơ, giải quyết, trả kết quả (nếu có) theo quy định.\n",
+      "title": "Bước 1",
+      "description": "+ Bước 1: Người nộp thuế sử dụng đất nông nghiệp nộp hồ sơ khai thuế, hồ sơ đề nghị miễn, giảm thuế sử dụng đất nông nghiệp cho Ủy ban nhân dân xã, phường, đặc khu nơi có đất chịu thuế, TTPVHCC cấp tỉnh, xã (trực tiếp) hoặc qua Cổng DVC Quốc gia (trực tuyến).\nThời hạn hộp hồ sơ khai thuế là 30 ngày, kể từ ngày phát sinh hoặc thay đổi nghĩa vụ thuế. Trường hợp địa phương có mùa vụ thu hoạch sản phẩm nông nghiệp không trùng với thời hạn nộp thuế quy định tại điểm này thì cơ quan thuế được phép lùi thời hạn thông báo nộp thuế và thời hạn nộp thuế không quá 60 (sáu mươi) ngày so với thời hạn quy định tại điểm này. Trường hợp người nộp thuế có yêu cầu nộp thuế một lần cho toàn bộ số thuế sử dụng đất nông nghiệp cả năm thì người nộp thuế phải thực hiện nộp tiền thuế theo thời hạn của kỳ nộp thứ nhất trong năm. Hàng năm, người nộp thuế không phải kê khai lại hồ sơ khai thuế nếu không phát sinh thay đổi tăng, giảm diện tích chịu thuế sử dụng đất nông nghiệp. Thời hạn nộp hồ sơ khai thuế năm của tổ chức chậm nhất là ngày cuối cùng của tháng đầu tiên năm dương lịch; chậm nhất 10 ngày kể từ ngày khai thác sản lượng thu hoạch đối với tổ chức nộp thuế cho diện tích trồng cây lâu năm thu hoạch một lần.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
-      "title": "(ii) Khai thuế sử dụng đất phi nông nghiệp - Trường hợp khai thuế sử dụng đất phi nông nghiệp phải nộp của năm",
-      "description": "+ Bước 1: \n ++ Đối với tổ chức\nThời hạn nộp hồ sơ chậm nhất là 30 ngày kể từ ngày phát sinh nghĩa vụ thuế sử dụng đất phi nông nghiệp, Tổ chức sử dụng đất thuộc tượng chịu thuế sử dụng đất phi nông nghiệp nộp hồ sơ khai thuế sử dụng đất phi nông nghiệp tại cơ chế một cửa liên thông nơi có đất thuộc đối tượng chịu thuế, TTPVHCC cấp tỉnh, xã  (trực tiếp) hoặc qua Cổng DVC Quốc gia (trực tuyến). \nTrong chu kỳ ổn định, hàng năm tổ chức không phải kê khai lại thuế sử dụng đất phi nông nghiệp nếu không có sự thay đổi về người nộp thuế và các yếu tố dẫn đến thay đổi số thuế phải nộp.\nKê khai khi có phát sinh thay đổi các yếu tố làm thay đổi căn cứ tính thuế dẫn đến tăng, giảm số thuế phải nộp và khai bổ sung khi phát hiện hồ sơ khai thuế đã nộp cho cơ quan thuế có sai sót ảnh hưởng đến số thuế phải nộp: Thời hạn nộp hồ sơ chậm nhất là 30 ngày kể từ ngày phát sinh thay đổi. \nKhai bổ sung hồ sơ khai thuế được áp dụng đối với: Trường hợp phát sinh các yếu tố làm thay đổi căn cứ tính thuế dẫn đến tăng, giảm số thuế phải nộp; trường hợp phát hiện hồ sơ khai thuế đã nộp cho cơ quan thuế có sai sót, nhầm lẫn gây ảnh hưởng đến số thuế phải nộp. \n++ Đối với hộ gia đình, cá nhân:\nThời hạn nộp hồ sơ chậm nhất là 30 ngày kể từ ngày phát sinh nghĩa vụ thuế sử dụng đất phi nông nghiệp. Người nộp thuế có trách nhiệm khai chính xác vào Tờ khai thuế các thông tin liên quan đến người nộp thuế như: tên, số CCCD, mã số thuế, địa chỉ nhận thông báo thuế; Các thông tin liên quan đến thửa đất chịu thuế như diện tích, mục đích sử dụng. Nếu đất đã được cấp Giấy chứng nhận thì phải khai đầy đủ các thông tin trên Giấy chứng nhận như số, ngày cấp, số tờ bản đồ, diện tích đất, hạn mức (nếu có), nộp hồ sơ khai thuế tại cơ chế một cửa liên thông nơi có đất thuộc đối tượng chịu thuế, TTPVHCC cấp tỉnh, xã  (trực tiếp) hoặc qua Cổng DVC Quốc gia (trực tuyến). \nĐối với hồ sơ khai thuế đất ở của hộ gia đình, cá nhân, cơ quan chuyên môn về nông nghiệp và môi trường thuộc Ủy ban nhân dân cấp xã hoặc văn phòng đăng ký quyền sử dụng đất có trách nhiệm xác nhận thông tin khai thuế sử dụng đất phi nông nghiệp cho người nộp thuế trong phạm vi nhiệm vụ của mình trong thời hạn 03 ngày làm việc kể từ khi nhận được đề nghị của người nộp thuế hoặc của cơ quan quản lý thuế. \nHàng năm, người nộp thuế không phải thực hiện khai lại nếu không có sự thay đổi về người nộp thuế và các yếu tố dẫn đến thay đổi số thuế phải nộp. \nTrường hợp có phát sinh thay đổi các yếu tố làm thay đổi căn cứ tính thuế (trừ trường hợp thay đổi giá của 1m2 đất theo quy định của Ủy ban nhân dân cấp tỉnh) dẫn đến tăng, giảm số thuế phải nộp: Thời hạn nộp hồ sơ chậm nhất 30 ngày kể từ ngày phát sinh thay đổi.\nTrường hợp người nộp thuế đề nghị miễn, giảm thuế sử dụng đất phi nông nghiệp cùng hồ sơ khai thuế thì người nộp thuế kê khai thông tin đề nghị miễn giảm tại tờ khai thuế sử dụng đất phi nông nghiệp và nộp bản sao các giấy tờ chứng minh thuộc diện được miễn, giảm thuế kèm theo.\n+ Bước 2. Cơ quan thuế tiếp nhận: Cơ quan thuế tiếp nhận hồ sơ, giải quyết, trả kết quả (nếu có) theo quy định; Trường hợp hồ sơ không đầy đủ theo quy định, cơ quan thuế không tiếp nhận và hướng dẫn người nộp thuế hoàn thiện hồ sơ theo quy định.\n",
+      "title": "Bước 2",
+      "description": "+ Bước 2. Cơ quan thuế tiếp nhận hồ sơ, giải quyết, trả kết quả (nếu có) theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 3,
-      "title": "(iii) Miễn, giảm thuế sử dụng đất phi nông nghiệp",
-      "description": "+ Bước 1: \nTổ chức, hộ gia đình, cá nhân nộp hồ sơ đề nghị miễn, giảm thuế sử dụng đất phi nông nghiệp tại tại TTPVHCC cấp tỉnh, xã (trực tiếp) hoặc nộp qua Cổng DVC Quốc gia (trực tuyến).\n+ Bước 2. Cơ quan thuế tiếp nhận: Cơ quan thuế tiếp nhận hồ sơ, giải quyết, trả kết quả (nếu có) theo quy định); Trường hợp hồ sơ không đầy đủ theo quy định, cơ quan thuế không tiếp nhận và hướng dẫn người nộp thuế hoàn thiện hồ sơ theo quy định.\n",
+      "title": "Bước 1",
+      "description": "+ Bước 1: \n ++ Đối với tổ chức\nThời hạn nộp hồ sơ chậm nhất là 30 ngày kể từ ngày phát sinh nghĩa vụ thuế sử dụng đất phi nông nghiệp, Tổ chức sử dụng đất thuộc tượng chịu thuế sử dụng đất phi nông nghiệp nộp hồ sơ khai thuế sử dụng đất phi nông nghiệp tại cơ chế một cửa liên thông nơi có đất thuộc đối tượng chịu thuế, TTPVHCC cấp tỉnh, xã  (trực tiếp) hoặc qua Cổng DVC Quốc gia (trực tuyến). \nTrong chu kỳ ổn định, hàng năm tổ chức không phải kê khai lại thuế sử dụng đất phi nông nghiệp nếu không có sự thay đổi về người nộp thuế và các yếu tố dẫn đến thay đổi số thuế phải nộp.\nKê khai khi có phát sinh thay đổi các yếu tố làm thay đổi căn cứ tính thuế dẫn đến tăng, giảm số thuế phải nộp và khai bổ sung khi phát hiện hồ sơ khai thuế đã nộp cho cơ quan thuế có sai sót ảnh hưởng đến số thuế phải nộp: Thời hạn nộp hồ sơ chậm nhất là 30 ngày kể từ ngày phát sinh thay đổi. \nKhai bổ sung hồ sơ khai thuế được áp dụng đối với: Trường hợp phát sinh các yếu tố làm thay đổi căn cứ tính thuế dẫn đến tăng, giảm số thuế phải nộp; trường hợp phát hiện hồ sơ khai thuế đã nộp cho cơ quan thuế có sai sót, nhầm lẫn gây ảnh hưởng đến số thuế phải nộp. \n++ Đối với hộ gia đình, cá nhân:\nThời hạn nộp hồ sơ chậm nhất là 30 ngày kể từ ngày phát sinh nghĩa vụ thuế sử dụng đất phi nông nghiệp. Người nộp thuế có trách nhiệm khai chính xác vào Tờ khai thuế các thông tin liên quan đến người nộp thuế như: tên, số CCCD, mã số thuế, địa chỉ nhận thông báo thuế; Các thông tin liên quan đến thửa đất chịu thuế như diện tích, mục đích sử dụng. Nếu đất đã được cấp Giấy chứng nhận thì phải khai đầy đủ các thông tin trên Giấy chứng nhận như số, ngày cấp, số tờ bản đồ, diện tích đất, hạn mức (nếu có), nộp hồ sơ khai thuế tại cơ chế một cửa liên thông nơi có đất thuộc đối tượng chịu thuế, TTPVHCC cấp tỉnh, xã  (trực tiếp) hoặc qua Cổng DVC Quốc gia (trực tuyến). \nĐối với hồ sơ khai thuế đất ở của hộ gia đình, cá nhân, cơ quan chuyên môn về nông nghiệp và môi trường thuộc Ủy ban nhân dân cấp xã hoặc văn phòng đăng ký quyền sử dụng đất có trách nhiệm xác nhận thông tin khai thuế sử dụng đất phi nông nghiệp cho người nộp thuế trong phạm vi nhiệm vụ của mình trong thời hạn 03 ngày làm việc kể từ khi nhận được đề nghị của người nộp thuế hoặc của cơ quan quản lý thuế. \nHàng năm, người nộp thuế không phải thực hiện khai lại nếu không có sự thay đổi về người nộp thuế và các yếu tố dẫn đến thay đổi số thuế phải nộp. \nTrường hợp có phát sinh thay đổi các yếu tố làm thay đổi căn cứ tính thuế (trừ trường hợp thay đổi giá của 1m2 đất theo quy định của Ủy ban nhân dân cấp tỉnh) dẫn đến tăng, giảm số thuế phải nộp: Thời hạn nộp hồ sơ chậm nhất 30 ngày kể từ ngày phát sinh thay đổi.\nTrường hợp người nộp thuế đề nghị miễn, giảm thuế sử dụng đất phi nông nghiệp cùng hồ sơ khai thuế thì người nộp thuế kê khai thông tin đề nghị miễn giảm tại tờ khai thuế sử dụng đất phi nông nghiệp và nộp bản sao các giấy tờ chứng minh thuộc diện được miễn, giảm thuế kèm theo.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 2",
+      "description": "+ Bước 2. Cơ quan thuế tiếp nhận: Cơ quan thuế tiếp nhận hồ sơ, giải quyết, trả kết quả (nếu có) theo quy định; Trường hợp hồ sơ không đầy đủ theo quy định, cơ quan thuế không tiếp nhận và hướng dẫn người nộp thuế hoàn thiện hồ sơ theo quy định.",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 5,
+      "title": "Bước 1",
+      "description": "+ Bước 1: \nTổ chức, hộ gia đình, cá nhân nộp hồ sơ đề nghị miễn, giảm thuế sử dụng đất phi nông nghiệp tại tại TTPVHCC cấp tỉnh, xã (trực tiếp) hoặc nộp qua Cổng DVC Quốc gia (trực tuyến).",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 6,
+      "title": "Bước 2",
+      "description": "+ Bước 2. Cơ quan thuế tiếp nhận: Cơ quan thuế tiếp nhận hồ sơ, giải quyết, trả kết quả (nếu có) theo quy định); Trường hợp hồ sơ không đầy đủ theo quy định, cơ quan thuế không tiếp nhận và hướng dẫn người nộp thuế hoàn thiện hồ sơ theo quy định.",
+      "example": null,
+      "source_page": 3
     }
   ],
   "documents": {
@@ -76,130 +88,88 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "Tờ khai thuế sử dụng đất nông nghiệp dùng cho tổ chức theo mẫu số 01/SDDNN tại Phụ lục II ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật quản lý thuế (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC)",
-        "code": "000.00.00.G12-KQ016139",
+        "name": "(i) Khai thuế sử dụng đất nông nghiệp:: Tờ khai thuế sử dụng đất nông nghiệp dùng cho tổ chức theo mẫu số 01/SDDNN tại Phụ lục II ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật quản lý thuế (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(i) Khai thuế sử dụng đất nông nghiệp:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Tờ khai thuế sử dụng đất nông nghiệp dùng cho hộ gia đình, cá nhân theo mẫu số 02/SDDNN tại Phụ lục II ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)",
-        "code": "000.00.00.G12-KQ016140",
+        "name": "(i) Khai thuế sử dụng đất nông nghiệp:: Tờ khai thuế sử dụng đất nông nghiệp dùng cho hộ gia đình, cá nhân theo mẫu số 02/SDDNN tại Phụ lục II ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(i) Khai thuế sử dụng đất nông nghiệp:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Tờ khai thuế sử dụng đất nông nghiệp dùng cho khai thuế đối với đất trồng cây lâu năm thu hoạch một lần theo mẫu số 03/SDDNN tại Phụ lục II ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)",
-        "code": "000.00.00.G12-KQ016141",
+        "name": "(i) Khai thuế sử dụng đất nông nghiệp:: Tờ khai thuế sử dụng đất nông nghiệp dùng cho khai thuế đối với đất trồng cây lâu năm thu hoạch một lần theo mẫu số 03/SDDNN tại Phụ lục II ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(i) Khai thuế sử dụng đất nông nghiệp:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Bản sao các giấy tờ liên quan đến thửa đất chịu thuế: Giấy chứng nhận quyền sử dụng đất, Quyết định giao đất, Quyết định hoặc Hợp đồng cho thuê đất, Quyết định cho phép chuyển mục đích sử dụng đất",
-        "code": "000.00.00.G12-KQ016143",
+        "name": "(ii) Khai thuế sử dụng đất phi nông nghiệp - Trường hợp khai thuế sử dụng đất phi nông nghiệp phải nộp của năm: Đối với tổ chức: Bản sao các giấy tờ liên quan đến thửa đất chịu thuế: Giấy chứng nhận quyền sử dụng đất, Quyết định giao đất, Quyết định hoặc Hợp đồng cho thuê đất, Quyết định cho phép chuyển mục đích sử dụng đất",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "(ii) Khai thuế sử dụng đất phi nông nghiệp - Trường hợp khai thuế sử dụng đất phi nông nghiệp phải nộp của năm: Đối với tổ chức",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Tờ khai thuế sử dụng đất phi nông nghiệp cho từng thửa đất chịu thuế theo mẫu số 02/TK-SDDPNN tại Phụ lục ban hành kèm theo Nghị định số 373/2025/NĐ-CP ngày 31/12/2025của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế",
-        "code": "000.00.00.G12-KQ016142",
+        "name": "(ii) Khai thuế sử dụng đất phi nông nghiệp - Trường hợp khai thuế sử dụng đất phi nông nghiệp phải nộp của năm: Đối với tổ chức: Tờ khai thuế sử dụng đất phi nông nghiệp cho từng thửa đất chịu thuế theo mẫu số 02/TK-SDDPNN tại Phụ lục ban hành kèm theo Nghị định số 373/2025/NĐ-CP ngày 31/12/2025của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "(ii) Khai thuế sử dụng đất phi nông nghiệp - Trường hợp khai thuế sử dụng đất phi nông nghiệp phải nộp của năm: Đối với tổ chức",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Bản sao các giấy tờ chứng minh thuộc diện được miễn, giảm thuế (nếu có)",
-        "code": "000.00.00.G12-KQ016144",
+        "name": "(ii) Khai thuế sử dụng đất phi nông nghiệp - Trường hợp khai thuế sử dụng đất phi nông nghiệp phải nộp của năm: Đối với tổ chức: Bản sao các giấy tờ chứng minh thuộc diện được miễn, giảm thuế (nếu có)",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "(ii) Khai thuế sử dụng đất phi nông nghiệp - Trường hợp khai thuế sử dụng đất phi nông nghiệp phải nộp của năm: Đối với tổ chức",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "++ Bản sao Giấy tờ chứng minh thuộc đối tượng miễn, giảm thuế sử dụng đất phi nông nghiệp",
-        "code": "000.00.00.G12-KQ016147",
+        "name": "(iii) Miễn, giảm thuế sử dụng đất phi nông nghiệp: Đối với trường hợp miễn thuế, giảm thuế sử dụng đất phi nông nghiệp, trừ trường hợp miễn tiền thuế sử dụng đất phi nông nghiệp đối với hộ gia đình, cá nhân có số thuế phải nộp hằng năm từ 50.000 VNĐ (50 nghìn đồng) trở xuống, thành phần hồ sơ miễn, giảm theo quy định tại Điều 57 Thông tư số 80/2021/TT-BTC  ngày 29/9/2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế gồm:: ++ Bản sao Giấy tờ chứng minh thuộc đối tượng miễn, giảm thuế sử dụng đất phi nông nghiệp",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "(iii) Miễn, giảm thuế sử dụng đất phi nông nghiệp: Đối với trường hợp miễn thuế, giảm thuế sử dụng đất phi nông nghiệp, trừ trường hợp miễn tiền thuế sử dụng đất phi nông nghiệp đối với hộ gia đình, cá nhân có số thuế phải nộp hằng năm từ 50.000 VNĐ (50 nghìn đồng) trở xuống, thành phần hồ sơ miễn, giảm theo quy định tại Điều 57 Thông tư số 80/2021/TT-BTC  ngày 29/9/2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "++ Văn bản đề nghị theo mẫu số 01/MGTH ban hành kèm theo Phụ lục I Thông tư số 80/2021/TT-BTC  ngày 29/9/2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC).",
-        "code": "000.00.00.G12-KQ015744",
+        "name": "(iii) Miễn, giảm thuế sử dụng đất phi nông nghiệp: Đối với trường hợp miễn thuế, giảm thuế sử dụng đất phi nông nghiệp, trừ trường hợp miễn tiền thuế sử dụng đất phi nông nghiệp đối với hộ gia đình, cá nhân có số thuế phải nộp hằng năm từ 50.000 VNĐ (50 nghìn đồng) trở xuống, thành phần hồ sơ miễn, giảm theo quy định tại Điều 57 Thông tư số 80/2021/TT-BTC  ngày 29/9/2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế gồm:: ++ Văn bản đề nghị theo mẫu số 01/MGTH ban hành kèm theo Phụ lục I Thông tư số 80/2021/TT-BTC  ngày 29/9/2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(iii) Miễn, giảm thuế sử dụng đất phi nông nghiệp: Đối với trường hợp miễn thuế, giảm thuế sử dụng đất phi nông nghiệp, trừ trường hợp miễn tiền thuế sử dụng đất phi nông nghiệp đối với hộ gia đình, cá nhân có số thuế phải nộp hằng năm từ 50.000 VNĐ (50 nghìn đồng) trở xuống, thành phần hồ sơ miễn, giảm theo quy định tại Điều 57 Thông tư số 80/2021/TT-BTC  ngày 29/9/2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "++ Bản sao các giấy tờ liên quan đến thửa đất chịu thuế như: Giấy chứng nhận quyền sử dụng đất, Quyết định giao đất, Quyết định hoặc Hợp đồng cho thuê đất, Quyết định cho phép chuyển mục đích sử dụng đất;",
-        "code": "000.00.00.G12-KQ011680",
+        "name": "(iii) Miễn, giảm thuế sử dụng đất phi nông nghiệp: Đối với trường hợp miễn thuế, giảm thuế sử dụng đất phi nông nghiệp, trừ trường hợp miễn tiền thuế sử dụng đất phi nông nghiệp đối với hộ gia đình, cá nhân có số thuế phải nộp hằng năm từ 50.000 VNĐ (50 nghìn đồng) trở xuống, thành phần hồ sơ miễn, giảm theo quy định tại Điều 57 Thông tư số 80/2021/TT-BTC  ngày 29/9/2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế gồm:: ++ Bản sao các giấy tờ liên quan đến thửa đất chịu thuế như: Giấy chứng nhận quyền sử dụng đất, Quyết định giao đất, Quyết định hoặc Hợp đồng cho thuê đất, Quyết định cho phép chuyển mục đích sử dụng đất;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "(iii) Miễn, giảm thuế sử dụng đất phi nông nghiệp: Đối với trường hợp miễn thuế, giảm thuế sử dụng đất phi nông nghiệp, trừ trường hợp miễn tiền thuế sử dụng đất phi nông nghiệp đối với hộ gia đình, cá nhân có số thuế phải nộp hằng năm từ 50.000 VNĐ (50 nghìn đồng) trở xuống, thành phần hồ sơ miễn, giảm theo quy định tại Điều 57 Thông tư số 80/2021/TT-BTC  ngày 29/9/2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "Bản sao các giấy tờ chứng minh thuộc diện được miễn, giảm thuế (nếu có).",
-        "code": "000.00.00.G12-KQ016146",
+        "name": "Đối với hộ gia đình, cá nhân: Bản sao các giấy tờ chứng minh thuộc diện được miễn, giảm thuế (nếu có).",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Đối với hộ gia đình, cá nhân ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Tờ khai tổng hợp thuế sử dụng đất phi nông nghiệp (áp dụng đối với hộ gia đình, cá nhân kê khai tổng hợp đất ở) theo mẫu số 03/TKTH-SDDPNN tại Phụ lục II ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)",
-        "code": "000.00.00.G12-KQ015677",
+        "name": "Đối với hộ gia đình, cá nhân: Tờ khai tổng hợp thuế sử dụng đất phi nông nghiệp (áp dụng đối với hộ gia đình, cá nhân kê khai tổng hợp đất ở) theo mẫu số 03/TKTH-SDDPNN tại Phụ lục II ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Đối với hộ gia đình, cá nhân ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "Bản sao các giấy tờ liên quan đến thửa đất chịu thuế: Giấy chứng nhận quyền sử dụng đất, Quyết định giao đất, Quyết định hoặc Hợp đồng cho thuê đất, Quyết định cho phép chuyển mục đích sử dụng đất",
-        "code": "000.00.00.G12-KQ016143",
+        "name": "Đối với hộ gia đình, cá nhân: Bản sao các giấy tờ liên quan đến thửa đất chịu thuế: Giấy chứng nhận quyền sử dụng đất, Quyết định giao đất, Quyết định hoặc Hợp đồng cho thuê đất, Quyết định cho phép chuyển mục đích sử dụng đất",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Đối với hộ gia đình, cá nhân ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Tờ khai thuế sử dụng đất phi nông nghiệp (áp dụng đối với hộ gia đình, cá nhân theo mẫu số 01/TK-SDDPNN tại Phụ lục I ban hành kèm theo Nghị định số 373/2025/NĐ-CP ngày 31/12/2025của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế",
-        "code": "000.00.00.G12-KQ016145",
+        "name": "Đối với hộ gia đình, cá nhân: Tờ khai thuế sử dụng đất phi nông nghiệp (áp dụng đối với hộ gia đình, cá nhân theo mẫu số 01/TK-SDDPNN tại Phụ lục I ban hành kèm theo Nghị định số 373/2025/NĐ-CP ngày 31/12/2025của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Đối với hộ gia đình, cá nhân ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
         "name": "Đối với trường hợp hộ gia đình, cá nhân có số thuế sử dụng đất phi nông nghiệp phải nộp hằng năm từ 50.000 VNĐ (50 nghìn đồng) trở xuống thì không phải nộp hồ sơ miễn thuế sử dụng đất phi nông nghiệp.",
-        "code": "000.00.00.G12-KQ016148",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 6
       }
     ]
   },
@@ -208,35 +178,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -244,51 +194,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -296,68 +231,57 @@
     {
       "title": "Thông tư số 40/2025/TT-BTC Sửa đổi, bổ sung một số điều của các Thông tư thuộc lĩnh vực quản lý thuế để phân định thẩm quyền của chính quyền địa phương theo mô hình tổ chức chính quyền địa phương 02 cấp",
       "document_number": "40/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4d-44a3539f8eba",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "sửa đổi một số điều của Thông tư 19/2021/TT-BTC ngày 18/3/2021 của Bộ trưởng Bộ Tài chính hướng dẫn giao dịch điện tử trong lĩnh vực thuế",
       "document_number": "46/2024/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4d-9f8629ebc27d",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Nghị định số 91/2022/NĐ-CP sửa đổi bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế",
       "document_number": "91/2022/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b472-a31220f95d4a",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Thông tư sửa đổi, bổ sung một số điều của Thông tư số 80/2021/TT-BTC ngày 29 tháng 9 năm 2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế và sửa đổi, bổ sung một số mẫu biểu của Thông tư số 40/2021/TT-BTC ngày 01 tháng 6 năm 2021 của Bộ Tài chính hướng dẫn thuế giá trị gia tăng, thuế thu nhập cá nhân và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh",
       "document_number": "94/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4f-76aad3b97074",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Luật Quản lý thuế",
       "document_number": "38/2019/QH14",
-      "id": "019d2bb3-5d85-73da-8eb9-e5214fd5ac79",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 126/2020/NĐ-CP",
       "document_number": "126/2020/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a63e-9e72cf1f3ed4",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Thông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ Tài chính hướng dẫn Giao dịch điện tử trong lĩnh vực thuế",
       "document_number": "19/2021/TT-BTC",
-      "id": "019d2bb3-5d86-7760-a643-2e14de6cf380",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Luật số 56/2024/QH15 của Quốc hội: Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính",
       "document_number": "56/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b673-8c498fc98ef5",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Thông tư 80/2021/TT-BTC",
       "document_number": "80/2021/TT-BTC",
-      "id": "019d2bb3-5d87-7195-a446-0e6dcc708401",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Nghị định số 373/2025/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế",
       "document_number": "373/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46d-4a90f05e7041",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Thông tư số 43/2023/TT-BTC ngày 27/6/2023 của Bộ trưởng Bộ Tài chính sửa đổi, bổ sung một số điều của các Thông tư có quy định liên quan đến việc nộp, xuất trình và khai thông tin về đăng ký sổ hộ khẩu, sổ tạm trú hoặc giấy tờ có yêu cầu xác nhận của địa phương nơi cư trú khi thực hiện các chính sách hoặc thủ tục hành chính thuộc lĩnh vực quản lý nhà nước của Bộ Tài chính.",
       "document_number": "TT43/2023/TT-BTC",
-      "id": "019d2bb3-5d87-7195-a449-21c6ebcf158c",
-      "source_page": null
+      "source_page": 7
     }
   ],
   "conditions": "",
@@ -365,31 +289,27 @@
     {
       "title": "Thông báo giải trình, bổ sung thông tin, tài liệu (Mẫu 01/TB-BSTT-NNT)",
       "code": "KQ.G12.000566",
-      "id": "019d2bb2-1c71-7574-afe8-1af89bd23d1c",
-      "source_page": null
+      "source_page": 8
     },
     {
       "title": "Quyết định miễn thuế, giảm thuế (mẫu số 03/MGTH)",
       "code": "KQ.G12.001446",
-      "id": "019d2bb2-1c73-70ac-aa1a-42fe8728630c",
-      "source_page": null
+      "source_page": 8
     },
     {
       "title": "Thông báo nộp tiền về thuế sử dụng đất phi nông nghiệp",
       "code": "KQ.G12.000501",
-      "id": "019d2bb2-1c71-7574-afe7-dc94efc6614d",
-      "source_page": null
+      "source_page": 8
     },
     {
       "title": "Thông báo không được miễn thuế, giảm thuế (mẫu số 04/MGTH )",
       "code": "KQ.G12.001447",
-      "id": "019d2bb2-1c73-70ac-aa1a-4454ae3736c2",
-      "source_page": null
+      "source_page": 8
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Người nộp thuế sử dụng đất nông nghiệp nộp hồ sơ khai thuế, hồ sơ đề nghị miễn, giảm thuế sử dụng đất nông nghiệp cho Ủy ban nhân dân xã, phường, đặc khu nơi có đất chịu thuế, TTPVHCC cấp tỉnh, xã (trực tiếp) hoặc qua Cổng DVC Quốc gia (trực tuyến).\nThời hạn hộp hồ sơ khai thuế là 30 ngày, kể từ ngày phát sinh hoặc thay đổi nghĩa vụ thuế. Trường hợp địa phương có mùa vụ thu hoạch sản phẩm nông nghiệp không trùng với thời hạn nộp thuế quy định tại điểm này thì cơ quan thuế được phép lùi thời hạn thông báo nộp thuế và thời hạn nộp thuế không quá 60 (sáu mươi) ngày so với thời hạn quy định tại điểm này. Trường hợp người nộp thuế có yêu cầu nộp thuế một lần cho toàn bộ số thuế sử dụng đất nông nghiệp cả năm thì người nộp thuế phải thực hiện nộp tiền thuế theo thời hạn của kỳ nộp thứ nhất trong năm. Hàng năm, người nộp thuế không phải kê khai lại hồ sơ khai thuế nếu không phát sinh thay đổi tăng, giảm diện tích chịu thuế sử dụng đất nông nghiệp. Thời hạn nộp hồ sơ khai thuế năm của tổ chức chậm nhất là ngày cuối cùng của tháng đầu tiên năm dương lịch; chậm nhất 10 ngày kể từ ngày khai thác sản lượng thu hoạch đối với tổ chức nộp thuế cho diện tích trồng cây lâu năm thu hoạch một lần.\n+ Bước 2. Cơ quan thuế tiếp nhận hồ sơ, giải quyết, trả kết quả (nếu có) theo quy định.\n\n+ Bước 1: \n ++ Đối với tổ chức\nThời hạn nộp hồ sơ chậm nhất là 30 ngày kể từ ngày phát sinh nghĩa vụ thuế sử dụng đất phi nông nghiệp, Tổ chức sử dụng đất thuộc tượng chịu thuế sử dụng đất phi nông nghiệp nộp hồ sơ khai thuế sử dụng đất phi nông nghiệp tại cơ chế một cửa liên thông nơi có đất thuộc đối tượng chịu thuế, TTPVHCC cấp tỉnh, xã  (trực tiếp) hoặc qua Cổng DVC Quốc gia (trực tuyến). \nTrong chu kỳ ổn định, hàng năm tổ chức không phải kê khai lại thuế sử dụng đất phi nông nghiệp nếu không có sự thay đổi về người nộp thuế và các yếu tố dẫn đến thay đổi số thuế phải nộp.\nKê khai khi có phát sinh thay đổi các yếu tố làm thay đổi căn cứ tính thuế dẫn đến tăng, giảm số thuế phải nộp và khai bổ sung khi phát hiện hồ sơ khai thuế đã nộp cho cơ quan thuế có sai sót ảnh hưởng đến số thuế phải nộp: Thời hạn nộp hồ sơ chậm nhất là 30 ngày kể từ ngày phát sinh thay đổi. \nKhai bổ sung hồ sơ khai thuế được áp dụng đối với: Trường hợp phát sinh các yếu tố làm thay đổi căn cứ tính thuế dẫn đến tăng, giảm số thuế phải nộp; trường hợp phát hiện hồ sơ khai thuế đã nộp cho cơ quan thuế có sai sót, nhầm lẫn gây ảnh hưởng đến số thuế phải nộp. \n++ Đối với hộ gia đình, cá nhân:\nThời hạn nộp hồ sơ chậm nhất là 30 ngày kể từ ngày phát sinh nghĩa vụ thuế sử dụng đất phi nông nghiệp. Người nộp thuế có trách nhiệm khai chính xác vào Tờ khai thuế các thông tin liên quan đến người nộp thuế như: tên, số CCCD, mã số thuế, địa chỉ nhận thông báo thuế; Các thông tin liên quan đến thửa đất chịu thuế như diện tích, mục đích sử dụng. Nếu đất đã được cấp Giấy chứng nhận thì phải khai đầy đủ các thông tin trên Giấy chứng nhận như số, ngày cấp, số tờ bản đồ, diện tích đất, hạn mức (nếu có), nộp hồ sơ khai thuế tại cơ chế một cửa liên thông nơi có đất thuộc đối tượng chịu thuế, TTPVHCC cấp tỉnh, xã  (trực tiếp) hoặc qua Cổng DVC Quốc gia (trực tuyến). \nĐối với hồ sơ khai thuế đất ở của hộ gia đình, cá nhân, cơ quan chuyên môn về nông nghiệp và môi trường thuộc Ủy ban nhân dân cấp xã hoặc văn phòng đăng ký quyền sử dụng đất có trách nhiệm xác nhận thông tin khai thuế sử dụng đất phi nông nghiệp cho người nộp thuế trong phạm vi nhiệm vụ của mình trong thời hạn 03 ngày làm việc kể từ khi nhận được đề nghị của người nộp thuế hoặc của cơ quan quản lý thuế. \nHàng năm, người nộp thuế không phải thực hiện khai lại nếu không có sự thay đổi về người nộp thuế và các yếu tố dẫn đến thay đổi số thuế phải nộp. \nTrường hợp có phát sinh thay đổi các yếu tố làm thay đổi căn cứ tính thuế (trừ trường hợp thay đổi giá của 1m2 đất theo quy định của Ủy ban nhân dân cấp tỉnh) dẫn đến tăng, giảm số thuế phải nộp: Thời hạn nộp hồ sơ chậm nhất 30 ngày kể từ ngày phát sinh thay đổi.\nTrường hợp người nộp thuế đề nghị miễn, giảm thuế sử dụng đất phi nông nghiệp cùng hồ sơ khai thuế thì người nộp thuế kê khai thông tin đề nghị miễn giảm tại tờ khai thuế sử dụng đất phi nông nghiệp và nộp bản sao các giấy tờ chứng minh thuộc diện được miễn, giảm thuế kèm theo.\n+ Bước 2. Cơ quan thuế tiếp nhận: Cơ quan thuế tiếp nhận hồ sơ, giải quyết, trả kết quả (nếu có) theo quy định; Trường hợp hồ sơ không đầy đủ theo quy định, cơ quan thuế không tiếp nhận và hướng dẫn người nộp thuế hoàn thiện hồ sơ theo quy định.\n\n+ Bước 1: \nTổ chức, hộ gia đình, cá nhân nộp hồ sơ đề nghị miễn, giảm thuế sử dụng đất phi nông nghiệp tại tại TTPVHCC cấp tỉnh, xã (trực tiếp) hoặc nộp qua Cổng DVC Quốc gia (trực tuyến).\n+ Bước 2. Cơ quan thuế tiếp nhận: Cơ quan thuế tiếp nhận hồ sơ, giải quyết, trả kết quả (nếu có) theo quy định); Trường hợp hồ sơ không đầy đủ theo quy định, cơ quan thuế không tiếp nhận và hướng dẫn người nộp thuế hoàn thiện hồ sơ theo quy định.\n",
-    "THÀNH PHẦN HỒ SƠ": "(i) Khai thuế sử dụng đất nông nghiệp:\nTờ khai thuế sử dụng đất nông nghiệp dùng cho tổ chức theo mẫu số 01/SDDNN tại Phụ lục II ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật quản lý thuế (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC)\nTờ khai thuế sử dụng đất nông nghiệp dùng cho hộ gia đình, cá nhân theo mẫu số 02/SDDNN tại Phụ lục II ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)\nTờ khai thuế sử dụng đất nông nghiệp dùng cho khai thuế đối với đất trồng cây lâu năm thu hoạch một lần theo mẫu số 03/SDDNN tại Phụ lục II ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)\n(ii) Khai thuế sử dụng đất phi nông nghiệp - Trường hợp khai thuế sử dụng đất phi nông nghiệp phải nộp của năm: Đối với tổ chức\nBản sao các giấy tờ liên quan đến thửa đất chịu thuế: Giấy chứng nhận quyền sử dụng đất, Quyết định giao đất, Quyết định hoặc Hợp đồng cho thuê đất, Quyết định cho phép chuyển mục đích sử dụng đất\nTờ khai thuế sử dụng đất phi nông nghiệp cho từng thửa đất chịu thuế theo mẫu số 02/TK-SDDPNN tại Phụ lục ban hành kèm theo Nghị định số 373/2025/NĐ-CP ngày 31/12/2025của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế\nBản sao các giấy tờ chứng minh thuộc diện được miễn, giảm thuế (nếu có)\n(iii) Miễn, giảm thuế sử dụng đất phi nông nghiệp: Đối với trường hợp miễn thuế, giảm thuế sử dụng đất phi nông nghiệp, trừ trường hợp miễn tiền thuế sử dụng đất phi nông nghiệp đối với hộ gia đình, cá nhân có số thuế phải nộp hằng năm từ 50.000 VNĐ (50 nghìn đồng) trở xuống, thành phần hồ sơ miễn, giảm theo quy định tại Điều 57 Thông tư số 80/2021/TT-BTC  ngày 29/9/2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế gồm:\n++ Bản sao Giấy tờ chứng minh thuộc đối tượng miễn, giảm thuế sử dụng đất phi nông nghiệp\n++ Văn bản đề nghị theo mẫu số 01/MGTH ban hành kèm theo Phụ lục I Thông tư số 80/2021/TT-BTC  ngày 29/9/2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC).\n++ Bản sao các giấy tờ liên quan đến thửa đất chịu thuế như: Giấy chứng nhận quyền sử dụng đất, Quyết định giao đất, Quyết định hoặc Hợp đồng cho thuê đất, Quyết định cho phép chuyển mục đích sử dụng đất;\nĐối với hộ gia đình, cá nhân \nBản sao các giấy tờ chứng minh thuộc diện được miễn, giảm thuế (nếu có).\nTờ khai tổng hợp thuế sử dụng đất phi nông nghiệp (áp dụng đối với hộ gia đình, cá nhân kê khai tổng hợp đất ở) theo mẫu số 03/TKTH-SDDPNN tại Phụ lục II ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)\nBản sao các giấy tờ liên quan đến thửa đất chịu thuế: Giấy chứng nhận quyền sử dụng đất, Quyết định giao đất, Quyết định hoặc Hợp đồng cho thuê đất, Quyết định cho phép chuyển mục đích sử dụng đất\nTờ khai thuế sử dụng đất phi nông nghiệp (áp dụng đối với hộ gia đình, cá nhân theo mẫu số 01/TK-SDDPNN tại Phụ lục I ban hành kèm theo Nghị định số 373/2025/NĐ-CP ngày 31/12/2025của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế\n\nĐối với trường hợp hộ gia đình, cá nhân có số thuế sử dụng đất phi nông nghiệp phải nộp hằng năm từ 50.000 VNĐ (50 nghìn đồng) trở xuống thì không phải nộp hồ sơ miễn thuế sử dụng đất phi nông nghiệp.",
+    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Người nộp thuế sử dụng đất nông nghiệp nộp hồ sơ khai thuế, hồ sơ đề nghị miễn, giảm thuế sử dụng đất nông nghiệp cho Ủy ban nhân dân xã, phường, đặc khu nơi có đất chịu thuế, TTPVHCC cấp tỉnh, xã (trực tiếp) hoặc qua Cổng DVC Quốc gia (trực tuyến).\nThời hạn hộp hồ sơ khai thuế là 30 ngày, kể từ ngày phát sinh hoặc thay đổi nghĩa vụ thuế. Trường hợp địa phương có mùa vụ thu hoạch sản phẩm nông nghiệp không trùng với thời hạn nộp thuế quy định tại điểm này thì cơ quan thuế được phép lùi thời hạn thông báo nộp thuế và thời hạn nộp thuế không quá 60 (sáu mươi) ngày so với thời hạn quy định tại điểm này. Trường hợp người nộp thuế có yêu cầu nộp thuế một lần cho toàn bộ số thuế sử dụng đất nông nghiệp cả năm thì người nộp thuế phải thực hiện nộp tiền thuế theo thời hạn của kỳ nộp thứ nhất trong năm. Hàng năm, người nộp thuế không phải kê khai lại hồ sơ khai thuế nếu không phát sinh thay đổi tăng, giảm diện tích chịu thuế sử dụng đất nông nghiệp. Thời hạn nộp hồ sơ khai thuế năm của tổ chức chậm nhất là ngày cuối cùng của tháng đầu tiên năm dương lịch; chậm nhất 10 ngày kể từ ngày khai thác sản lượng thu hoạch đối với tổ chức nộp thuế cho diện tích trồng cây lâu năm thu hoạch một lần.\n+ Bước 2. Cơ quan thuế tiếp nhận hồ sơ, giải quyết, trả kết quả (nếu có) theo quy định.\n+ Bước 1: \n ++ Đối với tổ chức\nThời hạn nộp hồ sơ chậm nhất là 30 ngày kể từ ngày phát sinh nghĩa vụ thuế sử dụng đất phi nông nghiệp, Tổ chức sử dụng đất thuộc tượng chịu thuế sử dụng đất phi nông nghiệp nộp hồ sơ khai thuế sử dụng đất phi nông nghiệp tại cơ chế một cửa liên thông nơi có đất thuộc đối tượng chịu thuế, TTPVHCC cấp tỉnh, xã  (trực tiếp) hoặc qua Cổng DVC Quốc gia (trực tuyến). \nTrong chu kỳ ổn định, hàng năm tổ chức không phải kê khai lại thuế sử dụng đất phi nông nghiệp nếu không có sự thay đổi về người nộp thuế và các yếu tố dẫn đến thay đổi số thuế phải nộp.\nKê khai khi có phát sinh thay đổi các yếu tố làm thay đổi căn cứ tính thuế dẫn đến tăng, giảm số thuế phải nộp và khai bổ sung khi phát hiện hồ sơ khai thuế đã nộp cho cơ quan thuế có sai sót ảnh hưởng đến số thuế phải nộp: Thời hạn nộp hồ sơ chậm nhất là 30 ngày kể từ ngày phát sinh thay đổi. \nKhai bổ sung hồ sơ khai thuế được áp dụng đối với: Trường hợp phát sinh các yếu tố làm thay đổi căn cứ tính thuế dẫn đến tăng, giảm số thuế phải nộp; trường hợp phát hiện hồ sơ khai thuế đã nộp cho cơ quan thuế có sai sót, nhầm lẫn gây ảnh hưởng đến số thuế phải nộp. \n++ Đối với hộ gia đình, cá nhân:\nThời hạn nộp hồ sơ chậm nhất là 30 ngày kể từ ngày phát sinh nghĩa vụ thuế sử dụng đất phi nông nghiệp. Người nộp thuế có trách nhiệm khai chính xác vào Tờ khai thuế các thông tin liên quan đến người nộp thuế như: tên, số CCCD, mã số thuế, địa chỉ nhận thông báo thuế; Các thông tin liên quan đến thửa đất chịu thuế như diện tích, mục đích sử dụng. Nếu đất đã được cấp Giấy chứng nhận thì phải khai đầy đủ các thông tin trên Giấy chứng nhận như số, ngày cấp, số tờ bản đồ, diện tích đất, hạn mức (nếu có), nộp hồ sơ khai thuế tại cơ chế một cửa liên thông nơi có đất thuộc đối tượng chịu thuế, TTPVHCC cấp tỉnh, xã  (trực tiếp) hoặc qua Cổng DVC Quốc gia (trực tuyến). \nĐối với hồ sơ khai thuế đất ở của hộ gia đình, cá nhân, cơ quan chuyên môn về nông nghiệp và môi trường thuộc Ủy ban nhân dân cấp xã hoặc văn phòng đăng ký quyền sử dụng đất có trách nhiệm xác nhận thông tin khai thuế sử dụng đất phi nông nghiệp cho người nộp thuế trong phạm vi nhiệm vụ của mình trong thời hạn 03 ngày làm việc kể từ khi nhận được đề nghị của người nộp thuế hoặc của cơ quan quản lý thuế. \nHàng năm, người nộp thuế không phải thực hiện khai lại nếu không có sự thay đổi về người nộp thuế và các yếu tố dẫn đến thay đổi số thuế phải nộp. \nTrường hợp có phát sinh thay đổi các yếu tố làm thay đổi căn cứ tính thuế (trừ trường hợp thay đổi giá của 1m2 đất theo quy định của Ủy ban nhân dân cấp tỉnh) dẫn đến tăng, giảm số thuế phải nộp: Thời hạn nộp hồ sơ chậm nhất 30 ngày kể từ ngày phát sinh thay đổi.\nTrường hợp người nộp thuế đề nghị miễn, giảm thuế sử dụng đất phi nông nghiệp cùng hồ sơ khai thuế thì người nộp thuế kê khai thông tin đề nghị miễn giảm tại tờ khai thuế sử dụng đất phi nông nghiệp và nộp bản sao các giấy tờ chứng minh thuộc diện được miễn, giảm thuế kèm theo.\n+ Bước 2. Cơ quan thuế tiếp nhận: Cơ quan thuế tiếp nhận hồ sơ, giải quyết, trả kết quả (nếu có) theo quy định; Trường hợp hồ sơ không đầy đủ theo quy định, cơ quan thuế không tiếp nhận và hướng dẫn người nộp thuế hoàn thiện hồ sơ theo quy định.\n+ Bước 1: \nTổ chức, hộ gia đình, cá nhân nộp hồ sơ đề nghị miễn, giảm thuế sử dụng đất phi nông nghiệp tại tại TTPVHCC cấp tỉnh, xã (trực tiếp) hoặc nộp qua Cổng DVC Quốc gia (trực tuyến).\n+ Bước 2. Cơ quan thuế tiếp nhận: Cơ quan thuế tiếp nhận hồ sơ, giải quyết, trả kết quả (nếu có) theo quy định); Trường hợp hồ sơ không đầy đủ theo quy định, cơ quan thuế không tiếp nhận và hướng dẫn người nộp thuế hoàn thiện hồ sơ theo quy định.",
+    "THÀNH PHẦN HỒ SƠ": "(i) Khai thuế sử dụng đất nông nghiệp:: Tờ khai thuế sử dụng đất nông nghiệp dùng cho tổ chức theo mẫu số 01/SDDNN tại Phụ lục II ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật quản lý thuế (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC)\n(i) Khai thuế sử dụng đất nông nghiệp:: Tờ khai thuế sử dụng đất nông nghiệp dùng cho hộ gia đình, cá nhân theo mẫu số 02/SDDNN tại Phụ lục II ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)\n(i) Khai thuế sử dụng đất nông nghiệp:: Tờ khai thuế sử dụng đất nông nghiệp dùng cho khai thuế đối với đất trồng cây lâu năm thu hoạch một lần theo mẫu số 03/SDDNN tại Phụ lục II ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)\n(ii) Khai thuế sử dụng đất phi nông nghiệp - Trường hợp khai thuế sử dụng đất phi nông nghiệp phải nộp của năm: Đối với tổ chức: Bản sao các giấy tờ liên quan đến thửa đất chịu thuế: Giấy chứng nhận quyền sử dụng đất, Quyết định giao đất, Quyết định hoặc Hợp đồng cho thuê đất, Quyết định cho phép chuyển mục đích sử dụng đất\n(ii) Khai thuế sử dụng đất phi nông nghiệp - Trường hợp khai thuế sử dụng đất phi nông nghiệp phải nộp của năm: Đối với tổ chức: Tờ khai thuế sử dụng đất phi nông nghiệp cho từng thửa đất chịu thuế theo mẫu số 02/TK-SDDPNN tại Phụ lục ban hành kèm theo Nghị định số 373/2025/NĐ-CP ngày 31/12/2025của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế\n(ii) Khai thuế sử dụng đất phi nông nghiệp - Trường hợp khai thuế sử dụng đất phi nông nghiệp phải nộp của năm: Đối với tổ chức: Bản sao các giấy tờ chứng minh thuộc diện được miễn, giảm thuế (nếu có)\n(iii) Miễn, giảm thuế sử dụng đất phi nông nghiệp: Đối với trường hợp miễn thuế, giảm thuế sử dụng đất phi nông nghiệp, trừ trường hợp miễn tiền thuế sử dụng đất phi nông nghiệp đối với hộ gia đình, cá nhân có số thuế phải nộp hằng năm từ 50.000 VNĐ (50 nghìn đồng) trở xuống, thành phần hồ sơ miễn, giảm theo quy định tại Điều 57 Thông tư số 80/2021/TT-BTC  ngày 29/9/2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế gồm:: ++ Bản sao Giấy tờ chứng minh thuộc đối tượng miễn, giảm thuế sử dụng đất phi nông nghiệp\n(iii) Miễn, giảm thuế sử dụng đất phi nông nghiệp: Đối với trường hợp miễn thuế, giảm thuế sử dụng đất phi nông nghiệp, trừ trường hợp miễn tiền thuế sử dụng đất phi nông nghiệp đối với hộ gia đình, cá nhân có số thuế phải nộp hằng năm từ 50.000 VNĐ (50 nghìn đồng) trở xuống, thành phần hồ sơ miễn, giảm theo quy định tại Điều 57 Thông tư số 80/2021/TT-BTC  ngày 29/9/2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế gồm:: ++ Văn bản đề nghị theo mẫu số 01/MGTH ban hành kèm theo Phụ lục I Thông tư số 80/2021/TT-BTC  ngày 29/9/2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC).\n(iii) Miễn, giảm thuế sử dụng đất phi nông nghiệp: Đối với trường hợp miễn thuế, giảm thuế sử dụng đất phi nông nghiệp, trừ trường hợp miễn tiền thuế sử dụng đất phi nông nghiệp đối với hộ gia đình, cá nhân có số thuế phải nộp hằng năm từ 50.000 VNĐ (50 nghìn đồng) trở xuống, thành phần hồ sơ miễn, giảm theo quy định tại Điều 57 Thông tư số 80/2021/TT-BTC  ngày 29/9/2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế gồm:: ++ Bản sao các giấy tờ liên quan đến thửa đất chịu thuế như: Giấy chứng nhận quyền sử dụng đất, Quyết định giao đất, Quyết định hoặc Hợp đồng cho thuê đất, Quyết định cho phép chuyển mục đích sử dụng đất;\nĐối với hộ gia đình, cá nhân: Bản sao các giấy tờ chứng minh thuộc diện được miễn, giảm thuế (nếu có).\nĐối với hộ gia đình, cá nhân: Tờ khai tổng hợp thuế sử dụng đất phi nông nghiệp (áp dụng đối với hộ gia đình, cá nhân kê khai tổng hợp đất ở) theo mẫu số 03/TKTH-SDDPNN tại Phụ lục II ban hành kèm theo Thông tư số 80/2021/TT-BTC (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)\nĐối với hộ gia đình, cá nhân: Bản sao các giấy tờ liên quan đến thửa đất chịu thuế: Giấy chứng nhận quyền sử dụng đất, Quyết định giao đất, Quyết định hoặc Hợp đồng cho thuê đất, Quyết định cho phép chuyển mục đích sử dụng đất\nĐối với hộ gia đình, cá nhân: Tờ khai thuế sử dụng đất phi nông nghiệp (áp dụng đối với hộ gia đình, cá nhân theo mẫu số 01/TK-SDDPNN tại Phụ lục I ban hành kèm theo Nghị định số 373/2025/NĐ-CP ngày 31/12/2025của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế\nĐối với trường hợp hộ gia đình, cá nhân có số thuế sử dụng đất phi nông nghiệp phải nộp hằng năm từ 50.000 VNĐ (50 nghìn đồng) trở xuống thì không phải nộp hồ sơ miễn thuế sử dụng đất phi nông nghiệp.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 1\nQua dịch vụ bưu chính: 1\nTrực tiếp: 1",
     "CĂN CỨ PHÁP LÝ": "Thông tư số 40/2025/TT-BTC Sửa đổi, bổ sung một số điều của các Thông tư thuộc lĩnh vực quản lý thuế để phân định thẩm quyền của chính quyền địa phương theo mô hình tổ chức chính quyền địa phương 02 cấp - 40/2025/TT-BTC\nsửa đổi một số điều của Thông tư 19/2021/TT-BTC ngày 18/3/2021 của Bộ trưởng Bộ Tài chính hướng dẫn giao dịch điện tử trong lĩnh vực thuế - 46/2024/TT-BTC\nNghị định số 91/2022/NĐ-CP sửa đổi bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế - 91/2022/NĐ-CP\nThông tư sửa đổi, bổ sung một số điều của Thông tư số 80/2021/TT-BTC ngày 29 tháng 9 năm 2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế và sửa đổi, bổ sung một số mẫu biểu của Thông tư số 40/2021/TT-BTC ngày 01 tháng 6 năm 2021 của Bộ Tài chính hướng dẫn thuế giá trị gia tăng, thuế thu nhập cá nhân và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh - 94/2025/TT-BTC\nLuật Quản lý thuế - 38/2019/QH14\nNghị định 126/2020/NĐ-CP - 126/2020/NĐ-CP\nThông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ Tài chính hướng dẫn Giao dịch điện tử trong lĩnh vực thuế - 19/2021/TT-BTC\nLuật số 56/2024/QH15 của Quốc hội: Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính - 56/2024/QH15\nThông tư 80/2021/TT-BTC - 80/2021/TT-BTC\nNghị định số 373/2025/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế - 373/2025/NĐ-CP\nThông tư số 43/2023/TT-BTC ngày 27/6/2023 của Bộ trưởng Bộ Tài chính sửa đổi, bổ sung một số điều của các Thông tư có quy định liên quan đến việc nộp, xuất trình và khai thông tin về đăng ký sổ hộ khẩu, sổ tạm trú hoặc giấy tờ có yêu cầu xác nhận của địa phương nơi cư trú khi thực hiện các chính sách hoặc thủ tục hành chính thuộc lĩnh vực quản lý nhà nước của Bộ Tài chính. - TT43/2023/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Thuế cơ sở",
@@ -399,11 +319,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thuế",
       "slug": "thue"
@@ -449,7 +364,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -458,6 +373,6 @@
         "slug": "thue-co-so"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

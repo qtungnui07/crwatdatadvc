@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfe-90f5-7757-b110-62c56f7d20c5",
   "procedure_code": "1.013468",
   "title": "Chấm dứt hoạt động tàu lặn",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-90f5-7757-b110-62c56f7d20c5",
     "source_file": "chi-tiet-thu-tuc-1.013468.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.013468/chi-tiet-thu-tuc-1.013468.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:10.356421+00:00",
-    "source_updated_at": "2026-04-17T09:37:21.590Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:57.303805+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "fefb7d2145ad62e6e76b0c4d6a30ddc903f11904e5679bbc059966bfb0dc58a8"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:10.356421+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "55/QĐ-BXD",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hàng hải và đường thủy nội địa",
   "target_users": [
@@ -42,10 +38,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ủy ban nhân dân cấp tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ủy ban nhân dân cấp tỉnh"
   },
   "steps": [
     {
@@ -53,32 +46,23 @@
       "title": "a) Nộp hồ sơ TTHC:",
       "description": "Tổ chức khai thác hoạt động tàu lặn gửi trên Cổng Dịch vụ công quốc gia hoặc qua hệ thống bưu chính hoặc trực tiếp đến Sở Xây dựng 01 bản chính hoặc biểu mẫu điện tử Đơn đề nghị chấm dứt hoạt động tàu lặn.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 2,
       "title": "b) Giải quyết TTHC:",
       "description": "Trong thời hạn 02 ngày làm việc, kể từ ngày nhận được đơn đề nghị, Sở Xây dựng ra quyết định chấm dứt hoạt động tàu lặn theo mẫu.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Bản chính hoặc biểu mẫu điện tử đơn đề nghị chấm dứt hoạt động tàu lặn",
-        "code": "000.00.00.G17-KQ002959",
+        "name": "a) Thành phần hồ sơ:: Bản chính hoặc biểu mẫu điện tử đơn đề nghị chấm dứt hoạt động tàu lặn",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "a) Thành phần hồ sơ:",
-        "attachments": [
-          {
-            "id": "019d961b-eb9e-75fb-898c-aff405084a7e",
-            "name": "Munnghchmdthotngtuln.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Munnghchmdthotngtuln.docx",
+        "source_page": 1
       }
     ],
     "normally_required": [],
@@ -89,35 +73,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "2 ngày làm việc",
-      "processing_time_value": 2,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "2 ngày làm việc",
-      "processing_time_value": 2,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -125,51 +89,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "2 ngày làm việc",
-      "processing_time_value": 2,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       }
     ]
   },
@@ -177,38 +126,32 @@
     {
       "title": "Nghị định quy định chi tiết một số điều của Bộ luật Hàng hải Việt Nam về quản lý hoạt động hàng hải",
       "document_number": "58/2017/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46f-3623eee55f1d",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "quy định về phân quyền, phân cấp trong lĩnh vực quản lý nhà nước của Bộ Xây dựng",
       "document_number": "144/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-29dc4def8482",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Xây dựng",
       "document_number": "33/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46c-b810721e9e56",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực hàng hải",
       "document_number": "34/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46c-e32fea9edd37",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "sửa đổi, bổ sung một số điều của các Nghị định để cắt giảm, đơn giản hóa thủ tục hành chính liên quan đến hoạt động sản xuất, kinh doanh thuộc phạm vi quản lý của Bộ Xây dựng",
       "document_number": "14/2026/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-e76414bd406c",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "BỘ LUẬT HÀNG HẢI VIỆT NAM",
       "document_number": "BỘ LUẬT  HÀNG HẢI VIỆT NAM",
-      "id": "019d2bb3-5d87-7195-a447-ba3e0c4ba141",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "",
@@ -216,13 +159,12 @@
     {
       "title": "Quyết định Chấm dứt hoạt động tàu lặn",
       "code": "KQ.G17.000290",
-      "id": "019d2bb2-1c7a-7554-ace5-87601d5b56a8",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Tổ chức khai thác hoạt động tàu lặn gửi trên Cổng Dịch vụ công quốc gia hoặc qua hệ thống bưu chính hoặc trực tiếp đến Sở Xây dựng 01 bản chính hoặc biểu mẫu điện tử Đơn đề nghị chấm dứt hoạt động tàu lặn.\nTrong thời hạn 02 ngày làm việc, kể từ ngày nhận được đơn đề nghị, Sở Xây dựng ra quyết định chấm dứt hoạt động tàu lặn theo mẫu.",
-    "THÀNH PHẦN HỒ SƠ": "a) Thành phần hồ sơ:\nBản chính hoặc biểu mẫu điện tử đơn đề nghị chấm dứt hoạt động tàu lặn",
+    "THÀNH PHẦN HỒ SƠ": "a) Thành phần hồ sơ:: Bản chính hoặc biểu mẫu điện tử đơn đề nghị chấm dứt hoạt động tàu lặn",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 2 ngày làm việc\nQua dịch vụ bưu chính: 2 ngày làm việc\nTrực tiếp: 2 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định quy định chi tiết một số điều của Bộ luật Hàng hải Việt Nam về quản lý hoạt động hàng hải - 58/2017/NĐ-CP\nquy định về phân quyền, phân cấp trong lĩnh vực quản lý nhà nước của Bộ Xây dựng - 144/2025/NĐ-CP\nNghị định quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Xây dựng - 33/2025/NĐ-CP\nNghị định sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực hàng hải - 34/2025/NĐ-CP\nsửa đổi, bổ sung một số điều của các Nghị định để cắt giảm, đơn giản hóa thủ tục hành chính liên quan đến hoạt động sản xuất, kinh doanh thuộc phạm vi quản lý của Bộ Xây dựng - 14/2026/NĐ-CP\nBỘ LUẬT HÀNG HẢI VIỆT NAM - BỘ LUẬT  HÀNG HẢI VIỆT NAM",
     "CƠ QUAN THỰC HIỆN": "Ủy ban nhân dân cấp tỉnh",
@@ -232,14 +174,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hàng hải và đường thủy nội địa",
-      "slug": "hang-hai-va-duong-thuy-noi-dia"
+      "slug": "hang-hai-va-uong-thuy-noi-ia"
     },
     "implementation_levels": [
       {
@@ -254,7 +191,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
@@ -262,7 +199,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -287,6 +224,6 @@
         "slug": "uy-ban-nhan-dan-cap-tinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

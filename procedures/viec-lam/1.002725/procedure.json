@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf8-f74b-7337-8855-5471a7e9826a",
   "procedure_code": "1.002725",
   "title": "Thủ tục cho phép nhập khẩu máy móc, thiết bị đã qua sử dụng trong trường hợp khác",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-f74b-7337-8855-5471a7e9826a",
     "source_file": "chi-tiet-thu-tuc-1.002725.pdf",
     "source_path": "procedures/viec-lam/1.002725/chi-tiet-thu-tuc-1.002725.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:00.479825+00:00",
-    "source_updated_at": "2026-04-21T09:46:53.459Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:59.991464+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "c63aa26a965b11f169659cd1c45f01b84ac16c4abf9a5ef850c283ff15cb01b0"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:00.479825+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "675/QĐ-BKHCN",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hoạt động khoa học và công nghệ",
   "target_users": [
@@ -36,46 +32,43 @@
   ],
   "agency": {
     "competent_agency": "Bộ Khoa học và Công nghệ",
-    "executing_agency": "Vụ Đánh giá và Thẩm định công nghệ",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Vụ Đánh giá và Thẩm định công nghệ"
   },
   "steps": [
     {
       "order": 1,
       "title": "Trường hợp tổ chức, doanh nghiệp (sau đây viết chung là doanh nghiệp) đang tiến hành sản xuất tại Việt Nam, để bảo đảm duy trì hoạt động sản xuất, có nhu cầu nhập khẩu máy móc, thiết bị đã qua sử dụng có tuổi thiết bị vượt quá quy định tại khoản 1 Điều 6 Quyết định số 18/2019/QĐ-TTg ngày 19/4/2019 của Thủ tướng Chính phủ nhưng công suất (tính theo số lượng sản phẩm được tạo ra bởi máy móc, thiết bị trong một đơn vị thời gian) hoặc hiệu suất còn lại của máy móc, thiết bị vẫn đạt từ 85% trở lên so với công suất hoặc hiệu suất thiết kế và mức tiêu hao nguyên, vật liệu, năng lượng của máy móc, thiết bị không vượt quá 15% so với thiết kế",
-      "description": "Doanh nghiệp nộp 01 bộ hồ sơ đề nghị cho phép nhập khẩu, đến Bộ phận Một cửa của Bộ Khoa học và Công nghệ để được xem xét, giải quyết\n",
+      "description": "Doanh nghiệp nộp 01 bộ hồ sơ đề nghị cho phép nhập khẩu, đến Bộ phận Một cửa của Bộ Khoa học và Công nghệ để được xem xét, giải quyết",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 2,
       "title": "- Trường hợp hồ sơ chưa đầy đủ, chưa hợp lệ theo quy định",
-      "description": "+ Trả lại ngay hồ sơ cho doanh nghiệp để sửa đổi, bổ sung trong trường hợp doanh nghiệp nộp hồ sơ trực tiếp tại Bộ phận Bộ phận Một cửa của Bộ Khoa học và Công nghệ;\n+ Trường hợp nhận hồ sơ qua Cổng dịch vụ công quốc gia, trong thời hạn 08 giờ làm việc kể từ thời điểm nhận hồ sơ, Bộ Khoa học và Công nghệ có ý kiến đề nghị doanh nghiệp sửa đổi, bổ sung hồ sơ;\n+ Trường hợp nhận hồ sơ qua đường bưu chính, trong thời hạn 02 ngày làm việc kể từ ngày nhận hồ sơ, Bộ Khoa học và Công nghệ có văn bản đề nghị doanh nghiệp sửa đổi, bổ sung hồ sơ.\n",
+      "description": "+ Trả lại ngay hồ sơ cho doanh nghiệp để sửa đổi, bổ sung trong trường hợp doanh nghiệp nộp hồ sơ trực tiếp tại Bộ phận Bộ phận Một cửa của Bộ Khoa học và Công nghệ;\n+ Trường hợp nhận hồ sơ qua Cổng dịch vụ công quốc gia, trong thời hạn 08 giờ làm việc kể từ thời điểm nhận hồ sơ, Bộ Khoa học và Công nghệ có ý kiến đề nghị doanh nghiệp sửa đổi, bổ sung hồ sơ;\n+ Trường hợp nhận hồ sơ qua đường bưu chính, trong thời hạn 02 ngày làm việc kể từ ngày nhận hồ sơ, Bộ Khoa học và Công nghệ có văn bản đề nghị doanh nghiệp sửa đổi, bổ sung hồ sơ.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 3,
       "title": "- Trong thời hạn 02 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ",
-      "description": "Bộ Khoa học và Công nghệ gửi văn bản kèm theo bản chụp hồ sơ đề nghị các bộ, cơ quan ngang bộ liên quan có ý kiến. Trường hợp cần thiết, Bộ Khoa học và Công nghệ lấy ý kiến chuyên gia về máy móc, thiết bị đã qua sử dụng đề nghị được nhập khẩu.\n",
+      "description": "Bộ Khoa học và Công nghệ gửi văn bản kèm theo bản chụp hồ sơ đề nghị các bộ, cơ quan ngang bộ liên quan có ý kiến. Trường hợp cần thiết, Bộ Khoa học và Công nghệ lấy ý kiến chuyên gia về máy móc, thiết bị đã qua sử dụng đề nghị được nhập khẩu.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 4,
       "title": "Trong thời hạn 5 ngày làm việc kể từ ngày nhận được văn bản đề nghị của Bộ Khoa học và Công nghệ",
-      "description": "các bộ, cơ quan ngang bộ, chuyên gia có ý kiến về việc nhập khẩu máy móc, thiết bị trong lĩnh vực quản lý chuyên ngành và cho ý kiến về đề xuất được nhập khẩu máy móc, thiết bị của doanh nghiệp.\n",
+      "description": "các bộ, cơ quan ngang bộ, chuyên gia có ý kiến về việc nhập khẩu máy móc, thiết bị trong lĩnh vực quản lý chuyên ngành và cho ý kiến về đề xuất được nhập khẩu máy móc, thiết bị của doanh nghiệp.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 5,
       "title": "- Trong thời hạn 03 ngày làm việc kể từ ngày nhận được ý kiến của các bộ, cơ quan ngang bộ, chuyên gia",
-      "description": "Bộ Khoa học và Công nghệ có văn bản trả lời doanh nghiệp, nêu rõ lý do nếu không chấp thuận đề nghị nhập khẩu máy móc, thiết bị.\n",
+      "description": "Bộ Khoa học và Công nghệ có văn bản trả lời doanh nghiệp, nêu rõ lý do nếu không chấp thuận đề nghị nhập khẩu máy móc, thiết bị.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
@@ -84,30 +77,21 @@
     "conditional": [
       {
         "name": "Bản sao Giấy chứng nhận đăng ký doanh nghiệp có đóng dấu của doanh nghiệp. Cơ quan tiếp nhận, giải quyết thủ tục hành chính khai thác, sử dụng thông tin đã có trong các cơ sở dữ liệu được cơ quan chủ quản cơ sở dữ liệu công bố để thay thế thành phần hồ sơ giải quyết thủ tục hành chính. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, chính xác thì cơ quan, người có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính yêu cầu cá nhân, tổ chức bổ sung thành phần hồ sơ để giải quyết thủ tục hành chính.",
-        "code": "G06-KQ005164",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Văn bản đề nghị cho phép nhập khẩu máy móc, thiết bị đã qua sử dụng (theo Mẫu số 01 Quyết định 02/2026/QĐ-TTg), theo đó giải trình về sự cần thiết phải nhập khẩu máy móc, thiết bị để bảo đảm duy trì hoạt động sản xuất kinh doanh, phương án sử dụng và sự cần thiết của máy móc, thiết bị dự kiến nhập khẩu trong dây chuyền công nghệ",
-        "code": "G06-KQ005163",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Chứng thư giám định được cấp bởi tổ chức giám định được Bộ Khoa học và Công nghệ chỉ định. Nội dung chứng thư giám định được thực hiện theo quy định tại điểm a, b, c, d, g khoản 1 Điều 10 Quyết định 18/2019/QĐ-TTg.",
-        "code": "G06-KQ005165",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -116,87 +100,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày",
-      "processing_time_value": 10,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Nộp trực tuyến trên Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn).",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày",
-      "processing_time_value": 10,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Nộp qua dịch vụ bưu chính về Bộ phận Một cửa của Bộ Khoa học và Công nghệ;\n(Địa chỉ Bộ phận Một cửa của Bộ Khoa học và Công nghệ:\n+ Bộ phận Một cửa cơ sở 1 tại Tầng 1, Tòa nhà Cục Đổi mới Sáng tạo, số 113 đường Trần Duy Hưng, phường Yên Hòa, TP. Hà Nội;\n+ Bộ phận Một cửa cơ sở 2 tại Tòa nhà số 1196 đường 3 tháng 2, Phường Bình Thới, TP. Hồ Chí Minh;\n+ Bộ phận Một cửa cơ sở 3 tại Đại diện Văn phòng Bộ tại miền Trung, số 42 Trần Quốc Toản, TP. Đà Nẵng).",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày",
-      "processing_time_value": 10,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Nộp trực tiếp tại Bộ phận Một cửa của Bộ Khoa học và Công nghệ",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       }
     ]
   },
@@ -204,20 +153,17 @@
     {
       "title": "Quyết định 18/2019/QĐ-TTg",
       "document_number": "18/2019/QĐ-TTg",
-      "id": "019d2bb3-5d84-71c5-b677-b9067d1588f7",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Quy định chi tiết một số điều của Luật Quản lý Ngoại thương",
       "document_number": "69/2018/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe6-9d000bec056a",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật quản lý ngoại thương",
       "document_number": "05/2017/QH14",
-      "id": "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "",
@@ -225,14 +171,13 @@
     {
       "title": "Văn bản trả lời tổ chức, doanh nghiệp về việc chấp thuận đề nghị cho phép nhập khẩu máy móc, thiết bị đã qua sử dụng",
       "code": "KQ.G06.000082",
-      "id": "019d2bb2-1c3e-70b9-8aec-9697b874f8d0",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Doanh nghiệp nộp 01 bộ hồ sơ đề nghị cho phép nhập khẩu, đến Bộ phận Một cửa của Bộ Khoa học và Công nghệ để được xem xét, giải quyết\n\n+ Trả lại ngay hồ sơ cho doanh nghiệp để sửa đổi, bổ sung trong trường hợp doanh nghiệp nộp hồ sơ trực tiếp tại Bộ phận Bộ phận Một cửa của Bộ Khoa học và Công nghệ;\n+ Trường hợp nhận hồ sơ qua Cổng dịch vụ công quốc gia, trong thời hạn 08 giờ làm việc kể từ thời điểm nhận hồ sơ, Bộ Khoa học và Công nghệ có ý kiến đề nghị doanh nghiệp sửa đổi, bổ sung hồ sơ;\n+ Trường hợp nhận hồ sơ qua đường bưu chính, trong thời hạn 02 ngày làm việc kể từ ngày nhận hồ sơ, Bộ Khoa học và Công nghệ có văn bản đề nghị doanh nghiệp sửa đổi, bổ sung hồ sơ.\n\nBộ Khoa học và Công nghệ gửi văn bản kèm theo bản chụp hồ sơ đề nghị các bộ, cơ quan ngang bộ liên quan có ý kiến. Trường hợp cần thiết, Bộ Khoa học và Công nghệ lấy ý kiến chuyên gia về máy móc, thiết bị đã qua sử dụng đề nghị được nhập khẩu.\n\ncác bộ, cơ quan ngang bộ, chuyên gia có ý kiến về việc nhập khẩu máy móc, thiết bị trong lĩnh vực quản lý chuyên ngành và cho ý kiến về đề xuất được nhập khẩu máy móc, thiết bị của doanh nghiệp.\n\nBộ Khoa học và Công nghệ có văn bản trả lời doanh nghiệp, nêu rõ lý do nếu không chấp thuận đề nghị nhập khẩu máy móc, thiết bị.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nBản sao Giấy chứng nhận đăng ký doanh nghiệp có đóng dấu của doanh nghiệp. Cơ quan tiếp nhận, giải quyết thủ tục hành chính khai thác, sử dụng thông tin đã có trong các cơ sở dữ liệu được cơ quan chủ quản cơ sở dữ liệu công bố để thay thế thành phần hồ sơ giải quyết thủ tục hành chính. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, chính xác thì cơ quan, người có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính yêu cầu cá nhân, tổ chức bổ sung thành phần hồ sơ để giải quyết thủ tục hành chính.\nVăn bản đề nghị cho phép nhập khẩu máy móc, thiết bị đã qua sử dụng (theo Mẫu số 01 Quyết định 02/2026/QĐ-TTg), theo đó giải trình về sự cần thiết phải nhập khẩu máy móc, thiết bị để bảo đảm duy trì hoạt động sản xuất kinh doanh, phương án sử dụng và sự cần thiết của máy móc, thiết bị dự kiến nhập khẩu trong dây chuyền công nghệ\nChứng thư giám định được cấp bởi tổ chức giám định được Bộ Khoa học và Công nghệ chỉ định. Nội dung chứng thư giám định được thực hiện theo quy định tại điểm a, b, c, d, g khoản 1 Điều 10 Quyết định 18/2019/QĐ-TTg.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày - Nộp trực tuyến trên Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn).\nQua dịch vụ bưu chính: 10 ngày - Nộp qua dịch vụ bưu chính về Bộ phận Một cửa của Bộ Khoa học và Công nghệ;\n(Địa chỉ Bộ phận Một cửa của Bộ Khoa học và Công nghệ:\n+ Bộ phận Một cửa cơ sở 1 tại Tầng 1, Tòa nhà Cục Đổi mới Sáng tạo, số 113 đường Trần Duy Hưng, phường Yên Hòa, TP. Hà Nội;\n+ Bộ phận Một cửa cơ sở 2 tại Tòa nhà số 1196 đường 3 tháng 2, Phường Bình Thới, TP. Hồ Chí Minh;\n+ Bộ phận Một cửa cơ sở 3 tại Đại diện Văn phòng Bộ tại miền Trung, số 42 Trần Quốc Toản, TP. Đà Nẵng).\nTrực tiếp: 10 ngày - Nộp trực tiếp tại Bộ phận Một cửa của Bộ Khoa học và Công nghệ",
+    "TRÌNH TỰ THỰC HIỆN": "Doanh nghiệp nộp 01 bộ hồ sơ đề nghị cho phép nhập khẩu, đến Bộ phận Một cửa của Bộ Khoa học và Công nghệ để được xem xét, giải quyết\n+ Trả lại ngay hồ sơ cho doanh nghiệp để sửa đổi, bổ sung trong trường hợp doanh nghiệp nộp hồ sơ trực tiếp tại Bộ phận Bộ phận Một cửa của Bộ Khoa học và Công nghệ;\n+ Trường hợp nhận hồ sơ qua Cổng dịch vụ công quốc gia, trong thời hạn 08 giờ làm việc kể từ thời điểm nhận hồ sơ, Bộ Khoa học và Công nghệ có ý kiến đề nghị doanh nghiệp sửa đổi, bổ sung hồ sơ;\n+ Trường hợp nhận hồ sơ qua đường bưu chính, trong thời hạn 02 ngày làm việc kể từ ngày nhận hồ sơ, Bộ Khoa học và Công nghệ có văn bản đề nghị doanh nghiệp sửa đổi, bổ sung hồ sơ.\nBộ Khoa học và Công nghệ gửi văn bản kèm theo bản chụp hồ sơ đề nghị các bộ, cơ quan ngang bộ liên quan có ý kiến. Trường hợp cần thiết, Bộ Khoa học và Công nghệ lấy ý kiến chuyên gia về máy móc, thiết bị đã qua sử dụng đề nghị được nhập khẩu.\ncác bộ, cơ quan ngang bộ, chuyên gia có ý kiến về việc nhập khẩu máy móc, thiết bị trong lĩnh vực quản lý chuyên ngành và cho ý kiến về đề xuất được nhập khẩu máy móc, thiết bị của doanh nghiệp.\nBộ Khoa học và Công nghệ có văn bản trả lời doanh nghiệp, nêu rõ lý do nếu không chấp thuận đề nghị nhập khẩu máy móc, thiết bị.",
+    "THÀNH PHẦN HỒ SƠ": "Bản sao Giấy chứng nhận đăng ký doanh nghiệp có đóng dấu của doanh nghiệp. Cơ quan tiếp nhận, giải quyết thủ tục hành chính khai thác, sử dụng thông tin đã có trong các cơ sở dữ liệu được cơ quan chủ quản cơ sở dữ liệu công bố để thay thế thành phần hồ sơ giải quyết thủ tục hành chính. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, chính xác thì cơ quan, người có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính yêu cầu cá nhân, tổ chức bổ sung thành phần hồ sơ để giải quyết thủ tục hành chính.\nVăn bản đề nghị cho phép nhập khẩu máy móc, thiết bị đã qua sử dụng (theo Mẫu số 01 Quyết định 02/2026/QĐ-TTg), theo đó giải trình về sự cần thiết phải nhập khẩu máy móc, thiết bị để bảo đảm duy trì hoạt động sản xuất kinh doanh, phương án sử dụng và sự cần thiết của máy móc, thiết bị dự kiến nhập khẩu trong dây chuyền công nghệ\nChứng thư giám định được cấp bởi tổ chức giám định được Bộ Khoa học và Công nghệ chỉ định. Nội dung chứng thư giám định được thực hiện theo quy định tại điểm a, b, c, d, g khoản 1 Điều 10 Quyết định 18/2019/QĐ-TTg.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày\nQua dịch vụ bưu chính: 10 ngày\nTrực tiếp: 10 ngày",
     "CĂN CỨ PHÁP LÝ": "Quyết định 18/2019/QĐ-TTg - 18/2019/QĐ-TTg\nQuy định chi tiết một số điều của Luật Quản lý Ngoại thương - 69/2018/NĐ-CP\nLuật quản lý ngoại thương - 05/2017/QH14",
     "CƠ QUAN THỰC HIỆN": "Vụ Đánh giá và Thẩm định công nghệ",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
@@ -241,14 +186,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hoạt động khoa học và công nghệ",
-      "slug": "hoat-dong-khoa-hoc-va-cong-nghe"
+      "slug": "hoat-ong-khoa-hoc-va-cong-nghe"
     },
     "implementation_levels": [
       {
@@ -263,15 +203,15 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       }
     ],
     "agencies": [
       {
         "name": "Vụ Đánh giá và Thẩm định công nghệ",
-        "slug": "vu-danh-gia-va-tham-dinh-cong-nghe"
+        "slug": "vu-anh-gia-va-tham-inh-cong-nghe"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-b047-73e2-82b9-9505d2a08ce2",
   "procedure_code": "1.013629",
   "title": "Thủ tục thu hồi giấy phép hành nghề khám bệnh, chữa bệnh.",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-b047-73e2-82b9-9505d2a08ce2",
     "source_file": "chi-tiet-thu-tuc-1.013629.pdf",
     "source_path": "procedures/suc-khoe-va-y-te/1.013629/chi-tiet-thu-tuc-1.013629.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:10.698034+00:00",
-    "source_updated_at": "2026-04-14T06:51:40.502Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:21.624292+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "76773888d697ba7adca845ff6d07a673d65e11edd010b1059178b25e77686ad8"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:10.698034+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "6225/QĐ-BQP",
   "implementation_level": "Cấp bộ, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Khám bệnh, chữa bệnh BQP",
   "target_users": [
@@ -36,18 +31,120 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cục Quân y/Tổng cục Hậu cần - Kỹ thuật",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Quân y/Tổng cục Hậu cần - Kỹ thuật"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "1. Đối với trường hợp quy định tại các điểm a, b, c và d khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh: \nBước 1. Cơ quan, đơn vị, cá nhân khi phát hiện người hành nghề thuộc trường hợp phải thu hồi giấy phép hành nghề phải thông báo cho Cơ quan được giao quản lý về y tế;\nBước 2. Cơ quan được giao quản lý về y tế có trách nhiệm xác minh hồ sơ, tài liệu và thông tin do cơ quan, đơn vị, cá nhân cung cấp, báo cáo cấp có thẩm quyền quyết định;\nBước 3. Quyết định thu hồi giấy phép hành nghề theo Mẫu số 02a Phụ lục V kèm theo Nghị định số 16/2024/NĐ-CP.\n2. Đối với trường hợp quy định tại điểm đ khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh \nBộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề của người hành nghề trong thời hạn 05 ngày làm việc, kể từ khi nhận được thông báo, tống đạt của cơ quan có thẩm quyền về việc người hành nghề thuộc trường hợp bị cấm hành nghề theo quy định tại các khoản 1, 2, 3, 4 và 6 Điều 20 Luật Khám bệnh, chữa bệnh.\n3. Đối với trường hợp quy định tại điểm e, điểm g khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh do Hội đồng chuyên môn của cơ sở khám bệnh, chữa bệnh tự thành lập theo quy định tại điểm a khoản 4 Điều 101 Luật Khám bệnh, chữa bệnh\nBước 1. Trong thời hạn 05 ngày làm việc, kể từ ngày có kết luận, Chủ tịch Hội đồng chuyên môn có trách nhiệm ký văn bản gửi cơ sở khám bệnh, chữa bệnh;\nBước 2. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản của Chủ tịch Hội đồng, cơ sở khám bệnh, chữa bệnh có trách nhiệm báo cáo Phòng/Ban quân y cấp trên trực tiếp cho tới đơn vị đầu mối trực thuộc Bộ Quốc phòng bằng văn bản, trong đó phải nêu rõ lý do đề nghị thu hồi giấy phép hành nghề;\nBước 3. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản của cơ sở khám bệnh, chữa bệnh, đơn vị đầu mối trực thuộc Bộ Quốc phòng báo cáo bằng văn bản về Cơ quan được giao quản lý về y tế;\nBước 4. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản, Cơ quan được giao quản lý về y tế báo cáo Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề;\nBước 5. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được báo cáo của Cơ quan được giao quản lý về y tế, Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề. Nội dung quyết định thu hồi phải căn cứ vào kết luận của Hội đồng chuyên môn.\n4. Đối với trường hợp quy định tại điểm e, điểm g khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh do Hội đồng chuyên môn của cơ quan quản lý nhà nước có thẩm quyền về y tế quản lý trực tiếp cơ sở khám bệnh, chữa bệnh thành lập theo quy định tại điểm b khoản 4 Điều 101 Luật Khám bệnh, chữa bệnh\nBước 1. Trong thời hạn 05 ngày làm việc, kể từ ngày có kết luận, Chủ tịch Hội đồng chuyên môn có trách nhiệm ký văn bản gửi Cơ quan được giao quản lý về y tế, trong đó phải nêu rõ lý do đề nghị thu hồi giấy phép hành nghề.\nTrường hợp Hội đồng chuyên môn do Bộ Y tế thành lập, Chủ tịch Hội đồng chuyên môn ký văn bản báo cáo Bộ Y tế ban hành quyết định thu hồi giấy phép hành nghề và thông báo đến Cơ quan được giao quản lý về y tế;\nBước 2. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của Chủ tịch Hội đồng chuyên môn quy định tại điểm a khoản này, Cơ quan được giao quản lý về y tế có trách nhiệm báo cáo Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề;\nBước 3. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được báo cáo của  Cơ quan được giao quản lý về y tế, Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề. Nội dung quyết định thu hồi phải căn cứ vào kết luận của Hội đồng chuyên môn.\n5. Đối với trường hợp quy định tại điểm h khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh:\nBước 1. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản kết luận người hành nghề lần thứ hai trong thời hạn của giấy phép hành nghề có vi phạm đạo đức nghề nghiệp đến mức phải đình chỉ hành nghề của cơ quan có thẩm quyền, Cơ quan được giao quản lý về y tế có trách nhiệm báo cáo Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề;\nBước 2. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được báo cáo của  Cơ quan được giao quản lý về y tế, Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề. Nội dung quyết định thu hồi phải căn cứ vào kết luận của Hội đồng chuyên môn.\n6. Đối với trường hợp quy định tại điểm i khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh: \nCơ quan được giao quản lý về y tế có trách nhiệm tiếp nhận đơn đề nghị và giấy phép hành nghề do cá nhân cung cấp; báo cáo cấp có thẩm quyền ban hành quyết định thu hồi giấy phép hành nghề và văn bản xác nhận đã được cơ quan cấp phép thuộc lực lượng vũ trang nhân dân cấp giấy phép hành nghề trong đó nêu rõ số giấy phép hành nghề, ngày cấp, nơi cấp, thông tin cá nhân, chức danh chuyên môn, phạm vi hành nghề.\n7. Trong thời hạn 10 ngày, kể từ ngày ban hành quyết định thu hồi, Cơ quan được giao quản lý về y tế có trách nhiệm:\nBước 1. Gửi quyết định cho người hành nghề và cơ sở khám bệnh, chữa bệnh quản lý người hành nghề; \nBước 2. Thực hiện việc hủy bỏ đăng ký hành nghề của người hành nghề đó trên hệ thống thông tin quản lý hoạt động khám bệnh, chữa bệnh;\nBước 3. Thông báo tới các cơ sở khám bệnh, chữa bệnh của Bộ Quốc phòng quyết định thu hồi giấy phép hành nghề của người hành nghề.\n",
+      "description": "1. Đối với trường hợp quy định tại các điểm a, b, c và d khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh:\nBước 1. Cơ quan, đơn vị, cá nhân khi phát hiện người hành nghề thuộc trường hợp phải thu hồi giấy phép hành nghề phải thông báo cho Cơ quan được giao quản lý về y tế;",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2. Cơ quan được giao quản lý về y tế có trách nhiệm xác minh hồ sơ, tài liệu và thông tin do cơ quan, đơn vị, cá nhân cung cấp, báo cáo cấp có thẩm quyền quyết định;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3. Quyết định thu hồi giấy phép hành nghề theo Mẫu số 02a Phụ lục V kèm theo Nghị định số 16/2024/NĐ-CP.\n2. Đối với trường hợp quy định tại điểm đ khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh \nBộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề của người hành nghề trong thời hạn 05 ngày làm việc, kể từ khi nhận được thông báo, tống đạt của cơ quan có thẩm quyền về việc người hành nghề thuộc trường hợp bị cấm hành nghề theo quy định tại các khoản 1, 2, 3, 4 và 6 Điều 20 Luật Khám bệnh, chữa bệnh.\n3. Đối với trường hợp quy định tại điểm e, điểm g khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh do Hội đồng chuyên môn của cơ sở khám bệnh, chữa bệnh tự thành lập theo quy định tại điểm a khoản 4 Điều 101 Luật Khám bệnh, chữa bệnh",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 1",
+      "description": "Bước 1. Trong thời hạn 05 ngày làm việc, kể từ ngày có kết luận, Chủ tịch Hội đồng chuyên môn có trách nhiệm ký văn bản gửi cơ sở khám bệnh, chữa bệnh;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 5,
+      "title": "Bước 2",
+      "description": "Bước 2. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản của Chủ tịch Hội đồng, cơ sở khám bệnh, chữa bệnh có trách nhiệm báo cáo Phòng/Ban quân y cấp trên trực tiếp cho tới đơn vị đầu mối trực thuộc Bộ Quốc phòng bằng văn bản, trong đó phải nêu rõ lý do đề nghị thu hồi giấy phép hành nghề;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 6,
+      "title": "Bước 3",
+      "description": "Bước 3. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản của cơ sở khám bệnh, chữa bệnh, đơn vị đầu mối trực thuộc Bộ Quốc phòng báo cáo bằng văn bản về Cơ quan được giao quản lý về y tế;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 7,
+      "title": "Bước 4",
+      "description": "Bước 4. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản, Cơ quan được giao quản lý về y tế báo cáo Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 8,
+      "title": "Bước 5",
+      "description": "Bước 5. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được báo cáo của Cơ quan được giao quản lý về y tế, Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề. Nội dung quyết định thu hồi phải căn cứ vào kết luận của Hội đồng chuyên môn.\n4. Đối với trường hợp quy định tại điểm e, điểm g khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh do Hội đồng chuyên môn của cơ quan quản lý nhà nước có thẩm quyền về y tế quản lý trực tiếp cơ sở khám bệnh, chữa bệnh thành lập theo quy định tại điểm b khoản 4 Điều 101 Luật Khám bệnh, chữa bệnh",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 9,
+      "title": "Bước 1",
+      "description": "Bước 1. Trong thời hạn 05 ngày làm việc, kể từ ngày có kết luận, Chủ tịch Hội đồng chuyên môn có trách nhiệm ký văn bản gửi Cơ quan được giao quản lý về y tế, trong đó phải nêu rõ lý do đề nghị thu hồi giấy phép hành nghề.\nTrường hợp Hội đồng chuyên môn do Bộ Y tế thành lập, Chủ tịch Hội đồng chuyên môn ký văn bản báo cáo Bộ Y tế ban hành quyết định thu hồi giấy phép hành nghề và thông báo đến Cơ quan được giao quản lý về y tế;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 10,
+      "title": "Bước 2",
+      "description": "Bước 2. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của Chủ tịch Hội đồng chuyên môn quy định tại điểm a khoản này, Cơ quan được giao quản lý về y tế có trách nhiệm báo cáo Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 11,
+      "title": "Bước 3",
+      "description": "Bước 3. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được báo cáo của  Cơ quan được giao quản lý về y tế, Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề. Nội dung quyết định thu hồi phải căn cứ vào kết luận của Hội đồng chuyên môn.\n5. Đối với trường hợp quy định tại điểm h khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh:",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 12,
+      "title": "Bước 1",
+      "description": "Bước 1. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản kết luận người hành nghề lần thứ hai trong thời hạn của giấy phép hành nghề có vi phạm đạo đức nghề nghiệp đến mức phải đình chỉ hành nghề của cơ quan có thẩm quyền, Cơ quan được giao quản lý về y tế có trách nhiệm báo cáo Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 13,
+      "title": "Bước 2",
+      "description": "Bước 2. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được báo cáo của  Cơ quan được giao quản lý về y tế, Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề. Nội dung quyết định thu hồi phải căn cứ vào kết luận của Hội đồng chuyên môn.\n6. Đối với trường hợp quy định tại điểm i khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh: \nCơ quan được giao quản lý về y tế có trách nhiệm tiếp nhận đơn đề nghị và giấy phép hành nghề do cá nhân cung cấp; báo cáo cấp có thẩm quyền ban hành quyết định thu hồi giấy phép hành nghề và văn bản xác nhận đã được cơ quan cấp phép thuộc lực lượng vũ trang nhân dân cấp giấy phép hành nghề trong đó nêu rõ số giấy phép hành nghề, ngày cấp, nơi cấp, thông tin cá nhân, chức danh chuyên môn, phạm vi hành nghề.\n7. Trong thời hạn 10 ngày, kể từ ngày ban hành quyết định thu hồi, Cơ quan được giao quản lý về y tế có trách nhiệm:",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 14,
+      "title": "Bước 1",
+      "description": "Bước 1. Gửi quyết định cho người hành nghề và cơ sở khám bệnh, chữa bệnh quản lý người hành nghề;",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 15,
+      "title": "Bước 2",
+      "description": "Bước 2. Thực hiện việc hủy bỏ đăng ký hành nghề của người hành nghề đó trên hệ thống thông tin quản lý hoạt động khám bệnh, chữa bệnh;",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 16,
+      "title": "Bước 3",
+      "description": "Bước 3. Thông báo tới các cơ sở khám bệnh, chữa bệnh của Bộ Quốc phòng quyết định thu hồi giấy phép hành nghề của người hành nghề.",
+      "example": null,
+      "source_page": 3
     }
   ],
   "documents": {
@@ -56,66 +153,45 @@
     "conditional": [
       {
         "name": "6. Trường hợp 6: Đối với trường hợp quy định tại điểm i khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh, gồm: a) Đơn đề nghị; b) Giấy phép hành nghề.",
-        "code": "000.00.00.G11-KQ003654",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "5. Trường hợp 5: Đối với trường hợp quy định tại điểm h khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh, gồm: Văn bản kết luận người hành nghề lần thứ hai trong thời hạn của giấy phép hành nghề có vi phạm đạo đức nghề nghiệp đến mức phải đình chỉ hành nghề của cơ quan có thẩm quyền.",
-        "code": "000.00.00.G11-KQ003653",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "1. Trường hợp 1: Đối với trường hợp quy định tại các điểm a, b, c và d khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh, gồm: Văn bản thông báo của đơn vị, cá nhân khi phát hiện người hành nghề thuộc trường hợp phải thu hồi giấy phép hành nghề;",
-        "code": "000.00.00.G11-KQ003649",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "2. Trường hợp 2: Đối với trường hợp quy định tại điểm đ khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh, gồm: Văn bản thông báo, tống đạt của cơ quan có thẩm quyền về việc người hành nghề thuộc trường hợp bị cấm hành nghề theo quy định tại các khoản 1, 2, 3, 4 và 6 Điều 20 Luật Khám bệnh, chữa bệnh.",
-        "code": "000.00.00.G11-KQ003650",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "4. Trường hợp 4: Đối với trường hợp quy định tại điểm e, điểm g khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh do Hội đồng chuyên môn của cơ quan quản lý nhà nước có thẩm quyền về y tế quản lý trực tiếp cơ sở khám bệnh, chữa bệnh thành lập theo quy định tại điểm b khoản 4 Điều 101 Luật Khám bệnh, chữa bệnh, gồm: Văn bản kết luận của Chủ tịch Hội đồng chuyên môn gửi Cơ quan được giao quản lý về y tế, trong đó phải nêu rõ lý do đề nghị thu hồi giấy phép hành nghề.",
-        "code": "000.00.00.G11-KQ003652",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "3. Trường hợp 3: Đối với trường hợp quy định tại điểm e, điểm g khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh do Hội đồng chuyên môn của cơ sở khám bệnh, chữa bệnh tự thành lập theo quy định tại điểm a khoản 4 Điều 101 Luật Khám bệnh, chữa bệnh, gồm: a) Văn bản kết luận của Chủ tịch Hội đồng chuyên môn gửi cơ sở khám bệnh, chữa bệnh; b) Văn bản của đơn vị đầu mối trực thuộc Bộ Quốc phòng báo cáo về Cơ quan được giao quản lý về y tế, trong đó phải nêu rõ lý do đề nghị thu hồi giấy phép hành nghề.",
-        "code": "000.00.00.G11-KQ003651",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "Giấy phép hành nghề.",
-        "code": "000.00.00.G18-KQ004550",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 1
       }
     ]
   },
@@ -124,17 +200,7 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10",
-      "processing_time_value": 10,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -142,42 +208,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10",
-      "processing_time_value": 10,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -185,8 +238,7 @@
     {
       "title": "Nghị định số 16/2024/NĐ-CP ngày 16/02/2024 của Chính phủ về người hành nghề khám bệnh, chữa bệnh và cơ sở khám bệnh, chữa bệnh thuộc lực lượng vũ trang nhân dân",
       "document_number": "16/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afec-0b187cb9989d",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "conditions": "",
@@ -194,13 +246,12 @@
     {
       "title": "Quyết định thu hồi giấy phép hành nghề.",
       "code": "KQ.G11.000340",
-      "id": "019d2bb2-1c6f-72b5-bd0a-724ba4cee26c",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "1. Đối với trường hợp quy định tại các điểm a, b, c và d khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh: \nBước 1. Cơ quan, đơn vị, cá nhân khi phát hiện người hành nghề thuộc trường hợp phải thu hồi giấy phép hành nghề phải thông báo cho Cơ quan được giao quản lý về y tế;\nBước 2. Cơ quan được giao quản lý về y tế có trách nhiệm xác minh hồ sơ, tài liệu và thông tin do cơ quan, đơn vị, cá nhân cung cấp, báo cáo cấp có thẩm quyền quyết định;\nBước 3. Quyết định thu hồi giấy phép hành nghề theo Mẫu số 02a Phụ lục V kèm theo Nghị định số 16/2024/NĐ-CP.\n2. Đối với trường hợp quy định tại điểm đ khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh \nBộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề của người hành nghề trong thời hạn 05 ngày làm việc, kể từ khi nhận được thông báo, tống đạt của cơ quan có thẩm quyền về việc người hành nghề thuộc trường hợp bị cấm hành nghề theo quy định tại các khoản 1, 2, 3, 4 và 6 Điều 20 Luật Khám bệnh, chữa bệnh.\n3. Đối với trường hợp quy định tại điểm e, điểm g khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh do Hội đồng chuyên môn của cơ sở khám bệnh, chữa bệnh tự thành lập theo quy định tại điểm a khoản 4 Điều 101 Luật Khám bệnh, chữa bệnh\nBước 1. Trong thời hạn 05 ngày làm việc, kể từ ngày có kết luận, Chủ tịch Hội đồng chuyên môn có trách nhiệm ký văn bản gửi cơ sở khám bệnh, chữa bệnh;\nBước 2. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản của Chủ tịch Hội đồng, cơ sở khám bệnh, chữa bệnh có trách nhiệm báo cáo Phòng/Ban quân y cấp trên trực tiếp cho tới đơn vị đầu mối trực thuộc Bộ Quốc phòng bằng văn bản, trong đó phải nêu rõ lý do đề nghị thu hồi giấy phép hành nghề;\nBước 3. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản của cơ sở khám bệnh, chữa bệnh, đơn vị đầu mối trực thuộc Bộ Quốc phòng báo cáo bằng văn bản về Cơ quan được giao quản lý về y tế;\nBước 4. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản, Cơ quan được giao quản lý về y tế báo cáo Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề;\nBước 5. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được báo cáo của Cơ quan được giao quản lý về y tế, Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề. Nội dung quyết định thu hồi phải căn cứ vào kết luận của Hội đồng chuyên môn.\n4. Đối với trường hợp quy định tại điểm e, điểm g khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh do Hội đồng chuyên môn của cơ quan quản lý nhà nước có thẩm quyền về y tế quản lý trực tiếp cơ sở khám bệnh, chữa bệnh thành lập theo quy định tại điểm b khoản 4 Điều 101 Luật Khám bệnh, chữa bệnh\nBước 1. Trong thời hạn 05 ngày làm việc, kể từ ngày có kết luận, Chủ tịch Hội đồng chuyên môn có trách nhiệm ký văn bản gửi Cơ quan được giao quản lý về y tế, trong đó phải nêu rõ lý do đề nghị thu hồi giấy phép hành nghề.\nTrường hợp Hội đồng chuyên môn do Bộ Y tế thành lập, Chủ tịch Hội đồng chuyên môn ký văn bản báo cáo Bộ Y tế ban hành quyết định thu hồi giấy phép hành nghề và thông báo đến Cơ quan được giao quản lý về y tế;\nBước 2. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của Chủ tịch Hội đồng chuyên môn quy định tại điểm a khoản này, Cơ quan được giao quản lý về y tế có trách nhiệm báo cáo Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề;\nBước 3. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được báo cáo của  Cơ quan được giao quản lý về y tế, Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề. Nội dung quyết định thu hồi phải căn cứ vào kết luận của Hội đồng chuyên môn.\n5. Đối với trường hợp quy định tại điểm h khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh:\nBước 1. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản kết luận người hành nghề lần thứ hai trong thời hạn của giấy phép hành nghề có vi phạm đạo đức nghề nghiệp đến mức phải đình chỉ hành nghề của cơ quan có thẩm quyền, Cơ quan được giao quản lý về y tế có trách nhiệm báo cáo Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề;\nBước 2. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được báo cáo của  Cơ quan được giao quản lý về y tế, Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề. Nội dung quyết định thu hồi phải căn cứ vào kết luận của Hội đồng chuyên môn.\n6. Đối với trường hợp quy định tại điểm i khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh: \nCơ quan được giao quản lý về y tế có trách nhiệm tiếp nhận đơn đề nghị và giấy phép hành nghề do cá nhân cung cấp; báo cáo cấp có thẩm quyền ban hành quyết định thu hồi giấy phép hành nghề và văn bản xác nhận đã được cơ quan cấp phép thuộc lực lượng vũ trang nhân dân cấp giấy phép hành nghề trong đó nêu rõ số giấy phép hành nghề, ngày cấp, nơi cấp, thông tin cá nhân, chức danh chuyên môn, phạm vi hành nghề.\n7. Trong thời hạn 10 ngày, kể từ ngày ban hành quyết định thu hồi, Cơ quan được giao quản lý về y tế có trách nhiệm:\nBước 1. Gửi quyết định cho người hành nghề và cơ sở khám bệnh, chữa bệnh quản lý người hành nghề; \nBước 2. Thực hiện việc hủy bỏ đăng ký hành nghề của người hành nghề đó trên hệ thống thông tin quản lý hoạt động khám bệnh, chữa bệnh;\nBước 3. Thông báo tới các cơ sở khám bệnh, chữa bệnh của Bộ Quốc phòng quyết định thu hồi giấy phép hành nghề của người hành nghề.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n6. Trường hợp 6: Đối với trường hợp quy định tại điểm i khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh, gồm: a) Đơn đề nghị; b) Giấy phép hành nghề.\n5. Trường hợp 5: Đối với trường hợp quy định tại điểm h khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh, gồm: Văn bản kết luận người hành nghề lần thứ hai trong thời hạn của giấy phép hành nghề có vi phạm đạo đức nghề nghiệp đến mức phải đình chỉ hành nghề của cơ quan có thẩm quyền.\n1. Trường hợp 1: Đối với trường hợp quy định tại các điểm a, b, c và d khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh, gồm: Văn bản thông báo của đơn vị, cá nhân khi phát hiện người hành nghề thuộc trường hợp phải thu hồi giấy phép hành nghề;\n2. Trường hợp 2: Đối với trường hợp quy định tại điểm đ khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh, gồm: Văn bản thông báo, tống đạt của cơ quan có thẩm quyền về việc người hành nghề thuộc trường hợp bị cấm hành nghề theo quy định tại các khoản 1, 2, 3, 4 và 6 Điều 20 Luật Khám bệnh, chữa bệnh.\n4. Trường hợp 4: Đối với trường hợp quy định tại điểm e, điểm g khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh do Hội đồng chuyên môn của cơ quan quản lý nhà nước có thẩm quyền về y tế quản lý trực tiếp cơ sở khám bệnh, chữa bệnh thành lập theo quy định tại điểm b khoản 4 Điều 101 Luật Khám bệnh, chữa bệnh, gồm: Văn bản kết luận của Chủ tịch Hội đồng chuyên môn gửi Cơ quan được giao quản lý về y tế, trong đó phải nêu rõ lý do đề nghị thu hồi giấy phép hành nghề.\n3. Trường hợp 3: Đối với trường hợp quy định tại điểm e, điểm g khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh do Hội đồng chuyên môn của cơ sở khám bệnh, chữa bệnh tự thành lập theo quy định tại điểm a khoản 4 Điều 101 Luật Khám bệnh, chữa bệnh, gồm: a) Văn bản kết luận của Chủ tịch Hội đồng chuyên môn gửi cơ sở khám bệnh, chữa bệnh; b) Văn bản của đơn vị đầu mối trực thuộc Bộ Quốc phòng báo cáo về Cơ quan được giao quản lý về y tế, trong đó phải nêu rõ lý do đề nghị thu hồi giấy phép hành nghề.\nGiấy phép hành nghề.",
+    "TRÌNH TỰ THỰC HIỆN": "1. Đối với trường hợp quy định tại các điểm a, b, c và d khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh:\nBước 1. Cơ quan, đơn vị, cá nhân khi phát hiện người hành nghề thuộc trường hợp phải thu hồi giấy phép hành nghề phải thông báo cho Cơ quan được giao quản lý về y tế;\nBước 2. Cơ quan được giao quản lý về y tế có trách nhiệm xác minh hồ sơ, tài liệu và thông tin do cơ quan, đơn vị, cá nhân cung cấp, báo cáo cấp có thẩm quyền quyết định;\nBước 3. Quyết định thu hồi giấy phép hành nghề theo Mẫu số 02a Phụ lục V kèm theo Nghị định số 16/2024/NĐ-CP.\n2. Đối với trường hợp quy định tại điểm đ khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh \nBộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề của người hành nghề trong thời hạn 05 ngày làm việc, kể từ khi nhận được thông báo, tống đạt của cơ quan có thẩm quyền về việc người hành nghề thuộc trường hợp bị cấm hành nghề theo quy định tại các khoản 1, 2, 3, 4 và 6 Điều 20 Luật Khám bệnh, chữa bệnh.\n3. Đối với trường hợp quy định tại điểm e, điểm g khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh do Hội đồng chuyên môn của cơ sở khám bệnh, chữa bệnh tự thành lập theo quy định tại điểm a khoản 4 Điều 101 Luật Khám bệnh, chữa bệnh\nBước 1. Trong thời hạn 05 ngày làm việc, kể từ ngày có kết luận, Chủ tịch Hội đồng chuyên môn có trách nhiệm ký văn bản gửi cơ sở khám bệnh, chữa bệnh;\nBước 2. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản của Chủ tịch Hội đồng, cơ sở khám bệnh, chữa bệnh có trách nhiệm báo cáo Phòng/Ban quân y cấp trên trực tiếp cho tới đơn vị đầu mối trực thuộc Bộ Quốc phòng bằng văn bản, trong đó phải nêu rõ lý do đề nghị thu hồi giấy phép hành nghề;\nBước 3. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản của cơ sở khám bệnh, chữa bệnh, đơn vị đầu mối trực thuộc Bộ Quốc phòng báo cáo bằng văn bản về Cơ quan được giao quản lý về y tế;\nBước 4. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản, Cơ quan được giao quản lý về y tế báo cáo Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề;\nBước 5. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được báo cáo của Cơ quan được giao quản lý về y tế, Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề. Nội dung quyết định thu hồi phải căn cứ vào kết luận của Hội đồng chuyên môn.\n4. Đối với trường hợp quy định tại điểm e, điểm g khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh do Hội đồng chuyên môn của cơ quan quản lý nhà nước có thẩm quyền về y tế quản lý trực tiếp cơ sở khám bệnh, chữa bệnh thành lập theo quy định tại điểm b khoản 4 Điều 101 Luật Khám bệnh, chữa bệnh\nBước 1. Trong thời hạn 05 ngày làm việc, kể từ ngày có kết luận, Chủ tịch Hội đồng chuyên môn có trách nhiệm ký văn bản gửi Cơ quan được giao quản lý về y tế, trong đó phải nêu rõ lý do đề nghị thu hồi giấy phép hành nghề.\nTrường hợp Hội đồng chuyên môn do Bộ Y tế thành lập, Chủ tịch Hội đồng chuyên môn ký văn bản báo cáo Bộ Y tế ban hành quyết định thu hồi giấy phép hành nghề và thông báo đến Cơ quan được giao quản lý về y tế;\nBước 2. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của Chủ tịch Hội đồng chuyên môn quy định tại điểm a khoản này, Cơ quan được giao quản lý về y tế có trách nhiệm báo cáo Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề;\nBước 3. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được báo cáo của  Cơ quan được giao quản lý về y tế, Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề. Nội dung quyết định thu hồi phải căn cứ vào kết luận của Hội đồng chuyên môn.\n5. Đối với trường hợp quy định tại điểm h khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh:\nBước 1. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản kết luận người hành nghề lần thứ hai trong thời hạn của giấy phép hành nghề có vi phạm đạo đức nghề nghiệp đến mức phải đình chỉ hành nghề của cơ quan có thẩm quyền, Cơ quan được giao quản lý về y tế có trách nhiệm báo cáo Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề;\nBước 2. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được báo cáo của  Cơ quan được giao quản lý về y tế, Bộ Quốc phòng ban hành quyết định thu hồi giấy phép hành nghề. Nội dung quyết định thu hồi phải căn cứ vào kết luận của Hội đồng chuyên môn.\n6. Đối với trường hợp quy định tại điểm i khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh: \nCơ quan được giao quản lý về y tế có trách nhiệm tiếp nhận đơn đề nghị và giấy phép hành nghề do cá nhân cung cấp; báo cáo cấp có thẩm quyền ban hành quyết định thu hồi giấy phép hành nghề và văn bản xác nhận đã được cơ quan cấp phép thuộc lực lượng vũ trang nhân dân cấp giấy phép hành nghề trong đó nêu rõ số giấy phép hành nghề, ngày cấp, nơi cấp, thông tin cá nhân, chức danh chuyên môn, phạm vi hành nghề.\n7. Trong thời hạn 10 ngày, kể từ ngày ban hành quyết định thu hồi, Cơ quan được giao quản lý về y tế có trách nhiệm:\nBước 1. Gửi quyết định cho người hành nghề và cơ sở khám bệnh, chữa bệnh quản lý người hành nghề;\nBước 2. Thực hiện việc hủy bỏ đăng ký hành nghề của người hành nghề đó trên hệ thống thông tin quản lý hoạt động khám bệnh, chữa bệnh;\nBước 3. Thông báo tới các cơ sở khám bệnh, chữa bệnh của Bộ Quốc phòng quyết định thu hồi giấy phép hành nghề của người hành nghề.",
+    "THÀNH PHẦN HỒ SƠ": "6. Trường hợp 6: Đối với trường hợp quy định tại điểm i khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh, gồm: a) Đơn đề nghị; b) Giấy phép hành nghề.\n5. Trường hợp 5: Đối với trường hợp quy định tại điểm h khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh, gồm: Văn bản kết luận người hành nghề lần thứ hai trong thời hạn của giấy phép hành nghề có vi phạm đạo đức nghề nghiệp đến mức phải đình chỉ hành nghề của cơ quan có thẩm quyền.\n1. Trường hợp 1: Đối với trường hợp quy định tại các điểm a, b, c và d khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh, gồm: Văn bản thông báo của đơn vị, cá nhân khi phát hiện người hành nghề thuộc trường hợp phải thu hồi giấy phép hành nghề;\n2. Trường hợp 2: Đối với trường hợp quy định tại điểm đ khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh, gồm: Văn bản thông báo, tống đạt của cơ quan có thẩm quyền về việc người hành nghề thuộc trường hợp bị cấm hành nghề theo quy định tại các khoản 1, 2, 3, 4 và 6 Điều 20 Luật Khám bệnh, chữa bệnh.\n4. Trường hợp 4: Đối với trường hợp quy định tại điểm e, điểm g khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh do Hội đồng chuyên môn của cơ quan quản lý nhà nước có thẩm quyền về y tế quản lý trực tiếp cơ sở khám bệnh, chữa bệnh thành lập theo quy định tại điểm b khoản 4 Điều 101 Luật Khám bệnh, chữa bệnh, gồm: Văn bản kết luận của Chủ tịch Hội đồng chuyên môn gửi Cơ quan được giao quản lý về y tế, trong đó phải nêu rõ lý do đề nghị thu hồi giấy phép hành nghề.\n3. Trường hợp 3: Đối với trường hợp quy định tại điểm e, điểm g khoản 1 Điều 35 của Luật Khám bệnh, chữa bệnh do Hội đồng chuyên môn của cơ sở khám bệnh, chữa bệnh tự thành lập theo quy định tại điểm a khoản 4 Điều 101 Luật Khám bệnh, chữa bệnh, gồm: a) Văn bản kết luận của Chủ tịch Hội đồng chuyên môn gửi cơ sở khám bệnh, chữa bệnh; b) Văn bản của đơn vị đầu mối trực thuộc Bộ Quốc phòng báo cáo về Cơ quan được giao quản lý về y tế, trong đó phải nêu rõ lý do đề nghị thu hồi giấy phép hành nghề.\nGiấy phép hành nghề.",
     "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 10\nTrực tiếp: 10",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 16/2024/NĐ-CP ngày 16/02/2024 của Chính phủ về người hành nghề khám bệnh, chữa bệnh và cơ sở khám bệnh, chữa bệnh thuộc lực lượng vũ trang nhân dân - 16/2024/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cục Quân y/Tổng cục Hậu cần - Kỹ thuật",
@@ -210,11 +261,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Sức khỏe và y tế",
-      "slug": "suc-khoe-va-y-te",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Khám bệnh, chữa bệnh BQP",
       "slug": "kham-benh-chua-benh-bqp"
@@ -241,6 +287,6 @@
         "slug": "cuc-quan-y-tong-cuc-hau-can-ky-thuat"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

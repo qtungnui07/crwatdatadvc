@@ -1,35 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bff-a2bd-7765-9cf2-fafbf55d4e5b",
   "procedure_code": "1.001803",
   "title": "Thủ tục giám định tiền giả, tiền nghi giả",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-a2bd-7765-9cf2-fafbf55d4e5b",
     "source_file": "chi-tiet-thu-tuc-1.001803.pdf",
     "source_path": "procedures/viec-lam/1.001803/chi-tiet-thu-tuc-1.001803.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:21:59.833823+00:00",
-    "source_updated_at": "2026-04-11T16:19:58.654Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:57.108085+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "d558bedb3aaf42bc6f8436a1f7b5691bd2496a113cf6d95d4a99ac17f4afd7a8"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:59.833823+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "70/QĐ-NHNN",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hoạt động kho quỹ",
   "target_users": [
@@ -38,18 +32,29 @@
   ],
   "agency": {
     "competent_agency": "Ngân hàng Nhà nước Việt Nam",
-    "executing_agency": "Ngân hàng Nhà nước Việt Nam, Ngân hàng Nhà nước Chi nhánh tỉnh, thành phố trực thuộc Trung ương",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ngân hàng Nhà nước Việt Nam, Ngân hàng Nhà nước Chi nhánh tỉnh, thành phố trực thuộc Trung ương"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Các cơ quan, tổ chức, cá nhân có yêu cầu giám định tiền giả, tiền nghi giả để xác định tính xác thực của đồng tiền thực hiện lập 01 bộ hồ sơ theo quy định tại Khoản 2 Điều 5 Nghị định số 87/2023/NĐ-CP và nộp trực tiếp đến cơ quan giám định của Bộ Công an hoặc Ngân hàng Nhà nước.\tBước 2: Cơ quan giám định tiền xem xét, giám định trong thời gian tối đa 05 ngày làm việc đối với 1 tờ/miếng; trường hợp số lượng tiền cần giám định vượt quá 20 tờ hoặc miếng đối với 1 hồ sơ đề nghị giám định, thời gian tối đa không quá 60 ngày kể từ ngày nhận đủ hồ sơ hợp lệ. Trường hợp việc giám định vượt quá thời gian nêu trên, cơ quan giám định có văn bản thông báo cho cơ quan, tổ chức, cá nhân có yêu cầu giám định.\nBước 3: Trong thời gian tối đa 02 ngày làm việc kể từ ngày hoàn thành việc giám định, cơ quan giám định phải thông báo kết luận và việc xử lý hiện vật bằng văn bản cho tổ chức, cá nhân đề nghị giám định.\nBước 4: Trong thời gian tối đa 05 ngày làm việc kể từ ngày nhận được kết quả giám định, tổ chức đề nghị giám định tiền giả, tiền nghi giả theo khoản 2 Điều 4 Nghị định Nghị định 87/2023/NĐ-CP có trách nhiệm thông báo bằng văn bản cho cơ quan, tổ chức, cá nhân có tiền giả, tiền nghi giả, kèm theo thông báo kết quả giám định của cơ quan giám định. Trường hợp kết quả giám định không phải là tiền giả, phải hoàn trả cho tổ chức, cá nhân.\n",
+      "description": "Bước 1: Các cơ quan, tổ chức, cá nhân có yêu cầu giám định tiền giả, tiền nghi giả để xác định tính xác thực của đồng tiền thực hiện lập 01 bộ hồ sơ theo quy định tại Khoản 2 Điều 5 Nghị định số 87/2023/NĐ-CP và nộp trực tiếp đến cơ quan giám định của Bộ Công an hoặc Ngân hàng Nhà nước.\tBước 2: Cơ quan giám định tiền xem xét, giám định trong thời gian tối đa 05 ngày làm việc đối với 1 tờ/miếng; trường hợp số lượng tiền cần giám định vượt quá 20 tờ hoặc miếng đối với 1 hồ sơ đề nghị giám định, thời gian tối đa không quá 60 ngày kể từ ngày nhận đủ hồ sơ hợp lệ. Trường hợp việc giám định vượt quá thời gian nêu trên, cơ quan giám định có văn bản thông báo cho cơ quan, tổ chức, cá nhân có yêu cầu giám định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 3",
+      "description": "Bước 3: Trong thời gian tối đa 02 ngày làm việc kể từ ngày hoàn thành việc giám định, cơ quan giám định phải thông báo kết luận và việc xử lý hiện vật bằng văn bản cho tổ chức, cá nhân đề nghị giám định.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 4",
+      "description": "Bước 4: Trong thời gian tối đa 05 ngày làm việc kể từ ngày nhận được kết quả giám định, tổ chức đề nghị giám định tiền giả, tiền nghi giả theo khoản 2 Điều 4 Nghị định Nghị định 87/2023/NĐ-CP có trách nhiệm thông báo bằng văn bản cho cơ quan, tổ chức, cá nhân có tiền giả, tiền nghi giả, kèm theo thông báo kết quả giám định của cơ quan giám định. Trường hợp kết quả giám định không phải là tiền giả, phải hoàn trả cho tổ chức, cá nhân.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
@@ -58,21 +63,15 @@
     "conditional": [
       {
         "name": "+  Hiện vật là tiền giả, tiền nghi giả cần giám định",
-        "code": "G19-KQ004117",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Giấy đề nghị giám định tiền giả, tiền nghi giả theo Mẫu số 03 tại Phụ lục ban hành kèm theo Nghị định 87/2023/NĐ-CP;",
-        "code": "G19-KQ004116",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -81,33 +80,22 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "62 ngày làm việc",
-      "processing_time_value": 62,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Tối đa 07 ngày làm việc/tờ hoặc miếng cần giám định. Trường hợp vượt quá 20 tờ hoặc miếng/1 bộ hồ sơ, tối đa 62 ngày/1 bộ hồ sơ.",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -115,8 +103,7 @@
     {
       "title": "Nghị định quy định về phòng, chống tiền giả và bảo vệ tiền Việt Nam",
       "document_number": "87/2023/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b472-3ff5ca348d6d",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -124,14 +111,13 @@
     {
       "title": "Văn bản thông báo kết quả giám định tiền giả, tiền nghi giả",
       "code": "KQ.G19.000208",
-      "id": "019d2bb2-1c7d-740f-b02f-9171fb3b050e",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Các cơ quan, tổ chức, cá nhân có yêu cầu giám định tiền giả, tiền nghi giả để xác định tính xác thực của đồng tiền thực hiện lập 01 bộ hồ sơ theo quy định tại Khoản 2 Điều 5 Nghị định số 87/2023/NĐ-CP và nộp trực tiếp đến cơ quan giám định của Bộ Công an hoặc Ngân hàng Nhà nước.\tBước 2: Cơ quan giám định tiền xem xét, giám định trong thời gian tối đa 05 ngày làm việc đối với 1 tờ/miếng; trường hợp số lượng tiền cần giám định vượt quá 20 tờ hoặc miếng đối với 1 hồ sơ đề nghị giám định, thời gian tối đa không quá 60 ngày kể từ ngày nhận đủ hồ sơ hợp lệ. Trường hợp việc giám định vượt quá thời gian nêu trên, cơ quan giám định có văn bản thông báo cho cơ quan, tổ chức, cá nhân có yêu cầu giám định.\nBước 3: Trong thời gian tối đa 02 ngày làm việc kể từ ngày hoàn thành việc giám định, cơ quan giám định phải thông báo kết luận và việc xử lý hiện vật bằng văn bản cho tổ chức, cá nhân đề nghị giám định.\nBước 4: Trong thời gian tối đa 05 ngày làm việc kể từ ngày nhận được kết quả giám định, tổ chức đề nghị giám định tiền giả, tiền nghi giả theo khoản 2 Điều 4 Nghị định Nghị định 87/2023/NĐ-CP có trách nhiệm thông báo bằng văn bản cho cơ quan, tổ chức, cá nhân có tiền giả, tiền nghi giả, kèm theo thông báo kết quả giám định của cơ quan giám định. Trường hợp kết quả giám định không phải là tiền giả, phải hoàn trả cho tổ chức, cá nhân.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n+  Hiện vật là tiền giả, tiền nghi giả cần giám định\n+ Giấy đề nghị giám định tiền giả, tiền nghi giả theo Mẫu số 03 tại Phụ lục ban hành kèm theo Nghị định 87/2023/NĐ-CP;",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 62 ngày làm việc - Tối đa 07 ngày làm việc/tờ hoặc miếng cần giám định. Trường hợp vượt quá 20 tờ hoặc miếng/1 bộ hồ sơ, tối đa 62 ngày/1 bộ hồ sơ.",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Các cơ quan, tổ chức, cá nhân có yêu cầu giám định tiền giả, tiền nghi giả để xác định tính xác thực của đồng tiền thực hiện lập 01 bộ hồ sơ theo quy định tại Khoản 2 Điều 5 Nghị định số 87/2023/NĐ-CP và nộp trực tiếp đến cơ quan giám định của Bộ Công an hoặc Ngân hàng Nhà nước.\tBước 2: Cơ quan giám định tiền xem xét, giám định trong thời gian tối đa 05 ngày làm việc đối với 1 tờ/miếng; trường hợp số lượng tiền cần giám định vượt quá 20 tờ hoặc miếng đối với 1 hồ sơ đề nghị giám định, thời gian tối đa không quá 60 ngày kể từ ngày nhận đủ hồ sơ hợp lệ. Trường hợp việc giám định vượt quá thời gian nêu trên, cơ quan giám định có văn bản thông báo cho cơ quan, tổ chức, cá nhân có yêu cầu giám định.\nBước 3: Trong thời gian tối đa 02 ngày làm việc kể từ ngày hoàn thành việc giám định, cơ quan giám định phải thông báo kết luận và việc xử lý hiện vật bằng văn bản cho tổ chức, cá nhân đề nghị giám định.\nBước 4: Trong thời gian tối đa 05 ngày làm việc kể từ ngày nhận được kết quả giám định, tổ chức đề nghị giám định tiền giả, tiền nghi giả theo khoản 2 Điều 4 Nghị định Nghị định 87/2023/NĐ-CP có trách nhiệm thông báo bằng văn bản cho cơ quan, tổ chức, cá nhân có tiền giả, tiền nghi giả, kèm theo thông báo kết quả giám định của cơ quan giám định. Trường hợp kết quả giám định không phải là tiền giả, phải hoàn trả cho tổ chức, cá nhân.",
+    "THÀNH PHẦN HỒ SƠ": "+  Hiện vật là tiền giả, tiền nghi giả cần giám định\n+ Giấy đề nghị giám định tiền giả, tiền nghi giả theo Mẫu số 03 tại Phụ lục ban hành kèm theo Nghị định 87/2023/NĐ-CP;",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 62 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định quy định về phòng, chống tiền giả và bảo vệ tiền Việt Nam - 87/2023/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Ngân hàng Nhà nước Việt Nam, Ngân hàng Nhà nước Chi nhánh tỉnh, thành phố trực thuộc Trung ương",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
@@ -140,14 +126,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Hoạt động kho quỹ",
-      "slug": "hoat-dong-kho-quy"
+      "slug": "hoat-ong-kho-quy"
     },
     "implementation_levels": [
       {
@@ -183,6 +164,6 @@
         "slug": "ngan-hang-nha-nuoc-chi-nhanh-tinh-thanh-pho-truc-thuoc-trung-uong"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

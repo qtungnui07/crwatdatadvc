@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf9-7c60-73f1-bde3-b4979ceb9ba5",
   "procedure_code": "1.014640",
   "title": "Cấp Giấy phép tiến hành công việc bức xạ - vận hành máy gia tốc, thiết bị xạ trị hoặc thiết bị chiếu xạ khử trùng, đột biến, xử lý vật liệu, chiếu xạ máu",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf9-7c60-73f1-bde3-b4979ceb9ba5",
     "source_file": "chi-tiet-thu-tuc-1.014640.pdf",
     "source_path": "procedures/suc-khoe-va-y-te/1.014640/chi-tiet-thu-tuc-1.014640.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:14.265970+00:00",
-    "source_updated_at": "2026-05-28T11:19:25.402Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:32.839992+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "a7eee5407ed7ed82489827c8f5c38b07cd46f0214dd5c0a1e5391c31a36bf07c"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:14.265970+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2565",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "An toàn bức xạ và hạt nhân",
   "target_users": [
@@ -45,126 +41,69 @@
   ],
   "agency": {
     "competent_agency": "Cục An toàn bức xạ và hạt nhân",
-    "executing_agency": "Cục An toàn bức xạ và hạt nhân",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục An toàn bức xạ và hạt nhân"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Tổ chức, cá nhân có nhu cầu đề nghị cấp Giấy phép tiến hành công việc bức xạ - vận hành máy gia tốc, thiết bị xạ trị hoặc thiết bị chiếu xạ khử trùng, đột biến, xử lý vật liệu, chiếu xạ máu nộp 01 bộ hồ sơ đến Bộ phận tiếp nhận và trả kết quả của Bộ Khoa học và Công nghệ (Cục An toàn bức xạ và hạt nhân).\n- Trường hợp nộp hồ sơ trực tiếp, Bộ phận tiếp nhận và trả kết quả của Bộ Khoa học và Công nghệ (Cục An toàn bức xạ và hạt nhân) phải kiểm tra tính đầy đủ, hợp lệ của hồ sơ và thu phí, lệ phí (nếu có) đối với hồ sơ hợp lệ.\n-Trường hợp nộp hồ sơ qua dịch vụ bưu chính hoặc trực tuyến, Bộ phận tiếp nhận và trả kết quả của Bộ Khoa học và Công nghệ (Cục An toàn bức xạ và hạt nhân) trong thời hạn 03 ngày làm việc phải kiểm tra tính đầy đủ, hợp lệ của hồ sơ và thông báo thông báo bằng văn bản mức phí, lệ phí (nếu có) đối với hồ sơ hợp lệ (trường hợp tổ chức, cá nhân nộp nhiều hồ sơ cùng thời điểm, cơ quan tiếp nhận hồ sơ phát hành 01 bản thông báo mức phí, lệ phí cho tất cả hồ sơ) hoặc thông báo bằng văn bản yêu cầu sửa đổi, bổ sung hồ sơ nếu hồ sơ chưa đầy đủ, hợp lệ hoặc thông báo trực tuyến trên Cổng dịch vụ công quốc gia.\n- Trong thời hạn 25 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ và phí, lệ phí (nếu có), Cục An toàn bức xạ và hạt nhân tổ chức thẩm định hồ sơ (biên bản thẩm định theo Mẫu 06 Phụ lục X) và cấp giấy phép tiến hành công việc bức xạ - vận hành máy gia tốc, thiết bị xạ trị hoặc thiết bị chiếu xạ khử trùng, đột biến, xử lý vật liệu, chiếu xạ máu hoặc văn bản trả lời nêu rõ lý do trong trường hợp không cấp phép.\n",
+      "description": "- Tổ chức, cá nhân có nhu cầu đề nghị cấp Giấy phép tiến hành công việc bức xạ - vận hành máy gia tốc, thiết bị xạ trị hoặc thiết bị chiếu xạ khử trùng, đột biến, xử lý vật liệu, chiếu xạ máu nộp 01 bộ hồ sơ đến Bộ phận tiếp nhận và trả kết quả của Bộ Khoa học và Công nghệ (Cục An toàn bức xạ và hạt nhân).\n- Trường hợp nộp hồ sơ trực tiếp, Bộ phận tiếp nhận và trả kết quả của Bộ Khoa học và Công nghệ (Cục An toàn bức xạ và hạt nhân) phải kiểm tra tính đầy đủ, hợp lệ của hồ sơ và thu phí, lệ phí (nếu có) đối với hồ sơ hợp lệ.\n-Trường hợp nộp hồ sơ qua dịch vụ bưu chính hoặc trực tuyến, Bộ phận tiếp nhận và trả kết quả của Bộ Khoa học và Công nghệ (Cục An toàn bức xạ và hạt nhân) trong thời hạn 03 ngày làm việc phải kiểm tra tính đầy đủ, hợp lệ của hồ sơ và thông báo thông báo bằng văn bản mức phí, lệ phí (nếu có) đối với hồ sơ hợp lệ (trường hợp tổ chức, cá nhân nộp nhiều hồ sơ cùng thời điểm, cơ quan tiếp nhận hồ sơ phát hành 01 bản thông báo mức phí, lệ phí cho tất cả hồ sơ) hoặc thông báo bằng văn bản yêu cầu sửa đổi, bổ sung hồ sơ nếu hồ sơ chưa đầy đủ, hợp lệ hoặc thông báo trực tuyến trên Cổng dịch vụ công quốc gia.\n- Trong thời hạn 25 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ và phí, lệ phí (nếu có), Cục An toàn bức xạ và hạt nhân tổ chức thẩm định hồ sơ (biên bản thẩm định theo Mẫu 06 Phụ lục X) và cấp giấy phép tiến hành công việc bức xạ - vận hành máy gia tốc, thiết bị xạ trị hoặc thiết bị chiếu xạ khử trùng, đột biến, xử lý vật liệu, chiếu xạ máu hoặc văn bản trả lời nêu rõ lý do trong trường hợp không cấp phép.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "2. Phiếu khai báo nhân viên bức xạ và người phụ trách an toàn bức xạ: Mẫu số 01 Phụ lục VII ban hành kèm theo Nghị định số 332/2025/NĐ-CP.",
-        "code": "G06-KQ004759",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dadec-9269-7621-b5b0-478a38301987",
-            "name": "Mẫu số 01-PL07- Phieu khai bao NVBX.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 01-PL07- Phieu khai bao NVBX.docx",
+        "source_page": 2
       },
       {
         "name": "6. Báo cáo đánh giá an toàn theo Mẫu số 05 Phụ lục IX đáp ứng đủ các điều kiện theo quy định tại khoản 2 Điều 23 Nghị định số 332/2025/NĐ-CP.",
-        "code": "G06-KQ004763",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dadf9-6997-711c-8fd4-9dcd7eb81971",
-            "name": "Mau so 05-PL09-Bao cao danh gia an toan (Van hanh may gia toc, thiet bi xa tri..).docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau so 05-PL09-Bao cao danh gia an toan (Van hanh may gia toc, thiet bi xa tri..).docx",
+        "source_page": 2
       },
       {
         "name": "8. Bản sao kế hoạch ứng phó sự cố theo mẫu quy định tại Phụ lục VI ban hành kèm theo Nghị định số 332/2025/NĐ-CP.",
-        "code": "G06-KQ004765",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dadfb-153c-726c-b7f6-36d2f8e2c157",
-            "name": "PL06 NoidungKHUPSC_CP ra soat.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PL06 NoidungKHUPSC_CP ra soat.docx",
+        "source_page": 2
       },
       {
         "name": "1. Đơn đề nghị cấp Giấy phép tiến hành công việc bức xạ:  Mẫu số 01 Phụ lục VIII ban hành kèm theo Nghị định số 332/2025/NĐ-CP.",
-        "code": "G06-KQ004758",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dadde-817e-705a-afbe-3e4cbf4963c6",
-            "name": "Mẫu số 01-PL08-Mau Don de nghi cap phep.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 01-PL08-Mau Don de nghi cap phep.docx",
+        "source_page": 3
       },
       {
         "name": "3. Phiếu khai báo máy gia tốc hoặc phiếu khai báo nguồn phóng xạ gắn với thiết bị chiếu xạ theo mẫu tương ứng quy định tại Phụ lục VII ban hành kèm theo Nghị định số 332/2025/NĐ-CP.",
-        "code": "G06-KQ004760",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dade2-ae02-7722-bf0f-09423a741816",
-            "name": "Mẫu số 10-PL07-Phieu khai bao may gia toc.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 10-PL07-Phieu khai bao may gia toc.docx",
+        "source_page": 3
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "7. Bản sao kết quả kiểm xạ.",
-        "code": "G06-KQ004764",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "4. Bản sao tài liệu của nhà sản xuất có thông tin về thiết bị chiếu xạ như trong phiếu khai báo.",
-        "code": "G06-KQ004761",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "5. Bản sao giấy chứng nhận kiểm định đối với các thiết bị chiếu xạ sử dụng trong y tế",
-        "code": "G06-KQ004762",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -173,519 +112,241 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "25 ngày làm việc",
-      "processing_time_value": 25,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 40000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định cấp giấy phép-Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu-Máy gia tốc: 40.000.000 đồng/1 máy",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 45000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định cấp giấy phép-Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu- • Thiết bị dùng nguồn phóng xạ: 45.000.000 đồng/1 thiết bị.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 4000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị-• Thiết bị xạ trị nông: 4.000.000 đồng/1 thiết bị",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 13000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị:-• Thiết bị xạ trị áp sát xuất liều cao: 13.000.000 đồng/1 thiết bị.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 16000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị:• Thiết bị xạ trị từ xa dùng nguồn phóng xạ: 16.000.000 đồng/1 thiết bị.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 20000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị:• Máy gia tốc: 20.000.000 đồng/1 máy",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 20000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định cấp giấy phép-Vận hành máy gia tốc sử dụng trong sản xuất chất phóng xạ và máy gia tốc khác: 20.000.000 đồng/1 máy.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 13000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định cấp giấy phép-Vận hành thiết bị gamma chiếu xạ tự che chắn (gamma cell): 13.000.000/1 thiết bị",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 52000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định cấp giấy phép-Vận hành thiết bị tạo trường gamma (gamma field): 52.000.000/1 thiết bị.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí thẩm định cấp giấy phép-Vận hành thiết bị chiếu xạ đột biến, chiếu xạ máu: Chưa có quy định.",
-          "attachment": null
-        }
-      ],
-      "description": "\n\nTrường hợp nộp hồ sơ cấp phép tiến hành công việc bức xạ từ ngày 01/4/2026 đến hết ngày 31/12/2026 trên ứng dụng VNeID được áp dụng mức thu phí bằng 50% mức thu phí theo quy định được nêu ở trên.",
-      "source_page": null
+      "fee": "Phí thẩm định cấp giấy phép-Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu-Máy gia tốc: 40.000.000 đồng/1 máy; Phí thẩm định cấp giấy phép-Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu- • Thiết bị dùng nguồn phóng xạ: 45.000.000 đồng/1 thiết bị.; Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị-• Thiết bị xạ trị nông: 4.000.000 đồng/1 thiết bị; Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị:-• Thiết bị xạ trị áp sát xuất liều cao: 13.000.000 đồng/1 thiết bị.; Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị:• Thiết bị xạ trị từ xa dùng nguồn phóng xạ: 16.000.000 đồng/1 thiết bị.; Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị:• Máy gia tốc: 20.000.000 đồng/1 máy; Phí thẩm định cấp giấy phép-Vận hành máy gia tốc sử dụng trong sản xuất chất phóng xạ và máy gia tốc khác: 20.000.000 đồng/1 máy.; Phí thẩm định cấp giấy phép-Vận hành thiết bị gamma chiếu xạ tự che chắn (gamma cell): 13.000.000/1 thiết bị; Phí thẩm định cấp giấy phép-Vận hành thiết bị tạo trường gamma (gamma field): 52.000.000/1 thiết bị.; Phí thẩm định cấp giấy phép-Vận hành thiết bị chiếu xạ đột biến, chiếu xạ máu: Chưa có quy định.",
+      "description": "Trường hợp nộp hồ sơ cấp phép tiến hành công việc bức xạ từ ngày 01/4/2026 đến hết ngày 31/12/2026 trên ứng dụng VNeID được áp dụng mức thu phí bằng 50% mức thu phí theo quy định được nêu ở trên.",
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "25 ngày làm việc",
-      "processing_time_value": 25,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 40000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu-Máy gia tốc: 40.000.000 đồng/1 máy",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 45000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu- • Thiết bị dùng nguồn phóng xạ: 45.000.000 đồng/1 thiết bị.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 4000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành thiết bị xạ trị-• Thiết bị xạ trị nông: 4.000.000 đồng/1 thiết bị",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 13000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành thiết bị xạ trị:-• Thiết bị xạ trị áp sát xuất liều cao: 13.000.000 đồng/1 thiết bị.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 16000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành thiết bị xạ trị:• Thiết bị xạ trị từ xa dùng nguồn phóng xạ: 16.000.000 đồng/1 thiết bị.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 20000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành thiết bị xạ trị:• Máy gia tốc: 20.000.000 đồng/1 máy",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 20000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành máy gia tốc sử dụng trong sản xuất chất phóng xạ và máy gia tốc khác: 20.000.000 đồng/1 máy.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 13000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành thiết bị gamma chiếu xạ tự che chắn (gamma cell): 13.000.000/1 thiết bị",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 52000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành thiết bị tạo trường gamma (gamma field): 52.000.000/1 thiết bị.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành thiết bị chiếu xạ đột biến, chiếu xạ máu: Chưa có quy định.",
-          "attachment": null
-        }
-      ],
-      "description": "\n\n",
-      "source_page": null
+      "fee": "Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu-Máy gia tốc: 40.000.000 đồng/1 máy; Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu- • Thiết bị dùng nguồn phóng xạ: 45.000.000 đồng/1 thiết bị.; Vận hành thiết bị xạ trị-• Thiết bị xạ trị nông: 4.000.000 đồng/1 thiết bị; Vận hành thiết bị xạ trị:-• Thiết bị xạ trị áp sát xuất liều cao: 13.000.000 đồng/1 thiết bị.; Vận hành thiết bị xạ trị:• Thiết bị xạ trị từ xa dùng nguồn phóng xạ: 16.000.000 đồng/1 thiết bị.; Vận hành thiết bị xạ trị:• Máy gia tốc: 20.000.000 đồng/1 máy; Vận hành máy gia tốc sử dụng trong sản xuất chất phóng xạ và máy gia tốc khác: 20.000.000 đồng/1 máy.; Vận hành thiết bị gamma chiếu xạ tự che chắn (gamma cell): 13.000.000/1 thiết bị; Vận hành thiết bị tạo trường gamma (gamma field): 52.000.000/1 thiết bị.; Vận hành thiết bị chiếu xạ đột biến, chiếu xạ máu: Chưa có quy định.",
+      "description": "",
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "25 ngày làm việc",
-      "processing_time_value": 25,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 40000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu-Máy gia tốc: 40.000.000 đồng/1 máy",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 45000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu- • Thiết bị dùng nguồn phóng xạ: 45.000.000 đồng/1 thiết bị.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 4000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành thiết bị xạ trị-• Thiết bị xạ trị nông: 4.000.000 đồng/1 thiết bị",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 13000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành thiết bị xạ trị:-• Thiết bị xạ trị áp sát xuất liều cao: 13.000.000 đồng/1 thiết bị.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 16000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành thiết bị xạ trị:• Thiết bị xạ trị từ xa dùng nguồn phóng xạ: 16.000.000 đồng/1 thiết bị.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 20000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành thiết bị xạ trị:• Máy gia tốc: 20.000.000 đồng/1 máy",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 20000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành máy gia tốc sử dụng trong sản xuất chất phóng xạ và máy gia tốc khác: 20.000.000 đồng/1 máy.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 13000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành thiết bị gamma chiếu xạ tự che chắn (gamma cell): 13.000.000/1 thiết bị",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 52000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành thiết bị tạo trường gamma (gamma field): 52.000.000/1 thiết bị.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Vận hành thiết bị chiếu xạ đột biến, chiếu xạ máu: Chưa có quy định.",
-          "attachment": null
-        }
-      ],
-      "description": "\n\n",
-      "source_page": null
+      "fee": "Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu-Máy gia tốc: 40.000.000 đồng/1 máy; Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu- • Thiết bị dùng nguồn phóng xạ: 45.000.000 đồng/1 thiết bị.; Vận hành thiết bị xạ trị-• Thiết bị xạ trị nông: 4.000.000 đồng/1 thiết bị; Vận hành thiết bị xạ trị:-• Thiết bị xạ trị áp sát xuất liều cao: 13.000.000 đồng/1 thiết bị.; Vận hành thiết bị xạ trị:• Thiết bị xạ trị từ xa dùng nguồn phóng xạ: 16.000.000 đồng/1 thiết bị.; Vận hành thiết bị xạ trị:• Máy gia tốc: 20.000.000 đồng/1 máy; Vận hành máy gia tốc sử dụng trong sản xuất chất phóng xạ và máy gia tốc khác: 20.000.000 đồng/1 máy.; Vận hành thiết bị gamma chiếu xạ tự che chắn (gamma cell): 13.000.000/1 thiết bị; Vận hành thiết bị tạo trường gamma (gamma field): 52.000.000/1 thiết bị.; Vận hành thiết bị chiếu xạ đột biến, chiếu xạ máu: Chưa có quy định.",
+      "description": "",
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Phí thẩm định cấp giấy phép-Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu-Máy gia tốc: 40.000.000 đồng/1 máy; Phí thẩm định cấp giấy phép-Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu- • Thiết bị dùng nguồn phóng xạ: 45.000.000 đồng/1 thiết bị.; Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị-• Thiết bị xạ trị nông: 4.000.000 đồng/1 thiết bị; Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị:-• Thiết bị xạ trị áp sát xuất liều cao: 13.000.000 đồng/1 thiết bị.; Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị:• Thiết bị xạ trị từ xa dùng nguồn phóng xạ: 16.000.000 đồng/1 thiết bị.; Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị:• Máy gia tốc: 20.000.000 đồng/1 máy; Phí thẩm định cấp giấy phép-Vận hành máy gia tốc sử dụng trong sản xuất chất phóng xạ và máy gia tốc khác: 20.000.000 đồng/1 máy.; Phí thẩm định cấp giấy phép-Vận hành thiết bị gamma chiếu xạ tự che chắn (gamma cell): 13.000.000/1 thiết bị; Phí thẩm định cấp giấy phép-Vận hành thiết bị tạo trường gamma (gamma field): 52.000.000/1 thiết bị.; Phí thẩm định cấp giấy phép-Vận hành thiết bị chiếu xạ đột biến, chiếu xạ máu: Chưa có quy định.; Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu-Máy gia tốc: 40.000.000 đồng/1 máy; Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu- • Thiết bị dùng nguồn phóng xạ: 45.000.000 đồng/1 thiết bị.; Vận hành thiết bị xạ trị-• Thiết bị xạ trị nông: 4.000.000 đồng/1 thiết bị; Vận hành thiết bị xạ trị:-• Thiết bị xạ trị áp sát xuất liều cao: 13.000.000 đồng/1 thiết bị.; Vận hành thiết bị xạ trị:• Thiết bị xạ trị từ xa dùng nguồn phóng xạ: 16.000.000 đồng/1 thiết bị.; Vận hành thiết bị xạ trị:• Máy gia tốc: 20.000.000 đồng/1 máy; Vận hành máy gia tốc sử dụng trong sản xuất chất phóng xạ và máy gia tốc khác: 20.000.000 đồng/1 máy.; Vận hành thiết bị gamma chiếu xạ tự che chắn (gamma cell): 13.000.000/1 thiết bị; Vận hành thiết bị tạo trường gamma (gamma field): 52.000.000/1 thiết bị.; Vận hành thiết bị chiếu xạ đột biến, chiếu xạ máu: Chưa có quy định.",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 40000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định cấp giấy phép-Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu-Máy gia tốc: 40.000.000 đồng/1 máy",
-        "attachment": null
+        "amount_text": "Phí thẩm định cấp giấy phép-Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu-Máy gia tốc: 40.000.000 đồng/1 máy",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 45000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định cấp giấy phép-Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu- • Thiết bị dùng nguồn phóng xạ: 45.000.000 đồng/1 thiết bị.",
-        "attachment": null
+        "amount_text": "Phí thẩm định cấp giấy phép-Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu- • Thiết bị dùng nguồn phóng xạ: 45.000.000 đồng/1 thiết bị.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 4000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị-• Thiết bị xạ trị nông: 4.000.000 đồng/1 thiết bị",
-        "attachment": null
+        "amount_text": "Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị-• Thiết bị xạ trị nông: 4.000.000 đồng/1 thiết bị",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 13000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị:-• Thiết bị xạ trị áp sát xuất liều cao: 13.000.000 đồng/1 thiết bị.",
-        "attachment": null
+        "amount_text": "Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị:-• Thiết bị xạ trị áp sát xuất liều cao: 13.000.000 đồng/1 thiết bị.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 16000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị:• Thiết bị xạ trị từ xa dùng nguồn phóng xạ: 16.000.000 đồng/1 thiết bị.",
-        "attachment": null
+        "amount_text": "Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị:• Thiết bị xạ trị từ xa dùng nguồn phóng xạ: 16.000.000 đồng/1 thiết bị.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 20000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị:• Máy gia tốc: 20.000.000 đồng/1 máy",
-        "attachment": null
+        "amount_text": "Phí thẩm định cấp giấy phép-Vận hành thiết bị xạ trị:• Máy gia tốc: 20.000.000 đồng/1 máy",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 20000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định cấp giấy phép-Vận hành máy gia tốc sử dụng trong sản xuất chất phóng xạ và máy gia tốc khác: 20.000.000 đồng/1 máy.",
-        "attachment": null
+        "amount_text": "Phí thẩm định cấp giấy phép-Vận hành máy gia tốc sử dụng trong sản xuất chất phóng xạ và máy gia tốc khác: 20.000.000 đồng/1 máy.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 13000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định cấp giấy phép-Vận hành thiết bị gamma chiếu xạ tự che chắn (gamma cell): 13.000.000/1 thiết bị",
-        "attachment": null
+        "amount_text": "Phí thẩm định cấp giấy phép-Vận hành thiết bị gamma chiếu xạ tự che chắn (gamma cell): 13.000.000/1 thiết bị",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 52000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định cấp giấy phép-Vận hành thiết bị tạo trường gamma (gamma field): 52.000.000/1 thiết bị.",
-        "attachment": null
+        "amount_text": "Phí thẩm định cấp giấy phép-Vận hành thiết bị tạo trường gamma (gamma field): 52.000.000/1 thiết bị.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí thẩm định cấp giấy phép-Vận hành thiết bị chiếu xạ đột biến, chiếu xạ máu: Chưa có quy định.",
-        "attachment": null
+        "amount_text": "Phí thẩm định cấp giấy phép-Vận hành thiết bị chiếu xạ đột biến, chiếu xạ máu: Chưa có quy định.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 40000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu-Máy gia tốc: 40.000.000 đồng/1 máy",
-        "attachment": null
+        "amount_text": "Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu-Máy gia tốc: 40.000.000 đồng/1 máy",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 45000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu- • Thiết bị dùng nguồn phóng xạ: 45.000.000 đồng/1 thiết bị.",
-        "attachment": null
+        "amount_text": "Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu- • Thiết bị dùng nguồn phóng xạ: 45.000.000 đồng/1 thiết bị.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 4000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành thiết bị xạ trị-• Thiết bị xạ trị nông: 4.000.000 đồng/1 thiết bị",
-        "attachment": null
+        "amount_text": "Vận hành thiết bị xạ trị-• Thiết bị xạ trị nông: 4.000.000 đồng/1 thiết bị",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 13000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành thiết bị xạ trị:-• Thiết bị xạ trị áp sát xuất liều cao: 13.000.000 đồng/1 thiết bị.",
-        "attachment": null
+        "amount_text": "Vận hành thiết bị xạ trị:-• Thiết bị xạ trị áp sát xuất liều cao: 13.000.000 đồng/1 thiết bị.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 16000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành thiết bị xạ trị:• Thiết bị xạ trị từ xa dùng nguồn phóng xạ: 16.000.000 đồng/1 thiết bị.",
-        "attachment": null
+        "amount_text": "Vận hành thiết bị xạ trị:• Thiết bị xạ trị từ xa dùng nguồn phóng xạ: 16.000.000 đồng/1 thiết bị.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 20000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành thiết bị xạ trị:• Máy gia tốc: 20.000.000 đồng/1 máy",
-        "attachment": null
+        "amount_text": "Vận hành thiết bị xạ trị:• Máy gia tốc: 20.000.000 đồng/1 máy",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 20000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành máy gia tốc sử dụng trong sản xuất chất phóng xạ và máy gia tốc khác: 20.000.000 đồng/1 máy.",
-        "attachment": null
+        "amount_text": "Vận hành máy gia tốc sử dụng trong sản xuất chất phóng xạ và máy gia tốc khác: 20.000.000 đồng/1 máy.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 13000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành thiết bị gamma chiếu xạ tự che chắn (gamma cell): 13.000.000/1 thiết bị",
-        "attachment": null
+        "amount_text": "Vận hành thiết bị gamma chiếu xạ tự che chắn (gamma cell): 13.000.000/1 thiết bị",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 52000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành thiết bị tạo trường gamma (gamma field): 52.000.000/1 thiết bị.",
-        "attachment": null
+        "amount_text": "Vận hành thiết bị tạo trường gamma (gamma field): 52.000.000/1 thiết bị.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành thiết bị chiếu xạ đột biến, chiếu xạ máu: Chưa có quy định.",
-        "attachment": null
+        "amount_text": "Vận hành thiết bị chiếu xạ đột biến, chiếu xạ máu: Chưa có quy định.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 40000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu-Máy gia tốc: 40.000.000 đồng/1 máy",
-        "attachment": null
+        "amount_text": "Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu-Máy gia tốc: 40.000.000 đồng/1 máy",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 45000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu- • Thiết bị dùng nguồn phóng xạ: 45.000.000 đồng/1 thiết bị.",
-        "attachment": null
+        "amount_text": "Vận hành thiết bị chiếu xạ khử trùng, xử lý vật liệu- • Thiết bị dùng nguồn phóng xạ: 45.000.000 đồng/1 thiết bị.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 4000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành thiết bị xạ trị-• Thiết bị xạ trị nông: 4.000.000 đồng/1 thiết bị",
-        "attachment": null
+        "amount_text": "Vận hành thiết bị xạ trị-• Thiết bị xạ trị nông: 4.000.000 đồng/1 thiết bị",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 13000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành thiết bị xạ trị:-• Thiết bị xạ trị áp sát xuất liều cao: 13.000.000 đồng/1 thiết bị.",
-        "attachment": null
+        "amount_text": "Vận hành thiết bị xạ trị:-• Thiết bị xạ trị áp sát xuất liều cao: 13.000.000 đồng/1 thiết bị.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 16000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành thiết bị xạ trị:• Thiết bị xạ trị từ xa dùng nguồn phóng xạ: 16.000.000 đồng/1 thiết bị.",
-        "attachment": null
+        "amount_text": "Vận hành thiết bị xạ trị:• Thiết bị xạ trị từ xa dùng nguồn phóng xạ: 16.000.000 đồng/1 thiết bị.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 20000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành thiết bị xạ trị:• Máy gia tốc: 20.000.000 đồng/1 máy",
-        "attachment": null
+        "amount_text": "Vận hành thiết bị xạ trị:• Máy gia tốc: 20.000.000 đồng/1 máy",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 20000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành máy gia tốc sử dụng trong sản xuất chất phóng xạ và máy gia tốc khác: 20.000.000 đồng/1 máy.",
-        "attachment": null
+        "amount_text": "Vận hành máy gia tốc sử dụng trong sản xuất chất phóng xạ và máy gia tốc khác: 20.000.000 đồng/1 máy.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 13000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành thiết bị gamma chiếu xạ tự che chắn (gamma cell): 13.000.000/1 thiết bị",
-        "attachment": null
+        "amount_text": "Vận hành thiết bị gamma chiếu xạ tự che chắn (gamma cell): 13.000.000/1 thiết bị",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 52000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành thiết bị tạo trường gamma (gamma field): 52.000.000/1 thiết bị.",
-        "attachment": null
+        "amount_text": "Vận hành thiết bị tạo trường gamma (gamma field): 52.000.000/1 thiết bị.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Vận hành thiết bị chiếu xạ đột biến, chiếu xạ máu: Chưa có quy định.",
-        "attachment": null
+        "amount_text": "Vận hành thiết bị chiếu xạ đột biến, chiếu xạ máu: Chưa có quy định.",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -693,26 +354,22 @@
     {
       "title": "Thông tư số 287/2016/TT-BTC ngày 15/11/2016 của Bộ trưởng Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực năng lượng nguyên tử",
       "document_number": "287/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be47-e9950a46880b",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật Năng lượng nguyên tử số 94/2025/QH15 ngày 27 tháng 6 năm 2025.",
       "document_number": "94/2025/QH15 ngày 27/6/2025",
-      "id": "019d2bb3-5d87-7195-a447-4b380539699b",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Trang chủ Nghị định số 332/2025/NĐ-CP của Chính phủ",
       "document_number": "332/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46c-c37d44b35e2b",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "QUY ĐỊNH MỨC THU, MIỄN MỘT SỐ KHOẢN PHÍ, LỆ PHÍ ĐỂ HỖ TRỢ VIỆC KẾT NỐI, KHAI THÁC, SỬ DỤNG DỮ LIỆU VÀ KHUYẾN KHÍCH THỰC HIỆN DỊCH VỤ CÔNG TRÊN ỨNG DỤNG VNEID",
       "document_number": "29/2026/TT-BTC",
-      "id": "019db481-7e37-709e-9a60-a15249902163",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "",
@@ -720,14 +377,13 @@
     {
       "title": "Giấy phép tiến hành công việc bức xạ - vận hành máy gia tốc, thiết bị xạ trị hoặc thiết bị chiếu xạ khử trùng, đột biến, xử lý vật liệu, chiếu xạ máu",
       "code": "KQ.G06.000855",
-      "id": "019d2bb2-1c41-7141-b6bb-671a5ad48fdb",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Tổ chức, cá nhân có nhu cầu đề nghị cấp Giấy phép tiến hành công việc bức xạ - vận hành máy gia tốc, thiết bị xạ trị hoặc thiết bị chiếu xạ khử trùng, đột biến, xử lý vật liệu, chiếu xạ máu nộp 01 bộ hồ sơ đến Bộ phận tiếp nhận và trả kết quả của Bộ Khoa học và Công nghệ (Cục An toàn bức xạ và hạt nhân).\n- Trường hợp nộp hồ sơ trực tiếp, Bộ phận tiếp nhận và trả kết quả của Bộ Khoa học và Công nghệ (Cục An toàn bức xạ và hạt nhân) phải kiểm tra tính đầy đủ, hợp lệ của hồ sơ và thu phí, lệ phí (nếu có) đối với hồ sơ hợp lệ.\n-Trường hợp nộp hồ sơ qua dịch vụ bưu chính hoặc trực tuyến, Bộ phận tiếp nhận và trả kết quả của Bộ Khoa học và Công nghệ (Cục An toàn bức xạ và hạt nhân) trong thời hạn 03 ngày làm việc phải kiểm tra tính đầy đủ, hợp lệ của hồ sơ và thông báo thông báo bằng văn bản mức phí, lệ phí (nếu có) đối với hồ sơ hợp lệ (trường hợp tổ chức, cá nhân nộp nhiều hồ sơ cùng thời điểm, cơ quan tiếp nhận hồ sơ phát hành 01 bản thông báo mức phí, lệ phí cho tất cả hồ sơ) hoặc thông báo bằng văn bản yêu cầu sửa đổi, bổ sung hồ sơ nếu hồ sơ chưa đầy đủ, hợp lệ hoặc thông báo trực tuyến trên Cổng dịch vụ công quốc gia.\n- Trong thời hạn 25 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ và phí, lệ phí (nếu có), Cục An toàn bức xạ và hạt nhân tổ chức thẩm định hồ sơ (biên bản thẩm định theo Mẫu 06 Phụ lục X) và cấp giấy phép tiến hành công việc bức xạ - vận hành máy gia tốc, thiết bị xạ trị hoặc thiết bị chiếu xạ khử trùng, đột biến, xử lý vật liệu, chiếu xạ máu hoặc văn bản trả lời nêu rõ lý do trong trường hợp không cấp phép.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n2. Phiếu khai báo nhân viên bức xạ và người phụ trách an toàn bức xạ: Mẫu số 01 Phụ lục VII ban hành kèm theo Nghị định số 332/2025/NĐ-CP.\n6. Báo cáo đánh giá an toàn theo Mẫu số 05 Phụ lục IX đáp ứng đủ các điều kiện theo quy định tại khoản 2 Điều 23 Nghị định số 332/2025/NĐ-CP.\n7. Bản sao kết quả kiểm xạ.\n8. Bản sao kế hoạch ứng phó sự cố theo mẫu quy định tại Phụ lục VI ban hành kèm theo Nghị định số 332/2025/NĐ-CP.\n4. Bản sao tài liệu của nhà sản xuất có thông tin về thiết bị chiếu xạ như trong phiếu khai báo.\n5. Bản sao giấy chứng nhận kiểm định đối với các thiết bị chiếu xạ sử dụng trong y tế\n1. Đơn đề nghị cấp Giấy phép tiến hành công việc bức xạ:  Mẫu số 01 Phụ lục VIII ban hành kèm theo Nghị định số 332/2025/NĐ-CP.\n3. Phiếu khai báo máy gia tốc hoặc phiếu khai báo nguồn phóng xạ gắn với thiết bị chiếu xạ theo mẫu tương ứng quy định tại Phụ lục VII ban hành kèm theo Nghị định số 332/2025/NĐ-CP.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 25 ngày làm việc - \n\nTrường hợp nộp hồ sơ cấp phép tiến hành công việc bức xạ từ ngày 01/4/2026 đến hết ngày 31/12/2026 trên ứng dụng VNeID được áp dụng mức thu phí bằng 50% mức thu phí theo quy định được nêu ở trên.\nQua dịch vụ bưu chính: 25 ngày làm việc - \n\n\nTrực tiếp: 25 ngày làm việc - \n\n",
+    "TRÌNH TỰ THỰC HIỆN": "- Tổ chức, cá nhân có nhu cầu đề nghị cấp Giấy phép tiến hành công việc bức xạ - vận hành máy gia tốc, thiết bị xạ trị hoặc thiết bị chiếu xạ khử trùng, đột biến, xử lý vật liệu, chiếu xạ máu nộp 01 bộ hồ sơ đến Bộ phận tiếp nhận và trả kết quả của Bộ Khoa học và Công nghệ (Cục An toàn bức xạ và hạt nhân).\n- Trường hợp nộp hồ sơ trực tiếp, Bộ phận tiếp nhận và trả kết quả của Bộ Khoa học và Công nghệ (Cục An toàn bức xạ và hạt nhân) phải kiểm tra tính đầy đủ, hợp lệ của hồ sơ và thu phí, lệ phí (nếu có) đối với hồ sơ hợp lệ.\n-Trường hợp nộp hồ sơ qua dịch vụ bưu chính hoặc trực tuyến, Bộ phận tiếp nhận và trả kết quả của Bộ Khoa học và Công nghệ (Cục An toàn bức xạ và hạt nhân) trong thời hạn 03 ngày làm việc phải kiểm tra tính đầy đủ, hợp lệ của hồ sơ và thông báo thông báo bằng văn bản mức phí, lệ phí (nếu có) đối với hồ sơ hợp lệ (trường hợp tổ chức, cá nhân nộp nhiều hồ sơ cùng thời điểm, cơ quan tiếp nhận hồ sơ phát hành 01 bản thông báo mức phí, lệ phí cho tất cả hồ sơ) hoặc thông báo bằng văn bản yêu cầu sửa đổi, bổ sung hồ sơ nếu hồ sơ chưa đầy đủ, hợp lệ hoặc thông báo trực tuyến trên Cổng dịch vụ công quốc gia.\n- Trong thời hạn 25 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ và phí, lệ phí (nếu có), Cục An toàn bức xạ và hạt nhân tổ chức thẩm định hồ sơ (biên bản thẩm định theo Mẫu 06 Phụ lục X) và cấp giấy phép tiến hành công việc bức xạ - vận hành máy gia tốc, thiết bị xạ trị hoặc thiết bị chiếu xạ khử trùng, đột biến, xử lý vật liệu, chiếu xạ máu hoặc văn bản trả lời nêu rõ lý do trong trường hợp không cấp phép.",
+    "THÀNH PHẦN HỒ SƠ": "2. Phiếu khai báo nhân viên bức xạ và người phụ trách an toàn bức xạ: Mẫu số 01 Phụ lục VII ban hành kèm theo Nghị định số 332/2025/NĐ-CP.\n6. Báo cáo đánh giá an toàn theo Mẫu số 05 Phụ lục IX đáp ứng đủ các điều kiện theo quy định tại khoản 2 Điều 23 Nghị định số 332/2025/NĐ-CP.\n8. Bản sao kế hoạch ứng phó sự cố theo mẫu quy định tại Phụ lục VI ban hành kèm theo Nghị định số 332/2025/NĐ-CP.\n1. Đơn đề nghị cấp Giấy phép tiến hành công việc bức xạ:  Mẫu số 01 Phụ lục VIII ban hành kèm theo Nghị định số 332/2025/NĐ-CP.\n3. Phiếu khai báo máy gia tốc hoặc phiếu khai báo nguồn phóng xạ gắn với thiết bị chiếu xạ theo mẫu tương ứng quy định tại Phụ lục VII ban hành kèm theo Nghị định số 332/2025/NĐ-CP.\n7. Bản sao kết quả kiểm xạ.\n4. Bản sao tài liệu của nhà sản xuất có thông tin về thiết bị chiếu xạ như trong phiếu khai báo.\n5. Bản sao giấy chứng nhận kiểm định đối với các thiết bị chiếu xạ sử dụng trong y tế",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 25 ngày làm việc\nQua dịch vụ bưu chính: 25 ngày làm việc\nTrực tiếp: 25 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Thông tư số 287/2016/TT-BTC ngày 15/11/2016 của Bộ trưởng Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực năng lượng nguyên tử - 287/2016/TT-BTC\nLuật Năng lượng nguyên tử số 94/2025/QH15 ngày 27 tháng 6 năm 2025. - 94/2025/QH15 ngày 27/6/2025\nTrang chủ Nghị định số 332/2025/NĐ-CP của Chính phủ - 332/2025/NĐ-CP\nQUY ĐỊNH MỨC THU, MIỄN MỘT SỐ KHOẢN PHÍ, LỆ PHÍ ĐỂ HỖ TRỢ VIỆC KẾT NỐI, KHAI THÁC, SỬ DỤNG DỮ LIỆU VÀ KHUYẾN KHÍCH THỰC HIỆN DỊCH VỤ CÔNG TRÊN ỨNG DỤNG VNEID - 29/2026/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Cục An toàn bức xạ và hạt nhân",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
@@ -736,11 +392,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Sức khỏe và y tế",
-      "slug": "suc-khoe-va-y-te",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "An toàn bức xạ và hạt nhân",
       "slug": "an-toan-buc-xa-va-hat-nhan"
@@ -754,11 +405,11 @@
     "target_users": [
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Đảng viên",
-        "slug": "dang-vien"
+        "slug": "ang-vien"
       },
       {
         "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
@@ -766,7 +417,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -782,7 +433,7 @@
       },
       {
         "name": "Tổ chức Đảng",
-        "slug": "to-chuc-dang"
+        "slug": "to-chuc-ang"
       },
       {
         "name": "Tổ chức nước ngoài",
@@ -803,6 +454,6 @@
         "slug": "cuc-an-toan-buc-xa-va-hat-nhan"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

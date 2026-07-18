@@ -1,36 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfd-08ea-72e3-8656-39d036360093",
   "procedure_code": "3.000121",
   "title": "Thủ tục đăng ký sử dụng tài khoản và mẫu dấu, mẫu chữ ký; bổ sung tài khoản; thay đổi hồ sơ pháp lý, mẫu dấu, mẫu chữ ký của cá nhân, đơn vị giao dịch tại Kho bạc Nhà nước",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-08ea-72e3-8656-39d036360093",
     "source_file": "chi-tiet-thu-tuc-3.000121.pdf",
     "source_path": "procedures/viec-lam/3.000121/chi-tiet-thu-tuc-3.000121.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:23.236627+00:00",
-    "source_updated_at": "2026-04-08T08:19:20.897Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:33.896941+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "5da173127a6c83bd3d6642734209e8473858d4fda825da65cdcde82467e46ea7"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:23.236627+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "4488/QĐ-BTC",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "OTHER",
   "sector": "Kho bạc Nhà nước",
   "target_users": [
@@ -38,18 +31,15 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Kho bạc nhà nước các cấp",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Kho bạc nhà nước các cấp"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "a) Cá nhân, đơn vị giao dịch thuộc đối tượng mở tài khoản tại Kho bạc Nhà nước gửi hồ sơ theo quy định tại Thành phần, số lượng hồ sơ thủ tục này đến Kho bạc Nhà nước.\nb) Kho bạc Nhà nước kiểm tra tính hợp lệ của hồ sơ theo quy định tại khoản 4 Điều 3 Nghị định số 347/2025/NĐ-CP ngày 29 tháng 12 năm 2025 của Chính phủ quy định về thủ tục hành chính thuộc lĩnh vực Kho bạc Nhà nước.\nc) Sau khi phê duyệt hồ sơ của cá nhân, đơn vị giao dịch, Kho bạc Nhà nước gửi cá nhân, đơn vị giao dịch 01 bản Giấy đăng ký sử dụng tài khoản và mẫu dấu, mẫu chữ ký có xác nhận của Kho bạc Nhà nước và có số tài khoản của cá nhân, đơn vị giao dịch theo quy định của Bộ Tài chính.\n",
+      "description": "a) Cá nhân, đơn vị giao dịch thuộc đối tượng mở tài khoản tại Kho bạc Nhà nước gửi hồ sơ theo quy định tại Thành phần, số lượng hồ sơ thủ tục này đến Kho bạc Nhà nước.\nb) Kho bạc Nhà nước kiểm tra tính hợp lệ của hồ sơ theo quy định tại khoản 4 Điều 3 Nghị định số 347/2025/NĐ-CP ngày 29 tháng 12 năm 2025 của Chính phủ quy định về thủ tục hành chính thuộc lĩnh vực Kho bạc Nhà nước.\nc) Sau khi phê duyệt hồ sơ của cá nhân, đơn vị giao dịch, Kho bạc Nhà nước gửi cá nhân, đơn vị giao dịch 01 bản Giấy đăng ký sử dụng tài khoản và mẫu dấu, mẫu chữ ký có xác nhận của Kho bạc Nhà nước và có số tài khoản của cá nhân, đơn vị giao dịch theo quy định của Bộ Tài chính.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -57,58 +47,40 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "Số lượng Giấy đăng ký sử dụng tài khoản và mẫu dấu, mẫu chữ ký là 02 bản gốc; số lượng mỗi thành phần hồ sơ quy định tại điểm b, c, d mục Thành phần hồ sơ thủ tục này là 01 bản (bản chính hoặc bản sao y).",
-        "code": "000.00.00.G12-KQ015886",
+        "name": "Trường hợp hồ sơ không được gửi trên môi trường điện tử:: Số lượng Giấy đăng ký sử dụng tài khoản và mẫu dấu, mẫu chữ ký là 02 bản gốc; số lượng mỗi thành phần hồ sơ quy định tại điểm b, c, d mục Thành phần hồ sơ thủ tục này là 01 bản (bản chính hoặc bản sao y).",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": " Trường hợp hồ sơ không được gửi trên môi trường điện tử: ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "c) Văn bản bổ nhiệm chức vụ của chủ tài khoản hoặc văn bản công nhận người đứng đầu đơn vị giao dịch (trường hợp đơn vị giao dịch đăng ký sử dụng tài khoản lần đầu; đăng ký bổ sung tài khoản mà chủ tài khoản thay đổi so với thông tin trên hồ sơ đăng ký sử dụng tài khoản còn hiệu lực tại Kho bạc Nhà nước; thay đổi chủ tài khoản; có văn bản bổ nhiệm lại chức vụ của chủ tài khoản hoặc ban hành mới văn bản công nhận người đứng đầu đơn vị giao dịch), trừ Văn phòng Ủy ban nhân dân cấp tỉnh, Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp xã, các đơn vị thuộc khối Quốc phòng, An ninh.  Trường hợp thủ trưởng đơn vị giao dịch ủy quyền hoặc phân công nhiệm vụ cho cấp phó/cấp dưới làm chủ tài khoản thì chỉ cần gửi văn bản bổ nhiệm chức vụ của cấp phó và văn bản ủy quyền hoặc phân công nhiệm vụ của thủ trưởng đơn vị cho cấp phó/cấp dưới. Trường hợp thủ trưởng đơn vị giao dịch phân công cho cấp phó phụ trách theo từng khu vực đối với các đơn vị có đặc thù riêng về cơ cấu tổ chức, chức năng, nhiệm vụ, quyền hạn, được pháp luật cho phép đặt trụ sở văn phòng đại diện tại các khu vực (có con dấu riêng, chịu trách nhiệm quyết toán kinh phí ngân sách như một đơn vị độc lập) thì khi đăng ký sử dụng tài khoản cho văn phòng đại diện tại khu vực, chỉ cần gửi văn bản phân công của thủ trưởng đơn vị giao dịch cho cấp phó phụ trách khu vực.",
-        "code": "000.00.00.G12-KQ015884",
+        "name": "Trường hợp hồ sơ được gửi trên môi trường điện tử:: c) Văn bản bổ nhiệm chức vụ của chủ tài khoản hoặc văn bản công nhận người đứng đầu đơn vị giao dịch (trường hợp đơn vị giao dịch đăng ký sử dụng tài khoản lần đầu; đăng ký bổ sung tài khoản mà chủ tài khoản thay đổi so với thông tin trên hồ sơ đăng ký sử dụng tài khoản còn hiệu lực tại Kho bạc Nhà nước; thay đổi chủ tài khoản; có văn bản bổ nhiệm lại chức vụ của chủ tài khoản hoặc ban hành mới văn bản công nhận người đứng đầu đơn vị giao dịch), trừ Văn phòng Ủy ban nhân dân cấp tỉnh, Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp xã, các đơn vị thuộc khối Quốc phòng, An ninh.  Trường hợp thủ trưởng đơn vị giao dịch ủy quyền hoặc phân công nhiệm vụ cho cấp phó/cấp dưới làm chủ tài khoản thì chỉ cần gửi văn bản bổ nhiệm chức vụ của cấp phó và văn bản ủy quyền hoặc phân công nhiệm vụ của thủ trưởng đơn vị cho cấp phó/cấp dưới. Trường hợp thủ trưởng đơn vị giao dịch phân công cho cấp phó phụ trách theo từng khu vực đối với các đơn vị có đặc thù riêng về cơ cấu tổ chức, chức năng, nhiệm vụ, quyền hạn, được pháp luật cho phép đặt trụ sở văn phòng đại diện tại các khu vực (có con dấu riêng, chịu trách nhiệm quyết toán kinh phí ngân sách như một đơn vị độc lập) thì khi đăng ký sử dụng tài khoản cho văn phòng đại diện tại khu vực, chỉ cần gửi văn bản phân công của thủ trưởng đơn vị giao dịch cho cấp phó phụ trách khu vực.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp hồ sơ được gửi trên môi trường điện tử: ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "a) Giấy đăng ký sử dụng tài khoản và mẫu dấu, mẫu chữ ký.",
-        "code": "000.00.00.G12-KQ015865",
+        "name": "Trường hợp hồ sơ được gửi trên môi trường điện tử:: a) Giấy đăng ký sử dụng tài khoản và mẫu dấu, mẫu chữ ký.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp hồ sơ được gửi trên môi trường điện tử: ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 1
       },
       {
-        "name": "Đối với cá nhân: 01 bản sao điện tử Giấy đăng ký sử dụng tài khoản và mẫu dấu, mẫu chữ ký;  Đối với đơn vị giao dịch: số lượng mỗi thành phần hồ sơ quy định tại mục Thành phần hồ sơ thủ tục này là 01 bản được ký số theo quy định của pháp luật.",
-        "code": "000.00.00.G12-KQ015885",
+        "name": "Trường hợp hồ sơ được gửi trên môi trường điện tử:: Đối với cá nhân: 01 bản sao điện tử Giấy đăng ký sử dụng tài khoản và mẫu dấu, mẫu chữ ký;  Đối với đơn vị giao dịch: số lượng mỗi thành phần hồ sơ quy định tại mục Thành phần hồ sơ thủ tục này là 01 bản được ký số theo quy định của pháp luật.",
         "quantity": null,
-        "required": false,
-        "case": "Trường hợp hồ sơ được gửi trên môi trường điện tử: ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "b) Văn bản thành lập đơn vị giao dịch hoặc văn bản quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của đơn vị giao dịch do cơ quan có thẩm quyền ban hành theo quy định của pháp luật; văn bản phê duyệt dự án hoặc giao quản lý dự án, giao nhiệm vụ chủ đầu tư đối với Ban Quản lý dự án; Giấy chứng nhận đăng ký kinh doanh đối với doanh nghiệp tư nhân (trường hợp đơn vị giao dịch đăng ký sử dụng tài khoản lần đầu hoặc khi có sự thay đổi về thành phần hồ sơ này), trừ các cơ quan của Đảng Cộng sản Việt Nam, Văn phòng Chủ tịch nước, Văn phòng Quốc hội, Văn phòng Chính phủ, các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban Mặt trận Tổ quốc Việt Nam, các tổ chức chính trị - xã hội các cấp, Văn phòng Ủy ban nhân dân cấp tỉnh, Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp xã, các đơn vị thuộc khối Quốc phòng, An ninh.",
-        "code": "000.00.00.G12-KQ015866",
+        "name": "Trường hợp hồ sơ được gửi trên môi trường điện tử:: b) Văn bản thành lập đơn vị giao dịch hoặc văn bản quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của đơn vị giao dịch do cơ quan có thẩm quyền ban hành theo quy định của pháp luật; văn bản phê duyệt dự án hoặc giao quản lý dự án, giao nhiệm vụ chủ đầu tư đối với Ban Quản lý dự án; Giấy chứng nhận đăng ký kinh doanh đối với doanh nghiệp tư nhân (trường hợp đơn vị giao dịch đăng ký sử dụng tài khoản lần đầu hoặc khi có sự thay đổi về thành phần hồ sơ này), trừ các cơ quan của Đảng Cộng sản Việt Nam, Văn phòng Chủ tịch nước, Văn phòng Quốc hội, Văn phòng Chính phủ, các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban Mặt trận Tổ quốc Việt Nam, các tổ chức chính trị - xã hội các cấp, Văn phòng Ủy ban nhân dân cấp tỉnh, Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp xã, các đơn vị thuộc khối Quốc phòng, An ninh.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp hồ sơ được gửi trên môi trường điện tử: ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "d) Văn bản bổ nhiệm Kế toán trưởng/phụ trách kế toán của cấp có thẩm quyền hoặc hợp đồng/văn bản giao nhiệm vụ Kế toán trưởng/phụ trách kế toán hoặc văn bản phân công người phụ trách kế toán hoặc văn bản giao nhiệm vụ/phân công ký chức danh Kế toán trưởng trên chứng từ kế toán giao dịch với Kho bạc Nhà nước của đơn vị giao dịch (trường hợp đơn vị giao dịch đăng ký sử dụng tài khoản lần đầu; bổ sung tài khoản mà người ký chức danh Kế toán trưởng thay đổi so với thông tin trên hồ sơ đăng ký sử dụng tài khoản còn hiệu lực tại Kho bạc Nhà nước; thay đổi Kế toán trưởng/phụ trách kế toán hoặc ban hành mới văn bản giao nhiệm vụ Kế toán trưởng, văn bản phân công người phụ trách kế toán, văn bản giao nhiệm vụ/phân công ký chức danh Kế toán trưởng trên chứng từ kế toán giao dịch với Kho bạc Nhà nước), trừ cơ quan thu ngân sách và các đơn vị thuộc khối Quốc phòng, An ninh không có Kế toán trưởng/phụ trách kế toán.",
-        "code": "000.00.00.G12-KQ015869",
+        "name": "Trường hợp hồ sơ được gửi trên môi trường điện tử:: d) Văn bản bổ nhiệm Kế toán trưởng/phụ trách kế toán của cấp có thẩm quyền hoặc hợp đồng/văn bản giao nhiệm vụ Kế toán trưởng/phụ trách kế toán hoặc văn bản phân công người phụ trách kế toán hoặc văn bản giao nhiệm vụ/phân công ký chức danh Kế toán trưởng trên chứng từ kế toán giao dịch với Kho bạc Nhà nước của đơn vị giao dịch (trường hợp đơn vị giao dịch đăng ký sử dụng tài khoản lần đầu; bổ sung tài khoản mà người ký chức danh Kế toán trưởng thay đổi so với thông tin trên hồ sơ đăng ký sử dụng tài khoản còn hiệu lực tại Kho bạc Nhà nước; thay đổi Kế toán trưởng/phụ trách kế toán hoặc ban hành mới văn bản giao nhiệm vụ Kế toán trưởng, văn bản phân công người phụ trách kế toán, văn bản giao nhiệm vụ/phân công ký chức danh Kế toán trưởng trên chứng từ kế toán giao dịch với Kho bạc Nhà nước), trừ cơ quan thu ngân sách và các đơn vị thuộc khối Quốc phòng, An ninh không có Kế toán trưởng/phụ trách kế toán.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp hồ sơ được gửi trên môi trường điện tử: ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -117,35 +89,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "1 ngày làm việc",
-      "processing_time_value": 1,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Không",
-          "attachment": null
-        }
-      ],
+      "fee": "Không",
       "description": "",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "1 ngày làm việc",
-      "processing_time_value": 1,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Không",
-          "attachment": null
-        }
-      ],
+      "fee": "Không",
       "description": "",
       "source_page": null
     },
@@ -153,51 +105,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1 ngày làm việc",
-      "processing_time_value": 1,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Không",
-          "attachment": null
-        }
-      ],
+      "fee": "Không",
       "description": "",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "fees": {
-    "status": "free",
+    "summary": "Không",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Không",
-        "attachment": null
+        "amount_text": "Không",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Không",
-        "attachment": null
+        "amount_text": "Không",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Không",
-        "attachment": null
+        "amount_text": "Không",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -205,8 +142,7 @@
     {
       "title": "Nghị định số 347/2025/NĐ-CP của Chính phủ: Quy định về thủ tục hành chính thuộc lĩnh vực Kho bạc Nhà nước",
       "document_number": "347/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46c-e7d7a9d8616c",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "",
@@ -214,13 +150,12 @@
     {
       "title": "Giấy đăng ký sử dụng tài khoản và mẫu dấu, mẫu chữ ký có xác nhận của Kho bạc Nhà nước",
       "code": "KQ.G12.000073",
-      "id": "019d2bb2-1c6f-72b5-bd0c-50eeb30fd10d",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "a) Cá nhân, đơn vị giao dịch thuộc đối tượng mở tài khoản tại Kho bạc Nhà nước gửi hồ sơ theo quy định tại Thành phần, số lượng hồ sơ thủ tục này đến Kho bạc Nhà nước.\nb) Kho bạc Nhà nước kiểm tra tính hợp lệ của hồ sơ theo quy định tại khoản 4 Điều 3 Nghị định số 347/2025/NĐ-CP ngày 29 tháng 12 năm 2025 của Chính phủ quy định về thủ tục hành chính thuộc lĩnh vực Kho bạc Nhà nước.\nc) Sau khi phê duyệt hồ sơ của cá nhân, đơn vị giao dịch, Kho bạc Nhà nước gửi cá nhân, đơn vị giao dịch 01 bản Giấy đăng ký sử dụng tài khoản và mẫu dấu, mẫu chữ ký có xác nhận của Kho bạc Nhà nước và có số tài khoản của cá nhân, đơn vị giao dịch theo quy định của Bộ Tài chính.\n",
-    "THÀNH PHẦN HỒ SƠ": " Trường hợp hồ sơ không được gửi trên môi trường điện tử: \nSố lượng Giấy đăng ký sử dụng tài khoản và mẫu dấu, mẫu chữ ký là 02 bản gốc; số lượng mỗi thành phần hồ sơ quy định tại điểm b, c, d mục Thành phần hồ sơ thủ tục này là 01 bản (bản chính hoặc bản sao y).\nTrường hợp hồ sơ được gửi trên môi trường điện tử: \nc) Văn bản bổ nhiệm chức vụ của chủ tài khoản hoặc văn bản công nhận người đứng đầu đơn vị giao dịch (trường hợp đơn vị giao dịch đăng ký sử dụng tài khoản lần đầu; đăng ký bổ sung tài khoản mà chủ tài khoản thay đổi so với thông tin trên hồ sơ đăng ký sử dụng tài khoản còn hiệu lực tại Kho bạc Nhà nước; thay đổi chủ tài khoản; có văn bản bổ nhiệm lại chức vụ của chủ tài khoản hoặc ban hành mới văn bản công nhận người đứng đầu đơn vị giao dịch), trừ Văn phòng Ủy ban nhân dân cấp tỉnh, Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp xã, các đơn vị thuộc khối Quốc phòng, An ninh.  Trường hợp thủ trưởng đơn vị giao dịch ủy quyền hoặc phân công nhiệm vụ cho cấp phó/cấp dưới làm chủ tài khoản thì chỉ cần gửi văn bản bổ nhiệm chức vụ của cấp phó và văn bản ủy quyền hoặc phân công nhiệm vụ của thủ trưởng đơn vị cho cấp phó/cấp dưới. Trường hợp thủ trưởng đơn vị giao dịch phân công cho cấp phó phụ trách theo từng khu vực đối với các đơn vị có đặc thù riêng về cơ cấu tổ chức, chức năng, nhiệm vụ, quyền hạn, được pháp luật cho phép đặt trụ sở văn phòng đại diện tại các khu vực (có con dấu riêng, chịu trách nhiệm quyết toán kinh phí ngân sách như một đơn vị độc lập) thì khi đăng ký sử dụng tài khoản cho văn phòng đại diện tại khu vực, chỉ cần gửi văn bản phân công của thủ trưởng đơn vị giao dịch cho cấp phó phụ trách khu vực.\na) Giấy đăng ký sử dụng tài khoản và mẫu dấu, mẫu chữ ký.\nĐối với cá nhân: 01 bản sao điện tử Giấy đăng ký sử dụng tài khoản và mẫu dấu, mẫu chữ ký;  Đối với đơn vị giao dịch: số lượng mỗi thành phần hồ sơ quy định tại mục Thành phần hồ sơ thủ tục này là 01 bản được ký số theo quy định của pháp luật.\nb) Văn bản thành lập đơn vị giao dịch hoặc văn bản quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của đơn vị giao dịch do cơ quan có thẩm quyền ban hành theo quy định của pháp luật; văn bản phê duyệt dự án hoặc giao quản lý dự án, giao nhiệm vụ chủ đầu tư đối với Ban Quản lý dự án; Giấy chứng nhận đăng ký kinh doanh đối với doanh nghiệp tư nhân (trường hợp đơn vị giao dịch đăng ký sử dụng tài khoản lần đầu hoặc khi có sự thay đổi về thành phần hồ sơ này), trừ các cơ quan của Đảng Cộng sản Việt Nam, Văn phòng Chủ tịch nước, Văn phòng Quốc hội, Văn phòng Chính phủ, các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban Mặt trận Tổ quốc Việt Nam, các tổ chức chính trị - xã hội các cấp, Văn phòng Ủy ban nhân dân cấp tỉnh, Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp xã, các đơn vị thuộc khối Quốc phòng, An ninh.\nd) Văn bản bổ nhiệm Kế toán trưởng/phụ trách kế toán của cấp có thẩm quyền hoặc hợp đồng/văn bản giao nhiệm vụ Kế toán trưởng/phụ trách kế toán hoặc văn bản phân công người phụ trách kế toán hoặc văn bản giao nhiệm vụ/phân công ký chức danh Kế toán trưởng trên chứng từ kế toán giao dịch với Kho bạc Nhà nước của đơn vị giao dịch (trường hợp đơn vị giao dịch đăng ký sử dụng tài khoản lần đầu; bổ sung tài khoản mà người ký chức danh Kế toán trưởng thay đổi so với thông tin trên hồ sơ đăng ký sử dụng tài khoản còn hiệu lực tại Kho bạc Nhà nước; thay đổi Kế toán trưởng/phụ trách kế toán hoặc ban hành mới văn bản giao nhiệm vụ Kế toán trưởng, văn bản phân công người phụ trách kế toán, văn bản giao nhiệm vụ/phân công ký chức danh Kế toán trưởng trên chứng từ kế toán giao dịch với Kho bạc Nhà nước), trừ cơ quan thu ngân sách và các đơn vị thuộc khối Quốc phòng, An ninh không có Kế toán trưởng/phụ trách kế toán.",
+    "TRÌNH TỰ THỰC HIỆN": "a) Cá nhân, đơn vị giao dịch thuộc đối tượng mở tài khoản tại Kho bạc Nhà nước gửi hồ sơ theo quy định tại Thành phần, số lượng hồ sơ thủ tục này đến Kho bạc Nhà nước.\nb) Kho bạc Nhà nước kiểm tra tính hợp lệ của hồ sơ theo quy định tại khoản 4 Điều 3 Nghị định số 347/2025/NĐ-CP ngày 29 tháng 12 năm 2025 của Chính phủ quy định về thủ tục hành chính thuộc lĩnh vực Kho bạc Nhà nước.\nc) Sau khi phê duyệt hồ sơ của cá nhân, đơn vị giao dịch, Kho bạc Nhà nước gửi cá nhân, đơn vị giao dịch 01 bản Giấy đăng ký sử dụng tài khoản và mẫu dấu, mẫu chữ ký có xác nhận của Kho bạc Nhà nước và có số tài khoản của cá nhân, đơn vị giao dịch theo quy định của Bộ Tài chính.",
+    "THÀNH PHẦN HỒ SƠ": "Trường hợp hồ sơ không được gửi trên môi trường điện tử:: Số lượng Giấy đăng ký sử dụng tài khoản và mẫu dấu, mẫu chữ ký là 02 bản gốc; số lượng mỗi thành phần hồ sơ quy định tại điểm b, c, d mục Thành phần hồ sơ thủ tục này là 01 bản (bản chính hoặc bản sao y).\nTrường hợp hồ sơ được gửi trên môi trường điện tử:: c) Văn bản bổ nhiệm chức vụ của chủ tài khoản hoặc văn bản công nhận người đứng đầu đơn vị giao dịch (trường hợp đơn vị giao dịch đăng ký sử dụng tài khoản lần đầu; đăng ký bổ sung tài khoản mà chủ tài khoản thay đổi so với thông tin trên hồ sơ đăng ký sử dụng tài khoản còn hiệu lực tại Kho bạc Nhà nước; thay đổi chủ tài khoản; có văn bản bổ nhiệm lại chức vụ của chủ tài khoản hoặc ban hành mới văn bản công nhận người đứng đầu đơn vị giao dịch), trừ Văn phòng Ủy ban nhân dân cấp tỉnh, Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp xã, các đơn vị thuộc khối Quốc phòng, An ninh.  Trường hợp thủ trưởng đơn vị giao dịch ủy quyền hoặc phân công nhiệm vụ cho cấp phó/cấp dưới làm chủ tài khoản thì chỉ cần gửi văn bản bổ nhiệm chức vụ của cấp phó và văn bản ủy quyền hoặc phân công nhiệm vụ của thủ trưởng đơn vị cho cấp phó/cấp dưới. Trường hợp thủ trưởng đơn vị giao dịch phân công cho cấp phó phụ trách theo từng khu vực đối với các đơn vị có đặc thù riêng về cơ cấu tổ chức, chức năng, nhiệm vụ, quyền hạn, được pháp luật cho phép đặt trụ sở văn phòng đại diện tại các khu vực (có con dấu riêng, chịu trách nhiệm quyết toán kinh phí ngân sách như một đơn vị độc lập) thì khi đăng ký sử dụng tài khoản cho văn phòng đại diện tại khu vực, chỉ cần gửi văn bản phân công của thủ trưởng đơn vị giao dịch cho cấp phó phụ trách khu vực.\nTrường hợp hồ sơ được gửi trên môi trường điện tử:: a) Giấy đăng ký sử dụng tài khoản và mẫu dấu, mẫu chữ ký.\nTrường hợp hồ sơ được gửi trên môi trường điện tử:: Đối với cá nhân: 01 bản sao điện tử Giấy đăng ký sử dụng tài khoản và mẫu dấu, mẫu chữ ký;  Đối với đơn vị giao dịch: số lượng mỗi thành phần hồ sơ quy định tại mục Thành phần hồ sơ thủ tục này là 01 bản được ký số theo quy định của pháp luật.\nTrường hợp hồ sơ được gửi trên môi trường điện tử:: b) Văn bản thành lập đơn vị giao dịch hoặc văn bản quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của đơn vị giao dịch do cơ quan có thẩm quyền ban hành theo quy định của pháp luật; văn bản phê duyệt dự án hoặc giao quản lý dự án, giao nhiệm vụ chủ đầu tư đối với Ban Quản lý dự án; Giấy chứng nhận đăng ký kinh doanh đối với doanh nghiệp tư nhân (trường hợp đơn vị giao dịch đăng ký sử dụng tài khoản lần đầu hoặc khi có sự thay đổi về thành phần hồ sơ này), trừ các cơ quan của Đảng Cộng sản Việt Nam, Văn phòng Chủ tịch nước, Văn phòng Quốc hội, Văn phòng Chính phủ, các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban Mặt trận Tổ quốc Việt Nam, các tổ chức chính trị - xã hội các cấp, Văn phòng Ủy ban nhân dân cấp tỉnh, Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp xã, các đơn vị thuộc khối Quốc phòng, An ninh.\nTrường hợp hồ sơ được gửi trên môi trường điện tử:: d) Văn bản bổ nhiệm Kế toán trưởng/phụ trách kế toán của cấp có thẩm quyền hoặc hợp đồng/văn bản giao nhiệm vụ Kế toán trưởng/phụ trách kế toán hoặc văn bản phân công người phụ trách kế toán hoặc văn bản giao nhiệm vụ/phân công ký chức danh Kế toán trưởng trên chứng từ kế toán giao dịch với Kho bạc Nhà nước của đơn vị giao dịch (trường hợp đơn vị giao dịch đăng ký sử dụng tài khoản lần đầu; bổ sung tài khoản mà người ký chức danh Kế toán trưởng thay đổi so với thông tin trên hồ sơ đăng ký sử dụng tài khoản còn hiệu lực tại Kho bạc Nhà nước; thay đổi Kế toán trưởng/phụ trách kế toán hoặc ban hành mới văn bản giao nhiệm vụ Kế toán trưởng, văn bản phân công người phụ trách kế toán, văn bản giao nhiệm vụ/phân công ký chức danh Kế toán trưởng trên chứng từ kế toán giao dịch với Kho bạc Nhà nước), trừ cơ quan thu ngân sách và các đơn vị thuộc khối Quốc phòng, An ninh không có Kế toán trưởng/phụ trách kế toán.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 1 ngày làm việc\nQua dịch vụ bưu chính: 1 ngày làm việc\nTrực tiếp: 1 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 347/2025/NĐ-CP của Chính phủ: Quy định về thủ tục hành chính thuộc lĩnh vực Kho bạc Nhà nước - 347/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Kho bạc nhà nước các cấp",
@@ -230,11 +165,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Kho bạc Nhà nước",
       "slug": "kho-bac-nha-nuoc"
@@ -269,6 +199,6 @@
         "slug": "kho-bac-nha-nuoc-cac-cap"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

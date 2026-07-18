@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-8918-7067-98bd-80a3c15c6774",
   "procedure_code": "1.013131",
   "title": "Thủ tục thẩm định, công nhận hồ sơ thiết kế xe cơ giới sản xuất, lắp ráp trong nước theo hồ sơ thiết kế đã được Cục Đăng kiểm Việt Nam thẩm định, phê duyệt",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-8918-7067-98bd-80a3c15c6774",
     "source_file": "chi-tiet-thu-tuc-1.013131.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.013131/chi-tiet-thu-tuc-1.013131.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:09.313108+00:00",
-    "source_updated_at": "2026-04-15T08:30:58.822Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:54.572021+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "517c82be5ae33aa6a9a18da0269455c5d2f931a7620955ff028856cb016bc585"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:09.313108+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "6376/QĐ-BQP",
   "implementation_level": "Cấp bộ, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Xe - máy quân sự",
   "target_users": [
@@ -37,18 +32,29 @@
   ],
   "agency": {
     "competent_agency": "Cục Trưởng Cục Xe máy-Vận tải/Tổng cục Hậu cần-Kỹ thuật",
-    "executing_agency": "Cục Xe máy-Vận tải/Tổng cục Hậu cần-Kỹ thuật",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Xe máy-Vận tải/Tổng cục Hậu cần-Kỹ thuật"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng lập 01 bộ hồ sơ đề nghị thẩm định, công nhận hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới nộp về Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật. Trường hợp hồ sơ chưa hợp lệ, trong thời hạn 03 ngày làm việc, Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật thông báo bằng văn bản đến cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng để bổ sung hồ sơ.\nBước 2: Cục trưởng Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật quyết định thành lập Hội đồng thẩm định hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới (Hội đồng thẩm định). Hội đồng thẩm định tổ chức kiểm tra, đối chiếu các nội dung hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới với cấu hình, tính năng chiến - kỹ thuật cơ bản của xe cơ giới được Tổng Tham mưu trưởng Quân đội nhân dân Việt Nam phê duyệt, thông qua biên bản thẩm định.\nBước 3: Trường hợp hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới đạt yêu cầu, Hội đồng thẩm định tiến hành trình Cục trưởng Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật quyết định công nhận hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới và trả kết quả gửi 01 bản cho cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng. Trường hợp hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới chưa đạt yêu cầu, Hội đồng thẩm định thông báo đến cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng kết quả thẩm định và trả hồ sơ.\n",
+      "description": "Bước 1: Cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng lập 01 bộ hồ sơ đề nghị thẩm định, công nhận hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới nộp về Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật. Trường hợp hồ sơ chưa hợp lệ, trong thời hạn 03 ngày làm việc, Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật thông báo bằng văn bản đến cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng để bổ sung hồ sơ.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Cục trưởng Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật quyết định thành lập Hội đồng thẩm định hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới (Hội đồng thẩm định). Hội đồng thẩm định tổ chức kiểm tra, đối chiếu các nội dung hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới với cấu hình, tính năng chiến - kỹ thuật cơ bản của xe cơ giới được Tổng Tham mưu trưởng Quân đội nhân dân Việt Nam phê duyệt, thông qua biên bản thẩm định.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Trường hợp hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới đạt yêu cầu, Hội đồng thẩm định tiến hành trình Cục trưởng Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật quyết định công nhận hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới và trả kết quả gửi 01 bản cho cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng. Trường hợp hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới chưa đạt yêu cầu, Hội đồng thẩm định thông báo đến cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng kết quả thẩm định và trả hồ sơ.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
@@ -57,39 +63,27 @@
     "conditional": [
       {
         "name": "Công văn đề nghị thẩm định, công nhận hồ sơ thiết kế của cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng.",
-        "code": "X01.01.001-TP0007",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Bản sao hồ sơ thiết kế đã được phê duyệt.",
-        "code": "X01.01.001-TP0008",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Bản sao các quyết định phê duyệt kế hoạch, đề án, dự án, nhiệm vụ hoặc các tài liệu khác có liên quan",
-        "code": "X01.01.001-TP0009",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Bản sao quyết định của Tổng Tham mưu trưởng Quân đội nhân dân Việt Nam phê duyệt cấu hình, tính năng chiến - kỹ thuật cơ bản của xe cơ giới",
-        "code": "X01.01.001-TP0010",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -98,35 +92,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "7 ngày",
-      "processing_time_value": 7,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "7 ngày",
-      "processing_time_value": 7,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -134,51 +108,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "7 ngày",
-      "processing_time_value": 7,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -186,14 +145,12 @@
     {
       "title": "Thông tư số 67/2024/TT-BQP của Bộ Quốc phòng: Quy định trình tự, thủ tục chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nhập khẩu, sản xuất, lắp ráp thuộc phạm vi quản lý của Bộ Quốc phòng",
       "document_number": "Thông tư số 67/2024/TT-BQP",
-      "id": "019d2bb3-5d7e-72d1-afe4-dba24a300d50",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư số 130/2025/TT-BQP ngày 25/11/2025 của Bộ trưởng Bộ Quốc phòng sửa đổi, bổ sung một số điều của Thông tư số 67/2024/TT-BQP ngày 14/10/2024 của Bộ trưởng BQP quy định về trình tự, thủ tục chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nhập khẩu, sản xuất, lắp rắp thuộc phạm vi quản lý của BQP.",
       "document_number": "130/2025/TT-BQP",
-      "id": "019d2bb3-5d86-7760-a63f-2f0722a3129f",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -201,13 +158,12 @@
     {
       "title": "Quyết định của Cục trưởng Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật phê duyệt hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới cho cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng có nhu cầu đề nghị",
       "code": "X01.01.001-KQ0007",
-      "id": "019d76be-905a-7094-9903-12d7d913fb47",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng lập 01 bộ hồ sơ đề nghị thẩm định, công nhận hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới nộp về Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật. Trường hợp hồ sơ chưa hợp lệ, trong thời hạn 03 ngày làm việc, Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật thông báo bằng văn bản đến cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng để bổ sung hồ sơ.\nBước 2: Cục trưởng Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật quyết định thành lập Hội đồng thẩm định hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới (Hội đồng thẩm định). Hội đồng thẩm định tổ chức kiểm tra, đối chiếu các nội dung hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới với cấu hình, tính năng chiến - kỹ thuật cơ bản của xe cơ giới được Tổng Tham mưu trưởng Quân đội nhân dân Việt Nam phê duyệt, thông qua biên bản thẩm định.\nBước 3: Trường hợp hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới đạt yêu cầu, Hội đồng thẩm định tiến hành trình Cục trưởng Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật quyết định công nhận hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới và trả kết quả gửi 01 bản cho cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng. Trường hợp hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới chưa đạt yêu cầu, Hội đồng thẩm định thông báo đến cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng kết quả thẩm định và trả hồ sơ.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nCông văn đề nghị thẩm định, công nhận hồ sơ thiết kế của cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng.\nBản sao hồ sơ thiết kế đã được phê duyệt.\nBản sao các quyết định phê duyệt kế hoạch, đề án, dự án, nhiệm vụ hoặc các tài liệu khác có liên quan\nBản sao quyết định của Tổng Tham mưu trưởng Quân đội nhân dân Việt Nam phê duyệt cấu hình, tính năng chiến - kỹ thuật cơ bản của xe cơ giới",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng lập 01 bộ hồ sơ đề nghị thẩm định, công nhận hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới nộp về Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật. Trường hợp hồ sơ chưa hợp lệ, trong thời hạn 03 ngày làm việc, Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật thông báo bằng văn bản đến cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng để bổ sung hồ sơ.\nBước 2: Cục trưởng Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật quyết định thành lập Hội đồng thẩm định hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới (Hội đồng thẩm định). Hội đồng thẩm định tổ chức kiểm tra, đối chiếu các nội dung hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới với cấu hình, tính năng chiến - kỹ thuật cơ bản của xe cơ giới được Tổng Tham mưu trưởng Quân đội nhân dân Việt Nam phê duyệt, thông qua biên bản thẩm định.\nBước 3: Trường hợp hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới đạt yêu cầu, Hội đồng thẩm định tiến hành trình Cục trưởng Cục Xe máy - Vận tải/Tổng cục Hậu cần - Kỹ thuật quyết định công nhận hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới và trả kết quả gửi 01 bản cho cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng. Trường hợp hồ sơ thiết kế sản xuất, lắp ráp xe cơ giới chưa đạt yêu cầu, Hội đồng thẩm định thông báo đến cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng kết quả thẩm định và trả hồ sơ.",
+    "THÀNH PHẦN HỒ SƠ": "Công văn đề nghị thẩm định, công nhận hồ sơ thiết kế của cơ sở sản xuất, lắp ráp hoặc đơn vị đặt hàng.\nBản sao hồ sơ thiết kế đã được phê duyệt.\nBản sao các quyết định phê duyệt kế hoạch, đề án, dự án, nhiệm vụ hoặc các tài liệu khác có liên quan\nBản sao quyết định của Tổng Tham mưu trưởng Quân đội nhân dân Việt Nam phê duyệt cấu hình, tính năng chiến - kỹ thuật cơ bản của xe cơ giới",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 7 ngày\nQua dịch vụ bưu chính: 7 ngày\nTrực tiếp: 7 ngày",
     "CĂN CỨ PHÁP LÝ": "Thông tư số 67/2024/TT-BQP của Bộ Quốc phòng: Quy định trình tự, thủ tục chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nhập khẩu, sản xuất, lắp ráp thuộc phạm vi quản lý của Bộ Quốc phòng - Thông tư số 67/2024/TT-BQP\nThông tư số 130/2025/TT-BQP ngày 25/11/2025 của Bộ trưởng Bộ Quốc phòng sửa đổi, bổ sung một số điều của Thông tư số 67/2024/TT-BQP ngày 14/10/2024 của Bộ trưởng BQP quy định về trình tự, thủ tục chứng nhận chất lượng an toàn kỹ thuật và bảo vệ môi trường xe cơ giới nhập khẩu, sản xuất, lắp rắp thuộc phạm vi quản lý của BQP. - 130/2025/TT-BQP",
     "CƠ QUAN THỰC HIỆN": "Cục Xe máy-Vận tải/Tổng cục Hậu cần-Kỹ thuật",
@@ -217,11 +173,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Xe - máy quân sự",
       "slug": "xe-may-quan-su"
@@ -252,6 +203,6 @@
         "slug": "cuc-xe-may-van-tai-tong-cuc-hau-can-ky-thuat"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

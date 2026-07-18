@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bff-8370-76ef-bbb0-17a34c05f523",
   "procedure_code": "1.000212",
   "title": "Thủ tục đề nghị chấp thuận thời hạn cụ thể của trái phiếu đặc biệt do Công ty Quản lý tài sản phát hành trên 5 năm",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-8370-76ef-bbb0-17a34c05f523",
     "source_file": "chi-tiet-thu-tuc-1.000212.pdf",
     "source_path": "procedures/viec-lam/1.000212/chi-tiet-thu-tuc-1.000212.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:21:58.138788+00:00",
-    "source_updated_at": "2026-04-14T09:15:32.916Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:43.855776+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "cf67b2fb2fcbed432b8438669b30277debd9302e2267de0c54a1d30402238bd4"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:58.138788+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2349/QĐ-NHNN",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thành lập và hoạt động ngân hàng",
   "target_users": [
@@ -35,16 +31,13 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ngân hàng Nhà nước Việt Nam",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Bộ phận Một cửa Ngân hàng Nhà nước, 49 Lý Thái Tổ, Hoàn Kiếm, Hà Nội"
+    "executing_agency": "Ngân hàng Nhà nước Việt Nam"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Tổ chức tín dụng Việt Nam đang thực hiện phương án cơ cấu lại theo đề án, phương án đã được cấp có thẩm quyền phê duyệt hoặc gặp khó khăn về tài chính, khi bán nợ xấu cho Công ty Quản lý tài sản lập hồ sơ theo quy định gửi Ngân hàng Nhà nước.\nBước 2: Trong thời hạn 15 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ hợp lệ của tổ chức tín dụng Việt Nam, Ngân hàng Nhà nước xem xét, có văn bản gửi tổ chức tín dụng Việt Nam, Công ty quản lý tài sản về thời hạn cụ thể trái phiếu đặc biệt trên cơ sở đề nghị của tổ chức tín dụng.\n",
+      "description": "Bước 1: Tổ chức tín dụng Việt Nam đang thực hiện phương án cơ cấu lại theo đề án, phương án đã được cấp có thẩm quyền phê duyệt hoặc gặp khó khăn về tài chính, khi bán nợ xấu cho Công ty Quản lý tài sản lập hồ sơ theo quy định gửi Ngân hàng Nhà nước.\nBước 2: Trong thời hạn 15 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ hợp lệ của tổ chức tín dụng Việt Nam, Ngân hàng Nhà nước xem xét, có văn bản gửi tổ chức tín dụng Việt Nam, Công ty quản lý tài sản về thời hạn cụ thể trái phiếu đặc biệt trên cơ sở đề nghị của tổ chức tín dụng.",
       "example": null,
       "source_page": null
     }
@@ -55,74 +48,50 @@
     "conditional": [
       {
         "name": "(iii) Kế hoạch trích lập dự phòng đối với trái phiếu đặc biệt theo thời hạn đề xuất phù hợp với kế hoạch kinh doanh của tổ chức tín dụng Việt Nam.",
-        "code": "G19-KQ004704",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
+        "attachment": null,
         "source_page": null
       },
       {
         "name": "(ii) Số nợ xấu đã bán và dự kiến bán cho Công ty Quản lý tài sản, dự phòng rủi ro đã trích lập đối với trái phiếu đặc biệt và dự phòng rủi ro dự kiến sẽ trích lập đối với trái phiếu đặc biệt và dự phòng rủi ro dự kiến sẽ trích lập đối với trái phiếu đặc biệt tương ứng số nợ xấu dự kiến bán;",
-        "code": "G19-KQ004703",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Báo cáo giải trình của tổ chức tín dụng Việt Nam về thời hạn trái phiếu đặc biệt bao gồm các nội dung sau:",
-        "code": "G19-KQ004701",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
+        "attachment": null,
         "source_page": null
       },
       {
         "name": "(vi) Nội dung khác theo yêu cầu của Ngân hàng Nhà nước.",
-        "code": "G19-KQ004707",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
+        "attachment": null,
         "source_page": null
       },
       {
         "name": "+ Văn bản đề nghị thời hạn cụ thể trái phiếu đặc biệt khi bán nợ xấu cho Công ty Quản lý tài sản;",
-        "code": "G19-KQ004700",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
+        "attachment": null,
         "source_page": null
       },
       {
         "name": "(iv) Lý do, sự cần thiết đề xuất thời hạn cụ thể trái phiếu đặc biệt;",
-        "code": "G19-KQ004705",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
+        "attachment": null,
         "source_page": null
       },
       {
         "name": "(i) Thực trạng tài chính, hoạt động và các giới hạn, tỷ lệ an toàn hoạt động của tổ chức tín dụng Việt Nam;",
-        "code": "G19-KQ004702",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
+        "attachment": null,
         "source_page": null
       },
       {
         "name": "(v) Tác động của việc bán nợ xấu cho Công ty quản lý tài sản nhận trái phiếu đặc biệt đến chi phí dự phòng rủi ro, tình hình tài chính, các tỷ lệ, giới hạn an toàn hoạt động của tổ chức tín dụng Việt Nam trong trường hợp áp dụng thời hạn là 05 năm của trái phiếu đặc biệt và trường hợp áp dụng thời hạn cụ thể của trái phiếu đặc biệt theo đề nghị;",
-        "code": "G19-KQ004706",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
+        "attachment": null,
         "source_page": null
       }
     ]
@@ -132,17 +101,7 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -150,42 +109,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -193,32 +139,27 @@
     {
       "title": "Thông tư sửa đổi, bổ sung một số Điều của Thông tư số 19/2013/TT-NHNN ngày 06 tháng 9 năm 2013 của Thống đốc Ngân hàng Nhà nước Việt Nam quy định về việc mua, bán và xử lý nợ xấu của Công ty Quản lý tài sản của các tổ chức tín dụng Việt Nam",
       "document_number": "03/2024/TT-NHNN",
-      "id": "019d2bb3-5d80-7608-8ccd-c5d2cef1e6aa",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư 19/2013/TT-NHNN",
       "document_number": "19/2013/TT-NHNN",
-      "id": "019d2bb3-5d80-7608-8ccd-40bcb34f6f1e",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 34/2015/NĐ-CP",
       "document_number": "34/2015/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46c-d694689c9618",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 53/2013/NĐ-CP",
       "document_number": "53/2013/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46e-ced9f2512160",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư 14/2015/TT-NHNN",
       "document_number": "14/2015/TT-NHNN",
-      "id": "019d2bb3-5d80-7608-8cce-20e085d11ae1",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Tổ chức tín dụng Việt Nam đang thực hiện phương án cơ cấu lại theo đề án, phương án đã được cấp có thẩm quyền phê duyệt hoặc gặp khó khăn về tài chính.",
@@ -226,13 +167,12 @@
     {
       "title": "Văn bản của Ngân hàng Nhà nước Việt Nam về thời hạn cụ thể trái phiếu đặc biệt trên cơ sở đề nghị của tổ chức tín dụng",
       "code": "KQ.G19.000142",
-      "id": "019d2bb2-1c7c-74ea-bcd3-cb1b5d8dadb8",
       "source_page": null
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Tổ chức tín dụng Việt Nam đang thực hiện phương án cơ cấu lại theo đề án, phương án đã được cấp có thẩm quyền phê duyệt hoặc gặp khó khăn về tài chính, khi bán nợ xấu cho Công ty Quản lý tài sản lập hồ sơ theo quy định gửi Ngân hàng Nhà nước.\nBước 2: Trong thời hạn 15 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ hợp lệ của tổ chức tín dụng Việt Nam, Ngân hàng Nhà nước xem xét, có văn bản gửi tổ chức tín dụng Việt Nam, Công ty quản lý tài sản về thời hạn cụ thể trái phiếu đặc biệt trên cơ sở đề nghị của tổ chức tín dụng.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n(iii) Kế hoạch trích lập dự phòng đối với trái phiếu đặc biệt theo thời hạn đề xuất phù hợp với kế hoạch kinh doanh của tổ chức tín dụng Việt Nam.\n(ii) Số nợ xấu đã bán và dự kiến bán cho Công ty Quản lý tài sản, dự phòng rủi ro đã trích lập đối với trái phiếu đặc biệt và dự phòng rủi ro dự kiến sẽ trích lập đối với trái phiếu đặc biệt và dự phòng rủi ro dự kiến sẽ trích lập đối với trái phiếu đặc biệt tương ứng số nợ xấu dự kiến bán;\n+ Báo cáo giải trình của tổ chức tín dụng Việt Nam về thời hạn trái phiếu đặc biệt bao gồm các nội dung sau:\n(vi) Nội dung khác theo yêu cầu của Ngân hàng Nhà nước.\n+ Văn bản đề nghị thời hạn cụ thể trái phiếu đặc biệt khi bán nợ xấu cho Công ty Quản lý tài sản;\n(iv) Lý do, sự cần thiết đề xuất thời hạn cụ thể trái phiếu đặc biệt;\n(i) Thực trạng tài chính, hoạt động và các giới hạn, tỷ lệ an toàn hoạt động của tổ chức tín dụng Việt Nam;\n(v) Tác động của việc bán nợ xấu cho Công ty quản lý tài sản nhận trái phiếu đặc biệt đến chi phí dự phòng rủi ro, tình hình tài chính, các tỷ lệ, giới hạn an toàn hoạt động của tổ chức tín dụng Việt Nam trong trường hợp áp dụng thời hạn là 05 năm của trái phiếu đặc biệt và trường hợp áp dụng thời hạn cụ thể của trái phiếu đặc biệt theo đề nghị;",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Tổ chức tín dụng Việt Nam đang thực hiện phương án cơ cấu lại theo đề án, phương án đã được cấp có thẩm quyền phê duyệt hoặc gặp khó khăn về tài chính, khi bán nợ xấu cho Công ty Quản lý tài sản lập hồ sơ theo quy định gửi Ngân hàng Nhà nước.\nBước 2: Trong thời hạn 15 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ hợp lệ của tổ chức tín dụng Việt Nam, Ngân hàng Nhà nước xem xét, có văn bản gửi tổ chức tín dụng Việt Nam, Công ty quản lý tài sản về thời hạn cụ thể trái phiếu đặc biệt trên cơ sở đề nghị của tổ chức tín dụng.",
+    "THÀNH PHẦN HỒ SƠ": "(iii) Kế hoạch trích lập dự phòng đối với trái phiếu đặc biệt theo thời hạn đề xuất phù hợp với kế hoạch kinh doanh của tổ chức tín dụng Việt Nam.\n(ii) Số nợ xấu đã bán và dự kiến bán cho Công ty Quản lý tài sản, dự phòng rủi ro đã trích lập đối với trái phiếu đặc biệt và dự phòng rủi ro dự kiến sẽ trích lập đối với trái phiếu đặc biệt và dự phòng rủi ro dự kiến sẽ trích lập đối với trái phiếu đặc biệt tương ứng số nợ xấu dự kiến bán;\n+ Báo cáo giải trình của tổ chức tín dụng Việt Nam về thời hạn trái phiếu đặc biệt bao gồm các nội dung sau:\n(vi) Nội dung khác theo yêu cầu của Ngân hàng Nhà nước.\n+ Văn bản đề nghị thời hạn cụ thể trái phiếu đặc biệt khi bán nợ xấu cho Công ty Quản lý tài sản;\n(iv) Lý do, sự cần thiết đề xuất thời hạn cụ thể trái phiếu đặc biệt;\n(i) Thực trạng tài chính, hoạt động và các giới hạn, tỷ lệ an toàn hoạt động của tổ chức tín dụng Việt Nam;\n(v) Tác động của việc bán nợ xấu cho Công ty quản lý tài sản nhận trái phiếu đặc biệt đến chi phí dự phòng rủi ro, tình hình tài chính, các tỷ lệ, giới hạn an toàn hoạt động của tổ chức tín dụng Việt Nam trong trường hợp áp dụng thời hạn là 05 năm của trái phiếu đặc biệt và trường hợp áp dụng thời hạn cụ thể của trái phiếu đặc biệt theo đề nghị;",
     "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 15 ngày làm việc\nTrực tiếp: 15 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Thông tư sửa đổi, bổ sung một số Điều của Thông tư số 19/2013/TT-NHNN ngày 06 tháng 9 năm 2013 của Thống đốc Ngân hàng Nhà nước Việt Nam quy định về việc mua, bán và xử lý nợ xấu của Công ty Quản lý tài sản của các tổ chức tín dụng Việt Nam - 03/2024/TT-NHNN\nThông tư 19/2013/TT-NHNN - 19/2013/TT-NHNN\nNghị định 34/2015/NĐ-CP - 34/2015/NĐ-CP\nNghị định 53/2013/NĐ-CP - 53/2013/NĐ-CP\nThông tư 14/2015/TT-NHNN - 14/2015/TT-NHNN",
     "CƠ QUAN THỰC HIỆN": "Ngân hàng Nhà nước Việt Nam",
@@ -242,14 +182,9 @@
     "MÔ TẢ": "Tổ chức tín dụng Việt Nam đang thực hiện phương án cơ cấu lại theo đề án, phương án đã được cấp có thẩm quyền phê duyệt hoặc gặp khó khăn về tài chính."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thành lập và hoạt động ngân hàng",
-      "slug": "thanh-lap-va-hoat-dong-ngan-hang"
+      "slug": "thanh-lap-va-hoat-ong-ngan-hang"
     },
     "implementation_levels": [
       {
@@ -269,6 +204,6 @@
         "slug": "ngan-hang-nha-nuoc-viet-nam"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

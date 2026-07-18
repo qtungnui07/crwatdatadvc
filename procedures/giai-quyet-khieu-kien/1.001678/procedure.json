@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf9-f197-761b-a693-77ae124675e4",
   "procedure_code": "1.001678",
   "title": "Thủ tục công chứng tính xác thực, tính hợp pháp của hợp đồng, giao dịch",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf9-f197-761b-a693-77ae124675e4",
     "source_file": "chi-tiet-thu-tuc-1.001678.pdf",
     "source_path": "procedures/giai-quyet-khieu-kien/1.001678/chi-tiet-thu-tuc-1.001678.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:21:59.700053+00:00",
-    "source_updated_at": "2026-04-15T17:26:19.163Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:01.200330+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "525e463c718e42570c7246c37fd72ccc5edaa5c7f173c82f91de5822bac0fb13"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:59.700053+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1061/QĐ-BNG",
   "implementation_level": "Cơ quan khác",
-  "implementation_levels": [
-    "Cơ quan khác"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Công chứng, chứng thực",
   "target_users": [
@@ -39,18 +35,15 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cơ quan đại diện Việt Nam ở nước ngoài",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cơ quan đại diện Việt Nam ở nước ngoài"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Nộp hồ sơ tại trụ sở Cơ quan đại diện ngoại giao, cơ quan lãnh sự hoặc cơ quan khác được ủy quyền thực hiện chức năng lãnh sự của Việt Nam ở nước ngoài (Cơ quan đại diện).\n- Khi tiếp nhận hồ sơ, Cơ quan đại diện cấp giấy biên nhận cho Người yêu cầu chứng nhận giấy tờ, trong đó ghi rõ địa điểm, thời gian tiếp nhận hồ sơ, giấy tờ kèm theo và thời gian trả lời kết quả.\n Cơ quan đại diện tiếp nhận hồ sơ, xem xét giải quyết. Nếu giấy tờ hợp lệ, Cơ quan đại diện thực hiện công chứng trên giấy tờ.\n Nhận kết quả trực tiếp tại trụ sở cơ quan theo giấy biên nhận hồ sơ hoặc hồ sơ được gửi trả qua đường bưu điện cho đương sự.\n",
+      "description": "Nộp hồ sơ tại trụ sở Cơ quan đại diện ngoại giao, cơ quan lãnh sự hoặc cơ quan khác được ủy quyền thực hiện chức năng lãnh sự của Việt Nam ở nước ngoài (Cơ quan đại diện).\n- Khi tiếp nhận hồ sơ, Cơ quan đại diện cấp giấy biên nhận cho Người yêu cầu chứng nhận giấy tờ, trong đó ghi rõ địa điểm, thời gian tiếp nhận hồ sơ, giấy tờ kèm theo và thời gian trả lời kết quả.\n Cơ quan đại diện tiếp nhận hồ sơ, xem xét giải quyết. Nếu giấy tờ hợp lệ, Cơ quan đại diện thực hiện công chứng trên giấy tờ.\n Nhận kết quả trực tiếp tại trụ sở cơ quan theo giấy biên nhận hồ sơ hoặc hồ sơ được gửi trả qua đường bưu điện cho đương sự.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -58,85 +51,58 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "Thành phần hồ sơ 3: Bản sao giấy chứng nhận quyền sở hữu, quyền sử dụng hoặc bản sao giấy tờ thay thế được pháp luật quy định đối với tài sản mà pháp luật quy định phải đăng ký quyền sở hữu, quyền sử dụng, trong trường hợp hợp đồng, giao dịch liên quan đến tài sản đó",
-        "code": "000.00.00.G08-KQ0251",
+        "name": "Công chứng hợp đồng, giao dịch soạn thảo theo đề nghị của người yêu cầu công chứng (1 bộ): Thành phần hồ sơ 3: Bản sao giấy chứng nhận quyền sở hữu, quyền sử dụng hoặc bản sao giấy tờ thay thế được pháp luật quy định đối với tài sản mà pháp luật quy định phải đăng ký quyền sở hữu, quyền sử dụng, trong trường hợp hợp đồng, giao dịch liên quan đến tài sản đó",
         "quantity": null,
-        "required": false,
-        "case": "Công chứng hợp đồng, giao dịch soạn thảo theo đề nghị của người yêu cầu công chứng (1 bộ)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Thành phần hồ sơ 1: Phiếu yêu cầu công chứng hợp đồng. giao dịch theo mẫu",
-        "code": "000.00.00.G08-KQ0249",
+        "name": "Công chứng hợp đồng, giao dịch soạn thảo theo đề nghị của người yêu cầu công chứng (1 bộ): Thành phần hồ sơ 1: Phiếu yêu cầu công chứng hợp đồng. giao dịch theo mẫu",
         "quantity": null,
-        "required": false,
-        "case": "Công chứng hợp đồng, giao dịch soạn thảo theo đề nghị của người yêu cầu công chứng (1 bộ)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Thành phần hồ sơ 2:  Bản sao giấy tờ tùy thân (bản sao hộ chiếu hoặc giấy tờ có giá trị thay thế) của người yêu cầu công chứng, Giấy tờ chứng minh tư cách đại diện (nếu là người đại diện)",
-        "code": "000.00.00.G08-KQ0250",
+        "name": "Công chứng hợp đồng, giao dịch soạn thảo theo đề nghị của người yêu cầu công chứng (1 bộ): Thành phần hồ sơ 2:  Bản sao giấy tờ tùy thân (bản sao hộ chiếu hoặc giấy tờ có giá trị thay thế) của người yêu cầu công chứng, Giấy tờ chứng minh tư cách đại diện (nếu là người đại diện)",
         "quantity": null,
-        "required": false,
-        "case": "Công chứng hợp đồng, giao dịch soạn thảo theo đề nghị của người yêu cầu công chứng (1 bộ)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Thành phần hồ sơ 4: Bản sao giấy tờ khác có liên quan đến hợp đồng, giao dịch mà pháp luật quy định phải có",
-        "code": "000.00.00.G08-KQ0252",
+        "name": "Công chứng hợp đồng, giao dịch soạn thảo theo đề nghị của người yêu cầu công chứng (1 bộ): Thành phần hồ sơ 4: Bản sao giấy tờ khác có liên quan đến hợp đồng, giao dịch mà pháp luật quy định phải có",
         "quantity": null,
-        "required": false,
-        "case": "Công chứng hợp đồng, giao dịch soạn thảo theo đề nghị của người yêu cầu công chứng (1 bộ)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Thành phần hồ sơ 5: Bản sao giấy tờ khác có liên quan đến hợp đồng, giao dịch mà pháp luật quy định phải có",
-        "code": "000.00.00.G08-KQ0248",
+        "name": "Công chứng hợp đồng, giao dịch đã được soạn thảo sẵn (1 bộ): Thành phần hồ sơ 5: Bản sao giấy tờ khác có liên quan đến hợp đồng, giao dịch mà pháp luật quy định phải có",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Công chứng hợp đồng, giao dịch đã được soạn thảo sẵn (1 bộ)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Thành phần hồ sơ 1: Phiếu yêu cầu công chứng hợp đồng, giao dịch theo mẫu",
-        "code": "000.00.00.G08-KQ0244",
+        "name": "Công chứng hợp đồng, giao dịch đã được soạn thảo sẵn (1 bộ): Thành phần hồ sơ 1: Phiếu yêu cầu công chứng hợp đồng, giao dịch theo mẫu",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Công chứng hợp đồng, giao dịch đã được soạn thảo sẵn (1 bộ)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Thành phần hồ sơ 3: Bản sao giấy tờ tùy thân (bản sao hộ chiếu hoặc giấy tờ có giá trị thay thế) của người yêu cầu công chứng, Giấy tờ chứng minh tư cách đại diện (nếu là người đại diện)",
-        "code": "000.00.00.G08-KQ0246",
+        "name": "Công chứng hợp đồng, giao dịch đã được soạn thảo sẵn (1 bộ): Thành phần hồ sơ 3: Bản sao giấy tờ tùy thân (bản sao hộ chiếu hoặc giấy tờ có giá trị thay thế) của người yêu cầu công chứng, Giấy tờ chứng minh tư cách đại diện (nếu là người đại diện)",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Công chứng hợp đồng, giao dịch đã được soạn thảo sẵn (1 bộ)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Thành phần hồ sơ 4: Bản sao giấy chứng nhận quyền sở hữu, quyền sử dụng hoặc bản sao giấy tờ thay thế được pháp luật quy định đối với tài sản mà pháp luật quy định phải đăng ký quyền sở hữu, quyền sử dụng, trong trường hợp hợp đồng, giao dịch liên quan đến tài sản đó",
-        "code": "000.00.00.G08-KQ0247",
+        "name": "Công chứng hợp đồng, giao dịch đã được soạn thảo sẵn (1 bộ): Thành phần hồ sơ 4: Bản sao giấy chứng nhận quyền sở hữu, quyền sử dụng hoặc bản sao giấy tờ thay thế được pháp luật quy định đối với tài sản mà pháp luật quy định phải đăng ký quyền sở hữu, quyền sử dụng, trong trường hợp hợp đồng, giao dịch liên quan đến tài sản đó",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Công chứng hợp đồng, giao dịch đã được soạn thảo sẵn (1 bộ)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Thành phần hồ sơ 2: Dự thảo hợp đồng, giao dịch",
-        "code": "000.00.00.G08-KQ0245",
+        "name": "Công chứng hợp đồng, giao dịch đã được soạn thảo sẵn (1 bộ): Thành phần hồ sơ 2: Dự thảo hợp đồng, giao dịch",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Công chứng hợp đồng, giao dịch đã được soạn thảo sẵn (1 bộ)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -145,33 +111,22 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "2 ngày",
-      "processing_time_value": 2,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 50,
-          "currency": "019b3fb2-dee2-76ab-aa53-22d4d903a2bb",
-          "description": "Công chứng, chứng thực các hợp đồng, giao dịch",
-          "attachment": null
-        }
-      ],
+      "fee": "Công chứng, chứng thực các hợp đồng, giao dịch",
       "description": "Nộp hồ sơ trực tiếp tại cơ quan đại diện\nThời hạn công chứng được xác định kể từ ngày Cơ quan đại diện nhận đủ hồ sơ yêu cầu công chứng đến ngày trả kết quả công chứng. Thời gian xác minh, giám định nội dung liên quan đến hợp đồng, giao dịch, niêm yết việc thụ lý công chứng văn bản thỏa thuận phân chia di sản, văn bản khai nhận di sản, dịch giấy tờ, văn bản không tính vào thời hạn công chứng.\nThời hạn công chứng không quá 02 ngày làm việc; đối với hợp đồng, giao dịch yêu cầu công chứng có nội dung phức tạp thì thời hạn công chứng có thể kéo dài hơn nhưng không quá 10 ngày làm việc.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Công chứng, chứng thực các hợp đồng, giao dịch",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 50,
-        "currency": "019b3fb2-dee2-76ab-aa53-22d4d903a2bb",
-        "description": "Công chứng, chứng thực các hợp đồng, giao dịch",
-        "attachment": null
+        "amount_text": "Công chứng, chứng thực các hợp đồng, giao dịch",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -179,84 +134,69 @@
     {
       "title": "Luật 33/2009/QH12",
       "document_number": "33/2009/QH12",
-      "id": "019d2bb3-5d84-71c5-b672-b26617491ecd",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực ngoại giao áp dụng tại các Cơ quan đại diện Việt Nam ở nước ngoài",
       "document_number": "264/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be47-dcd0b7b78f14",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư 06/2015/TT-BTP - Quy định chi tiết và hướng dẫn thi hành một số điều của Luật công chứng",
       "document_number": "06/2015/TT-BTP",
-      "id": "019d2bb3-5d7d-7398-be52-6a48c44d827e",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật 53/2014/QH13 - Công chứng",
       "document_number": "53/2014/QH13",
-      "id": "019d2bb3-5d84-71c5-b673-76052715983f",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 29/2015/NĐ-CP",
       "document_number": "29/2015/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46c-134d0919d8f2",
-      "source_page": null
+      "source_page": 4
     }
   ],
-  "conditions": "\t10.1 Đối với người yêu cầu công chứng:\n- Người yêu cầu công chứng là cá nhân, tổ chức Việt Nam hoặc cá nhân, tổ chức nước ngoài.\n- Nếu người yêu cầu công chứng là tổ chức thì việc yêu cầu công chứng được thực hiện thông qua người đại diện theo pháp luật hoặc người đại diện theo pháp luật hoặc người đại diện theo ủy quyền của tổ chức đó.\n- Người yêu cầu công chứng phải có năng lực hành vi dân sự, xuất trình đủ các giấy tờ cần thiết liên quan đến việc công chứng và chịu trách nhiệm về tính chính xác, tính hợp pháp của các giấy tờ đó. Người yêu cầu công chứng không thông thạo tiếng Việt thì họ phải có người phiên dịch (đủ 18 tuổi trở lên, có năng lực hành vi dân sự đầy đủ, thông thạo tiếng Việt và ngôn ngữ mà người yêu cầu công chứng sử dụng; người phiên dịch do người yêu cầu công chứng mới). Nghiêm cấm người yêu cầu công chứng thông tin, tài liệu sai sự thật; sử dụng giấy tờ, văn bản giả mạo hoặc bị tẩy xóa, sửa chữa trái pháp luật để yêu cầu công chứng. Năng lực hành vi dân sự được xác định theo quy định của pháp luật dân sự, cụ thể:\n+ Người từ đủ 18 tuổi trở lên có năng lực hành vi dân sự đầy đủ, có quyền ký kết, thực hiện các giao dịch dân sự, trừ trường hợp bị mất năng lực hành vi dân sự hoặc bị hạn chế năng lực hành vi dân sự;\n+ Người từ đủ 15 tuổi đến chưa đủ 18 tuổi có tài sản riêng đảm bảo thực hiện nghĩa vụ có thể tự mình ký kết, thực hiện các giao dịch dân sự mà không cần sự đồng ý của người đại diện theo pháp luật, trừ trường hợp pháp luật có quy định khác;\n+ Người đủ 6 tuổi đến chưa đủ 18 tuổi khi ký kết hợp đồng dân sự phải được người đại diện theo pháp luật đồng ý, trừ giao dịch nhằm phục vụ nhu cầu sinh hoạt hàng ngày hoặc pháp luật có quy định khác;\n+ Người chưa đủ 6 tuổi thì không được quyền ký hợp đồng dân sự mà phảo thông qua người đại diện.\n10.2 Đối với người làm chứng:\n- Trong trường hợp pháp luật quy định việc công chứng phải có người làm chứng hoặc trong trường hợp pháp luật không quy định việc công chứng phải có người làm chứng nhưng người yêu cầu công chứng không đọc được hoặc không nghe được hoặc không ký và không điểm chỉ được thì phải có người làm chứng.\n - Người làm chứng do người yêu cầu công chứng mời, nếu họ không mời được thì cán bộ lãnh sự chỉ định. Nghiêm cấm người làm chứng có hành vi gian dối, không trung thực.\n- Người làm chứng phải là người từ đủ 18 tuổi trở lên, có năng lực hành vi dân sự đầy đủ và không có quyền, lợi ích hoặc nghĩa vụ về tài sản liên quan đến việc công chứng.\n10.3. Công chứng viên không được nhận và công chứng bản dịch trong các trường hợp sau đây:\n- Công chứng viên biết hoặc phải biết bản chính được cấp sai thẩm quyền hoặc không hợp lệ; bản chính giả;\n- Giấy tờ, văn bản được yêu cầu dịch đã bị tẩy xóa, sửa chữa, thêm, bớt hoặc bị hư hỏng, cũ nát không thể xác định rõ nội dụng;\n- Giấy tờ, văn bản được yêu cầu dịch thuộc bí mật nhà nước; giấy tờ, văn bản bị cấm phổ biến theo quy định của pháp luật.",
+  "conditions": "10.1 Đối với người yêu cầu công chứng:\n- Người yêu cầu công chứng là cá nhân, tổ chức Việt Nam hoặc cá nhân, tổ chức nước ngoài.\n- Nếu người yêu cầu công chứng là tổ chức thì việc yêu cầu công chứng được thực hiện thông qua người đại diện theo pháp luật hoặc người đại diện theo pháp luật hoặc người đại diện theo ủy quyền của tổ chức đó.\n- Người yêu cầu công chứng phải có năng lực hành vi dân sự, xuất trình đủ các giấy tờ cần thiết liên quan đến việc công chứng và chịu trách nhiệm về tính chính xác, tính hợp pháp của các giấy tờ đó. Người yêu cầu công chứng không thông thạo tiếng Việt thì họ phải có người phiên dịch (đủ 18 tuổi trở lên, có năng lực hành vi dân sự đầy đủ, thông thạo tiếng Việt và ngôn ngữ mà người yêu cầu công chứng sử dụng; người phiên dịch do người yêu cầu công chứng mới). Nghiêm cấm người yêu cầu công chứng thông tin, tài liệu sai sự thật; sử dụng giấy tờ, văn bản giả mạo hoặc bị tẩy xóa, sửa chữa trái pháp luật để yêu cầu công chứng. Năng lực hành vi dân sự được xác định theo quy định của pháp luật dân sự, cụ thể:\n+ Người từ đủ 18 tuổi trở lên có năng lực hành vi dân sự đầy đủ, có quyền ký kết, thực hiện các giao dịch dân sự, trừ trường hợp bị mất năng lực hành vi dân sự hoặc bị hạn chế năng lực hành vi dân sự;\n+ Người từ đủ 15 tuổi đến chưa đủ 18 tuổi có tài sản riêng đảm bảo thực hiện nghĩa vụ có thể tự mình ký kết, thực hiện các giao dịch dân sự mà không cần sự đồng ý của người đại diện theo pháp luật, trừ trường hợp pháp luật có quy định khác;\n+ Người đủ 6 tuổi đến chưa đủ 18 tuổi khi ký kết hợp đồng dân sự phải được người đại diện theo pháp luật đồng ý, trừ giao dịch nhằm phục vụ nhu cầu sinh hoạt hàng ngày hoặc pháp luật có quy định khác;\n+ Người chưa đủ 6 tuổi thì không được quyền ký hợp đồng dân sự mà phảo thông qua người đại diện.\n10.2 Đối với người làm chứng:\n- Trong trường hợp pháp luật quy định việc công chứng phải có người làm chứng hoặc trong trường hợp pháp luật không quy định việc công chứng phải có người làm chứng nhưng người yêu cầu công chứng không đọc được hoặc không nghe được hoặc không ký và không điểm chỉ được thì phải có người làm chứng.\n - Người làm chứng do người yêu cầu công chứng mời, nếu họ không mời được thì cán bộ lãnh sự chỉ định. Nghiêm cấm người làm chứng có hành vi gian dối, không trung thực.\n- Người làm chứng phải là người từ đủ 18 tuổi trở lên, có năng lực hành vi dân sự đầy đủ và không có quyền, lợi ích hoặc nghĩa vụ về tài sản liên quan đến việc công chứng.\n10.3. Công chứng viên không được nhận và công chứng bản dịch trong các trường hợp sau đây:\n- Công chứng viên biết hoặc phải biết bản chính được cấp sai thẩm quyền hoặc không hợp lệ; bản chính giả;\n- Giấy tờ, văn bản được yêu cầu dịch đã bị tẩy xóa, sửa chữa, thêm, bớt hoặc bị hư hỏng, cũ nát không thể xác định rõ nội dụng;\n- Giấy tờ, văn bản được yêu cầu dịch thuộc bí mật nhà nước; giấy tờ, văn bản bị cấm phổ biến theo quy định của pháp luật.",
   "results": [
     {
       "title": "Lời chứng của công chứng viên áp dụng chung đối với hợp đồng giao dịch",
       "code": "KQ.G08.000071",
-      "id": "019d2bb2-1c4b-710f-bf4e-8bb9ce5da6bf",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Lời chứng của công chứng viên",
       "code": "KQ.G08.000079",
-      "id": "019d2bb2-1c4b-710f-bf4e-aac2922c94e5",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Lời chứng của công chứng viên đối với di chúc và Văn bản sửa đổi/bổ sung di chúc",
       "code": "KQ.G08.000073",
-      "id": "019d2bb2-1c4b-710f-bf4e-903a61191090",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Lời chứng của công chứng viên đối với hợp đồng ủy quyền trong trường hợp bên ủy quyền và bên được ủy quyền không thể cùng đến một tổ chức hành nghề công chứng",
       "code": "KQ.G08.000072",
-      "id": "019d2bb2-1c4b-710f-bf4e-8db8e1c14460",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Lời chứng của công chứng viên đối với văn bản từ chối nhận di sản",
       "code": "KQ.G08.000074",
-      "id": "019d2bb2-1c4b-710f-bf4e-975f05ce7d9f",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Nộp hồ sơ tại trụ sở Cơ quan đại diện ngoại giao, cơ quan lãnh sự hoặc cơ quan khác được ủy quyền thực hiện chức năng lãnh sự của Việt Nam ở nước ngoài (Cơ quan đại diện).\n- Khi tiếp nhận hồ sơ, Cơ quan đại diện cấp giấy biên nhận cho Người yêu cầu chứng nhận giấy tờ, trong đó ghi rõ địa điểm, thời gian tiếp nhận hồ sơ, giấy tờ kèm theo và thời gian trả lời kết quả.\n Cơ quan đại diện tiếp nhận hồ sơ, xem xét giải quyết. Nếu giấy tờ hợp lệ, Cơ quan đại diện thực hiện công chứng trên giấy tờ.\n Nhận kết quả trực tiếp tại trụ sở cơ quan theo giấy biên nhận hồ sơ hoặc hồ sơ được gửi trả qua đường bưu điện cho đương sự.\n",
-    "THÀNH PHẦN HỒ SƠ": "Công chứng hợp đồng, giao dịch soạn thảo theo đề nghị của người yêu cầu công chứng (1 bộ)\nThành phần hồ sơ 3: Bản sao giấy chứng nhận quyền sở hữu, quyền sử dụng hoặc bản sao giấy tờ thay thế được pháp luật quy định đối với tài sản mà pháp luật quy định phải đăng ký quyền sở hữu, quyền sử dụng, trong trường hợp hợp đồng, giao dịch liên quan đến tài sản đó\nThành phần hồ sơ 1: Phiếu yêu cầu công chứng hợp đồng. giao dịch theo mẫu\nThành phần hồ sơ 2:  Bản sao giấy tờ tùy thân (bản sao hộ chiếu hoặc giấy tờ có giá trị thay thế) của người yêu cầu công chứng, Giấy tờ chứng minh tư cách đại diện (nếu là người đại diện)\nThành phần hồ sơ 4: Bản sao giấy tờ khác có liên quan đến hợp đồng, giao dịch mà pháp luật quy định phải có\nCông chứng hợp đồng, giao dịch đã được soạn thảo sẵn (1 bộ)\nThành phần hồ sơ 5: Bản sao giấy tờ khác có liên quan đến hợp đồng, giao dịch mà pháp luật quy định phải có\nThành phần hồ sơ 1: Phiếu yêu cầu công chứng hợp đồng, giao dịch theo mẫu\nThành phần hồ sơ 3: Bản sao giấy tờ tùy thân (bản sao hộ chiếu hoặc giấy tờ có giá trị thay thế) của người yêu cầu công chứng, Giấy tờ chứng minh tư cách đại diện (nếu là người đại diện)\nThành phần hồ sơ 4: Bản sao giấy chứng nhận quyền sở hữu, quyền sử dụng hoặc bản sao giấy tờ thay thế được pháp luật quy định đối với tài sản mà pháp luật quy định phải đăng ký quyền sở hữu, quyền sử dụng, trong trường hợp hợp đồng, giao dịch liên quan đến tài sản đó\nThành phần hồ sơ 2: Dự thảo hợp đồng, giao dịch",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 2 ngày - Nộp hồ sơ trực tiếp tại cơ quan đại diện\nThời hạn công chứng được xác định kể từ ngày Cơ quan đại diện nhận đủ hồ sơ yêu cầu công chứng đến ngày trả kết quả công chứng. Thời gian xác minh, giám định nội dung liên quan đến hợp đồng, giao dịch, niêm yết việc thụ lý công chứng văn bản thỏa thuận phân chia di sản, văn bản khai nhận di sản, dịch giấy tờ, văn bản không tính vào thời hạn công chứng.\nThời hạn công chứng không quá 02 ngày làm việc; đối với hợp đồng, giao dịch yêu cầu công chứng có nội dung phức tạp thì thời hạn công chứng có thể kéo dài hơn nhưng không quá 10 ngày làm việc.",
+    "TRÌNH TỰ THỰC HIỆN": "Nộp hồ sơ tại trụ sở Cơ quan đại diện ngoại giao, cơ quan lãnh sự hoặc cơ quan khác được ủy quyền thực hiện chức năng lãnh sự của Việt Nam ở nước ngoài (Cơ quan đại diện).\n- Khi tiếp nhận hồ sơ, Cơ quan đại diện cấp giấy biên nhận cho Người yêu cầu chứng nhận giấy tờ, trong đó ghi rõ địa điểm, thời gian tiếp nhận hồ sơ, giấy tờ kèm theo và thời gian trả lời kết quả.\n Cơ quan đại diện tiếp nhận hồ sơ, xem xét giải quyết. Nếu giấy tờ hợp lệ, Cơ quan đại diện thực hiện công chứng trên giấy tờ.\n Nhận kết quả trực tiếp tại trụ sở cơ quan theo giấy biên nhận hồ sơ hoặc hồ sơ được gửi trả qua đường bưu điện cho đương sự.",
+    "THÀNH PHẦN HỒ SƠ": "Công chứng hợp đồng, giao dịch soạn thảo theo đề nghị của người yêu cầu công chứng (1 bộ): Thành phần hồ sơ 3: Bản sao giấy chứng nhận quyền sở hữu, quyền sử dụng hoặc bản sao giấy tờ thay thế được pháp luật quy định đối với tài sản mà pháp luật quy định phải đăng ký quyền sở hữu, quyền sử dụng, trong trường hợp hợp đồng, giao dịch liên quan đến tài sản đó\nCông chứng hợp đồng, giao dịch soạn thảo theo đề nghị của người yêu cầu công chứng (1 bộ): Thành phần hồ sơ 1: Phiếu yêu cầu công chứng hợp đồng. giao dịch theo mẫu\nCông chứng hợp đồng, giao dịch soạn thảo theo đề nghị của người yêu cầu công chứng (1 bộ): Thành phần hồ sơ 2:  Bản sao giấy tờ tùy thân (bản sao hộ chiếu hoặc giấy tờ có giá trị thay thế) của người yêu cầu công chứng, Giấy tờ chứng minh tư cách đại diện (nếu là người đại diện)\nCông chứng hợp đồng, giao dịch soạn thảo theo đề nghị của người yêu cầu công chứng (1 bộ): Thành phần hồ sơ 4: Bản sao giấy tờ khác có liên quan đến hợp đồng, giao dịch mà pháp luật quy định phải có\nCông chứng hợp đồng, giao dịch đã được soạn thảo sẵn (1 bộ): Thành phần hồ sơ 5: Bản sao giấy tờ khác có liên quan đến hợp đồng, giao dịch mà pháp luật quy định phải có\nCông chứng hợp đồng, giao dịch đã được soạn thảo sẵn (1 bộ): Thành phần hồ sơ 1: Phiếu yêu cầu công chứng hợp đồng, giao dịch theo mẫu\nCông chứng hợp đồng, giao dịch đã được soạn thảo sẵn (1 bộ): Thành phần hồ sơ 3: Bản sao giấy tờ tùy thân (bản sao hộ chiếu hoặc giấy tờ có giá trị thay thế) của người yêu cầu công chứng, Giấy tờ chứng minh tư cách đại diện (nếu là người đại diện)\nCông chứng hợp đồng, giao dịch đã được soạn thảo sẵn (1 bộ): Thành phần hồ sơ 4: Bản sao giấy chứng nhận quyền sở hữu, quyền sử dụng hoặc bản sao giấy tờ thay thế được pháp luật quy định đối với tài sản mà pháp luật quy định phải đăng ký quyền sở hữu, quyền sử dụng, trong trường hợp hợp đồng, giao dịch liên quan đến tài sản đó\nCông chứng hợp đồng, giao dịch đã được soạn thảo sẵn (1 bộ): Thành phần hồ sơ 2: Dự thảo hợp đồng, giao dịch",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 2 ngày",
     "CĂN CỨ PHÁP LÝ": "Luật 33/2009/QH12 - 33/2009/QH12\nQuy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực ngoại giao áp dụng tại các Cơ quan đại diện Việt Nam ở nước ngoài - 264/2016/TT-BTC\nThông tư 06/2015/TT-BTP - Quy định chi tiết và hướng dẫn thi hành một số điều của Luật công chứng - 06/2015/TT-BTP\nLuật 53/2014/QH13 - Công chứng - 53/2014/QH13\nNghị định 29/2015/NĐ-CP - 29/2015/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cơ quan đại diện Việt Nam ở nước ngoài",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "\t10.1 Đối với người yêu cầu công chứng:\n- Người yêu cầu công chứng là cá nhân, tổ chức Việt Nam hoặc cá nhân, tổ chức nước ngoài.\n- Nếu người yêu cầu công chứng là tổ chức thì việc yêu cầu công chứng được thực hiện thông qua người đại diện theo pháp luật hoặc người đại diện theo pháp luật hoặc người đại diện theo ủy quyền của tổ chức đó.\n- Người yêu cầu công chứng phải có năng lực hành vi dân sự, xuất trình đủ các giấy tờ cần thiết liên quan đến việc công chứng và chịu trách nhiệm về tính chính xác, tính hợp pháp của các giấy tờ đó. Người yêu cầu công chứng không thông thạo tiếng Việt thì họ phải có người phiên dịch (đủ 18 tuổi trở lên, có năng lực hành vi dân sự đầy đủ, thông thạo tiếng Việt và ngôn ngữ mà người yêu cầu công chứng sử dụng; người phiên dịch do người yêu cầu công chứng mới). Nghiêm cấm người yêu cầu công chứng thông tin, tài liệu sai sự thật; sử dụng giấy tờ, văn bản giả mạo hoặc bị tẩy xóa, sửa chữa trái pháp luật để yêu cầu công chứng. Năng lực hành vi dân sự được xác định theo quy định của pháp luật dân sự, cụ thể:\n+ Người từ đủ 18 tuổi trở lên có năng lực hành vi dân sự đầy đủ, có quyền ký kết, thực hiện các giao dịch dân sự, trừ trường hợp bị mất năng lực hành vi dân sự hoặc bị hạn chế năng lực hành vi dân sự;\n+ Người từ đủ 15 tuổi đến chưa đủ 18 tuổi có tài sản riêng đảm bảo thực hiện nghĩa vụ có thể tự mình ký kết, thực hiện các giao dịch dân sự mà không cần sự đồng ý của người đại diện theo pháp luật, trừ trường hợp pháp luật có quy định khác;\n+ Người đủ 6 tuổi đến chưa đủ 18 tuổi khi ký kết hợp đồng dân sự phải được người đại diện theo pháp luật đồng ý, trừ giao dịch nhằm phục vụ nhu cầu sinh hoạt hàng ngày hoặc pháp luật có quy định khác;\n+ Người chưa đủ 6 tuổi thì không được quyền ký hợp đồng dân sự mà phảo thông qua người đại diện.\n10.2 Đối với người làm chứng:\n- Trong trường hợp pháp luật quy định việc công chứng phải có người làm chứng hoặc trong trường hợp pháp luật không quy định việc công chứng phải có người làm chứng nhưng người yêu cầu công chứng không đọc được hoặc không nghe được hoặc không ký và không điểm chỉ được thì phải có người làm chứng.\n - Người làm chứng do người yêu cầu công chứng mời, nếu họ không mời được thì cán bộ lãnh sự chỉ định. Nghiêm cấm người làm chứng có hành vi gian dối, không trung thực.\n- Người làm chứng phải là người từ đủ 18 tuổi trở lên, có năng lực hành vi dân sự đầy đủ và không có quyền, lợi ích hoặc nghĩa vụ về tài sản liên quan đến việc công chứng.\n10.3. Công chứng viên không được nhận và công chứng bản dịch trong các trường hợp sau đây:\n- Công chứng viên biết hoặc phải biết bản chính được cấp sai thẩm quyền hoặc không hợp lệ; bản chính giả;\n- Giấy tờ, văn bản được yêu cầu dịch đã bị tẩy xóa, sửa chữa, thêm, bớt hoặc bị hư hỏng, cũ nát không thể xác định rõ nội dụng;\n- Giấy tờ, văn bản được yêu cầu dịch thuộc bí mật nhà nước; giấy tờ, văn bản bị cấm phổ biến theo quy định của pháp luật.",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "10.1 Đối với người yêu cầu công chứng:\n- Người yêu cầu công chứng là cá nhân, tổ chức Việt Nam hoặc cá nhân, tổ chức nước ngoài.\n- Nếu người yêu cầu công chứng là tổ chức thì việc yêu cầu công chứng được thực hiện thông qua người đại diện theo pháp luật hoặc người đại diện theo pháp luật hoặc người đại diện theo ủy quyền của tổ chức đó.\n- Người yêu cầu công chứng phải có năng lực hành vi dân sự, xuất trình đủ các giấy tờ cần thiết liên quan đến việc công chứng và chịu trách nhiệm về tính chính xác, tính hợp pháp của các giấy tờ đó. Người yêu cầu công chứng không thông thạo tiếng Việt thì họ phải có người phiên dịch (đủ 18 tuổi trở lên, có năng lực hành vi dân sự đầy đủ, thông thạo tiếng Việt và ngôn ngữ mà người yêu cầu công chứng sử dụng; người phiên dịch do người yêu cầu công chứng mới). Nghiêm cấm người yêu cầu công chứng thông tin, tài liệu sai sự thật; sử dụng giấy tờ, văn bản giả mạo hoặc bị tẩy xóa, sửa chữa trái pháp luật để yêu cầu công chứng. Năng lực hành vi dân sự được xác định theo quy định của pháp luật dân sự, cụ thể:\n+ Người từ đủ 18 tuổi trở lên có năng lực hành vi dân sự đầy đủ, có quyền ký kết, thực hiện các giao dịch dân sự, trừ trường hợp bị mất năng lực hành vi dân sự hoặc bị hạn chế năng lực hành vi dân sự;\n+ Người từ đủ 15 tuổi đến chưa đủ 18 tuổi có tài sản riêng đảm bảo thực hiện nghĩa vụ có thể tự mình ký kết, thực hiện các giao dịch dân sự mà không cần sự đồng ý của người đại diện theo pháp luật, trừ trường hợp pháp luật có quy định khác;\n+ Người đủ 6 tuổi đến chưa đủ 18 tuổi khi ký kết hợp đồng dân sự phải được người đại diện theo pháp luật đồng ý, trừ giao dịch nhằm phục vụ nhu cầu sinh hoạt hàng ngày hoặc pháp luật có quy định khác;\n+ Người chưa đủ 6 tuổi thì không được quyền ký hợp đồng dân sự mà phảo thông qua người đại diện.\n10.2 Đối với người làm chứng:\n- Trong trường hợp pháp luật quy định việc công chứng phải có người làm chứng hoặc trong trường hợp pháp luật không quy định việc công chứng phải có người làm chứng nhưng người yêu cầu công chứng không đọc được hoặc không nghe được hoặc không ký và không điểm chỉ được thì phải có người làm chứng.\n - Người làm chứng do người yêu cầu công chứng mời, nếu họ không mời được thì cán bộ lãnh sự chỉ định. Nghiêm cấm người làm chứng có hành vi gian dối, không trung thực.\n- Người làm chứng phải là người từ đủ 18 tuổi trở lên, có năng lực hành vi dân sự đầy đủ và không có quyền, lợi ích hoặc nghĩa vụ về tài sản liên quan đến việc công chứng.\n10.3. Công chứng viên không được nhận và công chứng bản dịch trong các trường hợp sau đây:\n- Công chứng viên biết hoặc phải biết bản chính được cấp sai thẩm quyền hoặc không hợp lệ; bản chính giả;\n- Giấy tờ, văn bản được yêu cầu dịch đã bị tẩy xóa, sửa chữa, thêm, bớt hoặc bị hư hỏng, cũ nát không thể xác định rõ nội dụng;\n- Giấy tờ, văn bản được yêu cầu dịch thuộc bí mật nhà nước; giấy tờ, văn bản bị cấm phổ biến theo quy định của pháp luật.",
     "KẾT QUẢ XỬ LÝ": "Lời chứng của công chứng viên áp dụng chung đối với hợp đồng giao dịch - KQ.G08.000071\nLời chứng của công chứng viên - KQ.G08.000079\nLời chứng của công chứng viên đối với di chúc và Văn bản sửa đổi/bổ sung di chúc - KQ.G08.000073\nLời chứng của công chứng viên đối với hợp đồng ủy quyền trong trường hợp bên ủy quyền và bên được ủy quyền không thể cùng đến một tổ chức hành nghề công chứng - KQ.G08.000072\nLời chứng của công chứng viên đối với văn bản từ chối nhận di sản - KQ.G08.000074",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "\t10.1 Đối với người yêu cầu công chứng:\n- Người yêu cầu công chứng là cá nhân, tổ chức Việt Nam hoặc cá nhân, tổ chức nước ngoài.\n- Nếu người yêu cầu công chứng là tổ chức thì việc yêu cầu công chứng được thực hiện thông qua người đại diện theo pháp luật hoặc người đại diện theo pháp luật hoặc người đại diện theo ủy quyền của tổ chức đó.\n- Người yêu cầu công chứng phải có năng lực hành vi dân sự, xuất trình đủ các giấy tờ cần thiết liên quan đến việc công chứng và chịu trách nhiệm về tính chính xác, tính hợp pháp của các giấy tờ đó. Người yêu cầu công chứng không thông thạo tiếng Việt thì họ phải có người phiên dịch (đủ 18 tuổi trở lên, có năng lực hành vi dân sự đầy đủ, thông thạo tiếng Việt và ngôn ngữ mà người yêu cầu công chứng sử dụng; người phiên dịch do người yêu cầu công chứng mới). Nghiêm cấm người yêu cầu công chứng thông tin, tài liệu sai sự thật; sử dụng giấy tờ, văn bản giả mạo hoặc bị tẩy xóa, sửa chữa trái pháp luật để yêu cầu công chứng. Năng lực hành vi dân sự được xác định theo quy định của pháp luật dân sự, cụ thể:\n+ Người từ đủ 18 tuổi trở lên có năng lực hành vi dân sự đầy đủ, có quyền ký kết, thực hiện các giao dịch dân sự, trừ trường hợp bị mất năng lực hành vi dân sự hoặc bị hạn chế năng lực hành vi dân sự;\n+ Người từ đủ 15 tuổi đến chưa đủ 18 tuổi có tài sản riêng đảm bảo thực hiện nghĩa vụ có thể tự mình ký kết, thực hiện các giao dịch dân sự mà không cần sự đồng ý của người đại diện theo pháp luật, trừ trường hợp pháp luật có quy định khác;\n+ Người đủ 6 tuổi đến chưa đủ 18 tuổi khi ký kết hợp đồng dân sự phải được người đại diện theo pháp luật đồng ý, trừ giao dịch nhằm phục vụ nhu cầu sinh hoạt hàng ngày hoặc pháp luật có quy định khác;\n+ Người chưa đủ 6 tuổi thì không được quyền ký hợp đồng dân sự mà phảo thông qua người đại diện.\n10.2 Đối với người làm chứng:\n- Trong trường hợp pháp luật quy định việc công chứng phải có người làm chứng hoặc trong trường hợp pháp luật không quy định việc công chứng phải có người làm chứng nhưng người yêu cầu công chứng không đọc được hoặc không nghe được hoặc không ký và không điểm chỉ được thì phải có người làm chứng.\n - Người làm chứng do người yêu cầu công chứng mời, nếu họ không mời được thì cán bộ lãnh sự chỉ định. Nghiêm cấm người làm chứng có hành vi gian dối, không trung thực.\n- Người làm chứng phải là người từ đủ 18 tuổi trở lên, có năng lực hành vi dân sự đầy đủ và không có quyền, lợi ích hoặc nghĩa vụ về tài sản liên quan đến việc công chứng.\n10.3. Công chứng viên không được nhận và công chứng bản dịch trong các trường hợp sau đây:\n- Công chứng viên biết hoặc phải biết bản chính được cấp sai thẩm quyền hoặc không hợp lệ; bản chính giả;\n- Giấy tờ, văn bản được yêu cầu dịch đã bị tẩy xóa, sửa chữa, thêm, bớt hoặc bị hư hỏng, cũ nát không thể xác định rõ nội dụng;\n- Giấy tờ, văn bản được yêu cầu dịch thuộc bí mật nhà nước; giấy tờ, văn bản bị cấm phổ biến theo quy định của pháp luật."
+    "MÔ TẢ": "10.1 Đối với người yêu cầu công chứng:\n- Người yêu cầu công chứng là cá nhân, tổ chức Việt Nam hoặc cá nhân, tổ chức nước ngoài.\n- Nếu người yêu cầu công chứng là tổ chức thì việc yêu cầu công chứng được thực hiện thông qua người đại diện theo pháp luật hoặc người đại diện theo pháp luật hoặc người đại diện theo ủy quyền của tổ chức đó.\n- Người yêu cầu công chứng phải có năng lực hành vi dân sự, xuất trình đủ các giấy tờ cần thiết liên quan đến việc công chứng và chịu trách nhiệm về tính chính xác, tính hợp pháp của các giấy tờ đó. Người yêu cầu công chứng không thông thạo tiếng Việt thì họ phải có người phiên dịch (đủ 18 tuổi trở lên, có năng lực hành vi dân sự đầy đủ, thông thạo tiếng Việt và ngôn ngữ mà người yêu cầu công chứng sử dụng; người phiên dịch do người yêu cầu công chứng mới). Nghiêm cấm người yêu cầu công chứng thông tin, tài liệu sai sự thật; sử dụng giấy tờ, văn bản giả mạo hoặc bị tẩy xóa, sửa chữa trái pháp luật để yêu cầu công chứng. Năng lực hành vi dân sự được xác định theo quy định của pháp luật dân sự, cụ thể:\n+ Người từ đủ 18 tuổi trở lên có năng lực hành vi dân sự đầy đủ, có quyền ký kết, thực hiện các giao dịch dân sự, trừ trường hợp bị mất năng lực hành vi dân sự hoặc bị hạn chế năng lực hành vi dân sự;\n+ Người từ đủ 15 tuổi đến chưa đủ 18 tuổi có tài sản riêng đảm bảo thực hiện nghĩa vụ có thể tự mình ký kết, thực hiện các giao dịch dân sự mà không cần sự đồng ý của người đại diện theo pháp luật, trừ trường hợp pháp luật có quy định khác;\n+ Người đủ 6 tuổi đến chưa đủ 18 tuổi khi ký kết hợp đồng dân sự phải được người đại diện theo pháp luật đồng ý, trừ giao dịch nhằm phục vụ nhu cầu sinh hoạt hàng ngày hoặc pháp luật có quy định khác;\n+ Người chưa đủ 6 tuổi thì không được quyền ký hợp đồng dân sự mà phảo thông qua người đại diện.\n10.2 Đối với người làm chứng:\n- Trong trường hợp pháp luật quy định việc công chứng phải có người làm chứng hoặc trong trường hợp pháp luật không quy định việc công chứng phải có người làm chứng nhưng người yêu cầu công chứng không đọc được hoặc không nghe được hoặc không ký và không điểm chỉ được thì phải có người làm chứng.\n - Người làm chứng do người yêu cầu công chứng mời, nếu họ không mời được thì cán bộ lãnh sự chỉ định. Nghiêm cấm người làm chứng có hành vi gian dối, không trung thực.\n- Người làm chứng phải là người từ đủ 18 tuổi trở lên, có năng lực hành vi dân sự đầy đủ và không có quyền, lợi ích hoặc nghĩa vụ về tài sản liên quan đến việc công chứng.\n10.3. Công chứng viên không được nhận và công chứng bản dịch trong các trường hợp sau đây:\n- Công chứng viên biết hoặc phải biết bản chính được cấp sai thẩm quyền hoặc không hợp lệ; bản chính giả;\n- Giấy tờ, văn bản được yêu cầu dịch đã bị tẩy xóa, sửa chữa, thêm, bớt hoặc bị hư hỏng, cũ nát không thể xác định rõ nội dụng;\n- Giấy tờ, văn bản được yêu cầu dịch thuộc bí mật nhà nước; giấy tờ, văn bản bị cấm phổ biến theo quy định của pháp luật."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Giải quyết khiếu kiện",
-      "slug": "giai-quyet-khieu-kien",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Công chứng, chứng thực",
       "slug": "cong-chung-chung-thuc"
@@ -270,7 +210,7 @@
     "target_users": [
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Doanh nghiệp",
@@ -292,9 +232,9 @@
     "agencies": [
       {
         "name": "Cơ quan đại diện Việt Nam ở nước ngoài",
-        "slug": "co-quan-dai-dien-viet-nam-o-nuoc-ngoai"
+        "slug": "co-quan-ai-dien-viet-nam-o-nuoc-ngoai"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

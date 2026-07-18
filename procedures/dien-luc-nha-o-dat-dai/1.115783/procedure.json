@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019f5a45-82c3-76af-bca2-e13e9adec7f1",
   "procedure_code": "1.115783",
   "title": "Tách thửa hoặc hợp thửa đất",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019f5a45-82c3-76af-bca2-e13e9adec7f1",
     "source_file": "chi-tiet-thu-tuc-1.115783.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.115783/chi-tiet-thu-tuc-1.115783.pdf",
     "page_count": 8,
-    "extracted_at": "2026-07-18T02:22:19.789388+00:00",
-    "source_updated_at": "2026-07-17T07:28:59.522Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:57:50.377990+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "40c70367828aa9396bee5504453bac555e1daea1392ec0bb479446518b72be05"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:19.789388+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2171/QĐ-UBND-DatDai",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đất đai",
   "target_users": [
@@ -39,10 +35,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Nông nghiệp và Môi trường tỉnh Đồng Tháp",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "- Trung tâm Phục vụ hành chính công tỉnh Đồng Tháp, gồm:\n+ Quầy số 14 - Số ĐT: 0273.3993896 Sở Nông nghiệp và Môi trường tại địa chỉ: số 377, Hùng Vương, phường Đạo Thạnh, tỉnh Đồng Tháp;\n+ Quầy số 09 - Số ĐT: 02773.898952 Lĩnh vực Đất đai tại địa chỉ: số 10, đường Lê Thị Riêng, phường Cao Lãnh, tỉnh Đồng Tháp;\n- Trung tâm Phục vụ hành chính công cấp xã;\n- Chi nhánh Văn phòng đăng ký đất đai;\n- Thủ tục hành chính được thực hiện không phụ thuộc vào địa giới hành chính.\n- Thủ tục hành chính thực hiện tiếp nhận và trả kết quả qua dịch vụ bưu chính công ích;\n- Thủ tục hành chính thực hiện qua dịch vụ công trực tuyến một phần (dichvucong.gov.vn)."
+    "executing_agency": "Sở Nông nghiệp và Môi trường tỉnh Đồng Tháp"
   },
   "steps": [
     {
@@ -50,72 +43,48 @@
       "title": "a) Bước 1: Người yêu cầu đăng ký nộp 1 bộ hồ sơ đến Trung tâm Phục vụ hành chính công các cấp hoặc Chi nhánh Văn phòng Đăng ký đất đai.",
       "description": "- Khi nộp hồ sơ, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\n- Đối với trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì người yêu cầu đăng ký nộp bản gốc Giấy chứng nhận đã cấp.\n- Trường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định, trừ các giấy tờ là giấy phép xây dựng, quyết định phê duyệt dự án đầu tư, quyết định đầu tư, giấy phép đầu tư, giấy chứng nhận đầu tư, quyết định phê duyệt hoặc quyết định phê duyệt điều chỉnh quy hoạch xây dựng chi tiết, bản đồ điều chỉnh quy hoạch xây dựng chi tiết.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "b) Bước 2: Cơ quan tiếp nhận hồ sơ thực hiện:",
       "description": "- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\n- Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Trường hợp Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ thì chuyển hồ sơ đến Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 3,
       "title": "c) Bước 3: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện:",
       "description": "- Kiểm tra hồ sơ, thông tin về người sử dụng đất, ranh giới, diện tích, loại đất của các thửa đất trên hồ sơ lưu trữ.\n- Đối chiếu quy định tại Điều 220 của Luật Đất đai, khoản 3 Điều 11 Nghị quyết số 254/2025/QH15 và Quy định điều kiện, diện tích tối thiểu của việc tách thửa, hợp thửa đất đối với từng loại đất trên địa bàn tỉnh Đồng Tháp để xác định điều kiện tách thửa đất, hợp thửa đất:\nc1) Trường hợp hồ sơ không đủ điều kiện tách thửa đất, hợp thửa đất hoặc trường hợp hồ sơ đủ điều kiện tách thửa đất, hợp thửa đất nhưng Giấy chứng nhận đã cấp không có sơ đồ thửa đất hoặc có sơ đồ thửa đất nhưng thiếu kích thước các cạnh hoặc diện tích và kích thước các cạnh không thống nhất thì trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ, Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất trả hồ sơ cho người sử dụng đất và thông báo rõ lý do.\nc2) Trường hợp không thuộc quy định tại điểm a thì trong thời gian 05 ngày làm việc (13 ngày làm việc đối với trường hợp tại nội dung a2 điểm a khoản 3 Điều này) kể từ ngày nhận đủ hồ sơ, Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai xác nhận đủ điều kiện tách thửa đất, hợp thửa đất kèm các thông tin thửa đất vào Đơn đề nghị tách thửa đất, hợp thửa đất, đồng thời xác nhận vào Bản vẽ tách thửa đất, hợp thửa đất để hoàn thiện thủ tục đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đối với các thửa đất sau tách thửa, hợp thửa, trừ trường hợp Bản vẽ tách thửa đất, hợp thửa đất do Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện.\nc2.1) Trường hợp tách thửa đất, hợp thửa đất mà không thay đổi người sử dụng đất thì Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện việc chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai; cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất cho các thửa đất sau khi tách thửa đất, hợp thửa đất; trao Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất cho người được cấp.\nc2.2) Trường hợp tách thửa đất, hợp thửa đất mà có thay đổi người sử dụng đất thì thực hiện thủ tục đăng ký biến động đất đai, tài sản gắn liền với đất theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Đơn đề nghị tách thửa đất, hợp thửa đất",
-        "code": "Mẫu số 21_73/2026/QĐ-UBND",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019f40c6-856b-7098-b5da-24cb88c3e1ae",
-            "name": "Mau so 21_73_2026_QD-UBND.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau so 21_73_2026_QD-UBND.docx",
+        "source_page": 2
       },
       {
         "name": "Giấy chứng nhận đã cấp",
-        "code": "GCN_73_DD",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Các văn bản của cơ quan có thẩm quyền có thể hiện nội dung tách thửa đất, hợp thửa đất (nếu có).",
-        "code": "TPHS_TT19_1.1_73_DD",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Bản vẽ tách thửa đất, hợp thửa đất lập theo Mẫu số 22 - Quyết định số 73/2026/QĐ-UBND ngày 03/7/2026",
-        "code": "Mẫu số 22_1.2_TT19_73/2026/QĐ-UBND",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019f5a43-af32-76eb-8cf6-766bced15210",
-            "name": "Mau so 22_73_2026_QD-UBND.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau so 22_73_2026_QD-UBND.docx",
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -126,264 +95,139 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.; Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
       "description": "Đối với các xã, phường thông thường: Không quá 07 ngày làm việc.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.; Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
       "description": "Đối với các xã, phường thông thường: Không quá 07 ngày làm việc.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.; Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
       "description": "Đối với các xã, phường thông thường: Không quá 07 ngày làm việc.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.; Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
       "description": "Đối với các xã biên giới, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: Không quá 15 ngày làm việc.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.; Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
       "description": "Đối với các xã biên giới, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: Không quá 15 ngày làm việc.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.; Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
       "description": "Đối với các xã biên giới, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: Không quá 15 ngày làm việc.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.; Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.",
-        "attachment": null
+        "amount_text": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
-        "attachment": null
+        "amount_text": "Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.",
-        "attachment": null
+        "amount_text": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
-        "attachment": null
+        "amount_text": "Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.",
-        "attachment": null
+        "amount_text": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
-        "attachment": null
+        "amount_text": "Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.",
-        "attachment": null
+        "amount_text": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
-        "attachment": null
+        "amount_text": "Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.",
-        "attachment": null
+        "amount_text": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
-        "attachment": null
+        "amount_text": "Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.",
-        "attachment": null
+        "amount_text": "Phí thẩm định:  + Hộ gia đình, cá nhân: Đối với đất ở: 150.000 đồng/hồ sơ; Đối với đất sản xuất, kinh doanh: 200.000 đồng/hồ sơ. + Các tổ chức: 200.000 đồng/hồ sơ. + Các dự án: Dưới 02ha: 1.500.000 đồng/hồ sơ; Từ 02 ha đến dưới 05 ha: 2.500.000 đồng/hồ sơ; Từ 05 ha trở lên: 5.000.000 đồng/hồ sơ. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến bằng 50% mức thu quy định như trên.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
-        "attachment": null
+        "amount_text": "Lệ phí cấp giấy chứng nhận: - Mức thu áp dụng đối với cá nhân tại các phường: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 15.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 20.000 đồng/GCN. - Mức thu áp dụng đối với cá nhân tại các xã: bằng 50% mức áp dụng đối với cá nhân tại các phường. - Mức thu áp dụng đối với tổ chức: + Cấp lại (kể cả cấp lại giấy chứng nhận do hết chỗ xác nhận); cấp đổi, xác nhận bổ sung vào giấy chứng nhận: 20.000 đồng/GCN (chỉ có quyền sử dụng đất); 50.000 đồng/GCN (quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất). + Trích lục bản đồ địa chính, văn bản, số liệu hồ sơ địa chính: 20.000 đồng/bản (nếu có). + Lệ phí chứng nhận biến động về đất đai: 30.000 đồng/GCN. * Mức thu áp dụng khi thực hiện thủ tục hành chính bằng hình thức dịch vụ công trực tuyến là 0 đồng. * Đối tượng miễn thu phí, lệ phí: - Người có công với cách mạng; - Người khuyết tật; - Người sử dụng đất thực hiện cấp đổi Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo chủ trương nhà nước hoặc do điều chỉnh diện tích đất đối với trường hợp nhà nước thu hồi, trưng dụng đất; tặng cho quyền sử dụng đất cho Nhà nước hoặc cộng đồng dân cư hoặc mở rộng đường giao thông; tặng cho quyền sử dụng đất để làm nhà tình nghĩa, nhà tình thương, nhà đại đoàn kết gắn liền với đất theo quy định của pháp luật đất đai. * Đối tượng giảm thu phí, lệ phí: - Người cao tuổi: mức thu bằng 50% mức thu quy định như trên; - Hộ nghèo: mức thu bằng 50% mức thu quy định như trên. - Hộ cận nghèo: mức thu bằng 50% mức thu quy định như trên.",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -391,62 +235,52 @@
     {
       "title": "quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
       "document_number": "101/2024/NĐ-CP",
-      "id": "019ed4db-2c5b-775d-871e-85a6c8c26ba8",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Nghị quyết số 39/2026/NQ-HĐND ngày 09 tháng 7 năm 2026 của Hội đồng nhân dân tỉnh quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí thẩm định hồ sơ cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất; phí khai thác và sử dụng tài liệu đất đai; phí đăng ký giao dịch bảo đảm; phí cung cấp thông tin về giao dịch bảo đảm bằng quyền sử dụng đất, tài sản gắn liền với đất trên địa bàn tỉnh Đồng Tháp",
       "document_number": "39/2026/NQ-HĐND",
-      "id": "019f49d3-5067-72e1-a648-888e7058c476",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
-      "document_number": "31/2024/QH15 ",
-      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
-      "source_page": null
+      "document_number": "31/2024/QH15",
+      "source_page": 7
     },
     {
       "title": "Về quy định trình tự, thủ tục hành chính lĩnh vực đất đai trên địa bàn tỉnh Đồng Tháp",
       "document_number": "73/2026/QĐ-UBND",
-      "id": "019f44dc-8233-77f8-9db1-9fc4f38f0872",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Ban hành quy định mức thu, chế độ thu, nộp lệ phí cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất trên địa bàn tỉnh Đồng Tháp",
       "document_number": "10/2025/NQ-HĐND",
-      "id": "019f46f3-9f87-763c-9568-87997400ee85",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
       "document_number": "118/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Luật Đất đai ngày 18/01/2024;",
       "document_number": "31/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b672-a3322a8748a6",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "sửa đổi, bổ\nsung một số điều của Nghị định 118/2025/NĐ-CP thực hiện thủ tục hành chính\ntheo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ\ncông quốc gia",
       "document_number": "367/2025/NĐ-CP",
-      "id": "019da523-7834-71ed-9461-2ac0a510544b",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "49/2026/NĐ-CP",
-      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Quy định mức thu phí, lệ phí trong thực hiện dịch vụ công trực tuyến trên địa bàn tỉnh Đồng Tháp",
       "document_number": "35 /2025/NQ-HĐND",
-      "id": "019f4701-8ab1-759f-b40d-393e5153edb2",
-      "source_page": null
+      "source_page": 7
     }
   ],
   "conditions": "Đảm bảo nguyên tắc, điều kiện tách thửa đất, hợp thửa đất theo quy định tại Điều 220 của Luật Đất đai; điều kiện tách thửa đất, điều kiện hợp thửa đất theo từng loại đất và diện tích tối thiểu được tách thửa đối với từng loại đất theo quy định của Ủy ban nhân dân cấp tỉnh.",
@@ -454,15 +288,14 @@
     {
       "title": "Giấy chứng nhận",
       "code": "GCN_73_DD",
-      "id": "019f4710-8ec8-752e-ad54-f2b2593a40cd",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "- Khi nộp hồ sơ, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\n- Đối với trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì người yêu cầu đăng ký nộp bản gốc Giấy chứng nhận đã cấp.\n- Trường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định, trừ các giấy tờ là giấy phép xây dựng, quyết định phê duyệt dự án đầu tư, quyết định đầu tư, giấy phép đầu tư, giấy chứng nhận đầu tư, quyết định phê duyệt hoặc quyết định phê duyệt điều chỉnh quy hoạch xây dựng chi tiết, bản đồ điều chỉnh quy hoạch xây dựng chi tiết.\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả.\n- Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Trường hợp Trung tâm Phục vụ hành chính công tiếp nhận hồ sơ thì chuyển hồ sơ đến Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai.\n- Kiểm tra hồ sơ, thông tin về người sử dụng đất, ranh giới, diện tích, loại đất của các thửa đất trên hồ sơ lưu trữ.\n- Đối chiếu quy định tại Điều 220 của Luật Đất đai, khoản 3 Điều 11 Nghị quyết số 254/2025/QH15 và Quy định điều kiện, diện tích tối thiểu của việc tách thửa, hợp thửa đất đối với từng loại đất trên địa bàn tỉnh Đồng Tháp để xác định điều kiện tách thửa đất, hợp thửa đất:\nc1) Trường hợp hồ sơ không đủ điều kiện tách thửa đất, hợp thửa đất hoặc trường hợp hồ sơ đủ điều kiện tách thửa đất, hợp thửa đất nhưng Giấy chứng nhận đã cấp không có sơ đồ thửa đất hoặc có sơ đồ thửa đất nhưng thiếu kích thước các cạnh hoặc diện tích và kích thước các cạnh không thống nhất thì trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ, Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất trả hồ sơ cho người sử dụng đất và thông báo rõ lý do.\nc2) Trường hợp không thuộc quy định tại điểm a thì trong thời gian 05 ngày làm việc (13 ngày làm việc đối với trường hợp tại nội dung a2 điểm a khoản 3 Điều này) kể từ ngày nhận đủ hồ sơ, Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai xác nhận đủ điều kiện tách thửa đất, hợp thửa đất kèm các thông tin thửa đất vào Đơn đề nghị tách thửa đất, hợp thửa đất, đồng thời xác nhận vào Bản vẽ tách thửa đất, hợp thửa đất để hoàn thiện thủ tục đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đối với các thửa đất sau tách thửa, hợp thửa, trừ trường hợp Bản vẽ tách thửa đất, hợp thửa đất do Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện.\nc2.1) Trường hợp tách thửa đất, hợp thửa đất mà không thay đổi người sử dụng đất thì Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện việc chỉnh lý, cập nhật biến động vào hồ sơ địa chính, cơ sở dữ liệu đất đai; cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất cho các thửa đất sau khi tách thửa đất, hợp thửa đất; trao Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất cho người được cấp.\nc2.2) Trường hợp tách thửa đất, hợp thửa đất mà có thay đổi người sử dụng đất thì thực hiện thủ tục đăng ký biến động đất đai, tài sản gắn liền với đất theo quy định.",
-    "THÀNH PHẦN HỒ SƠ": "\nĐơn đề nghị tách thửa đất, hợp thửa đất\nGiấy chứng nhận đã cấp\nCác văn bản của cơ quan có thẩm quyền có thể hiện nội dung tách thửa đất, hợp thửa đất (nếu có).\nBản vẽ tách thửa đất, hợp thửa đất lập theo Mẫu số 22 - Quyết định số 73/2026/QĐ-UBND ngày 03/7/2026",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 7 ngày làm việc - Đối với các xã, phường thông thường: Không quá 07 ngày làm việc.\nTrực tuyến: 7 ngày làm việc - Đối với các xã, phường thông thường: Không quá 07 ngày làm việc.\nQua dịch vụ bưu chính: 7 ngày làm việc - Đối với các xã, phường thông thường: Không quá 07 ngày làm việc.\nTrực tiếp: 15 ngày làm việc - Đối với các xã biên giới, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: Không quá 15 ngày làm việc.\nTrực tuyến: 15 ngày làm việc - Đối với các xã biên giới, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: Không quá 15 ngày làm việc.\nQua dịch vụ bưu chính: 15 ngày làm việc - Đối với các xã biên giới, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: Không quá 15 ngày làm việc.",
-    "CĂN CỨ PHÁP LÝ": "quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai. - 101/2024/NĐ-CP\nNghị quyết số 39/2026/NQ-HĐND ngày 09 tháng 7 năm 2026 của Hội đồng nhân dân tỉnh quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí thẩm định hồ sơ cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất; phí khai thác và sử dụng tài liệu đất đai; phí đăng ký giao dịch bảo đảm; phí cung cấp thông tin về giao dịch bảo đảm bằng quyền sử dụng đất, tài sản gắn liền với đất trên địa bàn tỉnh Đồng Tháp - 39/2026/NQ-HĐND\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15 \nVề quy định trình tự, thủ tục hành chính lĩnh vực đất đai trên địa bàn tỉnh Đồng Tháp - 73/2026/QĐ-UBND\nBan hành quy định mức thu, chế độ thu, nộp lệ phí cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất trên địa bàn tỉnh Đồng Tháp - 10/2025/NQ-HĐND\nNghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nLuật Đất đai ngày 18/01/2024; - 31/2024/QH15\nsửa đổi, bổ\nsung một số điều của Nghị định 118/2025/NĐ-CP thực hiện thủ tục hành chính\ntheo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ\ncông quốc gia - 367/2025/NĐ-CP\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP\nQuy định mức thu phí, lệ phí trong thực hiện dịch vụ công trực tuyến trên địa bàn tỉnh Đồng Tháp - 35 /2025/NQ-HĐND",
+    "THÀNH PHẦN HỒ SƠ": "Đơn đề nghị tách thửa đất, hợp thửa đất\nGiấy chứng nhận đã cấp\nCác văn bản của cơ quan có thẩm quyền có thể hiện nội dung tách thửa đất, hợp thửa đất (nếu có).\nBản vẽ tách thửa đất, hợp thửa đất lập theo Mẫu số 22 - Quyết định số 73/2026/QĐ-UBND ngày 03/7/2026",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 7 ngày làm việc\nTrực tuyến: 7 ngày làm việc\nQua dịch vụ bưu chính: 7 ngày làm việc\nTrực tiếp: 15 ngày làm việc\nTrực tuyến: 15 ngày làm việc\nQua dịch vụ bưu chính: 15 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai. - 101/2024/NĐ-CP\nNghị quyết số 39/2026/NQ-HĐND ngày 09 tháng 7 năm 2026 của Hội đồng nhân dân tỉnh quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí thẩm định hồ sơ cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất; phí khai thác và sử dụng tài liệu đất đai; phí đăng ký giao dịch bảo đảm; phí cung cấp thông tin về giao dịch bảo đảm bằng quyền sử dụng đất, tài sản gắn liền với đất trên địa bàn tỉnh Đồng Tháp - 39/2026/NQ-HĐND\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15\nVề quy định trình tự, thủ tục hành chính lĩnh vực đất đai trên địa bàn tỉnh Đồng Tháp - 73/2026/QĐ-UBND\nBan hành quy định mức thu, chế độ thu, nộp lệ phí cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất trên địa bàn tỉnh Đồng Tháp - 10/2025/NQ-HĐND\nNghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nLuật Đất đai ngày 18/01/2024; - 31/2024/QH15\nsửa đổi, bổ\nsung một số điều của Nghị định 118/2025/NĐ-CP thực hiện thủ tục hành chính\ntheo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ\ncông quốc gia - 367/2025/NĐ-CP\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP\nQuy định mức thu phí, lệ phí trong thực hiện dịch vụ công trực tuyến trên địa bàn tỉnh Đồng Tháp - 35 /2025/NQ-HĐND",
     "CƠ QUAN THỰC HIỆN": "Sở Nông nghiệp và Môi trường tỉnh Đồng Tháp",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Đảm bảo nguyên tắc, điều kiện tách thửa đất, hợp thửa đất theo quy định tại Điều 220 của Luật Đất đai; điều kiện tách thửa đất, điều kiện hợp thửa đất theo từng loại đất và diện tích tối thiểu được tách thửa đối với từng loại đất theo quy định của Ủy ban nhân dân cấp tỉnh.",
     "KẾT QUẢ XỬ LÝ": "Giấy chứng nhận - GCN_73_DD",
@@ -470,14 +303,9 @@
     "MÔ TẢ": "Đảm bảo nguyên tắc, điều kiện tách thửa đất, hợp thửa đất theo quy định tại Điều 220 của Luật Đất đai; điều kiện tách thửa đất, điều kiện hợp thửa đất theo từng loại đất và diện tích tối thiểu được tách thửa đối với từng loại đất theo quy định của Ủy ban nhân dân cấp tỉnh."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đất đai",
-      "slug": "dat-dai"
+      "slug": "at-ai"
     },
     "implementation_levels": [
       {
@@ -504,15 +332,15 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       }
     ],
     "agencies": [
       {
         "name": "Sở Nông nghiệp và Môi trường tỉnh Đồng Tháp",
-        "slug": "so-nong-nghiep-va-moi-truong-tinh-dong-thap"
+        "slug": "so-nong-nghiep-va-moi-truong-tinh-ong-thap"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "non_territorial"
   }
 }

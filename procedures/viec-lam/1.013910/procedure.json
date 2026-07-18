@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf9-64aa-7638-aba3-85e6e4275928",
   "procedure_code": "1.013910",
   "title": "Phân bổ số thuê bao di động H2H theo phương thức đấu giá",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf9-64aa-7638-aba3-85e6e4275928",
     "source_file": "chi-tiet-thu-tuc-1.013910.pdf",
     "source_path": "procedures/viec-lam/1.013910/chi-tiet-thu-tuc-1.013910.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:11.505575+00:00",
-    "source_updated_at": "2026-05-27T08:08:11.862Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:23.651717+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "9bd76e1d38270cb53281d8de2094373f573d1f678f8b03e722b991dc8638ee93"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:11.505575+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2527/QĐ-BKHCN",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Viễn thông và Internet",
   "target_users": [
@@ -36,48 +32,33 @@
   ],
   "agency": {
     "competent_agency": "Ủy ban nhân dân cấp tỉnh",
-    "executing_agency": "Ủy ban nhân dân cấp tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ủy ban nhân dân cấp tỉnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "1. Người trúng đấu giá số thuê bao di động H2H nộp hồ sơ đề nghị phân bổ số thuê bao di động H2H đến Ủy ban nhân dân cấp tỉnh.\n2. Trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh thẩm định, ban hành quyết định phân bổ số thuê bao di động H2H.\nTrường hợp từ chối phân bổ số thuê bao di động H2H, trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh có văn bản trả lời, nêu rõ lý do từ chối.\n",
+      "description": "1. Người trúng đấu giá số thuê bao di động H2H nộp hồ sơ đề nghị phân bổ số thuê bao di động H2H đến Ủy ban nhân dân cấp tỉnh.\n2. Trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh thẩm định, ban hành quyết định phân bổ số thuê bao di động H2H.\nTrường hợp từ chối phân bổ số thuê bao di động H2H, trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh có văn bản trả lời, nêu rõ lý do từ chối.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Đơn đề nghị phân bổ số thuê bao di động H2H theo Mẫu số 24 tại Phụ lục I kèm theo Nghị định số 133/2025/NĐ-CP",
-        "code": "G06-KQ005196",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e6865-11ad-7550-a384-968858779779",
-            "name": "Mẫu số 24.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 24.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Bản sao thẻ căn cước công dân hoặc thẻ căn cước (đối với cá nhân). Cơ quan tiếp nhận, giải quyết thủ tục hành chính có trách nhiệm chủ động khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về dân cư được cơ quan chủ quản cơ sở dữ liệu công bố để thay thế thành phần hồ sơ giải quyết thủ tục hành chính. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, chính xác thì cơ quan có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính gửi ngay văn bản để yêu cầu cá nhân, tổ chức bổ sung thành phần hồ sơ và nêu rõ lý do. Thời gian yêu cầu và bổ sung hồ sơ không tính vào thời hạn giải quyết thủ tục hành chính.",
-        "code": "G06-KQ005197",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -86,35 +67,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 350000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Theo quy định tại Thông tư 55/2025/TT-BTC",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định tại Thông tư 55/2025/TT-BTC",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 350000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Theo quy định tại Thông tư 55/2025/TT-BTC",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định tại Thông tư 55/2025/TT-BTC",
       "description": "",
       "source_page": null
     },
@@ -122,51 +83,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 350000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Theo quy định tại Thông tư 55/2025/TT-BTC",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định tại Thông tư 55/2025/TT-BTC",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Theo quy định tại Thông tư 55/2025/TT-BTC",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 350000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Theo quy định tại Thông tư 55/2025/TT-BTC",
-        "attachment": null
+        "amount_text": "Theo quy định tại Thông tư 55/2025/TT-BTC",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": 350000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Theo quy định tại Thông tư 55/2025/TT-BTC",
-        "attachment": null
+        "amount_text": "Theo quy định tại Thông tư 55/2025/TT-BTC",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 350000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Theo quy định tại Thông tư 55/2025/TT-BTC",
-        "attachment": null
+        "amount_text": "Theo quy định tại Thông tư 55/2025/TT-BTC",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -174,32 +120,27 @@
     {
       "title": "Quy định về phân quyền, phân cấp trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ",
       "document_number": "133/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-69a13ce4eb56",
-      "source_page": null
+      "source_page": 3
     },
     {
-      "title": "Nghị quyết số 20/2026/NQ-CP ngày 29 tháng 4 năm 2026 của Chính phủ phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh thuộc phạm vi quản lý nhà nước của Bộ Khoa học và Công nghệ\n",
+      "title": "Nghị quyết số 20/2026/NQ-CP ngày 29 tháng 4 năm 2026 của Chính phủ phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh thuộc phạm vi quản lý nhà nước của Bộ Khoa học và Công nghệ",
       "document_number": "20/2026/NQ-CP",
-      "id": "019e3e62-50f1-77dd-9ed3-48836cc716a4",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của các Nghị định để cắt giảm, đơn giản hóa thủ tục hành chính liên quan đến hoạt động sản xuất, kinh doanh thuộc phạm vi quân lý nhà nước của Bộ Khoa học và Công nghệ",
       "document_number": "15/2026/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-8af870bb85c9",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Quy định chi tiết một số điều và biện pháp thi hành Luật Viễn thông",
       "document_number": "163/2024/NĐ-CP",
-      "id": "019d2bb3-5d84-71c5-b677-9caf1d5f4f57",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật Viễn thông ngày 24 tháng 11 năm 2023",
       "document_number": "24/2023/QH15",
-      "id": "019d2bb3-5d86-7760-a645-5f8a75f27e74",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -207,15 +148,14 @@
     {
       "title": "Quyết định phân bổ số thuê bao di động H2H theo phương thức đấu giá theo Mẫu số 25",
       "code": "KQ.G06.000907",
-      "id": "019d2bb2-1c41-7141-b6bc-36e986d15535",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "1. Người trúng đấu giá số thuê bao di động H2H nộp hồ sơ đề nghị phân bổ số thuê bao di động H2H đến Ủy ban nhân dân cấp tỉnh.\n2. Trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh thẩm định, ban hành quyết định phân bổ số thuê bao di động H2H.\nTrường hợp từ chối phân bổ số thuê bao di động H2H, trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh có văn bản trả lời, nêu rõ lý do từ chối.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nĐơn đề nghị phân bổ số thuê bao di động H2H theo Mẫu số 24 tại Phụ lục I kèm theo Nghị định số 133/2025/NĐ-CP\nBản sao thẻ căn cước công dân hoặc thẻ căn cước (đối với cá nhân). Cơ quan tiếp nhận, giải quyết thủ tục hành chính có trách nhiệm chủ động khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về dân cư được cơ quan chủ quản cơ sở dữ liệu công bố để thay thế thành phần hồ sơ giải quyết thủ tục hành chính. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, chính xác thì cơ quan có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính gửi ngay văn bản để yêu cầu cá nhân, tổ chức bổ sung thành phần hồ sơ và nêu rõ lý do. Thời gian yêu cầu và bổ sung hồ sơ không tính vào thời hạn giải quyết thủ tục hành chính.",
+    "TRÌNH TỰ THỰC HIỆN": "1. Người trúng đấu giá số thuê bao di động H2H nộp hồ sơ đề nghị phân bổ số thuê bao di động H2H đến Ủy ban nhân dân cấp tỉnh.\n2. Trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh thẩm định, ban hành quyết định phân bổ số thuê bao di động H2H.\nTrường hợp từ chối phân bổ số thuê bao di động H2H, trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh có văn bản trả lời, nêu rõ lý do từ chối.",
+    "THÀNH PHẦN HỒ SƠ": "Đơn đề nghị phân bổ số thuê bao di động H2H theo Mẫu số 24 tại Phụ lục I kèm theo Nghị định số 133/2025/NĐ-CP\nBản sao thẻ căn cước công dân hoặc thẻ căn cước (đối với cá nhân). Cơ quan tiếp nhận, giải quyết thủ tục hành chính có trách nhiệm chủ động khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về dân cư được cơ quan chủ quản cơ sở dữ liệu công bố để thay thế thành phần hồ sơ giải quyết thủ tục hành chính. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, chính xác thì cơ quan có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính gửi ngay văn bản để yêu cầu cá nhân, tổ chức bổ sung thành phần hồ sơ và nêu rõ lý do. Thời gian yêu cầu và bổ sung hồ sơ không tính vào thời hạn giải quyết thủ tục hành chính.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 3 ngày làm việc\nQua dịch vụ bưu chính: 3 ngày làm việc\nTrực tiếp: 3 ngày làm việc",
-    "CĂN CỨ PHÁP LÝ": "Quy định về phân quyền, phân cấp trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ - 133/2025/NĐ-CP\nNghị quyết số 20/2026/NQ-CP ngày 29 tháng 4 năm 2026 của Chính phủ phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh thuộc phạm vi quản lý nhà nước của Bộ Khoa học và Công nghệ\n - 20/2026/NQ-CP\nSửa đổi, bổ sung một số điều của các Nghị định để cắt giảm, đơn giản hóa thủ tục hành chính liên quan đến hoạt động sản xuất, kinh doanh thuộc phạm vi quân lý nhà nước của Bộ Khoa học và Công nghệ - 15/2026/NĐ-CP\nQuy định chi tiết một số điều và biện pháp thi hành Luật Viễn thông - 163/2024/NĐ-CP\nLuật Viễn thông ngày 24 tháng 11 năm 2023 - 24/2023/QH15",
+    "CĂN CỨ PHÁP LÝ": "Quy định về phân quyền, phân cấp trong lĩnh vực quản lý nhà nước của Bộ Khoa học và Công nghệ - 133/2025/NĐ-CP\nNghị quyết số 20/2026/NQ-CP ngày 29 tháng 4 năm 2026 của Chính phủ phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh thuộc phạm vi quản lý nhà nước của Bộ Khoa học và Công nghệ - 20/2026/NQ-CP\nSửa đổi, bổ sung một số điều của các Nghị định để cắt giảm, đơn giản hóa thủ tục hành chính liên quan đến hoạt động sản xuất, kinh doanh thuộc phạm vi quân lý nhà nước của Bộ Khoa học và Công nghệ - 15/2026/NĐ-CP\nQuy định chi tiết một số điều và biện pháp thi hành Luật Viễn thông - 163/2024/NĐ-CP\nLuật Viễn thông ngày 24 tháng 11 năm 2023 - 24/2023/QH15",
     "CƠ QUAN THỰC HIỆN": "Ủy ban nhân dân cấp tỉnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
     "KẾT QUẢ XỬ LÝ": "Quyết định phân bổ số thuê bao di động H2H theo phương thức đấu giá theo Mẫu số 25 - KQ.G06.000907",
@@ -223,11 +163,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Viễn thông và Internet",
       "slug": "vien-thong-va-internet"
@@ -254,6 +189,6 @@
         "slug": "uy-ban-nhan-dan-cap-tinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

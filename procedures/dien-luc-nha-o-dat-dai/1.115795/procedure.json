@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019f5af1-e400-779e-aa80-a55576cad72b",
   "procedure_code": "1.115795",
   "title": "Thẩm định, phê duyệt phương án sử dụng đất",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019f5af1-e400-779e-aa80-a55576cad72b",
     "source_file": "chi-tiet-thu-tuc-1.115795.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.115795/chi-tiet-thu-tuc-1.115795.pdf",
     "page_count": 8,
-    "extracted_at": "2026-07-18T02:22:19.858918+00:00",
-    "source_updated_at": "2026-07-17T07:28:59.791Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:57:54.193481+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "afbabf080e6637ba8f6d5c58d9e66676dedad72c18ce7232a4e59bd7f1e3d484"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:19.858918+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2171/QĐ-UBND-DatDai",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đất đai",
   "target_users": [
@@ -35,10 +31,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Nông nghiệp và Môi trường tỉnh Đồng Tháp",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "+ Quầy số 14 - Số ĐT: 0273.3993896 Sở Nông nghiệp và Môi trường tại địa chỉ: số 377, Hùng Vương, phường Đạo Thạnh, tỉnh Đồng Tháp;\n  + Quầy số 09 - Số ĐT: 02773.898952 Lĩnh vực Đất đai tại địa chỉ: số 10, đường Lê Thị Riêng, phường Cao Lãnh, tỉnh Đồng Tháp;\n- Trung tâm Phục vụ hành chính công cấp xã;\n- Thủ tục hành chính thực hiện không phụ thuộc vào địa giới hành chính;\n - Thủ tục hành chính thực hiện tiếp nhận và trả kết quả qua dịch vụ bưu chính công ích;\n - Thủ tục hành chính thực hiện qua dịch vụ công trực tuyến (dichvucong.gov.vn)."
+    "executing_agency": "Sở Nông nghiệp và Môi trường tỉnh Đồng Tháp"
   },
   "steps": [
     {
@@ -46,80 +39,62 @@
       "title": "Bước 1",
       "description": "a) Bước 1: Công ty nông, lâm nghiệp nộp 1 bộ hồ sơ đến Trung tâm Phục vụ hành chính công các cấp hoặc Chi nhánh Văn phòng Đăng ký đất đai.\n- Khi nộp hồ sơ, công ty nông, lâm nghiệp được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\n- Chuyển hồ sơ đến cơ quan có chức năng quản lý đất đai cấp tỉnh.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "Bước 2",
       "description": "b) Bước 2: Cơ quan có chức năng quản lý đất đai cấp tỉnh gửi hồ sơ phương án sử dụng đất đến các sở, ban, ngành có liên quan và Ủy ban nhân dân cấp xã nơi có đất để lấy ý kiến và trình Chủ tịch Ủy ban nhân dân tỉnh thành lập Hội đồng thẩm định trong thời hạn không quá 04 ngày làm việc kể từ ngày nhận đủ hồ sơ phương án sử dụng đất của công ty nông, lâm nghiệp.\nThành phần Hội đồng thẩm định bao gồm: Chủ tịch Ủy ban nhân dân tỉnh hoặc 01 Phó Chủ tịch Ủy ban nhân dân tỉnh làm Chủ tịch Hội đồng, Thủ trưởng cơ quan có chức năng quản lý đất đai cấp tỉnh làm Phó Chủ tịch Hội đồng, các thành viên là đại diện lãnh đạo các sở, ban, ngành có liên quan, đại diện lãnh đạo Ủy ban nhân dân cấp xã nơi có đất.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 3,
       "title": "Bước 3",
       "description": "c) Bước 3: Các sở, ban, ngành có liên quan và Ủy ban nhân dân cấp xã nơi có đất gửi ý kiến bằng văn bản đến cơ quan có chức năng quản lý đất đai cấp tỉnh trong thời hạn không quá 10 ngày kể từ ngày nhận được hồ sơ lấy ý kiến.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 4,
       "title": "Bước 4",
       "description": "d) Bước 4: Cơ quan có chức năng quản lý đất đai cấp tỉnh thực hiện như sau:\nTổ chức họp Hội đồng để thẩm định trong thời hạn không quá 03 ngày làm việc kể từ ngày kết thúc thời hạn lấy ý kiến.\nTrường hợp hồ sơ phương án sử dụng đất của công ty nông, lâm nghiệp không phải chỉnh sửa: trình Chủ tịch Ủy ban nhân dân tỉnh phê duyệt trong thời hạn không quá 02 ngày làm việc kể từ ngày thẩm định.\nTrường hợp hồ sơ phương án sử dụng đất của công ty nông, lâm nghiệp phải chỉnh sửa:\n+ Thông báo cho công ty nông, lâm nghiệp để hoàn thiện hồ sơ trong thời hạn không quá 03 ngày làm việc kể từ ngày thẩm định, nếu hồ sơ phương án sử dụng đất phải chỉnh sửa, bổ sung.\n+ Trình Chủ tịch Ủy ban nhân dân tỉnh phê duyệt phương án sử dụng đất trong thời hạn không quá 02 ngày làm việc kể từ ngày công ty nông, lâm nghiệp hoàn thiện hồ sơ.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 5,
       "title": "Bước 5",
       "description": "đ) Bước 5: Chủ tịch Ủy ban nhân dân tỉnh xem xét, phê duyệt phương án sử dụng đất trong thời hạn không quá 03 ngày làm việc kể từ ngày nhận được hồ sơ phương án sử dụng đất do cơ quan có chức năng quản lý đất đai cấp tỉnh trình.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Văn bản đề nghị thẩm định, phê duyệt phương án sử dụng đất",
-        "code": "Mẫu số 23_73/2026/QĐ-UBND",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019f4459-78be-728d-a966-e98654a2a971",
-            "name": "Mau so 23_73_2026_QD-UBND.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau so 23_73_2026_QD-UBND.docx",
+        "source_page": 2
       },
       {
         "name": "+ Phương án sử dụng đất; nội dung phương án sử dụng đất gồm: Căn cứ lập phương án sử dụng đất. Phân tích, đánh giá về điều kiện tự nhiên, kinh tế - xã hội, quốc phòng, an ninh. Định hướng sử dụng đất, phương hướng nhiệm vụ, phương án sản xuất, kinh doanh cụ thể của công ty nông, lâm nghiệp. Đánh giá tác động của phương án sử dụng đất đến kinh tế - xã hội, môi trường, quốc phòng, an ninh và phương án sản xuất, kinh doanh. Các giải pháp tổ chức thực hiện đối với phần diện tích đất công ty nông, lâm nghiệp giữ lại. Xác định vị trí, ranh giới, diện tích đất, hiện trạng sử dụng đất khu vực đất bàn giao cho địa phương theo quy định tại điểm d khoản 1 Điều 181 Luật Đất đai. Thuyết minh phương án sử dụng đất.",
-        "code": "Phuongansudunddat_73_TT02",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Bản đồ địa chính có thể hiện ranh giới sử dụng đất hoặc hồ sơ ranh giới sử dụng đất của công ty nông, lâm nghiệp; bản tổng hợp diện tích các loại đất của công ty nông, lâm nghiệp",
-        "code": "TPHS_TT02_1.2_73DD",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Tài liệu khác có liên quan (nếu có)",
-        "code": "TPHS_TT02_1.3_73DD",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -130,64 +105,53 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "23 ngày làm việc",
-      "processing_time_value": 23,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Đối với các xã, phường thông thường; Không quá 23 ngày làm việc.",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "23 ngày làm việc",
-      "processing_time_value": 23,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Đối với các xã, phường thông thường; Không quá 23 ngày làm việc.",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "23 ngày làm việc",
-      "processing_time_value": 23,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Đối với các xã, phường thông thường; Không quá 23 ngày làm việc.",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "30 ngày làm việc",
-      "processing_time_value": 30,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Đối với các xã biên giới, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: Không quá 30 ngày làm việc",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "30 ngày làm việc",
-      "processing_time_value": 30,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Đối với các xã biên giới, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: Không quá 30 ngày làm việc",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "30 ngày làm việc",
-      "processing_time_value": 30,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Đối với các xã biên giới, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: Không quá 30 ngày làm việc",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -196,44 +160,37 @@
     {
       "title": "Nghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai.",
       "document_number": "102/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe8-0a00a8be7fd7",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
       "document_number": "118/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Luật Đất đai ngày 18/01/2024;",
       "document_number": "31/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b672-a3322a8748a6",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "sửa đổi, bổ\nsung một số điều của Nghị định 118/2025/NĐ-CP thực hiện thủ tục hành chính\ntheo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ\ncông quốc gia",
       "document_number": "367/2025/NĐ-CP",
-      "id": "019da523-7834-71ed-9461-2ac0a510544b",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "49/2026/NĐ-CP",
-      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
-      "document_number": "31/2024/QH15 ",
-      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
-      "source_page": null
+      "document_number": "31/2024/QH15",
+      "source_page": 7
     },
     {
       "title": "Về quy định trình tự, thủ tục hành chính lĩnh vực đất đai trên địa bàn tỉnh Đồng Tháp",
       "document_number": "73/2026/QĐ-UBND",
-      "id": "019f44dc-8233-77f8-9db1-9fc4f38f0872",
-      "source_page": null
+      "source_page": 7
     }
   ],
   "conditions": "",
@@ -241,15 +198,14 @@
     {
       "title": "Văn bản phê duyệt phương án sử dụng đất của Công ty nông, lâm nghiệp",
       "code": "KQ.TT02_73DD",
-      "id": "019d2bb2-1c6d-743d-a39d-84a88e3659f3",
-      "source_page": null
+      "source_page": 8
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "a) Bước 1: Công ty nông, lâm nghiệp nộp 1 bộ hồ sơ đến Trung tâm Phục vụ hành chính công các cấp hoặc Chi nhánh Văn phòng Đăng ký đất đai.\n- Khi nộp hồ sơ, công ty nông, lâm nghiệp được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\n- Chuyển hồ sơ đến cơ quan có chức năng quản lý đất đai cấp tỉnh.\nb) Bước 2: Cơ quan có chức năng quản lý đất đai cấp tỉnh gửi hồ sơ phương án sử dụng đất đến các sở, ban, ngành có liên quan và Ủy ban nhân dân cấp xã nơi có đất để lấy ý kiến và trình Chủ tịch Ủy ban nhân dân tỉnh thành lập Hội đồng thẩm định trong thời hạn không quá 04 ngày làm việc kể từ ngày nhận đủ hồ sơ phương án sử dụng đất của công ty nông, lâm nghiệp.\nThành phần Hội đồng thẩm định bao gồm: Chủ tịch Ủy ban nhân dân tỉnh hoặc 01 Phó Chủ tịch Ủy ban nhân dân tỉnh làm Chủ tịch Hội đồng, Thủ trưởng cơ quan có chức năng quản lý đất đai cấp tỉnh làm Phó Chủ tịch Hội đồng, các thành viên là đại diện lãnh đạo các sở, ban, ngành có liên quan, đại diện lãnh đạo Ủy ban nhân dân cấp xã nơi có đất.\nc) Bước 3: Các sở, ban, ngành có liên quan và Ủy ban nhân dân cấp xã nơi có đất gửi ý kiến bằng văn bản đến cơ quan có chức năng quản lý đất đai cấp tỉnh trong thời hạn không quá 10 ngày kể từ ngày nhận được hồ sơ lấy ý kiến.\nd) Bước 4: Cơ quan có chức năng quản lý đất đai cấp tỉnh thực hiện như sau:\nTổ chức họp Hội đồng để thẩm định trong thời hạn không quá 03 ngày làm việc kể từ ngày kết thúc thời hạn lấy ý kiến.\nTrường hợp hồ sơ phương án sử dụng đất của công ty nông, lâm nghiệp không phải chỉnh sửa: trình Chủ tịch Ủy ban nhân dân tỉnh phê duyệt trong thời hạn không quá 02 ngày làm việc kể từ ngày thẩm định.\nTrường hợp hồ sơ phương án sử dụng đất của công ty nông, lâm nghiệp phải chỉnh sửa:\n+ Thông báo cho công ty nông, lâm nghiệp để hoàn thiện hồ sơ trong thời hạn không quá 03 ngày làm việc kể từ ngày thẩm định, nếu hồ sơ phương án sử dụng đất phải chỉnh sửa, bổ sung.\n+ Trình Chủ tịch Ủy ban nhân dân tỉnh phê duyệt phương án sử dụng đất trong thời hạn không quá 02 ngày làm việc kể từ ngày công ty nông, lâm nghiệp hoàn thiện hồ sơ.\nđ) Bước 5: Chủ tịch Ủy ban nhân dân tỉnh xem xét, phê duyệt phương án sử dụng đất trong thời hạn không quá 03 ngày làm việc kể từ ngày nhận được hồ sơ phương án sử dụng đất do cơ quan có chức năng quản lý đất đai cấp tỉnh trình.",
-    "THÀNH PHẦN HỒ SƠ": "\nVăn bản đề nghị thẩm định, phê duyệt phương án sử dụng đất\n+ Phương án sử dụng đất; nội dung phương án sử dụng đất gồm: Căn cứ lập phương án sử dụng đất. Phân tích, đánh giá về điều kiện tự nhiên, kinh tế - xã hội, quốc phòng, an ninh. Định hướng sử dụng đất, phương hướng nhiệm vụ, phương án sản xuất, kinh doanh cụ thể của công ty nông, lâm nghiệp. Đánh giá tác động của phương án sử dụng đất đến kinh tế - xã hội, môi trường, quốc phòng, an ninh và phương án sản xuất, kinh doanh. Các giải pháp tổ chức thực hiện đối với phần diện tích đất công ty nông, lâm nghiệp giữ lại. Xác định vị trí, ranh giới, diện tích đất, hiện trạng sử dụng đất khu vực đất bàn giao cho địa phương theo quy định tại điểm d khoản 1 Điều 181 Luật Đất đai. Thuyết minh phương án sử dụng đất.\nBản đồ địa chính có thể hiện ranh giới sử dụng đất hoặc hồ sơ ranh giới sử dụng đất của công ty nông, lâm nghiệp; bản tổng hợp diện tích các loại đất của công ty nông, lâm nghiệp\nTài liệu khác có liên quan (nếu có)",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 23 ngày làm việc - Đối với các xã, phường thông thường; Không quá 23 ngày làm việc.\nTrực tuyến: 23 ngày làm việc - Đối với các xã, phường thông thường; Không quá 23 ngày làm việc.\nQua dịch vụ bưu chính: 23 ngày làm việc - Đối với các xã, phường thông thường; Không quá 23 ngày làm việc.\nTrực tiếp: 30 ngày làm việc - Đối với các xã biên giới, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: Không quá 30 ngày làm việc\nTrực tuyến: 30 ngày làm việc - Đối với các xã biên giới, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: Không quá 30 ngày làm việc\nQua dịch vụ bưu chính: 30 ngày làm việc - Đối với các xã biên giới, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: Không quá 30 ngày làm việc",
-    "CĂN CỨ PHÁP LÝ": "Nghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai. - 102/2024/NĐ-CP\nNghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nLuật Đất đai ngày 18/01/2024; - 31/2024/QH15\nsửa đổi, bổ\nsung một số điều của Nghị định 118/2025/NĐ-CP thực hiện thủ tục hành chính\ntheo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ\ncông quốc gia - 367/2025/NĐ-CP\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15 \nVề quy định trình tự, thủ tục hành chính lĩnh vực đất đai trên địa bàn tỉnh Đồng Tháp - 73/2026/QĐ-UBND",
+    "THÀNH PHẦN HỒ SƠ": "Văn bản đề nghị thẩm định, phê duyệt phương án sử dụng đất\n+ Phương án sử dụng đất; nội dung phương án sử dụng đất gồm: Căn cứ lập phương án sử dụng đất. Phân tích, đánh giá về điều kiện tự nhiên, kinh tế - xã hội, quốc phòng, an ninh. Định hướng sử dụng đất, phương hướng nhiệm vụ, phương án sản xuất, kinh doanh cụ thể của công ty nông, lâm nghiệp. Đánh giá tác động của phương án sử dụng đất đến kinh tế - xã hội, môi trường, quốc phòng, an ninh và phương án sản xuất, kinh doanh. Các giải pháp tổ chức thực hiện đối với phần diện tích đất công ty nông, lâm nghiệp giữ lại. Xác định vị trí, ranh giới, diện tích đất, hiện trạng sử dụng đất khu vực đất bàn giao cho địa phương theo quy định tại điểm d khoản 1 Điều 181 Luật Đất đai. Thuyết minh phương án sử dụng đất.\nBản đồ địa chính có thể hiện ranh giới sử dụng đất hoặc hồ sơ ranh giới sử dụng đất của công ty nông, lâm nghiệp; bản tổng hợp diện tích các loại đất của công ty nông, lâm nghiệp\nTài liệu khác có liên quan (nếu có)",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 23 ngày làm việc\nTrực tuyến: 23 ngày làm việc\nQua dịch vụ bưu chính: 23 ngày làm việc\nTrực tiếp: 30 ngày làm việc\nTrực tuyến: 30 ngày làm việc\nQua dịch vụ bưu chính: 30 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "Nghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai. - 102/2024/NĐ-CP\nNghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nLuật Đất đai ngày 18/01/2024; - 31/2024/QH15\nsửa đổi, bổ\nsung một số điều của Nghị định 118/2025/NĐ-CP thực hiện thủ tục hành chính\ntheo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ\ncông quốc gia - 367/2025/NĐ-CP\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15\nVề quy định trình tự, thủ tục hành chính lĩnh vực đất đai trên địa bàn tỉnh Đồng Tháp - 73/2026/QĐ-UBND",
     "CƠ QUAN THỰC HIỆN": "Sở Nông nghiệp và Môi trường tỉnh Đồng Tháp",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
     "KẾT QUẢ XỬ LÝ": "Văn bản phê duyệt phương án sử dụng đất của Công ty nông, lâm nghiệp - KQ.TT02_73DD",
@@ -257,14 +213,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đất đai",
-      "slug": "dat-dai"
+      "slug": "at-ai"
     },
     "implementation_levels": [
       {
@@ -281,9 +232,9 @@
     "agencies": [
       {
         "name": "Sở Nông nghiệp và Môi trường tỉnh Đồng Tháp",
-        "slug": "so-nong-nghiep-va-moi-truong-tinh-dong-thap"
+        "slug": "so-nong-nghiep-va-moi-truong-tinh-ong-thap"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "non_territorial"
   }
 }

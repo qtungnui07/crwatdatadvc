@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019dd367-4340-7645-8cbf-ad612bf06442",
   "procedure_code": "1.015001",
   "title": "Thủ tục xử lý đơn La Hay có chỉ định Việt Nam",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019dd367-4340-7645-8cbf-ad612bf06442",
     "source_file": "chi-tiet-thu-tuc-1.015001.pdf",
     "source_path": "procedures/viec-lam/1.015001/chi-tiet-thu-tuc-1.015001.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:15.840549+00:00",
-    "source_updated_at": "2026-05-20T02:53:54.952Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:53.356166+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "c51cfa01dfa044dd97190c0e77e06830746c4bc0b58ed7d2277c004c8c57b5c0"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:15.840549+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2113/QĐ-BKHCN",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Sở hữu trí tuệ",
   "target_users": [
@@ -46,18 +42,29 @@
   ],
   "agency": {
     "competent_agency": "Bộ Khoa học và Công nghệ",
-    "executing_agency": "Cục Sở hữu trí tuệ",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Văn phòng quốc tế của Cơ quan Sở hữu trí tuệ thế giới (WIPO)"
+    "executing_agency": "Cục Sở hữu trí tuệ"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Tiếp nhận hồ sơ\nĐơn đăng ký quốc tế kiểu dáng công nghiệp nộp theo Thỏa ước La Hay có chỉ định Việt Nam sẽ được Cục SHTT tải về từ Công báo trực tuyến đơn đăng ký quốc tế kiểu dáng công nghiệp của Văn phòng quốc tế (WIPO).\nBước 2: Xử lý hồ sơ\nSau khi nhận được thông báo của Văn phòng quốc tế về đơn La Hay có chỉ định Việt Nam, Cục Sở hữu trí tuệ tiến hành thẩm định nội dung như đối với đơn đăng ký kiểu dáng công nghiệp nộp theo thể thức quốc gia để đánh giá khả năng được bảo hộ của đối tượng nêu trong đơn theo các điều kiện bảo hộ, qua đó xác định phạm vi bảo hộ tương ứng.\nBước 3: Ra quyết định chấp nhận bảo hộ/thông báo từ chối\nbảo hộ kiểu dáng công nghiệp đăng ký quốc tế tại Việt Nam \n+ Trường hợp kiểu dáng công nghiệp trong đơn đáp ứng điều kiện bảo hộ theo quy định của pháp luật Việt Nam và đơn không có thiếu sót, trước khi kết thúc thời hạn 06 tháng kể từ ngày đơn La hay được Văn phòng quốc tế công bố, Cục Sở hữu trí tuệ ra quyết định chấp nhận bảo hộ kiểu dáng công nghiệp đăng ký quốc tế trong đơn, ghi nhận vào Sổ đăng ký quốc gia về sở hữu công nghiệp (Phần Kiểu dáng công nghiệp đăng ký quốc tế), gửi Văn phòng quốc tế tuyên bố chấp nhận bảo hộ cho kiểu dáng công nghiệp đăng ký quốc tế và công bố quyết định trên Công\nbáo Sở hữu công nghiệp trong thời hạn 01 tháng kể từ ngày ra quyết định.\n+ Trường hợp kiểu dáng công nghiệp trong đơn không đáp ứng điều kiện bảo hộ hoặc đơn còn thiếu sót (thiếu ảnh chụp/bản vẽ khiến bộ ảnh chụp/bản vẽ không bộc lộ đầy đủ các đặc điểm tạo dáng của kiểu dáng công nghiệp hoặc đăng ký quốc tế không đáp ứng các tuyên bố của Việt Nam hoặc có thông tin cần phải xác minh v.v…) trước khi kết thúc thời hạn 06 tháng kể từ ngày đơn La hay được Văn phòng quốc tế công bố, Cục Sở hữu trí tuệ ra thông báo từ chối, trong đó nêu rõ nội dung và lý do từ chối và gửi thông báo đó cho Văn phòng quốc tế.\n+ Trường hợp một số kiểu dáng công nghiệp đăng ký không đáp ứng điều kiện bảo hộ hoặc đơn còn có thiếu sót đối với một số kiểu dáng (thiếu ảnh chụp/bản vẽ khiến bộ ảnh chụp/bản vẽ không bộc lộ đầy đủ các điều kiện tạo dáng của kiểu dáng công nghiệp hoặc đăng ký quốc tế không đáp ứng các tuyên bố của Việt Nam hoặc có thông tin cần phải xác minh v.v…) trước khi kết thúc thời hạn 06 tháng kể từ ngày đơn La hay được Văn phòng quốc tế công bố, Cục Sở hữu trí tuệ thực hiện các thủ tục sau:\n(i) Ra thông báo từ chối đối với kiểu dáng công nghiệp không đáp ứng điều kiện bảo hộ hoặc còn thiếu sót, trong đó nêu rõ nội dung và lý do từ chối và gửi thông báo đó cho Văn phòng quốc tế;\n(ii) Ra quyết định chấp nhận bảo hộ đối với các kiểu dáng công nghiệp đáp ứng điều kiện bảo hộ và không có thiếu sót, ghi nhận vào Sổ đăng ký quốc gia về sở hữu công nghiệp (Phần Kiểu dáng công nghiệp đăng ký quốc tế) và gửi cho Văn phòng quốc tế tuyên bố trong đó chỉ rõ kiểu dáng công nghiệp được chấp nhận bảo hộ và công bố quyết định trên Công báo Sở hữu công nghiệp trong thời hạn 01 tháng kể từ ngày ra quyết định.",
+      "description": "Bước 1: Tiếp nhận hồ sơ\nĐơn đăng ký quốc tế kiểu dáng công nghiệp nộp theo Thỏa ước La Hay có chỉ định Việt Nam sẽ được Cục SHTT tải về từ Công báo trực tuyến đơn đăng ký quốc tế kiểu dáng công nghiệp của Văn phòng quốc tế (WIPO).",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Xử lý hồ sơ\nSau khi nhận được thông báo của Văn phòng quốc tế về đơn La Hay có chỉ định Việt Nam, Cục Sở hữu trí tuệ tiến hành thẩm định nội dung như đối với đơn đăng ký kiểu dáng công nghiệp nộp theo thể thức quốc gia để đánh giá khả năng được bảo hộ của đối tượng nêu trong đơn theo các điều kiện bảo hộ, qua đó xác định phạm vi bảo hộ tương ứng.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Ra quyết định chấp nhận bảo hộ/thông báo từ chối\nbảo hộ kiểu dáng công nghiệp đăng ký quốc tế tại Việt Nam \n+ Trường hợp kiểu dáng công nghiệp trong đơn đáp ứng điều kiện bảo hộ theo quy định của pháp luật Việt Nam và đơn không có thiếu sót, trước khi kết thúc thời hạn 06 tháng kể từ ngày đơn La hay được Văn phòng quốc tế công bố, Cục Sở hữu trí tuệ ra quyết định chấp nhận bảo hộ kiểu dáng công nghiệp đăng ký quốc tế trong đơn, ghi nhận vào Sổ đăng ký quốc gia về sở hữu công nghiệp (Phần Kiểu dáng công nghiệp đăng ký quốc tế), gửi Văn phòng quốc tế tuyên bố chấp nhận bảo hộ cho kiểu dáng công nghiệp đăng ký quốc tế và công bố quyết định trên Công\nbáo Sở hữu công nghiệp trong thời hạn 01 tháng kể từ ngày ra quyết định.\n+ Trường hợp kiểu dáng công nghiệp trong đơn không đáp ứng điều kiện bảo hộ hoặc đơn còn thiếu sót (thiếu ảnh chụp/bản vẽ khiến bộ ảnh chụp/bản vẽ không bộc lộ đầy đủ các đặc điểm tạo dáng của kiểu dáng công nghiệp hoặc đăng ký quốc tế không đáp ứng các tuyên bố của Việt Nam hoặc có thông tin cần phải xác minh v.v…) trước khi kết thúc thời hạn 06 tháng kể từ ngày đơn La hay được Văn phòng quốc tế công bố, Cục Sở hữu trí tuệ ra thông báo từ chối, trong đó nêu rõ nội dung và lý do từ chối và gửi thông báo đó cho Văn phòng quốc tế.\n+ Trường hợp một số kiểu dáng công nghiệp đăng ký không đáp ứng điều kiện bảo hộ hoặc đơn còn có thiếu sót đối với một số kiểu dáng (thiếu ảnh chụp/bản vẽ khiến bộ ảnh chụp/bản vẽ không bộc lộ đầy đủ các điều kiện tạo dáng của kiểu dáng công nghiệp hoặc đăng ký quốc tế không đáp ứng các tuyên bố của Việt Nam hoặc có thông tin cần phải xác minh v.v…) trước khi kết thúc thời hạn 06 tháng kể từ ngày đơn La hay được Văn phòng quốc tế công bố, Cục Sở hữu trí tuệ thực hiện các thủ tục sau:\n(i) Ra thông báo từ chối đối với kiểu dáng công nghiệp không đáp ứng điều kiện bảo hộ hoặc còn thiếu sót, trong đó nêu rõ nội dung và lý do từ chối và gửi thông báo đó cho Văn phòng quốc tế;\n(ii) Ra quyết định chấp nhận bảo hộ đối với các kiểu dáng công nghiệp đáp ứng điều kiện bảo hộ và không có thiếu sót, ghi nhận vào Sổ đăng ký quốc gia về sở hữu công nghiệp (Phần Kiểu dáng công nghiệp đăng ký quốc tế) và gửi cho Văn phòng quốc tế tuyên bố trong đó chỉ rõ kiểu dáng công nghiệp được chấp nhận bảo hộ và công bố quyết định trên Công báo Sở hữu công nghiệp trong thời hạn 01 tháng kể từ ngày ra quyết định.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
@@ -70,87 +77,52 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "180 ngày",
-      "processing_time_value": 180,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": null,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Theo yêu cầu của quy tắc số 7 Quy chế thi hành chung Thỏa ước La Hay",
-          "attachment": null
-        }
-      ],
-      "description": "Trong thời hạn 06 tháng kể từ ngày Văn phòng quốc tế ra thông báo về việc đơn có chỉ định Việt Nam, Cục Sở hữu trí tuệ ra kết luận về khả năng bảo hộ của kiểu dáng công nghiệp.\n",
-      "source_page": null
+      "fee": "Theo yêu cầu của quy tắc số 7 Quy chế thi hành chung Thỏa ước La Hay",
+      "description": "Trong thời hạn 06 tháng kể từ ngày Văn phòng quốc tế ra thông báo về việc đơn có chỉ định Việt Nam, Cục Sở hữu trí tuệ ra kết luận về khả năng bảo hộ của kiểu dáng công nghiệp.",
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "180 ngày",
-      "processing_time_value": 180,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": null,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Theo yêu cầu của quy tắc số 7 Quy chế thi hành chung Thỏa ước La Hay",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo yêu cầu của quy tắc số 7 Quy chế thi hành chung Thỏa ước La Hay",
       "description": "Trong thời hạn 06 tháng kể từ ngày Văn phòng quốc tế ra thông báo về việc đơn có chỉ định Việt Nam, Cục Sở hữu trí tuệ ra kết luận về khả năng bảo hộ của kiểu dáng công nghiệp.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "180 ngày",
-      "processing_time_value": 180,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": null,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Theo yêu cầu của quy tắc số 7 Quy chế thi hành chung Thỏa ước La Hay",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo yêu cầu của quy tắc số 7 Quy chế thi hành chung Thỏa ước La Hay",
       "description": "Trong thời hạn 06 tháng kể từ ngày Văn phòng quốc tế ra thông báo về việc đơn có chỉ định Việt Nam, Cục Sở hữu trí tuệ ra kết luận về khả năng bảo hộ của kiểu dáng công nghiệp.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Theo yêu cầu của quy tắc số 7 Quy chế thi hành chung Thỏa ước La Hay",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": null,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Theo yêu cầu của quy tắc số 7 Quy chế thi hành chung Thỏa ước La Hay",
-        "attachment": null
+        "amount_text": "Theo yêu cầu của quy tắc số 7 Quy chế thi hành chung Thỏa ước La Hay",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": null,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Theo yêu cầu của quy tắc số 7 Quy chế thi hành chung Thỏa ước La Hay",
-        "attachment": null
+        "amount_text": "Theo yêu cầu của quy tắc số 7 Quy chế thi hành chung Thỏa ước La Hay",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": null,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Theo yêu cầu của quy tắc số 7 Quy chế thi hành chung Thỏa ước La Hay",
-        "attachment": null
+        "amount_text": "Theo yêu cầu của quy tắc số 7 Quy chế thi hành chung Thỏa ước La Hay",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -158,66 +130,54 @@
     {
       "title": "Luật số 93/2025/QH15 của Quốc hội: Luật Khoa học, công nghệ và đổi mới sáng tạo",
       "document_number": "93/2025/QH15",
-      "id": "019d2bb3-5d85-73da-8eba-0eadc81b4d09",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ, Nghị định số 65/2023/NĐ-CP ngày 23 tháng 8 năm 2023 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ được sửa đổi, bổ sung bởi Nghị định số 15/2026/NĐ-CP ngày 14 tháng 01 năm 2026, Nghị định số 33/2026/NĐ-CP ngày 21 tháng 01 năm 2026 và Nghị định số 100/2026/NĐ-CP ngày 31 tháng 3 năm 2026",
       "document_number": "10/2026/TT-BKHCN",
-      "id": "019dd361-4bd6-70fd-8f79-a127b21d8356",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ",
       "document_number": "131/2025/QH15",
-      "id": "019d2bb3-5d85-73da-8eb8-25486605b48c",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư số 263/2016/TT-BTC ngày 14/11/2016 quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí sở hữu công nghiệp, được sửa đổi, bổ sung theo Thông tư số 31/2020/TT-BTC ngày 04/5/2020",
       "document_number": "Thông tư số 263/2016/TT-BTC",
-      "id": "019d9477-7cfb-761d-b535-970d8620a742",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ được sửa đổi, bổ sung bởi các  Nghị định số 15/2026/NĐ-CP ngày 14 tháng 01 năm 2026, Nghị định số 33/2026/NĐ-CP ngày 21 tháng 01 năm 2026 và Nghị định số 100/2026/NĐ-CP ngày 31 tháng 3 năm 2026",
-      "document_number": "65/2023/NĐ-CP ",
-      "id": "019d2bb3-5d7f-719e-b470-10680c4760e9",
-      "source_page": null
+      "document_number": "65/2023/NĐ-CP",
+      "source_page": 4
     },
     {
       "title": "- Luật Sở hữu trí tuệ số 50/2005/QH11 ngày 29/11/2005, được sửa đổi, bổ sung theo các Luật số 36/2009/QH12 ngày 19/6/2009, Luật số 42/2019/QH14 ngày 14/6/2019 và Luật số 07/2022/QH15 ngày 16/6/2022;",
       "document_number": "Luật Sở hữu trí tuệ số 07/2022/QH15",
-      "id": "019d9476-94a0-73b3-a90e-156b092b0c5a",
-      "source_page": null
+      "source_page": 4
     }
   ],
-  "conditions": "- Tổ chức, cá nhân đáp ứng các điều kiện sau có quyền đăng ký kiểu dáng công nghiệp:\n+ Tác giả tạo ra kiểu dáng công nghiệp bằng công sức và chi phí của mình;\n+ Tổ chức, cá nhân đầu tư kinh phí, phương tiện vật chất cho tác giả dưới hình thức giao việc, thuê việc, trừ trường hợp các bên có thỏa thuận khác;\n+ Trường hợp nhiều tổ chức, cá nhân cùng nhau tạo ra hoặc đầu tư để tạo ra kiểu dáng công nghiệp thì các tổ chức, cá nhân đó đều có quyền đăng ký và quyền đăng ký đó chỉ được thực hiện nếu được tất cả các tổ chức, cá nhân đó đồng ý;\n+ Tổ chức, cá nhân được chuyển giao quyền đăng ký từ tổ chức, cá nhân có quyền đăng ký quy định dưới hình thức hợp đồng bằng văn bản, để thừa kế hoặc kế thừa theo quy định của pháp luật, kể cả trường hợp đã nộp đơn đăng ký;\n+ Tổ chức được giao quyền quản lý, sử dụng, quyền sở hữu kết quả của nhiệm vụ khoa học, công nghệ và đổi mới sáng tạo sử dụng ngân sách nhà nước theo quy định của pháp luật về khoa học, công nghệ và đổi mới sáng tạo.\n- Cá nhân/tổ chức là công dân hoặc thường trú hoặc có cơ sở sản xuất, kinh doanh tại các quốc gia thành viên của Thỏa ước La Hay.\n- Người nộp đơn nộp đủ các khoản phí, lệ phí theo quy định\n",
+  "conditions": "- Tổ chức, cá nhân đáp ứng các điều kiện sau có quyền đăng ký kiểu dáng công nghiệp:\n+ Tác giả tạo ra kiểu dáng công nghiệp bằng công sức và chi phí của mình;\n+ Tổ chức, cá nhân đầu tư kinh phí, phương tiện vật chất cho tác giả dưới hình thức giao việc, thuê việc, trừ trường hợp các bên có thỏa thuận khác;\n+ Trường hợp nhiều tổ chức, cá nhân cùng nhau tạo ra hoặc đầu tư để tạo ra kiểu dáng công nghiệp thì các tổ chức, cá nhân đó đều có quyền đăng ký và quyền đăng ký đó chỉ được thực hiện nếu được tất cả các tổ chức, cá nhân đó đồng ý;\n+ Tổ chức, cá nhân được chuyển giao quyền đăng ký từ tổ chức, cá nhân có quyền đăng ký quy định dưới hình thức hợp đồng bằng văn bản, để thừa kế hoặc kế thừa theo quy định của pháp luật, kể cả trường hợp đã nộp đơn đăng ký;\n+ Tổ chức được giao quyền quản lý, sử dụng, quyền sở hữu kết quả của nhiệm vụ khoa học, công nghệ và đổi mới sáng tạo sử dụng ngân sách nhà nước theo quy định của pháp luật về khoa học, công nghệ và đổi mới sáng tạo.\n- Cá nhân/tổ chức là công dân hoặc thường trú hoặc có cơ sở sản xuất, kinh doanh tại các quốc gia thành viên của Thỏa ước La Hay.\n- Người nộp đơn nộp đủ các khoản phí, lệ phí theo quy định",
   "results": [
     {
       "title": "Quyết định chấp nhận bảo hộ kiểu dáng công nghiệp đăng ký quốc tế tại Việt Nam",
       "code": "KQ-G06.19-015001",
-      "id": "019dd365-dcb6-77cb-b61c-ea5651e8e043",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Bước 1: Tiếp nhận hồ sơ\nĐơn đăng ký quốc tế kiểu dáng công nghiệp nộp theo Thỏa ước La Hay có chỉ định Việt Nam sẽ được Cục SHTT tải về từ Công báo trực tuyến đơn đăng ký quốc tế kiểu dáng công nghiệp của Văn phòng quốc tế (WIPO).\nBước 2: Xử lý hồ sơ\nSau khi nhận được thông báo của Văn phòng quốc tế về đơn La Hay có chỉ định Việt Nam, Cục Sở hữu trí tuệ tiến hành thẩm định nội dung như đối với đơn đăng ký kiểu dáng công nghiệp nộp theo thể thức quốc gia để đánh giá khả năng được bảo hộ của đối tượng nêu trong đơn theo các điều kiện bảo hộ, qua đó xác định phạm vi bảo hộ tương ứng.\nBước 3: Ra quyết định chấp nhận bảo hộ/thông báo từ chối\nbảo hộ kiểu dáng công nghiệp đăng ký quốc tế tại Việt Nam \n+ Trường hợp kiểu dáng công nghiệp trong đơn đáp ứng điều kiện bảo hộ theo quy định của pháp luật Việt Nam và đơn không có thiếu sót, trước khi kết thúc thời hạn 06 tháng kể từ ngày đơn La hay được Văn phòng quốc tế công bố, Cục Sở hữu trí tuệ ra quyết định chấp nhận bảo hộ kiểu dáng công nghiệp đăng ký quốc tế trong đơn, ghi nhận vào Sổ đăng ký quốc gia về sở hữu công nghiệp (Phần Kiểu dáng công nghiệp đăng ký quốc tế), gửi Văn phòng quốc tế tuyên bố chấp nhận bảo hộ cho kiểu dáng công nghiệp đăng ký quốc tế và công bố quyết định trên Công\nbáo Sở hữu công nghiệp trong thời hạn 01 tháng kể từ ngày ra quyết định.\n+ Trường hợp kiểu dáng công nghiệp trong đơn không đáp ứng điều kiện bảo hộ hoặc đơn còn thiếu sót (thiếu ảnh chụp/bản vẽ khiến bộ ảnh chụp/bản vẽ không bộc lộ đầy đủ các đặc điểm tạo dáng của kiểu dáng công nghiệp hoặc đăng ký quốc tế không đáp ứng các tuyên bố của Việt Nam hoặc có thông tin cần phải xác minh v.v…) trước khi kết thúc thời hạn 06 tháng kể từ ngày đơn La hay được Văn phòng quốc tế công bố, Cục Sở hữu trí tuệ ra thông báo từ chối, trong đó nêu rõ nội dung và lý do từ chối và gửi thông báo đó cho Văn phòng quốc tế.\n+ Trường hợp một số kiểu dáng công nghiệp đăng ký không đáp ứng điều kiện bảo hộ hoặc đơn còn có thiếu sót đối với một số kiểu dáng (thiếu ảnh chụp/bản vẽ khiến bộ ảnh chụp/bản vẽ không bộc lộ đầy đủ các điều kiện tạo dáng của kiểu dáng công nghiệp hoặc đăng ký quốc tế không đáp ứng các tuyên bố của Việt Nam hoặc có thông tin cần phải xác minh v.v…) trước khi kết thúc thời hạn 06 tháng kể từ ngày đơn La hay được Văn phòng quốc tế công bố, Cục Sở hữu trí tuệ thực hiện các thủ tục sau:\n(i) Ra thông báo từ chối đối với kiểu dáng công nghiệp không đáp ứng điều kiện bảo hộ hoặc còn thiếu sót, trong đó nêu rõ nội dung và lý do từ chối và gửi thông báo đó cho Văn phòng quốc tế;\n(ii) Ra quyết định chấp nhận bảo hộ đối với các kiểu dáng công nghiệp đáp ứng điều kiện bảo hộ và không có thiếu sót, ghi nhận vào Sổ đăng ký quốc gia về sở hữu công nghiệp (Phần Kiểu dáng công nghiệp đăng ký quốc tế) và gửi cho Văn phòng quốc tế tuyên bố trong đó chỉ rõ kiểu dáng công nghiệp được chấp nhận bảo hộ và công bố quyết định trên Công báo Sở hữu công nghiệp trong thời hạn 01 tháng kể từ ngày ra quyết định.",
-    "THÀNH PHẦN HỒ SƠ": "\n",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 180 ngày - Trong thời hạn 06 tháng kể từ ngày Văn phòng quốc tế ra thông báo về việc đơn có chỉ định Việt Nam, Cục Sở hữu trí tuệ ra kết luận về khả năng bảo hộ của kiểu dáng công nghiệp.\n\nTrực tuyến: 180 ngày - Trong thời hạn 06 tháng kể từ ngày Văn phòng quốc tế ra thông báo về việc đơn có chỉ định Việt Nam, Cục Sở hữu trí tuệ ra kết luận về khả năng bảo hộ của kiểu dáng công nghiệp.\nQua dịch vụ bưu chính: 180 ngày - Trong thời hạn 06 tháng kể từ ngày Văn phòng quốc tế ra thông báo về việc đơn có chỉ định Việt Nam, Cục Sở hữu trí tuệ ra kết luận về khả năng bảo hộ của kiểu dáng công nghiệp.",
-    "CĂN CỨ PHÁP LÝ": "Luật số 93/2025/QH15 của Quốc hội: Luật Khoa học, công nghệ và đổi mới sáng tạo - 93/2025/QH15\nQuy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ, Nghị định số 65/2023/NĐ-CP ngày 23 tháng 8 năm 2023 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ được sửa đổi, bổ sung bởi Nghị định số 15/2026/NĐ-CP ngày 14 tháng 01 năm 2026, Nghị định số 33/2026/NĐ-CP ngày 21 tháng 01 năm 2026 và Nghị định số 100/2026/NĐ-CP ngày 31 tháng 3 năm 2026 - 10/2026/TT-BKHCN\nsửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ - 131/2025/QH15\nThông tư số 263/2016/TT-BTC ngày 14/11/2016 quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí sở hữu công nghiệp, được sửa đổi, bổ sung theo Thông tư số 31/2020/TT-BTC ngày 04/5/2020 - Thông tư số 263/2016/TT-BTC\nQuy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ được sửa đổi, bổ sung bởi các  Nghị định số 15/2026/NĐ-CP ngày 14 tháng 01 năm 2026, Nghị định số 33/2026/NĐ-CP ngày 21 tháng 01 năm 2026 và Nghị định số 100/2026/NĐ-CP ngày 31 tháng 3 năm 2026 - 65/2023/NĐ-CP \n- Luật Sở hữu trí tuệ số 50/2005/QH11 ngày 29/11/2005, được sửa đổi, bổ sung theo các Luật số 36/2009/QH12 ngày 19/6/2009, Luật số 42/2019/QH14 ngày 14/6/2019 và Luật số 07/2022/QH15 ngày 16/6/2022; - Luật Sở hữu trí tuệ số 07/2022/QH15",
+    "THÀNH PHẦN HỒ SƠ": "",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 180 ngày\nTrực tuyến: 180 ngày\nQua dịch vụ bưu chính: 180 ngày",
+    "CĂN CỨ PHÁP LÝ": "Luật số 93/2025/QH15 của Quốc hội: Luật Khoa học, công nghệ và đổi mới sáng tạo - 93/2025/QH15\nQuy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ, Nghị định số 65/2023/NĐ-CP ngày 23 tháng 8 năm 2023 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ được sửa đổi, bổ sung bởi Nghị định số 15/2026/NĐ-CP ngày 14 tháng 01 năm 2026, Nghị định số 33/2026/NĐ-CP ngày 21 tháng 01 năm 2026 và Nghị định số 100/2026/NĐ-CP ngày 31 tháng 3 năm 2026 - 10/2026/TT-BKHCN\nsửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ - 131/2025/QH15\nThông tư số 263/2016/TT-BTC ngày 14/11/2016 quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí sở hữu công nghiệp, được sửa đổi, bổ sung theo Thông tư số 31/2020/TT-BTC ngày 04/5/2020 - Thông tư số 263/2016/TT-BTC\nQuy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về sở hữu công nghiệp, bảo vệ quyền sở hữu công nghiệp, quyền đối với giống cây trồng và quản lý nhà nước về sở hữu trí tuệ được sửa đổi, bổ sung bởi các  Nghị định số 15/2026/NĐ-CP ngày 14 tháng 01 năm 2026, Nghị định số 33/2026/NĐ-CP ngày 21 tháng 01 năm 2026 và Nghị định số 100/2026/NĐ-CP ngày 31 tháng 3 năm 2026 - 65/2023/NĐ-CP\n- Luật Sở hữu trí tuệ số 50/2005/QH11 ngày 29/11/2005, được sửa đổi, bổ sung theo các Luật số 36/2009/QH12 ngày 19/6/2009, Luật số 42/2019/QH14 ngày 14/6/2019 và Luật số 07/2022/QH15 ngày 16/6/2022; - Luật Sở hữu trí tuệ số 07/2022/QH15",
     "CƠ QUAN THỰC HIỆN": "Cục Sở hữu trí tuệ",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "- Tổ chức, cá nhân đáp ứng các điều kiện sau có quyền đăng ký kiểu dáng công nghiệp:\n+ Tác giả tạo ra kiểu dáng công nghiệp bằng công sức và chi phí của mình;\n+ Tổ chức, cá nhân đầu tư kinh phí, phương tiện vật chất cho tác giả dưới hình thức giao việc, thuê việc, trừ trường hợp các bên có thỏa thuận khác;\n+ Trường hợp nhiều tổ chức, cá nhân cùng nhau tạo ra hoặc đầu tư để tạo ra kiểu dáng công nghiệp thì các tổ chức, cá nhân đó đều có quyền đăng ký và quyền đăng ký đó chỉ được thực hiện nếu được tất cả các tổ chức, cá nhân đó đồng ý;\n+ Tổ chức, cá nhân được chuyển giao quyền đăng ký từ tổ chức, cá nhân có quyền đăng ký quy định dưới hình thức hợp đồng bằng văn bản, để thừa kế hoặc kế thừa theo quy định của pháp luật, kể cả trường hợp đã nộp đơn đăng ký;\n+ Tổ chức được giao quyền quản lý, sử dụng, quyền sở hữu kết quả của nhiệm vụ khoa học, công nghệ và đổi mới sáng tạo sử dụng ngân sách nhà nước theo quy định của pháp luật về khoa học, công nghệ và đổi mới sáng tạo.\n- Cá nhân/tổ chức là công dân hoặc thường trú hoặc có cơ sở sản xuất, kinh doanh tại các quốc gia thành viên của Thỏa ước La Hay.\n- Người nộp đơn nộp đủ các khoản phí, lệ phí theo quy định\n",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "- Tổ chức, cá nhân đáp ứng các điều kiện sau có quyền đăng ký kiểu dáng công nghiệp:\n+ Tác giả tạo ra kiểu dáng công nghiệp bằng công sức và chi phí của mình;\n+ Tổ chức, cá nhân đầu tư kinh phí, phương tiện vật chất cho tác giả dưới hình thức giao việc, thuê việc, trừ trường hợp các bên có thỏa thuận khác;\n+ Trường hợp nhiều tổ chức, cá nhân cùng nhau tạo ra hoặc đầu tư để tạo ra kiểu dáng công nghiệp thì các tổ chức, cá nhân đó đều có quyền đăng ký và quyền đăng ký đó chỉ được thực hiện nếu được tất cả các tổ chức, cá nhân đó đồng ý;\n+ Tổ chức, cá nhân được chuyển giao quyền đăng ký từ tổ chức, cá nhân có quyền đăng ký quy định dưới hình thức hợp đồng bằng văn bản, để thừa kế hoặc kế thừa theo quy định của pháp luật, kể cả trường hợp đã nộp đơn đăng ký;\n+ Tổ chức được giao quyền quản lý, sử dụng, quyền sở hữu kết quả của nhiệm vụ khoa học, công nghệ và đổi mới sáng tạo sử dụng ngân sách nhà nước theo quy định của pháp luật về khoa học, công nghệ và đổi mới sáng tạo.\n- Cá nhân/tổ chức là công dân hoặc thường trú hoặc có cơ sở sản xuất, kinh doanh tại các quốc gia thành viên của Thỏa ước La Hay.\n- Người nộp đơn nộp đủ các khoản phí, lệ phí theo quy định",
     "KẾT QUẢ XỬ LÝ": "Quyết định chấp nhận bảo hộ kiểu dáng công nghiệp đăng ký quốc tế tại Việt Nam - KQ-G06.19-015001",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "- Tổ chức, cá nhân đáp ứng các điều kiện sau có quyền đăng ký kiểu dáng công nghiệp:\n+ Tác giả tạo ra kiểu dáng công nghiệp bằng công sức và chi phí của mình;\n+ Tổ chức, cá nhân đầu tư kinh phí, phương tiện vật chất cho tác giả dưới hình thức giao việc, thuê việc, trừ trường hợp các bên có thỏa thuận khác;\n+ Trường hợp nhiều tổ chức, cá nhân cùng nhau tạo ra hoặc đầu tư để tạo ra kiểu dáng công nghiệp thì các tổ chức, cá nhân đó đều có quyền đăng ký và quyền đăng ký đó chỉ được thực hiện nếu được tất cả các tổ chức, cá nhân đó đồng ý;\n+ Tổ chức, cá nhân được chuyển giao quyền đăng ký từ tổ chức, cá nhân có quyền đăng ký quy định dưới hình thức hợp đồng bằng văn bản, để thừa kế hoặc kế thừa theo quy định của pháp luật, kể cả trường hợp đã nộp đơn đăng ký;\n+ Tổ chức được giao quyền quản lý, sử dụng, quyền sở hữu kết quả của nhiệm vụ khoa học, công nghệ và đổi mới sáng tạo sử dụng ngân sách nhà nước theo quy định của pháp luật về khoa học, công nghệ và đổi mới sáng tạo.\n- Cá nhân/tổ chức là công dân hoặc thường trú hoặc có cơ sở sản xuất, kinh doanh tại các quốc gia thành viên của Thỏa ước La Hay.\n- Người nộp đơn nộp đủ các khoản phí, lệ phí theo quy định\n"
+    "MÔ TẢ": "- Tổ chức, cá nhân đáp ứng các điều kiện sau có quyền đăng ký kiểu dáng công nghiệp:\n+ Tác giả tạo ra kiểu dáng công nghiệp bằng công sức và chi phí của mình;\n+ Tổ chức, cá nhân đầu tư kinh phí, phương tiện vật chất cho tác giả dưới hình thức giao việc, thuê việc, trừ trường hợp các bên có thỏa thuận khác;\n+ Trường hợp nhiều tổ chức, cá nhân cùng nhau tạo ra hoặc đầu tư để tạo ra kiểu dáng công nghiệp thì các tổ chức, cá nhân đó đều có quyền đăng ký và quyền đăng ký đó chỉ được thực hiện nếu được tất cả các tổ chức, cá nhân đó đồng ý;\n+ Tổ chức, cá nhân được chuyển giao quyền đăng ký từ tổ chức, cá nhân có quyền đăng ký quy định dưới hình thức hợp đồng bằng văn bản, để thừa kế hoặc kế thừa theo quy định của pháp luật, kể cả trường hợp đã nộp đơn đăng ký;\n+ Tổ chức được giao quyền quản lý, sử dụng, quyền sở hữu kết quả của nhiệm vụ khoa học, công nghệ và đổi mới sáng tạo sử dụng ngân sách nhà nước theo quy định của pháp luật về khoa học, công nghệ và đổi mới sáng tạo.\n- Cá nhân/tổ chức là công dân hoặc thường trú hoặc có cơ sở sản xuất, kinh doanh tại các quốc gia thành viên của Thỏa ước La Hay.\n- Người nộp đơn nộp đủ các khoản phí, lệ phí theo quy định"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Sở hữu trí tuệ",
       "slug": "so-huu-tri-tue"
@@ -247,7 +207,7 @@
       },
       {
         "name": "Tổ chức Đảng",
-        "slug": "to-chuc-dang"
+        "slug": "to-chuc-ang"
       },
       {
         "name": "Hợp tác xã",
@@ -263,7 +223,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Doanh nghiệp Việt Nam",
@@ -271,11 +231,11 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Đảng viên",
-        "slug": "dang-vien"
+        "slug": "ang-vien"
       }
     ],
     "agencies": [
@@ -284,6 +244,6 @@
         "slug": "cuc-so-huu-tri-tue"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

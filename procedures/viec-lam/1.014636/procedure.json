@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf9-7c5b-7357-8e13-e3a1841e708a",
   "procedure_code": "1.014636",
   "title": "Cho phép nhập khẩu hàng hóa thuộc Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf9-7c5b-7357-8e13-e3a1841e708a",
     "source_file": "chi-tiet-thu-tuc-1.014636.pdf",
     "source_path": "procedures/viec-lam/1.014636/chi-tiet-thu-tuc-1.014636.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:14.254408+00:00",
-    "source_updated_at": "2026-06-10T09:32:28.570Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:41.854072+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "7ec2600011a07f08684dedd14dfa89de518120fa2ee12d60820f55b537a81095"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:14.254408+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2645/QĐ-BKHCN",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Công nghiệp công nghệ số, công nghệ thông tin, điện tử",
   "target_users": [
@@ -37,63 +33,39 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Chủ tịch ủy ban nhân dân cấp tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Chủ tịch ủy ban nhân dân cấp tỉnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "1. Thương nhân gửi 01 bộ hồ sơ đề nghị cho phép nhập khẩu hàng hóa thuộc Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu trực tiếp hoặc qua dịch vụ bưu chính đến Trung tâm Phục vụ hành chính công cấp tỉnh hoặc theo hình thức trực tuyến tại Cổng dịch vụ công quốc gia;\n2. Trường hợp hồ sơ chưa đầy đủ, đúng quy định, trong thời hạn 03 ngày làm việc, kể từ ngày tiếp nhận hồ sơ, cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh thực hiện việc tiếp nhận, giải quyết thủ tục hành chính, thông báo để thương nhân hoàn thiện hồ sơ;\n3. Trường hợp cần thiết, trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định, cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh lấy ý kiến cơ quan có liên quan. \nTrong thời hạn 07 ngày làm việc, kể từ ngày nhận được văn bản xin ý kiến, các cơ quan liên quan có văn bản trả lời;\n4. Trong thời hạn 07 ngày làm việc kể từ ngày nhận được đầy đủ ý kiến trả lời của các cơ quan liên quan, cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh tham mưu, trình Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định và có văn bản trả lời việc cho phép hay không cho phép thương nhân nhập khẩu hàng hóa. Trường hợp không cho phép, nêu rõ lý do. \nTrường hợp không phải lấy ý kiến, trong thời hạn 07 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định, cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh tham mưu, trình Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định và có văn bản trả lời việc cho phép hay không cho phép thương nhân nhập khẩu hàng hóa; trường hợp không cho phép, nêu rõ lý do.\n",
+      "description": "1. Thương nhân gửi 01 bộ hồ sơ đề nghị cho phép nhập khẩu hàng hóa thuộc Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu trực tiếp hoặc qua dịch vụ bưu chính đến Trung tâm Phục vụ hành chính công cấp tỉnh hoặc theo hình thức trực tuyến tại Cổng dịch vụ công quốc gia;\n2. Trường hợp hồ sơ chưa đầy đủ, đúng quy định, trong thời hạn 03 ngày làm việc, kể từ ngày tiếp nhận hồ sơ, cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh thực hiện việc tiếp nhận, giải quyết thủ tục hành chính, thông báo để thương nhân hoàn thiện hồ sơ;\n3. Trường hợp cần thiết, trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định, cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh lấy ý kiến cơ quan có liên quan. \nTrong thời hạn 07 ngày làm việc, kể từ ngày nhận được văn bản xin ý kiến, các cơ quan liên quan có văn bản trả lời;\n4. Trong thời hạn 07 ngày làm việc kể từ ngày nhận được đầy đủ ý kiến trả lời của các cơ quan liên quan, cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh tham mưu, trình Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định và có văn bản trả lời việc cho phép hay không cho phép thương nhân nhập khẩu hàng hóa. Trường hợp không cho phép, nêu rõ lý do. \nTrường hợp không phải lấy ý kiến, trong thời hạn 07 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định, cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh tham mưu, trình Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định và có văn bản trả lời việc cho phép hay không cho phép thương nhân nhập khẩu hàng hóa; trường hợp không cho phép, nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Văn bản đề nghị nhập khẩu hàng hóa thuộc Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu",
-        "code": "Văn bản đề nghị MS01",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019eabab-cc17-70c3-a419-3d0ff291adf9",
-            "name": "Mẫu số 01.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 01.docx",
+        "source_page": 2
       },
       {
         "name": "Báo cáo tình hình thực hiện các giấy phép đã được cấp trước đó (nếu có)",
-        "code": "Báo cáo tình hình MS02",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019eabad-5e3a-720e-8963-9858a3700bb9",
-            "name": "Mẫu số 02.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 02.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Tài liệu thuyết minh về kế hoạch sử dụng, quy trình quản lý hàng hóa nhập khẩu trong quá trình sử dụng tại Việt Nam; phương án xử lý hàng hóa nhập khẩu sau khi sử dụng tại Việt Nam",
-        "code": "Tài liệu thuyết minh",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -102,87 +74,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Nộp trực tuyến qua hệ thống dịch vụ công trực tuyến: Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn).",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Nộp trực tiếp hoặc qua dịch vụ bưu chính tại Trung tâm Phục vụ hành chính công cấp tỉnh. ",
-      "source_page": null
+      "fee": "0",
+      "description": "Nộp trực tiếp hoặc qua dịch vụ bưu chính tại Trung tâm Phục vụ hành chính công cấp tỉnh.",
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Nộp trực tiếp hoặc qua dịch vụ bưu chính tại Trung tâm Phục vụ hành chính công cấp tỉnh. ",
-      "source_page": null
+      "fee": "0",
+      "description": "Nộp trực tiếp hoặc qua dịch vụ bưu chính tại Trung tâm Phục vụ hành chính công cấp tỉnh.",
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -190,32 +127,27 @@
     {
       "title": "Quy định chi tiết một số điều của Luật Quản lý Ngoại thương",
       "document_number": "69/2018/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe6-9d000bec056a",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật quản lý ngoại thương",
       "document_number": "05/2017/QH14",
-      "id": "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư số 26/2025/TT-BKHCN",
       "document_number": "26/2025/TT-BKHCN",
-      "id": "019d2bb3-5d7c-71ab-9f03-45b23772936d",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị quyết số 66.18/2026/NQ-CP ngày 18 tháng 5 năm 2026 của Chính phủ về việc phân quyền, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh",
-      "document_number": "66.18/2026/NQ-CP ",
-      "id": "019e8b88-c0b0-737a-954f-a60837c08c4f",
-      "source_page": null
+      "document_number": "66.18/2026/NQ-CP",
+      "source_page": 4
     },
     {
       "title": "Nghị định số 146/2025/NĐ-CP",
       "document_number": "nghị định 146/2025",
-      "id": "019d2bb3-5d87-7195-a44a-592f046b043c",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -223,15 +155,14 @@
     {
       "title": "Văn bản trả lời cho phép hoặc không cho phép nhập khẩu sản phẩm công nghệ thông tin",
       "code": "Văn bản trả lời cho phép nhập khẩu hàng hóa",
-      "id": "019d2bb2-1c75-741b-9abd-ba6be672afd2",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "1. Thương nhân gửi 01 bộ hồ sơ đề nghị cho phép nhập khẩu hàng hóa thuộc Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu trực tiếp hoặc qua dịch vụ bưu chính đến Trung tâm Phục vụ hành chính công cấp tỉnh hoặc theo hình thức trực tuyến tại Cổng dịch vụ công quốc gia;\n2. Trường hợp hồ sơ chưa đầy đủ, đúng quy định, trong thời hạn 03 ngày làm việc, kể từ ngày tiếp nhận hồ sơ, cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh thực hiện việc tiếp nhận, giải quyết thủ tục hành chính, thông báo để thương nhân hoàn thiện hồ sơ;\n3. Trường hợp cần thiết, trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định, cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh lấy ý kiến cơ quan có liên quan. \nTrong thời hạn 07 ngày làm việc, kể từ ngày nhận được văn bản xin ý kiến, các cơ quan liên quan có văn bản trả lời;\n4. Trong thời hạn 07 ngày làm việc kể từ ngày nhận được đầy đủ ý kiến trả lời của các cơ quan liên quan, cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh tham mưu, trình Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định và có văn bản trả lời việc cho phép hay không cho phép thương nhân nhập khẩu hàng hóa. Trường hợp không cho phép, nêu rõ lý do. \nTrường hợp không phải lấy ý kiến, trong thời hạn 07 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định, cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh tham mưu, trình Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định và có văn bản trả lời việc cho phép hay không cho phép thương nhân nhập khẩu hàng hóa; trường hợp không cho phép, nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nVăn bản đề nghị nhập khẩu hàng hóa thuộc Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu\nTài liệu thuyết minh về kế hoạch sử dụng, quy trình quản lý hàng hóa nhập khẩu trong quá trình sử dụng tại Việt Nam; phương án xử lý hàng hóa nhập khẩu sau khi sử dụng tại Việt Nam\nBáo cáo tình hình thực hiện các giấy phép đã được cấp trước đó (nếu có)",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 7 ngày làm việc - Nộp trực tuyến qua hệ thống dịch vụ công trực tuyến: Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn).\nQua dịch vụ bưu chính: 7 ngày làm việc - Nộp trực tiếp hoặc qua dịch vụ bưu chính tại Trung tâm Phục vụ hành chính công cấp tỉnh. \nTrực tiếp: 7 ngày làm việc - Nộp trực tiếp hoặc qua dịch vụ bưu chính tại Trung tâm Phục vụ hành chính công cấp tỉnh. ",
-    "CĂN CỨ PHÁP LÝ": "Quy định chi tiết một số điều của Luật Quản lý Ngoại thương - 69/2018/NĐ-CP\nLuật quản lý ngoại thương - 05/2017/QH14\nThông tư số 26/2025/TT-BKHCN - 26/2025/TT-BKHCN\nNghị quyết số 66.18/2026/NQ-CP ngày 18 tháng 5 năm 2026 của Chính phủ về việc phân quyền, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh - 66.18/2026/NQ-CP \nNghị định số 146/2025/NĐ-CP - nghị định 146/2025",
+    "TRÌNH TỰ THỰC HIỆN": "1. Thương nhân gửi 01 bộ hồ sơ đề nghị cho phép nhập khẩu hàng hóa thuộc Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu trực tiếp hoặc qua dịch vụ bưu chính đến Trung tâm Phục vụ hành chính công cấp tỉnh hoặc theo hình thức trực tuyến tại Cổng dịch vụ công quốc gia;\n2. Trường hợp hồ sơ chưa đầy đủ, đúng quy định, trong thời hạn 03 ngày làm việc, kể từ ngày tiếp nhận hồ sơ, cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh thực hiện việc tiếp nhận, giải quyết thủ tục hành chính, thông báo để thương nhân hoàn thiện hồ sơ;\n3. Trường hợp cần thiết, trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định, cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh lấy ý kiến cơ quan có liên quan. \nTrong thời hạn 07 ngày làm việc, kể từ ngày nhận được văn bản xin ý kiến, các cơ quan liên quan có văn bản trả lời;\n4. Trong thời hạn 07 ngày làm việc kể từ ngày nhận được đầy đủ ý kiến trả lời của các cơ quan liên quan, cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh tham mưu, trình Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định và có văn bản trả lời việc cho phép hay không cho phép thương nhân nhập khẩu hàng hóa. Trường hợp không cho phép, nêu rõ lý do. \nTrường hợp không phải lấy ý kiến, trong thời hạn 07 ngày làm việc, kể từ ngày nhận được hồ sơ đầy đủ, đúng quy định, cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh tham mưu, trình Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định và có văn bản trả lời việc cho phép hay không cho phép thương nhân nhập khẩu hàng hóa; trường hợp không cho phép, nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "Văn bản đề nghị nhập khẩu hàng hóa thuộc Danh mục sản phẩm công nghệ thông tin đã qua sử dụng cấm nhập khẩu\nBáo cáo tình hình thực hiện các giấy phép đã được cấp trước đó (nếu có)\nTài liệu thuyết minh về kế hoạch sử dụng, quy trình quản lý hàng hóa nhập khẩu trong quá trình sử dụng tại Việt Nam; phương án xử lý hàng hóa nhập khẩu sau khi sử dụng tại Việt Nam",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 7 ngày làm việc\nQua dịch vụ bưu chính: 7 ngày làm việc\nTrực tiếp: 7 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "Quy định chi tiết một số điều của Luật Quản lý Ngoại thương - 69/2018/NĐ-CP\nLuật quản lý ngoại thương - 05/2017/QH14\nThông tư số 26/2025/TT-BKHCN - 26/2025/TT-BKHCN\nNghị quyết số 66.18/2026/NQ-CP ngày 18 tháng 5 năm 2026 của Chính phủ về việc phân quyền, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh - 66.18/2026/NQ-CP\nNghị định số 146/2025/NĐ-CP - nghị định 146/2025",
     "CƠ QUAN THỰC HIỆN": "Chủ tịch ủy ban nhân dân cấp tỉnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
     "KẾT QUẢ XỬ LÝ": "Văn bản trả lời cho phép hoặc không cho phép nhập khẩu sản phẩm công nghệ thông tin - Văn bản trả lời cho phép nhập khẩu hàng hóa",
@@ -239,14 +170,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Công nghiệp công nghệ số, công nghệ thông tin, điện tử",
-      "slug": "cong-nghiep-cong-nghe-so-cong-nghe-thong-tin-dien-tu"
+      "slug": "cong-nghiep-cong-nghe-so-cong-nghe-thong-tin-ien-tu"
     },
     "implementation_levels": [
       {
@@ -261,7 +187,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
@@ -274,6 +200,6 @@
         "slug": "chu-tich-uy-ban-nhan-dan-cap-tinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

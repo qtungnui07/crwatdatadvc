@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-8b78-71ab-8405-60d644e20094",
   "procedure_code": "1.009522",
   "title": "Điều chỉnh Giấy phép thành lập và hoạt động công ty đầu tư chứng khoán do tăng, giảm vốn điều lệ, thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-8b78-71ab-8405-60d644e20094",
     "source_file": "chi-tiet-thu-tuc-1.009522.pdf",
     "source_path": "procedures/viec-lam/1.009522/chi-tiet-thu-tuc-1.009522.pdf",
     "page_count": 8,
-    "extracted_at": "2026-07-18T02:22:05.141585+00:00",
-    "source_updated_at": "2026-06-04T03:47:13.430Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:33.910096+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "3452b91ca0821584af8240a1f3c57a4aee166ef074504d966bf9537f1054cdb7"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:05.141585+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "936/QĐ-BTC",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Chứng khoán",
   "target_users": [
@@ -35,189 +31,127 @@
   ],
   "agency": {
     "competent_agency": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
-    "executing_agency": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính"
   },
   "steps": [
     {
       "order": 1,
       "title": "+ Đối với trường hợp tăng, giảm vốn điều lệ",
-      "description": "Bước 1: Công ty đầu tư chứng khoán riêng lẻ tự quản lý vốn hoặc công ty quản lý quỹ quản lý công ty đầu tư chứng khoán nộp hồ sơ đề nghị điều chỉnh vốn điều lệ công ty đầu tư chứng khoán đến UBCKNN.\nLưu ý: Đối với trường hợp tăng vốn điều lệ, trong thời hạn 10 ngày kể từ ngày kết thúc đợt chào bán để tăng vốn, khi nộp hồ sơ đề nghị điều chỉnh vốn, công ty nộp kèm báo cáo kết quả đợt chào bán tăng vốn. \nCông ty đầu tư chứng khoán thực hiện thủ tục chào bán cổ phiếu ra công chúng (đối với công ty đầu tư chứng khoán đại chúng) và chào bán cổ phiếu riêng lẻ (đối với công ty đầu tư chứng khoán riêng lẻ) theo quy định pháp luật về chứng khoán và pháp luật về doanh nghiệp.\n",
+      "description": "Bước 1: Công ty đầu tư chứng khoán riêng lẻ tự quản lý vốn hoặc công ty quản lý quỹ quản lý công ty đầu tư chứng khoán nộp hồ sơ đề nghị điều chỉnh vốn điều lệ công ty đầu tư chứng khoán đến UBCKNN.\nLưu ý: Đối với trường hợp tăng vốn điều lệ, trong thời hạn 10 ngày kể từ ngày kết thúc đợt chào bán để tăng vốn, khi nộp hồ sơ đề nghị điều chỉnh vốn, công ty nộp kèm báo cáo kết quả đợt chào bán tăng vốn. \nCông ty đầu tư chứng khoán thực hiện thủ tục chào bán cổ phiếu ra công chúng (đối với công ty đầu tư chứng khoán đại chúng) và chào bán cổ phiếu riêng lẻ (đối với công ty đầu tư chứng khoán riêng lẻ) theo quy định pháp luật về chứng khoán và pháp luật về doanh nghiệp.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
-      "title": "+ Đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty: ",
-      "description": "Trong thời hạn 05 ngày kể từ ngày Đại hội đồng cổ đông thông qua các thay đổi, công ty đầu tư chứng khoán riêng lẻ tự quản lý vốn hoặc công ty quản lý quỹ quản lý công ty đầu tư chứng khoán gửi hồ sơ đề nghị chấp thuận thay đổi đến UBCKNN\nBước 2: UBCKNN (Bộ phận một cửa) tiếp nhận và kiểm tra danh mục hồ sơ. Trường hợp danh mục chưa đầy đủ, UBCKNN hướng dẫn bổ sung hồ sơ theo quy định.\nBước 3: UBCKNN thẩm định tính đầy đủ, hợp lệ của nội dung hồ sơ. Trường hợp nội dung chưa đầy đủ, chưa hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, UBCKNN trả lời dung yêu cầu sửa đổi, bổ sung.\nBước 4: Trong thời hạn 60 ngày kể từ ngày UBCKNN có văn bản yêu cầu sửa đổi, bổ sung hồ sơ, công ty đầu tư chứng khoán riêng lẻ hoặc công ty quản lý quỹ quản lý công ty đầu tư chứng khoán hoàn thiện hồ sơ và gửi đến UBCKNN.\nBước 5: Trong thời hạn 15 ngày kể từ UBCKNN nhận được hồ sơ đầy đủ, hợp lệ, UBCKNN điều chỉnh Giấy phép thành lập và hoạt động cho công ty đầu tư chứng khoán. Trường hợp từ chối, UBCKNN trả lời bằng văn bản và nêu rõ lý do.\n",
+      "title": "Bước 2",
+      "description": "Trong thời hạn 05 ngày kể từ ngày Đại hội đồng cổ đông thông qua các thay đổi, công ty đầu tư chứng khoán riêng lẻ tự quản lý vốn hoặc công ty quản lý quỹ quản lý công ty đầu tư chứng khoán gửi hồ sơ đề nghị chấp thuận thay đổi đến UBCKNN\nBước 2: UBCKNN (Bộ phận một cửa) tiếp nhận và kiểm tra danh mục hồ sơ. Trường hợp danh mục chưa đầy đủ, UBCKNN hướng dẫn bổ sung hồ sơ theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: UBCKNN thẩm định tính đầy đủ, hợp lệ của nội dung hồ sơ. Trường hợp nội dung chưa đầy đủ, chưa hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, UBCKNN trả lời dung yêu cầu sửa đổi, bổ sung.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "Bước 4: Trong thời hạn 60 ngày kể từ ngày UBCKNN có văn bản yêu cầu sửa đổi, bổ sung hồ sơ, công ty đầu tư chứng khoán riêng lẻ hoặc công ty quản lý quỹ quản lý công ty đầu tư chứng khoán hoàn thiện hồ sơ và gửi đến UBCKNN.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 5,
+      "title": "Bước 5",
+      "description": "Bước 5: Trong thời hạn 15 ngày kể từ UBCKNN nhận được hồ sơ đầy đủ, hợp lệ, UBCKNN điều chỉnh Giấy phép thành lập và hoạt động cho công ty đầu tư chứng khoán. Trường hợp từ chối, UBCKNN trả lời bằng văn bản và nêu rõ lý do.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "1) Giấy đề nghị theo Mẫu số 94 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP ngày 31/12/2020 của Chính phủ;",
-        "code": "000.00.00.G12-KQ014629",
+        "name": "- Thành phần, số lượng hồ sơ:: 1) Giấy đề nghị theo Mẫu số 94 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP ngày 31/12/2020 của Chính phủ;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Thành phần, số lượng hồ sơ: ",
-        "attachments": [
-          {
-            "id": "019e7d4c-fc01-76e8-a882-79fee1075b7a",
-            "name": "Mẫu số 94.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 94.docx",
+        "source_page": 2
       },
       {
-        "name": "3) Danh sách cổ đông sau điều chỉnh vốn theo Mẫu số 105 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP;",
-        "code": "000.00.00.G12-KQ014631",
+        "name": "- Đối với trường hợp tăng, giảm vốn điều lệ, nộp bổ sung: 3) Danh sách cổ đông sau điều chỉnh vốn theo Mẫu số 105 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Đối với trường hợp tăng, giảm vốn điều lệ, nộp bổ sung",
-        "attachments": [
-          {
-            "id": "019e7d5e-d600-71cd-8b2b-b91860fc7f63",
-            "name": "Mẫu số 105.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 105.docx",
+        "source_page": 3
       },
       {
-        "name": "5) Trường hợp tăng vốn bằng hình thức chào bán, phát hành, tài liệu bổ sung: báo cáo kết quả đợt chào bán để tăng vốn theo Mẫu số 102 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP, kèm theo giấy xác nhận về mức vốn tăng thêm đã được phong tỏa tại ngân hàng giám sát; danh sách nhà đầu tư mới (nếu có);",
-        "code": "000.00.00.G12-KQ014633",
+        "name": "- Đối với trường hợp tăng, giảm vốn điều lệ, nộp bổ sung: 5) Trường hợp tăng vốn bằng hình thức chào bán, phát hành, tài liệu bổ sung: báo cáo kết quả đợt chào bán để tăng vốn theo Mẫu số 102 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP, kèm theo giấy xác nhận về mức vốn tăng thêm đã được phong tỏa tại ngân hàng giám sát; danh sách nhà đầu tư mới (nếu có);",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Đối với trường hợp tăng, giảm vốn điều lệ, nộp bổ sung",
-        "attachments": [
-          {
-            "id": "019e7d5f-11e3-70d7-96ad-71a04d663552",
-            "name": "Mẫu số 102.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 102.docx",
+        "source_page": 3
       },
       {
-        "name": "7) Bản cáo bạch, Điều lệ công ty (nếu có thay đổi) theo mẫu Phụ lục IV và Phụ lục II ban hành kèm theo Thông tư 98/2020/TT-BTC.",
-        "code": "000.00.00.G12-KQ014635",
+        "name": "- Đối với trường hợp tăng, giảm vốn điều lệ, nộp bổ sung: 7) Bản cáo bạch, Điều lệ công ty (nếu có thay đổi) theo mẫu Phụ lục IV và Phụ lục II ban hành kèm theo Thông tư 98/2020/TT-BTC.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Đối với trường hợp tăng, giảm vốn điều lệ, nộp bổ sung",
-        "attachments": [
-          {
-            "id": "019e7d5f-68cd-773c-bc27-bb15a4b96ec8",
-            "name": "315Phụ lục IV.docx",
-            "url": ""
-          },
-          {
-            "id": "019e7d5f-75c1-7616-864f-9cdb9f6fb16d",
-            "name": "315Phụ lục II.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "315Phụ lục IV.docx; 315Phụ lục II.docx",
+        "source_page": 3
       },
       {
-        "name": "Điều lệ công ty sửa đổi theo Mẫu Phụ lục II ban hành kèm theo Thông tư 98/2020/TT-BTC;",
-        "code": "000.00.00.G12-KQ010112",
+        "name": "+ Đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty, nộp bổ sung:: Điều lệ công ty sửa đổi theo Mẫu Phụ lục II ban hành kèm theo Thông tư 98/2020/TT-BTC;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "+ Đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty, nộp bổ sung: ",
-        "attachments": [
-          {
-            "id": "019e7d5f-d7ff-759c-920d-deca881250e8",
-            "name": "315Phụ lục II.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "315Phụ lục II.docx",
+        "source_page": 3
       },
       {
-        "name": "9) Trường hợp thay đổi người đại diện theo pháp luật, tài liệu bổ sung: bản thông tin cá nhân theo Mẫu số 91 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP, phiếu lý lịch tư pháp được cấp không quá 06 tháng tính đến ngày nộp hồ sơ của người đại diện theo pháp luật mới;",
-        "code": "000.00.00.G12-KQ014637",
+        "name": "+ Đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty, nộp bổ sung:: 9) Trường hợp thay đổi người đại diện theo pháp luật, tài liệu bổ sung: bản thông tin cá nhân theo Mẫu số 91 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP, phiếu lý lịch tư pháp được cấp không quá 06 tháng tính đến ngày nộp hồ sơ của người đại diện theo pháp luật mới;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "+ Đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty, nộp bổ sung: ",
-        "attachments": [
-          {
-            "id": "019e7d60-4272-758e-ba0e-9637fa5ea8a2",
-            "name": "Mẫu số 91 bản thông tin.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 91 bản thông tin.docx",
+        "source_page": 4
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "2) Nghị quyết của đại hội đồng cổ đông thông qua việc tăng, giảm vốn điều lệ, phương án tăng, giảm vốn; thay đổi tên công ty; người đại diện theo pháp luật; thay đổi công ty quản lý quỹ đầu tư chứng khoán; ngân hàng lưu ký, giám sát; thay đổi thời gian hoạt động; thay đổi trụ sở công ty và Điều lệ công ty sửa đổi;",
-        "code": "000.00.00.G12-0923",
+        "name": "- Thành phần, số lượng hồ sơ:: 2) Nghị quyết của đại hội đồng cổ đông thông qua việc tăng, giảm vốn điều lệ, phương án tăng, giảm vốn; thay đổi tên công ty; người đại diện theo pháp luật; thay đổi công ty quản lý quỹ đầu tư chứng khoán; ngân hàng lưu ký, giám sát; thay đổi thời gian hoạt động; thay đổi trụ sở công ty và Điều lệ công ty sửa đổi;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Thành phần, số lượng hồ sơ: ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "2) Nghị quyết của đại hội đồng cổ đông thông qua các thay đổi việc tăng, giảm vốn điều lệ, phương án tăng, giảm vốn và Điều lệ công ty sửa đổi;",
-        "code": "000.00.00.G12-KQ014630",
+        "name": "- Thành phần, số lượng hồ sơ:: 2) Nghị quyết của đại hội đồng cổ đông thông qua các thay đổi việc tăng, giảm vốn điều lệ, phương án tăng, giảm vốn và Điều lệ công ty sửa đổi;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Thành phần, số lượng hồ sơ: ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "11) Trường hợp gia hạn thời gian hoạt động, tài liệu bổ sung: hợp đồng lưu ký, giám sát ký với ngân hàng lưu ký, giám sát điều chỉnh thời gian hoạt động của công ty;",
-        "code": "000.00.00.G12-KQ014639",
+        "name": "- Đối với trường hợp tăng, giảm vốn điều lệ, nộp bổ sung: 11) Trường hợp gia hạn thời gian hoạt động, tài liệu bổ sung: hợp đồng lưu ký, giám sát ký với ngân hàng lưu ký, giám sát điều chỉnh thời gian hoạt động của công ty;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Đối với trường hợp tăng, giảm vốn điều lệ, nộp bổ sung",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "6) Báo cáo tài chính năm gần nhất đã được kiểm toán đáp ứng quy định tại Luật Chứng khoán và báo cáo tài chính kỳ gần nhất tính đến thời điểm nộp hồ sơ đề nghị điều chỉnh vốn điều lệ;",
-        "code": "000.00.00.G12-KQ014634",
+        "name": "- Đối với trường hợp tăng, giảm vốn điều lệ, nộp bổ sung: 6) Báo cáo tài chính năm gần nhất đã được kiểm toán đáp ứng quy định tại Luật Chứng khoán và báo cáo tài chính kỳ gần nhất tính đến thời điểm nộp hồ sơ đề nghị điều chỉnh vốn điều lệ;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Đối với trường hợp tăng, giảm vốn điều lệ, nộp bổ sung",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "10) Trường hợp thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát tài liệu bổ sung: văn bản cam kết của công ty quản lý quỹ đầu tư chứng khoán về việc bàn giao quyền, nghĩa vụ cho công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát thay thế;",
-        "code": "000.00.00.G12-KQ014638",
+        "name": "+ Đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty, nộp bổ sung:: 10) Trường hợp thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát tài liệu bổ sung: văn bản cam kết của công ty quản lý quỹ đầu tư chứng khoán về việc bàn giao quyền, nghĩa vụ cho công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát thay thế;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "+ Đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty, nộp bổ sung: ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "11) Trường hợp gia hạn thời gian hoạt động, tài liệu bổ sung: hợp đồng lưu ký, giám sát ký với ngân hàng lưu ký, giám sát điều chỉnh thời gian hoạt động của công ty;",
-        "code": "000.00.00.G12-KQ014639",
+        "name": "+ Đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty, nộp bổ sung:: 11) Trường hợp gia hạn thời gian hoạt động, tài liệu bổ sung: hợp đồng lưu ký, giám sát ký với ngân hàng lưu ký, giám sát điều chỉnh thời gian hoạt động của công ty;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "+ Đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty, nộp bổ sung: ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "12) Trường hợp thay đổi trụ sở của công ty đầu tư chứng khoán riêng lẻ tự quản lý vốn, tài liệu bổ sung: hợp đồng thuê trụ sở, giấy tờ về quyền sở hữu trụ sở, quyền sử dụng trụ sở.; Thành phần hồ sơ trong thủ tục hành chính này được thay thế hoặc cắt giảm hoặc được miễn trừ trong trường hợp UBCKNN khai thác được thông tin từ các cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành hoặc tài liệu đó đã được gửi tới Ủy ban Chứng khoán Nhà nước theo quy định về báo cáo và công bố thông tin. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, không chính xác thì cá nhân, tổ chức bổ sung thành phần hồ sơ để giải quyết thủ tục hành chính; đồng thời cá nhân, tổ chức thực hiện cập nhật, điều chỉnh thông tin trong các cơ sở dữ liệu theo quy định của pháp luật.",
-        "code": "000.00.00.G12-KQ014640",
+        "name": "+ Đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty, nộp bổ sung:: 12) Trường hợp thay đổi trụ sở của công ty đầu tư chứng khoán riêng lẻ tự quản lý vốn, tài liệu bổ sung: hợp đồng thuê trụ sở, giấy tờ về quyền sở hữu trụ sở, quyền sử dụng trụ sở.; Thành phần hồ sơ trong thủ tục hành chính này được thay thế hoặc cắt giảm hoặc được miễn trừ trong trường hợp UBCKNN khai thác được thông tin từ các cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành hoặc tài liệu đó đã được gửi tới Ủy ban Chứng khoán Nhà nước theo quy định về báo cáo và công bố thông tin. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, không chính xác thì cá nhân, tổ chức bổ sung thành phần hồ sơ để giải quyết thủ tục hành chính; đồng thời cá nhân, tổ chức thực hiện cập nhật, điều chỉnh thông tin trong các cơ sở dữ liệu theo quy định của pháp luật.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "+ Đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty, nộp bổ sung: ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       }
     ]
   },
@@ -226,135 +160,73 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày",
-      "processing_time_value": 10,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 2000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 1000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "* Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
-          "attachment": null
-        }
-      ],
-      "description": "10 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ.\n(đối với trường hợp tăng, giảm vốn); 15 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ (đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty)\n",
-      "source_page": null
+      "fee": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.; * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
+      "description": "10 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ.\n(đối với trường hợp tăng, giảm vốn); 15 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ (đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty)",
+      "source_page": 5
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày",
-      "processing_time_value": 10,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 2000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 1000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "* Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
-          "attachment": null
-        }
-      ],
-      "description": "10 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ.\n(đối với trường hợp tăng, giảm vốn); 15 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ (đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty)\n",
-      "source_page": null
+      "fee": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.; * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
+      "description": "10 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ.\n(đối với trường hợp tăng, giảm vốn); 15 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ (đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty)",
+      "source_page": 5
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày",
-      "processing_time_value": 10,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 2000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 1000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "* Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
-          "attachment": null
-        }
-      ],
-      "description": "10 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ.\n(đối với trường hợp tăng, giảm vốn); 15 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ (đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty)\n",
-      "source_page": null
+      "fee": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.; * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
+      "description": "10 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ.\n(đối với trường hợp tăng, giảm vốn); 15 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ (đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty)",
+      "source_page": 5
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.; * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 2000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.",
-        "attachment": null
+        "amount_text": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 1000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "* Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
-        "attachment": null
+        "amount_text": "* Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": 2000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.",
-        "attachment": null
+        "amount_text": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 1000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "* Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
-        "attachment": null
+        "amount_text": "* Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 2000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.",
-        "attachment": null
+        "amount_text": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 1000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "* Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
-        "attachment": null
+        "amount_text": "* Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -362,90 +234,74 @@
     {
       "title": "Thông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân",
       "document_number": "64/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-69cce97f8824",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Nghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu",
       "document_number": "66.7/2025/NQ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-22af3c5ee091",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Nghị định 155/2020/NĐ-CP",
       "document_number": "155/2020/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a640-fee63f44d848",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Luật 54/2019/QH14",
       "document_number": "54/2019/QH14",
-      "id": "019d2bb3-5d87-7195-a442-db836cad8655",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Nghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu",
       "document_number": "66.7/2025/NQ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-22af3c5ee091",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Thông tư quy định mức thu, chế độ thu, nộp, quản lý và sử dụng lệ phí trong lĩnh vực chứng khoán",
       "document_number": "25/2022/TT-BTC",
-      "id": "019d2bb3-5d86-7760-a645-d843125d5d2a",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Thông tư 98/2020/TT-BTC",
       "document_number": "98/2020/TT-BTC",
-      "id": "019d2bb3-5d87-7195-a447-8b6347a86b67",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "nghị quyết của Chính phủ về cắt giảm, phân cấp, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh lĩnh vực quốc phòng, nội vụ, tài chính, xây dựng, ngoại giao, tư pháp, ngân hàng",
       "document_number": "24/2026/NQ-CP",
-      "id": "019dfc54-4a33-71e5-92e7-0b00c9506ba7",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Thông tư số 98/2020/TT-BTC ngày 16 tháng 11 năm 2020 của Bộ trưởng Bộ Tài chính hướng dẫn hoạt động và quản lý quỹ đầu tư chứng khoán",
       "document_number": "136/2025/TT-BTC",
-      "id": "019e7d43-30ad-74e6-99ce-8f0dc783494d",
-      "source_page": null
+      "source_page": 7
     }
   ],
-  "conditions": "+ Đối với trường hợp tăng, giảm vốn:\n1) Được đại hội đồng cổ đông thông qua việc giảm vốn, chào bán để tăng vốn; phương án chào bán để tăng vốn hoặc phương án giảm vốn.\n2) Trường hợp giảm vốn điều lệ, công ty phải bảo đảm vốn điều lệ sau khi điều chỉnh và giá trị tài sản ròng không thấp hơn 50 tỷ đồng.\n3) Trường hợp tăng vốn điều lệ thông qua việc phát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu, phát hành cổ phiếu để trả cổ tức, công ty phải có đủ nguồn tài chính từ thặng dư vốn cổ phần, lợi nhuận sau thuế chưa phân phối tại báo cáo tài chính kỳ gần nhất đã kiểm toán hoặc soát xét.\n4) Trường hợp tăng vốn bằng hình thức chào bán, phát hành, công ty phải tuân thủ các quy định về chào bán cổ phiếu ra công chúng (đối với công ty đầu tư chứng khoán đại chúng), chào bán riêng lẻ (đối với công ty đầu tư chứng khoán riêng lẻ) và phát hành cho cổ đông hiện hữu.\n5) Có tối đa 99 cổ đông, trong đó, cổ đông là tổ chức phải góp tối thiểu là 03 tỷ đồng và cổ đông là cá nhân phải góp tối thiểu 01 tỷ đồng đối với công ty đầu tư chứng khoán riêng lẻ.\n+ Đối với trường hợp thay đổi tên: tên tiếng Việt của công ty đầu tư chứng khoán phải theo quy định pháp luật về doanh nghiệp và có ít nhất hai thành tố sau đây: (i) Tên loại hình quỹ: được viết là “công ty cổ phần đầu tư chứng khoán” đối với công ty đầu tư chứng khoán; (ii) Tên riêng: phù hợp với mục tiêu đầu tư, chiến lược đầu tư của công ty đầu tư chứng khoán\n",
+  "conditions": "+ Đối với trường hợp tăng, giảm vốn:\n1) Được đại hội đồng cổ đông thông qua việc giảm vốn, chào bán để tăng vốn; phương án chào bán để tăng vốn hoặc phương án giảm vốn.\n2) Trường hợp giảm vốn điều lệ, công ty phải bảo đảm vốn điều lệ sau khi điều chỉnh và giá trị tài sản ròng không thấp hơn 50 tỷ đồng.\n3) Trường hợp tăng vốn điều lệ thông qua việc phát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu, phát hành cổ phiếu để trả cổ tức, công ty phải có đủ nguồn tài chính từ thặng dư vốn cổ phần, lợi nhuận sau thuế chưa phân phối tại báo cáo tài chính kỳ gần nhất đã kiểm toán hoặc soát xét.\n4) Trường hợp tăng vốn bằng hình thức chào bán, phát hành, công ty phải tuân thủ các quy định về chào bán cổ phiếu ra công chúng (đối với công ty đầu tư chứng khoán đại chúng), chào bán riêng lẻ (đối với công ty đầu tư chứng khoán riêng lẻ) và phát hành cho cổ đông hiện hữu.\n5) Có tối đa 99 cổ đông, trong đó, cổ đông là tổ chức phải góp tối thiểu là 03 tỷ đồng và cổ đông là cá nhân phải góp tối thiểu 01 tỷ đồng đối với công ty đầu tư chứng khoán riêng lẻ.\n+ Đối với trường hợp thay đổi tên: tên tiếng Việt của công ty đầu tư chứng khoán phải theo quy định pháp luật về doanh nghiệp và có ít nhất hai thành tố sau đây: (i) Tên loại hình quỹ: được viết là “công ty cổ phần đầu tư chứng khoán” đối với công ty đầu tư chứng khoán; (ii) Tên riêng: phù hợp với mục tiêu đầu tư, chiến lược đầu tư của công ty đầu tư chứng khoán",
   "results": [
     {
       "title": "+ Văn bản từ chối (nêu rõ lý do).",
       "code": "KQ.G12.001213",
-      "id": "019d2bb2-1c72-75fa-a592-f82376ee3f00",
-      "source_page": null
+      "source_page": 8
     },
     {
       "title": "Giấy phép điều chỉnh Giấy phép thành lập và hoạt động công ty đầu tư chứng khoán",
       "code": "KQ.G12.000119",
-      "id": "019d2bb2-1c70-724b-96dd-645d7eb349dd",
-      "source_page": null
+      "source_page": 8
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Công ty đầu tư chứng khoán riêng lẻ tự quản lý vốn hoặc công ty quản lý quỹ quản lý công ty đầu tư chứng khoán nộp hồ sơ đề nghị điều chỉnh vốn điều lệ công ty đầu tư chứng khoán đến UBCKNN.\nLưu ý: Đối với trường hợp tăng vốn điều lệ, trong thời hạn 10 ngày kể từ ngày kết thúc đợt chào bán để tăng vốn, khi nộp hồ sơ đề nghị điều chỉnh vốn, công ty nộp kèm báo cáo kết quả đợt chào bán tăng vốn. \nCông ty đầu tư chứng khoán thực hiện thủ tục chào bán cổ phiếu ra công chúng (đối với công ty đầu tư chứng khoán đại chúng) và chào bán cổ phiếu riêng lẻ (đối với công ty đầu tư chứng khoán riêng lẻ) theo quy định pháp luật về chứng khoán và pháp luật về doanh nghiệp.\n\nTrong thời hạn 05 ngày kể từ ngày Đại hội đồng cổ đông thông qua các thay đổi, công ty đầu tư chứng khoán riêng lẻ tự quản lý vốn hoặc công ty quản lý quỹ quản lý công ty đầu tư chứng khoán gửi hồ sơ đề nghị chấp thuận thay đổi đến UBCKNN\nBước 2: UBCKNN (Bộ phận một cửa) tiếp nhận và kiểm tra danh mục hồ sơ. Trường hợp danh mục chưa đầy đủ, UBCKNN hướng dẫn bổ sung hồ sơ theo quy định.\nBước 3: UBCKNN thẩm định tính đầy đủ, hợp lệ của nội dung hồ sơ. Trường hợp nội dung chưa đầy đủ, chưa hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, UBCKNN trả lời dung yêu cầu sửa đổi, bổ sung.\nBước 4: Trong thời hạn 60 ngày kể từ ngày UBCKNN có văn bản yêu cầu sửa đổi, bổ sung hồ sơ, công ty đầu tư chứng khoán riêng lẻ hoặc công ty quản lý quỹ quản lý công ty đầu tư chứng khoán hoàn thiện hồ sơ và gửi đến UBCKNN.\nBước 5: Trong thời hạn 15 ngày kể từ UBCKNN nhận được hồ sơ đầy đủ, hợp lệ, UBCKNN điều chỉnh Giấy phép thành lập và hoạt động cho công ty đầu tư chứng khoán. Trường hợp từ chối, UBCKNN trả lời bằng văn bản và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "- Thành phần, số lượng hồ sơ: \n1) Giấy đề nghị theo Mẫu số 94 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP ngày 31/12/2020 của Chính phủ;\n2) Nghị quyết của đại hội đồng cổ đông thông qua việc tăng, giảm vốn điều lệ, phương án tăng, giảm vốn; thay đổi tên công ty; người đại diện theo pháp luật; thay đổi công ty quản lý quỹ đầu tư chứng khoán; ngân hàng lưu ký, giám sát; thay đổi thời gian hoạt động; thay đổi trụ sở công ty và Điều lệ công ty sửa đổi;\n2) Nghị quyết của đại hội đồng cổ đông thông qua các thay đổi việc tăng, giảm vốn điều lệ, phương án tăng, giảm vốn và Điều lệ công ty sửa đổi;\n- Đối với trường hợp tăng, giảm vốn điều lệ, nộp bổ sung\n3) Danh sách cổ đông sau điều chỉnh vốn theo Mẫu số 105 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP;\n11) Trường hợp gia hạn thời gian hoạt động, tài liệu bổ sung: hợp đồng lưu ký, giám sát ký với ngân hàng lưu ký, giám sát điều chỉnh thời gian hoạt động của công ty;\n5) Trường hợp tăng vốn bằng hình thức chào bán, phát hành, tài liệu bổ sung: báo cáo kết quả đợt chào bán để tăng vốn theo Mẫu số 102 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP, kèm theo giấy xác nhận về mức vốn tăng thêm đã được phong tỏa tại ngân hàng giám sát; danh sách nhà đầu tư mới (nếu có);\n6) Báo cáo tài chính năm gần nhất đã được kiểm toán đáp ứng quy định tại Luật Chứng khoán và báo cáo tài chính kỳ gần nhất tính đến thời điểm nộp hồ sơ đề nghị điều chỉnh vốn điều lệ;\n7) Bản cáo bạch, Điều lệ công ty (nếu có thay đổi) theo mẫu Phụ lục IV và Phụ lục II ban hành kèm theo Thông tư 98/2020/TT-BTC.\n+ Đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty, nộp bổ sung: \nĐiều lệ công ty sửa đổi theo Mẫu Phụ lục II ban hành kèm theo Thông tư 98/2020/TT-BTC;\n9) Trường hợp thay đổi người đại diện theo pháp luật, tài liệu bổ sung: bản thông tin cá nhân theo Mẫu số 91 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP, phiếu lý lịch tư pháp được cấp không quá 06 tháng tính đến ngày nộp hồ sơ của người đại diện theo pháp luật mới;\n10) Trường hợp thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát tài liệu bổ sung: văn bản cam kết của công ty quản lý quỹ đầu tư chứng khoán về việc bàn giao quyền, nghĩa vụ cho công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát thay thế;\n11) Trường hợp gia hạn thời gian hoạt động, tài liệu bổ sung: hợp đồng lưu ký, giám sát ký với ngân hàng lưu ký, giám sát điều chỉnh thời gian hoạt động của công ty;\n12) Trường hợp thay đổi trụ sở của công ty đầu tư chứng khoán riêng lẻ tự quản lý vốn, tài liệu bổ sung: hợp đồng thuê trụ sở, giấy tờ về quyền sở hữu trụ sở, quyền sử dụng trụ sở.; Thành phần hồ sơ trong thủ tục hành chính này được thay thế hoặc cắt giảm hoặc được miễn trừ trong trường hợp UBCKNN khai thác được thông tin từ các cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành hoặc tài liệu đó đã được gửi tới Ủy ban Chứng khoán Nhà nước theo quy định về báo cáo và công bố thông tin. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, không chính xác thì cá nhân, tổ chức bổ sung thành phần hồ sơ để giải quyết thủ tục hành chính; đồng thời cá nhân, tổ chức thực hiện cập nhật, điều chỉnh thông tin trong các cơ sở dữ liệu theo quy định của pháp luật.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày - 10 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ.\n(đối với trường hợp tăng, giảm vốn); 15 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ (đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty)\n\nQua dịch vụ bưu chính: 10 ngày - 10 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ.\n(đối với trường hợp tăng, giảm vốn); 15 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ (đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty)\n\nTrực tiếp: 10 ngày - 10 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ.\n(đối với trường hợp tăng, giảm vốn); 15 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ (đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty)\n",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Công ty đầu tư chứng khoán riêng lẻ tự quản lý vốn hoặc công ty quản lý quỹ quản lý công ty đầu tư chứng khoán nộp hồ sơ đề nghị điều chỉnh vốn điều lệ công ty đầu tư chứng khoán đến UBCKNN.\nLưu ý: Đối với trường hợp tăng vốn điều lệ, trong thời hạn 10 ngày kể từ ngày kết thúc đợt chào bán để tăng vốn, khi nộp hồ sơ đề nghị điều chỉnh vốn, công ty nộp kèm báo cáo kết quả đợt chào bán tăng vốn. \nCông ty đầu tư chứng khoán thực hiện thủ tục chào bán cổ phiếu ra công chúng (đối với công ty đầu tư chứng khoán đại chúng) và chào bán cổ phiếu riêng lẻ (đối với công ty đầu tư chứng khoán riêng lẻ) theo quy định pháp luật về chứng khoán và pháp luật về doanh nghiệp.\nTrong thời hạn 05 ngày kể từ ngày Đại hội đồng cổ đông thông qua các thay đổi, công ty đầu tư chứng khoán riêng lẻ tự quản lý vốn hoặc công ty quản lý quỹ quản lý công ty đầu tư chứng khoán gửi hồ sơ đề nghị chấp thuận thay đổi đến UBCKNN\nBước 2: UBCKNN (Bộ phận một cửa) tiếp nhận và kiểm tra danh mục hồ sơ. Trường hợp danh mục chưa đầy đủ, UBCKNN hướng dẫn bổ sung hồ sơ theo quy định.\nBước 3: UBCKNN thẩm định tính đầy đủ, hợp lệ của nội dung hồ sơ. Trường hợp nội dung chưa đầy đủ, chưa hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, UBCKNN trả lời dung yêu cầu sửa đổi, bổ sung.\nBước 4: Trong thời hạn 60 ngày kể từ ngày UBCKNN có văn bản yêu cầu sửa đổi, bổ sung hồ sơ, công ty đầu tư chứng khoán riêng lẻ hoặc công ty quản lý quỹ quản lý công ty đầu tư chứng khoán hoàn thiện hồ sơ và gửi đến UBCKNN.\nBước 5: Trong thời hạn 15 ngày kể từ UBCKNN nhận được hồ sơ đầy đủ, hợp lệ, UBCKNN điều chỉnh Giấy phép thành lập và hoạt động cho công ty đầu tư chứng khoán. Trường hợp từ chối, UBCKNN trả lời bằng văn bản và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "- Thành phần, số lượng hồ sơ:: 1) Giấy đề nghị theo Mẫu số 94 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP ngày 31/12/2020 của Chính phủ;\n- Đối với trường hợp tăng, giảm vốn điều lệ, nộp bổ sung: 3) Danh sách cổ đông sau điều chỉnh vốn theo Mẫu số 105 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP;\n- Đối với trường hợp tăng, giảm vốn điều lệ, nộp bổ sung: 5) Trường hợp tăng vốn bằng hình thức chào bán, phát hành, tài liệu bổ sung: báo cáo kết quả đợt chào bán để tăng vốn theo Mẫu số 102 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP, kèm theo giấy xác nhận về mức vốn tăng thêm đã được phong tỏa tại ngân hàng giám sát; danh sách nhà đầu tư mới (nếu có);\n- Đối với trường hợp tăng, giảm vốn điều lệ, nộp bổ sung: 7) Bản cáo bạch, Điều lệ công ty (nếu có thay đổi) theo mẫu Phụ lục IV và Phụ lục II ban hành kèm theo Thông tư 98/2020/TT-BTC.\n+ Đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty, nộp bổ sung:: Điều lệ công ty sửa đổi theo Mẫu Phụ lục II ban hành kèm theo Thông tư 98/2020/TT-BTC;\n+ Đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty, nộp bổ sung:: 9) Trường hợp thay đổi người đại diện theo pháp luật, tài liệu bổ sung: bản thông tin cá nhân theo Mẫu số 91 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP, phiếu lý lịch tư pháp được cấp không quá 06 tháng tính đến ngày nộp hồ sơ của người đại diện theo pháp luật mới;\n- Thành phần, số lượng hồ sơ:: 2) Nghị quyết của đại hội đồng cổ đông thông qua việc tăng, giảm vốn điều lệ, phương án tăng, giảm vốn; thay đổi tên công ty; người đại diện theo pháp luật; thay đổi công ty quản lý quỹ đầu tư chứng khoán; ngân hàng lưu ký, giám sát; thay đổi thời gian hoạt động; thay đổi trụ sở công ty và Điều lệ công ty sửa đổi;\n- Thành phần, số lượng hồ sơ:: 2) Nghị quyết của đại hội đồng cổ đông thông qua các thay đổi việc tăng, giảm vốn điều lệ, phương án tăng, giảm vốn và Điều lệ công ty sửa đổi;\n- Đối với trường hợp tăng, giảm vốn điều lệ, nộp bổ sung: 11) Trường hợp gia hạn thời gian hoạt động, tài liệu bổ sung: hợp đồng lưu ký, giám sát ký với ngân hàng lưu ký, giám sát điều chỉnh thời gian hoạt động của công ty;\n- Đối với trường hợp tăng, giảm vốn điều lệ, nộp bổ sung: 6) Báo cáo tài chính năm gần nhất đã được kiểm toán đáp ứng quy định tại Luật Chứng khoán và báo cáo tài chính kỳ gần nhất tính đến thời điểm nộp hồ sơ đề nghị điều chỉnh vốn điều lệ;\n+ Đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty, nộp bổ sung:: 10) Trường hợp thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát tài liệu bổ sung: văn bản cam kết của công ty quản lý quỹ đầu tư chứng khoán về việc bàn giao quyền, nghĩa vụ cho công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát thay thế;\n+ Đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty, nộp bổ sung:: 11) Trường hợp gia hạn thời gian hoạt động, tài liệu bổ sung: hợp đồng lưu ký, giám sát ký với ngân hàng lưu ký, giám sát điều chỉnh thời gian hoạt động của công ty;\n+ Đối với trường hợp thay đổi tên công ty, người đại diện theo pháp luật, thay đổi công ty quản lý quỹ đầu tư chứng khoán, ngân hàng lưu ký, giám sát, thay đổi thời gian hoạt động, thay đổi trụ sở công ty, nộp bổ sung:: 12) Trường hợp thay đổi trụ sở của công ty đầu tư chứng khoán riêng lẻ tự quản lý vốn, tài liệu bổ sung: hợp đồng thuê trụ sở, giấy tờ về quyền sở hữu trụ sở, quyền sử dụng trụ sở.; Thành phần hồ sơ trong thủ tục hành chính này được thay thế hoặc cắt giảm hoặc được miễn trừ trong trường hợp UBCKNN khai thác được thông tin từ các cơ sở dữ liệu quốc gia, cơ sở dữ liệu chuyên ngành hoặc tài liệu đó đã được gửi tới Ủy ban Chứng khoán Nhà nước theo quy định về báo cáo và công bố thông tin. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, không chính xác thì cá nhân, tổ chức bổ sung thành phần hồ sơ để giải quyết thủ tục hành chính; đồng thời cá nhân, tổ chức thực hiện cập nhật, điều chỉnh thông tin trong các cơ sở dữ liệu theo quy định của pháp luật.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày\nQua dịch vụ bưu chính: 10 ngày\nTrực tiếp: 10 ngày",
     "CĂN CỨ PHÁP LÝ": "Thông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân - 64/2025/TT-BTC\nNghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu - 66.7/2025/NQ-CP\nNghị định 155/2020/NĐ-CP - 155/2020/NĐ-CP\nLuật 54/2019/QH14 - 54/2019/QH14\nNghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu - 66.7/2025/NQ-CP\nThông tư quy định mức thu, chế độ thu, nộp, quản lý và sử dụng lệ phí trong lĩnh vực chứng khoán - 25/2022/TT-BTC\nThông tư 98/2020/TT-BTC - 98/2020/TT-BTC\nnghị quyết của Chính phủ về cắt giảm, phân cấp, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh lĩnh vực quốc phòng, nội vụ, tài chính, xây dựng, ngoại giao, tư pháp, ngân hàng - 24/2026/NQ-CP\nSửa đổi, bổ sung một số điều của Thông tư số 98/2020/TT-BTC ngày 16 tháng 11 năm 2020 của Bộ trưởng Bộ Tài chính hướng dẫn hoạt động và quản lý quỹ đầu tư chứng khoán - 136/2025/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "+ Đối với trường hợp tăng, giảm vốn:\n1) Được đại hội đồng cổ đông thông qua việc giảm vốn, chào bán để tăng vốn; phương án chào bán để tăng vốn hoặc phương án giảm vốn.\n2) Trường hợp giảm vốn điều lệ, công ty phải bảo đảm vốn điều lệ sau khi điều chỉnh và giá trị tài sản ròng không thấp hơn 50 tỷ đồng.\n3) Trường hợp tăng vốn điều lệ thông qua việc phát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu, phát hành cổ phiếu để trả cổ tức, công ty phải có đủ nguồn tài chính từ thặng dư vốn cổ phần, lợi nhuận sau thuế chưa phân phối tại báo cáo tài chính kỳ gần nhất đã kiểm toán hoặc soát xét.\n4) Trường hợp tăng vốn bằng hình thức chào bán, phát hành, công ty phải tuân thủ các quy định về chào bán cổ phiếu ra công chúng (đối với công ty đầu tư chứng khoán đại chúng), chào bán riêng lẻ (đối với công ty đầu tư chứng khoán riêng lẻ) và phát hành cho cổ đông hiện hữu.\n5) Có tối đa 99 cổ đông, trong đó, cổ đông là tổ chức phải góp tối thiểu là 03 tỷ đồng và cổ đông là cá nhân phải góp tối thiểu 01 tỷ đồng đối với công ty đầu tư chứng khoán riêng lẻ.\n+ Đối với trường hợp thay đổi tên: tên tiếng Việt của công ty đầu tư chứng khoán phải theo quy định pháp luật về doanh nghiệp và có ít nhất hai thành tố sau đây: (i) Tên loại hình quỹ: được viết là “công ty cổ phần đầu tư chứng khoán” đối với công ty đầu tư chứng khoán; (ii) Tên riêng: phù hợp với mục tiêu đầu tư, chiến lược đầu tư của công ty đầu tư chứng khoán\n",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "+ Đối với trường hợp tăng, giảm vốn:\n1) Được đại hội đồng cổ đông thông qua việc giảm vốn, chào bán để tăng vốn; phương án chào bán để tăng vốn hoặc phương án giảm vốn.\n2) Trường hợp giảm vốn điều lệ, công ty phải bảo đảm vốn điều lệ sau khi điều chỉnh và giá trị tài sản ròng không thấp hơn 50 tỷ đồng.\n3) Trường hợp tăng vốn điều lệ thông qua việc phát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu, phát hành cổ phiếu để trả cổ tức, công ty phải có đủ nguồn tài chính từ thặng dư vốn cổ phần, lợi nhuận sau thuế chưa phân phối tại báo cáo tài chính kỳ gần nhất đã kiểm toán hoặc soát xét.\n4) Trường hợp tăng vốn bằng hình thức chào bán, phát hành, công ty phải tuân thủ các quy định về chào bán cổ phiếu ra công chúng (đối với công ty đầu tư chứng khoán đại chúng), chào bán riêng lẻ (đối với công ty đầu tư chứng khoán riêng lẻ) và phát hành cho cổ đông hiện hữu.\n5) Có tối đa 99 cổ đông, trong đó, cổ đông là tổ chức phải góp tối thiểu là 03 tỷ đồng và cổ đông là cá nhân phải góp tối thiểu 01 tỷ đồng đối với công ty đầu tư chứng khoán riêng lẻ.\n+ Đối với trường hợp thay đổi tên: tên tiếng Việt của công ty đầu tư chứng khoán phải theo quy định pháp luật về doanh nghiệp và có ít nhất hai thành tố sau đây: (i) Tên loại hình quỹ: được viết là “công ty cổ phần đầu tư chứng khoán” đối với công ty đầu tư chứng khoán; (ii) Tên riêng: phù hợp với mục tiêu đầu tư, chiến lược đầu tư của công ty đầu tư chứng khoán",
     "KẾT QUẢ XỬ LÝ": "+ Văn bản từ chối (nêu rõ lý do). - KQ.G12.001213\nGiấy phép điều chỉnh Giấy phép thành lập và hoạt động công ty đầu tư chứng khoán - KQ.G12.000119",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "+ Đối với trường hợp tăng, giảm vốn:\n1) Được đại hội đồng cổ đông thông qua việc giảm vốn, chào bán để tăng vốn; phương án chào bán để tăng vốn hoặc phương án giảm vốn.\n2) Trường hợp giảm vốn điều lệ, công ty phải bảo đảm vốn điều lệ sau khi điều chỉnh và giá trị tài sản ròng không thấp hơn 50 tỷ đồng.\n3) Trường hợp tăng vốn điều lệ thông qua việc phát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu, phát hành cổ phiếu để trả cổ tức, công ty phải có đủ nguồn tài chính từ thặng dư vốn cổ phần, lợi nhuận sau thuế chưa phân phối tại báo cáo tài chính kỳ gần nhất đã kiểm toán hoặc soát xét.\n4) Trường hợp tăng vốn bằng hình thức chào bán, phát hành, công ty phải tuân thủ các quy định về chào bán cổ phiếu ra công chúng (đối với công ty đầu tư chứng khoán đại chúng), chào bán riêng lẻ (đối với công ty đầu tư chứng khoán riêng lẻ) và phát hành cho cổ đông hiện hữu.\n5) Có tối đa 99 cổ đông, trong đó, cổ đông là tổ chức phải góp tối thiểu là 03 tỷ đồng và cổ đông là cá nhân phải góp tối thiểu 01 tỷ đồng đối với công ty đầu tư chứng khoán riêng lẻ.\n+ Đối với trường hợp thay đổi tên: tên tiếng Việt của công ty đầu tư chứng khoán phải theo quy định pháp luật về doanh nghiệp và có ít nhất hai thành tố sau đây: (i) Tên loại hình quỹ: được viết là “công ty cổ phần đầu tư chứng khoán” đối với công ty đầu tư chứng khoán; (ii) Tên riêng: phù hợp với mục tiêu đầu tư, chiến lược đầu tư của công ty đầu tư chứng khoán\n"
+    "MÔ TẢ": "+ Đối với trường hợp tăng, giảm vốn:\n1) Được đại hội đồng cổ đông thông qua việc giảm vốn, chào bán để tăng vốn; phương án chào bán để tăng vốn hoặc phương án giảm vốn.\n2) Trường hợp giảm vốn điều lệ, công ty phải bảo đảm vốn điều lệ sau khi điều chỉnh và giá trị tài sản ròng không thấp hơn 50 tỷ đồng.\n3) Trường hợp tăng vốn điều lệ thông qua việc phát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu, phát hành cổ phiếu để trả cổ tức, công ty phải có đủ nguồn tài chính từ thặng dư vốn cổ phần, lợi nhuận sau thuế chưa phân phối tại báo cáo tài chính kỳ gần nhất đã kiểm toán hoặc soát xét.\n4) Trường hợp tăng vốn bằng hình thức chào bán, phát hành, công ty phải tuân thủ các quy định về chào bán cổ phiếu ra công chúng (đối với công ty đầu tư chứng khoán đại chúng), chào bán riêng lẻ (đối với công ty đầu tư chứng khoán riêng lẻ) và phát hành cho cổ đông hiện hữu.\n5) Có tối đa 99 cổ đông, trong đó, cổ đông là tổ chức phải góp tối thiểu là 03 tỷ đồng và cổ đông là cá nhân phải góp tối thiểu 01 tỷ đồng đối với công ty đầu tư chứng khoán riêng lẻ.\n+ Đối với trường hợp thay đổi tên: tên tiếng Việt của công ty đầu tư chứng khoán phải theo quy định pháp luật về doanh nghiệp và có ít nhất hai thành tố sau đây: (i) Tên loại hình quỹ: được viết là “công ty cổ phần đầu tư chứng khoán” đối với công ty đầu tư chứng khoán; (ii) Tên riêng: phù hợp với mục tiêu đầu tư, chiến lược đầu tư của công ty đầu tư chứng khoán"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Chứng khoán",
       "slug": "chung-khoan"
@@ -468,6 +324,6 @@
         "slug": "uy-ban-chung-khoan-nha-nuoc-bo-tai-chinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

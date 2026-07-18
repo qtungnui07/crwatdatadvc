@@ -1,35 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-d775-76cf-83da-e130c0a7d45d",
   "procedure_code": "1.001598",
   "title": "Giải quyết hưởng trợ cấp nghỉ DSPHSK sau ốm đau, thai sản, TNLĐ, BNN",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-d775-76cf-83da-e130c0a7d45d",
     "source_file": "chi-tiet-thu-tuc-1.001598.pdf",
     "source_path": "procedures/suc-khoe-va-y-te/1.001598/chi-tiet-thu-tuc-1.001598.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:21:59.564024+00:00",
-    "source_updated_at": "2026-04-16T02:55:05.913Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:09.822991+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "fde23511084cbf6f1bb48d0c6026090d054276c42720fd1ab10ac6dcc06ebeda"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:59.564024+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1474/QĐ-BTC",
   "implementation_level": "Cấp tỉnh, Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thực hiện chính sách BHXH",
   "target_users": [
@@ -41,32 +35,29 @@
   ],
   "agency": {
     "competent_agency": "Bảo hiểm xã hội cấp Tỉnh; Bảo hiểm xã hội cấp huyện",
-    "executing_agency": "Bảo hiểm xã hội cấp Tỉnh, Bảo hiểm xã hội cấp huyện",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bảo hiểm xã hội cấp Tỉnh, Bảo hiểm xã hội cấp huyện"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1. Lập, nộp hồ sơ",
-      "description": "a) Lập Danh sách đề nghị giải quyết hưởng chế độ ốm đau, thai sản, DSPHSK (mẫu 01B-HSB).\nb) Nộp hồ sơ cho cơ quan BHXH nơi đơn vị SDLĐ đóng BHXH.\n",
+      "description": "a) Lập Danh sách đề nghị giải quyết hưởng chế độ ốm đau, thai sản, DSPHSK (mẫu 01B-HSB).\nb) Nộp hồ sơ cho cơ quan BHXH nơi đơn vị SDLĐ đóng BHXH.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 2,
       "title": "Bước 2.",
-      "description": "Cơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định.\n",
+      "description": "Cơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 3,
       "title": "Bước 3. Nhận kết quả giải quyết",
-      "description": "1. Đơn vị SDLĐ: nhận Danh sách giải quyết hưởng chế độ ốm đau, thai sản, trợ cấp DSPHSK (mẫu C70a-HD) và tiền trợ cấp để chi trả cho NLĐ đăng ký nhận tiền mặt tại đơn vị SDLĐ.\n2. NLĐ: nhận tiền trợ cấp.\n",
+      "description": "1. Đơn vị SDLĐ: nhận Danh sách giải quyết hưởng chế độ ốm đau, thai sản, trợ cấp DSPHSK (mẫu C70a-HD) và tiền trợ cấp để chi trả cho NLĐ đăng ký nhận tiền mặt tại đơn vị SDLĐ.\n2. NLĐ: nhận tiền trợ cấp.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -75,12 +66,9 @@
     "conditional": [
       {
         "name": "Danh sách đề nghị giải quyết hưởng chế độ ốm đau, thai sản, DSPHSK",
-        "code": "000.00.00.G24-KQ0055",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 1
       }
     ]
   },
@@ -89,35 +77,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "6 ngày làm việc",
-      "processing_time_value": 6,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "6 ngày làm việc",
-      "processing_time_value": 6,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -125,51 +93,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "6 ngày làm việc",
-      "processing_time_value": 6,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -177,56 +130,47 @@
     {
       "title": "Nghị định 166/2016/NĐ-CP-Quy định về giao dịch điện tử trong lĩnh vực bảo hiểm xã hội, bảo hiểm y tế và bảo hiểm thất nghiệp",
       "document_number": "166/2016/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afec-42c383b8b740",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "LUẬT  Bảo hiểm xã hội",
       "document_number": "58/2014/QH13",
-      "id": "019d2bb3-5d84-71c5-b673-9d8fafaf3543",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "BAN HÀNH QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP",
       "document_number": "2222/QĐ-BHXH",
-      "id": "019d2bb3-5d7c-71ab-9f07-f538ffa2f69d",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư 56/2017/TT-BYT",
       "document_number": "56/2017/TT-BYT",
-      "id": "019d2bb3-5d7e-72d1-afe4-13c710a5b3df",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định 115/2015/NĐ-CP",
       "document_number": "115/2015/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-2d2bfff2574b",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định 143/2018/NĐ-CP",
       "document_number": "143/2018/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-11fd5024debc",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định số 88/2020/NĐ-CP ngày 28/7/2020 của Chính phủ quy định chi tiết một số điều của Luật An toàn, vệ sinh lao động về bảo hiểm tai nạn lao động, bệnh nghề nghiệp bắt buộc",
       "document_number": "88/2020/NĐ-CP",
-      "id": "019d2bb3-5d87-7195-a446-b9df772557c6",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư 26/2017/TT-BLĐTBXH",
       "document_number": "26/2017/TT-BLĐTBXH",
-      "id": "019d2bb3-5d7c-71ab-9f06-1ef05069d5ed",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật 84/2015/QH13",
       "document_number": "84/2015/QH13",
-      "id": "019d2bb3-5d84-71c5-b674-5e51b815739a",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -234,25 +178,22 @@
     {
       "title": "Thông báo Danh sách giải quyết hưởng chế độ ốm đau, thai sản, dưỡng sức phục hồi sức khỏe",
       "code": "KQ.G24.000005",
-      "id": "019d2bb2-1c82-739b-8b99-6b744885efea",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Tiền trợ cấp",
       "code": "KQ.G24.000053",
-      "id": "019d2bb2-1c82-739b-8b99-d6be7cc06c52",
-      "source_page": null
+      "source_page": 1
     },
     {
       "title": "Giấy ủy quyền (Mẫu số 13-HSB)",
       "code": "KQ.G24.000056",
-      "id": "019d2bb2-1c82-739b-8b99-de039c269b81",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "a) Lập Danh sách đề nghị giải quyết hưởng chế độ ốm đau, thai sản, DSPHSK (mẫu 01B-HSB).\nb) Nộp hồ sơ cho cơ quan BHXH nơi đơn vị SDLĐ đóng BHXH.\n\nCơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định.\n\n1. Đơn vị SDLĐ: nhận Danh sách giải quyết hưởng chế độ ốm đau, thai sản, trợ cấp DSPHSK (mẫu C70a-HD) và tiền trợ cấp để chi trả cho NLĐ đăng ký nhận tiền mặt tại đơn vị SDLĐ.\n2. NLĐ: nhận tiền trợ cấp.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nDanh sách đề nghị giải quyết hưởng chế độ ốm đau, thai sản, DSPHSK",
+    "TRÌNH TỰ THỰC HIỆN": "a) Lập Danh sách đề nghị giải quyết hưởng chế độ ốm đau, thai sản, DSPHSK (mẫu 01B-HSB).\nb) Nộp hồ sơ cho cơ quan BHXH nơi đơn vị SDLĐ đóng BHXH.\nCơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định.\n1. Đơn vị SDLĐ: nhận Danh sách giải quyết hưởng chế độ ốm đau, thai sản, trợ cấp DSPHSK (mẫu C70a-HD) và tiền trợ cấp để chi trả cho NLĐ đăng ký nhận tiền mặt tại đơn vị SDLĐ.\n2. NLĐ: nhận tiền trợ cấp.",
+    "THÀNH PHẦN HỒ SƠ": "Danh sách đề nghị giải quyết hưởng chế độ ốm đau, thai sản, DSPHSK",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 6 ngày làm việc\nQua dịch vụ bưu chính: 6 ngày làm việc\nTrực tiếp: 6 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định 166/2016/NĐ-CP-Quy định về giao dịch điện tử trong lĩnh vực bảo hiểm xã hội, bảo hiểm y tế và bảo hiểm thất nghiệp - 166/2016/NĐ-CP\nLUẬT  Bảo hiểm xã hội - 58/2014/QH13\nBAN HÀNH QUY TRÌNH GIẢI QUYẾT HƯỞNG CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, CHI TRẢ CÁC CHẾ ĐỘ BẢO HIỂM XÃ HỘI, BẢO HIỂM THẤT NGHIỆP - 2222/QĐ-BHXH\nThông tư 56/2017/TT-BYT - 56/2017/TT-BYT\nNghị định 115/2015/NĐ-CP - 115/2015/NĐ-CP\nNghị định 143/2018/NĐ-CP - 143/2018/NĐ-CP\nNghị định số 88/2020/NĐ-CP ngày 28/7/2020 của Chính phủ quy định chi tiết một số điều của Luật An toàn, vệ sinh lao động về bảo hiểm tai nạn lao động, bệnh nghề nghiệp bắt buộc - 88/2020/NĐ-CP\nThông tư 26/2017/TT-BLĐTBXH - 26/2017/TT-BLĐTBXH\nLuật 84/2015/QH13 - 84/2015/QH13",
     "CƠ QUAN THỰC HIỆN": "Bảo hiểm xã hội cấp Tỉnh, Bảo hiểm xã hội cấp huyện",
@@ -262,11 +203,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Sức khỏe và y tế",
-      "slug": "suc-khoe-va-y-te",
-      "method": "service_group"
-    },
     "sector": {
       "name": "Thực hiện chính sách BHXH",
       "slug": "thuc-hien-chinh-sach-bhxh"
@@ -300,7 +236,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
@@ -317,6 +253,6 @@
         "slug": "bao-hiem-xa-hoi-cap-huyen"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

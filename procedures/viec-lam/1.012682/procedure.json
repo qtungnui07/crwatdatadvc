@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bff-ba55-7676-b138-b718081e0ae7",
   "procedure_code": "1.012682",
   "title": "Thủ tục chấp thuận tăng mức vốn điều lệ của ngân hàng thương mại trách nhiệm hữu hạn do chủ sở hữu, thành viên góp vốn cấp thêm hoặc từ vốn góp của thành viên góp vốn mới",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-ba55-7676-b138-b718081e0ae7",
     "source_file": "chi-tiet-thu-tuc-1.012682.pdf",
     "source_path": "procedures/viec-lam/1.012682/chi-tiet-thu-tuc-1.012682.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:22:08.172450+00:00",
-    "source_updated_at": "2026-05-26T16:18:50.598Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:06.163691+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "a053ab5dc55a06f6cf9dc65f7b23ae1f72a21986269d49876cc3318c93b7564f"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:08.172450+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1106/QĐ-NHNN",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thành lập và hoạt động ngân hàng",
   "target_users": [
@@ -35,73 +31,56 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ngân hàng Nhà nước Việt Nam",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ngân hàng Nhà nước Việt Nam"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "+ Bước 1: Ngân hàng thương mại lập 01 bộ hồ sơ theo quy định gửi Ngân hàng Nhà nước. \n+ Bước 2: Trường hợp hồ sơ chưa đầy đủ, hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu ngân hàng thương mại bổ sung, hoàn thiện hồ sơ.\n+ Bước 3: Trong thời hạn 20 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Ngân hàng Nhà nước có văn bản chấp thuận đề nghị tăng vốn điều lệ của ngân hàng thương mại; trường hợp không chấp thuận, Ngân hàng Nhà nước có văn bản trả lời và nêu rõ lý do. Văn bản chấp thuận tăng mức vốn điều lệ có hiệu lực trong thời hạn 12 tháng kể từ ngày ký.\n",
+      "description": "+ Bước 1: Ngân hàng thương mại lập 01 bộ hồ sơ theo quy định gửi Ngân hàng Nhà nước.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "+ Bước 2: Trường hợp hồ sơ chưa đầy đủ, hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu ngân hàng thương mại bổ sung, hoàn thiện hồ sơ.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "+ Bước 3: Trong thời hạn 20 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Ngân hàng Nhà nước có văn bản chấp thuận đề nghị tăng vốn điều lệ của ngân hàng thương mại; trường hợp không chấp thuận, Ngân hàng Nhà nước có văn bản trả lời và nêu rõ lý do. Văn bản chấp thuận tăng mức vốn điều lệ có hiệu lực trong thời hạn 12 tháng kể từ ngày ký.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "a) Văn bản đề nghị, trong đó tối thiểu bao gồm các nội dung sau: (i) Sự cần thiết của việc tăng mức vốn điều lệ; (ii) Mức vốn điều lệ hiện tại và mức vốn điều lệ dự kiến tăng; (iii) Cam kết thông báo cho các thành viên góp vốn mới về quyền và nghĩa vụ của thành viên góp vốn theo quy định tại Luật Các tổ chức tín dụng và pháp luật có liên quan, trong đó bao gồm: + Chịu trách nhiệm trước pháp luật về tính hợp pháp của nguồn vốn góp; không được dùng vốn huy động, vốn vay của tổ chức, cá nhân khác để góp vốn; + Chịu trách nhiệm tuân thủ quy định về tỷ lệ sở hữu phần vốn góp của thành viên góp vốn, thành viên góp vốn và người có liên quan.  (iv) Báo cáo tình hình tuân thủ các quy định về quản trị rủi ro, trích lập dự phòng rủi ro theo quy định pháp luật tại thời điểm nộp hồ sơ; các tỷ lệ bảo đảm an toàn trong hoạt động ngân hàng theo quy định của Ngân hàng Nhà nước trong năm liền kề năm nộp hồ sơ và đến thời điểm nộp hồ sơ của thành viên mới là ngân hàng thương mại Việt Nam và thành viên mới chịu trách nhiệm về thông tin này;",
-        "code": "G19-KQ006307",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "b) Nghị quyết, quyết định của Hội đồng thành viên đối với ngân hàng thương mại trách nhiệm hữu hạn hai thành viên trở lên, Quyết định của chủ sở hữu đối với ngân hàng thương mại trách nhiệm hữu hạn một thành viên thông qua việc tăng mức vốn điều lệ của ngân hàng thương mại hoặc Quyết định của cấp có thẩm quyền thông qua việc đầu tư bổ sung vốn điều lệ của ngân hàng thương mại do Nhà nước nắm giữ 100% vốn điều lệ, trong đó tối thiểu phải có các nội dung sau: (i) Tổng mức vốn điều lệ dự kiến tăng thêm;  (ii) Các đợt dự kiến tăng mức vốn điều lệ;  (iii) Nguồn sử dụng để tăng vốn điều lệ; (iv) Thời gian dự kiến hoàn thành việc tăng vốn điều lệ;",
-        "code": "G19-KQ006308",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "c) Trường hợp ngân hàng thương mại trách nhiệm hữu hạn hai thành viên trở lên tăng vốn điều lệ từ nguồn vốn góp của thành viên góp vốn mới, ngoài các thành phần hồ sơ quy định tại điểm a, b khoản 1 Điều 13 Thông tư số 50/2025/TT-NHNN, ngân hàng thương mại gửi các văn bản, tài liệu sau: (i) Đối với thành viên mới là tổ chức tín dụng nước ngoài: + Báo cáo tài chính 05 năm liền kề trước năm nộp hồ sơ đề nghị chấp thuận tăng vốn đã được kiểm toán độc lập và báo cáo tài chính đến thời điểm gần nhất tính đến thời điểm nộp hồ sơ;  + Tài liệu giải thích hợp lý về ý kiến ngoại trừ không ảnh hưởng đến điều kiện góp vốn và có xác nhận của tổ chức kiểm toán độc lập về ảnh hưởng của việc ngoại trừ (trong trường hợp báo cáo tài chính có ý kiến ngoại trừ của tổ chức kiểm toán độc lập); + Tài liệu chứng minh tổ chức tín dụng nước ngoài được phép thực hiện hoạt động ngân hàng theo quy định của pháp luật của nước nơi tổ chức tín dụng nước ngoài đặt trụ sở chính;  + Văn bản của cơ quan có thẩm quyền của nước nguyên xứ cung cấp thông tin về tổ chức tín dụng nước ngoài, trong đó bao gồm các nội dung tối thiểu sau: Tình hình tuân thủ pháp luật về hoạt động ngân hàng và các quy định pháp luật khác trong vòng 05 năm liền trước năm nộp hồ sơ và đến thời điểm nộp hồ sơ; Tỷ lệ an toàn vốn và các tỷ lệ đảm bảo an toàn khác theo quy định của nước nguyên xứ trong năm liền trước năm nộp hồ sơ và đến thời điểm nộp hồ sơ; Tình hình tuân thủ các quy định về quản trị rủi ro và trích lập dự phòng trong năm liền trước năm nộp hồ sơ và đến thời điểm nộp hồ sơ; Cam kết bảo đảm khả năng giám sát toàn bộ hoạt động của tổ chức tín dụng nước ngoài (bao gồm cả hoạt động của ngân hàng trách nhiệm hữu hạn dự kiến góp vốn) trên cơ sở hợp nhất theo thông lệ quốc tế; + Văn bản hoặc tài liệu của tổ chức xếp loại tín nhiệm quốc tế chứng minh thứ hạng tín nhiệm trong thời hạn 06 tháng trước thời điểm nộp hồ sơ; + Quyết định bổ nhiệm người đại diện vốn góp dự kiến tại ngân hàng, trong đó có các thông tin định danh của người đại diện vốn góp (Họ và tên; số định danh cá nhân (đối với cá nhân có quốc tịch Việt Nam), số hộ chiếu hoặc giấy tờ có giá trị thay thế hộ chiếu, ngày cấp, nơi cấp, quốc tịch/các quốc tịch (đối với cá nhân không có quốc tịch Việt Nam); + Văn bản cam kết về việc sẵn sàng hỗ trợ về tài chính, công nghệ, quản trị, điều hành, hoạt động cho ngân hàng, đảm bảo duy trì giá trị thực của vốn điều lệ của ngân hàng không thấp hơn mức vốn pháp định và đáp ứng đầy đủ các quy định về an toàn hoạt động theo quy định của Ngân hàng Nhà nước;",
-        "code": "G19-KQ006309",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "c(ii), (iii):  (ii) Đối với thành viên mới là ngân hàng thương mại Việt Nam: + Quyết định bổ nhiệm người đại diện vốn góp dự kiến tại ngân hàng, trong đó có các thông tin định danh của người đại diện vốn góp (Họ và tên; số định danh cá nhân (đối với cá nhân có quốc tịch Việt Nam), số hộ chiếu hoặc giấy tờ có giá trị thay thế hộ chiếu, ngày cấp, nơi cấp, quốc tịch/các quốc tịch (đối với cá nhân không có quốc tịch Việt Nam); + Tài liệu giải thích hợp lý về ý kiến ngoại trừ không ảnh hưởng đến điều kiện góp vốn và có xác nhận của tổ chức kiểm toán độc lập về ảnh hưởng của việc ngoại trừ (trong trường hợp báo cáo tài chính có ý kiến ngoại trừ của tổ chức kiểm toán độc lập);  + Báo cáo tình hình tuân thủ giới hạn mua, nắm giữ cổ phiếu của tổ chức tín dụng theo quy định tại khoản 8 Điều 111 Luật Các tổ chức tín dụng; - Báo cáo về tỷ lệ an toàn vốn tối thiểu và tỷ lệ góp vốn, mua cổ phần dự kiến sau khi góp vốn;  (iii) Đối với thành viên mới của ngân hàng liên doanh là doanh nghiệp không phải ngân hàng, hồ sơ bao gồm:  + Giấy phép thành lập hoặc chứng nhận đăng ký doanh nghiệp hoặc văn bản tương đương (trừ doanh nghiệp Việt Nam);  + Quyết định bổ nhiệm người đại diện vốn góp dự kiến tại ngân hàng, trong đó có các thông tin định danh của người đại diện vốn góp (Họ và tên; số định danh cá nhân (đối với cá nhân có quốc tịch Việt Nam), số hộ chiếu hoặc giấy tờ có giá trị thay thế hộ chiếu, ngày cấp, nơi cấp, quốc tịch/các quốc tịch (đối với cá nhân không có quốc tịch Việt Nam); - Bản sao hộ chiếu hoặc giấy tờ có giá trị thay thế hộ chiếu của người đại diện theo pháp luật và người đại diện vốn góp của doanh nghiệp tại ngân hàng (đối với người không có quốc tịch Việt Nam); - Văn bản của cấp có thẩm quyền chấp thuận cho doanh nghiệp được tham gia góp vốn vào ngân hàng;  - Báo cáo về việc đáp ứng các điều kiện đối với đối tác mới là doanh nghiệp không phải ngân hàng khi góp vốn theo quy định của Thống đốc Ngân hàng Nhà nước về việc cấp đổi Giấy phép, cấp bổ sung nội dung hoạt động vào Giấy phép và một số quy định về tổ chức, hoạt động của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài, văn phòng đại diện tại Việt Nam của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng;  - Báo cáo tài chính 03 năm liền kề trước năm nộp hồ sơ đề nghị chấp thuận tăng vốn đã được kiểm toán độc lập theo quy định của pháp luật (trừ doanh nghiệp đã niêm yết trên thị trường chứng khoán Việt Nam); - Tài liệu giải thích hợp lý về ý kiến ngoại trừ không ảnh hưởng đến điều kiện góp vốn và có xác nhận của tổ chức kiểm toán độc lập về ảnh hưởng của việc ngoại trừ (trong trường hợp báo cáo tài chính có ý kiến ngoại trừ của tổ chức kiểm toán độc lập); - Báo cáo khả năng tài chính tham gia góp vốn ngân hàng liên doanh của doanh nghiệp không phải ngân hàng theo mẫu quy định tại Phụ lục I ban hành kèm theo Thông tư số 50/2025/TT-NHNN;  - Bảng kê khai thông tin về lịch sử quan hệ tín dụng của doanh nghiệp theo mẫu quy định tại Phụ lục II ban hành kèm theo Thông tư số 50/2025/TT-NHNN;  - Văn bản xác nhận của cơ quan thuế về việc thực hiện nghĩa vụ thuế với ngân sách nhà nước; Văn bản của cơ quan bảo hiểm xã hội cung cấp thông tin về việc đóng bảo hiểm xã hội của tổ chức; - Bảng kê khai người có liên quan và tình hình tham gia góp vốn vào ngân hàng thương mại theo mẫu quy định tại Phụ lục III ban hành kèm theo Thông tư số 50/2025/TT-NHNN.",
-        "code": "G19-KQ006310",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e63e5-16d0-76bb-8026-5b4b3f6d76ab",
-            "name": "PHỤ LỤC I- tt50.docx",
-            "url": ""
-          },
-          {
-            "id": "019e63e5-2b7b-727b-9cd1-7f92fdf68d2a",
-            "name": "PHỤ LỤC II- tt50.docx",
-            "url": ""
-          },
-          {
-            "id": "019e63e5-33cc-741c-a7e3-570e0e6e4d1a",
-            "name": "PHỤ LỤC III- tt50.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PHỤ LỤC I- tt50.docx; PHỤ LỤC II- tt50.docx; PHỤ LỤC III- tt50.docx",
+        "source_page": 4
       }
     ],
     "normally_required": [],
@@ -112,17 +91,7 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "20 ngày làm việc",
-      "processing_time_value": 20,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -130,42 +99,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "20 ngày làm việc",
-      "processing_time_value": 20,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 5
       }
     ]
   },
@@ -173,20 +129,17 @@
     {
       "title": "50/2025/TT-NHNN",
       "document_number": "số 50/2025/TT-NHNN",
-      "id": "019d2bb3-5d87-7195-a44a-7b431f641225",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "phân cấp thực hiện thủ tục hành chính trong lĩnh vực thông tin tín dụng và sủa đổi, bổ sung một số điều của các Thông tư liên quan đến cắt giảm, đơn giản hóa, phân cấp thực hiện thủ tục hành chính trong lĩnh vực thành lập và hoạt động ngân hàng",
       "document_number": "11/2026/TT-NHNN",
-      "id": "019e5a86-02a8-7245-8b3b-17e740bdce16",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Luật Các tổ chức tín dụng",
       "document_number": "Luật số 32/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b675-1125e97928b3",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "",
@@ -194,19 +147,17 @@
     {
       "title": "Văn bản không chấp thuận đề nghị tăng mức vốn điều lệ.",
       "code": "KQ.G19.000435",
-      "id": "019d2bb2-1c7d-740f-b032-f442ec50a1f0",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Văn bản chấp thuận đề nghị tăng mức vốn điều lệ",
       "code": "KQ.G19.000068",
-      "id": "019d2bb2-1c7c-74ea-bcd2-a28a1f014439",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Ngân hàng thương mại lập 01 bộ hồ sơ theo quy định gửi Ngân hàng Nhà nước. \n+ Bước 2: Trường hợp hồ sơ chưa đầy đủ, hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu ngân hàng thương mại bổ sung, hoàn thiện hồ sơ.\n+ Bước 3: Trong thời hạn 20 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Ngân hàng Nhà nước có văn bản chấp thuận đề nghị tăng vốn điều lệ của ngân hàng thương mại; trường hợp không chấp thuận, Ngân hàng Nhà nước có văn bản trả lời và nêu rõ lý do. Văn bản chấp thuận tăng mức vốn điều lệ có hiệu lực trong thời hạn 12 tháng kể từ ngày ký.\n",
-    "THÀNH PHẦN HỒ SƠ": "\na) Văn bản đề nghị, trong đó tối thiểu bao gồm các nội dung sau: (i) Sự cần thiết của việc tăng mức vốn điều lệ; (ii) Mức vốn điều lệ hiện tại và mức vốn điều lệ dự kiến tăng; (iii) Cam kết thông báo cho các thành viên góp vốn mới về quyền và nghĩa vụ của thành viên góp vốn theo quy định tại Luật Các tổ chức tín dụng và pháp luật có liên quan, trong đó bao gồm: + Chịu trách nhiệm trước pháp luật về tính hợp pháp của nguồn vốn góp; không được dùng vốn huy động, vốn vay của tổ chức, cá nhân khác để góp vốn; + Chịu trách nhiệm tuân thủ quy định về tỷ lệ sở hữu phần vốn góp của thành viên góp vốn, thành viên góp vốn và người có liên quan.  (iv) Báo cáo tình hình tuân thủ các quy định về quản trị rủi ro, trích lập dự phòng rủi ro theo quy định pháp luật tại thời điểm nộp hồ sơ; các tỷ lệ bảo đảm an toàn trong hoạt động ngân hàng theo quy định của Ngân hàng Nhà nước trong năm liền kề năm nộp hồ sơ và đến thời điểm nộp hồ sơ của thành viên mới là ngân hàng thương mại Việt Nam và thành viên mới chịu trách nhiệm về thông tin này;\nb) Nghị quyết, quyết định của Hội đồng thành viên đối với ngân hàng thương mại trách nhiệm hữu hạn hai thành viên trở lên, Quyết định của chủ sở hữu đối với ngân hàng thương mại trách nhiệm hữu hạn một thành viên thông qua việc tăng mức vốn điều lệ của ngân hàng thương mại hoặc Quyết định của cấp có thẩm quyền thông qua việc đầu tư bổ sung vốn điều lệ của ngân hàng thương mại do Nhà nước nắm giữ 100% vốn điều lệ, trong đó tối thiểu phải có các nội dung sau: (i) Tổng mức vốn điều lệ dự kiến tăng thêm;  (ii) Các đợt dự kiến tăng mức vốn điều lệ;  (iii) Nguồn sử dụng để tăng vốn điều lệ; (iv) Thời gian dự kiến hoàn thành việc tăng vốn điều lệ;\nc) Trường hợp ngân hàng thương mại trách nhiệm hữu hạn hai thành viên trở lên tăng vốn điều lệ từ nguồn vốn góp của thành viên góp vốn mới, ngoài các thành phần hồ sơ quy định tại điểm a, b khoản 1 Điều 13 Thông tư số 50/2025/TT-NHNN, ngân hàng thương mại gửi các văn bản, tài liệu sau: (i) Đối với thành viên mới là tổ chức tín dụng nước ngoài: + Báo cáo tài chính 05 năm liền kề trước năm nộp hồ sơ đề nghị chấp thuận tăng vốn đã được kiểm toán độc lập và báo cáo tài chính đến thời điểm gần nhất tính đến thời điểm nộp hồ sơ;  + Tài liệu giải thích hợp lý về ý kiến ngoại trừ không ảnh hưởng đến điều kiện góp vốn và có xác nhận của tổ chức kiểm toán độc lập về ảnh hưởng của việc ngoại trừ (trong trường hợp báo cáo tài chính có ý kiến ngoại trừ của tổ chức kiểm toán độc lập); + Tài liệu chứng minh tổ chức tín dụng nước ngoài được phép thực hiện hoạt động ngân hàng theo quy định của pháp luật của nước nơi tổ chức tín dụng nước ngoài đặt trụ sở chính;  + Văn bản của cơ quan có thẩm quyền của nước nguyên xứ cung cấp thông tin về tổ chức tín dụng nước ngoài, trong đó bao gồm các nội dung tối thiểu sau: Tình hình tuân thủ pháp luật về hoạt động ngân hàng và các quy định pháp luật khác trong vòng 05 năm liền trước năm nộp hồ sơ và đến thời điểm nộp hồ sơ; Tỷ lệ an toàn vốn và các tỷ lệ đảm bảo an toàn khác theo quy định của nước nguyên xứ trong năm liền trước năm nộp hồ sơ và đến thời điểm nộp hồ sơ; Tình hình tuân thủ các quy định về quản trị rủi ro và trích lập dự phòng trong năm liền trước năm nộp hồ sơ và đến thời điểm nộp hồ sơ; Cam kết bảo đảm khả năng giám sát toàn bộ hoạt động của tổ chức tín dụng nước ngoài (bao gồm cả hoạt động của ngân hàng trách nhiệm hữu hạn dự kiến góp vốn) trên cơ sở hợp nhất theo thông lệ quốc tế; + Văn bản hoặc tài liệu của tổ chức xếp loại tín nhiệm quốc tế chứng minh thứ hạng tín nhiệm trong thời hạn 06 tháng trước thời điểm nộp hồ sơ; + Quyết định bổ nhiệm người đại diện vốn góp dự kiến tại ngân hàng, trong đó có các thông tin định danh của người đại diện vốn góp (Họ và tên; số định danh cá nhân (đối với cá nhân có quốc tịch Việt Nam), số hộ chiếu hoặc giấy tờ có giá trị thay thế hộ chiếu, ngày cấp, nơi cấp, quốc tịch/các quốc tịch (đối với cá nhân không có quốc tịch Việt Nam); + Văn bản cam kết về việc sẵn sàng hỗ trợ về tài chính, công nghệ, quản trị, điều hành, hoạt động cho ngân hàng, đảm bảo duy trì giá trị thực của vốn điều lệ của ngân hàng không thấp hơn mức vốn pháp định và đáp ứng đầy đủ các quy định về an toàn hoạt động theo quy định của Ngân hàng Nhà nước;\nc(ii), (iii):  (ii) Đối với thành viên mới là ngân hàng thương mại Việt Nam: + Quyết định bổ nhiệm người đại diện vốn góp dự kiến tại ngân hàng, trong đó có các thông tin định danh của người đại diện vốn góp (Họ và tên; số định danh cá nhân (đối với cá nhân có quốc tịch Việt Nam), số hộ chiếu hoặc giấy tờ có giá trị thay thế hộ chiếu, ngày cấp, nơi cấp, quốc tịch/các quốc tịch (đối với cá nhân không có quốc tịch Việt Nam); + Tài liệu giải thích hợp lý về ý kiến ngoại trừ không ảnh hưởng đến điều kiện góp vốn và có xác nhận của tổ chức kiểm toán độc lập về ảnh hưởng của việc ngoại trừ (trong trường hợp báo cáo tài chính có ý kiến ngoại trừ của tổ chức kiểm toán độc lập);  + Báo cáo tình hình tuân thủ giới hạn mua, nắm giữ cổ phiếu của tổ chức tín dụng theo quy định tại khoản 8 Điều 111 Luật Các tổ chức tín dụng; - Báo cáo về tỷ lệ an toàn vốn tối thiểu và tỷ lệ góp vốn, mua cổ phần dự kiến sau khi góp vốn;  (iii) Đối với thành viên mới của ngân hàng liên doanh là doanh nghiệp không phải ngân hàng, hồ sơ bao gồm:  + Giấy phép thành lập hoặc chứng nhận đăng ký doanh nghiệp hoặc văn bản tương đương (trừ doanh nghiệp Việt Nam);  + Quyết định bổ nhiệm người đại diện vốn góp dự kiến tại ngân hàng, trong đó có các thông tin định danh của người đại diện vốn góp (Họ và tên; số định danh cá nhân (đối với cá nhân có quốc tịch Việt Nam), số hộ chiếu hoặc giấy tờ có giá trị thay thế hộ chiếu, ngày cấp, nơi cấp, quốc tịch/các quốc tịch (đối với cá nhân không có quốc tịch Việt Nam); - Bản sao hộ chiếu hoặc giấy tờ có giá trị thay thế hộ chiếu của người đại diện theo pháp luật và người đại diện vốn góp của doanh nghiệp tại ngân hàng (đối với người không có quốc tịch Việt Nam); - Văn bản của cấp có thẩm quyền chấp thuận cho doanh nghiệp được tham gia góp vốn vào ngân hàng;  - Báo cáo về việc đáp ứng các điều kiện đối với đối tác mới là doanh nghiệp không phải ngân hàng khi góp vốn theo quy định của Thống đốc Ngân hàng Nhà nước về việc cấp đổi Giấy phép, cấp bổ sung nội dung hoạt động vào Giấy phép và một số quy định về tổ chức, hoạt động của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài, văn phòng đại diện tại Việt Nam của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng;  - Báo cáo tài chính 03 năm liền kề trước năm nộp hồ sơ đề nghị chấp thuận tăng vốn đã được kiểm toán độc lập theo quy định của pháp luật (trừ doanh nghiệp đã niêm yết trên thị trường chứng khoán Việt Nam); - Tài liệu giải thích hợp lý về ý kiến ngoại trừ không ảnh hưởng đến điều kiện góp vốn và có xác nhận của tổ chức kiểm toán độc lập về ảnh hưởng của việc ngoại trừ (trong trường hợp báo cáo tài chính có ý kiến ngoại trừ của tổ chức kiểm toán độc lập); - Báo cáo khả năng tài chính tham gia góp vốn ngân hàng liên doanh của doanh nghiệp không phải ngân hàng theo mẫu quy định tại Phụ lục I ban hành kèm theo Thông tư số 50/2025/TT-NHNN;  - Bảng kê khai thông tin về lịch sử quan hệ tín dụng của doanh nghiệp theo mẫu quy định tại Phụ lục II ban hành kèm theo Thông tư số 50/2025/TT-NHNN;  - Văn bản xác nhận của cơ quan thuế về việc thực hiện nghĩa vụ thuế với ngân sách nhà nước; Văn bản của cơ quan bảo hiểm xã hội cung cấp thông tin về việc đóng bảo hiểm xã hội của tổ chức; - Bảng kê khai người có liên quan và tình hình tham gia góp vốn vào ngân hàng thương mại theo mẫu quy định tại Phụ lục III ban hành kèm theo Thông tư số 50/2025/TT-NHNN.",
+    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Ngân hàng thương mại lập 01 bộ hồ sơ theo quy định gửi Ngân hàng Nhà nước.\n+ Bước 2: Trường hợp hồ sơ chưa đầy đủ, hợp lệ, trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu ngân hàng thương mại bổ sung, hoàn thiện hồ sơ.\n+ Bước 3: Trong thời hạn 20 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Ngân hàng Nhà nước có văn bản chấp thuận đề nghị tăng vốn điều lệ của ngân hàng thương mại; trường hợp không chấp thuận, Ngân hàng Nhà nước có văn bản trả lời và nêu rõ lý do. Văn bản chấp thuận tăng mức vốn điều lệ có hiệu lực trong thời hạn 12 tháng kể từ ngày ký.",
+    "THÀNH PHẦN HỒ SƠ": "a) Văn bản đề nghị, trong đó tối thiểu bao gồm các nội dung sau: (i) Sự cần thiết của việc tăng mức vốn điều lệ; (ii) Mức vốn điều lệ hiện tại và mức vốn điều lệ dự kiến tăng; (iii) Cam kết thông báo cho các thành viên góp vốn mới về quyền và nghĩa vụ của thành viên góp vốn theo quy định tại Luật Các tổ chức tín dụng và pháp luật có liên quan, trong đó bao gồm: + Chịu trách nhiệm trước pháp luật về tính hợp pháp của nguồn vốn góp; không được dùng vốn huy động, vốn vay của tổ chức, cá nhân khác để góp vốn; + Chịu trách nhiệm tuân thủ quy định về tỷ lệ sở hữu phần vốn góp của thành viên góp vốn, thành viên góp vốn và người có liên quan.  (iv) Báo cáo tình hình tuân thủ các quy định về quản trị rủi ro, trích lập dự phòng rủi ro theo quy định pháp luật tại thời điểm nộp hồ sơ; các tỷ lệ bảo đảm an toàn trong hoạt động ngân hàng theo quy định của Ngân hàng Nhà nước trong năm liền kề năm nộp hồ sơ và đến thời điểm nộp hồ sơ của thành viên mới là ngân hàng thương mại Việt Nam và thành viên mới chịu trách nhiệm về thông tin này;\nb) Nghị quyết, quyết định của Hội đồng thành viên đối với ngân hàng thương mại trách nhiệm hữu hạn hai thành viên trở lên, Quyết định của chủ sở hữu đối với ngân hàng thương mại trách nhiệm hữu hạn một thành viên thông qua việc tăng mức vốn điều lệ của ngân hàng thương mại hoặc Quyết định của cấp có thẩm quyền thông qua việc đầu tư bổ sung vốn điều lệ của ngân hàng thương mại do Nhà nước nắm giữ 100% vốn điều lệ, trong đó tối thiểu phải có các nội dung sau: (i) Tổng mức vốn điều lệ dự kiến tăng thêm;  (ii) Các đợt dự kiến tăng mức vốn điều lệ;  (iii) Nguồn sử dụng để tăng vốn điều lệ; (iv) Thời gian dự kiến hoàn thành việc tăng vốn điều lệ;\nc) Trường hợp ngân hàng thương mại trách nhiệm hữu hạn hai thành viên trở lên tăng vốn điều lệ từ nguồn vốn góp của thành viên góp vốn mới, ngoài các thành phần hồ sơ quy định tại điểm a, b khoản 1 Điều 13 Thông tư số 50/2025/TT-NHNN, ngân hàng thương mại gửi các văn bản, tài liệu sau: (i) Đối với thành viên mới là tổ chức tín dụng nước ngoài: + Báo cáo tài chính 05 năm liền kề trước năm nộp hồ sơ đề nghị chấp thuận tăng vốn đã được kiểm toán độc lập và báo cáo tài chính đến thời điểm gần nhất tính đến thời điểm nộp hồ sơ;  + Tài liệu giải thích hợp lý về ý kiến ngoại trừ không ảnh hưởng đến điều kiện góp vốn và có xác nhận của tổ chức kiểm toán độc lập về ảnh hưởng của việc ngoại trừ (trong trường hợp báo cáo tài chính có ý kiến ngoại trừ của tổ chức kiểm toán độc lập); + Tài liệu chứng minh tổ chức tín dụng nước ngoài được phép thực hiện hoạt động ngân hàng theo quy định của pháp luật của nước nơi tổ chức tín dụng nước ngoài đặt trụ sở chính;  + Văn bản của cơ quan có thẩm quyền của nước nguyên xứ cung cấp thông tin về tổ chức tín dụng nước ngoài, trong đó bao gồm các nội dung tối thiểu sau: Tình hình tuân thủ pháp luật về hoạt động ngân hàng và các quy định pháp luật khác trong vòng 05 năm liền trước năm nộp hồ sơ và đến thời điểm nộp hồ sơ; Tỷ lệ an toàn vốn và các tỷ lệ đảm bảo an toàn khác theo quy định của nước nguyên xứ trong năm liền trước năm nộp hồ sơ và đến thời điểm nộp hồ sơ; Tình hình tuân thủ các quy định về quản trị rủi ro và trích lập dự phòng trong năm liền trước năm nộp hồ sơ và đến thời điểm nộp hồ sơ; Cam kết bảo đảm khả năng giám sát toàn bộ hoạt động của tổ chức tín dụng nước ngoài (bao gồm cả hoạt động của ngân hàng trách nhiệm hữu hạn dự kiến góp vốn) trên cơ sở hợp nhất theo thông lệ quốc tế; + Văn bản hoặc tài liệu của tổ chức xếp loại tín nhiệm quốc tế chứng minh thứ hạng tín nhiệm trong thời hạn 06 tháng trước thời điểm nộp hồ sơ; + Quyết định bổ nhiệm người đại diện vốn góp dự kiến tại ngân hàng, trong đó có các thông tin định danh của người đại diện vốn góp (Họ và tên; số định danh cá nhân (đối với cá nhân có quốc tịch Việt Nam), số hộ chiếu hoặc giấy tờ có giá trị thay thế hộ chiếu, ngày cấp, nơi cấp, quốc tịch/các quốc tịch (đối với cá nhân không có quốc tịch Việt Nam); + Văn bản cam kết về việc sẵn sàng hỗ trợ về tài chính, công nghệ, quản trị, điều hành, hoạt động cho ngân hàng, đảm bảo duy trì giá trị thực của vốn điều lệ của ngân hàng không thấp hơn mức vốn pháp định và đáp ứng đầy đủ các quy định về an toàn hoạt động theo quy định của Ngân hàng Nhà nước;\nc(ii), (iii):  (ii) Đối với thành viên mới là ngân hàng thương mại Việt Nam: + Quyết định bổ nhiệm người đại diện vốn góp dự kiến tại ngân hàng, trong đó có các thông tin định danh của người đại diện vốn góp (Họ và tên; số định danh cá nhân (đối với cá nhân có quốc tịch Việt Nam), số hộ chiếu hoặc giấy tờ có giá trị thay thế hộ chiếu, ngày cấp, nơi cấp, quốc tịch/các quốc tịch (đối với cá nhân không có quốc tịch Việt Nam); + Tài liệu giải thích hợp lý về ý kiến ngoại trừ không ảnh hưởng đến điều kiện góp vốn và có xác nhận của tổ chức kiểm toán độc lập về ảnh hưởng của việc ngoại trừ (trong trường hợp báo cáo tài chính có ý kiến ngoại trừ của tổ chức kiểm toán độc lập);  + Báo cáo tình hình tuân thủ giới hạn mua, nắm giữ cổ phiếu của tổ chức tín dụng theo quy định tại khoản 8 Điều 111 Luật Các tổ chức tín dụng; - Báo cáo về tỷ lệ an toàn vốn tối thiểu và tỷ lệ góp vốn, mua cổ phần dự kiến sau khi góp vốn;  (iii) Đối với thành viên mới của ngân hàng liên doanh là doanh nghiệp không phải ngân hàng, hồ sơ bao gồm:  + Giấy phép thành lập hoặc chứng nhận đăng ký doanh nghiệp hoặc văn bản tương đương (trừ doanh nghiệp Việt Nam);  + Quyết định bổ nhiệm người đại diện vốn góp dự kiến tại ngân hàng, trong đó có các thông tin định danh của người đại diện vốn góp (Họ và tên; số định danh cá nhân (đối với cá nhân có quốc tịch Việt Nam), số hộ chiếu hoặc giấy tờ có giá trị thay thế hộ chiếu, ngày cấp, nơi cấp, quốc tịch/các quốc tịch (đối với cá nhân không có quốc tịch Việt Nam); - Bản sao hộ chiếu hoặc giấy tờ có giá trị thay thế hộ chiếu của người đại diện theo pháp luật và người đại diện vốn góp của doanh nghiệp tại ngân hàng (đối với người không có quốc tịch Việt Nam); - Văn bản của cấp có thẩm quyền chấp thuận cho doanh nghiệp được tham gia góp vốn vào ngân hàng;  - Báo cáo về việc đáp ứng các điều kiện đối với đối tác mới là doanh nghiệp không phải ngân hàng khi góp vốn theo quy định của Thống đốc Ngân hàng Nhà nước về việc cấp đổi Giấy phép, cấp bổ sung nội dung hoạt động vào Giấy phép và một số quy định về tổ chức, hoạt động của ngân hàng thương mại, chi nhánh ngân hàng nước ngoài, văn phòng đại diện tại Việt Nam của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng;  - Báo cáo tài chính 03 năm liền kề trước năm nộp hồ sơ đề nghị chấp thuận tăng vốn đã được kiểm toán độc lập theo quy định của pháp luật (trừ doanh nghiệp đã niêm yết trên thị trường chứng khoán Việt Nam); - Tài liệu giải thích hợp lý về ý kiến ngoại trừ không ảnh hưởng đến điều kiện góp vốn và có xác nhận của tổ chức kiểm toán độc lập về ảnh hưởng của việc ngoại trừ (trong trường hợp báo cáo tài chính có ý kiến ngoại trừ của tổ chức kiểm toán độc lập); - Báo cáo khả năng tài chính tham gia góp vốn ngân hàng liên doanh của doanh nghiệp không phải ngân hàng theo mẫu quy định tại Phụ lục I ban hành kèm theo Thông tư số 50/2025/TT-NHNN;  - Bảng kê khai thông tin về lịch sử quan hệ tín dụng của doanh nghiệp theo mẫu quy định tại Phụ lục II ban hành kèm theo Thông tư số 50/2025/TT-NHNN;  - Văn bản xác nhận của cơ quan thuế về việc thực hiện nghĩa vụ thuế với ngân sách nhà nước; Văn bản của cơ quan bảo hiểm xã hội cung cấp thông tin về việc đóng bảo hiểm xã hội của tổ chức; - Bảng kê khai người có liên quan và tình hình tham gia góp vốn vào ngân hàng thương mại theo mẫu quy định tại Phụ lục III ban hành kèm theo Thông tư số 50/2025/TT-NHNN.",
     "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 20 ngày làm việc\nTrực tiếp: 20 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "50/2025/TT-NHNN - số 50/2025/TT-NHNN\nphân cấp thực hiện thủ tục hành chính trong lĩnh vực thông tin tín dụng và sủa đổi, bổ sung một số điều của các Thông tư liên quan đến cắt giảm, đơn giản hóa, phân cấp thực hiện thủ tục hành chính trong lĩnh vực thành lập và hoạt động ngân hàng - 11/2026/TT-NHNN\nLuật Các tổ chức tín dụng - Luật số 32/2024/QH15",
     "CƠ QUAN THỰC HIỆN": "Ngân hàng Nhà nước Việt Nam",
@@ -216,14 +167,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thành lập và hoạt động ngân hàng",
-      "slug": "thanh-lap-va-hoat-dong-ngan-hang"
+      "slug": "thanh-lap-va-hoat-ong-ngan-hang"
     },
     "implementation_levels": [
       {
@@ -243,6 +189,6 @@
         "slug": "ngan-hang-nha-nuoc-viet-nam"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

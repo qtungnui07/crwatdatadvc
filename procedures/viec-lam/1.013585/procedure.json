@@ -1,35 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-a8ec-751d-b0a0-7f707740568c",
   "procedure_code": "1.013585",
   "title": "Thủ tục biên đối với tàu thuyền buồm, tàu thuyền thể thao, du thuyền, người đi trên tàu thuyền buồm, tàu thuyền thể thao, du thuyền nhập cảnh, xuất cảnh, tại cửa khẩu cảng",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-a8ec-751d-b0a0-7f707740568c",
     "source_file": "chi-tiet-thu-tuc-1.013585.pdf",
     "source_path": "procedures/viec-lam/1.013585/chi-tiet-thu-tuc-1.013585.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:10.602481+00:00",
-    "source_updated_at": "2026-07-06T06:53:52.179Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:18.585360+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "2ff74419278ce636ed6aed8a5bd99848df81f276f4c3018539ddbebe1a3ea3b1"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:10.602481+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1909/QĐ-BQP",
   "implementation_level": "Cấp bộ, Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Quản lý biên giới",
   "target_users": [
@@ -44,10 +38,7 @@
   ],
   "agency": {
     "competent_agency": "Biên phòng cửa khẩu cảng",
-    "executing_agency": "Đội Thủ tục Biên phòng cửa khẩu cảng",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Đội Thủ tục Biên phòng cửa khẩu cảng"
   },
   "steps": [
     {
@@ -55,106 +46,55 @@
       "title": "Bước 1",
       "description": "- Bước 1: Chậm nhất 02 giờ, kể từ khi tàu thuyền neo đậu tại cầu cảng; chậm nhất 04 giờ, kể từ khi tàu thuyền neo đậu tại các vị trí khác trong vùng nước cảng, người làm thủ tục phải nộp và xuất trình cho Biên phòng cửa khẩu cảng các loại giấy tờ đối với tàu thuyền nhập cảnh, hồ sơ chuyển cảng đối với tàu thuyền chuyển cảng đến theo quy định;\nChậm nhất 02 giờ, trước khi tàu thuyền dự kiến rời cảng, người làm thủ tục phải nộp và xuất trình cho Biên phòng cửa khẩu cảng các loại giấy tờ đối với tàu thuyền xuất cảnh, tàu thuyền chuyển cảng đi theo quy định;\n- Bước 2: Biên phòng cửa khẩu cảng kiểm tra tính hợp pháp, hợp lệ của các giấy tờ mà người làm thủ tục nộp và xuất trình; hoàn thành thủ tục nhập cảnh, xuất cảnh, chuyển cảng.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "02 bản chính Bản khai vũ khí và vật liệu nổ (nếu có);",
-        "code": "000.00.00.G11-KQ1370",
+        "name": "Giấy tờ phải nộp: 02 bản chính Bản khai vũ khí và vật liệu nổ (nếu có);",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Giấy tờ phải nộp",
-        "attachments": [
-          {
-            "id": "019dc7fa-a283-772a-a4a1-0f891cab72ea",
-            "name": "Bản khai vũ khí vật liệu nổ.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Bản khai vũ khí vật liệu nổ.docx",
+        "source_page": 2
       },
       {
-        "name": "02 bản chính Danh sách thuyền viên",
-        "code": "000.00.00.G11-KQ1368",
+        "name": "Giấy tờ phải nộp: 02 bản chính Danh sách thuyền viên",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Giấy tờ phải nộp",
-        "attachments": [
-          {
-            "id": "019dc7fa-cb6b-72c1-a2cb-b379fa88741b",
-            "name": "Danh sách thuyền viên.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Danh sách thuyền viên.docx",
+        "source_page": 2
       },
       {
-        "name": "01 (một) bản chính Bản khai người trốn trên tàu (nếu có)",
-        "code": "000.00.00.G11-KQ1371",
+        "name": "Giấy tờ phải nộp: 01 (một) bản chính Bản khai người trốn trên tàu (nếu có)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Giấy tờ phải nộp",
-        "attachments": [
-          {
-            "id": "019dc7fb-049c-7016-86b7-74bb326fbb17",
-            "name": "Bản khai người trốn trên tàu.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Bản khai người trốn trên tàu.docx",
+        "source_page": 2
       },
       {
-        "name": "02 bản chính Bản khai chung",
-        "code": "000.00.00.G11-KQ1367",
+        "name": "Giấy tờ phải nộp: 02 bản chính Bản khai chung",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Giấy tờ phải nộp",
-        "attachments": [
-          {
-            "id": "019dc7fb-1daf-726c-972c-57bed9c1506d",
-            "name": "Bản khai chung.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Bản khai chung.docx",
+        "source_page": 2
       },
       {
-        "name": "02 bản chính Danh sách hành khách (nếu có)",
-        "code": "000.00.00.G11-KQ1369",
+        "name": "Giấy tờ phải nộp: 02 bản chính Danh sách hành khách (nếu có)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Giấy tờ phải nộp",
-        "attachments": [
-          {
-            "id": "019dc7fb-3779-750c-a2e4-67d703207301",
-            "name": "Danh sách hành khách.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Danh sách hành khách.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế của thuyền viên và hành khách (nếu có) hoặc sổ thuyền viên đối với thuyền viên nước ngoài thuộc trường hợp quy định tại khoản 3 Điều 13 Nghị định số 77/2017/NĐ-CP ngày 03/7/2017 của Chính phủ quy định về quản lý, bảo vệ an ninh, trật tự tại cửa khẩu cảng",
-        "code": "000.00.00.G11-KQ1317",
+        "name": "Giấy tờ phải xuất trình: Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế của thuyền viên và hành khách (nếu có) hoặc sổ thuyền viên đối với thuyền viên nước ngoài thuộc trường hợp quy định tại khoản 3 Điều 13 Nghị định số 77/2017/NĐ-CP ngày 03/7/2017 của Chính phủ quy định về quản lý, bảo vệ an ninh, trật tự tại cửa khẩu cảng",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Giấy tờ phải xuất trình",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Đối với hành khách (nếu có): Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế",
-        "code": "000.00.00.G11-KQ002893",
+        "name": "Giấy tờ phải xuất trình: Đối với hành khách (nếu có): Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Giấy tờ phải xuất trình",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -163,33 +103,22 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1 giờ",
-      "processing_time_value": 1,
-      "processing_time_unit": "HOUR",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Người làm thủ tục nộp, xuất trình các loại giấy tờ tại trụ sở Cảng vụ hàng hải, Cảng vụ đường thủy nội địa hoặc văn phòng đại diện Cảng vụ hàng hải, Cảng vụ đường thủy nội địa\nChậm nhất 01 giờ kể từ khi Biên phòng cửa khẩu cảng tiếp nhận đầy đủ các loại giấy tờ do người làm thủ tục nộp và xuất trình đối với tàu nhập cảnh, xuất cảnh, chuyển cảng đi;\n- Chậm nhất 30 phút kể từ khi Biên phòng cửa khẩu cảng tiếp nhận hồ sơ chuyển cảng đối với tàu chuyển cảng đến",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -197,32 +126,27 @@
     {
       "title": "Quy định về quản lý, bảo an ninh, trật tự tại cửa khẩu cảng",
       "document_number": "77/2017/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b471-10f0667bd234",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật Xuất cảnh, nhập cảnh của công dân Việt Nam và Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam sửa đổi 2023",
       "document_number": "23/2023/QH15",
-      "id": "019d2bb3-5d86-7760-a645-08dd5ede9baf",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật 51/2019/QH14",
       "document_number": "51/2019/QH14",
-      "id": "019d2bb3-5d87-7195-a442-70603a9d0597",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định quy định chi tiết một số điều của Bộ luật Hàng hải Việt Nam về quản lý hoạt động hàng hải",
       "document_number": "58/2017/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46f-3623eee55f1d",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật 49/2019/QH14",
       "document_number": "49/2019/QH14",
-      "id": "019d2bb3-5d87-7195-a442-1fc2d8d3cd84",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -230,14 +154,13 @@
     {
       "title": "Biên phòng cửa khẩu cảng thực hiện kiểm chứng nhập cảnh, xuất cảnh vào Bản khai chung, Danh sách thuyền viên, Danh sách hành khách, hộ chiếu của thuyền viên Việt Nam, hộ chiếu của hành khách đối với tàu nhập cảnh, xuất cảnh; niêm phong hồ sơ chuyển cảng đối với tàu thuyền chuyển cảng đi; tiếp nhận, kiểm tra hồ sơ chuyển cảng đối với tàu thuyền chuyển cảng đến",
       "code": "KQ.G11.000405",
-      "id": "019d2bb2-1c6f-72b5-bd0b-263e28f89fdf",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Chậm nhất 02 giờ, kể từ khi tàu thuyền neo đậu tại cầu cảng; chậm nhất 04 giờ, kể từ khi tàu thuyền neo đậu tại các vị trí khác trong vùng nước cảng, người làm thủ tục phải nộp và xuất trình cho Biên phòng cửa khẩu cảng các loại giấy tờ đối với tàu thuyền nhập cảnh, hồ sơ chuyển cảng đối với tàu thuyền chuyển cảng đến theo quy định;\nChậm nhất 02 giờ, trước khi tàu thuyền dự kiến rời cảng, người làm thủ tục phải nộp và xuất trình cho Biên phòng cửa khẩu cảng các loại giấy tờ đối với tàu thuyền xuất cảnh, tàu thuyền chuyển cảng đi theo quy định;\n- Bước 2: Biên phòng cửa khẩu cảng kiểm tra tính hợp pháp, hợp lệ của các giấy tờ mà người làm thủ tục nộp và xuất trình; hoàn thành thủ tục nhập cảnh, xuất cảnh, chuyển cảng.",
-    "THÀNH PHẦN HỒ SƠ": "Giấy tờ phải nộp\n02 bản chính Bản khai vũ khí và vật liệu nổ (nếu có);\n02 bản chính Danh sách thuyền viên\n01 (một) bản chính Bản khai người trốn trên tàu (nếu có)\n02 bản chính Bản khai chung\n02 bản chính Danh sách hành khách (nếu có)\nGiấy tờ phải xuất trình\nHộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế của thuyền viên và hành khách (nếu có) hoặc sổ thuyền viên đối với thuyền viên nước ngoài thuộc trường hợp quy định tại khoản 3 Điều 13 Nghị định số 77/2017/NĐ-CP ngày 03/7/2017 của Chính phủ quy định về quản lý, bảo vệ an ninh, trật tự tại cửa khẩu cảng\nĐối với hành khách (nếu có): Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 1 giờ - Người làm thủ tục nộp, xuất trình các loại giấy tờ tại trụ sở Cảng vụ hàng hải, Cảng vụ đường thủy nội địa hoặc văn phòng đại diện Cảng vụ hàng hải, Cảng vụ đường thủy nội địa\nChậm nhất 01 giờ kể từ khi Biên phòng cửa khẩu cảng tiếp nhận đầy đủ các loại giấy tờ do người làm thủ tục nộp và xuất trình đối với tàu nhập cảnh, xuất cảnh, chuyển cảng đi;\n- Chậm nhất 30 phút kể từ khi Biên phòng cửa khẩu cảng tiếp nhận hồ sơ chuyển cảng đối với tàu chuyển cảng đến",
+    "THÀNH PHẦN HỒ SƠ": "Giấy tờ phải nộp: 02 bản chính Bản khai vũ khí và vật liệu nổ (nếu có);\nGiấy tờ phải nộp: 02 bản chính Danh sách thuyền viên\nGiấy tờ phải nộp: 01 (một) bản chính Bản khai người trốn trên tàu (nếu có)\nGiấy tờ phải nộp: 02 bản chính Bản khai chung\nGiấy tờ phải nộp: 02 bản chính Danh sách hành khách (nếu có)\nGiấy tờ phải xuất trình: Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế của thuyền viên và hành khách (nếu có) hoặc sổ thuyền viên đối với thuyền viên nước ngoài thuộc trường hợp quy định tại khoản 3 Điều 13 Nghị định số 77/2017/NĐ-CP ngày 03/7/2017 của Chính phủ quy định về quản lý, bảo vệ an ninh, trật tự tại cửa khẩu cảng\nGiấy tờ phải xuất trình: Đối với hành khách (nếu có): Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 1 giờ",
     "CĂN CỨ PHÁP LÝ": "Quy định về quản lý, bảo an ninh, trật tự tại cửa khẩu cảng - 77/2017/NĐ-CP\nLuật Xuất cảnh, nhập cảnh của công dân Việt Nam và Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam sửa đổi 2023 - 23/2023/QH15\nLuật 51/2019/QH14 - 51/2019/QH14\nNghị định quy định chi tiết một số điều của Bộ luật Hàng hải Việt Nam về quản lý hoạt động hàng hải - 58/2017/NĐ-CP\nLuật 49/2019/QH14 - 49/2019/QH14",
     "CƠ QUAN THỰC HIỆN": "Đội Thủ tục Biên phòng cửa khẩu cảng",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
@@ -246,11 +169,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Quản lý biên giới",
       "slug": "quan-ly-bien-gioi"
@@ -276,11 +194,11 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -306,9 +224,9 @@
     "agencies": [
       {
         "name": "Đội Thủ tục Biên phòng cửa khẩu cảng",
-        "slug": "doi-thu-tuc-bien-phong-cua-khau-cang"
+        "slug": "oi-thu-tuc-bien-phong-cua-khau-cang"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

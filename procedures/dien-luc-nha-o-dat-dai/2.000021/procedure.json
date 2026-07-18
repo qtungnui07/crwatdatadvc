@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfa-9e52-756f-a235-7ce7d7a2f637",
   "procedure_code": "2.000021",
   "title": "Cấp giấy phép khai thác nước mặt, nước biển (đối với các trường hợp quy định tại khoản 1 Điều 15 Nghị định số 54/2024/NĐ-CP ngày 16/5/2024, được sửa đổi, bổ sung bởi khoản 12 Điều 2 Nghị định số 23/2026/NĐ-CP)",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-9e52-756f-a235-7ce7d7a2f637",
     "source_file": "chi-tiet-thu-tuc-2.000021.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/2.000021/chi-tiet-thu-tuc-2.000021.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:19.964026+00:00",
-    "source_updated_at": "2026-04-14T10:11:32.239Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:57:55.092456+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "54b1101c00c5d0e45c037c1f731511fa359c7ff83b58a132854765caaa1bf470"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:19.964026+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "248/QĐ-BNNMT",
   "implementation_level": "Cấp bộ, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Tài nguyên nước",
   "target_users": [
@@ -37,88 +32,53 @@
   ],
   "agency": {
     "competent_agency": "Bộ Nông nghiệp và Môi trường",
-    "executing_agency": "Cục Quản lý tài nguyên nước - Bộ NN và MT",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Quản lý tài nguyên nước - Bộ NN và MT"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Nộp hồ sơ:\nTổ chức, cá nhân đề nghị cấp giấy phép nộp 01 bộ hồ sơ trực tiếp tại Bộ phận Tiếp nhận và Trả kết quả giải quyết thủ tục hành chính của Bộ Nông nghiệp và Môi trường (sau đây gọi tắt là Bộ phận Một cửa), địa chỉ số 10 Tôn Thất Thuyết, phường Cầu Giấy, Hà Nội hoặc qua dịch vụ bưu chính hoặc qua ủy quyền theo quy định của pháp luật hoặc trực tuyến tại Cổng Dịch vụ công quốc gia.\n- Bước 2: Tiếp nhận, kiểm tra hồ sơ:\nBộ phận Một cửa có trách nhiệm tiếp nhận hồ sơ, kiểm tra, xem xét tính đầy đủ, hợp lệ của hồ sơ.\n+ Trường hợp hồ sơ không hợp lệ, Bộ phận Một cửa trả lại hồ sơ và thông báo rõ lý do cho tổ chức, cá nhân đề nghị cấp giấy phép. \n+ Trường hợp hồ sơ hợp lệ, Bộ phận Một cửa chuyển hồ sơ cho Cục Quản lý tài nguyên nước để tổ chức thẩm định.\n- Bước 3: Thẩm định hồ sơ và quyết định cấp phép:\nKể từ ngày nhận đủ hồ sơ hợp lệ, Cục Quản lý tài nguyên nước có trách nhiệm gửi thông báo nộp phí thẩm định cho tổ chức, cá nhân đề nghị cấp phép và thẩm định đề án, báo cáo; nếu cần thiết thì kiểm tra thực tế hiện trường, lập hội đồng thẩm định đề án, báo cáo, tổ chức lấy ý kiến các cơ quan, tổ chức, cá nhân có liên quan.\n+ Trường hợp đủ điều kiện cấp phép, Cục Quản lý tài nguyên nước trình Bộ trưởng Bộ Nông nghiệp và Môi trường cấp phép; trường hợp không đủ điều kiện để cấp phép thì Cục Quản lý tài nguyên nước gửi văn bản thông báo cho tổ chức, cá nhân đề nghị cấp phép nêu rõ những nội dung đề án chưa đạt yêu cầu và trả lại hồ sơ đề nghị cấp phép.\n+ Trường hợp phải bổ sung, chỉnh sửa để hoàn thiện đề án, Cục Quản lý tài nguyên nước gửi văn bản thông báo cho tổ chức, cá nhân đề nghị cấp phép nêu rõ những nội dung cần bổ sung, hoàn thiện đề án. \nThời gian bổ sung, hoàn thiện đề án không tính vào thời gian thẩm định đề án. Thời gian thẩm định sau khi đề án được bổ sung hoàn chỉnh là 18 ngày làm việc.\n",
+      "description": "- Bước 1: Nộp hồ sơ:\nTổ chức, cá nhân đề nghị cấp giấy phép nộp 01 bộ hồ sơ trực tiếp tại Bộ phận Tiếp nhận và Trả kết quả giải quyết thủ tục hành chính của Bộ Nông nghiệp và Môi trường (sau đây gọi tắt là Bộ phận Một cửa), địa chỉ số 10 Tôn Thất Thuyết, phường Cầu Giấy, Hà Nội hoặc qua dịch vụ bưu chính hoặc qua ủy quyền theo quy định của pháp luật hoặc trực tuyến tại Cổng Dịch vụ công quốc gia.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Tiếp nhận, kiểm tra hồ sơ:\nBộ phận Một cửa có trách nhiệm tiếp nhận hồ sơ, kiểm tra, xem xét tính đầy đủ, hợp lệ của hồ sơ.\n+ Trường hợp hồ sơ không hợp lệ, Bộ phận Một cửa trả lại hồ sơ và thông báo rõ lý do cho tổ chức, cá nhân đề nghị cấp giấy phép. \n+ Trường hợp hồ sơ hợp lệ, Bộ phận Một cửa chuyển hồ sơ cho Cục Quản lý tài nguyên nước để tổ chức thẩm định.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "- Bước 3: Thẩm định hồ sơ và quyết định cấp phép:\nKể từ ngày nhận đủ hồ sơ hợp lệ, Cục Quản lý tài nguyên nước có trách nhiệm gửi thông báo nộp phí thẩm định cho tổ chức, cá nhân đề nghị cấp phép và thẩm định đề án, báo cáo; nếu cần thiết thì kiểm tra thực tế hiện trường, lập hội đồng thẩm định đề án, báo cáo, tổ chức lấy ý kiến các cơ quan, tổ chức, cá nhân có liên quan.\n+ Trường hợp đủ điều kiện cấp phép, Cục Quản lý tài nguyên nước trình Bộ trưởng Bộ Nông nghiệp và Môi trường cấp phép; trường hợp không đủ điều kiện để cấp phép thì Cục Quản lý tài nguyên nước gửi văn bản thông báo cho tổ chức, cá nhân đề nghị cấp phép nêu rõ những nội dung đề án chưa đạt yêu cầu và trả lại hồ sơ đề nghị cấp phép.\n+ Trường hợp phải bổ sung, chỉnh sửa để hoàn thiện đề án, Cục Quản lý tài nguyên nước gửi văn bản thông báo cho tổ chức, cá nhân đề nghị cấp phép nêu rõ những nội dung cần bổ sung, hoàn thiện đề án. \nThời gian bổ sung, hoàn thiện đề án không tính vào thời gian thẩm định đề án. Thời gian thẩm định sau khi đề án được bổ sung hoàn chỉnh là 18 ngày làm việc.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Văn bản đề nghị cấp giấy phép theo Mẫu 05, Mẫu 07 Phụ lục I, Nghị định số 23/2026/NĐ-CP",
-        "code": "G10-KQ007227",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d8b62-771b-705c-80a7-6815f72b9503",
-            "name": "Mau05.docx",
-            "url": ""
-          },
-          {
-            "id": "019d8b62-79cf-702c-8c7c-6b0b24b8ab31",
-            "name": "Mau07.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau05.docx; Mau07.docx",
+        "source_page": 2
       },
       {
         "name": "Đề án khai thác nước theo Mẫu 42, Mẫu 46 (đối với trường hợp công trình chưa khai thác nước), Mẫu 43, Mẫu 47 (đối với trường hợp công trình đã khai thác nước), Mẫu 44 (đối với trường hợp công trình thủy lợi, công trình cấp nước sạch nông thôn tập trung), Phụ lục I, Nghị định số 23/2026/NĐ-CP",
-        "code": "G10-KQ007228",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d8b63-1e24-7375-9ad2-d1c14a163313",
-            "name": "Mau42.docx",
-            "url": ""
-          },
-          {
-            "id": "019d8b63-3775-75f0-90fa-6b2f043d6b52",
-            "name": "Mau46.docx",
-            "url": ""
-          },
-          {
-            "id": "019d8b63-50c1-72ae-acf4-facd161d7838",
-            "name": "Mau47.docx",
-            "url": ""
-          },
-          {
-            "id": "019d8b63-6dd4-717f-89ab-ac752b40f213",
-            "name": "Mau43.docx",
-            "url": ""
-          },
-          {
-            "id": "019d8b63-8747-758b-bcc2-0f7407a059e9",
-            "name": "Mau44.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau42.docx; Mau46.docx; Mau47.docx; Mau43.docx; Mau44.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Hồ sơ lấy ý kiến và văn bản tổng hợp tiếp thu, giải trình ý kiến cộng đồng (đối với trường hợp phải lấy ý kiến đại diện cộng đồng dân cư, tổ chức, cá nhân theo quy định tại điểm a, b và điểm c khoản 1 Điều 3 Nghị định số 54/2024/NĐ-CP, được sửa đổi bởi khoản 2 Điều 2 Nghị định số 23/2026/NĐ-CP)",
-        "code": "G10-KQ007229",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -127,87 +87,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "30 ngày làm việc",
-      "processing_time_value": 30,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "theo quy định của pháp luật về phí, lệ phí",
-          "attachment": null
-        }
-      ],
+      "fee": "theo quy định của pháp luật về phí, lệ phí",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "30 ngày làm việc",
-      "processing_time_value": 30,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "theo quy định của pháp luật về phí, lệ phí",
-          "attachment": null
-        }
-      ],
+      "fee": "theo quy định của pháp luật về phí, lệ phí",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "30 ngày làm việc",
-      "processing_time_value": 30,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "theo quy định của pháp luật về phí, lệ phí",
-          "attachment": null
-        }
-      ],
+      "fee": "theo quy định của pháp luật về phí, lệ phí",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "theo quy định của pháp luật về phí, lệ phí",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "theo quy định của pháp luật về phí, lệ phí",
-        "attachment": null
+        "amount_text": "theo quy định của pháp luật về phí, lệ phí",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "theo quy định của pháp luật về phí, lệ phí",
-        "attachment": null
+        "amount_text": "theo quy định của pháp luật về phí, lệ phí",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "theo quy định của pháp luật về phí, lệ phí",
-        "attachment": null
+        "amount_text": "theo quy định của pháp luật về phí, lệ phí",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -215,32 +140,27 @@
     {
       "title": "14/2025/TT-BNNMT",
       "document_number": "14/2025/TT-BNNMT",
-      "id": "019d2bb3-5d7c-71ab-9f09-83605f83efc1",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "QUY ĐỊNH VIỆC HÀNH NGHỀ KHOAN NƯỚC DƯỚI ĐẤT, KÊ KHAI, ĐĂNG KÝ, CẤP PHÉP, DỊCH VỤ TÀI NGUYÊN NƯỚC VÀ TIỀN CẤP QUYỀN KHAI THÁC TÀI NGUYÊN NƯỚC",
       "document_number": "54/2024/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46e-eec5b78ade99",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật",
       "document_number": "28/2023/QH15",
-      "id": "019d2bb3-5d84-71c5-b672-7e4ed283bc69",
       "source_page": null
     },
     {
       "title": "Nghị định Quy định phân quyền, phân cấp trong lĩnh vực nông nghiệp",
       "document_number": "136/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-a2a2b09b2b47",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 23/2026/NĐ-CP ngày 17/01/2026 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực tài nguyên nước.",
       "document_number": "NĐ 23/2026/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b475-2553fc0ec21d",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -248,19 +168,17 @@
     {
       "title": "Giấy phép khai thác nước mặt: Mẫu 23 Phụ lục I Nghị định số 23/2026/NĐ-CP.",
       "code": "KQ.G10.001275",
-      "id": "019d2bb2-1c6e-7797-a218-424a034fda77",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Giấy phép khai thác nước biển: Mẫu 25 Phụ lục I Nghị định số 23/2026/NĐ-CP.",
       "code": "KQ.G10.001276",
-      "id": "019d2bb2-1c6e-7797-a218-45ebf70429bb",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Nộp hồ sơ:\nTổ chức, cá nhân đề nghị cấp giấy phép nộp 01 bộ hồ sơ trực tiếp tại Bộ phận Tiếp nhận và Trả kết quả giải quyết thủ tục hành chính của Bộ Nông nghiệp và Môi trường (sau đây gọi tắt là Bộ phận Một cửa), địa chỉ số 10 Tôn Thất Thuyết, phường Cầu Giấy, Hà Nội hoặc qua dịch vụ bưu chính hoặc qua ủy quyền theo quy định của pháp luật hoặc trực tuyến tại Cổng Dịch vụ công quốc gia.\n- Bước 2: Tiếp nhận, kiểm tra hồ sơ:\nBộ phận Một cửa có trách nhiệm tiếp nhận hồ sơ, kiểm tra, xem xét tính đầy đủ, hợp lệ của hồ sơ.\n+ Trường hợp hồ sơ không hợp lệ, Bộ phận Một cửa trả lại hồ sơ và thông báo rõ lý do cho tổ chức, cá nhân đề nghị cấp giấy phép. \n+ Trường hợp hồ sơ hợp lệ, Bộ phận Một cửa chuyển hồ sơ cho Cục Quản lý tài nguyên nước để tổ chức thẩm định.\n- Bước 3: Thẩm định hồ sơ và quyết định cấp phép:\nKể từ ngày nhận đủ hồ sơ hợp lệ, Cục Quản lý tài nguyên nước có trách nhiệm gửi thông báo nộp phí thẩm định cho tổ chức, cá nhân đề nghị cấp phép và thẩm định đề án, báo cáo; nếu cần thiết thì kiểm tra thực tế hiện trường, lập hội đồng thẩm định đề án, báo cáo, tổ chức lấy ý kiến các cơ quan, tổ chức, cá nhân có liên quan.\n+ Trường hợp đủ điều kiện cấp phép, Cục Quản lý tài nguyên nước trình Bộ trưởng Bộ Nông nghiệp và Môi trường cấp phép; trường hợp không đủ điều kiện để cấp phép thì Cục Quản lý tài nguyên nước gửi văn bản thông báo cho tổ chức, cá nhân đề nghị cấp phép nêu rõ những nội dung đề án chưa đạt yêu cầu và trả lại hồ sơ đề nghị cấp phép.\n+ Trường hợp phải bổ sung, chỉnh sửa để hoàn thiện đề án, Cục Quản lý tài nguyên nước gửi văn bản thông báo cho tổ chức, cá nhân đề nghị cấp phép nêu rõ những nội dung cần bổ sung, hoàn thiện đề án. \nThời gian bổ sung, hoàn thiện đề án không tính vào thời gian thẩm định đề án. Thời gian thẩm định sau khi đề án được bổ sung hoàn chỉnh là 18 ngày làm việc.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nVăn bản đề nghị cấp giấy phép theo Mẫu 05, Mẫu 07 Phụ lục I, Nghị định số 23/2026/NĐ-CP\nHồ sơ lấy ý kiến và văn bản tổng hợp tiếp thu, giải trình ý kiến cộng đồng (đối với trường hợp phải lấy ý kiến đại diện cộng đồng dân cư, tổ chức, cá nhân theo quy định tại điểm a, b và điểm c khoản 1 Điều 3 Nghị định số 54/2024/NĐ-CP, được sửa đổi bởi khoản 2 Điều 2 Nghị định số 23/2026/NĐ-CP)\nĐề án khai thác nước theo Mẫu 42, Mẫu 46 (đối với trường hợp công trình chưa khai thác nước), Mẫu 43, Mẫu 47 (đối với trường hợp công trình đã khai thác nước), Mẫu 44 (đối với trường hợp công trình thủy lợi, công trình cấp nước sạch nông thôn tập trung), Phụ lục I, Nghị định số 23/2026/NĐ-CP",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Nộp hồ sơ:\nTổ chức, cá nhân đề nghị cấp giấy phép nộp 01 bộ hồ sơ trực tiếp tại Bộ phận Tiếp nhận và Trả kết quả giải quyết thủ tục hành chính của Bộ Nông nghiệp và Môi trường (sau đây gọi tắt là Bộ phận Một cửa), địa chỉ số 10 Tôn Thất Thuyết, phường Cầu Giấy, Hà Nội hoặc qua dịch vụ bưu chính hoặc qua ủy quyền theo quy định của pháp luật hoặc trực tuyến tại Cổng Dịch vụ công quốc gia.\n- Bước 2: Tiếp nhận, kiểm tra hồ sơ:\nBộ phận Một cửa có trách nhiệm tiếp nhận hồ sơ, kiểm tra, xem xét tính đầy đủ, hợp lệ của hồ sơ.\n+ Trường hợp hồ sơ không hợp lệ, Bộ phận Một cửa trả lại hồ sơ và thông báo rõ lý do cho tổ chức, cá nhân đề nghị cấp giấy phép. \n+ Trường hợp hồ sơ hợp lệ, Bộ phận Một cửa chuyển hồ sơ cho Cục Quản lý tài nguyên nước để tổ chức thẩm định.\n- Bước 3: Thẩm định hồ sơ và quyết định cấp phép:\nKể từ ngày nhận đủ hồ sơ hợp lệ, Cục Quản lý tài nguyên nước có trách nhiệm gửi thông báo nộp phí thẩm định cho tổ chức, cá nhân đề nghị cấp phép và thẩm định đề án, báo cáo; nếu cần thiết thì kiểm tra thực tế hiện trường, lập hội đồng thẩm định đề án, báo cáo, tổ chức lấy ý kiến các cơ quan, tổ chức, cá nhân có liên quan.\n+ Trường hợp đủ điều kiện cấp phép, Cục Quản lý tài nguyên nước trình Bộ trưởng Bộ Nông nghiệp và Môi trường cấp phép; trường hợp không đủ điều kiện để cấp phép thì Cục Quản lý tài nguyên nước gửi văn bản thông báo cho tổ chức, cá nhân đề nghị cấp phép nêu rõ những nội dung đề án chưa đạt yêu cầu và trả lại hồ sơ đề nghị cấp phép.\n+ Trường hợp phải bổ sung, chỉnh sửa để hoàn thiện đề án, Cục Quản lý tài nguyên nước gửi văn bản thông báo cho tổ chức, cá nhân đề nghị cấp phép nêu rõ những nội dung cần bổ sung, hoàn thiện đề án. \nThời gian bổ sung, hoàn thiện đề án không tính vào thời gian thẩm định đề án. Thời gian thẩm định sau khi đề án được bổ sung hoàn chỉnh là 18 ngày làm việc.",
+    "THÀNH PHẦN HỒ SƠ": "Văn bản đề nghị cấp giấy phép theo Mẫu 05, Mẫu 07 Phụ lục I, Nghị định số 23/2026/NĐ-CP\nĐề án khai thác nước theo Mẫu 42, Mẫu 46 (đối với trường hợp công trình chưa khai thác nước), Mẫu 43, Mẫu 47 (đối với trường hợp công trình đã khai thác nước), Mẫu 44 (đối với trường hợp công trình thủy lợi, công trình cấp nước sạch nông thôn tập trung), Phụ lục I, Nghị định số 23/2026/NĐ-CP\nHồ sơ lấy ý kiến và văn bản tổng hợp tiếp thu, giải trình ý kiến cộng đồng (đối với trường hợp phải lấy ý kiến đại diện cộng đồng dân cư, tổ chức, cá nhân theo quy định tại điểm a, b và điểm c khoản 1 Điều 3 Nghị định số 54/2024/NĐ-CP, được sửa đổi bởi khoản 2 Điều 2 Nghị định số 23/2026/NĐ-CP)",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 30 ngày làm việc\nQua dịch vụ bưu chính: 30 ngày làm việc\nTrực tiếp: 30 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "14/2025/TT-BNNMT - 14/2025/TT-BNNMT\nQUY ĐỊNH VIỆC HÀNH NGHỀ KHOAN NƯỚC DƯỚI ĐẤT, KÊ KHAI, ĐĂNG KÝ, CẤP PHÉP, DỊCH VỤ TÀI NGUYÊN NƯỚC VÀ TIỀN CẤP QUYỀN KHAI THÁC TÀI NGUYÊN NƯỚC - 54/2024/NĐ-CP\nLuật - 28/2023/QH15\nNghị định Quy định phân quyền, phân cấp trong lĩnh vực nông nghiệp - 136/2025/NĐ-CP\nNghị định 23/2026/NĐ-CP ngày 17/01/2026 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực tài nguyên nước. - NĐ 23/2026/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cục Quản lý tài nguyên nước - Bộ NN và MT",
@@ -270,11 +188,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Tài nguyên nước",
       "slug": "tai-nguyen-nuoc"
@@ -305,6 +218,6 @@
         "slug": "cuc-quan-ly-tai-nguyen-nuoc-bo-nn-va-mt"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

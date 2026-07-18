@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf8-5a12-717d-a868-c58dc882fff0",
   "procedure_code": "1.012605",
   "title": "THỦ TỤC ĐỀ NGHỊ GIẢNG ĐẠO NGOÀI ĐỊA BÀN PHỤ TRÁCH, CƠ SỞ TÔN GIÁO, ĐỊA ĐIỂM HỢP PHÁP ĐÃ ĐĂNG KÝ CÓ QUY MÔ TỔ CHỨC Ở NHIỀU XÃ THUỘC MỘT TỈNH HOẶC Ở NHIỀU TỈNH (CẤP TỈNH)",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-5a12-717d-a868-c58dc882fff0",
     "source_file": "chi-tiet-thu-tuc-1.012605.pdf",
     "source_path": "procedures/viec-lam/1.012605/chi-tiet-thu-tuc-1.012605.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:08.062860+00:00",
-    "source_updated_at": "2026-04-08T15:59:45.638Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:04.407906+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "896afea774b24a3eb918bd6865223951cc3cdc216d89891daf19d6c8db44ab2b"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:08.062860+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "364/QĐ-BDTTG",
   "implementation_level": "Cấp tỉnh, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Tín ngưỡng, tôn giáo",
   "target_users": [
@@ -37,18 +32,22 @@
   ],
   "agency": {
     "competent_agency": "Ủy ban nhân dân cấp tỉnh",
-    "executing_agency": "Sở Nội vụ, Sở Dân tộc và Tôn giáo",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Nội vụ, Sở Dân tộc và Tôn giáo"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Trước khi giảng đạo ngoài địa bàn phụ trách, cơ sở tôn giáo, địa điểm hợp pháp đã đăng ký có quy mô tổ chức ở nhiều xã thuộc một tỉnh hoặc ở nhiều tỉnh, chức sắc, chức việc, nhà tu hành có trách nhiệm gửi văn bản đề nghị đến Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ.\n- Bước 2: Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ xem xét văn bản đề nghị, trường hợp văn bản đề nghị chưa đầy đủ, hợp lệ, Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ hướng dẫn trực tiếp hoặc thông báo qua thư điện tử, tin nhắn điện thoại hoặc văn bản cho chức sắc, chức việc, nhà tu hành để bổ sung, hoàn thiện văn bản đề nghị. Trường hợp từ chối tiếp nhận, giải quyết phải nêu rõ lý do. Thời gian hoàn thiện văn bản đề nghị không tính vào thời hạn giải quyết.\n- Bước 3 :\n+ Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ phối hợp với các cơ quan liên quan thẩm định hồ sơ trình Ủy ban nhân dân cấp tỉnh.\n+ Ủy ban nhân dân cấp tỉnh căn cứ Tờ trình của Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ chấp thuận hoặc không chấp thuận việc tổ chức giảng đạo ngoài cơ sở tôn giáo, địa điểm hợp pháp đã đăng ký có quy mô tổ chức ở nhiều xã thuộc một tỉnh hoặc ở nhiều tỉnh và gửi kết quả giải quyết về Trung tâm Hành chính công của tỉnh hoặc Bộ phận Tiếp nhận và trả kết quả của Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ để trả cho tổ chức. Trường hợp không công nhận phải trả lời bằng văn bản và nêu rõ lý do.\n",
+      "description": "- Bước 1: Trước khi giảng đạo ngoài địa bàn phụ trách, cơ sở tôn giáo, địa điểm hợp pháp đã đăng ký có quy mô tổ chức ở nhiều xã thuộc một tỉnh hoặc ở nhiều tỉnh, chức sắc, chức việc, nhà tu hành có trách nhiệm gửi văn bản đề nghị đến Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ.\n- Bước 2: Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ xem xét văn bản đề nghị, trường hợp văn bản đề nghị chưa đầy đủ, hợp lệ, Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ hướng dẫn trực tiếp hoặc thông báo qua thư điện tử, tin nhắn điện thoại hoặc văn bản cho chức sắc, chức việc, nhà tu hành để bổ sung, hoàn thiện văn bản đề nghị. Trường hợp từ chối tiếp nhận, giải quyết phải nêu rõ lý do. Thời gian hoàn thiện văn bản đề nghị không tính vào thời hạn giải quyết.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 3",
+      "description": "- Bước 3 :\n+ Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ phối hợp với các cơ quan liên quan thẩm định hồ sơ trình Ủy ban nhân dân cấp tỉnh.\n+ Ủy ban nhân dân cấp tỉnh căn cứ Tờ trình của Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ chấp thuận hoặc không chấp thuận việc tổ chức giảng đạo ngoài cơ sở tôn giáo, địa điểm hợp pháp đã đăng ký có quy mô tổ chức ở nhiều xã thuộc một tỉnh hoặc ở nhiều tỉnh và gửi kết quả giải quyết về Trung tâm Hành chính công của tỉnh hoặc Bộ phận Tiếp nhận và trả kết quả của Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ để trả cho tổ chức. Trường hợp không công nhận phải trả lời bằng văn bản và nêu rõ lý do.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
@@ -57,20 +56,14 @@
     "conditional": [
       {
         "name": "Đề nghị giảng đạo ngoài địa bàn phụ trách, cơ sở tôn giáo hoặc địa điểm hợp pháp đã đăng ký (Mẫu B35, Phụ lục ban hành kèm theo Nghị định số 95/2023/NĐ-CP ngày 29/12/2023 của Chính phủ được sửa đổi bổ sung tại Phụ lục II, Nghị định số 124/2025/NĐ-CP ngày 11/6/2025 của Chính phủ).",
-        "code": "000.00.00.G21-KQ000235",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Chương trình tổ chức; nội dung; thành phần tham dự.",
-        "code": "000.00.00.G09-KQ001854",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
+        "attachment": null,
         "source_page": null
       }
     ]
@@ -80,35 +73,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -116,51 +89,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -168,20 +126,17 @@
     {
       "title": "Tín ngưỡng, tôn giáo",
       "document_number": "02/2016/QH14",
-      "id": "019d2bb3-5d80-7608-8cd0-b2e0a90e021d",
-      "source_page": null
+      "source_page": 1
     },
     {
       "title": "Nghị định số 95/2023/NĐ-CP ngày 29/12/2023 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật tín ngưỡng, tôn giáo.",
       "document_number": "95/2023/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b473-02ccebcf0369",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định số 124/2025/NĐ-CP",
       "document_number": "124/2025/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a63e-8a2bf55137fa",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "",
@@ -189,13 +144,12 @@
     {
       "title": "Văn bản trả lời về việc đề nghị giảng đạo ngoài địa bàn phụ trách, cơ sở tôn giáo, địa điểm hợp pháp  đã đăng ký.",
       "code": "KQ.G21.000131",
-      "id": "019d2bb2-1c7e-720f-afcf-cb8044892e82",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Trước khi giảng đạo ngoài địa bàn phụ trách, cơ sở tôn giáo, địa điểm hợp pháp đã đăng ký có quy mô tổ chức ở nhiều xã thuộc một tỉnh hoặc ở nhiều tỉnh, chức sắc, chức việc, nhà tu hành có trách nhiệm gửi văn bản đề nghị đến Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ.\n- Bước 2: Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ xem xét văn bản đề nghị, trường hợp văn bản đề nghị chưa đầy đủ, hợp lệ, Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ hướng dẫn trực tiếp hoặc thông báo qua thư điện tử, tin nhắn điện thoại hoặc văn bản cho chức sắc, chức việc, nhà tu hành để bổ sung, hoàn thiện văn bản đề nghị. Trường hợp từ chối tiếp nhận, giải quyết phải nêu rõ lý do. Thời gian hoàn thiện văn bản đề nghị không tính vào thời hạn giải quyết.\n- Bước 3 :\n+ Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ phối hợp với các cơ quan liên quan thẩm định hồ sơ trình Ủy ban nhân dân cấp tỉnh.\n+ Ủy ban nhân dân cấp tỉnh căn cứ Tờ trình của Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ chấp thuận hoặc không chấp thuận việc tổ chức giảng đạo ngoài cơ sở tôn giáo, địa điểm hợp pháp đã đăng ký có quy mô tổ chức ở nhiều xã thuộc một tỉnh hoặc ở nhiều tỉnh và gửi kết quả giải quyết về Trung tâm Hành chính công của tỉnh hoặc Bộ phận Tiếp nhận và trả kết quả của Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ để trả cho tổ chức. Trường hợp không công nhận phải trả lời bằng văn bản và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nĐề nghị giảng đạo ngoài địa bàn phụ trách, cơ sở tôn giáo hoặc địa điểm hợp pháp đã đăng ký (Mẫu B35, Phụ lục ban hành kèm theo Nghị định số 95/2023/NĐ-CP ngày 29/12/2023 của Chính phủ được sửa đổi bổ sung tại Phụ lục II, Nghị định số 124/2025/NĐ-CP ngày 11/6/2025 của Chính phủ).\nChương trình tổ chức; nội dung; thành phần tham dự.",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Trước khi giảng đạo ngoài địa bàn phụ trách, cơ sở tôn giáo, địa điểm hợp pháp đã đăng ký có quy mô tổ chức ở nhiều xã thuộc một tỉnh hoặc ở nhiều tỉnh, chức sắc, chức việc, nhà tu hành có trách nhiệm gửi văn bản đề nghị đến Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ.\n- Bước 2: Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ xem xét văn bản đề nghị, trường hợp văn bản đề nghị chưa đầy đủ, hợp lệ, Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ hướng dẫn trực tiếp hoặc thông báo qua thư điện tử, tin nhắn điện thoại hoặc văn bản cho chức sắc, chức việc, nhà tu hành để bổ sung, hoàn thiện văn bản đề nghị. Trường hợp từ chối tiếp nhận, giải quyết phải nêu rõ lý do. Thời gian hoàn thiện văn bản đề nghị không tính vào thời hạn giải quyết.\n- Bước 3 :\n+ Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ phối hợp với các cơ quan liên quan thẩm định hồ sơ trình Ủy ban nhân dân cấp tỉnh.\n+ Ủy ban nhân dân cấp tỉnh căn cứ Tờ trình của Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ chấp thuận hoặc không chấp thuận việc tổ chức giảng đạo ngoài cơ sở tôn giáo, địa điểm hợp pháp đã đăng ký có quy mô tổ chức ở nhiều xã thuộc một tỉnh hoặc ở nhiều tỉnh và gửi kết quả giải quyết về Trung tâm Hành chính công của tỉnh hoặc Bộ phận Tiếp nhận và trả kết quả của Sở Dân tộc và Tôn giáo hoặc Sở Nội vụ để trả cho tổ chức. Trường hợp không công nhận phải trả lời bằng văn bản và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "Đề nghị giảng đạo ngoài địa bàn phụ trách, cơ sở tôn giáo hoặc địa điểm hợp pháp đã đăng ký (Mẫu B35, Phụ lục ban hành kèm theo Nghị định số 95/2023/NĐ-CP ngày 29/12/2023 của Chính phủ được sửa đổi bổ sung tại Phụ lục II, Nghị định số 124/2025/NĐ-CP ngày 11/6/2025 của Chính phủ).\nChương trình tổ chức; nội dung; thành phần tham dự.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 30 ngày\nQua dịch vụ bưu chính: 30 ngày\nTrực tiếp: 30 ngày",
     "CĂN CỨ PHÁP LÝ": "Tín ngưỡng, tôn giáo - 02/2016/QH14\nNghị định số 95/2023/NĐ-CP ngày 29/12/2023 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật tín ngưỡng, tôn giáo. - 95/2023/NĐ-CP\nNghị định số 124/2025/NĐ-CP - 124/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Sở Nội vụ, Sở Dân tộc và Tôn giáo",
@@ -205,11 +159,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Tín ngưỡng, tôn giáo",
       "slug": "tin-nguong-ton-giao"
@@ -244,6 +193,6 @@
         "slug": "so-dan-toc-va-ton-giao"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

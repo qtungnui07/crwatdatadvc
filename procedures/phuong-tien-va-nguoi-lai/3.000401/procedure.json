@@ -1,35 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf7-c5a6-75ff-9e40-276bda5a19ea",
   "procedure_code": "3.000401",
   "title": "Cấp lại Giấy phép sử dụng thiết bị phát tín hiệu của xe ưu tiên",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-c5a6-75ff-9e40-276bda5a19ea",
     "source_file": "chi-tiet-thu-tuc-3.000401.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/3.000401/chi-tiet-thu-tuc-3.000401.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:23.819176+00:00",
-    "source_updated_at": "2026-04-28T15:29:53.802Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:05.185812+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "85d09d1527596a34f98465626a446bf129fcaab219130b0e56aec76711f15eea"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:23.819176+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1842/QĐ-BCA",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "OTHER",
   "sector": "Bảo đảm trật tự, an toàn giao thông đường bộ",
   "target_users": [
@@ -37,48 +31,47 @@
   ],
   "agency": {
     "competent_agency": "Phòng Cảnh sát giao thông",
-    "executing_agency": "Cục cảnh sát giao thông",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục cảnh sát giao thông"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Cơ quan, tổ chức gửi hồ sơ gửi đến Cục Cảnh sát giao thông; Phòng Cảnh sát giao thông.\nBước 2: Cục Cảnh sát giao thông; Phòng Cảnh sát giao thông tiếp nhận hồ sơ, kiểm tra và xử lý. \nBước 3: Trả kết quả.\n",
+      "description": "Bước 1: Cơ quan, tổ chức gửi hồ sơ gửi đến Cục Cảnh sát giao thông; Phòng Cảnh sát giao thông.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Cục Cảnh sát giao thông; Phòng Cảnh sát giao thông tiếp nhận hồ sơ, kiểm tra và xử lý.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Trả kết quả.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Văn bản đề nghị cấp lại Giấy phép sử dụng thiết bị phát tín hiệu  của xe ưu tiên.",
-        "code": "000.00.00.G01-KQ003395",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dcfb0-30c8-7608-9513-bc5dfb26e574",
-            "name": "12.CpmiCpliGiyphpsdngthitbphttnhiucaxeutin.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "12.CpmiCpliGiyphpsdngthitbphttnhiucaxeutin.docx",
+        "source_page": 1
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Văn bản quy định về chức năng, nhiệm vụ, các tài liệu khác chứng minh cơ quan, tổ chức đủ điều kiện được sử dụng thiết bị phát tín hiệu của xe ưu tiên đối với trường hợp quy định tại khoản 6, khoản 7 và khoản 8 Điều 18 của Nghị định151/2024/NĐ-CP ngày 15/11/2024 của Chính phủ gồm:  - Xe cứu thương đi làm nhiệm vụ cấp cứu;  - Xe hộ đê đi làm nhiệm vụ; xe đi làm nhiệm vụ cứu nạn, cứu hộ, khắc phục sự cố thiên tai, dịch bệnh; - Xe đi làm nhiệm vụ trong tình trạng khẩn cấp theo quy định của pháp luật bao gồm: xe phục vụ Ban chỉ đạo, xe phục vụ các lực lượng chức năng được huy động tham gia thực hiện nhiệm vụ khi tình trạng khẩn cấp được ban bố. Lưu ý: Trường hợp tài liệu chứng minh có thể khai thác qua cơ sở dữ liệu được kết nối, chia sẻ với cơ quan có thẩm quyền cấp giấy phép thì  cơ quan, tổ chức không phải cung cấp khi làm thủ tục.",
-        "code": "000.00.00.G01-KQ003396",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -87,87 +80,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "2 ngày làm việc",
-      "processing_time_value": 2,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "02 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ.",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "2 ngày làm việc",
-      "processing_time_value": 2,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "02 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ.",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "2 ngày làm việc",
-      "processing_time_value": 2,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "02 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ.",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -175,45 +133,37 @@
     {
       "title": "Nghị định số 151/2024/NĐ-CP của Chính phủ: Quy định chi tiết một số điều và biện pháp thi hành Luật Trật tự, an toàn giao thông đường bộ",
       "document_number": "151/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-9787cb38c152",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật Trật tự, an toàn giao thông đường bộ",
       "document_number": "36/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b672-dfa7472cab6e",
-      "source_page": null
+      "source_page": 3
     }
   ],
-  "conditions": "Trường hợp Giấy phép sử dụng thiết bị phát tín hiệu của xe ưu tiên đã được cơ quan có thẩm quyền cấp trước đó bị hư hỏng, bị mất hoặc hết thời hạn sử dụng.\n",
+  "conditions": "Trường hợp Giấy phép sử dụng thiết bị phát tín hiệu của xe ưu tiên đã được cơ quan có thẩm quyền cấp trước đó bị hư hỏng, bị mất hoặc hết thời hạn sử dụng.",
   "results": [
     {
       "title": "Cấp lại Giấy phép sử dụng thiết bị phát tín hiệu của xe ưu tiên cho cơ quan, tổ chức sử dụng xe ưu tiên",
       "code": "KQ.G01.000215",
-      "id": "019d2bb2-1c37-76e8-b48e-9c6225fc2627",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Cơ quan, tổ chức gửi hồ sơ gửi đến Cục Cảnh sát giao thông; Phòng Cảnh sát giao thông.\nBước 2: Cục Cảnh sát giao thông; Phòng Cảnh sát giao thông tiếp nhận hồ sơ, kiểm tra và xử lý. \nBước 3: Trả kết quả.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nVăn bản đề nghị cấp lại Giấy phép sử dụng thiết bị phát tín hiệu  của xe ưu tiên.\nVăn bản quy định về chức năng, nhiệm vụ, các tài liệu khác chứng minh cơ quan, tổ chức đủ điều kiện được sử dụng thiết bị phát tín hiệu của xe ưu tiên đối với trường hợp quy định tại khoản 6, khoản 7 và khoản 8 Điều 18 của Nghị định151/2024/NĐ-CP ngày 15/11/2024 của Chính phủ gồm:  - Xe cứu thương đi làm nhiệm vụ cấp cứu;  - Xe hộ đê đi làm nhiệm vụ; xe đi làm nhiệm vụ cứu nạn, cứu hộ, khắc phục sự cố thiên tai, dịch bệnh; - Xe đi làm nhiệm vụ trong tình trạng khẩn cấp theo quy định của pháp luật bao gồm: xe phục vụ Ban chỉ đạo, xe phục vụ các lực lượng chức năng được huy động tham gia thực hiện nhiệm vụ khi tình trạng khẩn cấp được ban bố. Lưu ý: Trường hợp tài liệu chứng minh có thể khai thác qua cơ sở dữ liệu được kết nối, chia sẻ với cơ quan có thẩm quyền cấp giấy phép thì  cơ quan, tổ chức không phải cung cấp khi làm thủ tục.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 2 ngày làm việc - 02 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ.\nQua dịch vụ bưu chính: 2 ngày làm việc - 02 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ.\nTrực tiếp: 2 ngày làm việc - 02 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ.",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Cơ quan, tổ chức gửi hồ sơ gửi đến Cục Cảnh sát giao thông; Phòng Cảnh sát giao thông.\nBước 2: Cục Cảnh sát giao thông; Phòng Cảnh sát giao thông tiếp nhận hồ sơ, kiểm tra và xử lý.\nBước 3: Trả kết quả.",
+    "THÀNH PHẦN HỒ SƠ": "Văn bản đề nghị cấp lại Giấy phép sử dụng thiết bị phát tín hiệu  của xe ưu tiên.\nVăn bản quy định về chức năng, nhiệm vụ, các tài liệu khác chứng minh cơ quan, tổ chức đủ điều kiện được sử dụng thiết bị phát tín hiệu của xe ưu tiên đối với trường hợp quy định tại khoản 6, khoản 7 và khoản 8 Điều 18 của Nghị định151/2024/NĐ-CP ngày 15/11/2024 của Chính phủ gồm:  - Xe cứu thương đi làm nhiệm vụ cấp cứu;  - Xe hộ đê đi làm nhiệm vụ; xe đi làm nhiệm vụ cứu nạn, cứu hộ, khắc phục sự cố thiên tai, dịch bệnh; - Xe đi làm nhiệm vụ trong tình trạng khẩn cấp theo quy định của pháp luật bao gồm: xe phục vụ Ban chỉ đạo, xe phục vụ các lực lượng chức năng được huy động tham gia thực hiện nhiệm vụ khi tình trạng khẩn cấp được ban bố. Lưu ý: Trường hợp tài liệu chứng minh có thể khai thác qua cơ sở dữ liệu được kết nối, chia sẻ với cơ quan có thẩm quyền cấp giấy phép thì  cơ quan, tổ chức không phải cung cấp khi làm thủ tục.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 2 ngày làm việc\nQua dịch vụ bưu chính: 2 ngày làm việc\nTrực tiếp: 2 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 151/2024/NĐ-CP của Chính phủ: Quy định chi tiết một số điều và biện pháp thi hành Luật Trật tự, an toàn giao thông đường bộ - 151/2024/NĐ-CP\nLuật Trật tự, an toàn giao thông đường bộ - 36/2024/QH15",
     "CƠ QUAN THỰC HIỆN": "Cục cảnh sát giao thông",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Trường hợp Giấy phép sử dụng thiết bị phát tín hiệu của xe ưu tiên đã được cơ quan có thẩm quyền cấp trước đó bị hư hỏng, bị mất hoặc hết thời hạn sử dụng.\n",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Trường hợp Giấy phép sử dụng thiết bị phát tín hiệu của xe ưu tiên đã được cơ quan có thẩm quyền cấp trước đó bị hư hỏng, bị mất hoặc hết thời hạn sử dụng.",
     "KẾT QUẢ XỬ LÝ": "Cấp lại Giấy phép sử dụng thiết bị phát tín hiệu của xe ưu tiên cho cơ quan, tổ chức sử dụng xe ưu tiên - KQ.G01.000215",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "Trường hợp Giấy phép sử dụng thiết bị phát tín hiệu của xe ưu tiên đã được cơ quan có thẩm quyền cấp trước đó bị hư hỏng, bị mất hoặc hết thời hạn sử dụng.\n"
+    "MÔ TẢ": "Trường hợp Giấy phép sử dụng thiết bị phát tín hiệu của xe ưu tiên đã được cơ quan có thẩm quyền cấp trước đó bị hư hỏng, bị mất hoặc hết thời hạn sử dụng."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Bảo đảm trật tự, an toàn giao thông đường bộ",
-      "slug": "bao-dam-trat-tu-an-toan-giao-thong-duong-bo"
+      "slug": "bao-am-trat-tu-an-toan-giao-thong-uong-bo"
     },
     "implementation_levels": [
       {
@@ -241,6 +191,6 @@
         "slug": "cuc-canh-sat-giao-thong"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

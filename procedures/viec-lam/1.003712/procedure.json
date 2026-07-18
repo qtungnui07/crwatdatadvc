@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfa-2880-70a8-ac8c-606dc8f253d9",
   "procedure_code": "1.003712",
   "title": "Công nhận nghề truyền thống",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-2880-70a8-ac8c-606dc8f253d9",
     "source_file": "chi-tiet-thu-tuc-1.003712.pdf",
     "source_path": "procedures/viec-lam/1.003712/chi-tiet-thu-tuc-1.003712.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:01.363682+00:00",
-    "source_updated_at": "2026-04-16T05:57:12.264Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:05.440272+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "f72b0a87159b3d21d1ad3264493b1cd364cc353cc9032e64cd9ea6f6f7fcc8da"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:01.363682+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2299/QĐ-BNNMT",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Kinh tế hợp tác và Phát triển nông thôn",
   "target_users": [
@@ -37,18 +33,15 @@
   ],
   "agency": {
     "competent_agency": "Ủy ban nhân dân cấp tỉnh",
-    "executing_agency": "Ủy ban nhân dân cấp tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ủy ban nhân dân cấp tỉnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Uỷ ban nhân dân cấp xã lập hồ sơ đề nghị công nhận nghề truyền thống theo tiêu chí quy định tại khoản 2 Điều 5 Nghị định số 52/2018/NĐ-CP ngày 12 tháng 4 năm 2018 của Chính phủ về phát triển ngành nghề nông thôn trình UBND cấp tỉnh xét công nhận.\nTrong thời hạn 30 ngày làm việc, kể từ ngày nhận được hồ sơ hợp lệ, UBND cấp tỉnh thành lập Hội đồng xét duyệt, chọn những đối tượng đủ tiêu chuẩn theo quy định tại khoản 2 Điều 5 Nghị định số 52/2018/NĐ-CP, ra quyết định và cấp bằng công nhận nghề truyền thống.\n",
+      "description": "Uỷ ban nhân dân cấp xã lập hồ sơ đề nghị công nhận nghề truyền thống theo tiêu chí quy định tại khoản 2 Điều 5 Nghị định số 52/2018/NĐ-CP ngày 12 tháng 4 năm 2018 của Chính phủ về phát triển ngành nghề nông thôn trình UBND cấp tỉnh xét công nhận.\nTrong thời hạn 30 ngày làm việc, kể từ ngày nhận được hồ sơ hợp lệ, UBND cấp tỉnh thành lập Hội đồng xét duyệt, chọn những đối tượng đủ tiêu chuẩn theo quy định tại khoản 2 Điều 5 Nghị định số 52/2018/NĐ-CP, ra quyết định và cấp bằng công nhận nghề truyền thống.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -57,30 +50,21 @@
     "conditional": [
       {
         "name": "Bản sao giấy công nhận Nghệ nhân nghề truyền thống của cơ quan có thẩm quyền (nếu có).",
-        "code": "000.00.00.G10-KQ2491",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": ") Bản sao giấy chứng nhận, huy chương đã đạt được trong các cuộc thi, triển lãm trong nước và quốc tế hoặc có tác phẩm đạt nghệ thuật cao được cấp tỉnh, thành phố trở lên trao tặng (nếu có). Đối với những tổ chức, cá nhân không có điều kiện tham dự các cuộc thi, triển lãm hoặc không có tác phẩm đạt giải thưởng thì phải có bản mô tả đặc trưng mang bản sắc văn hóa dân tộc của nghề truyền thống.",
-        "code": "000.00.00.G10-KQ2490",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Bản tóm tắt quá trình hình thành, phát triển của nghề truyền thống.",
-        "code": "000.00.00.G10-KQ2489",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -89,53 +73,38 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "30 ngày làm việc",
-      "processing_time_value": 30,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "30 ngày làm việc",
-      "processing_time_value": 30,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "30 ngày làm việc",
-      "processing_time_value": 30,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "",
       "source_page": null
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -143,14 +112,12 @@
     {
       "title": "Quy định phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nông nghiệp và Môi trường",
       "document_number": "Nghị định số 131/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-45ea9b37796c",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định của Chính phủ về phát triển ngành nghề nông thôn",
       "document_number": "Nghị định 52/2018/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b473-e464f5841f14",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "- Nghề đã xuất hiện tại địa phương từ trên 50 năm và hiện đang tiếp tục phát triển tính đến thời điểm đề nghị công nhận;\n- Nghề tạo ra những sản phẩm mang bản sắc văn hoá dân tộc; \n- Nghề gắn với tên tuổi của một hay nhiều nghệ nhân hoặc tên tuổi của làng nghề.",
@@ -158,13 +125,12 @@
     {
       "title": "Bằng công nhận, Quyết định hành chính",
       "code": "KQ.G10.000625",
-      "id": "019d2bb2-1c4f-7269-8765-eac4111869ef",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Uỷ ban nhân dân cấp xã lập hồ sơ đề nghị công nhận nghề truyền thống theo tiêu chí quy định tại khoản 2 Điều 5 Nghị định số 52/2018/NĐ-CP ngày 12 tháng 4 năm 2018 của Chính phủ về phát triển ngành nghề nông thôn trình UBND cấp tỉnh xét công nhận.\nTrong thời hạn 30 ngày làm việc, kể từ ngày nhận được hồ sơ hợp lệ, UBND cấp tỉnh thành lập Hội đồng xét duyệt, chọn những đối tượng đủ tiêu chuẩn theo quy định tại khoản 2 Điều 5 Nghị định số 52/2018/NĐ-CP, ra quyết định và cấp bằng công nhận nghề truyền thống.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nBản sao giấy công nhận Nghệ nhân nghề truyền thống của cơ quan có thẩm quyền (nếu có).\n) Bản sao giấy chứng nhận, huy chương đã đạt được trong các cuộc thi, triển lãm trong nước và quốc tế hoặc có tác phẩm đạt nghệ thuật cao được cấp tỉnh, thành phố trở lên trao tặng (nếu có). Đối với những tổ chức, cá nhân không có điều kiện tham dự các cuộc thi, triển lãm hoặc không có tác phẩm đạt giải thưởng thì phải có bản mô tả đặc trưng mang bản sắc văn hóa dân tộc của nghề truyền thống.\nBản tóm tắt quá trình hình thành, phát triển của nghề truyền thống.",
+    "TRÌNH TỰ THỰC HIỆN": "Uỷ ban nhân dân cấp xã lập hồ sơ đề nghị công nhận nghề truyền thống theo tiêu chí quy định tại khoản 2 Điều 5 Nghị định số 52/2018/NĐ-CP ngày 12 tháng 4 năm 2018 của Chính phủ về phát triển ngành nghề nông thôn trình UBND cấp tỉnh xét công nhận.\nTrong thời hạn 30 ngày làm việc, kể từ ngày nhận được hồ sơ hợp lệ, UBND cấp tỉnh thành lập Hội đồng xét duyệt, chọn những đối tượng đủ tiêu chuẩn theo quy định tại khoản 2 Điều 5 Nghị định số 52/2018/NĐ-CP, ra quyết định và cấp bằng công nhận nghề truyền thống.",
+    "THÀNH PHẦN HỒ SƠ": "Bản sao giấy công nhận Nghệ nhân nghề truyền thống của cơ quan có thẩm quyền (nếu có).\n) Bản sao giấy chứng nhận, huy chương đã đạt được trong các cuộc thi, triển lãm trong nước và quốc tế hoặc có tác phẩm đạt nghệ thuật cao được cấp tỉnh, thành phố trở lên trao tặng (nếu có). Đối với những tổ chức, cá nhân không có điều kiện tham dự các cuộc thi, triển lãm hoặc không có tác phẩm đạt giải thưởng thì phải có bản mô tả đặc trưng mang bản sắc văn hóa dân tộc của nghề truyền thống.\nBản tóm tắt quá trình hình thành, phát triển của nghề truyền thống.",
     "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 30 ngày làm việc\nTrực tuyến: 30 ngày làm việc\nQua dịch vụ bưu chính: 30 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Quy định phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nông nghiệp và Môi trường - Nghị định số 131/2025/NĐ-CP\nNghị định của Chính phủ về phát triển ngành nghề nông thôn - Nghị định 52/2018/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Ủy ban nhân dân cấp tỉnh",
@@ -174,11 +140,6 @@
     "MÔ TẢ": "- Nghề đã xuất hiện tại địa phương từ trên 50 năm và hiện đang tiếp tục phát triển tính đến thời điểm đề nghị công nhận;\n- Nghề tạo ra những sản phẩm mang bản sắc văn hoá dân tộc; \n- Nghề gắn với tên tuổi của một hay nhiều nghệ nhân hoặc tên tuổi của làng nghề."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Kinh tế hợp tác và Phát triển nông thôn",
       "slug": "kinh-te-hop-tac-va-phat-trien-nong-thon"
@@ -209,6 +170,6 @@
         "slug": "uy-ban-nhan-dan-cap-tinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

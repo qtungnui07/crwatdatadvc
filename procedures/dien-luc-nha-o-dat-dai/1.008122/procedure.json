@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfa-4fab-747c-ab2a-75436010b49f",
   "procedure_code": "1.008122",
   "title": "Cấp Giấy phép nhập khẩu thức ăn chăn nuôi chưa được công bố thông tin trên Cổng thông tin điện tử của Bộ Nông nghiệp và Môi trường",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-4fab-747c-ab2a-75436010b49f",
     "source_file": "chi-tiet-thu-tuc-1.008122.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.008122/chi-tiet-thu-tuc-1.008122.pdf",
     "page_count": 7,
-    "extracted_at": "2026-07-18T02:22:03.942307+00:00",
-    "source_updated_at": "2026-05-14T04:08:03.713Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:55:51.893216+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "fd550ef5146be5aa9acf0ec5ccef1e4a8b020c6a221e454e9687a413b6c8587e"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:03.942307+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1649/QĐ-BNNMT",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Chăn nuôi",
   "target_users": [
@@ -42,120 +38,88 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Chủ tịch ủy ban nhân dân cấp tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Chủ tịch ủy ban nhân dân cấp tỉnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Trình tự thực hiện:\n- Bước 1: Tổ chức, cá nhân gửi hồ sơ đến Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao giải quyết thủ tục hành chính trong lĩnh vực chăn nuôi và thú y (nơi tổ chức, cá nhân đặt trụ sở chính hoặc cửa khẩu nhập khẩu).\n- Bước 2: Kiểm tra nội dung hồ sơ: \n+ Trường hợp nộp hồ sơ trực tiếp: Tại thời điểm tiếp nhận hồ sơ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao giải quyết thủ tục hành chính trong lĩnh vực chăn nuôi và thú y kiểm tra thành phần hồ sơ và tiếp nhận hồ sơ đầy đủ thành phần; trường hợp hồ sơ chưa đầy đủ thành phần thì trả lại tổ chức, cá nhân để bổ sung, hoàn thiện hồ sơ.\nTrường hợp nộp hồ sơ qua dịch vụ bưu chính hoặc qua môi trường mạng: Trong thời hạn 01 ngày làm việc kể từ ngày nhận được hồ sơ, Cục Chăn nuôi xem xét tính đầy đủ; trường hợp hồ sơ chưa đầy đủ theo quy định thì thông báo cho tổ chức, cá nhân bổ sung, hoàn thiện hồ sơ.\n+ Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao giải quyết thủ tục hành chính trong lĩnh vực chăn nuôi và thú y cấp giấy phép nhập khẩu thức ăn chăn nuôi theo Mẫu số 09.TACN Phụ lục I ban hành kèm theo Nghị định số 13/2020/NĐ-CP. Trường hợp không cấp trả lời bằng văn bản và nêu rõ lý do.\n",
+      "description": "Trình tự thực hiện:\n- Bước 1: Tổ chức, cá nhân gửi hồ sơ đến Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao giải quyết thủ tục hành chính trong lĩnh vực chăn nuôi và thú y (nơi tổ chức, cá nhân đặt trụ sở chính hoặc cửa khẩu nhập khẩu).",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Kiểm tra nội dung hồ sơ: \n+ Trường hợp nộp hồ sơ trực tiếp: Tại thời điểm tiếp nhận hồ sơ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao giải quyết thủ tục hành chính trong lĩnh vực chăn nuôi và thú y kiểm tra thành phần hồ sơ và tiếp nhận hồ sơ đầy đủ thành phần; trường hợp hồ sơ chưa đầy đủ thành phần thì trả lại tổ chức, cá nhân để bổ sung, hoàn thiện hồ sơ.\nTrường hợp nộp hồ sơ qua dịch vụ bưu chính hoặc qua môi trường mạng: Trong thời hạn 01 ngày làm việc kể từ ngày nhận được hồ sơ, Cục Chăn nuôi xem xét tính đầy đủ; trường hợp hồ sơ chưa đầy đủ theo quy định thì thông báo cho tổ chức, cá nhân bổ sung, hoàn thiện hồ sơ.\n+ Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao giải quyết thủ tục hành chính trong lĩnh vực chăn nuôi và thú y cấp giấy phép nhập khẩu thức ăn chăn nuôi theo Mẫu số 09.TACN Phụ lục I ban hành kèm theo Nghị định số 13/2020/NĐ-CP. Trường hợp không cấp trả lời bằng văn bản và nêu rõ lý do.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Đơn đề nghị nhập khẩu thức ăn chăn nuôi để làm mẫu phân tích tại phòng thử nghiệm.",
-        "code": "G10-KQ007784",
+        "name": "Hồ sơ nhập khẩu thức ăn chăn nuôi để làm mẫu phân tích tại phòng thử nghiệm: Đơn đề nghị nhập khẩu thức ăn chăn nuôi để làm mẫu phân tích tại phòng thử nghiệm.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ nhập khẩu thức ăn chăn nuôi để làm mẫu phân tích tại phòng thử nghiệm",
-        "attachments": [
-          {
-            "id": "019db098-0ec6-74e8-b3f0-58e44aaa6ee3",
-            "name": "Mau so 07.TACN.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau so 07.TACN.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "Văn bản chứng minh về việc tổ chức, tham gia hội chợ, triển lãm tại Việt Nam.",
-        "code": "G10-KQ007780",
+        "name": "* Hồ sơ nhập khẩu thức ăn chăn nuôi để giới thiệu tại hội chợ, triển lãm bao gồm:: Văn bản chứng minh về việc tổ chức, tham gia hội chợ, triển lãm tại Việt Nam.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ nhập khẩu thức ăn chăn nuôi để giới thiệu tại hội chợ, triển lãm bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Đơn đề nghị nhập khẩu thức ăn chăn nuôi để giới thiệu tại hội chợ, triển lãm.",
-        "code": "G10-KQ007779",
+        "name": "* Hồ sơ nhập khẩu thức ăn chăn nuôi để giới thiệu tại hội chợ, triển lãm bao gồm:: Đơn đề nghị nhập khẩu thức ăn chăn nuôi để giới thiệu tại hội chợ, triển lãm.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ nhập khẩu thức ăn chăn nuôi để giới thiệu tại hội chợ, triển lãm bao gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Văn bản thỏa thuận sử dụng dịch vụ phân tích giữa một bên là phòng thử nghiệm hoặc doanh nghiệp trong nước với một bên là phòng thử nghiệm hoặc doanh nghiệp hoặc cơ quan quản lý về thức ăn chăn nuôi của nước xuất khẩu, trong đó có cam kết mẫu sản phẩm nhập khẩu không dùng cho hoạt động thương mại.",
-        "code": "000.00.00.G10-KQ005550",
+        "name": "Hồ sơ nhập khẩu thức ăn chăn nuôi để làm mẫu phân tích tại phòng thử nghiệm: Văn bản thỏa thuận sử dụng dịch vụ phân tích giữa một bên là phòng thử nghiệm hoặc doanh nghiệp trong nước với một bên là phòng thử nghiệm hoặc doanh nghiệp hoặc cơ quan quản lý về thức ăn chăn nuôi của nước xuất khẩu, trong đó có cam kết mẫu sản phẩm nhập khẩu không dùng cho hoạt động thương mại.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ nhập khẩu thức ăn chăn nuôi để làm mẫu phân tích tại phòng thử nghiệm",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Bản kê khai của cơ sở đăng ký về đối tượng, số lượng vật nuôi nuôi thích nghi, thời gian nuôi, địa điểm nuôi và mục đích nuôi.",
-        "code": "G10-KQ007782",
+        "name": "Hồ sơ nhập khẩu thức ăn chăn nuôi để nuôi thích nghi: Bản kê khai của cơ sở đăng ký về đối tượng, số lượng vật nuôi nuôi thích nghi, thời gian nuôi, địa điểm nuôi và mục đích nuôi.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ nhập khẩu thức ăn chăn nuôi để nuôi thích nghi",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Đơn đề nghị nhập khẩu thức ăn chăn nuôi để nuôi thích nghi.",
-        "code": "G10-KQ007781",
+        "name": "Hồ sơ nhập khẩu thức ăn chăn nuôi để nuôi thích nghi: Đơn đề nghị nhập khẩu thức ăn chăn nuôi để nuôi thích nghi.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ nhập khẩu thức ăn chăn nuôi để nuôi thích nghi",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Đề cương nghiên cứu hoặc khảo nghiệm.",
-        "code": "000.00.00.G10-KQ005548",
+        "name": "Hồ sơ nhập khẩu thức ăn chăn nuôi để phục vụ nghiên cứu, khảo nghiệm: Đề cương nghiên cứu hoặc khảo nghiệm.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ nhập khẩu thức ăn chăn nuôi để phục vụ nghiên cứu, khảo nghiệm",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Đơn đề nghị nhập khẩu thức ăn chăn nuôi để phục vụ nghiên cứu hoặc khảo nghiệm.",
-        "code": "G10-KQ007783",
+        "name": "Hồ sơ nhập khẩu thức ăn chăn nuôi để phục vụ nghiên cứu, khảo nghiệm: Đơn đề nghị nhập khẩu thức ăn chăn nuôi để phục vụ nghiên cứu hoặc khảo nghiệm.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ nhập khẩu thức ăn chăn nuôi để phục vụ nghiên cứu, khảo nghiệm",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Hợp đồng sản xuất, gia công thức ăn chăn nuôi nhằm mục đích xuất khẩu phù hợp với quy định của pháp luật Việt Nam về nhập khẩu hàng hóa để sản xuất, gia công nhằm mục đích xuất khẩu",
-        "code": "000.00.00.G10-KQ005552",
+        "name": "Hồ sơ nhập khẩu thức ăn chăn nuôi để sản xuất, gia công nhằm mục đích xuất khẩu: Hợp đồng sản xuất, gia công thức ăn chăn nuôi nhằm mục đích xuất khẩu phù hợp với quy định của pháp luật Việt Nam về nhập khẩu hàng hóa để sản xuất, gia công nhằm mục đích xuất khẩu",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ nhập khẩu thức ăn chăn nuôi để sản xuất, gia công nhằm mục đích xuất khẩu",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Đơn đề nghị nhập khẩu thức ăn chăn nuôi để sản xuất, gia công nhằm mục đích xuất khẩu.",
-        "code": "G10-KQ007785",
+        "name": "Hồ sơ nhập khẩu thức ăn chăn nuôi để sản xuất, gia công nhằm mục đích xuất khẩu: Đơn đề nghị nhập khẩu thức ăn chăn nuôi để sản xuất, gia công nhằm mục đích xuất khẩu.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ nhập khẩu thức ăn chăn nuôi để sản xuất, gia công nhằm mục đích xuất khẩu",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -164,87 +128,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 350000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "01 sản phẩm/01 mục đích/01 lần",
-          "attachment": null
-        }
-      ],
-      "description": "- Trường hợp nộp hồ sơ trực tiếp: \n+ Kiểm tra tính đầy đủ của hồ sơ: Tại thời điểm tiếp nhận hồ sơ.\n+ Thẩm định hồ sơ và cấp giấy phép nhập khẩu thức ăn chăn nuôi: Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.\n- Trường hợp nộp hồ sơ qua dịch vụ bưu chính hoặc qua môi trường mạng: \n+ Kiểm tra tính đầy đủ của hồ sơ: Trong thời hạn 01 ngày làm việc.\n+ Thẩm định hồ sơ và cấp giấy phép nhập khẩu thức ăn chăn nuôi: Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.\n",
-      "source_page": null
+      "fee": "01 sản phẩm/01 mục đích/01 lần",
+      "description": "- Trường hợp nộp hồ sơ trực tiếp: \n+ Kiểm tra tính đầy đủ của hồ sơ: Tại thời điểm tiếp nhận hồ sơ.\n+ Thẩm định hồ sơ và cấp giấy phép nhập khẩu thức ăn chăn nuôi: Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.\n- Trường hợp nộp hồ sơ qua dịch vụ bưu chính hoặc qua môi trường mạng: \n+ Kiểm tra tính đầy đủ của hồ sơ: Trong thời hạn 01 ngày làm việc.\n+ Thẩm định hồ sơ và cấp giấy phép nhập khẩu thức ăn chăn nuôi: Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 350000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "01 sản phẩm/01 mục đích/01 lần",
-          "attachment": null
-        }
-      ],
-      "description": "- Trường hợp nộp hồ sơ trực tiếp: \n+ Kiểm tra tính đầy đủ của hồ sơ: Tại thời điểm tiếp nhận hồ sơ.\n+ Thẩm định hồ sơ và cấp giấy phép nhập khẩu thức ăn chăn nuôi: Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.\n- Trường hợp nộp hồ sơ qua dịch vụ bưu chính hoặc qua môi trường mạng: \n+ Kiểm tra tính đầy đủ của hồ sơ: Trong thời hạn 01 ngày làm việc.\n+ Thẩm định hồ sơ và cấp giấy phép nhập khẩu thức ăn chăn nuôi: Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.\n",
-      "source_page": null
+      "fee": "01 sản phẩm/01 mục đích/01 lần",
+      "description": "- Trường hợp nộp hồ sơ trực tiếp: \n+ Kiểm tra tính đầy đủ của hồ sơ: Tại thời điểm tiếp nhận hồ sơ.\n+ Thẩm định hồ sơ và cấp giấy phép nhập khẩu thức ăn chăn nuôi: Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.\n- Trường hợp nộp hồ sơ qua dịch vụ bưu chính hoặc qua môi trường mạng: \n+ Kiểm tra tính đầy đủ của hồ sơ: Trong thời hạn 01 ngày làm việc.\n+ Thẩm định hồ sơ và cấp giấy phép nhập khẩu thức ăn chăn nuôi: Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.",
+      "source_page": 4
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 350000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "01 sản phẩm/01 mục đích/01 lần",
-          "attachment": null
-        }
-      ],
+      "fee": "01 sản phẩm/01 mục đích/01 lần",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "01 sản phẩm/01 mục đích/01 lần",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 350000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "01 sản phẩm/01 mục đích/01 lần",
-        "attachment": null
+        "amount_text": "01 sản phẩm/01 mục đích/01 lần",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 350000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "01 sản phẩm/01 mục đích/01 lần",
-        "attachment": null
+        "amount_text": "01 sản phẩm/01 mục đích/01 lần",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 350000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "01 sản phẩm/01 mục đích/01 lần",
-        "attachment": null
+        "amount_text": "01 sản phẩm/01 mục đích/01 lần",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -252,32 +181,27 @@
     {
       "title": "Nghị định của Chính phủ hướng dẫn chi tiết Luật Chăn nuôi.",
       "document_number": "13/2020/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-29869cd251c3",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Luật Chăn nuôi",
       "document_number": "32/2018/QH14",
-      "id": "019d2bb3-5d84-71c5-b672-aa3eb2539b86",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Thông tư 24/2021/TT-BTC ngày 31/3/2021 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí trong chăn nuôi.",
       "document_number": "24/2021/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4b-d667667dfa70",
-      "source_page": null
+      "source_page": 6
     },
     {
-      "title": "sửa đổi bổ sung một số điều của 15 Luật trong lĩnh vực Nông nghiệp và Môi trường ",
-      "document_number": "Luật số 146/2025/QH15 ",
-      "id": "019d93ed-6d8d-716d-b303-e8e215adf6a9",
-      "source_page": null
+      "title": "sửa đổi bổ sung một số điều của 15 Luật trong lĩnh vực Nông nghiệp và Môi trường",
+      "document_number": "Luật số 146/2025/QH15",
+      "source_page": 6
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực chăn nuôi và thú y",
-      "document_number": "32/2026/NĐ-CP ",
-      "id": "019d95f4-9401-73aa-b334-491f52f7a7b9",
-      "source_page": null
+      "document_number": "32/2026/NĐ-CP",
+      "source_page": 6
     }
   ],
   "conditions": "",
@@ -285,15 +209,14 @@
     {
       "title": "Giấy phép nhập khẩu thức ăn chăn nuôi",
       "code": "KQ.G10.000151",
-      "id": "019d2bb2-1c4d-7725-9da0-3a871256d0d0",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Trình tự thực hiện:\n- Bước 1: Tổ chức, cá nhân gửi hồ sơ đến Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao giải quyết thủ tục hành chính trong lĩnh vực chăn nuôi và thú y (nơi tổ chức, cá nhân đặt trụ sở chính hoặc cửa khẩu nhập khẩu).\n- Bước 2: Kiểm tra nội dung hồ sơ: \n+ Trường hợp nộp hồ sơ trực tiếp: Tại thời điểm tiếp nhận hồ sơ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao giải quyết thủ tục hành chính trong lĩnh vực chăn nuôi và thú y kiểm tra thành phần hồ sơ và tiếp nhận hồ sơ đầy đủ thành phần; trường hợp hồ sơ chưa đầy đủ thành phần thì trả lại tổ chức, cá nhân để bổ sung, hoàn thiện hồ sơ.\nTrường hợp nộp hồ sơ qua dịch vụ bưu chính hoặc qua môi trường mạng: Trong thời hạn 01 ngày làm việc kể từ ngày nhận được hồ sơ, Cục Chăn nuôi xem xét tính đầy đủ; trường hợp hồ sơ chưa đầy đủ theo quy định thì thông báo cho tổ chức, cá nhân bổ sung, hoàn thiện hồ sơ.\n+ Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao giải quyết thủ tục hành chính trong lĩnh vực chăn nuôi và thú y cấp giấy phép nhập khẩu thức ăn chăn nuôi theo Mẫu số 09.TACN Phụ lục I ban hành kèm theo Nghị định số 13/2020/NĐ-CP. Trường hợp không cấp trả lời bằng văn bản và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "* Hồ sơ nhập khẩu thức ăn chăn nuôi để giới thiệu tại hội chợ, triển lãm bao gồm:\nVăn bản chứng minh về việc tổ chức, tham gia hội chợ, triển lãm tại Việt Nam.\nĐơn đề nghị nhập khẩu thức ăn chăn nuôi để giới thiệu tại hội chợ, triển lãm.\nHồ sơ nhập khẩu thức ăn chăn nuôi để làm mẫu phân tích tại phòng thử nghiệm\nVăn bản thỏa thuận sử dụng dịch vụ phân tích giữa một bên là phòng thử nghiệm hoặc doanh nghiệp trong nước với một bên là phòng thử nghiệm hoặc doanh nghiệp hoặc cơ quan quản lý về thức ăn chăn nuôi của nước xuất khẩu, trong đó có cam kết mẫu sản phẩm nhập khẩu không dùng cho hoạt động thương mại.\nĐơn đề nghị nhập khẩu thức ăn chăn nuôi để làm mẫu phân tích tại phòng thử nghiệm.\nHồ sơ nhập khẩu thức ăn chăn nuôi để nuôi thích nghi\nBản kê khai của cơ sở đăng ký về đối tượng, số lượng vật nuôi nuôi thích nghi, thời gian nuôi, địa điểm nuôi và mục đích nuôi.\nĐơn đề nghị nhập khẩu thức ăn chăn nuôi để nuôi thích nghi.\nHồ sơ nhập khẩu thức ăn chăn nuôi để phục vụ nghiên cứu, khảo nghiệm\nĐề cương nghiên cứu hoặc khảo nghiệm.\nĐơn đề nghị nhập khẩu thức ăn chăn nuôi để phục vụ nghiên cứu hoặc khảo nghiệm.\nHồ sơ nhập khẩu thức ăn chăn nuôi để sản xuất, gia công nhằm mục đích xuất khẩu\nHợp đồng sản xuất, gia công thức ăn chăn nuôi nhằm mục đích xuất khẩu phù hợp với quy định của pháp luật Việt Nam về nhập khẩu hàng hóa để sản xuất, gia công nhằm mục đích xuất khẩu\nĐơn đề nghị nhập khẩu thức ăn chăn nuôi để sản xuất, gia công nhằm mục đích xuất khẩu.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày làm việc - - Trường hợp nộp hồ sơ trực tiếp: \n+ Kiểm tra tính đầy đủ của hồ sơ: Tại thời điểm tiếp nhận hồ sơ.\n+ Thẩm định hồ sơ và cấp giấy phép nhập khẩu thức ăn chăn nuôi: Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.\n- Trường hợp nộp hồ sơ qua dịch vụ bưu chính hoặc qua môi trường mạng: \n+ Kiểm tra tính đầy đủ của hồ sơ: Trong thời hạn 01 ngày làm việc.\n+ Thẩm định hồ sơ và cấp giấy phép nhập khẩu thức ăn chăn nuôi: Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.\n\nQua dịch vụ bưu chính: 10 ngày làm việc - - Trường hợp nộp hồ sơ trực tiếp: \n+ Kiểm tra tính đầy đủ của hồ sơ: Tại thời điểm tiếp nhận hồ sơ.\n+ Thẩm định hồ sơ và cấp giấy phép nhập khẩu thức ăn chăn nuôi: Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.\n- Trường hợp nộp hồ sơ qua dịch vụ bưu chính hoặc qua môi trường mạng: \n+ Kiểm tra tính đầy đủ của hồ sơ: Trong thời hạn 01 ngày làm việc.\n+ Thẩm định hồ sơ và cấp giấy phép nhập khẩu thức ăn chăn nuôi: Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ.\n\nTrực tiếp: 10 ngày làm việc",
-    "CĂN CỨ PHÁP LÝ": "Nghị định của Chính phủ hướng dẫn chi tiết Luật Chăn nuôi. - 13/2020/NĐ-CP\nLuật Chăn nuôi - 32/2018/QH14\nThông tư 24/2021/TT-BTC ngày 31/3/2021 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí trong chăn nuôi. - 24/2021/TT-BTC\nsửa đổi bổ sung một số điều của 15 Luật trong lĩnh vực Nông nghiệp và Môi trường  - Luật số 146/2025/QH15 \nSửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực chăn nuôi và thú y - 32/2026/NĐ-CP ",
+    "TRÌNH TỰ THỰC HIỆN": "Trình tự thực hiện:\n- Bước 1: Tổ chức, cá nhân gửi hồ sơ đến Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao giải quyết thủ tục hành chính trong lĩnh vực chăn nuôi và thú y (nơi tổ chức, cá nhân đặt trụ sở chính hoặc cửa khẩu nhập khẩu).\n- Bước 2: Kiểm tra nội dung hồ sơ: \n+ Trường hợp nộp hồ sơ trực tiếp: Tại thời điểm tiếp nhận hồ sơ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao giải quyết thủ tục hành chính trong lĩnh vực chăn nuôi và thú y kiểm tra thành phần hồ sơ và tiếp nhận hồ sơ đầy đủ thành phần; trường hợp hồ sơ chưa đầy đủ thành phần thì trả lại tổ chức, cá nhân để bổ sung, hoàn thiện hồ sơ.\nTrường hợp nộp hồ sơ qua dịch vụ bưu chính hoặc qua môi trường mạng: Trong thời hạn 01 ngày làm việc kể từ ngày nhận được hồ sơ, Cục Chăn nuôi xem xét tính đầy đủ; trường hợp hồ sơ chưa đầy đủ theo quy định thì thông báo cho tổ chức, cá nhân bổ sung, hoàn thiện hồ sơ.\n+ Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, Cơ quan được Chủ tịch Ủy ban nhân dân cấp tỉnh giao giải quyết thủ tục hành chính trong lĩnh vực chăn nuôi và thú y cấp giấy phép nhập khẩu thức ăn chăn nuôi theo Mẫu số 09.TACN Phụ lục I ban hành kèm theo Nghị định số 13/2020/NĐ-CP. Trường hợp không cấp trả lời bằng văn bản và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "Hồ sơ nhập khẩu thức ăn chăn nuôi để làm mẫu phân tích tại phòng thử nghiệm: Đơn đề nghị nhập khẩu thức ăn chăn nuôi để làm mẫu phân tích tại phòng thử nghiệm.\n* Hồ sơ nhập khẩu thức ăn chăn nuôi để giới thiệu tại hội chợ, triển lãm bao gồm:: Văn bản chứng minh về việc tổ chức, tham gia hội chợ, triển lãm tại Việt Nam.\n* Hồ sơ nhập khẩu thức ăn chăn nuôi để giới thiệu tại hội chợ, triển lãm bao gồm:: Đơn đề nghị nhập khẩu thức ăn chăn nuôi để giới thiệu tại hội chợ, triển lãm.\nHồ sơ nhập khẩu thức ăn chăn nuôi để làm mẫu phân tích tại phòng thử nghiệm: Văn bản thỏa thuận sử dụng dịch vụ phân tích giữa một bên là phòng thử nghiệm hoặc doanh nghiệp trong nước với một bên là phòng thử nghiệm hoặc doanh nghiệp hoặc cơ quan quản lý về thức ăn chăn nuôi của nước xuất khẩu, trong đó có cam kết mẫu sản phẩm nhập khẩu không dùng cho hoạt động thương mại.\nHồ sơ nhập khẩu thức ăn chăn nuôi để nuôi thích nghi: Bản kê khai của cơ sở đăng ký về đối tượng, số lượng vật nuôi nuôi thích nghi, thời gian nuôi, địa điểm nuôi và mục đích nuôi.\nHồ sơ nhập khẩu thức ăn chăn nuôi để nuôi thích nghi: Đơn đề nghị nhập khẩu thức ăn chăn nuôi để nuôi thích nghi.\nHồ sơ nhập khẩu thức ăn chăn nuôi để phục vụ nghiên cứu, khảo nghiệm: Đề cương nghiên cứu hoặc khảo nghiệm.\nHồ sơ nhập khẩu thức ăn chăn nuôi để phục vụ nghiên cứu, khảo nghiệm: Đơn đề nghị nhập khẩu thức ăn chăn nuôi để phục vụ nghiên cứu hoặc khảo nghiệm.\nHồ sơ nhập khẩu thức ăn chăn nuôi để sản xuất, gia công nhằm mục đích xuất khẩu: Hợp đồng sản xuất, gia công thức ăn chăn nuôi nhằm mục đích xuất khẩu phù hợp với quy định của pháp luật Việt Nam về nhập khẩu hàng hóa để sản xuất, gia công nhằm mục đích xuất khẩu\nHồ sơ nhập khẩu thức ăn chăn nuôi để sản xuất, gia công nhằm mục đích xuất khẩu: Đơn đề nghị nhập khẩu thức ăn chăn nuôi để sản xuất, gia công nhằm mục đích xuất khẩu.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày làm việc\nQua dịch vụ bưu chính: 10 ngày làm việc\nTrực tiếp: 10 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "Nghị định của Chính phủ hướng dẫn chi tiết Luật Chăn nuôi. - 13/2020/NĐ-CP\nLuật Chăn nuôi - 32/2018/QH14\nThông tư 24/2021/TT-BTC ngày 31/3/2021 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí trong chăn nuôi. - 24/2021/TT-BTC\nsửa đổi bổ sung một số điều của 15 Luật trong lĩnh vực Nông nghiệp và Môi trường - Luật số 146/2025/QH15\nSửa đổi, bổ sung một số điều của các Nghị định trong lĩnh vực chăn nuôi và thú y - 32/2026/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Chủ tịch ủy ban nhân dân cấp tỉnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
     "KẾT QUẢ XỬ LÝ": "Giấy phép nhập khẩu thức ăn chăn nuôi - KQ.G10.000151",
@@ -301,11 +224,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Chăn nuôi",
       "slug": "chan-nuoi"
@@ -319,7 +237,7 @@
     "target_users": [
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
@@ -327,7 +245,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -356,6 +274,6 @@
         "slug": "chu-tich-uy-ban-nhan-dan-cap-tinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

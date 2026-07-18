@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2c00-00a2-7109-8f6c-03c1f12669a3",
   "procedure_code": "3.000096",
   "title": "Thay đổi vị trí thiết bị đo đếm",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2c00-00a2-7109-8f6c-03c1f12669a3",
     "source_file": "chi-tiet-thu-tuc-3.000096.pdf",
     "source_path": "procedures/viec-lam/3.000096/chi-tiet-thu-tuc-3.000096.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:23.162497+00:00",
-    "source_updated_at": "2026-04-08T13:24:14.078Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:33.252263+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "a36c6b6c3aca3c65cf7383aea7c16cf5519a7be20758ef6886a6c26d164d71f5"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:23.162497+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "4221/EVN-KDMBD",
   "implementation_level": "Cấp bộ, Cơ quan khác",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cơ quan khác"
-  ],
   "procedure_type": "OTHER",
   "sector": "Dịch vụ trong quá trình thực hiện HĐMBĐ",
   "target_users": [
@@ -42,18 +37,15 @@
   ],
   "agency": {
     "competent_agency": "Tập đoàn Điện lực Việt Nam",
-    "executing_agency": "Tập đoàn Điện lực Việt Nam",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Tập đoàn Điện lực Việt Nam"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Tiếp nhận yêu cầu\nKhảo sát\nLắp đặt nghiệm thu thiết bị đo đếm, ký Phụ lục hợp đồng và Biên bản treo tháo\n",
+      "description": "Tiếp nhận yêu cầu\nKhảo sát\nLắp đặt nghiệm thu thiết bị đo đếm, ký Phụ lục hợp đồng và Biên bản treo tháo",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -62,12 +54,9 @@
     "conditional": [
       {
         "name": "Giấy đề nghị dịch vụ điện",
-        "code": "0100100079-KQ000076",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -76,60 +65,37 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -137,14 +103,12 @@
     {
       "title": "Luật điện lực",
       "document_number": "61/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b673-c2df86c0a18e",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định 18",
       "document_number": "18/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afec-ad5bba1e2fce",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "",
@@ -152,13 +116,12 @@
     {
       "title": "Phụ lục hợp đồng mua bán điện",
       "code": "KQ.0100100079.000015",
-      "id": "019d2bb2-1c36-71b8-ad26-2e521c3cc456",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Tiếp nhận yêu cầu\nKhảo sát\nLắp đặt nghiệm thu thiết bị đo đếm, ký Phụ lục hợp đồng và Biên bản treo tháo\n",
-    "THÀNH PHẦN HỒ SƠ": "\nGiấy đề nghị dịch vụ điện",
+    "TRÌNH TỰ THỰC HIỆN": "Tiếp nhận yêu cầu\nKhảo sát\nLắp đặt nghiệm thu thiết bị đo đếm, ký Phụ lục hợp đồng và Biên bản treo tháo",
+    "THÀNH PHẦN HỒ SƠ": "Giấy đề nghị dịch vụ điện",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 5 ngày làm việc\nTrực tiếp: 5 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Luật điện lực - 61/2024/QH15\nNghị định 18 - 18/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Tập đoàn Điện lực Việt Nam",
@@ -168,14 +131,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Dịch vụ trong quá trình thực hiện HĐMBĐ",
-      "slug": "dich-vu-trong-qua-trinh-thuc-hien-hdmbd"
+      "slug": "dich-vu-trong-qua-trinh-thuc-hien-hmb"
     },
     "implementation_levels": [
       {
@@ -214,15 +172,15 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       }
     ],
     "agencies": [
       {
         "name": "Tập đoàn Điện lực Việt Nam",
-        "slug": "tap-doan-dien-luc-viet-nam"
+        "slug": "tap-oan-ien-luc-viet-nam"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bff-b267-7729-a591-dad1af4e9df3",
   "procedure_code": "1.003463",
   "title": "Thủ tục cấp Giấy chứng nhận đăng ký thay đổi đại lý đổi ngoại tệ",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-b267-7729-a591-dad1af4e9df3",
     "source_file": "chi-tiet-thu-tuc-1.003463.pdf",
     "source_path": "procedures/viec-lam/1.003463/chi-tiet-thu-tuc-1.003463.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:01.105502+00:00",
-    "source_updated_at": "2026-06-23T04:36:00.811Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:03.907261+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "bdc089d740b95f74f972ce7192d5f4afd289226aa6b887bc54e41e9e08d0d9b4"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:01.105502+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1279/QĐ-NHNN",
   "implementation_level": "Cấp tỉnh, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hoạt động ngoại hối",
   "target_users": [
@@ -36,10 +31,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ngân hàng Nhà nước Khu vực",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Bộ phận Một cửa Ngân hàng Nhà nước Khu vực"
+    "executing_agency": "Ngân hàng Nhà nước Khu vực"
   },
   "steps": [
     {
@@ -47,53 +39,38 @@
       "title": "Bước 1",
       "description": "+ Bước 1: Tổ chức kinh tế có nhu cầu thực hiện hoạt động thay đổi đại lý đổi ngoại tệ lập 01 bộ hồ sơ theo quy định gửi Ngân hàng Nhà nước chi nhánh Khu vực trên địa bàn nơi tổ chức kinh tế đặt đại lý đổi ngoại tệ. \nThời hạn kiểm tra tính đầy đủ, chính xác của hồ sơ là 3 ngày làm việc kể từ khi Hệ thống thông tin giải quyết thủ tục hành chính Ngân hàng Nhà nước hoặc Bộ phận Một cửa Ngân hàng Nhà nước chi nhánh khu vực nhận hồ sơ.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "Bước 2",
       "description": "+ Bước 2: Trong thời hạn 20 ngày làm việc kể từ ngày tiếp nhận đủ hồ sơ hợp lệ, Ngân hàng Nhà nước chi nhánh Khu vực trên địa bàn xem xét, cấp Giấy chứng nhận đăng ký thay đổi đại lý đổi ngoại tệ (theo mẫu tại Phụ lục 6 thuộc Phụ lục II ban hành kèm theo Thông tư số 75/2025/TT-NHNN ngày 31/12/2025). Trường hợp từ chối, Ngân hàng Nhà nước chi nhánh Khu vực trên địa bàn có văn bản từ chối cấp Giấy chứng nhận và nêu rõ lý do. \nTrường hợp hồ sơ chưa đầy đủ và hợp lệ, trong thời hạn 10 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Ngân hàng Nhà nước chi nhánh Khu vực trên địa bàn có văn bản yêu cầu tổ chức bổ sung hồ sơ theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "+ Đơn đăng ký thay đổi đại lý đổi ngoại tệ (theo mẫu tại Phụ lục 5 thuộc Phụ lục II ban hành kèm theo Thông tư số 75/2025/TT-NHNN ngày 31/12/2025);",
-        "code": "G19-KQ005425",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d8043-6461-710c-9728-152bd08c7c56",
-            "name": "PL 5 PL II TT75.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PL 5 PL II TT75.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "+ Các giấy tờ cần thiết có liên quan đến việc thay đổi quy định tại khoản 1 Điều 6a Quy chế đại lý đổi ngoại tệ ban hành kèm theo Quyết định số 21/2008/QĐ-NHNN (đã được sửa đổi, bổ sung);",
-        "code": "G19-KQ005426",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Báo cáo về việc tổ chức kinh tế trang bị đầy đủ bảng thông báo tỷ giá công khai, bảng hiệu ghi tên tổ chức tín dụng ủy quyền và tên đại lý đổi ngoại tệ tại nơi giao dịch (trong trường hợp thay đổi địa điểm đặt đại lý đổi ngoại tệ).",
-        "code": "G19-KQ005427",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -102,35 +79,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "20 ngày làm việc",
-      "processing_time_value": 20,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "20 ngày làm việc",
-      "processing_time_value": 20,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -138,51 +95,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "20 ngày làm việc",
-      "processing_time_value": 20,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -190,20 +132,17 @@
     {
       "title": "Quyết định 21/2008/QĐ-NHNN",
       "document_number": "21/2008/QĐ-NHNN",
-      "id": "019d2bb3-5d80-7608-8ccd-4449ecd8c160",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư sửa đổi, bổ sung một số quy định tại các văn bản quy phạm pháp luật trong lĩnh vực quản lý hoạt động cung ứng dịch vụ và sử dụng ngoại hối để thực thi phương án cắt giảm, đơn giản hóa thủ tục hành chính",
       "document_number": "Thông tư số 75/2025/TT-NHNN",
-      "id": "019d2bb3-5d80-7608-8ccf-c29dac53d3a7",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư số 23/2026/TT-NHNN của Thống đốc Ngân hàng Nhà nước Việt Nam sửa đổi, bổ sung một số điều của các văn bản quy phạm pháp luật về quản lý ngoại hối liên quan đến hoạt động cung ứng dịch vụ ngoại hối của các tổ chức không phải là tổ chức tín dụng",
       "document_number": "Thông tư số 23/2026/TT-NHNN",
-      "id": "019edf4f-f615-7324-9c5a-d19d4074e8ec",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Không",
@@ -211,19 +150,17 @@
     {
       "title": "Giấy chứng nhận đăng ký thay đổi đại lý đổi ngoại tệ",
       "code": "KQ.G19.000217",
-      "id": "019d2bb2-1c7d-740f-b02f-b5db7f080948",
-      "source_page": null
+      "source_page": 1
     },
     {
       "title": "Văn bản từ chối cấp Giấy chứng nhận đăng ký thay đổi đại lý đổi ngoại tệ",
       "code": "KQ.G19.000431",
-      "id": "019d2bb2-1c7d-740f-b032-e4c1f9d9a75f",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Tổ chức kinh tế có nhu cầu thực hiện hoạt động thay đổi đại lý đổi ngoại tệ lập 01 bộ hồ sơ theo quy định gửi Ngân hàng Nhà nước chi nhánh Khu vực trên địa bàn nơi tổ chức kinh tế đặt đại lý đổi ngoại tệ. \nThời hạn kiểm tra tính đầy đủ, chính xác của hồ sơ là 3 ngày làm việc kể từ khi Hệ thống thông tin giải quyết thủ tục hành chính Ngân hàng Nhà nước hoặc Bộ phận Một cửa Ngân hàng Nhà nước chi nhánh khu vực nhận hồ sơ.\n+ Bước 2: Trong thời hạn 20 ngày làm việc kể từ ngày tiếp nhận đủ hồ sơ hợp lệ, Ngân hàng Nhà nước chi nhánh Khu vực trên địa bàn xem xét, cấp Giấy chứng nhận đăng ký thay đổi đại lý đổi ngoại tệ (theo mẫu tại Phụ lục 6 thuộc Phụ lục II ban hành kèm theo Thông tư số 75/2025/TT-NHNN ngày 31/12/2025). Trường hợp từ chối, Ngân hàng Nhà nước chi nhánh Khu vực trên địa bàn có văn bản từ chối cấp Giấy chứng nhận và nêu rõ lý do. \nTrường hợp hồ sơ chưa đầy đủ và hợp lệ, trong thời hạn 10 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Ngân hàng Nhà nước chi nhánh Khu vực trên địa bàn có văn bản yêu cầu tổ chức bổ sung hồ sơ theo quy định.",
-    "THÀNH PHẦN HỒ SƠ": "\n+ Các giấy tờ cần thiết có liên quan đến việc thay đổi quy định tại khoản 1 Điều 6a Quy chế đại lý đổi ngoại tệ ban hành kèm theo Quyết định số 21/2008/QĐ-NHNN (đã được sửa đổi, bổ sung);\n+ Báo cáo về việc tổ chức kinh tế trang bị đầy đủ bảng thông báo tỷ giá công khai, bảng hiệu ghi tên tổ chức tín dụng ủy quyền và tên đại lý đổi ngoại tệ tại nơi giao dịch (trong trường hợp thay đổi địa điểm đặt đại lý đổi ngoại tệ).\n+ Đơn đăng ký thay đổi đại lý đổi ngoại tệ (theo mẫu tại Phụ lục 5 thuộc Phụ lục II ban hành kèm theo Thông tư số 75/2025/TT-NHNN ngày 31/12/2025);",
+    "THÀNH PHẦN HỒ SƠ": "+ Đơn đăng ký thay đổi đại lý đổi ngoại tệ (theo mẫu tại Phụ lục 5 thuộc Phụ lục II ban hành kèm theo Thông tư số 75/2025/TT-NHNN ngày 31/12/2025);\n+ Các giấy tờ cần thiết có liên quan đến việc thay đổi quy định tại khoản 1 Điều 6a Quy chế đại lý đổi ngoại tệ ban hành kèm theo Quyết định số 21/2008/QĐ-NHNN (đã được sửa đổi, bổ sung);\n+ Báo cáo về việc tổ chức kinh tế trang bị đầy đủ bảng thông báo tỷ giá công khai, bảng hiệu ghi tên tổ chức tín dụng ủy quyền và tên đại lý đổi ngoại tệ tại nơi giao dịch (trong trường hợp thay đổi địa điểm đặt đại lý đổi ngoại tệ).",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 20 ngày làm việc\nQua dịch vụ bưu chính: 20 ngày làm việc\nTrực tiếp: 20 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Quyết định 21/2008/QĐ-NHNN - 21/2008/QĐ-NHNN\nThông tư sửa đổi, bổ sung một số quy định tại các văn bản quy phạm pháp luật trong lĩnh vực quản lý hoạt động cung ứng dịch vụ và sử dụng ngoại hối để thực thi phương án cắt giảm, đơn giản hóa thủ tục hành chính - Thông tư số 75/2025/TT-NHNN\nThông tư số 23/2026/TT-NHNN của Thống đốc Ngân hàng Nhà nước Việt Nam sửa đổi, bổ sung một số điều của các văn bản quy phạm pháp luật về quản lý ngoại hối liên quan đến hoạt động cung ứng dịch vụ ngoại hối của các tổ chức không phải là tổ chức tín dụng - Thông tư số 23/2026/TT-NHNN",
     "CƠ QUAN THỰC HIỆN": "Ngân hàng Nhà nước Khu vực",
@@ -233,14 +170,9 @@
     "MÔ TẢ": "Không"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hoạt động ngoại hối",
-      "slug": "hoat-dong-ngoai-hoi"
+      "slug": "hoat-ong-ngoai-hoi"
     },
     "implementation_levels": [
       {
@@ -264,6 +196,6 @@
         "slug": "ngan-hang-nha-nuoc-khu-vuc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

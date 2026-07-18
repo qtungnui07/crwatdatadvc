@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf8-d78b-73b9-b34f-a6626fc15f92",
   "procedure_code": "2.002771",
   "title": "Xét duyệt trẻ em nhà trẻ bán trú hỗ trợ kinh phí, hỗ trợ gạo",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-d78b-73b9-b34f-a6626fc15f92",
     "source_file": "chi-tiet-thu-tuc-2.002771.pdf",
     "source_path": "procedures/hoc-tap/2.002771/chi-tiet-thu-tuc-2.002771.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:22.461825+00:00",
-    "source_updated_at": "2026-04-14T07:43:30.848Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:22.811370+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "17c89f6f0f262e0aed5fe4f5672b2b4bf0eb51bac9e0800840ccf2fb113fd292"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:22.461825+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "951/QĐ-BGDĐT",
   "implementation_level": "Cấp xã, Cơ quan khác",
-  "implementation_levels": [
-    "Cấp xã",
-    "Cơ quan khác"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Giáo dục và Đào tạo thuộc hệ thống giáo dục quốc dân",
   "target_users": [
@@ -36,48 +31,33 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cơ sở giáo dục",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cơ sở giáo dục"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Tháng 8 hằng năm, cơ sở giáo dục mầm non tổ chức phổ biến, thông báo rộng rãi và hướng dẫn cho cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em nhà trẻ nộp hồ sơ đề nghị hưởng chính sách trẻ em nhà trẻ bán trú;\n- Trong vòng 15 ngày kể từ ngày cơ sở giáo dục mầm non thông báo, cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em nhà trẻ gửi 01 bộ hồ sơ theo quy định tại khoản 1 Điều này qua cổng dịch vụ công trực tuyến hoặc bưu chính hoặc trực tiếp đến cơ sở giáo dục mầm non. Mỗi đối tượng nộp 01 bộ hồ sơ cho 01 lần đầu đề nghị hỗ trợ trong cả thời gian học tại cơ sở giáo dục mầm non. Riêng đối tượng trẻ em nhà trẻ hộ nghèo nộp bổ sung Giấy chứng nhận hộ nghèo theo từng năm trong trường hợp cơ quan, tổ chức không thể khai thác được thông tin cư trú của công dân trong Cơ sở dữ liệu quốc gia về dân cư.\n- Cơ sở giáo dục mầm non tiếp nhận, kiểm tra thành phần hồ sơ, nếu thành phần hồ sơ nộp là bản chụp chưa có chứng thực của cấp có thẩm quyền, người nhận hồ sơ có trách nhiệm đối chiếu với bản chính, ký xác nhận vào bản chụp để đưa vào hồ sơ. Nếu hồ sơ chưa đầy đủ hoặc chưa đúng quy định thì yêu cầu bổ sung. Trường hợp hồ sơ không bảo đảm yêu cầu, trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đề nghị hưởng chính sách trẻ em nhà trẻ bán trú, cơ sở giáo dục mầm non gửi thông báo không tiếp nhận hồ sơ và lý do cho cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em nhà trẻ.\n",
+      "description": "- Tháng 8 hằng năm, cơ sở giáo dục mầm non tổ chức phổ biến, thông báo rộng rãi và hướng dẫn cho cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em nhà trẻ nộp hồ sơ đề nghị hưởng chính sách trẻ em nhà trẻ bán trú;\n- Trong vòng 15 ngày kể từ ngày cơ sở giáo dục mầm non thông báo, cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em nhà trẻ gửi 01 bộ hồ sơ theo quy định tại khoản 1 Điều này qua cổng dịch vụ công trực tuyến hoặc bưu chính hoặc trực tiếp đến cơ sở giáo dục mầm non. Mỗi đối tượng nộp 01 bộ hồ sơ cho 01 lần đầu đề nghị hỗ trợ trong cả thời gian học tại cơ sở giáo dục mầm non. Riêng đối tượng trẻ em nhà trẻ hộ nghèo nộp bổ sung Giấy chứng nhận hộ nghèo theo từng năm trong trường hợp cơ quan, tổ chức không thể khai thác được thông tin cư trú của công dân trong Cơ sở dữ liệu quốc gia về dân cư.\n- Cơ sở giáo dục mầm non tiếp nhận, kiểm tra thành phần hồ sơ, nếu thành phần hồ sơ nộp là bản chụp chưa có chứng thực của cấp có thẩm quyền, người nhận hồ sơ có trách nhiệm đối chiếu với bản chính, ký xác nhận vào bản chụp để đưa vào hồ sơ. Nếu hồ sơ chưa đầy đủ hoặc chưa đúng quy định thì yêu cầu bổ sung. Trường hợp hồ sơ không bảo đảm yêu cầu, trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đề nghị hưởng chính sách trẻ em nhà trẻ bán trú, cơ sở giáo dục mầm non gửi thông báo không tiếp nhận hồ sơ và lý do cho cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em nhà trẻ.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em thuộc đối tượng quy định tại khoản 1 Điều 4 Nghị định này nộp Đơn đề nghị hưởng chính sách trẻ em nhà trẻ bán trú theo Mẫu số 01 quy định tại Phụ lục kèm theo Nghị định này",
-        "code": "G03-KQ002020",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d7158-8c2e-7510-bc48-e3912761573a",
-            "name": "Mu01.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mu01.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Đối với trẻ em nhà trẻ thuộc đối tượng quy định tại điểm b khoản 1 Điều 4 Nghị định này thì cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em nhà trẻ phải nộp thêm một trong các giấy tờ sau trong trường hợp cơ quan, tổ chức không thể khai thác được thông tin cư trú của công dân trong Cơ sở dữ liệu quốc gia về dân cư: Bản chụp kèm bản chính để đối chiếu hoặc bản sao có chứng thực Giấy chứng nhận hoặc Giấy xác nhận hộ nghèo do Ủy ban nhân dân cấp xã cấp; Bản chụp kèm bản chính để đối chiếu hoặc bản sao có chứng thực văn bản xác nhận của Ủy ban nhân dân cấp xã hoặc cơ sở bảo trợ xã hội về tình trạng trẻ mồ côi, bị bỏ rơi hoặc trẻ thuộc các trường hợp khác quy định tại khoản 1 Điều 5 Nghị định số 136/2013/NĐ-CP ngày 21 tháng 10 năm 2013 của Chính phủ quy định chính sách trợ giúp xã hội đối với đối tượng bảo trợ xã hội; bản chụp kèm theo bản chính để đối chiếu hoặc bản sao có chứng thực Giấy chứng nhận nuôi con nuôi đối với trẻ mồ côi, bị bỏ rơi hoặc trẻ em thuộc các trường hợp khác quy định khoản 1 Điều 5 Nghị định số 136/2013/NĐ-CP; Bản chụp kèm bản chính để đối chiếu hoặc bản sao có chứng thực Giấy xác nhận của cơ quan quản lý đối tượng con liệt sĩ, con Anh hùng Lực lượng vũ trang nhân dân, con thương binh, con người hưởng chính sách như thương binh, con bệnh binh; con một số đối tượng chính sách khác theo quy định tại Pháp lệnh Ưu đãi người có công với cách mạng (nếu có); Bản chụp kèm theo bản chính để đối chiếu hoặc bản sao có chứng thực Giấy xác nhận khuyết tật do Ủy ban nhân dân cấp xã cấp hoặc Quyết định về việc trợ cấp xã hội của Chủ tịch Ủy ban nhân dân cấp huyện.",
-        "code": "G03-KQ002021",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -86,35 +66,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -122,51 +82,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -174,39 +119,32 @@
     {
       "title": "Nghị định số 66/2025/NĐ-CP ngày 12/3/2025 của Chính phủ",
       "document_number": "66/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-41dae5e4ccbe",
-      "source_page": null
+      "source_page": 3
     }
   ],
-  "conditions": "\tTrẻ em nhà trẻ bán trú phải đảm bảo một trong các điều kiện sau:\na) Trẻ em nhà trẻ thường trú tại xã, thôn đặc biệt khó khăn đang học tại cơ sở giáo dục mầm non công lập thuộc xã khu vực III, khu vực II, khu vực I, xã có thôn đặc biệt khó khăn vùng đồng bào dân tộc thiểu số và miền núi, xã đặc biệt khó khăn vùng bãi ngang, ven biển và hải đảo;\nb) Trẻ em nhà trẻ người dân tộc thiểu số thường trú tại xã khu vực II, khu vực I vùng đồng bào dân tộc thiểu số và miền núi đang học tại cơ sở giáo dục mầm non công lập thuộc xã khu vực III, khu vực II, khu vực I, xã có thôn đặc biệt khó khăn vùng đồng bào dân tộc thiểu số và miền núi, xã đặc biệt khó khăn vùng bãi ngang, ven biển và hải đảo thuộc một trong các trường hợp sau:\nTrẻ em thuộc hộ nghèo theo chuẩn nghèo đa chiều theo quy định của Chính phủ;\nTrẻ em không có nguồn nuôi dưỡng được quy định tại khoản 1 Điều 5 Nghị định số 20/2021/NĐ-CP ngày 15 tháng 3 năm 2021 của Chính phủ quy định chính sách trợ giúp xã hội đối với đối tượng bảo trợ xã hội;\nTrẻ em là con liệt sĩ, con Anh hùng Lực lượng vũ trang nhân dân, con thương binh, con người hưởng chính sách như thương binh, con bệnh binh, con đối tượng chính sách khác theo quy định tại Pháp lệnh Ưu đãi người có công với cách mạng (nếu có);\nTrẻ em khuyết tật học hòa nhập.",
+  "conditions": "Trẻ em nhà trẻ bán trú phải đảm bảo một trong các điều kiện sau:\na) Trẻ em nhà trẻ thường trú tại xã, thôn đặc biệt khó khăn đang học tại cơ sở giáo dục mầm non công lập thuộc xã khu vực III, khu vực II, khu vực I, xã có thôn đặc biệt khó khăn vùng đồng bào dân tộc thiểu số và miền núi, xã đặc biệt khó khăn vùng bãi ngang, ven biển và hải đảo;\nb) Trẻ em nhà trẻ người dân tộc thiểu số thường trú tại xã khu vực II, khu vực I vùng đồng bào dân tộc thiểu số và miền núi đang học tại cơ sở giáo dục mầm non công lập thuộc xã khu vực III, khu vực II, khu vực I, xã có thôn đặc biệt khó khăn vùng đồng bào dân tộc thiểu số và miền núi, xã đặc biệt khó khăn vùng bãi ngang, ven biển và hải đảo thuộc một trong các trường hợp sau:\nTrẻ em thuộc hộ nghèo theo chuẩn nghèo đa chiều theo quy định của Chính phủ;\nTrẻ em không có nguồn nuôi dưỡng được quy định tại khoản 1 Điều 5 Nghị định số 20/2021/NĐ-CP ngày 15 tháng 3 năm 2021 của Chính phủ quy định chính sách trợ giúp xã hội đối với đối tượng bảo trợ xã hội;\nTrẻ em là con liệt sĩ, con Anh hùng Lực lượng vũ trang nhân dân, con thương binh, con người hưởng chính sách như thương binh, con bệnh binh, con đối tượng chính sách khác theo quy định tại Pháp lệnh Ưu đãi người có công với cách mạng (nếu có);\nTrẻ em khuyết tật học hòa nhập.",
   "results": [
     {
       "title": "Thông báo tiếp nhận hoặc không tiếp nhận hồ sơ, lý do cho cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em nhà trẻ .",
       "code": "KQ.G03.000350",
-      "id": "019d2bb2-1c3b-735b-85a7-48cbfe18c744",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Tháng 8 hằng năm, cơ sở giáo dục mầm non tổ chức phổ biến, thông báo rộng rãi và hướng dẫn cho cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em nhà trẻ nộp hồ sơ đề nghị hưởng chính sách trẻ em nhà trẻ bán trú;\n- Trong vòng 15 ngày kể từ ngày cơ sở giáo dục mầm non thông báo, cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em nhà trẻ gửi 01 bộ hồ sơ theo quy định tại khoản 1 Điều này qua cổng dịch vụ công trực tuyến hoặc bưu chính hoặc trực tiếp đến cơ sở giáo dục mầm non. Mỗi đối tượng nộp 01 bộ hồ sơ cho 01 lần đầu đề nghị hỗ trợ trong cả thời gian học tại cơ sở giáo dục mầm non. Riêng đối tượng trẻ em nhà trẻ hộ nghèo nộp bổ sung Giấy chứng nhận hộ nghèo theo từng năm trong trường hợp cơ quan, tổ chức không thể khai thác được thông tin cư trú của công dân trong Cơ sở dữ liệu quốc gia về dân cư.\n- Cơ sở giáo dục mầm non tiếp nhận, kiểm tra thành phần hồ sơ, nếu thành phần hồ sơ nộp là bản chụp chưa có chứng thực của cấp có thẩm quyền, người nhận hồ sơ có trách nhiệm đối chiếu với bản chính, ký xác nhận vào bản chụp để đưa vào hồ sơ. Nếu hồ sơ chưa đầy đủ hoặc chưa đúng quy định thì yêu cầu bổ sung. Trường hợp hồ sơ không bảo đảm yêu cầu, trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đề nghị hưởng chính sách trẻ em nhà trẻ bán trú, cơ sở giáo dục mầm non gửi thông báo không tiếp nhận hồ sơ và lý do cho cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em nhà trẻ.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nCha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em thuộc đối tượng quy định tại khoản 1 Điều 4 Nghị định này nộp Đơn đề nghị hưởng chính sách trẻ em nhà trẻ bán trú theo Mẫu số 01 quy định tại Phụ lục kèm theo Nghị định này\nĐối với trẻ em nhà trẻ thuộc đối tượng quy định tại điểm b khoản 1 Điều 4 Nghị định này thì cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em nhà trẻ phải nộp thêm một trong các giấy tờ sau trong trường hợp cơ quan, tổ chức không thể khai thác được thông tin cư trú của công dân trong Cơ sở dữ liệu quốc gia về dân cư: Bản chụp kèm bản chính để đối chiếu hoặc bản sao có chứng thực Giấy chứng nhận hoặc Giấy xác nhận hộ nghèo do Ủy ban nhân dân cấp xã cấp; Bản chụp kèm bản chính để đối chiếu hoặc bản sao có chứng thực văn bản xác nhận của Ủy ban nhân dân cấp xã hoặc cơ sở bảo trợ xã hội về tình trạng trẻ mồ côi, bị bỏ rơi hoặc trẻ thuộc các trường hợp khác quy định tại khoản 1 Điều 5 Nghị định số 136/2013/NĐ-CP ngày 21 tháng 10 năm 2013 của Chính phủ quy định chính sách trợ giúp xã hội đối với đối tượng bảo trợ xã hội; bản chụp kèm theo bản chính để đối chiếu hoặc bản sao có chứng thực Giấy chứng nhận nuôi con nuôi đối với trẻ mồ côi, bị bỏ rơi hoặc trẻ em thuộc các trường hợp khác quy định khoản 1 Điều 5 Nghị định số 136/2013/NĐ-CP; Bản chụp kèm bản chính để đối chiếu hoặc bản sao có chứng thực Giấy xác nhận của cơ quan quản lý đối tượng con liệt sĩ, con Anh hùng Lực lượng vũ trang nhân dân, con thương binh, con người hưởng chính sách như thương binh, con bệnh binh; con một số đối tượng chính sách khác theo quy định tại Pháp lệnh Ưu đãi người có công với cách mạng (nếu có); Bản chụp kèm theo bản chính để đối chiếu hoặc bản sao có chứng thực Giấy xác nhận khuyết tật do Ủy ban nhân dân cấp xã cấp hoặc Quyết định về việc trợ cấp xã hội của Chủ tịch Ủy ban nhân dân cấp huyện.",
+    "TRÌNH TỰ THỰC HIỆN": "- Tháng 8 hằng năm, cơ sở giáo dục mầm non tổ chức phổ biến, thông báo rộng rãi và hướng dẫn cho cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em nhà trẻ nộp hồ sơ đề nghị hưởng chính sách trẻ em nhà trẻ bán trú;\n- Trong vòng 15 ngày kể từ ngày cơ sở giáo dục mầm non thông báo, cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em nhà trẻ gửi 01 bộ hồ sơ theo quy định tại khoản 1 Điều này qua cổng dịch vụ công trực tuyến hoặc bưu chính hoặc trực tiếp đến cơ sở giáo dục mầm non. Mỗi đối tượng nộp 01 bộ hồ sơ cho 01 lần đầu đề nghị hỗ trợ trong cả thời gian học tại cơ sở giáo dục mầm non. Riêng đối tượng trẻ em nhà trẻ hộ nghèo nộp bổ sung Giấy chứng nhận hộ nghèo theo từng năm trong trường hợp cơ quan, tổ chức không thể khai thác được thông tin cư trú của công dân trong Cơ sở dữ liệu quốc gia về dân cư.\n- Cơ sở giáo dục mầm non tiếp nhận, kiểm tra thành phần hồ sơ, nếu thành phần hồ sơ nộp là bản chụp chưa có chứng thực của cấp có thẩm quyền, người nhận hồ sơ có trách nhiệm đối chiếu với bản chính, ký xác nhận vào bản chụp để đưa vào hồ sơ. Nếu hồ sơ chưa đầy đủ hoặc chưa đúng quy định thì yêu cầu bổ sung. Trường hợp hồ sơ không bảo đảm yêu cầu, trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đề nghị hưởng chính sách trẻ em nhà trẻ bán trú, cơ sở giáo dục mầm non gửi thông báo không tiếp nhận hồ sơ và lý do cho cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em nhà trẻ.",
+    "THÀNH PHẦN HỒ SƠ": "Cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em thuộc đối tượng quy định tại khoản 1 Điều 4 Nghị định này nộp Đơn đề nghị hưởng chính sách trẻ em nhà trẻ bán trú theo Mẫu số 01 quy định tại Phụ lục kèm theo Nghị định này\nĐối với trẻ em nhà trẻ thuộc đối tượng quy định tại điểm b khoản 1 Điều 4 Nghị định này thì cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em nhà trẻ phải nộp thêm một trong các giấy tờ sau trong trường hợp cơ quan, tổ chức không thể khai thác được thông tin cư trú của công dân trong Cơ sở dữ liệu quốc gia về dân cư: Bản chụp kèm bản chính để đối chiếu hoặc bản sao có chứng thực Giấy chứng nhận hoặc Giấy xác nhận hộ nghèo do Ủy ban nhân dân cấp xã cấp; Bản chụp kèm bản chính để đối chiếu hoặc bản sao có chứng thực văn bản xác nhận của Ủy ban nhân dân cấp xã hoặc cơ sở bảo trợ xã hội về tình trạng trẻ mồ côi, bị bỏ rơi hoặc trẻ thuộc các trường hợp khác quy định tại khoản 1 Điều 5 Nghị định số 136/2013/NĐ-CP ngày 21 tháng 10 năm 2013 của Chính phủ quy định chính sách trợ giúp xã hội đối với đối tượng bảo trợ xã hội; bản chụp kèm theo bản chính để đối chiếu hoặc bản sao có chứng thực Giấy chứng nhận nuôi con nuôi đối với trẻ mồ côi, bị bỏ rơi hoặc trẻ em thuộc các trường hợp khác quy định khoản 1 Điều 5 Nghị định số 136/2013/NĐ-CP; Bản chụp kèm bản chính để đối chiếu hoặc bản sao có chứng thực Giấy xác nhận của cơ quan quản lý đối tượng con liệt sĩ, con Anh hùng Lực lượng vũ trang nhân dân, con thương binh, con người hưởng chính sách như thương binh, con bệnh binh; con một số đối tượng chính sách khác theo quy định tại Pháp lệnh Ưu đãi người có công với cách mạng (nếu có); Bản chụp kèm theo bản chính để đối chiếu hoặc bản sao có chứng thực Giấy xác nhận khuyết tật do Ủy ban nhân dân cấp xã cấp hoặc Quyết định về việc trợ cấp xã hội của Chủ tịch Ủy ban nhân dân cấp huyện.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 5 ngày làm việc\nQua dịch vụ bưu chính: 5 ngày làm việc\nTrực tiếp: 5 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 66/2025/NĐ-CP ngày 12/3/2025 của Chính phủ - 66/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cơ sở giáo dục",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "\tTrẻ em nhà trẻ bán trú phải đảm bảo một trong các điều kiện sau:\na) Trẻ em nhà trẻ thường trú tại xã, thôn đặc biệt khó khăn đang học tại cơ sở giáo dục mầm non công lập thuộc xã khu vực III, khu vực II, khu vực I, xã có thôn đặc biệt khó khăn vùng đồng bào dân tộc thiểu số và miền núi, xã đặc biệt khó khăn vùng bãi ngang, ven biển và hải đảo;\nb) Trẻ em nhà trẻ người dân tộc thiểu số thường trú tại xã khu vực II, khu vực I vùng đồng bào dân tộc thiểu số và miền núi đang học tại cơ sở giáo dục mầm non công lập thuộc xã khu vực III, khu vực II, khu vực I, xã có thôn đặc biệt khó khăn vùng đồng bào dân tộc thiểu số và miền núi, xã đặc biệt khó khăn vùng bãi ngang, ven biển và hải đảo thuộc một trong các trường hợp sau:\nTrẻ em thuộc hộ nghèo theo chuẩn nghèo đa chiều theo quy định của Chính phủ;\nTrẻ em không có nguồn nuôi dưỡng được quy định tại khoản 1 Điều 5 Nghị định số 20/2021/NĐ-CP ngày 15 tháng 3 năm 2021 của Chính phủ quy định chính sách trợ giúp xã hội đối với đối tượng bảo trợ xã hội;\nTrẻ em là con liệt sĩ, con Anh hùng Lực lượng vũ trang nhân dân, con thương binh, con người hưởng chính sách như thương binh, con bệnh binh, con đối tượng chính sách khác theo quy định tại Pháp lệnh Ưu đãi người có công với cách mạng (nếu có);\nTrẻ em khuyết tật học hòa nhập.",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Trẻ em nhà trẻ bán trú phải đảm bảo một trong các điều kiện sau:\na) Trẻ em nhà trẻ thường trú tại xã, thôn đặc biệt khó khăn đang học tại cơ sở giáo dục mầm non công lập thuộc xã khu vực III, khu vực II, khu vực I, xã có thôn đặc biệt khó khăn vùng đồng bào dân tộc thiểu số và miền núi, xã đặc biệt khó khăn vùng bãi ngang, ven biển và hải đảo;\nb) Trẻ em nhà trẻ người dân tộc thiểu số thường trú tại xã khu vực II, khu vực I vùng đồng bào dân tộc thiểu số và miền núi đang học tại cơ sở giáo dục mầm non công lập thuộc xã khu vực III, khu vực II, khu vực I, xã có thôn đặc biệt khó khăn vùng đồng bào dân tộc thiểu số và miền núi, xã đặc biệt khó khăn vùng bãi ngang, ven biển và hải đảo thuộc một trong các trường hợp sau:\nTrẻ em thuộc hộ nghèo theo chuẩn nghèo đa chiều theo quy định của Chính phủ;\nTrẻ em không có nguồn nuôi dưỡng được quy định tại khoản 1 Điều 5 Nghị định số 20/2021/NĐ-CP ngày 15 tháng 3 năm 2021 của Chính phủ quy định chính sách trợ giúp xã hội đối với đối tượng bảo trợ xã hội;\nTrẻ em là con liệt sĩ, con Anh hùng Lực lượng vũ trang nhân dân, con thương binh, con người hưởng chính sách như thương binh, con bệnh binh, con đối tượng chính sách khác theo quy định tại Pháp lệnh Ưu đãi người có công với cách mạng (nếu có);\nTrẻ em khuyết tật học hòa nhập.",
     "KẾT QUẢ XỬ LÝ": "Thông báo tiếp nhận hoặc không tiếp nhận hồ sơ, lý do cho cha mẹ hoặc người chăm sóc, nuôi dưỡng trẻ em nhà trẻ . - KQ.G03.000350",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "\tTrẻ em nhà trẻ bán trú phải đảm bảo một trong các điều kiện sau:\na) Trẻ em nhà trẻ thường trú tại xã, thôn đặc biệt khó khăn đang học tại cơ sở giáo dục mầm non công lập thuộc xã khu vực III, khu vực II, khu vực I, xã có thôn đặc biệt khó khăn vùng đồng bào dân tộc thiểu số và miền núi, xã đặc biệt khó khăn vùng bãi ngang, ven biển và hải đảo;\nb) Trẻ em nhà trẻ người dân tộc thiểu số thường trú tại xã khu vực II, khu vực I vùng đồng bào dân tộc thiểu số và miền núi đang học tại cơ sở giáo dục mầm non công lập thuộc xã khu vực III, khu vực II, khu vực I, xã có thôn đặc biệt khó khăn vùng đồng bào dân tộc thiểu số và miền núi, xã đặc biệt khó khăn vùng bãi ngang, ven biển và hải đảo thuộc một trong các trường hợp sau:\nTrẻ em thuộc hộ nghèo theo chuẩn nghèo đa chiều theo quy định của Chính phủ;\nTrẻ em không có nguồn nuôi dưỡng được quy định tại khoản 1 Điều 5 Nghị định số 20/2021/NĐ-CP ngày 15 tháng 3 năm 2021 của Chính phủ quy định chính sách trợ giúp xã hội đối với đối tượng bảo trợ xã hội;\nTrẻ em là con liệt sĩ, con Anh hùng Lực lượng vũ trang nhân dân, con thương binh, con người hưởng chính sách như thương binh, con bệnh binh, con đối tượng chính sách khác theo quy định tại Pháp lệnh Ưu đãi người có công với cách mạng (nếu có);\nTrẻ em khuyết tật học hòa nhập."
+    "MÔ TẢ": "Trẻ em nhà trẻ bán trú phải đảm bảo một trong các điều kiện sau:\na) Trẻ em nhà trẻ thường trú tại xã, thôn đặc biệt khó khăn đang học tại cơ sở giáo dục mầm non công lập thuộc xã khu vực III, khu vực II, khu vực I, xã có thôn đặc biệt khó khăn vùng đồng bào dân tộc thiểu số và miền núi, xã đặc biệt khó khăn vùng bãi ngang, ven biển và hải đảo;\nb) Trẻ em nhà trẻ người dân tộc thiểu số thường trú tại xã khu vực II, khu vực I vùng đồng bào dân tộc thiểu số và miền núi đang học tại cơ sở giáo dục mầm non công lập thuộc xã khu vực III, khu vực II, khu vực I, xã có thôn đặc biệt khó khăn vùng đồng bào dân tộc thiểu số và miền núi, xã đặc biệt khó khăn vùng bãi ngang, ven biển và hải đảo thuộc một trong các trường hợp sau:\nTrẻ em thuộc hộ nghèo theo chuẩn nghèo đa chiều theo quy định của Chính phủ;\nTrẻ em không có nguồn nuôi dưỡng được quy định tại khoản 1 Điều 5 Nghị định số 20/2021/NĐ-CP ngày 15 tháng 3 năm 2021 của Chính phủ quy định chính sách trợ giúp xã hội đối với đối tượng bảo trợ xã hội;\nTrẻ em là con liệt sĩ, con Anh hùng Lực lượng vũ trang nhân dân, con thương binh, con người hưởng chính sách như thương binh, con bệnh binh, con đối tượng chính sách khác theo quy định tại Pháp lệnh Ưu đãi người có công với cách mạng (nếu có);\nTrẻ em khuyết tật học hòa nhập."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Học tập",
-      "slug": "hoc-tap",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Giáo dục và Đào tạo thuộc hệ thống giáo dục quốc dân",
-      "slug": "giao-duc-va-dao-tao-thuoc-he-thong-giao-duc-quoc-dan"
+      "slug": "giao-duc-va-ao-tao-thuoc-he-thong-giao-duc-quoc-dan"
     },
     "implementation_levels": [
       {
@@ -230,6 +168,6 @@
         "slug": "co-so-giao-duc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

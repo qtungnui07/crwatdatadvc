@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019da8b4-5dee-75ec-bad4-767803f92946",
   "procedure_code": "1.014975",
   "title": "Hỗ trợ phát triển sản phẩm du lịch cộng đồng, chỉnh trang cảnh quan du lịch cộng đồng",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019da8b4-5dee-75ec-bad4-767803f92946",
     "source_file": "chi-tiet-thu-tuc-1.014975.pdf",
     "source_path": "procedures/viec-lam/1.014975/chi-tiet-thu-tuc-1.014975.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:15.734176+00:00",
-    "source_updated_at": "2026-04-27T12:36:24.160Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:51.388426+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "08b356dc214cc0e6bfbea230876d77f1a5db77c8138823ad4906a5953edc3c78"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:15.734176+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1174/QĐ-UBND",
   "implementation_level": "Cấp tỉnh, Cấp xã",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cấp xã"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Du lịch",
   "target_users": [
@@ -38,90 +33,78 @@
   ],
   "agency": {
     "competent_agency": "UBND Thành phố Huế",
-    "executing_agency": "Ủy ban nhân dân cấp xã",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Trung tâm Phục vụ hành chính công cấp xã"
+    "executing_agency": "Ủy ban nhân dân cấp xã"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Cá nhân, hộ gia đình, tổ chức, doanh nghiệp gửi 01 bộ hồ sơ trực tiếp hoặc trực tuyến hoặc qua dịch vụ bưu chính công ích đến Trung tâm Phục vụ hành chính công cấp xã.\n- Bước 2: Trong thời hạn 10 ngày làm việc kể từ ngày nhận hồ sơ hợp lệ, UBND phường, xã chủ trì tiến hành kiểm tra, rà soát, thẩm định hồ sơ, lập danh mục hồ sơ đủ điều kiện trình Ủy ban nhân dân thành phố Huế ban hành Quyết định phê duyệt hỗ trợ.\nTrường hợp hồ sơ không đảm bảo điều kiện hỗ trợ thì ban hành văn bản từ chối và nêu rõ lý do.\n- Bước 3: Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ trình, Ủy ban nhân dân thành phố ban hành Quyết định phê duyệt hỗ trợ.\n- Bước 4: Thủ tục cấp phát kinh phí\nSau khi Quyết định hỗ trợ của Ủy ban nhân dân thành phố có hiệu lực, trong thời gian 05 ngày làm việc, Sở Tài chính, UBND phường, xã chuyển kinh phí hỗ trợ trực tiếp cho hộ gia đình, tổ chức, doanh nghiệp theo nội dung được phê duyệt.",
+      "description": "- Bước 1: Cá nhân, hộ gia đình, tổ chức, doanh nghiệp gửi 01 bộ hồ sơ trực tiếp hoặc trực tuyến hoặc qua dịch vụ bưu chính công ích đến Trung tâm Phục vụ hành chính công cấp xã.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Trong thời hạn 10 ngày làm việc kể từ ngày nhận hồ sơ hợp lệ, UBND phường, xã chủ trì tiến hành kiểm tra, rà soát, thẩm định hồ sơ, lập danh mục hồ sơ đủ điều kiện trình Ủy ban nhân dân thành phố Huế ban hành Quyết định phê duyệt hỗ trợ.\nTrường hợp hồ sơ không đảm bảo điều kiện hỗ trợ thì ban hành văn bản từ chối và nêu rõ lý do.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "- Bước 3: Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ trình, Ủy ban nhân dân thành phố ban hành Quyết định phê duyệt hỗ trợ.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "- Bước 4: Thủ tục cấp phát kinh phí\nSau khi Quyết định hỗ trợ của Ủy ban nhân dân thành phố có hiệu lực, trong thời gian 05 ngày làm việc, Sở Tài chính, UBND phường, xã chuyển kinh phí hỗ trợ trực tiếp cho hộ gia đình, tổ chức, doanh nghiệp theo nội dung được phê duyệt.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Đơn đề nghị hỗ trợ (Mẫu số 03).",
-        "code": "H57-KQ000538",
+        "name": "Đối với hỗ trợ xây dựng và phát triển sản phẩm du lịch cộng đồng: Đơn đề nghị hỗ trợ (Mẫu số 03).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Đối với hỗ trợ xây dựng và phát triển sản phẩm du lịch cộng đồng",
-        "attachments": [
-          {
-            "id": "019da562-cd37-774b-b40f-aeed59c75b4f",
-            "name": "DUTHAOQUYETDINH_CONGBONQCONGDONG.doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "DUTHAOQUYETDINH_CONGBONQCONGDONG.doc",
+        "source_page": 2
       },
       {
-        "name": "Đơn đề nghị hỗ trợ (Mẫu số 03).",
-        "code": "H57-KQ000538",
+        "name": "Đối với hỗ trợ chỉnh trang cảnh quan du lịch cộng đồng: Đơn đề nghị hỗ trợ (Mẫu số 03).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Đối với hỗ trợ chỉnh trang cảnh quan du lịch cộng đồng",
-        "attachments": [
-          {
-            "id": "019da562-cd37-774b-b40f-aeed59c75b4f",
-            "name": "DUTHAOQUYETDINH_CONGBONQCONGDONG.doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "DUTHAOQUYETDINH_CONGBONQCONGDONG.doc",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "Bản thuyết minh về sản phẩm du lịch, dịch vụ du lịch cộng đồng đề nghị hỗ trợ.",
-        "code": "H57-KQ000539",
+        "name": "Đối với hỗ trợ xây dựng và phát triển sản phẩm du lịch cộng đồng: Bản thuyết minh về sản phẩm du lịch, dịch vụ du lịch cộng đồng đề nghị hỗ trợ.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Đối với hỗ trợ xây dựng và phát triển sản phẩm du lịch cộng đồng",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Bảng khái toán nhu cầu kinh phí",
-        "code": "H57-KQ000540",
+        "name": "Đối với hỗ trợ xây dựng và phát triển sản phẩm du lịch cộng đồng: Bảng khái toán nhu cầu kinh phí",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Đối với hỗ trợ xây dựng và phát triển sản phẩm du lịch cộng đồng",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Bản thuyết minh nhu cầu chỉnh trang",
-        "code": "H57-KQ000536",
+        "name": "Đối với hỗ trợ chỉnh trang cảnh quan du lịch cộng đồng: Bản thuyết minh nhu cầu chỉnh trang",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Đối với hỗ trợ chỉnh trang cảnh quan du lịch cộng đồng",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Bảng khái toán nhu cầu kinh phí..",
-        "code": "H57-KQ000537",
+        "name": "Đối với hỗ trợ chỉnh trang cảnh quan du lịch cộng đồng: Bảng khái toán nhu cầu kinh phí..",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Đối với hỗ trợ chỉnh trang cảnh quan du lịch cộng đồng",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -130,34 +113,29 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "20 ngày làm việc",
-      "processing_time_value": 20,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Nộp trực tuyến trên Cổng Dịch vụ công quốc gia (https://dichvucong.gov.vn).",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "20 ngày làm việc",
-      "processing_time_value": 20,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Nộp tại Trung tâm Phục vụ hành chính công cấp xã hoặc Trung tâm Phục vụ hành chính công thành phố Huế.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "20 ngày làm việc",
-      "processing_time_value": 20,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Nộp qua dịch vụ bưu chính tại Trung tâm Phục vụ hành chính công cấp xã hoặc Trung tâm Phục vụ hành chính công thành phố Huế.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -166,8 +144,7 @@
     {
       "title": "Nghị quyết 02/2026/NQ-HĐND quy định chính sách hỗ trợ phát triển du lịch cộng đồng trên địa bàn thành phố Huế giai đoạn 2026 - 2030",
       "document_number": "02/2026/NQ-HĐND",
-      "id": "019d9e97-5ec9-760f-bfd7-31a4dedeffa5",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Cá nhân, hộ gia đình, tổ chức, doanh nghiệp tham gia hoạt động du lịch cộng đồng chưa được hỗ trợ xây dựng và phát triển sản phẩm du lịch cộng đồng và hỗ trợ chỉnh trang cảnh quan du lịch cộng đồng.",
@@ -175,14 +152,13 @@
     {
       "title": "Quyết định hỗ trợ của Ủy ban nhân dân thành phố",
       "code": "KQ.H57.000070",
-      "id": "019d9e95-41c2-76a3-8616-e6baa1490711",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Cá nhân, hộ gia đình, tổ chức, doanh nghiệp gửi 01 bộ hồ sơ trực tiếp hoặc trực tuyến hoặc qua dịch vụ bưu chính công ích đến Trung tâm Phục vụ hành chính công cấp xã.\n- Bước 2: Trong thời hạn 10 ngày làm việc kể từ ngày nhận hồ sơ hợp lệ, UBND phường, xã chủ trì tiến hành kiểm tra, rà soát, thẩm định hồ sơ, lập danh mục hồ sơ đủ điều kiện trình Ủy ban nhân dân thành phố Huế ban hành Quyết định phê duyệt hỗ trợ.\nTrường hợp hồ sơ không đảm bảo điều kiện hỗ trợ thì ban hành văn bản từ chối và nêu rõ lý do.\n- Bước 3: Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ trình, Ủy ban nhân dân thành phố ban hành Quyết định phê duyệt hỗ trợ.\n- Bước 4: Thủ tục cấp phát kinh phí\nSau khi Quyết định hỗ trợ của Ủy ban nhân dân thành phố có hiệu lực, trong thời gian 05 ngày làm việc, Sở Tài chính, UBND phường, xã chuyển kinh phí hỗ trợ trực tiếp cho hộ gia đình, tổ chức, doanh nghiệp theo nội dung được phê duyệt.",
-    "THÀNH PHẦN HỒ SƠ": "Đối với hỗ trợ xây dựng và phát triển sản phẩm du lịch cộng đồng\nĐơn đề nghị hỗ trợ (Mẫu số 03).\nBản thuyết minh về sản phẩm du lịch, dịch vụ du lịch cộng đồng đề nghị hỗ trợ.\nBảng khái toán nhu cầu kinh phí\nĐối với hỗ trợ chỉnh trang cảnh quan du lịch cộng đồng\nĐơn đề nghị hỗ trợ (Mẫu số 03).\nBản thuyết minh nhu cầu chỉnh trang\nBảng khái toán nhu cầu kinh phí..",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 20 ngày làm việc - Nộp trực tuyến trên Cổng Dịch vụ công quốc gia (https://dichvucong.gov.vn).\nTrực tiếp: 20 ngày làm việc - Nộp tại Trung tâm Phục vụ hành chính công cấp xã hoặc Trung tâm Phục vụ hành chính công thành phố Huế.\nQua dịch vụ bưu chính: 20 ngày làm việc - Nộp qua dịch vụ bưu chính tại Trung tâm Phục vụ hành chính công cấp xã hoặc Trung tâm Phục vụ hành chính công thành phố Huế.",
+    "THÀNH PHẦN HỒ SƠ": "Đối với hỗ trợ xây dựng và phát triển sản phẩm du lịch cộng đồng: Đơn đề nghị hỗ trợ (Mẫu số 03).\nĐối với hỗ trợ chỉnh trang cảnh quan du lịch cộng đồng: Đơn đề nghị hỗ trợ (Mẫu số 03).\nĐối với hỗ trợ xây dựng và phát triển sản phẩm du lịch cộng đồng: Bản thuyết minh về sản phẩm du lịch, dịch vụ du lịch cộng đồng đề nghị hỗ trợ.\nĐối với hỗ trợ xây dựng và phát triển sản phẩm du lịch cộng đồng: Bảng khái toán nhu cầu kinh phí\nĐối với hỗ trợ chỉnh trang cảnh quan du lịch cộng đồng: Bản thuyết minh nhu cầu chỉnh trang\nĐối với hỗ trợ chỉnh trang cảnh quan du lịch cộng đồng: Bảng khái toán nhu cầu kinh phí..",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 20 ngày làm việc\nTrực tiếp: 20 ngày làm việc\nQua dịch vụ bưu chính: 20 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị quyết 02/2026/NQ-HĐND quy định chính sách hỗ trợ phát triển du lịch cộng đồng trên địa bàn thành phố Huế giai đoạn 2026 - 2030 - 02/2026/NQ-HĐND",
     "CƠ QUAN THỰC HIỆN": "Ủy ban nhân dân cấp xã",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Cá nhân, hộ gia đình, tổ chức, doanh nghiệp tham gia hoạt động du lịch cộng đồng chưa được hỗ trợ xây dựng và phát triển sản phẩm du lịch cộng đồng và hỗ trợ chỉnh trang cảnh quan du lịch cộng đồng.",
@@ -191,11 +167,6 @@
     "MÔ TẢ": "Cá nhân, hộ gia đình, tổ chức, doanh nghiệp tham gia hoạt động du lịch cộng đồng chưa được hỗ trợ xây dựng và phát triển sản phẩm du lịch cộng đồng và hỗ trợ chỉnh trang cảnh quan du lịch cộng đồng."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Du lịch",
       "slug": "du-lich"
@@ -230,6 +201,6 @@
         "slug": "uy-ban-nhan-dan-cap-xa"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

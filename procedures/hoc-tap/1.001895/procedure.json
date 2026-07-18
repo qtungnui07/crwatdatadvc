@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf8-98f7-7087-88a0-43a29f92957d",
   "procedure_code": "1.001895",
   "title": "Xét cấp bằng tiến sĩ",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-98f7-7087-88a0-43a29f92957d",
     "source_file": "chi-tiet-thu-tuc-1.001895.pdf",
     "source_path": "procedures/hoc-tap/1.001895/chi-tiet-thu-tuc-1.001895.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:21:59.896986+00:00",
-    "source_updated_at": "2026-04-15T10:22:39.797Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:11.882668+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "100fa11fbff9c25cb913f1404c655b63d5e0428980ed864101f407c2ab96fb9a"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:59.896986+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2108/QĐ-BGDĐT",
   "implementation_level": "Cấp bộ, Cơ quan khác",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cơ quan khác"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Giáo dục đại học",
   "target_users": [
@@ -39,18 +34,15 @@
   ],
   "agency": {
     "competent_agency": "Cơ sở giáo dục nghề nghiệp; Cơ sở giáo dục đại học",
-    "executing_agency": "Cơ sở giáo dục nghề nghiệp, Cơ sở giáo dục đại học",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cơ sở giáo dục nghề nghiệp, Cơ sở giáo dục đại học"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Hồ sơ bảo vệ luận án được đưa ra xem xét tiến hành các thủ tục cấp bằng tiến sĩ bao gồm hồ sơ của các luận án không phải thẩm định và hồ sơ của các luận án đã đạt yêu cầu thẩm định theo quy định tại khoản 1, 2 và 3 Điều 42 của Quy chế đào tạo trình độ tiến sĩ.\nThủ trưởng cơ sở đào tạo có trách nhiệm tổ chức thẩm tra quá trình đào tạo, chất lượng luận án, việc tổ chức và hoạt động của Hội đồng đánh giá luận án trước khi tổ chức cuộc họp thường kỳ Hội đồng Khoa học và Đào tạo của cơ sở đào tạo để thông qua danh sách nghiên cứu sinh được cấp bằng tiến sĩ và ra quyết định cấp bằng tiến sĩ cho nghiên cứu sinh.\n",
+      "description": "Hồ sơ bảo vệ luận án được đưa ra xem xét tiến hành các thủ tục cấp bằng tiến sĩ bao gồm hồ sơ của các luận án không phải thẩm định và hồ sơ của các luận án đã đạt yêu cầu thẩm định theo quy định tại khoản 1, 2 và 3 Điều 42 của Quy chế đào tạo trình độ tiến sĩ.\nThủ trưởng cơ sở đào tạo có trách nhiệm tổ chức thẩm tra quá trình đào tạo, chất lượng luận án, việc tổ chức và hoạt động của Hội đồng đánh giá luận án trước khi tổ chức cuộc họp thường kỳ Hội đồng Khoa học và Đào tạo của cơ sở đào tạo để thông qua danh sách nghiên cứu sinh được cấp bằng tiến sĩ và ra quyết định cấp bằng tiến sĩ cho nghiên cứu sinh.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -59,93 +51,63 @@
     "conditional": [
       {
         "name": "Biên bản chi tiết diễn biến của buổi bảo vệ luận án, câu hỏi của các thành viên Hội đồng đánh giá luận án và những người tham dự, trả lời của nghiên cứu sinh cho từng câu hỏi;",
-        "code": "000.00.00.G03-KQ0472",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Các bản nhận xét của tất cả các thành viên của Hội đồng, của các cơ quan và các nhà khoa học gửi tới Hội đồng;",
-        "code": "000.00.00.G03-KQ0474",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Tờ báo đăng tin hay bản sao chụp bản tin đăng báo ngày bảo vệ (trừ những luận án bảo vệ theo chế độ mật);",
-        "code": "000.00.00.G03-KQ0479",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Nghị quyết của Hội đồng;",
-        "code": "000.00.00.G03-KQ0473",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Bản in trang thông tin Những đóng góp mới về mặt học thuật, lý luận của luận án trên trang web của Bộ Giáo dục và Đào tạo;",
-        "code": "000.00.00.G03-KQ0480",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Giấy biên nhận luận án và tóm tắt luận án của Thư viện Quốc gia Việt Nam;",
-        "code": "000.00.00.G03-KQ0478",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Danh sách Hội đồng có chữ ký của các thành viên tham dự buổi bảo vệ;",
-        "code": "000.00.00.G03-KQ0477",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Bản nhận xét, đánh giá của tập thể hướng dẫn nghiên cứu sinh;",
-        "code": "000.00.00.G03-KQ0476",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Các tài liệu khác theo quy định của Thủ trưởng cơ sở đào tạo. Hồ sơ này phải được lưu trữ lâu dài tại cơ sở đào tạo.",
-        "code": "000.00.00.G03-KQ0481",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Biên bản kiểm phiếu và các phiếu đánh giá;",
-        "code": "000.00.00.G03-KQ0475",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -154,33 +116,22 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -188,39 +139,32 @@
     {
       "title": "Về việc sửa đổi, bổ sung một số điều của Quy chế đào tạo trình độ tiến sĩ ban hành kèm theo Thông tư số 10/2009/TT-BGDĐT ngày 07 tháng 5 năm 2009 của Bộ trưởng Bộ Giáo dục và Đào tạo",
       "document_number": "05/2012/TT-BGDĐT",
-      "id": "019d2bb3-5d7c-71ab-9f00-0fe285b0ee29",
-      "source_page": null
+      "source_page": 3
     }
   ],
-  "conditions": "\tCơ sở đào tạo lập hồ sơ xét cấp bằng tiến sĩ cho nghiên cứu sinh khi đáp ứng đầy đủ các điều kiện sau:\na) Đủ 3 tháng kể từ ngày bảo vệ thành công luận án tại Hội đồng đánh giá luận án cấp trường hoặc viện;\nb) Đã chỉnh sửa, bổ sung những nội dung trong luận án theo nghị quyết của Hội đồng đánh giá luận án tiến sĩ cấp trường hoặc viện, đã được Chủ tịch Hội đồng kiểm tra và xác nhận, kể cả trường hợp quy định tại khoản 1 Điều 42 của Quy chế này (nếu có);\nc) Nghiên cứu sinh không có tên trong danh sách thẩm định luận án theo thông báo của Bộ Giáo dục và Đào tạo quy định tại khoản 3 Điều 40 của Quy chế này. Nếu là trường hợp cần thẩm định thì phải đạt yêu cầu theo quy định tại khoản 7, khoản 8 Điều 40, khoản 3 Điều 41 của Quy chế này;\nd) Nghiên cứu sinh đã nộp Thư viện Quốc gia Việt Nam một bản luận án, một bản tóm tắt luận án, một đĩa CD ghi toàn văn luận án và tóm tắt luận án (bao gồm cả trang bìa), kể cả các luận án bảo vệ theo chế độ mật và các luận án thuộc lĩnh vực quốc phòng, an ninh.",
+  "conditions": "Cơ sở đào tạo lập hồ sơ xét cấp bằng tiến sĩ cho nghiên cứu sinh khi đáp ứng đầy đủ các điều kiện sau:\na) Đủ 3 tháng kể từ ngày bảo vệ thành công luận án tại Hội đồng đánh giá luận án cấp trường hoặc viện;\nb) Đã chỉnh sửa, bổ sung những nội dung trong luận án theo nghị quyết của Hội đồng đánh giá luận án tiến sĩ cấp trường hoặc viện, đã được Chủ tịch Hội đồng kiểm tra và xác nhận, kể cả trường hợp quy định tại khoản 1 Điều 42 của Quy chế này (nếu có);\nc) Nghiên cứu sinh không có tên trong danh sách thẩm định luận án theo thông báo của Bộ Giáo dục và Đào tạo quy định tại khoản 3 Điều 40 của Quy chế này. Nếu là trường hợp cần thẩm định thì phải đạt yêu cầu theo quy định tại khoản 7, khoản 8 Điều 40, khoản 3 Điều 41 của Quy chế này;\nd) Nghiên cứu sinh đã nộp Thư viện Quốc gia Việt Nam một bản luận án, một bản tóm tắt luận án, một đĩa CD ghi toàn văn luận án và tóm tắt luận án (bao gồm cả trang bìa), kể cả các luận án bảo vệ theo chế độ mật và các luận án thuộc lĩnh vực quốc phòng, an ninh.",
   "results": [
     {
       "title": "Quyết định cấp bằng tiến sĩ cho nghiên cứu sinh; Bằng tiến sĩ; Bảng điểm",
       "code": "KQ.G03.000074",
-      "id": "019d2bb2-1c3a-7502-a841-11c4d5952407",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Hồ sơ bảo vệ luận án được đưa ra xem xét tiến hành các thủ tục cấp bằng tiến sĩ bao gồm hồ sơ của các luận án không phải thẩm định và hồ sơ của các luận án đã đạt yêu cầu thẩm định theo quy định tại khoản 1, 2 và 3 Điều 42 của Quy chế đào tạo trình độ tiến sĩ.\nThủ trưởng cơ sở đào tạo có trách nhiệm tổ chức thẩm tra quá trình đào tạo, chất lượng luận án, việc tổ chức và hoạt động của Hội đồng đánh giá luận án trước khi tổ chức cuộc họp thường kỳ Hội đồng Khoa học và Đào tạo của cơ sở đào tạo để thông qua danh sách nghiên cứu sinh được cấp bằng tiến sĩ và ra quyết định cấp bằng tiến sĩ cho nghiên cứu sinh.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nBiên bản chi tiết diễn biến của buổi bảo vệ luận án, câu hỏi của các thành viên Hội đồng đánh giá luận án và những người tham dự, trả lời của nghiên cứu sinh cho từng câu hỏi;\nCác bản nhận xét của tất cả các thành viên của Hội đồng, của các cơ quan và các nhà khoa học gửi tới Hội đồng;\nTờ báo đăng tin hay bản sao chụp bản tin đăng báo ngày bảo vệ (trừ những luận án bảo vệ theo chế độ mật);\nNghị quyết của Hội đồng;\nBản in trang thông tin Những đóng góp mới về mặt học thuật, lý luận của luận án trên trang web của Bộ Giáo dục và Đào tạo;\nGiấy biên nhận luận án và tóm tắt luận án của Thư viện Quốc gia Việt Nam;\nDanh sách Hội đồng có chữ ký của các thành viên tham dự buổi bảo vệ;\nBản nhận xét, đánh giá của tập thể hướng dẫn nghiên cứu sinh;\nCác tài liệu khác theo quy định của Thủ trưởng cơ sở đào tạo. Hồ sơ này phải được lưu trữ lâu dài tại cơ sở đào tạo.\nBiên bản kiểm phiếu và các phiếu đánh giá;",
+    "TRÌNH TỰ THỰC HIỆN": "Hồ sơ bảo vệ luận án được đưa ra xem xét tiến hành các thủ tục cấp bằng tiến sĩ bao gồm hồ sơ của các luận án không phải thẩm định và hồ sơ của các luận án đã đạt yêu cầu thẩm định theo quy định tại khoản 1, 2 và 3 Điều 42 của Quy chế đào tạo trình độ tiến sĩ.\nThủ trưởng cơ sở đào tạo có trách nhiệm tổ chức thẩm tra quá trình đào tạo, chất lượng luận án, việc tổ chức và hoạt động của Hội đồng đánh giá luận án trước khi tổ chức cuộc họp thường kỳ Hội đồng Khoa học và Đào tạo của cơ sở đào tạo để thông qua danh sách nghiên cứu sinh được cấp bằng tiến sĩ và ra quyết định cấp bằng tiến sĩ cho nghiên cứu sinh.",
+    "THÀNH PHẦN HỒ SƠ": "Biên bản chi tiết diễn biến của buổi bảo vệ luận án, câu hỏi của các thành viên Hội đồng đánh giá luận án và những người tham dự, trả lời của nghiên cứu sinh cho từng câu hỏi;\nCác bản nhận xét của tất cả các thành viên của Hội đồng, của các cơ quan và các nhà khoa học gửi tới Hội đồng;\nTờ báo đăng tin hay bản sao chụp bản tin đăng báo ngày bảo vệ (trừ những luận án bảo vệ theo chế độ mật);\nNghị quyết của Hội đồng;\nBản in trang thông tin Những đóng góp mới về mặt học thuật, lý luận của luận án trên trang web của Bộ Giáo dục và Đào tạo;\nGiấy biên nhận luận án và tóm tắt luận án của Thư viện Quốc gia Việt Nam;\nDanh sách Hội đồng có chữ ký của các thành viên tham dự buổi bảo vệ;\nBản nhận xét, đánh giá của tập thể hướng dẫn nghiên cứu sinh;\nCác tài liệu khác theo quy định của Thủ trưởng cơ sở đào tạo. Hồ sơ này phải được lưu trữ lâu dài tại cơ sở đào tạo.\nBiên bản kiểm phiếu và các phiếu đánh giá;",
     "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 1",
     "CĂN CỨ PHÁP LÝ": "Về việc sửa đổi, bổ sung một số điều của Quy chế đào tạo trình độ tiến sĩ ban hành kèm theo Thông tư số 10/2009/TT-BGDĐT ngày 07 tháng 5 năm 2009 của Bộ trưởng Bộ Giáo dục và Đào tạo - 05/2012/TT-BGDĐT",
     "CƠ QUAN THỰC HIỆN": "Cơ sở giáo dục nghề nghiệp, Cơ sở giáo dục đại học",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "\tCơ sở đào tạo lập hồ sơ xét cấp bằng tiến sĩ cho nghiên cứu sinh khi đáp ứng đầy đủ các điều kiện sau:\na) Đủ 3 tháng kể từ ngày bảo vệ thành công luận án tại Hội đồng đánh giá luận án cấp trường hoặc viện;\nb) Đã chỉnh sửa, bổ sung những nội dung trong luận án theo nghị quyết của Hội đồng đánh giá luận án tiến sĩ cấp trường hoặc viện, đã được Chủ tịch Hội đồng kiểm tra và xác nhận, kể cả trường hợp quy định tại khoản 1 Điều 42 của Quy chế này (nếu có);\nc) Nghiên cứu sinh không có tên trong danh sách thẩm định luận án theo thông báo của Bộ Giáo dục và Đào tạo quy định tại khoản 3 Điều 40 của Quy chế này. Nếu là trường hợp cần thẩm định thì phải đạt yêu cầu theo quy định tại khoản 7, khoản 8 Điều 40, khoản 3 Điều 41 của Quy chế này;\nd) Nghiên cứu sinh đã nộp Thư viện Quốc gia Việt Nam một bản luận án, một bản tóm tắt luận án, một đĩa CD ghi toàn văn luận án và tóm tắt luận án (bao gồm cả trang bìa), kể cả các luận án bảo vệ theo chế độ mật và các luận án thuộc lĩnh vực quốc phòng, an ninh.",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Cơ sở đào tạo lập hồ sơ xét cấp bằng tiến sĩ cho nghiên cứu sinh khi đáp ứng đầy đủ các điều kiện sau:\na) Đủ 3 tháng kể từ ngày bảo vệ thành công luận án tại Hội đồng đánh giá luận án cấp trường hoặc viện;\nb) Đã chỉnh sửa, bổ sung những nội dung trong luận án theo nghị quyết của Hội đồng đánh giá luận án tiến sĩ cấp trường hoặc viện, đã được Chủ tịch Hội đồng kiểm tra và xác nhận, kể cả trường hợp quy định tại khoản 1 Điều 42 của Quy chế này (nếu có);\nc) Nghiên cứu sinh không có tên trong danh sách thẩm định luận án theo thông báo của Bộ Giáo dục và Đào tạo quy định tại khoản 3 Điều 40 của Quy chế này. Nếu là trường hợp cần thẩm định thì phải đạt yêu cầu theo quy định tại khoản 7, khoản 8 Điều 40, khoản 3 Điều 41 của Quy chế này;\nd) Nghiên cứu sinh đã nộp Thư viện Quốc gia Việt Nam một bản luận án, một bản tóm tắt luận án, một đĩa CD ghi toàn văn luận án và tóm tắt luận án (bao gồm cả trang bìa), kể cả các luận án bảo vệ theo chế độ mật và các luận án thuộc lĩnh vực quốc phòng, an ninh.",
     "KẾT QUẢ XỬ LÝ": "Quyết định cấp bằng tiến sĩ cho nghiên cứu sinh; Bằng tiến sĩ; Bảng điểm - KQ.G03.000074",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "\tCơ sở đào tạo lập hồ sơ xét cấp bằng tiến sĩ cho nghiên cứu sinh khi đáp ứng đầy đủ các điều kiện sau:\na) Đủ 3 tháng kể từ ngày bảo vệ thành công luận án tại Hội đồng đánh giá luận án cấp trường hoặc viện;\nb) Đã chỉnh sửa, bổ sung những nội dung trong luận án theo nghị quyết của Hội đồng đánh giá luận án tiến sĩ cấp trường hoặc viện, đã được Chủ tịch Hội đồng kiểm tra và xác nhận, kể cả trường hợp quy định tại khoản 1 Điều 42 của Quy chế này (nếu có);\nc) Nghiên cứu sinh không có tên trong danh sách thẩm định luận án theo thông báo của Bộ Giáo dục và Đào tạo quy định tại khoản 3 Điều 40 của Quy chế này. Nếu là trường hợp cần thẩm định thì phải đạt yêu cầu theo quy định tại khoản 7, khoản 8 Điều 40, khoản 3 Điều 41 của Quy chế này;\nd) Nghiên cứu sinh đã nộp Thư viện Quốc gia Việt Nam một bản luận án, một bản tóm tắt luận án, một đĩa CD ghi toàn văn luận án và tóm tắt luận án (bao gồm cả trang bìa), kể cả các luận án bảo vệ theo chế độ mật và các luận án thuộc lĩnh vực quốc phòng, an ninh."
+    "MÔ TẢ": "Cơ sở đào tạo lập hồ sơ xét cấp bằng tiến sĩ cho nghiên cứu sinh khi đáp ứng đầy đủ các điều kiện sau:\na) Đủ 3 tháng kể từ ngày bảo vệ thành công luận án tại Hội đồng đánh giá luận án cấp trường hoặc viện;\nb) Đã chỉnh sửa, bổ sung những nội dung trong luận án theo nghị quyết của Hội đồng đánh giá luận án tiến sĩ cấp trường hoặc viện, đã được Chủ tịch Hội đồng kiểm tra và xác nhận, kể cả trường hợp quy định tại khoản 1 Điều 42 của Quy chế này (nếu có);\nc) Nghiên cứu sinh không có tên trong danh sách thẩm định luận án theo thông báo của Bộ Giáo dục và Đào tạo quy định tại khoản 3 Điều 40 của Quy chế này. Nếu là trường hợp cần thẩm định thì phải đạt yêu cầu theo quy định tại khoản 7, khoản 8 Điều 40, khoản 3 Điều 41 của Quy chế này;\nd) Nghiên cứu sinh đã nộp Thư viện Quốc gia Việt Nam một bản luận án, một bản tóm tắt luận án, một đĩa CD ghi toàn văn luận án và tóm tắt luận án (bao gồm cả trang bìa), kể cả các luận án bảo vệ theo chế độ mật và các luận án thuộc lĩnh vực quốc phòng, an ninh."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Học tập",
-      "slug": "hoc-tap",
-      "method": "service_group"
-    },
     "sector": {
       "name": "Giáo dục đại học",
-      "slug": "giao-duc-dai-hoc"
+      "slug": "giao-duc-ai-hoc"
     },
     "implementation_levels": [
       {
@@ -235,7 +179,7 @@
     "target_users": [
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -257,9 +201,9 @@
       },
       {
         "name": "Cơ sở giáo dục đại học",
-        "slug": "co-so-giao-duc-dai-hoc"
+        "slug": "co-so-giao-duc-ai-hoc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

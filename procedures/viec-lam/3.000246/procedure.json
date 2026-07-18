@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf7-b5df-72af-a5c5-5ce033768d6e",
   "procedure_code": "3.000246",
   "title": "Cấp Giấy phép vận chuyển pháo hoa để kinh doanh (thực hiện tại cấp tỉnh)",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-b5df-72af-a5c5-5ce033768d6e",
     "source_file": "chi-tiet-thu-tuc-3.000246.pdf",
     "source_path": "procedures/viec-lam/3.000246/chi-tiet-thu-tuc-3.000246.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:23.488587+00:00",
-    "source_updated_at": "2026-04-29T03:06:19.878Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:36.764169+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "7691f41899c7096d627dc3cc80d122fa8327b377bd364bdd58cf3251dd4c380c"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:23.488587+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "5625/QĐ-BCA-C06",
   "implementation_level": "Cấp tỉnh, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "OTHER",
   "sector": "Quản lý vũ khí, vật liệu nổ, công cụ hỗ trợ và pháo",
   "target_users": [
@@ -37,18 +32,29 @@
   ],
   "agency": {
     "competent_agency": "Công an tỉnh",
-    "executing_agency": "Công an tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Công an tỉnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Tổ chức, doanh nghiệp có nhu cầu vận chuyển pháo hoa để kinh doanh nộp hồ sơ về Phòng Cảnh sát quản lý hành chính về trật tự xã hội Công an cấp tỉnh. \n- Bước 2: Cán bộ tiếp nhận kiểm tra tính hợp lệ của hồ sơ đề nghị. Nếu văn bản đề nghị hợp lệ, đầy đủ nội dung thì tiếp nhận và gửi Giấy biên nhận hồ sơ, hẹn trả kết quả cho người được tổ chức, doanh nghiệp giao liên hệ thực hiện thủ tục hành chính. Trường hợp văn bản đề nghị chưa đầy đủ nội dung thì cán bộ tiếp nhận hồ sơ hướng dẫn đầy đủ, cụ thể một lần bằng văn bản cho tổ chức, doanh nghiệp hoàn thiện theo quy định. Trường hợp văn bản đề nghị không đủ điều kiện thì không tiếp nhận văn bản đề nghị và trả lời bằng văn bản lý do không tiếp nhận. \n- Bước 3: Căn cứ ngày hẹn trên giấy biên nhận, tổ chức, doanh nghiệp có nhu cầu vận chuyển pháo hoa để kinh doanh nhận kết quả Giấy phép vận chuyển pháo hoa để kinh doanh qua Cổng dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an, đường bưu chính hoặc nhận trực tiếp tại Phòng Cảnh sát quản lý hành chính về trật tự xã hội Công an cấp tỉnh.\n",
+      "description": "- Bước 1: Tổ chức, doanh nghiệp có nhu cầu vận chuyển pháo hoa để kinh doanh nộp hồ sơ về Phòng Cảnh sát quản lý hành chính về trật tự xã hội Công an cấp tỉnh.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Cán bộ tiếp nhận kiểm tra tính hợp lệ của hồ sơ đề nghị. Nếu văn bản đề nghị hợp lệ, đầy đủ nội dung thì tiếp nhận và gửi Giấy biên nhận hồ sơ, hẹn trả kết quả cho người được tổ chức, doanh nghiệp giao liên hệ thực hiện thủ tục hành chính. Trường hợp văn bản đề nghị chưa đầy đủ nội dung thì cán bộ tiếp nhận hồ sơ hướng dẫn đầy đủ, cụ thể một lần bằng văn bản cho tổ chức, doanh nghiệp hoàn thiện theo quy định. Trường hợp văn bản đề nghị không đủ điều kiện thì không tiếp nhận văn bản đề nghị và trả lời bằng văn bản lý do không tiếp nhận.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "- Bước 3: Căn cứ ngày hẹn trên giấy biên nhận, tổ chức, doanh nghiệp có nhu cầu vận chuyển pháo hoa để kinh doanh nhận kết quả Giấy phép vận chuyển pháo hoa để kinh doanh qua Cổng dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an, đường bưu chính hoặc nhận trực tiếp tại Phòng Cảnh sát quản lý hành chính về trật tự xã hội Công an cấp tỉnh.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -57,12 +63,9 @@
     "conditional": [
       {
         "name": "Văn bản đề nghị ghi rõ tên, địa chỉ của tổ chức, doanh nghiệp thuộc Bộ Quốc phòng; họ tên, chức vụ, số Căn cước công dân, Chứng minh nhân dân hoặc Hộ chiếu của người chịu trách nhiệm vận chuyển; chủng loại, số lượng pháo hoa; phương tiện vận chuyển, biển kiểm soát; họ tên, số Căn cước công dân, Chứng minh nhân dân hoặc Hộ chiếu của người điều khiển phương tiện; thời gian vận chuyển; nơi đi, nơi đến, tuyến đường vận chuyển theo mẫu quy định tại Phụ lục VIII ban hành kèm theo Nghị định 56/2023/NĐ-CP. Trường hợp tổ chức, doanh nghiệp trực tiếp nộp văn bản đề nghị tại Cục Cảnh sát Quản lý hành chính về trật tự xã hội thì văn bản đề nghị bổ sung họ tên, số Căn cước công dân, Chứng minh nhân dân hoặc Hộ chiếu của người đến liên hệ.",
-        "code": "000.00.00.G01-KQ002510",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -71,87 +74,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 150,
-          "currency": "VND",
-          "description": "150.000 đồng/1 giấy.",
-          "attachment": null
-        }
-      ],
+      "fee": "150.000 đồng/1 giấy.",
       "description": "- Nộp hồ sơ, nhận kết quả qua Cổng dịch vụ công (trừ các văn bản, giấy tờ không được phép đăng tải qua hệ thống mạng theo quy định của pháp luật).",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 150,
-          "currency": "VND",
-          "description": "150.000 đồng/1 giấy.",
-          "attachment": null
-        }
-      ],
+      "fee": "150.000 đồng/1 giấy.",
       "description": "- Nộp hồ sơ, nhận kết quả qua dịch vụ bưu chính.",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 150,
-          "currency": "VND",
-          "description": "150.000 đồng/1 giấy.",
-          "attachment": null
-        }
-      ],
+      "fee": "150.000 đồng/1 giấy.",
       "description": "- Nộp hồ sơ, nhận kết quả trực tiếp tại bộ phận tiếp nhận hồ sơ của Phòng Cảnh sát quản lý hành chính về trật tự xã hội Công an cấp tỉnh",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "150.000 đồng/1 giấy.",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 150,
-        "currency": "VND",
-        "description": "150.000 đồng/1 giấy.",
-        "attachment": null
+        "amount_text": "150.000 đồng/1 giấy.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 150,
-        "currency": "VND",
-        "description": "150.000 đồng/1 giấy.",
-        "attachment": null
+        "amount_text": "150.000 đồng/1 giấy.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 150,
-        "currency": "VND",
-        "description": "150.000 đồng/1 giấy.",
-        "attachment": null
+        "amount_text": "150.000 đồng/1 giấy.",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -159,26 +127,22 @@
     {
       "title": "Thông tư 23/2019/TT-BTC",
       "document_number": "23/2019/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4b-ac80f48de214",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí thẩm định điều kiện thuộc lĩnh vực an ninh; phí sát hạch cấp chứng chỉ nghiệp vụ bảo vệ; lệ phí cấp giấy phép quản lý pháo; lệ phí cấp giấy phép quản lý vũ khí, vật liệu nổ, công cụ hỗ trợ",
       "document_number": "Thông tư 218/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4f-d83c997ff751",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 56/2023/NĐ-CP",
       "document_number": "56/2023/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46f-0ca240576c04",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định 137/2020/NĐ-CP",
       "document_number": "137/2020/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a63f-9e1251009907",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "không có yêu cầu điều kiện",
@@ -186,14 +150,13 @@
     {
       "title": "Giấy phép vận chuyển pháo hoa",
       "code": "KQ.G01.000028",
-      "id": "019d2bb2-1c36-71b8-ad26-beae067e9785",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Tổ chức, doanh nghiệp có nhu cầu vận chuyển pháo hoa để kinh doanh nộp hồ sơ về Phòng Cảnh sát quản lý hành chính về trật tự xã hội Công an cấp tỉnh. \n- Bước 2: Cán bộ tiếp nhận kiểm tra tính hợp lệ của hồ sơ đề nghị. Nếu văn bản đề nghị hợp lệ, đầy đủ nội dung thì tiếp nhận và gửi Giấy biên nhận hồ sơ, hẹn trả kết quả cho người được tổ chức, doanh nghiệp giao liên hệ thực hiện thủ tục hành chính. Trường hợp văn bản đề nghị chưa đầy đủ nội dung thì cán bộ tiếp nhận hồ sơ hướng dẫn đầy đủ, cụ thể một lần bằng văn bản cho tổ chức, doanh nghiệp hoàn thiện theo quy định. Trường hợp văn bản đề nghị không đủ điều kiện thì không tiếp nhận văn bản đề nghị và trả lời bằng văn bản lý do không tiếp nhận. \n- Bước 3: Căn cứ ngày hẹn trên giấy biên nhận, tổ chức, doanh nghiệp có nhu cầu vận chuyển pháo hoa để kinh doanh nhận kết quả Giấy phép vận chuyển pháo hoa để kinh doanh qua Cổng dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an, đường bưu chính hoặc nhận trực tiếp tại Phòng Cảnh sát quản lý hành chính về trật tự xã hội Công an cấp tỉnh.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nVăn bản đề nghị ghi rõ tên, địa chỉ của tổ chức, doanh nghiệp thuộc Bộ Quốc phòng; họ tên, chức vụ, số Căn cước công dân, Chứng minh nhân dân hoặc Hộ chiếu của người chịu trách nhiệm vận chuyển; chủng loại, số lượng pháo hoa; phương tiện vận chuyển, biển kiểm soát; họ tên, số Căn cước công dân, Chứng minh nhân dân hoặc Hộ chiếu của người điều khiển phương tiện; thời gian vận chuyển; nơi đi, nơi đến, tuyến đường vận chuyển theo mẫu quy định tại Phụ lục VIII ban hành kèm theo Nghị định 56/2023/NĐ-CP. Trường hợp tổ chức, doanh nghiệp trực tiếp nộp văn bản đề nghị tại Cục Cảnh sát Quản lý hành chính về trật tự xã hội thì văn bản đề nghị bổ sung họ tên, số Căn cước công dân, Chứng minh nhân dân hoặc Hộ chiếu của người đến liên hệ.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 3 ngày làm việc - - Nộp hồ sơ, nhận kết quả qua Cổng dịch vụ công (trừ các văn bản, giấy tờ không được phép đăng tải qua hệ thống mạng theo quy định của pháp luật).\nQua dịch vụ bưu chính: 3 ngày làm việc - - Nộp hồ sơ, nhận kết quả qua dịch vụ bưu chính.\nTrực tiếp: 3 ngày làm việc - - Nộp hồ sơ, nhận kết quả trực tiếp tại bộ phận tiếp nhận hồ sơ của Phòng Cảnh sát quản lý hành chính về trật tự xã hội Công an cấp tỉnh",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Tổ chức, doanh nghiệp có nhu cầu vận chuyển pháo hoa để kinh doanh nộp hồ sơ về Phòng Cảnh sát quản lý hành chính về trật tự xã hội Công an cấp tỉnh.\n- Bước 2: Cán bộ tiếp nhận kiểm tra tính hợp lệ của hồ sơ đề nghị. Nếu văn bản đề nghị hợp lệ, đầy đủ nội dung thì tiếp nhận và gửi Giấy biên nhận hồ sơ, hẹn trả kết quả cho người được tổ chức, doanh nghiệp giao liên hệ thực hiện thủ tục hành chính. Trường hợp văn bản đề nghị chưa đầy đủ nội dung thì cán bộ tiếp nhận hồ sơ hướng dẫn đầy đủ, cụ thể một lần bằng văn bản cho tổ chức, doanh nghiệp hoàn thiện theo quy định. Trường hợp văn bản đề nghị không đủ điều kiện thì không tiếp nhận văn bản đề nghị và trả lời bằng văn bản lý do không tiếp nhận.\n- Bước 3: Căn cứ ngày hẹn trên giấy biên nhận, tổ chức, doanh nghiệp có nhu cầu vận chuyển pháo hoa để kinh doanh nhận kết quả Giấy phép vận chuyển pháo hoa để kinh doanh qua Cổng dịch vụ công quốc gia, Cổng dịch vụ công Bộ Công an, đường bưu chính hoặc nhận trực tiếp tại Phòng Cảnh sát quản lý hành chính về trật tự xã hội Công an cấp tỉnh.",
+    "THÀNH PHẦN HỒ SƠ": "Văn bản đề nghị ghi rõ tên, địa chỉ của tổ chức, doanh nghiệp thuộc Bộ Quốc phòng; họ tên, chức vụ, số Căn cước công dân, Chứng minh nhân dân hoặc Hộ chiếu của người chịu trách nhiệm vận chuyển; chủng loại, số lượng pháo hoa; phương tiện vận chuyển, biển kiểm soát; họ tên, số Căn cước công dân, Chứng minh nhân dân hoặc Hộ chiếu của người điều khiển phương tiện; thời gian vận chuyển; nơi đi, nơi đến, tuyến đường vận chuyển theo mẫu quy định tại Phụ lục VIII ban hành kèm theo Nghị định 56/2023/NĐ-CP. Trường hợp tổ chức, doanh nghiệp trực tiếp nộp văn bản đề nghị tại Cục Cảnh sát Quản lý hành chính về trật tự xã hội thì văn bản đề nghị bổ sung họ tên, số Căn cước công dân, Chứng minh nhân dân hoặc Hộ chiếu của người đến liên hệ.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 3 ngày làm việc\nQua dịch vụ bưu chính: 3 ngày làm việc\nTrực tiếp: 3 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Thông tư 23/2019/TT-BTC - 23/2019/TT-BTC\nQuy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí thẩm định điều kiện thuộc lĩnh vực an ninh; phí sát hạch cấp chứng chỉ nghiệp vụ bảo vệ; lệ phí cấp giấy phép quản lý pháo; lệ phí cấp giấy phép quản lý vũ khí, vật liệu nổ, công cụ hỗ trợ - Thông tư 218/2016/TT-BTC\nNghị định 56/2023/NĐ-CP - 56/2023/NĐ-CP\nNghị định 137/2020/NĐ-CP - 137/2020/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Công an tỉnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "không có yêu cầu điều kiện",
@@ -202,11 +165,6 @@
     "MÔ TẢ": "không có yêu cầu điều kiện"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Quản lý vũ khí, vật liệu nổ, công cụ hỗ trợ và pháo",
       "slug": "quan-ly-vu-khi-vat-lieu-no-cong-cu-ho-tro-va-phao"
@@ -237,6 +195,6 @@
         "slug": "cong-an-tinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

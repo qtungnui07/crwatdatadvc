@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019f17b4-12eb-726f-afd5-c3e6b91c6e09",
   "procedure_code": "1.115498",
   "title": "Thẩm định, phê duyệt phương án sử dụng đất",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019f17b4-12eb-726f-afd5-c3e6b91c6e09",
     "source_file": "chi-tiet-thu-tuc-1.115498.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.115498/chi-tiet-thu-tuc-1.115498.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:22:18.138239+00:00",
-    "source_updated_at": "2026-07-08T09:15:59.249Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:57:01.179244+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "30834bfa8e62587b345aa2a5f37e87a49789412201a3e1e7fafaa84715b7bd4c"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:18.138239+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2252/QĐ-VP",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đất đai",
   "target_users": [
@@ -40,63 +36,56 @@
   ],
   "agency": {
     "competent_agency": "Chủ tịch ủy ban nhân dân cấp tỉnh",
-    "executing_agency": "Sở Nông nghiệp và Môi trường",
-    "authorized_agency": "",
-    "coordinating_agency": "Các Sở, ngành và địa phương liên quan",
-    "receiving_address": "- Bộ phận Tiếp nhận và Trả kết quả của Sở Nông nghiệp và Môi trường tại Trung tâm Phục vụ hành chính công tỉnh (Số 28 Đại lộ Lê Lợi, phường Hạc Thành, tỉnh Thanh Hoá).\n- Nộp trực tuyến (một phần) qua Cổng dịch vụ Công quốc gia tại địa chỉ: https://dichvucong.gov.vn\n- Trung tâm Phục vụ hành chính công UBND cấp xã thuộc UBND cấp xã tỉnh Thanh Hóa (thực hiện tiếp nhận hồ sơ, trả kết quả không phụ thuộc vào địa giới hành chính)."
+    "executing_agency": "Sở Nông nghiệp và Môi trường"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Công ty nông, lâm nghiệp gửi hồ sơ đến Bộ phận Một cửa) Khi nộp hồ sơ, công ty nông, lâm nghiệp được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nTrường hợp Bộ phận Một cửa tiếp nhận hồ sơ thì chuyển hồ sơ đến Sở Nông nghiệp và Môi trường.\nBước 2: Sở Nông nghiệp và Môi trường thực hiện:\n- Trong thời hạn không quá 05 ngày làm việc kể từ ngày nhận đủ hồ sơ phương án sử dụng đất của công ty nông, lâm nghiệp, Sở Nông nghiệp và Môi trường có trách nhiệm gửi hồ sơ phương án sử dụng đất đến các sở, ban, ngành có liên quan và Ủy ban nhân dân cấp xã nơi có đất để lấy ý kiến và trình Ủy ban nhân dân tỉnh thành lập Hội đồng thẩm định.\nThành phần Hội đồng thẩm định bao gồm: Chủ tịch Ủy ban nhân dân tỉnh hoặc 01 Phó Chủ tịch Ủy ban nhân dân tỉnh làm Chủ tịch Hội đồng, Thủ trưởng cơ quan có chức năng quản lý đất đai cấp tỉnh làm Phó Chủ tịch Hội đồng, các thành viên là đại diện lãnh đạo các sở, ban, ngành có liên quan, đại diện lãnh đạo Ủy ban nhân dân cấp xã nơi có đất;\n- Trong thời hạn không quá 10 ngày kể từ ngày nhận được hồ sơ lấy ý kiến, các sở, ban, ngành có liên quan và Ủy ban nhân dân cấp xã nơi có đất gửi ý kiến bằng văn bản đến Sở Nông nghiệp và Môi trường;\n- Trong thời hạn không quá 05 ngày làm việc kể từ ngày kết thúc thời hạn lấy ý kiến, Sở Nông nghiệp và Môi trường có trách nhiệm tổ chức họp Hội đồng để thẩm định;\n- Trong thời hạn không quá 05 ngày làm việc kể từ ngày thẩm định, nếu hồ sơ phương án sử dụng đất của công ty nông, lâm nghiệp không phải chỉnh sửa thì Sở Nông nghiệp và Môi trường trình Chủ tịch Ủy ban nhân dân tỉnh phê duyệt.\nTrường hợp hồ sơ phương án sử dụng đất phải chỉnh sửa, bổ sung thì trong thời hạn không quá 03 ngày làm việc kể từ ngày thẩm định, Sở Nông nghiệp và Môi trường thông báo cho công ty nông, lâm nghiệp để hoàn thiện; trong thời hạn không quá 05 ngày làm việc kể từ ngày công ty nông, lâm nghiệp hoàn thiện hồ sơ và gửi Sở Nông nghiệp và Môi trường, nếu hồ sơ đầy đủ thì Sở Nông nghiệp và Môi trường trình Chủ tịch Ủy ban nhân dân cùng cấp phê duyệt;\nBước 3: Trong thời hạn không quá 05 ngày làm việc kể từ ngày nhận được hồ sơ phương án sử dụng đất do Sở Nông nghiệp và Môi trường trình, Chủ tịch Ủy ban nhân dân tỉnh có trách nhiệm xem xét, phê duyệt phương án sử dụng đất.",
+      "description": "Bước 1: Công ty nông, lâm nghiệp gửi hồ sơ đến Bộ phận Một cửa) Khi nộp hồ sơ, công ty nông, lâm nghiệp được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nTrường hợp Bộ phận Một cửa tiếp nhận hồ sơ thì chuyển hồ sơ đến Sở Nông nghiệp và Môi trường.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Sở Nông nghiệp và Môi trường thực hiện:\n- Trong thời hạn không quá 05 ngày làm việc kể từ ngày nhận đủ hồ sơ phương án sử dụng đất của công ty nông, lâm nghiệp, Sở Nông nghiệp và Môi trường có trách nhiệm gửi hồ sơ phương án sử dụng đất đến các sở, ban, ngành có liên quan và Ủy ban nhân dân cấp xã nơi có đất để lấy ý kiến và trình Ủy ban nhân dân tỉnh thành lập Hội đồng thẩm định.\nThành phần Hội đồng thẩm định bao gồm: Chủ tịch Ủy ban nhân dân tỉnh hoặc 01 Phó Chủ tịch Ủy ban nhân dân tỉnh làm Chủ tịch Hội đồng, Thủ trưởng cơ quan có chức năng quản lý đất đai cấp tỉnh làm Phó Chủ tịch Hội đồng, các thành viên là đại diện lãnh đạo các sở, ban, ngành có liên quan, đại diện lãnh đạo Ủy ban nhân dân cấp xã nơi có đất;\n- Trong thời hạn không quá 10 ngày kể từ ngày nhận được hồ sơ lấy ý kiến, các sở, ban, ngành có liên quan và Ủy ban nhân dân cấp xã nơi có đất gửi ý kiến bằng văn bản đến Sở Nông nghiệp và Môi trường;\n- Trong thời hạn không quá 05 ngày làm việc kể từ ngày kết thúc thời hạn lấy ý kiến, Sở Nông nghiệp và Môi trường có trách nhiệm tổ chức họp Hội đồng để thẩm định;\n- Trong thời hạn không quá 05 ngày làm việc kể từ ngày thẩm định, nếu hồ sơ phương án sử dụng đất của công ty nông, lâm nghiệp không phải chỉnh sửa thì Sở Nông nghiệp và Môi trường trình Chủ tịch Ủy ban nhân dân tỉnh phê duyệt.\nTrường hợp hồ sơ phương án sử dụng đất phải chỉnh sửa, bổ sung thì trong thời hạn không quá 03 ngày làm việc kể từ ngày thẩm định, Sở Nông nghiệp và Môi trường thông báo cho công ty nông, lâm nghiệp để hoàn thiện; trong thời hạn không quá 05 ngày làm việc kể từ ngày công ty nông, lâm nghiệp hoàn thiện hồ sơ và gửi Sở Nông nghiệp và Môi trường, nếu hồ sơ đầy đủ thì Sở Nông nghiệp và Môi trường trình Chủ tịch Ủy ban nhân dân cùng cấp phê duyệt;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Trong thời hạn không quá 05 ngày làm việc kể từ ngày nhận được hồ sơ phương án sử dụng đất do Sở Nông nghiệp và Môi trường trình, Chủ tịch Ủy ban nhân dân tỉnh có trách nhiệm xem xét, phê duyệt phương án sử dụng đất.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Mẫu số 32\tVăn bản đề nghị thẩm định, phê duyệt phương án sử dụng đất",
-        "code": "TP-H56.0000070",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019f3a7c-ffe6-726e-b2e1-d2c7182ff2ab",
-            "name": "Mẫu số 32.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 32.docx",
+        "source_page": 2
       },
       {
         "name": "Phương án sử dụng đất; nội dung phương án sử dụng đất phải thể hiện các nội dung như sau: + Căn cứ lập phương án sử dụng đất; + Phân tích, đánh giá về điều kiện tự nhiên, kinh tế - xã hội, quốc phòng, an ninh; + Định hướng sử dụng đất, phương hướng nhiệm vụ, phương án sản xuất, kinh doanh cụ thể của công ty nông, lâm nghiệp; + Đánh giá tác động của phương án sử dụng đất đến kinh tế - xã hội, môi trường, quốc phòng, an ninh và phương án sản xuất, kinh doanh; + Các giải pháp tổ chức thực hiện đối với phần diện tích đất công ty nông, lâm nghiệp giữ lại; + Xác định vị trí, ranh giới, diện tích đất, hiện trạng sử dụng đất khu vực đất bàn giao cho địa phương theo quy định tại điểm d khoản 1 Điều 181 Luật Đất đai",
-        "code": "TP-H56.0000231",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Trích lục hoặc Trích đo bản đồ địa chính thể hiện ranh giới sử dụng đất hoặc hồ sơ ranh giới sử dụng đất của công ty nông, lâm nghiệp; bảng tổng hợp diện tích các loại đất của công ty nông, lâm nghiệp",
-        "code": "TP-H56.0000232",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Giấy tờ có liên quan đến việc thành lập, chuyển đổi",
-        "code": "TP-H56.0000234",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -107,34 +96,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "40 ngày làm việc",
-      "processing_time_value": 40,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 50 ngày làm việc.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "40 ngày làm việc",
-      "processing_time_value": 40,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 50 ngày làm việc.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "40 ngày làm việc",
-      "processing_time_value": 40,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 50 ngày làm việc.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -143,80 +127,67 @@
     {
       "title": "Nghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai.",
       "document_number": "102/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe8-0a00a8be7fd7",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
       "document_number": "151/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị quyết 28/2024/NQ-HĐND ngày 10/7/2024 của Hội đồng nhân dân tỉnh Thanh Hóa ban hành quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng các khoản phí, lệ phí thuộc thẩm quyền của Hội đồng nhân tỉnh",
       "document_number": "28/2024/NQ-HĐND",
-      "id": "019d2bb3-5d7f-719e-b479-6961a092cdad",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Quy định chi tiết một số điều của Nghị quyết số 254/2025/QH15 ngày 11 tháng 12 năm 2025 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai về tiền sử dụng đất, tiền thuê đất",
       "document_number": "Nghị định số 50/2026/NĐ-CP",
-      "id": "019e8731-a144-730f-9660-6392ade03300",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Thanh Hóa",
       "document_number": "55/2026/QĐ",
-      "id": "019f17b1-9664-702e-8d67-d6ad1c252738",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
       "document_number": "118/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Nghị quyết số 12/2025/NQ-HĐND ngày 24/6/2025 của Hội đồng nhân dân tỉnh Thanh Hóa về việc sửa đổi một số điều của Quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng các khoản phí, lệ phí thuộc thẩm quyền của Hội đồng nhân dân tỉnh ban hành kèm theo Nghị quyết số 28/2024/NQ-HĐND ngày 10/7/2024 của Hội đồng nhân dân tỉnh.",
       "document_number": "12/2025/NQ-HĐND",
-      "id": "019d2bb3-5d7f-719e-b478-334aa55a9868",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai",
       "document_number": "226/2025/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a644-ce39f72a6124",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Nghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
-      "document_number": "101/2024/NĐ-CP ",
-      "id": "019eab72-e75f-7064-886d-9dddc82fa4a4",
-      "source_page": null
+      "document_number": "101/2024/NĐ-CP",
+      "source_page": 5
     },
     {
       "title": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "254/2025/QH15",
-      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Nghị quyết số 190/2025/QH15 ngày 19/02/2025 của Quốc hội quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước.",
       "document_number": "190/2025/NQ-CP",
-      "id": "019d2bb3-5d84-71c5-b671-f25aeaba5099",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "49/2026/NĐ-CP",
-      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
-      "document_number": "31/2024/QH15 ",
-      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
-      "source_page": null
+      "document_number": "31/2024/QH15",
+      "source_page": 5
     }
   ],
   "conditions": "Không",
@@ -224,15 +195,14 @@
     {
       "title": "Văn bản phê duyệt phương án sử dụng đất",
       "code": "KQ-H56.0000027",
-      "id": "019f3c0b-5538-75d9-81b3-deceabcbdca7",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Bước 1: Công ty nông, lâm nghiệp gửi hồ sơ đến Bộ phận Một cửa) Khi nộp hồ sơ, công ty nông, lâm nghiệp được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nTrường hợp Bộ phận Một cửa tiếp nhận hồ sơ thì chuyển hồ sơ đến Sở Nông nghiệp và Môi trường.\nBước 2: Sở Nông nghiệp và Môi trường thực hiện:\n- Trong thời hạn không quá 05 ngày làm việc kể từ ngày nhận đủ hồ sơ phương án sử dụng đất của công ty nông, lâm nghiệp, Sở Nông nghiệp và Môi trường có trách nhiệm gửi hồ sơ phương án sử dụng đất đến các sở, ban, ngành có liên quan và Ủy ban nhân dân cấp xã nơi có đất để lấy ý kiến và trình Ủy ban nhân dân tỉnh thành lập Hội đồng thẩm định.\nThành phần Hội đồng thẩm định bao gồm: Chủ tịch Ủy ban nhân dân tỉnh hoặc 01 Phó Chủ tịch Ủy ban nhân dân tỉnh làm Chủ tịch Hội đồng, Thủ trưởng cơ quan có chức năng quản lý đất đai cấp tỉnh làm Phó Chủ tịch Hội đồng, các thành viên là đại diện lãnh đạo các sở, ban, ngành có liên quan, đại diện lãnh đạo Ủy ban nhân dân cấp xã nơi có đất;\n- Trong thời hạn không quá 10 ngày kể từ ngày nhận được hồ sơ lấy ý kiến, các sở, ban, ngành có liên quan và Ủy ban nhân dân cấp xã nơi có đất gửi ý kiến bằng văn bản đến Sở Nông nghiệp và Môi trường;\n- Trong thời hạn không quá 05 ngày làm việc kể từ ngày kết thúc thời hạn lấy ý kiến, Sở Nông nghiệp và Môi trường có trách nhiệm tổ chức họp Hội đồng để thẩm định;\n- Trong thời hạn không quá 05 ngày làm việc kể từ ngày thẩm định, nếu hồ sơ phương án sử dụng đất của công ty nông, lâm nghiệp không phải chỉnh sửa thì Sở Nông nghiệp và Môi trường trình Chủ tịch Ủy ban nhân dân tỉnh phê duyệt.\nTrường hợp hồ sơ phương án sử dụng đất phải chỉnh sửa, bổ sung thì trong thời hạn không quá 03 ngày làm việc kể từ ngày thẩm định, Sở Nông nghiệp và Môi trường thông báo cho công ty nông, lâm nghiệp để hoàn thiện; trong thời hạn không quá 05 ngày làm việc kể từ ngày công ty nông, lâm nghiệp hoàn thiện hồ sơ và gửi Sở Nông nghiệp và Môi trường, nếu hồ sơ đầy đủ thì Sở Nông nghiệp và Môi trường trình Chủ tịch Ủy ban nhân dân cùng cấp phê duyệt;\nBước 3: Trong thời hạn không quá 05 ngày làm việc kể từ ngày nhận được hồ sơ phương án sử dụng đất do Sở Nông nghiệp và Môi trường trình, Chủ tịch Ủy ban nhân dân tỉnh có trách nhiệm xem xét, phê duyệt phương án sử dụng đất.",
-    "THÀNH PHẦN HỒ SƠ": "\nMẫu số 32\tVăn bản đề nghị thẩm định, phê duyệt phương án sử dụng đất\nPhương án sử dụng đất; nội dung phương án sử dụng đất phải thể hiện các nội dung như sau: + Căn cứ lập phương án sử dụng đất; + Phân tích, đánh giá về điều kiện tự nhiên, kinh tế - xã hội, quốc phòng, an ninh; + Định hướng sử dụng đất, phương hướng nhiệm vụ, phương án sản xuất, kinh doanh cụ thể của công ty nông, lâm nghiệp; + Đánh giá tác động của phương án sử dụng đất đến kinh tế - xã hội, môi trường, quốc phòng, an ninh và phương án sản xuất, kinh doanh; + Các giải pháp tổ chức thực hiện đối với phần diện tích đất công ty nông, lâm nghiệp giữ lại; + Xác định vị trí, ranh giới, diện tích đất, hiện trạng sử dụng đất khu vực đất bàn giao cho địa phương theo quy định tại điểm d khoản 1 Điều 181 Luật Đất đai\nTrích lục hoặc Trích đo bản đồ địa chính thể hiện ranh giới sử dụng đất hoặc hồ sơ ranh giới sử dụng đất của công ty nông, lâm nghiệp; bảng tổng hợp diện tích các loại đất của công ty nông, lâm nghiệp\nGiấy tờ có liên quan đến việc thành lập, chuyển đổi",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 40 ngày làm việc - Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 50 ngày làm việc.\nTrực tuyến: 40 ngày làm việc - Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 50 ngày làm việc.\nQua dịch vụ bưu chính: 40 ngày làm việc - Đối với các xã miền núi, hải đảo, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện không quá 50 ngày làm việc.",
-    "CĂN CỨ PHÁP LÝ": "Nghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai. - 102/2024/NĐ-CP\nQuy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai - 151/2025/NĐ-CP\nNghị quyết 28/2024/NQ-HĐND ngày 10/7/2024 của Hội đồng nhân dân tỉnh Thanh Hóa ban hành quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng các khoản phí, lệ phí thuộc thẩm quyền của Hội đồng nhân tỉnh - 28/2024/NQ-HĐND\nQuy định chi tiết một số điều của Nghị quyết số 254/2025/QH15 ngày 11 tháng 12 năm 2025 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai về tiền sử dụng đất, tiền thuê đất - Nghị định số 50/2026/NĐ-CP\nBan hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Thanh Hóa - 55/2026/QĐ\nNghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nNghị quyết số 12/2025/NQ-HĐND ngày 24/6/2025 của Hội đồng nhân dân tỉnh Thanh Hóa về việc sửa đổi một số điều của Quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng các khoản phí, lệ phí thuộc thẩm quyền của Hội đồng nhân dân tỉnh ban hành kèm theo Nghị quyết số 28/2024/NQ-HĐND ngày 10/7/2024 của Hội đồng nhân dân tỉnh. - 12/2025/NQ-HĐND\nSửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai - 226/2025/NĐ-CP\nNghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai. - 101/2024/NĐ-CP \nQuy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 254/2025/QH15\nNghị quyết số 190/2025/QH15 ngày 19/02/2025 của Quốc hội quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước. - 190/2025/NQ-CP\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15 ",
+    "THÀNH PHẦN HỒ SƠ": "Mẫu số 32\tVăn bản đề nghị thẩm định, phê duyệt phương án sử dụng đất\nPhương án sử dụng đất; nội dung phương án sử dụng đất phải thể hiện các nội dung như sau: + Căn cứ lập phương án sử dụng đất; + Phân tích, đánh giá về điều kiện tự nhiên, kinh tế - xã hội, quốc phòng, an ninh; + Định hướng sử dụng đất, phương hướng nhiệm vụ, phương án sản xuất, kinh doanh cụ thể của công ty nông, lâm nghiệp; + Đánh giá tác động của phương án sử dụng đất đến kinh tế - xã hội, môi trường, quốc phòng, an ninh và phương án sản xuất, kinh doanh; + Các giải pháp tổ chức thực hiện đối với phần diện tích đất công ty nông, lâm nghiệp giữ lại; + Xác định vị trí, ranh giới, diện tích đất, hiện trạng sử dụng đất khu vực đất bàn giao cho địa phương theo quy định tại điểm d khoản 1 Điều 181 Luật Đất đai\nTrích lục hoặc Trích đo bản đồ địa chính thể hiện ranh giới sử dụng đất hoặc hồ sơ ranh giới sử dụng đất của công ty nông, lâm nghiệp; bảng tổng hợp diện tích các loại đất của công ty nông, lâm nghiệp\nGiấy tờ có liên quan đến việc thành lập, chuyển đổi",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 40 ngày làm việc\nTrực tuyến: 40 ngày làm việc\nQua dịch vụ bưu chính: 40 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "Nghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai. - 102/2024/NĐ-CP\nQuy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai - 151/2025/NĐ-CP\nNghị quyết 28/2024/NQ-HĐND ngày 10/7/2024 của Hội đồng nhân dân tỉnh Thanh Hóa ban hành quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng các khoản phí, lệ phí thuộc thẩm quyền của Hội đồng nhân tỉnh - 28/2024/NQ-HĐND\nQuy định chi tiết một số điều của Nghị quyết số 254/2025/QH15 ngày 11 tháng 12 năm 2025 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai về tiền sử dụng đất, tiền thuê đất - Nghị định số 50/2026/NĐ-CP\nBan hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Thanh Hóa - 55/2026/QĐ\nNghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nNghị quyết số 12/2025/NQ-HĐND ngày 24/6/2025 của Hội đồng nhân dân tỉnh Thanh Hóa về việc sửa đổi một số điều của Quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng các khoản phí, lệ phí thuộc thẩm quyền của Hội đồng nhân dân tỉnh ban hành kèm theo Nghị quyết số 28/2024/NQ-HĐND ngày 10/7/2024 của Hội đồng nhân dân tỉnh. - 12/2025/NQ-HĐND\nSửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai - 226/2025/NĐ-CP\nNghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai. - 101/2024/NĐ-CP\nQuy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 254/2025/QH15\nNghị quyết số 190/2025/QH15 ngày 19/02/2025 của Quốc hội quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước. - 190/2025/NQ-CP\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15",
     "CƠ QUAN THỰC HIỆN": "Sở Nông nghiệp và Môi trường",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Không",
     "KẾT QUẢ XỬ LÝ": "Văn bản phê duyệt phương án sử dụng đất - KQ-H56.0000027",
@@ -240,14 +210,9 @@
     "MÔ TẢ": "Không"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đất đai",
-      "slug": "dat-dai"
+      "slug": "at-ai"
     },
     "implementation_levels": [
       {
@@ -262,7 +227,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
@@ -270,7 +235,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Doanh nghiệp",
@@ -287,6 +252,6 @@
         "slug": "so-nong-nghiep-va-moi-truong"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "non_territorial"
   }
 }

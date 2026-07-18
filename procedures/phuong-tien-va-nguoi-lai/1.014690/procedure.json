@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-b7f5-7767-9fc6-5d4fa190237b",
   "procedure_code": "1.014690",
   "title": "Thủ tục cấp Giấy phép điều khiển tàu bay không người lái và phương tiện bay khác",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-b7f5-7767-9fc6-5d4fa190237b",
     "source_file": "chi-tiet-thu-tuc-1.014690.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.014690/chi-tiet-thu-tuc-1.014690.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:14.772527+00:00",
-    "source_updated_at": "2026-07-01T02:25:37.937Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:59.029586+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "b208feee6f7fac75a58aead0665837cd9cf2d97249c64e2fcf6eda77161459db"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:14.772527+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2506/QĐ-BQP",
   "implementation_level": "Cấp bộ, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Quản lý vùng trời",
   "target_users": [
@@ -36,10 +31,7 @@
   ],
   "agency": {
     "competent_agency": "Quân chủng Phòng không - Không quân",
-    "executing_agency": "Bộ Tham mưu/Quân chủng Phòng không không quân",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Tham mưu/Quân chủng Phòng không không quân"
   },
   "steps": [
     {
@@ -47,7 +39,7 @@
       "title": "Bước 1",
       "description": "a) Sau khi kiểm tra, sát hạch cơ sở đào có văn bản đề nghị kèm theo hồ sơ, danh sách, kết quả kiểm tra và quyết định trúng tuyển của người học gửi đến cơ quan có thẩm quyền cấp Giấy phép điều khiển tàu bay không người lái và phương tiện bay khác thuộc Bộ Quốc phòng (Quân chủng Phòng không-Không quân).\nb) Trong thời gian 08 ngày làm việc kể từ ngày nhận được văn bản của cơ sở đào tạo, cơ quan có thẩm quyền cấp Giấy phép điều khiển tàu bay không người lái và phương tiện bay khác thuộc Bộ Quốc phòng ký, đóng dấu và gửi Giấy phép điều khiển phương tiện bay không người lái và phương tiện bay khác tới cơ sở đào tạo; cơ sở đào tạo có trách nhiệm gửi Giấy phép điều khiển phương tiện bay không người lái và phương tiện bay khác cho người học.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -56,21 +48,15 @@
     "conditional": [
       {
         "name": "Hồ sơ, danh sách, kết quả kiểm tra và quyết định trúng tuyển của người học",
-        "code": "000.00.00.G11-KQ003996",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 1
       },
       {
         "name": "Văn bản đề nghị cấp Giấy phép điều khiển tàu bay không người lái và phương tiện bay khác",
-        "code": "000.00.00.G11-KQ003995",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -79,35 +65,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "8 ngày làm việc",
-      "processing_time_value": 8,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "8 ngày làm việc",
-      "processing_time_value": 8,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -115,51 +81,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "8 ngày làm việc",
-      "processing_time_value": 8,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -167,26 +118,22 @@
     {
       "title": "Thông tư quy định nội dung, chương trình cơ bản đào tạo về kiến thức hàng không, thực hành điều khiển tàu bay không người lái và phương tiện bay khác; phân cấp giải quyết thủ tục hành chính và thực hiện một số nội dung trong lĩnh vực quản lý tàu bay không người lái và phương tiện bay khác.",
       "document_number": "146/2025/TT-BQP",
-      "id": "019d2bb3-5d7d-7398-be47-3a2d9fb58aab",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "NGHỊ ĐİNH Quy định về quản lý tàu bay không người lái và phương tiện bay khác",
       "document_number": "288/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46c-010acca49505",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Luật Phòng không nhân dân",
       "document_number": "49/2024/QH15",
-      "id": "019d2bb3-5d87-7195-a442-2918d0bc5356",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư quy định về phân cấp thực hiện một số nhiệm vụ, quyền hạn trong lĩnh vực  quản lý nhà nước của Bộ Tài chính",
       "document_number": "31/2026/TT-BTC",
-      "id": "019e247f-bb82-771b-9c42-92635ca096d7",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "",
@@ -194,13 +141,12 @@
     {
       "title": "Giấy phép điều khiển tàu bay không người lái và phương tiện bay khác",
       "code": "KQ.G11.000414",
-      "id": "019d2bb2-1c6f-72b5-bd0b-481c13bf1075",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "a) Sau khi kiểm tra, sát hạch cơ sở đào có văn bản đề nghị kèm theo hồ sơ, danh sách, kết quả kiểm tra và quyết định trúng tuyển của người học gửi đến cơ quan có thẩm quyền cấp Giấy phép điều khiển tàu bay không người lái và phương tiện bay khác thuộc Bộ Quốc phòng (Quân chủng Phòng không-Không quân).\nb) Trong thời gian 08 ngày làm việc kể từ ngày nhận được văn bản của cơ sở đào tạo, cơ quan có thẩm quyền cấp Giấy phép điều khiển tàu bay không người lái và phương tiện bay khác thuộc Bộ Quốc phòng ký, đóng dấu và gửi Giấy phép điều khiển phương tiện bay không người lái và phương tiện bay khác tới cơ sở đào tạo; cơ sở đào tạo có trách nhiệm gửi Giấy phép điều khiển phương tiện bay không người lái và phương tiện bay khác cho người học.",
-    "THÀNH PHẦN HỒ SƠ": "\nHồ sơ, danh sách, kết quả kiểm tra và quyết định trúng tuyển của người học\nVăn bản đề nghị cấp Giấy phép điều khiển tàu bay không người lái và phương tiện bay khác",
+    "THÀNH PHẦN HỒ SƠ": "Hồ sơ, danh sách, kết quả kiểm tra và quyết định trúng tuyển của người học\nVăn bản đề nghị cấp Giấy phép điều khiển tàu bay không người lái và phương tiện bay khác",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 8 ngày làm việc\nQua dịch vụ bưu chính: 8 ngày làm việc\nTrực tiếp: 8 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Thông tư quy định nội dung, chương trình cơ bản đào tạo về kiến thức hàng không, thực hành điều khiển tàu bay không người lái và phương tiện bay khác; phân cấp giải quyết thủ tục hành chính và thực hiện một số nội dung trong lĩnh vực quản lý tàu bay không người lái và phương tiện bay khác. - 146/2025/TT-BQP\nNGHỊ ĐİNH Quy định về quản lý tàu bay không người lái và phương tiện bay khác - 288/2025/NĐ-CP\nLuật Phòng không nhân dân - 49/2024/QH15\nThông tư quy định về phân cấp thực hiện một số nhiệm vụ, quyền hạn trong lĩnh vực  quản lý nhà nước của Bộ Tài chính - 31/2026/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Bộ Tham mưu/Quân chủng Phòng không không quân",
@@ -210,11 +156,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Quản lý vùng trời",
       "slug": "quan-ly-vung-troi"
@@ -241,6 +182,6 @@
         "slug": "bo-tham-muu-quan-chung-phong-khong-khong-quan"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

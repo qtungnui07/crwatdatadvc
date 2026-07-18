@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf7-c551-7391-b22b-7643fcacb0d0",
   "procedure_code": "3.000376",
   "title": "Sửa đổi, bổ sung chương trình an ninh, quy chế an ninh hàng không",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-c551-7391-b22b-7643fcacb0d0",
     "source_file": "chi-tiet-thu-tuc-3.000376.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/3.000376/chi-tiet-thu-tuc-3.000376.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:23.757724+00:00",
-    "source_updated_at": "2026-04-30T09:30:08.805Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:04.570932+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "5004241da9ede3434c276c888140f5693a5823e85eaa7aeeca4cb89de9a407ec"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:23.757724+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1211/QĐ-BCA",
   "implementation_level": "Cấp bộ, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "OTHER",
   "sector": "Bảo đảm an ninh hàng không",
   "target_users": [
@@ -37,66 +32,48 @@
   ],
   "agency": {
     "competent_agency": "Cục quản lý xuất nhập cảnh",
-    "executing_agency": "Cục quản lý xuất nhập cảnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục quản lý xuất nhập cảnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "a) Nộp hồ sơ thủ tục hành chính:\nDoanh nghiệp, đơn vị có chương trình, quy chế an ninh hàng không gửi 01 bộ hồ sơ (hồ sơ bằng tiếng Việt đối với doanh nghiệp Việt Nam, hồ sơ bằng tiếng Anh đối với hãng hàng không nước ngoài) trực tiếp hoặc gửi qua dịch vụ bưu chính hoặc gửi trên môi trường điện tử đến Cục Quản lý xuất nhập cảnh\nb) Giải quyết thủ tục hành chính:\n- Trường hợp hồ sơ chưa đầy đủ theo quy định, trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ, Cục Quản lý xuất nhập cảnh có văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc trên môi trường điện tử yêu cầu doanh nghiệp, đơn vị đề nghị phê duyệt bổ sung hồ sơ.\n- Trường hợp nhận được đầy đủ hồ sơ theo quy định, trong thời hạn 05 ngày làm việc tính từ ngày nhận đủ hồ sơ, Cục Quản lý xuất nhập cảnh có trách nhiệm thẩm định hồ sơ, xem xét tổ chức kiểm tra thực tế nếu cần (trường hợp cần kiểm tra thực tế, Cục Quản lý xuất nhập cảnh có văn bản thông báo gửi đến doanh nghiệp, đơn vị đề nghị phê duyệt nêu rõ lý do, thời gian kiểm tra trong thời hạn giải quyết thủ tục hành chính).\n+ Nếu chương trình, quy chế an ninh hàng không đủ điều kiện phê duyệt, chấp thuận, Cục Quản lý xuất nhập cảnh ban hành quyết định phê duyệt hoặc chấp thuận; Quyết định phê duyệt được gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc trên môi trường điện tử;\n+ Nếu chương trình, quy chế an ninh hàng không chưa đủ điều kiện phê duyệt, chấp thuận, Cục Quản lý xuất nhập cảnh ban hành văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc trên môi trường điện tử nêu rõ lý do chưa phê duyệt, chấp thuận.\n",
+      "description": "a) Nộp hồ sơ thủ tục hành chính:\nDoanh nghiệp, đơn vị có chương trình, quy chế an ninh hàng không gửi 01 bộ hồ sơ (hồ sơ bằng tiếng Việt đối với doanh nghiệp Việt Nam, hồ sơ bằng tiếng Anh đối với hãng hàng không nước ngoài) trực tiếp hoặc gửi qua dịch vụ bưu chính hoặc gửi trên môi trường điện tử đến Cục Quản lý xuất nhập cảnh\nb) Giải quyết thủ tục hành chính:\n- Trường hợp hồ sơ chưa đầy đủ theo quy định, trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ, Cục Quản lý xuất nhập cảnh có văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc trên môi trường điện tử yêu cầu doanh nghiệp, đơn vị đề nghị phê duyệt bổ sung hồ sơ.\n- Trường hợp nhận được đầy đủ hồ sơ theo quy định, trong thời hạn 05 ngày làm việc tính từ ngày nhận đủ hồ sơ, Cục Quản lý xuất nhập cảnh có trách nhiệm thẩm định hồ sơ, xem xét tổ chức kiểm tra thực tế nếu cần (trường hợp cần kiểm tra thực tế, Cục Quản lý xuất nhập cảnh có văn bản thông báo gửi đến doanh nghiệp, đơn vị đề nghị phê duyệt nêu rõ lý do, thời gian kiểm tra trong thời hạn giải quyết thủ tục hành chính).\n+ Nếu chương trình, quy chế an ninh hàng không đủ điều kiện phê duyệt, chấp thuận, Cục Quản lý xuất nhập cảnh ban hành quyết định phê duyệt hoặc chấp thuận; Quyết định phê duyệt được gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc trên môi trường điện tử;\n+ Nếu chương trình, quy chế an ninh hàng không chưa đủ điều kiện phê duyệt, chấp thuận, Cục Quản lý xuất nhập cảnh ban hành văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc trên môi trường điện tử nêu rõ lý do chưa phê duyệt, chấp thuận.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Văn bản đề nghị theo mẫu quy định tại Phụ lục VI ban hành kèm theo Thông tư số 14/2026/TT-BCA ngày 03 tháng 02 năm 2026 của Bộ trưởng Bộ Công an quy định chi tiết Chương trình An ninh hàng không và kiểm soát chất lượng An ninh hàng không Việt Nam;",
-        "code": "TP-G01-0010",
+        "name": "Doanh nghiệp, đơn vị có chương trình an ninh hàng không gửi 01 bộ hồ sơ (hồ sơ bằng tiếng Việt đối với doanh nghiệp Việt Nam): Văn bản đề nghị theo mẫu quy định tại Phụ lục VI ban hành kèm theo Thông tư số 14/2026/TT-BCA ngày 03 tháng 02 năm 2026 của Bộ trưởng Bộ Công an quy định chi tiết Chương trình An ninh hàng không và kiểm soát chất lượng An ninh hàng không Việt Nam;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Doanh nghiệp, đơn vị có chương trình an ninh hàng không gửi 01 bộ hồ sơ (hồ sơ bằng tiếng Việt đối với doanh nghiệp Việt Nam)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Dự thảo chương trình an ninh hàng không.",
-        "code": "TP-G01-0011",
+        "name": "Doanh nghiệp, đơn vị có chương trình an ninh hàng không gửi 01 bộ hồ sơ (hồ sơ bằng tiếng Việt đối với doanh nghiệp Việt Nam): Dự thảo chương trình an ninh hàng không.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Doanh nghiệp, đơn vị có chương trình an ninh hàng không gửi 01 bộ hồ sơ (hồ sơ bằng tiếng Việt đối với doanh nghiệp Việt Nam)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Văn bản đề nghị theo mẫu quy định tại Phụ lục VI ban hành kèm theo Thông tư số 14/2026/TT-BCA ngày 03 tháng 02 năm 2026 của Bộ trưởng Bộ Công an quy định chi tiết Chương trình An ninh hàng không và kiểm soát chất lượng An ninh hàng không Việt Nam;",
-        "code": "TP-G01-0012",
+        "name": "Hãng hàng không nước ngoài khai thác thương mại đến và đi từ Việt Nam gửi 01 bộ hồ sơ (bằng tiếng Việt hoặc tiếng Anh): Văn bản đề nghị theo mẫu quy định tại Phụ lục VI ban hành kèm theo Thông tư số 14/2026/TT-BCA ngày 03 tháng 02 năm 2026 của Bộ trưởng Bộ Công an quy định chi tiết Chương trình An ninh hàng không và kiểm soát chất lượng An ninh hàng không Việt Nam;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hãng hàng không nước ngoài khai thác thương mại đến và đi từ Việt Nam gửi 01 bộ hồ sơ (bằng tiếng Việt hoặc tiếng Anh)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Chương trình an ninh hàng không của hãng hàng không nước ngoài được phê duyệt bởi Nhà chức trách hàng không nơi hãng hàng không đặt trụ sở chính;",
-        "code": "TP-G01-0013",
+        "name": "Hãng hàng không nước ngoài khai thác thương mại đến và đi từ Việt Nam gửi 01 bộ hồ sơ (bằng tiếng Việt hoặc tiếng Anh): Chương trình an ninh hàng không của hãng hàng không nước ngoài được phê duyệt bởi Nhà chức trách hàng không nơi hãng hàng không đặt trụ sở chính;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hãng hàng không nước ngoài khai thác thương mại đến và đi từ Việt Nam gửi 01 bộ hồ sơ (bằng tiếng Việt hoặc tiếng Anh)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Quy trình an ninh hàng không bổ sung đối với hoạt động khai thác của hãng hàng không tại Việt Nam được xây dựng theo đề cương quy định tại Phụ lục XXIV ban hành kèm theo Thông tư số 14/2026/TT-BCA ngày 03 tháng 02 năm 2026 của Bộ trưởng Bộ Công an quy định chi tiết Chương trình An ninh hàng không và kiểm soát chất lượng An ninh hàng không Việt Nam.",
-        "code": "TP-G01-0014",
+        "name": "Hãng hàng không nước ngoài khai thác thương mại đến và đi từ Việt Nam gửi 01 bộ hồ sơ (bằng tiếng Việt hoặc tiếng Anh): Quy trình an ninh hàng không bổ sung đối với hoạt động khai thác của hãng hàng không tại Việt Nam được xây dựng theo đề cương quy định tại Phụ lục XXIV ban hành kèm theo Thông tư số 14/2026/TT-BCA ngày 03 tháng 02 năm 2026 của Bộ trưởng Bộ Công an quy định chi tiết Chương trình An ninh hàng không và kiểm soát chất lượng An ninh hàng không Việt Nam.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hãng hàng không nước ngoài khai thác thương mại đến và đi từ Việt Nam gửi 01 bộ hồ sơ (bằng tiếng Việt hoặc tiếng Anh)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -107,87 +84,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -195,26 +137,22 @@
     {
       "title": "LUẬT HÀNG KHÔNG DÂN DỤNG VIỆT NAM",
       "document_number": "130/2025/QH15",
-      "id": "019d2bb3-5d84-71c5-b673-eb8f88e8cb17",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Thông tư số 13/2019/TT-BGTVT ngày 29 tháng 3 năm 2019 của Bộ trưởng Bộ Giao thông vận tải quy định chi tiết Chương trình an ninh hàng không và kiểm soát chất lượng an ninh hàng  không Việt Nam và Thông tư số 41/2020/TT-BGTVT ngày 31 tháng 12 năm 2020 của Bộ trưởng Bộ Giao thông vận tải sửa đổi, bổ sung một số điều của Thông tư số 13/2019/TT-BGTVT ngày 29 tháng 3 năm 2019 quy định chi  tiết Chương trình an ninh hàng không và kiểm soát chất lượng an ninh  hàng không Việt Nam",
       "document_number": "42/2023/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9efe-8c702dfc521b",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quy định chi tiết Chương trình an ninh hàng không và kiểm soát chất lượng an ninh hàng không Việt Nam",
       "document_number": "13/2019/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9efc-ee178a251c1c",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Về an ninh hàng không",
       "document_number": "92/2015/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b472-b3b4681c3de3",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "",
@@ -222,13 +160,12 @@
     {
       "title": "Quyết định phê duyệt hoặc chấp thuận",
       "code": "KQ.G01.000182",
-      "id": "019d2bb2-1c37-76e8-b48e-20ea03bdf290",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "a) Nộp hồ sơ thủ tục hành chính:\nDoanh nghiệp, đơn vị có chương trình, quy chế an ninh hàng không gửi 01 bộ hồ sơ (hồ sơ bằng tiếng Việt đối với doanh nghiệp Việt Nam, hồ sơ bằng tiếng Anh đối với hãng hàng không nước ngoài) trực tiếp hoặc gửi qua dịch vụ bưu chính hoặc gửi trên môi trường điện tử đến Cục Quản lý xuất nhập cảnh\nb) Giải quyết thủ tục hành chính:\n- Trường hợp hồ sơ chưa đầy đủ theo quy định, trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ, Cục Quản lý xuất nhập cảnh có văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc trên môi trường điện tử yêu cầu doanh nghiệp, đơn vị đề nghị phê duyệt bổ sung hồ sơ.\n- Trường hợp nhận được đầy đủ hồ sơ theo quy định, trong thời hạn 05 ngày làm việc tính từ ngày nhận đủ hồ sơ, Cục Quản lý xuất nhập cảnh có trách nhiệm thẩm định hồ sơ, xem xét tổ chức kiểm tra thực tế nếu cần (trường hợp cần kiểm tra thực tế, Cục Quản lý xuất nhập cảnh có văn bản thông báo gửi đến doanh nghiệp, đơn vị đề nghị phê duyệt nêu rõ lý do, thời gian kiểm tra trong thời hạn giải quyết thủ tục hành chính).\n+ Nếu chương trình, quy chế an ninh hàng không đủ điều kiện phê duyệt, chấp thuận, Cục Quản lý xuất nhập cảnh ban hành quyết định phê duyệt hoặc chấp thuận; Quyết định phê duyệt được gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc trên môi trường điện tử;\n+ Nếu chương trình, quy chế an ninh hàng không chưa đủ điều kiện phê duyệt, chấp thuận, Cục Quản lý xuất nhập cảnh ban hành văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc trên môi trường điện tử nêu rõ lý do chưa phê duyệt, chấp thuận.\n",
-    "THÀNH PHẦN HỒ SƠ": "Doanh nghiệp, đơn vị có chương trình an ninh hàng không gửi 01 bộ hồ sơ (hồ sơ bằng tiếng Việt đối với doanh nghiệp Việt Nam)\nVăn bản đề nghị theo mẫu quy định tại Phụ lục VI ban hành kèm theo Thông tư số 14/2026/TT-BCA ngày 03 tháng 02 năm 2026 của Bộ trưởng Bộ Công an quy định chi tiết Chương trình An ninh hàng không và kiểm soát chất lượng An ninh hàng không Việt Nam;\nDự thảo chương trình an ninh hàng không.\nHãng hàng không nước ngoài khai thác thương mại đến và đi từ Việt Nam gửi 01 bộ hồ sơ (bằng tiếng Việt hoặc tiếng Anh)\nVăn bản đề nghị theo mẫu quy định tại Phụ lục VI ban hành kèm theo Thông tư số 14/2026/TT-BCA ngày 03 tháng 02 năm 2026 của Bộ trưởng Bộ Công an quy định chi tiết Chương trình An ninh hàng không và kiểm soát chất lượng An ninh hàng không Việt Nam;\nChương trình an ninh hàng không của hãng hàng không nước ngoài được phê duyệt bởi Nhà chức trách hàng không nơi hãng hàng không đặt trụ sở chính;\nQuy trình an ninh hàng không bổ sung đối với hoạt động khai thác của hãng hàng không tại Việt Nam được xây dựng theo đề cương quy định tại Phụ lục XXIV ban hành kèm theo Thông tư số 14/2026/TT-BCA ngày 03 tháng 02 năm 2026 của Bộ trưởng Bộ Công an quy định chi tiết Chương trình An ninh hàng không và kiểm soát chất lượng An ninh hàng không Việt Nam.",
+    "TRÌNH TỰ THỰC HIỆN": "a) Nộp hồ sơ thủ tục hành chính:\nDoanh nghiệp, đơn vị có chương trình, quy chế an ninh hàng không gửi 01 bộ hồ sơ (hồ sơ bằng tiếng Việt đối với doanh nghiệp Việt Nam, hồ sơ bằng tiếng Anh đối với hãng hàng không nước ngoài) trực tiếp hoặc gửi qua dịch vụ bưu chính hoặc gửi trên môi trường điện tử đến Cục Quản lý xuất nhập cảnh\nb) Giải quyết thủ tục hành chính:\n- Trường hợp hồ sơ chưa đầy đủ theo quy định, trong thời hạn 03 ngày làm việc, kể từ ngày nhận được hồ sơ, Cục Quản lý xuất nhập cảnh có văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc trên môi trường điện tử yêu cầu doanh nghiệp, đơn vị đề nghị phê duyệt bổ sung hồ sơ.\n- Trường hợp nhận được đầy đủ hồ sơ theo quy định, trong thời hạn 05 ngày làm việc tính từ ngày nhận đủ hồ sơ, Cục Quản lý xuất nhập cảnh có trách nhiệm thẩm định hồ sơ, xem xét tổ chức kiểm tra thực tế nếu cần (trường hợp cần kiểm tra thực tế, Cục Quản lý xuất nhập cảnh có văn bản thông báo gửi đến doanh nghiệp, đơn vị đề nghị phê duyệt nêu rõ lý do, thời gian kiểm tra trong thời hạn giải quyết thủ tục hành chính).\n+ Nếu chương trình, quy chế an ninh hàng không đủ điều kiện phê duyệt, chấp thuận, Cục Quản lý xuất nhập cảnh ban hành quyết định phê duyệt hoặc chấp thuận; Quyết định phê duyệt được gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc trên môi trường điện tử;\n+ Nếu chương trình, quy chế an ninh hàng không chưa đủ điều kiện phê duyệt, chấp thuận, Cục Quản lý xuất nhập cảnh ban hành văn bản gửi trực tiếp hoặc qua dịch vụ bưu chính hoặc trên môi trường điện tử nêu rõ lý do chưa phê duyệt, chấp thuận.",
+    "THÀNH PHẦN HỒ SƠ": "Doanh nghiệp, đơn vị có chương trình an ninh hàng không gửi 01 bộ hồ sơ (hồ sơ bằng tiếng Việt đối với doanh nghiệp Việt Nam): Văn bản đề nghị theo mẫu quy định tại Phụ lục VI ban hành kèm theo Thông tư số 14/2026/TT-BCA ngày 03 tháng 02 năm 2026 của Bộ trưởng Bộ Công an quy định chi tiết Chương trình An ninh hàng không và kiểm soát chất lượng An ninh hàng không Việt Nam;\nDoanh nghiệp, đơn vị có chương trình an ninh hàng không gửi 01 bộ hồ sơ (hồ sơ bằng tiếng Việt đối với doanh nghiệp Việt Nam): Dự thảo chương trình an ninh hàng không.\nHãng hàng không nước ngoài khai thác thương mại đến và đi từ Việt Nam gửi 01 bộ hồ sơ (bằng tiếng Việt hoặc tiếng Anh): Văn bản đề nghị theo mẫu quy định tại Phụ lục VI ban hành kèm theo Thông tư số 14/2026/TT-BCA ngày 03 tháng 02 năm 2026 của Bộ trưởng Bộ Công an quy định chi tiết Chương trình An ninh hàng không và kiểm soát chất lượng An ninh hàng không Việt Nam;\nHãng hàng không nước ngoài khai thác thương mại đến và đi từ Việt Nam gửi 01 bộ hồ sơ (bằng tiếng Việt hoặc tiếng Anh): Chương trình an ninh hàng không của hãng hàng không nước ngoài được phê duyệt bởi Nhà chức trách hàng không nơi hãng hàng không đặt trụ sở chính;\nHãng hàng không nước ngoài khai thác thương mại đến và đi từ Việt Nam gửi 01 bộ hồ sơ (bằng tiếng Việt hoặc tiếng Anh): Quy trình an ninh hàng không bổ sung đối với hoạt động khai thác của hãng hàng không tại Việt Nam được xây dựng theo đề cương quy định tại Phụ lục XXIV ban hành kèm theo Thông tư số 14/2026/TT-BCA ngày 03 tháng 02 năm 2026 của Bộ trưởng Bộ Công an quy định chi tiết Chương trình An ninh hàng không và kiểm soát chất lượng An ninh hàng không Việt Nam.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 5 ngày làm việc\nQua dịch vụ bưu chính: 5 ngày làm việc\nTrực tiếp: 5 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "LUẬT HÀNG KHÔNG DÂN DỤNG VIỆT NAM - 130/2025/QH15\nSửa đổi, bổ sung một số điều của Thông tư số 13/2019/TT-BGTVT ngày 29 tháng 3 năm 2019 của Bộ trưởng Bộ Giao thông vận tải quy định chi tiết Chương trình an ninh hàng không và kiểm soát chất lượng an ninh hàng  không Việt Nam và Thông tư số 41/2020/TT-BGTVT ngày 31 tháng 12 năm 2020 của Bộ trưởng Bộ Giao thông vận tải sửa đổi, bổ sung một số điều của Thông tư số 13/2019/TT-BGTVT ngày 29 tháng 3 năm 2019 quy định chi  tiết Chương trình an ninh hàng không và kiểm soát chất lượng an ninh  hàng không Việt Nam - 42/2023/TT-BGTVT\nQuy định chi tiết Chương trình an ninh hàng không và kiểm soát chất lượng an ninh hàng không Việt Nam - 13/2019/TT-BGTVT\nVề an ninh hàng không - 92/2015/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cục quản lý xuất nhập cảnh",
@@ -238,14 +175,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Bảo đảm an ninh hàng không",
-      "slug": "bao-dam-an-ninh-hang-khong"
+      "slug": "bao-am-an-ninh-hang-khong"
     },
     "implementation_levels": [
       {
@@ -273,6 +205,6 @@
         "slug": "cuc-quan-ly-xuat-nhap-canh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

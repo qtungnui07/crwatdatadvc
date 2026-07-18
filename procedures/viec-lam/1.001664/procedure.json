@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-d775-727e-9739-a605641d4115",
   "procedure_code": "1.001664",
   "title": "Giải ngân khoản vốn hỗ trợ cho doanh nghiệp (cấp tỉnh)",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-d775-727e-9739-a605641d4115",
     "source_file": "chi-tiet-thu-tuc-1.001664.pdf",
     "source_path": "procedures/viec-lam/1.001664/chi-tiet-thu-tuc-1.001664.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:21:59.674174+00:00",
-    "source_updated_at": "2026-04-08T09:08:50.762Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:56.122147+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "b20e23322348aa1562f1aef5795d20b334e00695e843e06aa9d3b9cf449cbe60"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:59.674174+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1474/QĐ-BTC",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đầu tư vào nông nghiệp, nông thôn",
   "target_users": [
@@ -38,18 +34,22 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Kho bạc Nhà nước - Bộ tài chính",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Kho bạc Nhà nước - Bộ tài chính"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Doanh nghiệp nộp hồ sơ đề nghị giải ngân vốn hỗ trợ cho Kho bạc Nhà nước cấp tỉnh nơi thực hiện dự án đầu tư.\n\n\n- Bước 2: Trong thời hạn 05 ngày làm việc Kho bạc Nhà nước cấp tỉnh giải ngân khoản vốn hỗ trợ theo đề nghị của doanh nghiệp.\n\n\n",
+      "description": "- Bước 1: Doanh nghiệp nộp hồ sơ đề nghị giải ngân vốn hỗ trợ cho Kho bạc Nhà nước cấp tỉnh nơi thực hiện dự án đầu tư.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Trong thời hạn 05 ngày làm việc Kho bạc Nhà nước cấp tỉnh giải ngân khoản vốn hỗ trợ theo đề nghị của doanh nghiệp.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -57,31 +57,22 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "- Biên bản nghiệm thu hạng mục đầu tư hoặc toàn bộ dự án đã được cam kết vốn hỗ trợ.\t",
-        "code": "000.00.00.G05-KQ0365",
+        "name": "- Biên bản nghiệm thu hạng mục đầu tư hoặc toàn bộ dự án đã được cam kết vốn hỗ trợ.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Quyết định giao vốn hàng năm hoặc bổ sung cho dự án của cơ quan nhà nước có thẩm quyền (Ủy ban nhân dân cấp tỉnh đối với nguồn vốn từ ngân sách địa phương, Bộ Kế hoạch và Đầu tư đối với nguồn vốn từ ngân sách trung ương).\t",
-        "code": "000.00.00.G05-KQ0366",
+        "name": "- Quyết định giao vốn hàng năm hoặc bổ sung cho dự án của cơ quan nhà nước có thẩm quyền (Ủy ban nhân dân cấp tỉnh đối với nguồn vốn từ ngân sách địa phương, Bộ Kế hoạch và Đầu tư đối với nguồn vốn từ ngân sách trung ương).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Văn bản đề nghị giải ngân của doanh nghiệp theo mẫu số 06, quy định tại Phụ lục II ban hành kèm theo Nghị định 57/2018/NĐ-CP.\t",
-        "code": "000.00.00.G05-KQ0364",
+        "name": "- Văn bản đề nghị giải ngân của doanh nghiệp theo mẫu số 06, quy định tại Phụ lục II ban hành kèm theo Nghị định 57/2018/NĐ-CP.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -90,33 +81,22 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Không có",
-          "attachment": null
-        }
-      ],
+      "fee": "Không có",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "free",
+    "summary": "Không có",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Không có",
-        "attachment": null
+        "amount_text": "Không có",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -126,13 +106,12 @@
     {
       "title": "Khoản hỗ trợ của nhà nước cho doanh nghiệp được chuyển vào tài khoản của doanh nghiệp",
       "code": "KQ.G12.001343",
-      "id": "019d2bb2-1c73-70ac-aa18-ac82317c9969",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Doanh nghiệp nộp hồ sơ đề nghị giải ngân vốn hỗ trợ cho Kho bạc Nhà nước cấp tỉnh nơi thực hiện dự án đầu tư.\n\n\n- Bước 2: Trong thời hạn 05 ngày làm việc Kho bạc Nhà nước cấp tỉnh giải ngân khoản vốn hỗ trợ theo đề nghị của doanh nghiệp.\n\n\n",
-    "THÀNH PHẦN HỒ SƠ": "\n- Biên bản nghiệm thu hạng mục đầu tư hoặc toàn bộ dự án đã được cam kết vốn hỗ trợ.\t\n- Quyết định giao vốn hàng năm hoặc bổ sung cho dự án của cơ quan nhà nước có thẩm quyền (Ủy ban nhân dân cấp tỉnh đối với nguồn vốn từ ngân sách địa phương, Bộ Kế hoạch và Đầu tư đối với nguồn vốn từ ngân sách trung ương).\t\n- Văn bản đề nghị giải ngân của doanh nghiệp theo mẫu số 06, quy định tại Phụ lục II ban hành kèm theo Nghị định 57/2018/NĐ-CP.\t",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Doanh nghiệp nộp hồ sơ đề nghị giải ngân vốn hỗ trợ cho Kho bạc Nhà nước cấp tỉnh nơi thực hiện dự án đầu tư.\n- Bước 2: Trong thời hạn 05 ngày làm việc Kho bạc Nhà nước cấp tỉnh giải ngân khoản vốn hỗ trợ theo đề nghị của doanh nghiệp.",
+    "THÀNH PHẦN HỒ SƠ": "- Biên bản nghiệm thu hạng mục đầu tư hoặc toàn bộ dự án đã được cam kết vốn hỗ trợ.\n- Quyết định giao vốn hàng năm hoặc bổ sung cho dự án của cơ quan nhà nước có thẩm quyền (Ủy ban nhân dân cấp tỉnh đối với nguồn vốn từ ngân sách địa phương, Bộ Kế hoạch và Đầu tư đối với nguồn vốn từ ngân sách trung ương).\n- Văn bản đề nghị giải ngân của doanh nghiệp theo mẫu số 06, quy định tại Phụ lục II ban hành kèm theo Nghị định 57/2018/NĐ-CP.",
     "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 1",
     "CĂN CỨ PHÁP LÝ": "",
     "CƠ QUAN THỰC HIỆN": "Kho bạc Nhà nước - Bộ tài chính",
@@ -142,14 +121,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đầu tư vào nông nghiệp, nông thôn",
-      "slug": "dau-tu-vao-nong-nghiep-nong-thon"
+      "slug": "au-tu-vao-nong-nghiep-nong-thon"
     },
     "implementation_levels": [
       {
@@ -160,7 +134,7 @@
     "target_users": [
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Doanh nghiệp",
@@ -181,6 +155,6 @@
         "slug": "kho-bac-nha-nuoc-bo-tai-chinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

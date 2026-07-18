@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf9-5cba-711d-b07b-211cc5b230a0",
   "procedure_code": "1.012738",
   "title": "Công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài tại Việt Nam",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf9-5cba-711d-b07b-211cc5b230a0",
     "source_file": "chi-tiet-thu-tuc-1.012738.pdf",
     "source_path": "procedures/viec-lam/1.012738/chi-tiet-thu-tuc-1.012738.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:08.217989+00:00",
-    "source_updated_at": "2026-05-11T04:08:37.818Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:06.741922+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "e85d1ed49da196f5d15add123aa133d3860fe4c622e3d9bce8bc6527470a141a"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:08.217989+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "753/QĐ-BKHCN",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Công nghiệp công nghệ số, công nghệ thông tin, điện tử",
   "target_users": [
@@ -35,120 +31,81 @@
   ],
   "agency": {
     "competent_agency": "Bộ Khoa học và Công nghệ",
-    "executing_agency": "Trung tâm Chứng thực điện tử quốc gia",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "- Gửi trực tiếp đến Bộ Khoa học và Công nghệ (Tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia), địa chỉ: Số 115 đường Trần Duy Hưng, Phường Yên Hòa, TP Hà Nội.\n- Gửi trực tuyến qua hệ thống dịch vụ công trực tuyến (Cổng dịch vụ công quốc gia, https://dichvucong.gov.vn hoặc Cổng dịch vụ công của Bộ Thông tin và Truyền thông, https://dichvucong.mst.gov.vn).\n- Gửi đường bưu điện đến Bộ Khoa học và Công nghệ (Tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia), địa chỉ: Số 115 đường Trần Duy Hưng, Phường Yên Hòa, TP Hà Nội."
+    "executing_agency": "Trung tâm Chứng thực điện tử quốc gia"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài nộp hồ sơ công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài tại Việt Nam đến Bộ Khoa học và Công nghệ (Văn bản do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp, công nhận hoặc chứng nhận phải được hợp pháp hóa lãnh sự theo quy định của pháp luật Việt Nam (trừ trường hợp được miễn hợp pháp hóa lãnh sự theo quy định của pháp luật về hợp pháp hóa lãnh sự) và được dịch thuật công chứng sang tiếng Việt).\n- Trong thời hạn 45 ngày tính từ ngày nhận được hồ sơ hợp lệ, Bộ Khoa học và Công nghệ (Tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia) phối hợp với Bộ Công an xem xét, đánh giá hồ sơ và kiểm tra trạng thái chứng thư chữ ký điện tử của tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử đề nghị công nhận tại Việt Nam.\n- Trường hợp đáp ứng đủ điều kiện theo quy định:\n+ Bộ Khoa học và Công nghệ cấp giấy công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài tại Việt Nam. Mẫu giấy công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài quy định theo Mẫu số 02 ban hành kèm theo Thông tư số 06/2024/TT-BTTTT ngày 01/7/2024.\n+ Tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia công nhận chứng thư chữ ký điện tử của cho tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài được công nhận tại Việt Nam và công bố chứng thư chữ ký điện tử đó trên Hệ thống chứng thực dịch vụ tin cậy.\n- Trường hợp không đáp ứng đủ điều kiện, Bộ Khoa học và công nghệ có thông báo và nêu rõ lý do.\n- Trường hợp tổ chức thực hiện thủ tục hành chính trên môi trường điện tử, dịch vụ công trực tuyến, việc tiếp nhận và xử lý hồ sơ, trả kết quả được thực hiện theo quy định của Chính phủ về thực hiện thủ tục hành chính trên môi trường điện tử, cung cấp dịch vụ công trực tuyến của cơ quan nhà nước trên môi trường điện tử và pháp luật về giao dịch điện tử.\n",
+      "description": "- Tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài nộp hồ sơ công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài tại Việt Nam đến Bộ Khoa học và Công nghệ (Văn bản do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp, công nhận hoặc chứng nhận phải được hợp pháp hóa lãnh sự theo quy định của pháp luật Việt Nam (trừ trường hợp được miễn hợp pháp hóa lãnh sự theo quy định của pháp luật về hợp pháp hóa lãnh sự) và được dịch thuật công chứng sang tiếng Việt).\n- Trong thời hạn 45 ngày tính từ ngày nhận được hồ sơ hợp lệ, Bộ Khoa học và Công nghệ (Tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia) phối hợp với Bộ Công an xem xét, đánh giá hồ sơ và kiểm tra trạng thái chứng thư chữ ký điện tử của tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử đề nghị công nhận tại Việt Nam.\n- Trường hợp đáp ứng đủ điều kiện theo quy định:\n+ Bộ Khoa học và Công nghệ cấp giấy công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài tại Việt Nam. Mẫu giấy công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài quy định theo Mẫu số 02 ban hành kèm theo Thông tư số 06/2024/TT-BTTTT ngày 01/7/2024.\n+ Tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia công nhận chứng thư chữ ký điện tử của cho tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài được công nhận tại Việt Nam và công bố chứng thư chữ ký điện tử đó trên Hệ thống chứng thực dịch vụ tin cậy.\n- Trường hợp không đáp ứng đủ điều kiện, Bộ Khoa học và công nghệ có thông báo và nêu rõ lý do.\n- Trường hợp tổ chức thực hiện thủ tục hành chính trên môi trường điện tử, dịch vụ công trực tuyến, việc tiếp nhận và xử lý hồ sơ, trả kết quả được thực hiện theo quy định của Chính phủ về thực hiện thủ tục hành chính trên môi trường điện tử, cung cấp dịch vụ công trực tuyến của cơ quan nhà nước trên môi trường điện tử và pháp luật về giao dịch điện tử.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "- Văn bản đề nghị công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài theo mẫu tại Mẫu số 01 ban hành kèm theo Thông tư số 06/2024/TT-BTTTT ngày 01/7/2024.",
-        "code": "000.00.00.G14-KQ002312",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019da67a-db7c-774f-95c3-e5dfe8dcc06a",
-            "name": "TT06_Mau so 01.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "TT06_Mau so 01.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Tài liệu hợp pháp hóa lãnh sự",
-        "code": "000.00.00.G14-KQ002313",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Giấy chứng nhận đăng ký hoạt động của văn phòng đại diện tại Việt Nam",
-        "code": "000.00.00.G14-KQ002321",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Các văn bản, tài liệu kỹ thuật chứng minh chữ ký điện tử nước ngoài, chứng thư chữ ký điện tử nước ngoài do tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài đó cung cấp phù hợp với tiêu chuẩn, quy chuẩn kỹ thuật về chữ ký điện tử, chứng thư chữ ký điện tử theo quy định của pháp luật Việt Nam hoặc điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên",
-        "code": "000.00.00.G14-KQ002317",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Tối thiểu 01 chứng thư chữ ký điện tử nước ngoài của thuê bao kèm theo tài liệu đăng ký sử dụng của thuê bao đó.",
-        "code": "000.00.00.G14-KQ002318",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Văn bản chứng minh có quy định về hồ sơ thuê bao, quy định quy trình xác minh, xác thực thông tin định danh của thuê bao",
-        "code": "000.00.00.G14-KQ002319",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Bản dịch thuật công chứng giấy phép hoặc giấy chứng nhận chứng minh thành lập và hoạt động hợp pháp tại quốc gia đăng ký hoạt động",
-        "code": "000.00.00.G14-KQ002314",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Bản dịch thuật công chứng Báo cáo kiểm toán kỹ thuật của Hệ thống cung cấp dịch vụ chứng thực chữ ký điện tử từ tổ chức kiểm toán hoạt động hợp pháp tại quốc gia đăng ký hoạt động trong vòng 06 tháng trước ngày nộp hồ sơ",
-        "code": "000.00.00.G14-KQ002316",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Bản cam kết đang hoạt động trong vòng 06 tháng trước ngày nộp hồ sơ.",
-        "code": "000.00.00.G14-KQ002315",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Chứng thư chữ ký điện tử nước ngoài có giá trị pháp lý và được tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài cập nhật trạng thái vào Hệ thống chứng thực dịch vụ tin cậy của Tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử quốc gia.",
-        "code": "000.00.00.G14-KQ002320",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -157,35 +114,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "45 ngày",
-      "processing_time_value": 45,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 1
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "45 ngày",
-      "processing_time_value": 45,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -193,51 +130,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "45 ngày",
-      "processing_time_value": 45,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       }
     ]
   },
@@ -245,26 +167,22 @@
     {
       "title": "Nghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước",
       "document_number": "190/2025/NQ-QH15",
-      "id": "019d2bb3-5d84-71c5-b671-f40a5ee32475",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định số 23/2025/NĐ-CP của Chính phủ: Quy định về chữ ký điện tử và dịch vụ tin cậy",
       "document_number": "23/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afed-b7670ec524c2",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật Giao dịch điện tử năm 2023",
       "document_number": "20/2023/QH15",
-      "id": "019d2bb3-5d84-71c5-b672-0af27f5afaf6",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư số 06/2024/TT-BTTTT Quy định công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài tại Việt Nam; công nhận chữ ký điện tử, chứng thư chữ ký điện tử nước ngoài tại Việt Nam",
       "document_number": "06/2024/TT-BTTTT",
-      "id": "019d2bb3-5d7c-71ab-9f04-2bc52853c6c1",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "- Thành lập và hoạt động hợp pháp tại quốc gia đăng ký hoạt động; có báo cáo kiểm toán kỹ thuật của hệ thống cung cấp dịch vụ chứng thực chữ ký điện tử từ tổ chức kiểm toán hoạt động hợp pháp tại quốc gia đăng ký hoạt động;\n- Chữ ký điện tử nước ngoài, chứng thư chữ ký điện tử nước ngoài do tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài cung cấp phải phù hợp với tiêu chuẩn, quy chuẩn kỹ thuật về chữ ký điện tử, chứng thư chữ ký điện tử theo quy định của pháp luật Việt Nam hoặc tiêu chuẩn quốc tế đã được thừa nhận hoặc điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên;\n- Chứng thư chữ ký điện tử nước ngoài do tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài cung cấp hình thành dựa trên thông tin định danh đầy đủ đã được xác thực của tổ chức, cá nhân nước ngoài;\n- Tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài phải cập nhật trạng thái của chứng thư chữ ký điện tử nước ngoài vào hệ thống chứng thực dịch vụ tin cậy của cơ quan có thẩm quyền của Việt Nam;\n- Có văn phòng đại diện tại Việt Nam.",
@@ -272,13 +190,12 @@
     {
       "title": "Giấy công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài tại Việt Nam",
       "code": "KQ.G14.000203",
-      "id": "019d2bb2-1c78-7725-a74e-bcc50bef46ee",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài nộp hồ sơ công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài tại Việt Nam đến Bộ Khoa học và Công nghệ (Văn bản do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp, công nhận hoặc chứng nhận phải được hợp pháp hóa lãnh sự theo quy định của pháp luật Việt Nam (trừ trường hợp được miễn hợp pháp hóa lãnh sự theo quy định của pháp luật về hợp pháp hóa lãnh sự) và được dịch thuật công chứng sang tiếng Việt).\n- Trong thời hạn 45 ngày tính từ ngày nhận được hồ sơ hợp lệ, Bộ Khoa học và Công nghệ (Tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia) phối hợp với Bộ Công an xem xét, đánh giá hồ sơ và kiểm tra trạng thái chứng thư chữ ký điện tử của tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử đề nghị công nhận tại Việt Nam.\n- Trường hợp đáp ứng đủ điều kiện theo quy định:\n+ Bộ Khoa học và Công nghệ cấp giấy công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài tại Việt Nam. Mẫu giấy công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài quy định theo Mẫu số 02 ban hành kèm theo Thông tư số 06/2024/TT-BTTTT ngày 01/7/2024.\n+ Tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia công nhận chứng thư chữ ký điện tử của cho tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài được công nhận tại Việt Nam và công bố chứng thư chữ ký điện tử đó trên Hệ thống chứng thực dịch vụ tin cậy.\n- Trường hợp không đáp ứng đủ điều kiện, Bộ Khoa học và công nghệ có thông báo và nêu rõ lý do.\n- Trường hợp tổ chức thực hiện thủ tục hành chính trên môi trường điện tử, dịch vụ công trực tuyến, việc tiếp nhận và xử lý hồ sơ, trả kết quả được thực hiện theo quy định của Chính phủ về thực hiện thủ tục hành chính trên môi trường điện tử, cung cấp dịch vụ công trực tuyến của cơ quan nhà nước trên môi trường điện tử và pháp luật về giao dịch điện tử.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nTài liệu hợp pháp hóa lãnh sự\nGiấy chứng nhận đăng ký hoạt động của văn phòng đại diện tại Việt Nam\n- Văn bản đề nghị công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài theo mẫu tại Mẫu số 01 ban hành kèm theo Thông tư số 06/2024/TT-BTTTT ngày 01/7/2024.\nCác văn bản, tài liệu kỹ thuật chứng minh chữ ký điện tử nước ngoài, chứng thư chữ ký điện tử nước ngoài do tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài đó cung cấp phù hợp với tiêu chuẩn, quy chuẩn kỹ thuật về chữ ký điện tử, chứng thư chữ ký điện tử theo quy định của pháp luật Việt Nam hoặc điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên\nTối thiểu 01 chứng thư chữ ký điện tử nước ngoài của thuê bao kèm theo tài liệu đăng ký sử dụng của thuê bao đó.\nVăn bản chứng minh có quy định về hồ sơ thuê bao, quy định quy trình xác minh, xác thực thông tin định danh của thuê bao\nBản dịch thuật công chứng giấy phép hoặc giấy chứng nhận chứng minh thành lập và hoạt động hợp pháp tại quốc gia đăng ký hoạt động\nBản dịch thuật công chứng Báo cáo kiểm toán kỹ thuật của Hệ thống cung cấp dịch vụ chứng thực chữ ký điện tử từ tổ chức kiểm toán hoạt động hợp pháp tại quốc gia đăng ký hoạt động trong vòng 06 tháng trước ngày nộp hồ sơ\nBản cam kết đang hoạt động trong vòng 06 tháng trước ngày nộp hồ sơ.\nChứng thư chữ ký điện tử nước ngoài có giá trị pháp lý và được tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài cập nhật trạng thái vào Hệ thống chứng thực dịch vụ tin cậy của Tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử quốc gia.",
+    "TRÌNH TỰ THỰC HIỆN": "- Tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài nộp hồ sơ công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài tại Việt Nam đến Bộ Khoa học và Công nghệ (Văn bản do cơ quan, tổ chức có thẩm quyền của nước ngoài cấp, công nhận hoặc chứng nhận phải được hợp pháp hóa lãnh sự theo quy định của pháp luật Việt Nam (trừ trường hợp được miễn hợp pháp hóa lãnh sự theo quy định của pháp luật về hợp pháp hóa lãnh sự) và được dịch thuật công chứng sang tiếng Việt).\n- Trong thời hạn 45 ngày tính từ ngày nhận được hồ sơ hợp lệ, Bộ Khoa học và Công nghệ (Tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia) phối hợp với Bộ Công an xem xét, đánh giá hồ sơ và kiểm tra trạng thái chứng thư chữ ký điện tử của tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử đề nghị công nhận tại Việt Nam.\n- Trường hợp đáp ứng đủ điều kiện theo quy định:\n+ Bộ Khoa học và Công nghệ cấp giấy công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài tại Việt Nam. Mẫu giấy công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài quy định theo Mẫu số 02 ban hành kèm theo Thông tư số 06/2024/TT-BTTTT ngày 01/7/2024.\n+ Tổ chức cung cấp dịch vụ chứng thực điện tử quốc gia công nhận chứng thư chữ ký điện tử của cho tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài được công nhận tại Việt Nam và công bố chứng thư chữ ký điện tử đó trên Hệ thống chứng thực dịch vụ tin cậy.\n- Trường hợp không đáp ứng đủ điều kiện, Bộ Khoa học và công nghệ có thông báo và nêu rõ lý do.\n- Trường hợp tổ chức thực hiện thủ tục hành chính trên môi trường điện tử, dịch vụ công trực tuyến, việc tiếp nhận và xử lý hồ sơ, trả kết quả được thực hiện theo quy định của Chính phủ về thực hiện thủ tục hành chính trên môi trường điện tử, cung cấp dịch vụ công trực tuyến của cơ quan nhà nước trên môi trường điện tử và pháp luật về giao dịch điện tử.",
+    "THÀNH PHẦN HỒ SƠ": "- Văn bản đề nghị công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài theo mẫu tại Mẫu số 01 ban hành kèm theo Thông tư số 06/2024/TT-BTTTT ngày 01/7/2024.\nTài liệu hợp pháp hóa lãnh sự\nGiấy chứng nhận đăng ký hoạt động của văn phòng đại diện tại Việt Nam\nCác văn bản, tài liệu kỹ thuật chứng minh chữ ký điện tử nước ngoài, chứng thư chữ ký điện tử nước ngoài do tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài đó cung cấp phù hợp với tiêu chuẩn, quy chuẩn kỹ thuật về chữ ký điện tử, chứng thư chữ ký điện tử theo quy định của pháp luật Việt Nam hoặc điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên\nTối thiểu 01 chứng thư chữ ký điện tử nước ngoài của thuê bao kèm theo tài liệu đăng ký sử dụng của thuê bao đó.\nVăn bản chứng minh có quy định về hồ sơ thuê bao, quy định quy trình xác minh, xác thực thông tin định danh của thuê bao\nBản dịch thuật công chứng giấy phép hoặc giấy chứng nhận chứng minh thành lập và hoạt động hợp pháp tại quốc gia đăng ký hoạt động\nBản dịch thuật công chứng Báo cáo kiểm toán kỹ thuật của Hệ thống cung cấp dịch vụ chứng thực chữ ký điện tử từ tổ chức kiểm toán hoạt động hợp pháp tại quốc gia đăng ký hoạt động trong vòng 06 tháng trước ngày nộp hồ sơ\nBản cam kết đang hoạt động trong vòng 06 tháng trước ngày nộp hồ sơ.\nChứng thư chữ ký điện tử nước ngoài có giá trị pháp lý và được tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài cập nhật trạng thái vào Hệ thống chứng thực dịch vụ tin cậy của Tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử quốc gia.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 45 ngày\nQua dịch vụ bưu chính: 45 ngày\nTrực tiếp: 45 ngày",
     "CĂN CỨ PHÁP LÝ": "Nghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước - 190/2025/NQ-QH15\nNghị định số 23/2025/NĐ-CP của Chính phủ: Quy định về chữ ký điện tử và dịch vụ tin cậy - 23/2025/NĐ-CP\nLuật Giao dịch điện tử năm 2023 - 20/2023/QH15\nThông tư số 06/2024/TT-BTTTT Quy định công nhận tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài tại Việt Nam; công nhận chữ ký điện tử, chứng thư chữ ký điện tử nước ngoài tại Việt Nam - 06/2024/TT-BTTTT",
     "CƠ QUAN THỰC HIỆN": "Trung tâm Chứng thực điện tử quốc gia",
@@ -288,14 +205,9 @@
     "MÔ TẢ": "- Thành lập và hoạt động hợp pháp tại quốc gia đăng ký hoạt động; có báo cáo kiểm toán kỹ thuật của hệ thống cung cấp dịch vụ chứng thực chữ ký điện tử từ tổ chức kiểm toán hoạt động hợp pháp tại quốc gia đăng ký hoạt động;\n- Chữ ký điện tử nước ngoài, chứng thư chữ ký điện tử nước ngoài do tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài cung cấp phải phù hợp với tiêu chuẩn, quy chuẩn kỹ thuật về chữ ký điện tử, chứng thư chữ ký điện tử theo quy định của pháp luật Việt Nam hoặc tiêu chuẩn quốc tế đã được thừa nhận hoặc điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên;\n- Chứng thư chữ ký điện tử nước ngoài do tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài cung cấp hình thành dựa trên thông tin định danh đầy đủ đã được xác thực của tổ chức, cá nhân nước ngoài;\n- Tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài phải cập nhật trạng thái của chứng thư chữ ký điện tử nước ngoài vào hệ thống chứng thực dịch vụ tin cậy của cơ quan có thẩm quyền của Việt Nam;\n- Có văn phòng đại diện tại Việt Nam."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Công nghiệp công nghệ số, công nghệ thông tin, điện tử",
-      "slug": "cong-nghiep-cong-nghe-so-cong-nghe-thong-tin-dien-tu"
+      "slug": "cong-nghiep-cong-nghe-so-cong-nghe-thong-tin-ien-tu"
     },
     "implementation_levels": [
       {
@@ -312,9 +224,9 @@
     "agencies": [
       {
         "name": "Trung tâm Chứng thực điện tử quốc gia",
-        "slug": "trung-tam-chung-thuc-dien-tu-quoc-gia"
+        "slug": "trung-tam-chung-thuc-ien-tu-quoc-gia"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

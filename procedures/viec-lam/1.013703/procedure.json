@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-1b5e-74c5-be8d-c902d128672d",
   "procedure_code": "1.013703",
   "title": "Thành lập hội",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-1b5e-74c5-be8d-c902d128672d",
     "source_file": "chi-tiet-thu-tuc-1.013703.pdf",
     "source_path": "procedures/viec-lam/1.013703/chi-tiet-thu-tuc-1.013703.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:22:10.846375+00:00",
-    "source_updated_at": "2026-04-16T07:21:06.894Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:20.473945+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "2ac9c32e18910363f6cedfa4ab1e02fccc1f7449df73e27513f517a27b909f3d"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:10.846375+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "627/QĐ-BNV",
   "implementation_level": "Cấp xã",
-  "implementation_levels": [
-    "Cấp xã"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Quản lý nhà nước về hội, quỹ",
   "target_users": [
@@ -35,18 +31,36 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": ""
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Ban vận động thành lập hội có phạm vi hoạt động trong xã gửi hồ sơ xin thành lập hội đến Ủy ban nhân dân cấp xã.\n- Bước 2: Cán bộ tiếp nhận hồ sơ xem xét hồ sơ và đề nghị bổ sung trong trường hợp hồ sơ chưa đầy đủ và hợp pháp. Trường hợp từ chối tiếp nhận, giải quyết hồ sơ phải nêu rõ lý do.\n- Bước 3: Kể từ ngày nhận hồ sơ hợp pháp, cán bộ tiếp nhận hồ sơ nghiên cứu, thẩm định hồ sơ xin phép thành lập hội và thực hiện quy trình lấy ý kiến các cơ quan có liên quan, tổng hợp các ý kiến góp ý, đề nghị bổ sung hồ sơ (nếu có).\n- Bước 4: Chủ tịch Ủy ban nhân dân cấp xã xem xét, quyết định cho phép thành lập hội. Trường hợp không đồng ý phải có văn bản trả lời và nêu rõ lý do.\n",
+      "description": "- Bước 1: Ban vận động thành lập hội có phạm vi hoạt động trong xã gửi hồ sơ xin thành lập hội đến Ủy ban nhân dân cấp xã.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Cán bộ tiếp nhận hồ sơ xem xét hồ sơ và đề nghị bổ sung trong trường hợp hồ sơ chưa đầy đủ và hợp pháp. Trường hợp từ chối tiếp nhận, giải quyết hồ sơ phải nêu rõ lý do.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "- Bước 3: Kể từ ngày nhận hồ sơ hợp pháp, cán bộ tiếp nhận hồ sơ nghiên cứu, thẩm định hồ sơ xin phép thành lập hội và thực hiện quy trình lấy ý kiến các cơ quan có liên quan, tổng hợp các ý kiến góp ý, đề nghị bổ sung hồ sơ (nếu có).",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "- Bước 4: Chủ tịch Ủy ban nhân dân cấp xã xem xét, quyết định cho phép thành lập hội. Trường hợp không đồng ý phải có văn bản trả lời và nêu rõ lý do.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -55,84 +69,57 @@
     "conditional": [
       {
         "name": "- Danh sách và đơn đăng ký tham gia thành lập hội của tổ chức, công dân Việt Nam đăng ký tham gia thành lập hội (bản gốc)",
-        "code": "000.00.00.G09-KQ002392",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Đơn đề nghị thành lập hội (theo mẫu)",
-        "code": "000.00.00.G09-KQ002389",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Ý kiến đồng ý của cơ quan có thẩm quyền theo quy định về phân cấp quản lý cán bộ đối với cán bộ, công chức, viên chức tham gia làm trưởng ban vận động thành lập hội (bản chính)",
-        "code": "000.00.00.G09-KQ002394",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Bản kê khai tài sản thành lập hội (bản gốc) của ban vận động thành lập hội tự nguyện đóng góp (nếu có)",
-        "code": "000.00.00.G09-KQ002396",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Sơ yếu lý lịch cá nhân theo mẫu và phiếu lý lịch tư pháp số 1 (bản chính) của trưởng ban vận động thành lập hội không quá 06 tháng tính đến ngày nộp hồ sơ",
-        "code": "000.00.00.G09-KQ002393",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Văn bản chứng minh quyền sử dụng hợp pháp nơi dự kiến đặt trụ sở của hội theo quy định của pháp luật (bản chính hoặc bản sao có chứng thực).",
-        "code": "000.00.00.G09-KQ002395",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Bản cam kết đảm bảo kinh phí hoạt động trong nhiệm kỳ lần thứ nhất của hội nếu được thành lập (bản gốc)",
-        "code": "000.00.00.G09-KQ002397",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Dự thảo điều lệ hội (theo mẫu)",
-        "code": "000.00.00.G09-KQ002390",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Quyết định công nhận ban vận động thành lập hội kèm theo danh sách thành viên ban vận động thành lập hội (bản chính);",
-        "code": "000.00.00.G09-KQ002028",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -141,87 +128,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "60 ngày làm việc",
-      "processing_time_value": 60,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Kể từ ngày Ủy ban nhân dân cấp xã nhận hồ sơ đầy đủ và hợp pháp\nNộp hồ sơ trực tiếp tại Ủy ban nhân dân cấp xã; qua dịch vụ bưu chính công ích hoặc qua Cổng Dịch vụ công trực tuyến. Hồ sơ phải có xác nhận văn bản đến của cơ quan có thẩm quyền. Nếu gửi qua dịch vụ bưu chính công ích, ngày tiếp nhận hồ sơ được tính theo ngày ghi trên dấu công văn đến.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "60 ngày làm việc",
-      "processing_time_value": 60,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Kể từ ngày Ủy ban nhân dân cấp xã nhận hồ sơ đầy đủ và hợp pháp\nNộp hồ sơ trực tiếp tại Ủy ban nhân dân cấp xã; qua dịch vụ bưu chính công ích hoặc qua Cổng Dịch vụ công trực tuyến. Hồ sơ phải có xác nhận văn bản đến của cơ quan có thẩm quyền. Nếu gửi qua dịch vụ bưu chính công ích, ngày tiếp nhận hồ sơ được tính theo ngày ghi trên dấu công văn đến.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "60 ngày làm việc",
-      "processing_time_value": 60,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Kể từ ngày Ủy ban nhân dân cấp xã nhận hồ sơ đầy đủ và hợp pháp\nNộp hồ sơ trực tiếp tại Ủy ban nhân dân cấp xã; qua dịch vụ bưu chính công ích hoặc qua Cổng Dịch vụ công trực tuyến. Hồ sơ phải có xác nhận văn bản đến của cơ quan có thẩm quyền. Nếu gửi qua dịch vụ bưu chính công ích, ngày tiếp nhận hồ sơ được tính theo ngày ghi trên dấu công văn đến.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -229,14 +181,12 @@
     {
       "title": "Nghị định số 126/2024/NĐ-CP của Chính phủ: Quy định về tổ chức, hoạt động và quản lý hội",
       "document_number": "126/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-f1533335aca7",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nội vụ",
       "document_number": "129/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-1c153ca6400f",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "conditions": "a) Điều kiện thành lập hội: \n- Tên gọi của hội: Viết bằng tiếng Việt hoặc phiên âm theo tiếng Việt, nếu không phiên âm ra được tiếng Việt thì dùng tiếng nước ngoài; tên gọi riêng của hội có thể được phiên âm, dịch ra tiếng dân tộc thiểu số, tiếng nước ngoài phù hợp với quy định của pháp luật; Phù hợp với tôn chỉ, mục đích, phạm vi, lĩnh vực hoạt động chính của hội; Không trùng lặp toàn bộ tên gọi hoặc gây nhầm lẫn, bao trùm tên gọi với các hội khác đã được thành lập hợp pháp trước đó; Không vi phạm đạo đức xã hội, thuần phong mỹ tục và truyền thống văn hóa dân tộc.\n- Có mục đích hoạt động không trái với pháp luật, không trùng lặp về tên gọi và lĩnh vực hoạt động chính với hội đã được thành lập hợp pháp trước đó trên cùng địa bàn lãnh thổ.\n- Có điều lệ.\n- Có trụ sở.\n- Hội hoạt động trong phạm vi xã có ít nhất 10 tổ chức, công dân tại đơn vị hành chính cấp xã có đủ điều kiện, tự nguyện, có đơn đăng ký tham gia thành lập hội.\nc) Phải có Ban vận động thành lập hội được Chủ tịch Ủy ban nhân dân cấp xã công nhận.\nd) Trong thời hạn 60 ngày kể từ ngày quyết định cho phép thành lập hội có hiệu lực, Ban vận động thành lập hội phải tổ chức đại hội.\nđ) Nếu quá thời hạn trên ban vận động thành lập hội không tổ chức đại hội, thì trong thời hạn 15 ngày kể từ ngày hết thời hạn tổ chức đại hội, ban vận động thành lập hội có văn bản gửi cơ quan nhà nước đã quyết định cho phép thành lập hội đề nghị gia hạn. Thời gian gia hạn không quá 30 ngày, nếu quá thời gian được gia hạn mà ban vận động thành lập hội không tổ chức đại hội thì quyết định cho phép thành lập hội hết hiệu lực. Hội bị thu hồi quyết định cho phép thành lập sẽ không được thành lập lại trong thời hạn 03 năm kể từ ngày bị thu hồi quyết định cho phép thành lập, nếu có nhu cầu tiếp tục thành lập hội, ban vận động thành lập hội phải xin phép thành lập lại hội, trình tự thủ tục như mới bắt đầu.",
@@ -244,14 +194,13 @@
     {
       "title": "Quyết định cho phép thành lập hội",
       "code": "KQ.G09.000187",
-      "id": "019d2bb2-1c4c-77ab-bf6d-ec61ff3421e0",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Ban vận động thành lập hội có phạm vi hoạt động trong xã gửi hồ sơ xin thành lập hội đến Ủy ban nhân dân cấp xã.\n- Bước 2: Cán bộ tiếp nhận hồ sơ xem xét hồ sơ và đề nghị bổ sung trong trường hợp hồ sơ chưa đầy đủ và hợp pháp. Trường hợp từ chối tiếp nhận, giải quyết hồ sơ phải nêu rõ lý do.\n- Bước 3: Kể từ ngày nhận hồ sơ hợp pháp, cán bộ tiếp nhận hồ sơ nghiên cứu, thẩm định hồ sơ xin phép thành lập hội và thực hiện quy trình lấy ý kiến các cơ quan có liên quan, tổng hợp các ý kiến góp ý, đề nghị bổ sung hồ sơ (nếu có).\n- Bước 4: Chủ tịch Ủy ban nhân dân cấp xã xem xét, quyết định cho phép thành lập hội. Trường hợp không đồng ý phải có văn bản trả lời và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n- Danh sách và đơn đăng ký tham gia thành lập hội của tổ chức, công dân Việt Nam đăng ký tham gia thành lập hội (bản gốc)\n- Đơn đề nghị thành lập hội (theo mẫu)\n- Ý kiến đồng ý của cơ quan có thẩm quyền theo quy định về phân cấp quản lý cán bộ đối với cán bộ, công chức, viên chức tham gia làm trưởng ban vận động thành lập hội (bản chính)\n- Bản kê khai tài sản thành lập hội (bản gốc) của ban vận động thành lập hội tự nguyện đóng góp (nếu có)\n- Sơ yếu lý lịch cá nhân theo mẫu và phiếu lý lịch tư pháp số 1 (bản chính) của trưởng ban vận động thành lập hội không quá 06 tháng tính đến ngày nộp hồ sơ\n- Văn bản chứng minh quyền sử dụng hợp pháp nơi dự kiến đặt trụ sở của hội theo quy định của pháp luật (bản chính hoặc bản sao có chứng thực).\n- Bản cam kết đảm bảo kinh phí hoạt động trong nhiệm kỳ lần thứ nhất của hội nếu được thành lập (bản gốc)\n- Dự thảo điều lệ hội (theo mẫu)\n- Quyết định công nhận ban vận động thành lập hội kèm theo danh sách thành viên ban vận động thành lập hội (bản chính);",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 60 ngày làm việc - Kể từ ngày Ủy ban nhân dân cấp xã nhận hồ sơ đầy đủ và hợp pháp\nNộp hồ sơ trực tiếp tại Ủy ban nhân dân cấp xã; qua dịch vụ bưu chính công ích hoặc qua Cổng Dịch vụ công trực tuyến. Hồ sơ phải có xác nhận văn bản đến của cơ quan có thẩm quyền. Nếu gửi qua dịch vụ bưu chính công ích, ngày tiếp nhận hồ sơ được tính theo ngày ghi trên dấu công văn đến.\nQua dịch vụ bưu chính: 60 ngày làm việc - Kể từ ngày Ủy ban nhân dân cấp xã nhận hồ sơ đầy đủ và hợp pháp\nNộp hồ sơ trực tiếp tại Ủy ban nhân dân cấp xã; qua dịch vụ bưu chính công ích hoặc qua Cổng Dịch vụ công trực tuyến. Hồ sơ phải có xác nhận văn bản đến của cơ quan có thẩm quyền. Nếu gửi qua dịch vụ bưu chính công ích, ngày tiếp nhận hồ sơ được tính theo ngày ghi trên dấu công văn đến.\nTrực tiếp: 60 ngày làm việc - Kể từ ngày Ủy ban nhân dân cấp xã nhận hồ sơ đầy đủ và hợp pháp\nNộp hồ sơ trực tiếp tại Ủy ban nhân dân cấp xã; qua dịch vụ bưu chính công ích hoặc qua Cổng Dịch vụ công trực tuyến. Hồ sơ phải có xác nhận văn bản đến của cơ quan có thẩm quyền. Nếu gửi qua dịch vụ bưu chính công ích, ngày tiếp nhận hồ sơ được tính theo ngày ghi trên dấu công văn đến.",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Ban vận động thành lập hội có phạm vi hoạt động trong xã gửi hồ sơ xin thành lập hội đến Ủy ban nhân dân cấp xã.\n- Bước 2: Cán bộ tiếp nhận hồ sơ xem xét hồ sơ và đề nghị bổ sung trong trường hợp hồ sơ chưa đầy đủ và hợp pháp. Trường hợp từ chối tiếp nhận, giải quyết hồ sơ phải nêu rõ lý do.\n- Bước 3: Kể từ ngày nhận hồ sơ hợp pháp, cán bộ tiếp nhận hồ sơ nghiên cứu, thẩm định hồ sơ xin phép thành lập hội và thực hiện quy trình lấy ý kiến các cơ quan có liên quan, tổng hợp các ý kiến góp ý, đề nghị bổ sung hồ sơ (nếu có).\n- Bước 4: Chủ tịch Ủy ban nhân dân cấp xã xem xét, quyết định cho phép thành lập hội. Trường hợp không đồng ý phải có văn bản trả lời và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "- Danh sách và đơn đăng ký tham gia thành lập hội của tổ chức, công dân Việt Nam đăng ký tham gia thành lập hội (bản gốc)\n- Đơn đề nghị thành lập hội (theo mẫu)\n- Ý kiến đồng ý của cơ quan có thẩm quyền theo quy định về phân cấp quản lý cán bộ đối với cán bộ, công chức, viên chức tham gia làm trưởng ban vận động thành lập hội (bản chính)\n- Bản kê khai tài sản thành lập hội (bản gốc) của ban vận động thành lập hội tự nguyện đóng góp (nếu có)\n- Sơ yếu lý lịch cá nhân theo mẫu và phiếu lý lịch tư pháp số 1 (bản chính) của trưởng ban vận động thành lập hội không quá 06 tháng tính đến ngày nộp hồ sơ\n- Văn bản chứng minh quyền sử dụng hợp pháp nơi dự kiến đặt trụ sở của hội theo quy định của pháp luật (bản chính hoặc bản sao có chứng thực).\n- Bản cam kết đảm bảo kinh phí hoạt động trong nhiệm kỳ lần thứ nhất của hội nếu được thành lập (bản gốc)\n- Dự thảo điều lệ hội (theo mẫu)\n- Quyết định công nhận ban vận động thành lập hội kèm theo danh sách thành viên ban vận động thành lập hội (bản chính);",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 60 ngày làm việc\nQua dịch vụ bưu chính: 60 ngày làm việc\nTrực tiếp: 60 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 126/2024/NĐ-CP của Chính phủ: Quy định về tổ chức, hoạt động và quản lý hội - 126/2024/NĐ-CP\nQuy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nội vụ - 129/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "a) Điều kiện thành lập hội: \n- Tên gọi của hội: Viết bằng tiếng Việt hoặc phiên âm theo tiếng Việt, nếu không phiên âm ra được tiếng Việt thì dùng tiếng nước ngoài; tên gọi riêng của hội có thể được phiên âm, dịch ra tiếng dân tộc thiểu số, tiếng nước ngoài phù hợp với quy định của pháp luật; Phù hợp với tôn chỉ, mục đích, phạm vi, lĩnh vực hoạt động chính của hội; Không trùng lặp toàn bộ tên gọi hoặc gây nhầm lẫn, bao trùm tên gọi với các hội khác đã được thành lập hợp pháp trước đó; Không vi phạm đạo đức xã hội, thuần phong mỹ tục và truyền thống văn hóa dân tộc.\n- Có mục đích hoạt động không trái với pháp luật, không trùng lặp về tên gọi và lĩnh vực hoạt động chính với hội đã được thành lập hợp pháp trước đó trên cùng địa bàn lãnh thổ.\n- Có điều lệ.\n- Có trụ sở.\n- Hội hoạt động trong phạm vi xã có ít nhất 10 tổ chức, công dân tại đơn vị hành chính cấp xã có đủ điều kiện, tự nguyện, có đơn đăng ký tham gia thành lập hội.\nc) Phải có Ban vận động thành lập hội được Chủ tịch Ủy ban nhân dân cấp xã công nhận.\nd) Trong thời hạn 60 ngày kể từ ngày quyết định cho phép thành lập hội có hiệu lực, Ban vận động thành lập hội phải tổ chức đại hội.\nđ) Nếu quá thời hạn trên ban vận động thành lập hội không tổ chức đại hội, thì trong thời hạn 15 ngày kể từ ngày hết thời hạn tổ chức đại hội, ban vận động thành lập hội có văn bản gửi cơ quan nhà nước đã quyết định cho phép thành lập hội đề nghị gia hạn. Thời gian gia hạn không quá 30 ngày, nếu quá thời gian được gia hạn mà ban vận động thành lập hội không tổ chức đại hội thì quyết định cho phép thành lập hội hết hiệu lực. Hội bị thu hồi quyết định cho phép thành lập sẽ không được thành lập lại trong thời hạn 03 năm kể từ ngày bị thu hồi quyết định cho phép thành lập, nếu có nhu cầu tiếp tục thành lập hội, ban vận động thành lập hội phải xin phép thành lập lại hội, trình tự thủ tục như mới bắt đầu.",
@@ -260,11 +209,6 @@
     "MÔ TẢ": "a) Điều kiện thành lập hội: \n- Tên gọi của hội: Viết bằng tiếng Việt hoặc phiên âm theo tiếng Việt, nếu không phiên âm ra được tiếng Việt thì dùng tiếng nước ngoài; tên gọi riêng của hội có thể được phiên âm, dịch ra tiếng dân tộc thiểu số, tiếng nước ngoài phù hợp với quy định của pháp luật; Phù hợp với tôn chỉ, mục đích, phạm vi, lĩnh vực hoạt động chính của hội; Không trùng lặp toàn bộ tên gọi hoặc gây nhầm lẫn, bao trùm tên gọi với các hội khác đã được thành lập hợp pháp trước đó; Không vi phạm đạo đức xã hội, thuần phong mỹ tục và truyền thống văn hóa dân tộc.\n- Có mục đích hoạt động không trái với pháp luật, không trùng lặp về tên gọi và lĩnh vực hoạt động chính với hội đã được thành lập hợp pháp trước đó trên cùng địa bàn lãnh thổ.\n- Có điều lệ.\n- Có trụ sở.\n- Hội hoạt động trong phạm vi xã có ít nhất 10 tổ chức, công dân tại đơn vị hành chính cấp xã có đủ điều kiện, tự nguyện, có đơn đăng ký tham gia thành lập hội.\nc) Phải có Ban vận động thành lập hội được Chủ tịch Ủy ban nhân dân cấp xã công nhận.\nd) Trong thời hạn 60 ngày kể từ ngày quyết định cho phép thành lập hội có hiệu lực, Ban vận động thành lập hội phải tổ chức đại hội.\nđ) Nếu quá thời hạn trên ban vận động thành lập hội không tổ chức đại hội, thì trong thời hạn 15 ngày kể từ ngày hết thời hạn tổ chức đại hội, ban vận động thành lập hội có văn bản gửi cơ quan nhà nước đã quyết định cho phép thành lập hội đề nghị gia hạn. Thời gian gia hạn không quá 30 ngày, nếu quá thời gian được gia hạn mà ban vận động thành lập hội không tổ chức đại hội thì quyết định cho phép thành lập hội hết hiệu lực. Hội bị thu hồi quyết định cho phép thành lập sẽ không được thành lập lại trong thời hạn 03 năm kể từ ngày bị thu hồi quyết định cho phép thành lập, nếu có nhu cầu tiếp tục thành lập hội, ban vận động thành lập hội phải xin phép thành lập lại hội, trình tự thủ tục như mới bắt đầu."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Quản lý nhà nước về hội, quỹ",
       "slug": "quan-ly-nha-nuoc-ve-hoi-quy"
@@ -282,6 +226,6 @@
       }
     ],
     "agencies": [],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

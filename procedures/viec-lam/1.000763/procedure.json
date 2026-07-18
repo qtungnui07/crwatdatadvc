@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bff-8b7f-7072-a85d-38051c061e41",
   "procedure_code": "1.000763",
   "title": "Thủ tục đề nghị mua bán, chuyển nhượng phần vốn góp giữa các thành viên góp vốn hiện tại và thành viên góp vốn mới (bên mua, bên nhận chuyển nhượng) của tổ chức tài chính vi mô là công ty trách nhiệm hữu hạn hai thành viên trở lên",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-8b7f-7072-a85d-38051c061e41",
     "source_file": "chi-tiet-thu-tuc-1.000763.pdf",
     "source_path": "procedures/viec-lam/1.000763/chi-tiet-thu-tuc-1.000763.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:21:58.784833+00:00",
-    "source_updated_at": "2026-05-25T04:13:30.512Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:49.036303+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "f611d5051f300a40df3106ffd7d863f10077127f573d750b2cbdf07eb30dc65a"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:58.784833+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1105/QĐ-NHNN",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thành lập và hoạt động ngân hàng",
   "target_users": [
@@ -35,103 +31,55 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ngân hàng Nhà nước Việt Nam",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ngân hàng Nhà nước Việt Nam"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Tổ chức tài chính vi mô lập 01 bộ hồ sơ theo quy định gửi Ngân hàng Nhà nước. Trường hợp hồ sơ chưa đầy đủ, trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu tổ chức tài chính vi mô bổ sung hồ sơ.\nBước 2: Trong thời hạn 25 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, Ngân hàng Nhà nước xem xét chấp thuận đề nghị mua bán, chuyển nhượng phần vốn góp của tổ chức tài chính vi mô. Trường hợp từ chối, Ngân hàng Nhà nước trả lời bằng văn bản và nêu rõ lý do.",
+      "description": "Bước 1: Tổ chức tài chính vi mô lập 01 bộ hồ sơ theo quy định gửi Ngân hàng Nhà nước. Trường hợp hồ sơ chưa đầy đủ, trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu tổ chức tài chính vi mô bổ sung hồ sơ.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Trong thời hạn 25 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, Ngân hàng Nhà nước xem xét chấp thuận đề nghị mua bán, chuyển nhượng phần vốn góp của tổ chức tài chính vi mô. Trường hợp từ chối, Ngân hàng Nhà nước trả lời bằng văn bản và nêu rõ lý do.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "- Văn bản của tổ chức tài chính vi mô là công ty trách nhiệm hữu hạn hai thành viên trở lên đề nghị Ngân hàng Nhà nước chấp thuận mua bán, chuyển nhượng phần vốn góp giữa thành viên góp vốn hiện tại và thành viên góp vốn mới theo mẫu tại Phụ lục VII ban hành kèm theo Thông tư số 56/2025/TT-NHNN.",
-        "code": "G19-KQ006116",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e54ef-593c-731c-9049-077281730daa",
-            "name": "Phụ lục VII - TT56.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục VII - TT56.docx",
+        "source_page": 2
       },
       {
         "name": "- Nghị quyết, quyết định của Hội đồng thành viên thông qua việc mua bán, chuyển nhượng phần vốn góp.",
-        "code": "G19-KQ006117",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Văn bản cam kết mua bán, chuyển nhượng phần vốn góp giữa thành viên góp vốn hiện tại và thành viên góp vốn mới.",
-        "code": "G19-KQ006118",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Văn bản của bên mua, bên nhận chuyển nhượng cam kết sử dụng nguồn tiền hợp pháp để mua, nhận chuyển nhượng phần vốn góp.",
-        "code": "G19-KQ006119",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Các văn bản, tài liệu chứng minh thành viên góp vốn mới đáp ứng các điều kiện về thành viên góp vốn theo quy định của Chính phủ quy định điều kiện cấp Giấy phép đối với quỹ tín dụng nhân dân, tổ chức tài chính vi mô và điều kiện đối với chủ sở hữu của tổ chức tín dụng là công ty trách nhiệm hữu hạn một thành viên, cổ đông sáng lập, thành viên sáng lập và tỷ lệ sở hữu vốn góp theo quy định của pháp luật, bao gồm: + Giấy phép thành lập hoặc văn bản tương đương; mã số doanh nghiệp; + Điều lệ của tổ chức; + Văn bản ủy quyền người đại diện vốn góp tại tổ chức tài chính vi mô theo quy định của pháp luật; + Sơ yếu lý lịch của người đại diện vốn góp theo mẫu quy định tại Phụ lục VIII ban hành kèm theo Thông tư số 56/2025/TT-NHNN;  + Báo cáo tài chính đã được kiểm toán độc lập của thành viên góp vốn mới là doanh nghiệp trong 03 năm liền kề năm nộp hồ sơ; + Báo cáo hoạt động của thành viên góp vốn mới không phải là doanh nghiệp trong 03 năm liên tiếp liền kề trước năm nộp hồ sơ; + Bảng kê khai người có liên quan theo mẫu quy định tại Phụ lục IX ban hành kèm theo Thông tư số 56/2025/TT-NHNN; + Báo cáo khả năng tài chính tham gia góp vốn thành lập tổ chức tài chính vi mô theo mẫu quy định tại Phụ lục X ban hành kèm theo Thông tư số 56/2025/TT-NHNN; + Văn bản cam kết hỗ trợ tổ chức tài chính vi mô về tài chính để giải quyết khó khăn trong trường hợp gặp khó khăn về vốn hoặc khả năng thanh khoản; + Bảng kê khai thông tin về lịch sử quan hệ tín dụng theo mẫu quy định tại Phụ lục XI ban hành kèm theo Thông tư số 56/2025/TT-NHNN; + Văn bản cam kết không phải là cổ đông sáng lập, chủ sở hữu, thành viên sáng lập, cổ đông chiến lược của tổ chức tín dụng khác được thành lập và hoạt động tại Việt Nam; + Tài liệu chứng minh đáp ứng điều kiện về việc thực hiện nghĩa vụ thuế và bảo hiểm xã hội: Văn bản cam kết thực hiện đầy đủ các nghĩa vụ thuế, bảo hiểm xã hội của thành viên góp vốn mới theo Phụ lục số XII ban hành kèm theo Thông tư số 56/2025/TT-NHNN; Văn bản xác nhận của cơ quan thuế về việc thực hiện nghĩa vụ thuế với ngân sách nhà nước; Văn bản của cơ quan bảo hiểm xã hội cung cấp thông tin về việc đóng bảo hiểm xã hội của thành viên góp vốn mới; + Đối với thành viên góp vốn là pháp nhân đã hoặc đang trực tiếp tham gia quản lý hoặc điều hành chương trình, dự án tài chính vi mô: Tài liệu chứng minh đã hoặc đang tham gia quản lý hoặc điều hành chương trình, dự án tài chính vi mô hoạt động an toàn, bền vững trong ít nhất 03 năm liên tiếp trước thời điểm đề nghị.",
-        "code": "G19-KQ006120",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e54f2-05be-75f4-a927-1aa253451697",
-            "name": "Phụ lục VIII - TT56.docx",
-            "url": ""
-          },
-          {
-            "id": "019e54f2-1cc9-76ec-bf18-121a67ca6d85",
-            "name": "Phụ lục IX - TT56.docx",
-            "url": ""
-          },
-          {
-            "id": "019e54f2-2bd2-72cd-9f4c-465264648081",
-            "name": "Phụ lục X - TT56.docx",
-            "url": ""
-          },
-          {
-            "id": "019e54f2-5f80-75aa-b077-cd755ee47579",
-            "name": "Phụ lục XI- TT56.docx",
-            "url": ""
-          },
-          {
-            "id": "019e54f2-77f1-727a-a501-c3ab22588520",
-            "name": "Phụ lục VII - TT56.docx",
-            "url": ""
-          },
-          {
-            "id": "019e5935-a13f-75a8-96c2-a5c7c9c3a08b",
-            "name": "Phụ lục XII - TT56.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục VIII - TT56.docx; Phụ lục IX - TT56.docx; Phụ lục X - TT56.docx; Phụ lục XI- TT56.docx; Phụ lục VII - TT56.docx; Phụ lục XII - TT56.docx",
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -142,35 +90,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "25 ngày",
-      "processing_time_value": 25,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "25 ngày",
-      "processing_time_value": 25,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -178,51 +106,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "25 ngày",
-      "processing_time_value": 25,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -230,20 +143,17 @@
     {
       "title": "Thông tư sửa đổi, bổ sung một số điều của các Thông tư về tổ chức tài chính vi mô liên quan đến cắt giảm, phân cấp, đơn giản hóa thủ tục hành chính",
       "document_number": "Thông tư số 14/2026/TT-NHNN",
-      "id": "019e5428-d692-709b-bab3-6e88a3e6ed4c",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật Các tổ chức tín dụng",
       "document_number": "Luật số 32/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b675-1125e97928b3",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư quy định hồ sơ, thủ tục chấp thuận thay đổi của tổ chức tài chính vi mô",
       "document_number": "56/2025/TT-NHNN",
-      "id": "019d2bb3-5d80-7608-8ccf-1eae95e348a5",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "",
@@ -251,13 +161,12 @@
     {
       "title": "Văn bản chấp thuận đề nghị mua bán, chuyển nhượng phần vốn góp giữa các thành viên góp vốn hiện tại và thành viên góp vốn mới (bên mua, bên nhận chuyển nhượng) của tổ chức tài chính vi mô là công ty trách nhiệm hữu hạn hai thành viên trở lên",
       "code": "KQ.G19.000118",
-      "id": "019d2bb2-1c7c-74ea-bcd3-6a2323db3b75",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Bước 1: Tổ chức tài chính vi mô lập 01 bộ hồ sơ theo quy định gửi Ngân hàng Nhà nước. Trường hợp hồ sơ chưa đầy đủ, trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Ngân hàng Nhà nước có văn bản yêu cầu tổ chức tài chính vi mô bổ sung hồ sơ.\nBước 2: Trong thời hạn 25 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, Ngân hàng Nhà nước xem xét chấp thuận đề nghị mua bán, chuyển nhượng phần vốn góp của tổ chức tài chính vi mô. Trường hợp từ chối, Ngân hàng Nhà nước trả lời bằng văn bản và nêu rõ lý do.",
-    "THÀNH PHẦN HỒ SƠ": "\n- Văn bản của tổ chức tài chính vi mô là công ty trách nhiệm hữu hạn hai thành viên trở lên đề nghị Ngân hàng Nhà nước chấp thuận mua bán, chuyển nhượng phần vốn góp giữa thành viên góp vốn hiện tại và thành viên góp vốn mới theo mẫu tại Phụ lục VII ban hành kèm theo Thông tư số 56/2025/TT-NHNN.\n- Nghị quyết, quyết định của Hội đồng thành viên thông qua việc mua bán, chuyển nhượng phần vốn góp.\n- Văn bản cam kết mua bán, chuyển nhượng phần vốn góp giữa thành viên góp vốn hiện tại và thành viên góp vốn mới.\n- Văn bản của bên mua, bên nhận chuyển nhượng cam kết sử dụng nguồn tiền hợp pháp để mua, nhận chuyển nhượng phần vốn góp.\n- Các văn bản, tài liệu chứng minh thành viên góp vốn mới đáp ứng các điều kiện về thành viên góp vốn theo quy định của Chính phủ quy định điều kiện cấp Giấy phép đối với quỹ tín dụng nhân dân, tổ chức tài chính vi mô và điều kiện đối với chủ sở hữu của tổ chức tín dụng là công ty trách nhiệm hữu hạn một thành viên, cổ đông sáng lập, thành viên sáng lập và tỷ lệ sở hữu vốn góp theo quy định của pháp luật, bao gồm: + Giấy phép thành lập hoặc văn bản tương đương; mã số doanh nghiệp; + Điều lệ của tổ chức; + Văn bản ủy quyền người đại diện vốn góp tại tổ chức tài chính vi mô theo quy định của pháp luật; + Sơ yếu lý lịch của người đại diện vốn góp theo mẫu quy định tại Phụ lục VIII ban hành kèm theo Thông tư số 56/2025/TT-NHNN;  + Báo cáo tài chính đã được kiểm toán độc lập của thành viên góp vốn mới là doanh nghiệp trong 03 năm liền kề năm nộp hồ sơ; + Báo cáo hoạt động của thành viên góp vốn mới không phải là doanh nghiệp trong 03 năm liên tiếp liền kề trước năm nộp hồ sơ; + Bảng kê khai người có liên quan theo mẫu quy định tại Phụ lục IX ban hành kèm theo Thông tư số 56/2025/TT-NHNN; + Báo cáo khả năng tài chính tham gia góp vốn thành lập tổ chức tài chính vi mô theo mẫu quy định tại Phụ lục X ban hành kèm theo Thông tư số 56/2025/TT-NHNN; + Văn bản cam kết hỗ trợ tổ chức tài chính vi mô về tài chính để giải quyết khó khăn trong trường hợp gặp khó khăn về vốn hoặc khả năng thanh khoản; + Bảng kê khai thông tin về lịch sử quan hệ tín dụng theo mẫu quy định tại Phụ lục XI ban hành kèm theo Thông tư số 56/2025/TT-NHNN; + Văn bản cam kết không phải là cổ đông sáng lập, chủ sở hữu, thành viên sáng lập, cổ đông chiến lược của tổ chức tín dụng khác được thành lập và hoạt động tại Việt Nam; + Tài liệu chứng minh đáp ứng điều kiện về việc thực hiện nghĩa vụ thuế và bảo hiểm xã hội: Văn bản cam kết thực hiện đầy đủ các nghĩa vụ thuế, bảo hiểm xã hội của thành viên góp vốn mới theo Phụ lục số XII ban hành kèm theo Thông tư số 56/2025/TT-NHNN; Văn bản xác nhận của cơ quan thuế về việc thực hiện nghĩa vụ thuế với ngân sách nhà nước; Văn bản của cơ quan bảo hiểm xã hội cung cấp thông tin về việc đóng bảo hiểm xã hội của thành viên góp vốn mới; + Đối với thành viên góp vốn là pháp nhân đã hoặc đang trực tiếp tham gia quản lý hoặc điều hành chương trình, dự án tài chính vi mô: Tài liệu chứng minh đã hoặc đang tham gia quản lý hoặc điều hành chương trình, dự án tài chính vi mô hoạt động an toàn, bền vững trong ít nhất 03 năm liên tiếp trước thời điểm đề nghị.",
+    "THÀNH PHẦN HỒ SƠ": "- Văn bản của tổ chức tài chính vi mô là công ty trách nhiệm hữu hạn hai thành viên trở lên đề nghị Ngân hàng Nhà nước chấp thuận mua bán, chuyển nhượng phần vốn góp giữa thành viên góp vốn hiện tại và thành viên góp vốn mới theo mẫu tại Phụ lục VII ban hành kèm theo Thông tư số 56/2025/TT-NHNN.\n- Nghị quyết, quyết định của Hội đồng thành viên thông qua việc mua bán, chuyển nhượng phần vốn góp.\n- Văn bản cam kết mua bán, chuyển nhượng phần vốn góp giữa thành viên góp vốn hiện tại và thành viên góp vốn mới.\n- Văn bản của bên mua, bên nhận chuyển nhượng cam kết sử dụng nguồn tiền hợp pháp để mua, nhận chuyển nhượng phần vốn góp.\n- Các văn bản, tài liệu chứng minh thành viên góp vốn mới đáp ứng các điều kiện về thành viên góp vốn theo quy định của Chính phủ quy định điều kiện cấp Giấy phép đối với quỹ tín dụng nhân dân, tổ chức tài chính vi mô và điều kiện đối với chủ sở hữu của tổ chức tín dụng là công ty trách nhiệm hữu hạn một thành viên, cổ đông sáng lập, thành viên sáng lập và tỷ lệ sở hữu vốn góp theo quy định của pháp luật, bao gồm: + Giấy phép thành lập hoặc văn bản tương đương; mã số doanh nghiệp; + Điều lệ của tổ chức; + Văn bản ủy quyền người đại diện vốn góp tại tổ chức tài chính vi mô theo quy định của pháp luật; + Sơ yếu lý lịch của người đại diện vốn góp theo mẫu quy định tại Phụ lục VIII ban hành kèm theo Thông tư số 56/2025/TT-NHNN;  + Báo cáo tài chính đã được kiểm toán độc lập của thành viên góp vốn mới là doanh nghiệp trong 03 năm liền kề năm nộp hồ sơ; + Báo cáo hoạt động của thành viên góp vốn mới không phải là doanh nghiệp trong 03 năm liên tiếp liền kề trước năm nộp hồ sơ; + Bảng kê khai người có liên quan theo mẫu quy định tại Phụ lục IX ban hành kèm theo Thông tư số 56/2025/TT-NHNN; + Báo cáo khả năng tài chính tham gia góp vốn thành lập tổ chức tài chính vi mô theo mẫu quy định tại Phụ lục X ban hành kèm theo Thông tư số 56/2025/TT-NHNN; + Văn bản cam kết hỗ trợ tổ chức tài chính vi mô về tài chính để giải quyết khó khăn trong trường hợp gặp khó khăn về vốn hoặc khả năng thanh khoản; + Bảng kê khai thông tin về lịch sử quan hệ tín dụng theo mẫu quy định tại Phụ lục XI ban hành kèm theo Thông tư số 56/2025/TT-NHNN; + Văn bản cam kết không phải là cổ đông sáng lập, chủ sở hữu, thành viên sáng lập, cổ đông chiến lược của tổ chức tín dụng khác được thành lập và hoạt động tại Việt Nam; + Tài liệu chứng minh đáp ứng điều kiện về việc thực hiện nghĩa vụ thuế và bảo hiểm xã hội: Văn bản cam kết thực hiện đầy đủ các nghĩa vụ thuế, bảo hiểm xã hội của thành viên góp vốn mới theo Phụ lục số XII ban hành kèm theo Thông tư số 56/2025/TT-NHNN; Văn bản xác nhận của cơ quan thuế về việc thực hiện nghĩa vụ thuế với ngân sách nhà nước; Văn bản của cơ quan bảo hiểm xã hội cung cấp thông tin về việc đóng bảo hiểm xã hội của thành viên góp vốn mới; + Đối với thành viên góp vốn là pháp nhân đã hoặc đang trực tiếp tham gia quản lý hoặc điều hành chương trình, dự án tài chính vi mô: Tài liệu chứng minh đã hoặc đang tham gia quản lý hoặc điều hành chương trình, dự án tài chính vi mô hoạt động an toàn, bền vững trong ít nhất 03 năm liên tiếp trước thời điểm đề nghị.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 25 ngày\nQua dịch vụ bưu chính: 25 ngày\nTrực tiếp: 25 ngày",
     "CĂN CỨ PHÁP LÝ": "Thông tư sửa đổi, bổ sung một số điều của các Thông tư về tổ chức tài chính vi mô liên quan đến cắt giảm, phân cấp, đơn giản hóa thủ tục hành chính - Thông tư số 14/2026/TT-NHNN\nLuật Các tổ chức tín dụng - Luật số 32/2024/QH15\nThông tư quy định hồ sơ, thủ tục chấp thuận thay đổi của tổ chức tài chính vi mô - 56/2025/TT-NHNN",
     "CƠ QUAN THỰC HIỆN": "Ngân hàng Nhà nước Việt Nam",
@@ -267,14 +176,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thành lập và hoạt động ngân hàng",
-      "slug": "thanh-lap-va-hoat-dong-ngan-hang"
+      "slug": "thanh-lap-va-hoat-ong-ngan-hang"
     },
     "implementation_levels": [
       {
@@ -294,6 +198,6 @@
         "slug": "ngan-hang-nha-nuoc-viet-nam"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

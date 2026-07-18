@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf7-cd0a-7376-a0f2-f3d42e21c47b",
   "procedure_code": "3.000494",
   "title": "Phục hồi hoạt động của cơ sở, phương tiện giao thông cơ giới, hộ gia đình và cá nhân",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-cd0a-7376-a0f2-f3d42e21c47b",
     "source_file": "chi-tiet-thu-tuc-3.000494.pdf",
     "source_path": "procedures/hon-nhan-va-gia-dinh/3.000494/chi-tiet-thu-tuc-3.000494.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:24.002675+00:00",
-    "source_updated_at": "2026-04-28T15:30:14.574Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:31.883600+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "3ba490e38977bf3073b51551d15f8fd6c5a0e5e58a29c16c45872220fa5712bf"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:24.002675+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "5461/QĐ-BCA-C07",
   "implementation_level": "Cấp tỉnh, Cấp xã",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cấp xã"
-  ],
   "procedure_type": "OTHER",
   "sector": "Phòng cháy, chữa cháy",
   "target_users": [
@@ -36,36 +31,45 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ TP HCM",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ TP HCM"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.\n- Bước 2: cá nhân, tổ chức nộp hồ sơ cho Phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ Công an cấp tỉnh, thành phố trực thuộc trung ương, Ủy ban nhân dân cấp xã.\n- Bước 3: cán bộ tiếp nhận kiểm tra tính hợp lệ và thành phần của hồ sơ (các văn bản giấy tờ có trong hồ sơ là bản chính hoặc bản chứng thực hoặc bản sao hoặc bản chụp kèm theo bản chính để cán bộ tiếp nhận hồ sơ đối chiếu trong trường hợp nộp trực tiếp hoặc qua bưu chính công ích; bản chính hoặc bản chứng thực điện tử trong trường hợp nộp hồ sơ trực tuyến qua Cổng Dịch vụ công).\n+ Nếu hồ sơ hợp lệ và đủ thành phần thì viết giấy tiếp nhận hồ sơ và hẹn trả kết quả hoặc thông báo về việc tiếp nhận hồ sơ qua Cổng Dịch vụ công;\n+ Nếu hồ sơ chưa đầy đủ thành phần hoặc chưa hợp lệ thì viết phiếu yêu cầu bổ sung, hoàn thiện hồ sơ hoặc phiếu từ chối tiếp nhận, giải quyết hồ sơ hoặc thông báo về việc yêu cầu chỉnh sửa, bổ sung hồ sơ qua Cổng Dịch vụ công.\n- Bước 4: căn cứ theo ngày hẹn trên Phiếu tiếp nhận giải quyết thủ tục hành chính về phòng cháy, chữa cháy hoặc thông báo qua thư điện tử hoặc tin nhắn điện thoại, cá nhân, tổ chức đến nơi nộp hồ sơ để nhận kết quả trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc nhận kết quả điện tử trên tài khoản dịch vụ công đã nộp hồ sơ trước đó.\n",
+      "description": "- Bước 1: cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: cá nhân, tổ chức nộp hồ sơ cho Phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ Công an cấp tỉnh, thành phố trực thuộc trung ương, Ủy ban nhân dân cấp xã.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "- Bước 3: cán bộ tiếp nhận kiểm tra tính hợp lệ và thành phần của hồ sơ (các văn bản giấy tờ có trong hồ sơ là bản chính hoặc bản chứng thực hoặc bản sao hoặc bản chụp kèm theo bản chính để cán bộ tiếp nhận hồ sơ đối chiếu trong trường hợp nộp trực tiếp hoặc qua bưu chính công ích; bản chính hoặc bản chứng thực điện tử trong trường hợp nộp hồ sơ trực tuyến qua Cổng Dịch vụ công).\n+ Nếu hồ sơ hợp lệ và đủ thành phần thì viết giấy tiếp nhận hồ sơ và hẹn trả kết quả hoặc thông báo về việc tiếp nhận hồ sơ qua Cổng Dịch vụ công;\n+ Nếu hồ sơ chưa đầy đủ thành phần hoặc chưa hợp lệ thì viết phiếu yêu cầu bổ sung, hoàn thiện hồ sơ hoặc phiếu từ chối tiếp nhận, giải quyết hồ sơ hoặc thông báo về việc yêu cầu chỉnh sửa, bổ sung hồ sơ qua Cổng Dịch vụ công.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "- Bước 4: căn cứ theo ngày hẹn trên Phiếu tiếp nhận giải quyết thủ tục hành chính về phòng cháy, chữa cháy hoặc thông báo qua thư điện tử hoặc tin nhắn điện thoại, cá nhân, tổ chức đến nơi nộp hồ sơ để nhận kết quả trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc nhận kết quả điện tử trên tài khoản dịch vụ công đã nộp hồ sơ trước đó.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "bản chính văn bản đề nghị phục hồi hoạt động (Mẫu số PC15 ban hành kèm theo Nghị  định số 50/2024/NĐ-CP ngày 10/05/2024 của Chính phủ)",
-        "code": "000.00.00.G01-KQ003445",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dcf70-beda-7135-a4d1-d16b7047bc33",
-            "name": "PC15.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PC15.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -76,87 +80,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "- Trực tiếp: nộp hồ sơ trực tiếp tại Bộ phận Một cửa thuộc Phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ Công an cấp tỉnh, thành phố; Ủy ban nhân dân cấp xã. - Dịch vụ bưu chính công ích: nộp hồ sơ qua dịch vụ bưu chính công ích. - Trực tuyến: nộp hồ sơ tại Cổng Dịch vụ Công.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "- Trực tiếp: nộp hồ sơ trực tiếp tại Bộ phận Một cửa thuộc Phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ Công an cấp tỉnh, thành phố; Ủy ban nhân dân cấp xã. - Dịch vụ bưu chính công ích: nộp hồ sơ qua dịch vụ bưu chính công ích. - Trực tuyến: nộp hồ sơ tại Cổng Dịch vụ Công.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "- Trực tiếp: nộp hồ sơ trực tiếp tại Bộ phận Một cửa thuộc Phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ Công an cấp tỉnh, thành phố; Ủy ban nhân dân cấp xã. - Dịch vụ bưu chính công ích: nộp hồ sơ qua dịch vụ bưu chính công ích. - Trực tuyến: nộp hồ sơ tại Cổng Dịch vụ Công.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -164,8 +133,7 @@
     {
       "title": "Nghị định 136/2020/NĐ-CP",
       "document_number": "136/2020/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a63f-819b7ddce218",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "",
@@ -173,14 +141,13 @@
     {
       "title": "Quyết định phục hồi hoạt động (Mẫu số PC16 ban hành kèm theo Nghị định số 50/2024/NĐ-CP ngày 10/05/2024  của Chính phủ)",
       "code": "KQ.G01.000226",
-      "id": "019d2bb2-1c38-75c9-8e11-bd534088145b",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.\n- Bước 2: cá nhân, tổ chức nộp hồ sơ cho Phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ Công an cấp tỉnh, thành phố trực thuộc trung ương, Ủy ban nhân dân cấp xã.\n- Bước 3: cán bộ tiếp nhận kiểm tra tính hợp lệ và thành phần của hồ sơ (các văn bản giấy tờ có trong hồ sơ là bản chính hoặc bản chứng thực hoặc bản sao hoặc bản chụp kèm theo bản chính để cán bộ tiếp nhận hồ sơ đối chiếu trong trường hợp nộp trực tiếp hoặc qua bưu chính công ích; bản chính hoặc bản chứng thực điện tử trong trường hợp nộp hồ sơ trực tuyến qua Cổng Dịch vụ công).\n+ Nếu hồ sơ hợp lệ và đủ thành phần thì viết giấy tiếp nhận hồ sơ và hẹn trả kết quả hoặc thông báo về việc tiếp nhận hồ sơ qua Cổng Dịch vụ công;\n+ Nếu hồ sơ chưa đầy đủ thành phần hoặc chưa hợp lệ thì viết phiếu yêu cầu bổ sung, hoàn thiện hồ sơ hoặc phiếu từ chối tiếp nhận, giải quyết hồ sơ hoặc thông báo về việc yêu cầu chỉnh sửa, bổ sung hồ sơ qua Cổng Dịch vụ công.\n- Bước 4: căn cứ theo ngày hẹn trên Phiếu tiếp nhận giải quyết thủ tục hành chính về phòng cháy, chữa cháy hoặc thông báo qua thư điện tử hoặc tin nhắn điện thoại, cá nhân, tổ chức đến nơi nộp hồ sơ để nhận kết quả trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc nhận kết quả điện tử trên tài khoản dịch vụ công đã nộp hồ sơ trước đó.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nbản chính văn bản đề nghị phục hồi hoạt động (Mẫu số PC15 ban hành kèm theo Nghị  định số 50/2024/NĐ-CP ngày 10/05/2024 của Chính phủ)",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 7 ngày làm việc - - Trực tiếp: nộp hồ sơ trực tiếp tại Bộ phận Một cửa thuộc Phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ Công an cấp tỉnh, thành phố; Ủy ban nhân dân cấp xã. - Dịch vụ bưu chính công ích: nộp hồ sơ qua dịch vụ bưu chính công ích. - Trực tuyến: nộp hồ sơ tại Cổng Dịch vụ Công.\nQua dịch vụ bưu chính: 7 ngày làm việc - - Trực tiếp: nộp hồ sơ trực tiếp tại Bộ phận Một cửa thuộc Phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ Công an cấp tỉnh, thành phố; Ủy ban nhân dân cấp xã. - Dịch vụ bưu chính công ích: nộp hồ sơ qua dịch vụ bưu chính công ích. - Trực tuyến: nộp hồ sơ tại Cổng Dịch vụ Công.\nTrực tiếp: 7 ngày làm việc - - Trực tiếp: nộp hồ sơ trực tiếp tại Bộ phận Một cửa thuộc Phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ Công an cấp tỉnh, thành phố; Ủy ban nhân dân cấp xã. - Dịch vụ bưu chính công ích: nộp hồ sơ qua dịch vụ bưu chính công ích. - Trực tuyến: nộp hồ sơ tại Cổng Dịch vụ Công.",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: cá nhân, tổ chức chuẩn bị hồ sơ theo quy định của pháp luật.\n- Bước 2: cá nhân, tổ chức nộp hồ sơ cho Phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ Công an cấp tỉnh, thành phố trực thuộc trung ương, Ủy ban nhân dân cấp xã.\n- Bước 3: cán bộ tiếp nhận kiểm tra tính hợp lệ và thành phần của hồ sơ (các văn bản giấy tờ có trong hồ sơ là bản chính hoặc bản chứng thực hoặc bản sao hoặc bản chụp kèm theo bản chính để cán bộ tiếp nhận hồ sơ đối chiếu trong trường hợp nộp trực tiếp hoặc qua bưu chính công ích; bản chính hoặc bản chứng thực điện tử trong trường hợp nộp hồ sơ trực tuyến qua Cổng Dịch vụ công).\n+ Nếu hồ sơ hợp lệ và đủ thành phần thì viết giấy tiếp nhận hồ sơ và hẹn trả kết quả hoặc thông báo về việc tiếp nhận hồ sơ qua Cổng Dịch vụ công;\n+ Nếu hồ sơ chưa đầy đủ thành phần hoặc chưa hợp lệ thì viết phiếu yêu cầu bổ sung, hoàn thiện hồ sơ hoặc phiếu từ chối tiếp nhận, giải quyết hồ sơ hoặc thông báo về việc yêu cầu chỉnh sửa, bổ sung hồ sơ qua Cổng Dịch vụ công.\n- Bước 4: căn cứ theo ngày hẹn trên Phiếu tiếp nhận giải quyết thủ tục hành chính về phòng cháy, chữa cháy hoặc thông báo qua thư điện tử hoặc tin nhắn điện thoại, cá nhân, tổ chức đến nơi nộp hồ sơ để nhận kết quả trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc nhận kết quả điện tử trên tài khoản dịch vụ công đã nộp hồ sơ trước đó.",
+    "THÀNH PHẦN HỒ SƠ": "bản chính văn bản đề nghị phục hồi hoạt động (Mẫu số PC15 ban hành kèm theo Nghị  định số 50/2024/NĐ-CP ngày 10/05/2024 của Chính phủ)",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 7 ngày làm việc\nQua dịch vụ bưu chính: 7 ngày làm việc\nTrực tiếp: 7 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định 136/2020/NĐ-CP - 136/2020/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Phòng Cảnh sát phòng cháy, chữa cháy và cứu nạn, cứu hộ TP HCM",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
@@ -189,11 +156,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Hôn nhân và gia đình",
-      "slug": "hon-nhan-va-gia-dinh",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Phòng cháy, chữa cháy",
       "slug": "phong-chay-chua-chay"
@@ -220,6 +182,6 @@
         "slug": "phong-canh-sat-phong-chay-chua-chay-va-cuu-nan-cuu-ho-tp-hcm"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

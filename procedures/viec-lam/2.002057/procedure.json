@@ -1,35 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-e1e3-740e-9909-8dbbf4dc8ac1",
   "procedure_code": "2.002057",
   "title": "Đăng ký thay đổi nội dung đăng ký doanh nghiệp đối với công ty bị tách (đối với công ty trách nhiệm hữu hạn, công ty cổ phần)",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e1e3-740e-9909-8dbbf4dc8ac1",
     "source_file": "chi-tiet-thu-tuc-2.002057.pdf",
     "source_path": "procedures/viec-lam/2.002057/chi-tiet-thu-tuc-2.002057.pdf",
     "page_count": 11,
-    "extracted_at": "2026-07-18T02:22:21.894733+00:00",
-    "source_updated_at": "2026-04-08T10:02:04.958Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:22.063507+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "3e8c7959e3291691da82c627362d4bcee745ffe22e82a7f0c8735d82d1195c83"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:21.894733+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "92/QĐ-BTC",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Thành lập và hoạt động của doanh nghiệp",
   "target_users": [
@@ -44,32 +38,29 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Tài chính các tỉnh, thành phố",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Tài chính các tỉnh, thành phố"
   },
   "steps": [
     {
       "order": 1,
       "title": "* Trường hợp đăng ký trực tiếp hoặc qua dịch vụ bưu chính:",
-      "description": "Người nộp hồ sơ đăng ký doanh nghiệp theo quy định tại Nghị định số 168/2025/NĐ-CP nộp hồ sơ tại Cơ quan Đăng ký kinh doanh cấp tỉnh nơi doanh nghiệp đặt trụ sở chính.\nSau khi tiếp nhận hồ sơ đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh trao giấy tiếp nhận hồ sơ và hẹn trả kết quả cho người nộp hồ sơ. Trong thời hạn 03 ngày làm việc kể từ ngày nhận hồ sơ, Cơ quan đăng ký kinh doanh cấp tỉnh xem xét tính hợp lệ của hồ sơ và cấp Giấy chứng nhận đăng ký doanh nghiệp, Giấy xác nhận về việc thay đổi nội dung đăng ký doanh nghiệp cho doanh nghiệp; trường hợp hồ sơ chưa hợp lệ, Cơ quan đăng ký kinh doanh cấp tỉnh thông báo bằng văn bản nội dung cần sửa đổi, bổ sung cho doanh nghiệp.\n* Quy trình tiếp nhận, giải quyết thủ tục hành chính có thành phần hồ sơ được cắt giảm, thay thế dựa trên dữ liệu:\nCơ quan đăng ký kinh doanh cấp tỉnh khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư để thay thế thành phần hồ sơ giải quyết thủ tục hành chính.\n- Trường hợp không khai thác được hoặc thông tin khai thác được trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư không đầy đủ, không chính xác: Cơ quan đăng ký kinh doanh cấp tỉnh ra thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp cho người thành lập doanh nghiệp hoặc doanh nghiệp trong thời hạn quy định tại Luật Doanh nghiệp và Nghị định số 168/2025/NĐ-CP; đồng thời hướng dẫn cho người thành lập doanh nghiệp hoặc doanh nghiệp liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.\n",
+      "description": "Người nộp hồ sơ đăng ký doanh nghiệp theo quy định tại Nghị định số 168/2025/NĐ-CP nộp hồ sơ tại Cơ quan Đăng ký kinh doanh cấp tỉnh nơi doanh nghiệp đặt trụ sở chính.\nSau khi tiếp nhận hồ sơ đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh trao giấy tiếp nhận hồ sơ và hẹn trả kết quả cho người nộp hồ sơ. Trong thời hạn 03 ngày làm việc kể từ ngày nhận hồ sơ, Cơ quan đăng ký kinh doanh cấp tỉnh xem xét tính hợp lệ của hồ sơ và cấp Giấy chứng nhận đăng ký doanh nghiệp, Giấy xác nhận về việc thay đổi nội dung đăng ký doanh nghiệp cho doanh nghiệp; trường hợp hồ sơ chưa hợp lệ, Cơ quan đăng ký kinh doanh cấp tỉnh thông báo bằng văn bản nội dung cần sửa đổi, bổ sung cho doanh nghiệp.\n* Quy trình tiếp nhận, giải quyết thủ tục hành chính có thành phần hồ sơ được cắt giảm, thay thế dựa trên dữ liệu:\nCơ quan đăng ký kinh doanh cấp tỉnh khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư để thay thế thành phần hồ sơ giải quyết thủ tục hành chính.\n- Trường hợp không khai thác được hoặc thông tin khai thác được trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư không đầy đủ, không chính xác: Cơ quan đăng ký kinh doanh cấp tỉnh ra thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp cho người thành lập doanh nghiệp hoặc doanh nghiệp trong thời hạn quy định tại Luật Doanh nghiệp và Nghị định số 168/2025/NĐ-CP; đồng thời hướng dẫn cho người thành lập doanh nghiệp hoặc doanh nghiệp liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "* Trường hợp đăng ký qua mạng thông tin điện tử:",
-      "description": "Người nộp hồ sơ sử dụng tài khoản định danh điện tử để đăng nhập Cổng thông tin quốc gia về đăng ký doanh nghiệp, kê khai thông tin, tải văn bản điện tử, ký số hoặc ký xác thực hồ sơ đăng ký doanh nghiệp qua mạng thông tin điện tử và thanh toán phí, lệ phí đăng ký doanh nghiệp theo quy trình trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nNgười uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.\nSau khi hoàn thành việc gửi hồ sơ đăng ký doanh nghiệp, người nộp hồ sơ sẽ nhận được giấy tiếp nhận hồ sơ và hẹn trả kết quả điện tử qua tài khoản của người nộp hồ sơ.\nTrường hợp hồ sơ đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh thực hiện cấp đăng ký doanh nghiệp và thông báo cho doanh nghiệp về việc cấp đăng ký doanh nghiệp. Trường hợp hồ sơ chưa đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh gửi thông báo qua mạng thông tin điện tử cho doanh nghiệp để yêu cầu sửa đổi, bổ sung hồ sơ. Người nộp hồ sơ đăng nhập vào Hệ thống thông tin quốc gia về đăng ký doanh nghiệp để nhận thông tin phản hồi về kết quả xử lý hồ sơ.\n* Quy trình tiếp nhận, giải quyết thủ tục hành chính có thành phần hồ sơ được cắt giảm, thay thế dựa trên dữ liệu:\nCơ quan đăng ký kinh doanh cấp tỉnh khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư để thay thế thành phần hồ sơ giải quyết thủ tục hành chính.\n- Trường hợp không khai thác được hoặc thông tin khai thác được trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư không đầy đủ, không chính xác: Cơ quan đăng ký kinh doanh cấp tỉnh ra thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp cho người thành lập doanh nghiệp hoặc doanh nghiệp trong thời hạn quy định tại Luật Doanh nghiệp và Nghị định số 168/2025/NĐ-CP. Thông báo được gửi đến tài khoản của người nộp hồ sơ trên Cổng thông tin quốc gia về đăng ký doanh nghiệp; đồng thời hướng dẫn người thành lập doanh nghiệp hoặc doanh nghiệp liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.\n",
+      "description": "Người nộp hồ sơ sử dụng tài khoản định danh điện tử để đăng nhập Cổng thông tin quốc gia về đăng ký doanh nghiệp, kê khai thông tin, tải văn bản điện tử, ký số hoặc ký xác thực hồ sơ đăng ký doanh nghiệp qua mạng thông tin điện tử và thanh toán phí, lệ phí đăng ký doanh nghiệp theo quy trình trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nNgười uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.\nSau khi hoàn thành việc gửi hồ sơ đăng ký doanh nghiệp, người nộp hồ sơ sẽ nhận được giấy tiếp nhận hồ sơ và hẹn trả kết quả điện tử qua tài khoản của người nộp hồ sơ.\nTrường hợp hồ sơ đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh thực hiện cấp đăng ký doanh nghiệp và thông báo cho doanh nghiệp về việc cấp đăng ký doanh nghiệp. Trường hợp hồ sơ chưa đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh gửi thông báo qua mạng thông tin điện tử cho doanh nghiệp để yêu cầu sửa đổi, bổ sung hồ sơ. Người nộp hồ sơ đăng nhập vào Hệ thống thông tin quốc gia về đăng ký doanh nghiệp để nhận thông tin phản hồi về kết quả xử lý hồ sơ.\n* Quy trình tiếp nhận, giải quyết thủ tục hành chính có thành phần hồ sơ được cắt giảm, thay thế dựa trên dữ liệu:\nCơ quan đăng ký kinh doanh cấp tỉnh khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư để thay thế thành phần hồ sơ giải quyết thủ tục hành chính.\n- Trường hợp không khai thác được hoặc thông tin khai thác được trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư không đầy đủ, không chính xác: Cơ quan đăng ký kinh doanh cấp tỉnh ra thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp cho người thành lập doanh nghiệp hoặc doanh nghiệp trong thời hạn quy định tại Luật Doanh nghiệp và Nghị định số 168/2025/NĐ-CP. Thông báo được gửi đến tài khoản của người nộp hồ sơ trên Cổng thông tin quốc gia về đăng ký doanh nghiệp; đồng thời hướng dẫn người thành lập doanh nghiệp hoặc doanh nghiệp liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 3,
       "title": "* Công bố nội dung đăng ký doanh nghiệp: Doanh nghiệp sau khi được cấp Giấy chứng nhận đăng ký doanh nghiệp phải thông báo công khai trên Cổng thông tin quốc gia về đăng ký doanh nghiệp và phải nộp phí theo quy định của pháp luật. Nội dung công bố bao gồm các nội dung Giấy chứng nhận đăng ký doanh nghiệp và các thông tin sau đây:",
-      "description": "- Ngành, nghề kinh doanh;\n- Danh sách cổ đông sáng lập; danh sách cổ đông là nhà đầu tư nước ngoài đối với công ty cổ phần (nếu có).\nTrường hợp thay đổi nội dung đăng ký doanh nghiệp, những thay đổi tương ứng phải được thông báo công khai trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nThời hạn thông báo công khai thông tin về doanh nghiệp là 30 ngày kể từ ngày được công khai\nThông tin công bố nội dung đăng ký doanh nghiệp được đăng tải trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nViệc đề nghị công bố nội dung đăng ký doanh nghiệp và nộp phí công bố nội dung đăng ký doanh nghiệp được thực hiện tại thời điểm doanh nghiệp nộp hồ sơ đăng ký doanh nghiệp. Trường hợp doanh nghiệp không được cấp đăng ký doanh nghiệp, doanh nghiệp sẽ được hoàn trả phí công bố nội dung đăng ký doanh nghiệp.\n",
+      "description": "- Ngành, nghề kinh doanh;\n- Danh sách cổ đông sáng lập; danh sách cổ đông là nhà đầu tư nước ngoài đối với công ty cổ phần (nếu có).\nTrường hợp thay đổi nội dung đăng ký doanh nghiệp, những thay đổi tương ứng phải được thông báo công khai trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nThời hạn thông báo công khai thông tin về doanh nghiệp là 30 ngày kể từ ngày được công khai\nThông tin công bố nội dung đăng ký doanh nghiệp được đăng tải trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nViệc đề nghị công bố nội dung đăng ký doanh nghiệp và nộp phí công bố nội dung đăng ký doanh nghiệp được thực hiện tại thời điểm doanh nghiệp nộp hồ sơ đăng ký doanh nghiệp. Trường hợp doanh nghiệp không được cấp đăng ký doanh nghiệp, doanh nghiệp sẽ được hoàn trả phí công bố nội dung đăng ký doanh nghiệp.",
       "example": null,
-      "source_page": null
+      "source_page": 3
     }
   ],
   "documents": {
@@ -77,364 +68,244 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "(i) Văn bản ủy quyền cho cá nhân thực hiện thủ tục liên quan đến đăng ký doanh nghiệp. Văn bản ủy quyền này không bắt buộc phải công chứng, chứng thực.",
-        "code": "000.00.00.G12-KQ014035",
+        "name": "* Trường hợp ủy quyền thực hiện thủ tục: Người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây: - Trường hợp ủy quyền cho cá nhân thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:: (i) Văn bản ủy quyền cho cá nhân thực hiện thủ tục liên quan đến đăng ký doanh nghiệp. Văn bản ủy quyền này không bắt buộc phải công chứng, chứng thực.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Trường hợp ủy quyền thực hiện thủ tục: Người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây: - Trường hợp ủy quyền cho cá nhân thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Trường hợp người ủy quyền không xác nhận hoặc xác nhận không ủy quyền thực hiện thủ tục đăng ký doanh nghiệp thì Cơ quan đăng ký kinh doanh cấp tỉnh yêu cầu doanh nghiệp báo cáo theo quy định tại khoản 5 Điều 21 Nghị định số 168/2025/NĐ-CP. Cụ thể: Yêu cầu doanh nghiệp báo cáo về việc tuân thủ các quy định của Luật Doanh nghiệp theo quy định tại điểm c khoản 1 Điều 216 Luật Doanh nghiệp “Yêu cầu doanh nghiệp báo cáo về việc tuân thủ quy định của Luật này khi xét thấy cần thiết; đôn đốc việc thực hiện nghĩa vụ báo cáo của doanh nghiệp”.",
-        "code": "000.00.00.G12-KQ014223",
+        "name": "- Người ủy quyền và người được ủy quyền thực hiện thủ tục đăng ký doanh nghiệp chịu trách nhiệm trước pháp luật về tính hợp pháp, trung thực và chính xác của việc ủy quyền. Người uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.: Trường hợp người ủy quyền không xác nhận hoặc xác nhận không ủy quyền thực hiện thủ tục đăng ký doanh nghiệp thì Cơ quan đăng ký kinh doanh cấp tỉnh yêu cầu doanh nghiệp báo cáo theo quy định tại khoản 5 Điều 21 Nghị định số 168/2025/NĐ-CP. Cụ thể: Yêu cầu doanh nghiệp báo cáo về việc tuân thủ các quy định của Luật Doanh nghiệp theo quy định tại điểm c khoản 1 Điều 216 Luật Doanh nghiệp “Yêu cầu doanh nghiệp báo cáo về việc tuân thủ quy định của Luật này khi xét thấy cần thiết; đôn đốc việc thực hiện nghĩa vụ báo cáo của doanh nghiệp”.",
         "quantity": null,
-        "required": false,
-        "case": "- Người ủy quyền và người được ủy quyền thực hiện thủ tục đăng ký doanh nghiệp chịu trách nhiệm trước pháp luật về tính hợp pháp, trung thực và chính xác của việc ủy quyền. Người uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Trường hợp chưa có tài khoản định danh điện tử để thực hiện xác thực điện tử thì hồ sơ đăng ký doanh nghiệp phải kèm theo bản sao thẻ Căn cước hoặc thẻ Căn cước công dân hoặc hộ chiếu hoặc hộ chiếu nước ngoài hoặc các giấy tờ có giá trị thay thế hộ chiếu nước ngoài còn hiệu lực của người uỷ quyền.",
-        "code": "000.00.00.G12-KQ014224",
+        "name": "- Người ủy quyền và người được ủy quyền thực hiện thủ tục đăng ký doanh nghiệp chịu trách nhiệm trước pháp luật về tính hợp pháp, trung thực và chính xác của việc ủy quyền. Người uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.: Trường hợp chưa có tài khoản định danh điện tử để thực hiện xác thực điện tử thì hồ sơ đăng ký doanh nghiệp phải kèm theo bản sao thẻ Căn cước hoặc thẻ Căn cước công dân hoặc hộ chiếu hoặc hộ chiếu nước ngoài hoặc các giấy tờ có giá trị thay thế hộ chiếu nước ngoài còn hiệu lực của người uỷ quyền.",
         "quantity": null,
-        "required": false,
-        "case": "- Người ủy quyền và người được ủy quyền thực hiện thủ tục đăng ký doanh nghiệp chịu trách nhiệm trước pháp luật về tính hợp pháp, trung thực và chính xác của việc ủy quyền. Người uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "(i) Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp;",
-        "code": "000.00.00.G12-KQ014036",
+        "name": "- Trường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:: (i) Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "- Trường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "(ii) Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp..",
-        "code": "000.00.00.G12-KQ014189",
+        "name": "- Trường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:: (ii) Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp..",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Trường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "(i) Bản sao phiếu gửi hồ sơ theo mẫu do doanh nghiệp cung ứng dịch vụ bưu chính công ích phát hành có chữ ký xác nhận của nhân viên bưu chính và người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp.",
-        "code": "000.00.00.G12-KQ014038",
+        "name": "- Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì khi thực hiện thủ tục đăng ký doanh nghiệp, nhân viên bưu chính phải nộp:: (i) Bản sao phiếu gửi hồ sơ theo mẫu do doanh nghiệp cung ứng dịch vụ bưu chính công ích phát hành có chữ ký xác nhận của nhân viên bưu chính và người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "- Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì khi thực hiện thủ tục đăng ký doanh nghiệp, nhân viên bưu chính phải nộp:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "(ii) Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp.",
-        "code": "000.00.00.G12-KQ014037",
+        "name": "- Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì việc ủy quyền thực hiện theo quy định tại khoản 2 Điều 12 Nghị định số 168/2025/NĐ-CP, cụ thể:: (ii) Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "- Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì việc ủy quyền thực hiện theo quy định tại khoản 2 Điều 12 Nghị định số 168/2025/NĐ-CP, cụ thể:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "(i) Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp;",
-        "code": "000.00.00.G12-KQ014036",
+        "name": "- Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì việc ủy quyền thực hiện theo quy định tại khoản 2 Điều 12 Nghị định số 168/2025/NĐ-CP, cụ thể:: (i) Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "- Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì việc ủy quyền thực hiện theo quy định tại khoản 2 Điều 12 Nghị định số 168/2025/NĐ-CP, cụ thể:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "(iv) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư.",
-        "code": "000.00.00.G12-KQ014206",
+        "name": "Trường hợp công ty bị tách đăng ký thay đổi phần vốn góp, tỷ lệ phần vốn góp của thành viên công ty TNHH hai thành viên trở lên: (iv) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp công ty bị tách đăng ký thay đổi phần vốn góp, tỷ lệ phần vốn góp của thành viên công ty TNHH hai thành viên trở lên",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "(v) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.",
-        "code": "000.00.00.G12-KQ014207",
+        "name": "Trường hợp công ty bị tách đăng ký thay đổi phần vốn góp, tỷ lệ phần vốn góp của thành viên công ty TNHH hai thành viên trở lên: (v) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp công ty bị tách đăng ký thay đổi phần vốn góp, tỷ lệ phần vốn góp của thành viên công ty TNHH hai thành viên trở lên",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "(ii) Danh sách thành viên công ty TNHH hai thành viên trở lên; danh sách thành viên công ty hợp danh, trong đó không bao gồm nội dung kê khai về thành viên góp vốn. Các danh sách phải bao gồm chữ ký của các thành viên có phần vốn góp thay đổi, không bắt buộc phải có chữ ký của thành viên có phần vốn góp không thay đổi;",
-        "code": "000.00.00.G12-KQ014204",
+        "name": "Trường hợp công ty bị tách đăng ký thay đổi phần vốn góp, tỷ lệ phần vốn góp của thành viên công ty TNHH hai thành viên trở lên: (ii) Danh sách thành viên công ty TNHH hai thành viên trở lên; danh sách thành viên công ty hợp danh, trong đó không bao gồm nội dung kê khai về thành viên góp vốn. Các danh sách phải bao gồm chữ ký của các thành viên có phần vốn góp thay đổi, không bắt buộc phải có chữ ký của thành viên có phần vốn góp không thay đổi;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp công ty bị tách đăng ký thay đổi phần vốn góp, tỷ lệ phần vốn góp của thành viên công ty TNHH hai thành viên trở lên",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "(i) Giấy đề nghị đăng ký thay đổi nội dung đăng ký doanh nghiệp;",
-        "code": "000.00.00.G12-KQ014198",
+        "name": "Trường hợp công ty bị tách đăng ký thay đổi phần vốn góp, tỷ lệ phần vốn góp của thành viên công ty TNHH hai thành viên trở lên: (i) Giấy đề nghị đăng ký thay đổi nội dung đăng ký doanh nghiệp;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp công ty bị tách đăng ký thay đổi phần vốn góp, tỷ lệ phần vốn góp của thành viên công ty TNHH hai thành viên trở lên",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "(iii) Hợp đồng chuyển nhượng hoặc giấy tờ chứng minh việc hoàn tất chuyển nhượng trong trường hợp chuyển nhượng phần vốn góp; hợp đồng tặng cho trong trường hợp tặng cho phần vốn góp;",
-        "code": "000.00.00.G12-KQ014205",
+        "name": "Trường hợp công ty bị tách đăng ký thay đổi phần vốn góp, tỷ lệ phần vốn góp của thành viên công ty TNHH hai thành viên trở lên: (iii) Hợp đồng chuyển nhượng hoặc giấy tờ chứng minh việc hoàn tất chuyển nhượng trong trường hợp chuyển nhượng phần vốn góp; hợp đồng tặng cho trong trường hợp tặng cho phần vốn góp;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp công ty bị tách đăng ký thay đổi phần vốn góp, tỷ lệ phần vốn góp của thành viên công ty TNHH hai thành viên trở lên",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "(ii) Bản sao giấy tờ pháp lý của tổ chức và bản sao văn bản cử người đại diện theo ủy quyền trong trường hợp người nhận chuyển nhượng là tổ chức. Đối với chủ sở hữu là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự;",
-        "code": "000.00.00.G12-KQ014217",
+        "name": "Trường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.: (ii) Bản sao giấy tờ pháp lý của tổ chức và bản sao văn bản cử người đại diện theo ủy quyền trong trường hợp người nhận chuyển nhượng là tổ chức. Đối với chủ sở hữu là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 6
       },
       {
-        "name": "(v) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.",
-        "code": "000.00.00.G12-KQ014207",
+        "name": "Trường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.: (v) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "(iv) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư",
-        "code": "000.00.00.G12-KQ014219",
+        "name": "Trường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.: (iv) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "(iii) Hợp đồng chuyển nhượng phần vốn góp hoặc giấy tờ chứng minh việc hoàn tất chuyển nhượng;",
-        "code": "000.00.00.G12-KQ014218",
+        "name": "Trường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.: (iii) Hợp đồng chuyển nhượng phần vốn góp hoặc giấy tờ chứng minh việc hoàn tất chuyển nhượng;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 6
       },
       {
-        "name": "(Trường hợp khai thác được thông tin về Giấy chứng nhận đăng ký doanh nghiệp của doanh nghiệp thành lập và hoạt động theo Luật Doanh nghiệp; Giấy chứng nhận đăng ký hợp tác xã của hợp tác xã, liên hiệp hợp tác xã thành lập và hoạt động theo Luật Hợp tác xã trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ sổ dữ liệu về đăng ký hợp tác xã thì hồ sơ không bao gồm bản sao giấy tờ pháp lý của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã đó).",
-        "code": "000.00.00.G12-KQ015978",
+        "name": "Trường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.: (Trường hợp khai thác được thông tin về Giấy chứng nhận đăng ký doanh nghiệp của doanh nghiệp thành lập và hoạt động theo Luật Doanh nghiệp; Giấy chứng nhận đăng ký hợp tác xã của hợp tác xã, liên hiệp hợp tác xã thành lập và hoạt động theo Luật Hợp tác xã trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ sổ dữ liệu về đăng ký hợp tác xã thì hồ sơ không bao gồm bản sao giấy tờ pháp lý của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã đó).",
         "quantity": null,
-        "required": false,
-        "case": "Trường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 6
       },
       {
-        "name": "(i) Giấy đề nghị đăng ký thay đổi chủ sở hữu công ty TNHH một thành viên do chủ sở hữu cũ là cá nhân hoặc người đại diện theo pháp luật của chủ sở hữu là tổ chức và chủ sở hữu mới là cá nhân hoặc người đại diện theo pháp luật của chủ sở hữu là tổ chức ký;",
-        "code": "000.00.00.G12-KQ014216",
+        "name": "Trường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.: (i) Giấy đề nghị đăng ký thay đổi chủ sở hữu công ty TNHH một thành viên do chủ sở hữu cũ là cá nhân hoặc người đại diện theo pháp luật của chủ sở hữu là tổ chức và chủ sở hữu mới là cá nhân hoặc người đại diện theo pháp luật của chủ sở hữu là tổ chức ký;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 6
       },
       {
-        "name": "(v) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư.",
-        "code": "000.00.00.G12-KQ014202",
+        "name": "Trường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty: (v) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "(vi) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.",
-        "code": "000.00.00.G12-KQ014203",
+        "name": "Trường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty: (vi) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       },
       {
-        "name": "(iii) Hợp đồng chuyển nhượng cổ phần hoặc giấy tờ chứng minh việc hoàn tất chuyển nhượng trong trường hợp chuyển nhượng cổ phần; giấy tờ chứng minh việc góp vốn trong trường hợp cổ đông là nhà đầu tư nước ngoài mua cổ phần chào bán riêng lẻ;",
-        "code": "000.00.00.G12-KQ014221",
+        "name": "Trường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty: (iii) Hợp đồng chuyển nhượng cổ phần hoặc giấy tờ chứng minh việc hoàn tất chuyển nhượng trong trường hợp chuyển nhượng cổ phần; giấy tờ chứng minh việc góp vốn trong trường hợp cổ đông là nhà đầu tư nước ngoài mua cổ phần chào bán riêng lẻ;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       },
       {
-        "name": "(Trường hợp khai thác được thông tin về Giấy chứng nhận đăng ký doanh nghiệp của doanh nghiệp thành lập và hoạt động theo Luật Doanh nghiệp; Giấy chứng nhận đăng ký hợp tác xã của hợp tác xã, liên hiệp hợp tác xã thành lập và hoạt động theo Luật Hợp tác xã trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ sổ dữ liệu về đăng ký hợp tác xã thì hồ sơ không bao gồm bản sao giấy tờ pháp lý của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã đó).",
-        "code": "000.00.00.G12-KQ015978",
+        "name": "Trường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty: (Trường hợp khai thác được thông tin về Giấy chứng nhận đăng ký doanh nghiệp của doanh nghiệp thành lập và hoạt động theo Luật Doanh nghiệp; Giấy chứng nhận đăng ký hợp tác xã của hợp tác xã, liên hiệp hợp tác xã thành lập và hoạt động theo Luật Hợp tác xã trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ sổ dữ liệu về đăng ký hợp tác xã thì hồ sơ không bao gồm bản sao giấy tờ pháp lý của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã đó).",
         "quantity": null,
-        "required": false,
-        "case": "Trường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 6
       },
       {
-        "name": "(i) Thông báo thay đổi nội dung đăng ký doanh nghiệp;",
-        "code": "000.00.00.G12-KQ014186",
+        "name": "Trường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty: (i) Thông báo thay đổi nội dung đăng ký doanh nghiệp;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       },
       {
-        "name": "(iv) Bản sao giấy tờ pháp lý của tổ chức và bản sao văn bản cử người đại diện theo ủy quyền trong trường hợp cổ đông mới là tổ chức. Đối với cổ đông là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự;",
-        "code": "000.00.00.G12-KQ014222",
+        "name": "Trường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty: (iv) Bản sao giấy tờ pháp lý của tổ chức và bản sao văn bản cử người đại diện theo ủy quyền trong trường hợp cổ đông mới là tổ chức. Đối với cổ đông là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       },
       {
-        "name": "(ii) Danh sách cổ đông là nhà đầu tư nước ngoài sau khi đã thay đổi. Danh sách cổ đông là nhà đầu tư nước ngoài phải bao gồm chữ ký của cổ đông có giá trị cổ phần thay đổi, không bắt buộc phải có chữ ký của cổ đông có giá trị cổ phần không thay đổi;",
-        "code": "000.00.00.G12-KQ014220",
+        "name": "Trường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty: (ii) Danh sách cổ đông là nhà đầu tư nước ngoài sau khi đã thay đổi. Danh sách cổ đông là nhà đầu tư nước ngoài phải bao gồm chữ ký của cổ đông có giá trị cổ phần thay đổi, không bắt buộc phải có chữ ký của cổ đông có giá trị cổ phần không thay đổi;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 8
       },
       {
-        "name": "(i) Giấy đề nghị đăng ký thay đổi nội dung đăng ký doanh nghiệp;",
-        "code": "000.00.00.G12-KQ014198",
+        "name": "Trường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách: (i) Giấy đề nghị đăng ký thay đổi nội dung đăng ký doanh nghiệp;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "(iii) Bản sao hoặc bản chính nghị quyết hoặc quyết định của Hội đồng thành viên về việc thay đổi thành viên;",
-        "code": "000.00.00.G12-KQ014208",
+        "name": "Trường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách: (iii) Bản sao hoặc bản chính nghị quyết hoặc quyết định của Hội đồng thành viên về việc thay đổi thành viên;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 8
       },
       {
-        "name": "(v) Bản sao giấy tờ pháp lý của tổ chức và bản sao văn bản cử người đại diện theo ủy quyền trong trường hợp thành viên mới là tổ chức. Đối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự;",
-        "code": "000.00.00.G12-KQ014210",
+        "name": "Trường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách: (v) Bản sao giấy tờ pháp lý của tổ chức và bản sao văn bản cử người đại diện theo ủy quyền trong trường hợp thành viên mới là tổ chức. Đối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 8
       },
       {
-        "name": "(vi) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư.",
-        "code": "000.00.00.G12-KQ014211",
+        "name": "Trường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách: (vi) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 8
       },
       {
-        "name": "(Trường hợp khai thác được thông tin về Giấy chứng nhận đăng ký doanh nghiệp của doanh nghiệp thành lập và hoạt động theo Luật Doanh nghiệp; Giấy chứng nhận đăng ký hợp tác xã của hợp tác xã, liên hiệp hợp tác xã thành lập và hoạt động theo Luật Hợp tác xã trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ sổ dữ liệu về đăng ký hợp tác xã thì hồ sơ không bao gồm bản sao giấy tờ pháp lý của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã đó).",
-        "code": "000.00.00.G12-KQ015978",
+        "name": "Trường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách: (Trường hợp khai thác được thông tin về Giấy chứng nhận đăng ký doanh nghiệp của doanh nghiệp thành lập và hoạt động theo Luật Doanh nghiệp; Giấy chứng nhận đăng ký hợp tác xã của hợp tác xã, liên hiệp hợp tác xã thành lập và hoạt động theo Luật Hợp tác xã trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ sổ dữ liệu về đăng ký hợp tác xã thì hồ sơ không bao gồm bản sao giấy tờ pháp lý của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã đó).",
         "quantity": null,
-        "required": false,
-        "case": "Trường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 6
       },
       {
-        "name": "(iv) Giấy tờ chứng minh việc góp vốn của thành viên mới của công ty;",
-        "code": "000.00.00.G12-KQ014209",
+        "name": "Trường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách: (iv) Giấy tờ chứng minh việc góp vốn của thành viên mới của công ty;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 8
       },
       {
-        "name": "(vii) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.",
-        "code": "000.00.00.G12-KQ014212",
+        "name": "Trường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách: (vii) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 9
       },
       {
-        "name": "(ii) Danh sách thành viên công ty TNHH hai thành viên trở lên; danh sách thành viên công ty hợp danh, trong đó không bao gồm nội dung kê khai về thành viên góp vốn. Các danh sách phải bao gồm chữ ký của các thành viên có phần vốn góp thay đổi, không bắt buộc phải có chữ ký của thành viên có phần vốn góp không thay đổi;",
-        "code": "000.00.00.G12-KQ014204",
+        "name": "Trường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách: (ii) Danh sách thành viên công ty TNHH hai thành viên trở lên; danh sách thành viên công ty hợp danh, trong đó không bao gồm nội dung kê khai về thành viên góp vốn. Các danh sách phải bao gồm chữ ký của các thành viên có phần vốn góp thay đổi, không bắt buộc phải có chữ ký của thành viên có phần vốn góp không thay đổi;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "(vi) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.",
-        "code": "000.00.00.G12-KQ014203",
+        "name": "Trường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:: (vi) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       },
       {
-        "name": "(iv) Bản chính hoặc bản sao giấy tờ chứng minh việc góp vốn, mua cổ phần đã được thanh toán tương ứng với phần vốn điều lệ đăng ký tăng trong trường hợp công ty đăng ký tăng vốn điều lệ;",
-        "code": "000.00.00.G12-KQ014201",
+        "name": "Trường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:: (iv) Bản chính hoặc bản sao giấy tờ chứng minh việc góp vốn, mua cổ phần đã được thanh toán tương ứng với phần vốn điều lệ đăng ký tăng trong trường hợp công ty đăng ký tăng vốn điều lệ;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 9
       },
       {
-        "name": "(ii) Bản sao hoặc bản chính nghị quyết hoặc quyết định của chủ sở hữu công ty đối với công ty TNHH một thành viên; của Hội đồng thành viên đối với công ty TNHH hai thành viên trở lên, công ty hợp danh; của Đại hội đồng cổ đông đối với công ty cổ phần về việc thay đổi vốn điều lệ",
-        "code": "000.00.00.G12-KQ014199",
+        "name": "Trường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:: (ii) Bản sao hoặc bản chính nghị quyết hoặc quyết định của chủ sở hữu công ty đối với công ty TNHH một thành viên; của Hội đồng thành viên đối với công ty TNHH hai thành viên trở lên, công ty hợp danh; của Đại hội đồng cổ đông đối với công ty cổ phần về việc thay đổi vốn điều lệ",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 9
       },
       {
-        "name": "(v) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư.",
-        "code": "000.00.00.G12-KQ014202",
+        "name": "Trường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:: (v) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "(i) Giấy đề nghị đăng ký thay đổi nội dung đăng ký doanh nghiệp;",
-        "code": "000.00.00.G12-KQ014198",
+        "name": "Trường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:: (i) Giấy đề nghị đăng ký thay đổi nội dung đăng ký doanh nghiệp;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "(iii) Bản sao hoặc bản chính biên bản họp của Hội đồng thành viên đối với công ty TNHH hai thành viên trở lên về việc thay đổi vốn điều lệ;",
-        "code": "000.00.00.G12-KQ014200",
+        "name": "Trường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:: (iii) Bản sao hoặc bản chính biên bản họp của Hội đồng thành viên đối với công ty TNHH hai thành viên trở lên về việc thay đổi vốn điều lệ;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 10
       }
     ]
   },
@@ -443,35 +314,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 100,
-          "currency": "VND",
-          "description": "Phí công bố nội dung đăng ký doanh nghiệp: 100.000 đồng/lần (Thông tư số 47/2019/TT-BTC)",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí công bố nội dung đăng ký doanh nghiệp: 100.000 đồng/lần (Thông tư số 47/2019/TT-BTC)",
       "description": "",
-      "source_page": null
+      "source_page": 10
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 100,
-          "currency": "VND",
-          "description": "Phí công bố nội dung đăng ký doanh nghiệp: 100.000 đồng/lần (Thông tư số 47/2019/TT-BTC)",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí công bố nội dung đăng ký doanh nghiệp: 100.000 đồng/lần (Thông tư số 47/2019/TT-BTC)",
       "description": "",
       "source_page": null
     },
@@ -479,51 +330,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 25,
-          "currency": "VND",
-          "description": "- Lệ phí đăng ký doanh nghiệp: Bằng 50% mức thu lệ phí quy định tại điểm 1 Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC (Thông tư số 64/2025/TT-BTC ngày 30 tháng 6 năm 2025 của Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân)",
-          "attachment": null
-        }
-      ],
+      "fee": "- Lệ phí đăng ký doanh nghiệp: Bằng 50% mức thu lệ phí quy định tại điểm 1 Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC (Thông tư số 64/2025/TT-BTC ngày 30 tháng 6 năm 2025 của Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân)",
       "description": "",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Phí công bố nội dung đăng ký doanh nghiệp: 100.000 đồng/lần (Thông tư số 47/2019/TT-BTC); - Lệ phí đăng ký doanh nghiệp: Bằng 50% mức thu lệ phí quy định tại điểm 1 Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC (Thông tư số 64/2025/TT-BTC ngày 30 tháng 6 năm 2025 của Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân)",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 100,
-        "currency": "VND",
-        "description": "Phí công bố nội dung đăng ký doanh nghiệp: 100.000 đồng/lần (Thông tư số 47/2019/TT-BTC)",
-        "attachment": null
+        "amount_text": "Phí công bố nội dung đăng ký doanh nghiệp: 100.000 đồng/lần (Thông tư số 47/2019/TT-BTC)",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 100,
-        "currency": "VND",
-        "description": "Phí công bố nội dung đăng ký doanh nghiệp: 100.000 đồng/lần (Thông tư số 47/2019/TT-BTC)",
-        "attachment": null
+        "amount_text": "Phí công bố nội dung đăng ký doanh nghiệp: 100.000 đồng/lần (Thông tư số 47/2019/TT-BTC)",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 25,
-        "currency": "VND",
-        "description": "- Lệ phí đăng ký doanh nghiệp: Bằng 50% mức thu lệ phí quy định tại điểm 1 Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC (Thông tư số 64/2025/TT-BTC ngày 30 tháng 6 năm 2025 của Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân)",
-        "attachment": null
+        "amount_text": "- Lệ phí đăng ký doanh nghiệp: Bằng 50% mức thu lệ phí quy định tại điểm 1 Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC (Thông tư số 64/2025/TT-BTC ngày 30 tháng 6 năm 2025 của Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân)",
+        "is_free": false,
+        "source_page": 10
       }
     ]
   },
@@ -531,44 +367,37 @@
     {
       "title": "Nghị định số 168/2025/NĐ-CP ngày 30 tháng 6 năm 2025 của Chính phủ về đăng ký doanh nghiệp",
       "document_number": "168/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afec-5e297320f06a",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Thông tư số 68/2025/TT-BTC của Bộ Tài chính: Ban hành biểu mẫu sử dụng trong đăng ký doanh nghiệp, đăng ký hộ kinh doanh",
       "document_number": "68/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-87184807d6b6",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Luật Doanh nghiệp",
       "document_number": "59/2020/QH14",
-      "id": "019d2bb3-5d84-71c5-b673-a5cd7b50c21c",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Luật sửa đổi, bổ sung một số điều của Luật Doanh nghiệp 2020",
       "document_number": "76/2025/QH15",
-      "id": "019d2bb3-5d87-7195-a445-a84d5af06feb",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Nghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu",
       "document_number": "66.7/2025/NQ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-22af3c5ee091",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Thông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân",
       "document_number": "64/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-69cce97f8824",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "47/2019/TT-BTC",
       "document_number": "Thông tư 47/2019/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4f-e6b1d73fd7a4",
-      "source_page": null
+      "source_page": 10
     }
   ],
   "conditions": "",
@@ -576,25 +405,22 @@
     {
       "title": "Giấy chứng nhận đăng ký doanh nghiệp",
       "code": "KQ.G12.001056",
-      "id": "019d2bb2-1c72-75fa-a590-c384d2b8c712",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp",
       "code": "KQ.G12.001051",
-      "id": "019d2bb2-1c72-75fa-a590-b03dba8f7347",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Văn bản nêu rõ lý do từ chối của Cơ quan đăng ký kinh doanh",
       "code": "KQ.G12.001040",
-      "id": "019d2bb2-1c72-75fa-a590-8d4ba606d3c1",
-      "source_page": null
+      "source_page": 11
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Người nộp hồ sơ đăng ký doanh nghiệp theo quy định tại Nghị định số 168/2025/NĐ-CP nộp hồ sơ tại Cơ quan Đăng ký kinh doanh cấp tỉnh nơi doanh nghiệp đặt trụ sở chính.\nSau khi tiếp nhận hồ sơ đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh trao giấy tiếp nhận hồ sơ và hẹn trả kết quả cho người nộp hồ sơ. Trong thời hạn 03 ngày làm việc kể từ ngày nhận hồ sơ, Cơ quan đăng ký kinh doanh cấp tỉnh xem xét tính hợp lệ của hồ sơ và cấp Giấy chứng nhận đăng ký doanh nghiệp, Giấy xác nhận về việc thay đổi nội dung đăng ký doanh nghiệp cho doanh nghiệp; trường hợp hồ sơ chưa hợp lệ, Cơ quan đăng ký kinh doanh cấp tỉnh thông báo bằng văn bản nội dung cần sửa đổi, bổ sung cho doanh nghiệp.\n* Quy trình tiếp nhận, giải quyết thủ tục hành chính có thành phần hồ sơ được cắt giảm, thay thế dựa trên dữ liệu:\nCơ quan đăng ký kinh doanh cấp tỉnh khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư để thay thế thành phần hồ sơ giải quyết thủ tục hành chính.\n- Trường hợp không khai thác được hoặc thông tin khai thác được trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư không đầy đủ, không chính xác: Cơ quan đăng ký kinh doanh cấp tỉnh ra thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp cho người thành lập doanh nghiệp hoặc doanh nghiệp trong thời hạn quy định tại Luật Doanh nghiệp và Nghị định số 168/2025/NĐ-CP; đồng thời hướng dẫn cho người thành lập doanh nghiệp hoặc doanh nghiệp liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.\n\nNgười nộp hồ sơ sử dụng tài khoản định danh điện tử để đăng nhập Cổng thông tin quốc gia về đăng ký doanh nghiệp, kê khai thông tin, tải văn bản điện tử, ký số hoặc ký xác thực hồ sơ đăng ký doanh nghiệp qua mạng thông tin điện tử và thanh toán phí, lệ phí đăng ký doanh nghiệp theo quy trình trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nNgười uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.\nSau khi hoàn thành việc gửi hồ sơ đăng ký doanh nghiệp, người nộp hồ sơ sẽ nhận được giấy tiếp nhận hồ sơ và hẹn trả kết quả điện tử qua tài khoản của người nộp hồ sơ.\nTrường hợp hồ sơ đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh thực hiện cấp đăng ký doanh nghiệp và thông báo cho doanh nghiệp về việc cấp đăng ký doanh nghiệp. Trường hợp hồ sơ chưa đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh gửi thông báo qua mạng thông tin điện tử cho doanh nghiệp để yêu cầu sửa đổi, bổ sung hồ sơ. Người nộp hồ sơ đăng nhập vào Hệ thống thông tin quốc gia về đăng ký doanh nghiệp để nhận thông tin phản hồi về kết quả xử lý hồ sơ.\n* Quy trình tiếp nhận, giải quyết thủ tục hành chính có thành phần hồ sơ được cắt giảm, thay thế dựa trên dữ liệu:\nCơ quan đăng ký kinh doanh cấp tỉnh khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư để thay thế thành phần hồ sơ giải quyết thủ tục hành chính.\n- Trường hợp không khai thác được hoặc thông tin khai thác được trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư không đầy đủ, không chính xác: Cơ quan đăng ký kinh doanh cấp tỉnh ra thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp cho người thành lập doanh nghiệp hoặc doanh nghiệp trong thời hạn quy định tại Luật Doanh nghiệp và Nghị định số 168/2025/NĐ-CP. Thông báo được gửi đến tài khoản của người nộp hồ sơ trên Cổng thông tin quốc gia về đăng ký doanh nghiệp; đồng thời hướng dẫn người thành lập doanh nghiệp hoặc doanh nghiệp liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.\n\n- Ngành, nghề kinh doanh;\n- Danh sách cổ đông sáng lập; danh sách cổ đông là nhà đầu tư nước ngoài đối với công ty cổ phần (nếu có).\nTrường hợp thay đổi nội dung đăng ký doanh nghiệp, những thay đổi tương ứng phải được thông báo công khai trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nThời hạn thông báo công khai thông tin về doanh nghiệp là 30 ngày kể từ ngày được công khai\nThông tin công bố nội dung đăng ký doanh nghiệp được đăng tải trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nViệc đề nghị công bố nội dung đăng ký doanh nghiệp và nộp phí công bố nội dung đăng ký doanh nghiệp được thực hiện tại thời điểm doanh nghiệp nộp hồ sơ đăng ký doanh nghiệp. Trường hợp doanh nghiệp không được cấp đăng ký doanh nghiệp, doanh nghiệp sẽ được hoàn trả phí công bố nội dung đăng ký doanh nghiệp.\n",
-    "THÀNH PHẦN HỒ SƠ": "* Trường hợp ủy quyền thực hiện thủ tục: Người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây: - Trường hợp ủy quyền cho cá nhân thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:\n(i) Văn bản ủy quyền cho cá nhân thực hiện thủ tục liên quan đến đăng ký doanh nghiệp. Văn bản ủy quyền này không bắt buộc phải công chứng, chứng thực.\n- Người ủy quyền và người được ủy quyền thực hiện thủ tục đăng ký doanh nghiệp chịu trách nhiệm trước pháp luật về tính hợp pháp, trung thực và chính xác của việc ủy quyền. Người uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.\nTrường hợp người ủy quyền không xác nhận hoặc xác nhận không ủy quyền thực hiện thủ tục đăng ký doanh nghiệp thì Cơ quan đăng ký kinh doanh cấp tỉnh yêu cầu doanh nghiệp báo cáo theo quy định tại khoản 5 Điều 21 Nghị định số 168/2025/NĐ-CP. Cụ thể: Yêu cầu doanh nghiệp báo cáo về việc tuân thủ các quy định của Luật Doanh nghiệp theo quy định tại điểm c khoản 1 Điều 216 Luật Doanh nghiệp “Yêu cầu doanh nghiệp báo cáo về việc tuân thủ quy định của Luật này khi xét thấy cần thiết; đôn đốc việc thực hiện nghĩa vụ báo cáo của doanh nghiệp”.\nTrường hợp chưa có tài khoản định danh điện tử để thực hiện xác thực điện tử thì hồ sơ đăng ký doanh nghiệp phải kèm theo bản sao thẻ Căn cước hoặc thẻ Căn cước công dân hoặc hộ chiếu hoặc hộ chiếu nước ngoài hoặc các giấy tờ có giá trị thay thế hộ chiếu nước ngoài còn hiệu lực của người uỷ quyền.\n- Trường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:\n(i) Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp;\n(ii) Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp..\n- Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì khi thực hiện thủ tục đăng ký doanh nghiệp, nhân viên bưu chính phải nộp:\n(i) Bản sao phiếu gửi hồ sơ theo mẫu do doanh nghiệp cung ứng dịch vụ bưu chính công ích phát hành có chữ ký xác nhận của nhân viên bưu chính và người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp.\n- Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì việc ủy quyền thực hiện theo quy định tại khoản 2 Điều 12 Nghị định số 168/2025/NĐ-CP, cụ thể:\n(ii) Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp.\n(i) Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp;\nTrường hợp công ty bị tách đăng ký thay đổi phần vốn góp, tỷ lệ phần vốn góp của thành viên công ty TNHH hai thành viên trở lên\n(iv) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư.\n(v) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.\n(ii) Danh sách thành viên công ty TNHH hai thành viên trở lên; danh sách thành viên công ty hợp danh, trong đó không bao gồm nội dung kê khai về thành viên góp vốn. Các danh sách phải bao gồm chữ ký của các thành viên có phần vốn góp thay đổi, không bắt buộc phải có chữ ký của thành viên có phần vốn góp không thay đổi;\n(i) Giấy đề nghị đăng ký thay đổi nội dung đăng ký doanh nghiệp;\n(iii) Hợp đồng chuyển nhượng hoặc giấy tờ chứng minh việc hoàn tất chuyển nhượng trong trường hợp chuyển nhượng phần vốn góp; hợp đồng tặng cho trong trường hợp tặng cho phần vốn góp;\nTrường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.\n(ii) Bản sao giấy tờ pháp lý của tổ chức và bản sao văn bản cử người đại diện theo ủy quyền trong trường hợp người nhận chuyển nhượng là tổ chức. Đối với chủ sở hữu là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự;\n(v) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.\n(iv) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư\n(iii) Hợp đồng chuyển nhượng phần vốn góp hoặc giấy tờ chứng minh việc hoàn tất chuyển nhượng;\n(Trường hợp khai thác được thông tin về Giấy chứng nhận đăng ký doanh nghiệp của doanh nghiệp thành lập và hoạt động theo Luật Doanh nghiệp; Giấy chứng nhận đăng ký hợp tác xã của hợp tác xã, liên hiệp hợp tác xã thành lập và hoạt động theo Luật Hợp tác xã trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ sổ dữ liệu về đăng ký hợp tác xã thì hồ sơ không bao gồm bản sao giấy tờ pháp lý của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã đó).\n(i) Giấy đề nghị đăng ký thay đổi chủ sở hữu công ty TNHH một thành viên do chủ sở hữu cũ là cá nhân hoặc người đại diện theo pháp luật của chủ sở hữu là tổ chức và chủ sở hữu mới là cá nhân hoặc người đại diện theo pháp luật của chủ sở hữu là tổ chức ký;\nTrường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty\n(v) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư.\n(vi) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.\n(iii) Hợp đồng chuyển nhượng cổ phần hoặc giấy tờ chứng minh việc hoàn tất chuyển nhượng trong trường hợp chuyển nhượng cổ phần; giấy tờ chứng minh việc góp vốn trong trường hợp cổ đông là nhà đầu tư nước ngoài mua cổ phần chào bán riêng lẻ;\n(Trường hợp khai thác được thông tin về Giấy chứng nhận đăng ký doanh nghiệp của doanh nghiệp thành lập và hoạt động theo Luật Doanh nghiệp; Giấy chứng nhận đăng ký hợp tác xã của hợp tác xã, liên hiệp hợp tác xã thành lập và hoạt động theo Luật Hợp tác xã trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ sổ dữ liệu về đăng ký hợp tác xã thì hồ sơ không bao gồm bản sao giấy tờ pháp lý của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã đó).\n(i) Thông báo thay đổi nội dung đăng ký doanh nghiệp;\n(iv) Bản sao giấy tờ pháp lý của tổ chức và bản sao văn bản cử người đại diện theo ủy quyền trong trường hợp cổ đông mới là tổ chức. Đối với cổ đông là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự;\n(ii) Danh sách cổ đông là nhà đầu tư nước ngoài sau khi đã thay đổi. Danh sách cổ đông là nhà đầu tư nước ngoài phải bao gồm chữ ký của cổ đông có giá trị cổ phần thay đổi, không bắt buộc phải có chữ ký của cổ đông có giá trị cổ phần không thay đổi;\nTrường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách\n(i) Giấy đề nghị đăng ký thay đổi nội dung đăng ký doanh nghiệp;\n(iii) Bản sao hoặc bản chính nghị quyết hoặc quyết định của Hội đồng thành viên về việc thay đổi thành viên;\n(v) Bản sao giấy tờ pháp lý của tổ chức và bản sao văn bản cử người đại diện theo ủy quyền trong trường hợp thành viên mới là tổ chức. Đối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự;\n(vi) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư.\n(Trường hợp khai thác được thông tin về Giấy chứng nhận đăng ký doanh nghiệp của doanh nghiệp thành lập và hoạt động theo Luật Doanh nghiệp; Giấy chứng nhận đăng ký hợp tác xã của hợp tác xã, liên hiệp hợp tác xã thành lập và hoạt động theo Luật Hợp tác xã trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ sổ dữ liệu về đăng ký hợp tác xã thì hồ sơ không bao gồm bản sao giấy tờ pháp lý của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã đó).\n(iv) Giấy tờ chứng minh việc góp vốn của thành viên mới của công ty;\n(vii) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.\n(ii) Danh sách thành viên công ty TNHH hai thành viên trở lên; danh sách thành viên công ty hợp danh, trong đó không bao gồm nội dung kê khai về thành viên góp vốn. Các danh sách phải bao gồm chữ ký của các thành viên có phần vốn góp thay đổi, không bắt buộc phải có chữ ký của thành viên có phần vốn góp không thay đổi;\nTrường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:\n(vi) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.\n(iv) Bản chính hoặc bản sao giấy tờ chứng minh việc góp vốn, mua cổ phần đã được thanh toán tương ứng với phần vốn điều lệ đăng ký tăng trong trường hợp công ty đăng ký tăng vốn điều lệ;\n(ii) Bản sao hoặc bản chính nghị quyết hoặc quyết định của chủ sở hữu công ty đối với công ty TNHH một thành viên; của Hội đồng thành viên đối với công ty TNHH hai thành viên trở lên, công ty hợp danh; của Đại hội đồng cổ đông đối với công ty cổ phần về việc thay đổi vốn điều lệ\n(v) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư.\n(i) Giấy đề nghị đăng ký thay đổi nội dung đăng ký doanh nghiệp;\n(iii) Bản sao hoặc bản chính biên bản họp của Hội đồng thành viên đối với công ty TNHH hai thành viên trở lên về việc thay đổi vốn điều lệ;",
+    "TRÌNH TỰ THỰC HIỆN": "Người nộp hồ sơ đăng ký doanh nghiệp theo quy định tại Nghị định số 168/2025/NĐ-CP nộp hồ sơ tại Cơ quan Đăng ký kinh doanh cấp tỉnh nơi doanh nghiệp đặt trụ sở chính.\nSau khi tiếp nhận hồ sơ đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh trao giấy tiếp nhận hồ sơ và hẹn trả kết quả cho người nộp hồ sơ. Trong thời hạn 03 ngày làm việc kể từ ngày nhận hồ sơ, Cơ quan đăng ký kinh doanh cấp tỉnh xem xét tính hợp lệ của hồ sơ và cấp Giấy chứng nhận đăng ký doanh nghiệp, Giấy xác nhận về việc thay đổi nội dung đăng ký doanh nghiệp cho doanh nghiệp; trường hợp hồ sơ chưa hợp lệ, Cơ quan đăng ký kinh doanh cấp tỉnh thông báo bằng văn bản nội dung cần sửa đổi, bổ sung cho doanh nghiệp.\n* Quy trình tiếp nhận, giải quyết thủ tục hành chính có thành phần hồ sơ được cắt giảm, thay thế dựa trên dữ liệu:\nCơ quan đăng ký kinh doanh cấp tỉnh khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư để thay thế thành phần hồ sơ giải quyết thủ tục hành chính.\n- Trường hợp không khai thác được hoặc thông tin khai thác được trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư không đầy đủ, không chính xác: Cơ quan đăng ký kinh doanh cấp tỉnh ra thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp cho người thành lập doanh nghiệp hoặc doanh nghiệp trong thời hạn quy định tại Luật Doanh nghiệp và Nghị định số 168/2025/NĐ-CP; đồng thời hướng dẫn cho người thành lập doanh nghiệp hoặc doanh nghiệp liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.\nNgười nộp hồ sơ sử dụng tài khoản định danh điện tử để đăng nhập Cổng thông tin quốc gia về đăng ký doanh nghiệp, kê khai thông tin, tải văn bản điện tử, ký số hoặc ký xác thực hồ sơ đăng ký doanh nghiệp qua mạng thông tin điện tử và thanh toán phí, lệ phí đăng ký doanh nghiệp theo quy trình trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nNgười uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.\nSau khi hoàn thành việc gửi hồ sơ đăng ký doanh nghiệp, người nộp hồ sơ sẽ nhận được giấy tiếp nhận hồ sơ và hẹn trả kết quả điện tử qua tài khoản của người nộp hồ sơ.\nTrường hợp hồ sơ đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh thực hiện cấp đăng ký doanh nghiệp và thông báo cho doanh nghiệp về việc cấp đăng ký doanh nghiệp. Trường hợp hồ sơ chưa đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh gửi thông báo qua mạng thông tin điện tử cho doanh nghiệp để yêu cầu sửa đổi, bổ sung hồ sơ. Người nộp hồ sơ đăng nhập vào Hệ thống thông tin quốc gia về đăng ký doanh nghiệp để nhận thông tin phản hồi về kết quả xử lý hồ sơ.\n* Quy trình tiếp nhận, giải quyết thủ tục hành chính có thành phần hồ sơ được cắt giảm, thay thế dựa trên dữ liệu:\nCơ quan đăng ký kinh doanh cấp tỉnh khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư để thay thế thành phần hồ sơ giải quyết thủ tục hành chính.\n- Trường hợp không khai thác được hoặc thông tin khai thác được trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư không đầy đủ, không chính xác: Cơ quan đăng ký kinh doanh cấp tỉnh ra thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp cho người thành lập doanh nghiệp hoặc doanh nghiệp trong thời hạn quy định tại Luật Doanh nghiệp và Nghị định số 168/2025/NĐ-CP. Thông báo được gửi đến tài khoản của người nộp hồ sơ trên Cổng thông tin quốc gia về đăng ký doanh nghiệp; đồng thời hướng dẫn người thành lập doanh nghiệp hoặc doanh nghiệp liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.\n- Ngành, nghề kinh doanh;\n- Danh sách cổ đông sáng lập; danh sách cổ đông là nhà đầu tư nước ngoài đối với công ty cổ phần (nếu có).\nTrường hợp thay đổi nội dung đăng ký doanh nghiệp, những thay đổi tương ứng phải được thông báo công khai trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nThời hạn thông báo công khai thông tin về doanh nghiệp là 30 ngày kể từ ngày được công khai\nThông tin công bố nội dung đăng ký doanh nghiệp được đăng tải trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nViệc đề nghị công bố nội dung đăng ký doanh nghiệp và nộp phí công bố nội dung đăng ký doanh nghiệp được thực hiện tại thời điểm doanh nghiệp nộp hồ sơ đăng ký doanh nghiệp. Trường hợp doanh nghiệp không được cấp đăng ký doanh nghiệp, doanh nghiệp sẽ được hoàn trả phí công bố nội dung đăng ký doanh nghiệp.",
+    "THÀNH PHẦN HỒ SƠ": "* Trường hợp ủy quyền thực hiện thủ tục: Người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp có thể ủy quyền cho tổ chức, cá nhân khác thực hiện thủ tục đăng ký doanh nghiệp theo quy định sau đây: - Trường hợp ủy quyền cho cá nhân thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:: (i) Văn bản ủy quyền cho cá nhân thực hiện thủ tục liên quan đến đăng ký doanh nghiệp. Văn bản ủy quyền này không bắt buộc phải công chứng, chứng thực.\n- Người ủy quyền và người được ủy quyền thực hiện thủ tục đăng ký doanh nghiệp chịu trách nhiệm trước pháp luật về tính hợp pháp, trung thực và chính xác của việc ủy quyền. Người uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.: Trường hợp người ủy quyền không xác nhận hoặc xác nhận không ủy quyền thực hiện thủ tục đăng ký doanh nghiệp thì Cơ quan đăng ký kinh doanh cấp tỉnh yêu cầu doanh nghiệp báo cáo theo quy định tại khoản 5 Điều 21 Nghị định số 168/2025/NĐ-CP. Cụ thể: Yêu cầu doanh nghiệp báo cáo về việc tuân thủ các quy định của Luật Doanh nghiệp theo quy định tại điểm c khoản 1 Điều 216 Luật Doanh nghiệp “Yêu cầu doanh nghiệp báo cáo về việc tuân thủ quy định của Luật này khi xét thấy cần thiết; đôn đốc việc thực hiện nghĩa vụ báo cáo của doanh nghiệp”.\n- Người ủy quyền và người được ủy quyền thực hiện thủ tục đăng ký doanh nghiệp chịu trách nhiệm trước pháp luật về tính hợp pháp, trung thực và chính xác của việc ủy quyền. Người uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.: Trường hợp chưa có tài khoản định danh điện tử để thực hiện xác thực điện tử thì hồ sơ đăng ký doanh nghiệp phải kèm theo bản sao thẻ Căn cước hoặc thẻ Căn cước công dân hoặc hộ chiếu hoặc hộ chiếu nước ngoài hoặc các giấy tờ có giá trị thay thế hộ chiếu nước ngoài còn hiệu lực của người uỷ quyền.\n- Trường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:: (i) Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp;\n- Trường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:: (ii) Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp..\n- Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì khi thực hiện thủ tục đăng ký doanh nghiệp, nhân viên bưu chính phải nộp:: (i) Bản sao phiếu gửi hồ sơ theo mẫu do doanh nghiệp cung ứng dịch vụ bưu chính công ích phát hành có chữ ký xác nhận của nhân viên bưu chính và người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp.\n- Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì việc ủy quyền thực hiện theo quy định tại khoản 2 Điều 12 Nghị định số 168/2025/NĐ-CP, cụ thể:: (ii) Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp.\n- Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì việc ủy quyền thực hiện theo quy định tại khoản 2 Điều 12 Nghị định số 168/2025/NĐ-CP, cụ thể:: (i) Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp;\nTrường hợp công ty bị tách đăng ký thay đổi phần vốn góp, tỷ lệ phần vốn góp của thành viên công ty TNHH hai thành viên trở lên: (iv) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư.\nTrường hợp công ty bị tách đăng ký thay đổi phần vốn góp, tỷ lệ phần vốn góp của thành viên công ty TNHH hai thành viên trở lên: (v) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.\nTrường hợp công ty bị tách đăng ký thay đổi phần vốn góp, tỷ lệ phần vốn góp của thành viên công ty TNHH hai thành viên trở lên: (ii) Danh sách thành viên công ty TNHH hai thành viên trở lên; danh sách thành viên công ty hợp danh, trong đó không bao gồm nội dung kê khai về thành viên góp vốn. Các danh sách phải bao gồm chữ ký của các thành viên có phần vốn góp thay đổi, không bắt buộc phải có chữ ký của thành viên có phần vốn góp không thay đổi;\nTrường hợp công ty bị tách đăng ký thay đổi phần vốn góp, tỷ lệ phần vốn góp của thành viên công ty TNHH hai thành viên trở lên: (i) Giấy đề nghị đăng ký thay đổi nội dung đăng ký doanh nghiệp;\nTrường hợp công ty bị tách đăng ký thay đổi phần vốn góp, tỷ lệ phần vốn góp của thành viên công ty TNHH hai thành viên trở lên: (iii) Hợp đồng chuyển nhượng hoặc giấy tờ chứng minh việc hoàn tất chuyển nhượng trong trường hợp chuyển nhượng phần vốn góp; hợp đồng tặng cho trong trường hợp tặng cho phần vốn góp;\nTrường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.: (ii) Bản sao giấy tờ pháp lý của tổ chức và bản sao văn bản cử người đại diện theo ủy quyền trong trường hợp người nhận chuyển nhượng là tổ chức. Đối với chủ sở hữu là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự;\nTrường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.: (v) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.\nTrường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.: (iv) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư\nTrường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.: (iii) Hợp đồng chuyển nhượng phần vốn góp hoặc giấy tờ chứng minh việc hoàn tất chuyển nhượng;\nTrường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.: (Trường hợp khai thác được thông tin về Giấy chứng nhận đăng ký doanh nghiệp của doanh nghiệp thành lập và hoạt động theo Luật Doanh nghiệp; Giấy chứng nhận đăng ký hợp tác xã của hợp tác xã, liên hiệp hợp tác xã thành lập và hoạt động theo Luật Hợp tác xã trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ sổ dữ liệu về đăng ký hợp tác xã thì hồ sơ không bao gồm bản sao giấy tờ pháp lý của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã đó).\nTrường hợp thay đổi chủ sở hữu công ty TNHH một thành viên theo quyết định tách công ty.: (i) Giấy đề nghị đăng ký thay đổi chủ sở hữu công ty TNHH một thành viên do chủ sở hữu cũ là cá nhân hoặc người đại diện theo pháp luật của chủ sở hữu là tổ chức và chủ sở hữu mới là cá nhân hoặc người đại diện theo pháp luật của chủ sở hữu là tổ chức ký;\nTrường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty: (v) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư.\nTrường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty: (vi) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.\nTrường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty: (iii) Hợp đồng chuyển nhượng cổ phần hoặc giấy tờ chứng minh việc hoàn tất chuyển nhượng trong trường hợp chuyển nhượng cổ phần; giấy tờ chứng minh việc góp vốn trong trường hợp cổ đông là nhà đầu tư nước ngoài mua cổ phần chào bán riêng lẻ;\nTrường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty: (Trường hợp khai thác được thông tin về Giấy chứng nhận đăng ký doanh nghiệp của doanh nghiệp thành lập và hoạt động theo Luật Doanh nghiệp; Giấy chứng nhận đăng ký hợp tác xã của hợp tác xã, liên hiệp hợp tác xã thành lập và hoạt động theo Luật Hợp tác xã trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ sổ dữ liệu về đăng ký hợp tác xã thì hồ sơ không bao gồm bản sao giấy tờ pháp lý của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã đó).\nTrường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty: (i) Thông báo thay đổi nội dung đăng ký doanh nghiệp;\nTrường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty: (iv) Bản sao giấy tờ pháp lý của tổ chức và bản sao văn bản cử người đại diện theo ủy quyền trong trường hợp cổ đông mới là tổ chức. Đối với cổ đông là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự;\nTrường hợp thay đổi cổ đông là nhà đầu tư nước ngoài theo quyết định tách công ty: (ii) Danh sách cổ đông là nhà đầu tư nước ngoài sau khi đã thay đổi. Danh sách cổ đông là nhà đầu tư nước ngoài phải bao gồm chữ ký của cổ đông có giá trị cổ phần thay đổi, không bắt buộc phải có chữ ký của cổ đông có giá trị cổ phần không thay đổi;\nTrường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách: (i) Giấy đề nghị đăng ký thay đổi nội dung đăng ký doanh nghiệp;\nTrường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách: (iii) Bản sao hoặc bản chính nghị quyết hoặc quyết định của Hội đồng thành viên về việc thay đổi thành viên;\nTrường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách: (v) Bản sao giấy tờ pháp lý của tổ chức và bản sao văn bản cử người đại diện theo ủy quyền trong trường hợp thành viên mới là tổ chức. Đối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự;\nTrường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách: (vi) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư.\nTrường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách: (Trường hợp khai thác được thông tin về Giấy chứng nhận đăng ký doanh nghiệp của doanh nghiệp thành lập và hoạt động theo Luật Doanh nghiệp; Giấy chứng nhận đăng ký hợp tác xã của hợp tác xã, liên hiệp hợp tác xã thành lập và hoạt động theo Luật Hợp tác xã trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ sổ dữ liệu về đăng ký hợp tác xã thì hồ sơ không bao gồm bản sao giấy tờ pháp lý của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã đó).\nTrường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách: (iv) Giấy tờ chứng minh việc góp vốn của thành viên mới của công ty;\nTrường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách: (vii) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.\nTrường hợp thay đổi thành viên do công ty có thành viên là tổ chức  tách: (ii) Danh sách thành viên công ty TNHH hai thành viên trở lên; danh sách thành viên công ty hợp danh, trong đó không bao gồm nội dung kê khai về thành viên góp vốn. Các danh sách phải bao gồm chữ ký của các thành viên có phần vốn góp thay đổi, không bắt buộc phải có chữ ký của thành viên có phần vốn góp không thay đổi;\nTrường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:: (vi) Bản sao hoặc bản chính nghị quyết hoặc quyết định về việc tách công ty theo quy định tại Điều 199 Luật Doanh nghiệp.\nTrường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:: (iv) Bản chính hoặc bản sao giấy tờ chứng minh việc góp vốn, mua cổ phần đã được thanh toán tương ứng với phần vốn điều lệ đăng ký tăng trong trường hợp công ty đăng ký tăng vốn điều lệ;\nTrường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:: (ii) Bản sao hoặc bản chính nghị quyết hoặc quyết định của chủ sở hữu công ty đối với công ty TNHH một thành viên; của Hội đồng thành viên đối với công ty TNHH hai thành viên trở lên, công ty hợp danh; của Đại hội đồng cổ đông đối với công ty cổ phần về việc thay đổi vốn điều lệ\nTrường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:: (v) Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư.\nTrường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:: (i) Giấy đề nghị đăng ký thay đổi nội dung đăng ký doanh nghiệp;\nTrường hợp tách công ty TNHH, công ty cổ phần mà công ty bị tách thay đổi vốn điều lệ:: (iii) Bản sao hoặc bản chính biên bản họp của Hội đồng thành viên đối với công ty TNHH hai thành viên trở lên về việc thay đổi vốn điều lệ;",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 1\nQua dịch vụ bưu chính: 1\nTrực tiếp: 1",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 168/2025/NĐ-CP ngày 30 tháng 6 năm 2025 của Chính phủ về đăng ký doanh nghiệp - 168/2025/NĐ-CP\nThông tư số 68/2025/TT-BTC của Bộ Tài chính: Ban hành biểu mẫu sử dụng trong đăng ký doanh nghiệp, đăng ký hộ kinh doanh - 68/2025/TT-BTC\nLuật Doanh nghiệp - 59/2020/QH14\nLuật sửa đổi, bổ sung một số điều của Luật Doanh nghiệp 2020 - 76/2025/QH15\nNghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu - 66.7/2025/NQ-CP\nThông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân - 64/2025/TT-BTC\n47/2019/TT-BTC - Thông tư 47/2019/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Sở Tài chính các tỉnh, thành phố",
@@ -604,14 +430,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thành lập và hoạt động của doanh nghiệp",
-      "slug": "thanh-lap-va-hoat-dong-cua-doanh-nghiep"
+      "slug": "thanh-lap-va-hoat-ong-cua-doanh-nghiep"
     },
     "implementation_levels": [
       {
@@ -650,11 +471,11 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
@@ -667,6 +488,6 @@
         "slug": "so-tai-chinh-cac-tinh-thanh-pho"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

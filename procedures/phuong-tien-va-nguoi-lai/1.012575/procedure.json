@@ -1,35 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf7-8ec4-71e9-98c9-719f7565b157",
   "procedure_code": "1.012575",
   "title": "Đăng ký xe lần đầu trực tuyến toàn trình đối với xe sản xuất lắp ráp trong nước thực hiện tại cấp tỉnh,  cấp xã",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-8ec4-71e9-98c9-719f7565b157",
     "source_file": "chi-tiet-thu-tuc-1.012575.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.012575/chi-tiet-thu-tuc-1.012575.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:08.006689+00:00",
-    "source_updated_at": "2026-04-30T14:09:29.638Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:53.068276+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "16b3c210b48bbc7e41e785db801f2b130129f5231bb6293f7b69f5256008cd42"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:08.006689+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1383/QĐ-BCA",
   "implementation_level": "Cấp tỉnh, Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng",
   "target_users": [
@@ -37,57 +31,81 @@
   ],
   "agency": {
     "competent_agency": "Công an cấp Xã; Công an tỉnh",
-    "executing_agency": "Công an cấp Xã, Công an tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Công an cấp Xã, Công an tỉnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Chủ xe đăng nhập bằng tài khoản định danh mức độ 2 trên cổng dịch vụ công hoặc Ứng dụng định danh quốc gia và kê khai chính xác, đầy đủ, trung thực các nội dung trong mẫu giấy khai đăng ký xe điện tử và thực hiện theo hướng dẫn (chủ xe không cần ký). \nBước 2: Chủ xe thực hiện lựa chọn biển số: biển định danh (thực hiện chọn biển định danh); xác nhận biển đấu giá; hoặc bấm biển số mới (nếu chưa có biển số định danh) trên cổng dịch vụ công hoặc Ứng dụng định danh quốc gia.\nBước 3: Cổng dịch vụ công, Ứng dụng định danh quốc gia thông báo mã dịch vụ công và biển số xe được cấp cho chủ xe; hướng dẫn nộp tiền lệ phí đăng ký xe qua tin nhắn điện thoại hoặc địa chỉ thư điện tử hoặc thông báo trên Ứng dụng định danh quốc gia để chủ xe nộp tiền lệ phí qua tiện ích thanh toán được tích hợp trên cổng dịch vụ công, Ứng dụng định danh quốc gia.\nBước 4: Sau khi thanh toán thành công lệ phí đăng ký xe, cổng dịch vụ công, Ứng dụng định danh quốc gia thông báo cho chủ xe việc hoàn thành nộp lệ phí;\nBước 5: Cán bộ đăng ký xe thực hiện tiếp nhận, kiểm tra, hiệu chỉnh dữ liệu đăng ký xe lần đầu trực tuyến toàn trình từ cổng dịch vụ công, Ứng dụng định danh quốc gia chuyển về hệ thống đăng ký, quản lý xe; in giấy khai đăng ký xe, chứng nhận đăng ký xe; trình lãnh đạo cấp có thẩm quyền duyệt, ký hồ sơ xe, chứng nhận đăng ký xe, sổ đăng ký xe và các giấy tờ liên quan; đóng dấu hồ sơ xe. Trả chứng nhận đăng ký xe, biển số xe (dán tem nhận diện vào biển số xe trúng đấu giá hoặc biển số xe sử dụng năng lượng sạch, năng lượng xanh, thân thiện môi trường) cho chủ xe qua dịch vụ bưu chính hoặc trực tiếp tại cơ quan đăng ký xe;\nBước 6: Chủ xe nhận thông báo về việc trả kết quả đăng ký xe từ cổng dịch vụ công, Ứng dụng định danh quốc gia. Nhận chứng nhận đăng ký xe, biển số xe qua dịch vụ bưu chính hoặc trực tiếp tại cơ quan đăng ký xe và nộp lại Phiếu kiểm tra chất lượng xuất xưởng (có dán bản chà số máy, số khung có đóng dấu giáp lai của cơ sở sản xuất). Trường hợp chủ xe không nộp hoặc thông tin bản chà số máy, số khung cung cấp không đúng với thông tin đã kê khai thì chủ xe phải mang xe đến cơ quan đăng ký xe để kiểm tra và nhận kết quả đăng ký xe; Trường hợp không có bản giấy thì nộp bản in từ hệ thống cơ sở dữ liệu điện tử phiếu kiểm tra chất lượng xuất xưởng có dán bản chà số máy, số khung xe đóng dấu giáp lai của cơ sở sản xuất xe.\nBước 7: Cán bộ đăng ký xe nhận Phiếu kiểm tra chất lượng xuất xưởng để kiểm tra, đối chiếu với dữ liệu trên hệ thống đăng ký, quản lý xe, ký xác nhận đã kiểm tra, đối chiếu lên bản chà số máy, số khung của xe để lưu vào hồ sơ đăng ký xe; quét bản chà số máy, số khung của xe và tải lên hệ thống đăng ký, quản lý xe.\n",
+      "description": "Bước 1: Chủ xe đăng nhập bằng tài khoản định danh mức độ 2 trên cổng dịch vụ công hoặc Ứng dụng định danh quốc gia và kê khai chính xác, đầy đủ, trung thực các nội dung trong mẫu giấy khai đăng ký xe điện tử và thực hiện theo hướng dẫn (chủ xe không cần ký).",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Chủ xe thực hiện lựa chọn biển số: biển định danh (thực hiện chọn biển định danh); xác nhận biển đấu giá; hoặc bấm biển số mới (nếu chưa có biển số định danh) trên cổng dịch vụ công hoặc Ứng dụng định danh quốc gia.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Cổng dịch vụ công, Ứng dụng định danh quốc gia thông báo mã dịch vụ công và biển số xe được cấp cho chủ xe; hướng dẫn nộp tiền lệ phí đăng ký xe qua tin nhắn điện thoại hoặc địa chỉ thư điện tử hoặc thông báo trên Ứng dụng định danh quốc gia để chủ xe nộp tiền lệ phí qua tiện ích thanh toán được tích hợp trên cổng dịch vụ công, Ứng dụng định danh quốc gia.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "Bước 4: Sau khi thanh toán thành công lệ phí đăng ký xe, cổng dịch vụ công, Ứng dụng định danh quốc gia thông báo cho chủ xe việc hoàn thành nộp lệ phí;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 5,
+      "title": "Bước 5",
+      "description": "Bước 5: Cán bộ đăng ký xe thực hiện tiếp nhận, kiểm tra, hiệu chỉnh dữ liệu đăng ký xe lần đầu trực tuyến toàn trình từ cổng dịch vụ công, Ứng dụng định danh quốc gia chuyển về hệ thống đăng ký, quản lý xe; in giấy khai đăng ký xe, chứng nhận đăng ký xe; trình lãnh đạo cấp có thẩm quyền duyệt, ký hồ sơ xe, chứng nhận đăng ký xe, sổ đăng ký xe và các giấy tờ liên quan; đóng dấu hồ sơ xe. Trả chứng nhận đăng ký xe, biển số xe (dán tem nhận diện vào biển số xe trúng đấu giá hoặc biển số xe sử dụng năng lượng sạch, năng lượng xanh, thân thiện môi trường) cho chủ xe qua dịch vụ bưu chính hoặc trực tiếp tại cơ quan đăng ký xe;",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 6,
+      "title": "Bước 6",
+      "description": "Bước 6: Chủ xe nhận thông báo về việc trả kết quả đăng ký xe từ cổng dịch vụ công, Ứng dụng định danh quốc gia. Nhận chứng nhận đăng ký xe, biển số xe qua dịch vụ bưu chính hoặc trực tiếp tại cơ quan đăng ký xe và nộp lại Phiếu kiểm tra chất lượng xuất xưởng (có dán bản chà số máy, số khung có đóng dấu giáp lai của cơ sở sản xuất). Trường hợp chủ xe không nộp hoặc thông tin bản chà số máy, số khung cung cấp không đúng với thông tin đã kê khai thì chủ xe phải mang xe đến cơ quan đăng ký xe để kiểm tra và nhận kết quả đăng ký xe; Trường hợp không có bản giấy thì nộp bản in từ hệ thống cơ sở dữ liệu điện tử phiếu kiểm tra chất lượng xuất xưởng có dán bản chà số máy, số khung xe đóng dấu giáp lai của cơ sở sản xuất xe.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 7,
+      "title": "Bước 7",
+      "description": "Bước 7: Cán bộ đăng ký xe nhận Phiếu kiểm tra chất lượng xuất xưởng để kiểm tra, đối chiếu với dữ liệu trên hệ thống đăng ký, quản lý xe, ký xác nhận đã kiểm tra, đối chiếu lên bản chà số máy, số khung của xe để lưu vào hồ sơ đăng ký xe; quét bản chà số máy, số khung của xe và tải lên hệ thống đăng ký, quản lý xe.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Giấy khai  đăng ký xe (mẫu ĐKX10/79 ban hành kèm theo Thông tư số 13/2025/TT-BCA ngày 28/02/2025 của Bộ trưởng Bộ Công an).",
-        "code": "000.00.00.G01-KQ003327",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dce44-502c-7108-8689-3654d709acec",
-            "name": "MauKX1079.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "MauKX1079.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Giấy tờ của chủ xe: sử  dụng Ứng dụng định danh điện tử mức độ 2 để đăng nhập trên Cổng dịch vụ công hoặc Ứng dụng định danh quốc gia.",
-        "code": "000.00.00.G01-KQ003328",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Giấy tờ của xe (sử dụng  dữ liệu điện tử của Phiếu kiểm tra chất lượng xuất xưởng; Hóa đơn điện tử; Lệ phí trước bạ). Phiếu kiểm tra chất lượng xuất xưởng (có dán bản chà số máy, số khung có đóng dấu giáp lai của cơ sở sản xuất).",
-        "code": "000.00.00.G01-KQ003329",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -96,33 +114,22 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "2 ngày",
-      "processing_time_value": 2,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ. Thông tư số 06/2025/TT-BTC ngày 24/01/2025 sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí.",
-          "attachment": null
-        }
-      ],
-      "description": "- Cách thức thực hiện: + Chủ xe thực hiện kê khai đăng ký xe trên Cổng dịch vụ công hoặc Ứng dụng định danh quốc gia. Cơ quan đăng ký xe tiếp nhận hồ sơ trong giờ làm việc. + Trả kết quả qua dịch vụ bưu chính hoặc trực tiếp tại cơ quan đăng ký xe. - Thời hạn giải quyết: + Cấp chứng nhận đăng ký xe, cấp mới biển số xe: Không quá 02 ngày làm việc, kể từ khi nhận đủ hồ sơ hợp lệ. + Cấp chứng nhận đăng ký xe, cấp mới biển số xe trúng đấu giá, cấp biển số định danh: Không quá 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ. + Đối với các trường hợp phải nộp lệ phí đăng ký xe thì thời hạn giải quyết đăng ký xe được tính từ khi nhận đủ hồ sơ hợp lệ và chủ xe hoàn thành việc nộp lệ phí đăng ký xe.\n",
-      "source_page": null
+      "fee": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ. Thông tư số 06/2025/TT-BTC ngày 24/01/2025 sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí.",
+      "description": "- Cách thức thực hiện: + Chủ xe thực hiện kê khai đăng ký xe trên Cổng dịch vụ công hoặc Ứng dụng định danh quốc gia. Cơ quan đăng ký xe tiếp nhận hồ sơ trong giờ làm việc. + Trả kết quả qua dịch vụ bưu chính hoặc trực tiếp tại cơ quan đăng ký xe. - Thời hạn giải quyết: + Cấp chứng nhận đăng ký xe, cấp mới biển số xe: Không quá 02 ngày làm việc, kể từ khi nhận đủ hồ sơ hợp lệ. + Cấp chứng nhận đăng ký xe, cấp mới biển số xe trúng đấu giá, cấp biển số định danh: Không quá 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ. + Đối với các trường hợp phải nộp lệ phí đăng ký xe thì thời hạn giải quyết đăng ký xe được tính từ khi nhận đủ hồ sơ hợp lệ và chủ xe hoàn thành việc nộp lệ phí đăng ký xe.",
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ. Thông tư số 06/2025/TT-BTC ngày 24/01/2025 sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí.",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ. Thông tư số 06/2025/TT-BTC ngày 24/01/2025 sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí.",
-        "attachment": null
+        "amount_text": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ. Thông tư số 06/2025/TT-BTC ngày 24/01/2025 sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí.",
+        "is_free": false,
+        "source_page": 3
       }
     ]
   },
@@ -130,32 +137,27 @@
     {
       "title": "Thông tư sửa đổi, bổ sung một số điều của các thông tư quy định về trật tự, an toàn giao thông đường bộ, đường sắt và đường thủy nội địa.",
       "document_number": "13/2025/TT-BCA",
-      "id": "019d2bb3-5d7b-7049-8fc6-2ce3171bf414",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật Trật tự, an toàn giao thông đường bộ",
       "document_number": "36/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b672-dfa7472cab6e",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư số 79/2024/TT-BCA ngày 15/11/2024 của Bộ trưởng Bộ Công an quy định về cấp, thu hồi chứng nhận đăng ký, biển số xe cơ giới, xe máy chuyên dùng.",
       "document_number": "79/2024/TT-BCA",
-      "id": "019d2bb3-5d7b-7049-8fc6-ebb0bdb9e697",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "hông tư số 06/2025/TT-BTC của Bộ Tài chính: Sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí",
       "document_number": "06/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be48-6917dee107d2",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ",
       "document_number": "60/2023/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-3e4b792835e1",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Chủ xe là công dân Việt Nam có tài khoản định danh mức độ 2; Phiếu kiểm tra chất lượng xuất xưởng có dán bản chà số máy, số khung có đóng dấu giáp lai của cơ sở sản xuất.",
@@ -163,20 +165,18 @@
     {
       "title": "Giấy chứng nhận đăng ký xe",
       "code": "KQ.G01.000014",
-      "id": "019d2bb2-1c36-71b8-ad26-84b1d2d9bb7d",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Biển số xe",
       "code": "KQ.G01.000015",
-      "id": "019d2bb2-1c36-71b8-ad26-899dd4578864",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Chủ xe đăng nhập bằng tài khoản định danh mức độ 2 trên cổng dịch vụ công hoặc Ứng dụng định danh quốc gia và kê khai chính xác, đầy đủ, trung thực các nội dung trong mẫu giấy khai đăng ký xe điện tử và thực hiện theo hướng dẫn (chủ xe không cần ký). \nBước 2: Chủ xe thực hiện lựa chọn biển số: biển định danh (thực hiện chọn biển định danh); xác nhận biển đấu giá; hoặc bấm biển số mới (nếu chưa có biển số định danh) trên cổng dịch vụ công hoặc Ứng dụng định danh quốc gia.\nBước 3: Cổng dịch vụ công, Ứng dụng định danh quốc gia thông báo mã dịch vụ công và biển số xe được cấp cho chủ xe; hướng dẫn nộp tiền lệ phí đăng ký xe qua tin nhắn điện thoại hoặc địa chỉ thư điện tử hoặc thông báo trên Ứng dụng định danh quốc gia để chủ xe nộp tiền lệ phí qua tiện ích thanh toán được tích hợp trên cổng dịch vụ công, Ứng dụng định danh quốc gia.\nBước 4: Sau khi thanh toán thành công lệ phí đăng ký xe, cổng dịch vụ công, Ứng dụng định danh quốc gia thông báo cho chủ xe việc hoàn thành nộp lệ phí;\nBước 5: Cán bộ đăng ký xe thực hiện tiếp nhận, kiểm tra, hiệu chỉnh dữ liệu đăng ký xe lần đầu trực tuyến toàn trình từ cổng dịch vụ công, Ứng dụng định danh quốc gia chuyển về hệ thống đăng ký, quản lý xe; in giấy khai đăng ký xe, chứng nhận đăng ký xe; trình lãnh đạo cấp có thẩm quyền duyệt, ký hồ sơ xe, chứng nhận đăng ký xe, sổ đăng ký xe và các giấy tờ liên quan; đóng dấu hồ sơ xe. Trả chứng nhận đăng ký xe, biển số xe (dán tem nhận diện vào biển số xe trúng đấu giá hoặc biển số xe sử dụng năng lượng sạch, năng lượng xanh, thân thiện môi trường) cho chủ xe qua dịch vụ bưu chính hoặc trực tiếp tại cơ quan đăng ký xe;\nBước 6: Chủ xe nhận thông báo về việc trả kết quả đăng ký xe từ cổng dịch vụ công, Ứng dụng định danh quốc gia. Nhận chứng nhận đăng ký xe, biển số xe qua dịch vụ bưu chính hoặc trực tiếp tại cơ quan đăng ký xe và nộp lại Phiếu kiểm tra chất lượng xuất xưởng (có dán bản chà số máy, số khung có đóng dấu giáp lai của cơ sở sản xuất). Trường hợp chủ xe không nộp hoặc thông tin bản chà số máy, số khung cung cấp không đúng với thông tin đã kê khai thì chủ xe phải mang xe đến cơ quan đăng ký xe để kiểm tra và nhận kết quả đăng ký xe; Trường hợp không có bản giấy thì nộp bản in từ hệ thống cơ sở dữ liệu điện tử phiếu kiểm tra chất lượng xuất xưởng có dán bản chà số máy, số khung xe đóng dấu giáp lai của cơ sở sản xuất xe.\nBước 7: Cán bộ đăng ký xe nhận Phiếu kiểm tra chất lượng xuất xưởng để kiểm tra, đối chiếu với dữ liệu trên hệ thống đăng ký, quản lý xe, ký xác nhận đã kiểm tra, đối chiếu lên bản chà số máy, số khung của xe để lưu vào hồ sơ đăng ký xe; quét bản chà số máy, số khung của xe và tải lên hệ thống đăng ký, quản lý xe.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nGiấy khai  đăng ký xe (mẫu ĐKX10/79 ban hành kèm theo Thông tư số 13/2025/TT-BCA ngày 28/02/2025 của Bộ trưởng Bộ Công an).\nGiấy tờ của chủ xe: sử  dụng Ứng dụng định danh điện tử mức độ 2 để đăng nhập trên Cổng dịch vụ công hoặc Ứng dụng định danh quốc gia.\nGiấy tờ của xe (sử dụng  dữ liệu điện tử của Phiếu kiểm tra chất lượng xuất xưởng; Hóa đơn điện tử; Lệ phí trước bạ). Phiếu kiểm tra chất lượng xuất xưởng (có dán bản chà số máy, số khung có đóng dấu giáp lai của cơ sở sản xuất).",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 2 ngày - - Cách thức thực hiện: + Chủ xe thực hiện kê khai đăng ký xe trên Cổng dịch vụ công hoặc Ứng dụng định danh quốc gia. Cơ quan đăng ký xe tiếp nhận hồ sơ trong giờ làm việc. + Trả kết quả qua dịch vụ bưu chính hoặc trực tiếp tại cơ quan đăng ký xe. - Thời hạn giải quyết: + Cấp chứng nhận đăng ký xe, cấp mới biển số xe: Không quá 02 ngày làm việc, kể từ khi nhận đủ hồ sơ hợp lệ. + Cấp chứng nhận đăng ký xe, cấp mới biển số xe trúng đấu giá, cấp biển số định danh: Không quá 07 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ. + Đối với các trường hợp phải nộp lệ phí đăng ký xe thì thời hạn giải quyết đăng ký xe được tính từ khi nhận đủ hồ sơ hợp lệ và chủ xe hoàn thành việc nộp lệ phí đăng ký xe.\n",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Chủ xe đăng nhập bằng tài khoản định danh mức độ 2 trên cổng dịch vụ công hoặc Ứng dụng định danh quốc gia và kê khai chính xác, đầy đủ, trung thực các nội dung trong mẫu giấy khai đăng ký xe điện tử và thực hiện theo hướng dẫn (chủ xe không cần ký).\nBước 2: Chủ xe thực hiện lựa chọn biển số: biển định danh (thực hiện chọn biển định danh); xác nhận biển đấu giá; hoặc bấm biển số mới (nếu chưa có biển số định danh) trên cổng dịch vụ công hoặc Ứng dụng định danh quốc gia.\nBước 3: Cổng dịch vụ công, Ứng dụng định danh quốc gia thông báo mã dịch vụ công và biển số xe được cấp cho chủ xe; hướng dẫn nộp tiền lệ phí đăng ký xe qua tin nhắn điện thoại hoặc địa chỉ thư điện tử hoặc thông báo trên Ứng dụng định danh quốc gia để chủ xe nộp tiền lệ phí qua tiện ích thanh toán được tích hợp trên cổng dịch vụ công, Ứng dụng định danh quốc gia.\nBước 4: Sau khi thanh toán thành công lệ phí đăng ký xe, cổng dịch vụ công, Ứng dụng định danh quốc gia thông báo cho chủ xe việc hoàn thành nộp lệ phí;\nBước 5: Cán bộ đăng ký xe thực hiện tiếp nhận, kiểm tra, hiệu chỉnh dữ liệu đăng ký xe lần đầu trực tuyến toàn trình từ cổng dịch vụ công, Ứng dụng định danh quốc gia chuyển về hệ thống đăng ký, quản lý xe; in giấy khai đăng ký xe, chứng nhận đăng ký xe; trình lãnh đạo cấp có thẩm quyền duyệt, ký hồ sơ xe, chứng nhận đăng ký xe, sổ đăng ký xe và các giấy tờ liên quan; đóng dấu hồ sơ xe. Trả chứng nhận đăng ký xe, biển số xe (dán tem nhận diện vào biển số xe trúng đấu giá hoặc biển số xe sử dụng năng lượng sạch, năng lượng xanh, thân thiện môi trường) cho chủ xe qua dịch vụ bưu chính hoặc trực tiếp tại cơ quan đăng ký xe;\nBước 6: Chủ xe nhận thông báo về việc trả kết quả đăng ký xe từ cổng dịch vụ công, Ứng dụng định danh quốc gia. Nhận chứng nhận đăng ký xe, biển số xe qua dịch vụ bưu chính hoặc trực tiếp tại cơ quan đăng ký xe và nộp lại Phiếu kiểm tra chất lượng xuất xưởng (có dán bản chà số máy, số khung có đóng dấu giáp lai của cơ sở sản xuất). Trường hợp chủ xe không nộp hoặc thông tin bản chà số máy, số khung cung cấp không đúng với thông tin đã kê khai thì chủ xe phải mang xe đến cơ quan đăng ký xe để kiểm tra và nhận kết quả đăng ký xe; Trường hợp không có bản giấy thì nộp bản in từ hệ thống cơ sở dữ liệu điện tử phiếu kiểm tra chất lượng xuất xưởng có dán bản chà số máy, số khung xe đóng dấu giáp lai của cơ sở sản xuất xe.\nBước 7: Cán bộ đăng ký xe nhận Phiếu kiểm tra chất lượng xuất xưởng để kiểm tra, đối chiếu với dữ liệu trên hệ thống đăng ký, quản lý xe, ký xác nhận đã kiểm tra, đối chiếu lên bản chà số máy, số khung của xe để lưu vào hồ sơ đăng ký xe; quét bản chà số máy, số khung của xe và tải lên hệ thống đăng ký, quản lý xe.",
+    "THÀNH PHẦN HỒ SƠ": "Giấy khai  đăng ký xe (mẫu ĐKX10/79 ban hành kèm theo Thông tư số 13/2025/TT-BCA ngày 28/02/2025 của Bộ trưởng Bộ Công an).\nGiấy tờ của chủ xe: sử  dụng Ứng dụng định danh điện tử mức độ 2 để đăng nhập trên Cổng dịch vụ công hoặc Ứng dụng định danh quốc gia.\nGiấy tờ của xe (sử dụng  dữ liệu điện tử của Phiếu kiểm tra chất lượng xuất xưởng; Hóa đơn điện tử; Lệ phí trước bạ). Phiếu kiểm tra chất lượng xuất xưởng (có dán bản chà số máy, số khung có đóng dấu giáp lai của cơ sở sản xuất).",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 2 ngày",
     "CĂN CỨ PHÁP LÝ": "Thông tư sửa đổi, bổ sung một số điều của các thông tư quy định về trật tự, an toàn giao thông đường bộ, đường sắt và đường thủy nội địa. - 13/2025/TT-BCA\nLuật Trật tự, an toàn giao thông đường bộ - 36/2024/QH15\nThông tư số 79/2024/TT-BCA ngày 15/11/2024 của Bộ trưởng Bộ Công an quy định về cấp, thu hồi chứng nhận đăng ký, biển số xe cơ giới, xe máy chuyên dùng. - 79/2024/TT-BCA\nhông tư số 06/2025/TT-BTC của Bộ Tài chính: Sửa đổi, bổ sung một số điều của các Thông tư của Bộ trưởng Bộ Tài chính quy định về phí, lệ phí - 06/2025/TT-BTC\nThông tư số 60/2023/TT-BTC ngày 07/9/2023 của Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý lệ phí đăng ký, cấp biển số phương tiện giao thông cơ giới đường bộ - 60/2023/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Công an cấp Xã, Công an tỉnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Chủ xe là công dân Việt Nam có tài khoản định danh mức độ 2; Phiếu kiểm tra chất lượng xuất xưởng có dán bản chà số máy, số khung có đóng dấu giáp lai của cơ sở sản xuất.",
@@ -185,14 +185,9 @@
     "MÔ TẢ": "Chủ xe là công dân Việt Nam có tài khoản định danh mức độ 2; Phiếu kiểm tra chất lượng xuất xưởng có dán bản chà số máy, số khung có đóng dấu giáp lai của cơ sở sản xuất."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đăng ký, quản lý phương tiện giao thông cơ giới, xe máy chuyên dùng",
-      "slug": "dang-ky-quan-ly-phuong-tien-giao-thong-co-gioi-xe-may-chuyen-dung"
+      "slug": "ang-ky-quan-ly-phuong-tien-giao-thong-co-gioi-xe-may-chuyen-dung"
     },
     "implementation_levels": [
       {
@@ -224,6 +219,6 @@
         "slug": "cong-an-tinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-9352-70bf-9017-5eb8564ded9c",
   "procedure_code": "1.009552",
   "title": "Điều chỉnh Giấy chứng nhận đăng ký thành lập quỹ thành viên, quỹ đóng, quỹ mở, quỹ đầu tư bất động sản, quỹ hoán đổi danh mục do thay đổi tên quỹ, công ty quản lý quỹ đầu tư chứng khoán",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-9352-70bf-9017-5eb8564ded9c",
     "source_file": "chi-tiet-thu-tuc-1.009552.pdf",
     "source_path": "procedures/viec-lam/1.009552/chi-tiet-thu-tuc-1.009552.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:05.245929+00:00",
-    "source_updated_at": "2026-05-31T15:08:11.800Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:35.643075+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "963661a3549735c96eed65fa695ed3da2f924bd9088cd982da0eccb436848a94"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:05.245929+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1082/QĐ-BTC",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Chứng khoán",
   "target_users": [
@@ -35,92 +31,79 @@
   ],
   "agency": {
     "competent_agency": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
-    "executing_agency": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính"
   },
   "steps": [
     {
       "order": 1,
-      "title": "Nộp hồ sơ",
-      "description": "Bước 1: Công ty quản lý quỹ đầu tư chứng khoán nộp hồ sơ đề nghị thay đổi tên quỹ, công ty quản lý quỹ đầu tư chứng khoán của quỹ thành viên, quỹ đóng, quỹ mở, quỹ đầu tư bất động sản, quỹ hoán đổi danh mục đến UBCKNN.\nBước 2: UBCKNN (Bộ phận một cửa) tiếp nhận và kiểm tra danh mục hồ sơ. Trường hợp danh mục chưa đầy đủ, UBCKNN hướng dẫn bổ sung hồ sơ theo quy định.\nBước 3: UBCKNN thẩm định tính đầy đủ, hợp lệ của nội dung hồ sơ. Trường hợp hồ sơ chưa đầy đủ, chưa hợp lệ, trong thời hạn 07 ngày làm việc, UBCKNN trả lời bằng văn bản và nêu rõ nội dung yêu cầu sửa đổi, bổ sung.\nBước 4: Trong thời hạn 60 ngày kể từ ngày UBCKNN có văn bản yêu cầu sửa đổi, bổ sung hồ sơ, công ty quản lý quỹ đầu tư chứng khoán hoàn thiện hồ sơ và gửi đến UBCKNN.\n\tBước 5: Trong thời hạn 10 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ, UBCKNN điều chỉnh Giấy chứng nhận đăng ký lập quỹ; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do. \n",
+      "title": "Bước 1",
+      "description": "Bước 1: Công ty quản lý quỹ đầu tư chứng khoán nộp hồ sơ đề nghị thay đổi tên quỹ, công ty quản lý quỹ đầu tư chứng khoán của quỹ thành viên, quỹ đóng, quỹ mở, quỹ đầu tư bất động sản, quỹ hoán đổi danh mục đến UBCKNN.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: UBCKNN (Bộ phận một cửa) tiếp nhận và kiểm tra danh mục hồ sơ. Trường hợp danh mục chưa đầy đủ, UBCKNN hướng dẫn bổ sung hồ sơ theo quy định.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: UBCKNN thẩm định tính đầy đủ, hợp lệ của nội dung hồ sơ. Trường hợp hồ sơ chưa đầy đủ, chưa hợp lệ, trong thời hạn 07 ngày làm việc, UBCKNN trả lời bằng văn bản và nêu rõ nội dung yêu cầu sửa đổi, bổ sung.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "Bước 4: Trong thời hạn 60 ngày kể từ ngày UBCKNN có văn bản yêu cầu sửa đổi, bổ sung hồ sơ, công ty quản lý quỹ đầu tư chứng khoán hoàn thiện hồ sơ và gửi đến UBCKNN.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 5,
+      "title": "Bước 5",
+      "description": "Bước 5: Trong thời hạn 10 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ, UBCKNN điều chỉnh Giấy chứng nhận đăng ký lập quỹ; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "5) Điều lệ quỹ sửa đổi theo mẫu Phụ lục I ban hành kèm theo Thông tư 98/2020/TT-BTC.",
-        "code": "000.00.00.G12-KQ014552",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e7bee-611d-711c-94f2-c95dc70a258d",
-            "name": "Phụ lục I.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phụ lục I.docx",
+        "source_page": 2
       },
       {
         "name": "4) Danh sách, bản thông tin cá nhân của người điều hành quỹ của công ty quản lý thay thế - Mẫu số 91, Mẫu số 101 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP trong trường hợp thay đổi công ty quản lý quỹ đầu tư chứng khoán",
-        "code": "000.00.00.G12-KQ014551",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e7bee-03fd-74d0-a178-8e76821c6308",
-            "name": "Mẫu số 91 bản thông tin cá nhân.docx",
-            "url": ""
-          },
-          {
-            "id": "019e7bee-16b9-727c-9e4b-a46f21d969a2",
-            "name": "Mẫu số 101.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 91 bản thông tin cá nhân.docx; Mẫu số 101.docx",
+        "source_page": 2
       },
       {
         "name": "1) Giấy đề nghị điều chỉnh Giấy chứng nhận đăng ký thành lập quỹ/Giấy phép thành lập và hoạt động công ty đầu tư chứng khoán - Mẫu số 94 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP ngày 31/12/2020 của Chính phủ.; Thành phần hồ sơ trong thủ tục hành chính này được miễn trừ trong trường hợp tài liệu đó đã được gửi tới Ủy ban Chứng khoán Nhà nước theo quy định về báo cáo và công bố thông tin.",
-        "code": "000.00.00.G12-KQ014543",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e7bdf-547d-7028-805a-5cd0c1cd66cd",
-            "name": "giấy đề nghị mẫu 94.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "giấy đề nghị mẫu 94.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "3) Văn bản cam kết của công ty quản lý quỹ đầu tư chứng khoán về việc bàn giao quyền, nghĩa vụ cho công ty quản lý quỹ đầu tư chứng khoán thay thế trong trường hợp thay đổi công ty quản lý quỹ đầu tư chứng khoán.",
-        "code": "000.00.00.G12-KQ014550",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "2) Biên bản họp và nghị quyết của Đại hội nhà đầu tư của quỹ thông qua việc thay đổi tên quỹ, công ty quản lý quỹ đầu tư chứng khoán, thông qua phương án chuyển giao quyền và nghĩa vụ cho công ty quản lý quỹ đầu tư chứng khoán thay thế và Điều lệ quỹ sửa đổi; Thành phần hồ sơ trong thủ tục hành chính này được miễn trừ trong trường hợp tài liệu đó đã được gửi tới Ủy ban Chứng khoán Nhà nước theo quy định về báo cáo và công bố thông tin.",
-        "code": "000.00.00.G12-KQ014549",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -129,135 +112,73 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày",
-      "processing_time_value": 10,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 2000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 1000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "* Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
-          "attachment": null
-        }
-      ],
+      "fee": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.; * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
       "description": "10 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày",
-      "processing_time_value": 10,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 2000000,
-          "currency": "VND",
-          "description": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 1000000,
-          "currency": "VND",
-          "description": "* Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
-          "attachment": null
-        }
-      ],
+      "fee": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.; * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
       "description": "10 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày",
-      "processing_time_value": 10,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 2000000,
-          "currency": "VND",
-          "description": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 1000000,
-          "currency": "VND",
-          "description": "* Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
-          "attachment": null
-        }
-      ],
+      "fee": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.; * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
       "description": "10 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.; * Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 2000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.",
-        "attachment": null
+        "amount_text": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 1000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "* Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
-        "attachment": null
+        "amount_text": "* Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": 2000000,
-        "currency": "VND",
-        "description": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.",
-        "attachment": null
+        "amount_text": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 1000000,
-        "currency": "VND",
-        "description": "* Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
-        "attachment": null
+        "amount_text": "* Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 2000000,
-        "currency": "VND",
-        "description": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.",
-        "attachment": null
+        "amount_text": "* Theo quy định tại Thông tư 25/2022/TT-BTC ngày 28/4/2022. + 02 triệu đồng/Giấy chứng nhận.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 1000000,
-        "currency": "VND",
-        "description": "* Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
-        "attachment": null
+        "amount_text": "* Theo quy định tại Thông tư 64/2025/TT-BTC ngày 30/6/2025  (kể từ ngày 01/7/2025 đến hết ngày 31/12/2026). + 01 triệu đồng/Giấy chứng nhận.",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -265,38 +186,32 @@
     {
       "title": "Thông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân",
       "document_number": "64/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-69cce97f8824",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư quy định mức thu, chế độ thu, nộp, quản lý và sử dụng lệ phí trong lĩnh vực chứng khoán",
       "document_number": "25/2022/TT-BTC",
-      "id": "019d2bb3-5d86-7760-a645-d843125d5d2a",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 155/2020/NĐ-CP",
       "document_number": "155/2020/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a640-fee63f44d848",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Luật 54/2019/QH14",
       "document_number": "54/2019/QH14",
-      "id": "019d2bb3-5d87-7195-a442-db836cad8655",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư 98/2020/TT-BTC",
       "document_number": "98/2020/TT-BTC",
-      "id": "019d2bb3-5d87-7195-a447-8b6347a86b67",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "nghị quyết của Chính phủ về cắt giảm, phân cấp, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh lĩnh vực quốc phòng, nội vụ, tài chính, xây dựng, ngoại giao, tư pháp, ngân hàng",
       "document_number": "24/2026/NQ-CP",
-      "id": "019dfc54-4a33-71e5-92e7-0b00c9506ba7",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "Tên tiếng Việt của quỹ đầu tư chứng khoán phải theo quy định pháp luật về doanh nghiệp và có ít nhất hai thành tố sau đây: (i) Tên loại hình quỹ: Tên loại hình quỹ được viết là “quỹ đầu tư” đối với quỹ đóng, quỹ mở, quỹ thành viên; được viết là “quỹ đầu tư bất động sản” đối với quỹ đầu tư bất động sản; được viết là “quỹ ETF” đối với quỹ hoán đổi danh mục; (ii) Tên riêng: phù hợp với mục tiêu đầu tư, chiến lược đầu tư của quỹ. Đối với quỹ ETF, tên riêng của quỹ bao gồm tên viết tắt của công ty quản lý quỹ đầu tư chứng khoán và chỉ số tham chiếu.",
@@ -304,20 +219,18 @@
     {
       "title": "Giấy chứng nhận điều chỉnh Giấy chứng nhận đăng ký lập quỹ",
       "code": "KQ.G12.000117",
-      "id": "019d2bb2-1c70-724b-96dd-5c692d876aa7",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "+ Văn bản từ chối (nêu rõ lý do).",
       "code": "KQ.G12.001213",
-      "id": "019d2bb2-1c72-75fa-a592-f82376ee3f00",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Công ty quản lý quỹ đầu tư chứng khoán nộp hồ sơ đề nghị thay đổi tên quỹ, công ty quản lý quỹ đầu tư chứng khoán của quỹ thành viên, quỹ đóng, quỹ mở, quỹ đầu tư bất động sản, quỹ hoán đổi danh mục đến UBCKNN.\nBước 2: UBCKNN (Bộ phận một cửa) tiếp nhận và kiểm tra danh mục hồ sơ. Trường hợp danh mục chưa đầy đủ, UBCKNN hướng dẫn bổ sung hồ sơ theo quy định.\nBước 3: UBCKNN thẩm định tính đầy đủ, hợp lệ của nội dung hồ sơ. Trường hợp hồ sơ chưa đầy đủ, chưa hợp lệ, trong thời hạn 07 ngày làm việc, UBCKNN trả lời bằng văn bản và nêu rõ nội dung yêu cầu sửa đổi, bổ sung.\nBước 4: Trong thời hạn 60 ngày kể từ ngày UBCKNN có văn bản yêu cầu sửa đổi, bổ sung hồ sơ, công ty quản lý quỹ đầu tư chứng khoán hoàn thiện hồ sơ và gửi đến UBCKNN.\n\tBước 5: Trong thời hạn 10 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ, UBCKNN điều chỉnh Giấy chứng nhận đăng ký lập quỹ; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do. \n",
-    "THÀNH PHẦN HỒ SƠ": "\n3) Văn bản cam kết của công ty quản lý quỹ đầu tư chứng khoán về việc bàn giao quyền, nghĩa vụ cho công ty quản lý quỹ đầu tư chứng khoán thay thế trong trường hợp thay đổi công ty quản lý quỹ đầu tư chứng khoán.\n5) Điều lệ quỹ sửa đổi theo mẫu Phụ lục I ban hành kèm theo Thông tư 98/2020/TT-BTC.\n4) Danh sách, bản thông tin cá nhân của người điều hành quỹ của công ty quản lý thay thế - Mẫu số 91, Mẫu số 101 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP trong trường hợp thay đổi công ty quản lý quỹ đầu tư chứng khoán\n1) Giấy đề nghị điều chỉnh Giấy chứng nhận đăng ký thành lập quỹ/Giấy phép thành lập và hoạt động công ty đầu tư chứng khoán - Mẫu số 94 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP ngày 31/12/2020 của Chính phủ.; Thành phần hồ sơ trong thủ tục hành chính này được miễn trừ trong trường hợp tài liệu đó đã được gửi tới Ủy ban Chứng khoán Nhà nước theo quy định về báo cáo và công bố thông tin.\n2) Biên bản họp và nghị quyết của Đại hội nhà đầu tư của quỹ thông qua việc thay đổi tên quỹ, công ty quản lý quỹ đầu tư chứng khoán, thông qua phương án chuyển giao quyền và nghĩa vụ cho công ty quản lý quỹ đầu tư chứng khoán thay thế và Điều lệ quỹ sửa đổi; Thành phần hồ sơ trong thủ tục hành chính này được miễn trừ trong trường hợp tài liệu đó đã được gửi tới Ủy ban Chứng khoán Nhà nước theo quy định về báo cáo và công bố thông tin.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày - 10 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ.\nQua dịch vụ bưu chính: 10 ngày - 10 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ.\nTrực tiếp: 10 ngày - 10 ngày kể từ ngày UBCKNN nhận được hồ sơ đầy đủ, hợp lệ.",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Công ty quản lý quỹ đầu tư chứng khoán nộp hồ sơ đề nghị thay đổi tên quỹ, công ty quản lý quỹ đầu tư chứng khoán của quỹ thành viên, quỹ đóng, quỹ mở, quỹ đầu tư bất động sản, quỹ hoán đổi danh mục đến UBCKNN.\nBước 2: UBCKNN (Bộ phận một cửa) tiếp nhận và kiểm tra danh mục hồ sơ. Trường hợp danh mục chưa đầy đủ, UBCKNN hướng dẫn bổ sung hồ sơ theo quy định.\nBước 3: UBCKNN thẩm định tính đầy đủ, hợp lệ của nội dung hồ sơ. Trường hợp hồ sơ chưa đầy đủ, chưa hợp lệ, trong thời hạn 07 ngày làm việc, UBCKNN trả lời bằng văn bản và nêu rõ nội dung yêu cầu sửa đổi, bổ sung.\nBước 4: Trong thời hạn 60 ngày kể từ ngày UBCKNN có văn bản yêu cầu sửa đổi, bổ sung hồ sơ, công ty quản lý quỹ đầu tư chứng khoán hoàn thiện hồ sơ và gửi đến UBCKNN.\nBước 5: Trong thời hạn 10 ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ, UBCKNN điều chỉnh Giấy chứng nhận đăng ký lập quỹ; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "5) Điều lệ quỹ sửa đổi theo mẫu Phụ lục I ban hành kèm theo Thông tư 98/2020/TT-BTC.\n4) Danh sách, bản thông tin cá nhân của người điều hành quỹ của công ty quản lý thay thế - Mẫu số 91, Mẫu số 101 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP trong trường hợp thay đổi công ty quản lý quỹ đầu tư chứng khoán\n1) Giấy đề nghị điều chỉnh Giấy chứng nhận đăng ký thành lập quỹ/Giấy phép thành lập và hoạt động công ty đầu tư chứng khoán - Mẫu số 94 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP ngày 31/12/2020 của Chính phủ.; Thành phần hồ sơ trong thủ tục hành chính này được miễn trừ trong trường hợp tài liệu đó đã được gửi tới Ủy ban Chứng khoán Nhà nước theo quy định về báo cáo và công bố thông tin.\n3) Văn bản cam kết của công ty quản lý quỹ đầu tư chứng khoán về việc bàn giao quyền, nghĩa vụ cho công ty quản lý quỹ đầu tư chứng khoán thay thế trong trường hợp thay đổi công ty quản lý quỹ đầu tư chứng khoán.\n2) Biên bản họp và nghị quyết của Đại hội nhà đầu tư của quỹ thông qua việc thay đổi tên quỹ, công ty quản lý quỹ đầu tư chứng khoán, thông qua phương án chuyển giao quyền và nghĩa vụ cho công ty quản lý quỹ đầu tư chứng khoán thay thế và Điều lệ quỹ sửa đổi; Thành phần hồ sơ trong thủ tục hành chính này được miễn trừ trong trường hợp tài liệu đó đã được gửi tới Ủy ban Chứng khoán Nhà nước theo quy định về báo cáo và công bố thông tin.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày\nQua dịch vụ bưu chính: 10 ngày\nTrực tiếp: 10 ngày",
     "CĂN CỨ PHÁP LÝ": "Thông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân - 64/2025/TT-BTC\nThông tư quy định mức thu, chế độ thu, nộp, quản lý và sử dụng lệ phí trong lĩnh vực chứng khoán - 25/2022/TT-BTC\nNghị định 155/2020/NĐ-CP - 155/2020/NĐ-CP\nLuật 54/2019/QH14 - 54/2019/QH14\nThông tư 98/2020/TT-BTC - 98/2020/TT-BTC\nnghị quyết của Chính phủ về cắt giảm, phân cấp, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh lĩnh vực quốc phòng, nội vụ, tài chính, xây dựng, ngoại giao, tư pháp, ngân hàng - 24/2026/NQ-CP",
     "CƠ QUAN THỰC HIỆN": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Tên tiếng Việt của quỹ đầu tư chứng khoán phải theo quy định pháp luật về doanh nghiệp và có ít nhất hai thành tố sau đây: (i) Tên loại hình quỹ: Tên loại hình quỹ được viết là “quỹ đầu tư” đối với quỹ đóng, quỹ mở, quỹ thành viên; được viết là “quỹ đầu tư bất động sản” đối với quỹ đầu tư bất động sản; được viết là “quỹ ETF” đối với quỹ hoán đổi danh mục; (ii) Tên riêng: phù hợp với mục tiêu đầu tư, chiến lược đầu tư của quỹ. Đối với quỹ ETF, tên riêng của quỹ bao gồm tên viết tắt của công ty quản lý quỹ đầu tư chứng khoán và chỉ số tham chiếu.",
@@ -326,11 +239,6 @@
     "MÔ TẢ": "Tên tiếng Việt của quỹ đầu tư chứng khoán phải theo quy định pháp luật về doanh nghiệp và có ít nhất hai thành tố sau đây: (i) Tên loại hình quỹ: Tên loại hình quỹ được viết là “quỹ đầu tư” đối với quỹ đóng, quỹ mở, quỹ thành viên; được viết là “quỹ đầu tư bất động sản” đối với quỹ đầu tư bất động sản; được viết là “quỹ ETF” đối với quỹ hoán đổi danh mục; (ii) Tên riêng: phù hợp với mục tiêu đầu tư, chiến lược đầu tư của quỹ. Đối với quỹ ETF, tên riêng của quỹ bao gồm tên viết tắt của công ty quản lý quỹ đầu tư chứng khoán và chỉ số tham chiếu."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Chứng khoán",
       "slug": "chung-khoan"
@@ -353,6 +261,6 @@
         "slug": "uy-ban-chung-khoan-nha-nuoc-bo-tai-chinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

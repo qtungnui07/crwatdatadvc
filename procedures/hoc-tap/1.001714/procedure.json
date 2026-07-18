@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf8-98e1-7328-a826-74115e520507",
   "procedure_code": "1.001714",
   "title": "Cấp học bổng và hỗ trợ kinh phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật học tại các cơ sở giáo dục",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-98e1-7328-a826-74115e520507",
     "source_file": "chi-tiet-thu-tuc-1.001714.pdf",
     "source_path": "procedures/hoc-tap/1.001714/chi-tiet-thu-tuc-1.001714.pdf",
     "page_count": 8,
-    "extracted_at": "2026-07-18T02:21:59.751543+00:00",
-    "source_updated_at": "2026-04-15T10:26:57.768Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:11.826666+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "a5d6a44838e8065607bb26b5ea54de8c754225aa9bf387609f2afd2c92f45148"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:59.751543+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1693/QĐ-BGDĐT",
   "implementation_level": "Cấp tỉnh, Cấp xã",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cấp xã"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Giáo dục và Đào tạo thuộc hệ thống giáo dục quốc dân",
   "target_users": [
@@ -36,75 +31,51 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Giáo dục và Đào tạo, Cơ sở giáo dục",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Giáo dục và Đào tạo, Cơ sở giáo dục"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Trong vòng 30 ngày làm việc kể từ ngày bắt đầu năm học, người đứng đầu cơ sở giáo dục thông báo cho người khuyết tật học tại cơ sở giáo dục (hoặc cha mẹ, người giám hộ) về chính sách đối với người khuyết tật và nộp một bộ hồ sơ theo quy định.\nĐối với cơ sở giáo dục công lập:\n\n- Người khuyết tật (hoặc cha mẹ, người giám hộ) nộp một bộ hồ sơ theo quy định cho cơ sở giáo dục công lập người khuyết tật đang học.\n\n- Người đứng đầu cơ sở giáo dục công lập căn cứ vào quy định tại khoản 1 và khoản 2 Điều 7 Thông tư liên tịch số 42/2013/TTLT-BGDĐT-BLĐTBXH-BTC ngày 31 tháng 12 năm 2013 của liên Bộ Giáo dục và Đào tạo, Bộ Lao động, Thương binh và Xã hội, Bộ Tài chính quy định chính sách về giáo dục đối với người khuyết tật (Thông tư liên tịch số 42) tổ chức quy trình kiểm tra, đối chiếu và chịu trách nhiệm về tính chính xác của hồ sơ, tổng hợp, lập danh sách và dự toán kinh phí báo cáo cơ quan quản lý cấp trên trực tiếp để cơ quan quản lý cấp trên thẩm định, phê duyệt, tổng hợp báo cáo cơ quan tài chính trình cấp có thẩm quyền phê duyệt kinh phí thực hiện chính sách học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật đang học tại cơ sở giáo dục.\n\n- Kinh phí thực hiện chính sách học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật đang theo học tại cơ sở giáo dục công lập được cân đối trong dự toán kinh phí hàng năm phân bổ cho cơ sở này. Căn cứ vào dự toán kinh phí sự nghiệp giáo dục đã được phê duyệt, cơ sở giáo dục thực hiện việc quản lý kinh phí, tổ chức chi trả học bổng và kinh phí hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật theo khoản 1 và khoản 2 Điều 7 Thông tư liên tịch số 42;\n\n- Khi rút dự toán kinh phí thực hiện chính sách học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật, cơ sở giáo dục công lập phải gửi cơ quan Kho bạc Nhà nước nơi đơn vị giao dịch bản tổng hợp đề nghị chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật (gồm các nội dung: họ tên người khuyết tật, mức học bổng, mức hỗ trợ chi phí mua phương tiện và tổng nhu cầu kinh phí đề nghị chi trả kèm theo đầy đủ các hồ sơ (bản photo) về việc xác nhận đối tượng theo quy định tại điểm a khoản 1 Điều 8 Thông tư liên tịch số 42).\nĐối với cơ sở giáo dục ngoài công lập:\n\n- Người khuyết tật học tại cơ sở giáo dục (hoặc cha mẹ, người giám hộ) nộp một bộ hồ sơ theo hướng dẫn sau:\n\n+ Đối với người khuyết tật học tại cơ sở giáo dục trực thuộc xã quản lý gửi về Ủy ban nhân dân xã;\n\n+ Đối với người khuyết tật học tại các cơ sở giáo dục trực thuộc cấp tỉnh quản lý gửi về sở giáo dục và đào tạo;\n\n+ Đối với người khuyết tật có nơi thường trú trên địa bàn xã, đang học tại các cơ sở giáo dục đại học, trung cấp chuyên nghiệp trong phạm vi cả nước gửi về Ủy ban nhân dân cấp xã.\n\n- Cơ sở giáo dục ngoài công lập có trách nhiệm xác nhận vào đơn đề nghị của người học trong vòng 10 ngày làm việc kể từ ngày nhận được đơn đề nghị của học sinh, sinh viên.\n\n- Ủy ban nhân dân xã chịu trách nhiệm quản lý, tổ chức thực hiện chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật học tại các cơ sở giáo dục trực thuộc xã quản lý;\n\n- Sở giáo dục và đào tạo chịu trách nhiệm quản lý, tổ chức thực hiện chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật đang học tại các cơ sở giáo dục trực thuộc cấp tỉnh quản lý;\n\n- Ủy ban nhân dân xã chịu trách nhiệm quản lý, tổ chức thực hiện chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật có nơi thường trú trên địa bàn xã, đang học tại các cơ sở giáo dục đại học, trung cấp chuyên nghiệp ngoài công lập trong phạm vi cả nước\nThời gian cấp học bổng và hỗ trợ chi phí: việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật được thực hiện 2 lần trong năm: lần 1 chi trả vào tháng 9 hoặc tháng 10, tháng 11; lần 2 chi trả vào tháng 3 hoặc tháng 4, tháng 5. Việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập phải đảm bảo thuận tiện cho người khuyết tật đi học. Trường hợp người học chưa nhận được chế độ theo thời hạn quy định thì được truy lĩnh trong kỳ chi trả tiếp theo.\nCơ quan thực hiện chi trả có trách nhiệm thông báo công khai về thủ tục, thời gian chi trả học bổng và hỗ trợ chi phí cho người khuyết tật để thuận tiện cho người khuyết tật hoặc gia đình người khuyết tật được nhận chế độ chính sách theo đúng quy định.\n",
+      "description": "Trong vòng 30 ngày làm việc kể từ ngày bắt đầu năm học, người đứng đầu cơ sở giáo dục thông báo cho người khuyết tật học tại cơ sở giáo dục (hoặc cha mẹ, người giám hộ) về chính sách đối với người khuyết tật và nộp một bộ hồ sơ theo quy định.\nĐối với cơ sở giáo dục công lập:\n\n- Người khuyết tật (hoặc cha mẹ, người giám hộ) nộp một bộ hồ sơ theo quy định cho cơ sở giáo dục công lập người khuyết tật đang học.\n\n- Người đứng đầu cơ sở giáo dục công lập căn cứ vào quy định tại khoản 1 và khoản 2 Điều 7 Thông tư liên tịch số 42/2013/TTLT-BGDĐT-BLĐTBXH-BTC ngày 31 tháng 12 năm 2013 của liên Bộ Giáo dục và Đào tạo, Bộ Lao động, Thương binh và Xã hội, Bộ Tài chính quy định chính sách về giáo dục đối với người khuyết tật (Thông tư liên tịch số 42) tổ chức quy trình kiểm tra, đối chiếu và chịu trách nhiệm về tính chính xác của hồ sơ, tổng hợp, lập danh sách và dự toán kinh phí báo cáo cơ quan quản lý cấp trên trực tiếp để cơ quan quản lý cấp trên thẩm định, phê duyệt, tổng hợp báo cáo cơ quan tài chính trình cấp có thẩm quyền phê duyệt kinh phí thực hiện chính sách học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật đang học tại cơ sở giáo dục.\n\n- Kinh phí thực hiện chính sách học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật đang theo học tại cơ sở giáo dục công lập được cân đối trong dự toán kinh phí hàng năm phân bổ cho cơ sở này. Căn cứ vào dự toán kinh phí sự nghiệp giáo dục đã được phê duyệt, cơ sở giáo dục thực hiện việc quản lý kinh phí, tổ chức chi trả học bổng và kinh phí hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật theo khoản 1 và khoản 2 Điều 7 Thông tư liên tịch số 42;\n\n- Khi rút dự toán kinh phí thực hiện chính sách học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật, cơ sở giáo dục công lập phải gửi cơ quan Kho bạc Nhà nước nơi đơn vị giao dịch bản tổng hợp đề nghị chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật (gồm các nội dung: họ tên người khuyết tật, mức học bổng, mức hỗ trợ chi phí mua phương tiện và tổng nhu cầu kinh phí đề nghị chi trả kèm theo đầy đủ các hồ sơ (bản photo) về việc xác nhận đối tượng theo quy định tại điểm a khoản 1 Điều 8 Thông tư liên tịch số 42).\nĐối với cơ sở giáo dục ngoài công lập:\n\n- Người khuyết tật học tại cơ sở giáo dục (hoặc cha mẹ, người giám hộ) nộp một bộ hồ sơ theo hướng dẫn sau:\n\n+ Đối với người khuyết tật học tại cơ sở giáo dục trực thuộc xã quản lý gửi về Ủy ban nhân dân xã;\n\n+ Đối với người khuyết tật học tại các cơ sở giáo dục trực thuộc cấp tỉnh quản lý gửi về sở giáo dục và đào tạo;\n\n+ Đối với người khuyết tật có nơi thường trú trên địa bàn xã, đang học tại các cơ sở giáo dục đại học, trung cấp chuyên nghiệp trong phạm vi cả nước gửi về Ủy ban nhân dân cấp xã.\n\n- Cơ sở giáo dục ngoài công lập có trách nhiệm xác nhận vào đơn đề nghị của người học trong vòng 10 ngày làm việc kể từ ngày nhận được đơn đề nghị của học sinh, sinh viên.\n\n- Ủy ban nhân dân xã chịu trách nhiệm quản lý, tổ chức thực hiện chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật học tại các cơ sở giáo dục trực thuộc xã quản lý;\n\n- Sở giáo dục và đào tạo chịu trách nhiệm quản lý, tổ chức thực hiện chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật đang học tại các cơ sở giáo dục trực thuộc cấp tỉnh quản lý;\n\n- Ủy ban nhân dân xã chịu trách nhiệm quản lý, tổ chức thực hiện chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật có nơi thường trú trên địa bàn xã, đang học tại các cơ sở giáo dục đại học, trung cấp chuyên nghiệp ngoài công lập trong phạm vi cả nước\nThời gian cấp học bổng và hỗ trợ chi phí: việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật được thực hiện 2 lần trong năm: lần 1 chi trả vào tháng 9 hoặc tháng 10, tháng 11; lần 2 chi trả vào tháng 3 hoặc tháng 4, tháng 5. Việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập phải đảm bảo thuận tiện cho người khuyết tật đi học. Trường hợp người học chưa nhận được chế độ theo thời hạn quy định thì được truy lĩnh trong kỳ chi trả tiếp theo.\nCơ quan thực hiện chi trả có trách nhiệm thông báo công khai về thủ tục, thời gian chi trả học bổng và hỗ trợ chi phí cho người khuyết tật để thuận tiện cho người khuyết tật hoặc gia đình người khuyết tật được nhận chế độ chính sách theo đúng quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Đơn có xác nhận của nhà trường (theo mẫu tại phụ lục ban hành kèm theo Thông tư liên tịch số 42)",
-        "code": "000.00.00.G03-KQ0445",
+        "name": "Đối với người khuyết tật học tại các cơ sở giáo dục ngoài công lập: Đơn có xác nhận của nhà trường (theo mẫu tại phụ lục ban hành kèm theo Thông tư liên tịch số 42)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Đối với người khuyết tật học tại các cơ sở giáo dục ngoài công lập",
-        "attachments": [
-          {
-            "id": "019d7682-dae2-75cd-b1c9-9c8a7e132682",
-            "name": "PHỤ LỤC.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PHỤ LỤC.docx",
+        "source_page": 4
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "Giấy chứng nhận là hộ nghèo hoặc hộ cận nghèo do uỷ ban nhân dân xã (bản sao có công chứng)",
-        "code": "G03-KQ002263",
+        "name": "Đối với người khuyết tập học tại các cơ sở giáo dục công lập: Giấy chứng nhận là hộ nghèo hoặc hộ cận nghèo do uỷ ban nhân dân xã (bản sao có công chứng)",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Đối với người khuyết tập học tại các cơ sở giáo dục công lập",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Giấy chứng nhận về khuyết tật do cơ quan có thẩm quyền cấp theo quy định của Nhà nước (bản sao có công chứng)",
-        "code": "000.00.00.G03-KQ0443",
+        "name": "Đối với người khuyết tập học tại các cơ sở giáo dục công lập: Giấy chứng nhận về khuyết tật do cơ quan có thẩm quyền cấp theo quy định của Nhà nước (bản sao có công chứng)",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Đối với người khuyết tập học tại các cơ sở giáo dục công lập",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Giấy chứng nhận là hộ nghèo hoặc hộ cận nghèo do uỷ ban nhân dân xã, phường, thị trấn cấp (bản sao có công chứng).",
-        "code": "000.00.00.G03-KQ1100",
+        "name": "Đối với người khuyết tật học tại các cơ sở giáo dục ngoài công lập: Giấy chứng nhận là hộ nghèo hoặc hộ cận nghèo do uỷ ban nhân dân xã, phường, thị trấn cấp (bản sao có công chứng).",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Đối với người khuyết tật học tại các cơ sở giáo dục ngoài công lập",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Giấy chứng nhận về khuyết tật do cơ quan có thẩm quyền cấp theo quy định của Nhà nước (bản sao có công chứng);",
-        "code": "000.00.00.G03-KQ0446",
+        "name": "Đối với người khuyết tật học tại các cơ sở giáo dục ngoài công lập: Giấy chứng nhận về khuyết tật do cơ quan có thẩm quyền cấp theo quy định của Nhà nước (bản sao có công chứng);",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Đối với người khuyết tật học tại các cơ sở giáo dục ngoài công lập",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -113,120 +84,79 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "0",
-      "processing_time_value": 0,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật được thực hiện 2 lần trong năm: lần 1 chi trả vào tháng 9 hoặc tháng 10, tháng 11; lần 2 chi trả vào tháng 3 hoặc tháng 4, tháng 5. Việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập phải đảm bảo thuận tiện cho người khuyết tật đi học. Trường hợp người học chưa nhận được chế độ theo thời hạn quy định thì được truy lĩnh trong kỳ chi trả tiếp theo.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "0",
-      "processing_time_value": 0,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật được thực hiện 2 lần trong năm: lần 1 chi trả vào tháng 9 hoặc tháng 10, tháng 11; lần 2 chi trả vào tháng 3 hoặc tháng 4, tháng 5. Việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập phải đảm bảo thuận tiện cho người khuyết tật đi học. Trường hợp người học chưa nhận được chế độ theo thời hạn quy định thì được truy lĩnh trong kỳ chi trả tiếp theo.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "0",
-      "processing_time_value": 0,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật được thực hiện 2 lần trong năm: lần 1 chi trả vào tháng 9 hoặc tháng 10, tháng 11; lần 2 chi trả vào tháng 3 hoặc tháng 4, tháng 5. Việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập phải đảm bảo thuận tiện cho người khuyết tật đi học. Trường hợp người học chưa nhận được chế độ theo thời hạn quy định thì được truy lĩnh trong kỳ chi trả tiếp theo.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 5
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
   "legal_bases": [],
-  "conditions": "\tLà người khuyết tật thuộc hộ nghèo, hộ cận nghèo đang đi học tại các cơ sở giáo dục ngoài công lập.",
+  "conditions": "Là người khuyết tật thuộc hộ nghèo, hộ cận nghèo đang đi học tại các cơ sở giáo dục ngoài công lập.",
   "results": [
     {
       "title": "Người khuyết tật được chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật theo định mức quy định",
       "code": "KQ.G03.000083",
-      "id": "019d2bb2-1c3a-7502-a841-2c362ae6b905",
-      "source_page": null
+      "source_page": 8
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Trong vòng 30 ngày làm việc kể từ ngày bắt đầu năm học, người đứng đầu cơ sở giáo dục thông báo cho người khuyết tật học tại cơ sở giáo dục (hoặc cha mẹ, người giám hộ) về chính sách đối với người khuyết tật và nộp một bộ hồ sơ theo quy định.\nĐối với cơ sở giáo dục công lập:\n\n- Người khuyết tật (hoặc cha mẹ, người giám hộ) nộp một bộ hồ sơ theo quy định cho cơ sở giáo dục công lập người khuyết tật đang học.\n\n- Người đứng đầu cơ sở giáo dục công lập căn cứ vào quy định tại khoản 1 và khoản 2 Điều 7 Thông tư liên tịch số 42/2013/TTLT-BGDĐT-BLĐTBXH-BTC ngày 31 tháng 12 năm 2013 của liên Bộ Giáo dục và Đào tạo, Bộ Lao động, Thương binh và Xã hội, Bộ Tài chính quy định chính sách về giáo dục đối với người khuyết tật (Thông tư liên tịch số 42) tổ chức quy trình kiểm tra, đối chiếu và chịu trách nhiệm về tính chính xác của hồ sơ, tổng hợp, lập danh sách và dự toán kinh phí báo cáo cơ quan quản lý cấp trên trực tiếp để cơ quan quản lý cấp trên thẩm định, phê duyệt, tổng hợp báo cáo cơ quan tài chính trình cấp có thẩm quyền phê duyệt kinh phí thực hiện chính sách học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật đang học tại cơ sở giáo dục.\n\n- Kinh phí thực hiện chính sách học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật đang theo học tại cơ sở giáo dục công lập được cân đối trong dự toán kinh phí hàng năm phân bổ cho cơ sở này. Căn cứ vào dự toán kinh phí sự nghiệp giáo dục đã được phê duyệt, cơ sở giáo dục thực hiện việc quản lý kinh phí, tổ chức chi trả học bổng và kinh phí hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật theo khoản 1 và khoản 2 Điều 7 Thông tư liên tịch số 42;\n\n- Khi rút dự toán kinh phí thực hiện chính sách học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật, cơ sở giáo dục công lập phải gửi cơ quan Kho bạc Nhà nước nơi đơn vị giao dịch bản tổng hợp đề nghị chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật (gồm các nội dung: họ tên người khuyết tật, mức học bổng, mức hỗ trợ chi phí mua phương tiện và tổng nhu cầu kinh phí đề nghị chi trả kèm theo đầy đủ các hồ sơ (bản photo) về việc xác nhận đối tượng theo quy định tại điểm a khoản 1 Điều 8 Thông tư liên tịch số 42).\nĐối với cơ sở giáo dục ngoài công lập:\n\n- Người khuyết tật học tại cơ sở giáo dục (hoặc cha mẹ, người giám hộ) nộp một bộ hồ sơ theo hướng dẫn sau:\n\n+ Đối với người khuyết tật học tại cơ sở giáo dục trực thuộc xã quản lý gửi về Ủy ban nhân dân xã;\n\n+ Đối với người khuyết tật học tại các cơ sở giáo dục trực thuộc cấp tỉnh quản lý gửi về sở giáo dục và đào tạo;\n\n+ Đối với người khuyết tật có nơi thường trú trên địa bàn xã, đang học tại các cơ sở giáo dục đại học, trung cấp chuyên nghiệp trong phạm vi cả nước gửi về Ủy ban nhân dân cấp xã.\n\n- Cơ sở giáo dục ngoài công lập có trách nhiệm xác nhận vào đơn đề nghị của người học trong vòng 10 ngày làm việc kể từ ngày nhận được đơn đề nghị của học sinh, sinh viên.\n\n- Ủy ban nhân dân xã chịu trách nhiệm quản lý, tổ chức thực hiện chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật học tại các cơ sở giáo dục trực thuộc xã quản lý;\n\n- Sở giáo dục và đào tạo chịu trách nhiệm quản lý, tổ chức thực hiện chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật đang học tại các cơ sở giáo dục trực thuộc cấp tỉnh quản lý;\n\n- Ủy ban nhân dân xã chịu trách nhiệm quản lý, tổ chức thực hiện chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật có nơi thường trú trên địa bàn xã, đang học tại các cơ sở giáo dục đại học, trung cấp chuyên nghiệp ngoài công lập trong phạm vi cả nước\nThời gian cấp học bổng và hỗ trợ chi phí: việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật được thực hiện 2 lần trong năm: lần 1 chi trả vào tháng 9 hoặc tháng 10, tháng 11; lần 2 chi trả vào tháng 3 hoặc tháng 4, tháng 5. Việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập phải đảm bảo thuận tiện cho người khuyết tật đi học. Trường hợp người học chưa nhận được chế độ theo thời hạn quy định thì được truy lĩnh trong kỳ chi trả tiếp theo.\nCơ quan thực hiện chi trả có trách nhiệm thông báo công khai về thủ tục, thời gian chi trả học bổng và hỗ trợ chi phí cho người khuyết tật để thuận tiện cho người khuyết tật hoặc gia đình người khuyết tật được nhận chế độ chính sách theo đúng quy định.\n",
-    "THÀNH PHẦN HỒ SƠ": "Đối với người khuyết tập học tại các cơ sở giáo dục công lập\nGiấy chứng nhận là hộ nghèo hoặc hộ cận nghèo do uỷ ban nhân dân xã (bản sao có công chứng)\nGiấy chứng nhận về khuyết tật do cơ quan có thẩm quyền cấp theo quy định của Nhà nước (bản sao có công chứng)\nĐối với người khuyết tật học tại các cơ sở giáo dục ngoài công lập\nGiấy chứng nhận là hộ nghèo hoặc hộ cận nghèo do uỷ ban nhân dân xã, phường, thị trấn cấp (bản sao có công chứng).\nGiấy chứng nhận về khuyết tật do cơ quan có thẩm quyền cấp theo quy định của Nhà nước (bản sao có công chứng);\nĐơn có xác nhận của nhà trường (theo mẫu tại phụ lục ban hành kèm theo Thông tư liên tịch số 42)",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 0 - Việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật được thực hiện 2 lần trong năm: lần 1 chi trả vào tháng 9 hoặc tháng 10, tháng 11; lần 2 chi trả vào tháng 3 hoặc tháng 4, tháng 5. Việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập phải đảm bảo thuận tiện cho người khuyết tật đi học. Trường hợp người học chưa nhận được chế độ theo thời hạn quy định thì được truy lĩnh trong kỳ chi trả tiếp theo.\nQua dịch vụ bưu chính: 0 - Việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật được thực hiện 2 lần trong năm: lần 1 chi trả vào tháng 9 hoặc tháng 10, tháng 11; lần 2 chi trả vào tháng 3 hoặc tháng 4, tháng 5. Việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập phải đảm bảo thuận tiện cho người khuyết tật đi học. Trường hợp người học chưa nhận được chế độ theo thời hạn quy định thì được truy lĩnh trong kỳ chi trả tiếp theo.\nTrực tiếp: 0 - Việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật được thực hiện 2 lần trong năm: lần 1 chi trả vào tháng 9 hoặc tháng 10, tháng 11; lần 2 chi trả vào tháng 3 hoặc tháng 4, tháng 5. Việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập phải đảm bảo thuận tiện cho người khuyết tật đi học. Trường hợp người học chưa nhận được chế độ theo thời hạn quy định thì được truy lĩnh trong kỳ chi trả tiếp theo.",
+    "TRÌNH TỰ THỰC HIỆN": "Trong vòng 30 ngày làm việc kể từ ngày bắt đầu năm học, người đứng đầu cơ sở giáo dục thông báo cho người khuyết tật học tại cơ sở giáo dục (hoặc cha mẹ, người giám hộ) về chính sách đối với người khuyết tật và nộp một bộ hồ sơ theo quy định.\nĐối với cơ sở giáo dục công lập:\n\n- Người khuyết tật (hoặc cha mẹ, người giám hộ) nộp một bộ hồ sơ theo quy định cho cơ sở giáo dục công lập người khuyết tật đang học.\n\n- Người đứng đầu cơ sở giáo dục công lập căn cứ vào quy định tại khoản 1 và khoản 2 Điều 7 Thông tư liên tịch số 42/2013/TTLT-BGDĐT-BLĐTBXH-BTC ngày 31 tháng 12 năm 2013 của liên Bộ Giáo dục và Đào tạo, Bộ Lao động, Thương binh và Xã hội, Bộ Tài chính quy định chính sách về giáo dục đối với người khuyết tật (Thông tư liên tịch số 42) tổ chức quy trình kiểm tra, đối chiếu và chịu trách nhiệm về tính chính xác của hồ sơ, tổng hợp, lập danh sách và dự toán kinh phí báo cáo cơ quan quản lý cấp trên trực tiếp để cơ quan quản lý cấp trên thẩm định, phê duyệt, tổng hợp báo cáo cơ quan tài chính trình cấp có thẩm quyền phê duyệt kinh phí thực hiện chính sách học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật đang học tại cơ sở giáo dục.\n\n- Kinh phí thực hiện chính sách học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật đang theo học tại cơ sở giáo dục công lập được cân đối trong dự toán kinh phí hàng năm phân bổ cho cơ sở này. Căn cứ vào dự toán kinh phí sự nghiệp giáo dục đã được phê duyệt, cơ sở giáo dục thực hiện việc quản lý kinh phí, tổ chức chi trả học bổng và kinh phí hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật theo khoản 1 và khoản 2 Điều 7 Thông tư liên tịch số 42;\n\n- Khi rút dự toán kinh phí thực hiện chính sách học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật, cơ sở giáo dục công lập phải gửi cơ quan Kho bạc Nhà nước nơi đơn vị giao dịch bản tổng hợp đề nghị chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật (gồm các nội dung: họ tên người khuyết tật, mức học bổng, mức hỗ trợ chi phí mua phương tiện và tổng nhu cầu kinh phí đề nghị chi trả kèm theo đầy đủ các hồ sơ (bản photo) về việc xác nhận đối tượng theo quy định tại điểm a khoản 1 Điều 8 Thông tư liên tịch số 42).\nĐối với cơ sở giáo dục ngoài công lập:\n\n- Người khuyết tật học tại cơ sở giáo dục (hoặc cha mẹ, người giám hộ) nộp một bộ hồ sơ theo hướng dẫn sau:\n\n+ Đối với người khuyết tật học tại cơ sở giáo dục trực thuộc xã quản lý gửi về Ủy ban nhân dân xã;\n\n+ Đối với người khuyết tật học tại các cơ sở giáo dục trực thuộc cấp tỉnh quản lý gửi về sở giáo dục và đào tạo;\n\n+ Đối với người khuyết tật có nơi thường trú trên địa bàn xã, đang học tại các cơ sở giáo dục đại học, trung cấp chuyên nghiệp trong phạm vi cả nước gửi về Ủy ban nhân dân cấp xã.\n\n- Cơ sở giáo dục ngoài công lập có trách nhiệm xác nhận vào đơn đề nghị của người học trong vòng 10 ngày làm việc kể từ ngày nhận được đơn đề nghị của học sinh, sinh viên.\n\n- Ủy ban nhân dân xã chịu trách nhiệm quản lý, tổ chức thực hiện chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật học tại các cơ sở giáo dục trực thuộc xã quản lý;\n\n- Sở giáo dục và đào tạo chịu trách nhiệm quản lý, tổ chức thực hiện chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật đang học tại các cơ sở giáo dục trực thuộc cấp tỉnh quản lý;\n\n- Ủy ban nhân dân xã chịu trách nhiệm quản lý, tổ chức thực hiện chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật có nơi thường trú trên địa bàn xã, đang học tại các cơ sở giáo dục đại học, trung cấp chuyên nghiệp ngoài công lập trong phạm vi cả nước\nThời gian cấp học bổng và hỗ trợ chi phí: việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật được thực hiện 2 lần trong năm: lần 1 chi trả vào tháng 9 hoặc tháng 10, tháng 11; lần 2 chi trả vào tháng 3 hoặc tháng 4, tháng 5. Việc chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập phải đảm bảo thuận tiện cho người khuyết tật đi học. Trường hợp người học chưa nhận được chế độ theo thời hạn quy định thì được truy lĩnh trong kỳ chi trả tiếp theo.\nCơ quan thực hiện chi trả có trách nhiệm thông báo công khai về thủ tục, thời gian chi trả học bổng và hỗ trợ chi phí cho người khuyết tật để thuận tiện cho người khuyết tật hoặc gia đình người khuyết tật được nhận chế độ chính sách theo đúng quy định.",
+    "THÀNH PHẦN HỒ SƠ": "Đối với người khuyết tật học tại các cơ sở giáo dục ngoài công lập: Đơn có xác nhận của nhà trường (theo mẫu tại phụ lục ban hành kèm theo Thông tư liên tịch số 42)\nĐối với người khuyết tập học tại các cơ sở giáo dục công lập: Giấy chứng nhận là hộ nghèo hoặc hộ cận nghèo do uỷ ban nhân dân xã (bản sao có công chứng)\nĐối với người khuyết tập học tại các cơ sở giáo dục công lập: Giấy chứng nhận về khuyết tật do cơ quan có thẩm quyền cấp theo quy định của Nhà nước (bản sao có công chứng)\nĐối với người khuyết tật học tại các cơ sở giáo dục ngoài công lập: Giấy chứng nhận là hộ nghèo hoặc hộ cận nghèo do uỷ ban nhân dân xã, phường, thị trấn cấp (bản sao có công chứng).\nĐối với người khuyết tật học tại các cơ sở giáo dục ngoài công lập: Giấy chứng nhận về khuyết tật do cơ quan có thẩm quyền cấp theo quy định của Nhà nước (bản sao có công chứng);",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 0\nQua dịch vụ bưu chính: 0\nTrực tiếp: 0",
     "CĂN CỨ PHÁP LÝ": "",
     "CƠ QUAN THỰC HIỆN": "Sở Giáo dục và Đào tạo, Cơ sở giáo dục",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "\tLà người khuyết tật thuộc hộ nghèo, hộ cận nghèo đang đi học tại các cơ sở giáo dục ngoài công lập.",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Là người khuyết tật thuộc hộ nghèo, hộ cận nghèo đang đi học tại các cơ sở giáo dục ngoài công lập.",
     "KẾT QUẢ XỬ LÝ": "Người khuyết tật được chi trả học bổng và hỗ trợ chi phí mua phương tiện, đồ dùng học tập dùng riêng cho người khuyết tật theo định mức quy định - KQ.G03.000083",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "\tLà người khuyết tật thuộc hộ nghèo, hộ cận nghèo đang đi học tại các cơ sở giáo dục ngoài công lập."
+    "MÔ TẢ": "Là người khuyết tật thuộc hộ nghèo, hộ cận nghèo đang đi học tại các cơ sở giáo dục ngoài công lập."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Học tập",
-      "slug": "hoc-tap",
-      "method": "service_group"
-    },
     "sector": {
       "name": "Giáo dục và Đào tạo thuộc hệ thống giáo dục quốc dân",
-      "slug": "giao-duc-va-dao-tao-thuoc-he-thong-giao-duc-quoc-dan"
+      "slug": "giao-duc-va-ao-tao-thuoc-he-thong-giao-duc-quoc-dan"
     },
     "implementation_levels": [
       {
@@ -247,13 +177,13 @@
     "agencies": [
       {
         "name": "Sở Giáo dục và Đào tạo",
-        "slug": "so-giao-duc-va-dao-tao"
+        "slug": "so-giao-duc-va-ao-tao"
       },
       {
         "name": "Cơ sở giáo dục",
         "slug": "co-so-giao-duc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

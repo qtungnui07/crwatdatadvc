@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfe-134f-7491-9d27-d7049d4567a6",
   "procedure_code": "1.002063",
   "title": "Gia hạn thời gian lưu hành tại Việt Nam cho phương tiện của Lào",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-134f-7491-9d27-d7049d4567a6",
     "source_file": "chi-tiet-thu-tuc-1.002063.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.002063/chi-tiet-thu-tuc-1.002063.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:00.053399+00:00",
-    "source_updated_at": "2026-04-17T02:02:15.605Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:38.407323+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "84ef24672876422d6848c52ed204f7c4b74df2313cedb9de5ee00281e27be070"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:00.053399+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "461/QĐ-BXD",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đường bộ",
   "target_users": [
@@ -42,48 +38,33 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Xây dựng",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Xây dựng"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "a) Nộp hồ sơ TTHC:\n- Tổ chức, cá nhân nộp hồ sơ cho Sở Xây dựng các tỉnh, thành phố trực thuộc trung ương nơi phương tiện gặp sự cố bất khả kháng.\nb) Giải quyết TTHC:\n- Trong thời hạn 02 ngày làm việc kể từ khi nhận đủ hồ sơ hợp lệ theo quy định, Sở Xây dựng thực hiện gia hạn thời gian lưu hành tại Việt Nam cho phương tiện của Lào. Sở Xây dựng thực hiện việc gia hạn bằng văn bản hoặc gia hạn trong giấy phép liên vận. Trường hợp không gia hạn, Sở Xây dựng trả lời bằng văn bản nêu rõ lý do.\n",
+      "description": "a) Nộp hồ sơ TTHC:\n- Tổ chức, cá nhân nộp hồ sơ cho Sở Xây dựng các tỉnh, thành phố trực thuộc trung ương nơi phương tiện gặp sự cố bất khả kháng.\nb) Giải quyết TTHC:\n- Trong thời hạn 02 ngày làm việc kể từ khi nhận đủ hồ sơ hợp lệ theo quy định, Sở Xây dựng thực hiện gia hạn thời gian lưu hành tại Việt Nam cho phương tiện của Lào. Sở Xây dựng thực hiện việc gia hạn bằng văn bản hoặc gia hạn trong giấy phép liên vận. Trường hợp không gia hạn, Sở Xây dựng trả lời bằng văn bản nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Gia hạn thời gian lưu hành tại Việt Nam cho phương tiện của Lào",
-        "code": "000.00.00.G04-KQ003518",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d9452-e2b7-707c-81cd-b5ca0110f002",
-            "name": "VN- Lào - Gia hạn.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "VN- Lào - Gia hạn.docx",
+        "source_page": 1
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "- Giấy phép liên vận giữa Việt Nam và Lào (bản chính).",
-        "code": "000.00.00.G04-KQ003517",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -92,14 +73,13 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "2 ngày làm việc",
-      "processing_time_value": 2,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -108,8 +88,7 @@
     {
       "title": "Quy định về hoạt động vận tải đường bộ",
       "document_number": "158/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-e175b8542bc0",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "Phương tiện của Lào quá thời gian lưu hành tại Việt Nam quy định tại giấy phép liên vận trong trường hợp bất khả kháng thì được gia hạn 01 lần với thời gian không quá 10 ngày",
@@ -117,13 +96,12 @@
     {
       "title": "Gia hạn thời gian lưu hành tại Việt Nam cho phương tiện của Lào",
       "code": "000.00.00.G04-KQ003518",
-      "id": "019d947c-20d7-739f-b173-1ba4e86b4eb1",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "a) Nộp hồ sơ TTHC:\n- Tổ chức, cá nhân nộp hồ sơ cho Sở Xây dựng các tỉnh, thành phố trực thuộc trung ương nơi phương tiện gặp sự cố bất khả kháng.\nb) Giải quyết TTHC:\n- Trong thời hạn 02 ngày làm việc kể từ khi nhận đủ hồ sơ hợp lệ theo quy định, Sở Xây dựng thực hiện gia hạn thời gian lưu hành tại Việt Nam cho phương tiện của Lào. Sở Xây dựng thực hiện việc gia hạn bằng văn bản hoặc gia hạn trong giấy phép liên vận. Trường hợp không gia hạn, Sở Xây dựng trả lời bằng văn bản nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n- Giấy phép liên vận giữa Việt Nam và Lào (bản chính).\nGia hạn thời gian lưu hành tại Việt Nam cho phương tiện của Lào",
+    "TRÌNH TỰ THỰC HIỆN": "a) Nộp hồ sơ TTHC:\n- Tổ chức, cá nhân nộp hồ sơ cho Sở Xây dựng các tỉnh, thành phố trực thuộc trung ương nơi phương tiện gặp sự cố bất khả kháng.\nb) Giải quyết TTHC:\n- Trong thời hạn 02 ngày làm việc kể từ khi nhận đủ hồ sơ hợp lệ theo quy định, Sở Xây dựng thực hiện gia hạn thời gian lưu hành tại Việt Nam cho phương tiện của Lào. Sở Xây dựng thực hiện việc gia hạn bằng văn bản hoặc gia hạn trong giấy phép liên vận. Trường hợp không gia hạn, Sở Xây dựng trả lời bằng văn bản nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "Gia hạn thời gian lưu hành tại Việt Nam cho phương tiện của Lào\n- Giấy phép liên vận giữa Việt Nam và Lào (bản chính).",
     "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 2 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Quy định về hoạt động vận tải đường bộ - 158/2024/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Sở Xây dựng",
@@ -133,14 +111,9 @@
     "MÔ TẢ": "Phương tiện của Lào quá thời gian lưu hành tại Việt Nam quy định tại giấy phép liên vận trong trường hợp bất khả kháng thì được gia hạn 01 lần với thời gian không quá 10 ngày"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đường bộ",
-      "slug": "duong-bo"
+      "slug": "uong-bo"
     },
     "implementation_levels": [
       {
@@ -155,11 +128,11 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -188,6 +161,6 @@
         "slug": "so-xay-dung"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

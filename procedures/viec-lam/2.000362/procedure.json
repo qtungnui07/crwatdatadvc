@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf8-2b31-7212-bc0b-15c4ba3712aa",
   "procedure_code": "2.000362",
   "title": "Cấp Giấy phép kinh doanh cho tổ chức kinh tế có vốn đầu tư nước ngoài để thực hiện quyền phân phối bán lẻ các hàng hóa là gạo; đường; vật phẩm ghi hình; sách, báo và tạp chí",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-2b31-7212-bc0b-15c4ba3712aa",
     "source_file": "chi-tiet-thu-tuc-2.000362.pdf",
     "source_path": "procedures/viec-lam/2.000362/chi-tiet-thu-tuc-2.000362.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:20.398396+00:00",
-    "source_updated_at": "2026-06-05T05:43:34.788Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:08.537218+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "9962b941522ea7105265cfdcaa6d4cc26983bebdbd266ba6a1cefe94629b4418"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:20.398396+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1040/QĐ-BCT",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Thương mại quốc tế",
   "target_users": [
@@ -35,66 +31,45 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Công Thương",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Công Thương"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Tổ chức kinh tế có vốn đầu tư nước ngoài đề nghị cấp Giấy phép kinh doanh lập 03 bộ hồ sơ gửi trực tiếp hoặc qua đường bưu chính hoặc hệ thống dịch vụ công trực tuyến đến Sở Công Thương nơi tổ chức kinh tế đặt trụ sở chính. \nTrường hợp hồ sơ chưa đầy đủ và hợp lệ, trong vòng 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Sở Công Thương thông báo để tổ chức, cá nhân bổ sung, hoàn chỉnh hồ sơ. Thời gian hoàn chỉnh hồ sơ không được tính vào thời gian cấp Giấy phép kinh doanh;\n\tTrong thời hạn 10 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ quy định Sở Công Thương nơi tổ chức kinh tế có vốn đầu tư nước ngoài đặt trụ sở chính có trách nhiệm xem xét việc đáp ứng điều kiện. \n\t+ Trường hợp không cấp Giấy phép kinh doanh, Sở Công Thương phải có văn bản trả lời và nêu rõ lý do.\n\t+ Trường hợp đáp ứng điều kiện, Sở Công Thương gửi hồ sơ kèm văn bản lấy ý kiến Ủy ban nhân dân cấp tỉnh. \n\tTrong thời hạn 15 ngày kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh xem xét các nội dung tương ứng quy định tại Điều 10 Nghị định 09/2018/NĐ-CP ngày 15/01/2018 để có văn bản chấp thuận cấp Giấy phép kinh doanh; trường hợp từ chối phải có văn bản trả lời và nêu rõ lý do.\n\tTrong thời hạn 03 ngày làm việc kể từ ngày nhận được văn bản chấp thuận của Ủy ban nhân dân cấp tỉnh, Sở Công Thương cấp Giấy phép kinh doanh. Trường hợp Ủy ban nhân dân cấp tỉnh có văn bản từ chối, Sở Công Thương có văn bản trả lời và nêu rõ lý do. \n",
+      "description": "Tổ chức kinh tế có vốn đầu tư nước ngoài đề nghị cấp Giấy phép kinh doanh lập 03 bộ hồ sơ gửi trực tiếp hoặc qua đường bưu chính hoặc hệ thống dịch vụ công trực tuyến đến Sở Công Thương nơi tổ chức kinh tế đặt trụ sở chính. \nTrường hợp hồ sơ chưa đầy đủ và hợp lệ, trong vòng 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Sở Công Thương thông báo để tổ chức, cá nhân bổ sung, hoàn chỉnh hồ sơ. Thời gian hoàn chỉnh hồ sơ không được tính vào thời gian cấp Giấy phép kinh doanh;\n\tTrong thời hạn 10 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ quy định Sở Công Thương nơi tổ chức kinh tế có vốn đầu tư nước ngoài đặt trụ sở chính có trách nhiệm xem xét việc đáp ứng điều kiện. \n\t+ Trường hợp không cấp Giấy phép kinh doanh, Sở Công Thương phải có văn bản trả lời và nêu rõ lý do.\n\t+ Trường hợp đáp ứng điều kiện, Sở Công Thương gửi hồ sơ kèm văn bản lấy ý kiến Ủy ban nhân dân cấp tỉnh. \n\tTrong thời hạn 15 ngày kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh xem xét các nội dung tương ứng quy định tại Điều 10 Nghị định 09/2018/NĐ-CP ngày 15/01/2018 để có văn bản chấp thuận cấp Giấy phép kinh doanh; trường hợp từ chối phải có văn bản trả lời và nêu rõ lý do.\n\tTrong thời hạn 03 ngày làm việc kể từ ngày nhận được văn bản chấp thuận của Ủy ban nhân dân cấp tỉnh, Sở Công Thương cấp Giấy phép kinh doanh. Trường hợp Ủy ban nhân dân cấp tỉnh có văn bản từ chối, Sở Công Thương có văn bản trả lời và nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Đơn đề nghị cấp Giấy phép kinh doanh (Mẫu số 01 tại Phụ lục ban hành kèm theo Nghị định 09/2018/NĐ-CP ngày 15/01/2018)",
-        "code": "000.00.00.G02-KQ0737",
         "quantity": "3 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d8f30-d91e-7010-a1a5-493160b83739",
-            "name": "01MĐ-Đơn cấp GPKD.doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "01MĐ-Đơn cấp GPKD.doc",
+        "source_page": 2
       },
       {
         "name": "Bản giải trình có nội dung: a) Giải trình về điều kiện cấp Giấy phép kinh doanh gồm:  - Không còn nợ thuế quá hạn trong trường hợp đã thành lập tại Việt Nam từ 01 năm trở lên. - Phù hợp với quy định của pháp luật chuyên ngành. - Phù hợp với mức độ cạnh tranh của doanh nghiệp trong nước trong cùng lĩnh vực hoạt động. - Đã có cơ sở bán lẻ dưới hình thức siêu thị, siêu thị mini, cửa hàng tiện lợi để bán lẻ tại các cơ sở đó. b) Kế hoạch kinh doanh: Mô tả nội dung, phương thức thực hiện hoạt động kinh doanh; trình bày kế hoạch kinh doanh và phát triển thị trường; nhu cầu về lao động; đánh giá tác động, hiệu quả kinh tế - xã hội của kế hoạch kinh doanh; c) Tình hình kinh doanh hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa; tình hình tài chính của tổ chức kinh tế có vốn đầu tư nước ngoài tính tới thời điểm đề nghị cấp Giấy phép kinh doanh, trong trường hợp cấp Giấy phép kinh doanh quy định tại khoản 6 Điều 5 Nghị định 09/2018/NĐ-CP.",
-        "code": "KQ-KHTC--0101",
         "quantity": "3 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": ". Bản sao: Giấy chứng nhận đăng ký doanh nghiệp; Giấy chứng nhận đăng ký đầu tư dự án hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa (nếu có).",
-        "code": "000.00.00.G02-KQ005582",
         "quantity": "3 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "-Tài liệu của cơ quan thuế chứng minh không còn nợ thuế quá hạn;",
-        "code": "000.00.00.G02-KQ0978",
         "quantity": "3 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -103,35 +78,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "28 ngày làm việc",
-      "processing_time_value": 28,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "28 ngày làm việc",
-      "processing_time_value": 28,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -139,51 +94,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "28 ngày làm việc",
-      "processing_time_value": 28,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -191,78 +131,64 @@
     {
       "title": "Luật đầu tư",
       "document_number": "67/2014/QH13",
-      "id": "019d2bb3-5d7d-7398-be4e-7ac1d9bebe0e",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Quy định chi tiết Luật thương mại và Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam",
       "document_number": "09/2018/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe7-b6eaffca16c9",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu",
       "document_number": "66.7/2025/NQ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-22af3c5ee091",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định số 146/2025/NĐ-CP",
       "document_number": "nghị định 146/2025",
-      "id": "019d2bb3-5d87-7195-a44a-592f046b043c",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật quản lý ngoại thương",
       "document_number": "05/2017/QH14",
-      "id": "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị quyết số 19/2026/NQ-CP ngày 29 tháng 4 năm 2026 của Chính phủ về cắt giảm, phân cấp, đơn giản hoá thủ tục hành chính, điều kiện kinh doanh thuộc quản lý của Bộ Công Thương",
       "document_number": "19/2026/NQ-CP",
-      "id": "019e1627-6140-7639-ae90-2e4878db9890",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật sửa đổi, bổ sung Điều 6 và Phụ lục 4 về Danh mục ngành, nghề đầu tư kinh doanh có điều kiện của Luật đầu tư",
       "document_number": "03/2016/QH14",
-      "id": "019d2bb3-5d84-71c5-b671-2f4563a0edba",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật Thương mại",
       "document_number": "36/2005/QH11",
-      "id": "019d2bb3-5d84-71c5-b672-cff0cd8ef16a",
-      "source_page": null
+      "source_page": 3
     }
   ],
-  "conditions": "+ Không còn nợ thuế quá hạn trong trường hợp đã thành lập tại Việt Nam từ 01 năm trở lên.\n+ Phù hợp với quy định của pháp luật chuyên ngành.\n+ Phù hợp với mức độ cạnh tranh của doanh nghiệp trong nước trong cùng lĩnh vực hoạt động.\n+ Đã có cơ sở bán lẻ dưới hình thức siêu thị, siêu thị mini, cửa hàng tiện lợi để bán lẻ tại các cơ sở đó.\n",
+  "conditions": "+ Không còn nợ thuế quá hạn trong trường hợp đã thành lập tại Việt Nam từ 01 năm trở lên.\n+ Phù hợp với quy định của pháp luật chuyên ngành.\n+ Phù hợp với mức độ cạnh tranh của doanh nghiệp trong nước trong cùng lĩnh vực hoạt động.\n+ Đã có cơ sở bán lẻ dưới hình thức siêu thị, siêu thị mini, cửa hàng tiện lợi để bán lẻ tại các cơ sở đó.",
   "results": [
     {
       "title": "GIẤY PHÉP KINH DOANH HOẠT ĐỘNG MUA BÁN HÀNG HÓA VÀ CÁC HOẠT ĐỘNG LIÊN QUAN TRỰC TIẾP ĐẾN MUA BÁN HÀNG HÓA",
       "code": "KQ.G02.000090",
-      "id": "019d2bb2-1c38-75c9-8e13-ab3d192c2e66",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Tổ chức kinh tế có vốn đầu tư nước ngoài đề nghị cấp Giấy phép kinh doanh lập 03 bộ hồ sơ gửi trực tiếp hoặc qua đường bưu chính hoặc hệ thống dịch vụ công trực tuyến đến Sở Công Thương nơi tổ chức kinh tế đặt trụ sở chính. \nTrường hợp hồ sơ chưa đầy đủ và hợp lệ, trong vòng 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Sở Công Thương thông báo để tổ chức, cá nhân bổ sung, hoàn chỉnh hồ sơ. Thời gian hoàn chỉnh hồ sơ không được tính vào thời gian cấp Giấy phép kinh doanh;\n\tTrong thời hạn 10 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ quy định Sở Công Thương nơi tổ chức kinh tế có vốn đầu tư nước ngoài đặt trụ sở chính có trách nhiệm xem xét việc đáp ứng điều kiện. \n\t+ Trường hợp không cấp Giấy phép kinh doanh, Sở Công Thương phải có văn bản trả lời và nêu rõ lý do.\n\t+ Trường hợp đáp ứng điều kiện, Sở Công Thương gửi hồ sơ kèm văn bản lấy ý kiến Ủy ban nhân dân cấp tỉnh. \n\tTrong thời hạn 15 ngày kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh xem xét các nội dung tương ứng quy định tại Điều 10 Nghị định 09/2018/NĐ-CP ngày 15/01/2018 để có văn bản chấp thuận cấp Giấy phép kinh doanh; trường hợp từ chối phải có văn bản trả lời và nêu rõ lý do.\n\tTrong thời hạn 03 ngày làm việc kể từ ngày nhận được văn bản chấp thuận của Ủy ban nhân dân cấp tỉnh, Sở Công Thương cấp Giấy phép kinh doanh. Trường hợp Ủy ban nhân dân cấp tỉnh có văn bản từ chối, Sở Công Thương có văn bản trả lời và nêu rõ lý do. \n",
-    "THÀNH PHẦN HỒ SƠ": "\nĐơn đề nghị cấp Giấy phép kinh doanh (Mẫu số 01 tại Phụ lục ban hành kèm theo Nghị định 09/2018/NĐ-CP ngày 15/01/2018)\n-Tài liệu của cơ quan thuế chứng minh không còn nợ thuế quá hạn;\nBản giải trình có nội dung: a) Giải trình về điều kiện cấp Giấy phép kinh doanh gồm:  - Không còn nợ thuế quá hạn trong trường hợp đã thành lập tại Việt Nam từ 01 năm trở lên. - Phù hợp với quy định của pháp luật chuyên ngành. - Phù hợp với mức độ cạnh tranh của doanh nghiệp trong nước trong cùng lĩnh vực hoạt động. - Đã có cơ sở bán lẻ dưới hình thức siêu thị, siêu thị mini, cửa hàng tiện lợi để bán lẻ tại các cơ sở đó. b) Kế hoạch kinh doanh: Mô tả nội dung, phương thức thực hiện hoạt động kinh doanh; trình bày kế hoạch kinh doanh và phát triển thị trường; nhu cầu về lao động; đánh giá tác động, hiệu quả kinh tế - xã hội của kế hoạch kinh doanh; c) Tình hình kinh doanh hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa; tình hình tài chính của tổ chức kinh tế có vốn đầu tư nước ngoài tính tới thời điểm đề nghị cấp Giấy phép kinh doanh, trong trường hợp cấp Giấy phép kinh doanh quy định tại khoản 6 Điều 5 Nghị định 09/2018/NĐ-CP.\n. Bản sao: Giấy chứng nhận đăng ký doanh nghiệp; Giấy chứng nhận đăng ký đầu tư dự án hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa (nếu có).",
+    "TRÌNH TỰ THỰC HIỆN": "Tổ chức kinh tế có vốn đầu tư nước ngoài đề nghị cấp Giấy phép kinh doanh lập 03 bộ hồ sơ gửi trực tiếp hoặc qua đường bưu chính hoặc hệ thống dịch vụ công trực tuyến đến Sở Công Thương nơi tổ chức kinh tế đặt trụ sở chính. \nTrường hợp hồ sơ chưa đầy đủ và hợp lệ, trong vòng 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ, Sở Công Thương thông báo để tổ chức, cá nhân bổ sung, hoàn chỉnh hồ sơ. Thời gian hoàn chỉnh hồ sơ không được tính vào thời gian cấp Giấy phép kinh doanh;\n\tTrong thời hạn 10 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ quy định Sở Công Thương nơi tổ chức kinh tế có vốn đầu tư nước ngoài đặt trụ sở chính có trách nhiệm xem xét việc đáp ứng điều kiện. \n\t+ Trường hợp không cấp Giấy phép kinh doanh, Sở Công Thương phải có văn bản trả lời và nêu rõ lý do.\n\t+ Trường hợp đáp ứng điều kiện, Sở Công Thương gửi hồ sơ kèm văn bản lấy ý kiến Ủy ban nhân dân cấp tỉnh. \n\tTrong thời hạn 15 ngày kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh xem xét các nội dung tương ứng quy định tại Điều 10 Nghị định 09/2018/NĐ-CP ngày 15/01/2018 để có văn bản chấp thuận cấp Giấy phép kinh doanh; trường hợp từ chối phải có văn bản trả lời và nêu rõ lý do.\n\tTrong thời hạn 03 ngày làm việc kể từ ngày nhận được văn bản chấp thuận của Ủy ban nhân dân cấp tỉnh, Sở Công Thương cấp Giấy phép kinh doanh. Trường hợp Ủy ban nhân dân cấp tỉnh có văn bản từ chối, Sở Công Thương có văn bản trả lời và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "Đơn đề nghị cấp Giấy phép kinh doanh (Mẫu số 01 tại Phụ lục ban hành kèm theo Nghị định 09/2018/NĐ-CP ngày 15/01/2018)\nBản giải trình có nội dung: a) Giải trình về điều kiện cấp Giấy phép kinh doanh gồm:  - Không còn nợ thuế quá hạn trong trường hợp đã thành lập tại Việt Nam từ 01 năm trở lên. - Phù hợp với quy định của pháp luật chuyên ngành. - Phù hợp với mức độ cạnh tranh của doanh nghiệp trong nước trong cùng lĩnh vực hoạt động. - Đã có cơ sở bán lẻ dưới hình thức siêu thị, siêu thị mini, cửa hàng tiện lợi để bán lẻ tại các cơ sở đó. b) Kế hoạch kinh doanh: Mô tả nội dung, phương thức thực hiện hoạt động kinh doanh; trình bày kế hoạch kinh doanh và phát triển thị trường; nhu cầu về lao động; đánh giá tác động, hiệu quả kinh tế - xã hội của kế hoạch kinh doanh; c) Tình hình kinh doanh hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa; tình hình tài chính của tổ chức kinh tế có vốn đầu tư nước ngoài tính tới thời điểm đề nghị cấp Giấy phép kinh doanh, trong trường hợp cấp Giấy phép kinh doanh quy định tại khoản 6 Điều 5 Nghị định 09/2018/NĐ-CP.\n. Bản sao: Giấy chứng nhận đăng ký doanh nghiệp; Giấy chứng nhận đăng ký đầu tư dự án hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa (nếu có).\n-Tài liệu của cơ quan thuế chứng minh không còn nợ thuế quá hạn;",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 28 ngày làm việc\nQua dịch vụ bưu chính: 28 ngày làm việc\nTrực tiếp: 28 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Luật đầu tư - 67/2014/QH13\nQuy định chi tiết Luật thương mại và Luật Quản lý ngoại thương về hoạt động mua bán hàng hóa và các hoạt động liên quan trực tiếp đến mua bán hàng hóa của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tại Việt Nam - 09/2018/NĐ-CP\nNghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu - 66.7/2025/NQ-CP\nNghị định số 146/2025/NĐ-CP - nghị định 146/2025\nLuật quản lý ngoại thương - 05/2017/QH14\nNghị quyết số 19/2026/NQ-CP ngày 29 tháng 4 năm 2026 của Chính phủ về cắt giảm, phân cấp, đơn giản hoá thủ tục hành chính, điều kiện kinh doanh thuộc quản lý của Bộ Công Thương - 19/2026/NQ-CP\nLuật sửa đổi, bổ sung Điều 6 và Phụ lục 4 về Danh mục ngành, nghề đầu tư kinh doanh có điều kiện của Luật đầu tư - 03/2016/QH14\nLuật Thương mại - 36/2005/QH11",
     "CƠ QUAN THỰC HIỆN": "Sở Công Thương",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "+ Không còn nợ thuế quá hạn trong trường hợp đã thành lập tại Việt Nam từ 01 năm trở lên.\n+ Phù hợp với quy định của pháp luật chuyên ngành.\n+ Phù hợp với mức độ cạnh tranh của doanh nghiệp trong nước trong cùng lĩnh vực hoạt động.\n+ Đã có cơ sở bán lẻ dưới hình thức siêu thị, siêu thị mini, cửa hàng tiện lợi để bán lẻ tại các cơ sở đó.\n",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "+ Không còn nợ thuế quá hạn trong trường hợp đã thành lập tại Việt Nam từ 01 năm trở lên.\n+ Phù hợp với quy định của pháp luật chuyên ngành.\n+ Phù hợp với mức độ cạnh tranh của doanh nghiệp trong nước trong cùng lĩnh vực hoạt động.\n+ Đã có cơ sở bán lẻ dưới hình thức siêu thị, siêu thị mini, cửa hàng tiện lợi để bán lẻ tại các cơ sở đó.",
     "KẾT QUẢ XỬ LÝ": "GIẤY PHÉP KINH DOANH HOẠT ĐỘNG MUA BÁN HÀNG HÓA VÀ CÁC HOẠT ĐỘNG LIÊN QUAN TRỰC TIẾP ĐẾN MUA BÁN HÀNG HÓA - KQ.G02.000090",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "+ Không còn nợ thuế quá hạn trong trường hợp đã thành lập tại Việt Nam từ 01 năm trở lên.\n+ Phù hợp với quy định của pháp luật chuyên ngành.\n+ Phù hợp với mức độ cạnh tranh của doanh nghiệp trong nước trong cùng lĩnh vực hoạt động.\n+ Đã có cơ sở bán lẻ dưới hình thức siêu thị, siêu thị mini, cửa hàng tiện lợi để bán lẻ tại các cơ sở đó.\n"
+    "MÔ TẢ": "+ Không còn nợ thuế quá hạn trong trường hợp đã thành lập tại Việt Nam từ 01 năm trở lên.\n+ Phù hợp với quy định của pháp luật chuyên ngành.\n+ Phù hợp với mức độ cạnh tranh của doanh nghiệp trong nước trong cùng lĩnh vực hoạt động.\n+ Đã có cơ sở bán lẻ dưới hình thức siêu thị, siêu thị mini, cửa hàng tiện lợi để bán lẻ tại các cơ sở đó."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thương mại quốc tế",
       "slug": "thuong-mai-quoc-te"
@@ -285,6 +211,6 @@
         "slug": "so-cong-thuong"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

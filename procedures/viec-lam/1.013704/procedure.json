@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-1b5d-738e-974f-94b0474a1be5",
   "procedure_code": "1.013704",
   "title": "Báo cáo tổ chức đại hội thành lập, đại hội nhiệm kỳ, đại hội bất thường của hội",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-1b5d-738e-974f-94b0474a1be5",
     "source_file": "chi-tiet-thu-tuc-1.013704.pdf",
     "source_path": "procedures/viec-lam/1.013704/chi-tiet-thu-tuc-1.013704.pdf",
     "page_count": 8,
-    "extracted_at": "2026-07-18T02:22:10.850933+00:00",
-    "source_updated_at": "2026-04-16T07:21:06.359Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:20.484798+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "7d525919d784938f0c1d4ffd22c4f596b635e9c55cddffdf9ef838b006ff829f"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:10.850933+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "627/QĐ-BNV",
   "implementation_level": "Cấp xã",
-  "implementation_levels": [
-    "Cấp xã"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Quản lý nhà nước về hội, quỹ",
   "target_users": [
@@ -35,18 +31,36 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": ""
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Ban chấp hành hội (đại hội nhiệm kỳ, đại hội bất thường) hoặc Ban vận động thành lập hội (đại hội thành lập) gửi hồ sơ báo cáo về việc tổ chức đại hội nhiệm kỳ, đại hội bất thường, đại hội thành lập đến Ủy ban nhân dân cấp xã.\n- Bước 2: Cán bộ tiếp nhận hồ sơ xem xét hồ sơ và đề nghị bổ sung trong trường hợp hồ sơ chưa đầy đủ và hợp pháp. Trường hợp từ chối tiếp nhận, giải quyết hồ sơ phải nêu rõ lý do.\n- Bước 3: Kể từ ngày nhận hồ sơ đầy đủ và hợp pháp, cán bộ tiếp nhận hồ sơ nghiên cứu, thẩm định hồ sơ và thực hiện quy trình lấy ý kiến các cơ quan có liên quan, tổng hợp các ý kiến góp ý, đề nghị bổ sung hồ sơ (nếu có).\n- Bước 4: Chủ tịch Ủy ban nhân dân cấp xã có ý kiến bằng văn bản về việc tổ chức đại hội.\n",
+      "description": "- Bước 1: Ban chấp hành hội (đại hội nhiệm kỳ, đại hội bất thường) hoặc Ban vận động thành lập hội (đại hội thành lập) gửi hồ sơ báo cáo về việc tổ chức đại hội nhiệm kỳ, đại hội bất thường, đại hội thành lập đến Ủy ban nhân dân cấp xã.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Cán bộ tiếp nhận hồ sơ xem xét hồ sơ và đề nghị bổ sung trong trường hợp hồ sơ chưa đầy đủ và hợp pháp. Trường hợp từ chối tiếp nhận, giải quyết hồ sơ phải nêu rõ lý do.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "- Bước 3: Kể từ ngày nhận hồ sơ đầy đủ và hợp pháp, cán bộ tiếp nhận hồ sơ nghiên cứu, thẩm định hồ sơ và thực hiện quy trình lấy ý kiến các cơ quan có liên quan, tổng hợp các ý kiến góp ý, đề nghị bổ sung hồ sơ (nếu có).",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "- Bước 4: Chủ tịch Ủy ban nhân dân cấp xã có ý kiến bằng văn bản về việc tổ chức đại hội.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -54,166 +68,112 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "- Đề án nhân sự, trong đó nêu rõ tiêu chuẩn, cơ cấu, số lượng, dự kiến danh sách thành viên ban chấp hành, ban thường vụ, ban kiểm tra, các chức danh chủ tịch, phó chủ tịch hội và chức danh khác (nếu có)..",
-        "code": "000.00.00.G09-KQ002406",
+        "name": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Đề án nhân sự, trong đó nêu rõ tiêu chuẩn, cơ cấu, số lượng, dự kiến danh sách thành viên ban chấp hành, ban thường vụ, ban kiểm tra, các chức danh chủ tịch, phó chủ tịch hội và chức danh khác (nếu có)..",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Văn bản báo cáo tổ chức đại hội nhiệm kỳ của hội; nếu trong đại hội nhiệm kỳ có nội dung về đổi tên hội thì kèm theo đơn đề nghị đổi tên hội, trong đó nêu rõ lý do, sự cần thiết phải đổi tên hội..",
-        "code": "000.00.00.G09-KQ002402",
+        "name": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Văn bản báo cáo tổ chức đại hội nhiệm kỳ của hội; nếu trong đại hội nhiệm kỳ có nội dung về đổi tên hội thì kèm theo đơn đề nghị đổi tên hội, trong đó nêu rõ lý do, sự cần thiết phải đổi tên hội..",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Nghị quyết của ban chấp hành hội về việc tổ chức đại hội nhiệm kỳ và việc đổi tên hội (nếu có)..",
-        "code": "000.00.00.G09-KQ002403",
+        "name": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Nghị quyết của ban chấp hành hội về việc tổ chức đại hội nhiệm kỳ và việc đổi tên hội (nếu có)..",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Sơ yếu lý lịch cá nhân và phiếu lý lịch tư pháp số 1 không quá 06 tháng tính đến ngày nộp hồ sơ của nhân sự dự kiến là chủ tịch hội; nếu nhân sự dự kiến chủ tịch hội là cán bộ, công chức, viên chức hoặc là cán bộ, công chức, viên chức đã nghỉ hưu được cơ quan có thẩm quyền đồng ý bằng văn bản theo quy định về phân cấp quản lý cán bộ hoặc đang là chủ tịch hội nhiệm kỳ hiện tại của hội thì không phải nộp phiếu lý lịch tư pháp số 1..",
-        "code": "000.00.00.G09-KQ002407",
+        "name": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Sơ yếu lý lịch cá nhân và phiếu lý lịch tư pháp số 1 không quá 06 tháng tính đến ngày nộp hồ sơ của nhân sự dự kiến là chủ tịch hội; nếu nhân sự dự kiến chủ tịch hội là cán bộ, công chức, viên chức hoặc là cán bộ, công chức, viên chức đã nghỉ hưu được cơ quan có thẩm quyền đồng ý bằng văn bản theo quy định về phân cấp quản lý cán bộ hoặc đang là chủ tịch hội nhiệm kỳ hiện tại của hội thì không phải nộp phiếu lý lịch tư pháp số 1..",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Các hội dung khác thuộc thẩm quyền của đại hội theo quy định của điều lệ hội và quy định của pháp luật (nếu có);.",
-        "code": "000.00.00.G09-KQ002411",
+        "name": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Các hội dung khác thuộc thẩm quyền của đại hội theo quy định của điều lệ hội và quy định của pháp luật (nếu có);.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Dự thảo điều lệ sửa đổi, bổ sung (nếu có)..",
-        "code": "000.00.00.G09-KQ002405",
+        "name": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Dự thảo điều lệ sửa đổi, bổ sung (nếu có)..",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Dự thảo báo cáo tổng kết công tác nhiệm kỳ và phương hướng hoạt động nhiệm kỳ tới của hội. Báo cáo kiểm điểm của Ban chấp hành, ban kiểm tra và báo cáo tài chính của hội..",
-        "code": "000.00.00.G09-KQ002404",
+        "name": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Dự thảo báo cáo tổng kết công tác nhiệm kỳ và phương hướng hoạt động nhiệm kỳ tới của hội. Báo cáo kiểm điểm của Ban chấp hành, ban kiểm tra và báo cáo tài chính của hội..",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Báo cáo số lượng hội viên, trong đó nêu rõ số hội viên chính thức của hội.;",
-        "code": "000.00.00.G09-KQ002410",
+        "name": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Báo cáo số lượng hội viên, trong đó nêu rõ số hội viên chính thức của hội.;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Dự kiến thời gian, địa điểm tổ chức đại hội, số lượng đại biểu mời, đại biểu chính thức tham dự đại hội, dự kiến chương trình đại hội;.",
-        "code": "000.00.00.G09-KQ002409",
+        "name": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Dự kiến thời gian, địa điểm tổ chức đại hội, số lượng đại biểu mời, đại biểu chính thức tham dự đại hội, dự kiến chương trình đại hội;.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Ý kiến đồng ý của cơ quan có thẩm quyền theo quy định về phân cấp quản lý cán bộ đối với nhân sự là cán bộ, công chức, viên chức dự kiến tham gia ban chấp hành, ban thường vụ hoặc giữ các chức danh chủ tịch, phó chủ tịch hội..",
-        "code": "000.00.00.G09-KQ002408",
+        "name": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Ý kiến đồng ý của cơ quan có thẩm quyền theo quy định về phân cấp quản lý cán bộ đối với nhân sự là cán bộ, công chức, viên chức dự kiến tham gia ban chấp hành, ban thường vụ hoặc giữ các chức danh chủ tịch, phó chủ tịch hội..",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Ý kiến đồng ý của cơ quan có thẩm quyền theo quy định về phân cấp quản lý cán bộ đối với nhân sự là cán bộ, công chức, viên chức dự kiến tham gia ban chấp hành, ban thường vụ hoặc giữ các chức danh chủ tịch, phó chủ tịch hội (bản chính); Trường hợp dự kiến chủ tịch hội không phải là trưởng ban vận động thành lập hội thì phải bổ sung sơ yếu lý lịch cá nhân và phiếu lý lịch tư pháp số 1 (bản chính) không quá 06 tháng tính đến ngày nộp hồ sơ; nếu chủ tịch hội dự kiến nêu trên là cán bộ, công chức, viên chức hoặc là cán bộ, công chức, viên chức đã nghỉ hưu được cơ quan có thẩm quyền đồng ý bằng văn bản theo quy định về phân cấp quản lý cán bộ thì không phải nộp phiếu lý lịch tư pháp số 1.;",
-        "code": "000.00.00.G09-KQ002400",
+        "name": "* Hồ sơ báo cáo tổ chức đại hội thành lập: - Ý kiến đồng ý của cơ quan có thẩm quyền theo quy định về phân cấp quản lý cán bộ đối với nhân sự là cán bộ, công chức, viên chức dự kiến tham gia ban chấp hành, ban thường vụ hoặc giữ các chức danh chủ tịch, phó chủ tịch hội (bản chính); Trường hợp dự kiến chủ tịch hội không phải là trưởng ban vận động thành lập hội thì phải bổ sung sơ yếu lý lịch cá nhân và phiếu lý lịch tư pháp số 1 (bản chính) không quá 06 tháng tính đến ngày nộp hồ sơ; nếu chủ tịch hội dự kiến nêu trên là cán bộ, công chức, viên chức hoặc là cán bộ, công chức, viên chức đã nghỉ hưu được cơ quan có thẩm quyền đồng ý bằng văn bản theo quy định về phân cấp quản lý cán bộ thì không phải nộp phiếu lý lịch tư pháp số 1.;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ báo cáo tổ chức đại hội thành lập",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Dự kiến thời gian, địa điểm tổ chức đại hội, số lượng đại biểu mời, đại biểu chính thức tham dự đại hội, dự kiến chương trình đại hội (bản gốc);.",
-        "code": "000.00.00.G09-KQ002401",
+        "name": "* Hồ sơ báo cáo tổ chức đại hội thành lập: - Dự kiến thời gian, địa điểm tổ chức đại hội, số lượng đại biểu mời, đại biểu chính thức tham dự đại hội, dự kiến chương trình đại hội (bản gốc);.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ báo cáo tổ chức đại hội thành lập",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Văn bản báo cáo tổ chức đại hội thành lập của Ban Vận động thành lập hội (bản gốc)",
-        "code": "000.00.00.G09-KQ002398",
+        "name": "* Hồ sơ báo cáo tổ chức đại hội thành lập: - Văn bản báo cáo tổ chức đại hội thành lập của Ban Vận động thành lập hội (bản gốc)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ báo cáo tổ chức đại hội thành lập",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Đề án nhân sự (bản gốc), trong đó nêu rõ tiêu chuẩn, cơ cấu, số lượng, dự kiến danh sách thành viên ban chấp hành, ban thường vụ, ban kiểm tra, các chức danh chủ tịch, phó chủ tịch hội và chức danh khác (nếu có);.",
-        "code": "000.00.00.G09-KQ002399",
+        "name": "* Hồ sơ báo cáo tổ chức đại hội thành lập: - Đề án nhân sự (bản gốc), trong đó nêu rõ tiêu chuẩn, cơ cấu, số lượng, dự kiến danh sách thành viên ban chấp hành, ban thường vụ, ban kiểm tra, các chức danh chủ tịch, phó chủ tịch hội và chức danh khác (nếu có);.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ báo cáo tổ chức đại hội thành lập",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Dự kiến thời gian, địa điểm tổ chức đại hội, số lượng đại biểu mời, đại biểu chính thức tham dự đại hội, dự kiến chương trình đại hội,;",
-        "code": "000.00.00.G09-KQ002415",
+        "name": "* Hồ sơ báo cáo đại hội bất thường: - Dự kiến thời gian, địa điểm tổ chức đại hội, số lượng đại biểu mời, đại biểu chính thức tham dự đại hội, dự kiến chương trình đại hội,;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ báo cáo đại hội bất thường",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Nghị quyết của Ban chấp hành hội về việc tổ chức đại hội bất thường trong đó nêu rõ nội dung thảo luận và quyết định tại đại hội;,",
-        "code": "000.00.00.G09-KQ002413",
+        "name": "* Hồ sơ báo cáo đại hội bất thường: - Nghị quyết của Ban chấp hành hội về việc tổ chức đại hội bất thường trong đó nêu rõ nội dung thảo luận và quyết định tại đại hội;,",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ báo cáo đại hội bất thường",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "- Văn bản báo cáo tổ chức đại hội bất thường của hội; Nếu trong đại hội bất thường có nội dung về đổi tên hội thì kèm theo đơn đề nghị đổi tên hội, trong đó nêu rõ lý do, sự cần thiết phải đổi tên hội;,",
-        "code": "000.00.00.G09-KQ002412",
+        "name": "* Hồ sơ báo cáo đại hội bất thường: - Văn bản báo cáo tổ chức đại hội bất thường của hội; Nếu trong đại hội bất thường có nội dung về đổi tên hội thì kèm theo đơn đề nghị đổi tên hội, trong đó nêu rõ lý do, sự cần thiết phải đổi tên hội;,",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ báo cáo đại hội bất thường",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "- Dự thảo những nội dung thảo luận và quyết định tại đại hội,;",
-        "code": "000.00.00.G09-KQ002414",
+        "name": "* Hồ sơ báo cáo đại hội bất thường: - Dự thảo những nội dung thảo luận và quyết định tại đại hội,;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "* Hồ sơ báo cáo đại hội bất thường",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       }
     ]
   },
@@ -222,87 +182,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "45 ngày làm việc",
-      "processing_time_value": 45,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Kể từ ngày Ủy ban nhân dân cấp xã nhận hồ sơ đầy đủ và hợp pháp (đối với đại hội nhiệm kỳ, đại hội bất thường) .\nNộp hồ sơ trực tiếp tại Ủy ban nhân dân cấp xã; qua dịch vụ bưu chính công ích hoặc qua Cổng Dịch vụ công trực tuyến trực tuyến. Hồ sơ phải có xác nhận văn bản đến của cơ quan có thẩm quyền. Nếu gửi qua dịch vụ bưu chính công ích, ngày tiếp nhận hồ sơ được tính theo ngày ghi trên dấu công văn đến.",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "45 ngày làm việc",
-      "processing_time_value": 45,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Kể từ ngày Ủy ban nhân dân cấp xã nhận hồ sơ đầy đủ và hợp pháp (đối với đại hội nhiệm kỳ, đại hội bất thường) .\nNộp hồ sơ trực tiếp tại Ủy ban nhân dân cấp xã; qua dịch vụ bưu chính công ích hoặc qua Cổng Dịch vụ công trực tuyến trực tuyến. Hồ sơ phải có xác nhận văn bản đến của cơ quan có thẩm quyền. Nếu gửi qua dịch vụ bưu chính công ích, ngày tiếp nhận hồ sơ được tính theo ngày ghi trên dấu công văn đến.",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Kể từ ngày Ủy ban nhân dân cấp xã nhận hồ sơ đầy đủ và hợp pháp (đối với đại hội nhiệm kỳ, đại hội bất thường) .\nNộp hồ sơ trực tiếp tại Ủy ban nhân dân cấp xã; qua dịch vụ bưu chính công ích hoặc qua Cổng Dịch vụ công trực tuyến trực tuyến. Hồ sơ phải có xác nhận văn bản đến của cơ quan có thẩm quyền. Nếu gửi qua dịch vụ bưu chính công ích, ngày tiếp nhận hồ sơ được tính theo ngày ghi trên dấu công văn đến.",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 5
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 5
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 5
       }
     ]
   },
@@ -310,14 +235,12 @@
     {
       "title": "Nghị định số 126/2024/NĐ-CP của Chính phủ: Quy định về tổ chức, hoạt động và quản lý hội",
       "document_number": "126/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-f1533335aca7",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nội vụ",
       "document_number": "129/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-1c153ca6400f",
-      "source_page": null
+      "source_page": 7
     }
   ],
   "conditions": "Hội tổ chức đại hội nhiệm kỳ, đại hội bất thường sau khi có ý kiến bằng văn bản của cơ quan nhà nước có thẩm quyền.",
@@ -325,14 +248,13 @@
     {
       "title": "Công văn cho phép hội tổ chức đại hội nhiệm kỳ, đại hội bất thường",
       "code": "KQ.G09.000124",
-      "id": "019d2bb2-1c4c-77ab-bf6c-f3caaf5faf4a",
-      "source_page": null
+      "source_page": 8
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Ban chấp hành hội (đại hội nhiệm kỳ, đại hội bất thường) hoặc Ban vận động thành lập hội (đại hội thành lập) gửi hồ sơ báo cáo về việc tổ chức đại hội nhiệm kỳ, đại hội bất thường, đại hội thành lập đến Ủy ban nhân dân cấp xã.\n- Bước 2: Cán bộ tiếp nhận hồ sơ xem xét hồ sơ và đề nghị bổ sung trong trường hợp hồ sơ chưa đầy đủ và hợp pháp. Trường hợp từ chối tiếp nhận, giải quyết hồ sơ phải nêu rõ lý do.\n- Bước 3: Kể từ ngày nhận hồ sơ đầy đủ và hợp pháp, cán bộ tiếp nhận hồ sơ nghiên cứu, thẩm định hồ sơ và thực hiện quy trình lấy ý kiến các cơ quan có liên quan, tổng hợp các ý kiến góp ý, đề nghị bổ sung hồ sơ (nếu có).\n- Bước 4: Chủ tịch Ủy ban nhân dân cấp xã có ý kiến bằng văn bản về việc tổ chức đại hội.\n",
-    "THÀNH PHẦN HỒ SƠ": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ\n- Đề án nhân sự, trong đó nêu rõ tiêu chuẩn, cơ cấu, số lượng, dự kiến danh sách thành viên ban chấp hành, ban thường vụ, ban kiểm tra, các chức danh chủ tịch, phó chủ tịch hội và chức danh khác (nếu có)..\n- Văn bản báo cáo tổ chức đại hội nhiệm kỳ của hội; nếu trong đại hội nhiệm kỳ có nội dung về đổi tên hội thì kèm theo đơn đề nghị đổi tên hội, trong đó nêu rõ lý do, sự cần thiết phải đổi tên hội..\n- Nghị quyết của ban chấp hành hội về việc tổ chức đại hội nhiệm kỳ và việc đổi tên hội (nếu có)..\n- Sơ yếu lý lịch cá nhân và phiếu lý lịch tư pháp số 1 không quá 06 tháng tính đến ngày nộp hồ sơ của nhân sự dự kiến là chủ tịch hội; nếu nhân sự dự kiến chủ tịch hội là cán bộ, công chức, viên chức hoặc là cán bộ, công chức, viên chức đã nghỉ hưu được cơ quan có thẩm quyền đồng ý bằng văn bản theo quy định về phân cấp quản lý cán bộ hoặc đang là chủ tịch hội nhiệm kỳ hiện tại của hội thì không phải nộp phiếu lý lịch tư pháp số 1..\n- Các hội dung khác thuộc thẩm quyền của đại hội theo quy định của điều lệ hội và quy định của pháp luật (nếu có);.\n- Dự thảo điều lệ sửa đổi, bổ sung (nếu có)..\n- Dự thảo báo cáo tổng kết công tác nhiệm kỳ và phương hướng hoạt động nhiệm kỳ tới của hội. Báo cáo kiểm điểm của Ban chấp hành, ban kiểm tra và báo cáo tài chính của hội..\n- Báo cáo số lượng hội viên, trong đó nêu rõ số hội viên chính thức của hội.;\n- Dự kiến thời gian, địa điểm tổ chức đại hội, số lượng đại biểu mời, đại biểu chính thức tham dự đại hội, dự kiến chương trình đại hội;.\n- Ý kiến đồng ý của cơ quan có thẩm quyền theo quy định về phân cấp quản lý cán bộ đối với nhân sự là cán bộ, công chức, viên chức dự kiến tham gia ban chấp hành, ban thường vụ hoặc giữ các chức danh chủ tịch, phó chủ tịch hội..\n* Hồ sơ báo cáo tổ chức đại hội thành lập\n- Ý kiến đồng ý của cơ quan có thẩm quyền theo quy định về phân cấp quản lý cán bộ đối với nhân sự là cán bộ, công chức, viên chức dự kiến tham gia ban chấp hành, ban thường vụ hoặc giữ các chức danh chủ tịch, phó chủ tịch hội (bản chính); Trường hợp dự kiến chủ tịch hội không phải là trưởng ban vận động thành lập hội thì phải bổ sung sơ yếu lý lịch cá nhân và phiếu lý lịch tư pháp số 1 (bản chính) không quá 06 tháng tính đến ngày nộp hồ sơ; nếu chủ tịch hội dự kiến nêu trên là cán bộ, công chức, viên chức hoặc là cán bộ, công chức, viên chức đã nghỉ hưu được cơ quan có thẩm quyền đồng ý bằng văn bản theo quy định về phân cấp quản lý cán bộ thì không phải nộp phiếu lý lịch tư pháp số 1.;\n- Dự kiến thời gian, địa điểm tổ chức đại hội, số lượng đại biểu mời, đại biểu chính thức tham dự đại hội, dự kiến chương trình đại hội (bản gốc);.\n- Văn bản báo cáo tổ chức đại hội thành lập của Ban Vận động thành lập hội (bản gốc)\n- Đề án nhân sự (bản gốc), trong đó nêu rõ tiêu chuẩn, cơ cấu, số lượng, dự kiến danh sách thành viên ban chấp hành, ban thường vụ, ban kiểm tra, các chức danh chủ tịch, phó chủ tịch hội và chức danh khác (nếu có);.\n* Hồ sơ báo cáo đại hội bất thường\n- Dự kiến thời gian, địa điểm tổ chức đại hội, số lượng đại biểu mời, đại biểu chính thức tham dự đại hội, dự kiến chương trình đại hội,;\n- Nghị quyết của Ban chấp hành hội về việc tổ chức đại hội bất thường trong đó nêu rõ nội dung thảo luận và quyết định tại đại hội;,\n- Văn bản báo cáo tổ chức đại hội bất thường của hội; Nếu trong đại hội bất thường có nội dung về đổi tên hội thì kèm theo đơn đề nghị đổi tên hội, trong đó nêu rõ lý do, sự cần thiết phải đổi tên hội;,\n- Dự thảo những nội dung thảo luận và quyết định tại đại hội,;",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 45 ngày làm việc - Kể từ ngày Ủy ban nhân dân cấp xã nhận hồ sơ đầy đủ và hợp pháp (đối với đại hội nhiệm kỳ, đại hội bất thường) .\nNộp hồ sơ trực tiếp tại Ủy ban nhân dân cấp xã; qua dịch vụ bưu chính công ích hoặc qua Cổng Dịch vụ công trực tuyến trực tuyến. Hồ sơ phải có xác nhận văn bản đến của cơ quan có thẩm quyền. Nếu gửi qua dịch vụ bưu chính công ích, ngày tiếp nhận hồ sơ được tính theo ngày ghi trên dấu công văn đến.\nQua dịch vụ bưu chính: 45 ngày làm việc - Kể từ ngày Ủy ban nhân dân cấp xã nhận hồ sơ đầy đủ và hợp pháp (đối với đại hội nhiệm kỳ, đại hội bất thường) .\nNộp hồ sơ trực tiếp tại Ủy ban nhân dân cấp xã; qua dịch vụ bưu chính công ích hoặc qua Cổng Dịch vụ công trực tuyến trực tuyến. Hồ sơ phải có xác nhận văn bản đến của cơ quan có thẩm quyền. Nếu gửi qua dịch vụ bưu chính công ích, ngày tiếp nhận hồ sơ được tính theo ngày ghi trên dấu công văn đến.\nTrực tiếp: 15 ngày làm việc - Kể từ ngày Ủy ban nhân dân cấp xã nhận hồ sơ đầy đủ và hợp pháp (đối với đại hội nhiệm kỳ, đại hội bất thường) .\nNộp hồ sơ trực tiếp tại Ủy ban nhân dân cấp xã; qua dịch vụ bưu chính công ích hoặc qua Cổng Dịch vụ công trực tuyến trực tuyến. Hồ sơ phải có xác nhận văn bản đến của cơ quan có thẩm quyền. Nếu gửi qua dịch vụ bưu chính công ích, ngày tiếp nhận hồ sơ được tính theo ngày ghi trên dấu công văn đến.",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Ban chấp hành hội (đại hội nhiệm kỳ, đại hội bất thường) hoặc Ban vận động thành lập hội (đại hội thành lập) gửi hồ sơ báo cáo về việc tổ chức đại hội nhiệm kỳ, đại hội bất thường, đại hội thành lập đến Ủy ban nhân dân cấp xã.\n- Bước 2: Cán bộ tiếp nhận hồ sơ xem xét hồ sơ và đề nghị bổ sung trong trường hợp hồ sơ chưa đầy đủ và hợp pháp. Trường hợp từ chối tiếp nhận, giải quyết hồ sơ phải nêu rõ lý do.\n- Bước 3: Kể từ ngày nhận hồ sơ đầy đủ và hợp pháp, cán bộ tiếp nhận hồ sơ nghiên cứu, thẩm định hồ sơ và thực hiện quy trình lấy ý kiến các cơ quan có liên quan, tổng hợp các ý kiến góp ý, đề nghị bổ sung hồ sơ (nếu có).\n- Bước 4: Chủ tịch Ủy ban nhân dân cấp xã có ý kiến bằng văn bản về việc tổ chức đại hội.",
+    "THÀNH PHẦN HỒ SƠ": "* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Đề án nhân sự, trong đó nêu rõ tiêu chuẩn, cơ cấu, số lượng, dự kiến danh sách thành viên ban chấp hành, ban thường vụ, ban kiểm tra, các chức danh chủ tịch, phó chủ tịch hội và chức danh khác (nếu có)..\n* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Văn bản báo cáo tổ chức đại hội nhiệm kỳ của hội; nếu trong đại hội nhiệm kỳ có nội dung về đổi tên hội thì kèm theo đơn đề nghị đổi tên hội, trong đó nêu rõ lý do, sự cần thiết phải đổi tên hội..\n* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Nghị quyết của ban chấp hành hội về việc tổ chức đại hội nhiệm kỳ và việc đổi tên hội (nếu có)..\n* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Sơ yếu lý lịch cá nhân và phiếu lý lịch tư pháp số 1 không quá 06 tháng tính đến ngày nộp hồ sơ của nhân sự dự kiến là chủ tịch hội; nếu nhân sự dự kiến chủ tịch hội là cán bộ, công chức, viên chức hoặc là cán bộ, công chức, viên chức đã nghỉ hưu được cơ quan có thẩm quyền đồng ý bằng văn bản theo quy định về phân cấp quản lý cán bộ hoặc đang là chủ tịch hội nhiệm kỳ hiện tại của hội thì không phải nộp phiếu lý lịch tư pháp số 1..\n* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Các hội dung khác thuộc thẩm quyền của đại hội theo quy định của điều lệ hội và quy định của pháp luật (nếu có);.\n* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Dự thảo điều lệ sửa đổi, bổ sung (nếu có)..\n* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Dự thảo báo cáo tổng kết công tác nhiệm kỳ và phương hướng hoạt động nhiệm kỳ tới của hội. Báo cáo kiểm điểm của Ban chấp hành, ban kiểm tra và báo cáo tài chính của hội..\n* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Báo cáo số lượng hội viên, trong đó nêu rõ số hội viên chính thức của hội.;\n* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Dự kiến thời gian, địa điểm tổ chức đại hội, số lượng đại biểu mời, đại biểu chính thức tham dự đại hội, dự kiến chương trình đại hội;.\n* Hồ sơ báo cáo tổ chức đại hội nhiệm kỳ: - Ý kiến đồng ý của cơ quan có thẩm quyền theo quy định về phân cấp quản lý cán bộ đối với nhân sự là cán bộ, công chức, viên chức dự kiến tham gia ban chấp hành, ban thường vụ hoặc giữ các chức danh chủ tịch, phó chủ tịch hội..\n* Hồ sơ báo cáo tổ chức đại hội thành lập: - Ý kiến đồng ý của cơ quan có thẩm quyền theo quy định về phân cấp quản lý cán bộ đối với nhân sự là cán bộ, công chức, viên chức dự kiến tham gia ban chấp hành, ban thường vụ hoặc giữ các chức danh chủ tịch, phó chủ tịch hội (bản chính); Trường hợp dự kiến chủ tịch hội không phải là trưởng ban vận động thành lập hội thì phải bổ sung sơ yếu lý lịch cá nhân và phiếu lý lịch tư pháp số 1 (bản chính) không quá 06 tháng tính đến ngày nộp hồ sơ; nếu chủ tịch hội dự kiến nêu trên là cán bộ, công chức, viên chức hoặc là cán bộ, công chức, viên chức đã nghỉ hưu được cơ quan có thẩm quyền đồng ý bằng văn bản theo quy định về phân cấp quản lý cán bộ thì không phải nộp phiếu lý lịch tư pháp số 1.;\n* Hồ sơ báo cáo tổ chức đại hội thành lập: - Dự kiến thời gian, địa điểm tổ chức đại hội, số lượng đại biểu mời, đại biểu chính thức tham dự đại hội, dự kiến chương trình đại hội (bản gốc);.\n* Hồ sơ báo cáo tổ chức đại hội thành lập: - Văn bản báo cáo tổ chức đại hội thành lập của Ban Vận động thành lập hội (bản gốc)\n* Hồ sơ báo cáo tổ chức đại hội thành lập: - Đề án nhân sự (bản gốc), trong đó nêu rõ tiêu chuẩn, cơ cấu, số lượng, dự kiến danh sách thành viên ban chấp hành, ban thường vụ, ban kiểm tra, các chức danh chủ tịch, phó chủ tịch hội và chức danh khác (nếu có);.\n* Hồ sơ báo cáo đại hội bất thường: - Dự kiến thời gian, địa điểm tổ chức đại hội, số lượng đại biểu mời, đại biểu chính thức tham dự đại hội, dự kiến chương trình đại hội,;\n* Hồ sơ báo cáo đại hội bất thường: - Nghị quyết của Ban chấp hành hội về việc tổ chức đại hội bất thường trong đó nêu rõ nội dung thảo luận và quyết định tại đại hội;,\n* Hồ sơ báo cáo đại hội bất thường: - Văn bản báo cáo tổ chức đại hội bất thường của hội; Nếu trong đại hội bất thường có nội dung về đổi tên hội thì kèm theo đơn đề nghị đổi tên hội, trong đó nêu rõ lý do, sự cần thiết phải đổi tên hội;,\n* Hồ sơ báo cáo đại hội bất thường: - Dự thảo những nội dung thảo luận và quyết định tại đại hội,;",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 45 ngày làm việc\nQua dịch vụ bưu chính: 45 ngày làm việc\nTrực tiếp: 15 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 126/2024/NĐ-CP của Chính phủ: Quy định về tổ chức, hoạt động và quản lý hội - 126/2024/NĐ-CP\nQuy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nội vụ - 129/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Hội tổ chức đại hội nhiệm kỳ, đại hội bất thường sau khi có ý kiến bằng văn bản của cơ quan nhà nước có thẩm quyền.",
@@ -341,11 +263,6 @@
     "MÔ TẢ": "Hội tổ chức đại hội nhiệm kỳ, đại hội bất thường sau khi có ý kiến bằng văn bản của cơ quan nhà nước có thẩm quyền."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Quản lý nhà nước về hội, quỹ",
       "slug": "quan-ly-nha-nuoc-ve-hoi-quy"
@@ -363,6 +280,6 @@
       }
     ],
     "agencies": [],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

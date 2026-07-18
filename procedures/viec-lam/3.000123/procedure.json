@@ -1,36 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfd-08f1-7021-935e-957f6f9787b7",
   "procedure_code": "3.000123",
   "title": "Thủ tục xác nhận vốn nước ngoài qua Kho bạc Nhà nước",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-08f1-7021-935e-957f6f9787b7",
     "source_file": "chi-tiet-thu-tuc-3.000123.pdf",
     "source_path": "procedures/viec-lam/3.000123/chi-tiet-thu-tuc-3.000123.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:23.244413+00:00",
-    "source_updated_at": "2026-04-08T08:38:45.938Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:34.140236+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "d622dbbf7df605aa12c6e24361f5192a894ec602977ce59e102e4b149bde178e"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:23.244413+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "3327/QĐ-BTC",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "OTHER",
   "sector": "Kho bạc Nhà nước",
   "target_users": [
@@ -42,18 +35,15 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Kho bạc nhà nước các cấp",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Kho bạc nhà nước các cấp"
   },
   "steps": [
     {
       "order": 1,
       "title": "Trường hợp thanh toán tại ngân hàng phục vụ",
-      "description": "a) Trường hợp thanh toán tại ngân hàng phục vụ, việc xác nhận tại Kho bạc Nhà nước thực hiện như sau: \nTrường hợp giao dịch trực tiếp tại Kho bạc Nhà nước: chủ dự án lập và gửi hồ sơ bằng văn bản giấy trực tiếp tại Kho bạc Nhà nước nơi giao dịch. Kho bạc Nhà nước tiếp nhận, kiểm tra các thông tin trên hồ sơ do chủ đầu tư đề nghị xác nhận, trong phạm vi kế hoạch vốn đầu tư công hằng năm được giao, Kho bạc Nhà nước xác nhận tạm ứng, thanh toán theo đề nghị của chủ dự án. Trường hợp các khoản chi do chủ đầu tư (chủ dự án) đề nghị chưa đảm bảo theo quy định, Kho bạc Nhà nước lập thông báo từ chối xác nhận (trong đó nêu rõ lý do từ chối) bằng văn bản giấy gửi đơn vị.\nTrường hợp chủ đầu tư (chủ dự án) lập và gửi hồ sơ qua Trang thông tin dịch vụ công, Kho bạc Nhà nước tiếp nhận, kiểm tra các thông tin trên hồ sơ đề nghị xác nhận, trong phạm vi kế hoạch vốn đầu tư công hằng năm được giao, Kho bạc Nhà nước xác nhận tạm ứng, thanh toán. Trường hợp các khoản chi do chủ đầu tư (chủ dự án) đề nghị chưa đảm bảo theo quy định, Kho bạc Nhà nước lập thông báo từ chối xác nhận (trong đó nêu rõ lý do từ chối) gửi đơn vị qua Trang thông tin dịch vụ công.\nb) Trường hợp thanh toán tại Kho bạc Nhà nước: Thực hiện theo quy định tại phần (3) thủ tục 1 Quyết định này.\n",
+      "description": "a) Trường hợp thanh toán tại ngân hàng phục vụ, việc xác nhận tại Kho bạc Nhà nước thực hiện như sau: \nTrường hợp giao dịch trực tiếp tại Kho bạc Nhà nước: chủ dự án lập và gửi hồ sơ bằng văn bản giấy trực tiếp tại Kho bạc Nhà nước nơi giao dịch. Kho bạc Nhà nước tiếp nhận, kiểm tra các thông tin trên hồ sơ do chủ đầu tư đề nghị xác nhận, trong phạm vi kế hoạch vốn đầu tư công hằng năm được giao, Kho bạc Nhà nước xác nhận tạm ứng, thanh toán theo đề nghị của chủ dự án. Trường hợp các khoản chi do chủ đầu tư (chủ dự án) đề nghị chưa đảm bảo theo quy định, Kho bạc Nhà nước lập thông báo từ chối xác nhận (trong đó nêu rõ lý do từ chối) bằng văn bản giấy gửi đơn vị.\nTrường hợp chủ đầu tư (chủ dự án) lập và gửi hồ sơ qua Trang thông tin dịch vụ công, Kho bạc Nhà nước tiếp nhận, kiểm tra các thông tin trên hồ sơ đề nghị xác nhận, trong phạm vi kế hoạch vốn đầu tư công hằng năm được giao, Kho bạc Nhà nước xác nhận tạm ứng, thanh toán. Trường hợp các khoản chi do chủ đầu tư (chủ dự án) đề nghị chưa đảm bảo theo quy định, Kho bạc Nhà nước lập thông báo từ chối xác nhận (trong đó nêu rõ lý do từ chối) gửi đơn vị qua Trang thông tin dịch vụ công.\nb) Trường hợp thanh toán tại Kho bạc Nhà nước: Thực hiện theo quy định tại phần (3) thủ tục 1 Quyết định này.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
@@ -61,76 +51,52 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "Đối với vốn viện trợ không hoàn lại thì có thêm Bản sao y bản chính Quyết định phê duyệt Văn kiện chương trình, dự án hoặc Quyết định đầu tư chương trình, dự án và Văn kiện chương trình, dự án hoặc Báo cáo nghiên cứu khả thi được phê duyệt; Bản sao y bản chính Điều ước quốc tế cụ thể hoặc thỏa thuận cụ thể về ODA không hoàn lại hoặc văn bản trao đổi về dự án ODA không hoàn lại (đối với ODA không hoàn lại) hoặc Bản sao có chứng thực văn bản trao đổi về việc cam kết và tiếp nhận vốn viện trợ (đối với vốn viện trợ không thuộc hỗ trợ phát triển chính thức).",
-        "code": "000.00.00.G12-KQ015025",
+        "name": "a) Hồ sơ lần đầu của dự án (gửi một lần khi giao dịch đầu tiên với Kho bạc Nhà nước hoặc khi có phát sinh, điều chỉnh, bổ sung), bao gồm: Các hồ sơ gửi lần đầu theo quy định tại điểm a mục (4.1) phần (4) thủ tục 4 Quyết định 230/QĐ-BTC ngày 24/02/2020 của Bộ Trưởng Bộ Tài chính và điểm a, mục (4.1) phần (4) thủ tục 1 Quyết định này.: Đối với vốn viện trợ không hoàn lại thì có thêm Bản sao y bản chính Quyết định phê duyệt Văn kiện chương trình, dự án hoặc Quyết định đầu tư chương trình, dự án và Văn kiện chương trình, dự án hoặc Báo cáo nghiên cứu khả thi được phê duyệt; Bản sao y bản chính Điều ước quốc tế cụ thể hoặc thỏa thuận cụ thể về ODA không hoàn lại hoặc văn bản trao đổi về dự án ODA không hoàn lại (đối với ODA không hoàn lại) hoặc Bản sao có chứng thực văn bản trao đổi về việc cam kết và tiếp nhận vốn viện trợ (đối với vốn viện trợ không thuộc hỗ trợ phát triển chính thức).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "a) Hồ sơ lần đầu của dự án (gửi một lần khi giao dịch đầu tiên với Kho bạc Nhà nước hoặc khi có phát sinh, điều chỉnh, bổ sung), bao gồm: Các hồ sơ gửi lần đầu theo quy định tại điểm a mục (4.1) phần (4) thủ tục 4 Quyết định 230/QĐ-BTC ngày 24/02/2020 của Bộ Trưởng Bộ Tài chính và điểm a, mục (4.1) phần (4) thủ tục 1 Quyết định này. ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Đối với vốn vay ODA và vốn vay ưu đãi nước ngoài thì có thêm bản dịch bằng tiếng Việt thỏa thuận về ODA, vốn vay ưu đãi được ký giữa Chính phủ Việt Nam với nhà tài trợ (có chữ ký và dấu của chủ dự án); các thỏa thuận, thư hoặc văn bản “ý kiến không phản đối” của nhà tài trợ (nếu có).",
-        "code": "000.00.00.G12-KQ015024",
+        "name": "a) Hồ sơ lần đầu của dự án (gửi một lần khi giao dịch đầu tiên với Kho bạc Nhà nước hoặc khi có phát sinh, điều chỉnh, bổ sung), bao gồm: Các hồ sơ gửi lần đầu theo quy định tại điểm a mục (4.1) phần (4) thủ tục 4 Quyết định 230/QĐ-BTC ngày 24/02/2020 của Bộ Trưởng Bộ Tài chính và điểm a, mục (4.1) phần (4) thủ tục 1 Quyết định này.: Đối với vốn vay ODA và vốn vay ưu đãi nước ngoài thì có thêm bản dịch bằng tiếng Việt thỏa thuận về ODA, vốn vay ưu đãi được ký giữa Chính phủ Việt Nam với nhà tài trợ (có chữ ký và dấu của chủ dự án); các thỏa thuận, thư hoặc văn bản “ý kiến không phản đối” của nhà tài trợ (nếu có).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "a) Hồ sơ lần đầu của dự án (gửi một lần khi giao dịch đầu tiên với Kho bạc Nhà nước hoặc khi có phát sinh, điều chỉnh, bổ sung), bao gồm: Các hồ sơ gửi lần đầu theo quy định tại điểm a mục (4.1) phần (4) thủ tục 4 Quyết định 230/QĐ-BTC ngày 24/02/2020 của Bộ Trưởng Bộ Tài chính và điểm a, mục (4.1) phần (4) thủ tục 1 Quyết định này. ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Đối với dự án hoặc dự án thành phần thuộc kế hoạch vốn đầu tư phát triển được ngân sách nhà nước cấp phát toàn bộ và dự án cấp phát một phần, vay lại một phần theo tỷ lệ, các khoản viện trợ bằng tiền do chủ chương trình, dự án bên Việt Nam thực hiện bố trí từ nguồn vốn đầu tư thì hồ sơ thực hiện theo quy định tại thủ tục 1 Quyết định này.",
-        "code": "000.00.00.G12-KQ015026",
+        "name": "b) Hồ sơ tạm ứng, thanh toán (gửi từng lần khi có đề nghị tạm ứng, thanh toán):: - Đối với dự án hoặc dự án thành phần thuộc kế hoạch vốn đầu tư phát triển được ngân sách nhà nước cấp phát toàn bộ và dự án cấp phát một phần, vay lại một phần theo tỷ lệ, các khoản viện trợ bằng tiền do chủ chương trình, dự án bên Việt Nam thực hiện bố trí từ nguồn vốn đầu tư thì hồ sơ thực hiện theo quy định tại thủ tục 1 Quyết định này.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "b) Hồ sơ tạm ứng, thanh toán (gửi từng lần khi có đề nghị tạm ứng, thanh toán):",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Trường hợp xác nhận tại Kho bạc Nhà nước, thanh toán tại ngân hàng phục vụ, ngoài các hồ sơ nêu trên, chủ dự án không phải gửi giấy rút vốn.",
-        "code": "000.00.00.G12-KQ015029",
+        "name": "b) Hồ sơ tạm ứng, thanh toán (gửi từng lần khi có đề nghị tạm ứng, thanh toán):: Trường hợp xác nhận tại Kho bạc Nhà nước, thanh toán tại ngân hàng phục vụ, ngoài các hồ sơ nêu trên, chủ dự án không phải gửi giấy rút vốn.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "b) Hồ sơ tạm ứng, thanh toán (gửi từng lần khi có đề nghị tạm ứng, thanh toán):",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Trường hợp hợp đồng quy định sử dụng chứng chỉ thanh toán tạm thời thay thế bảng xác định giá trị công việc hoàn thành, đơn vị gửi chứng chỉ thanh toán tạm thời ký giữa chủ dự án và nhà thầu.",
-        "code": "000.00.00.G12-KQ015028",
+        "name": "b) Hồ sơ tạm ứng, thanh toán (gửi từng lần khi có đề nghị tạm ứng, thanh toán):: Trường hợp hợp đồng quy định sử dụng chứng chỉ thanh toán tạm thời thay thế bảng xác định giá trị công việc hoàn thành, đơn vị gửi chứng chỉ thanh toán tạm thời ký giữa chủ dự án và nhà thầu.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "b) Hồ sơ tạm ứng, thanh toán (gửi từng lần khi có đề nghị tạm ứng, thanh toán):",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Đối với dự án hoặc các hoạt động thuộc dự toán chi sự nghiệp được ngân sách nhà nước cấp phát toàn bộ và dự án cấp phát một phần, vay lại một phần theo tỷ lệ, viện trợ không hoàn lại hồ sơ thực hiện theo quy định tại thủ tục 4 Quyết định 230/QĐ-BTC ngày 24/02/2020 của Bộ Trưởng Bộ Tài chính kèm giấy đề nghị xác nhận chi phí hợp lệ vốn sự nghiệp.",
-        "code": "000.00.00.G12-KQ015027",
+        "name": "b) Hồ sơ tạm ứng, thanh toán (gửi từng lần khi có đề nghị tạm ứng, thanh toán):: - Đối với dự án hoặc các hoạt động thuộc dự toán chi sự nghiệp được ngân sách nhà nước cấp phát toàn bộ và dự án cấp phát một phần, vay lại một phần theo tỷ lệ, viện trợ không hoàn lại hồ sơ thực hiện theo quy định tại thủ tục 4 Quyết định 230/QĐ-BTC ngày 24/02/2020 của Bộ Trưởng Bộ Tài chính kèm giấy đề nghị xác nhận chi phí hợp lệ vốn sự nghiệp.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "b) Hồ sơ tạm ứng, thanh toán (gửi từng lần khi có đề nghị tạm ứng, thanh toán):",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Đối với giấy đề nghị xác nhận chi phí hợp lệ vốn sự nghiệp là 02 bản (bản gốc hoặc bản chính hoặc bản sao y bản chính)",
-        "code": "000.00.00.G12-KQ015085",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Mẫu tờ khai: Giấy đề nghị xác nhận chi phí hợp lệ vốn sự nghiệp được quy định theo Mẫu số 14 tại Phụ lục II ban hành kèm theo Nghị định số 11/2020/NĐ-CP và các mẫu tờ khai có liên quan khác quy định tại phần (9) thủ tục 1 Quyết định này (trường hợp chi đầu tư) hoặc phần (9) thủ tục 4 Quyết định 230/QĐ-BTC ngày 24/02/2020 (trường hợp chi sự nghiệp).",
-        "code": "000.00.00.G12-KQ015086",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       }
     ]
   },
@@ -139,60 +105,37 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "2 ngày",
-      "processing_time_value": 2,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "2 ngày",
-      "processing_time_value": 2,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Không",
-          "attachment": null
-        }
-      ],
+      "fee": "Không",
       "description": "",
       "source_page": null
     }
   ],
   "fees": {
-    "status": "free",
+    "summary": "0; Không",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 4
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Không",
-        "attachment": null
+        "amount_text": "Không",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -200,14 +143,12 @@
     {
       "title": "Nghị định số 254/2025/NĐ-CP ngày 26/9/2025 của Chính phủ quy định về quản lý, thanh toán, quyết toán dự án sử dụng vốn đầu tư công.",
       "document_number": "254/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46b-911f4e0d794e",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "QUY ĐỊNH VỀ MẪU THẺ, TRÌNH TỰ, THỦ TỤC CẤP MỚI, CẤP LẠI THẺ GIÁM ĐỊNH VIÊN TƯ PHÁP",
       "document_number": "11/2020/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe8-bc7231a7bf09",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "",
@@ -215,19 +156,17 @@
     {
       "title": "KBNN thông báo từ chối chấp thuận thanh toán, rút vốn hoặc từ chối xác nhận kiểm soát chi",
       "code": "KQ.G12.001178",
-      "id": "019d2bb2-1c72-75fa-a592-6f795062b2e5",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Xác nhận của KBNN trực tiếp trên giấy đề nghị thanh toán vốn đầu tư hoặc giấy đề nghị xác nhận chi phí hợp lệ vốn sự nghiệp/chứng từ chuyển tiền",
       "code": "KQ.G12.001177",
-      "id": "019d2bb2-1c72-75fa-a592-6b35ac5babb0",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "a) Trường hợp thanh toán tại ngân hàng phục vụ, việc xác nhận tại Kho bạc Nhà nước thực hiện như sau: \nTrường hợp giao dịch trực tiếp tại Kho bạc Nhà nước: chủ dự án lập và gửi hồ sơ bằng văn bản giấy trực tiếp tại Kho bạc Nhà nước nơi giao dịch. Kho bạc Nhà nước tiếp nhận, kiểm tra các thông tin trên hồ sơ do chủ đầu tư đề nghị xác nhận, trong phạm vi kế hoạch vốn đầu tư công hằng năm được giao, Kho bạc Nhà nước xác nhận tạm ứng, thanh toán theo đề nghị của chủ dự án. Trường hợp các khoản chi do chủ đầu tư (chủ dự án) đề nghị chưa đảm bảo theo quy định, Kho bạc Nhà nước lập thông báo từ chối xác nhận (trong đó nêu rõ lý do từ chối) bằng văn bản giấy gửi đơn vị.\nTrường hợp chủ đầu tư (chủ dự án) lập và gửi hồ sơ qua Trang thông tin dịch vụ công, Kho bạc Nhà nước tiếp nhận, kiểm tra các thông tin trên hồ sơ đề nghị xác nhận, trong phạm vi kế hoạch vốn đầu tư công hằng năm được giao, Kho bạc Nhà nước xác nhận tạm ứng, thanh toán. Trường hợp các khoản chi do chủ đầu tư (chủ dự án) đề nghị chưa đảm bảo theo quy định, Kho bạc Nhà nước lập thông báo từ chối xác nhận (trong đó nêu rõ lý do từ chối) gửi đơn vị qua Trang thông tin dịch vụ công.\nb) Trường hợp thanh toán tại Kho bạc Nhà nước: Thực hiện theo quy định tại phần (3) thủ tục 1 Quyết định này.\n",
-    "THÀNH PHẦN HỒ SƠ": "a) Hồ sơ lần đầu của dự án (gửi một lần khi giao dịch đầu tiên với Kho bạc Nhà nước hoặc khi có phát sinh, điều chỉnh, bổ sung), bao gồm: Các hồ sơ gửi lần đầu theo quy định tại điểm a mục (4.1) phần (4) thủ tục 4 Quyết định 230/QĐ-BTC ngày 24/02/2020 của Bộ Trưởng Bộ Tài chính và điểm a, mục (4.1) phần (4) thủ tục 1 Quyết định này. \nĐối với vốn viện trợ không hoàn lại thì có thêm Bản sao y bản chính Quyết định phê duyệt Văn kiện chương trình, dự án hoặc Quyết định đầu tư chương trình, dự án và Văn kiện chương trình, dự án hoặc Báo cáo nghiên cứu khả thi được phê duyệt; Bản sao y bản chính Điều ước quốc tế cụ thể hoặc thỏa thuận cụ thể về ODA không hoàn lại hoặc văn bản trao đổi về dự án ODA không hoàn lại (đối với ODA không hoàn lại) hoặc Bản sao có chứng thực văn bản trao đổi về việc cam kết và tiếp nhận vốn viện trợ (đối với vốn viện trợ không thuộc hỗ trợ phát triển chính thức).\nĐối với vốn vay ODA và vốn vay ưu đãi nước ngoài thì có thêm bản dịch bằng tiếng Việt thỏa thuận về ODA, vốn vay ưu đãi được ký giữa Chính phủ Việt Nam với nhà tài trợ (có chữ ký và dấu của chủ dự án); các thỏa thuận, thư hoặc văn bản “ý kiến không phản đối” của nhà tài trợ (nếu có).\nb) Hồ sơ tạm ứng, thanh toán (gửi từng lần khi có đề nghị tạm ứng, thanh toán):\n- Đối với dự án hoặc dự án thành phần thuộc kế hoạch vốn đầu tư phát triển được ngân sách nhà nước cấp phát toàn bộ và dự án cấp phát một phần, vay lại một phần theo tỷ lệ, các khoản viện trợ bằng tiền do chủ chương trình, dự án bên Việt Nam thực hiện bố trí từ nguồn vốn đầu tư thì hồ sơ thực hiện theo quy định tại thủ tục 1 Quyết định này.\nTrường hợp xác nhận tại Kho bạc Nhà nước, thanh toán tại ngân hàng phục vụ, ngoài các hồ sơ nêu trên, chủ dự án không phải gửi giấy rút vốn.\nTrường hợp hợp đồng quy định sử dụng chứng chỉ thanh toán tạm thời thay thế bảng xác định giá trị công việc hoàn thành, đơn vị gửi chứng chỉ thanh toán tạm thời ký giữa chủ dự án và nhà thầu.\n- Đối với dự án hoặc các hoạt động thuộc dự toán chi sự nghiệp được ngân sách nhà nước cấp phát toàn bộ và dự án cấp phát một phần, vay lại một phần theo tỷ lệ, viện trợ không hoàn lại hồ sơ thực hiện theo quy định tại thủ tục 4 Quyết định 230/QĐ-BTC ngày 24/02/2020 của Bộ Trưởng Bộ Tài chính kèm giấy đề nghị xác nhận chi phí hợp lệ vốn sự nghiệp.\n\nĐối với giấy đề nghị xác nhận chi phí hợp lệ vốn sự nghiệp là 02 bản (bản gốc hoặc bản chính hoặc bản sao y bản chính)\nMẫu tờ khai: Giấy đề nghị xác nhận chi phí hợp lệ vốn sự nghiệp được quy định theo Mẫu số 14 tại Phụ lục II ban hành kèm theo Nghị định số 11/2020/NĐ-CP và các mẫu tờ khai có liên quan khác quy định tại phần (9) thủ tục 1 Quyết định này (trường hợp chi đầu tư) hoặc phần (9) thủ tục 4 Quyết định 230/QĐ-BTC ngày 24/02/2020 (trường hợp chi sự nghiệp).",
+    "TRÌNH TỰ THỰC HIỆN": "a) Trường hợp thanh toán tại ngân hàng phục vụ, việc xác nhận tại Kho bạc Nhà nước thực hiện như sau: \nTrường hợp giao dịch trực tiếp tại Kho bạc Nhà nước: chủ dự án lập và gửi hồ sơ bằng văn bản giấy trực tiếp tại Kho bạc Nhà nước nơi giao dịch. Kho bạc Nhà nước tiếp nhận, kiểm tra các thông tin trên hồ sơ do chủ đầu tư đề nghị xác nhận, trong phạm vi kế hoạch vốn đầu tư công hằng năm được giao, Kho bạc Nhà nước xác nhận tạm ứng, thanh toán theo đề nghị của chủ dự án. Trường hợp các khoản chi do chủ đầu tư (chủ dự án) đề nghị chưa đảm bảo theo quy định, Kho bạc Nhà nước lập thông báo từ chối xác nhận (trong đó nêu rõ lý do từ chối) bằng văn bản giấy gửi đơn vị.\nTrường hợp chủ đầu tư (chủ dự án) lập và gửi hồ sơ qua Trang thông tin dịch vụ công, Kho bạc Nhà nước tiếp nhận, kiểm tra các thông tin trên hồ sơ đề nghị xác nhận, trong phạm vi kế hoạch vốn đầu tư công hằng năm được giao, Kho bạc Nhà nước xác nhận tạm ứng, thanh toán. Trường hợp các khoản chi do chủ đầu tư (chủ dự án) đề nghị chưa đảm bảo theo quy định, Kho bạc Nhà nước lập thông báo từ chối xác nhận (trong đó nêu rõ lý do từ chối) gửi đơn vị qua Trang thông tin dịch vụ công.\nb) Trường hợp thanh toán tại Kho bạc Nhà nước: Thực hiện theo quy định tại phần (3) thủ tục 1 Quyết định này.",
+    "THÀNH PHẦN HỒ SƠ": "a) Hồ sơ lần đầu của dự án (gửi một lần khi giao dịch đầu tiên với Kho bạc Nhà nước hoặc khi có phát sinh, điều chỉnh, bổ sung), bao gồm: Các hồ sơ gửi lần đầu theo quy định tại điểm a mục (4.1) phần (4) thủ tục 4 Quyết định 230/QĐ-BTC ngày 24/02/2020 của Bộ Trưởng Bộ Tài chính và điểm a, mục (4.1) phần (4) thủ tục 1 Quyết định này.: Đối với vốn viện trợ không hoàn lại thì có thêm Bản sao y bản chính Quyết định phê duyệt Văn kiện chương trình, dự án hoặc Quyết định đầu tư chương trình, dự án và Văn kiện chương trình, dự án hoặc Báo cáo nghiên cứu khả thi được phê duyệt; Bản sao y bản chính Điều ước quốc tế cụ thể hoặc thỏa thuận cụ thể về ODA không hoàn lại hoặc văn bản trao đổi về dự án ODA không hoàn lại (đối với ODA không hoàn lại) hoặc Bản sao có chứng thực văn bản trao đổi về việc cam kết và tiếp nhận vốn viện trợ (đối với vốn viện trợ không thuộc hỗ trợ phát triển chính thức).\na) Hồ sơ lần đầu của dự án (gửi một lần khi giao dịch đầu tiên với Kho bạc Nhà nước hoặc khi có phát sinh, điều chỉnh, bổ sung), bao gồm: Các hồ sơ gửi lần đầu theo quy định tại điểm a mục (4.1) phần (4) thủ tục 4 Quyết định 230/QĐ-BTC ngày 24/02/2020 của Bộ Trưởng Bộ Tài chính và điểm a, mục (4.1) phần (4) thủ tục 1 Quyết định này.: Đối với vốn vay ODA và vốn vay ưu đãi nước ngoài thì có thêm bản dịch bằng tiếng Việt thỏa thuận về ODA, vốn vay ưu đãi được ký giữa Chính phủ Việt Nam với nhà tài trợ (có chữ ký và dấu của chủ dự án); các thỏa thuận, thư hoặc văn bản “ý kiến không phản đối” của nhà tài trợ (nếu có).\nb) Hồ sơ tạm ứng, thanh toán (gửi từng lần khi có đề nghị tạm ứng, thanh toán):: - Đối với dự án hoặc dự án thành phần thuộc kế hoạch vốn đầu tư phát triển được ngân sách nhà nước cấp phát toàn bộ và dự án cấp phát một phần, vay lại một phần theo tỷ lệ, các khoản viện trợ bằng tiền do chủ chương trình, dự án bên Việt Nam thực hiện bố trí từ nguồn vốn đầu tư thì hồ sơ thực hiện theo quy định tại thủ tục 1 Quyết định này.\nb) Hồ sơ tạm ứng, thanh toán (gửi từng lần khi có đề nghị tạm ứng, thanh toán):: Trường hợp xác nhận tại Kho bạc Nhà nước, thanh toán tại ngân hàng phục vụ, ngoài các hồ sơ nêu trên, chủ dự án không phải gửi giấy rút vốn.\nb) Hồ sơ tạm ứng, thanh toán (gửi từng lần khi có đề nghị tạm ứng, thanh toán):: Trường hợp hợp đồng quy định sử dụng chứng chỉ thanh toán tạm thời thay thế bảng xác định giá trị công việc hoàn thành, đơn vị gửi chứng chỉ thanh toán tạm thời ký giữa chủ dự án và nhà thầu.\nb) Hồ sơ tạm ứng, thanh toán (gửi từng lần khi có đề nghị tạm ứng, thanh toán):: - Đối với dự án hoặc các hoạt động thuộc dự toán chi sự nghiệp được ngân sách nhà nước cấp phát toàn bộ và dự án cấp phát một phần, vay lại một phần theo tỷ lệ, viện trợ không hoàn lại hồ sơ thực hiện theo quy định tại thủ tục 4 Quyết định 230/QĐ-BTC ngày 24/02/2020 của Bộ Trưởng Bộ Tài chính kèm giấy đề nghị xác nhận chi phí hợp lệ vốn sự nghiệp.\nĐối với giấy đề nghị xác nhận chi phí hợp lệ vốn sự nghiệp là 02 bản (bản gốc hoặc bản chính hoặc bản sao y bản chính)\nMẫu tờ khai: Giấy đề nghị xác nhận chi phí hợp lệ vốn sự nghiệp được quy định theo Mẫu số 14 tại Phụ lục II ban hành kèm theo Nghị định số 11/2020/NĐ-CP và các mẫu tờ khai có liên quan khác quy định tại phần (9) thủ tục 1 Quyết định này (trường hợp chi đầu tư) hoặc phần (9) thủ tục 4 Quyết định 230/QĐ-BTC ngày 24/02/2020 (trường hợp chi sự nghiệp).",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 2 ngày\nQua dịch vụ bưu chính: 2 ngày",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 254/2025/NĐ-CP ngày 26/9/2025 của Chính phủ quy định về quản lý, thanh toán, quyết toán dự án sử dụng vốn đầu tư công. - 254/2025/NĐ-CP\nQUY ĐỊNH VỀ MẪU THẺ, TRÌNH TỰ, THỦ TỤC CẤP MỚI, CẤP LẠI THẺ GIÁM ĐỊNH VIÊN TƯ PHÁP - 11/2020/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Kho bạc nhà nước các cấp",
@@ -237,11 +176,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Kho bạc Nhà nước",
       "slug": "kho-bac-nha-nuoc"
@@ -283,7 +217,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -292,6 +226,6 @@
         "slug": "kho-bac-nha-nuoc-cac-cap"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

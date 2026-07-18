@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-d9cf-703f-ae94-43938e1d92fe",
   "procedure_code": "2.000746",
   "title": "Nghiệm thu hoàn thành các hạng mục đầu tư hoặc toàn bộ dự án được hỗ trợ đầu tư theo Nghị định số 57/2018/NĐ-CP ngày 17/4/2018 của Chính phủ (cấp tỉnh)",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-d9cf-703f-ae94-43938e1d92fe",
     "source_file": "chi-tiet-thu-tuc-2.000746.pdf",
     "source_path": "procedures/viec-lam/2.000746/chi-tiet-thu-tuc-2.000746.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:20.781308+00:00",
-    "source_updated_at": "2026-04-08T09:08:49.677Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:11.861890+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "c25e43e459494f027eff06cac01b5c02094c8cf93587a857ae274c6ef481bcee"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:20.781308+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1474/QĐ-BTC",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Đầu tư vào nông nghiệp, nông thôn",
   "target_users": [
@@ -37,18 +33,29 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Nông nghiệp và Môi trường Thành phố Hải Phòng",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Nông nghiệp và Môi trường Thành phố Hải Phòng"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Doanh nghiệp và nhà thầu (nếu có) tự nghiệm thu và tự chịu trách nhiệm về tính chính xác của nội dung nghiệm thu.\n- Bước 2: Sau khi hoàn thành tự nghiệm thu, doanh nghiệp có văn bản đề nghị Sở Nông nghiệp và Môi trường chủ trì nghiệm thu xác nhận khối lượng hoàn thành hạng mục đầu tư hoặc toàn bộ dự án.\n- Bước 3: Trong thời hạn 05 ngày kể từ ngày nhận được văn bản đề nghị của doanh nghiệp, Sở Nông nghiệp và Môi trường chủ trì mời các cơ quan liên quan tham gia Hội đồng nghiệm thu. Hội đồng nghiệm thu tổ chức nghiệm thu xác nhận khối lượng hoàn thành hạng mục đầu tư hoặc toàn bộ dự án và lập Biên bản nghiệm thu theo mẫu số 05 quy định tại Phụ lục II ban hành kèm theo Nghị định số 57/2018/NĐ-CP.\n",
+      "description": "- Bước 1: Doanh nghiệp và nhà thầu (nếu có) tự nghiệm thu và tự chịu trách nhiệm về tính chính xác của nội dung nghiệm thu.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Sau khi hoàn thành tự nghiệm thu, doanh nghiệp có văn bản đề nghị Sở Nông nghiệp và Môi trường chủ trì nghiệm thu xác nhận khối lượng hoàn thành hạng mục đầu tư hoặc toàn bộ dự án.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "- Bước 3: Trong thời hạn 05 ngày kể từ ngày nhận được văn bản đề nghị của doanh nghiệp, Sở Nông nghiệp và Môi trường chủ trì mời các cơ quan liên quan tham gia Hội đồng nghiệm thu. Hội đồng nghiệm thu tổ chức nghiệm thu xác nhận khối lượng hoàn thành hạng mục đầu tư hoặc toàn bộ dự án và lập Biên bản nghiệm thu theo mẫu số 05 quy định tại Phụ lục II ban hành kèm theo Nghị định số 57/2018/NĐ-CP.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -57,21 +64,15 @@
     "conditional": [
       {
         "name": "Văn bản đề nghị nghiệm thu hạng mục đầu tư hoặc toàn bộ dự án được hỗ trợ: Do doanh nghiệp lập căn cứ nội dụng cụ thể của hạng mục đầu tư hoặc toàn bộ dự án đề nghị nghiệm thu.",
-        "code": "000.00.00.G05-KQ1404",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Quyết định giao vốn của cơ quan có thẩm quyền gửi Kho bạc Nhà nước để được giải ngân khoản hỗ trợ trong vòng 05 ngày làm việc.",
-        "code": "000.00.00.G05-KQ1405",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -80,17 +81,7 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Không có",
-          "attachment": null
-        }
-      ],
+      "fee": "Không có",
       "description": "",
       "source_page": null
     },
@@ -98,42 +89,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Không có",
-          "attachment": null
-        }
-      ],
+      "fee": "Không có",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "free",
+    "summary": "Không có",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Không có",
-        "attachment": null
+        "amount_text": "Không có",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Không có",
-        "attachment": null
+        "amount_text": "Không có",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -143,13 +121,12 @@
     {
       "title": "Biên bản nghiệm thu (Mẫu số 05 Phụ lục II Nghị định số 57/2018/NĐ-CP)",
       "code": "KQ.G12.001339",
-      "id": "019d2bb2-1c73-70ac-aa18-9e6937a82347",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Doanh nghiệp và nhà thầu (nếu có) tự nghiệm thu và tự chịu trách nhiệm về tính chính xác của nội dung nghiệm thu.\n- Bước 2: Sau khi hoàn thành tự nghiệm thu, doanh nghiệp có văn bản đề nghị Sở Nông nghiệp và Môi trường chủ trì nghiệm thu xác nhận khối lượng hoàn thành hạng mục đầu tư hoặc toàn bộ dự án.\n- Bước 3: Trong thời hạn 05 ngày kể từ ngày nhận được văn bản đề nghị của doanh nghiệp, Sở Nông nghiệp và Môi trường chủ trì mời các cơ quan liên quan tham gia Hội đồng nghiệm thu. Hội đồng nghiệm thu tổ chức nghiệm thu xác nhận khối lượng hoàn thành hạng mục đầu tư hoặc toàn bộ dự án và lập Biên bản nghiệm thu theo mẫu số 05 quy định tại Phụ lục II ban hành kèm theo Nghị định số 57/2018/NĐ-CP.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nVăn bản đề nghị nghiệm thu hạng mục đầu tư hoặc toàn bộ dự án được hỗ trợ: Do doanh nghiệp lập căn cứ nội dụng cụ thể của hạng mục đầu tư hoặc toàn bộ dự án đề nghị nghiệm thu.\n- Quyết định giao vốn của cơ quan có thẩm quyền gửi Kho bạc Nhà nước để được giải ngân khoản hỗ trợ trong vòng 05 ngày làm việc.",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Doanh nghiệp và nhà thầu (nếu có) tự nghiệm thu và tự chịu trách nhiệm về tính chính xác của nội dung nghiệm thu.\n- Bước 2: Sau khi hoàn thành tự nghiệm thu, doanh nghiệp có văn bản đề nghị Sở Nông nghiệp và Môi trường chủ trì nghiệm thu xác nhận khối lượng hoàn thành hạng mục đầu tư hoặc toàn bộ dự án.\n- Bước 3: Trong thời hạn 05 ngày kể từ ngày nhận được văn bản đề nghị của doanh nghiệp, Sở Nông nghiệp và Môi trường chủ trì mời các cơ quan liên quan tham gia Hội đồng nghiệm thu. Hội đồng nghiệm thu tổ chức nghiệm thu xác nhận khối lượng hoàn thành hạng mục đầu tư hoặc toàn bộ dự án và lập Biên bản nghiệm thu theo mẫu số 05 quy định tại Phụ lục II ban hành kèm theo Nghị định số 57/2018/NĐ-CP.",
+    "THÀNH PHẦN HỒ SƠ": "Văn bản đề nghị nghiệm thu hạng mục đầu tư hoặc toàn bộ dự án được hỗ trợ: Do doanh nghiệp lập căn cứ nội dụng cụ thể của hạng mục đầu tư hoặc toàn bộ dự án đề nghị nghiệm thu.\n- Quyết định giao vốn của cơ quan có thẩm quyền gửi Kho bạc Nhà nước để được giải ngân khoản hỗ trợ trong vòng 05 ngày làm việc.",
     "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 1\nTrực tiếp: 1",
     "CĂN CỨ PHÁP LÝ": "",
     "CƠ QUAN THỰC HIỆN": "Sở Nông nghiệp và Môi trường Thành phố Hải Phòng",
@@ -159,14 +136,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đầu tư vào nông nghiệp, nông thôn",
-      "slug": "dau-tu-vao-nong-nghiep-nong-thon"
+      "slug": "au-tu-vao-nong-nghiep-nong-thon"
     },
     "implementation_levels": [
       {
@@ -185,7 +157,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -194,6 +166,6 @@
         "slug": "so-nong-nghiep-va-moi-truong-thanh-pho-hai-phong"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

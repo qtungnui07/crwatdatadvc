@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019f4b16-92e4-71ab-9c55-b79c638227a3",
   "procedure_code": "1.115691",
   "title": "Đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đối với trường hợp người sử dụng đất đã thực hiện chuyển đổi quyền sử dụng đất nông nghiệp theo phương án “dồn điền đổi thửa” được cơ quan có thẩm quyền phê duyệt trước ngày 01 tháng 8 năm 2024",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019f4b16-92e4-71ab-9c55-b79c638227a3",
     "source_file": "chi-tiet-thu-tuc-1.115691.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.115691/chi-tiet-thu-tuc-1.115691.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:22:19.288859+00:00",
-    "source_updated_at": "2026-07-14T03:09:23.903Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:57:32.827365+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "158c955ceb8316e833209acfc586e05254e364c155103df31d4f7faaa6a6b2d3"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:19.288859+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2296/QĐ-UBND",
   "implementation_level": "Cấp xã",
-  "implementation_levels": [
-    "Cấp xã"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đất đai",
   "target_users": [
@@ -35,10 +31,7 @@
   ],
   "agency": {
     "competent_agency": "Ủy ban nhân dân cấp xã",
-    "executing_agency": "Ủy ban nhân dân cấp xã",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "- Trung tâm Phục vụ hành chính công cấp xã (quầy giao dịch Văn phòng Đăng ký đất đai) hoặc Một cửa Văn phòng đăng ký đất đai khu vực.\n- Cổng dịch vụ công (dịch vụ công trực tuyến)."
+    "executing_agency": "Ủy ban nhân dân cấp xã"
   },
   "steps": [
     {
@@ -46,62 +39,42 @@
       "title": "Bước 1:",
       "description": "Người sử dụng đất có nhu cầu nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công cấp xã (hoặc cấp tỉnh) hoặc qua dịch vụ bưu chính hoặc trực tuyến trên Cổng dịch vụ công.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "Bước 2:",
       "description": "Cơ quan tiếp nhận kiểm tra ngay tính đầy đủ, hợp lệ của hồ sơ. Trường hợp hồ sơ đầy đủ, hợp lệ chuyển đến Ủy ban nhân dân cấp xã nơi có đất.\nTrường hợp chưa đầy đủ, hợp lệ thì cơ quan tiếp nhận có trách nhiệm hướng dẫn tổ chức, cá nhân bổ sung, hoàn thiện hồ sơ theo quy định theo Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 3,
       "title": "Bước 3: Xử lý hồ sơ",
       "description": "a) Trường hợp Giấy chứng nhận đã cấp bị mất:\n- Cơ quan có chức năng quản lý đất đai cấp xã thực hiện kiểm tra trong hồ sơ địa chính, cơ sở dữ liệu đất đai thông tin về Giấy chứng nhận đã cấp bị mất; trường hợp phát hiện thửa đất được cấp Giấy chứng nhận đã được chuyển quyền sử dụng đất hoặc đang thế chấp theo quy định của pháp luật thì thông báo, trả lại hồ sơ cho người sử dụng đất. Trường hợp không kiểm tra được thông tin thì thông báo cho Chi nhánh Văn phòng Đăng ký đất đai cung cấp thông tin về việc đã chuyển quyền sử dụng đất hoặc đang thế chấp quyền sử dụng đất theo quy định của pháp luật. Trong thời hạn không quá 05 ngày làm việc, Chi nhánh Văn phòng Đăng ký đất đai có trách nhiệm cung cấp thông tin cho cơ quan có chức năng quản lý đất đai cấp xã; trường hợp quá thời hạn này mà không cung cấp thông tin thì Chi nhánh Văn phòng Đăng ký đất đai chịu trách nhiệm nếu thửa đất đang được thế chấp và đã được đăng ký thế chấp theo quy định của pháp luật.\n- Hoàn thiện hồ sơ, trình Chủ tịch Ủy ban nhân dân cấp xã hủy Giấy chứng nhận đã cấp, ký cấp Giấy chứng nhận theo Phương án dồn điền đổi thửa đã được cơ quan có thẩm quyền phê duyệt.\nb) Trường hợp không thuộc quy định tại mục a nêu trên thì cơ quan có chức năng quản lý đất đai cấp xã trình Chủ tịch Ủy ban nhân dân cấp xã ký cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Phương án dồn điền đổi thửa đã được cơ quan có thẩm quyền phê duyệt; trao Giấy chứng nhận cho người được cấp; đồng thời, chuyển hồ sơ đã cấp Giấy chứng nhận dạng giấy đến Chi nhánh Văn phòng Đăng ký đất đai để lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Đơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 21 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND đối với trường hợp chưa được cấp Giấy chứng nhận; Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 24 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND đối với trường hợp đã được cấp Giấy chứng nhận",
-        "code": "H38-KQ0004556",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019f5e7e-6b74-76bb-a8fe-d5442e976014",
-            "name": "Mẫu số 21 cấp xã.docx",
-            "url": ""
-          },
-          {
-            "id": "019f5e7e-9829-721c-b6de-5ba98ae1f568",
-            "name": "Mẫu số 24 cấp xã.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 21 cấp xã.docx; Mẫu số 24 cấp xã.docx",
+        "source_page": 2
       },
       {
         "name": "Văn bản về việc giao nhận ruộng đất (nếu có)",
-        "code": "H38-KQ000557",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Giấy chứng nhận đã cấp. Trường hợp người sử dụng đất chưa được cấp Giấy chứng nhận hoặc Giấy chứng nhận đã cấp bị mất thì không phải nộp Giấy chứng nhận; đối với trường hợp bị mất Giấy chứng nhận thì người sử dụng đất thể hiện thông tin về việc bị mất Giấy chứng nhận trên Đơn đăng ký biến động đất đai, tài sản gắn liền với đất.",
-        "code": "H38-KQ000558",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -112,87 +85,52 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
       "description": "Nộp trực tiếp tại Trung tâm Phục vụ hành chính công hoặc qua dịch vụ bưu chính hoặc trực tuyến trên Cổng dịch vụ công.\nKhông quá 15 ngày làm việc \nĐối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 10 ngày.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
       "description": "Nộp trực tiếp tại Trung tâm Phục vụ hành chính công hoặc qua dịch vụ bưu chính hoặc trực tuyến trên Cổng dịch vụ công.\nKhông quá 15 ngày làm việc \nĐối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 10 ngày.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
       "description": "Nộp trực tiếp tại Trung tâm Phục vụ hành chính công hoặc qua dịch vụ bưu chính hoặc trực tuyến trên Cổng dịch vụ công.\nKhông quá 15 ngày làm việc \nĐối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 10 ngày.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
-        "attachment": null
+        "amount_text": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
-        "attachment": null
+        "amount_text": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
-        "attachment": null
+        "amount_text": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -200,44 +138,37 @@
     {
       "title": "Luật Đất đai ngày 18/01/2024;",
       "document_number": "31/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b672-a3322a8748a6",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "49/2026/NĐ-CP",
-      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai",
       "document_number": "226/2025/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a644-ce39f72a6124",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Nghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
-      "document_number": "101/2024/NĐ-CP ",
-      "id": "019eab72-e75f-7064-886d-9dddc82fa4a4",
-      "source_page": null
+      "document_number": "101/2024/NĐ-CP",
+      "source_page": 5
     },
     {
       "title": "Quyết định số 47/2026/QĐ-UBND ngày 28/6/2026 của Ủy ban nhân dân tỉnh Lào Cai về ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Lào Cai",
-      "document_number": "47/2026/QĐ-UBND ",
-      "id": "019f461e-e4fb-77fe-844a-66a099cd75c1",
-      "source_page": null
+      "document_number": "47/2026/QĐ-UBND",
+      "source_page": 5
     },
     {
       "title": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
       "document_number": "151/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "254/2025/QH15",
-      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "conditions": "Không quy định.",
@@ -245,15 +176,14 @@
     {
       "title": "Giấy chứng nhận",
       "code": "H38-KQ000323",
-      "id": "019f5e80-1ec7-7707-9d56-84b4412bc138",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Người sử dụng đất có nhu cầu nộp hồ sơ trực tiếp tại Trung tâm Phục vụ hành chính công cấp xã (hoặc cấp tỉnh) hoặc qua dịch vụ bưu chính hoặc trực tuyến trên Cổng dịch vụ công.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.\nCơ quan tiếp nhận kiểm tra ngay tính đầy đủ, hợp lệ của hồ sơ. Trường hợp hồ sơ đầy đủ, hợp lệ chuyển đến Ủy ban nhân dân cấp xã nơi có đất.\nTrường hợp chưa đầy đủ, hợp lệ thì cơ quan tiếp nhận có trách nhiệm hướng dẫn tổ chức, cá nhân bổ sung, hoàn thiện hồ sơ theo quy định theo Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ.\na) Trường hợp Giấy chứng nhận đã cấp bị mất:\n- Cơ quan có chức năng quản lý đất đai cấp xã thực hiện kiểm tra trong hồ sơ địa chính, cơ sở dữ liệu đất đai thông tin về Giấy chứng nhận đã cấp bị mất; trường hợp phát hiện thửa đất được cấp Giấy chứng nhận đã được chuyển quyền sử dụng đất hoặc đang thế chấp theo quy định của pháp luật thì thông báo, trả lại hồ sơ cho người sử dụng đất. Trường hợp không kiểm tra được thông tin thì thông báo cho Chi nhánh Văn phòng Đăng ký đất đai cung cấp thông tin về việc đã chuyển quyền sử dụng đất hoặc đang thế chấp quyền sử dụng đất theo quy định của pháp luật. Trong thời hạn không quá 05 ngày làm việc, Chi nhánh Văn phòng Đăng ký đất đai có trách nhiệm cung cấp thông tin cho cơ quan có chức năng quản lý đất đai cấp xã; trường hợp quá thời hạn này mà không cung cấp thông tin thì Chi nhánh Văn phòng Đăng ký đất đai chịu trách nhiệm nếu thửa đất đang được thế chấp và đã được đăng ký thế chấp theo quy định của pháp luật.\n- Hoàn thiện hồ sơ, trình Chủ tịch Ủy ban nhân dân cấp xã hủy Giấy chứng nhận đã cấp, ký cấp Giấy chứng nhận theo Phương án dồn điền đổi thửa đã được cơ quan có thẩm quyền phê duyệt.\nb) Trường hợp không thuộc quy định tại mục a nêu trên thì cơ quan có chức năng quản lý đất đai cấp xã trình Chủ tịch Ủy ban nhân dân cấp xã ký cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo Phương án dồn điền đổi thửa đã được cơ quan có thẩm quyền phê duyệt; trao Giấy chứng nhận cho người được cấp; đồng thời, chuyển hồ sơ đã cấp Giấy chứng nhận dạng giấy đến Chi nhánh Văn phòng Đăng ký đất đai để lập, cập nhật, chỉnh lý hồ sơ địa chính, cơ sở dữ liệu đất đai.",
-    "THÀNH PHẦN HỒ SƠ": "\nĐơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 21 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND đối với trường hợp chưa được cấp Giấy chứng nhận; Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 24 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND đối với trường hợp đã được cấp Giấy chứng nhận\nVăn bản về việc giao nhận ruộng đất (nếu có)\nGiấy chứng nhận đã cấp. Trường hợp người sử dụng đất chưa được cấp Giấy chứng nhận hoặc Giấy chứng nhận đã cấp bị mất thì không phải nộp Giấy chứng nhận; đối với trường hợp bị mất Giấy chứng nhận thì người sử dụng đất thể hiện thông tin về việc bị mất Giấy chứng nhận trên Đơn đăng ký biến động đất đai, tài sản gắn liền với đất.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 15 ngày làm việc - Nộp trực tiếp tại Trung tâm Phục vụ hành chính công hoặc qua dịch vụ bưu chính hoặc trực tuyến trên Cổng dịch vụ công.\nKhông quá 15 ngày làm việc \nĐối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 10 ngày.\nTrực tuyến: 15 ngày làm việc - Nộp trực tiếp tại Trung tâm Phục vụ hành chính công hoặc qua dịch vụ bưu chính hoặc trực tuyến trên Cổng dịch vụ công.\nKhông quá 15 ngày làm việc \nĐối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 10 ngày.\nQua dịch vụ bưu chính: 15 ngày làm việc - Nộp trực tiếp tại Trung tâm Phục vụ hành chính công hoặc qua dịch vụ bưu chính hoặc trực tuyến trên Cổng dịch vụ công.\nKhông quá 15 ngày làm việc \nĐối với các xã miền núi, biên giới; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm 10 ngày.",
-    "CĂN CỨ PHÁP LÝ": "Luật Đất đai ngày 18/01/2024; - 31/2024/QH15\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP\nSửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai - 226/2025/NĐ-CP\nNghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai. - 101/2024/NĐ-CP \nQuyết định số 47/2026/QĐ-UBND ngày 28/6/2026 của Ủy ban nhân dân tỉnh Lào Cai về ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Lào Cai - 47/2026/QĐ-UBND \nQuy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai - 151/2025/NĐ-CP\nQuy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 254/2025/QH15",
+    "THÀNH PHẦN HỒ SƠ": "Đơn đăng ký đất đai, tài sản gắn liền với đất theo Mẫu số 21 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND đối với trường hợp chưa được cấp Giấy chứng nhận; Đơn đăng ký biến động đất đai, tài sản gắn liền với đất theo Mẫu số 24 ban hành kèm theo Quyết định số 47/2026/QĐ-UBND đối với trường hợp đã được cấp Giấy chứng nhận\nVăn bản về việc giao nhận ruộng đất (nếu có)\nGiấy chứng nhận đã cấp. Trường hợp người sử dụng đất chưa được cấp Giấy chứng nhận hoặc Giấy chứng nhận đã cấp bị mất thì không phải nộp Giấy chứng nhận; đối với trường hợp bị mất Giấy chứng nhận thì người sử dụng đất thể hiện thông tin về việc bị mất Giấy chứng nhận trên Đơn đăng ký biến động đất đai, tài sản gắn liền với đất.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 15 ngày làm việc\nTrực tuyến: 15 ngày làm việc\nQua dịch vụ bưu chính: 15 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "Luật Đất đai ngày 18/01/2024; - 31/2024/QH15\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP\nSửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai - 226/2025/NĐ-CP\nNghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai. - 101/2024/NĐ-CP\nQuyết định số 47/2026/QĐ-UBND ngày 28/6/2026 của Ủy ban nhân dân tỉnh Lào Cai về ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Lào Cai - 47/2026/QĐ-UBND\nQuy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai - 151/2025/NĐ-CP\nQuy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 254/2025/QH15",
     "CƠ QUAN THỰC HIỆN": "Ủy ban nhân dân cấp xã",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Không quy định.",
     "KẾT QUẢ XỬ LÝ": "Giấy chứng nhận - H38-KQ000323",
@@ -261,14 +191,9 @@
     "MÔ TẢ": "Không quy định."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đất đai",
-      "slug": "dat-dai"
+      "slug": "at-ai"
     },
     "implementation_levels": [
       {
@@ -279,7 +204,7 @@
     "target_users": [
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -288,6 +213,6 @@
         "slug": "uy-ban-nhan-dan-cap-xa"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

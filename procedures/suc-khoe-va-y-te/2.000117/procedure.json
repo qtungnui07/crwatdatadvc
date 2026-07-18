@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf8-1b87-738f-9be3-cf97138cd29a",
   "procedure_code": "2.000117",
   "title": "Cấp Giấy chứng nhận đủ điều kiện an toàn thực phẩm đối với cơ sở kinh doanh thực phẩm",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-1b87-738f-9be3-cf97138cd29a",
     "source_file": "chi-tiet-thu-tuc-2.000117.pdf",
     "source_path": "procedures/suc-khoe-va-y-te/2.000117/chi-tiet-thu-tuc-2.000117.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:22:20.234232+00:00",
-    "source_updated_at": "2026-04-16T06:43:23.520Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:37.732671+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "5b2622162597f08d01163a6a52ebcd5717ed763065acb75412914fd39171b884"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:20.234232+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "3783/QĐ-BCT",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "An toàn thực phẩm",
   "target_users": [
@@ -35,114 +31,69 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ủy ban nhân dân cấp tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ủy ban nhân dân cấp tỉnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "* Trường hợp cấp lần đầu \n- Tiếp nhận, kiểm tra tính hợp lệ của hồ sơ: Trong thời hạn 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan có thẩm quyền tổ chức kiểm tra tính hợp lệ của hồ sơ; trường hợp hồ sơ không hợp lệ, cơ quan có thẩm quyền phải có văn bản thông báo và yêu cầu cơ sở bổ sung hồ sơ. Sau 30 ngày kể từ ngày thông báo yêu cầu bổ sung hồ sơ mà cơ sở không bổ sung hoặc bổ sung không đầy đủ thì hồ sơ không còn giá trị. \n- Thành lập Đoàn thẩm định thực tế tại cơ sở: Trong thời hạn 15 ngày làm việc, kể từ ngày có kết quả kiểm tra hồ sơ đầy đủ, hợp lệ, cơ quan có thẩm quyền tổ chức thẩm định thực tế tại cơ sở. Trường hợp cơ quan có thẩm quyền cấp trên ủy quyền thẩm định thực tế tại cơ sở cho cơ quan có thẩm quyền cấp dưới thì phải có văn bản ủy quyền. Sau khi thẩm định, cơ quan có thẩm quyền cấp dưới phải gửi Biên bản thẩm định về cơ quan thẩm quyền cấp trên để làm căn cứ cấp Giấy chứng nhận. \nĐoàn thẩm định thực tế tại cơ sở do cơ quan có thẩm quyền cấp Giấy chứng nhận hoặc cơ quan được ủy quyền thẩm định ban hành quyết định thành lập. Đoàn thẩm định có từ 03 đến 05 thành viên, trong đó phải có ít nhất 02 thành viên làm công tác chuyên môn về thực phẩm hoặc an toàn thực phẩm (có bằng cấp về thực phẩm hoặc an toàn thực phẩm) hoặc quản lý về an toàn thực phẩm. Đoàn thẩm định thực tế tại cơ sở được mời chuyên gia độc lập có chuyên môn phù hợp tham gia. Trưởng đoàn thẩm định chịu trách nhiệm về kết quả thẩm định thực tế tại cơ sở. \n- Nội dung thẩm định thực tế tại cơ sở: \n+ Kiểm tra tính thống nhất của hồ sơ đăng ký cấp Giấy chứng nhận gửi cơ quan có thẩm quyền với hồ sơ gốc lưu tại cơ sở; \n+ Thẩm định điều kiện an toàn thực phẩm tại cơ sở theo quy định. \n- Kết quả thẩm định thực tế tại cơ sở \n+ Kết quả thẩm định phải ghi rõ “Đạt” hoặc “Không đạt” hoặc “Chờ hoàn thiện” vào Biên bản thẩm định điều kiện an toàn thực phẩm đối với cơ sở sản xuất thực phẩm theo Mẫu số 03a, Biên bản thẩm định điều kiện an toàn thực phẩm đối với cơ sở kinh doanh thực phẩm theo Mẫu số 03b hoặc Mẫu số 03a và Mẫu số 03b đối với cơ sở vừa sản xuất vừa kinh doanh thực phẩm theo Mục I Phụ lục ban hành kèm theo Nghị định 17/2020/NĐ-CP. \nĐối với cơ sở kinh doanh thực phẩm tổng hợp, cơ sở được cấp Giấy chứng nhận khi các điều kiện kinh doanh của ít nhất một nhóm sản phẩm được đánh giá “Đạt”. Các nhóm sản phẩm đạt yêu cầu theo quy định sẽ được ghi vào Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm. \n+ Trường hợp “Không đạt” hoặc “Chờ hoàn thiện” phải ghi rõ lý do trong Biên bản thẩm định. Trường hợp “Chờ hoàn thiện”, thời hạn khắc phục tối đa là 60 ngày kể từ ngày có biên bản thẩm định. Sau khi đã khắc phục theo yêu cầu của Đoàn thẩm định, cơ sở phải nộp báo cáo kết quả khắc phục theo Mẫu số 04 Mục I tại Phụ lục ban hành kèm theo Nghị định 17/2020/NĐ-CP và nộp phí thẩm định về cơ quan có thẩm quyền để tổ chức thẩm định lại theo quy định tại điểm c khoản 1 Điều 13 Nghị định số 17/2020/NĐ-CP. \nThời hạn thẩm định lại tối đa là 10 ngày làm việc tính từ khi cơ quan có thẩm quyền nhận được báo cáo khắc phục. Sau 60 ngày cơ sở không nộp báo cáo kết quả khắc phục thì hồ sơ đề nghị cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm và kết quả thẩm định trước đó với kết luận “Chờ hoàn thiện” không còn giá trị. \nTrường hợp kết quả thẩm định lại “Không đạt” hoặc quá thời hạn khắc phục mà cơ sở không nộp báo cáo kết quả khắc phục, cơ quan có thẩm quyền thông báo bằng văn bản tới cơ quan quản lý địa phương để giám sát và yêu cầu cơ sở không được hoạt động cho đến khi được cấp Giấy chứng nhận. \n+ Biên bản thẩm định thực tế tại cơ sở được lập thành 02 bản có giá trị như nhau, Đoàn thẩm định giữ 01 bản và cơ sở giữ 01 bản.\n",
+      "description": "* Trường hợp cấp lần đầu \n- Tiếp nhận, kiểm tra tính hợp lệ của hồ sơ: Trong thời hạn 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan có thẩm quyền tổ chức kiểm tra tính hợp lệ của hồ sơ; trường hợp hồ sơ không hợp lệ, cơ quan có thẩm quyền phải có văn bản thông báo và yêu cầu cơ sở bổ sung hồ sơ. Sau 30 ngày kể từ ngày thông báo yêu cầu bổ sung hồ sơ mà cơ sở không bổ sung hoặc bổ sung không đầy đủ thì hồ sơ không còn giá trị. \n- Thành lập Đoàn thẩm định thực tế tại cơ sở: Trong thời hạn 15 ngày làm việc, kể từ ngày có kết quả kiểm tra hồ sơ đầy đủ, hợp lệ, cơ quan có thẩm quyền tổ chức thẩm định thực tế tại cơ sở. Trường hợp cơ quan có thẩm quyền cấp trên ủy quyền thẩm định thực tế tại cơ sở cho cơ quan có thẩm quyền cấp dưới thì phải có văn bản ủy quyền. Sau khi thẩm định, cơ quan có thẩm quyền cấp dưới phải gửi Biên bản thẩm định về cơ quan thẩm quyền cấp trên để làm căn cứ cấp Giấy chứng nhận. \nĐoàn thẩm định thực tế tại cơ sở do cơ quan có thẩm quyền cấp Giấy chứng nhận hoặc cơ quan được ủy quyền thẩm định ban hành quyết định thành lập. Đoàn thẩm định có từ 03 đến 05 thành viên, trong đó phải có ít nhất 02 thành viên làm công tác chuyên môn về thực phẩm hoặc an toàn thực phẩm (có bằng cấp về thực phẩm hoặc an toàn thực phẩm) hoặc quản lý về an toàn thực phẩm. Đoàn thẩm định thực tế tại cơ sở được mời chuyên gia độc lập có chuyên môn phù hợp tham gia. Trưởng đoàn thẩm định chịu trách nhiệm về kết quả thẩm định thực tế tại cơ sở. \n- Nội dung thẩm định thực tế tại cơ sở: \n+ Kiểm tra tính thống nhất của hồ sơ đăng ký cấp Giấy chứng nhận gửi cơ quan có thẩm quyền với hồ sơ gốc lưu tại cơ sở; \n+ Thẩm định điều kiện an toàn thực phẩm tại cơ sở theo quy định. \n- Kết quả thẩm định thực tế tại cơ sở \n+ Kết quả thẩm định phải ghi rõ “Đạt” hoặc “Không đạt” hoặc “Chờ hoàn thiện” vào Biên bản thẩm định điều kiện an toàn thực phẩm đối với cơ sở sản xuất thực phẩm theo Mẫu số 03a, Biên bản thẩm định điều kiện an toàn thực phẩm đối với cơ sở kinh doanh thực phẩm theo Mẫu số 03b hoặc Mẫu số 03a và Mẫu số 03b đối với cơ sở vừa sản xuất vừa kinh doanh thực phẩm theo Mục I Phụ lục ban hành kèm theo Nghị định 17/2020/NĐ-CP. \nĐối với cơ sở kinh doanh thực phẩm tổng hợp, cơ sở được cấp Giấy chứng nhận khi các điều kiện kinh doanh của ít nhất một nhóm sản phẩm được đánh giá “Đạt”. Các nhóm sản phẩm đạt yêu cầu theo quy định sẽ được ghi vào Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm. \n+ Trường hợp “Không đạt” hoặc “Chờ hoàn thiện” phải ghi rõ lý do trong Biên bản thẩm định. Trường hợp “Chờ hoàn thiện”, thời hạn khắc phục tối đa là 60 ngày kể từ ngày có biên bản thẩm định. Sau khi đã khắc phục theo yêu cầu của Đoàn thẩm định, cơ sở phải nộp báo cáo kết quả khắc phục theo Mẫu số 04 Mục I tại Phụ lục ban hành kèm theo Nghị định 17/2020/NĐ-CP và nộp phí thẩm định về cơ quan có thẩm quyền để tổ chức thẩm định lại theo quy định tại điểm c khoản 1 Điều 13 Nghị định số 17/2020/NĐ-CP. \nThời hạn thẩm định lại tối đa là 10 ngày làm việc tính từ khi cơ quan có thẩm quyền nhận được báo cáo khắc phục. Sau 60 ngày cơ sở không nộp báo cáo kết quả khắc phục thì hồ sơ đề nghị cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm và kết quả thẩm định trước đó với kết luận “Chờ hoàn thiện” không còn giá trị. \nTrường hợp kết quả thẩm định lại “Không đạt” hoặc quá thời hạn khắc phục mà cơ sở không nộp báo cáo kết quả khắc phục, cơ quan có thẩm quyền thông báo bằng văn bản tới cơ quan quản lý địa phương để giám sát và yêu cầu cơ sở không được hoạt động cho đến khi được cấp Giấy chứng nhận. \n+ Biên bản thẩm định thực tế tại cơ sở được lập thành 02 bản có giá trị như nhau, Đoàn thẩm định giữ 01 bản và cơ sở giữ 01 bản.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "- Đơn đề nghị;",
-        "code": "000.00.00.G02-KQ2805",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d8b94-fe23-77dd-aebc-bdd9cfcceaa7",
-            "name": "Mẫu số 1a.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 1a.docx",
+        "source_page": 3
       },
       {
         "name": "-  Bản thuyết minh về cơ sở vật chất, trang thiết bị, dụng cụ bảo đảm điều kiện vệ sinh an toàn thực phẩm;  Mẫu số 02b đối với cơ sở kinh doanh Mục I tại Phụ lục ban hành kèm theo Nghị định số 17/2020/NĐ-CP",
-        "code": "000.00.00.G02-KQ2807",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d8b95-3f55-7180-a022-fc1cca2ea9af",
-            "name": "Mẫu số 2b.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 2b.docx",
+        "source_page": 3
       },
       {
         "name": "Báo cáo kết quả khắc phục theo Mẫu số 04 Mục I tại Phụ lục ban hành kèm theo Nghị định số 17/2020/NĐ-CP",
-        "code": "000.00.00.G02-KQ2810",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d8b95-b032-7121-b3dd-e158a04a4e2e",
-            "name": "Mẫu số 4.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 4.docx",
+        "source_page": 3
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "-  Danh sách tổng hợp đủ sức khỏe do chủ cơ sở xác nhận hoặc giấy xác nhận đủ sức khỏe của chủ cơ sở và người trực tiếp kinh doanh thực phẩm do cơ sở y tế cấp huyện trở lên cấp;",
-        "code": "000.00.00.G02-KQ2808",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Hồ sơ xin cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm gồm:",
-        "code": "000.00.00.G02-KQ2804",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "+ Cơ quan giải quyết TTHC khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp để thay thế thành phần hồ sơ Bản sao giấy chứng nhận đăng ký doanh nghiệp.  Trường hợp Cơ quan giải quyết TTHC không khai thác được hoặc khai thác không đầy đủ dữ liệu doanh nghiệp trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ quan giải quyết TTHC yêu cầu doanh nghiệp bổ sung Bản sao Giấy chứng nhận đăng ký doanh nghiệp theo quy định tại Điều 8 Nghị quyết 66.7/2025/NQ-CP ngày 15/11/2025 của Chính phủ quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu .",
-        "code": "000.00.00.G02-KQ006218",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "-  Giấy xác nhận đã được tập huấn kiến thức về an toàn thực phẩm của người trực tiếp kinh doanh thực phẩm có xác nhận của cơ sở.",
-        "code": "000.00.00.G02-KQ2809",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "-  Bảo sao Giấy chứng nhận đăng ký kinh doanh hoặc Giấy chứng nhận đăng ký doanh nghiệp hoặc Giấy chứng nhận đầu tư theo quy định của pháp luật;",
-        "code": "000.00.00.G02-KQ2806",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -151,87 +102,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "20 ngày làm việc",
-      "processing_time_value": 20,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Phí: Đồng (Theo quy định của pháp luật về phí, lệ phí hiện hành)",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "20 ngày làm việc",
-      "processing_time_value": 20,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Phí: Đồng (Theo quy định của pháp luật về phí, lệ phí hiện hành)",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "20 ngày làm việc",
-      "processing_time_value": 20,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Phí: Đồng (Theo quy định của pháp luật về phí, lệ phí hiện hành)",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 4
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -239,38 +155,32 @@
     {
       "title": "Sửa đổi, bổ sung một số điều của các Nghị định liên quan đến điều kiện đầu tư kinh doanh thuộc lĩnh vực quản lý nhà nước của Bộ Công Thương",
       "document_number": "17/2020/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afec-6d106daf390f",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quy định chi tiết thi hành một số điều của Luật an toàn thực phẩm",
       "document_number": "15/2018/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-7780f0029957",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật An toàn thực phẩm",
       "document_number": "55/2010/QH12",
-      "id": "019d2bb3-5d84-71c5-b670-fe6d5ec40a25",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Sửa đổi, bổ sung một số quy định về phân cấp thực hiện thủ tục hành chính trong các lĩnh vực thuộc phạm vi quản lý của Bộ Công Thương",
       "document_number": "38/2025/TT-BCT",
-      "id": "019d2bb3-5d7c-71ab-9efb-502c9437a42c",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "quy định về quản lý an toàn thực phẩm thuộc trách nhiệm của Bộ Công Thương",
       "document_number": "43/2018/TT-BCT",
-      "id": "019d2bb3-5d7c-71ab-9efb-7a5528ddab64",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu",
       "document_number": "66.7/2025/NQ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-22af3c5ee091",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "conditions": "a) Điều kiện chung\n1. Các cơ sở sản xuất, kinh doanh thực phẩm thuộc đối tượng phải cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm:\nCó đủ điều kiện bảo đảm an toàn thực phẩm phù hợp với từng loại hình sản xuất, kinh doanh thực phẩm theo quy định tại Mục 2, 3, 4, 5, 6 và 7 Chương VI của Nghị định 77/2016/NĐ-CP.\n2. Các cơ sở sản xuất, kinh doanh thực phẩm không thuộc đối tượng phải cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm:\na) Có đủ điều kiện bảo đảm an toàn thực phẩm phù hợp với từng loại hình sản xuất, kinh doanh thực phẩm theo quy định của Luật An toàn thực phẩm;\nb) Đối tượng được quy định tại các điểm a, b, c, d, đ, e, g, h và i khoản 1 Điều 12 của Nghị định số 15/2018/NĐ-CP ngày 02 tháng 02 năm 2018 của Chính phủ quy định chi tiết thi hành một số điều của Luật An toàn thực phẩm:\nThực hiện việc gửi bản cam kết đến cơ quan có thẩm quyền do Ủy ban nhân dân cấp tỉnh phân cấp quản lý về an toàn thực phẩm trên địa bàn.\nc) Đối tượng được quy định tại điểm k khoản 1 Điều 12 Nghị định số 15/2018/NĐ-CP ngày 02 tháng 02 năm 2018 của Chính phủ quy định chi tiết thi hành một số điều của Luật An toàn thực phẩm:\nThực hiện việc gửi bản sao Giấy chứng nhận (có xác nhận của cơ sở sản xuất, kinh doanh thực phẩm) theo quy định tại điểm k khoản 1 Điều 12 Nghị định số 15/2018/NĐ-CP đến cơ quan có thẩm quyền do Ủy ban nhân dân cấp tỉnh phân cấp quản lý về an toàn thực phẩm trên địa bàn.”\nb) Điều kiện riêng\n- Cơ sở sản xuất các sản phẩm thực phẩm có công suất thiết kế:  \n+ Rượu: Từ 03 triệu lít sản phẩm/năm trở lên;\n+ Bia: Từ 50 triệu lít sản phẩm/năm trở lên;\n+ Nước giải khát: Từ 20 triệu lít sản phẩm/năm trở lên;\n+ Sữa chế biến: Từ 20 triệu lít sản phẩm/năm trở lên;\n+ Dầu thực vật: Từ 50 ngàn tấn sản phẩm/năm trở lên;\n+ Bánh kẹo: Từ 20 ngàn tấn sản phẩm/năm trở lên;\n+ Bột và tinh bột: Từ 100 ngàn tấn sản phẩm/năm trở lên;\n- Cơ sở vừa sản xuất vừa kinh doanh tại cùng một địa điểm có công suất thiết kế theo quy định tại điểm a khoản 1 Điều 6 Thông tư số 43/2018/TT-BCT.\n- Cơ sở sản xuất, kinh doanh nhiều loại sản phẩm thuộc quy định tại khoản 8 và khoản 10 Điều 36 Nghị định số 15/2018/NĐ-CP ngày 02 tháng 02 năm 2018 của Chính phủ có quy mô sản xuất sản phẩm thuộc trách nhiệm quản lý của Bộ Công Thương theo quy định tại điểm a khoản 1 Điều 6 Thông tư số 43/2018/TT-BCT.",
@@ -278,14 +188,13 @@
     {
       "title": "Giấy chứng nhận đủ điều kiện an toàn thực phẩm đối với cơ sở kinh doanh thực phẩm",
       "code": "KQ.G02.000159",
-      "id": "019d2bb2-1c39-7291-ba46-64907b7e517a",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "* Trường hợp cấp lần đầu \n- Tiếp nhận, kiểm tra tính hợp lệ của hồ sơ: Trong thời hạn 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan có thẩm quyền tổ chức kiểm tra tính hợp lệ của hồ sơ; trường hợp hồ sơ không hợp lệ, cơ quan có thẩm quyền phải có văn bản thông báo và yêu cầu cơ sở bổ sung hồ sơ. Sau 30 ngày kể từ ngày thông báo yêu cầu bổ sung hồ sơ mà cơ sở không bổ sung hoặc bổ sung không đầy đủ thì hồ sơ không còn giá trị. \n- Thành lập Đoàn thẩm định thực tế tại cơ sở: Trong thời hạn 15 ngày làm việc, kể từ ngày có kết quả kiểm tra hồ sơ đầy đủ, hợp lệ, cơ quan có thẩm quyền tổ chức thẩm định thực tế tại cơ sở. Trường hợp cơ quan có thẩm quyền cấp trên ủy quyền thẩm định thực tế tại cơ sở cho cơ quan có thẩm quyền cấp dưới thì phải có văn bản ủy quyền. Sau khi thẩm định, cơ quan có thẩm quyền cấp dưới phải gửi Biên bản thẩm định về cơ quan thẩm quyền cấp trên để làm căn cứ cấp Giấy chứng nhận. \nĐoàn thẩm định thực tế tại cơ sở do cơ quan có thẩm quyền cấp Giấy chứng nhận hoặc cơ quan được ủy quyền thẩm định ban hành quyết định thành lập. Đoàn thẩm định có từ 03 đến 05 thành viên, trong đó phải có ít nhất 02 thành viên làm công tác chuyên môn về thực phẩm hoặc an toàn thực phẩm (có bằng cấp về thực phẩm hoặc an toàn thực phẩm) hoặc quản lý về an toàn thực phẩm. Đoàn thẩm định thực tế tại cơ sở được mời chuyên gia độc lập có chuyên môn phù hợp tham gia. Trưởng đoàn thẩm định chịu trách nhiệm về kết quả thẩm định thực tế tại cơ sở. \n- Nội dung thẩm định thực tế tại cơ sở: \n+ Kiểm tra tính thống nhất của hồ sơ đăng ký cấp Giấy chứng nhận gửi cơ quan có thẩm quyền với hồ sơ gốc lưu tại cơ sở; \n+ Thẩm định điều kiện an toàn thực phẩm tại cơ sở theo quy định. \n- Kết quả thẩm định thực tế tại cơ sở \n+ Kết quả thẩm định phải ghi rõ “Đạt” hoặc “Không đạt” hoặc “Chờ hoàn thiện” vào Biên bản thẩm định điều kiện an toàn thực phẩm đối với cơ sở sản xuất thực phẩm theo Mẫu số 03a, Biên bản thẩm định điều kiện an toàn thực phẩm đối với cơ sở kinh doanh thực phẩm theo Mẫu số 03b hoặc Mẫu số 03a và Mẫu số 03b đối với cơ sở vừa sản xuất vừa kinh doanh thực phẩm theo Mục I Phụ lục ban hành kèm theo Nghị định 17/2020/NĐ-CP. \nĐối với cơ sở kinh doanh thực phẩm tổng hợp, cơ sở được cấp Giấy chứng nhận khi các điều kiện kinh doanh của ít nhất một nhóm sản phẩm được đánh giá “Đạt”. Các nhóm sản phẩm đạt yêu cầu theo quy định sẽ được ghi vào Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm. \n+ Trường hợp “Không đạt” hoặc “Chờ hoàn thiện” phải ghi rõ lý do trong Biên bản thẩm định. Trường hợp “Chờ hoàn thiện”, thời hạn khắc phục tối đa là 60 ngày kể từ ngày có biên bản thẩm định. Sau khi đã khắc phục theo yêu cầu của Đoàn thẩm định, cơ sở phải nộp báo cáo kết quả khắc phục theo Mẫu số 04 Mục I tại Phụ lục ban hành kèm theo Nghị định 17/2020/NĐ-CP và nộp phí thẩm định về cơ quan có thẩm quyền để tổ chức thẩm định lại theo quy định tại điểm c khoản 1 Điều 13 Nghị định số 17/2020/NĐ-CP. \nThời hạn thẩm định lại tối đa là 10 ngày làm việc tính từ khi cơ quan có thẩm quyền nhận được báo cáo khắc phục. Sau 60 ngày cơ sở không nộp báo cáo kết quả khắc phục thì hồ sơ đề nghị cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm và kết quả thẩm định trước đó với kết luận “Chờ hoàn thiện” không còn giá trị. \nTrường hợp kết quả thẩm định lại “Không đạt” hoặc quá thời hạn khắc phục mà cơ sở không nộp báo cáo kết quả khắc phục, cơ quan có thẩm quyền thông báo bằng văn bản tới cơ quan quản lý địa phương để giám sát và yêu cầu cơ sở không được hoạt động cho đến khi được cấp Giấy chứng nhận. \n+ Biên bản thẩm định thực tế tại cơ sở được lập thành 02 bản có giá trị như nhau, Đoàn thẩm định giữ 01 bản và cơ sở giữ 01 bản.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n- Đơn đề nghị;\n-  Danh sách tổng hợp đủ sức khỏe do chủ cơ sở xác nhận hoặc giấy xác nhận đủ sức khỏe của chủ cơ sở và người trực tiếp kinh doanh thực phẩm do cơ sở y tế cấp huyện trở lên cấp;\nHồ sơ xin cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm gồm:\n-  Bản thuyết minh về cơ sở vật chất, trang thiết bị, dụng cụ bảo đảm điều kiện vệ sinh an toàn thực phẩm;  Mẫu số 02b đối với cơ sở kinh doanh Mục I tại Phụ lục ban hành kèm theo Nghị định số 17/2020/NĐ-CP\n+ Cơ quan giải quyết TTHC khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp để thay thế thành phần hồ sơ Bản sao giấy chứng nhận đăng ký doanh nghiệp.  Trường hợp Cơ quan giải quyết TTHC không khai thác được hoặc khai thác không đầy đủ dữ liệu doanh nghiệp trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ quan giải quyết TTHC yêu cầu doanh nghiệp bổ sung Bản sao Giấy chứng nhận đăng ký doanh nghiệp theo quy định tại Điều 8 Nghị quyết 66.7/2025/NQ-CP ngày 15/11/2025 của Chính phủ quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu .\n-  Giấy xác nhận đã được tập huấn kiến thức về an toàn thực phẩm của người trực tiếp kinh doanh thực phẩm có xác nhận của cơ sở.\nBáo cáo kết quả khắc phục theo Mẫu số 04 Mục I tại Phụ lục ban hành kèm theo Nghị định số 17/2020/NĐ-CP\n-  Bảo sao Giấy chứng nhận đăng ký kinh doanh hoặc Giấy chứng nhận đăng ký doanh nghiệp hoặc Giấy chứng nhận đầu tư theo quy định của pháp luật;",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 20 ngày làm việc - Phí: Đồng (Theo quy định của pháp luật về phí, lệ phí hiện hành)\nQua dịch vụ bưu chính: 20 ngày làm việc - Phí: Đồng (Theo quy định của pháp luật về phí, lệ phí hiện hành)\nTrực tiếp: 20 ngày làm việc - Phí: Đồng (Theo quy định của pháp luật về phí, lệ phí hiện hành)",
+    "TRÌNH TỰ THỰC HIỆN": "* Trường hợp cấp lần đầu \n- Tiếp nhận, kiểm tra tính hợp lệ của hồ sơ: Trong thời hạn 05 ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan có thẩm quyền tổ chức kiểm tra tính hợp lệ của hồ sơ; trường hợp hồ sơ không hợp lệ, cơ quan có thẩm quyền phải có văn bản thông báo và yêu cầu cơ sở bổ sung hồ sơ. Sau 30 ngày kể từ ngày thông báo yêu cầu bổ sung hồ sơ mà cơ sở không bổ sung hoặc bổ sung không đầy đủ thì hồ sơ không còn giá trị. \n- Thành lập Đoàn thẩm định thực tế tại cơ sở: Trong thời hạn 15 ngày làm việc, kể từ ngày có kết quả kiểm tra hồ sơ đầy đủ, hợp lệ, cơ quan có thẩm quyền tổ chức thẩm định thực tế tại cơ sở. Trường hợp cơ quan có thẩm quyền cấp trên ủy quyền thẩm định thực tế tại cơ sở cho cơ quan có thẩm quyền cấp dưới thì phải có văn bản ủy quyền. Sau khi thẩm định, cơ quan có thẩm quyền cấp dưới phải gửi Biên bản thẩm định về cơ quan thẩm quyền cấp trên để làm căn cứ cấp Giấy chứng nhận. \nĐoàn thẩm định thực tế tại cơ sở do cơ quan có thẩm quyền cấp Giấy chứng nhận hoặc cơ quan được ủy quyền thẩm định ban hành quyết định thành lập. Đoàn thẩm định có từ 03 đến 05 thành viên, trong đó phải có ít nhất 02 thành viên làm công tác chuyên môn về thực phẩm hoặc an toàn thực phẩm (có bằng cấp về thực phẩm hoặc an toàn thực phẩm) hoặc quản lý về an toàn thực phẩm. Đoàn thẩm định thực tế tại cơ sở được mời chuyên gia độc lập có chuyên môn phù hợp tham gia. Trưởng đoàn thẩm định chịu trách nhiệm về kết quả thẩm định thực tế tại cơ sở. \n- Nội dung thẩm định thực tế tại cơ sở: \n+ Kiểm tra tính thống nhất của hồ sơ đăng ký cấp Giấy chứng nhận gửi cơ quan có thẩm quyền với hồ sơ gốc lưu tại cơ sở; \n+ Thẩm định điều kiện an toàn thực phẩm tại cơ sở theo quy định. \n- Kết quả thẩm định thực tế tại cơ sở \n+ Kết quả thẩm định phải ghi rõ “Đạt” hoặc “Không đạt” hoặc “Chờ hoàn thiện” vào Biên bản thẩm định điều kiện an toàn thực phẩm đối với cơ sở sản xuất thực phẩm theo Mẫu số 03a, Biên bản thẩm định điều kiện an toàn thực phẩm đối với cơ sở kinh doanh thực phẩm theo Mẫu số 03b hoặc Mẫu số 03a và Mẫu số 03b đối với cơ sở vừa sản xuất vừa kinh doanh thực phẩm theo Mục I Phụ lục ban hành kèm theo Nghị định 17/2020/NĐ-CP. \nĐối với cơ sở kinh doanh thực phẩm tổng hợp, cơ sở được cấp Giấy chứng nhận khi các điều kiện kinh doanh của ít nhất một nhóm sản phẩm được đánh giá “Đạt”. Các nhóm sản phẩm đạt yêu cầu theo quy định sẽ được ghi vào Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm. \n+ Trường hợp “Không đạt” hoặc “Chờ hoàn thiện” phải ghi rõ lý do trong Biên bản thẩm định. Trường hợp “Chờ hoàn thiện”, thời hạn khắc phục tối đa là 60 ngày kể từ ngày có biên bản thẩm định. Sau khi đã khắc phục theo yêu cầu của Đoàn thẩm định, cơ sở phải nộp báo cáo kết quả khắc phục theo Mẫu số 04 Mục I tại Phụ lục ban hành kèm theo Nghị định 17/2020/NĐ-CP và nộp phí thẩm định về cơ quan có thẩm quyền để tổ chức thẩm định lại theo quy định tại điểm c khoản 1 Điều 13 Nghị định số 17/2020/NĐ-CP. \nThời hạn thẩm định lại tối đa là 10 ngày làm việc tính từ khi cơ quan có thẩm quyền nhận được báo cáo khắc phục. Sau 60 ngày cơ sở không nộp báo cáo kết quả khắc phục thì hồ sơ đề nghị cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm và kết quả thẩm định trước đó với kết luận “Chờ hoàn thiện” không còn giá trị. \nTrường hợp kết quả thẩm định lại “Không đạt” hoặc quá thời hạn khắc phục mà cơ sở không nộp báo cáo kết quả khắc phục, cơ quan có thẩm quyền thông báo bằng văn bản tới cơ quan quản lý địa phương để giám sát và yêu cầu cơ sở không được hoạt động cho đến khi được cấp Giấy chứng nhận. \n+ Biên bản thẩm định thực tế tại cơ sở được lập thành 02 bản có giá trị như nhau, Đoàn thẩm định giữ 01 bản và cơ sở giữ 01 bản.",
+    "THÀNH PHẦN HỒ SƠ": "- Đơn đề nghị;\n-  Bản thuyết minh về cơ sở vật chất, trang thiết bị, dụng cụ bảo đảm điều kiện vệ sinh an toàn thực phẩm;  Mẫu số 02b đối với cơ sở kinh doanh Mục I tại Phụ lục ban hành kèm theo Nghị định số 17/2020/NĐ-CP\nBáo cáo kết quả khắc phục theo Mẫu số 04 Mục I tại Phụ lục ban hành kèm theo Nghị định số 17/2020/NĐ-CP\n-  Danh sách tổng hợp đủ sức khỏe do chủ cơ sở xác nhận hoặc giấy xác nhận đủ sức khỏe của chủ cơ sở và người trực tiếp kinh doanh thực phẩm do cơ sở y tế cấp huyện trở lên cấp;\nHồ sơ xin cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm gồm:\n+ Cơ quan giải quyết TTHC khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp để thay thế thành phần hồ sơ Bản sao giấy chứng nhận đăng ký doanh nghiệp.  Trường hợp Cơ quan giải quyết TTHC không khai thác được hoặc khai thác không đầy đủ dữ liệu doanh nghiệp trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ quan giải quyết TTHC yêu cầu doanh nghiệp bổ sung Bản sao Giấy chứng nhận đăng ký doanh nghiệp theo quy định tại Điều 8 Nghị quyết 66.7/2025/NQ-CP ngày 15/11/2025 của Chính phủ quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu .\n-  Giấy xác nhận đã được tập huấn kiến thức về an toàn thực phẩm của người trực tiếp kinh doanh thực phẩm có xác nhận của cơ sở.\n-  Bảo sao Giấy chứng nhận đăng ký kinh doanh hoặc Giấy chứng nhận đăng ký doanh nghiệp hoặc Giấy chứng nhận đầu tư theo quy định của pháp luật;",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 20 ngày làm việc\nQua dịch vụ bưu chính: 20 ngày làm việc\nTrực tiếp: 20 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Sửa đổi, bổ sung một số điều của các Nghị định liên quan đến điều kiện đầu tư kinh doanh thuộc lĩnh vực quản lý nhà nước của Bộ Công Thương - 17/2020/NĐ-CP\nQuy định chi tiết thi hành một số điều của Luật an toàn thực phẩm - 15/2018/NĐ-CP\nLuật An toàn thực phẩm - 55/2010/QH12\nSửa đổi, bổ sung một số quy định về phân cấp thực hiện thủ tục hành chính trong các lĩnh vực thuộc phạm vi quản lý của Bộ Công Thương - 38/2025/TT-BCT\nquy định về quản lý an toàn thực phẩm thuộc trách nhiệm của Bộ Công Thương - 43/2018/TT-BCT\nNghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu - 66.7/2025/NQ-CP",
     "CƠ QUAN THỰC HIỆN": "Ủy ban nhân dân cấp tỉnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "a) Điều kiện chung\n1. Các cơ sở sản xuất, kinh doanh thực phẩm thuộc đối tượng phải cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm:\nCó đủ điều kiện bảo đảm an toàn thực phẩm phù hợp với từng loại hình sản xuất, kinh doanh thực phẩm theo quy định tại Mục 2, 3, 4, 5, 6 và 7 Chương VI của Nghị định 77/2016/NĐ-CP.\n2. Các cơ sở sản xuất, kinh doanh thực phẩm không thuộc đối tượng phải cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm:\na) Có đủ điều kiện bảo đảm an toàn thực phẩm phù hợp với từng loại hình sản xuất, kinh doanh thực phẩm theo quy định của Luật An toàn thực phẩm;\nb) Đối tượng được quy định tại các điểm a, b, c, d, đ, e, g, h và i khoản 1 Điều 12 của Nghị định số 15/2018/NĐ-CP ngày 02 tháng 02 năm 2018 của Chính phủ quy định chi tiết thi hành một số điều của Luật An toàn thực phẩm:\nThực hiện việc gửi bản cam kết đến cơ quan có thẩm quyền do Ủy ban nhân dân cấp tỉnh phân cấp quản lý về an toàn thực phẩm trên địa bàn.\nc) Đối tượng được quy định tại điểm k khoản 1 Điều 12 Nghị định số 15/2018/NĐ-CP ngày 02 tháng 02 năm 2018 của Chính phủ quy định chi tiết thi hành một số điều của Luật An toàn thực phẩm:\nThực hiện việc gửi bản sao Giấy chứng nhận (có xác nhận của cơ sở sản xuất, kinh doanh thực phẩm) theo quy định tại điểm k khoản 1 Điều 12 Nghị định số 15/2018/NĐ-CP đến cơ quan có thẩm quyền do Ủy ban nhân dân cấp tỉnh phân cấp quản lý về an toàn thực phẩm trên địa bàn.”\nb) Điều kiện riêng\n- Cơ sở sản xuất các sản phẩm thực phẩm có công suất thiết kế:  \n+ Rượu: Từ 03 triệu lít sản phẩm/năm trở lên;\n+ Bia: Từ 50 triệu lít sản phẩm/năm trở lên;\n+ Nước giải khát: Từ 20 triệu lít sản phẩm/năm trở lên;\n+ Sữa chế biến: Từ 20 triệu lít sản phẩm/năm trở lên;\n+ Dầu thực vật: Từ 50 ngàn tấn sản phẩm/năm trở lên;\n+ Bánh kẹo: Từ 20 ngàn tấn sản phẩm/năm trở lên;\n+ Bột và tinh bột: Từ 100 ngàn tấn sản phẩm/năm trở lên;\n- Cơ sở vừa sản xuất vừa kinh doanh tại cùng một địa điểm có công suất thiết kế theo quy định tại điểm a khoản 1 Điều 6 Thông tư số 43/2018/TT-BCT.\n- Cơ sở sản xuất, kinh doanh nhiều loại sản phẩm thuộc quy định tại khoản 8 và khoản 10 Điều 36 Nghị định số 15/2018/NĐ-CP ngày 02 tháng 02 năm 2018 của Chính phủ có quy mô sản xuất sản phẩm thuộc trách nhiệm quản lý của Bộ Công Thương theo quy định tại điểm a khoản 1 Điều 6 Thông tư số 43/2018/TT-BCT.",
@@ -294,11 +203,6 @@
     "MÔ TẢ": "a) Điều kiện chung\n1. Các cơ sở sản xuất, kinh doanh thực phẩm thuộc đối tượng phải cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm:\nCó đủ điều kiện bảo đảm an toàn thực phẩm phù hợp với từng loại hình sản xuất, kinh doanh thực phẩm theo quy định tại Mục 2, 3, 4, 5, 6 và 7 Chương VI của Nghị định 77/2016/NĐ-CP.\n2. Các cơ sở sản xuất, kinh doanh thực phẩm không thuộc đối tượng phải cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm:\na) Có đủ điều kiện bảo đảm an toàn thực phẩm phù hợp với từng loại hình sản xuất, kinh doanh thực phẩm theo quy định của Luật An toàn thực phẩm;\nb) Đối tượng được quy định tại các điểm a, b, c, d, đ, e, g, h và i khoản 1 Điều 12 của Nghị định số 15/2018/NĐ-CP ngày 02 tháng 02 năm 2018 của Chính phủ quy định chi tiết thi hành một số điều của Luật An toàn thực phẩm:\nThực hiện việc gửi bản cam kết đến cơ quan có thẩm quyền do Ủy ban nhân dân cấp tỉnh phân cấp quản lý về an toàn thực phẩm trên địa bàn.\nc) Đối tượng được quy định tại điểm k khoản 1 Điều 12 Nghị định số 15/2018/NĐ-CP ngày 02 tháng 02 năm 2018 của Chính phủ quy định chi tiết thi hành một số điều của Luật An toàn thực phẩm:\nThực hiện việc gửi bản sao Giấy chứng nhận (có xác nhận của cơ sở sản xuất, kinh doanh thực phẩm) theo quy định tại điểm k khoản 1 Điều 12 Nghị định số 15/2018/NĐ-CP đến cơ quan có thẩm quyền do Ủy ban nhân dân cấp tỉnh phân cấp quản lý về an toàn thực phẩm trên địa bàn.”\nb) Điều kiện riêng\n- Cơ sở sản xuất các sản phẩm thực phẩm có công suất thiết kế:  \n+ Rượu: Từ 03 triệu lít sản phẩm/năm trở lên;\n+ Bia: Từ 50 triệu lít sản phẩm/năm trở lên;\n+ Nước giải khát: Từ 20 triệu lít sản phẩm/năm trở lên;\n+ Sữa chế biến: Từ 20 triệu lít sản phẩm/năm trở lên;\n+ Dầu thực vật: Từ 50 ngàn tấn sản phẩm/năm trở lên;\n+ Bánh kẹo: Từ 20 ngàn tấn sản phẩm/năm trở lên;\n+ Bột và tinh bột: Từ 100 ngàn tấn sản phẩm/năm trở lên;\n- Cơ sở vừa sản xuất vừa kinh doanh tại cùng một địa điểm có công suất thiết kế theo quy định tại điểm a khoản 1 Điều 6 Thông tư số 43/2018/TT-BCT.\n- Cơ sở sản xuất, kinh doanh nhiều loại sản phẩm thuộc quy định tại khoản 8 và khoản 10 Điều 36 Nghị định số 15/2018/NĐ-CP ngày 02 tháng 02 năm 2018 của Chính phủ có quy mô sản xuất sản phẩm thuộc trách nhiệm quản lý của Bộ Công Thương theo quy định tại điểm a khoản 1 Điều 6 Thông tư số 43/2018/TT-BCT."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Sức khỏe và y tế",
-      "slug": "suc-khoe-va-y-te",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "An toàn thực phẩm",
       "slug": "an-toan-thuc-pham"
@@ -321,6 +225,6 @@
         "slug": "uy-ban-nhan-dan-cap-tinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

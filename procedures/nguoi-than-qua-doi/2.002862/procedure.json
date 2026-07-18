@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d9016-e181-753d-880e-69a6d964af86",
   "procedure_code": "2.002862",
   "title": "Hỗ trợ chi phí mai táng đối với người dân tộc thiểu số trên địa bàn tỉnh Lai Châu giai đoạn 2025-2030",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d9016-e181-753d-880e-69a6d964af86",
     "source_file": "chi-tiet-thu-tuc-2.002862.pdf",
     "source_path": "procedures/nguoi-than-qua-doi/2.002862/chi-tiet-thu-tuc-2.002862.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:22:22.789483+00:00",
-    "source_updated_at": "2026-04-15T08:02:38.779Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:35.255813+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "55f26eb07cf4161d710664d8928a5b363e39794dd2280246fc4cc0b1efe4e2c4"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:22.789483+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2096/QĐ-UBND",
   "implementation_level": "Cấp xã",
-  "implementation_levels": [
-    "Cấp xã"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Người có công",
   "target_users": [
@@ -37,10 +33,7 @@
   ],
   "agency": {
     "competent_agency": "Ủy ban nhân dân cấp xã",
-    "executing_agency": "Ủy ban nhân dân cấp xã",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Hộ gia đình, cá nhân hoặc cơ quan, tổ chức trực tiếp tổ chức thực hiện việc mai táng, sau khi hoàn thành việc mai táng trong vòng 30 ngày làm việc nộp 01 bộ hồ sơ theo quy định đến Trung tâm phục vụ hành chính công nơi người chết thường trú trước khi chết."
+    "executing_agency": "Ủy ban nhân dân cấp xã"
   },
   "steps": [
     {
@@ -48,73 +41,40 @@
       "title": "Bước 1",
       "description": "- Hộ gia đình, cá nhân hoặc cơ quan, tổ chức trực tiếp tổ chức thực hiện việc mai táng, sau khi hoàn thành việc mai táng trong vòng 30 ngày làm việc nộp 01 bộ hồ sơ theo quy định đến Trung tâm phục vụ hành chính công nơi người chết thường trú trước khi chết.\n- Trong thời gian 07 ngày làm việc kể từ ngày nhận đủ hồ sơ, thủ tục hợp lệ, phòng Văn hoá - Xã hội cấp xã tham mưu Chủ tịch Ủy ban nhân dân cấp xã ban hành quyết định hỗ trợ theo quy định; trường hợp không đủ điều kiện thì thông báo bằng văn bản và nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Tờ khai đề nghị hỗ trợ chi phí mai táng của hộ gia đình, cá nhân hoặc cơ quan, tổ chức trực tiếp tổ chức thực hiện việc mai táng cho người chết theo mẫu số 01",
-        "code": "H35-KQ000270",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d9031-9e77-7006-915c-36608096248b",
-            "name": "Tờ khai đề nghị hỗ trợ mai tàng phí Lai Châu.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Tờ khai đề nghị hỗ trợ mai tàng phí Lai Châu.docx",
+        "source_page": 2
       },
       {
         "name": "Tờ khai đăng ký khai tử theo mẫu; Giấy báo tử hoặc giấy tờ thay cho Giấy báo tử theo quy định tại Điều 34 Luật Hộ tịch và khoản 2 Điều 4 Nghị định số 123/2015/NĐ-CP ngày 15 tháng 11 năm 2015 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Hộ tịch, cụ thể: Đối với người chết tại cơ sở y tế thì Thủ trưởng cơ sở y tế cấp Giấy báo tử; đối với người chết do thi hành án tử hình thì Chủ tịch Hội đồng thi hành án tử hình cấp giấy xác nhận việc thi hành án tử hình thay Giấy báo tử; đối với người bị Tòa án tuyên bố là đã chết thì Bản án, quyết định có hiệu lực của Tòa án thay Giấy báo tử; đối với người chết trên phương tiện giao thông, chết do tai nạn, bị giết, chết đột ngột hoặc chết có nghi vấn thì văn bản xác nhận của cơ quan công an hoặc kết quả giám định của Cơ quan giám định pháp y thay Giấy báo tử. Giấy báo tử do Ủy ban nhân dân cấp xã nơi người đó chết cấp nếu không thuộc các trường hợp chết nêu trên. Bản khai của thân nhân đối tượng có xác nhận của chính quyền địa phương xã, phường nơi cư trú (theo Mẫu TT1); Biên bản họp gia đình đối với trường hợp không còn bố, mẹ, vợ hoặc chồng; - Bản sao trích lục khai tử (đối với đối tượng đã từ trần); Bản trích sao quyết định kèm theo danh sách trang có tên đối tượng hưởng trợ cấp 1 lần theo Quyết định số 62/2011/QĐ-TTg của Thủ tướng Chính phủ (Ban CHQS huyện, thành phố ký sao đối với đối tượng do quân đội giải quyết, phòng Lao động - Thương binh và Xã hội ký sao đối với đối tượng thuộc UBND cấp tỉnh giải quyết); Công văn đề nghị của phòng Lao động - Thương binh và Xã hội huyện, thành phố kèm theo danh sách.",
-        "code": "000.00.00.H19-KQ0048",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Biên bản xác nhận việc mai táng của Trưởng thôn, bản, tổ dân phố và đại diện Hộ gia đình, cá nhân hoặc cơ quan, tổ chức trực tiếp thực hiện việc mai táng cho người chết theo mẫu số 02",
-        "code": "H35-KQ000272",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d9032-3b92-70ff-8fd4-42887b6e8a3e",
-            "name": "Biên bản xác nhận việc mai táng.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Biên bản xác nhận việc mai táng.docx",
+        "source_page": 3
       },
       {
         "name": "Biên bản xác nhận việc mai táng của Trưởng thôn, bản, tổ dân phố và đại diện Hộ gia đình, cá nhân hoặc cơ quan, tổ chức trực tiếp thực hiện việc mai táng cho người chết theo mẫu số 02",
-        "code": "H35-KQ000272",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d9032-3b92-70ff-8fd4-42887b6e8a3e",
-            "name": "Biên bản xác nhận việc mai táng.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Biên bản xác nhận việc mai táng.docx",
+        "source_page": 3
       },
       {
         "name": "Văn bản xác nhận người chết thuộc hộ nghèo hoặc hộ cận nghèo do Uỷ ban nhân dân cấp xã cấp",
-        "code": "H35-KQ000273",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -125,34 +85,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Hộ gia đình, cá nhân hoặc cơ quan, tổ chức trực tiếp tổ chức thực hiện việc mai táng, sau khi hoàn thành việc mai táng trong vòng 30 ngày làm việc nộp 01 bộ hồ sơ theo quy định đến Trung tâm phục vụ hành chính công xã nơi người chết thường trú trước khi chết.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Hộ gia đình, cá nhân hoặc cơ quan, tổ chức trực tiếp tổ chức thực hiện việc mai táng, sau khi hoàn thành việc mai táng trong vòng 30 ngày làm việc nộp 01 bộ hồ sơ theo quy định (qua Cổng Dịch vụ công quốc gia) đến Trung tâm phục vụ hành chính công xã nơi người chết thường trú trước khi chết.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Hộ gia đình, cá nhân hoặc cơ quan, tổ chức trực tiếp tổ chức thực hiện việc mai táng, sau khi hoàn thành việc mai táng trong vòng 30 ngày làm việc nộp 01 bộ hồ sơ theo quy định (qua dịch vụ bưu chính) đến Trung tâm phục vụ hành chính công xã nơi người chết thường trú trước khi chết.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -161,56 +116,47 @@
     {
       "title": "Luật Tổ chức chính quyền địa phương",
       "document_number": "72/2025/QH15",
-      "id": "019d2bb3-5d87-7195-a445-3789c9336cec",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Nghị định 23/2016/NĐ-CP",
       "document_number": "23/2016/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afed-9838431dac8b",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Luật sửa đổi, bổ sung một số điều của Luật Ban hành văn bản quy phạm pháp luật",
       "document_number": "87/2025/QH15",
-      "id": "019d2bb3-5d87-7195-a446-a65351c88e9d",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "NGHỊ ĐỊNH QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT BAN HÀNH VĂN BẢN QUY PHẠM PHÁP LUẬT",
       "document_number": "78/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b471-49536870af15",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Luật Ngân sách nhà nước số 89/2025/QH15",
       "document_number": "89/2025/QH15",
-      "id": "019d2bb3-5d87-7195-a446-e2b043ee42d3",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Luật số 56/2024/QH15 của Quốc hội: Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính",
       "document_number": "56/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b673-8c498fc98ef5",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Luật ban hành văn bản quy phạm pháp luật năm 2025;",
       "document_number": "64/2025/QH15",
-      "id": "019d2bb3-5d84-71c5-b673-dd9207453bcd",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "quy định hỗ trợ chi phí mai táng đối với người dân tộc thiểu số trên địa bàn tỉnh Lai Châu giai đoạn 2025-2030",
       "document_number": "53/2025/NQ-HĐND",
-      "id": "019d2bb3-5d85-73da-8eaf-b2766890802a",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "hành về phòng, chống bệnh truyền nhiễm",
       "document_number": "Luật số 03/2007/QH12",
-      "id": "019d2bb3-5d87-7195-a447-f69f6f20a0af",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "conditions": "- Thi thể người chết phải được lưu giữ, bảo quản trong quan tài và mai táng đúng nơi quy định.\n- Thi thể người chết khi mai táng hoặc hoả táng thực hiện lưu giữ, bảo quản theo quy định tại khoản 1,2,3,4 Điều 4 và khoản 1, Điều 13 Thông tư số 21/2021/TT-BYT ngày 26 tháng 11 năm 2021 của Bộ Y tế quy định về vệ sinh trong mai táng, hỏa táng.\n- Trường hợp hoả táng thì phải thực hiện hoả táng tại cơ sở đảm bảo các điều kiện theo quy định.",
@@ -218,14 +164,13 @@
     {
       "title": "Quyết định hỗ trợ chi phí mai táng đối với người dân tộc thiểu số trên địa bàn tỉnh Lai Châu",
       "code": "KQ.G07.000999",
-      "id": "019d9016-d269-7474-9f7a-cc67b3026ede",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "- Hộ gia đình, cá nhân hoặc cơ quan, tổ chức trực tiếp tổ chức thực hiện việc mai táng, sau khi hoàn thành việc mai táng trong vòng 30 ngày làm việc nộp 01 bộ hồ sơ theo quy định đến Trung tâm phục vụ hành chính công nơi người chết thường trú trước khi chết.\n- Trong thời gian 07 ngày làm việc kể từ ngày nhận đủ hồ sơ, thủ tục hợp lệ, phòng Văn hoá - Xã hội cấp xã tham mưu Chủ tịch Ủy ban nhân dân cấp xã ban hành quyết định hỗ trợ theo quy định; trường hợp không đủ điều kiện thì thông báo bằng văn bản và nêu rõ lý do.",
-    "THÀNH PHẦN HỒ SƠ": "\nTờ khai đề nghị hỗ trợ chi phí mai táng của hộ gia đình, cá nhân hoặc cơ quan, tổ chức trực tiếp tổ chức thực hiện việc mai táng cho người chết theo mẫu số 01\nTờ khai đăng ký khai tử theo mẫu; Giấy báo tử hoặc giấy tờ thay cho Giấy báo tử theo quy định tại Điều 34 Luật Hộ tịch và khoản 2 Điều 4 Nghị định số 123/2015/NĐ-CP ngày 15 tháng 11 năm 2015 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Hộ tịch, cụ thể: Đối với người chết tại cơ sở y tế thì Thủ trưởng cơ sở y tế cấp Giấy báo tử; đối với người chết do thi hành án tử hình thì Chủ tịch Hội đồng thi hành án tử hình cấp giấy xác nhận việc thi hành án tử hình thay Giấy báo tử; đối với người bị Tòa án tuyên bố là đã chết thì Bản án, quyết định có hiệu lực của Tòa án thay Giấy báo tử; đối với người chết trên phương tiện giao thông, chết do tai nạn, bị giết, chết đột ngột hoặc chết có nghi vấn thì văn bản xác nhận của cơ quan công an hoặc kết quả giám định của Cơ quan giám định pháp y thay Giấy báo tử. Giấy báo tử do Ủy ban nhân dân cấp xã nơi người đó chết cấp nếu không thuộc các trường hợp chết nêu trên. Bản khai của thân nhân đối tượng có xác nhận của chính quyền địa phương xã, phường nơi cư trú (theo Mẫu TT1); Biên bản họp gia đình đối với trường hợp không còn bố, mẹ, vợ hoặc chồng; - Bản sao trích lục khai tử (đối với đối tượng đã từ trần); Bản trích sao quyết định kèm theo danh sách trang có tên đối tượng hưởng trợ cấp 1 lần theo Quyết định số 62/2011/QĐ-TTg của Thủ tướng Chính phủ (Ban CHQS huyện, thành phố ký sao đối với đối tượng do quân đội giải quyết, phòng Lao động - Thương binh và Xã hội ký sao đối với đối tượng thuộc UBND cấp tỉnh giải quyết); Công văn đề nghị của phòng Lao động - Thương binh và Xã hội huyện, thành phố kèm theo danh sách.\nBiên bản xác nhận việc mai táng của Trưởng thôn, bản, tổ dân phố và đại diện Hộ gia đình, cá nhân hoặc cơ quan, tổ chức trực tiếp thực hiện việc mai táng cho người chết theo mẫu số 02\nBiên bản xác nhận việc mai táng của Trưởng thôn, bản, tổ dân phố và đại diện Hộ gia đình, cá nhân hoặc cơ quan, tổ chức trực tiếp thực hiện việc mai táng cho người chết theo mẫu số 02\nVăn bản xác nhận người chết thuộc hộ nghèo hoặc hộ cận nghèo do Uỷ ban nhân dân cấp xã cấp",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 7 ngày làm việc - Hộ gia đình, cá nhân hoặc cơ quan, tổ chức trực tiếp tổ chức thực hiện việc mai táng, sau khi hoàn thành việc mai táng trong vòng 30 ngày làm việc nộp 01 bộ hồ sơ theo quy định đến Trung tâm phục vụ hành chính công xã nơi người chết thường trú trước khi chết.\nTrực tuyến: 7 ngày làm việc - Hộ gia đình, cá nhân hoặc cơ quan, tổ chức trực tiếp tổ chức thực hiện việc mai táng, sau khi hoàn thành việc mai táng trong vòng 30 ngày làm việc nộp 01 bộ hồ sơ theo quy định (qua Cổng Dịch vụ công quốc gia) đến Trung tâm phục vụ hành chính công xã nơi người chết thường trú trước khi chết.\nQua dịch vụ bưu chính: 7 ngày làm việc - Hộ gia đình, cá nhân hoặc cơ quan, tổ chức trực tiếp tổ chức thực hiện việc mai táng, sau khi hoàn thành việc mai táng trong vòng 30 ngày làm việc nộp 01 bộ hồ sơ theo quy định (qua dịch vụ bưu chính) đến Trung tâm phục vụ hành chính công xã nơi người chết thường trú trước khi chết.",
+    "THÀNH PHẦN HỒ SƠ": "Tờ khai đề nghị hỗ trợ chi phí mai táng của hộ gia đình, cá nhân hoặc cơ quan, tổ chức trực tiếp tổ chức thực hiện việc mai táng cho người chết theo mẫu số 01\nTờ khai đăng ký khai tử theo mẫu; Giấy báo tử hoặc giấy tờ thay cho Giấy báo tử theo quy định tại Điều 34 Luật Hộ tịch và khoản 2 Điều 4 Nghị định số 123/2015/NĐ-CP ngày 15 tháng 11 năm 2015 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Hộ tịch, cụ thể: Đối với người chết tại cơ sở y tế thì Thủ trưởng cơ sở y tế cấp Giấy báo tử; đối với người chết do thi hành án tử hình thì Chủ tịch Hội đồng thi hành án tử hình cấp giấy xác nhận việc thi hành án tử hình thay Giấy báo tử; đối với người bị Tòa án tuyên bố là đã chết thì Bản án, quyết định có hiệu lực của Tòa án thay Giấy báo tử; đối với người chết trên phương tiện giao thông, chết do tai nạn, bị giết, chết đột ngột hoặc chết có nghi vấn thì văn bản xác nhận của cơ quan công an hoặc kết quả giám định của Cơ quan giám định pháp y thay Giấy báo tử. Giấy báo tử do Ủy ban nhân dân cấp xã nơi người đó chết cấp nếu không thuộc các trường hợp chết nêu trên. Bản khai của thân nhân đối tượng có xác nhận của chính quyền địa phương xã, phường nơi cư trú (theo Mẫu TT1); Biên bản họp gia đình đối với trường hợp không còn bố, mẹ, vợ hoặc chồng; - Bản sao trích lục khai tử (đối với đối tượng đã từ trần); Bản trích sao quyết định kèm theo danh sách trang có tên đối tượng hưởng trợ cấp 1 lần theo Quyết định số 62/2011/QĐ-TTg của Thủ tướng Chính phủ (Ban CHQS huyện, thành phố ký sao đối với đối tượng do quân đội giải quyết, phòng Lao động - Thương binh và Xã hội ký sao đối với đối tượng thuộc UBND cấp tỉnh giải quyết); Công văn đề nghị của phòng Lao động - Thương binh và Xã hội huyện, thành phố kèm theo danh sách.\nBiên bản xác nhận việc mai táng của Trưởng thôn, bản, tổ dân phố và đại diện Hộ gia đình, cá nhân hoặc cơ quan, tổ chức trực tiếp thực hiện việc mai táng cho người chết theo mẫu số 02\nBiên bản xác nhận việc mai táng của Trưởng thôn, bản, tổ dân phố và đại diện Hộ gia đình, cá nhân hoặc cơ quan, tổ chức trực tiếp thực hiện việc mai táng cho người chết theo mẫu số 02\nVăn bản xác nhận người chết thuộc hộ nghèo hoặc hộ cận nghèo do Uỷ ban nhân dân cấp xã cấp",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 7 ngày làm việc\nTrực tuyến: 7 ngày làm việc\nQua dịch vụ bưu chính: 7 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Luật Tổ chức chính quyền địa phương - 72/2025/QH15\nNghị định 23/2016/NĐ-CP - 23/2016/NĐ-CP\nLuật sửa đổi, bổ sung một số điều của Luật Ban hành văn bản quy phạm pháp luật - 87/2025/QH15\nNGHỊ ĐỊNH QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP ĐỂ TỔ CHỨC, HƯỚNG DẪN THI HÀNH LUẬT BAN HÀNH VĂN BẢN QUY PHẠM PHÁP LUẬT - 78/2025/NĐ-CP\nLuật Ngân sách nhà nước số 89/2025/QH15 - 89/2025/QH15\nLuật số 56/2024/QH15 của Quốc hội: Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính - 56/2024/QH15\nLuật ban hành văn bản quy phạm pháp luật năm 2025; - 64/2025/QH15\nquy định hỗ trợ chi phí mai táng đối với người dân tộc thiểu số trên địa bàn tỉnh Lai Châu giai đoạn 2025-2030 - 53/2025/NQ-HĐND\nhành về phòng, chống bệnh truyền nhiễm - Luật số 03/2007/QH12",
     "CƠ QUAN THỰC HIỆN": "Ủy ban nhân dân cấp xã",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "- Thi thể người chết phải được lưu giữ, bảo quản trong quan tài và mai táng đúng nơi quy định.\n- Thi thể người chết khi mai táng hoặc hoả táng thực hiện lưu giữ, bảo quản theo quy định tại khoản 1,2,3,4 Điều 4 và khoản 1, Điều 13 Thông tư số 21/2021/TT-BYT ngày 26 tháng 11 năm 2021 của Bộ Y tế quy định về vệ sinh trong mai táng, hỏa táng.\n- Trường hợp hoả táng thì phải thực hiện hoả táng tại cơ sở đảm bảo các điều kiện theo quy định.",
@@ -234,11 +179,6 @@
     "MÔ TẢ": "- Thi thể người chết phải được lưu giữ, bảo quản trong quan tài và mai táng đúng nơi quy định.\n- Thi thể người chết khi mai táng hoặc hoả táng thực hiện lưu giữ, bảo quản theo quy định tại khoản 1,2,3,4 Điều 4 và khoản 1, Điều 13 Thông tư số 21/2021/TT-BYT ngày 26 tháng 11 năm 2021 của Bộ Y tế quy định về vệ sinh trong mai táng, hỏa táng.\n- Trường hợp hoả táng thì phải thực hiện hoả táng tại cơ sở đảm bảo các điều kiện theo quy định."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Người thân qua đời",
-      "slug": "nguoi-than-qua-doi",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Người có công",
       "slug": "nguoi-co-cong"
@@ -269,6 +209,6 @@
         "slug": "uy-ban-nhan-dan-cap-xa"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

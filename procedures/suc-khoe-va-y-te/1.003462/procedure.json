@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfa-1913-772d-a0b8-c8c6dcd61785",
   "procedure_code": "1.003462",
   "title": "Cấp giấy phép nhập khẩu thuốc thú y, nguyên liệu làm thuốc thú y",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-1913-772d-a0b8-c8c6dcd61785",
     "source_file": "chi-tiet-thu-tuc-1.003462.pdf",
     "source_path": "procedures/suc-khoe-va-y-te/1.003462/chi-tiet-thu-tuc-1.003462.pdf",
     "page_count": 9,
-    "extracted_at": "2026-07-18T02:22:01.102146+00:00",
-    "source_updated_at": "2026-06-30T11:18:03.488Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:13.667530+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "13c3dcb6438f204c00ff072e605e5500c07583e49d318f7c2f10e4d3788fed0f"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:01.102146+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1878/QĐ-BNNMT",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thú y",
   "target_users": [
@@ -39,10 +35,7 @@
   ],
   "agency": {
     "competent_agency": "Bộ Nông nghiệp và Môi trường",
-    "executing_agency": "Cục Chăn nuôi và Thú y - Bộ NN và MT",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Chăn nuôi và Thú y - Bộ NN và MT"
   },
   "steps": [
     {
@@ -50,463 +43,265 @@
       "title": "Bước 1",
       "description": "-- Bước 1: Gửi hồ sơ\nTổ chức, cá nhân có nhu cầu đề nghị cấp Giấy phép nhập khẩu thuốc thú y, nguyên liệu làm thuốc thú y chuẩn bị hồ sơ và nộp đến Cục Chăn nuôi và Thú y.\nCục Chăn nuôi và Thú y tiếp nhận và kiểm tra thành phần, tính hợp lệ của hồ sơ theo quy định.\n- Bước 2: Thẩm định hồ sơ, cấp Giấy phép nhập khẩu thuốc thú y, nguyên liệu làm thuốc thú y\nTrong thời hạn 05 (năm) ngày làm việc, Cục Chăn nuôi và Thú y xem xét cấp Giấy phép nhập khẩu; trường hợp không cấp, trả lời bằng văn bản và nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "- Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT.",
-        "code": "000.00.00.G10-KQ2368",
+        "name": "1. Hồ sơ nhập khẩu thuốc thú y chưa có giấy chứng nhận lưu hành để phòng, chống dịch bệnh động vật khẩn cấp, khắc phục hậu quả thiên tai, gồm:: - Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "1. Hồ sơ nhập khẩu thuốc thú y chưa có giấy chứng nhận lưu hành để phòng, chống dịch bệnh động vật khẩn cấp, khắc phục hậu quả thiên tai, gồm:",
-        "attachments": [
-          {
-            "id": "019d9b01-25d6-72f2-bf6c-f6132a0b8f5a",
-            "name": "PHỤ LỤC XXXII.MẪU ĐƠN ĐĂNG KÝ NHẬP KHẨU THUỐC THÚ Y NGOÀI DANH MỤC THUỐC THÚ Y ĐƯỢC PHÉP LƯU HÀNH TẠI VIỆT NAM.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PHỤ LỤC XXXII.MẪU ĐƠN ĐĂNG KÝ NHẬP KHẨU THUỐC THÚ Y NGOÀI DANH MỤC THUỐC THÚ Y ĐƯỢC PHÉP LƯU HÀNH TẠI VIỆT NAM.docx",
+        "source_page": 2
       },
       {
-        "name": "- Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;",
-        "code": "000.00.00.G10-KQ2373",
+        "name": "2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:: - Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:",
-        "attachments": [
-          {
-            "id": "019d9b03-d4ab-7006-95e3-37ff11ca20df",
-            "name": "PHỤ LỤC XXXII.MẪU ĐƠN ĐĂNG KÝ NHẬP KHẨU THUỐC THÚ Y NGOÀI DANH MỤC THUỐC THÚ Y ĐƯỢC PHÉP LƯU HÀNH TẠI VIỆT NAM.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PHỤ LỤC XXXII.MẪU ĐƠN ĐĂNG KÝ NHẬP KHẨU THUỐC THÚ Y NGOÀI DANH MỤC THUỐC THÚ Y ĐƯỢC PHÉP LƯU HÀNH TẠI VIỆT NAM.docx",
+        "source_page": 2
       },
       {
-        "name": "- Tóm tắt đặc tính sản phẩm theo mẫu quy định tại phụ lục VIII ban hành kèm thông tư số 13/2016/TT-BNNPTNT.",
-        "code": "000.00.00.G10-KQ2378",
+        "name": "2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:: - Tóm tắt đặc tính sản phẩm theo mẫu quy định tại phụ lục VIII ban hành kèm thông tư số 13/2016/TT-BNNPTNT.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:",
-        "attachments": [
-          {
-            "id": "019d9b04-dff3-701c-a199-b00d0f2a849e",
-            "name": "PHỤ LỤC VIII.MẪU TÓM TẮT ĐẶC TÍNH CỦA SẢN PHẨM.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PHỤ LỤC VIII.MẪU TÓM TẮT ĐẶC TÍNH CỦA SẢN PHẨM.docx",
+        "source_page": 3
       },
       {
-        "name": "- Tóm tắt đặc tính sản phẩm theo mẫu quy định tại phụ lục VIII ban hành kèm thông tư số 13/2016/TT-BNNPTNT;",
-        "code": "000.00.00.G10-KQ2383",
+        "name": "3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:: - Tóm tắt đặc tính sản phẩm theo mẫu quy định tại phụ lục VIII ban hành kèm thông tư số 13/2016/TT-BNNPTNT;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:",
-        "attachments": [
-          {
-            "id": "019d9b05-fe39-72f8-83b4-795774dffc47",
-            "name": "PHỤ LỤC VIII.MẪU TÓM TẮT ĐẶC TÍNH CỦA SẢN PHẨM.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PHỤ LỤC VIII.MẪU TÓM TẮT ĐẶC TÍNH CỦA SẢN PHẨM.docx",
+        "source_page": 3
       },
       {
-        "name": "- Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;",
-        "code": "000.00.00.G10-KQ2379",
+        "name": "3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:: - Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:",
-        "attachments": [
-          {
-            "id": "019d9b05-a05a-775c-b352-e985869c6e68",
-            "name": "PHỤ LỤC XXXII.MẪU ĐƠN ĐĂNG KÝ NHẬP KHẨU THUỐC THÚ Y NGOÀI DANH MỤC THUỐC THÚ Y ĐƯỢC PHÉP LƯU HÀNH TẠI VIỆT NAM.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PHỤ LỤC XXXII.MẪU ĐƠN ĐĂNG KÝ NHẬP KHẨU THUỐC THÚ Y NGOÀI DANH MỤC THUỐC THÚ Y ĐƯỢC PHÉP LƯU HÀNH TẠI VIỆT NAM.docx",
+        "source_page": 2
       },
       {
-        "name": "- Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;",
-        "code": "000.00.00.G10-KQ2385",
+        "name": "4. Hồ sơ nhập khẩu thuốc thú y để chữa bệnh đối với động vật tạm nhập tái xuất, quá cảnh lãnh thổ Việt Nam; tạm nhập tái xuất, gia công xuất khẩu theo hợp đồng đã ký với tổ chức, cá nhân nước ngoài, gồm:: - Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "4. Hồ sơ nhập khẩu thuốc thú y để chữa bệnh đối với động vật tạm nhập tái xuất, quá cảnh lãnh thổ Việt Nam; tạm nhập tái xuất, gia công xuất khẩu theo hợp đồng đã ký với tổ chức, cá nhân nước ngoài, gồm:",
-        "attachments": [
-          {
-            "id": "019d9b06-8c1a-71b2-8076-aeccd3d71f6d",
-            "name": "PHỤ LỤC XXXII.MẪU ĐƠN ĐĂNG KÝ NHẬP KHẨU THUỐC THÚ Y NGOÀI DANH MỤC THUỐC THÚ Y ĐƯỢC PHÉP LƯU HÀNH TẠI VIỆT NAM.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PHỤ LỤC XXXII.MẪU ĐƠN ĐĂNG KÝ NHẬP KHẨU THUỐC THÚ Y NGOÀI DANH MỤC THUỐC THÚ Y ĐƯỢC PHÉP LƯU HÀNH TẠI VIỆT NAM.docx",
+        "source_page": 2
       },
       {
-        "name": "- Tóm tắt đặc tính sản phẩm theo mẫu quy định tại phụ lục VIII ban hành kèm thông tư số 13/2016/TT-BNNPTNT",
-        "code": "000.00.00.G10-KQ2392",
+        "name": "5. Hồ sơ nhập khẩu nguyên liệu, thuốc thú y, vi sinh vật để nghiên cứu sản xuất thuốc thú y, chẩn đoán, xét nghiệm, kiểm nghiệm về thú y: - Tóm tắt đặc tính sản phẩm theo mẫu quy định tại phụ lục VIII ban hành kèm thông tư số 13/2016/TT-BNNPTNT",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "5. Hồ sơ nhập khẩu nguyên liệu, thuốc thú y, vi sinh vật để nghiên cứu sản xuất thuốc thú y, chẩn đoán, xét nghiệm, kiểm nghiệm về thú y",
-        "attachments": [
-          {
-            "id": "019d9b07-2b05-7329-b92a-e82872789146",
-            "name": "PHỤ LỤC VIII.MẪU TÓM TẮT ĐẶC TÍNH CỦA SẢN PHẨM.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PHỤ LỤC VIII.MẪU TÓM TẮT ĐẶC TÍNH CỦA SẢN PHẨM.docx",
+        "source_page": 3
       },
       {
-        "name": "- Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;",
-        "code": "000.00.00.G10-KQ2389",
+        "name": "5. Hồ sơ nhập khẩu nguyên liệu, thuốc thú y, vi sinh vật để nghiên cứu sản xuất thuốc thú y, chẩn đoán, xét nghiệm, kiểm nghiệm về thú y: - Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "5. Hồ sơ nhập khẩu nguyên liệu, thuốc thú y, vi sinh vật để nghiên cứu sản xuất thuốc thú y, chẩn đoán, xét nghiệm, kiểm nghiệm về thú y",
-        "attachments": [
-          {
-            "id": "019d9b06-e9ad-771c-94f7-10bcffe072ae",
-            "name": "PHỤ LỤC XXXII.MẪU ĐƠN ĐĂNG KÝ NHẬP KHẨU THUỐC THÚ Y NGOÀI DANH MỤC THUỐC THÚ Y ĐƯỢC PHÉP LƯU HÀNH TẠI VIỆT NAM.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PHỤ LỤC XXXII.MẪU ĐƠN ĐĂNG KÝ NHẬP KHẨU THUỐC THÚ Y NGOÀI DANH MỤC THUỐC THÚ Y ĐƯỢC PHÉP LƯU HÀNH TẠI VIỆT NAM.docx",
+        "source_page": 2
       },
       {
-        "name": "- Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;",
-        "code": "000.00.00.G10-KQ2394",
+        "name": "6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác: - Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác",
-        "attachments": [
-          {
-            "id": "019d9b07-c493-7166-ae24-f05b14188d24",
-            "name": "PHỤ LỤC XXXII.MẪU ĐƠN ĐĂNG KÝ NHẬP KHẨU THUỐC THÚ Y NGOÀI DANH MỤC THUỐC THÚ Y ĐƯỢC PHÉP LƯU HÀNH TẠI VIỆT NAM.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PHỤ LỤC XXXII.MẪU ĐƠN ĐĂNG KÝ NHẬP KHẨU THUỐC THÚ Y NGOÀI DANH MỤC THUỐC THÚ Y ĐƯỢC PHÉP LƯU HÀNH TẠI VIỆT NAM.docx",
+        "source_page": 2
       },
       {
-        "name": "- Báo cáo số lượng, mục đích sử dụng nguyên liệu kháng sinh, địa chỉ cơ sở mua nguyên liệu kháng sinh của lô nguyên liệu kháng sinh nhập khẩu lần trước, khi nộp hồ sơ đăng ký nhập khẩu nguyên liệu kháng sinh lô hàng tiếp theo về Cục Thú y theo mẫu quy định tại Phụ lục XXXIV ban hành kèm theo Thông tư 13/2016/TT-BNNPTNT.",
-        "code": "000.00.00.G10-KQ2405",
+        "name": "7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:: - Báo cáo số lượng, mục đích sử dụng nguyên liệu kháng sinh, địa chỉ cơ sở mua nguyên liệu kháng sinh của lô nguyên liệu kháng sinh nhập khẩu lần trước, khi nộp hồ sơ đăng ký nhập khẩu nguyên liệu kháng sinh lô hàng tiếp theo về Cục Thú y theo mẫu quy định tại Phụ lục XXXIV ban hành kèm theo Thông tư 13/2016/TT-BNNPTNT.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:",
-        "attachments": [
-          {
-            "id": "019d9b0a-79c0-7218-a75e-d42f36971964",
-            "name": "PHỤ LỤC XXXIV.MẪU BÁO CÁO KINH DOANH, SỬ DỤNG NGUYÊN LIỆU KHÁNG SINH, DANH SÁCH CƠ SỞ MUA NGUYÊN LIỆU KHÁNG SINH.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PHỤ LỤC XXXIV.MẪU BÁO CÁO KINH DOANH, SỬ DỤNG NGUYÊN LIỆU KHÁNG SINH, DANH SÁCH CƠ SỞ MUA NGUYÊN LIỆU KHÁNG SINH.docx",
+        "source_page": 7
       },
       {
-        "name": "- Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;",
-        "code": "000.00.00.G10-KQ2400",
+        "name": "7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:: - Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:",
-        "attachments": [
-          {
-            "id": "019d9b09-b43a-709a-ab1b-7cc38f3e2aa1",
-            "name": "PHỤ LỤC XXXII.MẪU ĐƠN ĐĂNG KÝ NHẬP KHẨU THUỐC THÚ Y NGOÀI DANH MỤC THUỐC THÚ Y ĐƯỢC PHÉP LƯU HÀNH TẠI VIỆT NAM.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PHỤ LỤC XXXII.MẪU ĐƠN ĐĂNG KÝ NHẬP KHẨU THUỐC THÚ Y NGOÀI DANH MỤC THUỐC THÚ Y ĐƯỢC PHÉP LƯU HÀNH TẠI VIỆT NAM.docx",
+        "source_page": 2
       },
       {
-        "name": "- Đơn đăng ký nhập khẩu vắc xin, vi sinh vật theo mẫu quy định tại Phụ lục XXXIII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;",
-        "code": "000.00.00.G10-KQ2410",
+        "name": "8. Hồ sơ nhập khẩu vắc xin, vi sinh vật có tên trong Danh mục thuốc thú y được phép lưu hành tại Việt Nam hoặc đã có giấy chứng nhận lưu hành tại Việt Nam gồm:: - Đơn đăng ký nhập khẩu vắc xin, vi sinh vật theo mẫu quy định tại Phụ lục XXXIII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "8. Hồ sơ nhập khẩu vắc xin, vi sinh vật có tên trong Danh mục thuốc thú y được phép lưu hành tại Việt Nam hoặc đã có giấy chứng nhận lưu hành tại Việt Nam gồm:",
-        "attachments": [
-          {
-            "id": "019d9b0b-e801-762f-9bcd-3ff722323303",
-            "name": "PHỤ LỤC XXXIII.MẪU ĐƠN ĐĂNG KÝ NHẬP KHẨU VẮC XIN, VI SINH VẬT ĐÃ CÓ TÊN TRONG DANH MỤC THUỐC THÚ Y ĐƯỢC PHÉP LƯU HÀNH TẠI VIỆT NAM.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "PHỤ LỤC XXXIII.MẪU ĐƠN ĐĂNG KÝ NHẬP KHẨU VẮC XIN, VI SINH VẬT ĐÃ CÓ TÊN TRONG DANH MỤC THUỐC THÚ Y ĐƯỢC PHÉP LƯU HÀNH TẠI VIỆT NAM.docx",
+        "source_page": 8
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "- Giấy chứng nhận hoặc văn bản của cơ quan thẩm quyền nước sản xuất hoặc nước xuất khẩu cấp xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó hoặc giấy chứng nhận hoặc văn bản của cơ quan nhà nước có thẩm quyền quốc gia khác xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó đối với sản phẩm chưa được cấp phép lưu hành, sử dụng tại nước sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)",
-        "code": "000.00.00.G10-KQ2371",
+        "name": "1. Hồ sơ nhập khẩu thuốc thú y chưa có giấy chứng nhận lưu hành để phòng, chống dịch bệnh động vật khẩn cấp, khắc phục hậu quả thiên tai, gồm:: - Giấy chứng nhận hoặc văn bản của cơ quan thẩm quyền nước sản xuất hoặc nước xuất khẩu cấp xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó hoặc giấy chứng nhận hoặc văn bản của cơ quan nhà nước có thẩm quyền quốc gia khác xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó đối với sản phẩm chưa được cấp phép lưu hành, sử dụng tại nước sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "1. Hồ sơ nhập khẩu thuốc thú y chưa có giấy chứng nhận lưu hành để phòng, chống dịch bệnh động vật khẩn cấp, khắc phục hậu quả thiên tai, gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Giấy chứng nhận GMP hoặc văn bản của cơ quan nhà nước có thẩm quyền của nước sản xuất xác nhận cơ sở sản xuất đáp ứng tiêu chuẩn GMP đối với thuốc nhập khẩu hoặc Giấy chứng nhận hệ thống quản lý chất lượng (ISO) đối với thuốc thú y từ dược liệu, hóa chất, chế phẩm sinh học (trừ vắc-xin, kháng thể, KIT xét nghiệm) (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)",
-        "code": "000.00.00.G10-KQ2370",
+        "name": "1. Hồ sơ nhập khẩu thuốc thú y chưa có giấy chứng nhận lưu hành để phòng, chống dịch bệnh động vật khẩn cấp, khắc phục hậu quả thiên tai, gồm:: - Giấy chứng nhận GMP hoặc văn bản của cơ quan nhà nước có thẩm quyền của nước sản xuất xác nhận cơ sở sản xuất đáp ứng tiêu chuẩn GMP đối với thuốc nhập khẩu hoặc Giấy chứng nhận hệ thống quản lý chất lượng (ISO) đối với thuốc thú y từ dược liệu, hóa chất, chế phẩm sinh học (trừ vắc-xin, kháng thể, KIT xét nghiệm) (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "1. Hồ sơ nhập khẩu thuốc thú y chưa có giấy chứng nhận lưu hành để phòng, chống dịch bệnh động vật khẩn cấp, khắc phục hậu quả thiên tai, gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       },
       {
-        "name": "- Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký); - Nhãn sản phẩm.",
-        "code": "000.00.00.G10-KQ2372",
+        "name": "1. Hồ sơ nhập khẩu thuốc thú y chưa có giấy chứng nhận lưu hành để phòng, chống dịch bệnh động vật khẩn cấp, khắc phục hậu quả thiên tai, gồm:: - Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký); - Nhãn sản phẩm.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "1. Hồ sơ nhập khẩu thuốc thú y chưa có giấy chứng nhận lưu hành để phòng, chống dịch bệnh động vật khẩn cấp, khắc phục hậu quả thiên tai, gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của doanh nghiệp với ngành nghề phù hợp của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y;",
-        "code": "000.00.00.G10-KQ2369",
+        "name": "1. Hồ sơ nhập khẩu thuốc thú y chưa có giấy chứng nhận lưu hành để phòng, chống dịch bệnh động vật khẩn cấp, khắc phục hậu quả thiên tai, gồm:: - Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của doanh nghiệp với ngành nghề phù hợp của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "1. Hồ sơ nhập khẩu thuốc thú y chưa có giấy chứng nhận lưu hành để phòng, chống dịch bệnh động vật khẩn cấp, khắc phục hậu quả thiên tai, gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Giấy chứng nhận hoặc văn bản của cơ quan thẩm quyền nước sản xuất hoặc nước xuất khẩu cấp xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó hoặc giấy chứng nhận hoặc văn bản của cơ quan nhà nước có thẩm quyền quốc gia khác xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó đối với sản phẩm chưa được cấp phép lưu hành, sử dụng tại nước sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)",
-        "code": "000.00.00.G10-KQ2376",
+        "name": "2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:: - Giấy chứng nhận hoặc văn bản của cơ quan thẩm quyền nước sản xuất hoặc nước xuất khẩu cấp xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó hoặc giấy chứng nhận hoặc văn bản của cơ quan nhà nước có thẩm quyền quốc gia khác xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó đối với sản phẩm chưa được cấp phép lưu hành, sử dụng tại nước sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;",
-        "code": "000.00.00.G10-KQ2377",
+        "name": "2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:: - Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Giấy chứng nhận GMP hoặc văn bản của cơ quan nhà nước có thẩm quyền của nước sản xuất xác nhận cơ sở sản xuất đáp ứng tiêu chuẩn GMP đối với thuốc nhập khẩu hoặc Giấy chứng nhận hệ thống quản lý chất lượng (ISO) đối với thuốc thú y từ dược liệu, hóa chất, chế phẩm sinh học (trừ vắc-xin, kháng thể, KIT xét nghiệm) (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)",
-        "code": "000.00.00.G10-KQ2375",
+        "name": "2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:: - Giấy chứng nhận GMP hoặc văn bản của cơ quan nhà nước có thẩm quyền của nước sản xuất xác nhận cơ sở sản xuất đáp ứng tiêu chuẩn GMP đối với thuốc nhập khẩu hoặc Giấy chứng nhận hệ thống quản lý chất lượng (ISO) đối với thuốc thú y từ dược liệu, hóa chất, chế phẩm sinh học (trừ vắc-xin, kháng thể, KIT xét nghiệm) (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       },
       {
-        "name": "- Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y đối với tổ chức lần đầu nhập khẩu;",
-        "code": "000.00.00.G10-KQ2374",
+        "name": "2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:: - Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y đối với tổ chức lần đầu nhập khẩu;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y đối với tổ chức lần đầu nhập khẩu;",
-        "code": "000.00.00.G10-KQ2380",
+        "name": "3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:: - Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y đối với tổ chức lần đầu nhập khẩu;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Bản sao tài liệu chứng minh mục đích nhập khẩu thuốc thú y;",
-        "code": "000.00.00.G10-KQ2381",
+        "name": "3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:: - Bản sao tài liệu chứng minh mục đích nhập khẩu thuốc thú y;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "- Nhãn sản phẩm.",
-        "code": "000.00.00.G10-KQ2384",
+        "name": "3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:: - Nhãn sản phẩm.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;",
-        "code": "000.00.00.G10-KQ2382",
+        "name": "3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:: - Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Nhãn sản phẩm.",
-        "code": "000.00.00.G10-KQ2388",
+        "name": "4. Hồ sơ nhập khẩu thuốc thú y để chữa bệnh đối với động vật tạm nhập tái xuất, quá cảnh lãnh thổ Việt Nam; tạm nhập tái xuất, gia công xuất khẩu theo hợp đồng đã ký với tổ chức, cá nhân nước ngoài, gồm:: - Nhãn sản phẩm.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "4. Hồ sơ nhập khẩu thuốc thú y để chữa bệnh đối với động vật tạm nhập tái xuất, quá cảnh lãnh thổ Việt Nam; tạm nhập tái xuất, gia công xuất khẩu theo hợp đồng đã ký với tổ chức, cá nhân nước ngoài, gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất",
-        "code": "000.00.00.G10-KQ2386",
+        "name": "4. Hồ sơ nhập khẩu thuốc thú y để chữa bệnh đối với động vật tạm nhập tái xuất, quá cảnh lãnh thổ Việt Nam; tạm nhập tái xuất, gia công xuất khẩu theo hợp đồng đã ký với tổ chức, cá nhân nước ngoài, gồm:: - Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "4. Hồ sơ nhập khẩu thuốc thú y để chữa bệnh đối với động vật tạm nhập tái xuất, quá cảnh lãnh thổ Việt Nam; tạm nhập tái xuất, gia công xuất khẩu theo hợp đồng đã ký với tổ chức, cá nhân nước ngoài, gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Bản sao tài liệu chứng minh mục đích nhập khẩu thuốc thú y;",
-        "code": "000.00.00.G10-KQ2387",
+        "name": "4. Hồ sơ nhập khẩu thuốc thú y để chữa bệnh đối với động vật tạm nhập tái xuất, quá cảnh lãnh thổ Việt Nam; tạm nhập tái xuất, gia công xuất khẩu theo hợp đồng đã ký với tổ chức, cá nhân nước ngoài, gồm:: - Bản sao tài liệu chứng minh mục đích nhập khẩu thuốc thú y;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "4. Hồ sơ nhập khẩu thuốc thú y để chữa bệnh đối với động vật tạm nhập tái xuất, quá cảnh lãnh thổ Việt Nam; tạm nhập tái xuất, gia công xuất khẩu theo hợp đồng đã ký với tổ chức, cá nhân nước ngoài, gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "- Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y đối với tổ chức lần đầu nhập khẩu;",
-        "code": "000.00.00.G10-KQ2390",
+        "name": "5. Hồ sơ nhập khẩu nguyên liệu, thuốc thú y, vi sinh vật để nghiên cứu sản xuất thuốc thú y, chẩn đoán, xét nghiệm, kiểm nghiệm về thú y: - Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y đối với tổ chức lần đầu nhập khẩu;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "5. Hồ sơ nhập khẩu nguyên liệu, thuốc thú y, vi sinh vật để nghiên cứu sản xuất thuốc thú y, chẩn đoán, xét nghiệm, kiểm nghiệm về thú y",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;",
-        "code": "000.00.00.G10-KQ2391",
+        "name": "5. Hồ sơ nhập khẩu nguyên liệu, thuốc thú y, vi sinh vật để nghiên cứu sản xuất thuốc thú y, chẩn đoán, xét nghiệm, kiểm nghiệm về thú y: - Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "5. Hồ sơ nhập khẩu nguyên liệu, thuốc thú y, vi sinh vật để nghiên cứu sản xuất thuốc thú y, chẩn đoán, xét nghiệm, kiểm nghiệm về thú y",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Nhãn sản phẩm.",
-        "code": "000.00.00.G10-KQ2393",
+        "name": "5. Hồ sơ nhập khẩu nguyên liệu, thuốc thú y, vi sinh vật để nghiên cứu sản xuất thuốc thú y, chẩn đoán, xét nghiệm, kiểm nghiệm về thú y: - Nhãn sản phẩm.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "5. Hồ sơ nhập khẩu nguyên liệu, thuốc thú y, vi sinh vật để nghiên cứu sản xuất thuốc thú y, chẩn đoán, xét nghiệm, kiểm nghiệm về thú y",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Giấy chứng nhận GMP hoặc văn bản của cơ quan nhà nước có thẩm quyền của nước sản xuất xác nhận cơ sở sản xuất đáp ứng tiêu chuẩn GMP đối với thuốc nhập khẩu hoặc Giấy chứng nhận hệ thống quản lý chất lượng (ISO) đối với thuốc thú y từ dược liệu, hóa chất, chế phẩm sinh học (trừ vắc-xin, kháng thể, KIT xét nghiệm) (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)",
-        "code": "000.00.00.G10-KQ2396",
+        "name": "6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác: - Giấy chứng nhận GMP hoặc văn bản của cơ quan nhà nước có thẩm quyền của nước sản xuất xác nhận cơ sở sản xuất đáp ứng tiêu chuẩn GMP đối với thuốc nhập khẩu hoặc Giấy chứng nhận hệ thống quản lý chất lượng (ISO) đối với thuốc thú y từ dược liệu, hóa chất, chế phẩm sinh học (trừ vắc-xin, kháng thể, KIT xét nghiệm) (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       },
       {
-        "name": "- Nhãn sản phẩm.",
-        "code": "000.00.00.G10-KQ2399",
+        "name": "6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác: - Nhãn sản phẩm.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;",
-        "code": "000.00.00.G10-KQ2398",
+        "name": "6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác: - Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của doanh nghiệp với ngành nghề phù hợp của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y;",
-        "code": "000.00.00.G10-KQ2395",
+        "name": "6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác: - Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của doanh nghiệp với ngành nghề phù hợp của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Giấy chứng nhận hoặc văn bản của cơ quan thẩm quyền nước sản xuất hoặc nước xuất khẩu cấp xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó hoặc giấy chứng nhận hoặc văn bản của cơ quan nhà nước có thẩm quyền quốc gia khác xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó đối với sản phẩm chưa được cấp phép lưu hành, sử dụng tại nước sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)",
-        "code": "000.00.00.G10-KQ2397",
+        "name": "6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác: - Giấy chứng nhận hoặc văn bản của cơ quan thẩm quyền nước sản xuất hoặc nước xuất khẩu cấp xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó hoặc giấy chứng nhận hoặc văn bản của cơ quan nhà nước có thẩm quyền quốc gia khác xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó đối với sản phẩm chưa được cấp phép lưu hành, sử dụng tại nước sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;",
-        "code": "000.00.00.G10-KQ2403",
+        "name": "7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:: - Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Giấy chứng nhận hoặc văn bản của cơ quan thẩm quyền nước sản xuất xác nhận nguyên liệu nhập khẩu được lưu hành hoặc sử dụng tại nước sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)",
-        "code": "000.00.00.G10-KQ2402",
+        "name": "7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:: - Giấy chứng nhận hoặc văn bản của cơ quan thẩm quyền nước sản xuất xác nhận nguyên liệu nhập khẩu được lưu hành hoặc sử dụng tại nước sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;",
-        "code": "000.00.00.G10-KQ2407",
+        "name": "7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:: - Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Bản sao giấy chứng nhận đủ điều kiệnnhập khẩu thuốcthú y của cơ sở đề nghị cấp phép nhập khẩu do Cục Thú y cấp đối với cơ sở nhập khẩu nguyên liệu làm thuốc thú y lần đầu nhập khẩu;",
-        "code": "000.00.00.G10-KQ2404",
+        "name": "7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:: - Bản sao giấy chứng nhận đủ điều kiệnnhập khẩu thuốcthú y của cơ sở đề nghị cấp phép nhập khẩu do Cục Thú y cấp đối với cơ sở nhập khẩu nguyên liệu làm thuốc thú y lần đầu nhập khẩu;",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       },
       {
-        "name": "Trường hợp nhập khẩu nguyên liệu làm thuốc thú y là dung môi, tá dược hồ sơ gồm:",
-        "code": "000.00.00.G10-KQ2406",
+        "name": "7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:: Trường hợp nhập khẩu nguyên liệu làm thuốc thú y là dung môi, tá dược hồ sơ gồm:",
         "quantity": null,
-        "required": false,
-        "case": "7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       },
       {
-        "name": "Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;",
-        "code": "000.00.00.G10-KQ2408",
+        "name": "7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:: Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Giấy chứng nhận GMP hoặc văn bản của cơ quan nhà nước có thẩm quyền của nước sản xuất xác nhận cơ sở sản xuất đáp ứng tiêu chuẩn GMP hoặc Giấy chứng nhận hệ thống quản lý chất lượng (ISO) đối với nguyên liệu là hóa chất, chế phẩm sinh học (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)",
-        "code": "000.00.00.G10-KQ2401",
+        "name": "7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:: - Giấy chứng nhận GMP hoặc văn bản của cơ quan nhà nước có thẩm quyền của nước sản xuất xác nhận cơ sở sản xuất đáp ứng tiêu chuẩn GMP hoặc Giấy chứng nhận hệ thống quản lý chất lượng (ISO) đối với nguyên liệu là hóa chất, chế phẩm sinh học (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       }
     ]
   },
@@ -515,87 +310,52 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 2000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí kiểm tra và cấp Giấy chứng nhận đơn hàng nhập khẩu thuốc, nguyên liệu làm thuốc thú y, thuốc thú y thủy sản (trừ các đơn hàng nhập khẩu để làm mẫu nghiên cứu, khảo nghiệm, kiểm nghiệm, phi mậu dịch): 2.000.000 đồng/01 đơn hàng",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí kiểm tra và cấp Giấy chứng nhận đơn hàng nhập khẩu thuốc, nguyên liệu làm thuốc thú y, thuốc thú y thủy sản (trừ các đơn hàng nhập khẩu để làm mẫu nghiên cứu, khảo nghiệm, kiểm nghiệm, phi mậu dịch): 2.000.000 đồng/01 đơn hàng",
       "description": "05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ.",
-      "source_page": null
+      "source_page": 8
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 2000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí kiểm tra và cấp Giấy chứng nhận đơn hàng nhập khẩu thuốc, nguyên liệu làm thuốc thú y, thuốc thú y thủy sản (trừ các đơn hàng nhập khẩu để làm mẫu nghiên cứu, khảo nghiệm, kiểm nghiệm, phi mậu dịch): 2.000.000 đồng/01 đơn hàng",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí kiểm tra và cấp Giấy chứng nhận đơn hàng nhập khẩu thuốc, nguyên liệu làm thuốc thú y, thuốc thú y thủy sản (trừ các đơn hàng nhập khẩu để làm mẫu nghiên cứu, khảo nghiệm, kiểm nghiệm, phi mậu dịch): 2.000.000 đồng/01 đơn hàng",
       "description": "05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ.",
-      "source_page": null
+      "source_page": 8
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 2000000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí kiểm tra và cấp Giấy chứng nhận đơn hàng nhập khẩu thuốc, nguyên liệu làm thuốc thú y, thuốc thú y thủy sản (trừ các đơn hàng nhập khẩu để làm mẫu nghiên cứu, khảo nghiệm, kiểm nghiệm, phi mậu dịch): 2.000.000 đồng/01 đơn hàng",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí kiểm tra và cấp Giấy chứng nhận đơn hàng nhập khẩu thuốc, nguyên liệu làm thuốc thú y, thuốc thú y thủy sản (trừ các đơn hàng nhập khẩu để làm mẫu nghiên cứu, khảo nghiệm, kiểm nghiệm, phi mậu dịch): 2.000.000 đồng/01 đơn hàng",
       "description": "05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ.",
-      "source_page": null
+      "source_page": 8
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Phí kiểm tra và cấp Giấy chứng nhận đơn hàng nhập khẩu thuốc, nguyên liệu làm thuốc thú y, thuốc thú y thủy sản (trừ các đơn hàng nhập khẩu để làm mẫu nghiên cứu, khảo nghiệm, kiểm nghiệm, phi mậu dịch): 2.000.000 đồng/01 đơn hàng",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 2000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí kiểm tra và cấp Giấy chứng nhận đơn hàng nhập khẩu thuốc, nguyên liệu làm thuốc thú y, thuốc thú y thủy sản (trừ các đơn hàng nhập khẩu để làm mẫu nghiên cứu, khảo nghiệm, kiểm nghiệm, phi mậu dịch): 2.000.000 đồng/01 đơn hàng",
-        "attachment": null
+        "amount_text": "Phí kiểm tra và cấp Giấy chứng nhận đơn hàng nhập khẩu thuốc, nguyên liệu làm thuốc thú y, thuốc thú y thủy sản (trừ các đơn hàng nhập khẩu để làm mẫu nghiên cứu, khảo nghiệm, kiểm nghiệm, phi mậu dịch): 2.000.000 đồng/01 đơn hàng",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 2000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí kiểm tra và cấp Giấy chứng nhận đơn hàng nhập khẩu thuốc, nguyên liệu làm thuốc thú y, thuốc thú y thủy sản (trừ các đơn hàng nhập khẩu để làm mẫu nghiên cứu, khảo nghiệm, kiểm nghiệm, phi mậu dịch): 2.000.000 đồng/01 đơn hàng",
-        "attachment": null
+        "amount_text": "Phí kiểm tra và cấp Giấy chứng nhận đơn hàng nhập khẩu thuốc, nguyên liệu làm thuốc thú y, thuốc thú y thủy sản (trừ các đơn hàng nhập khẩu để làm mẫu nghiên cứu, khảo nghiệm, kiểm nghiệm, phi mậu dịch): 2.000.000 đồng/01 đơn hàng",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 2000000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí kiểm tra và cấp Giấy chứng nhận đơn hàng nhập khẩu thuốc, nguyên liệu làm thuốc thú y, thuốc thú y thủy sản (trừ các đơn hàng nhập khẩu để làm mẫu nghiên cứu, khảo nghiệm, kiểm nghiệm, phi mậu dịch): 2.000.000 đồng/01 đơn hàng",
-        "attachment": null
+        "amount_text": "Phí kiểm tra và cấp Giấy chứng nhận đơn hàng nhập khẩu thuốc, nguyên liệu làm thuốc thú y, thuốc thú y thủy sản (trừ các đơn hàng nhập khẩu để làm mẫu nghiên cứu, khảo nghiệm, kiểm nghiệm, phi mậu dịch): 2.000.000 đồng/01 đơn hàng",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -603,14 +363,12 @@
     {
       "title": "Thông tư số 101/2020/TT-BTC ngày 23/11/2020 của Bộ trưởng Bộ Tài chính quy định về mức thu, chế độ thu, nộp, quản lý phí, lệ phí trong công tác thú y",
       "document_number": "101/2020/TT-BTC",
-      "id": "019d2bb3-5d7e-72d1-afe4-49469521812e",
-      "source_page": null
+      "source_page": 9
     },
     {
       "title": "Luật Thú y",
       "document_number": "Luật 79/2015/QH13",
-      "id": "019d2bb3-5d84-71c5-b674-c111e5b09d5c",
-      "source_page": null
+      "source_page": 9
     }
   ],
   "conditions": "",
@@ -618,14 +376,13 @@
     {
       "title": "Giấy phép nhập khẩu thuốc thú y, nguyên liệu làm thuốc thú y",
       "code": "KQ.G10.000228",
-      "id": "019d2bb2-1c4e-742c-98a1-139ab2eb2870",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "-- Bước 1: Gửi hồ sơ\nTổ chức, cá nhân có nhu cầu đề nghị cấp Giấy phép nhập khẩu thuốc thú y, nguyên liệu làm thuốc thú y chuẩn bị hồ sơ và nộp đến Cục Chăn nuôi và Thú y.\nCục Chăn nuôi và Thú y tiếp nhận và kiểm tra thành phần, tính hợp lệ của hồ sơ theo quy định.\n- Bước 2: Thẩm định hồ sơ, cấp Giấy phép nhập khẩu thuốc thú y, nguyên liệu làm thuốc thú y\nTrong thời hạn 05 (năm) ngày làm việc, Cục Chăn nuôi và Thú y xem xét cấp Giấy phép nhập khẩu; trường hợp không cấp, trả lời bằng văn bản và nêu rõ lý do.",
-    "THÀNH PHẦN HỒ SƠ": "1. Hồ sơ nhập khẩu thuốc thú y chưa có giấy chứng nhận lưu hành để phòng, chống dịch bệnh động vật khẩn cấp, khắc phục hậu quả thiên tai, gồm:\n- Giấy chứng nhận hoặc văn bản của cơ quan thẩm quyền nước sản xuất hoặc nước xuất khẩu cấp xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó hoặc giấy chứng nhận hoặc văn bản của cơ quan nhà nước có thẩm quyền quốc gia khác xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó đối với sản phẩm chưa được cấp phép lưu hành, sử dụng tại nước sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)\n- Giấy chứng nhận GMP hoặc văn bản của cơ quan nhà nước có thẩm quyền của nước sản xuất xác nhận cơ sở sản xuất đáp ứng tiêu chuẩn GMP đối với thuốc nhập khẩu hoặc Giấy chứng nhận hệ thống quản lý chất lượng (ISO) đối với thuốc thú y từ dược liệu, hóa chất, chế phẩm sinh học (trừ vắc-xin, kháng thể, KIT xét nghiệm) (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)\n- Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký); - Nhãn sản phẩm.\n- Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của doanh nghiệp với ngành nghề phù hợp của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y;\n- Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT.\n2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:\n- Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;\n- Giấy chứng nhận hoặc văn bản của cơ quan thẩm quyền nước sản xuất hoặc nước xuất khẩu cấp xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó hoặc giấy chứng nhận hoặc văn bản của cơ quan nhà nước có thẩm quyền quốc gia khác xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó đối với sản phẩm chưa được cấp phép lưu hành, sử dụng tại nước sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)\n- Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;\n- Tóm tắt đặc tính sản phẩm theo mẫu quy định tại phụ lục VIII ban hành kèm thông tư số 13/2016/TT-BNNPTNT.\n- Giấy chứng nhận GMP hoặc văn bản của cơ quan nhà nước có thẩm quyền của nước sản xuất xác nhận cơ sở sản xuất đáp ứng tiêu chuẩn GMP đối với thuốc nhập khẩu hoặc Giấy chứng nhận hệ thống quản lý chất lượng (ISO) đối với thuốc thú y từ dược liệu, hóa chất, chế phẩm sinh học (trừ vắc-xin, kháng thể, KIT xét nghiệm) (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)\n- Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y đối với tổ chức lần đầu nhập khẩu;\n3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:\n- Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y đối với tổ chức lần đầu nhập khẩu;\n- Bản sao tài liệu chứng minh mục đích nhập khẩu thuốc thú y;\n- Nhãn sản phẩm.\n- Tóm tắt đặc tính sản phẩm theo mẫu quy định tại phụ lục VIII ban hành kèm thông tư số 13/2016/TT-BNNPTNT;\n- Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;\n- Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;\n4. Hồ sơ nhập khẩu thuốc thú y để chữa bệnh đối với động vật tạm nhập tái xuất, quá cảnh lãnh thổ Việt Nam; tạm nhập tái xuất, gia công xuất khẩu theo hợp đồng đã ký với tổ chức, cá nhân nước ngoài, gồm:\n- Nhãn sản phẩm.\n- Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất\n- Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;\n- Bản sao tài liệu chứng minh mục đích nhập khẩu thuốc thú y;\n5. Hồ sơ nhập khẩu nguyên liệu, thuốc thú y, vi sinh vật để nghiên cứu sản xuất thuốc thú y, chẩn đoán, xét nghiệm, kiểm nghiệm về thú y\n- Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y đối với tổ chức lần đầu nhập khẩu;\n- Tóm tắt đặc tính sản phẩm theo mẫu quy định tại phụ lục VIII ban hành kèm thông tư số 13/2016/TT-BNNPTNT\n- Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;\n- Nhãn sản phẩm.\n- Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;\n6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác\n- Giấy chứng nhận GMP hoặc văn bản của cơ quan nhà nước có thẩm quyền của nước sản xuất xác nhận cơ sở sản xuất đáp ứng tiêu chuẩn GMP đối với thuốc nhập khẩu hoặc Giấy chứng nhận hệ thống quản lý chất lượng (ISO) đối với thuốc thú y từ dược liệu, hóa chất, chế phẩm sinh học (trừ vắc-xin, kháng thể, KIT xét nghiệm) (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)\n- Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;\n- Nhãn sản phẩm.\n- Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;\n- Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của doanh nghiệp với ngành nghề phù hợp của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y;\n- Giấy chứng nhận hoặc văn bản của cơ quan thẩm quyền nước sản xuất hoặc nước xuất khẩu cấp xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó hoặc giấy chứng nhận hoặc văn bản của cơ quan nhà nước có thẩm quyền quốc gia khác xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó đối với sản phẩm chưa được cấp phép lưu hành, sử dụng tại nước sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)\n7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:\n- Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;\n- Báo cáo số lượng, mục đích sử dụng nguyên liệu kháng sinh, địa chỉ cơ sở mua nguyên liệu kháng sinh của lô nguyên liệu kháng sinh nhập khẩu lần trước, khi nộp hồ sơ đăng ký nhập khẩu nguyên liệu kháng sinh lô hàng tiếp theo về Cục Thú y theo mẫu quy định tại Phụ lục XXXIV ban hành kèm theo Thông tư 13/2016/TT-BNNPTNT.\n- Giấy chứng nhận hoặc văn bản của cơ quan thẩm quyền nước sản xuất xác nhận nguyên liệu nhập khẩu được lưu hành hoặc sử dụng tại nước sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)\n- Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;\n- Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;\n- Bản sao giấy chứng nhận đủ điều kiệnnhập khẩu thuốcthú y của cơ sở đề nghị cấp phép nhập khẩu do Cục Thú y cấp đối với cơ sở nhập khẩu nguyên liệu làm thuốc thú y lần đầu nhập khẩu;\nTrường hợp nhập khẩu nguyên liệu làm thuốc thú y là dung môi, tá dược hồ sơ gồm:\nPhiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;\n- Giấy chứng nhận GMP hoặc văn bản của cơ quan nhà nước có thẩm quyền của nước sản xuất xác nhận cơ sở sản xuất đáp ứng tiêu chuẩn GMP hoặc Giấy chứng nhận hệ thống quản lý chất lượng (ISO) đối với nguyên liệu là hóa chất, chế phẩm sinh học (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)\n8. Hồ sơ nhập khẩu vắc xin, vi sinh vật có tên trong Danh mục thuốc thú y được phép lưu hành tại Việt Nam hoặc đã có giấy chứng nhận lưu hành tại Việt Nam gồm:\n- Đơn đăng ký nhập khẩu vắc xin, vi sinh vật theo mẫu quy định tại Phụ lục XXXIII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 5 ngày làm việc - 05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ.\nTrực tuyến: 5 ngày làm việc - 05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ.\nQua dịch vụ bưu chính: 5 ngày làm việc - 05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, hợp lệ.",
+    "THÀNH PHẦN HỒ SƠ": "1. Hồ sơ nhập khẩu thuốc thú y chưa có giấy chứng nhận lưu hành để phòng, chống dịch bệnh động vật khẩn cấp, khắc phục hậu quả thiên tai, gồm:: - Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT.\n2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:: - Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;\n2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:: - Tóm tắt đặc tính sản phẩm theo mẫu quy định tại phụ lục VIII ban hành kèm thông tư số 13/2016/TT-BNNPTNT.\n3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:: - Tóm tắt đặc tính sản phẩm theo mẫu quy định tại phụ lục VIII ban hành kèm thông tư số 13/2016/TT-BNNPTNT;\n3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:: - Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;\n4. Hồ sơ nhập khẩu thuốc thú y để chữa bệnh đối với động vật tạm nhập tái xuất, quá cảnh lãnh thổ Việt Nam; tạm nhập tái xuất, gia công xuất khẩu theo hợp đồng đã ký với tổ chức, cá nhân nước ngoài, gồm:: - Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;\n5. Hồ sơ nhập khẩu nguyên liệu, thuốc thú y, vi sinh vật để nghiên cứu sản xuất thuốc thú y, chẩn đoán, xét nghiệm, kiểm nghiệm về thú y: - Tóm tắt đặc tính sản phẩm theo mẫu quy định tại phụ lục VIII ban hành kèm thông tư số 13/2016/TT-BNNPTNT\n5. Hồ sơ nhập khẩu nguyên liệu, thuốc thú y, vi sinh vật để nghiên cứu sản xuất thuốc thú y, chẩn đoán, xét nghiệm, kiểm nghiệm về thú y: - Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;\n6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác: - Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;\n7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:: - Báo cáo số lượng, mục đích sử dụng nguyên liệu kháng sinh, địa chỉ cơ sở mua nguyên liệu kháng sinh của lô nguyên liệu kháng sinh nhập khẩu lần trước, khi nộp hồ sơ đăng ký nhập khẩu nguyên liệu kháng sinh lô hàng tiếp theo về Cục Thú y theo mẫu quy định tại Phụ lục XXXIV ban hành kèm theo Thông tư 13/2016/TT-BNNPTNT.\n7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:: - Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;\n8. Hồ sơ nhập khẩu vắc xin, vi sinh vật có tên trong Danh mục thuốc thú y được phép lưu hành tại Việt Nam hoặc đã có giấy chứng nhận lưu hành tại Việt Nam gồm:: - Đơn đăng ký nhập khẩu vắc xin, vi sinh vật theo mẫu quy định tại Phụ lục XXXIII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;\n1. Hồ sơ nhập khẩu thuốc thú y chưa có giấy chứng nhận lưu hành để phòng, chống dịch bệnh động vật khẩn cấp, khắc phục hậu quả thiên tai, gồm:: - Giấy chứng nhận hoặc văn bản của cơ quan thẩm quyền nước sản xuất hoặc nước xuất khẩu cấp xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó hoặc giấy chứng nhận hoặc văn bản của cơ quan nhà nước có thẩm quyền quốc gia khác xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó đối với sản phẩm chưa được cấp phép lưu hành, sử dụng tại nước sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)\n1. Hồ sơ nhập khẩu thuốc thú y chưa có giấy chứng nhận lưu hành để phòng, chống dịch bệnh động vật khẩn cấp, khắc phục hậu quả thiên tai, gồm:: - Giấy chứng nhận GMP hoặc văn bản của cơ quan nhà nước có thẩm quyền của nước sản xuất xác nhận cơ sở sản xuất đáp ứng tiêu chuẩn GMP đối với thuốc nhập khẩu hoặc Giấy chứng nhận hệ thống quản lý chất lượng (ISO) đối với thuốc thú y từ dược liệu, hóa chất, chế phẩm sinh học (trừ vắc-xin, kháng thể, KIT xét nghiệm) (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)\n1. Hồ sơ nhập khẩu thuốc thú y chưa có giấy chứng nhận lưu hành để phòng, chống dịch bệnh động vật khẩn cấp, khắc phục hậu quả thiên tai, gồm:: - Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký); - Nhãn sản phẩm.\n1. Hồ sơ nhập khẩu thuốc thú y chưa có giấy chứng nhận lưu hành để phòng, chống dịch bệnh động vật khẩn cấp, khắc phục hậu quả thiên tai, gồm:: - Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của doanh nghiệp với ngành nghề phù hợp của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y;\n2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:: - Giấy chứng nhận hoặc văn bản của cơ quan thẩm quyền nước sản xuất hoặc nước xuất khẩu cấp xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó hoặc giấy chứng nhận hoặc văn bản của cơ quan nhà nước có thẩm quyền quốc gia khác xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó đối với sản phẩm chưa được cấp phép lưu hành, sử dụng tại nước sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)\n2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:: - Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;\n2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:: - Giấy chứng nhận GMP hoặc văn bản của cơ quan nhà nước có thẩm quyền của nước sản xuất xác nhận cơ sở sản xuất đáp ứng tiêu chuẩn GMP đối với thuốc nhập khẩu hoặc Giấy chứng nhận hệ thống quản lý chất lượng (ISO) đối với thuốc thú y từ dược liệu, hóa chất, chế phẩm sinh học (trừ vắc-xin, kháng thể, KIT xét nghiệm) (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)\n2. Hồ sơ nhập khẩu mẫu thuốc thú y để kiểm nghiệm, khảo nghiệm, đăng ký lưu hành, gồm:: - Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y đối với tổ chức lần đầu nhập khẩu;\n3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:: - Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y đối với tổ chức lần đầu nhập khẩu;\n3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:: - Bản sao tài liệu chứng minh mục đích nhập khẩu thuốc thú y;\n3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:: - Nhãn sản phẩm.\n3. Hồ sơ nhập khẩu thuốc thú y để tham gia trưng bày triển lãm, hội chợ, nghiên cứu khoa học,phòng bệnh cho động vật quý hiếm gồm:: - Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;\n4. Hồ sơ nhập khẩu thuốc thú y để chữa bệnh đối với động vật tạm nhập tái xuất, quá cảnh lãnh thổ Việt Nam; tạm nhập tái xuất, gia công xuất khẩu theo hợp đồng đã ký với tổ chức, cá nhân nước ngoài, gồm:: - Nhãn sản phẩm.\n4. Hồ sơ nhập khẩu thuốc thú y để chữa bệnh đối với động vật tạm nhập tái xuất, quá cảnh lãnh thổ Việt Nam; tạm nhập tái xuất, gia công xuất khẩu theo hợp đồng đã ký với tổ chức, cá nhân nước ngoài, gồm:: - Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất\n4. Hồ sơ nhập khẩu thuốc thú y để chữa bệnh đối với động vật tạm nhập tái xuất, quá cảnh lãnh thổ Việt Nam; tạm nhập tái xuất, gia công xuất khẩu theo hợp đồng đã ký với tổ chức, cá nhân nước ngoài, gồm:: - Bản sao tài liệu chứng minh mục đích nhập khẩu thuốc thú y;\n5. Hồ sơ nhập khẩu nguyên liệu, thuốc thú y, vi sinh vật để nghiên cứu sản xuất thuốc thú y, chẩn đoán, xét nghiệm, kiểm nghiệm về thú y: - Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y đối với tổ chức lần đầu nhập khẩu;\n5. Hồ sơ nhập khẩu nguyên liệu, thuốc thú y, vi sinh vật để nghiên cứu sản xuất thuốc thú y, chẩn đoán, xét nghiệm, kiểm nghiệm về thú y: - Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;\n5. Hồ sơ nhập khẩu nguyên liệu, thuốc thú y, vi sinh vật để nghiên cứu sản xuất thuốc thú y, chẩn đoán, xét nghiệm, kiểm nghiệm về thú y: - Nhãn sản phẩm.\n6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác: - Giấy chứng nhận GMP hoặc văn bản của cơ quan nhà nước có thẩm quyền của nước sản xuất xác nhận cơ sở sản xuất đáp ứng tiêu chuẩn GMP đối với thuốc nhập khẩu hoặc Giấy chứng nhận hệ thống quản lý chất lượng (ISO) đối với thuốc thú y từ dược liệu, hóa chất, chế phẩm sinh học (trừ vắc-xin, kháng thể, KIT xét nghiệm) (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)\n6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác: - Nhãn sản phẩm.\n6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác: - Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;\n6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác: - Bản sao giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp hoặc giấy phép đầu tư của doanh nghiệp với ngành nghề phù hợp của tổ chức, cá nhân đề nghị cấp giấy phép nhập khẩu thuốc thú y;\n6. Hồ sơ nhập khẩu thuốc thú y viện trợ của các tổ chức quốc tế và các hình thức nhập khẩu phi mậu dịch khác: - Giấy chứng nhận hoặc văn bản của cơ quan thẩm quyền nước sản xuất hoặc nước xuất khẩu cấp xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó hoặc giấy chứng nhận hoặc văn bản của cơ quan nhà nước có thẩm quyền quốc gia khác xác nhận sản phẩm được phép lưu hành hoặc sử dụng tại quốc gia đó đối với sản phẩm chưa được cấp phép lưu hành, sử dụng tại nước sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)\n7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:: - Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;\n7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:: - Giấy chứng nhận hoặc văn bản của cơ quan thẩm quyền nước sản xuất xác nhận nguyên liệu nhập khẩu được lưu hành hoặc sử dụng tại nước sản xuất (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)\n7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:: - Đơn đăng ký nhập khẩu thuốc thú y theo mẫu quy định tại Phụ lục XXXII ban hành kèm theo Thông tư số 13/2016/TT-BNNPTNT;\n7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:: - Bản sao giấy chứng nhận đủ điều kiệnnhập khẩu thuốcthú y của cơ sở đề nghị cấp phép nhập khẩu do Cục Thú y cấp đối với cơ sở nhập khẩu nguyên liệu làm thuốc thú y lần đầu nhập khẩu;\n7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:: Trường hợp nhập khẩu nguyên liệu làm thuốc thú y là dung môi, tá dược hồ sơ gồm:\n7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:: Phiếu phân tích chất lượng sản phẩm (CoA) của nhà sản xuất;\n7. Hồ sơ nhập khẩu nguyên liệu làm thuốc thú y gồm:: - Giấy chứng nhận GMP hoặc văn bản của cơ quan nhà nước có thẩm quyền của nước sản xuất xác nhận cơ sở sản xuất đáp ứng tiêu chuẩn GMP hoặc Giấy chứng nhận hệ thống quản lý chất lượng (ISO) đối với nguyên liệu là hóa chất, chế phẩm sinh học (bản chính hoặc bản chụp có đóng dấu xác nhận của doanh nghiệp đăng ký)",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 5 ngày làm việc\nTrực tuyến: 5 ngày làm việc\nQua dịch vụ bưu chính: 5 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Thông tư số 101/2020/TT-BTC ngày 23/11/2020 của Bộ trưởng Bộ Tài chính quy định về mức thu, chế độ thu, nộp, quản lý phí, lệ phí trong công tác thú y - 101/2020/TT-BTC\nLuật Thú y - Luật 79/2015/QH13",
     "CƠ QUAN THỰC HIỆN": "Cục Chăn nuôi và Thú y - Bộ NN và MT",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
@@ -634,11 +391,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Sức khỏe và y tế",
-      "slug": "suc-khoe-va-y-te",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thú y",
       "slug": "thu-y"
@@ -656,7 +408,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -677,6 +429,6 @@
         "slug": "cuc-chan-nuoi-va-thu-y-bo-nn-va-mt"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

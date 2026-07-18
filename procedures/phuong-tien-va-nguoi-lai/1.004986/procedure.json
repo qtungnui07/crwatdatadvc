@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfe-51d5-757f-b5c5-92afb4aa936b",
   "procedure_code": "1.004986",
   "title": "Sửa đổi Giấy chứng nhận phê chuẩn Tổ chức bảo dưỡng tàu bay (AMO)",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-51d5-757f-b5c5-92afb4aa936b",
     "source_file": "chi-tiet-thu-tuc-1.004986.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.004986/chi-tiet-thu-tuc-1.004986.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:02.702723+00:00",
-    "source_updated_at": "2026-04-16T12:39:02.055Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:47.545586+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "64841d8f58787ee6d69af3ac90260d0be9c9c212e77ec75dde89188811f42c39"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:02.702723+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1613/QĐ-BGTVT",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hàng không",
   "target_users": [
@@ -38,25 +34,22 @@
   ],
   "agency": {
     "competent_agency": "Cục Hàng không Việt Nam",
-    "executing_agency": "Cục Hàng không Việt Nam",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "119 Nguyễn Sơn, phường Bồ Đề, thành phố Hà Nội"
+    "executing_agency": "Cục Hàng không Việt Nam"
   },
   "steps": [
     {
       "order": 1,
       "title": "Nộp hồ sơ TTHC",
-      "description": "AMO đề nghị sửa đổi giấy chứng nhận phê chuẩn Tổ chức bảo dưỡng tàu bay gửi 01 bộ hồ sơ trực tiếp hoặc qua đường bưu chính đến Cục Hàng không Việt Nam.\n",
+      "description": "AMO đề nghị sửa đổi giấy chứng nhận phê chuẩn Tổ chức bảo dưỡng tàu bay gửi 01 bộ hồ sơ trực tiếp hoặc qua đường bưu chính đến Cục Hàng không Việt Nam.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 2,
       "title": "Giải quyết TTHC:",
-      "description": "Cục Hàng không Việt Nam sửa đổi Giấy chứng nhận phê chuẩn của AMO trong thời hạn 7 ngày làm việc, kể từ ngày AMO thông báo các thay đổi.\nCục Hàng không Việt Nam cấp Giấy chứng nhận phê chuẩn AMO mới khi sửa đổi Giấy chứng nhận phê chuẩn AMO vì lý do thay đổi chủ sở hữu của AMO.\nCục Hàng không Việt Nam có thể trì hoãn việc cấp Giấy chứng nhận AMO trong trường hợp có dấu hiệu chưa đủ điều kiện để cấp và phải thông báo bằng văn bản cho AMO về lý do của sự trì hoãn đó.\nCục Hàng không Việt Nam có thể đình chỉ hiệu lực của Giấy chứng nhận phê chuẩn nếu AMO không thực hiện thông báo các thay đổi trên cho Cục Hàng không Việt Nam .\n",
+      "description": "Cục Hàng không Việt Nam sửa đổi Giấy chứng nhận phê chuẩn của AMO trong thời hạn 7 ngày làm việc, kể từ ngày AMO thông báo các thay đổi.\nCục Hàng không Việt Nam cấp Giấy chứng nhận phê chuẩn AMO mới khi sửa đổi Giấy chứng nhận phê chuẩn AMO vì lý do thay đổi chủ sở hữu của AMO.\nCục Hàng không Việt Nam có thể trì hoãn việc cấp Giấy chứng nhận AMO trong trường hợp có dấu hiệu chưa đủ điều kiện để cấp và phải thông báo bằng văn bản cho AMO về lý do của sự trì hoãn đó.\nCục Hàng không Việt Nam có thể đình chỉ hiệu lực của Giấy chứng nhận phê chuẩn nếu AMO không thực hiện thông báo các thay đổi trên cho Cục Hàng không Việt Nam .",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -65,21 +58,15 @@
     "conditional": [
       {
         "name": "Công văn thông báo cho Cục Hàng không Việt Nam về các thay đổi;",
-        "code": "000.00.00.G04-KQ004308",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Các sửa đổi đối với tài liệu giải trình tổ chức bảo dưỡng.",
-        "code": "000.00.00.G04-KQ004309",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -88,60 +75,37 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 15000000,
-          "currency": "VND",
-          "description": "đông/lần cấp Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC",
-          "attachment": null
-        }
-      ],
+      "fee": "đông/lần cấp Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC",
       "description": "07 ngày làm việc sau khi nhận đủ hồ sơ theo quy định.",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 15000000,
-          "currency": "VND",
-          "description": "đồng/lần cấp (Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC",
-          "attachment": null
-        }
-      ],
+      "fee": "đồng/lần cấp (Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC",
       "description": "07 ngày làm việc sau khi nhận đủ hồ sơ theo quy định.",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "đông/lần cấp Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC; đồng/lần cấp (Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 15000000,
-        "currency": "VND",
-        "description": "đông/lần cấp Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC",
-        "attachment": null
+        "amount_text": "đông/lần cấp Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 15000000,
-        "currency": "VND",
-        "description": "đồng/lần cấp (Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC",
-        "attachment": null
+        "amount_text": "đồng/lần cấp (Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -149,38 +113,32 @@
     {
       "title": "LUẬT HÀNG KHÔNG DÂN DỤNG VIỆT NAM",
       "document_number": "130/2025/QH15",
-      "id": "019d2bb3-5d84-71c5-b673-eb8f88e8cb17",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Luật 61/2014/QH13",
       "document_number": "61/2014/QH13",
-      "id": "019d2bb3-5d84-71c5-b670-c71b96f6d323",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Ban hành Bộ quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay",
       "document_number": "01/2011/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9efc-64166e2f4b36",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Thông tư số 01/2011/TT-BGTVT ngày 27 tháng 01 năm 2011 của Bộ trưởng Bộ Giao thông vận tải ban hành Bộ Quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay",
       "document_number": "03/2016/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9efc-7cb4244dc2af",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Thông tư số 01/2011/TT-BGTVT ngày 27 tháng 01 năm 2011 của Bộ trưởng Bộ Giao thông vận tải ban hành Bộ Quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay và Thông tư số 03/2016/TT-BGTVT ngày 31 tháng 3 năm 2016 của Bộ trưởng Bộ Giao thông vận tải sửa đổi, bổ sung một số điều của Thông tư số 21/2011/TT-BGTVT ngày 27 tháng 01 năm 2011 của Bộ trưởng Bộ Giao thông vận tải ban hành Bộ Quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay",
       "document_number": "21/2017/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9efd-6c2516913cbd",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Bộ Quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay ban hành kèm theo Thông tư số 01/2011/TT-BGTVT ngày 27/01/2011 của Bộ trưởng Bộ GTVT và các Thông tư sửa đổi, bổ sung Thông tư số 01/2011/TT-BGTVT ngày 27/01/2011 của Bộ trưởng Bộ GTVT",
       "document_number": "Thông tư 09/2023/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9eff-b80025beae52",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "Chỉ thực hiện thủ tục khi Giấy chứng nhận phê chuẩn tổ chức bảo dưỡng còn hiệu lực.",
@@ -188,14 +146,13 @@
     {
       "title": "Giấy chứng nhận phê chuẩn Tổ chức bảo dưỡng tàu bay (AMO)",
       "code": "KQ.G04.000376",
-      "id": "019d2bb2-1c3c-7215-a27c-1aa5b3509b20",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "AMO đề nghị sửa đổi giấy chứng nhận phê chuẩn Tổ chức bảo dưỡng tàu bay gửi 01 bộ hồ sơ trực tiếp hoặc qua đường bưu chính đến Cục Hàng không Việt Nam.\n\nCục Hàng không Việt Nam sửa đổi Giấy chứng nhận phê chuẩn của AMO trong thời hạn 7 ngày làm việc, kể từ ngày AMO thông báo các thay đổi.\nCục Hàng không Việt Nam cấp Giấy chứng nhận phê chuẩn AMO mới khi sửa đổi Giấy chứng nhận phê chuẩn AMO vì lý do thay đổi chủ sở hữu của AMO.\nCục Hàng không Việt Nam có thể trì hoãn việc cấp Giấy chứng nhận AMO trong trường hợp có dấu hiệu chưa đủ điều kiện để cấp và phải thông báo bằng văn bản cho AMO về lý do của sự trì hoãn đó.\nCục Hàng không Việt Nam có thể đình chỉ hiệu lực của Giấy chứng nhận phê chuẩn nếu AMO không thực hiện thông báo các thay đổi trên cho Cục Hàng không Việt Nam .\n",
-    "THÀNH PHẦN HỒ SƠ": "\nCông văn thông báo cho Cục Hàng không Việt Nam về các thay đổi;\nCác sửa đổi đối với tài liệu giải trình tổ chức bảo dưỡng.",
-    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 7 ngày làm việc - 07 ngày làm việc sau khi nhận đủ hồ sơ theo quy định.\nTrực tiếp: 7 ngày làm việc - 07 ngày làm việc sau khi nhận đủ hồ sơ theo quy định.",
+    "TRÌNH TỰ THỰC HIỆN": "AMO đề nghị sửa đổi giấy chứng nhận phê chuẩn Tổ chức bảo dưỡng tàu bay gửi 01 bộ hồ sơ trực tiếp hoặc qua đường bưu chính đến Cục Hàng không Việt Nam.\nCục Hàng không Việt Nam sửa đổi Giấy chứng nhận phê chuẩn của AMO trong thời hạn 7 ngày làm việc, kể từ ngày AMO thông báo các thay đổi.\nCục Hàng không Việt Nam cấp Giấy chứng nhận phê chuẩn AMO mới khi sửa đổi Giấy chứng nhận phê chuẩn AMO vì lý do thay đổi chủ sở hữu của AMO.\nCục Hàng không Việt Nam có thể trì hoãn việc cấp Giấy chứng nhận AMO trong trường hợp có dấu hiệu chưa đủ điều kiện để cấp và phải thông báo bằng văn bản cho AMO về lý do của sự trì hoãn đó.\nCục Hàng không Việt Nam có thể đình chỉ hiệu lực của Giấy chứng nhận phê chuẩn nếu AMO không thực hiện thông báo các thay đổi trên cho Cục Hàng không Việt Nam .",
+    "THÀNH PHẦN HỒ SƠ": "Công văn thông báo cho Cục Hàng không Việt Nam về các thay đổi;\nCác sửa đổi đối với tài liệu giải trình tổ chức bảo dưỡng.",
+    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 7 ngày làm việc\nTrực tiếp: 7 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "LUẬT HÀNG KHÔNG DÂN DỤNG VIỆT NAM - 130/2025/QH15\nLuật 61/2014/QH13 - 61/2014/QH13\nBan hành Bộ quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay - 01/2011/TT-BGTVT\nSửa đổi, bổ sung một số điều của Thông tư số 01/2011/TT-BGTVT ngày 27 tháng 01 năm 2011 của Bộ trưởng Bộ Giao thông vận tải ban hành Bộ Quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay - 03/2016/TT-BGTVT\nSửa đổi, bổ sung một số điều của Thông tư số 01/2011/TT-BGTVT ngày 27 tháng 01 năm 2011 của Bộ trưởng Bộ Giao thông vận tải ban hành Bộ Quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay và Thông tư số 03/2016/TT-BGTVT ngày 31 tháng 3 năm 2016 của Bộ trưởng Bộ Giao thông vận tải sửa đổi, bổ sung một số điều của Thông tư số 21/2011/TT-BGTVT ngày 27 tháng 01 năm 2011 của Bộ trưởng Bộ Giao thông vận tải ban hành Bộ Quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay - 21/2017/TT-BGTVT\nSửa đổi, bổ sung một số điều của Bộ Quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay ban hành kèm theo Thông tư số 01/2011/TT-BGTVT ngày 27/01/2011 của Bộ trưởng Bộ GTVT và các Thông tư sửa đổi, bổ sung Thông tư số 01/2011/TT-BGTVT ngày 27/01/2011 của Bộ trưởng Bộ GTVT - Thông tư 09/2023/TT-BGTVT",
     "CƠ QUAN THỰC HIỆN": "Cục Hàng không Việt Nam",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Chỉ thực hiện thủ tục khi Giấy chứng nhận phê chuẩn tổ chức bảo dưỡng còn hiệu lực.",
@@ -204,11 +161,6 @@
     "MÔ TẢ": "Chỉ thực hiện thủ tục khi Giấy chứng nhận phê chuẩn tổ chức bảo dưỡng còn hiệu lực."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hàng không",
       "slug": "hang-khong"
@@ -234,7 +186,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -243,6 +195,6 @@
         "slug": "cuc-hang-khong-viet-nam"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfe-6969-7309-beb8-559700c3087e",
   "procedure_code": "1.009453",
   "title": "Thỏa thuận thông số kỹ thuật xây dựng bến khách ngang sông, bến thủy nội địa phục vụ thi công công trình chính",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-6969-7309-beb8-559700c3087e",
     "source_file": "chi-tiet-thu-tuc-1.009453.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.009453/chi-tiet-thu-tuc-1.009453.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:04.980373+00:00",
-    "source_updated_at": "2026-05-05T09:08:01.741Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:49.313055+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "051b6dca284b31d95a9ffa3c184a927f106687787dd9d043d3e80bb76122247d"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:04.980373+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "123/QĐ-CHHĐTVN",
   "implementation_level": "Cấp xã",
-  "implementation_levels": [
-    "Cấp xã"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hàng hải và đường thủy nội địa",
   "target_users": [
@@ -42,55 +38,40 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ủy ban nhân dân cấp xã",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ủy ban nhân dân cấp xã"
   },
   "steps": [
     {
       "order": 1,
       "title": "a) Nộp hồ sơ TTHC:",
-      "description": "Chủ đầu tư nộp 01 bộ hồ sơ đến Ủy ban nhân dân cấp xã.\n",
+      "description": "Chủ đầu tư nộp 01 bộ hồ sơ đến Ủy ban nhân dân cấp xã.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 2,
       "title": "b) Giải quyết TTHC:",
-      "description": "Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định, Ủy ban nhân dân cấp xã ban hành văn bản thỏa thuận thông số kỹ thuật xây dựng bến gửi chủ đầu tư.\n",
+      "description": "Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định, Ủy ban nhân dân cấp xã ban hành văn bản thỏa thuận thông số kỹ thuật xây dựng bến gửi chủ đầu tư.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "- Đơn đề nghị thỏa thuận xây dựng bến thủy nội địa theo Mẫu số 10 tại Phụ lục ban hành kèm theo Nghị định số 08/2021/NĐ-CP",
-        "code": "000.00.00.G04-KQ3259",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019df764-b92e-7216-a1c9-c2c3101989d4",
-            "name": "Mẫu Đơn đề nghị thỏa thuận thông số kỹ thuật xây dựng bến thủy nội địa.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu Đơn đề nghị thỏa thuận thông số kỹ thuật xây dựng bến thủy nội địa.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "- Bản vẽ mặt bằng vị trí dự kiến xây dựng bến thủy nội địa: Thể hiện địa danh, vị trí công trình lân cận, vùng đất, vùng nước trước bến, lý trình (km) sông, kênh, rạch.",
-        "code": "000.00.00.G04-KQ3260",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -99,35 +80,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -135,51 +96,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -187,26 +133,22 @@
     {
       "title": "Quy định về quản lý hoạt động đường thủy nội địa",
       "document_number": "08/2021/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe7-a8368c489fef",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Xây dựng",
       "document_number": "140/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-f01696ee65ca",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Nghị định số 08/2021/NĐ-CP ngày 28 tháng 01 năm 2021 của Chính phủ quy định về quản lý hoạt động đường thủy nội địa",
       "document_number": "06/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe7-618d550793cd",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị quyết số 24/2026/NQ-CP ngày 29/4/2026 của Chính phủ cắt giảm, phân cấp, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh lĩnh vực quốc phòng, nội vụ, tài chính, xây dựng, ngoại giao, tư pháp, ngân hàng.",
-      "document_number": "24/2026/NQ-CP ",
-      "id": "019df74b-16d5-72ef-81f7-3f224a29c89e",
-      "source_page": null
+      "document_number": "24/2026/NQ-CP",
+      "source_page": 2
     }
   ],
   "conditions": "",
@@ -214,15 +156,14 @@
     {
       "title": "Văn bản thỏa thuận thông số kỹ thuật xây dựng bến.",
       "code": "000.00.00.G04-KQ3347",
-      "id": "019d966f-c5ee-7719-afa3-cc1b5a8c0ab0",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Chủ đầu tư nộp 01 bộ hồ sơ đến Ủy ban nhân dân cấp xã.\n\nTrong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định, Ủy ban nhân dân cấp xã ban hành văn bản thỏa thuận thông số kỹ thuật xây dựng bến gửi chủ đầu tư.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n- Bản vẽ mặt bằng vị trí dự kiến xây dựng bến thủy nội địa: Thể hiện địa danh, vị trí công trình lân cận, vùng đất, vùng nước trước bến, lý trình (km) sông, kênh, rạch.\n- Đơn đề nghị thỏa thuận xây dựng bến thủy nội địa theo Mẫu số 10 tại Phụ lục ban hành kèm theo Nghị định số 08/2021/NĐ-CP",
+    "TRÌNH TỰ THỰC HIỆN": "Chủ đầu tư nộp 01 bộ hồ sơ đến Ủy ban nhân dân cấp xã.\nTrong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định, Ủy ban nhân dân cấp xã ban hành văn bản thỏa thuận thông số kỹ thuật xây dựng bến gửi chủ đầu tư.",
+    "THÀNH PHẦN HỒ SƠ": "- Đơn đề nghị thỏa thuận xây dựng bến thủy nội địa theo Mẫu số 10 tại Phụ lục ban hành kèm theo Nghị định số 08/2021/NĐ-CP\n- Bản vẽ mặt bằng vị trí dự kiến xây dựng bến thủy nội địa: Thể hiện địa danh, vị trí công trình lân cận, vùng đất, vùng nước trước bến, lý trình (km) sông, kênh, rạch.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 5 ngày làm việc\nQua dịch vụ bưu chính: 5 ngày làm việc\nTrực tiếp: 5 ngày làm việc",
-    "CĂN CỨ PHÁP LÝ": "Quy định về quản lý hoạt động đường thủy nội địa - 08/2021/NĐ-CP\nQuy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Xây dựng - 140/2025/NĐ-CP\nSửa đổi, bổ sung một số điều của Nghị định số 08/2021/NĐ-CP ngày 28 tháng 01 năm 2021 của Chính phủ quy định về quản lý hoạt động đường thủy nội địa - 06/2024/NĐ-CP\nNghị quyết số 24/2026/NQ-CP ngày 29/4/2026 của Chính phủ cắt giảm, phân cấp, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh lĩnh vực quốc phòng, nội vụ, tài chính, xây dựng, ngoại giao, tư pháp, ngân hàng. - 24/2026/NQ-CP ",
+    "CĂN CỨ PHÁP LÝ": "Quy định về quản lý hoạt động đường thủy nội địa - 08/2021/NĐ-CP\nQuy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Xây dựng - 140/2025/NĐ-CP\nSửa đổi, bổ sung một số điều của Nghị định số 08/2021/NĐ-CP ngày 28 tháng 01 năm 2021 của Chính phủ quy định về quản lý hoạt động đường thủy nội địa - 06/2024/NĐ-CP\nNghị quyết số 24/2026/NQ-CP ngày 29/4/2026 của Chính phủ cắt giảm, phân cấp, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh lĩnh vực quốc phòng, nội vụ, tài chính, xây dựng, ngoại giao, tư pháp, ngân hàng. - 24/2026/NQ-CP",
     "CƠ QUAN THỰC HIỆN": "Ủy ban nhân dân cấp xã",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
     "KẾT QUẢ XỬ LÝ": "Văn bản thỏa thuận thông số kỹ thuật xây dựng bến. - 000.00.00.G04-KQ3347",
@@ -230,14 +171,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hàng hải và đường thủy nội địa",
-      "slug": "hang-hai-va-duong-thuy-noi-dia"
+      "slug": "hang-hai-va-uong-thuy-noi-ia"
     },
     "implementation_levels": [
       {
@@ -276,7 +212,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -285,6 +221,6 @@
         "slug": "uy-ban-nhan-dan-cap-xa"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

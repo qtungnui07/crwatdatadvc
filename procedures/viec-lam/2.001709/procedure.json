@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf7-ae0b-76da-887b-90fa05104b46",
   "procedure_code": "2.001709",
   "title": "Tuyển lao động hợp đồng trong Công an nhân dân (thực hiện tại cấp tỉnh)",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-ae0b-76da-887b-90fa05104b46",
     "source_file": "chi-tiet-thu-tuc-2.001709.pdf",
     "source_path": "procedures/viec-lam/2.001709/chi-tiet-thu-tuc-2.001709.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:21.616726+00:00",
-    "source_updated_at": "2026-05-01T08:15:33.191Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:17.951709+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "a46355a436d22dcebf45f0f8510ec8d0a824c6190344d4a770bb3d44571f31e8"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:21.616726+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "QĐ/0001-BCA",
   "implementation_level": "Cấp tỉnh, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Tổ chức, cán bộ",
   "target_users": [
@@ -36,81 +31,79 @@
   ],
   "agency": {
     "competent_agency": "Công an cấp Tỉnh",
-    "executing_agency": "Công an cấp Tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Tại cơ quan tuyển lao động thuộc Công an, tỉnh, thành phố trực thuộc Trung ương.\n"
+    "executing_agency": "Công an cấp Tỉnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Thông báo trên phương tiện thông tin đại chúng hoặc niêm yết công khai tại trụ sở làm việc về nhu cầu tuyển  lao động.\nBước 2: Người lao động nộp hồ sơ cho Cơ quan tổ chức tại đơn vị cần tuyển lao động.\nBước 3: Nghiên cứu hồ sơ của người lao động, gặp trực tiếp để trao đổi tìm hiểu tâm tư, nguyện vọng của người lao động.\nBước 4: Xét, tuyển lao động: Dựa trên các yêu cầu, tiêu chuẩn, điều kiện, đơn vị quyết định đủ điều kiện hay không đủ điều kiện. Nếu không đủ điều kiện thì trả lại hồ sơ. Nếu đủ điều kiện thì tiến hành thẩm tra lý lịch  đối với người lao động.\n+ Trường hợp ký kết hợp đồng lao động không xác định thời hạn (hưởng lương ngân sách) thì đơn vị tiến hành thẩm tra lý lịch đối với người lao động.\n+ Trường hợp ký kết hợp đồng lao động xác định thời hạn từ đủ 12 đến 36 tháng thì đơn vị lấy xác nhận của ông an cấp huyện và sơ yếu lý lịch của người lao động.\nBước 5: Tiến hành thoả thuận về việc làm thử, thời gian thử việc và ký kết hợp đồng lao động theo quy định.\n",
+      "description": "Bước 1: Thông báo trên phương tiện thông tin đại chúng hoặc niêm yết công khai tại trụ sở làm việc về nhu cầu tuyển  lao động.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Người lao động nộp hồ sơ cho Cơ quan tổ chức tại đơn vị cần tuyển lao động.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Nghiên cứu hồ sơ của người lao động, gặp trực tiếp để trao đổi tìm hiểu tâm tư, nguyện vọng của người lao động.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "Bước 4: Xét, tuyển lao động: Dựa trên các yêu cầu, tiêu chuẩn, điều kiện, đơn vị quyết định đủ điều kiện hay không đủ điều kiện. Nếu không đủ điều kiện thì trả lại hồ sơ. Nếu đủ điều kiện thì tiến hành thẩm tra lý lịch  đối với người lao động.\n+ Trường hợp ký kết hợp đồng lao động không xác định thời hạn (hưởng lương ngân sách) thì đơn vị tiến hành thẩm tra lý lịch đối với người lao động.\n+ Trường hợp ký kết hợp đồng lao động xác định thời hạn từ đủ 12 đến 36 tháng thì đơn vị lấy xác nhận của ông an cấp huyện và sơ yếu lý lịch của người lao động.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 5,
+      "title": "Bước 5",
+      "description": "Bước 5: Tiến hành thoả thuận về việc làm thử, thời gian thử việc và ký kết hợp đồng lao động theo quy định.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Sơ yếu lý lịch, có dán ảnh kiểu chứng minh nhân dân cỡ 4x6cm, KHÔNG CẦN XÁC NHẬN CỦA UBND CẤP XÃ NƠI ĐĂNG KÝ NƠI ĐĂNG KÝ THƯỜNG TRÚ,",
-        "code": "000.00.00.G01-KQ002390",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dcf97-1f32-74dc-a61b-8913a4390798",
-            "name": "33-Mẫu số 02-Sơ yếu lý lịch.doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "33-Mẫu số 02-Sơ yếu lý lịch.doc",
+        "source_page": 2
       },
       {
         "name": "Đơn xin ký kết hợp đồng lao động, người lao động trong Công an nhân dân.",
-        "code": "000.00.00.G01-KQ0707",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dcf96-2240-7349-ad03-b77ac1eca891",
-            "name": "32-Mẫu số 01-Đơn ký kết LĐHĐ CAND.doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "32-Mẫu số 01-Đơn ký kết LĐHĐ CAND.doc",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Nếu là cán bộ, công chức nhà nước đang công tác thì phải được sự đồng ý bằng văn bản của cơ quan chủ quản và có nhận xét  cán bộ (về phẩm chất, đạo đức, trình độ chuyên môn…), các chứng chỉ về chuyên môn nghiệp vụ có liên quan đến công việc. Nếu là học sinh tốt nghiệp các trường đào tạo thì phải có bằng tốt nghiệp hoặc chứng chỉ nghề. Nếu đã ký kết hợp đồng lao động ở các đơn vị, công ty thì phải có Sổ lao động, Sổ bảo hiểm xã hội.",
-        "code": "000.00.00.G01-KQ0962",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Giấy khai sinh có chứng nhận của UBND cấp xã.",
-        "code": "000.00.00.G01-KQ0718",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Giấy chứng nhận sức khỏe.",
-        "code": "000.00.00.G01-KQ0963",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -119,14 +112,13 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "0",
-      "processing_time_value": 0,
-      "processing_time_unit": "OTHER",
-      "fees": [],
+      "fee": null,
       "description": "Theo thông báo của cơ quan sử dụng lao động thuộc tổ chức cán bộCông an, Cảnh sát Phòng cháy và chữa cháy tỉnh, thành phố trực thuộc Trung ương.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -135,20 +127,17 @@
     {
       "title": "Bộ Luật lao động",
       "document_number": "45/2019/QH14",
-      "id": "019d2bb3-5d84-71c5-b673-3e33a4649d19",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "QUY ĐỊNH CHI TIẾT VÀ HƯỚNG DẪN THI HÀNH MỘT SỐ ĐIỀU CỦA BỘ LUẬT LAO ĐỘNG VỀ ĐIỀU KIỆN LAO ĐỘNG VÀ QUAN HỆ LAO ĐỘNG",
       "document_number": "145/2020/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-30a429fcb029",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư 22/2022/TT-BCA",
       "document_number": "22/2022/TT-BCA",
-      "id": "019d2bb3-5d86-7760-a644-a20721d6784f",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Người lao động, phải đáp ứng được các yêu cầu sau:\na) Là công dân nước Cộng hoà xã hội chủ nghĩa Việt Nam, có địa chỉ thường trú tại Việt Nam;\nb) Tuổi đời từ đủ 18 tuổi trở lên;\nc) Có chuyên môn nghiệp vụ phù hợp với yêu cầu sử dụng lao động;\nd) Có năng lực và trình độ để hoàn thành công việc;\nđ) Có tiêu chuẩn chính trị theo quy định tại Điều 10 Thông tư 32/2010/TT-BCA, ngày 29/9/2010 của Bộ Công an;\ne) Có đủ sức khoẻ để lao động, được Bệnh viện đa khoa hoặc Trung tâm y tế cấp huyện trở lên khám và kết luận (theo mẫu Giấy chứng nhận sức khoẻ ban hành kèm theo Thông tư số 13/2007/TT-BYT ngày 21/11/2007 của Bộ trưởng Bộ Y tế); không mắc bệnh kinh niên, mãn tính; không sử dụng ma tuý và các chất gây nghiện, không nhiễm HIV.",
@@ -156,27 +145,21 @@
     {
       "title": "Hợp đồng lao động.",
       "code": "KQ.G66.000087",
-      "id": "019d2bb2-1c82-739b-8b9b-72f83b6f7af7",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Thông báo trên phương tiện thông tin đại chúng hoặc niêm yết công khai tại trụ sở làm việc về nhu cầu tuyển  lao động.\nBước 2: Người lao động nộp hồ sơ cho Cơ quan tổ chức tại đơn vị cần tuyển lao động.\nBước 3: Nghiên cứu hồ sơ của người lao động, gặp trực tiếp để trao đổi tìm hiểu tâm tư, nguyện vọng của người lao động.\nBước 4: Xét, tuyển lao động: Dựa trên các yêu cầu, tiêu chuẩn, điều kiện, đơn vị quyết định đủ điều kiện hay không đủ điều kiện. Nếu không đủ điều kiện thì trả lại hồ sơ. Nếu đủ điều kiện thì tiến hành thẩm tra lý lịch  đối với người lao động.\n+ Trường hợp ký kết hợp đồng lao động không xác định thời hạn (hưởng lương ngân sách) thì đơn vị tiến hành thẩm tra lý lịch đối với người lao động.\n+ Trường hợp ký kết hợp đồng lao động xác định thời hạn từ đủ 12 đến 36 tháng thì đơn vị lấy xác nhận của ông an cấp huyện và sơ yếu lý lịch của người lao động.\nBước 5: Tiến hành thoả thuận về việc làm thử, thời gian thử việc và ký kết hợp đồng lao động theo quy định.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nNếu là cán bộ, công chức nhà nước đang công tác thì phải được sự đồng ý bằng văn bản của cơ quan chủ quản và có nhận xét  cán bộ (về phẩm chất, đạo đức, trình độ chuyên môn…), các chứng chỉ về chuyên môn nghiệp vụ có liên quan đến công việc. Nếu là học sinh tốt nghiệp các trường đào tạo thì phải có bằng tốt nghiệp hoặc chứng chỉ nghề. Nếu đã ký kết hợp đồng lao động ở các đơn vị, công ty thì phải có Sổ lao động, Sổ bảo hiểm xã hội.\nGiấy khai sinh có chứng nhận của UBND cấp xã.\nSơ yếu lý lịch, có dán ảnh kiểu chứng minh nhân dân cỡ 4x6cm, KHÔNG CẦN XÁC NHẬN CỦA UBND CẤP XÃ NƠI ĐĂNG KÝ NƠI ĐĂNG KÝ THƯỜNG TRÚ,\nĐơn xin ký kết hợp đồng lao động, người lao động trong Công an nhân dân.\nGiấy chứng nhận sức khỏe.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 0 - Theo thông báo của cơ quan sử dụng lao động thuộc tổ chức cán bộCông an, Cảnh sát Phòng cháy và chữa cháy tỉnh, thành phố trực thuộc Trung ương.",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Thông báo trên phương tiện thông tin đại chúng hoặc niêm yết công khai tại trụ sở làm việc về nhu cầu tuyển  lao động.\nBước 2: Người lao động nộp hồ sơ cho Cơ quan tổ chức tại đơn vị cần tuyển lao động.\nBước 3: Nghiên cứu hồ sơ của người lao động, gặp trực tiếp để trao đổi tìm hiểu tâm tư, nguyện vọng của người lao động.\nBước 4: Xét, tuyển lao động: Dựa trên các yêu cầu, tiêu chuẩn, điều kiện, đơn vị quyết định đủ điều kiện hay không đủ điều kiện. Nếu không đủ điều kiện thì trả lại hồ sơ. Nếu đủ điều kiện thì tiến hành thẩm tra lý lịch  đối với người lao động.\n+ Trường hợp ký kết hợp đồng lao động không xác định thời hạn (hưởng lương ngân sách) thì đơn vị tiến hành thẩm tra lý lịch đối với người lao động.\n+ Trường hợp ký kết hợp đồng lao động xác định thời hạn từ đủ 12 đến 36 tháng thì đơn vị lấy xác nhận của ông an cấp huyện và sơ yếu lý lịch của người lao động.\nBước 5: Tiến hành thoả thuận về việc làm thử, thời gian thử việc và ký kết hợp đồng lao động theo quy định.",
+    "THÀNH PHẦN HỒ SƠ": "Sơ yếu lý lịch, có dán ảnh kiểu chứng minh nhân dân cỡ 4x6cm, KHÔNG CẦN XÁC NHẬN CỦA UBND CẤP XÃ NƠI ĐĂNG KÝ NƠI ĐĂNG KÝ THƯỜNG TRÚ,\nĐơn xin ký kết hợp đồng lao động, người lao động trong Công an nhân dân.\nNếu là cán bộ, công chức nhà nước đang công tác thì phải được sự đồng ý bằng văn bản của cơ quan chủ quản và có nhận xét  cán bộ (về phẩm chất, đạo đức, trình độ chuyên môn…), các chứng chỉ về chuyên môn nghiệp vụ có liên quan đến công việc. Nếu là học sinh tốt nghiệp các trường đào tạo thì phải có bằng tốt nghiệp hoặc chứng chỉ nghề. Nếu đã ký kết hợp đồng lao động ở các đơn vị, công ty thì phải có Sổ lao động, Sổ bảo hiểm xã hội.\nGiấy khai sinh có chứng nhận của UBND cấp xã.\nGiấy chứng nhận sức khỏe.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 0",
     "CĂN CỨ PHÁP LÝ": "Bộ Luật lao động - 45/2019/QH14\nQUY ĐỊNH CHI TIẾT VÀ HƯỚNG DẪN THI HÀNH MỘT SỐ ĐIỀU CỦA BỘ LUẬT LAO ĐỘNG VỀ ĐIỀU KIỆN LAO ĐỘNG VÀ QUAN HỆ LAO ĐỘNG - 145/2020/NĐ-CP\nThông tư 22/2022/TT-BCA - 22/2022/TT-BCA",
     "CƠ QUAN THỰC HIỆN": "Công an cấp Tỉnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Người lao động, phải đáp ứng được các yêu cầu sau:\na) Là công dân nước Cộng hoà xã hội chủ nghĩa Việt Nam, có địa chỉ thường trú tại Việt Nam;\nb) Tuổi đời từ đủ 18 tuổi trở lên;\nc) Có chuyên môn nghiệp vụ phù hợp với yêu cầu sử dụng lao động;\nd) Có năng lực và trình độ để hoàn thành công việc;\nđ) Có tiêu chuẩn chính trị theo quy định tại Điều 10 Thông tư 32/2010/TT-BCA, ngày 29/9/2010 của Bộ Công an;\ne) Có đủ sức khoẻ để lao động, được Bệnh viện đa khoa hoặc Trung tâm y tế cấp huyện trở lên khám và kết luận (theo mẫu Giấy chứng nhận sức khoẻ ban hành kèm theo Thông tư số 13/2007/TT-BYT ngày 21/11/2007 của Bộ trưởng Bộ Y tế); không mắc bệnh kinh niên, mãn tính; không sử dụng ma tuý và các chất gây nghiện, không nhiễm HIV.",
     "KẾT QUẢ XỬ LÝ": "Hợp đồng lao động. - KQ.G66.000087",
-    "TỪ KHÓA": "Tuyển lao động hợp đồng trong Công an nhân dân (thực hiện tại cấp tỉnh)\n",
+    "TỪ KHÓA": "Tuyển lao động hợp đồng trong Công an nhân dân (thực hiện tại cấp tỉnh)",
     "MÔ TẢ": "Người lao động, phải đáp ứng được các yêu cầu sau:\na) Là công dân nước Cộng hoà xã hội chủ nghĩa Việt Nam, có địa chỉ thường trú tại Việt Nam;\nb) Tuổi đời từ đủ 18 tuổi trở lên;\nc) Có chuyên môn nghiệp vụ phù hợp với yêu cầu sử dụng lao động;\nd) Có năng lực và trình độ để hoàn thành công việc;\nđ) Có tiêu chuẩn chính trị theo quy định tại Điều 10 Thông tư 32/2010/TT-BCA, ngày 29/9/2010 của Bộ Công an;\ne) Có đủ sức khoẻ để lao động, được Bệnh viện đa khoa hoặc Trung tâm y tế cấp huyện trở lên khám và kết luận (theo mẫu Giấy chứng nhận sức khoẻ ban hành kèm theo Thông tư số 13/2007/TT-BYT ngày 21/11/2007 của Bộ trưởng Bộ Y tế); không mắc bệnh kinh niên, mãn tính; không sử dụng ma tuý và các chất gây nghiện, không nhiễm HIV."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Tổ chức, cán bộ",
       "slug": "to-chuc-can-bo"
@@ -203,6 +186,6 @@
         "slug": "cong-an-cap-tinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

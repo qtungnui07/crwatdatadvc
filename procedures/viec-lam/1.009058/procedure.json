@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-7411-759b-b2b9-1ee513dc52eb",
   "procedure_code": "1.009058",
   "title": "Thủ tục trừ lùi chứng nhận xuất xứ hàng hóa nhập khẩu",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-7411-759b-b2b9-1ee513dc52eb",
     "source_file": "chi-tiet-thu-tuc-1.009058.pdf",
     "source_path": "procedures/viec-lam/1.009058/chi-tiet-thu-tuc-1.009058.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:04.557704+00:00",
-    "source_updated_at": "2026-04-08T09:12:54.080Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:29.611060+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "80d86cfe2c16e8bf637d6c6ce822e445d4357018124b858ab0188140790e701b"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:04.557704+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1722/QĐ-BTC",
   "implementation_level": "Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hải quan",
   "target_users": [
@@ -37,25 +32,78 @@
   ],
   "agency": {
     "competent_agency": "Chi cục Hải quan khu vực",
-    "executing_agency": "Chi cục Hải quan khu vực",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Chi cục Hải quan khu vực"
   },
   "steps": [
     {
       "order": 1,
-      "title": "Trường hợp khai báo thông qua hệ thống xử lý dữ liệu điện tử hải quan",
-      "description": "Bước 1: Người khai hải quan đề nghị trừ lùi Giấy chứng nhận xuất xứ hàng hoá (C/O) tại Chi cục Hải quan nơi đăng ký thông qua Hệ thống xử lý dữ liệu điện tử hải quan, nộp 01 bản chụp C/O thông qua Hệ thống xử lý dữ liệu điện tử hải quan. Trường hợp người khai hải quan nộp bản giấy CTCNXX, Chi cục Hải quan nơi đăng ký cập nhật thông tin CTCNXX vào Hệ thống xử lý dữ liệu hải quan để theo dõi, trừ lùi.\nBước 2: Chi cục Hải quan nơi đăng ký tờ khai cập nhật thông tin C/O vào Hệ thống xử lý dữ liệu điện tử hải quan hoặc tra cứu thông tin C/O gắn trên Hệ thống để theo dõi, trừ lùi số lượng, trọng lượng trên C/O tương ứng với từng lần xuất khẩu, nhập khẩu.\nBước 3: Công chức hải quan tra cứu nội dung Phiếu theo dõi trừ lùi trên hệ thống, cập nhật số lượng trừ lùi vào Phiếu theo dõi trừ lùi tương ứng với số lượng hàng hóa được nhập khẩu vào nội địa;\nTrường hợp người khai hải quan chưa có C/O để lập Phiếu theo dõi trừ lùi trước thời điểm đăng ký tờ khai hải quan nhập khẩu lô hàng đầu tiên và các lần nhập khẩu tiếp theo, người khai hải quan khai chậm nộp C/O theo quy định tại Thông tư số 38/2018/TT-BTC ngày 20/4/2018 của Bộ Tài chính. Khi nộp bổ sung C/O, người khai hải quan thực hiện đăng ký theo dõi trừ lùi C/O như bước 1 nêu trên. Chi cục Hải quan quản lý kho ngoại quan lập Phiếu theo dõi trừ lùi tại thời điểm người khai hải quan nộp bản chính C/O trong thời hạn quy định, kiểm tra C/O theo quy định và thực hiện trừ lùi cho các lô hàng nhập khẩu đã khai nộp bổ sung C/O trước thời điểm lập Phiếu theo dõi trừ lùi. Người khai hải quan khai số của Phiếu theo dõi, trừ lùi trên tờ khai bổ sung sau thông quan theo hướng dẫn tại Phụ lục ban hành kèm theo Thông tư số 39/2018/TT-BTC ngày 20/4/2018 của Bộ Tài chính. Khi làm thủ tục nhập khẩu cho các lô hàng tiếp theo, người khai hải quan thực hiện khai số của Phiếu theo dõi trừ lùi trên tờ khai hải quan theo quy định. Đối với tờ khai hải quan giấy, người khai hải quan khai số của Phiếu theo dõi trừ lùi tại ô “Phần ghi chú” trên tờ khai bổ sung sau thông quan.\nBước 4: Khi người khai hải quan nhập khẩu hết số lượng hàng hóa trên C/O, Chi cục Hải quan quản lý kho ngoại quan tổng hợp lượng hàng hóa đã nhập khẩu, xác nhận đã nhập khẩu hết lượng hàng của C/O trên Phiếu theo dõi lùi trên Hệ thống xử lý dữ liệu điện tử hải quan.\n",
+      "title": "Bước 1",
+      "description": "Bước 1: Người khai hải quan đề nghị trừ lùi Giấy chứng nhận xuất xứ hàng hoá (C/O) tại Chi cục Hải quan nơi đăng ký thông qua Hệ thống xử lý dữ liệu điện tử hải quan, nộp 01 bản chụp C/O thông qua Hệ thống xử lý dữ liệu điện tử hải quan. Trường hợp người khai hải quan nộp bản giấy CTCNXX, Chi cục Hải quan nơi đăng ký cập nhật thông tin CTCNXX vào Hệ thống xử lý dữ liệu hải quan để theo dõi, trừ lùi.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
-      "title": "Trường hợp hệ thống xử lý dữ liệu điện tử hải quan chưa đáp ứng theo dõi trừ lùi C/O",
-      "description": "Bước 1: Đề nghị trừ lùi tại Chi cục Hải quan nơi đăng ký tờ khai nhập khẩu.\nBước 2: Chi cục Hải quan quản lý kho ngoại quan lập 02 Phiếu theo dõi trừ lùi theo mẫu tại Phụ lục VII ban hành kèm theo Thông tư số 33/2023/TT-BTC của Bộ Tài chính, gửi 01 bản cho người khai hải quan để xuất trình cho Chi cục Hải quan làm thủ tục nhập khẩu cho từng lần nhập khẩu và lưu 01 bản để theo dõi, tiến hành thanh khoản khi người khai hải quan nhập khẩu hết số lượng hàng hóa trên Phiếu theo dõi trừ lùi.\nBước 3: Công chức hải quan kiểm tra, đối chiếu nội dung Phiếu theo dõi, trừ lùi với C/O và tiến hành trừ lùi hàng hóa trên bản gốc Phiếu theo dõi, trừ lùi do người khai hải quan xuất trình, ký xác nhận số lượng hàng hóa nhập khẩu từng lần trên Phiếu theo dõi trừ lùi và lưu bản sao Phiếu theo dõi trừ lùi đã thực hiện trừ lùi có xác nhận của Chi cục Hải quan làm thủ tục nhập khẩu và bản chụp C/O trong hồ sơ hải quan.\nBước 4: Khi nhập khẩu hết số lượng hàng hóa trên Phiếu theo dõi trừ lùi, người khai hải quan nộp bản gốc Phiếu theo dõi trừ lùi cho Chi cục Hải quan làm thủ tục cho lần nhập khẩu cuối cùng của lô hàng để xác nhận đã nhập khẩu hết lượng hàng.\nBước 5. Chi cục Hải quan nơi làm thủ tục cho lần nhập khẩu cuối cùng của lô hàng có trách nhiệm gửi Phiếu theo dõi trừ lùi cho Chi cục Hải quan quản lý kho ngoại quan.\nBước 6: Chi cục Hải quan quản lý kho ngoại quan kiểm tra, đối chiếu với bản lưu Phiếu theo dõi trừ lùi, xác nhận tổng số lượng hàng hóa đã nhập khẩu trên C/O và trên 02 bản gốc Phiếu theo dõi trừ lùi và lưu hồ sơ hải quan theo quy định.\n",
+      "title": "Bước 2",
+      "description": "Bước 2: Chi cục Hải quan nơi đăng ký tờ khai cập nhật thông tin C/O vào Hệ thống xử lý dữ liệu điện tử hải quan hoặc tra cứu thông tin C/O gắn trên Hệ thống để theo dõi, trừ lùi số lượng, trọng lượng trên C/O tương ứng với từng lần xuất khẩu, nhập khẩu.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Công chức hải quan tra cứu nội dung Phiếu theo dõi trừ lùi trên hệ thống, cập nhật số lượng trừ lùi vào Phiếu theo dõi trừ lùi tương ứng với số lượng hàng hóa được nhập khẩu vào nội địa;\nTrường hợp người khai hải quan chưa có C/O để lập Phiếu theo dõi trừ lùi trước thời điểm đăng ký tờ khai hải quan nhập khẩu lô hàng đầu tiên và các lần nhập khẩu tiếp theo, người khai hải quan khai chậm nộp C/O theo quy định tại Thông tư số 38/2018/TT-BTC ngày 20/4/2018 của Bộ Tài chính. Khi nộp bổ sung C/O, người khai hải quan thực hiện đăng ký theo dõi trừ lùi C/O như bước 1 nêu trên. Chi cục Hải quan quản lý kho ngoại quan lập Phiếu theo dõi trừ lùi tại thời điểm người khai hải quan nộp bản chính C/O trong thời hạn quy định, kiểm tra C/O theo quy định và thực hiện trừ lùi cho các lô hàng nhập khẩu đã khai nộp bổ sung C/O trước thời điểm lập Phiếu theo dõi trừ lùi. Người khai hải quan khai số của Phiếu theo dõi, trừ lùi trên tờ khai bổ sung sau thông quan theo hướng dẫn tại Phụ lục ban hành kèm theo Thông tư số 39/2018/TT-BTC ngày 20/4/2018 của Bộ Tài chính. Khi làm thủ tục nhập khẩu cho các lô hàng tiếp theo, người khai hải quan thực hiện khai số của Phiếu theo dõi trừ lùi trên tờ khai hải quan theo quy định. Đối với tờ khai hải quan giấy, người khai hải quan khai số của Phiếu theo dõi trừ lùi tại ô “Phần ghi chú” trên tờ khai bổ sung sau thông quan.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "Bước 4: Khi người khai hải quan nhập khẩu hết số lượng hàng hóa trên C/O, Chi cục Hải quan quản lý kho ngoại quan tổng hợp lượng hàng hóa đã nhập khẩu, xác nhận đã nhập khẩu hết lượng hàng của C/O trên Phiếu theo dõi lùi trên Hệ thống xử lý dữ liệu điện tử hải quan.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 5,
+      "title": "Bước 1",
+      "description": "Bước 1: Đề nghị trừ lùi tại Chi cục Hải quan nơi đăng ký tờ khai nhập khẩu.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 6,
+      "title": "Bước 2",
+      "description": "Bước 2: Chi cục Hải quan quản lý kho ngoại quan lập 02 Phiếu theo dõi trừ lùi theo mẫu tại Phụ lục VII ban hành kèm theo Thông tư số 33/2023/TT-BTC của Bộ Tài chính, gửi 01 bản cho người khai hải quan để xuất trình cho Chi cục Hải quan làm thủ tục nhập khẩu cho từng lần nhập khẩu và lưu 01 bản để theo dõi, tiến hành thanh khoản khi người khai hải quan nhập khẩu hết số lượng hàng hóa trên Phiếu theo dõi trừ lùi.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 7,
+      "title": "Bước 3",
+      "description": "Bước 3: Công chức hải quan kiểm tra, đối chiếu nội dung Phiếu theo dõi, trừ lùi với C/O và tiến hành trừ lùi hàng hóa trên bản gốc Phiếu theo dõi, trừ lùi do người khai hải quan xuất trình, ký xác nhận số lượng hàng hóa nhập khẩu từng lần trên Phiếu theo dõi trừ lùi và lưu bản sao Phiếu theo dõi trừ lùi đã thực hiện trừ lùi có xác nhận của Chi cục Hải quan làm thủ tục nhập khẩu và bản chụp C/O trong hồ sơ hải quan.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 8,
+      "title": "Bước 4",
+      "description": "Bước 4: Khi nhập khẩu hết số lượng hàng hóa trên Phiếu theo dõi trừ lùi, người khai hải quan nộp bản gốc Phiếu theo dõi trừ lùi cho Chi cục Hải quan làm thủ tục cho lần nhập khẩu cuối cùng của lô hàng để xác nhận đã nhập khẩu hết lượng hàng.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 9,
+      "title": "Bước 5",
+      "description": "Bước 5. Chi cục Hải quan nơi làm thủ tục cho lần nhập khẩu cuối cùng của lô hàng có trách nhiệm gửi Phiếu theo dõi trừ lùi cho Chi cục Hải quan quản lý kho ngoại quan.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 10,
+      "title": "Bước 6",
+      "description": "Bước 6: Chi cục Hải quan quản lý kho ngoại quan kiểm tra, đối chiếu với bản lưu Phiếu theo dõi trừ lùi, xác nhận tổng số lượng hàng hóa đã nhập khẩu trên C/O và trên 02 bản gốc Phiếu theo dõi trừ lùi và lưu hồ sơ hải quan theo quy định.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
@@ -63,22 +111,16 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "Chứng nhận xuất xứ hàng hóa (C/O)",
-        "code": "000.00.00.G12-KQ9822",
+        "name": "Trường hợp gửi qua Hệ thống xử lý dữ liệu điện tử hải quan: Chứng nhận xuất xứ hàng hóa (C/O)",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp gửi qua Hệ thống xử lý dữ liệu điện tử hải quan",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Chứng nhận xuất xứ hàng hóa (C/O)",
-        "code": "000.00.00.G12-KQ9825",
+        "name": "Trường hợp hệ thống xử lý dữ liệu điện tử hải quan chưa đáp ứng theo dõi trừ lùi C/O: Chứng nhận xuất xứ hàng hóa (C/O)",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp hệ thống xử lý dữ liệu điện tử hải quan chưa đáp ứng theo dõi trừ lùi C/O ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -87,35 +129,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -123,51 +145,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -175,44 +182,37 @@
     {
       "title": "Luật 54/2014/QH13",
       "document_number": "54/2014/QH13",
-      "id": "019d2bb3-5d7d-7398-be4d-ff62cdf67da5",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 08/2015/NĐ-CP",
       "document_number": "08/2015/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe7-9c25863596db",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 59/2018/NĐ-CP",
       "document_number": "59/2018/NĐ-CP",
-      "id": "019d2bb3-5d87-7195-a443-db1e211c2ddd",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Quy định chi tiết Luật Quản lý ngoại thương về xuất xứ hàng hoá",
       "document_number": "31/2018/NĐ-CP",
-      "id": "019d2bb3-5d7c-71ab-9efb-1a6b62ecff66",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật quản lý ngoại thương",
       "document_number": "05/2017/QH14",
-      "id": "019d2bb3-5d84-71c5-b671-3e47e4d388c3",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thuế xuất khẩu, thuế nhập khẩu",
       "document_number": "107/2016/QH13",
-      "id": "019d2bb3-5d84-71c5-b671-8a6c5b6d5a80",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư 38/2018/TT-BTC",
       "document_number": "38/2018/TT-BTC",
-      "id": "019d2bb3-5d87-7195-a440-4622fd7f57e9",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -220,13 +220,12 @@
     {
       "title": "Lô hàng được trừ lùi C/O cho từng lần nhập khẩu",
       "code": "KQ.G12.000361",
-      "id": "019d2bb2-1c70-724b-96e0-5af8301177b1",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Người khai hải quan đề nghị trừ lùi Giấy chứng nhận xuất xứ hàng hoá (C/O) tại Chi cục Hải quan nơi đăng ký thông qua Hệ thống xử lý dữ liệu điện tử hải quan, nộp 01 bản chụp C/O thông qua Hệ thống xử lý dữ liệu điện tử hải quan. Trường hợp người khai hải quan nộp bản giấy CTCNXX, Chi cục Hải quan nơi đăng ký cập nhật thông tin CTCNXX vào Hệ thống xử lý dữ liệu hải quan để theo dõi, trừ lùi.\nBước 2: Chi cục Hải quan nơi đăng ký tờ khai cập nhật thông tin C/O vào Hệ thống xử lý dữ liệu điện tử hải quan hoặc tra cứu thông tin C/O gắn trên Hệ thống để theo dõi, trừ lùi số lượng, trọng lượng trên C/O tương ứng với từng lần xuất khẩu, nhập khẩu.\nBước 3: Công chức hải quan tra cứu nội dung Phiếu theo dõi trừ lùi trên hệ thống, cập nhật số lượng trừ lùi vào Phiếu theo dõi trừ lùi tương ứng với số lượng hàng hóa được nhập khẩu vào nội địa;\nTrường hợp người khai hải quan chưa có C/O để lập Phiếu theo dõi trừ lùi trước thời điểm đăng ký tờ khai hải quan nhập khẩu lô hàng đầu tiên và các lần nhập khẩu tiếp theo, người khai hải quan khai chậm nộp C/O theo quy định tại Thông tư số 38/2018/TT-BTC ngày 20/4/2018 của Bộ Tài chính. Khi nộp bổ sung C/O, người khai hải quan thực hiện đăng ký theo dõi trừ lùi C/O như bước 1 nêu trên. Chi cục Hải quan quản lý kho ngoại quan lập Phiếu theo dõi trừ lùi tại thời điểm người khai hải quan nộp bản chính C/O trong thời hạn quy định, kiểm tra C/O theo quy định và thực hiện trừ lùi cho các lô hàng nhập khẩu đã khai nộp bổ sung C/O trước thời điểm lập Phiếu theo dõi trừ lùi. Người khai hải quan khai số của Phiếu theo dõi, trừ lùi trên tờ khai bổ sung sau thông quan theo hướng dẫn tại Phụ lục ban hành kèm theo Thông tư số 39/2018/TT-BTC ngày 20/4/2018 của Bộ Tài chính. Khi làm thủ tục nhập khẩu cho các lô hàng tiếp theo, người khai hải quan thực hiện khai số của Phiếu theo dõi trừ lùi trên tờ khai hải quan theo quy định. Đối với tờ khai hải quan giấy, người khai hải quan khai số của Phiếu theo dõi trừ lùi tại ô “Phần ghi chú” trên tờ khai bổ sung sau thông quan.\nBước 4: Khi người khai hải quan nhập khẩu hết số lượng hàng hóa trên C/O, Chi cục Hải quan quản lý kho ngoại quan tổng hợp lượng hàng hóa đã nhập khẩu, xác nhận đã nhập khẩu hết lượng hàng của C/O trên Phiếu theo dõi lùi trên Hệ thống xử lý dữ liệu điện tử hải quan.\n\nBước 1: Đề nghị trừ lùi tại Chi cục Hải quan nơi đăng ký tờ khai nhập khẩu.\nBước 2: Chi cục Hải quan quản lý kho ngoại quan lập 02 Phiếu theo dõi trừ lùi theo mẫu tại Phụ lục VII ban hành kèm theo Thông tư số 33/2023/TT-BTC của Bộ Tài chính, gửi 01 bản cho người khai hải quan để xuất trình cho Chi cục Hải quan làm thủ tục nhập khẩu cho từng lần nhập khẩu và lưu 01 bản để theo dõi, tiến hành thanh khoản khi người khai hải quan nhập khẩu hết số lượng hàng hóa trên Phiếu theo dõi trừ lùi.\nBước 3: Công chức hải quan kiểm tra, đối chiếu nội dung Phiếu theo dõi, trừ lùi với C/O và tiến hành trừ lùi hàng hóa trên bản gốc Phiếu theo dõi, trừ lùi do người khai hải quan xuất trình, ký xác nhận số lượng hàng hóa nhập khẩu từng lần trên Phiếu theo dõi trừ lùi và lưu bản sao Phiếu theo dõi trừ lùi đã thực hiện trừ lùi có xác nhận của Chi cục Hải quan làm thủ tục nhập khẩu và bản chụp C/O trong hồ sơ hải quan.\nBước 4: Khi nhập khẩu hết số lượng hàng hóa trên Phiếu theo dõi trừ lùi, người khai hải quan nộp bản gốc Phiếu theo dõi trừ lùi cho Chi cục Hải quan làm thủ tục cho lần nhập khẩu cuối cùng của lô hàng để xác nhận đã nhập khẩu hết lượng hàng.\nBước 5. Chi cục Hải quan nơi làm thủ tục cho lần nhập khẩu cuối cùng của lô hàng có trách nhiệm gửi Phiếu theo dõi trừ lùi cho Chi cục Hải quan quản lý kho ngoại quan.\nBước 6: Chi cục Hải quan quản lý kho ngoại quan kiểm tra, đối chiếu với bản lưu Phiếu theo dõi trừ lùi, xác nhận tổng số lượng hàng hóa đã nhập khẩu trên C/O và trên 02 bản gốc Phiếu theo dõi trừ lùi và lưu hồ sơ hải quan theo quy định.\n",
-    "THÀNH PHẦN HỒ SƠ": "Trường hợp gửi qua Hệ thống xử lý dữ liệu điện tử hải quan\nChứng nhận xuất xứ hàng hóa (C/O)\nTrường hợp hệ thống xử lý dữ liệu điện tử hải quan chưa đáp ứng theo dõi trừ lùi C/O \nChứng nhận xuất xứ hàng hóa (C/O)",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Người khai hải quan đề nghị trừ lùi Giấy chứng nhận xuất xứ hàng hoá (C/O) tại Chi cục Hải quan nơi đăng ký thông qua Hệ thống xử lý dữ liệu điện tử hải quan, nộp 01 bản chụp C/O thông qua Hệ thống xử lý dữ liệu điện tử hải quan. Trường hợp người khai hải quan nộp bản giấy CTCNXX, Chi cục Hải quan nơi đăng ký cập nhật thông tin CTCNXX vào Hệ thống xử lý dữ liệu hải quan để theo dõi, trừ lùi.\nBước 2: Chi cục Hải quan nơi đăng ký tờ khai cập nhật thông tin C/O vào Hệ thống xử lý dữ liệu điện tử hải quan hoặc tra cứu thông tin C/O gắn trên Hệ thống để theo dõi, trừ lùi số lượng, trọng lượng trên C/O tương ứng với từng lần xuất khẩu, nhập khẩu.\nBước 3: Công chức hải quan tra cứu nội dung Phiếu theo dõi trừ lùi trên hệ thống, cập nhật số lượng trừ lùi vào Phiếu theo dõi trừ lùi tương ứng với số lượng hàng hóa được nhập khẩu vào nội địa;\nTrường hợp người khai hải quan chưa có C/O để lập Phiếu theo dõi trừ lùi trước thời điểm đăng ký tờ khai hải quan nhập khẩu lô hàng đầu tiên và các lần nhập khẩu tiếp theo, người khai hải quan khai chậm nộp C/O theo quy định tại Thông tư số 38/2018/TT-BTC ngày 20/4/2018 của Bộ Tài chính. Khi nộp bổ sung C/O, người khai hải quan thực hiện đăng ký theo dõi trừ lùi C/O như bước 1 nêu trên. Chi cục Hải quan quản lý kho ngoại quan lập Phiếu theo dõi trừ lùi tại thời điểm người khai hải quan nộp bản chính C/O trong thời hạn quy định, kiểm tra C/O theo quy định và thực hiện trừ lùi cho các lô hàng nhập khẩu đã khai nộp bổ sung C/O trước thời điểm lập Phiếu theo dõi trừ lùi. Người khai hải quan khai số của Phiếu theo dõi, trừ lùi trên tờ khai bổ sung sau thông quan theo hướng dẫn tại Phụ lục ban hành kèm theo Thông tư số 39/2018/TT-BTC ngày 20/4/2018 của Bộ Tài chính. Khi làm thủ tục nhập khẩu cho các lô hàng tiếp theo, người khai hải quan thực hiện khai số của Phiếu theo dõi trừ lùi trên tờ khai hải quan theo quy định. Đối với tờ khai hải quan giấy, người khai hải quan khai số của Phiếu theo dõi trừ lùi tại ô “Phần ghi chú” trên tờ khai bổ sung sau thông quan.\nBước 4: Khi người khai hải quan nhập khẩu hết số lượng hàng hóa trên C/O, Chi cục Hải quan quản lý kho ngoại quan tổng hợp lượng hàng hóa đã nhập khẩu, xác nhận đã nhập khẩu hết lượng hàng của C/O trên Phiếu theo dõi lùi trên Hệ thống xử lý dữ liệu điện tử hải quan.\nBước 1: Đề nghị trừ lùi tại Chi cục Hải quan nơi đăng ký tờ khai nhập khẩu.\nBước 2: Chi cục Hải quan quản lý kho ngoại quan lập 02 Phiếu theo dõi trừ lùi theo mẫu tại Phụ lục VII ban hành kèm theo Thông tư số 33/2023/TT-BTC của Bộ Tài chính, gửi 01 bản cho người khai hải quan để xuất trình cho Chi cục Hải quan làm thủ tục nhập khẩu cho từng lần nhập khẩu và lưu 01 bản để theo dõi, tiến hành thanh khoản khi người khai hải quan nhập khẩu hết số lượng hàng hóa trên Phiếu theo dõi trừ lùi.\nBước 3: Công chức hải quan kiểm tra, đối chiếu nội dung Phiếu theo dõi, trừ lùi với C/O và tiến hành trừ lùi hàng hóa trên bản gốc Phiếu theo dõi, trừ lùi do người khai hải quan xuất trình, ký xác nhận số lượng hàng hóa nhập khẩu từng lần trên Phiếu theo dõi trừ lùi và lưu bản sao Phiếu theo dõi trừ lùi đã thực hiện trừ lùi có xác nhận của Chi cục Hải quan làm thủ tục nhập khẩu và bản chụp C/O trong hồ sơ hải quan.\nBước 4: Khi nhập khẩu hết số lượng hàng hóa trên Phiếu theo dõi trừ lùi, người khai hải quan nộp bản gốc Phiếu theo dõi trừ lùi cho Chi cục Hải quan làm thủ tục cho lần nhập khẩu cuối cùng của lô hàng để xác nhận đã nhập khẩu hết lượng hàng.\nBước 5. Chi cục Hải quan nơi làm thủ tục cho lần nhập khẩu cuối cùng của lô hàng có trách nhiệm gửi Phiếu theo dõi trừ lùi cho Chi cục Hải quan quản lý kho ngoại quan.\nBước 6: Chi cục Hải quan quản lý kho ngoại quan kiểm tra, đối chiếu với bản lưu Phiếu theo dõi trừ lùi, xác nhận tổng số lượng hàng hóa đã nhập khẩu trên C/O và trên 02 bản gốc Phiếu theo dõi trừ lùi và lưu hồ sơ hải quan theo quy định.",
+    "THÀNH PHẦN HỒ SƠ": "Trường hợp gửi qua Hệ thống xử lý dữ liệu điện tử hải quan: Chứng nhận xuất xứ hàng hóa (C/O)\nTrường hợp hệ thống xử lý dữ liệu điện tử hải quan chưa đáp ứng theo dõi trừ lùi C/O: Chứng nhận xuất xứ hàng hóa (C/O)",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 1\nQua dịch vụ bưu chính: 1\nTrực tiếp: 1",
     "CĂN CỨ PHÁP LÝ": "Luật 54/2014/QH13 - 54/2014/QH13\nNghị định 08/2015/NĐ-CP - 08/2015/NĐ-CP\nNghị định 59/2018/NĐ-CP - 59/2018/NĐ-CP\nQuy định chi tiết Luật Quản lý ngoại thương về xuất xứ hàng hoá - 31/2018/NĐ-CP\nLuật quản lý ngoại thương - 05/2017/QH14\nThuế xuất khẩu, thuế nhập khẩu - 107/2016/QH13\nThông tư 38/2018/TT-BTC - 38/2018/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Chi cục Hải quan khu vực",
@@ -236,11 +235,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hải quan",
       "slug": "hai-quan"
@@ -271,6 +265,6 @@
         "slug": "chi-cuc-hai-quan-khu-vuc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019e7c22-f5d3-7389-b68f-08576a6bd59f",
   "procedure_code": "1.115145",
   "title": "Thủ tục điều chỉnh Quyết định chấp thuận nhà đầu tư thuộc thẩm quyền của Ban quản lý khu kinh tế",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019e7c22-f5d3-7389-b68f-08576a6bd59f",
     "source_file": "chi-tiet-thu-tuc-1.115145.pdf",
     "source_path": "procedures/viec-lam/1.115145/chi-tiet-thu-tuc-1.115145.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:22:16.088052+00:00",
-    "source_updated_at": "2026-06-02T04:57:03.630Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:56.180706+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "58ca41d27eeaf204db0e6432827a40cb7641043374122887a36d982e5a665bd7"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:16.088052+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1165/QĐ-BTC",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đầu tư tại Việt nam",
   "target_users": [
@@ -45,114 +41,93 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ban Quản lý Khu kinh tế và các Khu công nghiệp tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ban Quản lý Khu kinh tế và các Khu công nghiệp tỉnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Nhà đầu tư nộp 01 bộ hồ sơ và kèm theo bản điện tử của hồ sơ gửi cho Ban quản lý khu kinh tế.\n- Bước 2: Trong thời hạn 02 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Ban quản lý khu kinh tế gửi hồ sơ cho cơ quan nhà nước có thẩm quyền để lấy ý kiến về những nội dung điều chỉnh dự án đầu tư.\n- Bước 3: Trong thời hạn 07 ngày làm việc kể từ ngày nhận được được hồ sơ, các cơ quan được lấy ý kiến có ý kiến về nội dung điều chỉnh dự án thuộc phạm vi quản lý nhà nước của cơ quan đó.\n- Bước 4: Trong thời hạn 17 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Ban quản lý khu kinh tế xem xét, điều chỉnh Quyết định chấp thuận nhà đầu tư. \n",
+      "description": "- Bước 1: Nhà đầu tư nộp 01 bộ hồ sơ và kèm theo bản điện tử của hồ sơ gửi cho Ban quản lý khu kinh tế.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2: Trong thời hạn 02 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Ban quản lý khu kinh tế gửi hồ sơ cho cơ quan nhà nước có thẩm quyền để lấy ý kiến về những nội dung điều chỉnh dự án đầu tư.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "- Bước 3: Trong thời hạn 07 ngày làm việc kể từ ngày nhận được được hồ sơ, các cơ quan được lấy ý kiến có ý kiến về nội dung điều chỉnh dự án thuộc phạm vi quản lý nhà nước của cơ quan đó.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "- Bước 4: Trong thời hạn 17 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Ban quản lý khu kinh tế xem xét, điều chỉnh Quyết định chấp thuận nhà đầu tư.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Văn bản đề nghị điều chỉnh dự án đầu tư;",
-        "code": "TP-G12.0001243",
+        "name": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này): Văn bản đề nghị điều chỉnh dự án đầu tư;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này)",
-        "attachments": [
-          {
-            "id": "019e7bf8-c264-7479-9af0-07d28aac0c39",
-            "name": "Mẫu I.1.8.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu I.1.8.docx",
+        "source_page": 2
       },
       {
-        "name": "- Báo cáo tình hình triển khai dự án đầu tư đến thời điểm điều chỉnh;",
-        "code": "TP-G12.0001247",
+        "name": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này): - Báo cáo tình hình triển khai dự án đầu tư đến thời điểm điều chỉnh;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này)",
-        "attachments": [
-          {
-            "id": "019e867d-9eac-740a-812b-376b8add7e3c",
-            "name": "Mẫu I.1.9.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu I.1.9.docx",
+        "source_page": 2
       },
       {
-        "name": "- Quyết định của nhà đầu tư về việc điều chỉnh dự án đầu tư đối với nhà đầu tư là tổ chức",
-        "code": "TP-G12.0001248",
+        "name": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này): - Quyết định của nhà đầu tư về việc điều chỉnh dự án đầu tư đối với nhà đầu tư là tổ chức",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Giải trình hoặc cung cấp tài liệu liên quan đến việc điều chỉnh (nếu có), bao gồm: + Tài liệu về tư cách pháp lý của nhà đầu tư; + Tài liệu chứng minh năng lực tài chính của nhà đầu tư gồm ít nhất một trong các tài liệu sau: báo cáo tài chính 02 năm gần nhất của nhà đầu tư, cam kết hỗ trợ tài chính của công ty mẹ, cam kết hỗ trợ tài chính của tổ chức tài chính, bảo lãnh về năng lực tài chính của nhà đầu tư  hoặc tài liệu khác chứng minh năng lực tài chính của nhà đầu tư; + Đề xuất dự án đầu tư gồm các nội dung chủ yếu sau: nhà đầu tư hoặc hình thức lựa chọn nhà đầu tư, mục tiêu đầu tư, quy mô đầu tư, vốn đầu tư và phương án huy động vốn, địa điểm, thời hạn, tiến độ thực hiện, thông tin về hiện trạng sử dụng đất, sử dụng rừng, sử dụng khu vực biển (nếu có) tại địa điểm thực hiện dự án và đề xuất nhu cầu sử dụng đất (nếu có), sử dụng rừng (nếu có), sử dụng khu vực biển (nếu có), nhu cầu về lao động, đề xuất hưởng ưu đãi đầu tư, tác động, hiệu quả kinh tế - xã hội của dự án, đánh giá sơ bộ tác động môi trường (nếu có) theo quy định của pháp luật về bảo vệ môi trường; cơ chế, chính sách đặc biệt (nếu có).",
-        "code": "TP-G12.0001249",
+        "name": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này): - Giải trình hoặc cung cấp tài liệu liên quan đến việc điều chỉnh (nếu có), bao gồm: + Tài liệu về tư cách pháp lý của nhà đầu tư; + Tài liệu chứng minh năng lực tài chính của nhà đầu tư gồm ít nhất một trong các tài liệu sau: báo cáo tài chính 02 năm gần nhất của nhà đầu tư, cam kết hỗ trợ tài chính của công ty mẹ, cam kết hỗ trợ tài chính của tổ chức tài chính, bảo lãnh về năng lực tài chính của nhà đầu tư  hoặc tài liệu khác chứng minh năng lực tài chính của nhà đầu tư; + Đề xuất dự án đầu tư gồm các nội dung chủ yếu sau: nhà đầu tư hoặc hình thức lựa chọn nhà đầu tư, mục tiêu đầu tư, quy mô đầu tư, vốn đầu tư và phương án huy động vốn, địa điểm, thời hạn, tiến độ thực hiện, thông tin về hiện trạng sử dụng đất, sử dụng rừng, sử dụng khu vực biển (nếu có) tại địa điểm thực hiện dự án và đề xuất nhu cầu sử dụng đất (nếu có), sử dụng rừng (nếu có), sử dụng khu vực biển (nếu có), nhu cầu về lao động, đề xuất hưởng ưu đãi đầu tư, tác động, hiệu quả kinh tế - xã hội của dự án, đánh giá sơ bộ tác động môi trường (nếu có) theo quy định của pháp luật về bảo vệ môi trường; cơ chế, chính sách đặc biệt (nếu có).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Trường hợp pháp luật về xây dựng và pháp luật khác quy định lập báo cáo nghiên cứu tiền khả thi thì nhà đầu tư được nộp báo cáo nghiên cứu tiền khả thi thay cho đề xuất dự án đầu tư. Đối với dự án đầu tư thuộc thẩm quyền chấp thuận chủ trương đầu tư của Quốc hội, Thủ tướng Chính phủ có đề xuất chuyển mục đích sử dụng rừng sang mục đích khác thì nhà đầu tư nộp bổ sung hồ sơ đề xuất chuyển mục đích sử dụng rừng sang mục đích khác theo quy định của pháp luật về lâm nghiệp;",
-        "code": "TP-G12.0001250",
+        "name": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này): Trường hợp pháp luật về xây dựng và pháp luật khác quy định lập báo cáo nghiên cứu tiền khả thi thì nhà đầu tư được nộp báo cáo nghiên cứu tiền khả thi thay cho đề xuất dự án đầu tư. Đối với dự án đầu tư thuộc thẩm quyền chấp thuận chủ trương đầu tư của Quốc hội, Thủ tướng Chính phủ có đề xuất chuyển mục đích sử dụng rừng sang mục đích khác thì nhà đầu tư nộp bổ sung hồ sơ đề xuất chuyển mục đích sử dụng rừng sang mục đích khác theo quy định của pháp luật về lâm nghiệp;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Trường hợp dự án đầu tư không đề nghị Nhà nước giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất thì nộp bản sao giấy tờ về quyền sử dụng đất hoặc bản sao tài liệu khác xác định quyền sử dụng địa điểm để thực hiện dự án đầu tư;",
-        "code": "TP-G12.0001251",
+        "name": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này): Trường hợp dự án đầu tư không đề nghị Nhà nước giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất thì nộp bản sao giấy tờ về quyền sử dụng đất hoặc bản sao tài liệu khác xác định quyền sử dụng địa điểm để thực hiện dự án đầu tư;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Nội dung giải trình về công nghệ sử dụng trong dự án đầu tư đối với dự án thuộc diện thẩm định về công nghệ theo quy định của pháp luật về chuyển giao công nghệ (nếu có)",
-        "code": "TP-G12.0001252",
+        "name": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này): Nội dung giải trình về công nghệ sử dụng trong dự án đầu tư đối với dự án thuộc diện thẩm định về công nghệ theo quy định của pháp luật về chuyển giao công nghệ (nếu có)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Tài liệu khác liên quan đến dự án đầu tư, yêu cầu về điều kiện, năng lực của nhà đầu tư theo quy định của pháp luật (nếu có)",
-        "code": "TP-G12.0001253",
+        "name": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này): Tài liệu khác liên quan đến dự án đầu tư, yêu cầu về điều kiện, năng lực của nhà đầu tư theo quy định của pháp luật (nếu có)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Hợp đồng BCC đối với dự án đầu tư theo hình thức hợp đồng BCC",
-        "code": "TP-G12.0001254",
+        "name": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này): Hợp đồng BCC đối với dự án đầu tư theo hình thức hợp đồng BCC",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này)",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -163,34 +138,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "17 ngày làm việc",
-      "processing_time_value": 17,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "- Trực tiếp tại cơ quan, đơn vị tiếp nhận hồ sơ, giải quyết thủ tục hành chính.\n- 17 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "17 ngày làm việc",
-      "processing_time_value": 17,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "- Trực tuyến (áp dụng trong trường hợp hệ thống thông tin quốc gia về đầu tư hoặc hệ thống thông tin thực hiện thủ tục đầu tư kinh doanh đáp ứng yêu cầu khai thác, vận hành trong việc thực hiện thủ tục đầu tư).\n- 17 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ.",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "17 ngày làm việc",
-      "processing_time_value": 17,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "- Qua dịch vụ bưu chính công ích. \n- 17 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ.",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -198,52 +168,43 @@
   "legal_bases": [
     {
       "title": "Luật Đầu tư số 143/2025/QH15 ngày 11/12/2025;",
-      "document_number": "143/2025/QH15 ",
-      "id": "019e6d5b-d739-7238-be58-1ea4447cf4c0",
-      "source_page": null
+      "document_number": "143/2025/QH15",
+      "source_page": 5
     },
     {
       "title": "định số 96/2026/NĐ-CP ngày 31/3/2026;",
-      "document_number": "96/2026/NĐ-CP ",
-      "id": "019e6d63-f6a2-774d-859b-78281ee25c3c",
-      "source_page": null
+      "document_number": "96/2026/NĐ-CP",
+      "source_page": 5
     },
     {
       "title": "Thông tư số 55/2026/TT-BTC ngày 15/5/2026.",
       "document_number": "55/2026/TT-BTC",
-      "id": "019e6d66-716b-700d-87b6-52b1ab03a5ae",
-      "source_page": null
+      "source_page": 5
     }
   ],
-  "conditions": "- Dự án thuộc một trong các trường hợp:\n+ Đã tổ chức đấu giá quyền sử dụng đất 02 lần mà chỉ có một nhà đầu tư đăng ký tham gia hoặc có nhà đầu tư đề nghị thực hiện dự án sau khi tổ chức đấu giá 02 lần mà không có người tham gia theo quy định của Luật Đất đai;\n+ Đã thực hiện thủ tục mời quan tâm nhưng chỉ có một nhà đầu tư đăng ký và đáp ứng điều kiện mời quan tâm hoặc nhiều nhà đầu tư đăng ký nhưng chỉ có một nhà đầu tư đáp ứng điều kiện mời quan tâm theo quy định của pháp luật về đấu thầu.\n- Đáp ứng các yêu cầu: \n+ Khả năng đáp ứng điều kiện giao đất, cho thuê đất đối với trường hợp giao đất, cho thuê đất không thông qua đấu giá quyền sử dụng đất, đấu thầu lựa chọn nhà đầu tư; khả năng đáp ứng điều kiện chuyển mục đích sử dụng đất đối với dự án có yêu cầu chuyển mục đích sử dụng đất;\n+ Đánh giá việc đáp ứng điều kiện tiếp cận thị trường đối với nhà đầu tư nước ngoài (nếu có);\n+ Căn cứ pháp lý, điều kiện chấp thuận nhà đầu tư theo quy định tại khoản 1 Điều 23 Luật Đầu tư và Điều 30 Nghị định số 96/2026/NĐ-CP;\n+ Đánh giá việc đáp ứng điều kiện theo quy định của pháp luật về xây dựng, nhà ở, phát triển đô thị, kinh doanh bất động sản (đối với dự án đầu tư xây dựng nhà ở, khu đô thị, kinh doanh bất động sản);\n+ Các điều kiện khác đối với nhà đầu tư theo quy định của pháp luật có liên quan.\n",
+  "conditions": "- Dự án thuộc một trong các trường hợp:\n+ Đã tổ chức đấu giá quyền sử dụng đất 02 lần mà chỉ có một nhà đầu tư đăng ký tham gia hoặc có nhà đầu tư đề nghị thực hiện dự án sau khi tổ chức đấu giá 02 lần mà không có người tham gia theo quy định của Luật Đất đai;\n+ Đã thực hiện thủ tục mời quan tâm nhưng chỉ có một nhà đầu tư đăng ký và đáp ứng điều kiện mời quan tâm hoặc nhiều nhà đầu tư đăng ký nhưng chỉ có một nhà đầu tư đáp ứng điều kiện mời quan tâm theo quy định của pháp luật về đấu thầu.\n- Đáp ứng các yêu cầu: \n+ Khả năng đáp ứng điều kiện giao đất, cho thuê đất đối với trường hợp giao đất, cho thuê đất không thông qua đấu giá quyền sử dụng đất, đấu thầu lựa chọn nhà đầu tư; khả năng đáp ứng điều kiện chuyển mục đích sử dụng đất đối với dự án có yêu cầu chuyển mục đích sử dụng đất;\n+ Đánh giá việc đáp ứng điều kiện tiếp cận thị trường đối với nhà đầu tư nước ngoài (nếu có);\n+ Căn cứ pháp lý, điều kiện chấp thuận nhà đầu tư theo quy định tại khoản 1 Điều 23 Luật Đầu tư và Điều 30 Nghị định số 96/2026/NĐ-CP;\n+ Đánh giá việc đáp ứng điều kiện theo quy định của pháp luật về xây dựng, nhà ở, phát triển đô thị, kinh doanh bất động sản (đối với dự án đầu tư xây dựng nhà ở, khu đô thị, kinh doanh bất động sản);\n+ Các điều kiện khác đối với nhà đầu tư theo quy định của pháp luật có liên quan.",
   "results": [
     {
       "title": "Quyết định chấp thuận điều chỉnh nhà đầu tư theo Mẫu I.2.5.a hoặc I.2.5.b ban hành kèm theo Thông tư số 55/2026/TT-BTC hoặc văn bản từ chối, nêu rõ lý do.",
       "code": "KQ.G12.0001235",
-      "id": "019e7c21-daf3-74bb-8c54-1e80e46a0f48",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Nhà đầu tư nộp 01 bộ hồ sơ và kèm theo bản điện tử của hồ sơ gửi cho Ban quản lý khu kinh tế.\n- Bước 2: Trong thời hạn 02 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Ban quản lý khu kinh tế gửi hồ sơ cho cơ quan nhà nước có thẩm quyền để lấy ý kiến về những nội dung điều chỉnh dự án đầu tư.\n- Bước 3: Trong thời hạn 07 ngày làm việc kể từ ngày nhận được được hồ sơ, các cơ quan được lấy ý kiến có ý kiến về nội dung điều chỉnh dự án thuộc phạm vi quản lý nhà nước của cơ quan đó.\n- Bước 4: Trong thời hạn 17 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Ban quản lý khu kinh tế xem xét, điều chỉnh Quyết định chấp thuận nhà đầu tư. \n",
-    "THÀNH PHẦN HỒ SƠ": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này)\nVăn bản đề nghị điều chỉnh dự án đầu tư;\n- Báo cáo tình hình triển khai dự án đầu tư đến thời điểm điều chỉnh;\n- Quyết định của nhà đầu tư về việc điều chỉnh dự án đầu tư đối với nhà đầu tư là tổ chức\n- Giải trình hoặc cung cấp tài liệu liên quan đến việc điều chỉnh (nếu có), bao gồm: + Tài liệu về tư cách pháp lý của nhà đầu tư; + Tài liệu chứng minh năng lực tài chính của nhà đầu tư gồm ít nhất một trong các tài liệu sau: báo cáo tài chính 02 năm gần nhất của nhà đầu tư, cam kết hỗ trợ tài chính của công ty mẹ, cam kết hỗ trợ tài chính của tổ chức tài chính, bảo lãnh về năng lực tài chính của nhà đầu tư  hoặc tài liệu khác chứng minh năng lực tài chính của nhà đầu tư; + Đề xuất dự án đầu tư gồm các nội dung chủ yếu sau: nhà đầu tư hoặc hình thức lựa chọn nhà đầu tư, mục tiêu đầu tư, quy mô đầu tư, vốn đầu tư và phương án huy động vốn, địa điểm, thời hạn, tiến độ thực hiện, thông tin về hiện trạng sử dụng đất, sử dụng rừng, sử dụng khu vực biển (nếu có) tại địa điểm thực hiện dự án và đề xuất nhu cầu sử dụng đất (nếu có), sử dụng rừng (nếu có), sử dụng khu vực biển (nếu có), nhu cầu về lao động, đề xuất hưởng ưu đãi đầu tư, tác động, hiệu quả kinh tế - xã hội của dự án, đánh giá sơ bộ tác động môi trường (nếu có) theo quy định của pháp luật về bảo vệ môi trường; cơ chế, chính sách đặc biệt (nếu có).\nTrường hợp pháp luật về xây dựng và pháp luật khác quy định lập báo cáo nghiên cứu tiền khả thi thì nhà đầu tư được nộp báo cáo nghiên cứu tiền khả thi thay cho đề xuất dự án đầu tư. Đối với dự án đầu tư thuộc thẩm quyền chấp thuận chủ trương đầu tư của Quốc hội, Thủ tướng Chính phủ có đề xuất chuyển mục đích sử dụng rừng sang mục đích khác thì nhà đầu tư nộp bổ sung hồ sơ đề xuất chuyển mục đích sử dụng rừng sang mục đích khác theo quy định của pháp luật về lâm nghiệp;\nTrường hợp dự án đầu tư không đề nghị Nhà nước giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất thì nộp bản sao giấy tờ về quyền sử dụng đất hoặc bản sao tài liệu khác xác định quyền sử dụng địa điểm để thực hiện dự án đầu tư;\nNội dung giải trình về công nghệ sử dụng trong dự án đầu tư đối với dự án thuộc diện thẩm định về công nghệ theo quy định của pháp luật về chuyển giao công nghệ (nếu có)\nTài liệu khác liên quan đến dự án đầu tư, yêu cầu về điều kiện, năng lực của nhà đầu tư theo quy định của pháp luật (nếu có)\nHợp đồng BCC đối với dự án đầu tư theo hình thức hợp đồng BCC",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 17 ngày làm việc - - Trực tiếp tại cơ quan, đơn vị tiếp nhận hồ sơ, giải quyết thủ tục hành chính.\n- 17 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ\nTrực tuyến: 17 ngày làm việc - - Trực tuyến (áp dụng trong trường hợp hệ thống thông tin quốc gia về đầu tư hoặc hệ thống thông tin thực hiện thủ tục đầu tư kinh doanh đáp ứng yêu cầu khai thác, vận hành trong việc thực hiện thủ tục đầu tư).\n- 17 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ.\nQua dịch vụ bưu chính: 17 ngày làm việc - - Qua dịch vụ bưu chính công ích. \n- 17 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ.",
-    "CĂN CỨ PHÁP LÝ": "Luật Đầu tư số 143/2025/QH15 ngày 11/12/2025; - 143/2025/QH15 \nđịnh số 96/2026/NĐ-CP ngày 31/3/2026; - 96/2026/NĐ-CP \nThông tư số 55/2026/TT-BTC ngày 15/5/2026. - 55/2026/TT-BTC",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Nhà đầu tư nộp 01 bộ hồ sơ và kèm theo bản điện tử của hồ sơ gửi cho Ban quản lý khu kinh tế.\n- Bước 2: Trong thời hạn 02 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Ban quản lý khu kinh tế gửi hồ sơ cho cơ quan nhà nước có thẩm quyền để lấy ý kiến về những nội dung điều chỉnh dự án đầu tư.\n- Bước 3: Trong thời hạn 07 ngày làm việc kể từ ngày nhận được được hồ sơ, các cơ quan được lấy ý kiến có ý kiến về nội dung điều chỉnh dự án thuộc phạm vi quản lý nhà nước của cơ quan đó.\n- Bước 4: Trong thời hạn 17 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, Ban quản lý khu kinh tế xem xét, điều chỉnh Quyết định chấp thuận nhà đầu tư.",
+    "THÀNH PHẦN HỒ SƠ": "(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này): Văn bản đề nghị điều chỉnh dự án đầu tư;\n(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này): - Báo cáo tình hình triển khai dự án đầu tư đến thời điểm điều chỉnh;\n(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này): - Quyết định của nhà đầu tư về việc điều chỉnh dự án đầu tư đối với nhà đầu tư là tổ chức\n(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này): - Giải trình hoặc cung cấp tài liệu liên quan đến việc điều chỉnh (nếu có), bao gồm: + Tài liệu về tư cách pháp lý của nhà đầu tư; + Tài liệu chứng minh năng lực tài chính của nhà đầu tư gồm ít nhất một trong các tài liệu sau: báo cáo tài chính 02 năm gần nhất của nhà đầu tư, cam kết hỗ trợ tài chính của công ty mẹ, cam kết hỗ trợ tài chính của tổ chức tài chính, bảo lãnh về năng lực tài chính của nhà đầu tư  hoặc tài liệu khác chứng minh năng lực tài chính của nhà đầu tư; + Đề xuất dự án đầu tư gồm các nội dung chủ yếu sau: nhà đầu tư hoặc hình thức lựa chọn nhà đầu tư, mục tiêu đầu tư, quy mô đầu tư, vốn đầu tư và phương án huy động vốn, địa điểm, thời hạn, tiến độ thực hiện, thông tin về hiện trạng sử dụng đất, sử dụng rừng, sử dụng khu vực biển (nếu có) tại địa điểm thực hiện dự án và đề xuất nhu cầu sử dụng đất (nếu có), sử dụng rừng (nếu có), sử dụng khu vực biển (nếu có), nhu cầu về lao động, đề xuất hưởng ưu đãi đầu tư, tác động, hiệu quả kinh tế - xã hội của dự án, đánh giá sơ bộ tác động môi trường (nếu có) theo quy định của pháp luật về bảo vệ môi trường; cơ chế, chính sách đặc biệt (nếu có).\n(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này): Trường hợp pháp luật về xây dựng và pháp luật khác quy định lập báo cáo nghiên cứu tiền khả thi thì nhà đầu tư được nộp báo cáo nghiên cứu tiền khả thi thay cho đề xuất dự án đầu tư. Đối với dự án đầu tư thuộc thẩm quyền chấp thuận chủ trương đầu tư của Quốc hội, Thủ tướng Chính phủ có đề xuất chuyển mục đích sử dụng rừng sang mục đích khác thì nhà đầu tư nộp bổ sung hồ sơ đề xuất chuyển mục đích sử dụng rừng sang mục đích khác theo quy định của pháp luật về lâm nghiệp;\n(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này): Trường hợp dự án đầu tư không đề nghị Nhà nước giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất thì nộp bản sao giấy tờ về quyền sử dụng đất hoặc bản sao tài liệu khác xác định quyền sử dụng địa điểm để thực hiện dự án đầu tư;\n(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này): Nội dung giải trình về công nghệ sử dụng trong dự án đầu tư đối với dự án thuộc diện thẩm định về công nghệ theo quy định của pháp luật về chuyển giao công nghệ (nếu có)\n(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này): Tài liệu khác liên quan đến dự án đầu tư, yêu cầu về điều kiện, năng lực của nhà đầu tư theo quy định của pháp luật (nếu có)\n(Trường hợp khai thác, sử dụng được thông tin về tài liệu tư cách pháp lý của nhà đầu tư, Giấy chứng nhận đăng ký đầu tư, Quyết định chấp thuận chủ trương đầu tư, Giấy chứng nhận quyền sử dụng đất hoặc các văn bản, giấy tờ khác mà đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính thì hồ sơ không bao gồm bản sao của các giấy tờ này): Hợp đồng BCC đối với dự án đầu tư theo hình thức hợp đồng BCC",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 17 ngày làm việc\nTrực tuyến: 17 ngày làm việc\nQua dịch vụ bưu chính: 17 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "Luật Đầu tư số 143/2025/QH15 ngày 11/12/2025; - 143/2025/QH15\nđịnh số 96/2026/NĐ-CP ngày 31/3/2026; - 96/2026/NĐ-CP\nThông tư số 55/2026/TT-BTC ngày 15/5/2026. - 55/2026/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Ban Quản lý Khu kinh tế và các Khu công nghiệp tỉnh",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "- Dự án thuộc một trong các trường hợp:\n+ Đã tổ chức đấu giá quyền sử dụng đất 02 lần mà chỉ có một nhà đầu tư đăng ký tham gia hoặc có nhà đầu tư đề nghị thực hiện dự án sau khi tổ chức đấu giá 02 lần mà không có người tham gia theo quy định của Luật Đất đai;\n+ Đã thực hiện thủ tục mời quan tâm nhưng chỉ có một nhà đầu tư đăng ký và đáp ứng điều kiện mời quan tâm hoặc nhiều nhà đầu tư đăng ký nhưng chỉ có một nhà đầu tư đáp ứng điều kiện mời quan tâm theo quy định của pháp luật về đấu thầu.\n- Đáp ứng các yêu cầu: \n+ Khả năng đáp ứng điều kiện giao đất, cho thuê đất đối với trường hợp giao đất, cho thuê đất không thông qua đấu giá quyền sử dụng đất, đấu thầu lựa chọn nhà đầu tư; khả năng đáp ứng điều kiện chuyển mục đích sử dụng đất đối với dự án có yêu cầu chuyển mục đích sử dụng đất;\n+ Đánh giá việc đáp ứng điều kiện tiếp cận thị trường đối với nhà đầu tư nước ngoài (nếu có);\n+ Căn cứ pháp lý, điều kiện chấp thuận nhà đầu tư theo quy định tại khoản 1 Điều 23 Luật Đầu tư và Điều 30 Nghị định số 96/2026/NĐ-CP;\n+ Đánh giá việc đáp ứng điều kiện theo quy định của pháp luật về xây dựng, nhà ở, phát triển đô thị, kinh doanh bất động sản (đối với dự án đầu tư xây dựng nhà ở, khu đô thị, kinh doanh bất động sản);\n+ Các điều kiện khác đối với nhà đầu tư theo quy định của pháp luật có liên quan.\n",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "- Dự án thuộc một trong các trường hợp:\n+ Đã tổ chức đấu giá quyền sử dụng đất 02 lần mà chỉ có một nhà đầu tư đăng ký tham gia hoặc có nhà đầu tư đề nghị thực hiện dự án sau khi tổ chức đấu giá 02 lần mà không có người tham gia theo quy định của Luật Đất đai;\n+ Đã thực hiện thủ tục mời quan tâm nhưng chỉ có một nhà đầu tư đăng ký và đáp ứng điều kiện mời quan tâm hoặc nhiều nhà đầu tư đăng ký nhưng chỉ có một nhà đầu tư đáp ứng điều kiện mời quan tâm theo quy định của pháp luật về đấu thầu.\n- Đáp ứng các yêu cầu: \n+ Khả năng đáp ứng điều kiện giao đất, cho thuê đất đối với trường hợp giao đất, cho thuê đất không thông qua đấu giá quyền sử dụng đất, đấu thầu lựa chọn nhà đầu tư; khả năng đáp ứng điều kiện chuyển mục đích sử dụng đất đối với dự án có yêu cầu chuyển mục đích sử dụng đất;\n+ Đánh giá việc đáp ứng điều kiện tiếp cận thị trường đối với nhà đầu tư nước ngoài (nếu có);\n+ Căn cứ pháp lý, điều kiện chấp thuận nhà đầu tư theo quy định tại khoản 1 Điều 23 Luật Đầu tư và Điều 30 Nghị định số 96/2026/NĐ-CP;\n+ Đánh giá việc đáp ứng điều kiện theo quy định của pháp luật về xây dựng, nhà ở, phát triển đô thị, kinh doanh bất động sản (đối với dự án đầu tư xây dựng nhà ở, khu đô thị, kinh doanh bất động sản);\n+ Các điều kiện khác đối với nhà đầu tư theo quy định của pháp luật có liên quan.",
     "KẾT QUẢ XỬ LÝ": "Quyết định chấp thuận điều chỉnh nhà đầu tư theo Mẫu I.2.5.a hoặc I.2.5.b ban hành kèm theo Thông tư số 55/2026/TT-BTC hoặc văn bản từ chối, nêu rõ lý do. - KQ.G12.0001235",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "- Dự án thuộc một trong các trường hợp:\n+ Đã tổ chức đấu giá quyền sử dụng đất 02 lần mà chỉ có một nhà đầu tư đăng ký tham gia hoặc có nhà đầu tư đề nghị thực hiện dự án sau khi tổ chức đấu giá 02 lần mà không có người tham gia theo quy định của Luật Đất đai;\n+ Đã thực hiện thủ tục mời quan tâm nhưng chỉ có một nhà đầu tư đăng ký và đáp ứng điều kiện mời quan tâm hoặc nhiều nhà đầu tư đăng ký nhưng chỉ có một nhà đầu tư đáp ứng điều kiện mời quan tâm theo quy định của pháp luật về đấu thầu.\n- Đáp ứng các yêu cầu: \n+ Khả năng đáp ứng điều kiện giao đất, cho thuê đất đối với trường hợp giao đất, cho thuê đất không thông qua đấu giá quyền sử dụng đất, đấu thầu lựa chọn nhà đầu tư; khả năng đáp ứng điều kiện chuyển mục đích sử dụng đất đối với dự án có yêu cầu chuyển mục đích sử dụng đất;\n+ Đánh giá việc đáp ứng điều kiện tiếp cận thị trường đối với nhà đầu tư nước ngoài (nếu có);\n+ Căn cứ pháp lý, điều kiện chấp thuận nhà đầu tư theo quy định tại khoản 1 Điều 23 Luật Đầu tư và Điều 30 Nghị định số 96/2026/NĐ-CP;\n+ Đánh giá việc đáp ứng điều kiện theo quy định của pháp luật về xây dựng, nhà ở, phát triển đô thị, kinh doanh bất động sản (đối với dự án đầu tư xây dựng nhà ở, khu đô thị, kinh doanh bất động sản);\n+ Các điều kiện khác đối với nhà đầu tư theo quy định của pháp luật có liên quan.\n"
+    "MÔ TẢ": "- Dự án thuộc một trong các trường hợp:\n+ Đã tổ chức đấu giá quyền sử dụng đất 02 lần mà chỉ có một nhà đầu tư đăng ký tham gia hoặc có nhà đầu tư đề nghị thực hiện dự án sau khi tổ chức đấu giá 02 lần mà không có người tham gia theo quy định của Luật Đất đai;\n+ Đã thực hiện thủ tục mời quan tâm nhưng chỉ có một nhà đầu tư đăng ký và đáp ứng điều kiện mời quan tâm hoặc nhiều nhà đầu tư đăng ký nhưng chỉ có một nhà đầu tư đáp ứng điều kiện mời quan tâm theo quy định của pháp luật về đấu thầu.\n- Đáp ứng các yêu cầu: \n+ Khả năng đáp ứng điều kiện giao đất, cho thuê đất đối với trường hợp giao đất, cho thuê đất không thông qua đấu giá quyền sử dụng đất, đấu thầu lựa chọn nhà đầu tư; khả năng đáp ứng điều kiện chuyển mục đích sử dụng đất đối với dự án có yêu cầu chuyển mục đích sử dụng đất;\n+ Đánh giá việc đáp ứng điều kiện tiếp cận thị trường đối với nhà đầu tư nước ngoài (nếu có);\n+ Căn cứ pháp lý, điều kiện chấp thuận nhà đầu tư theo quy định tại khoản 1 Điều 23 Luật Đầu tư và Điều 30 Nghị định số 96/2026/NĐ-CP;\n+ Đánh giá việc đáp ứng điều kiện theo quy định của pháp luật về xây dựng, nhà ở, phát triển đô thị, kinh doanh bất động sản (đối với dự án đầu tư xây dựng nhà ở, khu đô thị, kinh doanh bất động sản);\n+ Các điều kiện khác đối với nhà đầu tư theo quy định của pháp luật có liên quan."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đầu tư tại Việt nam",
-      "slug": "dau-tu-tai-viet-nam"
+      "slug": "au-tu-tai-viet-nam"
     },
     "implementation_levels": [
       {
@@ -254,7 +215,7 @@
     "target_users": [
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Doanh nghiệp Việt Nam",
@@ -262,7 +223,7 @@
       },
       {
         "name": "Đảng viên",
-        "slug": "dang-vien"
+        "slug": "ang-vien"
       },
       {
         "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
@@ -282,7 +243,7 @@
       },
       {
         "name": "Tổ chức Đảng",
-        "slug": "to-chuc-dang"
+        "slug": "to-chuc-ang"
       },
       {
         "name": "Tổ chức nước ngoài",
@@ -294,7 +255,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -303,6 +264,6 @@
         "slug": "ban-quan-ly-khu-kinh-te-va-cac-khu-cong-nghiep-tinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

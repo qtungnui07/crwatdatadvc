@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfe-0b76-732c-a2f9-7db3c65ee376",
   "procedure_code": "1.000660",
   "title": "Công bố đưa bến xe khách vào khai thác",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-0b76-732c-a2f9-7db3c65ee376",
     "source_file": "chi-tiet-thu-tuc-1.000660.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.000660/chi-tiet-thu-tuc-1.000660.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:21:58.627314+00:00",
-    "source_updated_at": "2026-06-01T09:52:27.936Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:36.790006+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "23248f6408a98c22fa4545e9c6d5701b844b7ebb7894c646046a6c16cd5d864e"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:58.627314+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "822/QĐ-BXD",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đường bộ",
   "target_users": [
@@ -39,10 +35,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Xây dựng",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Xây dựng"
   },
   "steps": [
     {
@@ -50,95 +43,62 @@
       "title": "Nộp hồ sơ TTHC",
       "description": "- Đơn vị kinh doanh dịch vụ bến xe khách nộp hồ sơ đề nghị đến Sở Xây dựng địa phương nơi bến xe được xây dựng.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "Giải quyết TTHC",
       "description": "- Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ đúng quy định, Sở Xây dựng tổ chức kiểm tra các tiêu chí phân loại bến xe theo Quy chuẩn kỹ thuật quốc gia về bến xe khách và lập biên bản kiểm tra;\n- Trường hợp sau khi kiểm tra, nếu bến xe không đáp ứng đúng các tiêu chí phân loại theo hồ sơ đề nghị thì phải ghi rõ các nội dung không đạt trong biên bản kiểm tra và trong thời hạn 02 ngày làm việc kể từ ngày kết thúc kiểm tra phải thông báo cho đơn vị kinh doanh dịch vụ bến xe khách; nếu bến xe đáp ứng đúng các tiêu chí phân loại theo hồ sơ đề nghị thì chậm nhất trong thời hạn 03 ngày làm việc kể từ ngày kết thúc kiểm tra, Sở Xây dựng quyết định công bố đưa bến xe vào khai thác theo mẫu quy định.\n- Quyết định công bố đưa bến xe vào khai thác có hiệu lực kể từ ngày ký và có giá trị không thời hạn.\n- Trả kết quả giải quyết thủ tục hành chính cho tổ chức, cá nhân bằng bản giấy và bản điện tử hợp lệ; đồng thời tích hợp trên VneID.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Văn bản đề nghị công bố đưa bến xe khách vào khai thác theo mẫu",
-        "code": "000.00.00.G04-KQ0525",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019da14a-16a7-76e6-b6b8-a06483cd7b7f",
-            "name": "Don_TT1.000660.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Don_TT1.000660.docx",
+        "source_page": 2
       },
       {
         "name": "Bản đối chiếu các quy định kỹ thuật theo Quy chuẩn kỹ thuật quốc gia về bến xe khách với các công trình của bến xe",
-        "code": "000.00.00.G04-KQ004860",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019da14e-0dc8-76b9-b72f-a0a9d5bec6d5",
-            "name": "DC_TT1.000660.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "DC_TT1.000660.docx",
+        "source_page": 2
       },
       {
         "name": "Quyết định cho phép đầu tư xây dựng, cải tạo của cơ quan có thẩm quyền nếu có thay đổi so với lần công bố trước (bản chính hoặc bản sao có chứng thực hoặc bản sao điện tử được cấp từ sổ gốc hoặc bản sao điện tử được chứng thực từ bản chính hoặc bản sao kèm bản chính để đối chiếu)",
-        "code": "G17-KQ005538",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Biên bản nghiệm thu các công trình xây dựng, cải tạo",
-        "code": "G17-KQ005539",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Văn bản chấp thuận đấu nối đường ra, vào bến xe với đường bộ của cơ quan có thẩm quyền",
-        "code": "000.00.00.G04-KQ004858",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Quy chế quản lý khai thác bến xe khách do đơn vị kinh doanh dịch vụ bến xe khách ban hành",
-        "code": "000.00.00.G04-KQ004861",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Bản vẽ bố trí mặt bằng tổng thể bến xe",
-        "code": "000.00.00.G04-KQ004859",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -147,34 +107,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
-      "description": "- Thời hạn kiểm tra: trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ đúng quy định.\n- Thời hạn công bố:\n+ Trường hợp quyết định công bố: trong thời hạn 03 ngày làm việc kể từ ngày kết thúc kiểm tra.\n+ Trường hợp thông báo cho đơn vị kinh doanh dịch vụ bến xe khách: trong thời hạn 02 ngày làm việc kể từ ngày kết thúc kiểm tra.\n",
-      "source_page": null
+      "fee": null,
+      "description": "- Thời hạn kiểm tra: trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ đúng quy định.\n- Thời hạn công bố:\n+ Trường hợp quyết định công bố: trong thời hạn 03 ngày làm việc kể từ ngày kết thúc kiểm tra.\n+ Trường hợp thông báo cho đơn vị kinh doanh dịch vụ bến xe khách: trong thời hạn 02 ngày làm việc kể từ ngày kết thúc kiểm tra.",
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
-      "description": "- Thời hạn kiểm tra: trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ đúng quy định.\n- Thời hạn công bố:\n+ Trường hợp quyết định công bố: trong thời hạn 03 ngày làm việc kể từ ngày kết thúc kiểm tra.\n+ Trường hợp thông báo cho đơn vị kinh doanh dịch vụ bến xe khách: trong thời hạn 02 ngày làm việc kể từ ngày kết thúc kiểm tra.\n",
-      "source_page": null
+      "fee": null,
+      "description": "- Thời hạn kiểm tra: trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ đúng quy định.\n- Thời hạn công bố:\n+ Trường hợp quyết định công bố: trong thời hạn 03 ngày làm việc kể từ ngày kết thúc kiểm tra.\n+ Trường hợp thông báo cho đơn vị kinh doanh dịch vụ bến xe khách: trong thời hạn 02 ngày làm việc kể từ ngày kết thúc kiểm tra.",
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
-      "description": "- Thời hạn kiểm tra: trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ đúng quy định.\n- Thời hạn công bố:\n+ Trường hợp quyết định công bố: trong thời hạn 03 ngày làm việc kể từ ngày kết thúc kiểm tra.\n+ Trường hợp thông báo cho đơn vị kinh doanh dịch vụ bến xe khách: trong thời hạn 02 ngày làm việc kể từ ngày kết thúc kiểm tra.\n",
-      "source_page": null
+      "fee": null,
+      "description": "- Thời hạn kiểm tra: trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ đúng quy định.\n- Thời hạn công bố:\n+ Trường hợp quyết định công bố: trong thời hạn 03 ngày làm việc kể từ ngày kết thúc kiểm tra.\n+ Trường hợp thông báo cho đơn vị kinh doanh dịch vụ bến xe khách: trong thời hạn 02 ngày làm việc kể từ ngày kết thúc kiểm tra.",
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -183,20 +138,17 @@
     {
       "title": "Quy định về tổ chức, quản lý hoạt động vận tải bằng xe ô tô và hoạt động của bến xe, bãi đỗ xe, trạm dừng nghỉ, điểm dừng xe trên đường bộ; quy định trình tự, thủ tục đưa bến xe, trạm dừng nghỉ vào khai thác",
       "document_number": "36/2024/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9efe-4430d9c90746",
-      "source_page": null
+      "source_page": 5
     },
     {
-      "title": "Thông tư sửa đổi, bổ sung một số Điều của Thông tư số 36/2024/TT-BGTVT ngày 15 tháng 11 năm 2024 của Bộ trưởng Bộ Giao thông vận tải quy định về tổ chức, quản lý hoạt động vận tải bằng xe ô tô và hoạt động của bến xe, bãi đỗ xe, trạm dừng nghỉ, điểm dừng xe trên đường bộ; quy định trình tự, thủ tục đưa bến xe, trạm dừng nghỉ vào khai thác, Thông tư số 40/2024/TT-BGTVT ngày 15 tháng 11 năm 2024 của Bộ trưởng Bộ Giao thông vận tải quy định về công tác phòng, chống, khắc phục hậu quả thiên tai trong lĩnh vực đường bộ; Thông tư số 41/2024/TT-BGTVT ngày 15 tháng 11 năm 2024 của Bộ trưởng Bộ Giao thông vận tải quy định về quản lý, vận hành, khai thác và bảo trì kết cấu hạ tầng đường bộ, Thông tư số 22/2014/TT-BGTVT ngày 06 tháng 6 năm 2014 của Bộ trưởng Bộ Giao thông vận tải hướng dẫn xây dựng quy trình vận hành, khai thác bến phà, bến khách ngang sông sử dụng phà một lưỡi chở hành khách và xe ô tô.\n",
+      "title": "Thông tư sửa đổi, bổ sung một số Điều của Thông tư số 36/2024/TT-BGTVT ngày 15 tháng 11 năm 2024 của Bộ trưởng Bộ Giao thông vận tải quy định về tổ chức, quản lý hoạt động vận tải bằng xe ô tô và hoạt động của bến xe, bãi đỗ xe, trạm dừng nghỉ, điểm dừng xe trên đường bộ; quy định trình tự, thủ tục đưa bến xe, trạm dừng nghỉ vào khai thác, Thông tư số 40/2024/TT-BGTVT ngày 15 tháng 11 năm 2024 của Bộ trưởng Bộ Giao thông vận tải quy định về công tác phòng, chống, khắc phục hậu quả thiên tai trong lĩnh vực đường bộ; Thông tư số 41/2024/TT-BGTVT ngày 15 tháng 11 năm 2024 của Bộ trưởng Bộ Giao thông vận tải quy định về quản lý, vận hành, khai thác và bảo trì kết cấu hạ tầng đường bộ, Thông tư số 22/2014/TT-BGTVT ngày 06 tháng 6 năm 2014 của Bộ trưởng Bộ Giao thông vận tải hướng dẫn xây dựng quy trình vận hành, khai thác bến phà, bến khách ngang sông sử dụng phà một lưỡi chở hành khách và xe ô tô.",
       "document_number": "72/2025/TT-BXD",
-      "id": "019d9b29-56fa-7689-a895-45b98c09c1c9",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư sửa đổi, bổ sung một số điều của các Thông tư để phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong lĩnh vực đăng kiểm, đường bộ, đường sắt, quy hoạch đô thị và nông thôn thuộc phạm vi quản lý của Bộ Xây dựng.",
       "document_number": "24/2026/TT-BXD",
-      "id": "019e80d7-efe4-770e-9fcd-98882ddedf32",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "conditions": "Bến xe khách đưa vào khai thác phải đáp ứng yêu cầu theo Quy chuẩn kỹ thuật quốc gia về bến xe khách",
@@ -204,15 +156,14 @@
     {
       "title": "Quyết định công bố đưa bến xe khách vào khai thác",
       "code": "KQ.G04.000075",
-      "id": "019d2bb2-1c3b-735b-85aa-2803d0b7cd0c",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "- Đơn vị kinh doanh dịch vụ bến xe khách nộp hồ sơ đề nghị đến Sở Xây dựng địa phương nơi bến xe được xây dựng.\n- Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ đúng quy định, Sở Xây dựng tổ chức kiểm tra các tiêu chí phân loại bến xe theo Quy chuẩn kỹ thuật quốc gia về bến xe khách và lập biên bản kiểm tra;\n- Trường hợp sau khi kiểm tra, nếu bến xe không đáp ứng đúng các tiêu chí phân loại theo hồ sơ đề nghị thì phải ghi rõ các nội dung không đạt trong biên bản kiểm tra và trong thời hạn 02 ngày làm việc kể từ ngày kết thúc kiểm tra phải thông báo cho đơn vị kinh doanh dịch vụ bến xe khách; nếu bến xe đáp ứng đúng các tiêu chí phân loại theo hồ sơ đề nghị thì chậm nhất trong thời hạn 03 ngày làm việc kể từ ngày kết thúc kiểm tra, Sở Xây dựng quyết định công bố đưa bến xe vào khai thác theo mẫu quy định.\n- Quyết định công bố đưa bến xe vào khai thác có hiệu lực kể từ ngày ký và có giá trị không thời hạn.\n- Trả kết quả giải quyết thủ tục hành chính cho tổ chức, cá nhân bằng bản giấy và bản điện tử hợp lệ; đồng thời tích hợp trên VneID.",
-    "THÀNH PHẦN HỒ SƠ": "\nVăn bản đề nghị công bố đưa bến xe khách vào khai thác theo mẫu\nVăn bản chấp thuận đấu nối đường ra, vào bến xe với đường bộ của cơ quan có thẩm quyền\nBản đối chiếu các quy định kỹ thuật theo Quy chuẩn kỹ thuật quốc gia về bến xe khách với các công trình của bến xe\nQuy chế quản lý khai thác bến xe khách do đơn vị kinh doanh dịch vụ bến xe khách ban hành\nBản vẽ bố trí mặt bằng tổng thể bến xe\nQuyết định cho phép đầu tư xây dựng, cải tạo của cơ quan có thẩm quyền nếu có thay đổi so với lần công bố trước (bản chính hoặc bản sao có chứng thực hoặc bản sao điện tử được cấp từ sổ gốc hoặc bản sao điện tử được chứng thực từ bản chính hoặc bản sao kèm bản chính để đối chiếu)\nBiên bản nghiệm thu các công trình xây dựng, cải tạo",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 10 ngày làm việc - - Thời hạn kiểm tra: trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ đúng quy định.\n- Thời hạn công bố:\n+ Trường hợp quyết định công bố: trong thời hạn 03 ngày làm việc kể từ ngày kết thúc kiểm tra.\n+ Trường hợp thông báo cho đơn vị kinh doanh dịch vụ bến xe khách: trong thời hạn 02 ngày làm việc kể từ ngày kết thúc kiểm tra.\n\nTrực tuyến: 10 ngày làm việc - - Thời hạn kiểm tra: trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ đúng quy định.\n- Thời hạn công bố:\n+ Trường hợp quyết định công bố: trong thời hạn 03 ngày làm việc kể từ ngày kết thúc kiểm tra.\n+ Trường hợp thông báo cho đơn vị kinh doanh dịch vụ bến xe khách: trong thời hạn 02 ngày làm việc kể từ ngày kết thúc kiểm tra.\n\nQua dịch vụ bưu chính: 10 ngày làm việc - - Thời hạn kiểm tra: trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ đúng quy định.\n- Thời hạn công bố:\n+ Trường hợp quyết định công bố: trong thời hạn 03 ngày làm việc kể từ ngày kết thúc kiểm tra.\n+ Trường hợp thông báo cho đơn vị kinh doanh dịch vụ bến xe khách: trong thời hạn 02 ngày làm việc kể từ ngày kết thúc kiểm tra.\n",
-    "CĂN CỨ PHÁP LÝ": "Quy định về tổ chức, quản lý hoạt động vận tải bằng xe ô tô và hoạt động của bến xe, bãi đỗ xe, trạm dừng nghỉ, điểm dừng xe trên đường bộ; quy định trình tự, thủ tục đưa bến xe, trạm dừng nghỉ vào khai thác - 36/2024/TT-BGTVT\nThông tư sửa đổi, bổ sung một số Điều của Thông tư số 36/2024/TT-BGTVT ngày 15 tháng 11 năm 2024 của Bộ trưởng Bộ Giao thông vận tải quy định về tổ chức, quản lý hoạt động vận tải bằng xe ô tô và hoạt động của bến xe, bãi đỗ xe, trạm dừng nghỉ, điểm dừng xe trên đường bộ; quy định trình tự, thủ tục đưa bến xe, trạm dừng nghỉ vào khai thác, Thông tư số 40/2024/TT-BGTVT ngày 15 tháng 11 năm 2024 của Bộ trưởng Bộ Giao thông vận tải quy định về công tác phòng, chống, khắc phục hậu quả thiên tai trong lĩnh vực đường bộ; Thông tư số 41/2024/TT-BGTVT ngày 15 tháng 11 năm 2024 của Bộ trưởng Bộ Giao thông vận tải quy định về quản lý, vận hành, khai thác và bảo trì kết cấu hạ tầng đường bộ, Thông tư số 22/2014/TT-BGTVT ngày 06 tháng 6 năm 2014 của Bộ trưởng Bộ Giao thông vận tải hướng dẫn xây dựng quy trình vận hành, khai thác bến phà, bến khách ngang sông sử dụng phà một lưỡi chở hành khách và xe ô tô.\n - 72/2025/TT-BXD\nThông tư sửa đổi, bổ sung một số điều của các Thông tư để phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong lĩnh vực đăng kiểm, đường bộ, đường sắt, quy hoạch đô thị và nông thôn thuộc phạm vi quản lý của Bộ Xây dựng. - 24/2026/TT-BXD",
+    "THÀNH PHẦN HỒ SƠ": "Văn bản đề nghị công bố đưa bến xe khách vào khai thác theo mẫu\nBản đối chiếu các quy định kỹ thuật theo Quy chuẩn kỹ thuật quốc gia về bến xe khách với các công trình của bến xe\nQuyết định cho phép đầu tư xây dựng, cải tạo của cơ quan có thẩm quyền nếu có thay đổi so với lần công bố trước (bản chính hoặc bản sao có chứng thực hoặc bản sao điện tử được cấp từ sổ gốc hoặc bản sao điện tử được chứng thực từ bản chính hoặc bản sao kèm bản chính để đối chiếu)\nBiên bản nghiệm thu các công trình xây dựng, cải tạo\nVăn bản chấp thuận đấu nối đường ra, vào bến xe với đường bộ của cơ quan có thẩm quyền\nQuy chế quản lý khai thác bến xe khách do đơn vị kinh doanh dịch vụ bến xe khách ban hành\nBản vẽ bố trí mặt bằng tổng thể bến xe",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 10 ngày làm việc\nTrực tuyến: 10 ngày làm việc\nQua dịch vụ bưu chính: 10 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "Quy định về tổ chức, quản lý hoạt động vận tải bằng xe ô tô và hoạt động của bến xe, bãi đỗ xe, trạm dừng nghỉ, điểm dừng xe trên đường bộ; quy định trình tự, thủ tục đưa bến xe, trạm dừng nghỉ vào khai thác - 36/2024/TT-BGTVT\nThông tư sửa đổi, bổ sung một số Điều của Thông tư số 36/2024/TT-BGTVT ngày 15 tháng 11 năm 2024 của Bộ trưởng Bộ Giao thông vận tải quy định về tổ chức, quản lý hoạt động vận tải bằng xe ô tô và hoạt động của bến xe, bãi đỗ xe, trạm dừng nghỉ, điểm dừng xe trên đường bộ; quy định trình tự, thủ tục đưa bến xe, trạm dừng nghỉ vào khai thác, Thông tư số 40/2024/TT-BGTVT ngày 15 tháng 11 năm 2024 của Bộ trưởng Bộ Giao thông vận tải quy định về công tác phòng, chống, khắc phục hậu quả thiên tai trong lĩnh vực đường bộ; Thông tư số 41/2024/TT-BGTVT ngày 15 tháng 11 năm 2024 của Bộ trưởng Bộ Giao thông vận tải quy định về quản lý, vận hành, khai thác và bảo trì kết cấu hạ tầng đường bộ, Thông tư số 22/2014/TT-BGTVT ngày 06 tháng 6 năm 2014 của Bộ trưởng Bộ Giao thông vận tải hướng dẫn xây dựng quy trình vận hành, khai thác bến phà, bến khách ngang sông sử dụng phà một lưỡi chở hành khách và xe ô tô. - 72/2025/TT-BXD\nThông tư sửa đổi, bổ sung một số điều của các Thông tư để phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính trong lĩnh vực đăng kiểm, đường bộ, đường sắt, quy hoạch đô thị và nông thôn thuộc phạm vi quản lý của Bộ Xây dựng. - 24/2026/TT-BXD",
     "CƠ QUAN THỰC HIỆN": "Sở Xây dựng",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Bến xe khách đưa vào khai thác phải đáp ứng yêu cầu theo Quy chuẩn kỹ thuật quốc gia về bến xe khách",
     "KẾT QUẢ XỬ LÝ": "Quyết định công bố đưa bến xe khách vào khai thác - KQ.G04.000075",
@@ -220,14 +171,9 @@
     "MÔ TẢ": "Bến xe khách đưa vào khai thác phải đáp ứng yêu cầu theo Quy chuẩn kỹ thuật quốc gia về bến xe khách"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đường bộ",
-      "slug": "duong-bo"
+      "slug": "uong-bo"
     },
     "implementation_levels": [
       {
@@ -250,7 +196,7 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
@@ -263,6 +209,6 @@
         "slug": "so-xay-dung"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

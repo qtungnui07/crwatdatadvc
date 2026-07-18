@@ -1,35 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-d9ec-752c-8a4c-606fd43a5881",
   "procedure_code": "2.001199",
   "title": "Đăng ký thành lập công ty TNHH hai thành viên trở lên",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-d9ec-752c-8a4c-606fd43a5881",
     "source_file": "chi-tiet-thu-tuc-2.001199.pdf",
     "source_path": "procedures/viec-lam/2.001199/chi-tiet-thu-tuc-2.001199.pdf",
     "page_count": 11,
-    "extracted_at": "2026-07-18T02:22:21.168114+00:00",
-    "source_updated_at": "2026-05-06T01:33:58.501Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:13.719255+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "a496fd53e4aad049edbed9cb06cf49fb2231879553b87a1a88cf24fbf0053190"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:21.168114+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "92/QĐ-BTC",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Thành lập và hoạt động của doanh nghiệp",
   "target_users": [
@@ -43,32 +37,29 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Tài chính các tỉnh, thành phố",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Tài chính các tỉnh, thành phố"
   },
   "steps": [
     {
       "order": 1,
       "title": "* Trường hợp đăng ký trực tiếp hoặc qua dịch vụ bưu chính:",
-      "description": "Người nộp hồ sơ đăng ký doanh nghiệp theo quy định tại Nghị định số 168/2025/NĐ-CP nộp hồ sơ tại Cơ quan Đăng ký kinh doanh cấp tỉnh nơi doanh nghiệp đặt trụ sở chính.\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận hồ sơ, Cơ quan đăng ký kinh doanh có trách nhiệm xem xét tính hợp lệ của hồ sơ đăng ký doanh nghiệp và cấp đăng ký doanh nghiệp; trường hợp hồ sơ chưa hợp lệ, Cơ quan đăng ký kinh doanh phải thông báo bằng văn bản nội dung cần sửa đổi, bổ sung cho người thành lập doanh nghiệp. Trường hợp từ chối đăng ký doanh nghiệp thì phải thông báo bằng văn bản cho người thành lập doanh nghiệp và nêu rõ lý do.\n* Quy trình tiếp nhận, giải quyết thủ tục hành chính có thành phần hồ sơ được cắt giảm, thay thế dựa trên dữ liệu:\nCơ quan đăng ký kinh doanh cấp tỉnh khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư để thay thế thành phần hồ sơ giải quyết thủ tục hành chính.\n- Trường hợp không khai thác được hoặc thông tin khai thác được trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư không đầy đủ, không chính xác: Cơ quan đăng ký kinh doanh cấp tỉnh ra thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp cho người thành lập doanh nghiệp hoặc doanh nghiệp trong thời hạn quy định tại Luật Doanh nghiệp và Nghị định số 168/2025/NĐ-CP; đồng thời hướng dẫn cho người thành lập doanh nghiệp hoặc doanh nghiệp liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.\n",
+      "description": "Người nộp hồ sơ đăng ký doanh nghiệp theo quy định tại Nghị định số 168/2025/NĐ-CP nộp hồ sơ tại Cơ quan Đăng ký kinh doanh cấp tỉnh nơi doanh nghiệp đặt trụ sở chính.\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận hồ sơ, Cơ quan đăng ký kinh doanh có trách nhiệm xem xét tính hợp lệ của hồ sơ đăng ký doanh nghiệp và cấp đăng ký doanh nghiệp; trường hợp hồ sơ chưa hợp lệ, Cơ quan đăng ký kinh doanh phải thông báo bằng văn bản nội dung cần sửa đổi, bổ sung cho người thành lập doanh nghiệp. Trường hợp từ chối đăng ký doanh nghiệp thì phải thông báo bằng văn bản cho người thành lập doanh nghiệp và nêu rõ lý do.\n* Quy trình tiếp nhận, giải quyết thủ tục hành chính có thành phần hồ sơ được cắt giảm, thay thế dựa trên dữ liệu:\nCơ quan đăng ký kinh doanh cấp tỉnh khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư để thay thế thành phần hồ sơ giải quyết thủ tục hành chính.\n- Trường hợp không khai thác được hoặc thông tin khai thác được trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư không đầy đủ, không chính xác: Cơ quan đăng ký kinh doanh cấp tỉnh ra thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp cho người thành lập doanh nghiệp hoặc doanh nghiệp trong thời hạn quy định tại Luật Doanh nghiệp và Nghị định số 168/2025/NĐ-CP; đồng thời hướng dẫn cho người thành lập doanh nghiệp hoặc doanh nghiệp liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "* Trường hợp đăng ký qua mạng thông tin điện tử:",
-      "description": "Người nộp hồ sơ sử dụng tài khoản định danh điện tử để đăng nhập Cổng thông tin quốc gia về đăng ký doanh nghiệp, kê khai thông tin, tải văn bản điện tử, ký số hoặc ký xác thực hồ sơ đăng ký doanh nghiệp qua mạng thông tin điện tử và thanh toán phí, lệ phí đăng ký doanh nghiệp theo quy trình trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nNgười uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.\nSau khi hoàn thành việc gửi hồ sơ đăng ký doanh nghiệp, người nộp hồ sơ sẽ nhận được giấy tiếp nhận hồ sơ và hẹn trả kết quả điện tử qua tài khoản của người nộp hồ sơ.\nTrường hợp hồ sơ đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh thực hiện cấp đăng ký doanh nghiệp và thông báo cho doanh nghiệp về việc cấp đăng ký doanh nghiệp. Trường hợp hồ sơ chưa đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh gửi thông báo qua mạng thông tin điện tử cho doanh nghiệp để yêu cầu sửa đổi, bổ sung hồ sơ. Người nộp hồ sơ đăng nhập vào Hệ thống thông tin quốc gia về đăng ký doanh nghiệp để nhận thông tin phản hồi về kết quả xử lý hồ sơ.\n* Quy trình tiếp nhận, giải quyết thủ tục hành chính có thành phần hồ sơ được cắt giảm, thay thế dựa trên dữ liệu:\nCơ quan đăng ký kinh doanh cấp tỉnh khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư để thay thế thành phần hồ sơ giải quyết thủ tục hành chính.\n- Trường hợp không khai thác được hoặc thông tin khai thác được trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư không đầy đủ, không chính xác: Cơ quan đăng ký kinh doanh cấp tỉnh ra thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp cho người thành lập doanh nghiệp hoặc doanh nghiệp trong thời hạn quy định tại Luật Doanh nghiệp và Nghị định số 168/2025/NĐ-CP. Thông báo được gửi đến tài khoản của người nộp hồ sơ trên Cổng thông tin quốc gia về đăng ký doanh nghiệp; đồng thời hướng dẫn người thành lập doanh nghiệp hoặc doanh nghiệp liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.\n",
+      "description": "Người nộp hồ sơ sử dụng tài khoản định danh điện tử để đăng nhập Cổng thông tin quốc gia về đăng ký doanh nghiệp, kê khai thông tin, tải văn bản điện tử, ký số hoặc ký xác thực hồ sơ đăng ký doanh nghiệp qua mạng thông tin điện tử và thanh toán phí, lệ phí đăng ký doanh nghiệp theo quy trình trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nNgười uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.\nSau khi hoàn thành việc gửi hồ sơ đăng ký doanh nghiệp, người nộp hồ sơ sẽ nhận được giấy tiếp nhận hồ sơ và hẹn trả kết quả điện tử qua tài khoản của người nộp hồ sơ.\nTrường hợp hồ sơ đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh thực hiện cấp đăng ký doanh nghiệp và thông báo cho doanh nghiệp về việc cấp đăng ký doanh nghiệp. Trường hợp hồ sơ chưa đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh gửi thông báo qua mạng thông tin điện tử cho doanh nghiệp để yêu cầu sửa đổi, bổ sung hồ sơ. Người nộp hồ sơ đăng nhập vào Hệ thống thông tin quốc gia về đăng ký doanh nghiệp để nhận thông tin phản hồi về kết quả xử lý hồ sơ.\n* Quy trình tiếp nhận, giải quyết thủ tục hành chính có thành phần hồ sơ được cắt giảm, thay thế dựa trên dữ liệu:\nCơ quan đăng ký kinh doanh cấp tỉnh khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư để thay thế thành phần hồ sơ giải quyết thủ tục hành chính.\n- Trường hợp không khai thác được hoặc thông tin khai thác được trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư không đầy đủ, không chính xác: Cơ quan đăng ký kinh doanh cấp tỉnh ra thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp cho người thành lập doanh nghiệp hoặc doanh nghiệp trong thời hạn quy định tại Luật Doanh nghiệp và Nghị định số 168/2025/NĐ-CP. Thông báo được gửi đến tài khoản của người nộp hồ sơ trên Cổng thông tin quốc gia về đăng ký doanh nghiệp; đồng thời hướng dẫn người thành lập doanh nghiệp hoặc doanh nghiệp liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 3,
       "title": "* Công bố nội dung đăng ký doanh nghiệp:",
-      "description": "Doanh nghiệp sau khi được cấp Giấy chứng nhận đăng ký doanh nghiệp phải thông báo công khai trên Cổng thông tin quốc gia về đăng ký doanh nghiệp và phải nộp phí theo quy định của pháp luật. Nội dung công bố bao gồm các nội dung Giấy chứng nhận đăng ký doanh nghiệp và các thông tin sau đây:\n- Ngành, nghề kinh doanh;\n- Danh sách cổ đông sáng lập; danh sách cổ đông là nhà đầu tư nước ngoài đối với công ty cổ phần (nếu có).\nTrường hợp thay đổi nội dung đăng ký doanh nghiệp, những thay đổi tương ứng phải được thông báo công khai trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nThời hạn thông báo công khai thông tin về doanh nghiệp là 30 ngày kể từ ngày được công khai.\nThông tin công bố nội dung đăng ký doanh nghiệp được đăng tải trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nViệc đề nghị công bố nội dung đăng ký doanh nghiệp và nộp phí công bố nội dung đăng ký doanh nghiệp được thực hiện tại thời điểm doanh nghiệp nộp hồ sơ đăng ký doanh nghiệp. Trường hợp doanh nghiệp không được cấp đăng ký doanh nghiệp, doanh nghiệp sẽ được hoàn trả phí công bố nội dung đăng ký doanh nghiệp.\n",
+      "description": "Doanh nghiệp sau khi được cấp Giấy chứng nhận đăng ký doanh nghiệp phải thông báo công khai trên Cổng thông tin quốc gia về đăng ký doanh nghiệp và phải nộp phí theo quy định của pháp luật. Nội dung công bố bao gồm các nội dung Giấy chứng nhận đăng ký doanh nghiệp và các thông tin sau đây:\n- Ngành, nghề kinh doanh;\n- Danh sách cổ đông sáng lập; danh sách cổ đông là nhà đầu tư nước ngoài đối với công ty cổ phần (nếu có).\nTrường hợp thay đổi nội dung đăng ký doanh nghiệp, những thay đổi tương ứng phải được thông báo công khai trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nThời hạn thông báo công khai thông tin về doanh nghiệp là 30 ngày kể từ ngày được công khai.\nThông tin công bố nội dung đăng ký doanh nghiệp được đăng tải trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nViệc đề nghị công bố nội dung đăng ký doanh nghiệp và nộp phí công bố nội dung đăng ký doanh nghiệp được thực hiện tại thời điểm doanh nghiệp nộp hồ sơ đăng ký doanh nghiệp. Trường hợp doanh nghiệp không được cấp đăng ký doanh nghiệp, doanh nghiệp sẽ được hoàn trả phí công bố nội dung đăng ký doanh nghiệp.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
@@ -76,346 +67,232 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "Giấy đề nghị đăng ký doanh nghiệp",
-        "code": "000.00.00.G05-KQ3332",
+        "name": "Trường hợp đăng ký doanh nghiệp xã hội:: Giấy đề nghị đăng ký doanh nghiệp",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp đăng ký doanh nghiệp xã hội:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Danh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có).",
-        "code": "000.00.00.G12-KQ014071",
+        "name": "Trường hợp đăng ký doanh nghiệp xã hội:: Danh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp đăng ký doanh nghiệp xã hội:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Cam kết thực hiện mục tiêu xã hội, môi trường có chữ ký của các thành viên là cá nhân; người đại diện theo pháp luật hoặc người đại diện theo ủy quyền đối với thành viên là tổ chức",
-        "code": "000.00.00.G12-KQ014053",
+        "name": "Trường hợp đăng ký doanh nghiệp xã hội:: Cam kết thực hiện mục tiêu xã hội, môi trường có chữ ký của các thành viên là cá nhân; người đại diện theo pháp luật hoặc người đại diện theo ủy quyền đối với thành viên là tổ chức",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp đăng ký doanh nghiệp xã hội:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Bản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.",
-        "code": "000.00.00.G12-KQ014042",
+        "name": "Trường hợp đăng ký doanh nghiệp xã hội:: Bản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp đăng ký doanh nghiệp xã hội:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Điều lệ công ty",
-        "code": "000.00.00.G05-KQ3333",
+        "name": "Trường hợp đăng ký doanh nghiệp xã hội:: Điều lệ công ty",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp đăng ký doanh nghiệp xã hội:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Danh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có).",
-        "code": "000.00.00.G12-KQ014071",
+        "name": "Trường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:: Danh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "(ii) Điều lệ công ty",
-        "code": "000.00.00.G05-KQ4783",
+        "name": "Trường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:: (ii) Điều lệ công ty",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Bản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.",
-        "code": "000.00.00.G12-KQ014042",
+        "name": "Trường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:: Bản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "(i) Giấy đề nghị đăng ký doanh nghiệp",
-        "code": "000.00.00.G05-KQ4782",
+        "name": "Trường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:: (i) Giấy đề nghị đăng ký doanh nghiệp",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Bản sao giấy phép thành lập và hoạt động hoặc bản sao văn bản chấp thuận của Ủy ban Chứng khoán Nhà nước theo quy định của pháp luật về chứng khoán",
-        "code": "000.00.00.G12-KQ014054",
+        "name": "Trường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:: Bản sao giấy phép thành lập và hoạt động hoặc bản sao văn bản chấp thuận của Ủy ban Chứng khoán Nhà nước theo quy định của pháp luật về chứng khoán",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Trường hợp nhà đầu tư nước ngoài thành lập tổ chức kinh tế thực hiện dự án đầu tư trước khi đăng ký đầu tư để thực hiện thủ tục đầu tư đặc biệt theo quy định của pháp luật về đầu tư thì hồ sơ đăng ký thành lập doanh nghiệp thực hiện dự án không bao gồm bản sao Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài quy định tại khoản 5 Điều 20, điểm c khoản 4 Điều 21 và điểm c khoản 4 Điều 22 Luật Doanh nghiệp. Trong trường hợp này, nhà đầu tư chịu trách nhiệm về tính hợp pháp, trung thực và chính xác của việc kê khai thông tin thực hiện thủ tục đầu tư đặc biệt.",
-        "code": "000.00.00.G12-KQ014030",
+        "name": "Trường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:: Trường hợp nhà đầu tư nước ngoài thành lập tổ chức kinh tế thực hiện dự án đầu tư trước khi đăng ký đầu tư để thực hiện thủ tục đầu tư đặc biệt theo quy định của pháp luật về đầu tư thì hồ sơ đăng ký thành lập doanh nghiệp thực hiện dự án không bao gồm bản sao Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài quy định tại khoản 5 Điều 20, điểm c khoản 4 Điều 21 và điểm c khoản 4 Điều 22 Luật Doanh nghiệp. Trong trường hợp này, nhà đầu tư chịu trách nhiệm về tính hợp pháp, trung thực và chính xác của việc kê khai thông tin thực hiện thủ tục đầu tư đặc biệt.",
         "quantity": null,
-        "required": false,
-        "case": "Trường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "Điều lệ công ty",
-        "code": "000.00.00.G05-KQ3325",
+        "name": "Trường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:: Điều lệ công ty",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài (doanh nghiệp chuyển đổi từ hộ kinh doanh có nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tham gia góp vốn, mua cổ phần, mua phần vốn góp thuộc trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư).",
-        "code": "000.00.00.G12-KQ014050",
+        "name": "Trường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:: Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài (doanh nghiệp chuyển đổi từ hộ kinh doanh có nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tham gia góp vốn, mua cổ phần, mua phần vốn góp thuộc trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư).",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "Giấy đề nghị đăng ký doanh nghiệp",
-        "code": "000.00.00.G05-KQ3324",
+        "name": "Trường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:: Giấy đề nghị đăng ký doanh nghiệp",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Danh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có)",
-        "code": "000.00.00.G12-KQ014072",
+        "name": "Trường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:: Danh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "(Trường hợp khai thác được thông tin trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp: Tổ chức, cá nhân, doanh nghiệp không phải nộp Bản sao Giấy chứng nhận đăng ký hộ kinh doanh.",
-        "code": "000.00.00.G12-KQ015979",
+        "name": "Trường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:: (Trường hợp khai thác được thông tin trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp: Tổ chức, cá nhân, doanh nghiệp không phải nộp Bản sao Giấy chứng nhận đăng ký hộ kinh doanh.",
         "quantity": null,
-        "required": false,
-        "case": "Trường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "Bản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.",
-        "code": "000.00.00.G12-KQ014042",
+        "name": "Trường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:: Bản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Bản sao Giấy chứng nhận đăng ký hộ kinh doanh",
-        "code": "000.00.00.G12-KQ014025",
+        "name": "Trường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:: Bản sao Giấy chứng nhận đăng ký hộ kinh doanh",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "Quyết định cho phép chuyển đổi thành doanh nghiệp xã hội bằng văn bản của cơ quan có thẩm quyền đã cấp giấy phép thành lập cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện",
-        "code": "000.00.00.G05-KQ3245",
+        "name": "Trường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:: Quyết định cho phép chuyển đổi thành doanh nghiệp xã hội bằng văn bản của cơ quan có thẩm quyền đã cấp giấy phép thành lập cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 6
       },
       {
-        "name": "Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư",
-        "code": "000.00.00.G12-KQ014029",
+        "name": "Trường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:: Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 6
       },
       {
-        "name": "(ii) Điều lệ công ty",
-        "code": "000.00.00.G05-KQ4770",
+        "name": "Trường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:: (ii) Điều lệ công ty",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Bản sao Giấy chứng nhận đăng ký thuế",
-        "code": "000.00.00.G05-KQ3330",
+        "name": "Trường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:: Bản sao Giấy chứng nhận đăng ký thuế",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 6
       },
       {
-        "name": "Bản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.",
-        "code": "000.00.00.G12-KQ014042",
+        "name": "Trường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:: Bản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "(i) Giấy đề nghị đăng ký doanh nghiệp",
-        "code": "000.00.00.G05-KQ4769",
+        "name": "Trường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:: (i) Giấy đề nghị đăng ký doanh nghiệp",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Danh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có).",
-        "code": "000.00.00.G12-KQ014071",
+        "name": "Trường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:: Danh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Giấy chứng nhận đăng ký thành lập đối với cơ sở bảo trợ xã hội, giấy phép thành lập và công nhận điều lệ quỹ đối với quỹ xã hội, quỹ từ thiện",
-        "code": "000.00.00.G05-KQ3253",
+        "name": "Trường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:: Giấy chứng nhận đăng ký thành lập đối với cơ sở bảo trợ xã hội, giấy phép thành lập và công nhận điều lệ quỹ đối với quỹ xã hội, quỹ từ thiện",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       },
       {
-        "name": "Văn bản ủy quyền cho cá nhân thực hiện thủ tục liên quan đến đăng ký doanh nghiệp. Văn bản ủy quyền này không bắt buộc phải công chứng, chứng thực",
-        "code": "000.00.00.G05-KQ3360",
+        "name": "Trường hợp ủy quyền cho cá nhân thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:: Văn bản ủy quyền cho cá nhân thực hiện thủ tục liên quan đến đăng ký doanh nghiệp. Văn bản ủy quyền này không bắt buộc phải công chứng, chứng thực",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp ủy quyền cho cá nhân thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       },
       {
-        "name": "Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp",
-        "code": "000.00.00.G12-KQ014032",
+        "name": "Trường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:: Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       },
       {
-        "name": "Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp",
-        "code": "000.00.00.G12-KQ014031",
+        "name": "Trường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:: Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 8
       },
       {
-        "name": "Bản sao phiếu gửi hồ sơ theo mẫu do doanh nghiệp cung ứng dịch vụ bưu chính công ích phát hành có chữ ký xác nhận của nhân viên bưu chính và người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp",
-        "code": "000.00.00.G05-KQ3365",
+        "name": "Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì khi thực hiện thủ tục đăng ký doanh nghiệp, nhân viên bưu chính phải nộp:: Bản sao phiếu gửi hồ sơ theo mẫu do doanh nghiệp cung ứng dịch vụ bưu chính công ích phát hành có chữ ký xác nhận của nhân viên bưu chính và người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì khi thực hiện thủ tục đăng ký doanh nghiệp, nhân viên bưu chính phải nộp:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 8
       },
       {
-        "name": "Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp",
-        "code": "000.00.00.G12-KQ014031",
+        "name": "Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì việc ủy quyền thực hiện theo quy định tại khoản 2 Điều 12 Nghị định số 168/2025/NĐ-CP, cụ thể:: Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì việc ủy quyền thực hiện theo quy định tại khoản 2 Điều 12 Nghị định số 168/2025/NĐ-CP, cụ thể:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 8
       },
       {
-        "name": "Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp",
-        "code": "000.00.00.G12-KQ014032",
+        "name": "Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì việc ủy quyền thực hiện theo quy định tại khoản 2 Điều 12 Nghị định số 168/2025/NĐ-CP, cụ thể:: Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì việc ủy quyền thực hiện theo quy định tại khoản 2 Điều 12 Nghị định số 168/2025/NĐ-CP, cụ thể:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       },
       {
-        "name": "(Trường hợp khai thác được thông tin về Giấy chứng nhận đăng ký doanh nghiệp của doanh nghiệp thành lập và hoạt động theo Luật Doanh nghiệp; Giấy chứng nhận đăng ký hợp tác xã của hợp tác xã, liên hiệp hợp tác xã thành lập và hoạt động theo Luật Hợp tác xã trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ sổ dữ liệu về đăng ký hợp tác xã thì hồ sơ không bao gồm bản sao giấy tờ pháp lý của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã đó).",
-        "code": "000.00.00.G12-KQ015978",
+        "name": "Đăng ký thành lập công ty TNHH hai thành viên trở lên: (Trường hợp khai thác được thông tin về Giấy chứng nhận đăng ký doanh nghiệp của doanh nghiệp thành lập và hoạt động theo Luật Doanh nghiệp; Giấy chứng nhận đăng ký hợp tác xã của hợp tác xã, liên hiệp hợp tác xã thành lập và hoạt động theo Luật Hợp tác xã trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ sổ dữ liệu về đăng ký hợp tác xã thì hồ sơ không bao gồm bản sao giấy tờ pháp lý của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã đó).",
         "quantity": null,
-        "required": false,
-        "case": "Đăng ký thành lập công ty TNHH hai thành viên trở lên",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 8
       },
       {
-        "name": "Bản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.",
-        "code": "000.00.00.G12-KQ014042",
+        "name": "Đăng ký thành lập công ty TNHH hai thành viên trở lên: Bản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Đăng ký thành lập công ty TNHH hai thành viên trở lên",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Giấy đề nghị đăng ký doanh nghiệp",
-        "code": "000.00.00.G05-KQ3318",
+        "name": "Đăng ký thành lập công ty TNHH hai thành viên trở lên: Giấy đề nghị đăng ký doanh nghiệp",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Đăng ký thành lập công ty TNHH hai thành viên trở lên",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Điều lệ công ty",
-        "code": "000.00.00.G05-KQ3319",
+        "name": "Đăng ký thành lập công ty TNHH hai thành viên trở lên: Điều lệ công ty",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Đăng ký thành lập công ty TNHH hai thành viên trở lên",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Danh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có).",
-        "code": "000.00.00.G12-KQ014071",
+        "name": "Đăng ký thành lập công ty TNHH hai thành viên trở lên: Danh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Đăng ký thành lập công ty TNHH hai thành viên trở lên",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "- Người ủy quyền và người được ủy quyền thực hiện thủ tục đăng ký doanh nghiệp chịu trách nhiệm trước pháp luật về tính hợp pháp, trung thực và chính xác của việc ủy quyền. Người uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp. Trường hợp người ủy quyền không xác nhận hoặc xác nhận không ủy quyền thực hiện thủ tục đăng ký doanh nghiệp thì Cơ quan đăng ký kinh doanh cấp tỉnh yêu cầu doanh nghiệp báo cáo theo quy định tại khoản 5 Điều 21 Nghị định số 168/2025/NĐ-CP. Cụ thể: Yêu cầu doanh nghiệp báo cáo về việc tuân thủ các quy định của Luật Doanh nghiệp theo quy định tại điểm c khoản 1 Điều 216 Luật Doanh nghiệp “Yêu cầu doanh nghiệp báo cáo về việc tuân thủ quy định của Luật này khi xét thấy cần thiết; đôn đốc việc thực hiện nghĩa vụ báo cáo của doanh nghiệp”. Trường hợp chưa có tài khoản định danh điện tử để thực hiện xác thực điện tử thì hồ sơ đăng ký doanh nghiệp phải kèm theo bản sao thẻ Căn cước hoặc thẻ Căn cước công dân hoặc hộ chiếu hoặc hộ chiếu nước ngoài hoặc các giấy tờ có giá trị thay thế hộ chiếu nước ngoài còn hiệu lực của người uỷ quyền.",
-        "code": "000.00.00.G12-KQ014033",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 9
       }
     ]
   },
@@ -424,35 +301,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 100000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phí công bố nội dung đăng ký doanh nghiệp: 100.000 đồng/lần (Thông tư số 47/2019/TT-BTC)",
-          "attachment": null
-        }
-      ],
+      "fee": "Phí công bố nội dung đăng ký doanh nghiệp: 100.000 đồng/lần (Thông tư số 47/2019/TT-BTC)",
       "description": "",
-      "source_page": null
+      "source_page": 10
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 100000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "- Lệ phí đăng ký doanh nghiệp: Bằng 50% mức thu lệ phí quy định tại điểm 1 Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC (Thông tư số 64/2025/TT-BTC ngày 30 tháng 6 năm 2025 của Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân)",
-          "attachment": null
-        }
-      ],
+      "fee": "- Lệ phí đăng ký doanh nghiệp: Bằng 50% mức thu lệ phí quy định tại điểm 1 Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC (Thông tư số 64/2025/TT-BTC ngày 30 tháng 6 năm 2025 của Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân)",
       "description": "",
       "source_page": null
     },
@@ -460,51 +317,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 50000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "- Lệ phí đăng ký doanh nghiệp: Bằng 50% mức thu lệ phí quy định tại điểm 1 Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC (Thông tư số 64/2025/TT-BTC ngày 30 tháng 6 năm 2025 của Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân)",
-          "attachment": null
-        }
-      ],
+      "fee": "- Lệ phí đăng ký doanh nghiệp: Bằng 50% mức thu lệ phí quy định tại điểm 1 Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC (Thông tư số 64/2025/TT-BTC ngày 30 tháng 6 năm 2025 của Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân)",
       "description": "",
-      "source_page": null
+      "source_page": 7
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Phí công bố nội dung đăng ký doanh nghiệp: 100.000 đồng/lần (Thông tư số 47/2019/TT-BTC); - Lệ phí đăng ký doanh nghiệp: Bằng 50% mức thu lệ phí quy định tại điểm 1 Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC (Thông tư số 64/2025/TT-BTC ngày 30 tháng 6 năm 2025 của Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân)",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 100000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phí công bố nội dung đăng ký doanh nghiệp: 100.000 đồng/lần (Thông tư số 47/2019/TT-BTC)",
-        "attachment": null
+        "amount_text": "Phí công bố nội dung đăng ký doanh nghiệp: 100.000 đồng/lần (Thông tư số 47/2019/TT-BTC)",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 100000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "- Lệ phí đăng ký doanh nghiệp: Bằng 50% mức thu lệ phí quy định tại điểm 1 Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC (Thông tư số 64/2025/TT-BTC ngày 30 tháng 6 năm 2025 của Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân)",
-        "attachment": null
+        "amount_text": "- Lệ phí đăng ký doanh nghiệp: Bằng 50% mức thu lệ phí quy định tại điểm 1 Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC (Thông tư số 64/2025/TT-BTC ngày 30 tháng 6 năm 2025 của Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân)",
+        "is_free": false,
+        "source_page": 10
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 50000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "- Lệ phí đăng ký doanh nghiệp: Bằng 50% mức thu lệ phí quy định tại điểm 1 Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC (Thông tư số 64/2025/TT-BTC ngày 30 tháng 6 năm 2025 của Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân)",
-        "attachment": null
+        "amount_text": "- Lệ phí đăng ký doanh nghiệp: Bằng 50% mức thu lệ phí quy định tại điểm 1 Biểu phí, lệ phí đăng ký doanh nghiệp ban hành kèm theo Thông tư số 47/2019/TT-BTC (Thông tư số 64/2025/TT-BTC ngày 30 tháng 6 năm 2025 của Bộ Tài chính quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân)",
+        "is_free": false,
+        "source_page": 10
       }
     ]
   },
@@ -512,44 +354,37 @@
     {
       "title": "Luật Doanh nghiệp",
       "document_number": "59/2020/QH14",
-      "id": "019d2bb3-5d84-71c5-b673-a5cd7b50c21c",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư số 68/2025/TT-BTC của Bộ Tài chính: Ban hành biểu mẫu sử dụng trong đăng ký doanh nghiệp, đăng ký hộ kinh doanh",
       "document_number": "68/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-87184807d6b6",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "47/2019/TT-BTC",
       "document_number": "Thông tư 47/2019/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4f-e6b1d73fd7a4",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Nghị định số 168/2025/NĐ-CP ngày 30 tháng 6 năm 2025 của Chính phủ về đăng ký doanh nghiệp",
       "document_number": "168/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afec-5e297320f06a",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Thông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân",
       "document_number": "64/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4e-69cce97f8824",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Nghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu",
       "document_number": "66.7/2025/NQ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-22af3c5ee091",
-      "source_page": null
+      "source_page": 11
     },
     {
       "title": "Luật sửa đổi, bổ sung một số điều của Luật Doanh nghiệp 2020",
       "document_number": "76/2025/QH15",
-      "id": "019d2bb3-5d87-7195-a445-a84d5af06feb",
-      "source_page": null
+      "source_page": 11
     }
   ],
   "conditions": "",
@@ -557,25 +392,22 @@
     {
       "title": "Văn bản nêu rõ lý do từ chối của Cơ quan đăng ký kinh doanh",
       "code": "KQ.G12.001040",
-      "id": "019d2bb2-1c72-75fa-a590-8d4ba606d3c1",
-      "source_page": null
+      "source_page": 11
     },
     {
       "title": "Giấy chứng nhận đăng ký doanh nghiệp Công ty TNHH hai thành viên trở lên",
       "code": "KQ.G12.001052",
-      "id": "019d2bb2-1c72-75fa-a590-b59353dfddb8",
-      "source_page": null
+      "source_page": 11
     },
     {
       "title": "Thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp",
       "code": "KQ.G12.001051",
-      "id": "019d2bb2-1c72-75fa-a590-b03dba8f7347",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Người nộp hồ sơ đăng ký doanh nghiệp theo quy định tại Nghị định số 168/2025/NĐ-CP nộp hồ sơ tại Cơ quan Đăng ký kinh doanh cấp tỉnh nơi doanh nghiệp đặt trụ sở chính.\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận hồ sơ, Cơ quan đăng ký kinh doanh có trách nhiệm xem xét tính hợp lệ của hồ sơ đăng ký doanh nghiệp và cấp đăng ký doanh nghiệp; trường hợp hồ sơ chưa hợp lệ, Cơ quan đăng ký kinh doanh phải thông báo bằng văn bản nội dung cần sửa đổi, bổ sung cho người thành lập doanh nghiệp. Trường hợp từ chối đăng ký doanh nghiệp thì phải thông báo bằng văn bản cho người thành lập doanh nghiệp và nêu rõ lý do.\n* Quy trình tiếp nhận, giải quyết thủ tục hành chính có thành phần hồ sơ được cắt giảm, thay thế dựa trên dữ liệu:\nCơ quan đăng ký kinh doanh cấp tỉnh khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư để thay thế thành phần hồ sơ giải quyết thủ tục hành chính.\n- Trường hợp không khai thác được hoặc thông tin khai thác được trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư không đầy đủ, không chính xác: Cơ quan đăng ký kinh doanh cấp tỉnh ra thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp cho người thành lập doanh nghiệp hoặc doanh nghiệp trong thời hạn quy định tại Luật Doanh nghiệp và Nghị định số 168/2025/NĐ-CP; đồng thời hướng dẫn cho người thành lập doanh nghiệp hoặc doanh nghiệp liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.\n\nNgười nộp hồ sơ sử dụng tài khoản định danh điện tử để đăng nhập Cổng thông tin quốc gia về đăng ký doanh nghiệp, kê khai thông tin, tải văn bản điện tử, ký số hoặc ký xác thực hồ sơ đăng ký doanh nghiệp qua mạng thông tin điện tử và thanh toán phí, lệ phí đăng ký doanh nghiệp theo quy trình trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nNgười uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.\nSau khi hoàn thành việc gửi hồ sơ đăng ký doanh nghiệp, người nộp hồ sơ sẽ nhận được giấy tiếp nhận hồ sơ và hẹn trả kết quả điện tử qua tài khoản của người nộp hồ sơ.\nTrường hợp hồ sơ đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh thực hiện cấp đăng ký doanh nghiệp và thông báo cho doanh nghiệp về việc cấp đăng ký doanh nghiệp. Trường hợp hồ sơ chưa đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh gửi thông báo qua mạng thông tin điện tử cho doanh nghiệp để yêu cầu sửa đổi, bổ sung hồ sơ. Người nộp hồ sơ đăng nhập vào Hệ thống thông tin quốc gia về đăng ký doanh nghiệp để nhận thông tin phản hồi về kết quả xử lý hồ sơ.\n* Quy trình tiếp nhận, giải quyết thủ tục hành chính có thành phần hồ sơ được cắt giảm, thay thế dựa trên dữ liệu:\nCơ quan đăng ký kinh doanh cấp tỉnh khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư để thay thế thành phần hồ sơ giải quyết thủ tục hành chính.\n- Trường hợp không khai thác được hoặc thông tin khai thác được trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư không đầy đủ, không chính xác: Cơ quan đăng ký kinh doanh cấp tỉnh ra thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp cho người thành lập doanh nghiệp hoặc doanh nghiệp trong thời hạn quy định tại Luật Doanh nghiệp và Nghị định số 168/2025/NĐ-CP. Thông báo được gửi đến tài khoản của người nộp hồ sơ trên Cổng thông tin quốc gia về đăng ký doanh nghiệp; đồng thời hướng dẫn người thành lập doanh nghiệp hoặc doanh nghiệp liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.\n\nDoanh nghiệp sau khi được cấp Giấy chứng nhận đăng ký doanh nghiệp phải thông báo công khai trên Cổng thông tin quốc gia về đăng ký doanh nghiệp và phải nộp phí theo quy định của pháp luật. Nội dung công bố bao gồm các nội dung Giấy chứng nhận đăng ký doanh nghiệp và các thông tin sau đây:\n- Ngành, nghề kinh doanh;\n- Danh sách cổ đông sáng lập; danh sách cổ đông là nhà đầu tư nước ngoài đối với công ty cổ phần (nếu có).\nTrường hợp thay đổi nội dung đăng ký doanh nghiệp, những thay đổi tương ứng phải được thông báo công khai trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nThời hạn thông báo công khai thông tin về doanh nghiệp là 30 ngày kể từ ngày được công khai.\nThông tin công bố nội dung đăng ký doanh nghiệp được đăng tải trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nViệc đề nghị công bố nội dung đăng ký doanh nghiệp và nộp phí công bố nội dung đăng ký doanh nghiệp được thực hiện tại thời điểm doanh nghiệp nộp hồ sơ đăng ký doanh nghiệp. Trường hợp doanh nghiệp không được cấp đăng ký doanh nghiệp, doanh nghiệp sẽ được hoàn trả phí công bố nội dung đăng ký doanh nghiệp.\n",
-    "THÀNH PHẦN HỒ SƠ": "Trường hợp đăng ký doanh nghiệp xã hội:\nGiấy đề nghị đăng ký doanh nghiệp\nDanh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có).\nCam kết thực hiện mục tiêu xã hội, môi trường có chữ ký của các thành viên là cá nhân; người đại diện theo pháp luật hoặc người đại diện theo ủy quyền đối với thành viên là tổ chức\nBản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.\nĐiều lệ công ty\nTrường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:\nDanh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có).\n(ii) Điều lệ công ty\nBản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.\n(i) Giấy đề nghị đăng ký doanh nghiệp\nBản sao giấy phép thành lập và hoạt động hoặc bản sao văn bản chấp thuận của Ủy ban Chứng khoán Nhà nước theo quy định của pháp luật về chứng khoán\nTrường hợp nhà đầu tư nước ngoài thành lập tổ chức kinh tế thực hiện dự án đầu tư trước khi đăng ký đầu tư để thực hiện thủ tục đầu tư đặc biệt theo quy định của pháp luật về đầu tư thì hồ sơ đăng ký thành lập doanh nghiệp thực hiện dự án không bao gồm bản sao Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài quy định tại khoản 5 Điều 20, điểm c khoản 4 Điều 21 và điểm c khoản 4 Điều 22 Luật Doanh nghiệp. Trong trường hợp này, nhà đầu tư chịu trách nhiệm về tính hợp pháp, trung thực và chính xác của việc kê khai thông tin thực hiện thủ tục đầu tư đặc biệt.\nTrường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:\nĐiều lệ công ty\nBản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài (doanh nghiệp chuyển đổi từ hộ kinh doanh có nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tham gia góp vốn, mua cổ phần, mua phần vốn góp thuộc trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư).\nGiấy đề nghị đăng ký doanh nghiệp\nDanh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có)\n(Trường hợp khai thác được thông tin trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp: Tổ chức, cá nhân, doanh nghiệp không phải nộp Bản sao Giấy chứng nhận đăng ký hộ kinh doanh.\nBản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.\nBản sao Giấy chứng nhận đăng ký hộ kinh doanh\nTrường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:\nQuyết định cho phép chuyển đổi thành doanh nghiệp xã hội bằng văn bản của cơ quan có thẩm quyền đã cấp giấy phép thành lập cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện\nBản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư\n(ii) Điều lệ công ty\nBản sao Giấy chứng nhận đăng ký thuế\nBản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.\n(i) Giấy đề nghị đăng ký doanh nghiệp\nDanh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có).\nGiấy chứng nhận đăng ký thành lập đối với cơ sở bảo trợ xã hội, giấy phép thành lập và công nhận điều lệ quỹ đối với quỹ xã hội, quỹ từ thiện\nTrường hợp ủy quyền cho cá nhân thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:\nVăn bản ủy quyền cho cá nhân thực hiện thủ tục liên quan đến đăng ký doanh nghiệp. Văn bản ủy quyền này không bắt buộc phải công chứng, chứng thực\nTrường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:\nBản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp\nGiấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp\nTrường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì khi thực hiện thủ tục đăng ký doanh nghiệp, nhân viên bưu chính phải nộp:\nBản sao phiếu gửi hồ sơ theo mẫu do doanh nghiệp cung ứng dịch vụ bưu chính công ích phát hành có chữ ký xác nhận của nhân viên bưu chính và người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp\nTrường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì việc ủy quyền thực hiện theo quy định tại khoản 2 Điều 12 Nghị định số 168/2025/NĐ-CP, cụ thể:\nGiấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp\nBản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp\nĐăng ký thành lập công ty TNHH hai thành viên trở lên\n(Trường hợp khai thác được thông tin về Giấy chứng nhận đăng ký doanh nghiệp của doanh nghiệp thành lập và hoạt động theo Luật Doanh nghiệp; Giấy chứng nhận đăng ký hợp tác xã của hợp tác xã, liên hiệp hợp tác xã thành lập và hoạt động theo Luật Hợp tác xã trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ sổ dữ liệu về đăng ký hợp tác xã thì hồ sơ không bao gồm bản sao giấy tờ pháp lý của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã đó).\nBản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.\nGiấy đề nghị đăng ký doanh nghiệp\nĐiều lệ công ty\nDanh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có).\n\n- Người ủy quyền và người được ủy quyền thực hiện thủ tục đăng ký doanh nghiệp chịu trách nhiệm trước pháp luật về tính hợp pháp, trung thực và chính xác của việc ủy quyền. Người uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp. Trường hợp người ủy quyền không xác nhận hoặc xác nhận không ủy quyền thực hiện thủ tục đăng ký doanh nghiệp thì Cơ quan đăng ký kinh doanh cấp tỉnh yêu cầu doanh nghiệp báo cáo theo quy định tại khoản 5 Điều 21 Nghị định số 168/2025/NĐ-CP. Cụ thể: Yêu cầu doanh nghiệp báo cáo về việc tuân thủ các quy định của Luật Doanh nghiệp theo quy định tại điểm c khoản 1 Điều 216 Luật Doanh nghiệp “Yêu cầu doanh nghiệp báo cáo về việc tuân thủ quy định của Luật này khi xét thấy cần thiết; đôn đốc việc thực hiện nghĩa vụ báo cáo của doanh nghiệp”. Trường hợp chưa có tài khoản định danh điện tử để thực hiện xác thực điện tử thì hồ sơ đăng ký doanh nghiệp phải kèm theo bản sao thẻ Căn cước hoặc thẻ Căn cước công dân hoặc hộ chiếu hoặc hộ chiếu nước ngoài hoặc các giấy tờ có giá trị thay thế hộ chiếu nước ngoài còn hiệu lực của người uỷ quyền.",
+    "TRÌNH TỰ THỰC HIỆN": "Người nộp hồ sơ đăng ký doanh nghiệp theo quy định tại Nghị định số 168/2025/NĐ-CP nộp hồ sơ tại Cơ quan Đăng ký kinh doanh cấp tỉnh nơi doanh nghiệp đặt trụ sở chính.\nTrong thời hạn 03 ngày làm việc kể từ ngày nhận hồ sơ, Cơ quan đăng ký kinh doanh có trách nhiệm xem xét tính hợp lệ của hồ sơ đăng ký doanh nghiệp và cấp đăng ký doanh nghiệp; trường hợp hồ sơ chưa hợp lệ, Cơ quan đăng ký kinh doanh phải thông báo bằng văn bản nội dung cần sửa đổi, bổ sung cho người thành lập doanh nghiệp. Trường hợp từ chối đăng ký doanh nghiệp thì phải thông báo bằng văn bản cho người thành lập doanh nghiệp và nêu rõ lý do.\n* Quy trình tiếp nhận, giải quyết thủ tục hành chính có thành phần hồ sơ được cắt giảm, thay thế dựa trên dữ liệu:\nCơ quan đăng ký kinh doanh cấp tỉnh khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư để thay thế thành phần hồ sơ giải quyết thủ tục hành chính.\n- Trường hợp không khai thác được hoặc thông tin khai thác được trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư không đầy đủ, không chính xác: Cơ quan đăng ký kinh doanh cấp tỉnh ra thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp cho người thành lập doanh nghiệp hoặc doanh nghiệp trong thời hạn quy định tại Luật Doanh nghiệp và Nghị định số 168/2025/NĐ-CP; đồng thời hướng dẫn cho người thành lập doanh nghiệp hoặc doanh nghiệp liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.\nNgười nộp hồ sơ sử dụng tài khoản định danh điện tử để đăng nhập Cổng thông tin quốc gia về đăng ký doanh nghiệp, kê khai thông tin, tải văn bản điện tử, ký số hoặc ký xác thực hồ sơ đăng ký doanh nghiệp qua mạng thông tin điện tử và thanh toán phí, lệ phí đăng ký doanh nghiệp theo quy trình trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nNgười uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp.\nSau khi hoàn thành việc gửi hồ sơ đăng ký doanh nghiệp, người nộp hồ sơ sẽ nhận được giấy tiếp nhận hồ sơ và hẹn trả kết quả điện tử qua tài khoản của người nộp hồ sơ.\nTrường hợp hồ sơ đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh thực hiện cấp đăng ký doanh nghiệp và thông báo cho doanh nghiệp về việc cấp đăng ký doanh nghiệp. Trường hợp hồ sơ chưa đủ điều kiện cấp đăng ký doanh nghiệp, Cơ quan đăng ký kinh doanh cấp tỉnh gửi thông báo qua mạng thông tin điện tử cho doanh nghiệp để yêu cầu sửa đổi, bổ sung hồ sơ. Người nộp hồ sơ đăng nhập vào Hệ thống thông tin quốc gia về đăng ký doanh nghiệp để nhận thông tin phản hồi về kết quả xử lý hồ sơ.\n* Quy trình tiếp nhận, giải quyết thủ tục hành chính có thành phần hồ sơ được cắt giảm, thay thế dựa trên dữ liệu:\nCơ quan đăng ký kinh doanh cấp tỉnh khai thác, sử dụng thông tin đã có trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư để thay thế thành phần hồ sơ giải quyết thủ tục hành chính.\n- Trường hợp không khai thác được hoặc thông tin khai thác được trên Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp/Cơ sở dữ liệu quốc gia về dân cư không đầy đủ, không chính xác: Cơ quan đăng ký kinh doanh cấp tỉnh ra thông báo về việc sửa đổi, bổ sung hồ sơ đăng ký doanh nghiệp cho người thành lập doanh nghiệp hoặc doanh nghiệp trong thời hạn quy định tại Luật Doanh nghiệp và Nghị định số 168/2025/NĐ-CP. Thông báo được gửi đến tài khoản của người nộp hồ sơ trên Cổng thông tin quốc gia về đăng ký doanh nghiệp; đồng thời hướng dẫn người thành lập doanh nghiệp hoặc doanh nghiệp liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.\nDoanh nghiệp sau khi được cấp Giấy chứng nhận đăng ký doanh nghiệp phải thông báo công khai trên Cổng thông tin quốc gia về đăng ký doanh nghiệp và phải nộp phí theo quy định của pháp luật. Nội dung công bố bao gồm các nội dung Giấy chứng nhận đăng ký doanh nghiệp và các thông tin sau đây:\n- Ngành, nghề kinh doanh;\n- Danh sách cổ đông sáng lập; danh sách cổ đông là nhà đầu tư nước ngoài đối với công ty cổ phần (nếu có).\nTrường hợp thay đổi nội dung đăng ký doanh nghiệp, những thay đổi tương ứng phải được thông báo công khai trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nThời hạn thông báo công khai thông tin về doanh nghiệp là 30 ngày kể từ ngày được công khai.\nThông tin công bố nội dung đăng ký doanh nghiệp được đăng tải trên Cổng thông tin quốc gia về đăng ký doanh nghiệp.\nViệc đề nghị công bố nội dung đăng ký doanh nghiệp và nộp phí công bố nội dung đăng ký doanh nghiệp được thực hiện tại thời điểm doanh nghiệp nộp hồ sơ đăng ký doanh nghiệp. Trường hợp doanh nghiệp không được cấp đăng ký doanh nghiệp, doanh nghiệp sẽ được hoàn trả phí công bố nội dung đăng ký doanh nghiệp.",
+    "THÀNH PHẦN HỒ SƠ": "Trường hợp đăng ký doanh nghiệp xã hội:: Giấy đề nghị đăng ký doanh nghiệp\nTrường hợp đăng ký doanh nghiệp xã hội:: Danh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có).\nTrường hợp đăng ký doanh nghiệp xã hội:: Cam kết thực hiện mục tiêu xã hội, môi trường có chữ ký của các thành viên là cá nhân; người đại diện theo pháp luật hoặc người đại diện theo ủy quyền đối với thành viên là tổ chức\nTrường hợp đăng ký doanh nghiệp xã hội:: Bản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.\nTrường hợp đăng ký doanh nghiệp xã hội:: Điều lệ công ty\nTrường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:: Danh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có).\nTrường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:: (ii) Điều lệ công ty\nTrường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:: Bản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.\nTrường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:: (i) Giấy đề nghị đăng ký doanh nghiệp\nTrường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:: Bản sao giấy phép thành lập và hoạt động hoặc bản sao văn bản chấp thuận của Ủy ban Chứng khoán Nhà nước theo quy định của pháp luật về chứng khoán\nTrường hợp đăng ký doanh nghiệp đối với công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, công ty đầu tư chứng khoán:: Trường hợp nhà đầu tư nước ngoài thành lập tổ chức kinh tế thực hiện dự án đầu tư trước khi đăng ký đầu tư để thực hiện thủ tục đầu tư đặc biệt theo quy định của pháp luật về đầu tư thì hồ sơ đăng ký thành lập doanh nghiệp thực hiện dự án không bao gồm bản sao Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài quy định tại khoản 5 Điều 20, điểm c khoản 4 Điều 21 và điểm c khoản 4 Điều 22 Luật Doanh nghiệp. Trong trường hợp này, nhà đầu tư chịu trách nhiệm về tính hợp pháp, trung thực và chính xác của việc kê khai thông tin thực hiện thủ tục đầu tư đặc biệt.\nTrường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:: Điều lệ công ty\nTrường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:: Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài (doanh nghiệp chuyển đổi từ hộ kinh doanh có nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài tham gia góp vốn, mua cổ phần, mua phần vốn góp thuộc trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư).\nTrường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:: Giấy đề nghị đăng ký doanh nghiệp\nTrường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:: Danh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có)\nTrường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:: (Trường hợp khai thác được thông tin trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp: Tổ chức, cá nhân, doanh nghiệp không phải nộp Bản sao Giấy chứng nhận đăng ký hộ kinh doanh.\nTrường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:: Bản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.\nTrường hợp đăng ký thành lập doanh nghiệp trên cơ sở chuyển đổi từ hộ kinh doanh:: Bản sao Giấy chứng nhận đăng ký hộ kinh doanh\nTrường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:: Quyết định cho phép chuyển đổi thành doanh nghiệp xã hội bằng văn bản của cơ quan có thẩm quyền đã cấp giấy phép thành lập cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện\nTrường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:: Bản sao văn bản của Cơ quan đăng ký đầu tư chấp thuận về việc góp vốn, mua cổ phần, mua phần vốn góp của nhà đầu tư nước ngoài, tổ chức kinh tế có vốn đầu tư nước ngoài đối với trường hợp phải thực hiện thủ tục đăng ký góp vốn, mua cổ phần, mua phần vốn góp theo quy định của Luật Đầu tư\nTrường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:: (ii) Điều lệ công ty\nTrường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:: Bản sao Giấy chứng nhận đăng ký thuế\nTrường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:: Bản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.\nTrường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:: (i) Giấy đề nghị đăng ký doanh nghiệp\nTrường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:: Danh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có).\nTrường hợp đăng ký thành lập doanh nghiệp xã hội trên cơ sở chuyển đổi từ cơ sở bảo trợ xã hội, quỹ xã hội, quỹ từ thiện:: Giấy chứng nhận đăng ký thành lập đối với cơ sở bảo trợ xã hội, giấy phép thành lập và công nhận điều lệ quỹ đối với quỹ xã hội, quỹ từ thiện\nTrường hợp ủy quyền cho cá nhân thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:: Văn bản ủy quyền cho cá nhân thực hiện thủ tục liên quan đến đăng ký doanh nghiệp. Văn bản ủy quyền này không bắt buộc phải công chứng, chứng thực\nTrường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:: Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp\nTrường hợp ủy quyền cho tổ chức thực hiện thủ tục đăng ký doanh nghiệp, kèm theo hồ sơ đăng ký doanh nghiệp phải có:: Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp\nTrường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì khi thực hiện thủ tục đăng ký doanh nghiệp, nhân viên bưu chính phải nộp:: Bản sao phiếu gửi hồ sơ theo mẫu do doanh nghiệp cung ứng dịch vụ bưu chính công ích phát hành có chữ ký xác nhận của nhân viên bưu chính và người có thẩm quyền ký văn bản đề nghị đăng ký doanh nghiệp\nTrường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì việc ủy quyền thực hiện theo quy định tại khoản 2 Điều 12 Nghị định số 168/2025/NĐ-CP, cụ thể:: Giấy giới thiệu hoặc văn bản phân công nhiệm vụ của tổ chức đó cho cá nhân trực tiếp thực hiện thủ tục liên quan đến đăng ký doanh nghiệp\nTrường hợp ủy quyền cho đơn vị cung cấp dịch vụ bưu chính không phải là bưu chính công ích thực hiện thủ tục đăng ký doanh nghiệp thì việc ủy quyền thực hiện theo quy định tại khoản 2 Điều 12 Nghị định số 168/2025/NĐ-CP, cụ thể:: Bản sao hợp đồng ủy quyền cho tổ chức thực hiện thủ tục liên quan đến đăng ký doanh nghiệp\nĐăng ký thành lập công ty TNHH hai thành viên trở lên: (Trường hợp khai thác được thông tin về Giấy chứng nhận đăng ký doanh nghiệp của doanh nghiệp thành lập và hoạt động theo Luật Doanh nghiệp; Giấy chứng nhận đăng ký hợp tác xã của hợp tác xã, liên hiệp hợp tác xã thành lập và hoạt động theo Luật Hợp tác xã trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp, Cơ sổ dữ liệu về đăng ký hợp tác xã thì hồ sơ không bao gồm bản sao giấy tờ pháp lý của doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã đó).\nĐăng ký thành lập công ty TNHH hai thành viên trở lên: Bản sao các giấy tờ sau đây: \t- Giấy tờ pháp lý của cá nhân đối với thành viên là cá nhân, người đại diện theo pháp luật; \t- Giấy tờ pháp lý của tổ chức đối với thành viên là tổ chức và văn bản cử người đại diện theo ủy quyền; giấy tờ pháp lý của cá nhân đối với người đại diện theo ủy quyền của thành viên là tổ chức. \tĐối với thành viên là tổ chức nước ngoài thì bản sao giấy tờ pháp lý của tổ chức phải được hợp pháp hóa lãnh sự; \t- Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài theo quy định của Luật Đầu tư. Trường hợp chủ sở hữu, thành viên là cá nhân, người đại diện theo pháp luật, người đại diện theo ủy quyền của chủ sở hữu, thành viên là tổ chức kê khai số định danh cá nhân theo quy định tại khoản 1 Điều 11 Nghị định số 168/2025/NĐ-CP thì hồ sơ đăng ký doanh nghiệp không bao gồm bản sao giấy tờ pháp lý của các cá nhân này.\nĐăng ký thành lập công ty TNHH hai thành viên trở lên: Giấy đề nghị đăng ký doanh nghiệp\nĐăng ký thành lập công ty TNHH hai thành viên trở lên: Điều lệ công ty\nĐăng ký thành lập công ty TNHH hai thành viên trở lên: Danh sách thành viên; danh sách chủ sở hữu hưởng lợi của doanh nghiệp (nếu có).\n- Người ủy quyền và người được ủy quyền thực hiện thủ tục đăng ký doanh nghiệp chịu trách nhiệm trước pháp luật về tính hợp pháp, trung thực và chính xác của việc ủy quyền. Người uỷ quyền và người được ủy quyền phải xác thực điện tử để được cấp đăng ký doanh nghiệp. Trường hợp việc xác thực điện tử bị gián đoạn thì người ủy quyền thực hiện việc xác thực điện tử sau khi được cấp đăng ký doanh nghiệp. Trường hợp người ủy quyền không xác nhận hoặc xác nhận không ủy quyền thực hiện thủ tục đăng ký doanh nghiệp thì Cơ quan đăng ký kinh doanh cấp tỉnh yêu cầu doanh nghiệp báo cáo theo quy định tại khoản 5 Điều 21 Nghị định số 168/2025/NĐ-CP. Cụ thể: Yêu cầu doanh nghiệp báo cáo về việc tuân thủ các quy định của Luật Doanh nghiệp theo quy định tại điểm c khoản 1 Điều 216 Luật Doanh nghiệp “Yêu cầu doanh nghiệp báo cáo về việc tuân thủ quy định của Luật này khi xét thấy cần thiết; đôn đốc việc thực hiện nghĩa vụ báo cáo của doanh nghiệp”. Trường hợp chưa có tài khoản định danh điện tử để thực hiện xác thực điện tử thì hồ sơ đăng ký doanh nghiệp phải kèm theo bản sao thẻ Căn cước hoặc thẻ Căn cước công dân hoặc hộ chiếu hoặc hộ chiếu nước ngoài hoặc các giấy tờ có giá trị thay thế hộ chiếu nước ngoài còn hiệu lực của người uỷ quyền.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 3 ngày làm việc\nQua dịch vụ bưu chính: 3 ngày làm việc\nTrực tiếp: 3 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Luật Doanh nghiệp - 59/2020/QH14\nThông tư số 68/2025/TT-BTC của Bộ Tài chính: Ban hành biểu mẫu sử dụng trong đăng ký doanh nghiệp, đăng ký hộ kinh doanh - 68/2025/TT-BTC\n47/2019/TT-BTC - Thông tư 47/2019/TT-BTC\nNghị định số 168/2025/NĐ-CP ngày 30 tháng 6 năm 2025 của Chính phủ về đăng ký doanh nghiệp - 168/2025/NĐ-CP\nThông tư quy định mức thu, miễn một số khoản phí, lệ phí nhằm hỗ trợ cho doanh nghiệp, người dân - 64/2025/TT-BTC\nNghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu - 66.7/2025/NQ-CP\nLuật sửa đổi, bổ sung một số điều của Luật Doanh nghiệp 2020 - 76/2025/QH15",
     "CƠ QUAN THỰC HIỆN": "Sở Tài chính các tỉnh, thành phố",
@@ -585,14 +417,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thành lập và hoạt động của doanh nghiệp",
-      "slug": "thanh-lap-va-hoat-dong-cua-doanh-nghiep"
+      "slug": "thanh-lap-va-hoat-ong-cua-doanh-nghiep"
     },
     "implementation_levels": [
       {
@@ -611,7 +438,7 @@
     "target_users": [
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Hợp tác xã",
@@ -635,7 +462,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -644,6 +471,6 @@
         "slug": "so-tai-chinh-cac-tinh-thanh-pho"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

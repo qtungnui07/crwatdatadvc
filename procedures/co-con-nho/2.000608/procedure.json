@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf9-f1d1-7632-8436-8d69fda062f5",
   "procedure_code": "2.000608",
   "title": "Thủ tục đăng ký lại việc sinh cho trẻ em sinh ra ở nước ngoài và có quốc tịch Việt Nam",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf9-f1d1-7632-8436-8d69fda062f5",
     "source_file": "chi-tiet-thu-tuc-2.000608.pdf",
     "source_path": "procedures/co-con-nho/2.000608/chi-tiet-thu-tuc-2.000608.pdf",
     "page_count": 7,
-    "extracted_at": "2026-07-18T02:22:20.635731+00:00",
-    "source_updated_at": "2026-04-15T16:47:32.051Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:55:32.230806+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "723816f0a9acb38e085d45dd18c508bda172f3fa64014efbc77d13a5ab79e7dc"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:20.635731+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2401/QĐ-BNG",
   "implementation_level": "Cơ quan khác",
-  "implementation_levels": [
-    "Cơ quan khác"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Hộ tịch",
   "target_users": [
@@ -36,66 +32,45 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cơ quan đại diện ngoại giao",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cơ quan đại diện ngoại giao"
   },
   "steps": [
     {
       "order": 1,
       "title": "Thủ tục đăng ký lại việc sinh cho trẻ em sinh ra ở nước ngoài và có quốc tịch Việt Nam",
-      "description": "- Người có yêu cầu chuẩn bị hồ sơ theo quy định và nộp hồ sơ tại Cơ quan đại diện Việt Nam ở nước ngoài đã đăng ký việc khai sinh trước đây. Đối với các trường hợp trước đây đã được đăng ký tại Cơ quan đại diện Việt Nam ở nước ngoài, nay về Việt Nam cư trú, thì việc đăng ký lại khai sinh có thể được thực hiện tại UBND cấp xã/phường nơi đương sự đang cư trú.\n- Cán bộ nhận hồ sơ có trách nhiệm kiểm tra toàn bộ hồ sơ, xác định tính hợp lệ của giấy tờ trong hồ sơ do người yêu cầu nộp, xuất trình; đối chiếu thông tin trong Tờ khai với giấy tờ trong hồ sơ.\n(i) Trường hợp hồ sơ đầy đủ, hợp lệ thì tiếp nhận hồ sơ; \n(ii) Trường hợp hồ sơ chưa đầy đủ, hợp lệ thì hướng dẫn người nộp hồ sơ  bổ sung, hoàn thiện theo quy định.  Sau khi hồ sơ được bổ sung, thực hiện lại bước (i); trường hợp không thể bổ sung hồ sơ ngay thì phải có văn bản hướng dẫn, trong đó nêu rõ loại giấy tờ, nội dung cần bổ sung, ký, ghi rõ họ tên của cán bộ lãnh sự.\n(iii) Trường hợp không bổ sung, hoàn thiện được hồ sơ thì thông báo từ chối giải quyết hồ sơ.\n-  Cán bộ xử lý hồ sơ có trách nhiệm kiểm tra lại toàn bộ hồ sơ, đảm bảo hồ sơ đầy đủ, hợp lệ và kiểm tra Sổ hộ tịch và hồ sơ hộ tịch lưu tại Cơ quan đại diện:\n+ Trường hợp hồ sơ cần bổ sung, hoàn thiện thì gửi thông báo về tình trạng hồ sơ cho người nộp hồ sơ - thực hiện lại bước (ii); hoặc không đủ điều kiện giải quyết, phải từ chối giải quyết thì gửi thông báo cho đương sự.\n+ Trường hợp việc đăng ký hộ tịch trước đây là tại Cơ quan đại diện Việt Nam ở nước ngoài nhưng không còn Sổ hộ tịch, thì trong thời hạn 02 ngày làm việc, kể từ ngày nhận đủ giấy tờ hợp lệ, Cơ quan đại diện Việt Nam ở nước ngoài có trách nhiệm gửi văn bản đề nghị xác minh về việc lưu giữ Sổ hộ tịch tới         Cục Lãnh sự. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản đề nghị xác minh, Cục Lãnh sự gửi kết quả xác minh tới Cơ quan đại diện Việt Nam ở nước ngoài.\nTrường hợp còn Sổ hộ tịch lưu tại Cơ quan đại diện Việt Nam ở nước ngoài hoặc Cục Lãnh sự thì Cơ quan đại diện hướng dẫn người yêu cầu làm thủ tục đề nghị cấp bản sao trích lục hộ tịch theo quy định.\n+ Trường hợp cần phải kiểm tra, xác minh làm rõ hoặc do nguyên nhân khác mà không thể trả kết quả đúng thời gian đã hẹn thì lập Phiếu xin lỗi và hẹn lại ngày trả kết quả, trong đó nêu rõ lý do chậm trả kết quả và thời gian hẹn trả kết quả, để gửi cho người có yêu cầu.\n+ Trong thời hạn 03 ngày làm việc kể từ khi nhận được kết quả kiểm tra, xác minh, nếu thấy hồ sơ có căn cứ để đăng ký lại theo quy định pháp luật, cán bộ lãnh sự báo cáo Thủ trưởng Cơ quan đại diện xem xét, quyết định. Trường hợp Thủ trưởng Cơ quan đại diện Việt Nam ở nước ngoài đồng ý giải quyết thì cán bộ lãnh sự ghi nội dung khai sinh vào Sổ đăng ký khai sinh và trình ký cấp Giấy khai sinh cho người yêu cầu.\n- Người có yêu cầu đăng ký lại khai sinh kiểm tra thông tin trên Giấy khai sinh, trong Sổ đăng ký khai sinh và ký tên vào Sổ đăng ký khai sinh, nhận Giấy khai sinh.\n",
+      "description": "- Người có yêu cầu chuẩn bị hồ sơ theo quy định và nộp hồ sơ tại Cơ quan đại diện Việt Nam ở nước ngoài đã đăng ký việc khai sinh trước đây. Đối với các trường hợp trước đây đã được đăng ký tại Cơ quan đại diện Việt Nam ở nước ngoài, nay về Việt Nam cư trú, thì việc đăng ký lại khai sinh có thể được thực hiện tại UBND cấp xã/phường nơi đương sự đang cư trú.\n- Cán bộ nhận hồ sơ có trách nhiệm kiểm tra toàn bộ hồ sơ, xác định tính hợp lệ của giấy tờ trong hồ sơ do người yêu cầu nộp, xuất trình; đối chiếu thông tin trong Tờ khai với giấy tờ trong hồ sơ.\n(i) Trường hợp hồ sơ đầy đủ, hợp lệ thì tiếp nhận hồ sơ; \n(ii) Trường hợp hồ sơ chưa đầy đủ, hợp lệ thì hướng dẫn người nộp hồ sơ  bổ sung, hoàn thiện theo quy định.  Sau khi hồ sơ được bổ sung, thực hiện lại bước (i); trường hợp không thể bổ sung hồ sơ ngay thì phải có văn bản hướng dẫn, trong đó nêu rõ loại giấy tờ, nội dung cần bổ sung, ký, ghi rõ họ tên của cán bộ lãnh sự.\n(iii) Trường hợp không bổ sung, hoàn thiện được hồ sơ thì thông báo từ chối giải quyết hồ sơ.\n-  Cán bộ xử lý hồ sơ có trách nhiệm kiểm tra lại toàn bộ hồ sơ, đảm bảo hồ sơ đầy đủ, hợp lệ và kiểm tra Sổ hộ tịch và hồ sơ hộ tịch lưu tại Cơ quan đại diện:\n+ Trường hợp hồ sơ cần bổ sung, hoàn thiện thì gửi thông báo về tình trạng hồ sơ cho người nộp hồ sơ - thực hiện lại bước (ii); hoặc không đủ điều kiện giải quyết, phải từ chối giải quyết thì gửi thông báo cho đương sự.\n+ Trường hợp việc đăng ký hộ tịch trước đây là tại Cơ quan đại diện Việt Nam ở nước ngoài nhưng không còn Sổ hộ tịch, thì trong thời hạn 02 ngày làm việc, kể từ ngày nhận đủ giấy tờ hợp lệ, Cơ quan đại diện Việt Nam ở nước ngoài có trách nhiệm gửi văn bản đề nghị xác minh về việc lưu giữ Sổ hộ tịch tới         Cục Lãnh sự. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản đề nghị xác minh, Cục Lãnh sự gửi kết quả xác minh tới Cơ quan đại diện Việt Nam ở nước ngoài.\nTrường hợp còn Sổ hộ tịch lưu tại Cơ quan đại diện Việt Nam ở nước ngoài hoặc Cục Lãnh sự thì Cơ quan đại diện hướng dẫn người yêu cầu làm thủ tục đề nghị cấp bản sao trích lục hộ tịch theo quy định.\n+ Trường hợp cần phải kiểm tra, xác minh làm rõ hoặc do nguyên nhân khác mà không thể trả kết quả đúng thời gian đã hẹn thì lập Phiếu xin lỗi và hẹn lại ngày trả kết quả, trong đó nêu rõ lý do chậm trả kết quả và thời gian hẹn trả kết quả, để gửi cho người có yêu cầu.\n+ Trong thời hạn 03 ngày làm việc kể từ khi nhận được kết quả kiểm tra, xác minh, nếu thấy hồ sơ có căn cứ để đăng ký lại theo quy định pháp luật, cán bộ lãnh sự báo cáo Thủ trưởng Cơ quan đại diện xem xét, quyết định. Trường hợp Thủ trưởng Cơ quan đại diện Việt Nam ở nước ngoài đồng ý giải quyết thì cán bộ lãnh sự ghi nội dung khai sinh vào Sổ đăng ký khai sinh và trình ký cấp Giấy khai sinh cho người yêu cầu.\n- Người có yêu cầu đăng ký lại khai sinh kiểm tra thông tin trên Giấy khai sinh, trong Sổ đăng ký khai sinh và ký tên vào Sổ đăng ký khai sinh, nhận Giấy khai sinh.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Tờ khai đăng ký lại khai sinh (mẫu ban hành kèm theo Thông tư số 15/2015/TT-BTP ngày 16/11/2015 của Bộ Tư pháp), trong đó có cam đoan của người yêu cầu về việc đã đăng ký khai sinh nhưng không lưu giữ được bản chính Giấy khai sinh",
-        "code": "000.00.00.G08-KQ0326",
+        "name": "Giấy tờ phải nộp: Tờ khai đăng ký lại khai sinh (mẫu ban hành kèm theo Thông tư số 15/2015/TT-BTP ngày 16/11/2015 của Bộ Tư pháp), trong đó có cam đoan của người yêu cầu về việc đã đăng ký khai sinh nhưng không lưu giữ được bản chính Giấy khai sinh",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Giấy tờ phải nộp",
-        "attachments": [
-          {
-            "id": "019d8d09-bf0c-751b-92e7-6b241c035870",
-            "name": "12. TK đăng ký lại khai sinh.doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "12. TK đăng ký lại khai sinh.doc",
+        "source_page": 3
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "- Người yêu cầu đăng ký khai sinh có trách nhiệm nộp đầy đủ bản sao các giấy tờ nêu trên (nếu có) và phải cam đoan đã nộp đủ các giấy tờ mình có. Trường hợp người yêu cầu đăng ký khai sinh cam đoan không đúng sự thật, cố ý chỉ nộp bản sao giấy tờ có lợi để đăng ký khai sinh thì việc đăng ký khai sinh không có giá trị pháp lý.",
-        "code": "000.00.00.G08-KQ000664",
+        "name": "Giấy tờ phải nộp: - Người yêu cầu đăng ký khai sinh có trách nhiệm nộp đầy đủ bản sao các giấy tờ nêu trên (nếu có) và phải cam đoan đã nộp đủ các giấy tờ mình có. Trường hợp người yêu cầu đăng ký khai sinh cam đoan không đúng sự thật, cố ý chỉ nộp bản sao giấy tờ có lợi để đăng ký khai sinh thì việc đăng ký khai sinh không có giá trị pháp lý.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Giấy tờ phải nộp",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Bản sao toàn bộ hồ sơ, giấy tờ của người yêu cầu hoặc hồ sơ, giấy tờ, tài liệu khác trong đó có thông tin liên quan đến nội dung khai sinh, gồm:  + Bản sao, bản chụp giấy khai sinh do Cơ quan đại diện đã cấp trước đây. + Trường hợp người yêu cầu không có bản sao, bản chụp giấy khai sinh bị mất thì phải nộp bản sao giấy tờ do cơ quan có thẩm quyền của Việt Nam cấp hợp lệ như: Giấy chứng minh nhân dân, Thẻ căn cước công dân hoặc Hộ chiếu; Sổ hộ khẩu, Sổ tạm trú, giấy tờ chứng minh về nơi cư trú; Bằng tốt nghiệp, Giấy chứng nhận, Chứng chỉ, Học bạ, Hồ sơ học tập do cơ quan đào tạo, quản lý giáo dục có thẩm quyền cấp hoặc xác nhận; Giấy tờ khác có thông tin về họ tên, ngày, tháng, năm sinh của người được đăng ký lại khai sinh.",
-        "code": "000.00.00.G08-KQ000663",
+        "name": "Giấy tờ phải nộp: - Bản sao toàn bộ hồ sơ, giấy tờ của người yêu cầu hoặc hồ sơ, giấy tờ, tài liệu khác trong đó có thông tin liên quan đến nội dung khai sinh, gồm:  + Bản sao, bản chụp giấy khai sinh do Cơ quan đại diện đã cấp trước đây. + Trường hợp người yêu cầu không có bản sao, bản chụp giấy khai sinh bị mất thì phải nộp bản sao giấy tờ do cơ quan có thẩm quyền của Việt Nam cấp hợp lệ như: Giấy chứng minh nhân dân, Thẻ căn cước công dân hoặc Hộ chiếu; Sổ hộ khẩu, Sổ tạm trú, giấy tờ chứng minh về nơi cư trú; Bằng tốt nghiệp, Giấy chứng nhận, Chứng chỉ, Học bạ, Hồ sơ học tập do cơ quan đào tạo, quản lý giáo dục có thẩm quyền cấp hoặc xác nhận; Giấy tờ khác có thông tin về họ tên, ngày, tháng, năm sinh của người được đăng ký lại khai sinh.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Giấy tờ phải nộp",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Hộ chiếu hoặc chứng minh nhân dân hoặc thẻ căn cước công dân hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền của Việt Nam cấp, còn giá trị sử dụng để chứng minh về nhân thân của người có yêu cầu đăng ký lại khai sinh",
-        "code": "000.00.00.G08-KQ0325",
+        "name": "Giấy tờ phải xuất trình: Hộ chiếu hoặc chứng minh nhân dân hoặc thẻ căn cước công dân hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền của Việt Nam cấp, còn giá trị sử dụng để chứng minh về nhân thân của người có yêu cầu đăng ký lại khai sinh",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Giấy tờ phải xuất trình",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -104,33 +79,22 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 15,
-          "currency": "VND",
-          "description": "Đăng ký lại khai sinh",
-          "attachment": null
-        }
-      ],
+      "fee": "Đăng ký lại khai sinh",
       "description": "- Người có yêu cầu đăng ký lại khai sinh trực tiếp thực hiện hoặc ủy quyền cho người khác thực hiện nộp hồ sơ trực tiếp hoặc gửi hồ sơ qua hệ thống bưu chính tới Cơ quan đại diện Việt Nam ở nước ngoài đã đăng ký việc khai sinh trước đây.\n\t- Ngoài các cách thực hiện nêu trên, nếu Cơ quan đại diện sử dụng Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung và kết nối với CSDLQGVDC,  trong điều kiện cơ sở hạ tầng kỹ thuật cho phép, hồ sơ có thể nộp trực tuyến qua môi trường điện tử.\t\n\n05 ngày làm việc kể từ ngày nhận đủ hồ sơ và hồ sơ đó không phải xác minh. Trường hợp phải có văn bản xác minh thì thời hạn giải quyết không quá 25 ngày làm việc.",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Đăng ký lại khai sinh",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 15,
-        "currency": "VND",
-        "description": "Đăng ký lại khai sinh",
-        "attachment": null
+        "amount_text": "Đăng ký lại khai sinh",
+        "is_free": false,
+        "source_page": 2
       }
     ]
   },
@@ -138,84 +102,69 @@
     {
       "title": "Thông tư số 07/2023/TT-BNG của Bộ Ngoại giao: Hướng dẫn việc đăng ký và quản lý hộ tịch tại Cơ quan đại diện ngoại giao, Cơ quan đại diện lãnh sự của Việt Nam ở nước ngoài",
       "document_number": "Thông tư số 07/2023/TT-BNG",
-      "id": "019d2bb3-5d87-7195-a449-9d064e4c78f4",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực ngoại giao áp dụng tại các Cơ quan đại diện Việt Nam ở nước ngoài",
       "document_number": "264/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be47-dcd0b7b78f14",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật 33/2009/QH12",
       "document_number": "33/2009/QH12",
-      "id": "019d2bb3-5d84-71c5-b672-b26617491ecd",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật 60/2014/QH13",
       "document_number": "60/2014/QH13",
-      "id": "019d2bb3-5d84-71c5-b673-b79d48c2c30b",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư quy định chi tiết một số điều và biện pháp thi hành Nghị định số 87/2020/NĐ-CP ngày 28 tháng 7 năm 2020 của Chính phủ quy định về Cơ sở dữ liệu hộ tịch điện tử, đăng ký hộ tịch trực tuyến",
       "document_number": "01/2022/TT-BTP",
-      "id": "019d2bb3-5d86-7760-a638-17aea53606d5",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định số 123/2015/NĐ-CP ngày 15/11/2015 của  Chính phủ quy định chi tiết một số điều và biện pháp thi  hành Luật Hộ tịch",
       "document_number": "123/2015/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-c76312281acc",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "LUẬT QUỐC TỊCH VIỆT NAM",
       "document_number": "24/2008/QH12",
-      "id": "019d2bb3-5d84-71c5-b670-eed03d85af27",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư số 03/2023/TT-BNG hướng dẫn việc tổ chức giải quyết công tác lãnh sự.",
       "document_number": "Thông tư số 03/2023/TT-BNG",
-      "id": "019d2bb3-5d87-7195-a449-88d506acdfcf",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư 184/2016/TT-BTC",
       "document_number": "184/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4a-a4dd4332bb32",
-      "source_page": null
+      "source_page": 5
     }
   ],
-  "conditions": "\t- Công dân Việt Nam định cư ở nước ngoài đã đăng ký khai sinh tại Cơ quan đại diện Việt Nam ở nước ngoài trước ngày 01/01/2016 nhưng Sổ đăng ký khai sinh và bản chính Giấy khai sinh đều bị mất.\n- Người được đăng ký lại khai sinh còn sống tại thời điểm yêu cầu đăng ký lại khai sinh.\n- Người yêu cầu có trách nhiệm nộp đầy đủ bản sao giấy tờ, tài liệu có nội dung liên quan đến việc đăng ký lại khai sinh.\n* Lưu ý:\n- Cơ quan đại diện Việt Nam ở nước ngoài tiếp nhận, giải quyết yêu cầu đăng ký hộ tịch trực tuyến phù hợp với mức độ triển khai dịch vụ công trực tuyến và việc sử dụng đồng bộ Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung tại cơ quan mình. Trường hợp chưa tiếp nhận giải quyết đăng ký hộ tịch trực tuyến thì thông báo trên cổng thông tin điện tử của cơ quan mình hoặc có văn bản thông báo cho người yêu cầu và nêu rõ lý do; văn bản thông báo có thể gửi qua thư điện tử nếu người yêu cầu có địa chỉ thư điện tử.\n- Giấy tờ do cơ quan có thẩm quyền của nước sở tại cấp sử dụng để đăng ký hộ tịch tại Cơ quan đại diện Việt Nam ở nước ngoài không phải hợp pháp hóa lãnh sự. Trường hợp có nghi ngờ về tính xác thực của giấy tờ, Cơ quan đại diện Việt Nam ở nước ngoài có thể yêu cầu giấy tờ đó phải được chứng nhận lãnh sự của cơ quan có thẩm quyền. Giấy tờ do cơ quan có thẩm quyền của nước thứ ba cấp sử dụng để đăng ký hộ tịch tại Cơ quan đại diện Việt Nam ở nước ngoài phải được hợp pháp hóa theo quy định. Giấy tờ bằng tiếng nước ngoài trong hồ sơ đăng ký hộ tịch phải được dịch sang tiếng Việt hoặc tiếng Anh theo quy định.\n- Đối với giấy tờ nộp, xuất trình nếu người yêu cầu nộp hồ sơ theo hình thức trực tiếp:\n+ Trường hợp người yêu cầu nộp giấy tờ là bản sao được cấp từ sổ gốc hoặc bản sao được chứng thực từ bản chính thì cán bộ lãnh sự không được yêu cầu xuất trình bản chính; nếu người yêu cầu chỉ nộp bản chụp và xuất trình bản chính thì cán bộ lãnh sự kiểm tra, đối chiếu bản chụp với bản chính và ký vào bản chụp xác nhận về việc đã đối chiếu nội dung giấy tờ đó, không được yêu cầu người đi đăng ký nộp bản sao có chứng thực.\n+ Trường hợp pháp luật quy định xuất trình giấy tờ khi đăng ký hộ tịch, cán bộ lãnh sự có trách nhiệm kiểm tra giấy tờ xuất trình, đối chiếu với thông tin trong Tờ khai và trả lại cho người xuất trình, không được yêu cầu người đăng ký hộ tịch nộp thêm bản sao giấy tờ đó. Cán bộ lãnh sự chụp 01 bản giấy tờ xuất trình xác nhận đã đối chiếu với bản chính, để lưu hồ sơ.\n- Đối với giấy tờ gửi kèm theo nếu người yêu cầu nộp hồ sơ theo hình thức trực tuyến:\n+ Bản chụp các giấy tờ gửi kèm theo hồ sơ trực tuyến phải bảo đảm rõ nét, đầy đủ, toàn vẹn về nội dung, là bản chụp bằng máy ảnh, điện thoại hoặc được chụp, được quét bằng thiết bị điện tử, từ giấy tờ được cấp hợp lệ, còn giá trị sử dụng.\n+ Trường hợp giấy tờ, tài liệu phải gửi kèm trong hồ sơ trực tuyến đã có bản sao điện tử hoặc đã có bản điện tử giấy tờ hộ tịch thì người yêu cầu được sử dụng bản điện tử này.\n+ Khi đến cơ quan đăng ký hộ tịch nhận kết quả, người có yêu cầu phải xuất trình giấy tờ tuỳ thân, nộp các giấy tờ là thành phần hồ sơ theo quy định của pháp luật hộ tịch.\n+ Trường hợp người yêu cầu không cung cấp được giấy tờ nêu trên theo quy định hoặc giấy tờ nộp, xuất trình bị tẩy xóa, sửa chữa, làm giả thì cơ quan đại diện hủy bỏ kết quả đăng ký lại khai sinh.\n- Cán bộ lãnh sự có trách nhiệm tiếp nhận đúng, đủ hồ sơ đăng ký hộ tịch theo quy định của pháp luật hộ tịch.",
+  "conditions": "- Công dân Việt Nam định cư ở nước ngoài đã đăng ký khai sinh tại Cơ quan đại diện Việt Nam ở nước ngoài trước ngày 01/01/2016 nhưng Sổ đăng ký khai sinh và bản chính Giấy khai sinh đều bị mất.\n- Người được đăng ký lại khai sinh còn sống tại thời điểm yêu cầu đăng ký lại khai sinh.\n- Người yêu cầu có trách nhiệm nộp đầy đủ bản sao giấy tờ, tài liệu có nội dung liên quan đến việc đăng ký lại khai sinh.\n* Lưu ý:\n- Cơ quan đại diện Việt Nam ở nước ngoài tiếp nhận, giải quyết yêu cầu đăng ký hộ tịch trực tuyến phù hợp với mức độ triển khai dịch vụ công trực tuyến và việc sử dụng đồng bộ Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung tại cơ quan mình. Trường hợp chưa tiếp nhận giải quyết đăng ký hộ tịch trực tuyến thì thông báo trên cổng thông tin điện tử của cơ quan mình hoặc có văn bản thông báo cho người yêu cầu và nêu rõ lý do; văn bản thông báo có thể gửi qua thư điện tử nếu người yêu cầu có địa chỉ thư điện tử.\n- Giấy tờ do cơ quan có thẩm quyền của nước sở tại cấp sử dụng để đăng ký hộ tịch tại Cơ quan đại diện Việt Nam ở nước ngoài không phải hợp pháp hóa lãnh sự. Trường hợp có nghi ngờ về tính xác thực của giấy tờ, Cơ quan đại diện Việt Nam ở nước ngoài có thể yêu cầu giấy tờ đó phải được chứng nhận lãnh sự của cơ quan có thẩm quyền. Giấy tờ do cơ quan có thẩm quyền của nước thứ ba cấp sử dụng để đăng ký hộ tịch tại Cơ quan đại diện Việt Nam ở nước ngoài phải được hợp pháp hóa theo quy định. Giấy tờ bằng tiếng nước ngoài trong hồ sơ đăng ký hộ tịch phải được dịch sang tiếng Việt hoặc tiếng Anh theo quy định.\n- Đối với giấy tờ nộp, xuất trình nếu người yêu cầu nộp hồ sơ theo hình thức trực tiếp:\n+ Trường hợp người yêu cầu nộp giấy tờ là bản sao được cấp từ sổ gốc hoặc bản sao được chứng thực từ bản chính thì cán bộ lãnh sự không được yêu cầu xuất trình bản chính; nếu người yêu cầu chỉ nộp bản chụp và xuất trình bản chính thì cán bộ lãnh sự kiểm tra, đối chiếu bản chụp với bản chính và ký vào bản chụp xác nhận về việc đã đối chiếu nội dung giấy tờ đó, không được yêu cầu người đi đăng ký nộp bản sao có chứng thực.\n+ Trường hợp pháp luật quy định xuất trình giấy tờ khi đăng ký hộ tịch, cán bộ lãnh sự có trách nhiệm kiểm tra giấy tờ xuất trình, đối chiếu với thông tin trong Tờ khai và trả lại cho người xuất trình, không được yêu cầu người đăng ký hộ tịch nộp thêm bản sao giấy tờ đó. Cán bộ lãnh sự chụp 01 bản giấy tờ xuất trình xác nhận đã đối chiếu với bản chính, để lưu hồ sơ.\n- Đối với giấy tờ gửi kèm theo nếu người yêu cầu nộp hồ sơ theo hình thức trực tuyến:\n+ Bản chụp các giấy tờ gửi kèm theo hồ sơ trực tuyến phải bảo đảm rõ nét, đầy đủ, toàn vẹn về nội dung, là bản chụp bằng máy ảnh, điện thoại hoặc được chụp, được quét bằng thiết bị điện tử, từ giấy tờ được cấp hợp lệ, còn giá trị sử dụng.\n+ Trường hợp giấy tờ, tài liệu phải gửi kèm trong hồ sơ trực tuyến đã có bản sao điện tử hoặc đã có bản điện tử giấy tờ hộ tịch thì người yêu cầu được sử dụng bản điện tử này.\n+ Khi đến cơ quan đăng ký hộ tịch nhận kết quả, người có yêu cầu phải xuất trình giấy tờ tuỳ thân, nộp các giấy tờ là thành phần hồ sơ theo quy định của pháp luật hộ tịch.\n+ Trường hợp người yêu cầu không cung cấp được giấy tờ nêu trên theo quy định hoặc giấy tờ nộp, xuất trình bị tẩy xóa, sửa chữa, làm giả thì cơ quan đại diện hủy bỏ kết quả đăng ký lại khai sinh.\n- Cán bộ lãnh sự có trách nhiệm tiếp nhận đúng, đủ hồ sơ đăng ký hộ tịch theo quy định của pháp luật hộ tịch.",
   "results": [
     {
       "title": "Trích lục khai sinh",
       "code": "000.00.00.G08-KQ0019",
-      "id": "019d8d0a-1509-715d-b436-ce43ed8df0bb",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Người có yêu cầu chuẩn bị hồ sơ theo quy định và nộp hồ sơ tại Cơ quan đại diện Việt Nam ở nước ngoài đã đăng ký việc khai sinh trước đây. Đối với các trường hợp trước đây đã được đăng ký tại Cơ quan đại diện Việt Nam ở nước ngoài, nay về Việt Nam cư trú, thì việc đăng ký lại khai sinh có thể được thực hiện tại UBND cấp xã/phường nơi đương sự đang cư trú.\n- Cán bộ nhận hồ sơ có trách nhiệm kiểm tra toàn bộ hồ sơ, xác định tính hợp lệ của giấy tờ trong hồ sơ do người yêu cầu nộp, xuất trình; đối chiếu thông tin trong Tờ khai với giấy tờ trong hồ sơ.\n(i) Trường hợp hồ sơ đầy đủ, hợp lệ thì tiếp nhận hồ sơ; \n(ii) Trường hợp hồ sơ chưa đầy đủ, hợp lệ thì hướng dẫn người nộp hồ sơ  bổ sung, hoàn thiện theo quy định.  Sau khi hồ sơ được bổ sung, thực hiện lại bước (i); trường hợp không thể bổ sung hồ sơ ngay thì phải có văn bản hướng dẫn, trong đó nêu rõ loại giấy tờ, nội dung cần bổ sung, ký, ghi rõ họ tên của cán bộ lãnh sự.\n(iii) Trường hợp không bổ sung, hoàn thiện được hồ sơ thì thông báo từ chối giải quyết hồ sơ.\n-  Cán bộ xử lý hồ sơ có trách nhiệm kiểm tra lại toàn bộ hồ sơ, đảm bảo hồ sơ đầy đủ, hợp lệ và kiểm tra Sổ hộ tịch và hồ sơ hộ tịch lưu tại Cơ quan đại diện:\n+ Trường hợp hồ sơ cần bổ sung, hoàn thiện thì gửi thông báo về tình trạng hồ sơ cho người nộp hồ sơ - thực hiện lại bước (ii); hoặc không đủ điều kiện giải quyết, phải từ chối giải quyết thì gửi thông báo cho đương sự.\n+ Trường hợp việc đăng ký hộ tịch trước đây là tại Cơ quan đại diện Việt Nam ở nước ngoài nhưng không còn Sổ hộ tịch, thì trong thời hạn 02 ngày làm việc, kể từ ngày nhận đủ giấy tờ hợp lệ, Cơ quan đại diện Việt Nam ở nước ngoài có trách nhiệm gửi văn bản đề nghị xác minh về việc lưu giữ Sổ hộ tịch tới         Cục Lãnh sự. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản đề nghị xác minh, Cục Lãnh sự gửi kết quả xác minh tới Cơ quan đại diện Việt Nam ở nước ngoài.\nTrường hợp còn Sổ hộ tịch lưu tại Cơ quan đại diện Việt Nam ở nước ngoài hoặc Cục Lãnh sự thì Cơ quan đại diện hướng dẫn người yêu cầu làm thủ tục đề nghị cấp bản sao trích lục hộ tịch theo quy định.\n+ Trường hợp cần phải kiểm tra, xác minh làm rõ hoặc do nguyên nhân khác mà không thể trả kết quả đúng thời gian đã hẹn thì lập Phiếu xin lỗi và hẹn lại ngày trả kết quả, trong đó nêu rõ lý do chậm trả kết quả và thời gian hẹn trả kết quả, để gửi cho người có yêu cầu.\n+ Trong thời hạn 03 ngày làm việc kể từ khi nhận được kết quả kiểm tra, xác minh, nếu thấy hồ sơ có căn cứ để đăng ký lại theo quy định pháp luật, cán bộ lãnh sự báo cáo Thủ trưởng Cơ quan đại diện xem xét, quyết định. Trường hợp Thủ trưởng Cơ quan đại diện Việt Nam ở nước ngoài đồng ý giải quyết thì cán bộ lãnh sự ghi nội dung khai sinh vào Sổ đăng ký khai sinh và trình ký cấp Giấy khai sinh cho người yêu cầu.\n- Người có yêu cầu đăng ký lại khai sinh kiểm tra thông tin trên Giấy khai sinh, trong Sổ đăng ký khai sinh và ký tên vào Sổ đăng ký khai sinh, nhận Giấy khai sinh.\n",
-    "THÀNH PHẦN HỒ SƠ": "Giấy tờ phải nộp\n- Người yêu cầu đăng ký khai sinh có trách nhiệm nộp đầy đủ bản sao các giấy tờ nêu trên (nếu có) và phải cam đoan đã nộp đủ các giấy tờ mình có. Trường hợp người yêu cầu đăng ký khai sinh cam đoan không đúng sự thật, cố ý chỉ nộp bản sao giấy tờ có lợi để đăng ký khai sinh thì việc đăng ký khai sinh không có giá trị pháp lý.\nTờ khai đăng ký lại khai sinh (mẫu ban hành kèm theo Thông tư số 15/2015/TT-BTP ngày 16/11/2015 của Bộ Tư pháp), trong đó có cam đoan của người yêu cầu về việc đã đăng ký khai sinh nhưng không lưu giữ được bản chính Giấy khai sinh\n- Bản sao toàn bộ hồ sơ, giấy tờ của người yêu cầu hoặc hồ sơ, giấy tờ, tài liệu khác trong đó có thông tin liên quan đến nội dung khai sinh, gồm:  + Bản sao, bản chụp giấy khai sinh do Cơ quan đại diện đã cấp trước đây. + Trường hợp người yêu cầu không có bản sao, bản chụp giấy khai sinh bị mất thì phải nộp bản sao giấy tờ do cơ quan có thẩm quyền của Việt Nam cấp hợp lệ như: Giấy chứng minh nhân dân, Thẻ căn cước công dân hoặc Hộ chiếu; Sổ hộ khẩu, Sổ tạm trú, giấy tờ chứng minh về nơi cư trú; Bằng tốt nghiệp, Giấy chứng nhận, Chứng chỉ, Học bạ, Hồ sơ học tập do cơ quan đào tạo, quản lý giáo dục có thẩm quyền cấp hoặc xác nhận; Giấy tờ khác có thông tin về họ tên, ngày, tháng, năm sinh của người được đăng ký lại khai sinh.\nGiấy tờ phải xuất trình\nHộ chiếu hoặc chứng minh nhân dân hoặc thẻ căn cước công dân hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền của Việt Nam cấp, còn giá trị sử dụng để chứng minh về nhân thân của người có yêu cầu đăng ký lại khai sinh",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 5 ngày làm việc - - Người có yêu cầu đăng ký lại khai sinh trực tiếp thực hiện hoặc ủy quyền cho người khác thực hiện nộp hồ sơ trực tiếp hoặc gửi hồ sơ qua hệ thống bưu chính tới Cơ quan đại diện Việt Nam ở nước ngoài đã đăng ký việc khai sinh trước đây.\n\t- Ngoài các cách thực hiện nêu trên, nếu Cơ quan đại diện sử dụng Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung và kết nối với CSDLQGVDC,  trong điều kiện cơ sở hạ tầng kỹ thuật cho phép, hồ sơ có thể nộp trực tuyến qua môi trường điện tử.\t\n\n05 ngày làm việc kể từ ngày nhận đủ hồ sơ và hồ sơ đó không phải xác minh. Trường hợp phải có văn bản xác minh thì thời hạn giải quyết không quá 25 ngày làm việc.",
+    "TRÌNH TỰ THỰC HIỆN": "- Người có yêu cầu chuẩn bị hồ sơ theo quy định và nộp hồ sơ tại Cơ quan đại diện Việt Nam ở nước ngoài đã đăng ký việc khai sinh trước đây. Đối với các trường hợp trước đây đã được đăng ký tại Cơ quan đại diện Việt Nam ở nước ngoài, nay về Việt Nam cư trú, thì việc đăng ký lại khai sinh có thể được thực hiện tại UBND cấp xã/phường nơi đương sự đang cư trú.\n- Cán bộ nhận hồ sơ có trách nhiệm kiểm tra toàn bộ hồ sơ, xác định tính hợp lệ của giấy tờ trong hồ sơ do người yêu cầu nộp, xuất trình; đối chiếu thông tin trong Tờ khai với giấy tờ trong hồ sơ.\n(i) Trường hợp hồ sơ đầy đủ, hợp lệ thì tiếp nhận hồ sơ; \n(ii) Trường hợp hồ sơ chưa đầy đủ, hợp lệ thì hướng dẫn người nộp hồ sơ  bổ sung, hoàn thiện theo quy định.  Sau khi hồ sơ được bổ sung, thực hiện lại bước (i); trường hợp không thể bổ sung hồ sơ ngay thì phải có văn bản hướng dẫn, trong đó nêu rõ loại giấy tờ, nội dung cần bổ sung, ký, ghi rõ họ tên của cán bộ lãnh sự.\n(iii) Trường hợp không bổ sung, hoàn thiện được hồ sơ thì thông báo từ chối giải quyết hồ sơ.\n-  Cán bộ xử lý hồ sơ có trách nhiệm kiểm tra lại toàn bộ hồ sơ, đảm bảo hồ sơ đầy đủ, hợp lệ và kiểm tra Sổ hộ tịch và hồ sơ hộ tịch lưu tại Cơ quan đại diện:\n+ Trường hợp hồ sơ cần bổ sung, hoàn thiện thì gửi thông báo về tình trạng hồ sơ cho người nộp hồ sơ - thực hiện lại bước (ii); hoặc không đủ điều kiện giải quyết, phải từ chối giải quyết thì gửi thông báo cho đương sự.\n+ Trường hợp việc đăng ký hộ tịch trước đây là tại Cơ quan đại diện Việt Nam ở nước ngoài nhưng không còn Sổ hộ tịch, thì trong thời hạn 02 ngày làm việc, kể từ ngày nhận đủ giấy tờ hợp lệ, Cơ quan đại diện Việt Nam ở nước ngoài có trách nhiệm gửi văn bản đề nghị xác minh về việc lưu giữ Sổ hộ tịch tới         Cục Lãnh sự. Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản đề nghị xác minh, Cục Lãnh sự gửi kết quả xác minh tới Cơ quan đại diện Việt Nam ở nước ngoài.\nTrường hợp còn Sổ hộ tịch lưu tại Cơ quan đại diện Việt Nam ở nước ngoài hoặc Cục Lãnh sự thì Cơ quan đại diện hướng dẫn người yêu cầu làm thủ tục đề nghị cấp bản sao trích lục hộ tịch theo quy định.\n+ Trường hợp cần phải kiểm tra, xác minh làm rõ hoặc do nguyên nhân khác mà không thể trả kết quả đúng thời gian đã hẹn thì lập Phiếu xin lỗi và hẹn lại ngày trả kết quả, trong đó nêu rõ lý do chậm trả kết quả và thời gian hẹn trả kết quả, để gửi cho người có yêu cầu.\n+ Trong thời hạn 03 ngày làm việc kể từ khi nhận được kết quả kiểm tra, xác minh, nếu thấy hồ sơ có căn cứ để đăng ký lại theo quy định pháp luật, cán bộ lãnh sự báo cáo Thủ trưởng Cơ quan đại diện xem xét, quyết định. Trường hợp Thủ trưởng Cơ quan đại diện Việt Nam ở nước ngoài đồng ý giải quyết thì cán bộ lãnh sự ghi nội dung khai sinh vào Sổ đăng ký khai sinh và trình ký cấp Giấy khai sinh cho người yêu cầu.\n- Người có yêu cầu đăng ký lại khai sinh kiểm tra thông tin trên Giấy khai sinh, trong Sổ đăng ký khai sinh và ký tên vào Sổ đăng ký khai sinh, nhận Giấy khai sinh.",
+    "THÀNH PHẦN HỒ SƠ": "Giấy tờ phải nộp: Tờ khai đăng ký lại khai sinh (mẫu ban hành kèm theo Thông tư số 15/2015/TT-BTP ngày 16/11/2015 của Bộ Tư pháp), trong đó có cam đoan của người yêu cầu về việc đã đăng ký khai sinh nhưng không lưu giữ được bản chính Giấy khai sinh\nGiấy tờ phải nộp: - Người yêu cầu đăng ký khai sinh có trách nhiệm nộp đầy đủ bản sao các giấy tờ nêu trên (nếu có) và phải cam đoan đã nộp đủ các giấy tờ mình có. Trường hợp người yêu cầu đăng ký khai sinh cam đoan không đúng sự thật, cố ý chỉ nộp bản sao giấy tờ có lợi để đăng ký khai sinh thì việc đăng ký khai sinh không có giá trị pháp lý.\nGiấy tờ phải nộp: - Bản sao toàn bộ hồ sơ, giấy tờ của người yêu cầu hoặc hồ sơ, giấy tờ, tài liệu khác trong đó có thông tin liên quan đến nội dung khai sinh, gồm:  + Bản sao, bản chụp giấy khai sinh do Cơ quan đại diện đã cấp trước đây. + Trường hợp người yêu cầu không có bản sao, bản chụp giấy khai sinh bị mất thì phải nộp bản sao giấy tờ do cơ quan có thẩm quyền của Việt Nam cấp hợp lệ như: Giấy chứng minh nhân dân, Thẻ căn cước công dân hoặc Hộ chiếu; Sổ hộ khẩu, Sổ tạm trú, giấy tờ chứng minh về nơi cư trú; Bằng tốt nghiệp, Giấy chứng nhận, Chứng chỉ, Học bạ, Hồ sơ học tập do cơ quan đào tạo, quản lý giáo dục có thẩm quyền cấp hoặc xác nhận; Giấy tờ khác có thông tin về họ tên, ngày, tháng, năm sinh của người được đăng ký lại khai sinh.\nGiấy tờ phải xuất trình: Hộ chiếu hoặc chứng minh nhân dân hoặc thẻ căn cước công dân hoặc các giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền của Việt Nam cấp, còn giá trị sử dụng để chứng minh về nhân thân của người có yêu cầu đăng ký lại khai sinh",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 5 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Thông tư số 07/2023/TT-BNG của Bộ Ngoại giao: Hướng dẫn việc đăng ký và quản lý hộ tịch tại Cơ quan đại diện ngoại giao, Cơ quan đại diện lãnh sự của Việt Nam ở nước ngoài - Thông tư số 07/2023/TT-BNG\nQuy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực ngoại giao áp dụng tại các Cơ quan đại diện Việt Nam ở nước ngoài - 264/2016/TT-BTC\nLuật 33/2009/QH12 - 33/2009/QH12\nLuật 60/2014/QH13 - 60/2014/QH13\nThông tư quy định chi tiết một số điều và biện pháp thi hành Nghị định số 87/2020/NĐ-CP ngày 28 tháng 7 năm 2020 của Chính phủ quy định về Cơ sở dữ liệu hộ tịch điện tử, đăng ký hộ tịch trực tuyến - 01/2022/TT-BTP\nNghị định số 123/2015/NĐ-CP ngày 15/11/2015 của  Chính phủ quy định chi tiết một số điều và biện pháp thi  hành Luật Hộ tịch - 123/2015/NĐ-CP\nLUẬT QUỐC TỊCH VIỆT NAM - 24/2008/QH12\nThông tư số 03/2023/TT-BNG hướng dẫn việc tổ chức giải quyết công tác lãnh sự. - Thông tư số 03/2023/TT-BNG\nThông tư 184/2016/TT-BTC - 184/2016/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Cơ quan đại diện ngoại giao",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "\t- Công dân Việt Nam định cư ở nước ngoài đã đăng ký khai sinh tại Cơ quan đại diện Việt Nam ở nước ngoài trước ngày 01/01/2016 nhưng Sổ đăng ký khai sinh và bản chính Giấy khai sinh đều bị mất.\n- Người được đăng ký lại khai sinh còn sống tại thời điểm yêu cầu đăng ký lại khai sinh.\n- Người yêu cầu có trách nhiệm nộp đầy đủ bản sao giấy tờ, tài liệu có nội dung liên quan đến việc đăng ký lại khai sinh.\n* Lưu ý:\n- Cơ quan đại diện Việt Nam ở nước ngoài tiếp nhận, giải quyết yêu cầu đăng ký hộ tịch trực tuyến phù hợp với mức độ triển khai dịch vụ công trực tuyến và việc sử dụng đồng bộ Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung tại cơ quan mình. Trường hợp chưa tiếp nhận giải quyết đăng ký hộ tịch trực tuyến thì thông báo trên cổng thông tin điện tử của cơ quan mình hoặc có văn bản thông báo cho người yêu cầu và nêu rõ lý do; văn bản thông báo có thể gửi qua thư điện tử nếu người yêu cầu có địa chỉ thư điện tử.\n- Giấy tờ do cơ quan có thẩm quyền của nước sở tại cấp sử dụng để đăng ký hộ tịch tại Cơ quan đại diện Việt Nam ở nước ngoài không phải hợp pháp hóa lãnh sự. Trường hợp có nghi ngờ về tính xác thực của giấy tờ, Cơ quan đại diện Việt Nam ở nước ngoài có thể yêu cầu giấy tờ đó phải được chứng nhận lãnh sự của cơ quan có thẩm quyền. Giấy tờ do cơ quan có thẩm quyền của nước thứ ba cấp sử dụng để đăng ký hộ tịch tại Cơ quan đại diện Việt Nam ở nước ngoài phải được hợp pháp hóa theo quy định. Giấy tờ bằng tiếng nước ngoài trong hồ sơ đăng ký hộ tịch phải được dịch sang tiếng Việt hoặc tiếng Anh theo quy định.\n- Đối với giấy tờ nộp, xuất trình nếu người yêu cầu nộp hồ sơ theo hình thức trực tiếp:\n+ Trường hợp người yêu cầu nộp giấy tờ là bản sao được cấp từ sổ gốc hoặc bản sao được chứng thực từ bản chính thì cán bộ lãnh sự không được yêu cầu xuất trình bản chính; nếu người yêu cầu chỉ nộp bản chụp và xuất trình bản chính thì cán bộ lãnh sự kiểm tra, đối chiếu bản chụp với bản chính và ký vào bản chụp xác nhận về việc đã đối chiếu nội dung giấy tờ đó, không được yêu cầu người đi đăng ký nộp bản sao có chứng thực.\n+ Trường hợp pháp luật quy định xuất trình giấy tờ khi đăng ký hộ tịch, cán bộ lãnh sự có trách nhiệm kiểm tra giấy tờ xuất trình, đối chiếu với thông tin trong Tờ khai và trả lại cho người xuất trình, không được yêu cầu người đăng ký hộ tịch nộp thêm bản sao giấy tờ đó. Cán bộ lãnh sự chụp 01 bản giấy tờ xuất trình xác nhận đã đối chiếu với bản chính, để lưu hồ sơ.\n- Đối với giấy tờ gửi kèm theo nếu người yêu cầu nộp hồ sơ theo hình thức trực tuyến:\n+ Bản chụp các giấy tờ gửi kèm theo hồ sơ trực tuyến phải bảo đảm rõ nét, đầy đủ, toàn vẹn về nội dung, là bản chụp bằng máy ảnh, điện thoại hoặc được chụp, được quét bằng thiết bị điện tử, từ giấy tờ được cấp hợp lệ, còn giá trị sử dụng.\n+ Trường hợp giấy tờ, tài liệu phải gửi kèm trong hồ sơ trực tuyến đã có bản sao điện tử hoặc đã có bản điện tử giấy tờ hộ tịch thì người yêu cầu được sử dụng bản điện tử này.\n+ Khi đến cơ quan đăng ký hộ tịch nhận kết quả, người có yêu cầu phải xuất trình giấy tờ tuỳ thân, nộp các giấy tờ là thành phần hồ sơ theo quy định của pháp luật hộ tịch.\n+ Trường hợp người yêu cầu không cung cấp được giấy tờ nêu trên theo quy định hoặc giấy tờ nộp, xuất trình bị tẩy xóa, sửa chữa, làm giả thì cơ quan đại diện hủy bỏ kết quả đăng ký lại khai sinh.\n- Cán bộ lãnh sự có trách nhiệm tiếp nhận đúng, đủ hồ sơ đăng ký hộ tịch theo quy định của pháp luật hộ tịch.",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "- Công dân Việt Nam định cư ở nước ngoài đã đăng ký khai sinh tại Cơ quan đại diện Việt Nam ở nước ngoài trước ngày 01/01/2016 nhưng Sổ đăng ký khai sinh và bản chính Giấy khai sinh đều bị mất.\n- Người được đăng ký lại khai sinh còn sống tại thời điểm yêu cầu đăng ký lại khai sinh.\n- Người yêu cầu có trách nhiệm nộp đầy đủ bản sao giấy tờ, tài liệu có nội dung liên quan đến việc đăng ký lại khai sinh.\n* Lưu ý:\n- Cơ quan đại diện Việt Nam ở nước ngoài tiếp nhận, giải quyết yêu cầu đăng ký hộ tịch trực tuyến phù hợp với mức độ triển khai dịch vụ công trực tuyến và việc sử dụng đồng bộ Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung tại cơ quan mình. Trường hợp chưa tiếp nhận giải quyết đăng ký hộ tịch trực tuyến thì thông báo trên cổng thông tin điện tử của cơ quan mình hoặc có văn bản thông báo cho người yêu cầu và nêu rõ lý do; văn bản thông báo có thể gửi qua thư điện tử nếu người yêu cầu có địa chỉ thư điện tử.\n- Giấy tờ do cơ quan có thẩm quyền của nước sở tại cấp sử dụng để đăng ký hộ tịch tại Cơ quan đại diện Việt Nam ở nước ngoài không phải hợp pháp hóa lãnh sự. Trường hợp có nghi ngờ về tính xác thực của giấy tờ, Cơ quan đại diện Việt Nam ở nước ngoài có thể yêu cầu giấy tờ đó phải được chứng nhận lãnh sự của cơ quan có thẩm quyền. Giấy tờ do cơ quan có thẩm quyền của nước thứ ba cấp sử dụng để đăng ký hộ tịch tại Cơ quan đại diện Việt Nam ở nước ngoài phải được hợp pháp hóa theo quy định. Giấy tờ bằng tiếng nước ngoài trong hồ sơ đăng ký hộ tịch phải được dịch sang tiếng Việt hoặc tiếng Anh theo quy định.\n- Đối với giấy tờ nộp, xuất trình nếu người yêu cầu nộp hồ sơ theo hình thức trực tiếp:\n+ Trường hợp người yêu cầu nộp giấy tờ là bản sao được cấp từ sổ gốc hoặc bản sao được chứng thực từ bản chính thì cán bộ lãnh sự không được yêu cầu xuất trình bản chính; nếu người yêu cầu chỉ nộp bản chụp và xuất trình bản chính thì cán bộ lãnh sự kiểm tra, đối chiếu bản chụp với bản chính và ký vào bản chụp xác nhận về việc đã đối chiếu nội dung giấy tờ đó, không được yêu cầu người đi đăng ký nộp bản sao có chứng thực.\n+ Trường hợp pháp luật quy định xuất trình giấy tờ khi đăng ký hộ tịch, cán bộ lãnh sự có trách nhiệm kiểm tra giấy tờ xuất trình, đối chiếu với thông tin trong Tờ khai và trả lại cho người xuất trình, không được yêu cầu người đăng ký hộ tịch nộp thêm bản sao giấy tờ đó. Cán bộ lãnh sự chụp 01 bản giấy tờ xuất trình xác nhận đã đối chiếu với bản chính, để lưu hồ sơ.\n- Đối với giấy tờ gửi kèm theo nếu người yêu cầu nộp hồ sơ theo hình thức trực tuyến:\n+ Bản chụp các giấy tờ gửi kèm theo hồ sơ trực tuyến phải bảo đảm rõ nét, đầy đủ, toàn vẹn về nội dung, là bản chụp bằng máy ảnh, điện thoại hoặc được chụp, được quét bằng thiết bị điện tử, từ giấy tờ được cấp hợp lệ, còn giá trị sử dụng.\n+ Trường hợp giấy tờ, tài liệu phải gửi kèm trong hồ sơ trực tuyến đã có bản sao điện tử hoặc đã có bản điện tử giấy tờ hộ tịch thì người yêu cầu được sử dụng bản điện tử này.\n+ Khi đến cơ quan đăng ký hộ tịch nhận kết quả, người có yêu cầu phải xuất trình giấy tờ tuỳ thân, nộp các giấy tờ là thành phần hồ sơ theo quy định của pháp luật hộ tịch.\n+ Trường hợp người yêu cầu không cung cấp được giấy tờ nêu trên theo quy định hoặc giấy tờ nộp, xuất trình bị tẩy xóa, sửa chữa, làm giả thì cơ quan đại diện hủy bỏ kết quả đăng ký lại khai sinh.\n- Cán bộ lãnh sự có trách nhiệm tiếp nhận đúng, đủ hồ sơ đăng ký hộ tịch theo quy định của pháp luật hộ tịch.",
     "KẾT QUẢ XỬ LÝ": "Trích lục khai sinh - 000.00.00.G08-KQ0019",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "\t- Công dân Việt Nam định cư ở nước ngoài đã đăng ký khai sinh tại Cơ quan đại diện Việt Nam ở nước ngoài trước ngày 01/01/2016 nhưng Sổ đăng ký khai sinh và bản chính Giấy khai sinh đều bị mất.\n- Người được đăng ký lại khai sinh còn sống tại thời điểm yêu cầu đăng ký lại khai sinh.\n- Người yêu cầu có trách nhiệm nộp đầy đủ bản sao giấy tờ, tài liệu có nội dung liên quan đến việc đăng ký lại khai sinh.\n* Lưu ý:\n- Cơ quan đại diện Việt Nam ở nước ngoài tiếp nhận, giải quyết yêu cầu đăng ký hộ tịch trực tuyến phù hợp với mức độ triển khai dịch vụ công trực tuyến và việc sử dụng đồng bộ Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung tại cơ quan mình. Trường hợp chưa tiếp nhận giải quyết đăng ký hộ tịch trực tuyến thì thông báo trên cổng thông tin điện tử của cơ quan mình hoặc có văn bản thông báo cho người yêu cầu và nêu rõ lý do; văn bản thông báo có thể gửi qua thư điện tử nếu người yêu cầu có địa chỉ thư điện tử.\n- Giấy tờ do cơ quan có thẩm quyền của nước sở tại cấp sử dụng để đăng ký hộ tịch tại Cơ quan đại diện Việt Nam ở nước ngoài không phải hợp pháp hóa lãnh sự. Trường hợp có nghi ngờ về tính xác thực của giấy tờ, Cơ quan đại diện Việt Nam ở nước ngoài có thể yêu cầu giấy tờ đó phải được chứng nhận lãnh sự của cơ quan có thẩm quyền. Giấy tờ do cơ quan có thẩm quyền của nước thứ ba cấp sử dụng để đăng ký hộ tịch tại Cơ quan đại diện Việt Nam ở nước ngoài phải được hợp pháp hóa theo quy định. Giấy tờ bằng tiếng nước ngoài trong hồ sơ đăng ký hộ tịch phải được dịch sang tiếng Việt hoặc tiếng Anh theo quy định.\n- Đối với giấy tờ nộp, xuất trình nếu người yêu cầu nộp hồ sơ theo hình thức trực tiếp:\n+ Trường hợp người yêu cầu nộp giấy tờ là bản sao được cấp từ sổ gốc hoặc bản sao được chứng thực từ bản chính thì cán bộ lãnh sự không được yêu cầu xuất trình bản chính; nếu người yêu cầu chỉ nộp bản chụp và xuất trình bản chính thì cán bộ lãnh sự kiểm tra, đối chiếu bản chụp với bản chính và ký vào bản chụp xác nhận về việc đã đối chiếu nội dung giấy tờ đó, không được yêu cầu người đi đăng ký nộp bản sao có chứng thực.\n+ Trường hợp pháp luật quy định xuất trình giấy tờ khi đăng ký hộ tịch, cán bộ lãnh sự có trách nhiệm kiểm tra giấy tờ xuất trình, đối chiếu với thông tin trong Tờ khai và trả lại cho người xuất trình, không được yêu cầu người đăng ký hộ tịch nộp thêm bản sao giấy tờ đó. Cán bộ lãnh sự chụp 01 bản giấy tờ xuất trình xác nhận đã đối chiếu với bản chính, để lưu hồ sơ.\n- Đối với giấy tờ gửi kèm theo nếu người yêu cầu nộp hồ sơ theo hình thức trực tuyến:\n+ Bản chụp các giấy tờ gửi kèm theo hồ sơ trực tuyến phải bảo đảm rõ nét, đầy đủ, toàn vẹn về nội dung, là bản chụp bằng máy ảnh, điện thoại hoặc được chụp, được quét bằng thiết bị điện tử, từ giấy tờ được cấp hợp lệ, còn giá trị sử dụng.\n+ Trường hợp giấy tờ, tài liệu phải gửi kèm trong hồ sơ trực tuyến đã có bản sao điện tử hoặc đã có bản điện tử giấy tờ hộ tịch thì người yêu cầu được sử dụng bản điện tử này.\n+ Khi đến cơ quan đăng ký hộ tịch nhận kết quả, người có yêu cầu phải xuất trình giấy tờ tuỳ thân, nộp các giấy tờ là thành phần hồ sơ theo quy định của pháp luật hộ tịch.\n+ Trường hợp người yêu cầu không cung cấp được giấy tờ nêu trên theo quy định hoặc giấy tờ nộp, xuất trình bị tẩy xóa, sửa chữa, làm giả thì cơ quan đại diện hủy bỏ kết quả đăng ký lại khai sinh.\n- Cán bộ lãnh sự có trách nhiệm tiếp nhận đúng, đủ hồ sơ đăng ký hộ tịch theo quy định của pháp luật hộ tịch."
+    "MÔ TẢ": "- Công dân Việt Nam định cư ở nước ngoài đã đăng ký khai sinh tại Cơ quan đại diện Việt Nam ở nước ngoài trước ngày 01/01/2016 nhưng Sổ đăng ký khai sinh và bản chính Giấy khai sinh đều bị mất.\n- Người được đăng ký lại khai sinh còn sống tại thời điểm yêu cầu đăng ký lại khai sinh.\n- Người yêu cầu có trách nhiệm nộp đầy đủ bản sao giấy tờ, tài liệu có nội dung liên quan đến việc đăng ký lại khai sinh.\n* Lưu ý:\n- Cơ quan đại diện Việt Nam ở nước ngoài tiếp nhận, giải quyết yêu cầu đăng ký hộ tịch trực tuyến phù hợp với mức độ triển khai dịch vụ công trực tuyến và việc sử dụng đồng bộ Phần mềm đăng ký, quản lý hộ tịch điện tử dùng chung tại cơ quan mình. Trường hợp chưa tiếp nhận giải quyết đăng ký hộ tịch trực tuyến thì thông báo trên cổng thông tin điện tử của cơ quan mình hoặc có văn bản thông báo cho người yêu cầu và nêu rõ lý do; văn bản thông báo có thể gửi qua thư điện tử nếu người yêu cầu có địa chỉ thư điện tử.\n- Giấy tờ do cơ quan có thẩm quyền của nước sở tại cấp sử dụng để đăng ký hộ tịch tại Cơ quan đại diện Việt Nam ở nước ngoài không phải hợp pháp hóa lãnh sự. Trường hợp có nghi ngờ về tính xác thực của giấy tờ, Cơ quan đại diện Việt Nam ở nước ngoài có thể yêu cầu giấy tờ đó phải được chứng nhận lãnh sự của cơ quan có thẩm quyền. Giấy tờ do cơ quan có thẩm quyền của nước thứ ba cấp sử dụng để đăng ký hộ tịch tại Cơ quan đại diện Việt Nam ở nước ngoài phải được hợp pháp hóa theo quy định. Giấy tờ bằng tiếng nước ngoài trong hồ sơ đăng ký hộ tịch phải được dịch sang tiếng Việt hoặc tiếng Anh theo quy định.\n- Đối với giấy tờ nộp, xuất trình nếu người yêu cầu nộp hồ sơ theo hình thức trực tiếp:\n+ Trường hợp người yêu cầu nộp giấy tờ là bản sao được cấp từ sổ gốc hoặc bản sao được chứng thực từ bản chính thì cán bộ lãnh sự không được yêu cầu xuất trình bản chính; nếu người yêu cầu chỉ nộp bản chụp và xuất trình bản chính thì cán bộ lãnh sự kiểm tra, đối chiếu bản chụp với bản chính và ký vào bản chụp xác nhận về việc đã đối chiếu nội dung giấy tờ đó, không được yêu cầu người đi đăng ký nộp bản sao có chứng thực.\n+ Trường hợp pháp luật quy định xuất trình giấy tờ khi đăng ký hộ tịch, cán bộ lãnh sự có trách nhiệm kiểm tra giấy tờ xuất trình, đối chiếu với thông tin trong Tờ khai và trả lại cho người xuất trình, không được yêu cầu người đăng ký hộ tịch nộp thêm bản sao giấy tờ đó. Cán bộ lãnh sự chụp 01 bản giấy tờ xuất trình xác nhận đã đối chiếu với bản chính, để lưu hồ sơ.\n- Đối với giấy tờ gửi kèm theo nếu người yêu cầu nộp hồ sơ theo hình thức trực tuyến:\n+ Bản chụp các giấy tờ gửi kèm theo hồ sơ trực tuyến phải bảo đảm rõ nét, đầy đủ, toàn vẹn về nội dung, là bản chụp bằng máy ảnh, điện thoại hoặc được chụp, được quét bằng thiết bị điện tử, từ giấy tờ được cấp hợp lệ, còn giá trị sử dụng.\n+ Trường hợp giấy tờ, tài liệu phải gửi kèm trong hồ sơ trực tuyến đã có bản sao điện tử hoặc đã có bản điện tử giấy tờ hộ tịch thì người yêu cầu được sử dụng bản điện tử này.\n+ Khi đến cơ quan đăng ký hộ tịch nhận kết quả, người có yêu cầu phải xuất trình giấy tờ tuỳ thân, nộp các giấy tờ là thành phần hồ sơ theo quy định của pháp luật hộ tịch.\n+ Trường hợp người yêu cầu không cung cấp được giấy tờ nêu trên theo quy định hoặc giấy tờ nộp, xuất trình bị tẩy xóa, sửa chữa, làm giả thì cơ quan đại diện hủy bỏ kết quả đăng ký lại khai sinh.\n- Cán bộ lãnh sự có trách nhiệm tiếp nhận đúng, đủ hồ sơ đăng ký hộ tịch theo quy định của pháp luật hộ tịch."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Có con nhỏ",
-      "slug": "co-con-nho",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Hộ tịch",
       "slug": "ho-tich"
@@ -233,15 +182,15 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       }
     ],
     "agencies": [
       {
         "name": "Cơ quan đại diện ngoại giao",
-        "slug": "co-quan-dai-dien-ngoai-giao"
+        "slug": "co-quan-ai-dien-ngoai-giao"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

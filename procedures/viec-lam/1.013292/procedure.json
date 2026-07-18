@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-98cc-76bf-8cee-34797aacc952",
   "procedure_code": "1.013292",
   "title": "Thủ tục khen thưởng cá nhân có thành tích về Dân quân tự vệ",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-98cc-76bf-8cee-34797aacc952",
     "source_file": "chi-tiet-thu-tuc-1.013292.pdf",
     "source_path": "procedures/viec-lam/1.013292/chi-tiet-thu-tuc-1.013292.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:09.839656+00:00",
-    "source_updated_at": "2026-04-13T09:31:58.682Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:12.401897+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "49495a8cde27a560f26aa934538231f6cff0bc189f8f15ec345cd7a82afa7a04"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:09.839656+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "6225/QĐ-BQP",
   "implementation_level": "Cấp bộ, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Khen thưởng BQP",
   "target_users": [
@@ -38,18 +33,15 @@
   ],
   "agency": {
     "competent_agency": "Bộ trưởng Bộ Quốc phòng; Thủ trưởng đơn vị trực thuộc Bộ Quốc phòng",
-    "executing_agency": "Cục Tuyên huấn/Tổng cục Chính trị, Cục Dân quân tự vệ thuộc Bộ Tổng Tham mưu",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Tuyên huấn/Tổng cục Chính trị, Cục Dân quân tự vệ thuộc Bộ Tổng Tham mưu"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "1. Đơn vị cấp cơ sở tổ chức bình xét cá nhân có thành tích về Dân quân tự vệ.\n2. Cá nhân được bình xét khen thưởng viết báo cáo thành tích (theo mẫu). \n3. Cá nhân báo cáo thành tích tại hội nghị bình xét khen thưởng của cơ quan, tổ chức, đơn vị. Hội nghị tiến hành bình xét, biểu quyết bằng hình thức bỏ phiếu kín hoặc giơ tay.\n4. Hội đồng thi đua - khen thưởng, Tổ thi đua - khen thưởng họp xem xét, biểu quyết bằng hình thức bỏ phiếu kín hoặc giơ tay đối với từng tập thể.\n5. Cơ quan chính trị, cán bộ chính trị (nơi không có cơ quan chính trị) hoặc cơ quan, cán bộ đảm nhiệm công tác Dân quân tự vệ tổng hợp, báo cáo cấp uỷ đảng (ban thường vụ đảng ủy) cùng cấp xem xét, quyết nghị.  \n6. Căn cứ quyết nghị của cấp uỷ đảng (ban thường vụ đảng ủy), người đứng đầu cơ quan, tổ chức, đơn vị, Chủ tịch Ủy ban nhân dân các cấp ra quyết định khen thưởng theo thẩm quyền hoặc đề nghị cấp trên khen thưởng.\n7. Thủ trưởng các cơ quan, đơn vị trực thuộc Bộ Quốc phòng; Chỉ huy trưởng Ban Chỉ huy quân sự bộ, ngành Trung ương xem xét, đề nghị Bộ trưởng Bộ Quốc phòng (qua Cục Dân quân tự vệ/Bộ Tổng Tham mưu) xét, quyết định khen thưởng hoặc trình Thủ tướng Chính phủ.\n8. Cục Dân quân tự vệ tiếp nhận hồ sơ, thẩm định thành tích, báo cáo Thủ trưởng Bộ Tổng Tham mưu xem xét, trình Bộ trưởng Bộ Quốc phòng (qua Cục Tuyên huấn/Tổng cục Chính trị).\n9. Cục Tuyên huấn/Tổng cục Chính trị tổng hợp, báo cáo Chủ nhiệm Tổng cục Chính trị xem xét, trình Bộ trưởng Bộ Quốc phòng xét, quyết định khen thưởng hoặc trình Thủ tướng Chính phủ.\n",
+      "description": "1. Đơn vị cấp cơ sở tổ chức bình xét cá nhân có thành tích về Dân quân tự vệ.\n2. Cá nhân được bình xét khen thưởng viết báo cáo thành tích (theo mẫu). \n3. Cá nhân báo cáo thành tích tại hội nghị bình xét khen thưởng của cơ quan, tổ chức, đơn vị. Hội nghị tiến hành bình xét, biểu quyết bằng hình thức bỏ phiếu kín hoặc giơ tay.\n4. Hội đồng thi đua - khen thưởng, Tổ thi đua - khen thưởng họp xem xét, biểu quyết bằng hình thức bỏ phiếu kín hoặc giơ tay đối với từng tập thể.\n5. Cơ quan chính trị, cán bộ chính trị (nơi không có cơ quan chính trị) hoặc cơ quan, cán bộ đảm nhiệm công tác Dân quân tự vệ tổng hợp, báo cáo cấp uỷ đảng (ban thường vụ đảng ủy) cùng cấp xem xét, quyết nghị.  \n6. Căn cứ quyết nghị của cấp uỷ đảng (ban thường vụ đảng ủy), người đứng đầu cơ quan, tổ chức, đơn vị, Chủ tịch Ủy ban nhân dân các cấp ra quyết định khen thưởng theo thẩm quyền hoặc đề nghị cấp trên khen thưởng.\n7. Thủ trưởng các cơ quan, đơn vị trực thuộc Bộ Quốc phòng; Chỉ huy trưởng Ban Chỉ huy quân sự bộ, ngành Trung ương xem xét, đề nghị Bộ trưởng Bộ Quốc phòng (qua Cục Dân quân tự vệ/Bộ Tổng Tham mưu) xét, quyết định khen thưởng hoặc trình Thủ tướng Chính phủ.\n8. Cục Dân quân tự vệ tiếp nhận hồ sơ, thẩm định thành tích, báo cáo Thủ trưởng Bộ Tổng Tham mưu xem xét, trình Bộ trưởng Bộ Quốc phòng (qua Cục Tuyên huấn/Tổng cục Chính trị).\n9. Cục Tuyên huấn/Tổng cục Chính trị tổng hợp, báo cáo Chủ nhiệm Tổng cục Chính trị xem xét, trình Bộ trưởng Bộ Quốc phòng xét, quyết định khen thưởng hoặc trình Thủ tướng Chính phủ.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
@@ -58,48 +50,33 @@
     "conditional": [
       {
         "name": "Báo cáo thành tích của cá nhân đề nghị tặng danh hiệu thi đua hoặc hình thức khen thưởng, có xác nhận của cấp trình khen thưởng (theo mẫu số 03, 04, 06, 07, 08 và 10 quy định tại Phụ lục I kèm theo Nghị định số 98/2023/NĐ-CP)",
-        "code": "000.00.00.G11-KQ003259",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Tờ trình của cơ quan, đơn vị (theo mẫu số 01 quy định tại Phụ lục I kèm theo Nghị định số 98/2023/NĐ-CP).",
-        "code": "000.00.00.G11-KQ003254",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "2. Danh sách đề nghị tặng danh hiệu thi đua hoặc hình thức khen thưởng;",
-        "code": "000.00.00.G11-KQ2726",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "5. Hồ sơ, tài liệu khác có liên quan (nếu có).",
-        "code": "000.00.00.G11-KQ2729",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Biên bản họp và kết quả bỏ phiếu tín nhiệm của hội đồng thi đua - khen thưởng (theo mẫu số 1.9 quy định tại Nghị định số 30/2020/NĐ-CP).",
-        "code": "000.00.00.G11-KQ003257",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -108,33 +85,22 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       }
     ]
   },
@@ -142,26 +108,22 @@
     {
       "title": "Luật Thi đua, khen thưởng",
       "document_number": "06/2022/QH15",
-      "id": "019d2bb3-5d84-71c5-b671-4c4f0784f204",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật dân quân tự vệ",
       "document_number": "48/2019/QH14",
-      "id": "019d2bb3-5d85-73da-8eb8-3b5755362b92",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Quy định chi tiết thi hành một số điều của Luật Thi đua, khen thưởng",
       "document_number": "98/2023/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b473-4383d8012e2b",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư quy định và hướng dẫn công tác thi đua, khen thưởng về Dân quân tự vệ.",
       "document_number": "93/2024/TT-BQP",
-      "id": "019d2bb3-5d7d-7398-be47-a224f61a9397",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -169,13 +131,12 @@
     {
       "title": "Quyết định tặng thưởng danh hiệu thi đua và hình thức khen thưởng.",
       "code": "KQ.G11.000025",
-      "id": "019d2bb2-1c6e-7797-a21b-5bde8713878a",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "1. Đơn vị cấp cơ sở tổ chức bình xét cá nhân có thành tích về Dân quân tự vệ.\n2. Cá nhân được bình xét khen thưởng viết báo cáo thành tích (theo mẫu). \n3. Cá nhân báo cáo thành tích tại hội nghị bình xét khen thưởng của cơ quan, tổ chức, đơn vị. Hội nghị tiến hành bình xét, biểu quyết bằng hình thức bỏ phiếu kín hoặc giơ tay.\n4. Hội đồng thi đua - khen thưởng, Tổ thi đua - khen thưởng họp xem xét, biểu quyết bằng hình thức bỏ phiếu kín hoặc giơ tay đối với từng tập thể.\n5. Cơ quan chính trị, cán bộ chính trị (nơi không có cơ quan chính trị) hoặc cơ quan, cán bộ đảm nhiệm công tác Dân quân tự vệ tổng hợp, báo cáo cấp uỷ đảng (ban thường vụ đảng ủy) cùng cấp xem xét, quyết nghị.  \n6. Căn cứ quyết nghị của cấp uỷ đảng (ban thường vụ đảng ủy), người đứng đầu cơ quan, tổ chức, đơn vị, Chủ tịch Ủy ban nhân dân các cấp ra quyết định khen thưởng theo thẩm quyền hoặc đề nghị cấp trên khen thưởng.\n7. Thủ trưởng các cơ quan, đơn vị trực thuộc Bộ Quốc phòng; Chỉ huy trưởng Ban Chỉ huy quân sự bộ, ngành Trung ương xem xét, đề nghị Bộ trưởng Bộ Quốc phòng (qua Cục Dân quân tự vệ/Bộ Tổng Tham mưu) xét, quyết định khen thưởng hoặc trình Thủ tướng Chính phủ.\n8. Cục Dân quân tự vệ tiếp nhận hồ sơ, thẩm định thành tích, báo cáo Thủ trưởng Bộ Tổng Tham mưu xem xét, trình Bộ trưởng Bộ Quốc phòng (qua Cục Tuyên huấn/Tổng cục Chính trị).\n9. Cục Tuyên huấn/Tổng cục Chính trị tổng hợp, báo cáo Chủ nhiệm Tổng cục Chính trị xem xét, trình Bộ trưởng Bộ Quốc phòng xét, quyết định khen thưởng hoặc trình Thủ tướng Chính phủ.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nBáo cáo thành tích của cá nhân đề nghị tặng danh hiệu thi đua hoặc hình thức khen thưởng, có xác nhận của cấp trình khen thưởng (theo mẫu số 03, 04, 06, 07, 08 và 10 quy định tại Phụ lục I kèm theo Nghị định số 98/2023/NĐ-CP)\nTờ trình của cơ quan, đơn vị (theo mẫu số 01 quy định tại Phụ lục I kèm theo Nghị định số 98/2023/NĐ-CP).\n2. Danh sách đề nghị tặng danh hiệu thi đua hoặc hình thức khen thưởng;\n5. Hồ sơ, tài liệu khác có liên quan (nếu có).\nBiên bản họp và kết quả bỏ phiếu tín nhiệm của hội đồng thi đua - khen thưởng (theo mẫu số 1.9 quy định tại Nghị định số 30/2020/NĐ-CP).",
+    "TRÌNH TỰ THỰC HIỆN": "1. Đơn vị cấp cơ sở tổ chức bình xét cá nhân có thành tích về Dân quân tự vệ.\n2. Cá nhân được bình xét khen thưởng viết báo cáo thành tích (theo mẫu). \n3. Cá nhân báo cáo thành tích tại hội nghị bình xét khen thưởng của cơ quan, tổ chức, đơn vị. Hội nghị tiến hành bình xét, biểu quyết bằng hình thức bỏ phiếu kín hoặc giơ tay.\n4. Hội đồng thi đua - khen thưởng, Tổ thi đua - khen thưởng họp xem xét, biểu quyết bằng hình thức bỏ phiếu kín hoặc giơ tay đối với từng tập thể.\n5. Cơ quan chính trị, cán bộ chính trị (nơi không có cơ quan chính trị) hoặc cơ quan, cán bộ đảm nhiệm công tác Dân quân tự vệ tổng hợp, báo cáo cấp uỷ đảng (ban thường vụ đảng ủy) cùng cấp xem xét, quyết nghị.  \n6. Căn cứ quyết nghị của cấp uỷ đảng (ban thường vụ đảng ủy), người đứng đầu cơ quan, tổ chức, đơn vị, Chủ tịch Ủy ban nhân dân các cấp ra quyết định khen thưởng theo thẩm quyền hoặc đề nghị cấp trên khen thưởng.\n7. Thủ trưởng các cơ quan, đơn vị trực thuộc Bộ Quốc phòng; Chỉ huy trưởng Ban Chỉ huy quân sự bộ, ngành Trung ương xem xét, đề nghị Bộ trưởng Bộ Quốc phòng (qua Cục Dân quân tự vệ/Bộ Tổng Tham mưu) xét, quyết định khen thưởng hoặc trình Thủ tướng Chính phủ.\n8. Cục Dân quân tự vệ tiếp nhận hồ sơ, thẩm định thành tích, báo cáo Thủ trưởng Bộ Tổng Tham mưu xem xét, trình Bộ trưởng Bộ Quốc phòng (qua Cục Tuyên huấn/Tổng cục Chính trị).\n9. Cục Tuyên huấn/Tổng cục Chính trị tổng hợp, báo cáo Chủ nhiệm Tổng cục Chính trị xem xét, trình Bộ trưởng Bộ Quốc phòng xét, quyết định khen thưởng hoặc trình Thủ tướng Chính phủ.",
+    "THÀNH PHẦN HỒ SƠ": "Báo cáo thành tích của cá nhân đề nghị tặng danh hiệu thi đua hoặc hình thức khen thưởng, có xác nhận của cấp trình khen thưởng (theo mẫu số 03, 04, 06, 07, 08 và 10 quy định tại Phụ lục I kèm theo Nghị định số 98/2023/NĐ-CP)\nTờ trình của cơ quan, đơn vị (theo mẫu số 01 quy định tại Phụ lục I kèm theo Nghị định số 98/2023/NĐ-CP).\n2. Danh sách đề nghị tặng danh hiệu thi đua hoặc hình thức khen thưởng;\n5. Hồ sơ, tài liệu khác có liên quan (nếu có).\nBiên bản họp và kết quả bỏ phiếu tín nhiệm của hội đồng thi đua - khen thưởng (theo mẫu số 1.9 quy định tại Nghị định số 30/2020/NĐ-CP).",
     "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 10 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Luật Thi đua, khen thưởng - 06/2022/QH15\nLuật dân quân tự vệ - 48/2019/QH14\nQuy định chi tiết thi hành một số điều của Luật Thi đua, khen thưởng - 98/2023/NĐ-CP\nThông tư quy định và hướng dẫn công tác thi đua, khen thưởng về Dân quân tự vệ. - 93/2024/TT-BQP",
     "CƠ QUAN THỰC HIỆN": "Cục Tuyên huấn/Tổng cục Chính trị, Cục Dân quân tự vệ thuộc Bộ Tổng Tham mưu",
@@ -185,11 +146,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Khen thưởng BQP",
       "slug": "khen-thuong-bqp"
@@ -228,6 +184,6 @@
         "slug": "cuc-dan-quan-tu-ve-thuoc-bo-tong-tham-muu"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

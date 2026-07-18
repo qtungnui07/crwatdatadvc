@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf8-523f-7497-9b53-6b43a1c457dc",
   "procedure_code": "1.012570",
   "title": "Thủ tục đề nghị công nhận tổ chức tôn giáo có địa bàn hoạt động ở nhiều tỉnh (Cấp trung ương)",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf8-523f-7497-9b53-6b43a1c457dc",
     "source_file": "chi-tiet-thu-tuc-1.012570.pdf",
     "source_path": "procedures/viec-lam/1.012570/chi-tiet-thu-tuc-1.012570.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:07.990143+00:00",
-    "source_updated_at": "2026-04-21T03:15:34.873Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:02.854263+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "742a6b63511286b832d518283c70629c82fc4b78402ef725bc47cb88c7441817"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:07.990143+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "79/QĐ-BDTTG",
   "implementation_level": "Cấp bộ, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Tín ngưỡng, tôn giáo",
   "target_users": [
@@ -36,93 +31,63 @@
   ],
   "agency": {
     "competent_agency": "Bộ Dân tộc và Tôn giáo",
-    "executing_agency": "Bộ Dân tộc và Tôn giáo, Ban Tôn giáo Chính phủ - Bộ Dân tộc và Tôn giáo",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Dân tộc và Tôn giáo, Ban Tôn giáo Chính phủ - Bộ Dân tộc và Tôn giáo"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1: Tổ chức tôn giáo đề nghị cấp đăng ký pháp nhân phi thương mại cho tổ chức tôn giáo trực thuộc có địa bàn hoạt động ở nhiều tỉnh có trách nhiệm gửi hồ sơ đề nghị đến Bộ phận Một cửa.\n- Bước 2: Bộ phận Một cửa xem xét hồ sơ đề nghị, nếu hồ sơ đầy đủ, thực hiện số hóa, xuất phiếu hẹn trả kết quả và chuyển Ban Tôn giáo Chính phủ tham mưu xử lý; trường hợp hồ sơ chưa đầy đủ, hợp lệ, Bộ phận Một cửa hướng dẫn trực tiếp hoặc thông báo qua thư điện tử, tin nhắn điện thoại hoặc văn bản để tổ chức bổ sung, hoàn thiện hồ sơ. Trường hợp từ chối tiếp nhận, giải quyết hồ sơ phải nêu rõ lý do. Thời gian hoàn thiện hồ sơ không tính vào thời hạn giải quyết.\n- Bước 3:\n+ Ban Tôn giáo Chính phủ thẩm định hồ sơ, lấy ý kiến các cơ quan liên quan (nếu cần), trình kết quả thẩm định và đề xuất Lãnh đạo Bộ Dân tộc và Tôn giáo giải quyết TTHC.\n+ Lãnh đạo Bộ Dân tộc và Tôn giáo căn cứ Tờ trình của Ban Tôn giáo Chính phủ cấp hoặc không cấp đăng ký pháp nhân phi thương mại cho tổ chức tôn giáo trực thuộc có địa bàn hoạt động ở nhiều tỉnh và gửi kết quả giải quyết về Bộ phận Tiếp nhận và trả kết quả của Ban Tôn giáo Chính phủ để trả cho tổ chức. Trường hợp không cấp đăng ký phải trả lời bằng văn bản và nêu rõ lý do.\n",
+      "description": "- Bước 1: Tổ chức tôn giáo đề nghị cấp đăng ký pháp nhân phi thương mại cho tổ chức tôn giáo trực thuộc có địa bàn hoạt động ở nhiều tỉnh có trách nhiệm gửi hồ sơ đề nghị đến Bộ phận Một cửa.\n- Bước 2: Bộ phận Một cửa xem xét hồ sơ đề nghị, nếu hồ sơ đầy đủ, thực hiện số hóa, xuất phiếu hẹn trả kết quả và chuyển Ban Tôn giáo Chính phủ tham mưu xử lý; trường hợp hồ sơ chưa đầy đủ, hợp lệ, Bộ phận Một cửa hướng dẫn trực tiếp hoặc thông báo qua thư điện tử, tin nhắn điện thoại hoặc văn bản để tổ chức bổ sung, hoàn thiện hồ sơ. Trường hợp từ chối tiếp nhận, giải quyết hồ sơ phải nêu rõ lý do. Thời gian hoàn thiện hồ sơ không tính vào thời hạn giải quyết.\n- Bước 3:\n+ Ban Tôn giáo Chính phủ thẩm định hồ sơ, lấy ý kiến các cơ quan liên quan (nếu cần), trình kết quả thẩm định và đề xuất Lãnh đạo Bộ Dân tộc và Tôn giáo giải quyết TTHC.\n+ Lãnh đạo Bộ Dân tộc và Tôn giáo căn cứ Tờ trình của Ban Tôn giáo Chính phủ cấp hoặc không cấp đăng ký pháp nhân phi thương mại cho tổ chức tôn giáo trực thuộc có địa bàn hoạt động ở nhiều tỉnh và gửi kết quả giải quyết về Bộ phận Tiếp nhận và trả kết quả của Ban Tôn giáo Chính phủ để trả cho tổ chức. Trường hợp không cấp đăng ký phải trả lời bằng văn bản và nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Đề nghị công nhận tổ chức tôn giáo (Mẫu B9 Phụ lục ban hành kèm theo Nghị định số 95/2023/NĐ-CP ngày 29/12/2023 của Chính phủ, được sửa đổi bổ sung tại Phụ lục II Nghị định số 124/2025/NĐ-CP ngày 11/6/2025 của Chính phủ).",
-        "code": "000.00.00.G21-KQ000239",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dabca-3b63-705c-a5bb-74522a5e94c6",
-            "name": "MuB9.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "MuB9.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "+ Văn bản tóm tắt quá trình hoạt động của tổ chức từ khi được cấp chứng nhận đăng ký hoạt động tôn giáo;",
-        "code": "000.00.00.G09-KQ001761",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Bản tóm tắt giáo lý, giáo luật, lễ nghi;",
-        "code": "000.00.00.G09-KQ001763",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Danh sách, sơ yếu lý lịch, bản tóm tắt quá trình hoạt động tôn giáo của người đại diện và những người dự kiến lãnh đạo tổ chức;",
-        "code": "000.00.00.G21-KQ000238",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
+        "attachment": null,
         "source_page": null
       },
       {
         "name": "+ Giấy tờ chứng minh có địa điểm hợp pháp để đặt trụ sở.",
-        "code": "000.00.00.G09-KQ001766",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Bản kê khai tài sản hợp pháp của tổ chức;",
-        "code": "000.00.00.G09-KQ001765",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Hiến chương của tổ chức;",
-        "code": "000.00.00.G09-KQ001764",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -131,87 +96,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "60 ngày",
-      "processing_time_value": 60,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Nộp hồ sơ trực tuyến Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn).",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "60 ngày",
-      "processing_time_value": 60,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Nộp hồ sơ qua dịch vụ bưu chính công ích; qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc ủy quyền theo quy định của pháp luật. Ngày tiếp nhận hồ sơ được tính theo ngày ghi trên dấu công văn đến.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "60 ngày",
-      "processing_time_value": 60,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Đại diện tổ chức tôn giáo trực tiếp thực hiện hoặc ủy quyền cho người khác thực hiện nộp hồ sơ trực tiếp tại Bộ phận Một cửa, của Bộ Dân tộc và Tôn giáo.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -219,20 +149,17 @@
     {
       "title": "Nghị định số 95/2023/NĐ-CP ngày 29/12/2023 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật tín ngưỡng, tôn giáo.",
       "document_number": "95/2023/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b473-02ccebcf0369",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định số 124/2025/NĐ-CP",
       "document_number": "124/2025/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a63e-8a2bf55137fa",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Tín ngưỡng, tôn giáo",
       "document_number": "02/2016/QH14",
-      "id": "019d2bb3-5d80-7608-8cd0-b2e0a90e021d",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "conditions": "- Hoạt động ổn định, liên tục từ đủ 05 năm trở lên kể từ ngày được cấp chứng nhận đăng ký hoạt động tôn giáo.\n- Có hiến chương theo quy định tại Điều 23 của Luật tín ngưỡng, tôn giáo.\n(Hiến chương của tổ chức tôn giáo có những nội dung cơ bản sau đây: Tên của tổ chức; Tôn chỉ, mục đích, nguyên tắc hoạt động; Địa bàn hoạt động, trụ sở chính; Tài chính, tài sản; Người đại diện theo pháp luật, mẫu con dấu; Chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của tổ chức tôn giáo, tổ chức tôn giáo trực thuộc; Nhiệm vụ, quyền hạn của ban lãnh đạo tổ chức tôn giáo, tổ chức tôn giáo trực thuộc; Điều kiện, tiêu chuẩn, thẩm quyền, cách thức phong phẩm, bổ nhiệm, bầu cử, suy cử, thuyên chuyển, cách chức, bãi nhiệm chức sắc, chức việc, nhà tu hành; Điều kiện, thẩm quyền, cách thức giải thể tổ chức tôn giáo; thành lập, chia, tách, sáp nhập, hợp nhất, giải thể tổ chức tôn giáo trực thuộc; Việc tổ chức hội nghị, đại hội; thể thức thông qua quyết định, sửa đổi, bổ sung hiến chương; nguyên tắc, phương thức giải quyết tranh chấp nội bộ của tổ chức; Quan hệ giữa tổ chức tôn giáo với tổ chức tôn giáo trực thuộc, giữa tổ chức tôn giáo với tổ chức, cá nhân khác có liên quan).\n- Người đại diện, người lãnh đạo tổ chức là công dân Việt Nam thường trú tại Việt Nam, có năng lực hành vi dân sự đầy đủ; không trong thời gian bị áp dụng biện pháp xử lý hành chính trong lĩnh vực tín ngưỡng, tôn giáo; không có án tích hoặc không phải là người đang bị buộc tội theo quy định của pháp luật về tố tụng hình sự.\n- Có cơ cấu tổ chức theo hiến chương.\n- Có tài sản độc lập với cá nhân, tổ chức khác và tự chịu trách nhiệm bằng tài sản của mình.\n- Nhân danh tổ chức tham gia quan hệ pháp luật một cách độc lập.",
@@ -240,26 +167,23 @@
     {
       "title": "Quyết định công nhận tổ chức tôn giáo",
       "code": "KQ.G21.000184",
-      "id": "019d2bb2-1c7e-720f-afd0-970f9e2df463",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Văn bản trả lời không chấp thuận về việc công nhận tổ chức tôn giáo",
       "code": "KQ.G21.000185",
-      "id": "019d2bb2-1c7e-720f-afd0-9a686f80daed",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Hiến chương của tổ chức đã được phê duyệt",
       "code": "KQ.G21.000186",
-      "id": "019d2bb2-1c7e-720f-afd0-9df47c8bb324",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Tổ chức tôn giáo đề nghị cấp đăng ký pháp nhân phi thương mại cho tổ chức tôn giáo trực thuộc có địa bàn hoạt động ở nhiều tỉnh có trách nhiệm gửi hồ sơ đề nghị đến Bộ phận Một cửa.\n- Bước 2: Bộ phận Một cửa xem xét hồ sơ đề nghị, nếu hồ sơ đầy đủ, thực hiện số hóa, xuất phiếu hẹn trả kết quả và chuyển Ban Tôn giáo Chính phủ tham mưu xử lý; trường hợp hồ sơ chưa đầy đủ, hợp lệ, Bộ phận Một cửa hướng dẫn trực tiếp hoặc thông báo qua thư điện tử, tin nhắn điện thoại hoặc văn bản để tổ chức bổ sung, hoàn thiện hồ sơ. Trường hợp từ chối tiếp nhận, giải quyết hồ sơ phải nêu rõ lý do. Thời gian hoàn thiện hồ sơ không tính vào thời hạn giải quyết.\n- Bước 3:\n+ Ban Tôn giáo Chính phủ thẩm định hồ sơ, lấy ý kiến các cơ quan liên quan (nếu cần), trình kết quả thẩm định và đề xuất Lãnh đạo Bộ Dân tộc và Tôn giáo giải quyết TTHC.\n+ Lãnh đạo Bộ Dân tộc và Tôn giáo căn cứ Tờ trình của Ban Tôn giáo Chính phủ cấp hoặc không cấp đăng ký pháp nhân phi thương mại cho tổ chức tôn giáo trực thuộc có địa bàn hoạt động ở nhiều tỉnh và gửi kết quả giải quyết về Bộ phận Tiếp nhận và trả kết quả của Ban Tôn giáo Chính phủ để trả cho tổ chức. Trường hợp không cấp đăng ký phải trả lời bằng văn bản và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n+ Văn bản tóm tắt quá trình hoạt động của tổ chức từ khi được cấp chứng nhận đăng ký hoạt động tôn giáo;\n+ Bản tóm tắt giáo lý, giáo luật, lễ nghi;\nDanh sách, sơ yếu lý lịch, bản tóm tắt quá trình hoạt động tôn giáo của người đại diện và những người dự kiến lãnh đạo tổ chức;\n+ Giấy tờ chứng minh có địa điểm hợp pháp để đặt trụ sở.\n+ Bản kê khai tài sản hợp pháp của tổ chức;\nĐề nghị công nhận tổ chức tôn giáo (Mẫu B9 Phụ lục ban hành kèm theo Nghị định số 95/2023/NĐ-CP ngày 29/12/2023 của Chính phủ, được sửa đổi bổ sung tại Phụ lục II Nghị định số 124/2025/NĐ-CP ngày 11/6/2025 của Chính phủ).\n+ Hiến chương của tổ chức;",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 60 ngày - Nộp hồ sơ trực tuyến Cổng dịch vụ công quốc gia (https://dichvucong.gov.vn).\nQua dịch vụ bưu chính: 60 ngày - Nộp hồ sơ qua dịch vụ bưu chính công ích; qua thuê dịch vụ của doanh nghiệp, cá nhân hoặc ủy quyền theo quy định của pháp luật. Ngày tiếp nhận hồ sơ được tính theo ngày ghi trên dấu công văn đến.\nTrực tiếp: 60 ngày - Đại diện tổ chức tôn giáo trực tiếp thực hiện hoặc ủy quyền cho người khác thực hiện nộp hồ sơ trực tiếp tại Bộ phận Một cửa, của Bộ Dân tộc và Tôn giáo.",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1: Tổ chức tôn giáo đề nghị cấp đăng ký pháp nhân phi thương mại cho tổ chức tôn giáo trực thuộc có địa bàn hoạt động ở nhiều tỉnh có trách nhiệm gửi hồ sơ đề nghị đến Bộ phận Một cửa.\n- Bước 2: Bộ phận Một cửa xem xét hồ sơ đề nghị, nếu hồ sơ đầy đủ, thực hiện số hóa, xuất phiếu hẹn trả kết quả và chuyển Ban Tôn giáo Chính phủ tham mưu xử lý; trường hợp hồ sơ chưa đầy đủ, hợp lệ, Bộ phận Một cửa hướng dẫn trực tiếp hoặc thông báo qua thư điện tử, tin nhắn điện thoại hoặc văn bản để tổ chức bổ sung, hoàn thiện hồ sơ. Trường hợp từ chối tiếp nhận, giải quyết hồ sơ phải nêu rõ lý do. Thời gian hoàn thiện hồ sơ không tính vào thời hạn giải quyết.\n- Bước 3:\n+ Ban Tôn giáo Chính phủ thẩm định hồ sơ, lấy ý kiến các cơ quan liên quan (nếu cần), trình kết quả thẩm định và đề xuất Lãnh đạo Bộ Dân tộc và Tôn giáo giải quyết TTHC.\n+ Lãnh đạo Bộ Dân tộc và Tôn giáo căn cứ Tờ trình của Ban Tôn giáo Chính phủ cấp hoặc không cấp đăng ký pháp nhân phi thương mại cho tổ chức tôn giáo trực thuộc có địa bàn hoạt động ở nhiều tỉnh và gửi kết quả giải quyết về Bộ phận Tiếp nhận và trả kết quả của Ban Tôn giáo Chính phủ để trả cho tổ chức. Trường hợp không cấp đăng ký phải trả lời bằng văn bản và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "Đề nghị công nhận tổ chức tôn giáo (Mẫu B9 Phụ lục ban hành kèm theo Nghị định số 95/2023/NĐ-CP ngày 29/12/2023 của Chính phủ, được sửa đổi bổ sung tại Phụ lục II Nghị định số 124/2025/NĐ-CP ngày 11/6/2025 của Chính phủ).\n+ Văn bản tóm tắt quá trình hoạt động của tổ chức từ khi được cấp chứng nhận đăng ký hoạt động tôn giáo;\n+ Bản tóm tắt giáo lý, giáo luật, lễ nghi;\nDanh sách, sơ yếu lý lịch, bản tóm tắt quá trình hoạt động tôn giáo của người đại diện và những người dự kiến lãnh đạo tổ chức;\n+ Giấy tờ chứng minh có địa điểm hợp pháp để đặt trụ sở.\n+ Bản kê khai tài sản hợp pháp của tổ chức;\n+ Hiến chương của tổ chức;",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 60 ngày\nQua dịch vụ bưu chính: 60 ngày\nTrực tiếp: 60 ngày",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 95/2023/NĐ-CP ngày 29/12/2023 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật tín ngưỡng, tôn giáo. - 95/2023/NĐ-CP\nNghị định số 124/2025/NĐ-CP - 124/2025/NĐ-CP\nTín ngưỡng, tôn giáo - 02/2016/QH14",
     "CƠ QUAN THỰC HIỆN": "Bộ Dân tộc và Tôn giáo, Ban Tôn giáo Chính phủ - Bộ Dân tộc và Tôn giáo",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "- Hoạt động ổn định, liên tục từ đủ 05 năm trở lên kể từ ngày được cấp chứng nhận đăng ký hoạt động tôn giáo.\n- Có hiến chương theo quy định tại Điều 23 của Luật tín ngưỡng, tôn giáo.\n(Hiến chương của tổ chức tôn giáo có những nội dung cơ bản sau đây: Tên của tổ chức; Tôn chỉ, mục đích, nguyên tắc hoạt động; Địa bàn hoạt động, trụ sở chính; Tài chính, tài sản; Người đại diện theo pháp luật, mẫu con dấu; Chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của tổ chức tôn giáo, tổ chức tôn giáo trực thuộc; Nhiệm vụ, quyền hạn của ban lãnh đạo tổ chức tôn giáo, tổ chức tôn giáo trực thuộc; Điều kiện, tiêu chuẩn, thẩm quyền, cách thức phong phẩm, bổ nhiệm, bầu cử, suy cử, thuyên chuyển, cách chức, bãi nhiệm chức sắc, chức việc, nhà tu hành; Điều kiện, thẩm quyền, cách thức giải thể tổ chức tôn giáo; thành lập, chia, tách, sáp nhập, hợp nhất, giải thể tổ chức tôn giáo trực thuộc; Việc tổ chức hội nghị, đại hội; thể thức thông qua quyết định, sửa đổi, bổ sung hiến chương; nguyên tắc, phương thức giải quyết tranh chấp nội bộ của tổ chức; Quan hệ giữa tổ chức tôn giáo với tổ chức tôn giáo trực thuộc, giữa tổ chức tôn giáo với tổ chức, cá nhân khác có liên quan).\n- Người đại diện, người lãnh đạo tổ chức là công dân Việt Nam thường trú tại Việt Nam, có năng lực hành vi dân sự đầy đủ; không trong thời gian bị áp dụng biện pháp xử lý hành chính trong lĩnh vực tín ngưỡng, tôn giáo; không có án tích hoặc không phải là người đang bị buộc tội theo quy định của pháp luật về tố tụng hình sự.\n- Có cơ cấu tổ chức theo hiến chương.\n- Có tài sản độc lập với cá nhân, tổ chức khác và tự chịu trách nhiệm bằng tài sản của mình.\n- Nhân danh tổ chức tham gia quan hệ pháp luật một cách độc lập.",
@@ -268,11 +192,6 @@
     "MÔ TẢ": "- Hoạt động ổn định, liên tục từ đủ 05 năm trở lên kể từ ngày được cấp chứng nhận đăng ký hoạt động tôn giáo.\n- Có hiến chương theo quy định tại Điều 23 của Luật tín ngưỡng, tôn giáo.\n(Hiến chương của tổ chức tôn giáo có những nội dung cơ bản sau đây: Tên của tổ chức; Tôn chỉ, mục đích, nguyên tắc hoạt động; Địa bàn hoạt động, trụ sở chính; Tài chính, tài sản; Người đại diện theo pháp luật, mẫu con dấu; Chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của tổ chức tôn giáo, tổ chức tôn giáo trực thuộc; Nhiệm vụ, quyền hạn của ban lãnh đạo tổ chức tôn giáo, tổ chức tôn giáo trực thuộc; Điều kiện, tiêu chuẩn, thẩm quyền, cách thức phong phẩm, bổ nhiệm, bầu cử, suy cử, thuyên chuyển, cách chức, bãi nhiệm chức sắc, chức việc, nhà tu hành; Điều kiện, thẩm quyền, cách thức giải thể tổ chức tôn giáo; thành lập, chia, tách, sáp nhập, hợp nhất, giải thể tổ chức tôn giáo trực thuộc; Việc tổ chức hội nghị, đại hội; thể thức thông qua quyết định, sửa đổi, bổ sung hiến chương; nguyên tắc, phương thức giải quyết tranh chấp nội bộ của tổ chức; Quan hệ giữa tổ chức tôn giáo với tổ chức tôn giáo trực thuộc, giữa tổ chức tôn giáo với tổ chức, cá nhân khác có liên quan).\n- Người đại diện, người lãnh đạo tổ chức là công dân Việt Nam thường trú tại Việt Nam, có năng lực hành vi dân sự đầy đủ; không trong thời gian bị áp dụng biện pháp xử lý hành chính trong lĩnh vực tín ngưỡng, tôn giáo; không có án tích hoặc không phải là người đang bị buộc tội theo quy định của pháp luật về tố tụng hình sự.\n- Có cơ cấu tổ chức theo hiến chương.\n- Có tài sản độc lập với cá nhân, tổ chức khác và tự chịu trách nhiệm bằng tài sản của mình.\n- Nhân danh tổ chức tham gia quan hệ pháp luật một cách độc lập."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Tín ngưỡng, tôn giáo",
       "slug": "tin-nguong-ton-giao"
@@ -303,6 +222,6 @@
         "slug": "ban-ton-giao-chinh-phu-bo-dan-toc-va-ton-giao"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

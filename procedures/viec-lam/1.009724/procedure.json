@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-9b27-70eb-b4e6-a648da1eceb3",
   "procedure_code": "1.009724",
   "title": "Công ty đại chúng đăng ký phát hành cổ phiếu để hoán đổi nợ",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-9b27-70eb-b4e6-a648da1eceb3",
     "source_file": "chi-tiet-thu-tuc-1.009724.pdf",
     "source_path": "procedures/viec-lam/1.009724/chi-tiet-thu-tuc-1.009724.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:05.374835+00:00",
-    "source_updated_at": "2026-06-04T03:47:54.200Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:38.278216+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "ca67c802d3e2950e73bf5d9620be32310543a27235b2a96a10adec1bb6d7ece3"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:05.374835+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "936/QĐ-BTC",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Chứng khoán",
   "target_users": [
@@ -35,102 +31,83 @@
   ],
   "agency": {
     "competent_agency": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
-    "executing_agency": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "+ Bước 1: Tổ chức phát hành nộp hồ sơ đăng ký phát hành cổ phiếu để hoán đổi nợ cho Ủy ban Chứng khoán Nhà nước (UBCKNN).\n+ Bước 2: UBCKNN tiếp nhận, xem xét hồ sơ.\n+ Bước 3: Sau khi nhận đầy đủ hồ sơ hợp lệ, UBCKNN cấp Giấy chứng nhận đăng ký phát hành cổ phiếu để hoán đổi nợ. Trường hợp từ chối, UBCKNN phải trả lời bằng văn bản và nêu rõ lý do.\n",
+      "description": "+ Bước 1: Tổ chức phát hành nộp hồ sơ đăng ký phát hành cổ phiếu để hoán đổi nợ cho Ủy ban Chứng khoán Nhà nước (UBCKNN).",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "+ Bước 2: UBCKNN tiếp nhận, xem xét hồ sơ.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "+ Bước 3: Sau khi nhận đầy đủ hồ sơ hợp lệ, UBCKNN cấp Giấy chứng nhận đăng ký phát hành cổ phiếu để hoán đổi nợ. Trường hợp từ chối, UBCKNN phải trả lời bằng văn bản và nêu rõ lý do.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "+ Giấy đăng ký phát hành theo Mẫu số 15 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP.",
-        "code": "000.00.00.G12-KQ015186",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e9087-dbe9-76df-8e9f-a968ed42e6d0",
-            "name": "Mẫu số 15.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 15.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "+ Quyết định của Đại hội đồng cổ đông hoặc Hội đồng quản trị (trong trường hợp được Đại hội đồng cổ đông ủy quyền) thông qua phương án đảm bảo việc phát hành cổ phiếu đáp ứng tỷ lệ sở hữu nước ngoài.",
-        "code": "000.00.00.G12-KQ014648",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Báo cáo tài chính năm gần nhất được kiểm toán bởi tổ chức kiểm toán được chấp thuận của tổ chức phát hành",
-        "code": "000.00.00.G12-KQ015188",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Quyết định của Đại hội đồng cổ đông thông qua phương án phát hành, trong đó nêu rõ: mục đích phát hành, số lượng cổ phiếu dự kiến phát hành, danh sách chủ nợ, giá trị các khoản nợ phải trả được hoán đổi và số lượng cổ phiếu dự kiến hoán đổi cho từng chủ nợ, phương pháp xác định và tỷ lệ hoán đổi. Hội đồng quản trị báo cáo Đại hội đồng cổ đông về phương pháp xác định và tỷ lệ hoán đổi, ý kiến của tổ chức thẩm định giá độc lập (nếu có) để Đại hội đồng cổ đông xem xét, quyết định, đảm bảo nguyên tắc công khai, minh bạch, phù hợp với giá thị trường.  Những người có quyền lợi liên quan đến đợt phát hành cổ phiếu không được tham gia biểu quyết.",
-        "code": "000.00.00.G12-KQ015187",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Văn bản cam kết của tổ chức phát hành đảm bảo không vi phạm quy định về sở hữu chéo của Luật Doanh nghiệp.",
-        "code": "000.00.00.G12-KQ015165",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Quyết định của Hội đồng quản trị thông qua hồ sơ đăng ký phát hành. Đối với việc phát hành cổ phiếu của tổ chức tín dụng, hồ sơ phải có văn bản chấp thuận của Ngân hàng Nhà nước Việt Nam về đề nghị tăng vốn điều lệ theo quy định của pháp luật về các tổ chức tín dụng. Đối với việc phát hành cổ phiếu của tổ chức kinh doanh bảo hiểm, hồ sơ phải có văn bản chấp thuận của Bộ Tài chính về việc tăng vốn điều lệ theo quy định của pháp luật về kinh doanh bảo hiểm.",
-        "code": "000.00.00.G12-KQ015167",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Tài liệu cung cấp thông tin về đợt phát hành cho nhà đầu tư (nếu có).",
-        "code": "000.00.00.G12-KQ015166",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "+ Văn bản chấp thuận về nguyên tắc của chủ nợ về việc hoán đổi nợ; Trong trường hợp khai thác được Giấy chứng nhận đăng ký doanh nghiệp (đính kèm tại Phụ lục Giấy đăng ký phát hành cổ phiếu riêng lẻ để hoán đổi nợ) trên Cơ sở dữ liệu quốc gia về doanh nghiệp thì không yêu cẩu tổ chức, cá nhân, doanh nghiệp nộp bản sao Giấy chứng nhận đăng ký doanh nghiệp (đính kèm tại Phụ lục Giấy đăng ký phát hành cổ phiếu riêng lẻ để hoán đổi nợ).",
-        "code": "000.00.00.G12-KQ015189",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -139,87 +116,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Trong vòng 07 (bảy) ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ;",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": " Trong vòng 07 (bảy) ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ;",
-      "source_page": null
+      "fee": "0",
+      "description": "Trong vòng 07 (bảy) ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ;",
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": " Trong vòng 07 (bảy) ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ;",
-      "source_page": null
+      "fee": "0",
+      "description": "Trong vòng 07 (bảy) ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ;",
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -227,66 +169,54 @@
     {
       "title": "Nghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu",
       "document_number": "66.7/2025/NQ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-22af3c5ee091",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định 155/2020/NĐ-CP",
       "document_number": "155/2020/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a640-fee63f44d848",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Luật 54/2019/QH14",
       "document_number": "54/2019/QH14",
-      "id": "019d2bb3-5d87-7195-a442-db836cad8655",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật sửa đổi, bổ sung một số điều của Luật Doanh nghiệp 2020",
       "document_number": "76/2025/QH15",
-      "id": "019d2bb3-5d87-7195-a445-a84d5af06feb",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định sửa đổi, bổ sung một số điều của Nghị định số 155/2020/NĐ-CP ngày 31 tháng 12 năm 2020 của Chính phủ quy định chi tiết thi hành một số điều của Luật Chứng khoán",
       "document_number": "245/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afed-f8eed80b1842",
-      "source_page": null
+      "source_page": 4
     }
   ],
-  "conditions": "+ Có phương án phát hành để hoán đổi nợ được Đại hội đồng cổ đông thông qua.\n+ Các khoản nợ được hoán đổi phải là các khoản nợ được trình bày trong báo cáo tài chính năm gần nhất được kiểm toán bởi tổ chức kiểm toán được chấp thuận và đã được Đại hội đồng cổ đông thông qua.\n+ Có chấp thuận về nguyên tắc bằng văn bản của chủ nợ về việc hoán đổi nợ.\n+ Khoảng cách giữa các đợt chào bán, phát hành riêng lẻ phải cách nhau ít nhất 06 tháng kể từ ngày kết thúc đợt chào bán, phát hành riêng lẻ gần nhất theo quy định tại khoản 7 Điều 48 Nghị định 155/2020/NĐ-CP.\n+ Cổ phiếu phát hành bị hạn chế chuyển nhượng tối thiểu 01 năm  kể từ ngày kết thúc đợt phát hành trừ trường hợp thực hiện theo bản án, quyết định của Tòa án đã có hiệu lực pháp luật, quyết định của Trọng tài hoặc thừa kế theo quy định của pháp luật.\n+ Việc phát hành cổ phiếu để hoán đổi phải đáp ứng quy định về tỷ lệ sở hữu nước ngoài theo quy định của pháp luật.\n+ Việc hoán đổi phải đảm bảo không vi phạm quy định về sở hữu chéo của Luật Doanh nghiệp.\n",
+  "conditions": "+ Có phương án phát hành để hoán đổi nợ được Đại hội đồng cổ đông thông qua.\n+ Các khoản nợ được hoán đổi phải là các khoản nợ được trình bày trong báo cáo tài chính năm gần nhất được kiểm toán bởi tổ chức kiểm toán được chấp thuận và đã được Đại hội đồng cổ đông thông qua.\n+ Có chấp thuận về nguyên tắc bằng văn bản của chủ nợ về việc hoán đổi nợ.\n+ Khoảng cách giữa các đợt chào bán, phát hành riêng lẻ phải cách nhau ít nhất 06 tháng kể từ ngày kết thúc đợt chào bán, phát hành riêng lẻ gần nhất theo quy định tại khoản 7 Điều 48 Nghị định 155/2020/NĐ-CP.\n+ Cổ phiếu phát hành bị hạn chế chuyển nhượng tối thiểu 01 năm  kể từ ngày kết thúc đợt phát hành trừ trường hợp thực hiện theo bản án, quyết định của Tòa án đã có hiệu lực pháp luật, quyết định của Trọng tài hoặc thừa kế theo quy định của pháp luật.\n+ Việc phát hành cổ phiếu để hoán đổi phải đáp ứng quy định về tỷ lệ sở hữu nước ngoài theo quy định của pháp luật.\n+ Việc hoán đổi phải đảm bảo không vi phạm quy định về sở hữu chéo của Luật Doanh nghiệp.",
   "results": [
     {
       "title": "Công văn từ chối nếu Hồ sơ không đáp ứng điều kiện hoặc không bổ sung đầy đủ, hợp lệ theo quy định",
       "code": "KQ.G12.001145",
-      "id": "019d2bb2-1c72-75fa-a591-f3922e25308c",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Văn bản chấp thuận về việc nhận được đầy đủ hồ sơ đăng ký phát hành cổ phiếu để hoán đổi nợ",
       "code": "KQ.G12.001151",
-      "id": "019d2bb2-1c72-75fa-a592-0bca1ea9e31a",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Tổ chức phát hành nộp hồ sơ đăng ký phát hành cổ phiếu để hoán đổi nợ cho Ủy ban Chứng khoán Nhà nước (UBCKNN).\n+ Bước 2: UBCKNN tiếp nhận, xem xét hồ sơ.\n+ Bước 3: Sau khi nhận đầy đủ hồ sơ hợp lệ, UBCKNN cấp Giấy chứng nhận đăng ký phát hành cổ phiếu để hoán đổi nợ. Trường hợp từ chối, UBCKNN phải trả lời bằng văn bản và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n+ Quyết định của Đại hội đồng cổ đông hoặc Hội đồng quản trị (trong trường hợp được Đại hội đồng cổ đông ủy quyền) thông qua phương án đảm bảo việc phát hành cổ phiếu đáp ứng tỷ lệ sở hữu nước ngoài.\n+ Báo cáo tài chính năm gần nhất được kiểm toán bởi tổ chức kiểm toán được chấp thuận của tổ chức phát hành\n+ Quyết định của Đại hội đồng cổ đông thông qua phương án phát hành, trong đó nêu rõ: mục đích phát hành, số lượng cổ phiếu dự kiến phát hành, danh sách chủ nợ, giá trị các khoản nợ phải trả được hoán đổi và số lượng cổ phiếu dự kiến hoán đổi cho từng chủ nợ, phương pháp xác định và tỷ lệ hoán đổi. Hội đồng quản trị báo cáo Đại hội đồng cổ đông về phương pháp xác định và tỷ lệ hoán đổi, ý kiến của tổ chức thẩm định giá độc lập (nếu có) để Đại hội đồng cổ đông xem xét, quyết định, đảm bảo nguyên tắc công khai, minh bạch, phù hợp với giá thị trường.  Những người có quyền lợi liên quan đến đợt phát hành cổ phiếu không được tham gia biểu quyết.\n+ Văn bản cam kết của tổ chức phát hành đảm bảo không vi phạm quy định về sở hữu chéo của Luật Doanh nghiệp.\n+ Giấy đăng ký phát hành theo Mẫu số 15 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP.\n+ Quyết định của Hội đồng quản trị thông qua hồ sơ đăng ký phát hành. Đối với việc phát hành cổ phiếu của tổ chức tín dụng, hồ sơ phải có văn bản chấp thuận của Ngân hàng Nhà nước Việt Nam về đề nghị tăng vốn điều lệ theo quy định của pháp luật về các tổ chức tín dụng. Đối với việc phát hành cổ phiếu của tổ chức kinh doanh bảo hiểm, hồ sơ phải có văn bản chấp thuận của Bộ Tài chính về việc tăng vốn điều lệ theo quy định của pháp luật về kinh doanh bảo hiểm.\n+ Tài liệu cung cấp thông tin về đợt phát hành cho nhà đầu tư (nếu có).\n+ Văn bản chấp thuận về nguyên tắc của chủ nợ về việc hoán đổi nợ; Trong trường hợp khai thác được Giấy chứng nhận đăng ký doanh nghiệp (đính kèm tại Phụ lục Giấy đăng ký phát hành cổ phiếu riêng lẻ để hoán đổi nợ) trên Cơ sở dữ liệu quốc gia về doanh nghiệp thì không yêu cẩu tổ chức, cá nhân, doanh nghiệp nộp bản sao Giấy chứng nhận đăng ký doanh nghiệp (đính kèm tại Phụ lục Giấy đăng ký phát hành cổ phiếu riêng lẻ để hoán đổi nợ).",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 7 ngày làm việc - Trong vòng 07 (bảy) ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ;\nQua dịch vụ bưu chính: 7 ngày làm việc -  Trong vòng 07 (bảy) ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ;\nTrực tiếp: 7 ngày làm việc -  Trong vòng 07 (bảy) ngày làm việc kể từ ngày nhận hồ sơ đầy đủ và hợp lệ;",
+    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Tổ chức phát hành nộp hồ sơ đăng ký phát hành cổ phiếu để hoán đổi nợ cho Ủy ban Chứng khoán Nhà nước (UBCKNN).\n+ Bước 2: UBCKNN tiếp nhận, xem xét hồ sơ.\n+ Bước 3: Sau khi nhận đầy đủ hồ sơ hợp lệ, UBCKNN cấp Giấy chứng nhận đăng ký phát hành cổ phiếu để hoán đổi nợ. Trường hợp từ chối, UBCKNN phải trả lời bằng văn bản và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "+ Giấy đăng ký phát hành theo Mẫu số 15 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP.\n+ Quyết định của Đại hội đồng cổ đông hoặc Hội đồng quản trị (trong trường hợp được Đại hội đồng cổ đông ủy quyền) thông qua phương án đảm bảo việc phát hành cổ phiếu đáp ứng tỷ lệ sở hữu nước ngoài.\n+ Báo cáo tài chính năm gần nhất được kiểm toán bởi tổ chức kiểm toán được chấp thuận của tổ chức phát hành\n+ Quyết định của Đại hội đồng cổ đông thông qua phương án phát hành, trong đó nêu rõ: mục đích phát hành, số lượng cổ phiếu dự kiến phát hành, danh sách chủ nợ, giá trị các khoản nợ phải trả được hoán đổi và số lượng cổ phiếu dự kiến hoán đổi cho từng chủ nợ, phương pháp xác định và tỷ lệ hoán đổi. Hội đồng quản trị báo cáo Đại hội đồng cổ đông về phương pháp xác định và tỷ lệ hoán đổi, ý kiến của tổ chức thẩm định giá độc lập (nếu có) để Đại hội đồng cổ đông xem xét, quyết định, đảm bảo nguyên tắc công khai, minh bạch, phù hợp với giá thị trường.  Những người có quyền lợi liên quan đến đợt phát hành cổ phiếu không được tham gia biểu quyết.\n+ Văn bản cam kết của tổ chức phát hành đảm bảo không vi phạm quy định về sở hữu chéo của Luật Doanh nghiệp.\n+ Quyết định của Hội đồng quản trị thông qua hồ sơ đăng ký phát hành. Đối với việc phát hành cổ phiếu của tổ chức tín dụng, hồ sơ phải có văn bản chấp thuận của Ngân hàng Nhà nước Việt Nam về đề nghị tăng vốn điều lệ theo quy định của pháp luật về các tổ chức tín dụng. Đối với việc phát hành cổ phiếu của tổ chức kinh doanh bảo hiểm, hồ sơ phải có văn bản chấp thuận của Bộ Tài chính về việc tăng vốn điều lệ theo quy định của pháp luật về kinh doanh bảo hiểm.\n+ Tài liệu cung cấp thông tin về đợt phát hành cho nhà đầu tư (nếu có).\n+ Văn bản chấp thuận về nguyên tắc của chủ nợ về việc hoán đổi nợ; Trong trường hợp khai thác được Giấy chứng nhận đăng ký doanh nghiệp (đính kèm tại Phụ lục Giấy đăng ký phát hành cổ phiếu riêng lẻ để hoán đổi nợ) trên Cơ sở dữ liệu quốc gia về doanh nghiệp thì không yêu cẩu tổ chức, cá nhân, doanh nghiệp nộp bản sao Giấy chứng nhận đăng ký doanh nghiệp (đính kèm tại Phụ lục Giấy đăng ký phát hành cổ phiếu riêng lẻ để hoán đổi nợ).",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 7 ngày làm việc\nQua dịch vụ bưu chính: 7 ngày làm việc\nTrực tiếp: 7 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu - 66.7/2025/NQ-CP\nNghị định 155/2020/NĐ-CP - 155/2020/NĐ-CP\nLuật 54/2019/QH14 - 54/2019/QH14\nLuật sửa đổi, bổ sung một số điều của Luật Doanh nghiệp 2020 - 76/2025/QH15\nNghị định sửa đổi, bổ sung một số điều của Nghị định số 155/2020/NĐ-CP ngày 31 tháng 12 năm 2020 của Chính phủ quy định chi tiết thi hành một số điều của Luật Chứng khoán - 245/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "+ Có phương án phát hành để hoán đổi nợ được Đại hội đồng cổ đông thông qua.\n+ Các khoản nợ được hoán đổi phải là các khoản nợ được trình bày trong báo cáo tài chính năm gần nhất được kiểm toán bởi tổ chức kiểm toán được chấp thuận và đã được Đại hội đồng cổ đông thông qua.\n+ Có chấp thuận về nguyên tắc bằng văn bản của chủ nợ về việc hoán đổi nợ.\n+ Khoảng cách giữa các đợt chào bán, phát hành riêng lẻ phải cách nhau ít nhất 06 tháng kể từ ngày kết thúc đợt chào bán, phát hành riêng lẻ gần nhất theo quy định tại khoản 7 Điều 48 Nghị định 155/2020/NĐ-CP.\n+ Cổ phiếu phát hành bị hạn chế chuyển nhượng tối thiểu 01 năm  kể từ ngày kết thúc đợt phát hành trừ trường hợp thực hiện theo bản án, quyết định của Tòa án đã có hiệu lực pháp luật, quyết định của Trọng tài hoặc thừa kế theo quy định của pháp luật.\n+ Việc phát hành cổ phiếu để hoán đổi phải đáp ứng quy định về tỷ lệ sở hữu nước ngoài theo quy định của pháp luật.\n+ Việc hoán đổi phải đảm bảo không vi phạm quy định về sở hữu chéo của Luật Doanh nghiệp.\n",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "+ Có phương án phát hành để hoán đổi nợ được Đại hội đồng cổ đông thông qua.\n+ Các khoản nợ được hoán đổi phải là các khoản nợ được trình bày trong báo cáo tài chính năm gần nhất được kiểm toán bởi tổ chức kiểm toán được chấp thuận và đã được Đại hội đồng cổ đông thông qua.\n+ Có chấp thuận về nguyên tắc bằng văn bản của chủ nợ về việc hoán đổi nợ.\n+ Khoảng cách giữa các đợt chào bán, phát hành riêng lẻ phải cách nhau ít nhất 06 tháng kể từ ngày kết thúc đợt chào bán, phát hành riêng lẻ gần nhất theo quy định tại khoản 7 Điều 48 Nghị định 155/2020/NĐ-CP.\n+ Cổ phiếu phát hành bị hạn chế chuyển nhượng tối thiểu 01 năm  kể từ ngày kết thúc đợt phát hành trừ trường hợp thực hiện theo bản án, quyết định của Tòa án đã có hiệu lực pháp luật, quyết định của Trọng tài hoặc thừa kế theo quy định của pháp luật.\n+ Việc phát hành cổ phiếu để hoán đổi phải đáp ứng quy định về tỷ lệ sở hữu nước ngoài theo quy định của pháp luật.\n+ Việc hoán đổi phải đảm bảo không vi phạm quy định về sở hữu chéo của Luật Doanh nghiệp.",
     "KẾT QUẢ XỬ LÝ": "Công văn từ chối nếu Hồ sơ không đáp ứng điều kiện hoặc không bổ sung đầy đủ, hợp lệ theo quy định - KQ.G12.001145\nVăn bản chấp thuận về việc nhận được đầy đủ hồ sơ đăng ký phát hành cổ phiếu để hoán đổi nợ - KQ.G12.001151",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "+ Có phương án phát hành để hoán đổi nợ được Đại hội đồng cổ đông thông qua.\n+ Các khoản nợ được hoán đổi phải là các khoản nợ được trình bày trong báo cáo tài chính năm gần nhất được kiểm toán bởi tổ chức kiểm toán được chấp thuận và đã được Đại hội đồng cổ đông thông qua.\n+ Có chấp thuận về nguyên tắc bằng văn bản của chủ nợ về việc hoán đổi nợ.\n+ Khoảng cách giữa các đợt chào bán, phát hành riêng lẻ phải cách nhau ít nhất 06 tháng kể từ ngày kết thúc đợt chào bán, phát hành riêng lẻ gần nhất theo quy định tại khoản 7 Điều 48 Nghị định 155/2020/NĐ-CP.\n+ Cổ phiếu phát hành bị hạn chế chuyển nhượng tối thiểu 01 năm  kể từ ngày kết thúc đợt phát hành trừ trường hợp thực hiện theo bản án, quyết định của Tòa án đã có hiệu lực pháp luật, quyết định của Trọng tài hoặc thừa kế theo quy định của pháp luật.\n+ Việc phát hành cổ phiếu để hoán đổi phải đáp ứng quy định về tỷ lệ sở hữu nước ngoài theo quy định của pháp luật.\n+ Việc hoán đổi phải đảm bảo không vi phạm quy định về sở hữu chéo của Luật Doanh nghiệp.\n"
+    "MÔ TẢ": "+ Có phương án phát hành để hoán đổi nợ được Đại hội đồng cổ đông thông qua.\n+ Các khoản nợ được hoán đổi phải là các khoản nợ được trình bày trong báo cáo tài chính năm gần nhất được kiểm toán bởi tổ chức kiểm toán được chấp thuận và đã được Đại hội đồng cổ đông thông qua.\n+ Có chấp thuận về nguyên tắc bằng văn bản của chủ nợ về việc hoán đổi nợ.\n+ Khoảng cách giữa các đợt chào bán, phát hành riêng lẻ phải cách nhau ít nhất 06 tháng kể từ ngày kết thúc đợt chào bán, phát hành riêng lẻ gần nhất theo quy định tại khoản 7 Điều 48 Nghị định 155/2020/NĐ-CP.\n+ Cổ phiếu phát hành bị hạn chế chuyển nhượng tối thiểu 01 năm  kể từ ngày kết thúc đợt phát hành trừ trường hợp thực hiện theo bản án, quyết định của Tòa án đã có hiệu lực pháp luật, quyết định của Trọng tài hoặc thừa kế theo quy định của pháp luật.\n+ Việc phát hành cổ phiếu để hoán đổi phải đáp ứng quy định về tỷ lệ sở hữu nước ngoài theo quy định của pháp luật.\n+ Việc hoán đổi phải đảm bảo không vi phạm quy định về sở hữu chéo của Luật Doanh nghiệp."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Chứng khoán",
       "slug": "chung-khoan"
@@ -309,6 +239,6 @@
         "slug": "uy-ban-chung-khoan-nha-nuoc-bo-tai-chinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

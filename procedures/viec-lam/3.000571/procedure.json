@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019e80d3-7dbb-728d-9e27-d83e9f26f6e9",
   "procedure_code": "3.000571",
   "title": "Thủ tục khai báo hoạt động kinh doanh nhập khẩu xuất bản phẩm",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019e80d3-7dbb-728d-9e27-d83e9f26f6e9",
     "source_file": "chi-tiet-thu-tuc-3.000571.pdf",
     "source_path": "procedures/viec-lam/3.000571/chi-tiet-thu-tuc-3.000571.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:24.445438+00:00",
-    "source_updated_at": "2026-06-01T02:41:39.275Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:40.372862+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "860093d8e59ae545e0105e48ff8c226ef3361f1d10db53395d829194dd51a7e0"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:24.445438+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1198/QĐ-BVHTTDL",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "OTHER",
   "sector": "Xuất Bản, In và Phát hành",
   "target_users": [
@@ -39,18 +35,15 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cục Xuất bản, in và phát hành - Bộ Văn hóa, Thể thao và Du lịch",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Xuất bản, in và phát hành - Bộ Văn hóa, Thể thao và Du lịch"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Trước khi hoạt động, cơ sở nhập khẩu phát hành phẩm phải khai báo hoạt động kinh doanh nhập khẩu xuất bản phẩm với Cục Xuất bản, In và Phát hành trên Cổng dịch vụ công Quốc gia.\n- Trong thời gian 05 ngày làm việc kể từ ngày tiếp nhận đủ thông tin khai báo, Cục Xuất bản, In và Phát hành phải xác nhận việc khai báo; trường hợp không xác nhận phải có văn bản trả lời nêu rõ lý do.\n",
+      "description": "- Trước khi hoạt động, cơ sở nhập khẩu phát hành phẩm phải khai báo hoạt động kinh doanh nhập khẩu xuất bản phẩm với Cục Xuất bản, In và Phát hành trên Cổng dịch vụ công Quốc gia.\n- Trong thời gian 05 ngày làm việc kể từ ngày tiếp nhận đủ thông tin khai báo, Cục Xuất bản, In và Phát hành phải xác nhận việc khai báo; trường hợp không xác nhận phải có văn bản trả lời nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -59,12 +52,9 @@
     "conditional": [
       {
         "name": "Tờ khai hoạt động nhập khẩu xuất bản phẩm (theo Mẫu số 10 ban hành kèm theo Phụ lục I.9 tại Nghị quyết số 66.18/2026/NQ-CP)",
-        "code": "000.00.00.G16-KQ0106618",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -73,34 +63,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Kể từ ngày nhận đủ hồ sơ theo quy định.",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Kể từ ngày nhận đủ hồ sơ theo quy định.",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Kể từ ngày nhận đủ hồ sơ theo quy định.",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -109,32 +94,27 @@
     {
       "title": "Thông tư 01/2020/TT-BTTTT",
       "document_number": "01/2020/TT-BTTTT",
-      "id": "019d2bb3-5d7c-71ab-9f03-e8a624fc3eca",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị định 195/2013/NĐ-CP",
       "document_number": "195/2013/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afed-006a4d6d88d0",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị quyết số 66.18/2026/NQ-CP của Chính phủ: Phân quyền, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh",
       "document_number": "66.18/2026/NQ-CP",
-      "id": "019e67c8-49f0-74da-8ec4-788fb29ab4a9",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư số 23/2023/TT-BTTTT ngày 31/12/2023 của của Bộ Thông tin và Truyền thông sửa đổi, bổ sung một số điều của Thông tư số 01/2020/TTBTTTT ngày 07/02/2020 của Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều của Luật Xuất bản và Nghị đinh số 195/2013/NĐ-CP ngày 21/11/2013 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật xuất bản",
       "document_number": "23/2023",
-      "id": "019d2bb3-5d7c-71ab-9f04-c99837aa3a5d",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Sửa đổi một số Nghị định liên quan đến điều kiện đầu tư kinh doanh và thủ tục hành chính trong lĩnh vực thông tin và truyền thông",
       "document_number": "150/2018/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-8dc5cf990676",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Cơ sở nhập khẩu xuất bản phẩm để kinh doanh phải đáp ứng các yêu cầu sau:\n- Người đứng đầu cơ sở nhập khẩu xuất bản phẩm phải thường trú tại Việt Nam;\n- Có đội ngũ nhân viên đủ năng lực thẩm định nội dung sách trong trường hợp kinh doanh nhập khẩu sách.",
@@ -142,14 +122,13 @@
     {
       "title": "Xác nhận khai báo hoạt động nhập khẩu xuất bản phẩm.",
       "code": "G16-KQ00661801",
-      "id": "019e80d2-3a37-778f-8317-fc40bb4363f8",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Trước khi hoạt động, cơ sở nhập khẩu phát hành phẩm phải khai báo hoạt động kinh doanh nhập khẩu xuất bản phẩm với Cục Xuất bản, In và Phát hành trên Cổng dịch vụ công Quốc gia.\n- Trong thời gian 05 ngày làm việc kể từ ngày tiếp nhận đủ thông tin khai báo, Cục Xuất bản, In và Phát hành phải xác nhận việc khai báo; trường hợp không xác nhận phải có văn bản trả lời nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nTờ khai hoạt động nhập khẩu xuất bản phẩm (theo Mẫu số 10 ban hành kèm theo Phụ lục I.9 tại Nghị quyết số 66.18/2026/NQ-CP)",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 5 ngày làm việc - Kể từ ngày nhận đủ hồ sơ theo quy định.\nTrực tuyến: 5 ngày làm việc - Kể từ ngày nhận đủ hồ sơ theo quy định.\nQua dịch vụ bưu chính: 5 ngày làm việc - Kể từ ngày nhận đủ hồ sơ theo quy định.",
+    "TRÌNH TỰ THỰC HIỆN": "- Trước khi hoạt động, cơ sở nhập khẩu phát hành phẩm phải khai báo hoạt động kinh doanh nhập khẩu xuất bản phẩm với Cục Xuất bản, In và Phát hành trên Cổng dịch vụ công Quốc gia.\n- Trong thời gian 05 ngày làm việc kể từ ngày tiếp nhận đủ thông tin khai báo, Cục Xuất bản, In và Phát hành phải xác nhận việc khai báo; trường hợp không xác nhận phải có văn bản trả lời nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "Tờ khai hoạt động nhập khẩu xuất bản phẩm (theo Mẫu số 10 ban hành kèm theo Phụ lục I.9 tại Nghị quyết số 66.18/2026/NQ-CP)",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 5 ngày làm việc\nTrực tuyến: 5 ngày làm việc\nQua dịch vụ bưu chính: 5 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Thông tư 01/2020/TT-BTTTT - 01/2020/TT-BTTTT\nNghị định 195/2013/NĐ-CP - 195/2013/NĐ-CP\nNghị quyết số 66.18/2026/NQ-CP của Chính phủ: Phân quyền, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh - 66.18/2026/NQ-CP\nThông tư số 23/2023/TT-BTTTT ngày 31/12/2023 của của Bộ Thông tin và Truyền thông sửa đổi, bổ sung một số điều của Thông tư số 01/2020/TTBTTTT ngày 07/02/2020 của Bộ Thông tin và Truyền thông quy định chi tiết và hướng dẫn thi hành một số điều của Luật Xuất bản và Nghị đinh số 195/2013/NĐ-CP ngày 21/11/2013 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật xuất bản - 23/2023\nSửa đổi một số Nghị định liên quan đến điều kiện đầu tư kinh doanh và thủ tục hành chính trong lĩnh vực thông tin và truyền thông - 150/2018/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cục Xuất bản, in và phát hành - Bộ Văn hóa, Thể thao và Du lịch",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Cơ sở nhập khẩu xuất bản phẩm để kinh doanh phải đáp ứng các yêu cầu sau:\n- Người đứng đầu cơ sở nhập khẩu xuất bản phẩm phải thường trú tại Việt Nam;\n- Có đội ngũ nhân viên đủ năng lực thẩm định nội dung sách trong trường hợp kinh doanh nhập khẩu sách.",
@@ -158,11 +137,6 @@
     "MÔ TẢ": "Cơ sở nhập khẩu xuất bản phẩm để kinh doanh phải đáp ứng các yêu cầu sau:\n- Người đứng đầu cơ sở nhập khẩu xuất bản phẩm phải thường trú tại Việt Nam;\n- Có đội ngũ nhân viên đủ năng lực thẩm định nội dung sách trong trường hợp kinh doanh nhập khẩu sách."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Xuất Bản, In và Phát hành",
       "slug": "xuat-ban-in-va-phat-hanh"
@@ -201,6 +175,6 @@
         "slug": "cuc-xuat-ban-in-va-phat-hanh-bo-van-hoa-the-thao-va-du-lich"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

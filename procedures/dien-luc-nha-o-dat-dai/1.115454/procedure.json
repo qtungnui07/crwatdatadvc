@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019f11a6-c63d-73ff-b8d2-af570f824ecf",
   "procedure_code": "1.115454",
   "title": "Trình tự, thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất đối với trường hợp người sử dụng đất đã thực hiện chuyển đổi quyền sử dụng đất nông nghiệp theo phương án “dồn điền đổi thửa” được cơ quan có thẩm quyền phê duyệt trước ngày 01 tháng 8 năm 2024",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019f11a6-c63d-73ff-b8d2-af570f824ecf",
     "source_file": "chi-tiet-thu-tuc-1.115454.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.115454/chi-tiet-thu-tuc-1.115454.pdf",
     "page_count": 19,
-    "extracted_at": "2026-07-18T02:22:17.947725+00:00",
-    "source_updated_at": "2026-07-06T01:35:07.018Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:56:57.474930+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "81d6e217478542dffb765ca6c744a051424e6ee517a25be447477e688a1ff9ca"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:17.947725+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1868/QĐ-UBND",
   "implementation_level": "Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đất đai",
   "target_users": [
@@ -38,10 +33,7 @@
   ],
   "agency": {
     "competent_agency": "Chủ tịch UBND cấp xã",
-    "executing_agency": "Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
-    "authorized_agency": "",
-    "coordinating_agency": "Cơ quan thuế, Văn phòng Đăng ký đất đai tỉnh",
-    "receiving_address": ""
+    "executing_agency": "Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã"
   },
   "steps": [
     {
@@ -49,46 +41,37 @@
       "title": "Bước 1: Nộp hồ sơ",
       "description": "Người yêu cầu đăng ký nộp hồ sơ đến Trung tâm Phục vụ hành chính công.\nKhi nộp các giấy tờ quy định, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực theo quy định của pháp luật.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định, trừ các giấy tờ là giấy phép xây dựng, quyết định phê duyệt dự án đầu tư, quyết định đầu tư, giấy phép đầu tư, giấy chứng nhận đầu tư, quyết định phê duyệt hoặc quyết định phê duyệt điều chỉnh quy hoạch xây dựng chi tiết, bản đồ điều chỉnh quy hoạch xây dựng chi tiết.\nTrung tâm Phục vụ hành chính công tiếp nhận hồ sơ, kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả. Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\nChuyển hồ sơ đến Phòng Kinh tế/Phòng Kinh tế Hạ tầng và Đô thị.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "Bước 2: Phòng Kinh tế/Phòng Kinh tế Hạ tầng và Đô thị thực hiện:",
       "description": "a) Trường hợp hồ sơ không đầy đủ, không hợp lệ, làm văn bản trả lại hồ sơ đồng thời hướng dẫn người nộp hồ sơ làm lại hồ sơ hoặc bổ sung hồ sơ. \nb) Trường hợp hồ sơ hợp lệ:\n- Tổ chức thẩm định hồ sơ \n- Niêm yết công khai kết quả kiểm tra, rà soát tại trụ sở Ủy ban nhân dân cấp xã, khu dân cư nơi có đất, tài sản gắn liền với đất trong thời gian 15 ngày, đồng thời thực hiện xem xét giải quyết các ý kiến phản ánh về nội dung đã công khai (nếu có). \n- Kiểm tra, ký xác nhận mảnh trích đo bản đồ địa chính (đối với trường hợp bản trích đo chưa được ký duyệt) theo quy định. \n- Kiểm tra việc đủ điều kiện hay không đủ điều kiện được cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai.\nTrường hợp đủ điều kiện thì chuyển thông tin địa chính theo mẫu Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 19 tại 54 Phụ lục IV ban hành kèm theo quyết định này đến cơ quan thuế để cơ quan thuế xác định và thông báo thu nghĩa vụ tài chính cho người sử dụng đất, chủ sở hữu tài sản gắn liền với đất. \n- Sau khi nhận được thông báo của cơ quan thuế về việc hoàn thành nghĩa vụ tài chính hoặc được ghi nợ nghĩa vụ tài chính thì hoàn thiện hồ sơ trình Chủ tịch Ủy ban nhân dân cấp xã, hồ sơ gồm: \n+ Dự thảo Giấy chứng nhận quyền sử dụng đất. \n+ Hồ sơ đất đai.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 3,
       "title": "Bước 3:",
       "description": "Chủ tịch Ủy ban nhân dân cấp xã ký Giấy chứng nhận quyền sử dụng đất hoặc Thông báo kết quả đăng ký đất đai đối với trường hợp không đủ điều kiện cấp Giấy chứng nhận quyền sử dụng đất.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 4,
       "title": "Bước 4: Phòng Kinh tế/Phòng Kinh tế Hạ tầng và Đô thị:",
       "description": "Chuyển Giấy chứng nhận quyền sử dụng đất hoặc Thông báo kết quả đăng ký đất đai đến Trung tâm hành chính công cấp xã để trả kết quả cho người sử dụng đất. Chuyển hồ sơ hoặc Thông báo kết quả đăng ký đất đai đến Chi nhánh Văn phòng đăng ký đất đai để cập nhật, chỉnh lý cơ sở dữ liệu đất đai, hồ sơ địa chính.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "- Đơn đề nghị hỗ trợ (Mẫu 1).",
-        "code": "000.00.00.H05-KQ000330",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d7c7a-31b7-7628-8e4b-794b4077d21f",
-            "name": "Mẫu 1..docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu 1..docx",
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -99,168 +82,97 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "30 ngày làm việc",
-      "processing_time_value": 30,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
       "description": "- Đối với xã đồng bằng, trung du: Không quá 30 ngày làm việc, bao gồm: \n+ Thực hiện thủ tục thẩm định, xem xét hồ sơ: 12 ngày làm việc: \n+ Niêm yết công khai kết quả kiểm tra, rà soát: 15 ngày làm việc 55 \n+ Thời gian ký cấp Giấy chứng nhận quyền sử dụng đất không quá 03 ngày làm việc kể từ khi nhận được thông báo hoàn thành nghĩa vụ tài chính của cơ quan thuế. \n- Thời gian trên không bao gồm thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật; thời gian trưng cầu giám định (nếu có).",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "30 ngày làm việc",
-      "processing_time_value": 30,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
       "description": "- Đối với xã đồng bằng, trung du: Không quá 30 ngày làm việc, bao gồm: \n+ Thực hiện thủ tục thẩm định, xem xét hồ sơ: 12 ngày làm việc: \n+ Niêm yết công khai kết quả kiểm tra, rà soát: 15 ngày làm việc 55 \n+ Thời gian ký cấp Giấy chứng nhận quyền sử dụng đất không quá 03 ngày làm việc kể từ khi nhận được thông báo hoàn thành nghĩa vụ tài chính của cơ quan thuế. \n- Thời gian trên không bao gồm thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật; thời gian trưng cầu giám định (nếu có).",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "30 ngày làm việc",
-      "processing_time_value": 30,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
       "description": "- Đối với xã đồng bằng, trung du: Không quá 30 ngày làm việc, bao gồm: \n+ Thực hiện thủ tục thẩm định, xem xét hồ sơ: 12 ngày làm việc: \n+ Niêm yết công khai kết quả kiểm tra, rà soát: 15 ngày làm việc 55 \n+ Thời gian ký cấp Giấy chứng nhận quyền sử dụng đất không quá 03 ngày làm việc kể từ khi nhận được thông báo hoàn thành nghĩa vụ tài chính của cơ quan thuế. \n- Thời gian trên không bao gồm thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật; thời gian trưng cầu giám định (nếu có).",
-      "source_page": null
+      "source_page": 4
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "38 ngày làm việc",
-      "processing_time_value": 38,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
       "description": "- Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: Không quá 38 ngày làm việc, trong đó: \n+ Thực hiện thủ tục thẩm định, xem xét hồ sơ: 20 ngày làm việc: \n+ Niêm yết công khai kết quả kiểm tra, rà soát: 15 ngày làm việc \n+ Thời gian ký cấp Giấy chứng nhận quyền sử dụng đất không quá 03 ngày làm việc kể từ khi nhận được thông báo hoàn thành nghĩa vụ tài chính của cơ quan thuế. \n- Thời gian trên không bao gồm thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật; thời gian trưng cầu giám định (nếu có).",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "38 ngày làm việc",
-      "processing_time_value": 38,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
       "description": "- Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: Không quá 38 ngày làm việc, trong đó: \n+ Thực hiện thủ tục thẩm định, xem xét hồ sơ: 20 ngày làm việc: \n+ Niêm yết công khai kết quả kiểm tra, rà soát: 15 ngày làm việc \n+ Thời gian ký cấp Giấy chứng nhận quyền sử dụng đất không quá 03 ngày làm việc kể từ khi nhận được thông báo hoàn thành nghĩa vụ tài chính của cơ quan thuế. \n- Thời gian trên không bao gồm thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật; thời gian trưng cầu giám định (nếu có).",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "38 ngày làm việc",
-      "processing_time_value": 38,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
       "description": "- Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: Không quá 38 ngày làm việc, trong đó: \n+ Thực hiện thủ tục thẩm định, xem xét hồ sơ: 20 ngày làm việc: \n+ Niêm yết công khai kết quả kiểm tra, rà soát: 15 ngày làm việc \n+ Thời gian ký cấp Giấy chứng nhận quyền sử dụng đất không quá 03 ngày làm việc kể từ khi nhận được thông báo hoàn thành nghĩa vụ tài chính của cơ quan thuế. \n- Thời gian trên không bao gồm thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật; thời gian trưng cầu giám định (nếu có).",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
-        "attachment": null
+        "amount_text": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
-        "attachment": null
+        "amount_text": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
-        "attachment": null
+        "amount_text": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
-        "attachment": null
+        "amount_text": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
-        "attachment": null
+        "amount_text": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
-        "attachment": null
+        "amount_text": "Theo quy định của Luật phí và lệ phí và các văn bản quy phạm pháp luật hướng dẫn Luật phí và lệ phí.",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -270,14 +182,13 @@
     {
       "title": "Giấy chứng nhận",
       "code": "KQ-H53.490002",
-      "id": "019ed885-945d-73f4-9f6b-0989fca2fb1f",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Người yêu cầu đăng ký nộp hồ sơ đến Trung tâm Phục vụ hành chính công.\nKhi nộp các giấy tờ quy định, người yêu cầu đăng ký được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực; trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực theo quy định của pháp luật.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định, trừ các giấy tờ là giấy phép xây dựng, quyết định phê duyệt dự án đầu tư, quyết định đầu tư, giấy phép đầu tư, giấy chứng nhận đầu tư, quyết định phê duyệt hoặc quyết định phê duyệt điều chỉnh quy hoạch xây dựng chi tiết, bản đồ điều chỉnh quy hoạch xây dựng chi tiết.\nTrung tâm Phục vụ hành chính công tiếp nhận hồ sơ, kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả. Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\nChuyển hồ sơ đến Phòng Kinh tế/Phòng Kinh tế Hạ tầng và Đô thị.\na) Trường hợp hồ sơ không đầy đủ, không hợp lệ, làm văn bản trả lại hồ sơ đồng thời hướng dẫn người nộp hồ sơ làm lại hồ sơ hoặc bổ sung hồ sơ. \nb) Trường hợp hồ sơ hợp lệ:\n- Tổ chức thẩm định hồ sơ \n- Niêm yết công khai kết quả kiểm tra, rà soát tại trụ sở Ủy ban nhân dân cấp xã, khu dân cư nơi có đất, tài sản gắn liền với đất trong thời gian 15 ngày, đồng thời thực hiện xem xét giải quyết các ý kiến phản ánh về nội dung đã công khai (nếu có). \n- Kiểm tra, ký xác nhận mảnh trích đo bản đồ địa chính (đối với trường hợp bản trích đo chưa được ký duyệt) theo quy định. \n- Kiểm tra việc đủ điều kiện hay không đủ điều kiện được cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất theo quy định của pháp luật về đất đai.\nTrường hợp đủ điều kiện thì chuyển thông tin địa chính theo mẫu Phiếu chuyển thông tin để xác định nghĩa vụ tài chính về đất đai theo Mẫu số 19 tại 54 Phụ lục IV ban hành kèm theo quyết định này đến cơ quan thuế để cơ quan thuế xác định và thông báo thu nghĩa vụ tài chính cho người sử dụng đất, chủ sở hữu tài sản gắn liền với đất. \n- Sau khi nhận được thông báo của cơ quan thuế về việc hoàn thành nghĩa vụ tài chính hoặc được ghi nợ nghĩa vụ tài chính thì hoàn thiện hồ sơ trình Chủ tịch Ủy ban nhân dân cấp xã, hồ sơ gồm: \n+ Dự thảo Giấy chứng nhận quyền sử dụng đất. \n+ Hồ sơ đất đai.\nChủ tịch Ủy ban nhân dân cấp xã ký Giấy chứng nhận quyền sử dụng đất hoặc Thông báo kết quả đăng ký đất đai đối với trường hợp không đủ điều kiện cấp Giấy chứng nhận quyền sử dụng đất.\nChuyển Giấy chứng nhận quyền sử dụng đất hoặc Thông báo kết quả đăng ký đất đai đến Trung tâm hành chính công cấp xã để trả kết quả cho người sử dụng đất. Chuyển hồ sơ hoặc Thông báo kết quả đăng ký đất đai đến Chi nhánh Văn phòng đăng ký đất đai để cập nhật, chỉnh lý cơ sở dữ liệu đất đai, hồ sơ địa chính.",
-    "THÀNH PHẦN HỒ SƠ": "\n- Đơn đề nghị hỗ trợ (Mẫu 1).",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 30 ngày làm việc - - Đối với xã đồng bằng, trung du: Không quá 30 ngày làm việc, bao gồm: \n+ Thực hiện thủ tục thẩm định, xem xét hồ sơ: 12 ngày làm việc: \n+ Niêm yết công khai kết quả kiểm tra, rà soát: 15 ngày làm việc 55 \n+ Thời gian ký cấp Giấy chứng nhận quyền sử dụng đất không quá 03 ngày làm việc kể từ khi nhận được thông báo hoàn thành nghĩa vụ tài chính của cơ quan thuế. \n- Thời gian trên không bao gồm thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật; thời gian trưng cầu giám định (nếu có).\nTrực tuyến: 30 ngày làm việc - - Đối với xã đồng bằng, trung du: Không quá 30 ngày làm việc, bao gồm: \n+ Thực hiện thủ tục thẩm định, xem xét hồ sơ: 12 ngày làm việc: \n+ Niêm yết công khai kết quả kiểm tra, rà soát: 15 ngày làm việc 55 \n+ Thời gian ký cấp Giấy chứng nhận quyền sử dụng đất không quá 03 ngày làm việc kể từ khi nhận được thông báo hoàn thành nghĩa vụ tài chính của cơ quan thuế. \n- Thời gian trên không bao gồm thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật; thời gian trưng cầu giám định (nếu có).\nQua dịch vụ bưu chính: 30 ngày làm việc - - Đối với xã đồng bằng, trung du: Không quá 30 ngày làm việc, bao gồm: \n+ Thực hiện thủ tục thẩm định, xem xét hồ sơ: 12 ngày làm việc: \n+ Niêm yết công khai kết quả kiểm tra, rà soát: 15 ngày làm việc 55 \n+ Thời gian ký cấp Giấy chứng nhận quyền sử dụng đất không quá 03 ngày làm việc kể từ khi nhận được thông báo hoàn thành nghĩa vụ tài chính của cơ quan thuế. \n- Thời gian trên không bao gồm thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật; thời gian trưng cầu giám định (nếu có).\nTrực tiếp: 38 ngày làm việc - - Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: Không quá 38 ngày làm việc, trong đó: \n+ Thực hiện thủ tục thẩm định, xem xét hồ sơ: 20 ngày làm việc: \n+ Niêm yết công khai kết quả kiểm tra, rà soát: 15 ngày làm việc \n+ Thời gian ký cấp Giấy chứng nhận quyền sử dụng đất không quá 03 ngày làm việc kể từ khi nhận được thông báo hoàn thành nghĩa vụ tài chính của cơ quan thuế. \n- Thời gian trên không bao gồm thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật; thời gian trưng cầu giám định (nếu có).\nTrực tuyến: 38 ngày làm việc - - Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: Không quá 38 ngày làm việc, trong đó: \n+ Thực hiện thủ tục thẩm định, xem xét hồ sơ: 20 ngày làm việc: \n+ Niêm yết công khai kết quả kiểm tra, rà soát: 15 ngày làm việc \n+ Thời gian ký cấp Giấy chứng nhận quyền sử dụng đất không quá 03 ngày làm việc kể từ khi nhận được thông báo hoàn thành nghĩa vụ tài chính của cơ quan thuế. \n- Thời gian trên không bao gồm thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật; thời gian trưng cầu giám định (nếu có).\nQua dịch vụ bưu chính: 38 ngày làm việc - - Đối với các xã miền núi, vùng sâu, vùng xa, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn: Không quá 38 ngày làm việc, trong đó: \n+ Thực hiện thủ tục thẩm định, xem xét hồ sơ: 20 ngày làm việc: \n+ Niêm yết công khai kết quả kiểm tra, rà soát: 15 ngày làm việc \n+ Thời gian ký cấp Giấy chứng nhận quyền sử dụng đất không quá 03 ngày làm việc kể từ khi nhận được thông báo hoàn thành nghĩa vụ tài chính của cơ quan thuế. \n- Thời gian trên không bao gồm thời gian cơ quan có thẩm quyền xác định nghĩa vụ tài chính về đất đai, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất, thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật; thời gian trưng cầu giám định (nếu có).",
+    "THÀNH PHẦN HỒ SƠ": "- Đơn đề nghị hỗ trợ (Mẫu 1).",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 30 ngày làm việc\nTrực tuyến: 30 ngày làm việc\nQua dịch vụ bưu chính: 30 ngày làm việc\nTrực tiếp: 38 ngày làm việc\nTrực tuyến: 38 ngày làm việc\nQua dịch vụ bưu chính: 38 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "",
     "CƠ QUAN THỰC HIỆN": "Cơ quan chuyên môn về Nông nghiệp và Môi trường thuộc UBND cấp xã",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Không quy định",
@@ -286,14 +197,9 @@
     "MÔ TẢ": "Không quy định"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đất đai",
-      "slug": "dat-dai"
+      "slug": "at-ai"
     },
     "implementation_levels": [
       {
@@ -312,7 +218,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -325,6 +231,6 @@
         "slug": "co-quan-chuyen-mon-ve-nong-nghiep-va-moi-truong-thuoc-ubnd-cap-xa"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfd-f3cc-767b-bc0b-5cc48ab80ae9",
   "procedure_code": "1.014217",
   "title": "Thủ tục lấy ý kiến đối với việc sửa chữa, cải tạo, xây dựng nhà ở riêng lẻ nằm trong khu vực bảo vệ di tích, di sản thế giới (trường hợp không cấp giấy phép xây dựng)",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-f3cc-767b-bc0b-5cc48ab80ae9",
     "source_file": "chi-tiet-thu-tuc-1.014217.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.014217/chi-tiet-thu-tuc-1.014217.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:12.676074+00:00",
-    "source_updated_at": "2026-04-11T05:49:45.614Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:56:09.750116+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "2d864c8efd7815fc24ea0c019610edb2a7dc40e3cc0a26faef0232b0ea72d40f"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:12.676074+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2906/QĐ-BVHTTDL",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Di sản văn hóa",
   "target_users": [
@@ -35,18 +31,15 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Sở Văn hóa và Thể thao Thành phố Hà Nội",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Văn hóa và Thể thao Thành phố Hà Nội"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Chủ dự án đầu tư xây dựng nhà ở riêng lẻ có trách nhiệm gửi trực tuyến 01 bộ hồ sơ tới Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao.\n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ, Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao có trách nhiệm kiểm tra hồ sơ và thông báo bằng văn bản cho chủ dự án đầu tư xây dựng nhà ở riêng lẻ nếu hồ sơ không đầy đủ hoặc không hợp lệ. Văn bản thông báo phải nêu rõ lý do và yêu cầu bổ sung.\n- Trong thời hạn 15 ngày làm việc kể từ ngày nhận được thông báo bằng văn bản của Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao, chủ dự án đầu tư xây dựng nhà ở riêng lẻ có trách nhiệm bổ sung. Hết thời hạn trên, nếu chưa nhận đủ hồ sơ hợp lệ, Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao trả lại hồ sơ.\n- Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ và trên cơ sở lấy ý kiến bằng văn bản của người đại diện, tổ chức được giao quản lý, sử dụng di tích, di sản thế giới, Giám đốc Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao có ý kiến bằng văn bản trả lời chủ dự án đầu tư xây dựng nhà ở riêng lẻ đồng ý hoặc không đồng ý về sự phù hợp với yêu cầu bảo vệ và phát huy giá trị di tích, di sản thế giới. Trường hợp không đồng ý phải nêu rõ lý do.\n",
+      "description": "- Chủ dự án đầu tư xây dựng nhà ở riêng lẻ có trách nhiệm gửi trực tuyến 01 bộ hồ sơ tới Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao.\n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ, Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao có trách nhiệm kiểm tra hồ sơ và thông báo bằng văn bản cho chủ dự án đầu tư xây dựng nhà ở riêng lẻ nếu hồ sơ không đầy đủ hoặc không hợp lệ. Văn bản thông báo phải nêu rõ lý do và yêu cầu bổ sung.\n- Trong thời hạn 15 ngày làm việc kể từ ngày nhận được thông báo bằng văn bản của Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao, chủ dự án đầu tư xây dựng nhà ở riêng lẻ có trách nhiệm bổ sung. Hết thời hạn trên, nếu chưa nhận đủ hồ sơ hợp lệ, Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao trả lại hồ sơ.\n- Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ và trên cơ sở lấy ý kiến bằng văn bản của người đại diện, tổ chức được giao quản lý, sử dụng di tích, di sản thế giới, Giám đốc Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao có ý kiến bằng văn bản trả lời chủ dự án đầu tư xây dựng nhà ở riêng lẻ đồng ý hoặc không đồng ý về sự phù hợp với yêu cầu bảo vệ và phát huy giá trị di tích, di sản thế giới. Trường hợp không đồng ý phải nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
@@ -55,48 +48,33 @@
     "conditional": [
       {
         "name": "(4) Bộ ảnh màu kích thước 10 x 15 cm, chụp vào thời điểm đề nghị, thể hiện tổng thể hiện trạng của khu vực dự kiến sửa chữa, cải tạo, xây dựng nhà ở riêng lẻ.",
-        "code": "G16-KQ002167",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "(5) Các văn bản pháp lý khác có liên quan đến di tích, công trình nhà ở đơn lẻ trước đó (nếu có).",
-        "code": "G16-KQ002168",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "(1) Văn bản đề nghị của Chủ dự án đầu tư xây dựng nhà ở riêng lẻ theo Mẫu số 10 tại Phụ lục kèm theo Nghị định số 208/2025/NĐ-CP ngày 17 tháng 7 năm 2025 của Chính phủ.",
-        "code": "G16-KQ002164",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "(3) Bản đồ vị trí nhà ở riêng lẻ lấy ý kiến sửa chữa, cải tạo, xây dựng, trong đó thể hiện vị trí ranh giới di tích, di sản thế giới.",
-        "code": "G16-KQ002166",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "(2) Hồ sơ đề nghị cấp giấy phép xây dựng nhà ở riêng lẻ theo quy định của pháp luật về xây dựng.",
-        "code": "G16-KQ002165",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -105,33 +83,22 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -139,8 +106,7 @@
     {
       "title": "Luật số 45/2024/QH15 của Quốc hội: Luật Di sản văn hóa",
       "document_number": "45/2024/QH15",
-      "id": "019d2bb3-5d87-7195-a441-9fb7b3e0e577",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -148,13 +114,12 @@
     {
       "title": "Văn bản chấp thuận sử dụng tác phẩm, cuộc biểu diễn, bản ghi âm, ghi hình, chương trình phát sóng mà Nhà nước là đại diện quản lý quyền tác giả, chủ sở hữu quyền liên quan",
       "code": "KQ.G16.000261",
-      "id": "019d2bb2-1c79-762e-8b2c-217a9b29f2f7",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Chủ dự án đầu tư xây dựng nhà ở riêng lẻ có trách nhiệm gửi trực tuyến 01 bộ hồ sơ tới Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao.\n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ, Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao có trách nhiệm kiểm tra hồ sơ và thông báo bằng văn bản cho chủ dự án đầu tư xây dựng nhà ở riêng lẻ nếu hồ sơ không đầy đủ hoặc không hợp lệ. Văn bản thông báo phải nêu rõ lý do và yêu cầu bổ sung.\n- Trong thời hạn 15 ngày làm việc kể từ ngày nhận được thông báo bằng văn bản của Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao, chủ dự án đầu tư xây dựng nhà ở riêng lẻ có trách nhiệm bổ sung. Hết thời hạn trên, nếu chưa nhận đủ hồ sơ hợp lệ, Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao trả lại hồ sơ.\n- Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ và trên cơ sở lấy ý kiến bằng văn bản của người đại diện, tổ chức được giao quản lý, sử dụng di tích, di sản thế giới, Giám đốc Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao có ý kiến bằng văn bản trả lời chủ dự án đầu tư xây dựng nhà ở riêng lẻ đồng ý hoặc không đồng ý về sự phù hợp với yêu cầu bảo vệ và phát huy giá trị di tích, di sản thế giới. Trường hợp không đồng ý phải nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n(4) Bộ ảnh màu kích thước 10 x 15 cm, chụp vào thời điểm đề nghị, thể hiện tổng thể hiện trạng của khu vực dự kiến sửa chữa, cải tạo, xây dựng nhà ở riêng lẻ.\n(5) Các văn bản pháp lý khác có liên quan đến di tích, công trình nhà ở đơn lẻ trước đó (nếu có).\n(1) Văn bản đề nghị của Chủ dự án đầu tư xây dựng nhà ở riêng lẻ theo Mẫu số 10 tại Phụ lục kèm theo Nghị định số 208/2025/NĐ-CP ngày 17 tháng 7 năm 2025 của Chính phủ.\n(3) Bản đồ vị trí nhà ở riêng lẻ lấy ý kiến sửa chữa, cải tạo, xây dựng, trong đó thể hiện vị trí ranh giới di tích, di sản thế giới.\n(2) Hồ sơ đề nghị cấp giấy phép xây dựng nhà ở riêng lẻ theo quy định của pháp luật về xây dựng.",
+    "TRÌNH TỰ THỰC HIỆN": "- Chủ dự án đầu tư xây dựng nhà ở riêng lẻ có trách nhiệm gửi trực tuyến 01 bộ hồ sơ tới Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao.\n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ, Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao có trách nhiệm kiểm tra hồ sơ và thông báo bằng văn bản cho chủ dự án đầu tư xây dựng nhà ở riêng lẻ nếu hồ sơ không đầy đủ hoặc không hợp lệ. Văn bản thông báo phải nêu rõ lý do và yêu cầu bổ sung.\n- Trong thời hạn 15 ngày làm việc kể từ ngày nhận được thông báo bằng văn bản của Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao, chủ dự án đầu tư xây dựng nhà ở riêng lẻ có trách nhiệm bổ sung. Hết thời hạn trên, nếu chưa nhận đủ hồ sơ hợp lệ, Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao trả lại hồ sơ.\n- Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ và trên cơ sở lấy ý kiến bằng văn bản của người đại diện, tổ chức được giao quản lý, sử dụng di tích, di sản thế giới, Giám đốc Sở Văn hóa, Thể thao và Du lịch/Sở Văn hóa và Thể thao có ý kiến bằng văn bản trả lời chủ dự án đầu tư xây dựng nhà ở riêng lẻ đồng ý hoặc không đồng ý về sự phù hợp với yêu cầu bảo vệ và phát huy giá trị di tích, di sản thế giới. Trường hợp không đồng ý phải nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "(4) Bộ ảnh màu kích thước 10 x 15 cm, chụp vào thời điểm đề nghị, thể hiện tổng thể hiện trạng của khu vực dự kiến sửa chữa, cải tạo, xây dựng nhà ở riêng lẻ.\n(5) Các văn bản pháp lý khác có liên quan đến di tích, công trình nhà ở đơn lẻ trước đó (nếu có).\n(1) Văn bản đề nghị của Chủ dự án đầu tư xây dựng nhà ở riêng lẻ theo Mẫu số 10 tại Phụ lục kèm theo Nghị định số 208/2025/NĐ-CP ngày 17 tháng 7 năm 2025 của Chính phủ.\n(3) Bản đồ vị trí nhà ở riêng lẻ lấy ý kiến sửa chữa, cải tạo, xây dựng, trong đó thể hiện vị trí ranh giới di tích, di sản thế giới.\n(2) Hồ sơ đề nghị cấp giấy phép xây dựng nhà ở riêng lẻ theo quy định của pháp luật về xây dựng.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 7 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Luật số 45/2024/QH15 của Quốc hội: Luật Di sản văn hóa - 45/2024/QH15",
     "CƠ QUAN THỰC HIỆN": "Sở Văn hóa và Thể thao Thành phố Hà Nội",
@@ -164,11 +129,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Di sản văn hóa",
       "slug": "di-san-van-hoa"
@@ -191,6 +151,6 @@
         "slug": "so-van-hoa-va-the-thao-thanh-pho-ha-noi"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

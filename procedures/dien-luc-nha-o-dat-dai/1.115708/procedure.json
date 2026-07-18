@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019f63ef-b671-73f9-a552-b97d1e124372",
   "procedure_code": "1.115708",
   "title": "Chuyển mục đích sử dụng đất",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019f63ef-b671-73f9-a552-b97d1e124372",
     "source_file": "chi-tiet-thu-tuc-1.115708.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.115708/chi-tiet-thu-tuc-1.115708.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:19.352351+00:00",
-    "source_updated_at": "2026-07-17T02:13:09.132Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:57:33.375027+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "f3767476af18c5244e6176e954bcc4c5a24bbdcc8631de17f68f6bfa81bfb13b"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:19.352351+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1282/QĐ-UBND",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đất đai",
   "target_users": [
@@ -41,10 +37,7 @@
   ],
   "agency": {
     "competent_agency": "UBND tỉnh Lạng Sơn",
-    "executing_agency": "Sở Nông nghiệp và Môi trường - tỉnh Lạng Sơn",
-    "authorized_agency": "",
-    "coordinating_agency": "Văn phòng Đăng ký đất đai - tỉnh Lạng Sơn, Cơ quan thuế",
-    "receiving_address": "Trung tâm Phục vụ hành chính công tỉnh/xã;"
+    "executing_agency": "Sở Nông nghiệp và Môi trường - tỉnh Lạng Sơn"
   },
   "steps": [
     {
@@ -52,69 +45,57 @@
       "title": "Bước 1: Nộp, tiếp nhận và kiểm tra hồ sơ",
       "description": "Người đề nghị nộp hồ sơ đến Trung tâm Phục vụ hành chính công.\nKhi nộp hồ sơ, người nộp hồ sơ được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. \nTrường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nTrung tâm Phục vụ hành chính công chuyển hồ sơ đến cơ quan có chức năng quản lý đất đai cấp tỉnh.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "Bước 2: Cơ quan có chức năng quản lý đất đai cấp tỉnh:",
       "description": "- Rà soát, kiểm tra hồ sơ; hướng dẫn người nộp hồ sơ làm lại hồ sơ hoặc bổ sung hồ sơ đối với trường hợp hồ sơ không đầy đủ, không hợp lệ;\n- Kiểm tra thực địa thửa đất đối với trường hợp chuyển mục đích sử dụng đất. Trích lục bản đồ địa chính hoặc trích đo bản đồ địa chính đối với nơi chưa có bản đồ địa chính;\n- Chuyển thông tin đến các cơ quan chuyên môn có liên quan để thực hiện thủ tục xác định trường hợp được miễn tiền sử dụng đất, tiền thuê đất cho cả thời gian thuê theo quy định của pháp luật về tiền sử dụng đất, tiền thuê đất (nếu có);\n- Hoàn thiện hồ sơ trình cấp có thẩm quyền ban hành quyết định cho phép chuyển mục đích sử dụng đất.\nHồ sơ gồm: Đơn theo Mẫu số 01 ban hành kèm theo Quyết định số 28/2026/QĐ-UBND ngày 20/6/2026 của UBND tỉnh Lạng Sơn; giấy tờ về quyền sử dụng đất theo quy định; trích lục bản đồ địa chính thửa đất hoặc trích đo địa chính thửa đất; tờ trình theo Mẫu số 14 ban hành kèm theo Quyết định số 28/2026/QĐ-UBND; dự thảo Quyết định theo Mẫu số 05 ban hành kèm theo Quyết định số 28/2026/QĐ-UBND.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 3,
       "title": "Bước 3: Cấp có thẩm quyền xem xét ban hành Quyết định cho phép chuyển mục đích sử dụng đất;",
       "description": "Xem xét ban hành Quyết định cho phép chuyển mục đích sử dụng đất;",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 4,
       "title": "Bước 4: Các cơ quan chuyên môn thực hiện như sau:",
       "description": "- Cơ quan có chức năng quản lý đất đai cấp tỉnh chuyển thông tin theo Mẫu số 11 ban hành kèm theo Quyết định số 28/2026/QĐ-UBND ngày 20/6/2026 của UBND tỉnh Lạng Sơn đến cơ quan Thuế đối với trường hợp phải nộp tiền để Nhà nước bổ sung diện tích đất chuyên trồng lúa bị mất hoặc tăng hiệu quả sử dụng đất trồng lúa. Cơ quan Thuế xác định và ban hành Thông báo số tiền phải nộp gửi tới người sử dụng đất;\n- Cơ quan xây dựng xác định chi phí xây dựng hạ tầng theo quy định của pháp luật về xây dựng và chuyển thông tin đến cơ quan thuế đối với trường hợp phải xác định chi phí xây dựng hạ tầng;\n- Cơ quan có chức năng quản lý đất đai cấp tỉnh tổ chức việc xác định giá đất theo quy định đối với trường hợp phải nộp tiền sử dụng đất, tiền thuê đất và chuyển thông tin theo Mẫu số 11 ban hành kèm theo Quyết định số 28/2026/QĐ-UBND ngày 20/6/2026 của UBND tỉnh Lạng Sơn đến cơ quan thuế;",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 5,
       "title": "Bước 5: Cơ quan thuế thực hiện thủ tục xác định tiền sử dụng đất, tiền thuê đất;...",
       "description": "Cơ quan thuế thực hiện thủ tục xác định tiền sử dụng đất, tiền thuê đất; tiền thuê đất được miễn đối với trường hợp được miễn một số năm theo quy định của Chính phủ về tiền sử dụng đất, tiền thuê đất; các nghĩa vụ tài chính khác phải nộp theo quy định; ban hành thông báo nộp tiền gửi cho người sử dụng đất. Người sử dụng đất nộp các nghĩa vụ tài chính theo thông báo của cơ quan thuế (nếu có). Cơ quan thuế xác nhận hoàn thành nghĩa vụ tài chính (nếu có) và gửi thông báo kết quả cho Cơ quan có chức năng quản lý đất đai cấp tỉnh;",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 6,
       "title": "Bước 6: Cơ quan có chức năng quản lý đất đai cấp tỉnh:",
       "description": "- Cơ quan có chức năng quản lý đất đai cấp tỉnh ký cấp Giấy chứng nhận đối với trường hợp thuộc thẩm quyền giao đất, cho thuê đất của Chủ tịch Ủy ban nhân dân cấp tỉnh. \n- Cơ quan có chức năng quản lý đất đai cấp tỉnh ký hợp đồng thuê đất hoặc phụ lục hợp đồng thuê đất đối với trường hợp Nhà nước cho thuê đất thuộc thẩm quyền của Ủy ban nhân dân cấp tỉnh.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai để thực hiện việc đăng ký biến động, cập nhật, chỉnh lý cơ sở dữ liệu đất đai, hồ sơ địa chính và trả kết quả theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Mẫu số 01-Đơn đề nghị giao đất/thuê đất/chuyển mục đích sử dụng đất/giao đất và giao rừng/cho thuê đất và cho thuê rừng",
-        "code": "H37.000001",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019f5f94-0161-747d-8f47-0819663f8907",
-            "name": "Mẫu số 01.doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 01.doc",
+        "source_page": 3
       },
       {
         "name": "Một trong các giấy chứng nhận quy định tại khoản 21 Điều 3, khoản 3 Điều 256 Luật Đất đai hoặc một trong các loại giấy tờ quy định tại Điều 137 Luật Đất đai hoặc quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất của cơ quan nhà nước có thẩm quyền theo quy định của pháp luật về đất đai qua các thời kỳ.",
-        "code": "H37.0000022",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -125,87 +106,52 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "15 ngày",
-      "processing_time_value": 15,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh.",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của Hội đồng nhân dân cấp tỉnh.",
       "description": "Nộp trực tiếp tại Trung tâm Phục vụ hành chính công tỉnh/xã;",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "15 ngày",
-      "processing_time_value": 15,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của HĐND tỉnh",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của HĐND tỉnh",
       "description": "- Nộp trực tuyến tại địa chỉ https://dichvucong.gov.vn",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "15 ngày",
-      "processing_time_value": 15,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Theo quy định của HĐND tỉnh",
-          "attachment": null
-        }
-      ],
+      "fee": "Theo quy định của HĐND tỉnh",
       "description": "- Nộp thông qua dịch vụ bưu chính công ích.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Theo quy định của Hội đồng nhân dân cấp tỉnh.; Theo quy định của HĐND tỉnh",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của Hội đồng nhân dân cấp tỉnh.",
-        "attachment": null
+        "amount_text": "Theo quy định của Hội đồng nhân dân cấp tỉnh.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của HĐND tỉnh",
-        "attachment": null
+        "amount_text": "Theo quy định của HĐND tỉnh",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Theo quy định của HĐND tỉnh",
-        "attachment": null
+        "amount_text": "Theo quy định của HĐND tỉnh",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -213,80 +159,67 @@
     {
       "title": "Luật Địa chất và khoáng sản sửa đổi 2025",
       "document_number": "147/2025/QH15",
-      "id": "019d2bb3-5d85-73da-8eb8-298b0b3e5261",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật số 93/2025/QH15 của Quốc hội: Luật Khoa học, công nghệ và đổi mới sáng tạo",
       "document_number": "93/2025/QH15",
-      "id": "019d2bb3-5d85-73da-8eba-0eadc81b4d09",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật số 71/2025/QH15 của Quốc hội: Luật Công nghiệp công nghệ số",
       "document_number": "Luật số 71/2025/QH15",
-      "id": "019daef1-961d-7369-bdb6-2fa1ba4349a0",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
-      "document_number": "31/2024/QH15 ",
-      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
-      "source_page": null
+      "document_number": "31/2024/QH15",
+      "source_page": 4
     },
     {
       "title": "Quy định về phân cấp trong lĩnh vực đất đai theo quy định tại khoản 1 Điều 14 và quy định trình tự, thủ tục hành chính quy định tại khoản 1 Điều 15 Nghị định số 49/2026/NĐ-CP ngày 31 tháng 01 năm 2026 của Chính phủ",
       "document_number": "28/2026/QĐ-UBND.",
-      "id": "019f593c-5bdc-768d-b687-a68492bac0e1",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật số 95/2025/QH15 của Quốc hội: Luật Đường sắt",
       "document_number": "95/2025/QH15",
-      "id": "019d2bb3-5d85-73da-8eb8-4849db22ed36",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật Quy hoạch đô thị và nông thôn số 47/2024/QH15",
       "document_number": "47/2024/QH15",
-      "id": "019d2bb3-5d87-7195-a441-ef586356e15f",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật Thanh tra năm 2025",
       "document_number": "84/2025/QH15",
-      "id": "019d2bb3-5d87-7195-a446-50796660596e",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật sửa đổi, bổ sung một số điều của 15 luật trong lĩnh vực nông nghiệp và môi trường",
       "document_number": "Luật số 146/2025/QH15",
-      "id": "019d2bb3-5d87-7195-a447-f9a5abcd2f43",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "254/2025/QH15",
-      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
-      "source_page": null
+      "source_page": 4
     },
     {
-      "title": " Luật số 58/2024/QH15 của Quốc hội.",
+      "title": "Luật số 58/2024/QH15 của Quốc hội.",
       "document_number": "Luật số 58/2024/QH15 của Quốc hội",
-      "id": "019f17b0-677b-774f-9888-8ac6fac4a6b4",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "49/2026/NĐ-CP",
-      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật số 43/2024/QH15 ngày 29/6/2024",
       "document_number": "43/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b673-29122897c8a3",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "Không quy định",
@@ -294,21 +227,19 @@
     {
       "title": "Quyết định cho phép chuyển mục đích sử dụng đất",
       "code": "H35.KQ.34",
-      "id": "019f3675-8fbe-730c-bf7c-7d33b2391d82",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất.",
       "code": "H37.003",
-      "id": "019d2bb2-1c6d-743d-a39d-65380884f765",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Người đề nghị nộp hồ sơ đến Trung tâm Phục vụ hành chính công.\nKhi nộp hồ sơ, người nộp hồ sơ được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. \nTrường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nTrung tâm Phục vụ hành chính công chuyển hồ sơ đến cơ quan có chức năng quản lý đất đai cấp tỉnh.\n- Rà soát, kiểm tra hồ sơ; hướng dẫn người nộp hồ sơ làm lại hồ sơ hoặc bổ sung hồ sơ đối với trường hợp hồ sơ không đầy đủ, không hợp lệ;\n- Kiểm tra thực địa thửa đất đối với trường hợp chuyển mục đích sử dụng đất. Trích lục bản đồ địa chính hoặc trích đo bản đồ địa chính đối với nơi chưa có bản đồ địa chính;\n- Chuyển thông tin đến các cơ quan chuyên môn có liên quan để thực hiện thủ tục xác định trường hợp được miễn tiền sử dụng đất, tiền thuê đất cho cả thời gian thuê theo quy định của pháp luật về tiền sử dụng đất, tiền thuê đất (nếu có);\n- Hoàn thiện hồ sơ trình cấp có thẩm quyền ban hành quyết định cho phép chuyển mục đích sử dụng đất.\nHồ sơ gồm: Đơn theo Mẫu số 01 ban hành kèm theo Quyết định số 28/2026/QĐ-UBND ngày 20/6/2026 của UBND tỉnh Lạng Sơn; giấy tờ về quyền sử dụng đất theo quy định; trích lục bản đồ địa chính thửa đất hoặc trích đo địa chính thửa đất; tờ trình theo Mẫu số 14 ban hành kèm theo Quyết định số 28/2026/QĐ-UBND; dự thảo Quyết định theo Mẫu số 05 ban hành kèm theo Quyết định số 28/2026/QĐ-UBND.\nXem xét ban hành Quyết định cho phép chuyển mục đích sử dụng đất;\n- Cơ quan có chức năng quản lý đất đai cấp tỉnh chuyển thông tin theo Mẫu số 11 ban hành kèm theo Quyết định số 28/2026/QĐ-UBND ngày 20/6/2026 của UBND tỉnh Lạng Sơn đến cơ quan Thuế đối với trường hợp phải nộp tiền để Nhà nước bổ sung diện tích đất chuyên trồng lúa bị mất hoặc tăng hiệu quả sử dụng đất trồng lúa. Cơ quan Thuế xác định và ban hành Thông báo số tiền phải nộp gửi tới người sử dụng đất;\n- Cơ quan xây dựng xác định chi phí xây dựng hạ tầng theo quy định của pháp luật về xây dựng và chuyển thông tin đến cơ quan thuế đối với trường hợp phải xác định chi phí xây dựng hạ tầng;\n- Cơ quan có chức năng quản lý đất đai cấp tỉnh tổ chức việc xác định giá đất theo quy định đối với trường hợp phải nộp tiền sử dụng đất, tiền thuê đất và chuyển thông tin theo Mẫu số 11 ban hành kèm theo Quyết định số 28/2026/QĐ-UBND ngày 20/6/2026 của UBND tỉnh Lạng Sơn đến cơ quan thuế;\nCơ quan thuế thực hiện thủ tục xác định tiền sử dụng đất, tiền thuê đất; tiền thuê đất được miễn đối với trường hợp được miễn một số năm theo quy định của Chính phủ về tiền sử dụng đất, tiền thuê đất; các nghĩa vụ tài chính khác phải nộp theo quy định; ban hành thông báo nộp tiền gửi cho người sử dụng đất. Người sử dụng đất nộp các nghĩa vụ tài chính theo thông báo của cơ quan thuế (nếu có). Cơ quan thuế xác nhận hoàn thành nghĩa vụ tài chính (nếu có) và gửi thông báo kết quả cho Cơ quan có chức năng quản lý đất đai cấp tỉnh;\n- Cơ quan có chức năng quản lý đất đai cấp tỉnh ký cấp Giấy chứng nhận đối với trường hợp thuộc thẩm quyền giao đất, cho thuê đất của Chủ tịch Ủy ban nhân dân cấp tỉnh. \n- Cơ quan có chức năng quản lý đất đai cấp tỉnh ký hợp đồng thuê đất hoặc phụ lục hợp đồng thuê đất đối với trường hợp Nhà nước cho thuê đất thuộc thẩm quyền của Ủy ban nhân dân cấp tỉnh.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai để thực hiện việc đăng ký biến động, cập nhật, chỉnh lý cơ sở dữ liệu đất đai, hồ sơ địa chính và trả kết quả theo quy định.",
-    "THÀNH PHẦN HỒ SƠ": "\nMẫu số 01-Đơn đề nghị giao đất/thuê đất/chuyển mục đích sử dụng đất/giao đất và giao rừng/cho thuê đất và cho thuê rừng\nMột trong các giấy chứng nhận quy định tại khoản 21 Điều 3, khoản 3 Điều 256 Luật Đất đai hoặc một trong các loại giấy tờ quy định tại Điều 137 Luật Đất đai hoặc quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất của cơ quan nhà nước có thẩm quyền theo quy định của pháp luật về đất đai qua các thời kỳ.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 15 ngày - Nộp trực tiếp tại Trung tâm Phục vụ hành chính công tỉnh/xã;\nTrực tuyến: 15 ngày - - Nộp trực tuyến tại địa chỉ https://dichvucong.gov.vn\nQua dịch vụ bưu chính: 15 ngày - - Nộp thông qua dịch vụ bưu chính công ích.",
-    "CĂN CỨ PHÁP LÝ": "Luật Địa chất và khoáng sản sửa đổi 2025 - 147/2025/QH15\nLuật số 93/2025/QH15 của Quốc hội: Luật Khoa học, công nghệ và đổi mới sáng tạo - 93/2025/QH15\nLuật số 71/2025/QH15 của Quốc hội: Luật Công nghiệp công nghệ số - Luật số 71/2025/QH15\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15 \nQuy định về phân cấp trong lĩnh vực đất đai theo quy định tại khoản 1 Điều 14 và quy định trình tự, thủ tục hành chính quy định tại khoản 1 Điều 15 Nghị định số 49/2026/NĐ-CP ngày 31 tháng 01 năm 2026 của Chính phủ - 28/2026/QĐ-UBND.\nLuật số 95/2025/QH15 của Quốc hội: Luật Đường sắt - 95/2025/QH15\nLuật Quy hoạch đô thị và nông thôn số 47/2024/QH15 - 47/2024/QH15\nLuật Thanh tra năm 2025 - 84/2025/QH15\nLuật sửa đổi, bổ sung một số điều của 15 luật trong lĩnh vực nông nghiệp và môi trường - Luật số 146/2025/QH15\nQuy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 254/2025/QH15\n Luật số 58/2024/QH15 của Quốc hội. - Luật số 58/2024/QH15 của Quốc hội\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP\nLuật số 43/2024/QH15 ngày 29/6/2024 - 43/2024/QH15",
+    "THÀNH PHẦN HỒ SƠ": "Mẫu số 01-Đơn đề nghị giao đất/thuê đất/chuyển mục đích sử dụng đất/giao đất và giao rừng/cho thuê đất và cho thuê rừng\nMột trong các giấy chứng nhận quy định tại khoản 21 Điều 3, khoản 3 Điều 256 Luật Đất đai hoặc một trong các loại giấy tờ quy định tại Điều 137 Luật Đất đai hoặc quyết định giao đất, cho thuê đất, cho phép chuyển mục đích sử dụng đất của cơ quan nhà nước có thẩm quyền theo quy định của pháp luật về đất đai qua các thời kỳ.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 15 ngày\nTrực tuyến: 15 ngày\nQua dịch vụ bưu chính: 15 ngày",
+    "CĂN CỨ PHÁP LÝ": "Luật Địa chất và khoáng sản sửa đổi 2025 - 147/2025/QH15\nLuật số 93/2025/QH15 của Quốc hội: Luật Khoa học, công nghệ và đổi mới sáng tạo - 93/2025/QH15\nLuật số 71/2025/QH15 của Quốc hội: Luật Công nghiệp công nghệ số - Luật số 71/2025/QH15\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15\nQuy định về phân cấp trong lĩnh vực đất đai theo quy định tại khoản 1 Điều 14 và quy định trình tự, thủ tục hành chính quy định tại khoản 1 Điều 15 Nghị định số 49/2026/NĐ-CP ngày 31 tháng 01 năm 2026 của Chính phủ - 28/2026/QĐ-UBND.\nLuật số 95/2025/QH15 của Quốc hội: Luật Đường sắt - 95/2025/QH15\nLuật Quy hoạch đô thị và nông thôn số 47/2024/QH15 - 47/2024/QH15\nLuật Thanh tra năm 2025 - 84/2025/QH15\nLuật sửa đổi, bổ sung một số điều của 15 luật trong lĩnh vực nông nghiệp và môi trường - Luật số 146/2025/QH15\nQuy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 254/2025/QH15\nLuật số 58/2024/QH15 của Quốc hội. - Luật số 58/2024/QH15 của Quốc hội\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP\nLuật số 43/2024/QH15 ngày 29/6/2024 - 43/2024/QH15",
     "CƠ QUAN THỰC HIỆN": "Sở Nông nghiệp và Môi trường - tỉnh Lạng Sơn",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Không quy định",
     "KẾT QUẢ XỬ LÝ": "Quyết định cho phép chuyển mục đích sử dụng đất - H35.KQ.34\nGiấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất. - H37.003",
@@ -316,14 +247,9 @@
     "MÔ TẢ": "Không quy định"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đất đai",
-      "slug": "dat-dai"
+      "slug": "at-ai"
     },
     "implementation_levels": [
       {
@@ -346,11 +272,11 @@
       },
       {
         "name": "Người nước ngoài đã cư trú tại Việt Nam",
-        "slug": "nguoi-nuoc-ngoai-da-cu-tru-tai-viet-nam"
+        "slug": "nguoi-nuoc-ngoai-a-cu-tru-tai-viet-nam"
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       },
       {
         "name": "Tổ chức (không bao gồm doanh nghiệp, HTX)",
@@ -358,7 +284,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -367,6 +293,6 @@
         "slug": "so-nong-nghiep-va-moi-truong-tinh-lang-son"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "non_territorial"
   }
 }

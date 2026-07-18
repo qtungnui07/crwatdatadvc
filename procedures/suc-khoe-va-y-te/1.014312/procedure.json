@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfd-f3cc-7396-a6b0-2ec5b245e727",
   "procedure_code": "1.014312",
   "title": "Thủ tục thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế đối với Nghệ nhân nhân dân, Nghệ nhân ưu tú",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-f3cc-7396-a6b0-2ec5b245e727",
     "source_file": "chi-tiet-thu-tuc-1.014312.pdf",
     "source_path": "procedures/suc-khoe-va-y-te/1.014312/chi-tiet-thu-tuc-1.014312.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:13.053906+00:00",
-    "source_updated_at": "2026-04-11T05:49:50.546Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:32.389147+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "7308331e37ab7d787feea6f6f10bc1d1ffa63eb8794e387cfe0fe5805eb2c168"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:13.053906+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "3101/QĐ-BVHTTDL",
   "implementation_level": "Cấp xã",
-  "implementation_levels": [
-    "Cấp xã"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Di sản văn hóa",
   "target_users": [
@@ -35,18 +31,15 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": ""
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Nghệ nhân nhân dân, Nghệ nhân ưu tú thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế gửi trực tuyến, nộp trực tiếp hoặc qua đường bưu điện Giấy đề nghị thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế tới Ủy ban nhân dân cấp xã nơi đang cá nhân đang hưởng chính sách.\n- Trong thời hạn 15 ngày làm việc, kể từ ngày nhận được Giấy đề nghị thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế, Chủ tịch Ủy ban nhân dân cấp xã nơi cá nhân đang hưởng chính sách thực hiện việc thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế.\n",
+      "description": "- Nghệ nhân nhân dân, Nghệ nhân ưu tú thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế gửi trực tuyến, nộp trực tiếp hoặc qua đường bưu điện Giấy đề nghị thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế tới Ủy ban nhân dân cấp xã nơi đang cá nhân đang hưởng chính sách.\n- Trong thời hạn 15 ngày làm việc, kể từ ngày nhận được Giấy đề nghị thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế, Chủ tịch Ủy ban nhân dân cấp xã nơi cá nhân đang hưởng chính sách thực hiện việc thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -55,12 +48,9 @@
     "conditional": [
       {
         "name": "(1) Giấy đề nghị thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế theo Mẫu số 05 tại Phụ lục I ban hành kèm theo Nghị định số 215/2025/NĐ-CP ngày 04 tháng 8 năm 2025 của Chính phủ.",
-        "code": "G16-KQ002176",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -69,35 +59,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 1
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -105,51 +75,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       }
     ]
   },
@@ -157,8 +112,7 @@
     {
       "title": "Luật số 45/2024/QH15 của Quốc hội: Luật Di sản văn hóa",
       "document_number": "45/2024/QH15",
-      "id": "019d2bb3-5d87-7195-a441-9fb7b3e0e577",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "",
@@ -166,13 +120,12 @@
     {
       "title": "Quyết định thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế đối với Nghệ nhân nhân dân, Nghệ nhân ưu tú",
       "code": "KQ.G16.000390",
-      "id": "019d2bb2-1c79-762e-8b2d-08aaa593d64c",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Nghệ nhân nhân dân, Nghệ nhân ưu tú thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế gửi trực tuyến, nộp trực tiếp hoặc qua đường bưu điện Giấy đề nghị thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế tới Ủy ban nhân dân cấp xã nơi đang cá nhân đang hưởng chính sách.\n- Trong thời hạn 15 ngày làm việc, kể từ ngày nhận được Giấy đề nghị thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế, Chủ tịch Ủy ban nhân dân cấp xã nơi cá nhân đang hưởng chính sách thực hiện việc thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n(1) Giấy đề nghị thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế theo Mẫu số 05 tại Phụ lục I ban hành kèm theo Nghị định số 215/2025/NĐ-CP ngày 04 tháng 8 năm 2025 của Chính phủ.",
+    "TRÌNH TỰ THỰC HIỆN": "- Nghệ nhân nhân dân, Nghệ nhân ưu tú thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế gửi trực tuyến, nộp trực tiếp hoặc qua đường bưu điện Giấy đề nghị thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế tới Ủy ban nhân dân cấp xã nơi đang cá nhân đang hưởng chính sách.\n- Trong thời hạn 15 ngày làm việc, kể từ ngày nhận được Giấy đề nghị thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế, Chủ tịch Ủy ban nhân dân cấp xã nơi cá nhân đang hưởng chính sách thực hiện việc thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế.",
+    "THÀNH PHẦN HỒ SƠ": "(1) Giấy đề nghị thôi hưởng trợ cấp sinh hoạt hàng tháng, bảo hiểm y tế theo Mẫu số 05 tại Phụ lục I ban hành kèm theo Nghị định số 215/2025/NĐ-CP ngày 04 tháng 8 năm 2025 của Chính phủ.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 15 ngày làm việc\nQua dịch vụ bưu chính: 15 ngày làm việc\nTrực tiếp: 15 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Luật số 45/2024/QH15 của Quốc hội: Luật Di sản văn hóa - 45/2024/QH15",
     "CƠ QUAN THỰC HIỆN": "",
@@ -182,11 +135,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Sức khỏe và y tế",
-      "slug": "suc-khoe-va-y-te",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Di sản văn hóa",
       "slug": "di-san-van-hoa"
@@ -204,6 +152,6 @@
       }
     ],
     "agencies": [],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

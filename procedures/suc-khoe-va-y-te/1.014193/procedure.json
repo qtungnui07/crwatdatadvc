@@ -1,35 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bff-3d2b-70b2-9083-51112278f353",
   "procedure_code": "1.014193",
   "title": "Thủ tục khám bệnh, chữa bệnh bảo hiểm y tế",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-3d2b-70b2-9083-51112278f353",
     "source_file": "chi-tiet-thu-tuc-1.014193.pdf",
     "source_path": "procedures/suc-khoe-va-y-te/1.014193/chi-tiet-thu-tuc-1.014193.pdf",
     "page_count": 7,
-    "extracted_at": "2026-07-18T02:22:12.582689+00:00",
-    "source_updated_at": "2026-05-14T01:34:10.369Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:31.566584+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "ecb32684d9d9962cd9db852e66ac206b69fe0ea231af3e5947662d2756b30b87"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:12.582689+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2555/QĐ-BYT",
   "implementation_level": "Cấp tỉnh, Cấp xã, Cơ quan khác",
-  "implementation_levels": [
-    "Cấp tỉnh",
-    "Cấp xã",
-    "Cơ quan khác"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Bảo hiểm y tế",
   "target_users": [
@@ -39,162 +33,112 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cơ sở khám bệnh, chữa bệnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cơ sở khám bệnh, chữa bệnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Người tham gia bảo hiểm y tế khi khám bệnh, chữa bệnh phải xuất trình thông tin về thẻ bảo hiểm y tế, giấy tờ chứng minh nhân thân và các giấy tờ liên quan theo quy định cho cơ sở khám bệnh, chữa bệnh.\nBước 2: Cơ sở khám bệnh, chữa bệnh tiếp nhận người bệnh tham gia bảo hiểm y tế vào cơ sở khám bệnh, chữa bệnh để chẩn đoán và điều trị.\n",
+      "description": "Bước 1: Người tham gia bảo hiểm y tế khi khám bệnh, chữa bệnh phải xuất trình thông tin về thẻ bảo hiểm y tế, giấy tờ chứng minh nhân thân và các giấy tờ liên quan theo quy định cho cơ sở khám bệnh, chữa bệnh.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Cơ sở khám bệnh, chữa bệnh tiếp nhận người bệnh tham gia bảo hiểm y tế vào cơ sở khám bệnh, chữa bệnh để chẩn đoán và điều trị.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Cơ sở khám bệnh, chữa bệnh ghi nội dung, lịch hẹn khám lại trong  Phiếu hẹn khám lại (bản giấy hoặc bản điện tử) theo mẫu quy định tại Phụ lục V ban hành kèm theo Thông tư số 01/2025/TT-BYT hoặc ghi trong đơn thuốc, giấy ra viện (bản giấy hoặc bản điện tử) cho người bệnh (gọi chung là Phiếu hẹn khám lại)",
-        "code": "000.00.00.G18-KQ005481",
+        "name": "Trường hợp 8: Người bệnh trong trường hợp được cơ sở khám bệnh, chữa bệnh bảo hiểm y tế hẹn khám lại:: Cơ sở khám bệnh, chữa bệnh ghi nội dung, lịch hẹn khám lại trong  Phiếu hẹn khám lại (bản giấy hoặc bản điện tử) theo mẫu quy định tại Phụ lục V ban hành kèm theo Thông tư số 01/2025/TT-BYT hoặc ghi trong đơn thuốc, giấy ra viện (bản giấy hoặc bản điện tử) cho người bệnh (gọi chung là Phiếu hẹn khám lại)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 8: Người bệnh trong trường hợp được cơ sở khám bệnh, chữa bệnh bảo hiểm y tế hẹn khám lại:",
-        "attachments": [
-          {
-            "id": "019e1a64-9c1a-76af-bc34-75a5364c3901",
-            "name": "Phieu hen kham lai theo PL V TT01.2025.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phieu hen kham lai theo PL V TT01.2025.docx",
+        "source_page": 5
       },
       {
-        "name": "Trường hợp chuyển cơ sở khám bệnh, chữa bệnh bảo hiểm y tế theo  yêu cầu chuyên môn, cơ sở khám bệnh, chữa bệnh nơi chuyển người bệnh phải có Phiếu chuyển cơ sở khám bệnh, chữa bệnh theo mẫu quy định tại Phụ lục VI ban hành kèm theo Thông tư số 01/2025/TT-BYT bằng bản giấy hoặc bản điện tử. Phiếu chuyển cơ sở khám bệnh, chữa bệnh có giá trị sử dụng trong 10 ngày làm việc, kể từ ngày ký",
-        "code": "000.00.00.G18-KQ005483",
+        "name": "Trường hợp 9: Người bệnh trong trường hợp chuyển cơ sở khám bệnh, chữa bệnh bảo hiểm y tế: Trường hợp chuyển cơ sở khám bệnh, chữa bệnh bảo hiểm y tế theo  yêu cầu chuyên môn, cơ sở khám bệnh, chữa bệnh nơi chuyển người bệnh phải có Phiếu chuyển cơ sở khám bệnh, chữa bệnh theo mẫu quy định tại Phụ lục VI ban hành kèm theo Thông tư số 01/2025/TT-BYT bằng bản giấy hoặc bản điện tử. Phiếu chuyển cơ sở khám bệnh, chữa bệnh có giá trị sử dụng trong 10 ngày làm việc, kể từ ngày ký",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 9: Người bệnh trong trường hợp chuyển cơ sở khám bệnh, chữa bệnh bảo hiểm y tế",
-        "attachments": [
-          {
-            "id": "019e1a66-72ed-74ab-8f95-6c5429c7b954",
-            "name": "Phieu chuyen Cơ sơ KCB  Phu luc VI TT01.2025.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Phieu chuyen Cơ sơ KCB  Phu luc VI TT01.2025.docx",
+        "source_page": 6
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "Thẻ bảo hiểm y tế bản điện tử hoặc bản giấy. Đối với đối tượng tham gia bảo hiểm y tế quy định tại các điểm a, b, c và d khoản 3 Điều 12 của Luật Bảo hiểm y tế chưa có thông tin về thẻ bảo hiểm y tế tra cứu được trên hệ thống công nghệ thông tin thì phải xuất trình thẻ bảo hiểm y tế bản giấy. Trường hợp sử dụng thẻ bảo hiểm y tế chưa có ảnh hoặc mã số bảo hiểm y tế thì phải xuất trình thêm một trong các giấy tờ chứng minh thân nhân: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp hoặc giấy xác nhận của công an cấp xã.",
-        "code": "000.00.00.G18-KQ005472",
+        "name": "Trường hợp 1: Người tham gia bảo hiểm y tế khi khám bệnh, chữa bệnh phải xuất trình thông tin về thẻ bảo hiểm y tế theo một trong các hình thức sau đây:: Thẻ bảo hiểm y tế bản điện tử hoặc bản giấy. Đối với đối tượng tham gia bảo hiểm y tế quy định tại các điểm a, b, c và d khoản 3 Điều 12 của Luật Bảo hiểm y tế chưa có thông tin về thẻ bảo hiểm y tế tra cứu được trên hệ thống công nghệ thông tin thì phải xuất trình thẻ bảo hiểm y tế bản giấy. Trường hợp sử dụng thẻ bảo hiểm y tế chưa có ảnh hoặc mã số bảo hiểm y tế thì phải xuất trình thêm một trong các giấy tờ chứng minh thân nhân: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp hoặc giấy xác nhận của công an cấp xã.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 1: Người tham gia bảo hiểm y tế khi khám bệnh, chữa bệnh phải xuất trình thông tin về thẻ bảo hiểm y tế theo một trong các hình thức sau đây: ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Căn cước hoặc căn cước công dân hoặc tài khoản định danh điện tử (VNeID) mức độ 2 đã tích hợp thông tin về thẻ bảo hiểm y tế",
-        "code": "000.00.00.G18-KQ005471",
+        "name": "Trường hợp 1: Người tham gia bảo hiểm y tế khi khám bệnh, chữa bệnh phải xuất trình thông tin về thẻ bảo hiểm y tế theo một trong các hình thức sau đây:: Căn cước hoặc căn cước công dân hoặc tài khoản định danh điện tử (VNeID) mức độ 2 đã tích hợp thông tin về thẻ bảo hiểm y tế",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 1: Người tham gia bảo hiểm y tế khi khám bệnh, chữa bệnh phải xuất trình thông tin về thẻ bảo hiểm y tế theo một trong các hình thức sau đây: ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "chỉ xuất trình thẻ bảo hiểm y tế bản giấy hoặc bản điện tử hoặc mã  số bảo hiểm y tế; trường hợp chưa được cấp thẻ bảo hiểm y tế thì xuất trình giấy chứng sinh bản gốc hoặc bản chụp. Đối với trẻ vừa sinh, cha hoặc mẹ hoặc thân nhân của trẻ ký xác nhận trên hồ sơ bệnh án hoặc người đại diện cơ sở khám bệnh, chữa bệnh xác nhận trên hồ sơ bệnh án trong trường hợp trẻ không có cha, mẹ hoặc thân nhân.",
-        "code": "000.00.00.G18-KQ005473",
+        "name": "Trường hợp 2:  Đối với trẻ em dưới 6 tuổi: chỉ xuất trình thẻ bảo hiểm y tế bản giấy hoặc bản điện tử hoặc mã  số bảo hiểm y tế; trường hợp chưa được cấp thẻ bảo hiểm y tế thì xuất trình giấy chứng sinh bản gốc hoặc bản chụp. Đối với trẻ vừa sinh, cha hoặc mẹ hoặc thân nhân của trẻ ký xác nhận trên hồ sơ bệnh án hoặc người đại diện cơ sở khám bệnh, chữa bệnh xác nhận trên hồ sơ bệnh án trong trường hợp trẻ không có cha, mẹ hoặc thân nhân.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 2:  Đối với trẻ em dưới 6 tuổi ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "khi đến khám bệnh, chữa bệnh phải xuất trình giấy tiếp nhận hồ sơ và hẹn trả kết quả cấp, cấp lại và đổi thẻ bảo hiểm y tế, thông tin về thẻ bảo hiểm y tế do cơ quan bảo hiểm xã hội hoặc tổ chức, cá nhân được cơ quan bảo hiểm xã hội ủy quyền tiếp nhận hồ sơ cấp lại thẻ, đổi thẻ cấp và một loại giấy tờ chứng minh về nhân thân của người đó: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp hoặc giấy xác nhận của công an cấp xã.",
-        "code": "000.00.00.G18-KQ005474",
+        "name": "Trường hợp 3: Người tham gia bảo hiểm y tế trong thời gian chờ cấp hoặc thay đổi thông tin về thẻ bảo hiểm y tế: khi đến khám bệnh, chữa bệnh phải xuất trình giấy tiếp nhận hồ sơ và hẹn trả kết quả cấp, cấp lại và đổi thẻ bảo hiểm y tế, thông tin về thẻ bảo hiểm y tế do cơ quan bảo hiểm xã hội hoặc tổ chức, cá nhân được cơ quan bảo hiểm xã hội ủy quyền tiếp nhận hồ sơ cấp lại thẻ, đổi thẻ cấp và một loại giấy tờ chứng minh về nhân thân của người đó: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp hoặc giấy xác nhận của công an cấp xã.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 3: Người tham gia bảo hiểm y tế trong thời gian chờ cấp hoặc thay đổi thông tin về thẻ bảo hiểm y tế",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "phải xuất trình thông tin về thẻ bảo hiểm y tế theo trường hợp 1 hoặc trường hợp 3 tại thủ tục này (Theo quy định tại khoản 4 Điều 37 của Nghị định số 188/2025/NĐ-CP). Trường hợp chưa có thẻ bảo hiểm y tế thì phải xuất trình giấy ra viện do cơ sở khám bệnh, chữa bệnh nơi lấy bộ phận cơ thể người cấp cho người đã hiến bộ phận cơ thể người và một trong các giấy tờ chứng minh nhân thân của người đó: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp. Trường hợp chưa có thẻ bảo hiểm y tế nhưng phải điều trị ngay sau khi hiến, cơ sở khám bệnh, chữa bệnh và người bệnh hoặc thân nhân của người bệnh xác nhận vào hồ sơ bệnh án.",
-        "code": "000.00.00.G18-KQ005475",
+        "name": "Trường hợp 4: Người đã hiến bộ phận cơ thể người: phải xuất trình thông tin về thẻ bảo hiểm y tế theo trường hợp 1 hoặc trường hợp 3 tại thủ tục này (Theo quy định tại khoản 4 Điều 37 của Nghị định số 188/2025/NĐ-CP). Trường hợp chưa có thẻ bảo hiểm y tế thì phải xuất trình giấy ra viện do cơ sở khám bệnh, chữa bệnh nơi lấy bộ phận cơ thể người cấp cho người đã hiến bộ phận cơ thể người và một trong các giấy tờ chứng minh nhân thân của người đó: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp. Trường hợp chưa có thẻ bảo hiểm y tế nhưng phải điều trị ngay sau khi hiến, cơ sở khám bệnh, chữa bệnh và người bệnh hoặc thân nhân của người bệnh xác nhận vào hồ sơ bệnh án.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 4: Người đã hiến bộ phận cơ thể người",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "người tham gia bảo hiểm y tế phải xuất trình các giấy tờ theo  trường hợp 1 hoặc trường hợp 2 hoặc trường hợp 3 tại thủ tục này trước khi kết thúc đợt điều trị (Theo quy định tại khoản 5 Điều 37 của Nghị định số 188/2025/NĐ-CP).",
-        "code": "000.00.00.G18-KQ005476",
+        "name": "Trường hợp 5: Trường hợp cấp cứu: người tham gia bảo hiểm y tế phải xuất trình các giấy tờ theo  trường hợp 1 hoặc trường hợp 2 hoặc trường hợp 3 tại thủ tục này trước khi kết thúc đợt điều trị (Theo quy định tại khoản 5 Điều 37 của Nghị định số 188/2025/NĐ-CP).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 5: Trường hợp cấp cứu",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Người bệnh cung cấp thông tin mã số thẻ bảo hiểm y tế để cơ sở khám bệnh, chữa bệnh thực hiện tra cứu thông tin trên Cổng tiếp nhận dữ liệu của Bảo hiểm xã hội Việt Nam. Trường hợp Cổng tiếp nhận dữ liệu của Bảo hiểm xã hội Việt Nam không tra cứu được thì cơ sở khám bệnh, chữa bệnh ghi nhận thông tin mã số thẻ bảo hiểm y tế, tiếp nhận người bệnh để khám bệnh, chữa bệnh. Cơ sở khám bệnh, chữa bệnh phối hợp với cơ quan bảo hiểm xã hội thực hiện tra cứu lại thông tin thẻ bảo hiểm y tế của người bệnh để xác định phạm vi, quyền lợi, chế độ hưởng bảo hiểm y tế",
-        "code": "000.00.00.G18-KQ005477",
+        "name": "Trường hợp 6: Trường hợp người bệnh có thẻ bảo hiểm y tế bản điện tử khi đi khám bệnh, chữa bệnh bảo hiểm y tế mà không xuất trình được thẻ bảo hiểm y tế bản điện tử do liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID bị lỗi hoặc do lỗi kết nối Internet được thực hiện như sau:: Người bệnh cung cấp thông tin mã số thẻ bảo hiểm y tế để cơ sở khám bệnh, chữa bệnh thực hiện tra cứu thông tin trên Cổng tiếp nhận dữ liệu của Bảo hiểm xã hội Việt Nam. Trường hợp Cổng tiếp nhận dữ liệu của Bảo hiểm xã hội Việt Nam không tra cứu được thì cơ sở khám bệnh, chữa bệnh ghi nhận thông tin mã số thẻ bảo hiểm y tế, tiếp nhận người bệnh để khám bệnh, chữa bệnh. Cơ sở khám bệnh, chữa bệnh phối hợp với cơ quan bảo hiểm xã hội thực hiện tra cứu lại thông tin thẻ bảo hiểm y tế của người bệnh để xác định phạm vi, quyền lợi, chế độ hưởng bảo hiểm y tế",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 6: Trường hợp người bệnh có thẻ bảo hiểm y tế bản điện tử khi đi khám bệnh, chữa bệnh bảo hiểm y tế mà không xuất trình được thẻ bảo hiểm y tế bản điện tử do liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID bị lỗi hoặc do lỗi kết nối Internet được thực hiện như sau:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Trường hợp tại thời điểm người bệnh kết thúc lượt khám bệnh, chữa bệnh, ra viện mà hệ thống dữ liệu quản lý thẻ bảo hiểm y tế bản điện tử vẫn bị lỗi không trích xuất được thông tin và cơ quan bảo hiểm xã hội chưa xác minh, làm rõ được thì cơ sở khám bệnh, chữa bệnh có trách nhiệm gửi toàn bộ hồ sơ khám bệnh, chữa bệnh, thông tin liên hệ của người bệnh kèm ảnh màn hình tra cứu cho cơ quan bảo hiểm xã hội để tiếp tục xác minh thông tin khi hệ thống được khôi phục và giám định, thanh toán chi phí khám bệnh, chữa bệnh theo quy định. Người bệnh chịu trách nhiệm cung cấp thông tin về đối tượng tham gia bảo hiểm y tế, thông tin thẻ bảo hiểm y tế cho cơ sở khám bệnh, chữa bệnh và bảo đảm tính chính xác của thông tin đã cung cấp",
-        "code": "000.00.00.G18-KQ005478",
+        "name": "Trường hợp 6: Trường hợp người bệnh có thẻ bảo hiểm y tế bản điện tử khi đi khám bệnh, chữa bệnh bảo hiểm y tế mà không xuất trình được thẻ bảo hiểm y tế bản điện tử do liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID bị lỗi hoặc do lỗi kết nối Internet được thực hiện như sau:: Trường hợp tại thời điểm người bệnh kết thúc lượt khám bệnh, chữa bệnh, ra viện mà hệ thống dữ liệu quản lý thẻ bảo hiểm y tế bản điện tử vẫn bị lỗi không trích xuất được thông tin và cơ quan bảo hiểm xã hội chưa xác minh, làm rõ được thì cơ sở khám bệnh, chữa bệnh có trách nhiệm gửi toàn bộ hồ sơ khám bệnh, chữa bệnh, thông tin liên hệ của người bệnh kèm ảnh màn hình tra cứu cho cơ quan bảo hiểm xã hội để tiếp tục xác minh thông tin khi hệ thống được khôi phục và giám định, thanh toán chi phí khám bệnh, chữa bệnh theo quy định. Người bệnh chịu trách nhiệm cung cấp thông tin về đối tượng tham gia bảo hiểm y tế, thông tin thẻ bảo hiểm y tế cho cơ sở khám bệnh, chữa bệnh và bảo đảm tính chính xác của thông tin đã cung cấp",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 6: Trường hợp người bệnh có thẻ bảo hiểm y tế bản điện tử khi đi khám bệnh, chữa bệnh bảo hiểm y tế mà không xuất trình được thẻ bảo hiểm y tế bản điện tử do liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID bị lỗi hoặc do lỗi kết nối Internet được thực hiện như sau:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Các giấy tờ theo một trong những trường hợp: 1, 2, 3,  4 tại thủ tục  này",
-        "code": "000.00.00.G18-KQ005479",
+        "name": "Trường hợp 7: Người đăng ký khám bệnh, chữa bệnh bảo hiểm y tế ban đầu tại cơ sở khám bệnh, chữa bệnh cấp chuyên sâu và cấp cơ bản khi khám bệnh, chữa bệnh không đúng nơi đăng ký khám bệnh, chữa bệnh bảo hiểm y tế ban đầu do thay đổi nơi tạm trú, nơi lưu trú thì được khám bệnh, chữa bệnh tại cơ sở khám bệnh, chữa bệnh cấp cơ bản phù hợp với nơi tạm trú, lưu trú mới là người tham gia bảo hiểm y tế thay đổi nơi cư trú dưới 30 ngày đã thực hiện khai báo thông tin lưu trú theo quy định của pháp luật về cư trú phải xuất trình:: Các giấy tờ theo một trong những trường hợp: 1, 2, 3,  4 tại thủ tục  này",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 7: Người đăng ký khám bệnh, chữa bệnh bảo hiểm y tế ban đầu tại cơ sở khám bệnh, chữa bệnh cấp chuyên sâu và cấp cơ bản khi khám bệnh, chữa bệnh không đúng nơi đăng ký khám bệnh, chữa bệnh bảo hiểm y tế ban đầu do thay đổi nơi tạm trú, nơi lưu trú thì được khám bệnh, chữa bệnh tại cơ sở khám bệnh, chữa bệnh cấp cơ bản phù hợp với nơi tạm trú, lưu trú mới là người tham gia bảo hiểm y tế thay đổi nơi cư trú dưới 30 ngày đã thực hiện khai báo thông tin lưu trú theo quy định của pháp luật về cư trú phải xuất trình:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "Một trong các giấy tờ sau: Văn bản cử đi công tác; Thẻ học sinh, sinh  viên, học viên; Văn bản về việc nghỉ phép có xác nhận của cơ quan, đơn vị quản lý người tham gia bảo hiểm y tế; Văn bản cử hoặc phân công nhiệm vụ làm việc lưu động của cơ quan, đơn vị quản lý người tham gia bảo hiểm y tế; Giấy tờ thể hiện quan hệ thành viên gia đình theo pháp luật về hôn nhân và gia đình và thông tin về lưu trú đã cập nhật trên tài khoản định danh điện tử mức độ 2 trên ứng dụng VNeID.",
-        "code": "000.00.00.G18-KQ005480",
+        "name": "Trường hợp 7: Người đăng ký khám bệnh, chữa bệnh bảo hiểm y tế ban đầu tại cơ sở khám bệnh, chữa bệnh cấp chuyên sâu và cấp cơ bản khi khám bệnh, chữa bệnh không đúng nơi đăng ký khám bệnh, chữa bệnh bảo hiểm y tế ban đầu do thay đổi nơi tạm trú, nơi lưu trú thì được khám bệnh, chữa bệnh tại cơ sở khám bệnh, chữa bệnh cấp cơ bản phù hợp với nơi tạm trú, lưu trú mới là người tham gia bảo hiểm y tế thay đổi nơi cư trú dưới 30 ngày đã thực hiện khai báo thông tin lưu trú theo quy định của pháp luật về cư trú phải xuất trình:: Một trong các giấy tờ sau: Văn bản cử đi công tác; Thẻ học sinh, sinh  viên, học viên; Văn bản về việc nghỉ phép có xác nhận của cơ quan, đơn vị quản lý người tham gia bảo hiểm y tế; Văn bản cử hoặc phân công nhiệm vụ làm việc lưu động của cơ quan, đơn vị quản lý người tham gia bảo hiểm y tế; Giấy tờ thể hiện quan hệ thành viên gia đình theo pháp luật về hôn nhân và gia đình và thông tin về lưu trú đã cập nhật trên tài khoản định danh điện tử mức độ 2 trên ứng dụng VNeID.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 7: Người đăng ký khám bệnh, chữa bệnh bảo hiểm y tế ban đầu tại cơ sở khám bệnh, chữa bệnh cấp chuyên sâu và cấp cơ bản khi khám bệnh, chữa bệnh không đúng nơi đăng ký khám bệnh, chữa bệnh bảo hiểm y tế ban đầu do thay đổi nơi tạm trú, nơi lưu trú thì được khám bệnh, chữa bệnh tại cơ sở khám bệnh, chữa bệnh cấp cơ bản phù hợp với nơi tạm trú, lưu trú mới là người tham gia bảo hiểm y tế thay đổi nơi cư trú dưới 30 ngày đã thực hiện khai báo thông tin lưu trú theo quy định của pháp luật về cư trú phải xuất trình:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "Phiếu hẹn khám lại bản giấy có đóng dấu treo của cơ sở khám bệnh,  chữa bệnh trên góc trái, phía trên và chữ ký của bác sĩ điều trị. Phiếu hẹn khám lại bản điện tử có chữ ký số của bác sĩ điều trị. Mỗi Phiếu hẹn khám lại chỉ sử dụng 01 (một) lần.",
-        "code": "000.00.00.G18-KQ005482",
+        "name": "Trường hợp 8: Người bệnh trong trường hợp được cơ sở khám bệnh, chữa bệnh bảo hiểm y tế hẹn khám lại:: Phiếu hẹn khám lại bản giấy có đóng dấu treo của cơ sở khám bệnh,  chữa bệnh trên góc trái, phía trên và chữ ký của bác sĩ điều trị. Phiếu hẹn khám lại bản điện tử có chữ ký số của bác sĩ điều trị. Mỗi Phiếu hẹn khám lại chỉ sử dụng 01 (một) lần.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 8: Người bệnh trong trường hợp được cơ sở khám bệnh, chữa bệnh bảo hiểm y tế hẹn khám lại:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "Người tham gia bảo hiểm y tế mắc các bệnh, nhóm bệnh và các trường hợp quy định tại Phụ lục III ban hành kèm theo Thông tư số 01/2025/TT-BYT được sử dụng Phiếu chuyển cơ sở khám bệnh, chữa bệnh có giá trị sử dụng trong 01 năm kể từ ngày ký",
-        "code": "000.00.00.G18-KQ005484",
+        "name": "Trường hợp 9: Người bệnh trong trường hợp chuyển cơ sở khám bệnh, chữa bệnh bảo hiểm y tế: Người tham gia bảo hiểm y tế mắc các bệnh, nhóm bệnh và các trường hợp quy định tại Phụ lục III ban hành kèm theo Thông tư số 01/2025/TT-BYT được sử dụng Phiếu chuyển cơ sở khám bệnh, chữa bệnh có giá trị sử dụng trong 01 năm kể từ ngày ký",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp 9: Người bệnh trong trường hợp chuyển cơ sở khám bệnh, chữa bệnh bảo hiểm y tế",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 6
       }
     ]
   },
@@ -203,33 +147,22 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "0",
-      "processing_time_value": 0,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "- Theo quy định của Bộ trưởng Bộ Y tế đối với các cơ sở khám bệnh, chữa bệnh thuộc Bộ Y tế và các Bộ khác về giá cụ thể dịch vụ khám bệnh, chữa bệnh thuộc danh mục do quỹ bảo hiểm y tế thanh toán, giá cụ thể dịch vụ khám bệnh, chữa bệnh do ngân sách nhà nước thanh toán, giá cụ thể dịch vụ khám bệnh, chữa bệnh không thuộc danh mục do quỹ bảo hiểm y tế thanh toán mà không phải là dịch vụ khám bệnh, chữa bệnh theo yêu cầu cơ quan nhà nước có thẩm quyền quy định. - Theo giá dịch vụ khám bệnh, chữa bệnh của cơ sở khám bệnh, chữa bệnh thuộc danh mục do quỹ bảo hiểm y tế thanh toán được cấp có thẩm quyền phê duyệt theo quy định.",
-          "attachment": null
-        }
-      ],
+      "fee": "- Theo quy định của Bộ trưởng Bộ Y tế đối với các cơ sở khám bệnh, chữa bệnh thuộc Bộ Y tế và các Bộ khác về giá cụ thể dịch vụ khám bệnh, chữa bệnh thuộc danh mục do quỹ bảo hiểm y tế thanh toán, giá cụ thể dịch vụ khám bệnh, chữa bệnh do ngân sách nhà nước thanh toán, giá cụ thể dịch vụ khám bệnh, chữa bệnh không thuộc danh mục do quỹ bảo hiểm y tế thanh toán mà không phải là dịch vụ khám bệnh, chữa bệnh theo yêu cầu cơ quan nhà nước có thẩm quyền quy định. - Theo giá dịch vụ khám bệnh, chữa bệnh của cơ sở khám bệnh, chữa bệnh thuộc danh mục do quỹ bảo hiểm y tế thanh toán được cấp có thẩm quyền phê duyệt theo quy định.",
       "description": "Giải quyết ngay sau khi xuất trình hồ sơ",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "- Theo quy định của Bộ trưởng Bộ Y tế đối với các cơ sở khám bệnh, chữa bệnh thuộc Bộ Y tế và các Bộ khác về giá cụ thể dịch vụ khám bệnh, chữa bệnh thuộc danh mục do quỹ bảo hiểm y tế thanh toán, giá cụ thể dịch vụ khám bệnh, chữa bệnh do ngân sách nhà nước thanh toán, giá cụ thể dịch vụ khám bệnh, chữa bệnh không thuộc danh mục do quỹ bảo hiểm y tế thanh toán mà không phải là dịch vụ khám bệnh, chữa bệnh theo yêu cầu cơ quan nhà nước có thẩm quyền quy định. - Theo giá dịch vụ khám bệnh, chữa bệnh của cơ sở khám bệnh, chữa bệnh thuộc danh mục do quỹ bảo hiểm y tế thanh toán được cấp có thẩm quyền phê duyệt theo quy định.",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "- Theo quy định của Bộ trưởng Bộ Y tế đối với các cơ sở khám bệnh, chữa bệnh thuộc Bộ Y tế và các Bộ khác về giá cụ thể dịch vụ khám bệnh, chữa bệnh thuộc danh mục do quỹ bảo hiểm y tế thanh toán, giá cụ thể dịch vụ khám bệnh, chữa bệnh do ngân sách nhà nước thanh toán, giá cụ thể dịch vụ khám bệnh, chữa bệnh không thuộc danh mục do quỹ bảo hiểm y tế thanh toán mà không phải là dịch vụ khám bệnh, chữa bệnh theo yêu cầu cơ quan nhà nước có thẩm quyền quy định. - Theo giá dịch vụ khám bệnh, chữa bệnh của cơ sở khám bệnh, chữa bệnh thuộc danh mục do quỹ bảo hiểm y tế thanh toán được cấp có thẩm quyền phê duyệt theo quy định.",
-        "attachment": null
+        "amount_text": "- Theo quy định của Bộ trưởng Bộ Y tế đối với các cơ sở khám bệnh, chữa bệnh thuộc Bộ Y tế và các Bộ khác về giá cụ thể dịch vụ khám bệnh, chữa bệnh thuộc danh mục do quỹ bảo hiểm y tế thanh toán, giá cụ thể dịch vụ khám bệnh, chữa bệnh do ngân sách nhà nước thanh toán, giá cụ thể dịch vụ khám bệnh, chữa bệnh không thuộc danh mục do quỹ bảo hiểm y tế thanh toán mà không phải là dịch vụ khám bệnh, chữa bệnh theo yêu cầu cơ quan nhà nước có thẩm quyền quy định. - Theo giá dịch vụ khám bệnh, chữa bệnh của cơ sở khám bệnh, chữa bệnh thuộc danh mục do quỹ bảo hiểm y tế thanh toán được cấp có thẩm quyền phê duyệt theo quy định.",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -237,38 +170,32 @@
     {
       "title": "Luật 25/2008/QH12 - Bảo hiểm y tế",
       "document_number": "25/2008/QH12",
-      "id": "019d2bb3-5d84-71c5-b672-49499e22ddad",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Luật số 51/2024/QH15 ngày 27/11/2024 của Quốc hội sửa đổi, bổ sung một số điều của Luật Bảo hiểm y tế",
       "document_number": "51/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b673-669988af5f4c",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Công bố thủ tục hành chính mới trong lĩnh vực Bảo hiểm y tế và bị bãi bỏ trong lĩnh vực Tài chính y tế tại Nghị định 188/2025/NĐ-CP thuộc phạm vi chức năng quản lý của Bộ Y tế",
       "document_number": "2306/QĐ-BYT",
-      "id": "019d2bb3-5d86-7760-a645-1edb649db1d2",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "46/2014/QH13 Sửa đổi, bổ sung một số điều của Luật Bảo hiểm y tế",
       "document_number": "Luật 46/2014/QH13",
-      "id": "019d2bb3-5d84-71c5-b674-ae46cb2804d7",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Thông tư số 01/2025/TT-BYT của Bộ Y tế: Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm y tế",
       "document_number": "01/2025/TT-BYT",
-      "id": "019d2bb3-5d7e-72d1-afe5-4fcac19961c6",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm y tế",
-      "document_number": "Nghị định số 188/2025/NĐ-CP ",
-      "id": "019e1a33-d365-7413-8667-bbbb7d7de2ea",
-      "source_page": null
+      "document_number": "Nghị định số 188/2025/NĐ-CP",
+      "source_page": 6
     }
   ],
   "conditions": "Cơ sở khám bệnh, chữa bệnh, cơ quan bảo hiểm xã hội không được quy định thêm thủ tục khám bệnh, chữa bệnh bảo hiểm y tế ngoài các thủ tục quy định tại Điều này. Trường hợp cơ sở khám bệnh, chữa bệnh, cơ quan bảo hiểm xã hội cần sao chụp thẻ bảo hiểm y tế, các giấy tờ liên quan đến khám bệnh, chữa bệnh của người bệnh để phục vụ cho công tác quản lý thì phải tự sao chụp sau khi có ý kiến đồng ý của người bệnh hoặc người giám hộ người bệnh, không được yêu cầu người bệnh sao chụp hoặc chi trả cho khoản chi phí này.",
@@ -276,15 +203,14 @@
     {
       "title": "Người tham gia bảo hiểm y tế được giải quyết quyền lợi khám bệnh, chữa bệnh bảo hiểm y tế",
       "code": "KQ.G18.000298",
-      "id": "019d2bb2-1c7c-74ea-bcd0-f82c0a99f741",
-      "source_page": null
+      "source_page": 7
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Người tham gia bảo hiểm y tế khi khám bệnh, chữa bệnh phải xuất trình thông tin về thẻ bảo hiểm y tế, giấy tờ chứng minh nhân thân và các giấy tờ liên quan theo quy định cho cơ sở khám bệnh, chữa bệnh.\nBước 2: Cơ sở khám bệnh, chữa bệnh tiếp nhận người bệnh tham gia bảo hiểm y tế vào cơ sở khám bệnh, chữa bệnh để chẩn đoán và điều trị.\n",
-    "THÀNH PHẦN HỒ SƠ": "Trường hợp 1: Người tham gia bảo hiểm y tế khi khám bệnh, chữa bệnh phải xuất trình thông tin về thẻ bảo hiểm y tế theo một trong các hình thức sau đây: \nThẻ bảo hiểm y tế bản điện tử hoặc bản giấy. Đối với đối tượng tham gia bảo hiểm y tế quy định tại các điểm a, b, c và d khoản 3 Điều 12 của Luật Bảo hiểm y tế chưa có thông tin về thẻ bảo hiểm y tế tra cứu được trên hệ thống công nghệ thông tin thì phải xuất trình thẻ bảo hiểm y tế bản giấy. Trường hợp sử dụng thẻ bảo hiểm y tế chưa có ảnh hoặc mã số bảo hiểm y tế thì phải xuất trình thêm một trong các giấy tờ chứng minh thân nhân: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp hoặc giấy xác nhận của công an cấp xã.\nCăn cước hoặc căn cước công dân hoặc tài khoản định danh điện tử (VNeID) mức độ 2 đã tích hợp thông tin về thẻ bảo hiểm y tế\nTrường hợp 2:  Đối với trẻ em dưới 6 tuổi \nchỉ xuất trình thẻ bảo hiểm y tế bản giấy hoặc bản điện tử hoặc mã  số bảo hiểm y tế; trường hợp chưa được cấp thẻ bảo hiểm y tế thì xuất trình giấy chứng sinh bản gốc hoặc bản chụp. Đối với trẻ vừa sinh, cha hoặc mẹ hoặc thân nhân của trẻ ký xác nhận trên hồ sơ bệnh án hoặc người đại diện cơ sở khám bệnh, chữa bệnh xác nhận trên hồ sơ bệnh án trong trường hợp trẻ không có cha, mẹ hoặc thân nhân.\nTrường hợp 3: Người tham gia bảo hiểm y tế trong thời gian chờ cấp hoặc thay đổi thông tin về thẻ bảo hiểm y tế\nkhi đến khám bệnh, chữa bệnh phải xuất trình giấy tiếp nhận hồ sơ và hẹn trả kết quả cấp, cấp lại và đổi thẻ bảo hiểm y tế, thông tin về thẻ bảo hiểm y tế do cơ quan bảo hiểm xã hội hoặc tổ chức, cá nhân được cơ quan bảo hiểm xã hội ủy quyền tiếp nhận hồ sơ cấp lại thẻ, đổi thẻ cấp và một loại giấy tờ chứng minh về nhân thân của người đó: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp hoặc giấy xác nhận của công an cấp xã.\nTrường hợp 4: Người đã hiến bộ phận cơ thể người\nphải xuất trình thông tin về thẻ bảo hiểm y tế theo trường hợp 1 hoặc trường hợp 3 tại thủ tục này (Theo quy định tại khoản 4 Điều 37 của Nghị định số 188/2025/NĐ-CP). Trường hợp chưa có thẻ bảo hiểm y tế thì phải xuất trình giấy ra viện do cơ sở khám bệnh, chữa bệnh nơi lấy bộ phận cơ thể người cấp cho người đã hiến bộ phận cơ thể người và một trong các giấy tờ chứng minh nhân thân của người đó: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp. Trường hợp chưa có thẻ bảo hiểm y tế nhưng phải điều trị ngay sau khi hiến, cơ sở khám bệnh, chữa bệnh và người bệnh hoặc thân nhân của người bệnh xác nhận vào hồ sơ bệnh án.\nTrường hợp 5: Trường hợp cấp cứu\nngười tham gia bảo hiểm y tế phải xuất trình các giấy tờ theo  trường hợp 1 hoặc trường hợp 2 hoặc trường hợp 3 tại thủ tục này trước khi kết thúc đợt điều trị (Theo quy định tại khoản 5 Điều 37 của Nghị định số 188/2025/NĐ-CP).\nTrường hợp 6: Trường hợp người bệnh có thẻ bảo hiểm y tế bản điện tử khi đi khám bệnh, chữa bệnh bảo hiểm y tế mà không xuất trình được thẻ bảo hiểm y tế bản điện tử do liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID bị lỗi hoặc do lỗi kết nối Internet được thực hiện như sau:\nNgười bệnh cung cấp thông tin mã số thẻ bảo hiểm y tế để cơ sở khám bệnh, chữa bệnh thực hiện tra cứu thông tin trên Cổng tiếp nhận dữ liệu của Bảo hiểm xã hội Việt Nam. Trường hợp Cổng tiếp nhận dữ liệu của Bảo hiểm xã hội Việt Nam không tra cứu được thì cơ sở khám bệnh, chữa bệnh ghi nhận thông tin mã số thẻ bảo hiểm y tế, tiếp nhận người bệnh để khám bệnh, chữa bệnh. Cơ sở khám bệnh, chữa bệnh phối hợp với cơ quan bảo hiểm xã hội thực hiện tra cứu lại thông tin thẻ bảo hiểm y tế của người bệnh để xác định phạm vi, quyền lợi, chế độ hưởng bảo hiểm y tế\nTrường hợp tại thời điểm người bệnh kết thúc lượt khám bệnh, chữa bệnh, ra viện mà hệ thống dữ liệu quản lý thẻ bảo hiểm y tế bản điện tử vẫn bị lỗi không trích xuất được thông tin và cơ quan bảo hiểm xã hội chưa xác minh, làm rõ được thì cơ sở khám bệnh, chữa bệnh có trách nhiệm gửi toàn bộ hồ sơ khám bệnh, chữa bệnh, thông tin liên hệ của người bệnh kèm ảnh màn hình tra cứu cho cơ quan bảo hiểm xã hội để tiếp tục xác minh thông tin khi hệ thống được khôi phục và giám định, thanh toán chi phí khám bệnh, chữa bệnh theo quy định. Người bệnh chịu trách nhiệm cung cấp thông tin về đối tượng tham gia bảo hiểm y tế, thông tin thẻ bảo hiểm y tế cho cơ sở khám bệnh, chữa bệnh và bảo đảm tính chính xác của thông tin đã cung cấp\nTrường hợp 7: Người đăng ký khám bệnh, chữa bệnh bảo hiểm y tế ban đầu tại cơ sở khám bệnh, chữa bệnh cấp chuyên sâu và cấp cơ bản khi khám bệnh, chữa bệnh không đúng nơi đăng ký khám bệnh, chữa bệnh bảo hiểm y tế ban đầu do thay đổi nơi tạm trú, nơi lưu trú thì được khám bệnh, chữa bệnh tại cơ sở khám bệnh, chữa bệnh cấp cơ bản phù hợp với nơi tạm trú, lưu trú mới là người tham gia bảo hiểm y tế thay đổi nơi cư trú dưới 30 ngày đã thực hiện khai báo thông tin lưu trú theo quy định của pháp luật về cư trú phải xuất trình:\nCác giấy tờ theo một trong những trường hợp: 1, 2, 3,  4 tại thủ tục  này\nMột trong các giấy tờ sau: Văn bản cử đi công tác; Thẻ học sinh, sinh  viên, học viên; Văn bản về việc nghỉ phép có xác nhận của cơ quan, đơn vị quản lý người tham gia bảo hiểm y tế; Văn bản cử hoặc phân công nhiệm vụ làm việc lưu động của cơ quan, đơn vị quản lý người tham gia bảo hiểm y tế; Giấy tờ thể hiện quan hệ thành viên gia đình theo pháp luật về hôn nhân và gia đình và thông tin về lưu trú đã cập nhật trên tài khoản định danh điện tử mức độ 2 trên ứng dụng VNeID.\nTrường hợp 8: Người bệnh trong trường hợp được cơ sở khám bệnh, chữa bệnh bảo hiểm y tế hẹn khám lại:\nPhiếu hẹn khám lại bản giấy có đóng dấu treo của cơ sở khám bệnh,  chữa bệnh trên góc trái, phía trên và chữ ký của bác sĩ điều trị. Phiếu hẹn khám lại bản điện tử có chữ ký số của bác sĩ điều trị. Mỗi Phiếu hẹn khám lại chỉ sử dụng 01 (một) lần.\nCơ sở khám bệnh, chữa bệnh ghi nội dung, lịch hẹn khám lại trong  Phiếu hẹn khám lại (bản giấy hoặc bản điện tử) theo mẫu quy định tại Phụ lục V ban hành kèm theo Thông tư số 01/2025/TT-BYT hoặc ghi trong đơn thuốc, giấy ra viện (bản giấy hoặc bản điện tử) cho người bệnh (gọi chung là Phiếu hẹn khám lại)\nTrường hợp 9: Người bệnh trong trường hợp chuyển cơ sở khám bệnh, chữa bệnh bảo hiểm y tế\nTrường hợp chuyển cơ sở khám bệnh, chữa bệnh bảo hiểm y tế theo  yêu cầu chuyên môn, cơ sở khám bệnh, chữa bệnh nơi chuyển người bệnh phải có Phiếu chuyển cơ sở khám bệnh, chữa bệnh theo mẫu quy định tại Phụ lục VI ban hành kèm theo Thông tư số 01/2025/TT-BYT bằng bản giấy hoặc bản điện tử. Phiếu chuyển cơ sở khám bệnh, chữa bệnh có giá trị sử dụng trong 10 ngày làm việc, kể từ ngày ký\nNgười tham gia bảo hiểm y tế mắc các bệnh, nhóm bệnh và các trường hợp quy định tại Phụ lục III ban hành kèm theo Thông tư số 01/2025/TT-BYT được sử dụng Phiếu chuyển cơ sở khám bệnh, chữa bệnh có giá trị sử dụng trong 01 năm kể từ ngày ký",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 0 - Giải quyết ngay sau khi xuất trình hồ sơ",
-    "CĂN CỨ PHÁP LÝ": "Luật 25/2008/QH12 - Bảo hiểm y tế - 25/2008/QH12\nLuật số 51/2024/QH15 ngày 27/11/2024 của Quốc hội sửa đổi, bổ sung một số điều của Luật Bảo hiểm y tế - 51/2024/QH15\nCông bố thủ tục hành chính mới trong lĩnh vực Bảo hiểm y tế và bị bãi bỏ trong lĩnh vực Tài chính y tế tại Nghị định 188/2025/NĐ-CP thuộc phạm vi chức năng quản lý của Bộ Y tế - 2306/QĐ-BYT\n46/2014/QH13 Sửa đổi, bổ sung một số điều của Luật Bảo hiểm y tế - Luật 46/2014/QH13\nThông tư số 01/2025/TT-BYT của Bộ Y tế: Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm y tế - 01/2025/TT-BYT\nquy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm y tế - Nghị định số 188/2025/NĐ-CP ",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Người tham gia bảo hiểm y tế khi khám bệnh, chữa bệnh phải xuất trình thông tin về thẻ bảo hiểm y tế, giấy tờ chứng minh nhân thân và các giấy tờ liên quan theo quy định cho cơ sở khám bệnh, chữa bệnh.\nBước 2: Cơ sở khám bệnh, chữa bệnh tiếp nhận người bệnh tham gia bảo hiểm y tế vào cơ sở khám bệnh, chữa bệnh để chẩn đoán và điều trị.",
+    "THÀNH PHẦN HỒ SƠ": "Trường hợp 8: Người bệnh trong trường hợp được cơ sở khám bệnh, chữa bệnh bảo hiểm y tế hẹn khám lại:: Cơ sở khám bệnh, chữa bệnh ghi nội dung, lịch hẹn khám lại trong  Phiếu hẹn khám lại (bản giấy hoặc bản điện tử) theo mẫu quy định tại Phụ lục V ban hành kèm theo Thông tư số 01/2025/TT-BYT hoặc ghi trong đơn thuốc, giấy ra viện (bản giấy hoặc bản điện tử) cho người bệnh (gọi chung là Phiếu hẹn khám lại)\nTrường hợp 9: Người bệnh trong trường hợp chuyển cơ sở khám bệnh, chữa bệnh bảo hiểm y tế: Trường hợp chuyển cơ sở khám bệnh, chữa bệnh bảo hiểm y tế theo  yêu cầu chuyên môn, cơ sở khám bệnh, chữa bệnh nơi chuyển người bệnh phải có Phiếu chuyển cơ sở khám bệnh, chữa bệnh theo mẫu quy định tại Phụ lục VI ban hành kèm theo Thông tư số 01/2025/TT-BYT bằng bản giấy hoặc bản điện tử. Phiếu chuyển cơ sở khám bệnh, chữa bệnh có giá trị sử dụng trong 10 ngày làm việc, kể từ ngày ký\nTrường hợp 1: Người tham gia bảo hiểm y tế khi khám bệnh, chữa bệnh phải xuất trình thông tin về thẻ bảo hiểm y tế theo một trong các hình thức sau đây:: Thẻ bảo hiểm y tế bản điện tử hoặc bản giấy. Đối với đối tượng tham gia bảo hiểm y tế quy định tại các điểm a, b, c và d khoản 3 Điều 12 của Luật Bảo hiểm y tế chưa có thông tin về thẻ bảo hiểm y tế tra cứu được trên hệ thống công nghệ thông tin thì phải xuất trình thẻ bảo hiểm y tế bản giấy. Trường hợp sử dụng thẻ bảo hiểm y tế chưa có ảnh hoặc mã số bảo hiểm y tế thì phải xuất trình thêm một trong các giấy tờ chứng minh thân nhân: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp hoặc giấy xác nhận của công an cấp xã.\nTrường hợp 1: Người tham gia bảo hiểm y tế khi khám bệnh, chữa bệnh phải xuất trình thông tin về thẻ bảo hiểm y tế theo một trong các hình thức sau đây:: Căn cước hoặc căn cước công dân hoặc tài khoản định danh điện tử (VNeID) mức độ 2 đã tích hợp thông tin về thẻ bảo hiểm y tế\nTrường hợp 2:  Đối với trẻ em dưới 6 tuổi: chỉ xuất trình thẻ bảo hiểm y tế bản giấy hoặc bản điện tử hoặc mã  số bảo hiểm y tế; trường hợp chưa được cấp thẻ bảo hiểm y tế thì xuất trình giấy chứng sinh bản gốc hoặc bản chụp. Đối với trẻ vừa sinh, cha hoặc mẹ hoặc thân nhân của trẻ ký xác nhận trên hồ sơ bệnh án hoặc người đại diện cơ sở khám bệnh, chữa bệnh xác nhận trên hồ sơ bệnh án trong trường hợp trẻ không có cha, mẹ hoặc thân nhân.\nTrường hợp 3: Người tham gia bảo hiểm y tế trong thời gian chờ cấp hoặc thay đổi thông tin về thẻ bảo hiểm y tế: khi đến khám bệnh, chữa bệnh phải xuất trình giấy tiếp nhận hồ sơ và hẹn trả kết quả cấp, cấp lại và đổi thẻ bảo hiểm y tế, thông tin về thẻ bảo hiểm y tế do cơ quan bảo hiểm xã hội hoặc tổ chức, cá nhân được cơ quan bảo hiểm xã hội ủy quyền tiếp nhận hồ sơ cấp lại thẻ, đổi thẻ cấp và một loại giấy tờ chứng minh về nhân thân của người đó: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp hoặc giấy xác nhận của công an cấp xã.\nTrường hợp 4: Người đã hiến bộ phận cơ thể người: phải xuất trình thông tin về thẻ bảo hiểm y tế theo trường hợp 1 hoặc trường hợp 3 tại thủ tục này (Theo quy định tại khoản 4 Điều 37 của Nghị định số 188/2025/NĐ-CP). Trường hợp chưa có thẻ bảo hiểm y tế thì phải xuất trình giấy ra viện do cơ sở khám bệnh, chữa bệnh nơi lấy bộ phận cơ thể người cấp cho người đã hiến bộ phận cơ thể người và một trong các giấy tờ chứng minh nhân thân của người đó: căn cước, căn cước công dân, giấy chứng nhận căn cước, hộ chiếu, liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID hoặc giấy tờ chứng minh nhân thân khác do cơ quan, tổ chức có thẩm quyền cấp. Trường hợp chưa có thẻ bảo hiểm y tế nhưng phải điều trị ngay sau khi hiến, cơ sở khám bệnh, chữa bệnh và người bệnh hoặc thân nhân của người bệnh xác nhận vào hồ sơ bệnh án.\nTrường hợp 5: Trường hợp cấp cứu: người tham gia bảo hiểm y tế phải xuất trình các giấy tờ theo  trường hợp 1 hoặc trường hợp 2 hoặc trường hợp 3 tại thủ tục này trước khi kết thúc đợt điều trị (Theo quy định tại khoản 5 Điều 37 của Nghị định số 188/2025/NĐ-CP).\nTrường hợp 6: Trường hợp người bệnh có thẻ bảo hiểm y tế bản điện tử khi đi khám bệnh, chữa bệnh bảo hiểm y tế mà không xuất trình được thẻ bảo hiểm y tế bản điện tử do liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID bị lỗi hoặc do lỗi kết nối Internet được thực hiện như sau:: Người bệnh cung cấp thông tin mã số thẻ bảo hiểm y tế để cơ sở khám bệnh, chữa bệnh thực hiện tra cứu thông tin trên Cổng tiếp nhận dữ liệu của Bảo hiểm xã hội Việt Nam. Trường hợp Cổng tiếp nhận dữ liệu của Bảo hiểm xã hội Việt Nam không tra cứu được thì cơ sở khám bệnh, chữa bệnh ghi nhận thông tin mã số thẻ bảo hiểm y tế, tiếp nhận người bệnh để khám bệnh, chữa bệnh. Cơ sở khám bệnh, chữa bệnh phối hợp với cơ quan bảo hiểm xã hội thực hiện tra cứu lại thông tin thẻ bảo hiểm y tế của người bệnh để xác định phạm vi, quyền lợi, chế độ hưởng bảo hiểm y tế\nTrường hợp 6: Trường hợp người bệnh có thẻ bảo hiểm y tế bản điện tử khi đi khám bệnh, chữa bệnh bảo hiểm y tế mà không xuất trình được thẻ bảo hiểm y tế bản điện tử do liên kết với tài khoản định danh điện tử (VNeID) mức độ 2 hoặc ứng dụng VssID bị lỗi hoặc do lỗi kết nối Internet được thực hiện như sau:: Trường hợp tại thời điểm người bệnh kết thúc lượt khám bệnh, chữa bệnh, ra viện mà hệ thống dữ liệu quản lý thẻ bảo hiểm y tế bản điện tử vẫn bị lỗi không trích xuất được thông tin và cơ quan bảo hiểm xã hội chưa xác minh, làm rõ được thì cơ sở khám bệnh, chữa bệnh có trách nhiệm gửi toàn bộ hồ sơ khám bệnh, chữa bệnh, thông tin liên hệ của người bệnh kèm ảnh màn hình tra cứu cho cơ quan bảo hiểm xã hội để tiếp tục xác minh thông tin khi hệ thống được khôi phục và giám định, thanh toán chi phí khám bệnh, chữa bệnh theo quy định. Người bệnh chịu trách nhiệm cung cấp thông tin về đối tượng tham gia bảo hiểm y tế, thông tin thẻ bảo hiểm y tế cho cơ sở khám bệnh, chữa bệnh và bảo đảm tính chính xác của thông tin đã cung cấp\nTrường hợp 7: Người đăng ký khám bệnh, chữa bệnh bảo hiểm y tế ban đầu tại cơ sở khám bệnh, chữa bệnh cấp chuyên sâu và cấp cơ bản khi khám bệnh, chữa bệnh không đúng nơi đăng ký khám bệnh, chữa bệnh bảo hiểm y tế ban đầu do thay đổi nơi tạm trú, nơi lưu trú thì được khám bệnh, chữa bệnh tại cơ sở khám bệnh, chữa bệnh cấp cơ bản phù hợp với nơi tạm trú, lưu trú mới là người tham gia bảo hiểm y tế thay đổi nơi cư trú dưới 30 ngày đã thực hiện khai báo thông tin lưu trú theo quy định của pháp luật về cư trú phải xuất trình:: Các giấy tờ theo một trong những trường hợp: 1, 2, 3,  4 tại thủ tục  này\nTrường hợp 7: Người đăng ký khám bệnh, chữa bệnh bảo hiểm y tế ban đầu tại cơ sở khám bệnh, chữa bệnh cấp chuyên sâu và cấp cơ bản khi khám bệnh, chữa bệnh không đúng nơi đăng ký khám bệnh, chữa bệnh bảo hiểm y tế ban đầu do thay đổi nơi tạm trú, nơi lưu trú thì được khám bệnh, chữa bệnh tại cơ sở khám bệnh, chữa bệnh cấp cơ bản phù hợp với nơi tạm trú, lưu trú mới là người tham gia bảo hiểm y tế thay đổi nơi cư trú dưới 30 ngày đã thực hiện khai báo thông tin lưu trú theo quy định của pháp luật về cư trú phải xuất trình:: Một trong các giấy tờ sau: Văn bản cử đi công tác; Thẻ học sinh, sinh  viên, học viên; Văn bản về việc nghỉ phép có xác nhận của cơ quan, đơn vị quản lý người tham gia bảo hiểm y tế; Văn bản cử hoặc phân công nhiệm vụ làm việc lưu động của cơ quan, đơn vị quản lý người tham gia bảo hiểm y tế; Giấy tờ thể hiện quan hệ thành viên gia đình theo pháp luật về hôn nhân và gia đình và thông tin về lưu trú đã cập nhật trên tài khoản định danh điện tử mức độ 2 trên ứng dụng VNeID.\nTrường hợp 8: Người bệnh trong trường hợp được cơ sở khám bệnh, chữa bệnh bảo hiểm y tế hẹn khám lại:: Phiếu hẹn khám lại bản giấy có đóng dấu treo của cơ sở khám bệnh,  chữa bệnh trên góc trái, phía trên và chữ ký của bác sĩ điều trị. Phiếu hẹn khám lại bản điện tử có chữ ký số của bác sĩ điều trị. Mỗi Phiếu hẹn khám lại chỉ sử dụng 01 (một) lần.\nTrường hợp 9: Người bệnh trong trường hợp chuyển cơ sở khám bệnh, chữa bệnh bảo hiểm y tế: Người tham gia bảo hiểm y tế mắc các bệnh, nhóm bệnh và các trường hợp quy định tại Phụ lục III ban hành kèm theo Thông tư số 01/2025/TT-BYT được sử dụng Phiếu chuyển cơ sở khám bệnh, chữa bệnh có giá trị sử dụng trong 01 năm kể từ ngày ký",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 0",
+    "CĂN CỨ PHÁP LÝ": "Luật 25/2008/QH12 - Bảo hiểm y tế - 25/2008/QH12\nLuật số 51/2024/QH15 ngày 27/11/2024 của Quốc hội sửa đổi, bổ sung một số điều của Luật Bảo hiểm y tế - 51/2024/QH15\nCông bố thủ tục hành chính mới trong lĩnh vực Bảo hiểm y tế và bị bãi bỏ trong lĩnh vực Tài chính y tế tại Nghị định 188/2025/NĐ-CP thuộc phạm vi chức năng quản lý của Bộ Y tế - 2306/QĐ-BYT\n46/2014/QH13 Sửa đổi, bổ sung một số điều của Luật Bảo hiểm y tế - Luật 46/2014/QH13\nThông tư số 01/2025/TT-BYT của Bộ Y tế: Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm y tế - 01/2025/TT-BYT\nquy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm y tế - Nghị định số 188/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cơ sở khám bệnh, chữa bệnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Cơ sở khám bệnh, chữa bệnh, cơ quan bảo hiểm xã hội không được quy định thêm thủ tục khám bệnh, chữa bệnh bảo hiểm y tế ngoài các thủ tục quy định tại Điều này. Trường hợp cơ sở khám bệnh, chữa bệnh, cơ quan bảo hiểm xã hội cần sao chụp thẻ bảo hiểm y tế, các giấy tờ liên quan đến khám bệnh, chữa bệnh của người bệnh để phục vụ cho công tác quản lý thì phải tự sao chụp sau khi có ý kiến đồng ý của người bệnh hoặc người giám hộ người bệnh, không được yêu cầu người bệnh sao chụp hoặc chi trả cho khoản chi phí này.",
     "KẾT QUẢ XỬ LÝ": "Người tham gia bảo hiểm y tế được giải quyết quyền lợi khám bệnh, chữa bệnh bảo hiểm y tế - KQ.G18.000298",
@@ -292,11 +218,6 @@
     "MÔ TẢ": "Cơ sở khám bệnh, chữa bệnh, cơ quan bảo hiểm xã hội không được quy định thêm thủ tục khám bệnh, chữa bệnh bảo hiểm y tế ngoài các thủ tục quy định tại Điều này. Trường hợp cơ sở khám bệnh, chữa bệnh, cơ quan bảo hiểm xã hội cần sao chụp thẻ bảo hiểm y tế, các giấy tờ liên quan đến khám bệnh, chữa bệnh của người bệnh để phục vụ cho công tác quản lý thì phải tự sao chụp sau khi có ý kiến đồng ý của người bệnh hoặc người giám hộ người bệnh, không được yêu cầu người bệnh sao chụp hoặc chi trả cho khoản chi phí này."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Sức khỏe và y tế",
-      "slug": "suc-khoe-va-y-te",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Bảo hiểm y tế",
       "slug": "bao-hiem-y-te"
@@ -335,6 +256,6 @@
         "slug": "co-so-kham-benh-chua-benh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

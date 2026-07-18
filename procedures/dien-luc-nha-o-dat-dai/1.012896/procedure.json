@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfe-88ac-71f9-b970-b83cf0372841",
   "procedure_code": "1.012896",
   "title": "Cho thuê, cho thuê mua nhà ở xã hội do Nhà nước đầu tư xây dựng bằng vốn đầu tư công",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-88ac-71f9-b970-b83cf0372841",
     "source_file": "chi-tiet-thu-tuc-1.012896.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.012896/chi-tiet-thu-tuc-1.012896.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:08.448920+00:00",
-    "source_updated_at": "2026-04-18T02:29:23.877Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:56:00.764948+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "f13738280548696d85c44277e06bb68bcf119cbc9d646bcd3027aeee9cb713a6"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:08.448920+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "891/QĐ-BXD",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Nhà ở và công sở",
   "target_users": [
@@ -37,108 +33,69 @@
   ],
   "agency": {
     "competent_agency": "Ủy ban nhân dân cấp tỉnh",
-    "executing_agency": "Sở Xây dựng, Đơn vị quản lý vận hành nhà ở",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Sở Xây dựng, Đơn vị quản lý vận hành nhà ở"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Người có nhu cầu thuê, thuê mua nhà ở xã hội do Nhà nước đầu tư xây dựng bằng vốn đầu tư công nộp 01 bộ hồ sơ đến Trung tâm phục vụ hành chính công của UBND cấp tỉnh hoặc Bộ phận tiếp nhận và trả kết quả giải quyết TTHC\n- Cơ quan tiếp nhận hồ sơ có trách nhiệm kiểm tra và phân loại hồ sơ; nếu hồ sơ không có đủ các giấy tờ theo quy định thì phải trả lời ngay để người nộp đơn bổ sung giấy tờ. Trường hợp đơn vị quản lý vận hành nhà ở tiếp nhận hồ sơ thì sau khi kiểm tra và phân loại hồ sơ, đơn vị này phải có báo cáo Danh sách người đủ điều kiện thuê nhà ở kèm theo hồ sơ hợp lệ gửi Sở Xây dựng xem xét, kiểm tra;\n- Trên cơ sở Danh sách người đủ điều kiện thuê nhà ở kèm theo hồ sơ hợp lệ, thì Sở Xây dựng tổ chức lập Danh sách người được thuê nhà ở xã hội và có tờ trình kèm theo Danh sách báo cáo cơ quan đại diện chủ sở hữu quyết định.\nTrường hợp tổng số hồ sơ đăng ký thuê (hợp lệ) bằng hoặc ít hơn tổng số căn nhà ở xã hội để cho thuê thì Danh sách người được thuê là Danh sách người đủ điều kiện thuê đã đăng ký.\nTrường hợp tổng số hồ sơ đăng ký thuê (hợp lệ) nhiều hơn tổng số căn nhà ở xã hội để cho thuê thì việc xét duyệt, lựa chọn đối tượng được thuê thực hiện theo hình thức bốc thăm (trực tiếp hoặc trực tuyến) do Sở Xây dựng hoặc đơn vị quản lý vận hành nhà ở theo phân cấp của địa phương tổ chức việc bốc thăm, trường hợp đơn vị quản lý vận hành nhà ở thực hiện thì Sở Xây dựng giám sát bốc thăm. Việc bốc thăm phải có biên bản kết quả bốc thăm.\nTrường hợp dự án có đối tượng ưu tiên theo quy định tại điểm đ khoản 1 Điều 79 của Luật Nhà ở thì được thuê nhà ở xã hội mà không phải bốc thăm với tỷ lệ nhất định. Số lượng căn nhà ở xã hội để cho thuê dành cho các đối tượng ưu tiên này (không thông qua bốc thăm) được xác định bằng tỷ lệ giữa tổng số hồ sơ của 05 nhóm đối tượng ưu tiên này trên tổng số hồ sơ đăng ký nhân với tổng số căn nhà ở xã hội để cho thuê. Danh sách của nhóm đối tượng ưu tiên được sắp xếp theo thứ tự theo thời điểm nộp hồ sơ. Các căn nhà ở xã hội để cho thuê dành cho các đối tượng ưu tiên được bố trí theo thứ tự của Danh sách ưu tiên cho đến khi hết, các đối tượng còn lại được tiếp tục tham gia bốc thăm\n- Trên cơ sở báo cáo của Sở Xây dựng, cơ quan đại diện chủ sở hữu nhà ở xem xét, ban hành quyết định phê duyệt Danh sách người được thuê nhà ở và gửi cho đơn vị quản lý vận hành nhà ở để ký Hợp đồng thuê nhà với người được thuê nhà ở;\n- Thời gian giải quyết việc cho thuê nhà ở xã hội là không quá 30 ngày, kể từ ngày đơn vị tiếp nhận hồ sơ nhận đủ hồ sơ hợp lệ.\n",
+      "description": "- Người có nhu cầu thuê, thuê mua nhà ở xã hội do Nhà nước đầu tư xây dựng bằng vốn đầu tư công nộp 01 bộ hồ sơ đến Trung tâm phục vụ hành chính công của UBND cấp tỉnh hoặc Bộ phận tiếp nhận và trả kết quả giải quyết TTHC\n- Cơ quan tiếp nhận hồ sơ có trách nhiệm kiểm tra và phân loại hồ sơ; nếu hồ sơ không có đủ các giấy tờ theo quy định thì phải trả lời ngay để người nộp đơn bổ sung giấy tờ. Trường hợp đơn vị quản lý vận hành nhà ở tiếp nhận hồ sơ thì sau khi kiểm tra và phân loại hồ sơ, đơn vị này phải có báo cáo Danh sách người đủ điều kiện thuê nhà ở kèm theo hồ sơ hợp lệ gửi Sở Xây dựng xem xét, kiểm tra;\n- Trên cơ sở Danh sách người đủ điều kiện thuê nhà ở kèm theo hồ sơ hợp lệ, thì Sở Xây dựng tổ chức lập Danh sách người được thuê nhà ở xã hội và có tờ trình kèm theo Danh sách báo cáo cơ quan đại diện chủ sở hữu quyết định.\nTrường hợp tổng số hồ sơ đăng ký thuê (hợp lệ) bằng hoặc ít hơn tổng số căn nhà ở xã hội để cho thuê thì Danh sách người được thuê là Danh sách người đủ điều kiện thuê đã đăng ký.\nTrường hợp tổng số hồ sơ đăng ký thuê (hợp lệ) nhiều hơn tổng số căn nhà ở xã hội để cho thuê thì việc xét duyệt, lựa chọn đối tượng được thuê thực hiện theo hình thức bốc thăm (trực tiếp hoặc trực tuyến) do Sở Xây dựng hoặc đơn vị quản lý vận hành nhà ở theo phân cấp của địa phương tổ chức việc bốc thăm, trường hợp đơn vị quản lý vận hành nhà ở thực hiện thì Sở Xây dựng giám sát bốc thăm. Việc bốc thăm phải có biên bản kết quả bốc thăm.\nTrường hợp dự án có đối tượng ưu tiên theo quy định tại điểm đ khoản 1 Điều 79 của Luật Nhà ở thì được thuê nhà ở xã hội mà không phải bốc thăm với tỷ lệ nhất định. Số lượng căn nhà ở xã hội để cho thuê dành cho các đối tượng ưu tiên này (không thông qua bốc thăm) được xác định bằng tỷ lệ giữa tổng số hồ sơ của 05 nhóm đối tượng ưu tiên này trên tổng số hồ sơ đăng ký nhân với tổng số căn nhà ở xã hội để cho thuê. Danh sách của nhóm đối tượng ưu tiên được sắp xếp theo thứ tự theo thời điểm nộp hồ sơ. Các căn nhà ở xã hội để cho thuê dành cho các đối tượng ưu tiên được bố trí theo thứ tự của Danh sách ưu tiên cho đến khi hết, các đối tượng còn lại được tiếp tục tham gia bốc thăm\n- Trên cơ sở báo cáo của Sở Xây dựng, cơ quan đại diện chủ sở hữu nhà ở xem xét, ban hành quyết định phê duyệt Danh sách người được thuê nhà ở và gửi cho đơn vị quản lý vận hành nhà ở để ký Hợp đồng thuê nhà với người được thuê nhà ở;\n- Thời gian giải quyết việc cho thuê nhà ở xã hội là không quá 30 ngày, kể từ ngày đơn vị tiếp nhận hồ sơ nhận đủ hồ sơ hợp lệ.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "+ Đơn đăng ký thuê nhà ở xã hội theo mẫu;",
-        "code": "000.00.00.G17-KQ002492",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d9a9d-265a-71df-8cf0-0dbcd19e92e2",
-            "name": "DON DANG KY MUA THUE MUA NOXH NOLLVT ND 136.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "DON DANG KY MUA THUE MUA NOXH NOLLVT ND 136.docx",
+        "source_page": 2
       },
       {
         "name": "+ Đơn đăng ký thuê mua nhà ở xã hội theo mẫu;",
-        "code": "000.00.00.G17-KQ002495",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d9a9d-cce2-753f-badb-a9a27f386140",
-            "name": "DON DANG KY MUA THUE MUA NOXH NOLLVT ND 136.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "DON DANG KY MUA THUE MUA NOXH NOLLVT ND 136.docx",
+        "source_page": 3
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "+ Giấy tờ chứng minh đối tượng theo hướng dẫn của Bộ trưởng Bộ Xây dựng, Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an.",
-        "code": "000.00.00.G17-KQ002496",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Trường hợp thuê mua nhà ở xã hội:",
-        "code": "000.00.00.G17-KQ002494",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Giấy tờ chứng minh đối tượng theo hướng dẫn của Bộ trưởng Bộ Xây dựng, Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an và giấy tờ chứng minh thuộc đối tượng được miễn, giảm tiền thuê nhà ở xã hội (nếu có).",
-        "code": "000.00.00.G17-KQ002493",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "- Trường hợp thuê nhà ở xã hội:",
-        "code": "000.00.00.G17-KQ002491",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "+ Giấy tờ chứng minh điều kiện được hưởng chính sách hỗ trợ về nhà ở xã hội theo quy định.",
-        "code": "000.00.00.G17-KQ002497",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Hồ sơ gồm bản sao và xuất trình bản chính để đối chiếu hoặc bản sao được chứng thực hoặc bản sao điện tử có giá trị pháp lý các giấy tờ sau:",
-        "code": "000.00.00.G17-KQ002490",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -147,35 +104,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Không quy định.",
-          "attachment": null
-        }
-      ],
+      "fee": "Không quy định.",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "35 ngày",
-      "processing_time_value": 35,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Không quy định.",
-          "attachment": null
-        }
-      ],
+      "fee": "Không quy định.",
       "description": "",
       "source_page": null
     },
@@ -183,51 +120,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Không quy định.",
-          "attachment": null
-        }
-      ],
+      "fee": "Không quy định.",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Không quy định.",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Không quy định.",
-        "attachment": null
+        "amount_text": "Không quy định.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Không quy định.",
-        "attachment": null
+        "amount_text": "Không quy định.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Không quy định.",
-        "attachment": null
+        "amount_text": "Không quy định.",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -235,14 +157,12 @@
     {
       "title": "Nghị định số 100/2024/NĐ-CP ngày 26 tháng 7 năm 2024 của Chính phủ quy định chi tiết một số điều của Luật Nhà ở về phát triển và quản lý nhà ở xã hội",
       "document_number": "100/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe7-edc3ac532da1",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật Nhà ở số 27/2023/QH15",
       "document_number": "27/2023/QH15",
-      "id": "019d2bb3-5d84-71c5-b672-6d9bdd44c1c7",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -250,13 +170,12 @@
     {
       "title": "Hợp đồng thuê, thuê mua nhà ở xã hội do Nhà nước đầu tư xây dựng bằng vốn đầu tư công.",
       "code": "KQ.G17.000200",
-      "id": "019d2bb2-1c7a-7554-ace4-21b501d31676",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Người có nhu cầu thuê, thuê mua nhà ở xã hội do Nhà nước đầu tư xây dựng bằng vốn đầu tư công nộp 01 bộ hồ sơ đến Trung tâm phục vụ hành chính công của UBND cấp tỉnh hoặc Bộ phận tiếp nhận và trả kết quả giải quyết TTHC\n- Cơ quan tiếp nhận hồ sơ có trách nhiệm kiểm tra và phân loại hồ sơ; nếu hồ sơ không có đủ các giấy tờ theo quy định thì phải trả lời ngay để người nộp đơn bổ sung giấy tờ. Trường hợp đơn vị quản lý vận hành nhà ở tiếp nhận hồ sơ thì sau khi kiểm tra và phân loại hồ sơ, đơn vị này phải có báo cáo Danh sách người đủ điều kiện thuê nhà ở kèm theo hồ sơ hợp lệ gửi Sở Xây dựng xem xét, kiểm tra;\n- Trên cơ sở Danh sách người đủ điều kiện thuê nhà ở kèm theo hồ sơ hợp lệ, thì Sở Xây dựng tổ chức lập Danh sách người được thuê nhà ở xã hội và có tờ trình kèm theo Danh sách báo cáo cơ quan đại diện chủ sở hữu quyết định.\nTrường hợp tổng số hồ sơ đăng ký thuê (hợp lệ) bằng hoặc ít hơn tổng số căn nhà ở xã hội để cho thuê thì Danh sách người được thuê là Danh sách người đủ điều kiện thuê đã đăng ký.\nTrường hợp tổng số hồ sơ đăng ký thuê (hợp lệ) nhiều hơn tổng số căn nhà ở xã hội để cho thuê thì việc xét duyệt, lựa chọn đối tượng được thuê thực hiện theo hình thức bốc thăm (trực tiếp hoặc trực tuyến) do Sở Xây dựng hoặc đơn vị quản lý vận hành nhà ở theo phân cấp của địa phương tổ chức việc bốc thăm, trường hợp đơn vị quản lý vận hành nhà ở thực hiện thì Sở Xây dựng giám sát bốc thăm. Việc bốc thăm phải có biên bản kết quả bốc thăm.\nTrường hợp dự án có đối tượng ưu tiên theo quy định tại điểm đ khoản 1 Điều 79 của Luật Nhà ở thì được thuê nhà ở xã hội mà không phải bốc thăm với tỷ lệ nhất định. Số lượng căn nhà ở xã hội để cho thuê dành cho các đối tượng ưu tiên này (không thông qua bốc thăm) được xác định bằng tỷ lệ giữa tổng số hồ sơ của 05 nhóm đối tượng ưu tiên này trên tổng số hồ sơ đăng ký nhân với tổng số căn nhà ở xã hội để cho thuê. Danh sách của nhóm đối tượng ưu tiên được sắp xếp theo thứ tự theo thời điểm nộp hồ sơ. Các căn nhà ở xã hội để cho thuê dành cho các đối tượng ưu tiên được bố trí theo thứ tự của Danh sách ưu tiên cho đến khi hết, các đối tượng còn lại được tiếp tục tham gia bốc thăm\n- Trên cơ sở báo cáo của Sở Xây dựng, cơ quan đại diện chủ sở hữu nhà ở xem xét, ban hành quyết định phê duyệt Danh sách người được thuê nhà ở và gửi cho đơn vị quản lý vận hành nhà ở để ký Hợp đồng thuê nhà với người được thuê nhà ở;\n- Thời gian giải quyết việc cho thuê nhà ở xã hội là không quá 30 ngày, kể từ ngày đơn vị tiếp nhận hồ sơ nhận đủ hồ sơ hợp lệ.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n+ Đơn đăng ký thuê nhà ở xã hội theo mẫu;\n+ Giấy tờ chứng minh đối tượng theo hướng dẫn của Bộ trưởng Bộ Xây dựng, Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an.\n- Trường hợp thuê mua nhà ở xã hội:\n+ Giấy tờ chứng minh đối tượng theo hướng dẫn của Bộ trưởng Bộ Xây dựng, Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an và giấy tờ chứng minh thuộc đối tượng được miễn, giảm tiền thuê nhà ở xã hội (nếu có).\n- Trường hợp thuê nhà ở xã hội:\n+ Giấy tờ chứng minh điều kiện được hưởng chính sách hỗ trợ về nhà ở xã hội theo quy định.\n+ Đơn đăng ký thuê mua nhà ở xã hội theo mẫu;\nHồ sơ gồm bản sao và xuất trình bản chính để đối chiếu hoặc bản sao được chứng thực hoặc bản sao điện tử có giá trị pháp lý các giấy tờ sau:",
+    "TRÌNH TỰ THỰC HIỆN": "- Người có nhu cầu thuê, thuê mua nhà ở xã hội do Nhà nước đầu tư xây dựng bằng vốn đầu tư công nộp 01 bộ hồ sơ đến Trung tâm phục vụ hành chính công của UBND cấp tỉnh hoặc Bộ phận tiếp nhận và trả kết quả giải quyết TTHC\n- Cơ quan tiếp nhận hồ sơ có trách nhiệm kiểm tra và phân loại hồ sơ; nếu hồ sơ không có đủ các giấy tờ theo quy định thì phải trả lời ngay để người nộp đơn bổ sung giấy tờ. Trường hợp đơn vị quản lý vận hành nhà ở tiếp nhận hồ sơ thì sau khi kiểm tra và phân loại hồ sơ, đơn vị này phải có báo cáo Danh sách người đủ điều kiện thuê nhà ở kèm theo hồ sơ hợp lệ gửi Sở Xây dựng xem xét, kiểm tra;\n- Trên cơ sở Danh sách người đủ điều kiện thuê nhà ở kèm theo hồ sơ hợp lệ, thì Sở Xây dựng tổ chức lập Danh sách người được thuê nhà ở xã hội và có tờ trình kèm theo Danh sách báo cáo cơ quan đại diện chủ sở hữu quyết định.\nTrường hợp tổng số hồ sơ đăng ký thuê (hợp lệ) bằng hoặc ít hơn tổng số căn nhà ở xã hội để cho thuê thì Danh sách người được thuê là Danh sách người đủ điều kiện thuê đã đăng ký.\nTrường hợp tổng số hồ sơ đăng ký thuê (hợp lệ) nhiều hơn tổng số căn nhà ở xã hội để cho thuê thì việc xét duyệt, lựa chọn đối tượng được thuê thực hiện theo hình thức bốc thăm (trực tiếp hoặc trực tuyến) do Sở Xây dựng hoặc đơn vị quản lý vận hành nhà ở theo phân cấp của địa phương tổ chức việc bốc thăm, trường hợp đơn vị quản lý vận hành nhà ở thực hiện thì Sở Xây dựng giám sát bốc thăm. Việc bốc thăm phải có biên bản kết quả bốc thăm.\nTrường hợp dự án có đối tượng ưu tiên theo quy định tại điểm đ khoản 1 Điều 79 của Luật Nhà ở thì được thuê nhà ở xã hội mà không phải bốc thăm với tỷ lệ nhất định. Số lượng căn nhà ở xã hội để cho thuê dành cho các đối tượng ưu tiên này (không thông qua bốc thăm) được xác định bằng tỷ lệ giữa tổng số hồ sơ của 05 nhóm đối tượng ưu tiên này trên tổng số hồ sơ đăng ký nhân với tổng số căn nhà ở xã hội để cho thuê. Danh sách của nhóm đối tượng ưu tiên được sắp xếp theo thứ tự theo thời điểm nộp hồ sơ. Các căn nhà ở xã hội để cho thuê dành cho các đối tượng ưu tiên được bố trí theo thứ tự của Danh sách ưu tiên cho đến khi hết, các đối tượng còn lại được tiếp tục tham gia bốc thăm\n- Trên cơ sở báo cáo của Sở Xây dựng, cơ quan đại diện chủ sở hữu nhà ở xem xét, ban hành quyết định phê duyệt Danh sách người được thuê nhà ở và gửi cho đơn vị quản lý vận hành nhà ở để ký Hợp đồng thuê nhà với người được thuê nhà ở;\n- Thời gian giải quyết việc cho thuê nhà ở xã hội là không quá 30 ngày, kể từ ngày đơn vị tiếp nhận hồ sơ nhận đủ hồ sơ hợp lệ.",
+    "THÀNH PHẦN HỒ SƠ": "+ Đơn đăng ký thuê nhà ở xã hội theo mẫu;\n+ Đơn đăng ký thuê mua nhà ở xã hội theo mẫu;\n+ Giấy tờ chứng minh đối tượng theo hướng dẫn của Bộ trưởng Bộ Xây dựng, Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an.\n- Trường hợp thuê mua nhà ở xã hội:\n+ Giấy tờ chứng minh đối tượng theo hướng dẫn của Bộ trưởng Bộ Xây dựng, Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an và giấy tờ chứng minh thuộc đối tượng được miễn, giảm tiền thuê nhà ở xã hội (nếu có).\n- Trường hợp thuê nhà ở xã hội:\n+ Giấy tờ chứng minh điều kiện được hưởng chính sách hỗ trợ về nhà ở xã hội theo quy định.\nHồ sơ gồm bản sao và xuất trình bản chính để đối chiếu hoặc bản sao được chứng thực hoặc bản sao điện tử có giá trị pháp lý các giấy tờ sau:",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 30 ngày\nQua dịch vụ bưu chính: 35 ngày\nTrực tiếp: 30 ngày",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 100/2024/NĐ-CP ngày 26 tháng 7 năm 2024 của Chính phủ quy định chi tiết một số điều của Luật Nhà ở về phát triển và quản lý nhà ở xã hội - 100/2024/NĐ-CP\nLuật Nhà ở số 27/2023/QH15 - 27/2023/QH15",
     "CƠ QUAN THỰC HIỆN": "Sở Xây dựng, Đơn vị quản lý vận hành nhà ở",
@@ -266,11 +185,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Nhà ở và công sở",
       "slug": "nha-o-va-cong-so"
@@ -284,7 +198,7 @@
     "target_users": [
       {
         "name": "Đảng viên",
-        "slug": "dang-vien"
+        "slug": "ang-vien"
       },
       {
         "name": "Công dân Việt Nam",
@@ -302,9 +216,9 @@
       },
       {
         "name": "Đơn vị quản lý vận hành nhà ở",
-        "slug": "don-vi-quan-ly-van-hanh-nha-o"
+        "slug": "on-vi-quan-ly-van-hanh-nha-o"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

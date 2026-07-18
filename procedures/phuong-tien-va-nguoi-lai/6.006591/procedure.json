@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019df735-fd91-7359-8602-d24125a65eba",
   "procedure_code": "6.006591",
   "title": "Trả lời sự phù hợp quy hoạch cảng cạn",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019df735-fd91-7359-8602-d24125a65eba",
     "source_file": "chi-tiet-thu-tuc-6.006591.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/6.006591/chi-tiet-thu-tuc-6.006591.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:25.302673+00:00",
-    "source_updated_at": "2026-05-15T02:26:43.041Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:08.385012+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "f59b4171f065d0acb1b4e99bf7fb96047c317a85ff1d79c2da556268350baadc"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:25.302673+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "569./QĐ-BXD",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "LOCAL_REGULATION",
   "sector": "Hàng hải và đường thủy nội địa",
   "target_users": [
@@ -35,10 +31,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Chi cục Hàng hải và Đường thuỷ phía Nam",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Chi cục Hàng hải và Đường thuỷ phía Nam"
   },
   "steps": [
     {
@@ -46,19 +39,16 @@
       "title": "Trình tự thực hiện:",
       "description": "+ Trước khi chấp thuận chủ trương đầu tư hoặc cấp giấy chứng nhận đăng ký đầu tư dự án đầu tư xây dựng cảng cạn theo quy định của pháp luật về đầu tư, cơ quan có thẩm quyền gửi văn bản đề nghị có ý kiến về sự phù hợp quy hoạch phát triển hệ thống cảng cạn đến Cục Hàng hải và Đường thủy Việt Nam.\n+ Trong thời gian 03 ngày làm việc, Cục Hàng hải và Đường thủy Việt Nam có văn bản trả lời cơ quan có thẩm quyền, gửi trực tiếp hoặc qua hệ thống bưu chính hoặc qua hệ thống quản lý văn bản điện tử.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "văn bản, nội dung nêu rõ vị trí, quy mô, chức năng, diện tích, công suất cảng cạn.",
-        "code": "G17-KQ005556",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -69,34 +59,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "3 ngày",
-      "processing_time_value": 3,
-      "processing_time_unit": "DAY",
-      "fees": [],
+      "fee": null,
       "description": "trong thời gian 03 ngày làm việc, Cục Hàng hải và Đường thủy Việt Nam có văn bản trả lời cơ quan có thẩm quyền, gửi trực tiếp hoặc qua hệ thống bưu chính hoặc qua hệ thống quản lý văn bản điện tử.",
-      "source_page": null
+      "source_page": 1
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "3 ngày",
-      "processing_time_value": 3,
-      "processing_time_unit": "DAY",
-      "fees": [],
+      "fee": null,
       "description": "trong thời gian 03 ngày làm việc, Cục Hàng hải và Đường thủy Việt Nam có văn bản trả lời cơ quan có thẩm quyền, gửi trực tiếp hoặc qua hệ thống bưu chính hoặc qua hệ thống quản lý văn bản điện tử.",
-      "source_page": null
+      "source_page": 1
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "3 ngày",
-      "processing_time_value": 3,
-      "processing_time_unit": "DAY",
-      "fees": [],
+      "fee": null,
       "description": "trong thời gian 03 ngày làm việc, Cục Hàng hải và Đường thủy Việt Nam có văn bản trả lời cơ quan có thẩm quyền, gửi trực tiếp hoặc qua hệ thống bưu chính hoặc qua hệ thống quản lý văn bản điện tử.",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -105,45 +90,37 @@
     {
       "title": "BỘ LUẬT HÀNG HẢI VIỆT NAM",
       "document_number": "BỘ LUẬT  HÀNG HẢI VIỆT NAM",
-      "id": "019d2bb3-5d87-7195-a447-ba3e0c4ba141",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định này quy định chi tiết về đầu tư xây dựng, quản lý khai thác cảng cạn.",
-      "document_number": "106/2026/NĐ-CP ",
-      "id": "019df672-216f-705f-9b8b-6c2061743a0f",
-      "source_page": null
+      "document_number": "106/2026/NĐ-CP",
+      "source_page": 3
     }
   ],
-  "conditions": "- Đối tượng thực hiện TTHC: Cơ quan có thẩm quyền chấp thuận chủ trương đầu tư hoặc cơ quan có thẩm quyền cấp giấy chứng nhận đăng ký đầu tư.\n- Trước khi cơ quan có thẩm quyền chấp thuận chủ trương đầu tư hoặc cấp giấy chứng nhận đăng ký đầu tư dự án đầu tư xây dựng cảng cạn;\n",
+  "conditions": "- Đối tượng thực hiện TTHC: Cơ quan có thẩm quyền chấp thuận chủ trương đầu tư hoặc cơ quan có thẩm quyền cấp giấy chứng nhận đăng ký đầu tư.\n- Trước khi cơ quan có thẩm quyền chấp thuận chủ trương đầu tư hoặc cấp giấy chứng nhận đăng ký đầu tư dự án đầu tư xây dựng cảng cạn;",
   "results": [
     {
       "title": "Văn bản chấp thuận",
       "code": "000.00.00.G19-KQ1120",
-      "id": "019dd91e-f376-70da-b41a-e2ade1894454",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "+ Trước khi chấp thuận chủ trương đầu tư hoặc cấp giấy chứng nhận đăng ký đầu tư dự án đầu tư xây dựng cảng cạn theo quy định của pháp luật về đầu tư, cơ quan có thẩm quyền gửi văn bản đề nghị có ý kiến về sự phù hợp quy hoạch phát triển hệ thống cảng cạn đến Cục Hàng hải và Đường thủy Việt Nam.\n+ Trong thời gian 03 ngày làm việc, Cục Hàng hải và Đường thủy Việt Nam có văn bản trả lời cơ quan có thẩm quyền, gửi trực tiếp hoặc qua hệ thống bưu chính hoặc qua hệ thống quản lý văn bản điện tử.",
-    "THÀNH PHẦN HỒ SƠ": "\nvăn bản, nội dung nêu rõ vị trí, quy mô, chức năng, diện tích, công suất cảng cạn.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 3 ngày - trong thời gian 03 ngày làm việc, Cục Hàng hải và Đường thủy Việt Nam có văn bản trả lời cơ quan có thẩm quyền, gửi trực tiếp hoặc qua hệ thống bưu chính hoặc qua hệ thống quản lý văn bản điện tử.\nTrực tuyến: 3 ngày - trong thời gian 03 ngày làm việc, Cục Hàng hải và Đường thủy Việt Nam có văn bản trả lời cơ quan có thẩm quyền, gửi trực tiếp hoặc qua hệ thống bưu chính hoặc qua hệ thống quản lý văn bản điện tử.\nQua dịch vụ bưu chính: 3 ngày - trong thời gian 03 ngày làm việc, Cục Hàng hải và Đường thủy Việt Nam có văn bản trả lời cơ quan có thẩm quyền, gửi trực tiếp hoặc qua hệ thống bưu chính hoặc qua hệ thống quản lý văn bản điện tử.",
-    "CĂN CỨ PHÁP LÝ": "BỘ LUẬT HÀNG HẢI VIỆT NAM - BỘ LUẬT  HÀNG HẢI VIỆT NAM\nNghị định này quy định chi tiết về đầu tư xây dựng, quản lý khai thác cảng cạn. - 106/2026/NĐ-CP ",
+    "THÀNH PHẦN HỒ SƠ": "văn bản, nội dung nêu rõ vị trí, quy mô, chức năng, diện tích, công suất cảng cạn.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 3 ngày\nTrực tuyến: 3 ngày\nQua dịch vụ bưu chính: 3 ngày",
+    "CĂN CỨ PHÁP LÝ": "BỘ LUẬT HÀNG HẢI VIỆT NAM - BỘ LUẬT  HÀNG HẢI VIỆT NAM\nNghị định này quy định chi tiết về đầu tư xây dựng, quản lý khai thác cảng cạn. - 106/2026/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Chi cục Hàng hải và Đường thuỷ phía Nam",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "- Đối tượng thực hiện TTHC: Cơ quan có thẩm quyền chấp thuận chủ trương đầu tư hoặc cơ quan có thẩm quyền cấp giấy chứng nhận đăng ký đầu tư.\n- Trước khi cơ quan có thẩm quyền chấp thuận chủ trương đầu tư hoặc cấp giấy chứng nhận đăng ký đầu tư dự án đầu tư xây dựng cảng cạn;\n",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "- Đối tượng thực hiện TTHC: Cơ quan có thẩm quyền chấp thuận chủ trương đầu tư hoặc cơ quan có thẩm quyền cấp giấy chứng nhận đăng ký đầu tư.\n- Trước khi cơ quan có thẩm quyền chấp thuận chủ trương đầu tư hoặc cấp giấy chứng nhận đăng ký đầu tư dự án đầu tư xây dựng cảng cạn;",
     "KẾT QUẢ XỬ LÝ": "Văn bản chấp thuận - 000.00.00.G19-KQ1120",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "- Đối tượng thực hiện TTHC: Cơ quan có thẩm quyền chấp thuận chủ trương đầu tư hoặc cơ quan có thẩm quyền cấp giấy chứng nhận đăng ký đầu tư.\n- Trước khi cơ quan có thẩm quyền chấp thuận chủ trương đầu tư hoặc cấp giấy chứng nhận đăng ký đầu tư dự án đầu tư xây dựng cảng cạn;\n"
+    "MÔ TẢ": "- Đối tượng thực hiện TTHC: Cơ quan có thẩm quyền chấp thuận chủ trương đầu tư hoặc cơ quan có thẩm quyền cấp giấy chứng nhận đăng ký đầu tư.\n- Trước khi cơ quan có thẩm quyền chấp thuận chủ trương đầu tư hoặc cấp giấy chứng nhận đăng ký đầu tư dự án đầu tư xây dựng cảng cạn;"
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hàng hải và đường thủy nội địa",
-      "slug": "hang-hai-va-duong-thuy-noi-dia"
+      "slug": "hang-hai-va-uong-thuy-noi-ia"
     },
     "implementation_levels": [
       {
@@ -160,9 +137,9 @@
     "agencies": [
       {
         "name": "Chi cục Hàng hải và Đường thuỷ phía Nam",
-        "slug": "chi-cuc-hang-hai-va-duong-thuy-phia-nam"
+        "slug": "chi-cuc-hang-hai-va-uong-thuy-phia-nam"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

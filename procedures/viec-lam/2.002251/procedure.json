@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-e99d-709b-92c6-322ec1c256ac",
   "procedure_code": "2.002251",
   "title": "Đề nghị chuyển nhượng, chuyển giao khoản phát hành trái phiếu của đối tượng được bảo lãnh",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e99d-709b-92c6-322ec1c256ac",
     "source_file": "chi-tiet-thu-tuc-2.002251.pdf",
     "source_path": "procedures/viec-lam/2.002251/chi-tiet-thu-tuc-2.002251.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:22.046383+00:00",
-    "source_updated_at": "2026-04-08T11:03:14.781Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:23.915047+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "422b2c843a69be9aeac02d1523f588cb77befea5c5c94297ec053c2bf5e0fdc7"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:22.046383+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1734/QĐ-BTC",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Quản lý nợ",
   "target_users": [
@@ -36,18 +32,29 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Bộ Tài chính",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Tài chính"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1. Đối tượng được bảo lãnh gửi văn bản đề nghị Bộ Tài chính chấp thuận về việc chuyển nhượng, chuyển giao khoản phát hành trái phiếu được Chính phủ bảo lãnh.\nBước 2. Bộ Tài chính báo cáo Thủ tướng Chính phủ.\nBước 3. Bộ Tài chính trả lời bằng văn bản cho Đối tượng được bảo lãnh trong vòng 05 ngày làm việc kể từ ngày nhận được ý kiến của Thủ tướng Chính phủ. \n",
+      "description": "Bước 1. Đối tượng được bảo lãnh gửi văn bản đề nghị Bộ Tài chính chấp thuận về việc chuyển nhượng, chuyển giao khoản phát hành trái phiếu được Chính phủ bảo lãnh.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2. Bộ Tài chính báo cáo Thủ tướng Chính phủ.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3. Bộ Tài chính trả lời bằng văn bản cho Đối tượng được bảo lãnh trong vòng 05 ngày làm việc kể từ ngày nhận được ý kiến của Thủ tướng Chính phủ.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -56,30 +63,21 @@
     "conditional": [
       {
         "name": "a) Văn bản đề nghị chấp thuận về việc chuyển nhượng, chuyển giao của Người nhận bảo lãnh nêu rõ lý do chuyển nhượng, chuyển giao và Người nhận chuyển nhượng, chuyển giao; đồng thời xác nhận về việc không làm tăng thêm nghĩa vụ của Người bảo lãnh sau khi chuyển nhượng, chuyển giao (bản gốc).",
-        "code": "000.00.00.G12-KQ6783",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "b) Ý kiến bằng văn bản, chấp thuận việc chuyển nhượng, chuyển giao của Người nhận bảo lãnh (bản gốc).",
-        "code": "000.00.00.G12-KQ6784",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "c) Dự thảo văn bản chuyển nhượng, chuyển giao khoản vay đã được các bên thống nhất, trong đó có quy định Người nhận chuyển nhượng, chuyển giao khoản vay chấp nhận kế thừa nghĩa vụ, trách nhiệm của Đối tượng được bảo lãnh ban đầu theo thỏa thuận vay.",
-        "code": "000.00.00.G12-KQ6785",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -88,17 +86,7 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -106,42 +94,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -151,13 +126,12 @@
     {
       "title": "Văn bản ý kiến chấp thuận hoặc từ chối của Bộ Tài chính về việc chuyển nhượng, chuyển giao khoản vay được Chính phủ bảo lãnh của Đối tượng được bảo lãnh",
       "code": "KQ.G12.001237",
-      "id": "019d2bb2-1c73-70ac-aa17-139a733d9f89",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1. Đối tượng được bảo lãnh gửi văn bản đề nghị Bộ Tài chính chấp thuận về việc chuyển nhượng, chuyển giao khoản phát hành trái phiếu được Chính phủ bảo lãnh.\nBước 2. Bộ Tài chính báo cáo Thủ tướng Chính phủ.\nBước 3. Bộ Tài chính trả lời bằng văn bản cho Đối tượng được bảo lãnh trong vòng 05 ngày làm việc kể từ ngày nhận được ý kiến của Thủ tướng Chính phủ. \n",
-    "THÀNH PHẦN HỒ SƠ": "\na) Văn bản đề nghị chấp thuận về việc chuyển nhượng, chuyển giao của Người nhận bảo lãnh nêu rõ lý do chuyển nhượng, chuyển giao và Người nhận chuyển nhượng, chuyển giao; đồng thời xác nhận về việc không làm tăng thêm nghĩa vụ của Người bảo lãnh sau khi chuyển nhượng, chuyển giao (bản gốc).\nb) Ý kiến bằng văn bản, chấp thuận việc chuyển nhượng, chuyển giao của Người nhận bảo lãnh (bản gốc).\nc) Dự thảo văn bản chuyển nhượng, chuyển giao khoản vay đã được các bên thống nhất, trong đó có quy định Người nhận chuyển nhượng, chuyển giao khoản vay chấp nhận kế thừa nghĩa vụ, trách nhiệm của Đối tượng được bảo lãnh ban đầu theo thỏa thuận vay.",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1. Đối tượng được bảo lãnh gửi văn bản đề nghị Bộ Tài chính chấp thuận về việc chuyển nhượng, chuyển giao khoản phát hành trái phiếu được Chính phủ bảo lãnh.\nBước 2. Bộ Tài chính báo cáo Thủ tướng Chính phủ.\nBước 3. Bộ Tài chính trả lời bằng văn bản cho Đối tượng được bảo lãnh trong vòng 05 ngày làm việc kể từ ngày nhận được ý kiến của Thủ tướng Chính phủ.",
+    "THÀNH PHẦN HỒ SƠ": "a) Văn bản đề nghị chấp thuận về việc chuyển nhượng, chuyển giao của Người nhận bảo lãnh nêu rõ lý do chuyển nhượng, chuyển giao và Người nhận chuyển nhượng, chuyển giao; đồng thời xác nhận về việc không làm tăng thêm nghĩa vụ của Người bảo lãnh sau khi chuyển nhượng, chuyển giao (bản gốc).\nb) Ý kiến bằng văn bản, chấp thuận việc chuyển nhượng, chuyển giao của Người nhận bảo lãnh (bản gốc).\nc) Dự thảo văn bản chuyển nhượng, chuyển giao khoản vay đã được các bên thống nhất, trong đó có quy định Người nhận chuyển nhượng, chuyển giao khoản vay chấp nhận kế thừa nghĩa vụ, trách nhiệm của Đối tượng được bảo lãnh ban đầu theo thỏa thuận vay.",
     "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 30 ngày\nTrực tiếp: 30 ngày",
     "CĂN CỨ PHÁP LÝ": "",
     "CƠ QUAN THỰC HIỆN": "Bộ Tài chính",
@@ -167,11 +141,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Quản lý nợ",
       "slug": "quan-ly-no"
@@ -198,6 +167,6 @@
         "slug": "bo-tai-chinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

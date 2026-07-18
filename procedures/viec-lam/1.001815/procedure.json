@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bff-a2b7-72ae-90f2-db877d37f198",
   "procedure_code": "1.001815",
   "title": "Thủ tục cấp Giấy phép đối với tổ chức tài chính vi mô",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bff-a2b7-72ae-90f2-db877d37f198",
     "source_file": "chi-tiet-thu-tuc-1.001815.pdf",
     "source_path": "procedures/viec-lam/1.001815/chi-tiet-thu-tuc-1.001815.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:21:59.853604+00:00",
-    "source_updated_at": "2026-04-23T08:11:41.728Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:57.319855+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "ae27f44cf8f513ce9fd7efe1618155d448adde05905fc799336c75eb8fb4ece4"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:59.853604+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "76/QĐ-NHNN",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thành lập và hoạt động ngân hàng",
   "target_users": [
@@ -36,18 +32,29 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Ngân hàng Nhà nước Việt Nam",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ngân hàng Nhà nước Việt Nam"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "+ Bước 1: Trong thời hạn 60 ngày kể từ ngày nhận được văn bản chấp thuận nguyên tắc thành lập tổ chức tài chính vi mô, Ban trù bị lập Hồ sơ đề nghị cấp Giấy phép theo quy định tại khoản 2 Điều 7 hoặc khoản 2 Điều 8 Thông tư số 54/2025/TT-NHNN gửi Ngân hàng Nhà nước. Quá thời hạn này, Ngân hàng Nhà nước không nhận được hoặc nhận không đầy đủ hồ sơ đề nghị cấp Giấy phép thì văn bản chấp thuận nguyên tắc không còn giá trị.\n+ Bước 2: Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ đề nghị cấp Giấy phép. Ngân hàng Nhà nước xác nhận bằng văn bản về việc đã nhận đầy đủ hồ sơ.\n+ Bước 3: Trong thời hạn 30 ngày kể từ ngày nhận được đầy đủ hồ sơ đề nghị cấp Giấy phép, Ngân hàng Nhà nước cấp Giấy phép; trường hợp không cấp Giấy phép, Ngân hàng Nhà nước có văn bản nêu rõ lý do.\n",
+      "description": "+ Bước 1: Trong thời hạn 60 ngày kể từ ngày nhận được văn bản chấp thuận nguyên tắc thành lập tổ chức tài chính vi mô, Ban trù bị lập Hồ sơ đề nghị cấp Giấy phép theo quy định tại khoản 2 Điều 7 hoặc khoản 2 Điều 8 Thông tư số 54/2025/TT-NHNN gửi Ngân hàng Nhà nước. Quá thời hạn này, Ngân hàng Nhà nước không nhận được hoặc nhận không đầy đủ hồ sơ đề nghị cấp Giấy phép thì văn bản chấp thuận nguyên tắc không còn giá trị.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "+ Bước 2: Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ đề nghị cấp Giấy phép. Ngân hàng Nhà nước xác nhận bằng văn bản về việc đã nhận đầy đủ hồ sơ.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "+ Bước 3: Trong thời hạn 30 ngày kể từ ngày nhận được đầy đủ hồ sơ đề nghị cấp Giấy phép, Ngân hàng Nhà nước cấp Giấy phép; trường hợp không cấp Giấy phép, Ngân hàng Nhà nước có văn bản nêu rõ lý do.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -56,75 +63,51 @@
     "conditional": [
       {
         "name": "b) Biên bản và Nghị quyết cuộc họp thành viên góp vốn đầu tiên về việc thông qua Điều lệ, bầu, bổ nhiệm các chức danh thành viên Hội đồng thành viên, thành viên Ban kiểm soát, quy định về tổ chức và hoạt động của Hội đồng thành viên, Ban kiểm soát;",
-        "code": "G19-KQ005766",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "b) Quyết định của chủ sở hữu về việc bổ nhiệm thành viên Hội đồng thành viên, thành viên Ban kiểm soát, Tổng giám đốc (Giám đốc), Phó Tổng giám đốc (Phó giám đốc), Kế toán trưởng.",
-        "code": "G19-KQ005763",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "2. Đối với tổ chức tài chính vi mô là công ty trách nhiệm hữu hạn hai thành viên trở lên.",
-        "code": "G19-KQ005764",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "1. Đối với tổ chức tài chính vi mô là công ty trách nhiệm hữu hạn một thành viên.",
-        "code": "G19-KQ005761",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "d) Quyết định của Hội đồng thành viên về việc bổ nhiệm Tổng giám đốc (Giám đốc), Phó Tổng giám đốc (Phó giám đốc), Kế toán trưởng;",
-        "code": "G19-KQ005768",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "c) Biên bản họp Hội đồng thành viên thông qua các nội dung về việc bầu Chủ tịch Hội đồng thành viên; Biên bản họp Ban kiểm soát về việc bầu Trưởng Ban kiểm soát",
-        "code": "G19-KQ005767",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "a) Điều lệ của tổ chức tài chính vi mô đã được Hội đồng thành viên thông qua.",
-        "code": "G19-KQ005765",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "a) Điều lệ của tổ chức tài chính vi mô đã được Hội đồng thành viên thông qua",
-        "code": "G19-KQ005762",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -133,35 +116,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 200000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "200000",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 200000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "200000",
       "description": "",
       "source_page": null
     },
@@ -169,51 +132,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "30 ngày",
-      "processing_time_value": 30,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 200000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "200000",
       "description": "",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "200000",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": 200000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "200000",
+        "is_free": false,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": 200000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "200000",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 200000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "200000",
+        "is_free": false,
+        "source_page": 3
       }
     ]
   },
@@ -221,32 +169,27 @@
     {
       "title": "Thông tư quy định về hồ sơ, trình tự cấp Giấy phép, tổ chức và hoạt động của  tổ chức tài chính vi mô",
       "document_number": "Thông tư số 54/2025/TT-NHNN",
-      "id": "019d2bb3-5d87-7195-a44a-34e9c87e02d9",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Quy định mức thu, chế độ thu, nộp lệ phí cấp giấy phép thành lập và hoạt động của tổ chức tín dụng; giấy phép thành lập chi nhánh ngân hàng nước ngoài, văn phòng đại diện của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng; giấy phép hoạt động cung ứng dịch vụ trung gian thanh toán cho các tổ chức không phải là ngân hàng",
       "document_number": "150/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be47-c01c7d0bad8e",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật Các tổ chức tín dụng",
       "document_number": "Luật số 32/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b675-1125e97928b3",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định quy định điều kiện cấp Giấy phép đối với quỹ tín dụng nhân dân, tổ chức tài chính vi mô và điều kiện đối với chủ sở hữu của tổ chức tín dụng là công ty trách nhiệm hữu hạn một thành viên, cổ đông sáng lập, thành viên sáng lập.",
       "document_number": "Nghị định 162/2024/NĐ-CP",
-      "id": "019d2bb3-5d80-7608-8ccf-4038b1212c31",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu",
       "document_number": "66.7/2025/NQ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-22af3c5ee091",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "a) Có vốn điều lệ tối thiểu bằng mức vốn pháp định theo quy định của Chính phủ tại thời điểm đề nghị cấp Giấy phép.\nb) Có chủ sở hữu, thành viên sáng lập theo quy định tại Điều 13 Nghị định số 162/2024/NĐ-CP cụ thể như sau:\n-  Chủ sở hữu của tổ chức tài chính vi mô được thành lập dưới hình thức công ty trách nhiệm hữu hạn một thành viên phải đảm bảo các điều kiện sau:\n+ Là tổ chức chính trị - xã hội cấp trung ương;\n+ Có khả năng về tài chính để góp vốn thành lập tổ chức tài chính vi mô và cam kết không dùng vốn ủy thác, vốn huy động, vốn vay của các tổ chức, cá nhân khác để góp vốn; cam kết hỗ trợ tổ chức tài chính vi mô về tài chính để giải quyết khó khăn trong trường hợp gặp khó khăn về vốn hoặc khả năng thanh khoản;\n+ Không phải là cổ đông sáng lập, chủ sở hữu, thành viên sáng lập, cổ đông chiến lược của tổ chức tín dụng khác tại Việt Nam.\n- Thành viên sáng lập của tổ chức tài chính vi mô là công ty trách nhiệm hữu hạn hai thành viên trở lên phải đảm bảo các điều kiện sau:\n+ Có ít nhất một thành viên góp vốn là tổ chức chính trị - xã hội cấp trung ương đáp ứng các điều kiện: (i) Có khả năng về tài chính để góp vốn thành lập tổ chức tài chính vi mô và cam kết không dùng vốn ủy thác, vốn huy động, vốn vay của các tổ chức, cá nhân khác để góp vốn; cam kết hỗ trợ tổ chức tài chính vi mô về tài chính để giải quyết khó khăn trong trường hợp gặp khó khăn về vốn hoặc khả năng thanh khoản; (ii) Không phải là cổ đông sáng lập, chủ sở hữu, thành viên sáng lập, cổ đông chiến lược của tổ chức tín dụng khác tại Việt Nam;\n+ Có ít nhất một thành viên góp vốn là pháp nhân đã hoặc đang trực tiếp tham gia quản lý hoặc điều hành chương trình, dự án tài chính vi mô hoạt động an toàn, bền vững trong ít nhất 03 năm liên tiếp trước thời điểm nộp đơn đề nghị cấp Giấy phép; không bị kết án về các tội phạm quy định tại Bộ luật Hình sự trong 02 năm liền kề trước năm nộp hồ sơ đề nghị cấp Giấy phép và đến thời điểm nộp hồ sơ bổ sung để được xem xét cấp Giấy phép;\n- Thành viên góp vốn khác là pháp nhân: (i) Được thành lập theo pháp luật của Việt Nam; (ii) Không phải là cổ đông sáng lập, chủ sở hữu, thành viên sáng lập, cổ đông chiến lược của tổ chức tín dụng khác tại Việt Nam; không bị kết án về các tội phạm quy định tại Bộ luật Hình sự trong 02 năm liền kề trước năm nộp hồ sơ đề nghị cấp Giấy phép và đến thời điểm nộp hồ sơ bổ sung để được xem xét cấp Giấy phép; (iii) Có khả năng về tài chính để góp vốn thành lập tổ chức tài chính vi mô và cam kết không dùng vốn ủy thác, vốn huy động, vốn vay của các tổ chức, cá nhân khác để góp vốn; cam kết hỗ trợ tổ chức tài chính vi mô về tài chính để giải quyết khó khăn trong trường hợp gặp khó khăn về vốn hoặc khả năng thanh khoản; (iv) Thực hiện đầy đủ các nghĩa vụ về thuế và bảo hiểm xã hội đến thời điểm nộp hồ sơ đề nghị cấp Giấy phép; (v) Không bị xử phạt vi phạm hành chính trong lĩnh vực tiền tệ và ngân hàng ở khung phạt tiền cao nhất đối với hành vi vi phạm quy định về giấy phép, quản trị, điều hành, cổ phần, cổ phiếu, góp vốn, mua cổ phần, cấp tín dụng, mua trái phiếu doanh nghiệp, tỷ lệ bảo đảm an toàn theo quy định của pháp luật về xử lý vi phạm hành chính trong lĩnh vực tiền tệ và ngân hàng trong thời gian 02 năm liền kề trước thời điểm nộp đơn đề nghị cấp Giấy phép; (vi) Trường hợp thành viên sáng lập là doanh nghiệp phải hoạt động kinh doanh có lãi trong 03 năm liền kề trước năm nộp hồ sơ đề nghị cấp Giấy phép; (vii) Trường hợp thành viên sáng lập là doanh nghiệp hoạt động trong ngành nghề kinh doanh có yêu cầu vốn pháp định, phải đảm bảo vốn chủ sở hữu trừ đi vốn pháp định tối thiểu bằng số vốn góp cam kết theo số liệu từ báo cáo tài chính đã được kiểm toán của năm liền kề trước thời điểm gửi hồ sơ đề nghị cấp Giấy phép; (viii) Trường hợp thành viên sáng lập là doanh nghiệp được cấp Giấy phép thành lập và hoạt động trong lĩnh vực ngân hàng, chứng khoán, bảo hiểm phải tuân thủ việc góp vốn theo các quy định của pháp luật về ngân hàng, chứng khoán, bảo hiểm.\nc) Có người quản lý, người điều hành, thành viên Ban kiểm soát đủ tiêu chuẩn, điều kiện theo quy định của Ngân hàng Nhà nước.\nd) Có Điều lệ phù hợp với quy định tại Luật Các tổ chức tín dụng và quy định của pháp luật có liên quan.\nđ) Có Đề án thành lập, phương án kinh doanh khả thi trong 03 năm đầu hoạt động.",
@@ -254,13 +197,12 @@
     {
       "title": "Giấy phép hoạt động tổ chức tài chính vi mô",
       "code": "KQ.G19.000108",
-      "id": "019d2bb2-1c7c-74ea-bcd3-42f2e6a2f829",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Trong thời hạn 60 ngày kể từ ngày nhận được văn bản chấp thuận nguyên tắc thành lập tổ chức tài chính vi mô, Ban trù bị lập Hồ sơ đề nghị cấp Giấy phép theo quy định tại khoản 2 Điều 7 hoặc khoản 2 Điều 8 Thông tư số 54/2025/TT-NHNN gửi Ngân hàng Nhà nước. Quá thời hạn này, Ngân hàng Nhà nước không nhận được hoặc nhận không đầy đủ hồ sơ đề nghị cấp Giấy phép thì văn bản chấp thuận nguyên tắc không còn giá trị.\n+ Bước 2: Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ đề nghị cấp Giấy phép. Ngân hàng Nhà nước xác nhận bằng văn bản về việc đã nhận đầy đủ hồ sơ.\n+ Bước 3: Trong thời hạn 30 ngày kể từ ngày nhận được đầy đủ hồ sơ đề nghị cấp Giấy phép, Ngân hàng Nhà nước cấp Giấy phép; trường hợp không cấp Giấy phép, Ngân hàng Nhà nước có văn bản nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nb) Biên bản và Nghị quyết cuộc họp thành viên góp vốn đầu tiên về việc thông qua Điều lệ, bầu, bổ nhiệm các chức danh thành viên Hội đồng thành viên, thành viên Ban kiểm soát, quy định về tổ chức và hoạt động của Hội đồng thành viên, Ban kiểm soát;\nb) Quyết định của chủ sở hữu về việc bổ nhiệm thành viên Hội đồng thành viên, thành viên Ban kiểm soát, Tổng giám đốc (Giám đốc), Phó Tổng giám đốc (Phó giám đốc), Kế toán trưởng.\n2. Đối với tổ chức tài chính vi mô là công ty trách nhiệm hữu hạn hai thành viên trở lên.\n1. Đối với tổ chức tài chính vi mô là công ty trách nhiệm hữu hạn một thành viên.\nd) Quyết định của Hội đồng thành viên về việc bổ nhiệm Tổng giám đốc (Giám đốc), Phó Tổng giám đốc (Phó giám đốc), Kế toán trưởng;\nc) Biên bản họp Hội đồng thành viên thông qua các nội dung về việc bầu Chủ tịch Hội đồng thành viên; Biên bản họp Ban kiểm soát về việc bầu Trưởng Ban kiểm soát\na) Điều lệ của tổ chức tài chính vi mô đã được Hội đồng thành viên thông qua.\na) Điều lệ của tổ chức tài chính vi mô đã được Hội đồng thành viên thông qua",
+    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Trong thời hạn 60 ngày kể từ ngày nhận được văn bản chấp thuận nguyên tắc thành lập tổ chức tài chính vi mô, Ban trù bị lập Hồ sơ đề nghị cấp Giấy phép theo quy định tại khoản 2 Điều 7 hoặc khoản 2 Điều 8 Thông tư số 54/2025/TT-NHNN gửi Ngân hàng Nhà nước. Quá thời hạn này, Ngân hàng Nhà nước không nhận được hoặc nhận không đầy đủ hồ sơ đề nghị cấp Giấy phép thì văn bản chấp thuận nguyên tắc không còn giá trị.\n+ Bước 2: Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đầy đủ hồ sơ đề nghị cấp Giấy phép. Ngân hàng Nhà nước xác nhận bằng văn bản về việc đã nhận đầy đủ hồ sơ.\n+ Bước 3: Trong thời hạn 30 ngày kể từ ngày nhận được đầy đủ hồ sơ đề nghị cấp Giấy phép, Ngân hàng Nhà nước cấp Giấy phép; trường hợp không cấp Giấy phép, Ngân hàng Nhà nước có văn bản nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "b) Biên bản và Nghị quyết cuộc họp thành viên góp vốn đầu tiên về việc thông qua Điều lệ, bầu, bổ nhiệm các chức danh thành viên Hội đồng thành viên, thành viên Ban kiểm soát, quy định về tổ chức và hoạt động của Hội đồng thành viên, Ban kiểm soát;\nb) Quyết định của chủ sở hữu về việc bổ nhiệm thành viên Hội đồng thành viên, thành viên Ban kiểm soát, Tổng giám đốc (Giám đốc), Phó Tổng giám đốc (Phó giám đốc), Kế toán trưởng.\n2. Đối với tổ chức tài chính vi mô là công ty trách nhiệm hữu hạn hai thành viên trở lên.\n1. Đối với tổ chức tài chính vi mô là công ty trách nhiệm hữu hạn một thành viên.\nd) Quyết định của Hội đồng thành viên về việc bổ nhiệm Tổng giám đốc (Giám đốc), Phó Tổng giám đốc (Phó giám đốc), Kế toán trưởng;\nc) Biên bản họp Hội đồng thành viên thông qua các nội dung về việc bầu Chủ tịch Hội đồng thành viên; Biên bản họp Ban kiểm soát về việc bầu Trưởng Ban kiểm soát\na) Điều lệ của tổ chức tài chính vi mô đã được Hội đồng thành viên thông qua.\na) Điều lệ của tổ chức tài chính vi mô đã được Hội đồng thành viên thông qua",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 30 ngày\nQua dịch vụ bưu chính: 30 ngày\nTrực tiếp: 30 ngày",
     "CĂN CỨ PHÁP LÝ": "Thông tư quy định về hồ sơ, trình tự cấp Giấy phép, tổ chức và hoạt động của  tổ chức tài chính vi mô - Thông tư số 54/2025/TT-NHNN\nQuy định mức thu, chế độ thu, nộp lệ phí cấp giấy phép thành lập và hoạt động của tổ chức tín dụng; giấy phép thành lập chi nhánh ngân hàng nước ngoài, văn phòng đại diện của tổ chức tín dụng nước ngoài, tổ chức nước ngoài khác có hoạt động ngân hàng; giấy phép hoạt động cung ứng dịch vụ trung gian thanh toán cho các tổ chức không phải là ngân hàng - 150/2016/TT-BTC\nLuật Các tổ chức tín dụng - Luật số 32/2024/QH15\nNghị định quy định điều kiện cấp Giấy phép đối với quỹ tín dụng nhân dân, tổ chức tài chính vi mô và điều kiện đối với chủ sở hữu của tổ chức tín dụng là công ty trách nhiệm hữu hạn một thành viên, cổ đông sáng lập, thành viên sáng lập. - Nghị định 162/2024/NĐ-CP\nNghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu - 66.7/2025/NQ-CP",
     "CƠ QUAN THỰC HIỆN": "Ngân hàng Nhà nước Việt Nam",
@@ -270,14 +212,9 @@
     "MÔ TẢ": "a) Có vốn điều lệ tối thiểu bằng mức vốn pháp định theo quy định của Chính phủ tại thời điểm đề nghị cấp Giấy phép.\nb) Có chủ sở hữu, thành viên sáng lập theo quy định tại Điều 13 Nghị định số 162/2024/NĐ-CP cụ thể như sau:\n-  Chủ sở hữu của tổ chức tài chính vi mô được thành lập dưới hình thức công ty trách nhiệm hữu hạn một thành viên phải đảm bảo các điều kiện sau:\n+ Là tổ chức chính trị - xã hội cấp trung ương;\n+ Có khả năng về tài chính để góp vốn thành lập tổ chức tài chính vi mô và cam kết không dùng vốn ủy thác, vốn huy động, vốn vay của các tổ chức, cá nhân khác để góp vốn; cam kết hỗ trợ tổ chức tài chính vi mô về tài chính để giải quyết khó khăn trong trường hợp gặp khó khăn về vốn hoặc khả năng thanh khoản;\n+ Không phải là cổ đông sáng lập, chủ sở hữu, thành viên sáng lập, cổ đông chiến lược của tổ chức tín dụng khác tại Việt Nam.\n- Thành viên sáng lập của tổ chức tài chính vi mô là công ty trách nhiệm hữu hạn hai thành viên trở lên phải đảm bảo các điều kiện sau:\n+ Có ít nhất một thành viên góp vốn là tổ chức chính trị - xã hội cấp trung ương đáp ứng các điều kiện: (i) Có khả năng về tài chính để góp vốn thành lập tổ chức tài chính vi mô và cam kết không dùng vốn ủy thác, vốn huy động, vốn vay của các tổ chức, cá nhân khác để góp vốn; cam kết hỗ trợ tổ chức tài chính vi mô về tài chính để giải quyết khó khăn trong trường hợp gặp khó khăn về vốn hoặc khả năng thanh khoản; (ii) Không phải là cổ đông sáng lập, chủ sở hữu, thành viên sáng lập, cổ đông chiến lược của tổ chức tín dụng khác tại Việt Nam;\n+ Có ít nhất một thành viên góp vốn là pháp nhân đã hoặc đang trực tiếp tham gia quản lý hoặc điều hành chương trình, dự án tài chính vi mô hoạt động an toàn, bền vững trong ít nhất 03 năm liên tiếp trước thời điểm nộp đơn đề nghị cấp Giấy phép; không bị kết án về các tội phạm quy định tại Bộ luật Hình sự trong 02 năm liền kề trước năm nộp hồ sơ đề nghị cấp Giấy phép và đến thời điểm nộp hồ sơ bổ sung để được xem xét cấp Giấy phép;\n- Thành viên góp vốn khác là pháp nhân: (i) Được thành lập theo pháp luật của Việt Nam; (ii) Không phải là cổ đông sáng lập, chủ sở hữu, thành viên sáng lập, cổ đông chiến lược của tổ chức tín dụng khác tại Việt Nam; không bị kết án về các tội phạm quy định tại Bộ luật Hình sự trong 02 năm liền kề trước năm nộp hồ sơ đề nghị cấp Giấy phép và đến thời điểm nộp hồ sơ bổ sung để được xem xét cấp Giấy phép; (iii) Có khả năng về tài chính để góp vốn thành lập tổ chức tài chính vi mô và cam kết không dùng vốn ủy thác, vốn huy động, vốn vay của các tổ chức, cá nhân khác để góp vốn; cam kết hỗ trợ tổ chức tài chính vi mô về tài chính để giải quyết khó khăn trong trường hợp gặp khó khăn về vốn hoặc khả năng thanh khoản; (iv) Thực hiện đầy đủ các nghĩa vụ về thuế và bảo hiểm xã hội đến thời điểm nộp hồ sơ đề nghị cấp Giấy phép; (v) Không bị xử phạt vi phạm hành chính trong lĩnh vực tiền tệ và ngân hàng ở khung phạt tiền cao nhất đối với hành vi vi phạm quy định về giấy phép, quản trị, điều hành, cổ phần, cổ phiếu, góp vốn, mua cổ phần, cấp tín dụng, mua trái phiếu doanh nghiệp, tỷ lệ bảo đảm an toàn theo quy định của pháp luật về xử lý vi phạm hành chính trong lĩnh vực tiền tệ và ngân hàng trong thời gian 02 năm liền kề trước thời điểm nộp đơn đề nghị cấp Giấy phép; (vi) Trường hợp thành viên sáng lập là doanh nghiệp phải hoạt động kinh doanh có lãi trong 03 năm liền kề trước năm nộp hồ sơ đề nghị cấp Giấy phép; (vii) Trường hợp thành viên sáng lập là doanh nghiệp hoạt động trong ngành nghề kinh doanh có yêu cầu vốn pháp định, phải đảm bảo vốn chủ sở hữu trừ đi vốn pháp định tối thiểu bằng số vốn góp cam kết theo số liệu từ báo cáo tài chính đã được kiểm toán của năm liền kề trước thời điểm gửi hồ sơ đề nghị cấp Giấy phép; (viii) Trường hợp thành viên sáng lập là doanh nghiệp được cấp Giấy phép thành lập và hoạt động trong lĩnh vực ngân hàng, chứng khoán, bảo hiểm phải tuân thủ việc góp vốn theo các quy định của pháp luật về ngân hàng, chứng khoán, bảo hiểm.\nc) Có người quản lý, người điều hành, thành viên Ban kiểm soát đủ tiêu chuẩn, điều kiện theo quy định của Ngân hàng Nhà nước.\nd) Có Điều lệ phù hợp với quy định tại Luật Các tổ chức tín dụng và quy định của pháp luật có liên quan.\nđ) Có Đề án thành lập, phương án kinh doanh khả thi trong 03 năm đầu hoạt động."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thành lập và hoạt động ngân hàng",
-      "slug": "thanh-lap-va-hoat-dong-ngan-hang"
+      "slug": "thanh-lap-va-hoat-ong-ngan-hang"
     },
     "implementation_levels": [
       {
@@ -301,6 +238,6 @@
         "slug": "ngan-hang-nha-nuoc-viet-nam"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

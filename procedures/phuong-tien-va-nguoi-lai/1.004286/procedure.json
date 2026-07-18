@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfe-4237-72dc-8b73-5d8caec1a2c2",
   "procedure_code": "1.004286",
   "title": "Cấp lại Giấy phép, năng định cho người lái tàu bay",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-4237-72dc-8b73-5d8caec1a2c2",
     "source_file": "chi-tiet-thu-tuc-1.004286.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.004286/chi-tiet-thu-tuc-1.004286.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:01.992145+00:00",
-    "source_updated_at": "2026-04-16T12:39:11.427Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:44.873174+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "71720933336303c98c6e899ac6b58df548f14b8cc1d0a37acc4b1b12b9066fb5"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:01.992145+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1243/QĐ-BGTVT",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hàng không",
   "target_users": [
@@ -37,90 +33,57 @@
   ],
   "agency": {
     "competent_agency": "Cục Hàng không Việt Nam",
-    "executing_agency": "Cục Hàng không Việt Nam",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "119 Nguyễn Sơn, phường Bồ Đề, thành phố Hà Nội"
+    "executing_agency": "Cục Hàng không Việt Nam"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "a) Nộp hồ sơ thủ tục hành chính:\nNgười đề nghị cấp lại giấy phép và năng định người lái tàu bay phải gửi 01 bộ hồ sơ trực tiếp hoặc qua đường bưu điện đến Cục Hàng không Việt Nam.\nb) Giải quyết thủ tục hành chính:\nTrong thời hạn 20 ngày, kể từ thời điểm nhận đủ hồ sơ, Cục Hàng không Việt Nam có trách nhiệm thẩm định hồ sơ, tổ chức kiểm tra và thực hiện việc cấp giấy phép người lái tàu bay cho những người đề nghị đáp ứng được các yêu cầu của Bộ QCATHK.\n",
+      "description": "a) Nộp hồ sơ thủ tục hành chính:\nNgười đề nghị cấp lại giấy phép và năng định người lái tàu bay phải gửi 01 bộ hồ sơ trực tiếp hoặc qua đường bưu điện đến Cục Hàng không Việt Nam.\nb) Giải quyết thủ tục hành chính:\nTrong thời hạn 20 ngày, kể từ thời điểm nhận đủ hồ sơ, Cục Hàng không Việt Nam có trách nhiệm thẩm định hồ sơ, tổ chức kiểm tra và thực hiện việc cấp giấy phép người lái tàu bay cho những người đề nghị đáp ứng được các yêu cầu của Bộ QCATHK.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "Đơn đề nghị cấp lại theo mẫu",
-        "code": "000.00.00.G04-KQ004134",
+        "name": "Trường hợp Giấy phép mất, rách, hỏng: Đơn đề nghị cấp lại theo mẫu",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp Giấy phép mất, rách, hỏng",
-        "attachments": [
-          {
-            "id": "019d9215-9062-73d1-80cc-12ee85116dbf",
-            "name": "1.004286.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "1.004286.docx",
+        "source_page": 2
       },
       {
-        "name": "- Đơn đề nghị cấp lại theo mẫu.",
-        "code": "000.00.00.G04-KQ004130",
+        "name": "Trường hợp sửa đổi: - Đơn đề nghị cấp lại theo mẫu.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp sửa đổi ",
-        "attachments": [
-          {
-            "id": "019d9215-cbdb-75bd-80f0-58d56fa7eb19",
-            "name": "1.004286.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "1.004286.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "Bản gốc hoặc bản sao giấy phép và năng định đã được cấp (nếu có).",
-        "code": "000.00.00.G04-KQ004135",
+        "name": "Trường hợp Giấy phép mất, rách, hỏng: Bản gốc hoặc bản sao giấy phép và năng định đã được cấp (nếu có).",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Trường hợp Giấy phép mất, rách, hỏng",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Kết quả kiểm tra sát hạch trình độ, kinh nghiệm trên chủng loại, hạng, loại tàu bay phù hợp với năng định đề nghị cấp.",
-        "code": "000.00.00.G04-KQ004132",
+        "name": "Trường hợp sửa đổi: - Kết quả kiểm tra sát hạch trình độ, kinh nghiệm trên chủng loại, hạng, loại tàu bay phù hợp với năng định đề nghị cấp.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp sửa đổi ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Bản sao chứng chỉ đủ trình độ ngôn ngữ tiếng Anh tối thiểu mức 4 theo quy định tại Phụ ước 1 của Công ước về hàng không dân dụng quốc tế của cơ sở đánh giá trình độ tiếng Anh cho nhân viên hàng không được Cục Hàng không Việt Nam cấp hoặc công nhận còn hiệu lực. Kết quả kiểm tra sát hạch trình độ, kinh nghiệm trên chủng loại, hạng, loại tàu bay phù hợp với năng định đề nghị cấp.",
-        "code": "000.00.00.G04-KQ004133",
+        "name": "Trường hợp sửa đổi: - Bản sao chứng chỉ đủ trình độ ngôn ngữ tiếng Anh tối thiểu mức 4 theo quy định tại Phụ ước 1 của Công ước về hàng không dân dụng quốc tế của cơ sở đánh giá trình độ tiếng Anh cho nhân viên hàng không được Cục Hàng không Việt Nam cấp hoặc công nhận còn hiệu lực. Kết quả kiểm tra sát hạch trình độ, kinh nghiệm trên chủng loại, hạng, loại tàu bay phù hợp với năng định đề nghị cấp.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Trường hợp sửa đổi ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Giấy chứng nhận sức khoẻ phù hợp với quy định của Bộ Y tế và Phần 8 Bộ quy chế an toàn hàng không còn hiệu lực.",
-        "code": "000.00.00.G04-KQ004131",
+        "name": "Trường hợp sửa đổi: - Giấy chứng nhận sức khoẻ phù hợp với quy định của Bộ Y tế và Phần 8 Bộ quy chế an toàn hàng không còn hiệu lực.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp sửa đổi ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -129,60 +92,37 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "20 ngày",
-      "processing_time_value": 20,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 400000,
-          "currency": "VND",
-          "description": " Đồng (Sát hạch lý thuyết cấp lại giấy phép theo thời hạn, gia hạn, bổ sung năng định)  Phí: 1700000 Đồng (Sát hạch thực hành) Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC",
-          "attachment": null
-        }
-      ],
+      "fee": "Đồng (Sát hạch lý thuyết cấp lại giấy phép theo thời hạn, gia hạn, bổ sung năng định)  Phí: 1700000 Đồng (Sát hạch thực hành) Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC",
       "description": "20 ngày, kể từ ngày nhận được hồ sơ hợp lệ",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "20 ngày",
-      "processing_time_value": 20,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 400000,
-          "currency": "VND",
-          "description": "Đồng (Sát hạch lý thuyết cấp lại giấy phép theo thời hạn, gia hạn, bổ sung năng định)  Phí: 1700000 Đồng (Sát hạch thực hành) (Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC)",
-          "attachment": null
-        }
-      ],
+      "fee": "Đồng (Sát hạch lý thuyết cấp lại giấy phép theo thời hạn, gia hạn, bổ sung năng định)  Phí: 1700000 Đồng (Sát hạch thực hành) (Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC)",
       "description": "20 ngày, kể từ ngày nhận được hồ sơ hợp lệ",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Đồng (Sát hạch lý thuyết cấp lại giấy phép theo thời hạn, gia hạn, bổ sung năng định)  Phí: 1700000 Đồng (Sát hạch thực hành) Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC; Đồng (Sát hạch lý thuyết cấp lại giấy phép theo thời hạn, gia hạn, bổ sung năng định)  Phí: 1700000 Đồng (Sát hạch thực hành) (Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC)",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 400000,
-        "currency": "VND",
-        "description": " Đồng (Sát hạch lý thuyết cấp lại giấy phép theo thời hạn, gia hạn, bổ sung năng định)  Phí: 1700000 Đồng (Sát hạch thực hành) Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC",
-        "attachment": null
+        "amount_text": "Đồng (Sát hạch lý thuyết cấp lại giấy phép theo thời hạn, gia hạn, bổ sung năng định)  Phí: 1700000 Đồng (Sát hạch thực hành) Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 400000,
-        "currency": "VND",
-        "description": "Đồng (Sát hạch lý thuyết cấp lại giấy phép theo thời hạn, gia hạn, bổ sung năng định)  Phí: 1700000 Đồng (Sát hạch thực hành) (Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC)",
-        "attachment": null
+        "amount_text": "Đồng (Sát hạch lý thuyết cấp lại giấy phép theo thời hạn, gia hạn, bổ sung năng định)  Phí: 1700000 Đồng (Sát hạch thực hành) (Miễn phí từ ngày 07/4/2026 đến 30/6/2026 theo quy định tại Thông tư 40/2026/TT-BTC)",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -190,84 +130,69 @@
     {
       "title": "Thông tư sửa đổi, bổ sung một số điều của Bộ quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay",
       "document_number": "56/2018/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9eff-381a3d04a81d",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của các Thông tư trong lĩnh vực hàng không dân dụng",
       "document_number": "28/2023/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9efd-e7336e177bb6",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "LUẬT HÀNG KHÔNG DÂN DỤNG VIỆT NAM",
       "document_number": "130/2025/QH15",
-      "id": "019d2bb3-5d84-71c5-b673-eb8f88e8cb17",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư 42/2020/TT-BGTVT",
       "document_number": "42/2020/TT-BGTVT",
-      "id": "019d2bb3-5d87-7195-a441-197c1ed4c448",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Ban hành Bộ quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay",
       "document_number": "01/2011/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9efc-64166e2f4b36",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Bộ Quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay ban hành kèm theo Thông tư số 01/2011/TT-BGTVT ngày 27/01/2011 của Bộ trưởng Bộ GTVT và các Thông tư sửa đổi, bổ sung Thông tư số 01/2011/TT-BGTVT ngày 27/01/2011 của Bộ trưởng Bộ GTVT",
       "document_number": "Thông tư 09/2023/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9eff-b80025beae52",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Thông tư số 01/2011/TT-BGTVT ngày 27 tháng 01 năm 2011 của Bộ trưởng Bộ Giao thông vận tải ban hành Bộ Quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay và Thông tư số 03/2016/TT-BGTVT ngày 31 tháng 3 năm 2016 của Bộ trưởng Bộ Giao thông vận tải sửa đổi, bổ sung một số điều của Thông tư số 21/2011/TT-BGTVT ngày 27 tháng 01 năm 2011 của Bộ trưởng Bộ Giao thông vận tải ban hành Bộ Quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay",
       "document_number": "21/2017/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9efd-6c2516913cbd",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật 61/2014/QH13",
       "document_number": "61/2014/QH13",
-      "id": "019d2bb3-5d84-71c5-b670-c71b96f6d323",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Thông tư số 01/2011/TT-BGTVT ngày 27 tháng 01 năm 2011 của Bộ trưởng Bộ Giao thông vận tải ban hành Bộ Quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay",
       "document_number": "03/2016/TT-BGTVT",
-      "id": "019d2bb3-5d7c-71ab-9efc-7cb4244dc2af",
-      "source_page": null
+      "source_page": 3
     }
   ],
-  "conditions": "\tNgười làm đơn đề nghị cấp lại giấy phép người lái tàu bay phải nộp hồ sơ tối thiểu 20 ngày trước ngày hết hạn của giấy phép đã được cấp.",
+  "conditions": "Người làm đơn đề nghị cấp lại giấy phép người lái tàu bay phải nộp hồ sơ tối thiểu 20 ngày trước ngày hết hạn của giấy phép đã được cấp.",
   "results": [
     {
       "title": "Giấy phép, năng định người lái tàu bay",
       "code": "000.00.00.G04-KQ0345",
-      "id": "019d9215-6791-76eb-80f0-d3e667a33731",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "a) Nộp hồ sơ thủ tục hành chính:\nNgười đề nghị cấp lại giấy phép và năng định người lái tàu bay phải gửi 01 bộ hồ sơ trực tiếp hoặc qua đường bưu điện đến Cục Hàng không Việt Nam.\nb) Giải quyết thủ tục hành chính:\nTrong thời hạn 20 ngày, kể từ thời điểm nhận đủ hồ sơ, Cục Hàng không Việt Nam có trách nhiệm thẩm định hồ sơ, tổ chức kiểm tra và thực hiện việc cấp giấy phép người lái tàu bay cho những người đề nghị đáp ứng được các yêu cầu của Bộ QCATHK.\n",
-    "THÀNH PHẦN HỒ SƠ": "Trường hợp Giấy phép mất, rách, hỏng\nBản gốc hoặc bản sao giấy phép và năng định đã được cấp (nếu có).\nĐơn đề nghị cấp lại theo mẫu\nTrường hợp sửa đổi \n- Kết quả kiểm tra sát hạch trình độ, kinh nghiệm trên chủng loại, hạng, loại tàu bay phù hợp với năng định đề nghị cấp.\n- Bản sao chứng chỉ đủ trình độ ngôn ngữ tiếng Anh tối thiểu mức 4 theo quy định tại Phụ ước 1 của Công ước về hàng không dân dụng quốc tế của cơ sở đánh giá trình độ tiếng Anh cho nhân viên hàng không được Cục Hàng không Việt Nam cấp hoặc công nhận còn hiệu lực. Kết quả kiểm tra sát hạch trình độ, kinh nghiệm trên chủng loại, hạng, loại tàu bay phù hợp với năng định đề nghị cấp.\n- Giấy chứng nhận sức khoẻ phù hợp với quy định của Bộ Y tế và Phần 8 Bộ quy chế an toàn hàng không còn hiệu lực.\n- Đơn đề nghị cấp lại theo mẫu.",
-    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 20 ngày - 20 ngày, kể từ ngày nhận được hồ sơ hợp lệ\nTrực tiếp: 20 ngày - 20 ngày, kể từ ngày nhận được hồ sơ hợp lệ",
+    "TRÌNH TỰ THỰC HIỆN": "a) Nộp hồ sơ thủ tục hành chính:\nNgười đề nghị cấp lại giấy phép và năng định người lái tàu bay phải gửi 01 bộ hồ sơ trực tiếp hoặc qua đường bưu điện đến Cục Hàng không Việt Nam.\nb) Giải quyết thủ tục hành chính:\nTrong thời hạn 20 ngày, kể từ thời điểm nhận đủ hồ sơ, Cục Hàng không Việt Nam có trách nhiệm thẩm định hồ sơ, tổ chức kiểm tra và thực hiện việc cấp giấy phép người lái tàu bay cho những người đề nghị đáp ứng được các yêu cầu của Bộ QCATHK.",
+    "THÀNH PHẦN HỒ SƠ": "Trường hợp Giấy phép mất, rách, hỏng: Đơn đề nghị cấp lại theo mẫu\nTrường hợp sửa đổi: - Đơn đề nghị cấp lại theo mẫu.\nTrường hợp Giấy phép mất, rách, hỏng: Bản gốc hoặc bản sao giấy phép và năng định đã được cấp (nếu có).\nTrường hợp sửa đổi: - Kết quả kiểm tra sát hạch trình độ, kinh nghiệm trên chủng loại, hạng, loại tàu bay phù hợp với năng định đề nghị cấp.\nTrường hợp sửa đổi: - Bản sao chứng chỉ đủ trình độ ngôn ngữ tiếng Anh tối thiểu mức 4 theo quy định tại Phụ ước 1 của Công ước về hàng không dân dụng quốc tế của cơ sở đánh giá trình độ tiếng Anh cho nhân viên hàng không được Cục Hàng không Việt Nam cấp hoặc công nhận còn hiệu lực. Kết quả kiểm tra sát hạch trình độ, kinh nghiệm trên chủng loại, hạng, loại tàu bay phù hợp với năng định đề nghị cấp.\nTrường hợp sửa đổi: - Giấy chứng nhận sức khoẻ phù hợp với quy định của Bộ Y tế và Phần 8 Bộ quy chế an toàn hàng không còn hiệu lực.",
+    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 20 ngày\nTrực tiếp: 20 ngày",
     "CĂN CỨ PHÁP LÝ": "Thông tư sửa đổi, bổ sung một số điều của Bộ quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay - 56/2018/TT-BGTVT\nSửa đổi, bổ sung một số điều của các Thông tư trong lĩnh vực hàng không dân dụng - 28/2023/TT-BGTVT\nLUẬT HÀNG KHÔNG DÂN DỤNG VIỆT NAM - 130/2025/QH15\nThông tư 42/2020/TT-BGTVT - 42/2020/TT-BGTVT\nBan hành Bộ quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay - 01/2011/TT-BGTVT\nSửa đổi, bổ sung một số điều của Bộ Quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay ban hành kèm theo Thông tư số 01/2011/TT-BGTVT ngày 27/01/2011 của Bộ trưởng Bộ GTVT và các Thông tư sửa đổi, bổ sung Thông tư số 01/2011/TT-BGTVT ngày 27/01/2011 của Bộ trưởng Bộ GTVT - Thông tư 09/2023/TT-BGTVT\nSửa đổi, bổ sung một số điều của Thông tư số 01/2011/TT-BGTVT ngày 27 tháng 01 năm 2011 của Bộ trưởng Bộ Giao thông vận tải ban hành Bộ Quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay và Thông tư số 03/2016/TT-BGTVT ngày 31 tháng 3 năm 2016 của Bộ trưởng Bộ Giao thông vận tải sửa đổi, bổ sung một số điều của Thông tư số 21/2011/TT-BGTVT ngày 27 tháng 01 năm 2011 của Bộ trưởng Bộ Giao thông vận tải ban hành Bộ Quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay - 21/2017/TT-BGTVT\nLuật 61/2014/QH13 - 61/2014/QH13\nSửa đổi, bổ sung một số điều của Thông tư số 01/2011/TT-BGTVT ngày 27 tháng 01 năm 2011 của Bộ trưởng Bộ Giao thông vận tải ban hành Bộ Quy chế An toàn hàng không dân dụng lĩnh vực tàu bay và khai thác tàu bay - 03/2016/TT-BGTVT",
     "CƠ QUAN THỰC HIỆN": "Cục Hàng không Việt Nam",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "\tNgười làm đơn đề nghị cấp lại giấy phép người lái tàu bay phải nộp hồ sơ tối thiểu 20 ngày trước ngày hết hạn của giấy phép đã được cấp.",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Người làm đơn đề nghị cấp lại giấy phép người lái tàu bay phải nộp hồ sơ tối thiểu 20 ngày trước ngày hết hạn của giấy phép đã được cấp.",
     "KẾT QUẢ XỬ LÝ": "Giấy phép, năng định người lái tàu bay - 000.00.00.G04-KQ0345",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "\tNgười làm đơn đề nghị cấp lại giấy phép người lái tàu bay phải nộp hồ sơ tối thiểu 20 ngày trước ngày hết hạn của giấy phép đã được cấp."
+    "MÔ TẢ": "Người làm đơn đề nghị cấp lại giấy phép người lái tàu bay phải nộp hồ sơ tối thiểu 20 ngày trước ngày hết hạn của giấy phép đã được cấp."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hàng không",
       "slug": "hang-khong"
@@ -289,7 +214,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       }
     ],
     "agencies": [
@@ -298,6 +223,6 @@
         "slug": "cuc-hang-khong-viet-nam"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

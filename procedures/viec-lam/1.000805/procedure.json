@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfd-a5c0-73df-bffc-f299386b87f5",
   "procedure_code": "1.000805",
   "title": "Sửa đổi, bổ sung giấy chứng nhận đăng ký danh mục nội dung trên dịch vụ phát thanh, truyền hình trả tiền",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-a5c0-73df-bffc-f299386b87f5",
     "source_file": "chi-tiet-thu-tuc-1.000805.pdf",
     "source_path": "procedures/viec-lam/1.000805/chi-tiet-thu-tuc-1.000805.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:21:58.825066+00:00",
-    "source_updated_at": "2026-06-02T08:48:13.868Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:49.350647+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "30854911e5376cfbcf005698bd98d48791d59c0e01635d941a0db8ec730d32c3"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:58.825066+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "682/QĐ-BVHTTDL",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Phát thanh, truyền hình và thông tin điện tử",
   "target_users": [
@@ -37,18 +33,15 @@
   ],
   "agency": {
     "competent_agency": "Bộ Văn hóa, Thể thao và Du lịch",
-    "executing_agency": "Cục Phát thanh, truyền hình và thông tin điện tử",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Phát thanh, truyền hình và thông tin điện tử"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Doanh nghiệp có nhu cầu gửi hồ sơ về Bộ VHTTDL (Cục Phát thanh, truyền hình và Thông tin điện tử).\n- Trong thời hạn 15 ngày kể từ ngày nhận được hồ sơ hợp lệ, Bộ VHTTDL (Cục Phát thanh, truyền hình và Thông tin điện tử) có trách nhiệm xét cấp sửa đổi, bổ sung Giấy chứng nhận đăng ký danh mục nội dung trên dịch vụ phát thanh, truyền hình trả tiền. Trường hợp không cấp sửa đổi, bổ sung Giấy chứng nhận, Bộ VHTTDL (Cục Phát thanh, truyền hình và Thông tin điện tử) có văn bản trả lời nêu rõ lý do.\n",
+      "description": "- Doanh nghiệp có nhu cầu gửi hồ sơ về Bộ VHTTDL (Cục Phát thanh, truyền hình và Thông tin điện tử).\n- Trong thời hạn 15 ngày kể từ ngày nhận được hồ sơ hợp lệ, Bộ VHTTDL (Cục Phát thanh, truyền hình và Thông tin điện tử) có trách nhiệm xét cấp sửa đổi, bổ sung Giấy chứng nhận đăng ký danh mục nội dung trên dịch vụ phát thanh, truyền hình trả tiền. Trường hợp không cấp sửa đổi, bổ sung Giấy chứng nhận, Bộ VHTTDL (Cục Phát thanh, truyền hình và Thông tin điện tử) có văn bản trả lời nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
@@ -57,30 +50,21 @@
     "conditional": [
       {
         "name": "Bản sao có chứng thực hoặc bản sao kèm bản gốc để đối chiếu văn bản thỏa thuận bản quyền đối với kênh chương trình trên dịch vụ phát thanh, truyền hình trả tiền đăng ký",
-        "code": "000.00.00.G14-KQ001938",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Tờ khai đăng ký sửa đổi, bổ sung danh mục kênh chương trình trên dịch vụ phát thanh, truyền hình trả tiền theo mẫu của Bộ Thông tin và Truyền thông quy định",
-        "code": "000.00.00.G14-KQ001937",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Bản sao có chứng thực hoặc bản sao kem bản gốc để đối chiếu văn bản thỏa thuận điểm nhận tín hiệu các kênh chương trình phục vụ nhiệm vụ chính trị, thông tin tuyên truyền thiết yếu",
-        "code": "000.00.00.G14-KQ001939",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -89,35 +73,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -125,51 +89,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "15 ngày làm việc",
-      "processing_time_value": 15,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -177,32 +126,27 @@
     {
       "title": "Viễn thông",
       "document_number": "41/2009/QH12",
-      "id": "019d2bb3-5d84-71c5-b672-ff0a7a1febcd",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư số 19/2016/TT-BTTTT ngày 30 tháng 6 năm 2016 của Bộ Thông tin và Truyền thông \tQuy định các biểu mẫu Tờ khai đăng ký, Đơn đề nghị cấp Giấy phép, Giấy Chứng nhận, Giấy phép và Báo cáo nghiệp vụ theo quy định tại Nghị định số 06/2016/NĐ-CP ngày 18 tháng 01 năm 2016 của Chính phủ về quản lý, cung cấp và sử dụng dịch vụ phát thanh, truyền hình",
       "document_number": "19/2016/TT-BTTTT",
-      "id": "019d2bb3-5d7c-71ab-9f04-a2f6a3dd61a6",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "QUẢN LÝ, CUNG CẤP VÀ SỬ DỤNG DỊCH VỤ PHÁT THANH, TRUYỀN HÌNH",
       "document_number": "06/2016/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe7-52a06d86a489",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Luật báo chí",
       "document_number": "103/2016/QH13",
-      "id": "019d2bb3-5d84-71c5-b671-7ec9f4fae8b8",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 71/2022/NĐ-CP",
       "document_number": "71/2022/NĐ-CP",
-      "id": "019d2bb3-5d87-7195-a445-11ca5010ee5b",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -210,13 +154,12 @@
     {
       "title": "Giấy chứng nhận đăng ký danh mục kênh chương trình trên dịch vụ phát thanh, truyền hình trả tiền hoặc văn bản trả lời",
       "code": "KQ.G14.000137",
-      "id": "019d2bb2-1c75-741b-9abe-f34eb2351c83",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Doanh nghiệp có nhu cầu gửi hồ sơ về Bộ VHTTDL (Cục Phát thanh, truyền hình và Thông tin điện tử).\n- Trong thời hạn 15 ngày kể từ ngày nhận được hồ sơ hợp lệ, Bộ VHTTDL (Cục Phát thanh, truyền hình và Thông tin điện tử) có trách nhiệm xét cấp sửa đổi, bổ sung Giấy chứng nhận đăng ký danh mục nội dung trên dịch vụ phát thanh, truyền hình trả tiền. Trường hợp không cấp sửa đổi, bổ sung Giấy chứng nhận, Bộ VHTTDL (Cục Phát thanh, truyền hình và Thông tin điện tử) có văn bản trả lời nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nBản sao có chứng thực hoặc bản sao kèm bản gốc để đối chiếu văn bản thỏa thuận bản quyền đối với kênh chương trình trên dịch vụ phát thanh, truyền hình trả tiền đăng ký\nTờ khai đăng ký sửa đổi, bổ sung danh mục kênh chương trình trên dịch vụ phát thanh, truyền hình trả tiền theo mẫu của Bộ Thông tin và Truyền thông quy định\nBản sao có chứng thực hoặc bản sao kem bản gốc để đối chiếu văn bản thỏa thuận điểm nhận tín hiệu các kênh chương trình phục vụ nhiệm vụ chính trị, thông tin tuyên truyền thiết yếu",
+    "TRÌNH TỰ THỰC HIỆN": "- Doanh nghiệp có nhu cầu gửi hồ sơ về Bộ VHTTDL (Cục Phát thanh, truyền hình và Thông tin điện tử).\n- Trong thời hạn 15 ngày kể từ ngày nhận được hồ sơ hợp lệ, Bộ VHTTDL (Cục Phát thanh, truyền hình và Thông tin điện tử) có trách nhiệm xét cấp sửa đổi, bổ sung Giấy chứng nhận đăng ký danh mục nội dung trên dịch vụ phát thanh, truyền hình trả tiền. Trường hợp không cấp sửa đổi, bổ sung Giấy chứng nhận, Bộ VHTTDL (Cục Phát thanh, truyền hình và Thông tin điện tử) có văn bản trả lời nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "Bản sao có chứng thực hoặc bản sao kèm bản gốc để đối chiếu văn bản thỏa thuận bản quyền đối với kênh chương trình trên dịch vụ phát thanh, truyền hình trả tiền đăng ký\nTờ khai đăng ký sửa đổi, bổ sung danh mục kênh chương trình trên dịch vụ phát thanh, truyền hình trả tiền theo mẫu của Bộ Thông tin và Truyền thông quy định\nBản sao có chứng thực hoặc bản sao kem bản gốc để đối chiếu văn bản thỏa thuận điểm nhận tín hiệu các kênh chương trình phục vụ nhiệm vụ chính trị, thông tin tuyên truyền thiết yếu",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 15 ngày làm việc\nQua dịch vụ bưu chính: 15 ngày làm việc\nTrực tiếp: 15 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Viễn thông - 41/2009/QH12\nThông tư số 19/2016/TT-BTTTT ngày 30 tháng 6 năm 2016 của Bộ Thông tin và Truyền thông \tQuy định các biểu mẫu Tờ khai đăng ký, Đơn đề nghị cấp Giấy phép, Giấy Chứng nhận, Giấy phép và Báo cáo nghiệp vụ theo quy định tại Nghị định số 06/2016/NĐ-CP ngày 18 tháng 01 năm 2016 của Chính phủ về quản lý, cung cấp và sử dụng dịch vụ phát thanh, truyền hình - 19/2016/TT-BTTTT\nQUẢN LÝ, CUNG CẤP VÀ SỬ DỤNG DỊCH VỤ PHÁT THANH, TRUYỀN HÌNH - 06/2016/NĐ-CP\nLuật báo chí - 103/2016/QH13\nNghị định 71/2022/NĐ-CP - 71/2022/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cục Phát thanh, truyền hình và thông tin điện tử",
@@ -226,14 +169,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Phát thanh, truyền hình và thông tin điện tử",
-      "slug": "phat-thanh-truyen-hinh-va-thong-tin-dien-tu"
+      "slug": "phat-thanh-truyen-hinh-va-thong-tin-ien-tu"
     },
     "implementation_levels": [
       {
@@ -252,15 +190,15 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       }
     ],
     "agencies": [
       {
         "name": "Cục Phát thanh, truyền hình và thông tin điện tử",
-        "slug": "cuc-phat-thanh-truyen-hinh-va-thong-tin-dien-tu"
+        "slug": "cuc-phat-thanh-truyen-hinh-va-thong-tin-ien-tu"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

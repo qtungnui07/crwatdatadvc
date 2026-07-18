@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfd-00fb-77fe-bb1c-3d4c4d82458e",
   "procedure_code": "3.000049",
   "title": "Chấp thuận ngân hàng phục vụ cho khoản vay, khoản phát hành trái phiếu được Chính phủ bảo lãnh của doanh nghiệp",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-00fb-77fe-bb1c-3d4c4d82458e",
     "source_file": "chi-tiet-thu-tuc-3.000049.pdf",
     "source_path": "procedures/viec-lam/3.000049/chi-tiet-thu-tuc-3.000049.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:23.110535+00:00",
-    "source_updated_at": "2026-04-08T11:03:14.780Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:32.536923+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "cc0d0958e516a1e190090df5848416fbdd0a39cf43233dc3823f6f4ccaa4662f"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:23.110535+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1734/QĐ-BTC",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "OTHER",
   "sector": "Quản lý nợ",
   "target_users": [
@@ -36,18 +32,15 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Bộ Tài chính",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Tài chính"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": ". Bước 1. Đối tượng được bảo lãnh gửi hồ sơ đăng ký ngân hàng phục vụ với Bộ Tài chính sau khi được cấp có thẩm quyền phê duyệt phê duyệt cấp bảo lãnh chính phủ theo quy định tại Khoản 4 Điều 22 Nghị định 91/2018/NĐ-CP ngày 26/6/2018.\nBước 2. Bộ Tài chính có ý kiến chấp thuận hoặc từ chối (nêu rõ lý do) bằng văn bản đối với đề xuất Ngân hàng phục vụ của Đối tượng được bảo lãnh trong vòng bảy (07) ngày làm việc kể từ ngày nhận đủ hồ sơ của Đối tượng được bảo lãnh theo quy định tại Khoản 4 Điều 22 Nghị định 91/2018/NĐ-CP ngày 26/6/2018.\n\n- Trường hợp bị từ chối, Đối tượng được bảo lãnh có trách nhiệm lựa chọn Ngân hàng phục vụ khác đủ điều kiện theo quy định tại Khoản 2 Điều 22 Nghị định 91/2018/NĐ-CP ngày 26/6/2018 và đề xuất Bộ Tài chính xem xét, chấp thuận.\n\n\n- Trường hợp Đối tượng được bảo lãnh không lựa chọn được Ngân hàng phục vụ, Bộ Tài chính chỉ định Ngân hàng phục vụ sau khi tham khảo ý kiến của Đối tượng được bảo lãnh.\n",
+      "description": ". Bước 1. Đối tượng được bảo lãnh gửi hồ sơ đăng ký ngân hàng phục vụ với Bộ Tài chính sau khi được cấp có thẩm quyền phê duyệt phê duyệt cấp bảo lãnh chính phủ theo quy định tại Khoản 4 Điều 22 Nghị định 91/2018/NĐ-CP ngày 26/6/2018.\nBước 2. Bộ Tài chính có ý kiến chấp thuận hoặc từ chối (nêu rõ lý do) bằng văn bản đối với đề xuất Ngân hàng phục vụ của Đối tượng được bảo lãnh trong vòng bảy (07) ngày làm việc kể từ ngày nhận đủ hồ sơ của Đối tượng được bảo lãnh theo quy định tại Khoản 4 Điều 22 Nghị định 91/2018/NĐ-CP ngày 26/6/2018.\n\n- Trường hợp bị từ chối, Đối tượng được bảo lãnh có trách nhiệm lựa chọn Ngân hàng phục vụ khác đủ điều kiện theo quy định tại Khoản 2 Điều 22 Nghị định 91/2018/NĐ-CP ngày 26/6/2018 và đề xuất Bộ Tài chính xem xét, chấp thuận.\n\n\n- Trường hợp Đối tượng được bảo lãnh không lựa chọn được Ngân hàng phục vụ, Bộ Tài chính chỉ định Ngân hàng phục vụ sau khi tham khảo ý kiến của Đối tượng được bảo lãnh.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
@@ -56,30 +49,21 @@
     "conditional": [
       {
         "name": "+ Dự thảo Hợp đồng giữa Đối tượng được bảo lãnh và Ngân hàng phục vụ, trong đó quy định rõ trách nhiệm, nghĩa vụ của các bên liên quan (phù hợp với các quy định về trách nhiệm của Đối tượng được bảo lãnh và Ngân hàng phục vụ tại Nghị định 91/2018/NĐ-CP ngày 26/6/2018);",
-        "code": "000.00.00.G12-KQ6615",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Văn bản đề nghị lựa chọn Ngân hàng phục vụ của Đối tượng được bảo lãnh (bản chính);",
-        "code": "000.00.00.G12-KQ6614",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Tài liệu chứng minh Ngân hàng phục vụ đủ điều kiện theo quy định tại Khoản 2 Điều này (tài liệu được công bố chính thức hoặc bản sao có chứng thực).",
-        "code": "000.00.00.G12-KQ6616",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -88,17 +72,7 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Mức phí bảo lãnh chính phủ được quy định cụ thể tại Khoản 1 Điều 51 Nghị định số 91/2018/NĐ-CP ngày 26/06/2018.",
-          "attachment": null
-        }
-      ],
+      "fee": "Mức phí bảo lãnh chính phủ được quy định cụ thể tại Khoản 1 Điều 51 Nghị định số 91/2018/NĐ-CP ngày 26/06/2018.",
       "description": "",
       "source_page": null
     },
@@ -106,42 +80,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Mức phí bảo lãnh chính phủ được quy định cụ thể tại Khoản 1 Điều 51 Nghị định số 91/2018/NĐ-CP ngày 26/06/2018.",
-          "attachment": null
-        }
-      ],
+      "fee": "Mức phí bảo lãnh chính phủ được quy định cụ thể tại Khoản 1 Điều 51 Nghị định số 91/2018/NĐ-CP ngày 26/06/2018.",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Mức phí bảo lãnh chính phủ được quy định cụ thể tại Khoản 1 Điều 51 Nghị định số 91/2018/NĐ-CP ngày 26/06/2018.",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Mức phí bảo lãnh chính phủ được quy định cụ thể tại Khoản 1 Điều 51 Nghị định số 91/2018/NĐ-CP ngày 26/06/2018.",
-        "attachment": null
+        "amount_text": "Mức phí bảo lãnh chính phủ được quy định cụ thể tại Khoản 1 Điều 51 Nghị định số 91/2018/NĐ-CP ngày 26/06/2018.",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Mức phí bảo lãnh chính phủ được quy định cụ thể tại Khoản 1 Điều 51 Nghị định số 91/2018/NĐ-CP ngày 26/06/2018.",
-        "attachment": null
+        "amount_text": "Mức phí bảo lãnh chính phủ được quy định cụ thể tại Khoản 1 Điều 51 Nghị định số 91/2018/NĐ-CP ngày 26/06/2018.",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -151,13 +112,12 @@
     {
       "title": "Văn bản chấp thuận hoặc từ chối của Bộ Tài chính đối với đề xuất Ngân hàng phục vụ của Đối tượng được bảo lãnh",
       "code": "KQ.G12.001229",
-      "id": "019d2bb2-1c72-75fa-a593-36c280d68667",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": ". Bước 1. Đối tượng được bảo lãnh gửi hồ sơ đăng ký ngân hàng phục vụ với Bộ Tài chính sau khi được cấp có thẩm quyền phê duyệt phê duyệt cấp bảo lãnh chính phủ theo quy định tại Khoản 4 Điều 22 Nghị định 91/2018/NĐ-CP ngày 26/6/2018.\nBước 2. Bộ Tài chính có ý kiến chấp thuận hoặc từ chối (nêu rõ lý do) bằng văn bản đối với đề xuất Ngân hàng phục vụ của Đối tượng được bảo lãnh trong vòng bảy (07) ngày làm việc kể từ ngày nhận đủ hồ sơ của Đối tượng được bảo lãnh theo quy định tại Khoản 4 Điều 22 Nghị định 91/2018/NĐ-CP ngày 26/6/2018.\n\n- Trường hợp bị từ chối, Đối tượng được bảo lãnh có trách nhiệm lựa chọn Ngân hàng phục vụ khác đủ điều kiện theo quy định tại Khoản 2 Điều 22 Nghị định 91/2018/NĐ-CP ngày 26/6/2018 và đề xuất Bộ Tài chính xem xét, chấp thuận.\n\n\n- Trường hợp Đối tượng được bảo lãnh không lựa chọn được Ngân hàng phục vụ, Bộ Tài chính chỉ định Ngân hàng phục vụ sau khi tham khảo ý kiến của Đối tượng được bảo lãnh.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n+ Dự thảo Hợp đồng giữa Đối tượng được bảo lãnh và Ngân hàng phục vụ, trong đó quy định rõ trách nhiệm, nghĩa vụ của các bên liên quan (phù hợp với các quy định về trách nhiệm của Đối tượng được bảo lãnh và Ngân hàng phục vụ tại Nghị định 91/2018/NĐ-CP ngày 26/6/2018);\n+ Văn bản đề nghị lựa chọn Ngân hàng phục vụ của Đối tượng được bảo lãnh (bản chính);\n+ Tài liệu chứng minh Ngân hàng phục vụ đủ điều kiện theo quy định tại Khoản 2 Điều này (tài liệu được công bố chính thức hoặc bản sao có chứng thực).",
+    "TRÌNH TỰ THỰC HIỆN": ". Bước 1. Đối tượng được bảo lãnh gửi hồ sơ đăng ký ngân hàng phục vụ với Bộ Tài chính sau khi được cấp có thẩm quyền phê duyệt phê duyệt cấp bảo lãnh chính phủ theo quy định tại Khoản 4 Điều 22 Nghị định 91/2018/NĐ-CP ngày 26/6/2018.\nBước 2. Bộ Tài chính có ý kiến chấp thuận hoặc từ chối (nêu rõ lý do) bằng văn bản đối với đề xuất Ngân hàng phục vụ của Đối tượng được bảo lãnh trong vòng bảy (07) ngày làm việc kể từ ngày nhận đủ hồ sơ của Đối tượng được bảo lãnh theo quy định tại Khoản 4 Điều 22 Nghị định 91/2018/NĐ-CP ngày 26/6/2018.\n\n- Trường hợp bị từ chối, Đối tượng được bảo lãnh có trách nhiệm lựa chọn Ngân hàng phục vụ khác đủ điều kiện theo quy định tại Khoản 2 Điều 22 Nghị định 91/2018/NĐ-CP ngày 26/6/2018 và đề xuất Bộ Tài chính xem xét, chấp thuận.\n\n\n- Trường hợp Đối tượng được bảo lãnh không lựa chọn được Ngân hàng phục vụ, Bộ Tài chính chỉ định Ngân hàng phục vụ sau khi tham khảo ý kiến của Đối tượng được bảo lãnh.",
+    "THÀNH PHẦN HỒ SƠ": "+ Dự thảo Hợp đồng giữa Đối tượng được bảo lãnh và Ngân hàng phục vụ, trong đó quy định rõ trách nhiệm, nghĩa vụ của các bên liên quan (phù hợp với các quy định về trách nhiệm của Đối tượng được bảo lãnh và Ngân hàng phục vụ tại Nghị định 91/2018/NĐ-CP ngày 26/6/2018);\n+ Văn bản đề nghị lựa chọn Ngân hàng phục vụ của Đối tượng được bảo lãnh (bản chính);\n+ Tài liệu chứng minh Ngân hàng phục vụ đủ điều kiện theo quy định tại Khoản 2 Điều này (tài liệu được công bố chính thức hoặc bản sao có chứng thực).",
     "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 7 ngày làm việc\nTrực tiếp: 7 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "",
     "CƠ QUAN THỰC HIỆN": "Bộ Tài chính",
@@ -167,11 +127,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Quản lý nợ",
       "slug": "quan-ly-no"
@@ -198,6 +153,6 @@
         "slug": "bo-tai-chinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

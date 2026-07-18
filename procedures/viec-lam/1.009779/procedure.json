@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-a2fc-77cf-83fa-2fe7e8656fad",
   "procedure_code": "1.009779",
   "title": "Đăng ký chào bán cổ phiếu ra nước ngoài của công ty đại chúng",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-a2fc-77cf-83fa-2fe7e8656fad",
     "source_file": "chi-tiet-thu-tuc-1.009779.pdf",
     "source_path": "procedures/viec-lam/1.009779/chi-tiet-thu-tuc-1.009779.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:05.421032+00:00",
-    "source_updated_at": "2026-04-08T10:25:02.560Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:38.900692+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "682379fd37e2fac24af69842a50065f347947c6fd95029c544e5f38bac7b53f7"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:05.421032+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "3169/QĐ-BTC",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Chứng khoán",
   "target_users": [
@@ -35,18 +31,29 @@
   ],
   "agency": {
     "competent_agency": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
-    "executing_agency": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "+ Bước 1: Công ty đại chúng phải gửi hồ sơ đăng ký chào bán cổ phiếu ra nước ngoài cho Ủy ban Chứng khoán Nhà nước (UBCKNN) trước khi gửi hồ sơ đăng ký chào bán chính thức cho cơ quan có thẩm quyền tại nước ngoài.\n+ Bước 2: UBCKNN tiếp nhận, xem xét hồ sơ.\n+ Bước 3: Trong thời hạn 10 (mười) ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ, Ủy ban Chứng khoán Nhà nước có chấp thuận đề nghị việc đăng ký chào bán cổ phiếu ra nước ngoài bằng văn bản và đăng tải trên trang thông tin điện tử của Ủy ban Chứng khoán Nhà nước; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do.\n",
+      "description": "+ Bước 1: Công ty đại chúng phải gửi hồ sơ đăng ký chào bán cổ phiếu ra nước ngoài cho Ủy ban Chứng khoán Nhà nước (UBCKNN) trước khi gửi hồ sơ đăng ký chào bán chính thức cho cơ quan có thẩm quyền tại nước ngoài.",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "+ Bước 2: UBCKNN tiếp nhận, xem xét hồ sơ.",
+      "example": null,
+      "source_page": 1
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "+ Bước 3: Trong thời hạn 10 (mười) ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ, Ủy ban Chứng khoán Nhà nước có chấp thuận đề nghị việc đăng ký chào bán cổ phiếu ra nước ngoài bằng văn bản và đăng tải trên trang thông tin điện tử của Ủy ban Chứng khoán Nhà nước; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
@@ -55,48 +62,33 @@
     "conditional": [
       {
         "name": "+ Dự thảo hồ sơ đăng ký chào bán với cơ quan có thẩm quyền của nước sở tại nơi tổ chức phát hành đăng ký chào bán hoặc ý kiến pháp lý của công ty tư vấn luật quốc tế về việc chào bán của công ty không phải đăng ký với cơ quan có thẩm quyền của nước sở tại.",
-        "code": "000.00.00.G12-KQ014725",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Giấy đề nghị chấp thuận việc đăng ký chào bán cổ phiếu ra nước ngoài theo Mẫu số 19 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP",
-        "code": "000.00.00.G12-KQ014721",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Quyết định của Đại hội đồng cổ đông thông qua phương án chào bán cổ phiếu và phương án sử dụng vốn thu được từ đợt chào bán cổ phiếu ra nước ngoài; thông qua hoặc ủy quyền cho Hội đồng quản trị thông qua phương án đảm bảo việc phát hành cổ phiếu đáp ứng quy định về tỷ lệ sở hữu nước ngoài",
-        "code": "000.00.00.G12-KQ014722",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Giấy xác nhận của tổ chức tín dụng được phép theo quy định của pháp luật quản lý ngoại hối về việc tổ chức phát hành mở tài khoản phong tỏa nhận tiền mua cổ phiếu bằng ngoại tệ",
-        "code": "000.00.00.G12-KQ014723",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Văn bản chấp thuận của Ngân hàng Nhà nước Việt Nam về việc phát hành cổ phiếu ra nước ngoài theo quy định của pháp luật ;",
-        "code": "000.00.00.G12-KQ014724",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -105,35 +97,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày",
-      "processing_time_value": 10,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày",
-      "processing_time_value": 10,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -141,51 +113,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày",
-      "processing_time_value": 10,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -193,26 +150,22 @@
     {
       "title": "Luật số 56/2024/QH15 của Quốc hội: Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính",
       "document_number": "56/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b673-8c498fc98ef5",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 155/2020/NĐ-CP",
       "document_number": "155/2020/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a640-fee63f44d848",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Luật 54/2019/QH14",
       "document_number": "54/2019/QH14",
-      "id": "019d2bb3-5d87-7195-a442-db836cad8655",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định sửa đổi, bổ sung một số điều của Nghị định số 155/2020/NĐ-CP ngày 31 tháng 12 năm 2020 của Chính phủ quy định chi tiết thi hành một số điều của Luật Chứng khoán",
       "document_number": "245/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afed-f8eed80b1842",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -220,19 +173,17 @@
     {
       "title": "Văn bản của UBCKNN về việc đã nhận đầy đủ tài liệu báo cáo phát hành cổ phiếu để thực hiện quyền của chứng quyền của tổ chức phát hành",
       "code": "KQ.G12.001123",
-      "id": "019d2bb2-1c72-75fa-a591-aca355ae07e2",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Công văn từ chối nếu Hồ sơ không đáp ứng điều kiện hoặc không bổ sung đầy đủ, hợp lệ theo quy định",
       "code": "KQ.G12.001145",
-      "id": "019d2bb2-1c72-75fa-a591-f3922e25308c",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Công ty đại chúng phải gửi hồ sơ đăng ký chào bán cổ phiếu ra nước ngoài cho Ủy ban Chứng khoán Nhà nước (UBCKNN) trước khi gửi hồ sơ đăng ký chào bán chính thức cho cơ quan có thẩm quyền tại nước ngoài.\n+ Bước 2: UBCKNN tiếp nhận, xem xét hồ sơ.\n+ Bước 3: Trong thời hạn 10 (mười) ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ, Ủy ban Chứng khoán Nhà nước có chấp thuận đề nghị việc đăng ký chào bán cổ phiếu ra nước ngoài bằng văn bản và đăng tải trên trang thông tin điện tử của Ủy ban Chứng khoán Nhà nước; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n+ Dự thảo hồ sơ đăng ký chào bán với cơ quan có thẩm quyền của nước sở tại nơi tổ chức phát hành đăng ký chào bán hoặc ý kiến pháp lý của công ty tư vấn luật quốc tế về việc chào bán của công ty không phải đăng ký với cơ quan có thẩm quyền của nước sở tại.\n+ Giấy đề nghị chấp thuận việc đăng ký chào bán cổ phiếu ra nước ngoài theo Mẫu số 19 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP\n+ Quyết định của Đại hội đồng cổ đông thông qua phương án chào bán cổ phiếu và phương án sử dụng vốn thu được từ đợt chào bán cổ phiếu ra nước ngoài; thông qua hoặc ủy quyền cho Hội đồng quản trị thông qua phương án đảm bảo việc phát hành cổ phiếu đáp ứng quy định về tỷ lệ sở hữu nước ngoài\n+ Giấy xác nhận của tổ chức tín dụng được phép theo quy định của pháp luật quản lý ngoại hối về việc tổ chức phát hành mở tài khoản phong tỏa nhận tiền mua cổ phiếu bằng ngoại tệ\n+ Văn bản chấp thuận của Ngân hàng Nhà nước Việt Nam về việc phát hành cổ phiếu ra nước ngoài theo quy định của pháp luật ;",
+    "TRÌNH TỰ THỰC HIỆN": "+ Bước 1: Công ty đại chúng phải gửi hồ sơ đăng ký chào bán cổ phiếu ra nước ngoài cho Ủy ban Chứng khoán Nhà nước (UBCKNN) trước khi gửi hồ sơ đăng ký chào bán chính thức cho cơ quan có thẩm quyền tại nước ngoài.\n+ Bước 2: UBCKNN tiếp nhận, xem xét hồ sơ.\n+ Bước 3: Trong thời hạn 10 (mười) ngày kể từ ngày nhận được hồ sơ đầy đủ và hợp lệ, Ủy ban Chứng khoán Nhà nước có chấp thuận đề nghị việc đăng ký chào bán cổ phiếu ra nước ngoài bằng văn bản và đăng tải trên trang thông tin điện tử của Ủy ban Chứng khoán Nhà nước; trường hợp từ chối, phải trả lời bằng văn bản và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "+ Dự thảo hồ sơ đăng ký chào bán với cơ quan có thẩm quyền của nước sở tại nơi tổ chức phát hành đăng ký chào bán hoặc ý kiến pháp lý của công ty tư vấn luật quốc tế về việc chào bán của công ty không phải đăng ký với cơ quan có thẩm quyền của nước sở tại.\n+ Giấy đề nghị chấp thuận việc đăng ký chào bán cổ phiếu ra nước ngoài theo Mẫu số 19 Phụ lục ban hành kèm theo Nghị định 155/2020/NĐ-CP\n+ Quyết định của Đại hội đồng cổ đông thông qua phương án chào bán cổ phiếu và phương án sử dụng vốn thu được từ đợt chào bán cổ phiếu ra nước ngoài; thông qua hoặc ủy quyền cho Hội đồng quản trị thông qua phương án đảm bảo việc phát hành cổ phiếu đáp ứng quy định về tỷ lệ sở hữu nước ngoài\n+ Giấy xác nhận của tổ chức tín dụng được phép theo quy định của pháp luật quản lý ngoại hối về việc tổ chức phát hành mở tài khoản phong tỏa nhận tiền mua cổ phiếu bằng ngoại tệ\n+ Văn bản chấp thuận của Ngân hàng Nhà nước Việt Nam về việc phát hành cổ phiếu ra nước ngoài theo quy định của pháp luật ;",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày\nQua dịch vụ bưu chính: 10 ngày\nTrực tiếp: 10 ngày",
     "CĂN CỨ PHÁP LÝ": "Luật số 56/2024/QH15 của Quốc hội: Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính - 56/2024/QH15\nNghị định 155/2020/NĐ-CP - 155/2020/NĐ-CP\nLuật 54/2019/QH14 - 54/2019/QH14\nNghị định sửa đổi, bổ sung một số điều của Nghị định số 155/2020/NĐ-CP ngày 31 tháng 12 năm 2020 của Chính phủ quy định chi tiết thi hành một số điều của Luật Chứng khoán - 245/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Ủy ban Chứng khoán Nhà nước - Bộ tài chính",
@@ -242,11 +193,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Chứng khoán",
       "slug": "chung-khoan"
@@ -269,6 +215,6 @@
         "slug": "uy-ban-chung-khoan-nha-nuoc-bo-tai-chinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

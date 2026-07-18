@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfe-0b63-74ab-9148-91acc3dc2da7",
   "procedure_code": "1.000312",
   "title": "Cấp Giấy phép kinh doanh vận chuyển hàng không, Giấy phép kinh doanh  hàng không chung",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-0b63-74ab-9148-91acc3dc2da7",
     "source_file": "chi-tiet-thu-tuc-1.000312.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.000312/chi-tiet-thu-tuc-1.000312.pdf",
     "page_count": 6,
-    "extracted_at": "2026-07-18T02:21:58.248535+00:00",
-    "source_updated_at": "2026-04-16T12:38:15.774Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:36.195687+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "15040e067e22f6544f2fa845d5ea9a6e38de740cc11e3fd4b7879053465fbf8f"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:58.248535+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "71/QĐ-BXD",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hàng không",
   "target_users": [
@@ -39,84 +35,57 @@
   ],
   "agency": {
     "competent_agency": "Thủ tướng Chính phủ",
-    "executing_agency": "Bộ Xây dựng, Cục Hàng không Việt Nam",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "119 Nguyễn Sơn, phường Bồ Đề, thành phố Hà Nội"
+    "executing_agency": "Bộ Xây dựng, Cục Hàng không Việt Nam"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "a) Nộp hồ sơ TTHC:\n\tNgười đề nghị gửi hồ sơ trực tiếp hoặc qua hệ thống bưu chính hoặc bằng các hình thức phù hợp khác đến Cục Hàng không Việt Nam và phải chịu trách nhiệm về tính chính xác, trung thực của các thông tin trong hồ sơ.\nb) Giải quyết TTHC:\n- Trường hợp hồ sơ hợp lệ, trong thời hạn 03 ngày làm việc, Cục Hàng không Việt Nam có văn bản thông báo tiếp nhận hồ sơ và yêu cầu doanh nghiệp đóng phí thẩm định theo quy định. Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ phí thẩm định, Cục Hàng không Việt Nam tiến hành thẩm định hồ sơ và báo cáo Bộ Xây dựng kết quả thẩm định.\n- Trong thời hạn 10 ngày làm việc kể từ ngày nhận được báo cáo kết quả thẩm định của Cục Hàng không Việt Nam, Bộ Xây dựng xem xét, trình Thủ tướng Chính phủ. Trường hợp Bộ Xây dựng không chấp thuận kết quả thẩm định thì có văn bản trả lời Cục Hàng không Việt Nam và nêu rõ lý do.\n- Trong thời hạn 07 ngày làm việc kể từ ngày nhận được Tờ trình của Bộ Xây dựng, Thủ tướng Chính phủ xem xét, cho phép Bộ Xây dựng cấp Giấy phép kinh doanh vận chuyển hàng không, Giấy phép kinh doanh hàng không chung. Trường hợp không cho phép, Thủ tướng Chính phủ thông báo tới Bộ Xây dựng và nêu rõ lý do.\n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được ý kiến bằng văn bản của Thủ tướng Chính phủ, Bộ Xây dựng cấp Giấy phép theo Mẫu số 02 quy định tại Phụ lục ban hành kèm theo Nghị định này hoặc thông báo ý kiến của Thủ tướng Chính phủ về việc không cấp Giấy phép kinh doanh vận chuyển hàng không, Giấy phép kinh doanh hàng không chung.\n",
+      "description": "a) Nộp hồ sơ TTHC:\n\tNgười đề nghị gửi hồ sơ trực tiếp hoặc qua hệ thống bưu chính hoặc bằng các hình thức phù hợp khác đến Cục Hàng không Việt Nam và phải chịu trách nhiệm về tính chính xác, trung thực của các thông tin trong hồ sơ.\nb) Giải quyết TTHC:\n- Trường hợp hồ sơ hợp lệ, trong thời hạn 03 ngày làm việc, Cục Hàng không Việt Nam có văn bản thông báo tiếp nhận hồ sơ và yêu cầu doanh nghiệp đóng phí thẩm định theo quy định. Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ phí thẩm định, Cục Hàng không Việt Nam tiến hành thẩm định hồ sơ và báo cáo Bộ Xây dựng kết quả thẩm định.\n- Trong thời hạn 10 ngày làm việc kể từ ngày nhận được báo cáo kết quả thẩm định của Cục Hàng không Việt Nam, Bộ Xây dựng xem xét, trình Thủ tướng Chính phủ. Trường hợp Bộ Xây dựng không chấp thuận kết quả thẩm định thì có văn bản trả lời Cục Hàng không Việt Nam và nêu rõ lý do.\n- Trong thời hạn 07 ngày làm việc kể từ ngày nhận được Tờ trình của Bộ Xây dựng, Thủ tướng Chính phủ xem xét, cho phép Bộ Xây dựng cấp Giấy phép kinh doanh vận chuyển hàng không, Giấy phép kinh doanh hàng không chung. Trường hợp không cho phép, Thủ tướng Chính phủ thông báo tới Bộ Xây dựng và nêu rõ lý do.\n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được ý kiến bằng văn bản của Thủ tướng Chính phủ, Bộ Xây dựng cấp Giấy phép theo Mẫu số 02 quy định tại Phụ lục ban hành kèm theo Nghị định này hoặc thông báo ý kiến của Thủ tướng Chính phủ về việc không cấp Giấy phép kinh doanh vận chuyển hàng không, Giấy phép kinh doanh hàng không chung.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Văn bản đề nghị cấp giấy phép theo mẫu",
-        "code": "000.00.00.G04-KQ004504",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d9034-4585-70b8-a7f4-541780fefc1e",
-            "name": "1.000312.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "1.000312.docx",
+        "source_page": 3
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Báo cáo (kèm tài liệu chứng minh) về việc đáp ứng các điều kiện kinh doanh vận chuyển hàng không trong đó gồm các nội dung: Phương án về số lượng tàu bay dự kiến khai thác; phương án tổ chức bộ máy bảo đảm khai thác tàu bay, kinh doanh vận tải hàng không, phương án kinh doanh và chiến lược phát triển sản phẩm; nhãn hiệu dự kiến sử dụng; sơ đồ bộ máy tổ chức của doanh nghiệp;",
-        "code": "000.00.00.G04-KQ2643",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Hợp đồng nguyên tắc hoặc thỏa thuận về việc mua, thuê mua hoặc thuê tàu bay",
-        "code": "000.00.00.G04-KQ2646",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Danh sách thành viên, cổ đông tại thời điểm nộp hồ sơ; danh sách thành viên, cổ đông phải đảm bảo đầy đủ các thông tin: Họ và tên; ngày tháng năm sinh; quốc tịch; nơi đăng ký hộ khẩu thường trú; chỗ ở hiện tại; tỷ lệ phần vốn góp hay số cổ phần nắm giữ; người đại diện quản lý phần vốn góp đối với thành viên, cổ đông là tổ chức; thỏa thuận góp vốn của các cổ đông, thành viên (bản sao có xác nhận của doanh nghiệp hoặc bản sao và xuất trình bản chính để đối chiếu).",
-        "code": "000.00.00.G04-KQ2648",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Bản sao Điều lệ hoạt động của doanh nghiệp;",
-        "code": "000.00.00.G04-KQ2647",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Bản chính văn bản xác nhận vốn;",
-        "code": "000.00.00.G04-KQ2644",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -125,60 +94,37 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "35 ngày làm việc",
-      "processing_time_value": 35,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Mức phí kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo quy định tại Thông tư số 64/2025/TT-BTC: ngày 30/6/2025 của Bộ trưởng Bộ Tài chính quy định mức thu , miễn một số khoản phí, lệ phí nhằm hỗ trợ doanh nghiệp, người dân",
-          "attachment": null
-        }
-      ],
+      "fee": "Mức phí kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo quy định tại Thông tư số 64/2025/TT-BTC: ngày 30/6/2025 của Bộ trưởng Bộ Tài chính quy định mức thu , miễn một số khoản phí, lệ phí nhằm hỗ trợ doanh nghiệp, người dân",
       "description": "Nộp hồ sơ trực tiếp hoặc \nqua hệ thống bưu chính;\nHoặc bằng các hình thức phù hợp khác.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "35 ngày làm việc",
-      "processing_time_value": 35,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "Mức phí kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo quy định tại Thông tư số 64/2025/TT-BTC: ngày 30/6/2025 của Bộ trưởng Bộ Tài chính quy định mức thu , miễn một số khoản phí, lệ phí nhằm hỗ trợ doanh nghiệp, người dân",
-          "attachment": null
-        }
-      ],
+      "fee": "Mức phí kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo quy định tại Thông tư số 64/2025/TT-BTC: ngày 30/6/2025 của Bộ trưởng Bộ Tài chính quy định mức thu , miễn một số khoản phí, lệ phí nhằm hỗ trợ doanh nghiệp, người dân",
       "description": "Nộp hồ sơ trực tiếp hoặc\n qua hệ thống bưu chính;\nHoặc bằng các hình thức phù hợp khác.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Mức phí kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo quy định tại Thông tư số 64/2025/TT-BTC: ngày 30/6/2025 của Bộ trưởng Bộ Tài chính quy định mức thu , miễn một số khoản phí, lệ phí nhằm hỗ trợ doanh nghiệp, người dân",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Mức phí kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo quy định tại Thông tư số 64/2025/TT-BTC: ngày 30/6/2025 của Bộ trưởng Bộ Tài chính quy định mức thu , miễn một số khoản phí, lệ phí nhằm hỗ trợ doanh nghiệp, người dân",
-        "attachment": null
+        "amount_text": "Mức phí kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo quy định tại Thông tư số 64/2025/TT-BTC: ngày 30/6/2025 của Bộ trưởng Bộ Tài chính quy định mức thu , miễn một số khoản phí, lệ phí nhằm hỗ trợ doanh nghiệp, người dân",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "Mức phí kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo quy định tại Thông tư số 64/2025/TT-BTC: ngày 30/6/2025 của Bộ trưởng Bộ Tài chính quy định mức thu , miễn một số khoản phí, lệ phí nhằm hỗ trợ doanh nghiệp, người dân",
-        "attachment": null
+        "amount_text": "Mức phí kể từ ngày 01/7/2025 đến hết ngày 31/12/2026 theo quy định tại Thông tư số 64/2025/TT-BTC: ngày 30/6/2025 của Bộ trưởng Bộ Tài chính quy định mức thu , miễn một số khoản phí, lệ phí nhằm hỗ trợ doanh nghiệp, người dân",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
@@ -186,44 +132,37 @@
     {
       "title": "Sửa đổi Nghị định 30/2013/NĐ-CP về kinh doanh vận chuyển hàng không và hoạt động hàng không chung và Nghị định 92/2016/NĐ-CP quy định về các ngành, nghề kinh doanh có điều kiện trong lĩnh vực hàng không dân dụng",
       "document_number": "15/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-809203867ef3",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực hàng không",
       "document_number": "193/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4a-d5e2110a1c95",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật 61/2014/QH13",
       "document_number": "61/2014/QH13",
-      "id": "019d2bb3-5d84-71c5-b670-c71b96f6d323",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quy định về các ngành, nghề kinh doanh có điều kiện trong lĩnh vực hàng không dân dụng",
       "document_number": "92/2016/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b472-b457c2faa676",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "LUẬT HÀNG KHÔNG DÂN DỤNG VIỆT NAM",
       "document_number": "130/2025/QH15",
-      "id": "019d2bb3-5d84-71c5-b673-eb8f88e8cb17",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "sửa đổi, bổ sung một số điều của các Nghị định để cắt giảm, đơn giản hóa thủ tục hành chính liên quan đến hoạt động sản xuất, kinh doanh thuộc phạm vi quản lý của Bộ Xây dựng",
       "document_number": "14/2026/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-e76414bd406c",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "sửa đổi, bổ sung một số điều của Nghị định số 92/2016/NĐ-CP ngày 01 tháng 7 năm 2016 của Chính phủ quy định về các ngành, nghề kinh doanh có điều kiện trong lĩnh vực hàng không dân dụng và Nghị định số 30/2013/NĐ-CP ngày 08 tháng 4 năm 2013 của Chính phủ về kinh doanh vận chuyển hàng không và hoạt động hàng không chung",
       "document_number": "89/2019/NĐ-CP",
-      "id": "019d2bb3-5d87-7195-a446-d9c01bbcae92",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "* Điều kiện về phương án bảo đảm có tàu bay khai thác\n1. Phương án bảo đảm có tàu bay khai thác bao gồm các nội dung sau đây:7\na) Số lượng, chủng loại tàu bay, tuổi của tàu bay;\nb) Hình thức chiếm hữu;\nc) Phương án khai thác, bảo dưỡng và nguồn nhân lực bảo đảm khai thác, bảo dưỡng\ntàu bay.\n2. Số lượng tàu bay duy trì trong suốt quá trình kinh doanh vận tải hàng không tối\nthiểu là 03 tàu bay đối với kinh doanh vận chuyển hàng không; tối thiểu là 01 tàu bay\nđối với kinh doanh hàng không chung.\n* Điều kiện về tổ chức bộ máy\n1. Có tổ chức bộ máy thực hiện hệ thống quản lý an toàn, an ninh, hoạt động khai\nthác tàu bay, bảo dưỡng tàu bay, huấn luyện bay, khai thác mặt đất.\n2. Người được bổ nhiệm giữ vị trí phụ trách trong hệ thống quản lý an toàn, an ninh,\nkhai thác tàu bay, bảo dưỡng tàu bay, huấn luyện bay phải có kinh nghiệm tối thiểu 03\nnăm công tác liên tục trong lĩnh vực được bổ nhiệm, có văn bằng, chứng chỉ được cấp\nhoặc công nhận theo quy định của pháp luật về hàng không dân dụng.\n3. Đối với doanh nghiệp có vốn đầu tư nước ngoài, số thành viên là người nước\nngoài không được vượt quá một phần ba tổng số thành viên tham gia bộ máy điều hành.\nBộ máy điều hành để tính tỷ lệ theo yêu cầu của khoản này gồm:\na) Tổng Giám đốc (Giám đốc), các Phó Tổng Giám đốc (Phó Giám đốc);\nb) Kế toán trưởng;\nc) Người phụ trách các lĩnh vực: hệ thống quản lý an toàn; khai thác tàu bay; bảo\ndưỡng tàu bay; huấn luyện tổ bay và người giữ chức vụ tương đương xác định theo bộ\nmáy tổ chức của doanh nghiệp.\n* Điều kiện về vốn\n1. Mức vốn tối thiểu (bao gồm vốn chủ sở hữu và vốn vay) để thành lập và duy trì\ndoanh nghiệp kinh doanh vận chuyển hàng không:\na) Khai thác đến 10 tàu bay: 300 tỷ đồng Việt Nam;\nb) Khai thác từ 11 đến 30 tàu bay: 600 tỷ đồng Việt Nam;\nc) Khai thác trên 30 tàu bay: 700 tỷ đồng Việt Nam.\n2. Mức vốn tối thiểu để thành lập và duy trì doanh nghiệp kinh doanh hàng không\nchung: 100 tỷ đồng Việt Nam.\n3. Doanh nghiệp kinh doanh vận tải hàng không có vốn đầu tư nước ngoài phải đáp\nứng các điều kiện:\na) Nhà đầu tư nước ngoài chiếm không quá 34% vốn điều lệ;\nb) Phải có ít nhất một cá nhân Việt Nam hoặc một pháp nhân Việt Nam giữ phần\nvốn điều lệ lớn nhất;\nc) Trường hợp pháp nhân Việt Nam có vốn đầu tư nước ngoài góp vốn thì phần vốn\ngóp nước ngoài chiếm không quá 49% vốn điều lệ của pháp nhân.\n* Phương án kinh doanh và chiến lược phát triển\nPhương án kinh doanh và chiến lược phát triển của doanh nghiệp bao gồm các nội dung\nsau:\n1. Đánh giá nhu cầu và xu hướng phát triển của thị trường.\n2. Đánh giá thực tiễn và mức độ cạnh tranh dịch vụ được cung cấp trên thị trường.\n3. Chiến lược phát triển sản phẩm vận chuyển hàng không, chiến lược phát triển\nđội tàu bay và kế hoạch phát triển kinh doanh của 05 năm đầu kể từ ngày khai thác.",
@@ -231,14 +170,13 @@
     {
       "title": "Mẫu Giấy phép kinh doanh vận chuyển hàng không, Giấy phép kinh doanh hàng không chung",
       "code": "KQ.G17.000605",
-      "id": "019d2bb2-1c7b-7208-ba47-37d575630b9c",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "a) Nộp hồ sơ TTHC:\n\tNgười đề nghị gửi hồ sơ trực tiếp hoặc qua hệ thống bưu chính hoặc bằng các hình thức phù hợp khác đến Cục Hàng không Việt Nam và phải chịu trách nhiệm về tính chính xác, trung thực của các thông tin trong hồ sơ.\nb) Giải quyết TTHC:\n- Trường hợp hồ sơ hợp lệ, trong thời hạn 03 ngày làm việc, Cục Hàng không Việt Nam có văn bản thông báo tiếp nhận hồ sơ và yêu cầu doanh nghiệp đóng phí thẩm định theo quy định. Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ phí thẩm định, Cục Hàng không Việt Nam tiến hành thẩm định hồ sơ và báo cáo Bộ Xây dựng kết quả thẩm định.\n- Trong thời hạn 10 ngày làm việc kể từ ngày nhận được báo cáo kết quả thẩm định của Cục Hàng không Việt Nam, Bộ Xây dựng xem xét, trình Thủ tướng Chính phủ. Trường hợp Bộ Xây dựng không chấp thuận kết quả thẩm định thì có văn bản trả lời Cục Hàng không Việt Nam và nêu rõ lý do.\n- Trong thời hạn 07 ngày làm việc kể từ ngày nhận được Tờ trình của Bộ Xây dựng, Thủ tướng Chính phủ xem xét, cho phép Bộ Xây dựng cấp Giấy phép kinh doanh vận chuyển hàng không, Giấy phép kinh doanh hàng không chung. Trường hợp không cho phép, Thủ tướng Chính phủ thông báo tới Bộ Xây dựng và nêu rõ lý do.\n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được ý kiến bằng văn bản của Thủ tướng Chính phủ, Bộ Xây dựng cấp Giấy phép theo Mẫu số 02 quy định tại Phụ lục ban hành kèm theo Nghị định này hoặc thông báo ý kiến của Thủ tướng Chính phủ về việc không cấp Giấy phép kinh doanh vận chuyển hàng không, Giấy phép kinh doanh hàng không chung.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nBáo cáo (kèm tài liệu chứng minh) về việc đáp ứng các điều kiện kinh doanh vận chuyển hàng không trong đó gồm các nội dung: Phương án về số lượng tàu bay dự kiến khai thác; phương án tổ chức bộ máy bảo đảm khai thác tàu bay, kinh doanh vận tải hàng không, phương án kinh doanh và chiến lược phát triển sản phẩm; nhãn hiệu dự kiến sử dụng; sơ đồ bộ máy tổ chức của doanh nghiệp;\nHợp đồng nguyên tắc hoặc thỏa thuận về việc mua, thuê mua hoặc thuê tàu bay\nDanh sách thành viên, cổ đông tại thời điểm nộp hồ sơ; danh sách thành viên, cổ đông phải đảm bảo đầy đủ các thông tin: Họ và tên; ngày tháng năm sinh; quốc tịch; nơi đăng ký hộ khẩu thường trú; chỗ ở hiện tại; tỷ lệ phần vốn góp hay số cổ phần nắm giữ; người đại diện quản lý phần vốn góp đối với thành viên, cổ đông là tổ chức; thỏa thuận góp vốn của các cổ đông, thành viên (bản sao có xác nhận của doanh nghiệp hoặc bản sao và xuất trình bản chính để đối chiếu).\nBản sao Điều lệ hoạt động của doanh nghiệp;\nBản chính văn bản xác nhận vốn;\nVăn bản đề nghị cấp giấy phép theo mẫu",
-    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 35 ngày làm việc - Nộp hồ sơ trực tiếp hoặc \nqua hệ thống bưu chính;\nHoặc bằng các hình thức phù hợp khác.\nTrực tiếp: 35 ngày làm việc - Nộp hồ sơ trực tiếp hoặc\n qua hệ thống bưu chính;\nHoặc bằng các hình thức phù hợp khác.",
+    "TRÌNH TỰ THỰC HIỆN": "a) Nộp hồ sơ TTHC:\n\tNgười đề nghị gửi hồ sơ trực tiếp hoặc qua hệ thống bưu chính hoặc bằng các hình thức phù hợp khác đến Cục Hàng không Việt Nam và phải chịu trách nhiệm về tính chính xác, trung thực của các thông tin trong hồ sơ.\nb) Giải quyết TTHC:\n- Trường hợp hồ sơ hợp lệ, trong thời hạn 03 ngày làm việc, Cục Hàng không Việt Nam có văn bản thông báo tiếp nhận hồ sơ và yêu cầu doanh nghiệp đóng phí thẩm định theo quy định. Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ phí thẩm định, Cục Hàng không Việt Nam tiến hành thẩm định hồ sơ và báo cáo Bộ Xây dựng kết quả thẩm định.\n- Trong thời hạn 10 ngày làm việc kể từ ngày nhận được báo cáo kết quả thẩm định của Cục Hàng không Việt Nam, Bộ Xây dựng xem xét, trình Thủ tướng Chính phủ. Trường hợp Bộ Xây dựng không chấp thuận kết quả thẩm định thì có văn bản trả lời Cục Hàng không Việt Nam và nêu rõ lý do.\n- Trong thời hạn 07 ngày làm việc kể từ ngày nhận được Tờ trình của Bộ Xây dựng, Thủ tướng Chính phủ xem xét, cho phép Bộ Xây dựng cấp Giấy phép kinh doanh vận chuyển hàng không, Giấy phép kinh doanh hàng không chung. Trường hợp không cho phép, Thủ tướng Chính phủ thông báo tới Bộ Xây dựng và nêu rõ lý do.\n- Trong thời hạn 05 ngày làm việc kể từ ngày nhận được ý kiến bằng văn bản của Thủ tướng Chính phủ, Bộ Xây dựng cấp Giấy phép theo Mẫu số 02 quy định tại Phụ lục ban hành kèm theo Nghị định này hoặc thông báo ý kiến của Thủ tướng Chính phủ về việc không cấp Giấy phép kinh doanh vận chuyển hàng không, Giấy phép kinh doanh hàng không chung.",
+    "THÀNH PHẦN HỒ SƠ": "Văn bản đề nghị cấp giấy phép theo mẫu\nBáo cáo (kèm tài liệu chứng minh) về việc đáp ứng các điều kiện kinh doanh vận chuyển hàng không trong đó gồm các nội dung: Phương án về số lượng tàu bay dự kiến khai thác; phương án tổ chức bộ máy bảo đảm khai thác tàu bay, kinh doanh vận tải hàng không, phương án kinh doanh và chiến lược phát triển sản phẩm; nhãn hiệu dự kiến sử dụng; sơ đồ bộ máy tổ chức của doanh nghiệp;\nHợp đồng nguyên tắc hoặc thỏa thuận về việc mua, thuê mua hoặc thuê tàu bay\nDanh sách thành viên, cổ đông tại thời điểm nộp hồ sơ; danh sách thành viên, cổ đông phải đảm bảo đầy đủ các thông tin: Họ và tên; ngày tháng năm sinh; quốc tịch; nơi đăng ký hộ khẩu thường trú; chỗ ở hiện tại; tỷ lệ phần vốn góp hay số cổ phần nắm giữ; người đại diện quản lý phần vốn góp đối với thành viên, cổ đông là tổ chức; thỏa thuận góp vốn của các cổ đông, thành viên (bản sao có xác nhận của doanh nghiệp hoặc bản sao và xuất trình bản chính để đối chiếu).\nBản sao Điều lệ hoạt động của doanh nghiệp;\nBản chính văn bản xác nhận vốn;",
+    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 35 ngày làm việc\nTrực tiếp: 35 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Sửa đổi Nghị định 30/2013/NĐ-CP về kinh doanh vận chuyển hàng không và hoạt động hàng không chung và Nghị định 92/2016/NĐ-CP quy định về các ngành, nghề kinh doanh có điều kiện trong lĩnh vực hàng không dân dụng - 15/2024/NĐ-CP\nQuy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực hàng không - 193/2016/TT-BTC\nLuật 61/2014/QH13 - 61/2014/QH13\nQuy định về các ngành, nghề kinh doanh có điều kiện trong lĩnh vực hàng không dân dụng - 92/2016/NĐ-CP\nLUẬT HÀNG KHÔNG DÂN DỤNG VIỆT NAM - 130/2025/QH15\nsửa đổi, bổ sung một số điều của các Nghị định để cắt giảm, đơn giản hóa thủ tục hành chính liên quan đến hoạt động sản xuất, kinh doanh thuộc phạm vi quản lý của Bộ Xây dựng - 14/2026/NĐ-CP\nsửa đổi, bổ sung một số điều của Nghị định số 92/2016/NĐ-CP ngày 01 tháng 7 năm 2016 của Chính phủ quy định về các ngành, nghề kinh doanh có điều kiện trong lĩnh vực hàng không dân dụng và Nghị định số 30/2013/NĐ-CP ngày 08 tháng 4 năm 2013 của Chính phủ về kinh doanh vận chuyển hàng không và hoạt động hàng không chung - 89/2019/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Bộ Xây dựng, Cục Hàng không Việt Nam",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "* Điều kiện về phương án bảo đảm có tàu bay khai thác\n1. Phương án bảo đảm có tàu bay khai thác bao gồm các nội dung sau đây:7\na) Số lượng, chủng loại tàu bay, tuổi của tàu bay;\nb) Hình thức chiếm hữu;\nc) Phương án khai thác, bảo dưỡng và nguồn nhân lực bảo đảm khai thác, bảo dưỡng\ntàu bay.\n2. Số lượng tàu bay duy trì trong suốt quá trình kinh doanh vận tải hàng không tối\nthiểu là 03 tàu bay đối với kinh doanh vận chuyển hàng không; tối thiểu là 01 tàu bay\nđối với kinh doanh hàng không chung.\n* Điều kiện về tổ chức bộ máy\n1. Có tổ chức bộ máy thực hiện hệ thống quản lý an toàn, an ninh, hoạt động khai\nthác tàu bay, bảo dưỡng tàu bay, huấn luyện bay, khai thác mặt đất.\n2. Người được bổ nhiệm giữ vị trí phụ trách trong hệ thống quản lý an toàn, an ninh,\nkhai thác tàu bay, bảo dưỡng tàu bay, huấn luyện bay phải có kinh nghiệm tối thiểu 03\nnăm công tác liên tục trong lĩnh vực được bổ nhiệm, có văn bằng, chứng chỉ được cấp\nhoặc công nhận theo quy định của pháp luật về hàng không dân dụng.\n3. Đối với doanh nghiệp có vốn đầu tư nước ngoài, số thành viên là người nước\nngoài không được vượt quá một phần ba tổng số thành viên tham gia bộ máy điều hành.\nBộ máy điều hành để tính tỷ lệ theo yêu cầu của khoản này gồm:\na) Tổng Giám đốc (Giám đốc), các Phó Tổng Giám đốc (Phó Giám đốc);\nb) Kế toán trưởng;\nc) Người phụ trách các lĩnh vực: hệ thống quản lý an toàn; khai thác tàu bay; bảo\ndưỡng tàu bay; huấn luyện tổ bay và người giữ chức vụ tương đương xác định theo bộ\nmáy tổ chức của doanh nghiệp.\n* Điều kiện về vốn\n1. Mức vốn tối thiểu (bao gồm vốn chủ sở hữu và vốn vay) để thành lập và duy trì\ndoanh nghiệp kinh doanh vận chuyển hàng không:\na) Khai thác đến 10 tàu bay: 300 tỷ đồng Việt Nam;\nb) Khai thác từ 11 đến 30 tàu bay: 600 tỷ đồng Việt Nam;\nc) Khai thác trên 30 tàu bay: 700 tỷ đồng Việt Nam.\n2. Mức vốn tối thiểu để thành lập và duy trì doanh nghiệp kinh doanh hàng không\nchung: 100 tỷ đồng Việt Nam.\n3. Doanh nghiệp kinh doanh vận tải hàng không có vốn đầu tư nước ngoài phải đáp\nứng các điều kiện:\na) Nhà đầu tư nước ngoài chiếm không quá 34% vốn điều lệ;\nb) Phải có ít nhất một cá nhân Việt Nam hoặc một pháp nhân Việt Nam giữ phần\nvốn điều lệ lớn nhất;\nc) Trường hợp pháp nhân Việt Nam có vốn đầu tư nước ngoài góp vốn thì phần vốn\ngóp nước ngoài chiếm không quá 49% vốn điều lệ của pháp nhân.\n* Phương án kinh doanh và chiến lược phát triển\nPhương án kinh doanh và chiến lược phát triển của doanh nghiệp bao gồm các nội dung\nsau:\n1. Đánh giá nhu cầu và xu hướng phát triển của thị trường.\n2. Đánh giá thực tiễn và mức độ cạnh tranh dịch vụ được cung cấp trên thị trường.\n3. Chiến lược phát triển sản phẩm vận chuyển hàng không, chiến lược phát triển\nđội tàu bay và kế hoạch phát triển kinh doanh của 05 năm đầu kể từ ngày khai thác.",
@@ -247,11 +185,6 @@
     "MÔ TẢ": "* Điều kiện về phương án bảo đảm có tàu bay khai thác\n1. Phương án bảo đảm có tàu bay khai thác bao gồm các nội dung sau đây:7\na) Số lượng, chủng loại tàu bay, tuổi của tàu bay;\nb) Hình thức chiếm hữu;\nc) Phương án khai thác, bảo dưỡng và nguồn nhân lực bảo đảm khai thác, bảo dưỡng\ntàu bay.\n2. Số lượng tàu bay duy trì trong suốt quá trình kinh doanh vận tải hàng không tối\nthiểu là 03 tàu bay đối với kinh doanh vận chuyển hàng không; tối thiểu là 01 tàu bay\nđối với kinh doanh hàng không chung.\n* Điều kiện về tổ chức bộ máy\n1. Có tổ chức bộ máy thực hiện hệ thống quản lý an toàn, an ninh, hoạt động khai\nthác tàu bay, bảo dưỡng tàu bay, huấn luyện bay, khai thác mặt đất.\n2. Người được bổ nhiệm giữ vị trí phụ trách trong hệ thống quản lý an toàn, an ninh,\nkhai thác tàu bay, bảo dưỡng tàu bay, huấn luyện bay phải có kinh nghiệm tối thiểu 03\nnăm công tác liên tục trong lĩnh vực được bổ nhiệm, có văn bằng, chứng chỉ được cấp\nhoặc công nhận theo quy định của pháp luật về hàng không dân dụng.\n3. Đối với doanh nghiệp có vốn đầu tư nước ngoài, số thành viên là người nước\nngoài không được vượt quá một phần ba tổng số thành viên tham gia bộ máy điều hành.\nBộ máy điều hành để tính tỷ lệ theo yêu cầu của khoản này gồm:\na) Tổng Giám đốc (Giám đốc), các Phó Tổng Giám đốc (Phó Giám đốc);\nb) Kế toán trưởng;\nc) Người phụ trách các lĩnh vực: hệ thống quản lý an toàn; khai thác tàu bay; bảo\ndưỡng tàu bay; huấn luyện tổ bay và người giữ chức vụ tương đương xác định theo bộ\nmáy tổ chức của doanh nghiệp.\n* Điều kiện về vốn\n1. Mức vốn tối thiểu (bao gồm vốn chủ sở hữu và vốn vay) để thành lập và duy trì\ndoanh nghiệp kinh doanh vận chuyển hàng không:\na) Khai thác đến 10 tàu bay: 300 tỷ đồng Việt Nam;\nb) Khai thác từ 11 đến 30 tàu bay: 600 tỷ đồng Việt Nam;\nc) Khai thác trên 30 tàu bay: 700 tỷ đồng Việt Nam.\n2. Mức vốn tối thiểu để thành lập và duy trì doanh nghiệp kinh doanh hàng không\nchung: 100 tỷ đồng Việt Nam.\n3. Doanh nghiệp kinh doanh vận tải hàng không có vốn đầu tư nước ngoài phải đáp\nứng các điều kiện:\na) Nhà đầu tư nước ngoài chiếm không quá 34% vốn điều lệ;\nb) Phải có ít nhất một cá nhân Việt Nam hoặc một pháp nhân Việt Nam giữ phần\nvốn điều lệ lớn nhất;\nc) Trường hợp pháp nhân Việt Nam có vốn đầu tư nước ngoài góp vốn thì phần vốn\ngóp nước ngoài chiếm không quá 49% vốn điều lệ của pháp nhân.\n* Phương án kinh doanh và chiến lược phát triển\nPhương án kinh doanh và chiến lược phát triển của doanh nghiệp bao gồm các nội dung\nsau:\n1. Đánh giá nhu cầu và xu hướng phát triển của thị trường.\n2. Đánh giá thực tiễn và mức độ cạnh tranh dịch vụ được cung cấp trên thị trường.\n3. Chiến lược phát triển sản phẩm vận chuyển hàng không, chiến lược phát triển\nđội tàu bay và kế hoạch phát triển kinh doanh của 05 năm đầu kể từ ngày khai thác."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hàng không",
       "slug": "hang-khong"
@@ -269,7 +202,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -294,6 +227,6 @@
         "slug": "cuc-hang-khong-viet-nam"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

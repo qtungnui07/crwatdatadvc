@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf9-163b-729c-9501-861477837884",
   "procedure_code": "1.004376",
   "title": "Cấp giấy phép bưu chính (phạm vi liên tỉnh, quốc tế)",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf9-163b-729c-9501-861477837884",
     "source_file": "chi-tiet-thu-tuc-1.004376.pdf",
     "source_path": "procedures/viec-lam/1.004376/chi-tiet-thu-tuc-1.004376.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:02.175088+00:00",
-    "source_updated_at": "2026-06-15T04:08:41.273Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:09.127488+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "f1829a681fbaa6e26d5d6520b64415efb173c8a0a0622b4a2259064b454b672f"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:02.175088+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2528/QĐ-BKHCN",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Bưu chính",
   "target_users": [
@@ -35,18 +31,15 @@
   ],
   "agency": {
     "competent_agency": "Bộ Khoa học và Công nghệ",
-    "executing_agency": "Ủy ban nhân dân cấp tỉnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Ủy ban nhân dân cấp tỉnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Doanh nghiệp hoàn thiện hồ sơ đề nghị cấp giấy phép bưu chính theo quy định và nộp hồ sơ về Ủy ban nhân dân cấp tỉnh.\n- Trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh từ chối cấp giấy phép bưu chính đối với trường hợp không đúng thẩm quyền và nêu rõ lý do.\n- Trong thời hạn 10 ngày làm việc, Ủy ban nhân dân cấp tỉnh thực hiện cấp giấy phép bưu chính đối với trường hợp hồ sơ đã đầy đủ, đúng quy định, trường hợp hồ sơ chưa đáp ứng quy định thì Ủy ban nhân dân cấp tỉnh báo cho doanh nghiệp thực hiện sửa đổi, bổ sung.\n- Trong thời hạn 15 ngày làm việc kể từ ngày thông báo, doanh nghiệp có trách nhiệm sửa đổi, bổ sung hồ sơ theo yêu cầu. \nTrường hợp doanh nghiệp không sửa đổi, bổ sung hồ sơ theo yêu cầu hoặc có sửa đổi, bổ sung nhưng chưa đạt yêu cầu Ủy ban nhân dân cấp tỉnh ra thông báo từ chối cấp giấy phép bưu chính và nêu rõ lý do.\n- Các thông báo của Ủy ban nhân dân cấp tỉnh được thực hiện bằng văn bản và qua hệ thống dịch vụ công trực tuyến.\n- Kết quả giải quyết thủ tục cấp giấy phép bưu chính được trả trực tiếp hoặc qua dịch vụ bưu chính công ích.\n",
+      "description": "- Doanh nghiệp hoàn thiện hồ sơ đề nghị cấp giấy phép bưu chính theo quy định và nộp hồ sơ về Ủy ban nhân dân cấp tỉnh.\n- Trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh từ chối cấp giấy phép bưu chính đối với trường hợp không đúng thẩm quyền và nêu rõ lý do.\n- Trong thời hạn 10 ngày làm việc, Ủy ban nhân dân cấp tỉnh thực hiện cấp giấy phép bưu chính đối với trường hợp hồ sơ đã đầy đủ, đúng quy định, trường hợp hồ sơ chưa đáp ứng quy định thì Ủy ban nhân dân cấp tỉnh báo cho doanh nghiệp thực hiện sửa đổi, bổ sung.\n- Trong thời hạn 15 ngày làm việc kể từ ngày thông báo, doanh nghiệp có trách nhiệm sửa đổi, bổ sung hồ sơ theo yêu cầu. \nTrường hợp doanh nghiệp không sửa đổi, bổ sung hồ sơ theo yêu cầu hoặc có sửa đổi, bổ sung nhưng chưa đạt yêu cầu Ủy ban nhân dân cấp tỉnh ra thông báo từ chối cấp giấy phép bưu chính và nêu rõ lý do.\n- Các thông báo của Ủy ban nhân dân cấp tỉnh được thực hiện bằng văn bản và qua hệ thống dịch vụ công trực tuyến.\n- Kết quả giải quyết thủ tục cấp giấy phép bưu chính được trả trực tiếp hoặc qua dịch vụ bưu chính công ích.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
@@ -55,120 +48,81 @@
     "conditional": [
       {
         "name": "Hợp đồng nhượng quyền thương mại với doanh nghiệp đang cung ứng dịch vụ bưu chính (nếu có",
-        "code": "000.00.00.G14-KQ001867",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Phương án kinh doanh",
-        "code": "000.00.00.G14-KQ001859",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Điều lệ của doanh nghiệp (nếu có);",
-        "code": "000.00.00.G14-KQ001858",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Thỏa thuận với doanh nghiệp khác, đối tác nước ngoài bằng tiếng Việt, đối với trường hợp hợp tác cung ứng một, một số hoặc tất cả các công đoạn của dịch vụ bưu chính đề nghị cấp phép",
-        "code": "000.00.00.G14-KQ001865",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "*Phương án kinh doanh, gồm các nội dung chính sau: + Thông tin về doanh nghiệp gồm tên, địa chỉ, số điện thoại, số fax, địa chỉ e-mail của trụ sở giao dịch, văn phòng đại diện, chi nhánh, địa điểm kinh doanh, website của doanh nghiệp (nếu có) và các thông tin liên quan khác; + Địa bàn dự kiến cung ứng dịch vụ; + Hệ thống và phương thức quản lý, điều hành dịch vụ; + Quy trình cung ứng dịch vụ gồm quy trình chấp nhận, vận chuyển và phát; + Phương thức cung ứng dịch vụ do doanh nghiệp tự tổ chức hoặc hợp tác cung ứng dịch vụ với doanh nghiệp khác (trường hợp hợp tác với doanh nghiệp khác, doanh nghiệp đề nghị cấp giấy phép bưu chính phải trình bày chi tiết về phạm vi hợp tác, công tác phối hợp trong việc bảo đảm an toàn, an ninh, giải quyết khiếu nại và bồi thường thiệt hại cho người sử dụng dịch vụ); + Các biện pháp bảo đảm an toàn đối với con người, bưu gửi, mạng bưu chính và an ninh thông tin trong hoạt động bưu chính;",
-        "code": "000.00.00.G14-KQ001868",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Tiêu chuẩn chất lượng dịch vụ bưu chính công bố áp dụng phù hợp với quy định của pháp luật về bưu chính",
-        "code": "000.00.00.G14-KQ001863",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Mẫu biểu trưng, nhãn hiệu, ký hiệu đặc thù hoặc các yếu tố thuộc hệ thống nhận diện của doanh nghiệp được thể hiện trên bưu gửi (nếu có)",
-        "code": "000.00.00.G14-KQ001861",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Bảng giá cước dịch vụ bưu chính phù hợp với quy định của pháp luật về bưu chính",
-        "code": "000.00.00.G14-KQ001862",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Tài liệu về tư cách pháp nhân của đối tác nước ngoài đã được hợp pháp hóa lãnh sự",
-        "code": "000.00.00.G14-KQ001866",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Quy định về mức giới hạn trách nhiệm bồi thường thiệt hại trong trường hợp phát sinh thiệt hại, quy trình giải quyết khiếu nại của khách hàng, thời hạn giải quyết khiếu nại phù hợp với quy định của pháp luật về bưu chính",
-        "code": "000.00.00.G14-KQ001864",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Số lượng hồ sơ: 01 bộ là bản gốc",
-        "code": "000.00.00.G14-KQ001910",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Giấy đề nghị cấp giấy phép bưu chính;",
-        "code": "000.00.00.G14-KQ001856",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Mẫu hợp đồng cung ứng và sử dụng dịch vụ bưu chính phù hợp với quy định của pháp luật về bưu chính",
-        "code": "000.00.00.G14-KQ001860",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -177,212 +131,126 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "10 ngày làm việc",
-      "processing_time_value": 10,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 34500000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Quốc tế chiều đi trường hợp cấp phép lần đầu",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 21500000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": " Phạm vi liên tỉnh trường hợp cấp lần đầu ",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 29500000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Quốc tế chiều đến trường hợp cấp lần đầu",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 39500000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": " Quốc tế hai chiều trường hợp cấp lần đầu",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 8500000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Phạm vi liên tỉnh Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 10500000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Quốc tế chiều đến Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 11500000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Quốc tế chiều đi Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:",
-          "attachment": null
-        },
-        {
-          "type": "FEE",
-          "amount": 12500000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Quốc tế hai chiều Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:",
-          "attachment": null
-        }
-      ],
+      "fee": "Quốc tế chiều đi trường hợp cấp phép lần đầu; Phạm vi liên tỉnh trường hợp cấp lần đầu; Quốc tế chiều đến trường hợp cấp lần đầu; Quốc tế hai chiều trường hợp cấp lần đầu; Phạm vi liên tỉnh Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:; Quốc tế chiều đến Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:; Quốc tế chiều đi Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:; Quốc tế hai chiều Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:",
       "description": "Nộp trực tuyến qua Cổng Dịch vụ công Quốc gia (https://dichvucong.gov.vn)",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Quốc tế chiều đi trường hợp cấp phép lần đầu; Phạm vi liên tỉnh trường hợp cấp lần đầu; Quốc tế chiều đến trường hợp cấp lần đầu; Quốc tế hai chiều trường hợp cấp lần đầu; Phạm vi liên tỉnh Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:; Quốc tế chiều đến Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:; Quốc tế chiều đi Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:; Quốc tế hai chiều Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 34500000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Quốc tế chiều đi trường hợp cấp phép lần đầu",
-        "attachment": null
+        "amount_text": "Quốc tế chiều đi trường hợp cấp phép lần đầu",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 21500000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": " Phạm vi liên tỉnh trường hợp cấp lần đầu ",
-        "attachment": null
+        "amount_text": "Phạm vi liên tỉnh trường hợp cấp lần đầu",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 29500000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Quốc tế chiều đến trường hợp cấp lần đầu",
-        "attachment": null
+        "amount_text": "Quốc tế chiều đến trường hợp cấp lần đầu",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 39500000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": " Quốc tế hai chiều trường hợp cấp lần đầu",
-        "attachment": null
+        "amount_text": "Quốc tế hai chiều trường hợp cấp lần đầu",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 8500000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Phạm vi liên tỉnh Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:",
-        "attachment": null
+        "amount_text": "Phạm vi liên tỉnh Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 10500000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Quốc tế chiều đến Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:",
-        "attachment": null
+        "amount_text": "Quốc tế chiều đến Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 11500000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Quốc tế chiều đi Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:",
-        "attachment": null
+        "amount_text": "Quốc tế chiều đi Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:",
+        "is_free": false,
+        "source_page": null
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 12500000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Quốc tế hai chiều Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:",
-        "attachment": null
+        "amount_text": "Quốc tế hai chiều Trường hợp chuyển nhượng toàn bộ doanh nghiệp do mua bán, sáp nhập doanh nghiệp:",
+        "is_free": false,
+        "source_page": null
       }
     ]
   },
   "legal_bases": [
     {
       "title": "Nghị quyết số 20/2026/NQ-CP ngày 29/4/2026 của Chính phủ ban hành Nghị quyết phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh thuộc phạm vi quản lý nhà nước của Bộ Khoa học và Công nghệ",
-      "document_number": "20/2026/NQ-CP ",
-      "id": "019e4f73-32a4-712b-bcdf-f99f613723c5",
-      "source_page": null
+      "document_number": "20/2026/NQ-CP",
+      "source_page": 4
     },
     {
       "title": "Thông tư sửa đổi, bổ sung một số điều của Thông tư 219/2016-TT-BTC ngày 15/11/2016 quy định mức thu, chế độ thu, nộp, quản lý phí thẩm định điều kiện hoạt động bưu chính",
       "document_number": "25/2020/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4b-f4e6f19f058e",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Luật 49/2010/QH12",
       "document_number": "49/2010/QH12",
-      "id": "019d2bb3-5d84-71c5-b673-51c5e7874b64",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư số 291/2016/TT-BTC",
       "document_number": "Thông tư số 291/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be50-83f92f17e477",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quy định chi tiết thi hành một số nội dung của Luật Bưu chính",
       "document_number": "47/2011/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46e-5b5964b48a15",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định 25/2022/NĐ-CP",
       "document_number": "25/2022/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a645-d5a9b80cd175",
-      "source_page": null
+      "source_page": 4
     }
   ],
-  "conditions": "a) Có giấy chứng nhận đăng ký kinh doanh hoạt động bưu chính hoặc giấy chứng nhận đầu tư trong lĩnh vực bưu chính;\nb) Có phương án kinh doanh khả thi phù hợp với quy định về giá cước, chất lượng dịch vụ bưu chính;\nc) Có biện pháp đảm bảo an ninh thông tin và an toàn đối với con người, bưu gửi, mạng bưu chính.\n",
+  "conditions": "a) Có giấy chứng nhận đăng ký kinh doanh hoạt động bưu chính hoặc giấy chứng nhận đầu tư trong lĩnh vực bưu chính;\nb) Có phương án kinh doanh khả thi phù hợp với quy định về giá cước, chất lượng dịch vụ bưu chính;\nc) Có biện pháp đảm bảo an ninh thông tin và an toàn đối với con người, bưu gửi, mạng bưu chính.",
   "results": [
     {
       "title": "Giấy phép bưu chính",
       "code": "KQ.G14.000005",
-      "id": "019d2bb2-1c74-72d6-adba-d8692d65e836",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Doanh nghiệp hoàn thiện hồ sơ đề nghị cấp giấy phép bưu chính theo quy định và nộp hồ sơ về Ủy ban nhân dân cấp tỉnh.\n- Trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh từ chối cấp giấy phép bưu chính đối với trường hợp không đúng thẩm quyền và nêu rõ lý do.\n- Trong thời hạn 10 ngày làm việc, Ủy ban nhân dân cấp tỉnh thực hiện cấp giấy phép bưu chính đối với trường hợp hồ sơ đã đầy đủ, đúng quy định, trường hợp hồ sơ chưa đáp ứng quy định thì Ủy ban nhân dân cấp tỉnh báo cho doanh nghiệp thực hiện sửa đổi, bổ sung.\n- Trong thời hạn 15 ngày làm việc kể từ ngày thông báo, doanh nghiệp có trách nhiệm sửa đổi, bổ sung hồ sơ theo yêu cầu. \nTrường hợp doanh nghiệp không sửa đổi, bổ sung hồ sơ theo yêu cầu hoặc có sửa đổi, bổ sung nhưng chưa đạt yêu cầu Ủy ban nhân dân cấp tỉnh ra thông báo từ chối cấp giấy phép bưu chính và nêu rõ lý do.\n- Các thông báo của Ủy ban nhân dân cấp tỉnh được thực hiện bằng văn bản và qua hệ thống dịch vụ công trực tuyến.\n- Kết quả giải quyết thủ tục cấp giấy phép bưu chính được trả trực tiếp hoặc qua dịch vụ bưu chính công ích.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nHợp đồng nhượng quyền thương mại với doanh nghiệp đang cung ứng dịch vụ bưu chính (nếu có\nPhương án kinh doanh\nĐiều lệ của doanh nghiệp (nếu có);\nThỏa thuận với doanh nghiệp khác, đối tác nước ngoài bằng tiếng Việt, đối với trường hợp hợp tác cung ứng một, một số hoặc tất cả các công đoạn của dịch vụ bưu chính đề nghị cấp phép\n*Phương án kinh doanh, gồm các nội dung chính sau: + Thông tin về doanh nghiệp gồm tên, địa chỉ, số điện thoại, số fax, địa chỉ e-mail của trụ sở giao dịch, văn phòng đại diện, chi nhánh, địa điểm kinh doanh, website của doanh nghiệp (nếu có) và các thông tin liên quan khác; + Địa bàn dự kiến cung ứng dịch vụ; + Hệ thống và phương thức quản lý, điều hành dịch vụ; + Quy trình cung ứng dịch vụ gồm quy trình chấp nhận, vận chuyển và phát; + Phương thức cung ứng dịch vụ do doanh nghiệp tự tổ chức hoặc hợp tác cung ứng dịch vụ với doanh nghiệp khác (trường hợp hợp tác với doanh nghiệp khác, doanh nghiệp đề nghị cấp giấy phép bưu chính phải trình bày chi tiết về phạm vi hợp tác, công tác phối hợp trong việc bảo đảm an toàn, an ninh, giải quyết khiếu nại và bồi thường thiệt hại cho người sử dụng dịch vụ); + Các biện pháp bảo đảm an toàn đối với con người, bưu gửi, mạng bưu chính và an ninh thông tin trong hoạt động bưu chính;\nTiêu chuẩn chất lượng dịch vụ bưu chính công bố áp dụng phù hợp với quy định của pháp luật về bưu chính\nMẫu biểu trưng, nhãn hiệu, ký hiệu đặc thù hoặc các yếu tố thuộc hệ thống nhận diện của doanh nghiệp được thể hiện trên bưu gửi (nếu có)\nBảng giá cước dịch vụ bưu chính phù hợp với quy định của pháp luật về bưu chính\nTài liệu về tư cách pháp nhân của đối tác nước ngoài đã được hợp pháp hóa lãnh sự\nQuy định về mức giới hạn trách nhiệm bồi thường thiệt hại trong trường hợp phát sinh thiệt hại, quy trình giải quyết khiếu nại của khách hàng, thời hạn giải quyết khiếu nại phù hợp với quy định của pháp luật về bưu chính\nSố lượng hồ sơ: 01 bộ là bản gốc\nGiấy đề nghị cấp giấy phép bưu chính;\nMẫu hợp đồng cung ứng và sử dụng dịch vụ bưu chính phù hợp với quy định của pháp luật về bưu chính",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày làm việc - Nộp trực tuyến qua Cổng Dịch vụ công Quốc gia (https://dichvucong.gov.vn)",
-    "CĂN CỨ PHÁP LÝ": "Nghị quyết số 20/2026/NQ-CP ngày 29/4/2026 của Chính phủ ban hành Nghị quyết phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh thuộc phạm vi quản lý nhà nước của Bộ Khoa học và Công nghệ - 20/2026/NQ-CP \nThông tư sửa đổi, bổ sung một số điều của Thông tư 219/2016-TT-BTC ngày 15/11/2016 quy định mức thu, chế độ thu, nộp, quản lý phí thẩm định điều kiện hoạt động bưu chính - 25/2020/TT-BTC\nLuật 49/2010/QH12 - 49/2010/QH12\nThông tư số 291/2016/TT-BTC - Thông tư số 291/2016/TT-BTC\nQuy định chi tiết thi hành một số nội dung của Luật Bưu chính - 47/2011/NĐ-CP\nNghị định 25/2022/NĐ-CP - 25/2022/NĐ-CP",
+    "TRÌNH TỰ THỰC HIỆN": "- Doanh nghiệp hoàn thiện hồ sơ đề nghị cấp giấy phép bưu chính theo quy định và nộp hồ sơ về Ủy ban nhân dân cấp tỉnh.\n- Trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Ủy ban nhân dân cấp tỉnh từ chối cấp giấy phép bưu chính đối với trường hợp không đúng thẩm quyền và nêu rõ lý do.\n- Trong thời hạn 10 ngày làm việc, Ủy ban nhân dân cấp tỉnh thực hiện cấp giấy phép bưu chính đối với trường hợp hồ sơ đã đầy đủ, đúng quy định, trường hợp hồ sơ chưa đáp ứng quy định thì Ủy ban nhân dân cấp tỉnh báo cho doanh nghiệp thực hiện sửa đổi, bổ sung.\n- Trong thời hạn 15 ngày làm việc kể từ ngày thông báo, doanh nghiệp có trách nhiệm sửa đổi, bổ sung hồ sơ theo yêu cầu. \nTrường hợp doanh nghiệp không sửa đổi, bổ sung hồ sơ theo yêu cầu hoặc có sửa đổi, bổ sung nhưng chưa đạt yêu cầu Ủy ban nhân dân cấp tỉnh ra thông báo từ chối cấp giấy phép bưu chính và nêu rõ lý do.\n- Các thông báo của Ủy ban nhân dân cấp tỉnh được thực hiện bằng văn bản và qua hệ thống dịch vụ công trực tuyến.\n- Kết quả giải quyết thủ tục cấp giấy phép bưu chính được trả trực tiếp hoặc qua dịch vụ bưu chính công ích.",
+    "THÀNH PHẦN HỒ SƠ": "Hợp đồng nhượng quyền thương mại với doanh nghiệp đang cung ứng dịch vụ bưu chính (nếu có\nPhương án kinh doanh\nĐiều lệ của doanh nghiệp (nếu có);\nThỏa thuận với doanh nghiệp khác, đối tác nước ngoài bằng tiếng Việt, đối với trường hợp hợp tác cung ứng một, một số hoặc tất cả các công đoạn của dịch vụ bưu chính đề nghị cấp phép\n*Phương án kinh doanh, gồm các nội dung chính sau: + Thông tin về doanh nghiệp gồm tên, địa chỉ, số điện thoại, số fax, địa chỉ e-mail của trụ sở giao dịch, văn phòng đại diện, chi nhánh, địa điểm kinh doanh, website của doanh nghiệp (nếu có) và các thông tin liên quan khác; + Địa bàn dự kiến cung ứng dịch vụ; + Hệ thống và phương thức quản lý, điều hành dịch vụ; + Quy trình cung ứng dịch vụ gồm quy trình chấp nhận, vận chuyển và phát; + Phương thức cung ứng dịch vụ do doanh nghiệp tự tổ chức hoặc hợp tác cung ứng dịch vụ với doanh nghiệp khác (trường hợp hợp tác với doanh nghiệp khác, doanh nghiệp đề nghị cấp giấy phép bưu chính phải trình bày chi tiết về phạm vi hợp tác, công tác phối hợp trong việc bảo đảm an toàn, an ninh, giải quyết khiếu nại và bồi thường thiệt hại cho người sử dụng dịch vụ); + Các biện pháp bảo đảm an toàn đối với con người, bưu gửi, mạng bưu chính và an ninh thông tin trong hoạt động bưu chính;\nTiêu chuẩn chất lượng dịch vụ bưu chính công bố áp dụng phù hợp với quy định của pháp luật về bưu chính\nMẫu biểu trưng, nhãn hiệu, ký hiệu đặc thù hoặc các yếu tố thuộc hệ thống nhận diện của doanh nghiệp được thể hiện trên bưu gửi (nếu có)\nBảng giá cước dịch vụ bưu chính phù hợp với quy định của pháp luật về bưu chính\nTài liệu về tư cách pháp nhân của đối tác nước ngoài đã được hợp pháp hóa lãnh sự\nQuy định về mức giới hạn trách nhiệm bồi thường thiệt hại trong trường hợp phát sinh thiệt hại, quy trình giải quyết khiếu nại của khách hàng, thời hạn giải quyết khiếu nại phù hợp với quy định của pháp luật về bưu chính\nSố lượng hồ sơ: 01 bộ là bản gốc\nGiấy đề nghị cấp giấy phép bưu chính;\nMẫu hợp đồng cung ứng và sử dụng dịch vụ bưu chính phù hợp với quy định của pháp luật về bưu chính",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 10 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "Nghị quyết số 20/2026/NQ-CP ngày 29/4/2026 của Chính phủ ban hành Nghị quyết phân cấp, cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh thuộc phạm vi quản lý nhà nước của Bộ Khoa học và Công nghệ - 20/2026/NQ-CP\nThông tư sửa đổi, bổ sung một số điều của Thông tư 219/2016-TT-BTC ngày 15/11/2016 quy định mức thu, chế độ thu, nộp, quản lý phí thẩm định điều kiện hoạt động bưu chính - 25/2020/TT-BTC\nLuật 49/2010/QH12 - 49/2010/QH12\nThông tư số 291/2016/TT-BTC - Thông tư số 291/2016/TT-BTC\nQuy định chi tiết thi hành một số nội dung của Luật Bưu chính - 47/2011/NĐ-CP\nNghị định 25/2022/NĐ-CP - 25/2022/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Ủy ban nhân dân cấp tỉnh",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "a) Có giấy chứng nhận đăng ký kinh doanh hoạt động bưu chính hoặc giấy chứng nhận đầu tư trong lĩnh vực bưu chính;\nb) Có phương án kinh doanh khả thi phù hợp với quy định về giá cước, chất lượng dịch vụ bưu chính;\nc) Có biện pháp đảm bảo an ninh thông tin và an toàn đối với con người, bưu gửi, mạng bưu chính.\n",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "a) Có giấy chứng nhận đăng ký kinh doanh hoạt động bưu chính hoặc giấy chứng nhận đầu tư trong lĩnh vực bưu chính;\nb) Có phương án kinh doanh khả thi phù hợp với quy định về giá cước, chất lượng dịch vụ bưu chính;\nc) Có biện pháp đảm bảo an ninh thông tin và an toàn đối với con người, bưu gửi, mạng bưu chính.",
     "KẾT QUẢ XỬ LÝ": "Giấy phép bưu chính - KQ.G14.000005",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "a) Có giấy chứng nhận đăng ký kinh doanh hoạt động bưu chính hoặc giấy chứng nhận đầu tư trong lĩnh vực bưu chính;\nb) Có phương án kinh doanh khả thi phù hợp với quy định về giá cước, chất lượng dịch vụ bưu chính;\nc) Có biện pháp đảm bảo an ninh thông tin và an toàn đối với con người, bưu gửi, mạng bưu chính.\n"
+    "MÔ TẢ": "a) Có giấy chứng nhận đăng ký kinh doanh hoạt động bưu chính hoặc giấy chứng nhận đầu tư trong lĩnh vực bưu chính;\nb) Có phương án kinh doanh khả thi phù hợp với quy định về giá cước, chất lượng dịch vụ bưu chính;\nc) Có biện pháp đảm bảo an ninh thông tin và an toàn đối với con người, bưu gửi, mạng bưu chính."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Bưu chính",
       "slug": "buu-chinh"
@@ -405,6 +273,6 @@
         "slug": "uy-ban-nhan-dan-cap-tinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

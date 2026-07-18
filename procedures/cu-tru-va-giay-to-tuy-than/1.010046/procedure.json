@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf7-7f09-75e2-849a-b922e8a7b725",
   "procedure_code": "1.010046",
   "title": "Xét duyệt nhân sự cấp phép nhập cảnh cho người nước ngoài nhập cảnh vào Việt Nam theo điều ước quốc tế mà Việt Nam là thành viên nhưng chưa có hiện diện thương mại hoặc đối tác tại Việt Nam",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf7-7f09-75e2-849a-b922e8a7b725",
     "source_file": "chi-tiet-thu-tuc-1.010046.pdf",
     "source_path": "procedures/cu-tru-va-giay-to-tuy-than/1.010046/chi-tiet-thu-tuc-1.010046.pdf",
     "page_count": 7,
-    "extracted_at": "2026-07-18T02:22:05.605475+00:00",
-    "source_updated_at": "2026-05-01T10:04:48.601Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:55:37.568782+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "518598d9b1fcaf38e56ded77504f7f1f92cff7acc264bc8f5a4022f4470c7529"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:05.605475+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "6968/QĐ-BCA",
   "implementation_level": "Cấp bộ, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Quản lý xuất nhập cảnh",
   "target_users": [
@@ -36,66 +31,52 @@
   ],
   "agency": {
     "competent_agency": "Cục quản lý xuất nhập cảnh",
-    "executing_agency": "Cục quản lý xuất nhập cảnh",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục quản lý xuất nhập cảnh"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: \nNgười nước ngoài truy cập Cổng thông tin điện tử về xuất nhập cảnh (có tên miền tiếng Việt là “https://www.xuatnhapcanh.gov.vn”, tiếng Anh là “https://www.immigration.gov.vn”), vào Trang giao dịch điện tử để nhập thông tin đề nghị cấp thị thực, tải ảnh mặt chân dung và trang nhân thân hộ chiếu, tải giấy tờ chứng minh thuộc đối tượng của điều ước quốc tế mà Việt Nam là thành viên nhưng chưa có hiện diện thương mại hoặc đối tác  tại Việt Nam. Sau khi thực hiện bước này, người nước ngoài sẽ được hệ thống cấp mã hồ sơ điện tử. \nThời gian nộp hồ sơ: 24giờ/07 ngày\nBước 2: Nhận kết quả\n+ Người nước ngoài sử dụng mã hồ sơ điện tử để kiểm tra kết quả giải quyết tại Trang giao dịch điện tử, trường hợp được cấp phép nhập cảnh thì sử dụng mã hồ sơ điện tử in công văn trả lời đề nghị xét duyệt nhân sự người nước ngoài nhập cảnh hoặc công văn trả lời đề nghị cấp thị thực tại cửa khẩu quốc tế.\n+ Thời gian: từ thứ 2 đến thứ 6 (trừ ngày Tết, ngày lễ)\n",
+      "description": "Bước 1: \nNgười nước ngoài truy cập Cổng thông tin điện tử về xuất nhập cảnh (có tên miền tiếng Việt là “https://www.xuatnhapcanh.gov.vn”, tiếng Anh là “https://www.immigration.gov.vn”), vào Trang giao dịch điện tử để nhập thông tin đề nghị cấp thị thực, tải ảnh mặt chân dung và trang nhân thân hộ chiếu, tải giấy tờ chứng minh thuộc đối tượng của điều ước quốc tế mà Việt Nam là thành viên nhưng chưa có hiện diện thương mại hoặc đối tác  tại Việt Nam. Sau khi thực hiện bước này, người nước ngoài sẽ được hệ thống cấp mã hồ sơ điện tử. \nThời gian nộp hồ sơ: 24giờ/07 ngày",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Nhận kết quả\n+ Người nước ngoài sử dụng mã hồ sơ điện tử để kiểm tra kết quả giải quyết tại Trang giao dịch điện tử, trường hợp được cấp phép nhập cảnh thì sử dụng mã hồ sơ điện tử in công văn trả lời đề nghị xét duyệt nhân sự người nước ngoài nhập cảnh hoặc công văn trả lời đề nghị cấp thị thực tại cửa khẩu quốc tế.\n+ Thời gian: từ thứ 2 đến thứ 6 (trừ ngày Tết, ngày lễ)",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Tờ khai đề nghị cấp thị thực Việt Nam (NA1).",
-        "code": "000.00.00.G01-KQ002297",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dd036-9e01-76be-ad15-63aff363b457",
-            "name": "NA1 tr6, 7.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "NA1 tr6, 7.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Giấy tờ chứng minh thuộc đối tượng của điều ước quốc tế mà Việt Nam là thành viên nhưng chưa có hiện diện thương mại hoặc đối tác tại Việt Nam được tải lên Trang giao dịch điện tử hoặc Cổng dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an theo quy định.",
-        "code": "000.00.00.G01-KQ002299",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Số lượng hồ sơ: 01 (một) bộ.",
-        "code": "000.00.00.G01-KQ002300",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Ảnh mặt chân dung 4cm x 6cm; ảnh trang nhân thân hộ chiếu được tải lên Trang giao dịch điện tử hoặc Cổng dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an theo quy định.",
-        "code": "000.00.00.G01-KQ002298",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -104,34 +85,29 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "2 ngày làm việc",
-      "processing_time_value": 2,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Nộp hồ sơ trực tuyến qua Trang giao dịch điện tử tại Cổng thông tin điện tử về xuất nhập cảnh hoặc Cổng dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an. Trong thời hạn 02 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định, Cục Quản lý xuất nhập cảnh chuyển cơ quan được Chính phủ giao chủ trì triển khai thực hiện theo điều ước quốc tế.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "+ Trong thời hạn 03 ngày làm việc kể từ ngày nhận được đề nghị cấp thị thực của người nước ngoài từ Cục Quản lý xuất nhập cảnh, cơ quan được Chính phủ giao chủ trì triển khai thực hiện điều ước quốc tế có trách nhiệm: (1)Nếu người nước ngoài thuộc đối tượng quy định của điều ước quốc tế mà Việt Nam là thành viên và thuộc lĩnh vực quản lý nhà nước của cơ quan chủ trì thì trực tiếp gửi văn bản đề nghị cấp thị thực tại Cục Quản lý xuất nhập cảnh theo quy định; nếu người nước ngoài không thuộc đối tượng quy định của điều ước quốc tế mà Việt Nam là thành viên thì trả lời Cục Quản lý xuất nhập cảnh để thông báo người nước ngoài biết. (2)Hoặc chuyển đề nghị cấp thị thực cho bộ, cơ quan ngang bộ quản lý nhà nước trong lĩnh vực đó đối với trường hợp người nước ngoài thuộc đối tượng quy định của điều ước quốc tế mà Việt Nam là thành viên nhưng không thuộc lĩnh vực quản lý nhà nước của cơ quan chủ trì. Trong thời hạn 02 ngày làm việc kể từ ngày nhận được đề nghị cấp thị thực của người nước ngoài, bộ, cơ quan ngang bộ gửi văn bản đề nghị cấp thị thực cho Cục Quản lý xuất nhập cảnh theo quy định.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Trong thời hạn 03 ngày làm việc kể từ ngày nhận được văn bản đề nghị cấp thị thực, Cục Quản lý xuất nhập cảnh xem xét, giải quyết, trả lời.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -140,32 +116,27 @@
     {
       "title": "Quy định mẫu giấy tờ liên quan đến việc nhập cảnh, xuất cảnh, cư trú của người nước ngoài tại Việt Nam",
       "document_number": "Thông tư 04/2015/TT-BCA",
-      "id": "019d2bb3-5d7b-7049-8fc6-fd30df554f1c",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Luật 51/2019/QH14",
       "document_number": "51/2019/QH14",
-      "id": "019d2bb3-5d87-7195-a442-70603a9d0597",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Nghị định 75/2020/NĐ-CP",
       "document_number": "75/2020/NĐ-CP",
-      "id": "019d2bb3-5d87-7195-a445-8febb69ea012",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam",
       "document_number": "Luật 47/2014/QH13",
-      "id": "019d2bb3-5d84-71c5-b674-b1d4ccab82e5",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Thông tư 57/2020/TT-BCA",
       "document_number": "57/2020/TT-BCA",
-      "id": "019d2bb3-5d87-7195-a443-7494fccc6373",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "conditions": "+ Người nước ngoài thuộc đối tượng quy định của điều ước quốc tế mà Việt Nam là thành viên nhưng chưa có hiện diện thương mại hoặc đối tác tại Việt Nam.\n+ Người nước ngoài không thuộc trường hợp chưa cho nhập cảnh quy định tại Điều 21 Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam.\n+ Người nước ngoài có giấy tờ chứng minh thuộc đối tượng quy định của điều ước quốc tế mà Việt Nam là thành viên nhưng chưa có hiện diện thương mại hoặc đối tác tại Việt Nam được hợp pháp hóa lãnh sự, trừ trường hợp được miễn theo quy định của pháp luật Việt Nam hoặc điều ước quốc tế mà Việt Nam là thành viên.",
@@ -173,20 +144,18 @@
     {
       "title": "Công văn trả lời đề nghị xét duyệt nhân sự người nước ngoài nhập cảnh (NB1)",
       "code": "KQ.G01.000069",
-      "id": "019d2bb2-1c37-76e8-b48c-7a01903f6e5d",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Công văn trả lời đề nghị cấp thị thực tại cửa khẩu quốc tế (NB3)",
       "code": "KQ.G01.000070",
-      "id": "019d2bb2-1c37-76e8-b48c-7e63ed28c0c1",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: \nNgười nước ngoài truy cập Cổng thông tin điện tử về xuất nhập cảnh (có tên miền tiếng Việt là “https://www.xuatnhapcanh.gov.vn”, tiếng Anh là “https://www.immigration.gov.vn”), vào Trang giao dịch điện tử để nhập thông tin đề nghị cấp thị thực, tải ảnh mặt chân dung và trang nhân thân hộ chiếu, tải giấy tờ chứng minh thuộc đối tượng của điều ước quốc tế mà Việt Nam là thành viên nhưng chưa có hiện diện thương mại hoặc đối tác  tại Việt Nam. Sau khi thực hiện bước này, người nước ngoài sẽ được hệ thống cấp mã hồ sơ điện tử. \nThời gian nộp hồ sơ: 24giờ/07 ngày\nBước 2: Nhận kết quả\n+ Người nước ngoài sử dụng mã hồ sơ điện tử để kiểm tra kết quả giải quyết tại Trang giao dịch điện tử, trường hợp được cấp phép nhập cảnh thì sử dụng mã hồ sơ điện tử in công văn trả lời đề nghị xét duyệt nhân sự người nước ngoài nhập cảnh hoặc công văn trả lời đề nghị cấp thị thực tại cửa khẩu quốc tế.\n+ Thời gian: từ thứ 2 đến thứ 6 (trừ ngày Tết, ngày lễ)\n",
-    "THÀNH PHẦN HỒ SƠ": "\nGiấy tờ chứng minh thuộc đối tượng của điều ước quốc tế mà Việt Nam là thành viên nhưng chưa có hiện diện thương mại hoặc đối tác tại Việt Nam được tải lên Trang giao dịch điện tử hoặc Cổng dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an theo quy định.\nSố lượng hồ sơ: 01 (một) bộ.\nẢnh mặt chân dung 4cm x 6cm; ảnh trang nhân thân hộ chiếu được tải lên Trang giao dịch điện tử hoặc Cổng dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an theo quy định.\nTờ khai đề nghị cấp thị thực Việt Nam (NA1).",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 2 ngày làm việc - Nộp hồ sơ trực tuyến qua Trang giao dịch điện tử tại Cổng thông tin điện tử về xuất nhập cảnh hoặc Cổng dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an. Trong thời hạn 02 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định, Cục Quản lý xuất nhập cảnh chuyển cơ quan được Chính phủ giao chủ trì triển khai thực hiện theo điều ước quốc tế.\nTrực tuyến: 3 ngày làm việc - + Trong thời hạn 03 ngày làm việc kể từ ngày nhận được đề nghị cấp thị thực của người nước ngoài từ Cục Quản lý xuất nhập cảnh, cơ quan được Chính phủ giao chủ trì triển khai thực hiện điều ước quốc tế có trách nhiệm: (1)Nếu người nước ngoài thuộc đối tượng quy định của điều ước quốc tế mà Việt Nam là thành viên và thuộc lĩnh vực quản lý nhà nước của cơ quan chủ trì thì trực tiếp gửi văn bản đề nghị cấp thị thực tại Cục Quản lý xuất nhập cảnh theo quy định; nếu người nước ngoài không thuộc đối tượng quy định của điều ước quốc tế mà Việt Nam là thành viên thì trả lời Cục Quản lý xuất nhập cảnh để thông báo người nước ngoài biết. (2)Hoặc chuyển đề nghị cấp thị thực cho bộ, cơ quan ngang bộ quản lý nhà nước trong lĩnh vực đó đối với trường hợp người nước ngoài thuộc đối tượng quy định của điều ước quốc tế mà Việt Nam là thành viên nhưng không thuộc lĩnh vực quản lý nhà nước của cơ quan chủ trì. Trong thời hạn 02 ngày làm việc kể từ ngày nhận được đề nghị cấp thị thực của người nước ngoài, bộ, cơ quan ngang bộ gửi văn bản đề nghị cấp thị thực cho Cục Quản lý xuất nhập cảnh theo quy định.\nTrực tuyến: 3 ngày làm việc - Trong thời hạn 03 ngày làm việc kể từ ngày nhận được văn bản đề nghị cấp thị thực, Cục Quản lý xuất nhập cảnh xem xét, giải quyết, trả lời.",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: \nNgười nước ngoài truy cập Cổng thông tin điện tử về xuất nhập cảnh (có tên miền tiếng Việt là “https://www.xuatnhapcanh.gov.vn”, tiếng Anh là “https://www.immigration.gov.vn”), vào Trang giao dịch điện tử để nhập thông tin đề nghị cấp thị thực, tải ảnh mặt chân dung và trang nhân thân hộ chiếu, tải giấy tờ chứng minh thuộc đối tượng của điều ước quốc tế mà Việt Nam là thành viên nhưng chưa có hiện diện thương mại hoặc đối tác  tại Việt Nam. Sau khi thực hiện bước này, người nước ngoài sẽ được hệ thống cấp mã hồ sơ điện tử. \nThời gian nộp hồ sơ: 24giờ/07 ngày\nBước 2: Nhận kết quả\n+ Người nước ngoài sử dụng mã hồ sơ điện tử để kiểm tra kết quả giải quyết tại Trang giao dịch điện tử, trường hợp được cấp phép nhập cảnh thì sử dụng mã hồ sơ điện tử in công văn trả lời đề nghị xét duyệt nhân sự người nước ngoài nhập cảnh hoặc công văn trả lời đề nghị cấp thị thực tại cửa khẩu quốc tế.\n+ Thời gian: từ thứ 2 đến thứ 6 (trừ ngày Tết, ngày lễ)",
+    "THÀNH PHẦN HỒ SƠ": "Tờ khai đề nghị cấp thị thực Việt Nam (NA1).\nGiấy tờ chứng minh thuộc đối tượng của điều ước quốc tế mà Việt Nam là thành viên nhưng chưa có hiện diện thương mại hoặc đối tác tại Việt Nam được tải lên Trang giao dịch điện tử hoặc Cổng dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an theo quy định.\nSố lượng hồ sơ: 01 (một) bộ.\nẢnh mặt chân dung 4cm x 6cm; ảnh trang nhân thân hộ chiếu được tải lên Trang giao dịch điện tử hoặc Cổng dịch vụ công quốc gia hoặc Cổng dịch vụ công Bộ Công an theo quy định.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 2 ngày làm việc\nTrực tuyến: 3 ngày làm việc\nTrực tuyến: 3 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Quy định mẫu giấy tờ liên quan đến việc nhập cảnh, xuất cảnh, cư trú của người nước ngoài tại Việt Nam - Thông tư 04/2015/TT-BCA\nLuật 51/2019/QH14 - 51/2019/QH14\nNghị định 75/2020/NĐ-CP - 75/2020/NĐ-CP\nLuật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam - Luật 47/2014/QH13\nThông tư 57/2020/TT-BCA - 57/2020/TT-BCA",
     "CƠ QUAN THỰC HIỆN": "Cục quản lý xuất nhập cảnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "+ Người nước ngoài thuộc đối tượng quy định của điều ước quốc tế mà Việt Nam là thành viên nhưng chưa có hiện diện thương mại hoặc đối tác tại Việt Nam.\n+ Người nước ngoài không thuộc trường hợp chưa cho nhập cảnh quy định tại Điều 21 Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam.\n+ Người nước ngoài có giấy tờ chứng minh thuộc đối tượng quy định của điều ước quốc tế mà Việt Nam là thành viên nhưng chưa có hiện diện thương mại hoặc đối tác tại Việt Nam được hợp pháp hóa lãnh sự, trừ trường hợp được miễn theo quy định của pháp luật Việt Nam hoặc điều ước quốc tế mà Việt Nam là thành viên.",
@@ -195,11 +164,6 @@
     "MÔ TẢ": "+ Người nước ngoài thuộc đối tượng quy định của điều ước quốc tế mà Việt Nam là thành viên nhưng chưa có hiện diện thương mại hoặc đối tác tại Việt Nam.\n+ Người nước ngoài không thuộc trường hợp chưa cho nhập cảnh quy định tại Điều 21 Luật Nhập cảnh, xuất cảnh, quá cảnh, cư trú của người nước ngoài tại Việt Nam.\n+ Người nước ngoài có giấy tờ chứng minh thuộc đối tượng quy định của điều ước quốc tế mà Việt Nam là thành viên nhưng chưa có hiện diện thương mại hoặc đối tác tại Việt Nam được hợp pháp hóa lãnh sự, trừ trường hợp được miễn theo quy định của pháp luật Việt Nam hoặc điều ước quốc tế mà Việt Nam là thành viên."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Cư trú và giấy tờ tùy thân",
-      "slug": "cu-tru-va-giay-to-tuy-than",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Quản lý xuất nhập cảnh",
       "slug": "quan-ly-xuat-nhap-canh"
@@ -226,6 +190,6 @@
         "slug": "cuc-quan-ly-xuat-nhap-canh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

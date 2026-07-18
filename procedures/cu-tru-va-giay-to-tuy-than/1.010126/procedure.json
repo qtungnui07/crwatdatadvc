@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019dbd12-9a4a-725e-adb4-89b805491472",
   "procedure_code": "1.010126",
   "title": "Trình khen thưởng đối ngoại đối với các tổ chức và cá nhân nước ngoài, người Việt Nam ở nước ngoài và người Việt Nam làm việc cho các tổ chức nước ngoài có những đóng góp tích cực cho thành phố Đà Nẵng (UBND TP Đà Nẵng)",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019dbd12-9a4a-725e-adb4-89b805491472",
     "source_file": "chi-tiet-thu-tuc-1.010126.pdf",
     "source_path": "procedures/cu-tru-va-giay-to-tuy-than/1.010126/chi-tiet-thu-tuc-1.010126.pdf",
     "page_count": 9,
-    "extracted_at": "2026-07-18T02:22:05.678468+00:00",
-    "source_updated_at": "2026-04-25T17:42:14.698Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:55:38.401355+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "127fb8ee841162f16e2fd74ea4bc1372d9ac440023167634efc805c80bb7637f"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:05.678468+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "3402/QĐ-UBND",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Công tác lãnh sự",
   "target_users": [
@@ -35,79 +31,139 @@
   ],
   "agency": {
     "competent_agency": "Chủ tịch ủy ban nhân dân cấp tỉnh",
-    "executing_agency": "Sở Ngoại vụ TP.Đà Nẵng",
-    "authorized_agency": "",
-    "coordinating_agency": "Sở Nông nghiệp và Môi trường TP.Đà Nẵng, Cục Hải quan TP Đà Nẵng - Bộ tài chính, Công an cấp Tỉnh, Bảo hiểm xã hội Thành phố Đà Nẵng",
-    "receiving_address": "Bộ phận Tiếp nhận và trả kết quả của Sở Ngoại vụ thành phố Đà Nẵng, Trung tâm hành chính thành phố, 03 Lý Tự Trọng"
+    "executing_agency": "Sở Ngoại vụ TP.Đà Nẵng"
   },
   "steps": [
     {
       "order": 1,
-      "title": "Đối với hồ sơ có số lượng đề nghị khen thưởng dưới 10 tập thể, cá nhân",
-      "description": "Bước 1: Các cơ quan, đơn vị đề nghị khen thưởng NNN có thành tích xuất sắc đóng góp tích cực cho sự phát triển của thành phố Đà Nẵng nộp hồ sơ trực tiếp tại Bộ phận Tiếp nhận và trả kết quả (Bộ phận TN&TKQ) Sở Ngoại vụ thành phố Đà Nẵng hoặc giao dịch trực tuyến trên Cổng dịch vụ công trực tuyến thành phố Đà Nẵng tại địa chỉ https://dichvucong.danang.gov.vn.\nBước 2:\n- Trường hợp nộp hồ sơ trực tiếp\n+ Bộ phận TN&TKQ kiểm tra thành phần hồ sơ;\n+ Nếu thành phần hồ sơ chưa đầy đủ hoặc chưa hợp lệ, Bộ phận TN&TKQ hướng dẫn cơ quan, đơn vị hoàn thiện hồ sơ theo quy định và yêu cầu bổ sung, hoàn thiện hồ sơ;\n+ Nếu hồ sơ đầy đủ, hợp lệ, Bộ phận TN&TKQ ghi phiếu biên nhận trong đó nêu rõ ngày trả kết quả.\n- Trường hợp sử dụng giao dịch trực tuyến\n+ Bộ phận TN&TKQ kiểm tra tính hợp lệ và đầy đủ của hồ sơ điện tử;\n+ Nếu thành phần hồ sơ chưa đầy đủ hoặc chưa hợp lệ, Bộ phận TN&TKQ từ chối, hướng dẫn hoàn thiện hồ sơ theo quy định. Hệ thống tự động gửi thư điện tử thông báo đến tổ chức, công dân.\n+ Nếu hồ sơ đầy đủ, hợp lệ, Bộ phận TN&TKQ tiếp nhận. Hệ thống tự động gửi thư điện tử thông báo đến tổ chức, công dân.\nBước 3: Sau khi đã nhận đầy đủ hồ sơ hợp lệ, trong vòng 03 ngày làm việc, Sở Ngoại vụ thành phố Đà Nẵng gửi văn bản lấy ý kiến các cơ quan chức năng.\nBước 4: Trong vòng 10 ngày làm việc kể từ khi nhận được hồ sơ đề nghị của Sở Ngoại vụ thành phố Đà Nẵng, các cơ quan, đơn vị liên quan trả lời bằng văn bản cho Sở Ngoại vụ.\nBước 5: Trong vòng 07 ngày làm việc kể từ khi nhận được đầy đủ ý kiến của các đơn vị liên quan, Sở Ngoại vụ thành phố Đà Nẵng tổng hợp ý kiến các cơ quan chức năng, gửi Ban Thi đua - Khen thưởng (Sở Nội vụ) để trình Chủ tịch UBND thành phố.\nBước 6:\n- Đối với hồ sơ có số lượng đề nghị khen thưởng từ 10 đến dưới 50 tập thể, cá nhân: Trong vòng 15 ngày làm việc kể từ khi nhận được hồ sơ đề nghị của Sở Ngoại vụ, Ban Thi đua - Khen thưởng thành phố trình Chủ tịch UBND thành phố danh sách đề nghị khen thưởng (hoặc có công văn trả lời không đồng ý khen thưởng cho cá nhân, tổ chức nước ngoài được đề nghị);\n- Đối với hồ sơ có số lượng đề nghị khen thưởng từ 50 tập thể, cá nhân trở lên: Trong vòng 20 ngày làm việc kể từ khi nhận được hồ sơ đề nghị của Sở Ngoại vụ, Ban Thi đua - Khen thưởng thành phố trình Chủ tịch UBND thành phố danh sách đề nghị khen thưởng (hoặc có công văn trả lời không đồng ý khen thưởng cho cá nhân, tổ chức nước ngoài được đề nghị).\nBước 7: Trong vòng 01 ngày làm việc sau khi nhận được Quyết định khen thưởng hoặc công văn không đồng ý khen thưởng cá nhân, tổ chức nước ngoài, Sở Ngoại vụ thành phố Đà Nẵng trả Quyết định khen thưởng hoặc có văn bản trả lời cho cơ quan, đơn vị đề xuất tại Bộ phận TN&TKQ Sở Ngoại vụ thành phố Đà Nẵng hoặc Bộ phận TN&TKQ gửi kết quả qua dịch vụ bưu chính công ích. Trường hợp thực hiện giao dịch trực tuyến cơ quan, đơn vị nộp bản chính hồ sơ trước khi nhận kết quả.",
+      "title": "Bước 1",
+      "description": "Bước 1: Các cơ quan, đơn vị đề nghị khen thưởng NNN có thành tích xuất sắc đóng góp tích cực cho sự phát triển của thành phố Đà Nẵng nộp hồ sơ trực tiếp tại Bộ phận Tiếp nhận và trả kết quả (Bộ phận TN&TKQ) Sở Ngoại vụ thành phố Đà Nẵng hoặc giao dịch trực tuyến trên Cổng dịch vụ công trực tuyến thành phố Đà Nẵng tại địa chỉ https://dichvucong.danang.gov.vn.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
-      "title": "Đối với hồ sơ có số lượng đề nghị khen thưởng trên 10 tập thể, cá nhân",
-      "description": "Bước 1: Các cơ quan, đơn vị đề nghị khen thưởng NNN có thành tích xuất sắc đóng góp tích cực cho sự phát triển của thành phố Đà Nẵng nộp hồ sơ trực tiếp tại Bộ phận Tiếp nhận và trả kết quả (Bộ phận TN&TKQ) Sở Ngoại vụ thành phố Đà Nẵng hoặc giao dịch trực tuyến trên Cổng dịch vụ công trực tuyến thành phố Đà Nẵng tại địa chỉ https://dichvucong.danang.gov.vn.\nBước 2:\n- Trường hợp nộp hồ sơ trực tiếp\n+ Bộ phận TN&TKQ kiểm tra thành phần hồ sơ;\n+ Nếu thành phần hồ sơ chưa đầy đủ hoặc chưa hợp lệ, Bộ phận TN&TKQ hướng dẫn cơ quan, đơn vị hoàn thiện hồ sơ theo quy định và yêu cầu bổ sung, hoàn thiện hồ sơ;\n+ Nếu hồ sơ đầy đủ, hợp lệ, Bộ phận TN&TKQ ghi phiếu biên nhận trong đó nêu rõ ngày trả kết quả.\n- Trường hợp sử dụng giao dịch trực tuyến\n+ Bộ phận TN&TKQ kiểm tra tính hợp lệ và đầy đủ của hồ sơ điện tử;\n+ Nếu thành phần hồ sơ chưa đầy đủ hoặc chưa hợp lệ, Bộ phận TN&TKQ từ chối, hướng dẫn hoàn thiện hồ sơ theo quy định. Hệ thống tự động gửi thư điện tử thông báo đến tổ chức, công dân.\n+ Nếu hồ sơ đầy đủ, hợp lệ, Bộ phận TN&TKQ tiếp nhận. Hệ thống tự động gửi thư điện tử thông báo đến tổ chức, công dân.\nBước 3: Sau khi đã nhận đầy đủ hồ sơ hợp lệ, trong vòng 03 ngày làm việc, Sở Ngoại vụ thành phố Đà Nẵng gửi văn bản lấy ý kiến các cơ quan chức năng.\nBước 4: Trong vòng 10 ngày làm việc kể từ khi nhận được hồ sơ đề nghị của Sở Ngoại vụ thành phố Đà Nẵng, các cơ quan, đơn vị liên quan trả lời bằng văn bản cho Sở Ngoại vụ.\nBước 5: Trong vòng 07 ngày làm việc kể từ khi nhận được đầy đủ ý kiến của các đơn vị liên quan, Sở Ngoại vụ thành phố Đà Nẵng tổng hợp ý kiến các cơ quan chức năng, gửi Ban Thi đua - Khen thưởng (Sở Nội vụ) để trình Chủ tịch UBND thành phố.\nBước 6:\n- Đối với hồ sơ có số lượng đề nghị khen thưởng từ 10 đến dưới 50 tập thể, cá nhân: Trong vòng 15 ngày làm việc kể từ khi nhận được hồ sơ đề nghị của Sở Ngoại vụ, Ban Thi đua - Khen thưởng thành phố trình Chủ tịch UBND thành phố danh sách đề nghị khen thưởng (hoặc có công văn trả lời không đồng ý khen thưởng cho cá nhân, tổ chức nước ngoài được đề nghị);\n- Đối với hồ sơ có số lượng đề nghị khen thưởng từ 50 tập thể, cá nhân trở lên: Trong vòng 20 ngày làm việc kể từ khi nhận được hồ sơ đề nghị của Sở Ngoại vụ, Ban Thi đua - Khen thưởng thành phố trình Chủ tịch UBND thành phố danh sách đề nghị khen thưởng (hoặc có công văn trả lời không đồng ý khen thưởng cho cá nhân, tổ chức nước ngoài được đề nghị).\nBước 7: Trong vòng 01 ngày làm việc sau khi nhận được Quyết định khen thưởng hoặc công văn không đồng ý khen thưởng cá nhân, tổ chức nước ngoài, Sở Ngoại vụ thành phố Đà Nẵng trả Quyết định khen thưởng hoặc có văn bản trả lời cho cơ quan, đơn vị đề xuất tại Bộ phận TN&TKQ Sở Ngoại vụ thành phố Đà Nẵng hoặc Bộ phận TN&TKQ gửi kết quả qua dịch vụ bưu chính công ích. Trường hợp thực hiện giao dịch trực tuyến cơ quan, đơn vị nộp bản chính hồ sơ trước khi nhận kết quả.",
+      "title": "Bước 2",
+      "description": "Bước 2:\n- Trường hợp nộp hồ sơ trực tiếp\n+ Bộ phận TN&TKQ kiểm tra thành phần hồ sơ;\n+ Nếu thành phần hồ sơ chưa đầy đủ hoặc chưa hợp lệ, Bộ phận TN&TKQ hướng dẫn cơ quan, đơn vị hoàn thiện hồ sơ theo quy định và yêu cầu bổ sung, hoàn thiện hồ sơ;\n+ Nếu hồ sơ đầy đủ, hợp lệ, Bộ phận TN&TKQ ghi phiếu biên nhận trong đó nêu rõ ngày trả kết quả.\n- Trường hợp sử dụng giao dịch trực tuyến\n+ Bộ phận TN&TKQ kiểm tra tính hợp lệ và đầy đủ của hồ sơ điện tử;\n+ Nếu thành phần hồ sơ chưa đầy đủ hoặc chưa hợp lệ, Bộ phận TN&TKQ từ chối, hướng dẫn hoàn thiện hồ sơ theo quy định. Hệ thống tự động gửi thư điện tử thông báo đến tổ chức, công dân.\n+ Nếu hồ sơ đầy đủ, hợp lệ, Bộ phận TN&TKQ tiếp nhận. Hệ thống tự động gửi thư điện tử thông báo đến tổ chức, công dân.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Sau khi đã nhận đầy đủ hồ sơ hợp lệ, trong vòng 03 ngày làm việc, Sở Ngoại vụ thành phố Đà Nẵng gửi văn bản lấy ý kiến các cơ quan chức năng.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 4",
+      "description": "Bước 4: Trong vòng 10 ngày làm việc kể từ khi nhận được hồ sơ đề nghị của Sở Ngoại vụ thành phố Đà Nẵng, các cơ quan, đơn vị liên quan trả lời bằng văn bản cho Sở Ngoại vụ.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 5,
+      "title": "Bước 5",
+      "description": "Bước 5: Trong vòng 07 ngày làm việc kể từ khi nhận được đầy đủ ý kiến của các đơn vị liên quan, Sở Ngoại vụ thành phố Đà Nẵng tổng hợp ý kiến các cơ quan chức năng, gửi Ban Thi đua - Khen thưởng (Sở Nội vụ) để trình Chủ tịch UBND thành phố.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 6,
+      "title": "Bước 6",
+      "description": "Bước 6:\n- Đối với hồ sơ có số lượng đề nghị khen thưởng từ 10 đến dưới 50 tập thể, cá nhân: Trong vòng 15 ngày làm việc kể từ khi nhận được hồ sơ đề nghị của Sở Ngoại vụ, Ban Thi đua - Khen thưởng thành phố trình Chủ tịch UBND thành phố danh sách đề nghị khen thưởng (hoặc có công văn trả lời không đồng ý khen thưởng cho cá nhân, tổ chức nước ngoài được đề nghị);\n- Đối với hồ sơ có số lượng đề nghị khen thưởng từ 50 tập thể, cá nhân trở lên: Trong vòng 20 ngày làm việc kể từ khi nhận được hồ sơ đề nghị của Sở Ngoại vụ, Ban Thi đua - Khen thưởng thành phố trình Chủ tịch UBND thành phố danh sách đề nghị khen thưởng (hoặc có công văn trả lời không đồng ý khen thưởng cho cá nhân, tổ chức nước ngoài được đề nghị).",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 7,
+      "title": "Bước 7",
+      "description": "Bước 7: Trong vòng 01 ngày làm việc sau khi nhận được Quyết định khen thưởng hoặc công văn không đồng ý khen thưởng cá nhân, tổ chức nước ngoài, Sở Ngoại vụ thành phố Đà Nẵng trả Quyết định khen thưởng hoặc có văn bản trả lời cho cơ quan, đơn vị đề xuất tại Bộ phận TN&TKQ Sở Ngoại vụ thành phố Đà Nẵng hoặc Bộ phận TN&TKQ gửi kết quả qua dịch vụ bưu chính công ích. Trường hợp thực hiện giao dịch trực tuyến cơ quan, đơn vị nộp bản chính hồ sơ trước khi nhận kết quả.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 8,
+      "title": "Bước 1",
+      "description": "Bước 1: Các cơ quan, đơn vị đề nghị khen thưởng NNN có thành tích xuất sắc đóng góp tích cực cho sự phát triển của thành phố Đà Nẵng nộp hồ sơ trực tiếp tại Bộ phận Tiếp nhận và trả kết quả (Bộ phận TN&TKQ) Sở Ngoại vụ thành phố Đà Nẵng hoặc giao dịch trực tuyến trên Cổng dịch vụ công trực tuyến thành phố Đà Nẵng tại địa chỉ https://dichvucong.danang.gov.vn.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 9,
+      "title": "Bước 2",
+      "description": "Bước 2:\n- Trường hợp nộp hồ sơ trực tiếp\n+ Bộ phận TN&TKQ kiểm tra thành phần hồ sơ;\n+ Nếu thành phần hồ sơ chưa đầy đủ hoặc chưa hợp lệ, Bộ phận TN&TKQ hướng dẫn cơ quan, đơn vị hoàn thiện hồ sơ theo quy định và yêu cầu bổ sung, hoàn thiện hồ sơ;\n+ Nếu hồ sơ đầy đủ, hợp lệ, Bộ phận TN&TKQ ghi phiếu biên nhận trong đó nêu rõ ngày trả kết quả.\n- Trường hợp sử dụng giao dịch trực tuyến\n+ Bộ phận TN&TKQ kiểm tra tính hợp lệ và đầy đủ của hồ sơ điện tử;\n+ Nếu thành phần hồ sơ chưa đầy đủ hoặc chưa hợp lệ, Bộ phận TN&TKQ từ chối, hướng dẫn hoàn thiện hồ sơ theo quy định. Hệ thống tự động gửi thư điện tử thông báo đến tổ chức, công dân.\n+ Nếu hồ sơ đầy đủ, hợp lệ, Bộ phận TN&TKQ tiếp nhận. Hệ thống tự động gửi thư điện tử thông báo đến tổ chức, công dân.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 10,
+      "title": "Bước 3",
+      "description": "Bước 3: Sau khi đã nhận đầy đủ hồ sơ hợp lệ, trong vòng 03 ngày làm việc, Sở Ngoại vụ thành phố Đà Nẵng gửi văn bản lấy ý kiến các cơ quan chức năng.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 11,
+      "title": "Bước 4",
+      "description": "Bước 4: Trong vòng 10 ngày làm việc kể từ khi nhận được hồ sơ đề nghị của Sở Ngoại vụ thành phố Đà Nẵng, các cơ quan, đơn vị liên quan trả lời bằng văn bản cho Sở Ngoại vụ.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 12,
+      "title": "Bước 5",
+      "description": "Bước 5: Trong vòng 07 ngày làm việc kể từ khi nhận được đầy đủ ý kiến của các đơn vị liên quan, Sở Ngoại vụ thành phố Đà Nẵng tổng hợp ý kiến các cơ quan chức năng, gửi Ban Thi đua - Khen thưởng (Sở Nội vụ) để trình Chủ tịch UBND thành phố.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 13,
+      "title": "Bước 6",
+      "description": "Bước 6:\n- Đối với hồ sơ có số lượng đề nghị khen thưởng từ 10 đến dưới 50 tập thể, cá nhân: Trong vòng 15 ngày làm việc kể từ khi nhận được hồ sơ đề nghị của Sở Ngoại vụ, Ban Thi đua - Khen thưởng thành phố trình Chủ tịch UBND thành phố danh sách đề nghị khen thưởng (hoặc có công văn trả lời không đồng ý khen thưởng cho cá nhân, tổ chức nước ngoài được đề nghị);\n- Đối với hồ sơ có số lượng đề nghị khen thưởng từ 50 tập thể, cá nhân trở lên: Trong vòng 20 ngày làm việc kể từ khi nhận được hồ sơ đề nghị của Sở Ngoại vụ, Ban Thi đua - Khen thưởng thành phố trình Chủ tịch UBND thành phố danh sách đề nghị khen thưởng (hoặc có công văn trả lời không đồng ý khen thưởng cho cá nhân, tổ chức nước ngoài được đề nghị).",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 14,
+      "title": "Bước 7",
+      "description": "Bước 7: Trong vòng 01 ngày làm việc sau khi nhận được Quyết định khen thưởng hoặc công văn không đồng ý khen thưởng cá nhân, tổ chức nước ngoài, Sở Ngoại vụ thành phố Đà Nẵng trả Quyết định khen thưởng hoặc có văn bản trả lời cho cơ quan, đơn vị đề xuất tại Bộ phận TN&TKQ Sở Ngoại vụ thành phố Đà Nẵng hoặc Bộ phận TN&TKQ gửi kết quả qua dịch vụ bưu chính công ích. Trường hợp thực hiện giao dịch trực tuyến cơ quan, đơn vị nộp bản chính hồ sơ trước khi nhận kết quả.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "1. Tờ trình đề nghị khen thưởng các NNN, ghi rõ:",
-        "code": "000.00.00.H17-KQ3268",
         "quantity": null,
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "- Tên đầy đủ, quốc tịch của tổ chức, cá nhân đề nghị khen thưởng;",
-        "code": "000.00.00.H17-KQ3269",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "- Lý do đề nghị khen thưởng;",
-        "code": "000.00.00.H17-KQ3270",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "- Nội dung khen thưởng: Tóm tắt những hoạt động, thành tích đã đạt được của tổ chức, cá nhân nước ngoài, người Việt Nam ở nước ngoài và người Việt Nam làm việc cho các tổ chức nước ngoài đóng góp tích cực cho thành phố trong các hoạt động tăng cường quan hệ hữu nghị và hợp tác, viện trợ nhân đạo và hỗ trợ phát triển kinh tế - xã hội của thành phố.",
-        "code": "000.00.00.H17-KQ3271",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019dbd10-33b3-71bb-b21e-2797cb4ae1f9",
-            "name": "Mau de nghi khen thuong.doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau de nghi khen thuong.doc",
+        "source_page": 3
       },
       {
         "name": "2. Các văn bản, giấy tờ chứng minh những đóng góp của tổ chức, cá nhân đề nghị khen thưởng.",
-        "code": "000.00.00.H17-KQ3272",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       }
     ],
     "normally_required": [],
@@ -118,44 +174,37 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "18 ngày làm việc",
-      "processing_time_value": 18,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
-      "description": "\t1. Đối với hồ sơ có số lượng đề nghị khen thưởng dưới 10 tập thể, cá nhân: 18 ngày làm việc - Sở Ngoại vụ thành phố Đà Nẵng: 03 ngày làm việc; - Các cơ quan liên quan: 05 ngày làm việc; - Ban Thi đua - Khen thưởng thành phố: 10 ngày làm việc. ",
-      "source_page": null
+      "fee": null,
+      "description": "1. Đối với hồ sơ có số lượng đề nghị khen thưởng dưới 10 tập thể, cá nhân: 18 ngày làm việc - Sở Ngoại vụ thành phố Đà Nẵng: 03 ngày làm việc; - Các cơ quan liên quan: 05 ngày làm việc; - Ban Thi đua - Khen thưởng thành phố: 10 ngày làm việc.",
+      "source_page": 5
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "41 ngày làm việc",
-      "processing_time_value": 41,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "2. Đối với hồ sơ có số lượng đề nghị khen thưởng từ 10 đến dưới 50 tập thể, cá nhân: 36 - 41 ngày làm việc - Sở Ngoại vụ thành phố Đà Nẵng: 11 ngày làm việc; - Các cơ quan liên quan: 10 ngày làm việc; - Ban Thi đua - Khen thưởng thành phố: 15 ngày làm việc đối với hồ sơ có số lượng đề nghị khen thưởng từ 10 đến dưới 50 tập thể, cá nhân; 20 ngày làm việc đối với hồ sơ có số lượng đề nghị khen thưởng từ 50 tập thể, cá nhân trở lên.",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "18 ngày làm việc",
-      "processing_time_value": 18,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
-      "description": "\t1. Đối với hồ sơ có số lượng đề nghị khen thưởng dưới 10 tập thể, cá nhân: 18 ngày làm việc - Sở Ngoại vụ thành phố Đà Nẵng: 03 ngày làm việc; - Các cơ quan liên quan: 05 ngày làm việc; - Ban Thi đua - Khen thưởng thành phố: 10 ngày làm việc. ",
-      "source_page": null
+      "fee": null,
+      "description": "1. Đối với hồ sơ có số lượng đề nghị khen thưởng dưới 10 tập thể, cá nhân: 18 ngày làm việc - Sở Ngoại vụ thành phố Đà Nẵng: 03 ngày làm việc; - Các cơ quan liên quan: 05 ngày làm việc; - Ban Thi đua - Khen thưởng thành phố: 10 ngày làm việc.",
+      "source_page": 5
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "41 ngày làm việc",
-      "processing_time_value": 41,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "2. Đối với hồ sơ có số lượng đề nghị khen thưởng từ 10 đến dưới 50 tập thể, cá nhân: 36 - 41 ngày làm việc - Sở Ngoại vụ thành phố Đà Nẵng: 11 ngày làm việc; - Các cơ quan liên quan: 10 ngày làm việc; - Ban Thi đua - Khen thưởng thành phố: 15 ngày làm việc đối với hồ sơ có số lượng đề nghị khen thưởng từ 10 đến dưới 50 tập thể, cá nhân; 20 ngày làm việc đối với hồ sơ có số lượng đề nghị khen thưởng từ 50 tập thể, cá nhân trở lên.",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -164,44 +213,37 @@
     {
       "title": "Quyết định số 7365-QĐ/TU ngày 16/6/2017 của Thành ủy Đà Nẵng về việc Ban hành Quy chế Quản lý thống nhất các hoạt động đối ngoại trên địa bàn thành phố Đà Nẵng",
       "document_number": "7365-QĐ/TU",
-      "id": "019d2bb3-5d87-7195-a445-5e963683ed77",
-      "source_page": null
+      "source_page": 8
     },
     {
       "title": "Thông tư 12/2019/TT-BNV",
       "document_number": "12/2019/TT-BNV",
-      "id": "019d2bb3-5d7d-7398-be46-7bb53b4cb1de",
-      "source_page": null
+      "source_page": 8
     },
     {
       "title": "Nghị định 91/2017/NĐ-CP",
       "document_number": "91/2017/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b472-9da6a5250c84",
-      "source_page": null
+      "source_page": 8
     },
     {
       "title": "Thông tư liên tịch 02/2015/TTLT-BNG-BNV",
       "document_number": "02/2015/TTLT-BNG-BNV",
-      "id": "019d2bb3-5d7c-71ab-9f08-3928c590edb5",
-      "source_page": null
+      "source_page": 8
     },
     {
       "title": "Ban hành Quy định về công tác thi đua, khen thưởng trên địa bàn thành phố Đà Nẵng.",
       "document_number": "16/2018/QĐ-UBND",
-      "id": "019d2bb3-5d84-71c5-b67b-9210db6009bd",
-      "source_page": null
+      "source_page": 8
     },
     {
       "title": "Luật 15/2003/QH11",
       "document_number": "15/2003/QH11",
-      "id": "019d2bb3-5d80-7608-8cd0-c2626f7b0511",
-      "source_page": null
+      "source_page": 8
     },
     {
       "title": "Lu Sửa đổi, bổ sung một số điều của Luật Thi đua, khen thưởngật 39/2013/QH13",
       "document_number": "39/2013/QH13",
-      "id": "019d2bb3-5d84-71c5-b670-f422117f1ede",
-      "source_page": null
+      "source_page": 8
     }
   ],
   "conditions": "Không.",
@@ -209,14 +251,13 @@
     {
       "title": "Quyết định khen thưởng hoặc Công văn không đồng ý khen thưởng.",
       "code": "000.00.00.H17-KQ3273",
-      "id": "019dbd11-1bc1-7698-9586-5122aa9d5082",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Bước 1: Các cơ quan, đơn vị đề nghị khen thưởng NNN có thành tích xuất sắc đóng góp tích cực cho sự phát triển của thành phố Đà Nẵng nộp hồ sơ trực tiếp tại Bộ phận Tiếp nhận và trả kết quả (Bộ phận TN&TKQ) Sở Ngoại vụ thành phố Đà Nẵng hoặc giao dịch trực tuyến trên Cổng dịch vụ công trực tuyến thành phố Đà Nẵng tại địa chỉ https://dichvucong.danang.gov.vn.\nBước 2:\n- Trường hợp nộp hồ sơ trực tiếp\n+ Bộ phận TN&TKQ kiểm tra thành phần hồ sơ;\n+ Nếu thành phần hồ sơ chưa đầy đủ hoặc chưa hợp lệ, Bộ phận TN&TKQ hướng dẫn cơ quan, đơn vị hoàn thiện hồ sơ theo quy định và yêu cầu bổ sung, hoàn thiện hồ sơ;\n+ Nếu hồ sơ đầy đủ, hợp lệ, Bộ phận TN&TKQ ghi phiếu biên nhận trong đó nêu rõ ngày trả kết quả.\n- Trường hợp sử dụng giao dịch trực tuyến\n+ Bộ phận TN&TKQ kiểm tra tính hợp lệ và đầy đủ của hồ sơ điện tử;\n+ Nếu thành phần hồ sơ chưa đầy đủ hoặc chưa hợp lệ, Bộ phận TN&TKQ từ chối, hướng dẫn hoàn thiện hồ sơ theo quy định. Hệ thống tự động gửi thư điện tử thông báo đến tổ chức, công dân.\n+ Nếu hồ sơ đầy đủ, hợp lệ, Bộ phận TN&TKQ tiếp nhận. Hệ thống tự động gửi thư điện tử thông báo đến tổ chức, công dân.\nBước 3: Sau khi đã nhận đầy đủ hồ sơ hợp lệ, trong vòng 03 ngày làm việc, Sở Ngoại vụ thành phố Đà Nẵng gửi văn bản lấy ý kiến các cơ quan chức năng.\nBước 4: Trong vòng 10 ngày làm việc kể từ khi nhận được hồ sơ đề nghị của Sở Ngoại vụ thành phố Đà Nẵng, các cơ quan, đơn vị liên quan trả lời bằng văn bản cho Sở Ngoại vụ.\nBước 5: Trong vòng 07 ngày làm việc kể từ khi nhận được đầy đủ ý kiến của các đơn vị liên quan, Sở Ngoại vụ thành phố Đà Nẵng tổng hợp ý kiến các cơ quan chức năng, gửi Ban Thi đua - Khen thưởng (Sở Nội vụ) để trình Chủ tịch UBND thành phố.\nBước 6:\n- Đối với hồ sơ có số lượng đề nghị khen thưởng từ 10 đến dưới 50 tập thể, cá nhân: Trong vòng 15 ngày làm việc kể từ khi nhận được hồ sơ đề nghị của Sở Ngoại vụ, Ban Thi đua - Khen thưởng thành phố trình Chủ tịch UBND thành phố danh sách đề nghị khen thưởng (hoặc có công văn trả lời không đồng ý khen thưởng cho cá nhân, tổ chức nước ngoài được đề nghị);\n- Đối với hồ sơ có số lượng đề nghị khen thưởng từ 50 tập thể, cá nhân trở lên: Trong vòng 20 ngày làm việc kể từ khi nhận được hồ sơ đề nghị của Sở Ngoại vụ, Ban Thi đua - Khen thưởng thành phố trình Chủ tịch UBND thành phố danh sách đề nghị khen thưởng (hoặc có công văn trả lời không đồng ý khen thưởng cho cá nhân, tổ chức nước ngoài được đề nghị).\nBước 7: Trong vòng 01 ngày làm việc sau khi nhận được Quyết định khen thưởng hoặc công văn không đồng ý khen thưởng cá nhân, tổ chức nước ngoài, Sở Ngoại vụ thành phố Đà Nẵng trả Quyết định khen thưởng hoặc có văn bản trả lời cho cơ quan, đơn vị đề xuất tại Bộ phận TN&TKQ Sở Ngoại vụ thành phố Đà Nẵng hoặc Bộ phận TN&TKQ gửi kết quả qua dịch vụ bưu chính công ích. Trường hợp thực hiện giao dịch trực tuyến cơ quan, đơn vị nộp bản chính hồ sơ trước khi nhận kết quả.\nBước 1: Các cơ quan, đơn vị đề nghị khen thưởng NNN có thành tích xuất sắc đóng góp tích cực cho sự phát triển của thành phố Đà Nẵng nộp hồ sơ trực tiếp tại Bộ phận Tiếp nhận và trả kết quả (Bộ phận TN&TKQ) Sở Ngoại vụ thành phố Đà Nẵng hoặc giao dịch trực tuyến trên Cổng dịch vụ công trực tuyến thành phố Đà Nẵng tại địa chỉ https://dichvucong.danang.gov.vn.\nBước 2:\n- Trường hợp nộp hồ sơ trực tiếp\n+ Bộ phận TN&TKQ kiểm tra thành phần hồ sơ;\n+ Nếu thành phần hồ sơ chưa đầy đủ hoặc chưa hợp lệ, Bộ phận TN&TKQ hướng dẫn cơ quan, đơn vị hoàn thiện hồ sơ theo quy định và yêu cầu bổ sung, hoàn thiện hồ sơ;\n+ Nếu hồ sơ đầy đủ, hợp lệ, Bộ phận TN&TKQ ghi phiếu biên nhận trong đó nêu rõ ngày trả kết quả.\n- Trường hợp sử dụng giao dịch trực tuyến\n+ Bộ phận TN&TKQ kiểm tra tính hợp lệ và đầy đủ của hồ sơ điện tử;\n+ Nếu thành phần hồ sơ chưa đầy đủ hoặc chưa hợp lệ, Bộ phận TN&TKQ từ chối, hướng dẫn hoàn thiện hồ sơ theo quy định. Hệ thống tự động gửi thư điện tử thông báo đến tổ chức, công dân.\n+ Nếu hồ sơ đầy đủ, hợp lệ, Bộ phận TN&TKQ tiếp nhận. Hệ thống tự động gửi thư điện tử thông báo đến tổ chức, công dân.\nBước 3: Sau khi đã nhận đầy đủ hồ sơ hợp lệ, trong vòng 03 ngày làm việc, Sở Ngoại vụ thành phố Đà Nẵng gửi văn bản lấy ý kiến các cơ quan chức năng.\nBước 4: Trong vòng 10 ngày làm việc kể từ khi nhận được hồ sơ đề nghị của Sở Ngoại vụ thành phố Đà Nẵng, các cơ quan, đơn vị liên quan trả lời bằng văn bản cho Sở Ngoại vụ.\nBước 5: Trong vòng 07 ngày làm việc kể từ khi nhận được đầy đủ ý kiến của các đơn vị liên quan, Sở Ngoại vụ thành phố Đà Nẵng tổng hợp ý kiến các cơ quan chức năng, gửi Ban Thi đua - Khen thưởng (Sở Nội vụ) để trình Chủ tịch UBND thành phố.\nBước 6:\n- Đối với hồ sơ có số lượng đề nghị khen thưởng từ 10 đến dưới 50 tập thể, cá nhân: Trong vòng 15 ngày làm việc kể từ khi nhận được hồ sơ đề nghị của Sở Ngoại vụ, Ban Thi đua - Khen thưởng thành phố trình Chủ tịch UBND thành phố danh sách đề nghị khen thưởng (hoặc có công văn trả lời không đồng ý khen thưởng cho cá nhân, tổ chức nước ngoài được đề nghị);\n- Đối với hồ sơ có số lượng đề nghị khen thưởng từ 50 tập thể, cá nhân trở lên: Trong vòng 20 ngày làm việc kể từ khi nhận được hồ sơ đề nghị của Sở Ngoại vụ, Ban Thi đua - Khen thưởng thành phố trình Chủ tịch UBND thành phố danh sách đề nghị khen thưởng (hoặc có công văn trả lời không đồng ý khen thưởng cho cá nhân, tổ chức nước ngoài được đề nghị).\nBước 7: Trong vòng 01 ngày làm việc sau khi nhận được Quyết định khen thưởng hoặc công văn không đồng ý khen thưởng cá nhân, tổ chức nước ngoài, Sở Ngoại vụ thành phố Đà Nẵng trả Quyết định khen thưởng hoặc có văn bản trả lời cho cơ quan, đơn vị đề xuất tại Bộ phận TN&TKQ Sở Ngoại vụ thành phố Đà Nẵng hoặc Bộ phận TN&TKQ gửi kết quả qua dịch vụ bưu chính công ích. Trường hợp thực hiện giao dịch trực tuyến cơ quan, đơn vị nộp bản chính hồ sơ trước khi nhận kết quả.",
-    "THÀNH PHẦN HỒ SƠ": "\n1. Tờ trình đề nghị khen thưởng các NNN, ghi rõ:\n- Tên đầy đủ, quốc tịch của tổ chức, cá nhân đề nghị khen thưởng;\n- Lý do đề nghị khen thưởng;\n- Nội dung khen thưởng: Tóm tắt những hoạt động, thành tích đã đạt được của tổ chức, cá nhân nước ngoài, người Việt Nam ở nước ngoài và người Việt Nam làm việc cho các tổ chức nước ngoài đóng góp tích cực cho thành phố trong các hoạt động tăng cường quan hệ hữu nghị và hợp tác, viện trợ nhân đạo và hỗ trợ phát triển kinh tế - xã hội của thành phố.\n2. Các văn bản, giấy tờ chứng minh những đóng góp của tổ chức, cá nhân đề nghị khen thưởng.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 18 ngày làm việc - \t1. Đối với hồ sơ có số lượng đề nghị khen thưởng dưới 10 tập thể, cá nhân: 18 ngày làm việc - Sở Ngoại vụ thành phố Đà Nẵng: 03 ngày làm việc; - Các cơ quan liên quan: 05 ngày làm việc; - Ban Thi đua - Khen thưởng thành phố: 10 ngày làm việc. \nTrực tiếp: 41 ngày làm việc - 2. Đối với hồ sơ có số lượng đề nghị khen thưởng từ 10 đến dưới 50 tập thể, cá nhân: 36 - 41 ngày làm việc - Sở Ngoại vụ thành phố Đà Nẵng: 11 ngày làm việc; - Các cơ quan liên quan: 10 ngày làm việc; - Ban Thi đua - Khen thưởng thành phố: 15 ngày làm việc đối với hồ sơ có số lượng đề nghị khen thưởng từ 10 đến dưới 50 tập thể, cá nhân; 20 ngày làm việc đối với hồ sơ có số lượng đề nghị khen thưởng từ 50 tập thể, cá nhân trở lên.\nTrực tuyến: 18 ngày làm việc - \t1. Đối với hồ sơ có số lượng đề nghị khen thưởng dưới 10 tập thể, cá nhân: 18 ngày làm việc - Sở Ngoại vụ thành phố Đà Nẵng: 03 ngày làm việc; - Các cơ quan liên quan: 05 ngày làm việc; - Ban Thi đua - Khen thưởng thành phố: 10 ngày làm việc. \nTrực tuyến: 41 ngày làm việc - 2. Đối với hồ sơ có số lượng đề nghị khen thưởng từ 10 đến dưới 50 tập thể, cá nhân: 36 - 41 ngày làm việc - Sở Ngoại vụ thành phố Đà Nẵng: 11 ngày làm việc; - Các cơ quan liên quan: 10 ngày làm việc; - Ban Thi đua - Khen thưởng thành phố: 15 ngày làm việc đối với hồ sơ có số lượng đề nghị khen thưởng từ 10 đến dưới 50 tập thể, cá nhân; 20 ngày làm việc đối với hồ sơ có số lượng đề nghị khen thưởng từ 50 tập thể, cá nhân trở lên.",
+    "THÀNH PHẦN HỒ SƠ": "1. Tờ trình đề nghị khen thưởng các NNN, ghi rõ:\n- Tên đầy đủ, quốc tịch của tổ chức, cá nhân đề nghị khen thưởng;\n- Lý do đề nghị khen thưởng;\n- Nội dung khen thưởng: Tóm tắt những hoạt động, thành tích đã đạt được của tổ chức, cá nhân nước ngoài, người Việt Nam ở nước ngoài và người Việt Nam làm việc cho các tổ chức nước ngoài đóng góp tích cực cho thành phố trong các hoạt động tăng cường quan hệ hữu nghị và hợp tác, viện trợ nhân đạo và hỗ trợ phát triển kinh tế - xã hội của thành phố.\n2. Các văn bản, giấy tờ chứng minh những đóng góp của tổ chức, cá nhân đề nghị khen thưởng.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 18 ngày làm việc\nTrực tiếp: 41 ngày làm việc\nTrực tuyến: 18 ngày làm việc\nTrực tuyến: 41 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Quyết định số 7365-QĐ/TU ngày 16/6/2017 của Thành ủy Đà Nẵng về việc Ban hành Quy chế Quản lý thống nhất các hoạt động đối ngoại trên địa bàn thành phố Đà Nẵng - 7365-QĐ/TU\nThông tư 12/2019/TT-BNV - 12/2019/TT-BNV\nNghị định 91/2017/NĐ-CP - 91/2017/NĐ-CP\nThông tư liên tịch 02/2015/TTLT-BNG-BNV - 02/2015/TTLT-BNG-BNV\nBan hành Quy định về công tác thi đua, khen thưởng trên địa bàn thành phố Đà Nẵng. - 16/2018/QĐ-UBND\nLuật 15/2003/QH11 - 15/2003/QH11\nLu Sửa đổi, bổ sung một số điều của Luật Thi đua, khen thưởngật 39/2013/QH13 - 39/2013/QH13",
     "CƠ QUAN THỰC HIỆN": "Sở Ngoại vụ TP.Đà Nẵng",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Không.",
@@ -225,11 +266,6 @@
     "MÔ TẢ": "Không."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Cư trú và giấy tờ tùy thân",
-      "slug": "cu-tru-va-giay-to-tuy-than",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Công tác lãnh sự",
       "slug": "cong-tac-lanh-su"
@@ -249,9 +285,9 @@
     "agencies": [
       {
         "name": "Sở Ngoại vụ TP.Đà Nẵng",
-        "slug": "so-ngoai-vu-tp-da-nang"
+        "slug": "so-ngoai-vu-tp-a-nang"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

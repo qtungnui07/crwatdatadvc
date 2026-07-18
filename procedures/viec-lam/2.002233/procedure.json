@@ -1,36 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-e974-738b-939a-61bcf1b0d99f",
   "procedure_code": "2.002233",
   "title": "Khai quyết toán thuế/ Hoàn thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán thuế trực tiếp với cơ quan thuế",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-e974-738b-939a-61bcf1b0d99f",
     "source_file": "chi-tiet-thu-tuc-2.002233.pdf",
     "source_path": "procedures/viec-lam/2.002233/chi-tiet-thu-tuc-2.002233.pdf",
     "page_count": 7,
-    "extracted_at": "2026-07-18T02:22:22.017231+00:00",
-    "source_updated_at": "2026-05-07T03:58:18.077Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:02:23.614058+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "d569f4ac2433abf959e9f46f62ca4e046ef068badb2d6406086f66f177143c66"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:22.017231+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "216/QĐ-BTC",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Thuế",
   "target_users": [
@@ -42,18 +35,22 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Thuế cơ sở, Thuế tỉnh, thành phố, Chi cục Thuế Thương mại điện tử - Cục Thuế, Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Thuế cơ sở, Thuế tỉnh, thành phố, Chi cục Thuế Thương mại điện tử - Cục Thuế, Chi cục Thuế doanh nghiệp lớn - Cục Thuế"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "+Bước 1. \n++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch. \n++ Trường hợp (2): Hoàn thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân có thu nhập từ tiền lương, tiền công trực tiếp quyết toán thuế với cơ quan thuế nếu có số thuế nộp thừa thì cá nhân không phải nộp hồ sơ hoàn thuế mà chỉ cần ghi số thuế đề nghị hoàn vào chỉ tiêu [46] - “Số thuế hoàn trả cho người nộp thuế” hoặc chỉ tiêu [47] - “Số thuế bù trừ cho khoản phải nộp ngân sách nhà nước” tại tờ khai quyết toán thuế theo mẫu số 02/QTT-TNCN khi quyết toán thuế.\n* Nơi gửi hồ sơ quyết toán thuế\n++ Cá nhân có thu nhập từ tiền lương, tiền công tại một nơi và thuộc diện tự khai thuế trong năm với cơ quan thuế thì hồ sơ quyết toán thuế gửi đến cơ quan thuế nơi cá nhân trực tiếp khai thuế trong năm. \n++ Cá nhân cư trú có thu nhập tiền lương, tiền công thuộc diện tổ chức chi trả khấu trừ tại nguồn từ hai nơi trở lên thì hồ sơ khai quyết toán thuế gửi đến cơ quan thuế quản lý trực tiếp tổ chức trả thu nhập lớn nhất trong năm. Trường hợp có nhiều nguồn thu nhập lớn nhất trong năm mà các nguồn thu nhập đó bằng nhau thì hồ sơ quyết toán gửi đến một trong những cơ quan thuế quản lý trực tiếp tổ chức chi trả các nguồn thu nhập lớn nhất trên. \nTrường hợp cá nhân nộp hồ sơ khai quyết toán thuế thu nhập cá nhân không đúng quy định nêu trên thì cơ quan thuế nơi đã tiếp nhận hồ sơ của cá nhân đó căn cứ thông tin trên hệ thống cơ sở dữ liệu ngành thuế hỗ trợ chuyển hồ sơ đến cơ quan thuế quản lý trực tiếp tổ chức trả thu nhập để thực hiện quyết toán thuế thu nhập cá nhân theo quy định pháp luật.\n+ Bước 2. Cơ quan thuế tiếp nhận: \n++ Trường hợp hồ sơ đến cơ quan thuế: cơ quan thuế thực hiện tiếp nhận, giải quyết hồ sơ theo quy định.\n++ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận, kiểm tra, chấp nhận, giải quyết hồ sơ (và trả kết quả nếu có kết quả) thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế.\n",
+      "description": "+Bước 1. \n++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch. \n++ Trường hợp (2): Hoàn thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân có thu nhập từ tiền lương, tiền công trực tiếp quyết toán thuế với cơ quan thuế nếu có số thuế nộp thừa thì cá nhân không phải nộp hồ sơ hoàn thuế mà chỉ cần ghi số thuế đề nghị hoàn vào chỉ tiêu [46] - “Số thuế hoàn trả cho người nộp thuế” hoặc chỉ tiêu [47] - “Số thuế bù trừ cho khoản phải nộp ngân sách nhà nước” tại tờ khai quyết toán thuế theo mẫu số 02/QTT-TNCN khi quyết toán thuế.\n* Nơi gửi hồ sơ quyết toán thuế\n++ Cá nhân có thu nhập từ tiền lương, tiền công tại một nơi và thuộc diện tự khai thuế trong năm với cơ quan thuế thì hồ sơ quyết toán thuế gửi đến cơ quan thuế nơi cá nhân trực tiếp khai thuế trong năm. \n++ Cá nhân cư trú có thu nhập tiền lương, tiền công thuộc diện tổ chức chi trả khấu trừ tại nguồn từ hai nơi trở lên thì hồ sơ khai quyết toán thuế gửi đến cơ quan thuế quản lý trực tiếp tổ chức trả thu nhập lớn nhất trong năm. Trường hợp có nhiều nguồn thu nhập lớn nhất trong năm mà các nguồn thu nhập đó bằng nhau thì hồ sơ quyết toán gửi đến một trong những cơ quan thuế quản lý trực tiếp tổ chức chi trả các nguồn thu nhập lớn nhất trên. \nTrường hợp cá nhân nộp hồ sơ khai quyết toán thuế thu nhập cá nhân không đúng quy định nêu trên thì cơ quan thuế nơi đã tiếp nhận hồ sơ của cá nhân đó căn cứ thông tin trên hệ thống cơ sở dữ liệu ngành thuế hỗ trợ chuyển hồ sơ đến cơ quan thuế quản lý trực tiếp tổ chức trả thu nhập để thực hiện quyết toán thuế thu nhập cá nhân theo quy định pháp luật.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "+ Bước 2. Cơ quan thuế tiếp nhận: \n++ Trường hợp hồ sơ đến cơ quan thuế: cơ quan thuế thực hiện tiếp nhận, giải quyết hồ sơ theo quy định.\n++ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận, kiểm tra, chấp nhận, giải quyết hồ sơ (và trả kết quả nếu có kết quả) thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
@@ -61,103 +58,70 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "Hồ sơ đăng ký người phụ thuộc thực hiện theo thủ tục đăng ký thuế lần đầu tại văn bản quy định về đăng ký thuế (nếu tính giảm trừ cho người phụ thuộc tại thời điểm quyết toán thuế đối với người phụ thuộc chưa thực hiện đăng ký người phụ thuộc):",
-        "code": "000.00.00.G12-KQ016076",
+        "name": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: Hồ sơ đăng ký người phụ thuộc thực hiện theo thủ tục đăng ký thuế lần đầu tại văn bản quy định về đăng ký thuế (nếu tính giảm trừ cho người phụ thuộc tại thời điểm quyết toán thuế đối với người phụ thuộc chưa thực hiện đăng ký người phụ thuộc):",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Tờ khai quyết toán thuế thu nhập cá nhân (áp dụng đối với cá nhân có thu nhập từ tiền lương, tiền công) mẫu số 02/QTT-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 373/2025/NĐ-CP ngày 31/12/2025 sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế (gọi là Nghị định số 373/2025/NĐ-CP) và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế (gọi là Thông tư số 80/2021/TT-BTC).",
-        "code": "000.00.00.G12-KQ016070",
+        "name": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: Tờ khai quyết toán thuế thu nhập cá nhân (áp dụng đối với cá nhân có thu nhập từ tiền lương, tiền công) mẫu số 02/QTT-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 373/2025/NĐ-CP ngày 31/12/2025 sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế (gọi là Nghị định số 373/2025/NĐ-CP) và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế (gọi là Thông tư số 80/2021/TT-BTC).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Bản sao Giấy chứng nhận khấu trừ thuế (ghi rõ đã nộp thuế theo tờ khai thuế thu nhập nào) do cơ quan trả thu nhập cấp hoặc Bản sao chứng từ ngân hàng đối với số thuế đã nộp ở nước ngoài có xác nhận của người nộp thuế trong trường hợp theo quy định của luật pháp nước ngoài, cơ quan thuế nước ngoài không cấp giấy xác nhận số thuế đã nộp",
-        "code": "000.00.00.G12-KQ016073",
+        "name": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: Bản sao Giấy chứng nhận khấu trừ thuế (ghi rõ đã nộp thuế theo tờ khai thuế thu nhập nào) do cơ quan trả thu nhập cấp hoặc Bản sao chứng từ ngân hàng đối với số thuế đã nộp ở nước ngoài có xác nhận của người nộp thuế trong trường hợp theo quy định của luật pháp nước ngoài, cơ quan thuế nước ngoài không cấp giấy xác nhận số thuế đã nộp",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Tài liệu chứng minh về số tiền đã trả của đơn vị, tổ chức trả thu nhập ở nước ngoài trong trường hợp cá nhân nhận thu nhập từ các tổ chức quốc tế, Đại sứ quán, Lãnh sự quán và nhận thu nhập từ nước ngoài",
-        "code": "000.00.00.G12-KQ016075",
+        "name": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: Tài liệu chứng minh về số tiền đã trả của đơn vị, tổ chức trả thu nhập ở nước ngoài trong trường hợp cá nhân nhận thu nhập từ các tổ chức quốc tế, Đại sứ quán, Lãnh sự quán và nhận thu nhập từ nước ngoài",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Phụ lục bảng kê giảm trừ gia cảnh cho người phụ thuộc mẫu số 02-1/BK-QTT-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 373/2025/NĐ-CP và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC",
-        "code": "000.00.00.G12-KQ016071",
+        "name": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: Phụ lục bảng kê giảm trừ gia cảnh cho người phụ thuộc mẫu số 02-1/BK-QTT-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 373/2025/NĐ-CP và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Bản sao (bản chụp từ bản chính) các chứng từ chứng minh số thuế đã khấu trừ, đã tạm nộp trong năm, số thuế đã nộp ở nước ngoài (nếu có). Trường hợp tổ chức trả thu nhập thực hiện chuyển dữ liệu chứng từ khấu trừ thuế thu nhập cá nhân điện tử đến cơ quan thuế, người nộp thuế không cần nộp bản sao các chứng từ chứng minh số thuế đã khấu trừ. Trường hợp tổ chức trả thu nhập không cấp chứng từ khấu trừ thuế cho cá nhân do tổ chức trả thu nhập đã chấm dứt hoạt động thì cơ quan thuế căn cứ cơ sở dữ liệu của ngành thuế để xem xét xử lý hồ sơ quyết toán thuế cho cá nhân mà không bắt buộc phải có chứng từ khấu trừ thuế",
-        "code": "000.00.00.G12-KQ016072",
+        "name": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: Bản sao (bản chụp từ bản chính) các chứng từ chứng minh số thuế đã khấu trừ, đã tạm nộp trong năm, số thuế đã nộp ở nước ngoài (nếu có). Trường hợp tổ chức trả thu nhập thực hiện chuyển dữ liệu chứng từ khấu trừ thuế thu nhập cá nhân điện tử đến cơ quan thuế, người nộp thuế không cần nộp bản sao các chứng từ chứng minh số thuế đã khấu trừ. Trường hợp tổ chức trả thu nhập không cấp chứng từ khấu trừ thuế cho cá nhân do tổ chức trả thu nhập đã chấm dứt hoạt động thì cơ quan thuế căn cứ cơ sở dữ liệu của ngành thuế để xem xét xử lý hồ sơ quyết toán thuế cho cá nhân mà không bắt buộc phải có chứng từ khấu trừ thuế",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "- Tờ khai đăng ký thuế mẫu số 20-ĐK-TCT ban hành kèm theo Thông tư số 86/2024/TT-BTC ngày 23/12/2024 của Bộ Tài chính",
-        "code": "000.00.00.G12-KQ016077",
+        "name": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: - Tờ khai đăng ký thuế mẫu số 20-ĐK-TCT ban hành kèm theo Thông tư số 86/2024/TT-BTC ngày 23/12/2024 của Bộ Tài chính",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Bản sao các hoá đơn chứng từ chứng minh khoản đóng góp vào quỹ từ thiện, quỹ nhân đạo, quỹ khuyến học (nếu có)",
-        "code": "000.00.00.G12-KQ016074",
+        "name": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: Bản sao các hoá đơn chứng từ chứng minh khoản đóng góp vào quỹ từ thiện, quỹ nhân đạo, quỹ khuyến học (nếu có)",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "- Hồ sơ chứng minh người phụ thuộc theo quy định của Luật Thuế thu nhập cá nhân",
-        "code": "000.00.00.G12-KQ016079",
+        "name": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: - Hồ sơ chứng minh người phụ thuộc theo quy định của Luật Thuế thu nhập cá nhân",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "- Phụ lục bảng kê khai về người phải trực tiếp nuôi dưỡng mẫu số 07/XN-NPT-TNCN tại văn bản quy phạm pháp luật quy định về đăng ký thuế",
-        "code": "000.00.00.G12-KQ016078",
+        "name": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: - Phụ lục bảng kê khai về người phải trực tiếp nuôi dưỡng mẫu số 07/XN-NPT-TNCN tại văn bản quy phạm pháp luật quy định về đăng ký thuế",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "không phải nộp hồ sơ hoàn thuế mà chỉ cần ghi số thuế đề nghị hoàn vào chỉ tiêu [46] - “Số thuế hoàn trả cho người nộp thuế” hoặc chỉ tiêu [47] - “Số thuế bù trừ cho khoản phải nộp ngân sách nhà nước” tại tờ khai quyết toán thuế theo mẫu số 02/QTT-TNCN khi quyết toán thuế (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)",
-        "code": "000.00.00.G12-KQ015697",
+        "name": "++ Trường hợp (2) Hoàn thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: không phải nộp hồ sơ hoàn thuế mà chỉ cần ghi số thuế đề nghị hoàn vào chỉ tiêu [46] - “Số thuế hoàn trả cho người nộp thuế” hoặc chỉ tiêu [47] - “Số thuế bù trừ cho khoản phải nộp ngân sách nhà nước” tại tờ khai quyết toán thuế theo mẫu số 02/QTT-TNCN khi quyết toán thuế (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "++ Trường hợp (2) Hoàn thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       }
     ]
   },
@@ -166,35 +130,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "1",
-      "processing_time_value": 1,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -202,51 +146,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "6 ngày làm việc",
-      "processing_time_value": 6,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 5
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       }
     ]
   },
@@ -254,80 +183,67 @@
     {
       "title": "Thông tư sửa đổi, bổ sung một số điều của Thông tư số 80/2021/TT-BTC ngày 29 tháng 9 năm 2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế và sửa đổi, bổ sung một số mẫu biểu của Thông tư số 40/2021/TT-BTC ngày 01 tháng 6 năm 2021 của Bộ Tài chính hướng dẫn thuế giá trị gia tăng, thuế thu nhập cá nhân và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh",
       "document_number": "94/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4f-76aad3b97074",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Luật Quản lý thuế",
       "document_number": "38/2019/QH14",
-      "id": "019d2bb3-5d85-73da-8eb9-e5214fd5ac79",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 126/2020/NĐ-CP",
       "document_number": "126/2020/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a63e-9e72cf1f3ed4",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ Tài chính hướng dẫn Giao dịch điện tử trong lĩnh vực thuế",
       "document_number": "19/2021/TT-BTC",
-      "id": "019d2bb3-5d86-7760-a643-2e14de6cf380",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
       "document_number": "118/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Luật số 56/2024/QH15 của Quốc hội: Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính",
       "document_number": "56/2024/QH15",
-      "id": "019d2bb3-5d84-71c5-b673-8c498fc98ef5",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư 80/2021/TT-BTC",
       "document_number": "80/2021/TT-BTC",
-      "id": "019d2bb3-5d87-7195-a446-0e6dcc708401",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Thông tư số 40/2025/TT-BTC Sửa đổi, bổ sung một số điều của các Thông tư thuộc lĩnh vực quản lý thuế để phân định thẩm quyền của chính quyền địa phương theo mô hình tổ chức chính quyền địa phương 02 cấp",
       "document_number": "40/2025/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4d-44a3539f8eba",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "43/2023/TT-BTC",
       "document_number": "43/2023/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4d-79f86b21b1a4",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "sửa đổi một số điều của Thông tư 19/2021/TT-BTC ngày 18/3/2021 của Bộ trưởng Bộ Tài chính hướng dẫn giao dịch điện tử trong lĩnh vực thuế",
       "document_number": "46/2024/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4d-9f8629ebc27d",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Nghị định số 91/2022/NĐ-CP sửa đổi bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế",
       "document_number": "91/2022/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b472-a31220f95d4a",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "hướng dẫn thực hiện Luật thuế TNCN, Luật sửa đổi, bổ sung một số điều của Luật thuế TNCN và  Nghị định số 65/2013/NĐ-CP của Chính phủ",
       "document_number": "111/2013/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be48-fbc62fb0dc4b",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Nghị định số 373/2025/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế",
       "document_number": "373/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46d-4a90f05e7041",
-      "source_page": null
+      "source_page": 6
     }
   ],
   "conditions": "",
@@ -335,25 +251,22 @@
     {
       "title": "Quyết định hoàn thuế kiêm bù trừ thu Ngân sách nhà nước (02/QĐHT)",
       "code": "KQ.G12.000251",
-      "id": "019d2bb2-1c70-724b-96de-fdcfaf3f5a68",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "quyết định hoàn thuế",
       "code": "KQ.G12.000548",
-      "id": "019d2bb2-1c71-7574-afe8-052c559c6973",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "thông báo về việc tiếp nhận hồ sơ đề nghị hoàn thuế của người nộp thuế  (Mẫu số 01/TB-HT)",
       "code": "KQ.G12.000509",
-      "id": "019d2bb2-1c71-7574-afe7-e73d2984439e",
-      "source_page": null
+      "source_page": 7
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "+Bước 1. \n++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch. \n++ Trường hợp (2): Hoàn thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân có thu nhập từ tiền lương, tiền công trực tiếp quyết toán thuế với cơ quan thuế nếu có số thuế nộp thừa thì cá nhân không phải nộp hồ sơ hoàn thuế mà chỉ cần ghi số thuế đề nghị hoàn vào chỉ tiêu [46] - “Số thuế hoàn trả cho người nộp thuế” hoặc chỉ tiêu [47] - “Số thuế bù trừ cho khoản phải nộp ngân sách nhà nước” tại tờ khai quyết toán thuế theo mẫu số 02/QTT-TNCN khi quyết toán thuế.\n* Nơi gửi hồ sơ quyết toán thuế\n++ Cá nhân có thu nhập từ tiền lương, tiền công tại một nơi và thuộc diện tự khai thuế trong năm với cơ quan thuế thì hồ sơ quyết toán thuế gửi đến cơ quan thuế nơi cá nhân trực tiếp khai thuế trong năm. \n++ Cá nhân cư trú có thu nhập tiền lương, tiền công thuộc diện tổ chức chi trả khấu trừ tại nguồn từ hai nơi trở lên thì hồ sơ khai quyết toán thuế gửi đến cơ quan thuế quản lý trực tiếp tổ chức trả thu nhập lớn nhất trong năm. Trường hợp có nhiều nguồn thu nhập lớn nhất trong năm mà các nguồn thu nhập đó bằng nhau thì hồ sơ quyết toán gửi đến một trong những cơ quan thuế quản lý trực tiếp tổ chức chi trả các nguồn thu nhập lớn nhất trên. \nTrường hợp cá nhân nộp hồ sơ khai quyết toán thuế thu nhập cá nhân không đúng quy định nêu trên thì cơ quan thuế nơi đã tiếp nhận hồ sơ của cá nhân đó căn cứ thông tin trên hệ thống cơ sở dữ liệu ngành thuế hỗ trợ chuyển hồ sơ đến cơ quan thuế quản lý trực tiếp tổ chức trả thu nhập để thực hiện quyết toán thuế thu nhập cá nhân theo quy định pháp luật.\n+ Bước 2. Cơ quan thuế tiếp nhận: \n++ Trường hợp hồ sơ đến cơ quan thuế: cơ quan thuế thực hiện tiếp nhận, giải quyết hồ sơ theo quy định.\n++ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận, kiểm tra, chấp nhận, giải quyết hồ sơ (và trả kết quả nếu có kết quả) thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế.\n",
-    "THÀNH PHẦN HỒ SƠ": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch\nHồ sơ đăng ký người phụ thuộc thực hiện theo thủ tục đăng ký thuế lần đầu tại văn bản quy định về đăng ký thuế (nếu tính giảm trừ cho người phụ thuộc tại thời điểm quyết toán thuế đối với người phụ thuộc chưa thực hiện đăng ký người phụ thuộc):\nTờ khai quyết toán thuế thu nhập cá nhân (áp dụng đối với cá nhân có thu nhập từ tiền lương, tiền công) mẫu số 02/QTT-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 373/2025/NĐ-CP ngày 31/12/2025 sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế (gọi là Nghị định số 373/2025/NĐ-CP) và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế (gọi là Thông tư số 80/2021/TT-BTC).\nBản sao Giấy chứng nhận khấu trừ thuế (ghi rõ đã nộp thuế theo tờ khai thuế thu nhập nào) do cơ quan trả thu nhập cấp hoặc Bản sao chứng từ ngân hàng đối với số thuế đã nộp ở nước ngoài có xác nhận của người nộp thuế trong trường hợp theo quy định của luật pháp nước ngoài, cơ quan thuế nước ngoài không cấp giấy xác nhận số thuế đã nộp\nTài liệu chứng minh về số tiền đã trả của đơn vị, tổ chức trả thu nhập ở nước ngoài trong trường hợp cá nhân nhận thu nhập từ các tổ chức quốc tế, Đại sứ quán, Lãnh sự quán và nhận thu nhập từ nước ngoài\nPhụ lục bảng kê giảm trừ gia cảnh cho người phụ thuộc mẫu số 02-1/BK-QTT-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 373/2025/NĐ-CP và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC\nBản sao (bản chụp từ bản chính) các chứng từ chứng minh số thuế đã khấu trừ, đã tạm nộp trong năm, số thuế đã nộp ở nước ngoài (nếu có). Trường hợp tổ chức trả thu nhập thực hiện chuyển dữ liệu chứng từ khấu trừ thuế thu nhập cá nhân điện tử đến cơ quan thuế, người nộp thuế không cần nộp bản sao các chứng từ chứng minh số thuế đã khấu trừ. Trường hợp tổ chức trả thu nhập không cấp chứng từ khấu trừ thuế cho cá nhân do tổ chức trả thu nhập đã chấm dứt hoạt động thì cơ quan thuế căn cứ cơ sở dữ liệu của ngành thuế để xem xét xử lý hồ sơ quyết toán thuế cho cá nhân mà không bắt buộc phải có chứng từ khấu trừ thuế\n- Tờ khai đăng ký thuế mẫu số 20-ĐK-TCT ban hành kèm theo Thông tư số 86/2024/TT-BTC ngày 23/12/2024 của Bộ Tài chính\nBản sao các hoá đơn chứng từ chứng minh khoản đóng góp vào quỹ từ thiện, quỹ nhân đạo, quỹ khuyến học (nếu có)\n- Hồ sơ chứng minh người phụ thuộc theo quy định của Luật Thuế thu nhập cá nhân\n- Phụ lục bảng kê khai về người phải trực tiếp nuôi dưỡng mẫu số 07/XN-NPT-TNCN tại văn bản quy phạm pháp luật quy định về đăng ký thuế\n++ Trường hợp (2) Hoàn thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế\nkhông phải nộp hồ sơ hoàn thuế mà chỉ cần ghi số thuế đề nghị hoàn vào chỉ tiêu [46] - “Số thuế hoàn trả cho người nộp thuế” hoặc chỉ tiêu [47] - “Số thuế bù trừ cho khoản phải nộp ngân sách nhà nước” tại tờ khai quyết toán thuế theo mẫu số 02/QTT-TNCN khi quyết toán thuế (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)",
+    "TRÌNH TỰ THỰC HIỆN": "+Bước 1. \n++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch. \n++ Trường hợp (2): Hoàn thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân có thu nhập từ tiền lương, tiền công trực tiếp quyết toán thuế với cơ quan thuế nếu có số thuế nộp thừa thì cá nhân không phải nộp hồ sơ hoàn thuế mà chỉ cần ghi số thuế đề nghị hoàn vào chỉ tiêu [46] - “Số thuế hoàn trả cho người nộp thuế” hoặc chỉ tiêu [47] - “Số thuế bù trừ cho khoản phải nộp ngân sách nhà nước” tại tờ khai quyết toán thuế theo mẫu số 02/QTT-TNCN khi quyết toán thuế.\n* Nơi gửi hồ sơ quyết toán thuế\n++ Cá nhân có thu nhập từ tiền lương, tiền công tại một nơi và thuộc diện tự khai thuế trong năm với cơ quan thuế thì hồ sơ quyết toán thuế gửi đến cơ quan thuế nơi cá nhân trực tiếp khai thuế trong năm. \n++ Cá nhân cư trú có thu nhập tiền lương, tiền công thuộc diện tổ chức chi trả khấu trừ tại nguồn từ hai nơi trở lên thì hồ sơ khai quyết toán thuế gửi đến cơ quan thuế quản lý trực tiếp tổ chức trả thu nhập lớn nhất trong năm. Trường hợp có nhiều nguồn thu nhập lớn nhất trong năm mà các nguồn thu nhập đó bằng nhau thì hồ sơ quyết toán gửi đến một trong những cơ quan thuế quản lý trực tiếp tổ chức chi trả các nguồn thu nhập lớn nhất trên. \nTrường hợp cá nhân nộp hồ sơ khai quyết toán thuế thu nhập cá nhân không đúng quy định nêu trên thì cơ quan thuế nơi đã tiếp nhận hồ sơ của cá nhân đó căn cứ thông tin trên hệ thống cơ sở dữ liệu ngành thuế hỗ trợ chuyển hồ sơ đến cơ quan thuế quản lý trực tiếp tổ chức trả thu nhập để thực hiện quyết toán thuế thu nhập cá nhân theo quy định pháp luật.\n+ Bước 2. Cơ quan thuế tiếp nhận: \n++ Trường hợp hồ sơ đến cơ quan thuế: cơ quan thuế thực hiện tiếp nhận, giải quyết hồ sơ theo quy định.\n++ Trường hợp hồ sơ được nộp thông qua giao dịch điện tử, việc tiếp nhận, kiểm tra, chấp nhận, giải quyết hồ sơ (và trả kết quả nếu có kết quả) thông qua hệ thống xử lý dữ liệu điện tử của cơ quan thuế.",
+    "THÀNH PHẦN HỒ SƠ": "++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: Hồ sơ đăng ký người phụ thuộc thực hiện theo thủ tục đăng ký thuế lần đầu tại văn bản quy định về đăng ký thuế (nếu tính giảm trừ cho người phụ thuộc tại thời điểm quyết toán thuế đối với người phụ thuộc chưa thực hiện đăng ký người phụ thuộc):\n++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: Tờ khai quyết toán thuế thu nhập cá nhân (áp dụng đối với cá nhân có thu nhập từ tiền lương, tiền công) mẫu số 02/QTT-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 373/2025/NĐ-CP ngày 31/12/2025 sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế (gọi là Nghị định số 373/2025/NĐ-CP) và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế (gọi là Thông tư số 80/2021/TT-BTC).\n++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: Bản sao Giấy chứng nhận khấu trừ thuế (ghi rõ đã nộp thuế theo tờ khai thuế thu nhập nào) do cơ quan trả thu nhập cấp hoặc Bản sao chứng từ ngân hàng đối với số thuế đã nộp ở nước ngoài có xác nhận của người nộp thuế trong trường hợp theo quy định của luật pháp nước ngoài, cơ quan thuế nước ngoài không cấp giấy xác nhận số thuế đã nộp\n++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: Tài liệu chứng minh về số tiền đã trả của đơn vị, tổ chức trả thu nhập ở nước ngoài trong trường hợp cá nhân nhận thu nhập từ các tổ chức quốc tế, Đại sứ quán, Lãnh sự quán và nhận thu nhập từ nước ngoài\n++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: Phụ lục bảng kê giảm trừ gia cảnh cho người phụ thuộc mẫu số 02-1/BK-QTT-TNCN theo Phụ lục I - Danh mục hồ sơ khai thuế ban hành kèm theo Nghị định số 373/2025/NĐ-CP và Phụ lục II - Mẫu biểu hồ sơ khai thuế ban hành kèm theo Thông tư số 80/2021/TT-BTC ngày 29/9/2021/TT-BTC\n++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: Bản sao (bản chụp từ bản chính) các chứng từ chứng minh số thuế đã khấu trừ, đã tạm nộp trong năm, số thuế đã nộp ở nước ngoài (nếu có). Trường hợp tổ chức trả thu nhập thực hiện chuyển dữ liệu chứng từ khấu trừ thuế thu nhập cá nhân điện tử đến cơ quan thuế, người nộp thuế không cần nộp bản sao các chứng từ chứng minh số thuế đã khấu trừ. Trường hợp tổ chức trả thu nhập không cấp chứng từ khấu trừ thuế cho cá nhân do tổ chức trả thu nhập đã chấm dứt hoạt động thì cơ quan thuế căn cứ cơ sở dữ liệu của ngành thuế để xem xét xử lý hồ sơ quyết toán thuế cho cá nhân mà không bắt buộc phải có chứng từ khấu trừ thuế\n++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: - Tờ khai đăng ký thuế mẫu số 20-ĐK-TCT ban hành kèm theo Thông tư số 86/2024/TT-BTC ngày 23/12/2024 của Bộ Tài chính\n++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: Bản sao các hoá đơn chứng từ chứng minh khoản đóng góp vào quỹ từ thiện, quỹ nhân đạo, quỹ khuyến học (nếu có)\n++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: - Hồ sơ chứng minh người phụ thuộc theo quy định của Luật Thuế thu nhập cá nhân\n++ Trường hợp (1): Khai quyết toán thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: Cá nhân thuộc diện quyết toán theo quy định chuẩn bị hồ sơ khai thuế và gửi đến cơ quan thuế. Thời hạn nộp hồ sơ khai quyết toán chậm nhất là ngày cuối cùng của tháng thứ 4 kể từ ngày kết thúc năm dương lịch: - Phụ lục bảng kê khai về người phải trực tiếp nuôi dưỡng mẫu số 07/XN-NPT-TNCN tại văn bản quy phạm pháp luật quy định về đăng ký thuế\n++ Trường hợp (2) Hoàn thuế đối với cá nhân cư trú có thu nhập từ tiền lương, tiền công quyết toán trực tiếp với cơ quan thuế: không phải nộp hồ sơ hoàn thuế mà chỉ cần ghi số thuế đề nghị hoàn vào chỉ tiêu [46] - “Số thuế hoàn trả cho người nộp thuế” hoặc chỉ tiêu [47] - “Số thuế bù trừ cho khoản phải nộp ngân sách nhà nước” tại tờ khai quyết toán thuế theo mẫu số 02/QTT-TNCN khi quyết toán thuế (đã được sửa đổi tại Thông tư số 40/2025/TT-BTC và Thông tư số 94/2025/TT-BTC)",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 1\nQua dịch vụ bưu chính: 1\nTrực tiếp: 6 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Thông tư sửa đổi, bổ sung một số điều của Thông tư số 80/2021/TT-BTC ngày 29 tháng 9 năm 2021 của Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế và sửa đổi, bổ sung một số mẫu biểu của Thông tư số 40/2021/TT-BTC ngày 01 tháng 6 năm 2021 của Bộ Tài chính hướng dẫn thuế giá trị gia tăng, thuế thu nhập cá nhân và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh - 94/2025/TT-BTC\nLuật Quản lý thuế - 38/2019/QH14\nNghị định 126/2020/NĐ-CP - 126/2020/NĐ-CP\nThông tư số 19/2021/TT-BTC ngày 18/3/2021 của Bộ Tài chính hướng dẫn Giao dịch điện tử trong lĩnh vực thuế - 19/2021/TT-BTC\nNghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nLuật số 56/2024/QH15 của Quốc hội: Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán, Luật Kế toán, Luật Kiểm toán độc lập, Luật Ngân sách nhà nước, Luật Quản lý, sử dụng tài sản công, Luật Quản lý thuế, Luật Thuế thu nhập cá nhân, Luật Dự trữ quốc gia, Luật Xử lý vi phạm hành chính - 56/2024/QH15\nThông tư 80/2021/TT-BTC - 80/2021/TT-BTC\nThông tư số 40/2025/TT-BTC Sửa đổi, bổ sung một số điều của các Thông tư thuộc lĩnh vực quản lý thuế để phân định thẩm quyền của chính quyền địa phương theo mô hình tổ chức chính quyền địa phương 02 cấp - 40/2025/TT-BTC\n43/2023/TT-BTC - 43/2023/TT-BTC\nsửa đổi một số điều của Thông tư 19/2021/TT-BTC ngày 18/3/2021 của Bộ trưởng Bộ Tài chính hướng dẫn giao dịch điện tử trong lĩnh vực thuế - 46/2024/TT-BTC\nNghị định số 91/2022/NĐ-CP sửa đổi bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19/10/2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế - 91/2022/NĐ-CP\nhướng dẫn thực hiện Luật thuế TNCN, Luật sửa đổi, bổ sung một số điều của Luật thuế TNCN và  Nghị định số 65/2013/NĐ-CP của Chính phủ - 111/2013/TT-BTC\nNghị định số 373/2025/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế - 373/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Thuế cơ sở, Thuế tỉnh, thành phố, Chi cục Thuế Thương mại điện tử - Cục Thuế, Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
@@ -363,11 +276,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thuế",
       "slug": "thue"
@@ -393,11 +301,11 @@
     "target_users": [
       {
         "name": "Đảng viên",
-        "slug": "dang-vien"
+        "slug": "ang-vien"
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -423,13 +331,13 @@
       },
       {
         "name": "Chi cục Thuế Thương mại điện tử - Cục Thuế",
-        "slug": "chi-cuc-thue-thuong-mai-dien-tu-cuc-thue"
+        "slug": "chi-cuc-thue-thuong-mai-ien-tu-cuc-thue"
       },
       {
         "name": "Chi cục Thuế doanh nghiệp lớn - Cục Thuế",
         "slug": "chi-cuc-thue-doanh-nghiep-lon-cuc-thue"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

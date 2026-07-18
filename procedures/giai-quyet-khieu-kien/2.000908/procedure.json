@@ -1,36 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfd-8e5d-72f9-8cf2-c71780251483",
   "procedure_code": "2.000908",
   "title": "Thủ tục cấp bản sao từ sổ gốc",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-8e5d-72f9-8cf2-c71780251483",
     "source_file": "chi-tiet-thu-tuc-2.000908.pdf",
     "source_path": "procedures/giai-quyet-khieu-kien/2.000908/chi-tiet-thu-tuc-2.000908.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:20.944454+00:00",
-    "source_updated_at": "2026-04-27T08:44:57.987Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:07.245724+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "7650e96d872e2f4fe1e1f8d9ac3640b479494ccb7a47037b91d491cb008698f0"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:20.944454+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "858/QĐ-BTP",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cấp xã, Cơ quan khác",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cấp xã",
-    "Cơ quan khác"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Chứng thực",
   "target_users": [
@@ -39,10 +32,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cơ quan, tổ chức đang quản lý sổ gốc",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cơ quan, tổ chức đang quản lý sổ gốc"
   },
   "steps": [
     {
@@ -50,28 +40,22 @@
       "title": "Bước 1",
       "description": "+ Trường hợp nộp hồ sơ trực tiếp tại cơ quan, tổ chức có thẩm quyền, người yêu cầu cấp bản sao từ sổ gốc xuất trình các giấy tờ theo quy định để người tiếp nhận hồ sơ kiểm tra.\n\n+ Trường hợp nộp hồ sơ qua dịch vụ bưu chính, người yêu cầu cấp bản sao từ sổ gốc phải gửi kèm hồ sơ theo quy định và 01 phong bì dán tem ghi rõ họ tên, địa chỉ người nhận.\n\n+ Trường hợp nộp hồ sơ trực tuyến, người yêu cầu cấp bản sao từ sổ gốc có thể nộp bản điện tử hoặc bản sao điện tử giấy tờ theo quy định.\n\n+ Cơ quan, tổ chức căn cứ vào sổ gốc để cấp bản sao; nội dung bản sao phải đúng theo sổ gốc. Trường hợp sổ gốc không còn được lưu trữ hoặc không có thông tin theo yêu cầu thì cơ quan, tổ chức có trách nhiệm trả lời bằng văn bản cho người yêu cầu.\n\n+ Kết quả được trả trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc trực tuyến theo phương thức người yêu cầu đã đăng ký.\n\n+ Không yêu cầu người yêu cầu chứng thực nộp, xuất trình bản chính thức hoặc bản sao các giấy tờ, tài liệu mà các thông tin trong các giấy tờ, tài liệu đã có dữ liệu trong các cơ sở dữ liệu được cơ quan chủ quản cơ sở dữ liệu công bố.\n\n+ Người thực hiện chứng thực khai thác, sử dụng thông tin đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, không chính xác thì cơ quan, người có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính yêu cầu cá nhân, tổ chức bổ sung thành phần hồ sơ để giải quyết thủ tục hành chính; đồng thời đề nghị cá nhân, tổ chức thực hiện cập nhật, điều chỉnh thông tin trong các cơ sở dữ liệu theo quy định của pháp luật.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Một trong các giấy tờ sau: Căn cước điện tử; bản chính hoặc bản sao của Thẻ căn cước công dân hoặc Thẻ căn cước hoặc Giấy chứng nhận căn cước hoặc Hộ chiếu hoặc giấy tờ xuất nhập cảnh hoặc giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng (Không yêu cầu người yêu cầu cấp bản sao từ sổ gốc nộp giấy tờ này khi cơ quan giải quyết thủ tục hành chính khai thác được thông tin về Thẻ căn cước công dân hoặc Thẻ căn cước hoặc Giấy chứng nhận căn cước trên Cơ sở dữ liệu quốc gia về dân cư)",
-        "code": "112sdfjk",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Bản chính hoặc bản sao có chứng thực giấy tờ chứng minh quan hệ với người được cấp bản chính trong trường hợp người yêu cầu là người đại diện theo pháp luật, người đại diện theo ủy quyền của cá nhân, tổ chức được cấp bản chính; cha, mẹ, con; vợ, chồng; anh, chị, em ruột; người thừa kế khác của người được cấp bản chính trong trường hợp người đó đã chết (Không yêu cầu người yêu cầu cấp bản sao từ sổ gốc nộp giấy tờ này khi cơ quan giải quyết thủ tục hành chính khai thác được thông tin về giấy khai sinh, giấy đăng ký kết hôn trên Cơ sở dữ liệu hộ tịch điện tử)",
-        "code": "sd23rsffaw",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ],
     "normally_required": [],
@@ -82,120 +66,80 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "1 ngày làm việc",
-      "processing_time_value": 1,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "1 ngày làm việc",
-      "processing_time_value": 1,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1 ngày làm việc",
-      "processing_time_value": 1,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
   "legal_bases": [
     {
       "title": "sửa đổi, bổ sung một số nghị định để cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh\nthuộc phạm vi quản lý của Bộ Tư pháp.",
-      "document_number": "18/2026/NĐ-CP ",
-      "id": "019d951f-b414-7526-97a3-b578b6f5aa4c",
-      "source_page": null
+      "document_number": "18/2026/NĐ-CP",
+      "source_page": 3
     },
     {
       "title": "Nghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu",
       "document_number": "66.7/2025/NQ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-22af3c5ee091",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định số 280/2025/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 23/2015/NĐ-CP về cấp bản sao từ sổ gốc, chứng thực bản sao từ bản chính, chứng thực chữ ký và chứng thực hợp đồng, giao dịch, được sửa đổi, bổ sung bởi Nghị định số 07/2025/NĐ-CP",
       "document_number": "280/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46b-fbeb074e28f9",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư 01/2020/TT-BTP",
       "document_number": "01/2020/TT-BTP",
-      "id": "019d2bb3-5d86-7760-a637-e9e3ffaa7962",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Về cấp bản sao từ sổ gốc, chứng thực bản sao từ bản chính, chứng thực chữ ký và chứng thực hợp đồng, giao dịch",
       "document_number": "23/2015/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afed-97d84ca2788a",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Cơ quan, tổ chức căn cứ vào sổ gốc để cấp bản sao; nội dung bản sao phải đúng theo sổ gốc.",
@@ -203,15 +147,14 @@
     {
       "title": "Bản sao được cấp từ sổ gốc",
       "code": "KQ.G15.000020",
-      "id": "019d2bb2-1c78-7725-a74f-9cfcb57c400c",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "+ Trường hợp nộp hồ sơ trực tiếp tại cơ quan, tổ chức có thẩm quyền, người yêu cầu cấp bản sao từ sổ gốc xuất trình các giấy tờ theo quy định để người tiếp nhận hồ sơ kiểm tra.\n\n+ Trường hợp nộp hồ sơ qua dịch vụ bưu chính, người yêu cầu cấp bản sao từ sổ gốc phải gửi kèm hồ sơ theo quy định và 01 phong bì dán tem ghi rõ họ tên, địa chỉ người nhận.\n\n+ Trường hợp nộp hồ sơ trực tuyến, người yêu cầu cấp bản sao từ sổ gốc có thể nộp bản điện tử hoặc bản sao điện tử giấy tờ theo quy định.\n\n+ Cơ quan, tổ chức căn cứ vào sổ gốc để cấp bản sao; nội dung bản sao phải đúng theo sổ gốc. Trường hợp sổ gốc không còn được lưu trữ hoặc không có thông tin theo yêu cầu thì cơ quan, tổ chức có trách nhiệm trả lời bằng văn bản cho người yêu cầu.\n\n+ Kết quả được trả trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc trực tuyến theo phương thức người yêu cầu đã đăng ký.\n\n+ Không yêu cầu người yêu cầu chứng thực nộp, xuất trình bản chính thức hoặc bản sao các giấy tờ, tài liệu mà các thông tin trong các giấy tờ, tài liệu đã có dữ liệu trong các cơ sở dữ liệu được cơ quan chủ quản cơ sở dữ liệu công bố.\n\n+ Người thực hiện chứng thực khai thác, sử dụng thông tin đã có trong các cơ sở dữ liệu để thay thế thành phần hồ sơ giải quyết thủ tục hành chính. Trường hợp không khai thác được thông tin hoặc thông tin khai thác được không đầy đủ, không chính xác thì cơ quan, người có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính yêu cầu cá nhân, tổ chức bổ sung thành phần hồ sơ để giải quyết thủ tục hành chính; đồng thời đề nghị cá nhân, tổ chức thực hiện cập nhật, điều chỉnh thông tin trong các cơ sở dữ liệu theo quy định của pháp luật.",
-    "THÀNH PHẦN HỒ SƠ": "\nMột trong các giấy tờ sau: Căn cước điện tử; bản chính hoặc bản sao của Thẻ căn cước công dân hoặc Thẻ căn cước hoặc Giấy chứng nhận căn cước hoặc Hộ chiếu hoặc giấy tờ xuất nhập cảnh hoặc giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng (Không yêu cầu người yêu cầu cấp bản sao từ sổ gốc nộp giấy tờ này khi cơ quan giải quyết thủ tục hành chính khai thác được thông tin về Thẻ căn cước công dân hoặc Thẻ căn cước hoặc Giấy chứng nhận căn cước trên Cơ sở dữ liệu quốc gia về dân cư)\nBản chính hoặc bản sao có chứng thực giấy tờ chứng minh quan hệ với người được cấp bản chính trong trường hợp người yêu cầu là người đại diện theo pháp luật, người đại diện theo ủy quyền của cá nhân, tổ chức được cấp bản chính; cha, mẹ, con; vợ, chồng; anh, chị, em ruột; người thừa kế khác của người được cấp bản chính trong trường hợp người đó đã chết (Không yêu cầu người yêu cầu cấp bản sao từ sổ gốc nộp giấy tờ này khi cơ quan giải quyết thủ tục hành chính khai thác được thông tin về giấy khai sinh, giấy đăng ký kết hôn trên Cơ sở dữ liệu hộ tịch điện tử)",
+    "THÀNH PHẦN HỒ SƠ": "Một trong các giấy tờ sau: Căn cước điện tử; bản chính hoặc bản sao của Thẻ căn cước công dân hoặc Thẻ căn cước hoặc Giấy chứng nhận căn cước hoặc Hộ chiếu hoặc giấy tờ xuất nhập cảnh hoặc giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng (Không yêu cầu người yêu cầu cấp bản sao từ sổ gốc nộp giấy tờ này khi cơ quan giải quyết thủ tục hành chính khai thác được thông tin về Thẻ căn cước công dân hoặc Thẻ căn cước hoặc Giấy chứng nhận căn cước trên Cơ sở dữ liệu quốc gia về dân cư)\nBản chính hoặc bản sao có chứng thực giấy tờ chứng minh quan hệ với người được cấp bản chính trong trường hợp người yêu cầu là người đại diện theo pháp luật, người đại diện theo ủy quyền của cá nhân, tổ chức được cấp bản chính; cha, mẹ, con; vợ, chồng; anh, chị, em ruột; người thừa kế khác của người được cấp bản chính trong trường hợp người đó đã chết (Không yêu cầu người yêu cầu cấp bản sao từ sổ gốc nộp giấy tờ này khi cơ quan giải quyết thủ tục hành chính khai thác được thông tin về giấy khai sinh, giấy đăng ký kết hôn trên Cơ sở dữ liệu hộ tịch điện tử)",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 1 ngày làm việc\nQua dịch vụ bưu chính: 1 ngày làm việc\nTrực tiếp: 1 ngày làm việc",
-    "CĂN CỨ PHÁP LÝ": "sửa đổi, bổ sung một số nghị định để cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh\nthuộc phạm vi quản lý của Bộ Tư pháp. - 18/2026/NĐ-CP \nNghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu - 66.7/2025/NQ-CP\nNghị định số 280/2025/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 23/2015/NĐ-CP về cấp bản sao từ sổ gốc, chứng thực bản sao từ bản chính, chứng thực chữ ký và chứng thực hợp đồng, giao dịch, được sửa đổi, bổ sung bởi Nghị định số 07/2025/NĐ-CP - 280/2025/NĐ-CP\nThông tư 01/2020/TT-BTP - 01/2020/TT-BTP\nVề cấp bản sao từ sổ gốc, chứng thực bản sao từ bản chính, chứng thực chữ ký và chứng thực hợp đồng, giao dịch - 23/2015/NĐ-CP",
+    "CĂN CỨ PHÁP LÝ": "sửa đổi, bổ sung một số nghị định để cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh\nthuộc phạm vi quản lý của Bộ Tư pháp. - 18/2026/NĐ-CP\nNghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu - 66.7/2025/NQ-CP\nNghị định số 280/2025/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 23/2015/NĐ-CP về cấp bản sao từ sổ gốc, chứng thực bản sao từ bản chính, chứng thực chữ ký và chứng thực hợp đồng, giao dịch, được sửa đổi, bổ sung bởi Nghị định số 07/2025/NĐ-CP - 280/2025/NĐ-CP\nThông tư 01/2020/TT-BTP - 01/2020/TT-BTP\nVề cấp bản sao từ sổ gốc, chứng thực bản sao từ bản chính, chứng thực chữ ký và chứng thực hợp đồng, giao dịch - 23/2015/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cơ quan, tổ chức đang quản lý sổ gốc",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Cơ quan, tổ chức căn cứ vào sổ gốc để cấp bản sao; nội dung bản sao phải đúng theo sổ gốc.",
     "KẾT QUẢ XỬ LÝ": "Bản sao được cấp từ sổ gốc - KQ.G15.000020",
@@ -219,11 +162,6 @@
     "MÔ TẢ": "Cơ quan, tổ chức căn cứ vào sổ gốc để cấp bản sao; nội dung bản sao phải đúng theo sổ gốc."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Giải quyết khiếu kiện",
-      "slug": "giai-quyet-khieu-kien",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Chứng thực",
       "slug": "chung-thuc"
@@ -259,9 +197,9 @@
     "agencies": [
       {
         "name": "Cơ quan, tổ chức đang quản lý sổ gốc",
-        "slug": "co-quan-to-chuc-dang-quan-ly-so-goc"
+        "slug": "co-quan-to-chuc-ang-quan-ly-so-goc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

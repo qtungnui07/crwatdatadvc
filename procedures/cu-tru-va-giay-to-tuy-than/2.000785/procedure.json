@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf9-f1e8-74bb-b489-880c5e2b505e",
   "procedure_code": "2.000785",
   "title": "Thủ tục xin trở lại quốc tịch Việt Nam tại cơ quan đại diện Việt Nam ở nước ngoài",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf9-f1e8-74bb-b489-880c5e2b505e",
     "source_file": "chi-tiet-thu-tuc-2.000785.pdf",
     "source_path": "procedures/cu-tru-va-giay-to-tuy-than/2.000785/chi-tiet-thu-tuc-2.000785.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:20.837119+00:00",
-    "source_updated_at": "2026-04-15T17:26:19.394Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:55:43.274868+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "3e00034b08c57fb105487162762f3d202b260c67fa8aeac3adf75b5e1f697906"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:20.837119+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2401/QĐ-BNG",
   "implementation_level": "Cơ quan khác",
-  "implementation_levels": [
-    "Cơ quan khác"
-  ],
   "procedure_type": "NOT_ASSIGNED_REGULATION",
   "sector": "Quốc tịch",
   "target_users": [
@@ -36,84 +32,57 @@
   ],
   "agency": {
     "competent_agency": "Chủ tịch nước",
-    "executing_agency": "Cơ quan đại diện Việt Nam ở nước ngoài",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cơ quan đại diện Việt Nam ở nước ngoài"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Người xin trở lại quốc tịch Việt Nam nộp hồ sơ cho cơ quan đại diện Việt Nam ở nước ngoài. Trong trường hợp hồ sơ không có đầy đủ các giấy tờ quy định tại Điều 24 của Luật này hoặc không hợp lệ thì cơ quan đại diện thông báo ngay để người xin trở lại quốc tịch Việt Nam bổ sung, hoàn chỉnh hồ sơ.\nTrong thời hạn 20 ngày, kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan đại diện Việt Nam ở nước ngoài có trách nhiệm thẩm tra và chuyển hồ sơ kèm theo ý kiến đề xuất về việc xin trở lại quốc tịch Việt Nam về Bộ Ngoại giao để chuyển đến Bộ Tư pháp.\n Trong trường hợp cần thiết, Bộ Tư pháp đề nghị Bộ Công an xác minh về nhân thân của người xin trở lại quốc tịch Việt Nam.\nTrong thời hạn 20 ngày, kể từ ngày nhận được văn bản đề xuất của cơ quan đại diện Việt Nam ở nước ngoài, Bộ Tư pháp có trách nhiệm kiểm tra lại hồ sơ, nếu xét thấy người xin trở lại quốc tịch Việt Nam có đủ điều kiện được trở lại quốc tịch Việt Nam thì gửi thông báo bằng văn bản cho người đó để làm thủ tục xin thôi quốc tịch nước ngoài, trừ trường hợp người xin trở lại quốc tịch Việt Nam xin giữ quốc tịch nước ngoài hoặc là người không quốc tịch.\nTrong thời hạn 10 ngày làm việc, kể từ ngày nhận được giấy xác nhận thôi quốc tịch nước ngoài của người xin trở lại quốc tịch Việt Nam, Bộ trưởng Bộ Tư pháp báo cáo Thủ tướng Chính phủ trình Chủ tịch nước xem xét, quyết định.\nTrường hợp người xin trở lại quốc tịch Việt Nam xin giữ quốc tịch nước ngoài, người xin trở lại quốc tịch Việt Nam là người không quốc tịch thì trong thời hạn 15 ngày, kể từ ngày nhận được văn bản đề xuất của cơ quan đại diện Việt Nam ở nước ngoài, Bộ Tư pháp có trách nhiệm kiểm tra lại hồ sơ, nếu xét thấy người xin trở lại quốc tịch Việt Nam có đủ điều kiện được trở lại quốc tịch Việt Nam thì báo cáo Thủ tướng Chính phủ trình Chủ tịch nước xem xét, quyết định.\nTrong thời hạn 20 ngày, kể từ ngày nhận được đề nghị của Thủ tướng Chính phủ, Chủ tịch nước xem xét, quyết định.   \n",
+      "description": "Người xin trở lại quốc tịch Việt Nam nộp hồ sơ cho cơ quan đại diện Việt Nam ở nước ngoài. Trong trường hợp hồ sơ không có đầy đủ các giấy tờ quy định tại Điều 24 của Luật này hoặc không hợp lệ thì cơ quan đại diện thông báo ngay để người xin trở lại quốc tịch Việt Nam bổ sung, hoàn chỉnh hồ sơ.\nTrong thời hạn 20 ngày, kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan đại diện Việt Nam ở nước ngoài có trách nhiệm thẩm tra và chuyển hồ sơ kèm theo ý kiến đề xuất về việc xin trở lại quốc tịch Việt Nam về Bộ Ngoại giao để chuyển đến Bộ Tư pháp.\n Trong trường hợp cần thiết, Bộ Tư pháp đề nghị Bộ Công an xác minh về nhân thân của người xin trở lại quốc tịch Việt Nam.\nTrong thời hạn 20 ngày, kể từ ngày nhận được văn bản đề xuất của cơ quan đại diện Việt Nam ở nước ngoài, Bộ Tư pháp có trách nhiệm kiểm tra lại hồ sơ, nếu xét thấy người xin trở lại quốc tịch Việt Nam có đủ điều kiện được trở lại quốc tịch Việt Nam thì gửi thông báo bằng văn bản cho người đó để làm thủ tục xin thôi quốc tịch nước ngoài, trừ trường hợp người xin trở lại quốc tịch Việt Nam xin giữ quốc tịch nước ngoài hoặc là người không quốc tịch.\nTrong thời hạn 10 ngày làm việc, kể từ ngày nhận được giấy xác nhận thôi quốc tịch nước ngoài của người xin trở lại quốc tịch Việt Nam, Bộ trưởng Bộ Tư pháp báo cáo Thủ tướng Chính phủ trình Chủ tịch nước xem xét, quyết định.\nTrường hợp người xin trở lại quốc tịch Việt Nam xin giữ quốc tịch nước ngoài, người xin trở lại quốc tịch Việt Nam là người không quốc tịch thì trong thời hạn 15 ngày, kể từ ngày nhận được văn bản đề xuất của cơ quan đại diện Việt Nam ở nước ngoài, Bộ Tư pháp có trách nhiệm kiểm tra lại hồ sơ, nếu xét thấy người xin trở lại quốc tịch Việt Nam có đủ điều kiện được trở lại quốc tịch Việt Nam thì báo cáo Thủ tướng Chính phủ trình Chủ tịch nước xem xét, quyết định.\nTrong thời hạn 20 ngày, kể từ ngày nhận được đề nghị của Thủ tướng Chính phủ, Chủ tịch nước xem xét, quyết định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "- Đơn xin trở lại quốc tịch Việt Nam;",
-        "code": "000.00.00.G08-KQ0428",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d9226-4e9b-7613-8ad8-0a54716b75f8",
-            "name": "mau-don-xin-tro-lai-quoc-tich-Viet-Nam_0207173851.doc",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "mau-don-xin-tro-lai-quoc-tich-Viet-Nam_0207173851.doc",
+        "source_page": 3
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "- Phiếu lý lịch tư pháp do cơ quan có thẩm quyền của Việt Nam cấp đối với thời gian người xin trở lại quốc tịch Việt Nam cư trú ở Việt Nam, Phiếu lý lịch tư pháp do cơ quan có thẩm quyền của nước ngoài cấp đối với thời gian người xin trở lại quốc tịch Việt Nam cư trú ở nước ngoài. Phiếu lý lịch tư pháp phải là phiếu được cấp không quá 90 ngày tính đến ngày nộp hồ sơ;",
-        "code": "000.00.00.G08-KQ0431",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Giấy tờ chứng minh người xin trở lại quốc tịch Việt Nam đã từng có quốc tịch Việt Nam là một trong các giấy tờ sau đây: bản sao Giấy khai sinh; bản sao Quyết định cho thôi quốc tịch Việt Nam hoặc Giấy xác nhận mất quốc tịch Việt Nam; giấy tờ khác có ghi quốc tịch Việt Nam hoặc có giá trị chứng minh quốc tịch Việt Nam trước đây của người đó;",
-        "code": "000.00.00.G08-KQ0432",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Bản sao Giấy khai sinh, Hộ chiếu hoặc giấy tờ khác có giá trị thay thế;",
-        "code": "000.00.00.G08-KQ0429",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "Bản khai lý lịch",
-        "code": "000.00.00.G08-KQ0430",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "- Giấy tờ chứng minh đủ điều kiện trở lại quốc tịch Việt Nam là bản sao Giấy chứng nhận kết hôn; bản sao Giấy khai sinh hoặc giấy tờ hợp lệ khác chứng minh quan hệ cha con, mẹ con; bản sao Huân chương, Huy chương, giấy chứng nhận danh hiệu cao quý khác hoặc giấy xác nhận của cơ quan, tổ chức có thẩm quyền của Việt Nam; giấy chứng nhận của cơ quan, tổ chức nơi người đó làm việc, được cơ quan quản lý nhà nước cấp bộ hoặc Ủy ban nhân dân cấp tỉnh xác nhận về việc nhập quốc tịch Việt Nam của họ sẽ đóng góp cho sự phát triển của Việt Nam; hoặc giấy tờ chứng minh người xin trở lại quốc tịch Việt Nam đang làm thủ tục xin hồi hương về Việt Nam hoặc bản sao giấy tờ chứng nhận việc đầu tư tại Việt Nam.",
-        "code": "000.00.00.G08-KQ0433",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -122,60 +91,37 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "70 ngày",
-      "processing_time_value": 70,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Trong vòng 70 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "70 ngày",
-      "processing_time_value": 70,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Trong vòng 70 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -183,38 +129,32 @@
     {
       "title": "Nghị định 97/2014/NĐ-CP",
       "document_number": "7/2014/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b470-87741c337e09",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Luật Quốc tịch Việt Nam",
       "document_number": "56/2014/QH13",
-      "id": "019d2bb3-5d84-71c5-b673-8a4b7da727b2",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực ngoại giao áp dụng tại các Cơ quan đại diện Việt Nam ở nước ngoài",
       "document_number": "264/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be47-dcd0b7b78f14",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư số 08/2010/TT-BTP",
       "document_number": "08/2010/TT-BTP",
-      "id": "019d2bb3-5d7d-7398-be52-7d0600579a22",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định 78/2009/NĐ-CP - Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Quốc tịch Việt Nam",
       "document_number": "78/2009/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b471-2f1843bf5ff1",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "LUẬT QUỐC TỊCH VIỆT NAM",
       "document_number": "24/2008/QH12",
-      "id": "019d2bb3-5d84-71c5-b670-eed03d85af27",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "Người xin trở lại quốc tịch Việt Nam nộp hồ sơ cho cơ quan đại diện Việt Nam ở nước ngoài. Trong trường hợp hồ sơ không có đầy đủ các giấy tờ quy định tại Điều 24 của Luật này hoặc không hợp lệ thì cơ quan đại diện thông báo ngay để người xin trở lại quốc tịch Việt Nam bổ sung, hoàn chỉnh hồ sơ.",
@@ -222,14 +162,13 @@
     {
       "title": "Quyết định của Chủ tịch nước về việc cho trở lại quốc tịch Việt Nam",
       "code": "000.00.00.G08-KQ0434",
-      "id": "019d8f53-a1d6-704a-8125-2963686d7d38",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Người xin trở lại quốc tịch Việt Nam nộp hồ sơ cho cơ quan đại diện Việt Nam ở nước ngoài. Trong trường hợp hồ sơ không có đầy đủ các giấy tờ quy định tại Điều 24 của Luật này hoặc không hợp lệ thì cơ quan đại diện thông báo ngay để người xin trở lại quốc tịch Việt Nam bổ sung, hoàn chỉnh hồ sơ.\nTrong thời hạn 20 ngày, kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan đại diện Việt Nam ở nước ngoài có trách nhiệm thẩm tra và chuyển hồ sơ kèm theo ý kiến đề xuất về việc xin trở lại quốc tịch Việt Nam về Bộ Ngoại giao để chuyển đến Bộ Tư pháp.\n Trong trường hợp cần thiết, Bộ Tư pháp đề nghị Bộ Công an xác minh về nhân thân của người xin trở lại quốc tịch Việt Nam.\nTrong thời hạn 20 ngày, kể từ ngày nhận được văn bản đề xuất của cơ quan đại diện Việt Nam ở nước ngoài, Bộ Tư pháp có trách nhiệm kiểm tra lại hồ sơ, nếu xét thấy người xin trở lại quốc tịch Việt Nam có đủ điều kiện được trở lại quốc tịch Việt Nam thì gửi thông báo bằng văn bản cho người đó để làm thủ tục xin thôi quốc tịch nước ngoài, trừ trường hợp người xin trở lại quốc tịch Việt Nam xin giữ quốc tịch nước ngoài hoặc là người không quốc tịch.\nTrong thời hạn 10 ngày làm việc, kể từ ngày nhận được giấy xác nhận thôi quốc tịch nước ngoài của người xin trở lại quốc tịch Việt Nam, Bộ trưởng Bộ Tư pháp báo cáo Thủ tướng Chính phủ trình Chủ tịch nước xem xét, quyết định.\nTrường hợp người xin trở lại quốc tịch Việt Nam xin giữ quốc tịch nước ngoài, người xin trở lại quốc tịch Việt Nam là người không quốc tịch thì trong thời hạn 15 ngày, kể từ ngày nhận được văn bản đề xuất của cơ quan đại diện Việt Nam ở nước ngoài, Bộ Tư pháp có trách nhiệm kiểm tra lại hồ sơ, nếu xét thấy người xin trở lại quốc tịch Việt Nam có đủ điều kiện được trở lại quốc tịch Việt Nam thì báo cáo Thủ tướng Chính phủ trình Chủ tịch nước xem xét, quyết định.\nTrong thời hạn 20 ngày, kể từ ngày nhận được đề nghị của Thủ tướng Chính phủ, Chủ tịch nước xem xét, quyết định.   \n",
-    "THÀNH PHẦN HỒ SƠ": "\n- Phiếu lý lịch tư pháp do cơ quan có thẩm quyền của Việt Nam cấp đối với thời gian người xin trở lại quốc tịch Việt Nam cư trú ở Việt Nam, Phiếu lý lịch tư pháp do cơ quan có thẩm quyền của nước ngoài cấp đối với thời gian người xin trở lại quốc tịch Việt Nam cư trú ở nước ngoài. Phiếu lý lịch tư pháp phải là phiếu được cấp không quá 90 ngày tính đến ngày nộp hồ sơ;\n- Giấy tờ chứng minh người xin trở lại quốc tịch Việt Nam đã từng có quốc tịch Việt Nam là một trong các giấy tờ sau đây: bản sao Giấy khai sinh; bản sao Quyết định cho thôi quốc tịch Việt Nam hoặc Giấy xác nhận mất quốc tịch Việt Nam; giấy tờ khác có ghi quốc tịch Việt Nam hoặc có giá trị chứng minh quốc tịch Việt Nam trước đây của người đó;\n- Bản sao Giấy khai sinh, Hộ chiếu hoặc giấy tờ khác có giá trị thay thế;\nBản khai lý lịch\n- Giấy tờ chứng minh đủ điều kiện trở lại quốc tịch Việt Nam là bản sao Giấy chứng nhận kết hôn; bản sao Giấy khai sinh hoặc giấy tờ hợp lệ khác chứng minh quan hệ cha con, mẹ con; bản sao Huân chương, Huy chương, giấy chứng nhận danh hiệu cao quý khác hoặc giấy xác nhận của cơ quan, tổ chức có thẩm quyền của Việt Nam; giấy chứng nhận của cơ quan, tổ chức nơi người đó làm việc, được cơ quan quản lý nhà nước cấp bộ hoặc Ủy ban nhân dân cấp tỉnh xác nhận về việc nhập quốc tịch Việt Nam của họ sẽ đóng góp cho sự phát triển của Việt Nam; hoặc giấy tờ chứng minh người xin trở lại quốc tịch Việt Nam đang làm thủ tục xin hồi hương về Việt Nam hoặc bản sao giấy tờ chứng nhận việc đầu tư tại Việt Nam.\n- Đơn xin trở lại quốc tịch Việt Nam;",
-    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 70 ngày - Trong vòng 70 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ.\nTrực tiếp: 70 ngày - Trong vòng 70 ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ.",
+    "TRÌNH TỰ THỰC HIỆN": "Người xin trở lại quốc tịch Việt Nam nộp hồ sơ cho cơ quan đại diện Việt Nam ở nước ngoài. Trong trường hợp hồ sơ không có đầy đủ các giấy tờ quy định tại Điều 24 của Luật này hoặc không hợp lệ thì cơ quan đại diện thông báo ngay để người xin trở lại quốc tịch Việt Nam bổ sung, hoàn chỉnh hồ sơ.\nTrong thời hạn 20 ngày, kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan đại diện Việt Nam ở nước ngoài có trách nhiệm thẩm tra và chuyển hồ sơ kèm theo ý kiến đề xuất về việc xin trở lại quốc tịch Việt Nam về Bộ Ngoại giao để chuyển đến Bộ Tư pháp.\n Trong trường hợp cần thiết, Bộ Tư pháp đề nghị Bộ Công an xác minh về nhân thân của người xin trở lại quốc tịch Việt Nam.\nTrong thời hạn 20 ngày, kể từ ngày nhận được văn bản đề xuất của cơ quan đại diện Việt Nam ở nước ngoài, Bộ Tư pháp có trách nhiệm kiểm tra lại hồ sơ, nếu xét thấy người xin trở lại quốc tịch Việt Nam có đủ điều kiện được trở lại quốc tịch Việt Nam thì gửi thông báo bằng văn bản cho người đó để làm thủ tục xin thôi quốc tịch nước ngoài, trừ trường hợp người xin trở lại quốc tịch Việt Nam xin giữ quốc tịch nước ngoài hoặc là người không quốc tịch.\nTrong thời hạn 10 ngày làm việc, kể từ ngày nhận được giấy xác nhận thôi quốc tịch nước ngoài của người xin trở lại quốc tịch Việt Nam, Bộ trưởng Bộ Tư pháp báo cáo Thủ tướng Chính phủ trình Chủ tịch nước xem xét, quyết định.\nTrường hợp người xin trở lại quốc tịch Việt Nam xin giữ quốc tịch nước ngoài, người xin trở lại quốc tịch Việt Nam là người không quốc tịch thì trong thời hạn 15 ngày, kể từ ngày nhận được văn bản đề xuất của cơ quan đại diện Việt Nam ở nước ngoài, Bộ Tư pháp có trách nhiệm kiểm tra lại hồ sơ, nếu xét thấy người xin trở lại quốc tịch Việt Nam có đủ điều kiện được trở lại quốc tịch Việt Nam thì báo cáo Thủ tướng Chính phủ trình Chủ tịch nước xem xét, quyết định.\nTrong thời hạn 20 ngày, kể từ ngày nhận được đề nghị của Thủ tướng Chính phủ, Chủ tịch nước xem xét, quyết định.",
+    "THÀNH PHẦN HỒ SƠ": "- Đơn xin trở lại quốc tịch Việt Nam;\n- Phiếu lý lịch tư pháp do cơ quan có thẩm quyền của Việt Nam cấp đối với thời gian người xin trở lại quốc tịch Việt Nam cư trú ở Việt Nam, Phiếu lý lịch tư pháp do cơ quan có thẩm quyền của nước ngoài cấp đối với thời gian người xin trở lại quốc tịch Việt Nam cư trú ở nước ngoài. Phiếu lý lịch tư pháp phải là phiếu được cấp không quá 90 ngày tính đến ngày nộp hồ sơ;\n- Giấy tờ chứng minh người xin trở lại quốc tịch Việt Nam đã từng có quốc tịch Việt Nam là một trong các giấy tờ sau đây: bản sao Giấy khai sinh; bản sao Quyết định cho thôi quốc tịch Việt Nam hoặc Giấy xác nhận mất quốc tịch Việt Nam; giấy tờ khác có ghi quốc tịch Việt Nam hoặc có giá trị chứng minh quốc tịch Việt Nam trước đây của người đó;\n- Bản sao Giấy khai sinh, Hộ chiếu hoặc giấy tờ khác có giá trị thay thế;\nBản khai lý lịch\n- Giấy tờ chứng minh đủ điều kiện trở lại quốc tịch Việt Nam là bản sao Giấy chứng nhận kết hôn; bản sao Giấy khai sinh hoặc giấy tờ hợp lệ khác chứng minh quan hệ cha con, mẹ con; bản sao Huân chương, Huy chương, giấy chứng nhận danh hiệu cao quý khác hoặc giấy xác nhận của cơ quan, tổ chức có thẩm quyền của Việt Nam; giấy chứng nhận của cơ quan, tổ chức nơi người đó làm việc, được cơ quan quản lý nhà nước cấp bộ hoặc Ủy ban nhân dân cấp tỉnh xác nhận về việc nhập quốc tịch Việt Nam của họ sẽ đóng góp cho sự phát triển của Việt Nam; hoặc giấy tờ chứng minh người xin trở lại quốc tịch Việt Nam đang làm thủ tục xin hồi hương về Việt Nam hoặc bản sao giấy tờ chứng nhận việc đầu tư tại Việt Nam.",
+    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 70 ngày\nTrực tiếp: 70 ngày",
     "CĂN CỨ PHÁP LÝ": "Nghị định 97/2014/NĐ-CP - 7/2014/NĐ-CP\nSửa đổi, bổ sung một số điều của Luật Quốc tịch Việt Nam - 56/2014/QH13\nQuy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí, lệ phí trong lĩnh vực ngoại giao áp dụng tại các Cơ quan đại diện Việt Nam ở nước ngoài - 264/2016/TT-BTC\nThông tư số 08/2010/TT-BTP - 08/2010/TT-BTP\nNghị định 78/2009/NĐ-CP - Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Quốc tịch Việt Nam - 78/2009/NĐ-CP\nLUẬT QUỐC TỊCH VIỆT NAM - 24/2008/QH12",
     "CƠ QUAN THỰC HIỆN": "Cơ quan đại diện Việt Nam ở nước ngoài",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Người xin trở lại quốc tịch Việt Nam nộp hồ sơ cho cơ quan đại diện Việt Nam ở nước ngoài. Trong trường hợp hồ sơ không có đầy đủ các giấy tờ quy định tại Điều 24 của Luật này hoặc không hợp lệ thì cơ quan đại diện thông báo ngay để người xin trở lại quốc tịch Việt Nam bổ sung, hoàn chỉnh hồ sơ.",
@@ -238,11 +177,6 @@
     "MÔ TẢ": "Người xin trở lại quốc tịch Việt Nam nộp hồ sơ cho cơ quan đại diện Việt Nam ở nước ngoài. Trong trường hợp hồ sơ không có đầy đủ các giấy tờ quy định tại Điều 24 của Luật này hoặc không hợp lệ thì cơ quan đại diện thông báo ngay để người xin trở lại quốc tịch Việt Nam bổ sung, hoàn chỉnh hồ sơ."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Cư trú và giấy tờ tùy thân",
-      "slug": "cu-tru-va-giay-to-tuy-than",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Quốc tịch",
       "slug": "quoc-tich"
@@ -256,7 +190,7 @@
     "target_users": [
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Người nước ngoài",
@@ -266,9 +200,9 @@
     "agencies": [
       {
         "name": "Cơ quan đại diện Việt Nam ở nước ngoài",
-        "slug": "co-quan-dai-dien-viet-nam-o-nuoc-ngoai"
+        "slug": "co-quan-ai-dien-viet-nam-o-nuoc-ngoai"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

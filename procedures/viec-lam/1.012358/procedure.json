@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-c26a-71bb-8e75-15dcb031e165",
   "procedure_code": "1.012358",
   "title": "Mở chi nhánh, văn phòng đại diện và các hình thức hiện diện thương mại khác tại nước ngoài của doanh nghiệp môi giới bảo hiểm.",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-c26a-71bb-8e75-15dcb031e165",
     "source_file": "chi-tiet-thu-tuc-1.012358.pdf",
     "source_path": "procedures/viec-lam/1.012358/chi-tiet-thu-tuc-1.012358.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:07.747435+00:00",
-    "source_updated_at": "2026-05-27T02:18:48.147Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:00.644852+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "1535c24d43280cbe2b65da36c4697eaf8b05d38dede18b4f44536f4db0184d8d"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:07.747435+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1103",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Bảo hiểm",
   "target_users": [
@@ -35,57 +31,39 @@
   ],
   "agency": {
     "competent_agency": "Bộ Tài chính",
-    "executing_agency": "Bộ Tài chính",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Tài chính"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "+ Doanh nghiệp môi giới bảo hiểm nộp Bộ Tài chính hồ sơ đề nghị mở chi nhánh, văn phòng đại diện và các hình thức hiện diện thương mại khác tại nước ngoài. \n+ Trong thời hạn 14 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ Tài chính có văn bản chấp thuận việc doanh nghiệp môi giới bảo hiểm mở chi nhánh, văn phòng đại diện, các hình thức hiện diện thương mại khác tại nước ngoài. Trường hợp từ chối chấp thuận, Bộ Tài chính có văn bản giải thích rõ lý do.\n+ Sau khi hoàn thành việc mở chi nhánh, văn phòng đại diện, các hình thức hiện diện thương mại khác tại nước ngoài, doanh nghiệp môi giới bảo hiểm phải thông báo cho Bộ Tài chính theo quy định tại khoản 1 Điều 75 Nghị định 46/2023/NĐ-CP.\n",
+      "description": "+ Doanh nghiệp môi giới bảo hiểm nộp Bộ Tài chính hồ sơ đề nghị mở chi nhánh, văn phòng đại diện và các hình thức hiện diện thương mại khác tại nước ngoài. \n+ Trong thời hạn 14 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ Tài chính có văn bản chấp thuận việc doanh nghiệp môi giới bảo hiểm mở chi nhánh, văn phòng đại diện, các hình thức hiện diện thương mại khác tại nước ngoài. Trường hợp từ chối chấp thuận, Bộ Tài chính có văn bản giải thích rõ lý do.\n+ Sau khi hoàn thành việc mở chi nhánh, văn phòng đại diện, các hình thức hiện diện thương mại khác tại nước ngoài, doanh nghiệp môi giới bảo hiểm phải thông báo cho Bộ Tài chính theo quy định tại khoản 1 Điều 75 Nghị định 46/2023/NĐ-CP.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Văn bản đề nghị mở chi nhánh, văn phòng đại diện, các hình thức hiện diện thương mại khác tại nước ngoài theo mẫu quy định tại Phụ lục XVII ban hành kèm theo Nghị định 46/2023/NĐ-CP được sửa đổi, bổ sung bởi Nghị định số 97/2026/NĐ-CP;",
-        "code": "000.00.00.G12-KQ012988",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e6359-b189-75fd-b0bd-07d12b46af34",
-            "name": "đơn đề nghị.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "đơn đề nghị.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "+ Văn bản của cấp có thẩm quyền theo quy định tại Điều lệ công ty về việc mở chi nhánh, văn phòng đại diện hoặc các hiện diện thương mại khác tại nước ngoài;",
-        "code": "000.00.00.G12-KQ012989",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Hồ sơ đề nghị chấp thuận việc mở chi nhánh, văn phòng đại diện, các hình thức hiện diện thương mại khác tại nước ngoài phải đáp ứng quy định tại các điểm a, b, d và h khoản 2, khoản 3 và khoản 4 Điều 15 Nghị định Nghị định 46/2023/NĐ-CP",
-        "code": "000.00.00.G12-KQ012991",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -94,17 +72,7 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "14 ngày làm việc",
-      "processing_time_value": 14,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -112,69 +80,44 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "14 ngày làm việc",
-      "processing_time_value": 14,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "14 ngày làm việc",
-      "processing_time_value": 14,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -182,20 +125,17 @@
     {
       "title": "- Điều 136 Luật Kinh doanh bảo hiểm;",
       "document_number": "08/2022/QH15",
-      "id": "019d2bb3-5d86-7760-a63b-34a90db4148f",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Thông tư quy định về phân cấp thực hiện một số nhiệm vụ, quyền hạn trong lĩnh vực  quản lý nhà nước của Bộ Tài chính",
       "document_number": "31/2026/TT-BTC",
-      "id": "019e247f-bb82-771b-9c42-92635ca096d7",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Điều 74 Nghị định số 46/2023/NĐ-CP ngày 01/7/2023 của Chính phủ;",
-      "document_number": "46/2023/NĐ-CP ",
-      "id": "019e6388-518c-7679-8ec6-698c2adee6e1",
-      "source_page": null
+      "document_number": "46/2023/NĐ-CP",
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -203,21 +143,19 @@
     {
       "title": "Văn bản thông báo lý do từ chối của Bộ Tài chính",
       "code": "KQ.G12.001161",
-      "id": "019d2bb2-1c72-75fa-a592-2cb8cbfdec82",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Văn bản chấp thuận đề nghị mở chi nhánh, văn phòng đại diện và các hình thức hiện diện thương mại khác tại nước ngoài của doanh nghiệp môi giới bảo hiểm.",
       "code": "KQ.G12.000771",
-      "id": "019d2bb2-1c71-7574-afea-381dd7e338c2",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "+ Doanh nghiệp môi giới bảo hiểm nộp Bộ Tài chính hồ sơ đề nghị mở chi nhánh, văn phòng đại diện và các hình thức hiện diện thương mại khác tại nước ngoài. \n+ Trong thời hạn 14 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ Tài chính có văn bản chấp thuận việc doanh nghiệp môi giới bảo hiểm mở chi nhánh, văn phòng đại diện, các hình thức hiện diện thương mại khác tại nước ngoài. Trường hợp từ chối chấp thuận, Bộ Tài chính có văn bản giải thích rõ lý do.\n+ Sau khi hoàn thành việc mở chi nhánh, văn phòng đại diện, các hình thức hiện diện thương mại khác tại nước ngoài, doanh nghiệp môi giới bảo hiểm phải thông báo cho Bộ Tài chính theo quy định tại khoản 1 Điều 75 Nghị định 46/2023/NĐ-CP.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n+ Văn bản của cấp có thẩm quyền theo quy định tại Điều lệ công ty về việc mở chi nhánh, văn phòng đại diện hoặc các hiện diện thương mại khác tại nước ngoài;\nVăn bản đề nghị mở chi nhánh, văn phòng đại diện, các hình thức hiện diện thương mại khác tại nước ngoài theo mẫu quy định tại Phụ lục XVII ban hành kèm theo Nghị định 46/2023/NĐ-CP được sửa đổi, bổ sung bởi Nghị định số 97/2026/NĐ-CP;\nHồ sơ đề nghị chấp thuận việc mở chi nhánh, văn phòng đại diện, các hình thức hiện diện thương mại khác tại nước ngoài phải đáp ứng quy định tại các điểm a, b, d và h khoản 2, khoản 3 và khoản 4 Điều 15 Nghị định Nghị định 46/2023/NĐ-CP",
+    "TRÌNH TỰ THỰC HIỆN": "+ Doanh nghiệp môi giới bảo hiểm nộp Bộ Tài chính hồ sơ đề nghị mở chi nhánh, văn phòng đại diện và các hình thức hiện diện thương mại khác tại nước ngoài. \n+ Trong thời hạn 14 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, Bộ Tài chính có văn bản chấp thuận việc doanh nghiệp môi giới bảo hiểm mở chi nhánh, văn phòng đại diện, các hình thức hiện diện thương mại khác tại nước ngoài. Trường hợp từ chối chấp thuận, Bộ Tài chính có văn bản giải thích rõ lý do.\n+ Sau khi hoàn thành việc mở chi nhánh, văn phòng đại diện, các hình thức hiện diện thương mại khác tại nước ngoài, doanh nghiệp môi giới bảo hiểm phải thông báo cho Bộ Tài chính theo quy định tại khoản 1 Điều 75 Nghị định 46/2023/NĐ-CP.",
+    "THÀNH PHẦN HỒ SƠ": "Văn bản đề nghị mở chi nhánh, văn phòng đại diện, các hình thức hiện diện thương mại khác tại nước ngoài theo mẫu quy định tại Phụ lục XVII ban hành kèm theo Nghị định 46/2023/NĐ-CP được sửa đổi, bổ sung bởi Nghị định số 97/2026/NĐ-CP;\n+ Văn bản của cấp có thẩm quyền theo quy định tại Điều lệ công ty về việc mở chi nhánh, văn phòng đại diện hoặc các hiện diện thương mại khác tại nước ngoài;\nHồ sơ đề nghị chấp thuận việc mở chi nhánh, văn phòng đại diện, các hình thức hiện diện thương mại khác tại nước ngoài phải đáp ứng quy định tại các điểm a, b, d và h khoản 2, khoản 3 và khoản 4 Điều 15 Nghị định Nghị định 46/2023/NĐ-CP",
     "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 14 ngày làm việc\nTrực tiếp: 14 ngày làm việc\nTrực tuyến: 14 ngày làm việc",
-    "CĂN CỨ PHÁP LÝ": "- Điều 136 Luật Kinh doanh bảo hiểm; - 08/2022/QH15\nThông tư quy định về phân cấp thực hiện một số nhiệm vụ, quyền hạn trong lĩnh vực  quản lý nhà nước của Bộ Tài chính - 31/2026/TT-BTC\nĐiều 74 Nghị định số 46/2023/NĐ-CP ngày 01/7/2023 của Chính phủ; - 46/2023/NĐ-CP ",
+    "CĂN CỨ PHÁP LÝ": "- Điều 136 Luật Kinh doanh bảo hiểm; - 08/2022/QH15\nThông tư quy định về phân cấp thực hiện một số nhiệm vụ, quyền hạn trong lĩnh vực  quản lý nhà nước của Bộ Tài chính - 31/2026/TT-BTC\nĐiều 74 Nghị định số 46/2023/NĐ-CP ngày 01/7/2023 của Chính phủ; - 46/2023/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Bộ Tài chính",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
     "KẾT QUẢ XỬ LÝ": "Văn bản thông báo lý do từ chối của Bộ Tài chính - KQ.G12.001161\nVăn bản chấp thuận đề nghị mở chi nhánh, văn phòng đại diện và các hình thức hiện diện thương mại khác tại nước ngoài của doanh nghiệp môi giới bảo hiểm. - KQ.G12.000771",
@@ -225,11 +163,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Bảo hiểm",
       "slug": "bao-hiem"
@@ -252,6 +185,6 @@
         "slug": "bo-tai-chinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

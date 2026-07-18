@@ -1,36 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-d79c-73cd-8614-c7a7882c5e05",
   "procedure_code": "1.001939",
   "title": "Đăng ký đóng, cấp thẻ BHYT đối với người chỉ tham gia BHYT",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-d79c-73cd-8614-c7a7882c5e05",
     "source_file": "chi-tiet-thu-tuc-1.001939.pdf",
     "source_path": "procedures/suc-khoe-va-y-te/1.001939/chi-tiet-thu-tuc-1.001939.pdf",
     "page_count": 7,
-    "extracted_at": "2026-07-18T02:21:59.928338+00:00",
-    "source_updated_at": "2026-04-15T09:35:37.715Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:10.325743+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "4c249ba8a1e7c8ef257ef67af26e13afb20f8e5d3f59577c1220eaed6c5543c6"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:59.928338+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1474/QĐ-BTC",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thu BHXH, BHYT, BHTN, BH tai nạn lao động, BNN",
   "target_users": [
@@ -40,46 +33,43 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Bảo hiểm xã hội tỉnh, Bảo hiểm xã hội cấp huyện",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bảo hiểm xã hội tỉnh, Bảo hiểm xã hội cấp huyện"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1. Lập, nộp hồ sơ",
-      "description": "1. Người tham gia lập hồ sơ theo quy định tại tiết 1 mục Thành phần hồ sơ\na) Đối với người tham gia do tổ chức BHXH đóng BHYT: Nộp hồ sơ cho UBND xã hoặc cho cơ quan BHXH. Đối với người đang hưởng trợ cấp thất nghiệp: nộp hồ sơ cho cơ quan BHXH.\nb) Đối với người tham gia do ngân sách nhà nước đóng, (hỗ trợ 100% mức đóng BHYT): Nộp hồ sơ cho UBND xã. Trừ các trường hợp:\n- Người tham gia đã hiến bộ phận cơ thể người: nộp hồ sơ cho cơ quan BHXH;\n- Người tham gia do cơ quan, đơn vị quản lý: nộp hồ sơ cho đơn vị quản lý đối tượng.\nc) Đối với người được ngân sách nhà nước hỗ trợ một phần mức đóng BHYT: \n- Trường hợp nộp hồ sơ cho Tổ chức dịch vụ hoặc cơ quan BHXH: Lập hồ sơ theo quy định tại tiết 1.1 điểm 1 Mục Thành phần hồ sơ và nộp cho tổ chức dịch vụ hoặc cơ quan BHXH.\n- Trường hợp nộp qua Cổng Dịch vụ công: Lập hồ sơ theo quy định tại tiết 1.2 điểm 1 Mục Thành phần hồ sơ và nộp trực tuyến trên Cổng Dịch vụ công.\n- Học sinh, sinh viên: Nộp hồ sơ cho cơ sở giáo dục.\nd) Người tham gia BHYT theo hộ gia đình: \n- Trường hợp nộp hồ sơ cho Tổ chức dịch vụ hoặc cơ quan BHXH: Lập hồ sơ theo quy định tại tiết 1.1 điểm 1 Mục Thành phần hồ sơ và nộp cho tổ chức dịch vụ hoặc cơ quan BHXH trên toàn quốc.\n- Trường hợp nộp qua Cổng Dịch vụ công: Lập hồ sơ theo quy định tại tiết 1.2 điểm 1 Mục Thành phần hồ sơ và nộp trực tuyến trên Cổng Dịch vụ công.\n2. Đối với UBND xã: Nhận hồ sơ của người tham gia, lập hồ sơ theo quy định tại tiết 2 mục Thành phần hồ sơ và nộp hồ sơ như sau:\na) Đối với người tham gia do tổ chức BHXH đóng: Nộp cho cơ quan BHXH.\nb) Đối với người tham gia do Bộ Lao động - Thương binh và Xã hội quản lý: nộp cho cơ quan Lao động - Thương binh và xã hội và cơ quan BHXH cấp huyện. \nc) Các đối tượng còn lại nộp cho cơ quan BHXH.\n3. Cơ quan Lao động - Thương binh và xã hội: Nhận hồ sơ do UBND xã gửi đến, phối hợp với cơ quan BHXH rà soát, kiểm tra, đối chiếu, xác nhận số người tham gia, số tiền phải đóng của từng nhóm đối tượng.\n4. Cơ sở trợ giúp xã hội/Cơ sở nuôi dưỡng, điều dưỡng thương binh và người có công/Cơ sở giáo dục nghề nghiệp thuộc ngành Lao động - Thương binh và xã hội/cơ quan/đơn vị quản lý người chỉ tham gia BHYT: Nhận hồ sơ của người tham gia, lập hồ sơ theo quy định tại tiết 2 mục Thành phần hồ sơ và nộp cho cơ quan BHXH.\n5. Tổ chức dịch vụ: Nhận hồ sơ của người tham gia, thu tiền đóng thuộc trách nhiệm đóng của người tham gia BHYT và lập hồ sơ theo quy định tiết 2 mục Thành phần hồ sơ, nộp cho cơ quan BHXH.\n6. Cơ sở giáo dục: Nhận hồ sơ của học sinh, sinh viên, thu tiền đóng BHYT thuộc trách nhiệm đóng của học sinh, sinh viên; lập hồ sơ theo quy định tại tiết 2 mục Thành phần hồ sơ và nộp cho cơ quan BHXH.\n7. Phòng/Tổ chế độ BHXH: Nhận hồ sơ của người tham gia BHYT do tổ chức BHXH đóng (kể cả đối tượng đang chờ ban hành quyết định hưởng hưu trí) từ Bộ phận một cửa; lập hồ sơ theo quy định tại tiết 3 mục Thành phần hồ sơ chuyển cho Phòng/Tổ Quản lý Thu - Sổ, Thẻ\n8. Trường hợp hoàn trả: Người tham gia nộp hồ sơ theo quy định tại tiết 4 mục Thành phần hồ sơ cho Tổ chức dịch vụ (đối với người tham gia được ngân sách nhà nước hỗ trợ một phần mức đóng BHYT, người tham gia BHYT theo hộ gia đình); cơ sở giáo dục (đối với học sinh, sinh viên) hoặc cơ quan BHXH.\n",
+      "description": "1. Người tham gia lập hồ sơ theo quy định tại tiết 1 mục Thành phần hồ sơ\na) Đối với người tham gia do tổ chức BHXH đóng BHYT: Nộp hồ sơ cho UBND xã hoặc cho cơ quan BHXH. Đối với người đang hưởng trợ cấp thất nghiệp: nộp hồ sơ cho cơ quan BHXH.\nb) Đối với người tham gia do ngân sách nhà nước đóng, (hỗ trợ 100% mức đóng BHYT): Nộp hồ sơ cho UBND xã. Trừ các trường hợp:\n- Người tham gia đã hiến bộ phận cơ thể người: nộp hồ sơ cho cơ quan BHXH;\n- Người tham gia do cơ quan, đơn vị quản lý: nộp hồ sơ cho đơn vị quản lý đối tượng.\nc) Đối với người được ngân sách nhà nước hỗ trợ một phần mức đóng BHYT: \n- Trường hợp nộp hồ sơ cho Tổ chức dịch vụ hoặc cơ quan BHXH: Lập hồ sơ theo quy định tại tiết 1.1 điểm 1 Mục Thành phần hồ sơ và nộp cho tổ chức dịch vụ hoặc cơ quan BHXH.\n- Trường hợp nộp qua Cổng Dịch vụ công: Lập hồ sơ theo quy định tại tiết 1.2 điểm 1 Mục Thành phần hồ sơ và nộp trực tuyến trên Cổng Dịch vụ công.\n- Học sinh, sinh viên: Nộp hồ sơ cho cơ sở giáo dục.\nd) Người tham gia BHYT theo hộ gia đình: \n- Trường hợp nộp hồ sơ cho Tổ chức dịch vụ hoặc cơ quan BHXH: Lập hồ sơ theo quy định tại tiết 1.1 điểm 1 Mục Thành phần hồ sơ và nộp cho tổ chức dịch vụ hoặc cơ quan BHXH trên toàn quốc.\n- Trường hợp nộp qua Cổng Dịch vụ công: Lập hồ sơ theo quy định tại tiết 1.2 điểm 1 Mục Thành phần hồ sơ và nộp trực tuyến trên Cổng Dịch vụ công.\n2. Đối với UBND xã: Nhận hồ sơ của người tham gia, lập hồ sơ theo quy định tại tiết 2 mục Thành phần hồ sơ và nộp hồ sơ như sau:\na) Đối với người tham gia do tổ chức BHXH đóng: Nộp cho cơ quan BHXH.\nb) Đối với người tham gia do Bộ Lao động - Thương binh và Xã hội quản lý: nộp cho cơ quan Lao động - Thương binh và xã hội và cơ quan BHXH cấp huyện. \nc) Các đối tượng còn lại nộp cho cơ quan BHXH.\n3. Cơ quan Lao động - Thương binh và xã hội: Nhận hồ sơ do UBND xã gửi đến, phối hợp với cơ quan BHXH rà soát, kiểm tra, đối chiếu, xác nhận số người tham gia, số tiền phải đóng của từng nhóm đối tượng.\n4. Cơ sở trợ giúp xã hội/Cơ sở nuôi dưỡng, điều dưỡng thương binh và người có công/Cơ sở giáo dục nghề nghiệp thuộc ngành Lao động - Thương binh và xã hội/cơ quan/đơn vị quản lý người chỉ tham gia BHYT: Nhận hồ sơ của người tham gia, lập hồ sơ theo quy định tại tiết 2 mục Thành phần hồ sơ và nộp cho cơ quan BHXH.\n5. Tổ chức dịch vụ: Nhận hồ sơ của người tham gia, thu tiền đóng thuộc trách nhiệm đóng của người tham gia BHYT và lập hồ sơ theo quy định tiết 2 mục Thành phần hồ sơ, nộp cho cơ quan BHXH.\n6. Cơ sở giáo dục: Nhận hồ sơ của học sinh, sinh viên, thu tiền đóng BHYT thuộc trách nhiệm đóng của học sinh, sinh viên; lập hồ sơ theo quy định tại tiết 2 mục Thành phần hồ sơ và nộp cho cơ quan BHXH.\n7. Phòng/Tổ chế độ BHXH: Nhận hồ sơ của người tham gia BHYT do tổ chức BHXH đóng (kể cả đối tượng đang chờ ban hành quyết định hưởng hưu trí) từ Bộ phận một cửa; lập hồ sơ theo quy định tại tiết 3 mục Thành phần hồ sơ chuyển cho Phòng/Tổ Quản lý Thu - Sổ, Thẻ\n8. Trường hợp hoàn trả: Người tham gia nộp hồ sơ theo quy định tại tiết 4 mục Thành phần hồ sơ cho Tổ chức dịch vụ (đối với người tham gia được ngân sách nhà nước hỗ trợ một phần mức đóng BHYT, người tham gia BHYT theo hộ gia đình); cơ sở giáo dục (đối với học sinh, sinh viên) hoặc cơ quan BHXH.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "Bước 2. Đóng tiền",
-      "description": "1. Người tham gia: \na) Người được ngân sách nhà nước hỗ trợ một phần mức đóng BHYT; người tham gia BHYT theo hộ gia đình: Đóng tiền cho tổ chức dịch vụ hoặc cho cơ quan BHXH;\nTrường hợp người tham gia nộp hồ sơ qua Cổng Dịch vụ công: Lập hồ sơ theo quy định tại tiết 1.2 điểm 1 Mục Thành phần hồ sơ và nộp trực tuyến trên Cổng Dịch vụ công.\nb) Học sinh, sinh viên: đóng tiền cho cơ sở giáo dục.\n2. Tổ chức dịch vụ: Thu tiền đóng BHYT phần thuộc trách nhiệm đóng của người tham gia; cấp biên lai thu tiền cho người tham gia theo quy định. Nộp số tiền đã thu của người tham gia cho cơ quan BHXH hàng ngày thông qua tài khoản ngân hàng hoặc hệ thống tiện ích thông minh.\n3. Cơ sở giáo dục: Nộp số tiền đã thu của Học sinh, sinh viên cho cơ quan BHXH hàng ngày thông qua tài khoản ngân hàng.\n4. Cơ quan Lao động – Thương binh và xã hội: Chuyển tiền đóng BHYT theo phân cấp hoặc phối hợp với cơ quan BHXH đề nghị cơ quan tài chính chuyển tiền đóng BHYT cho cơ quan BHXH theo quy định\n5. UBND xã/Cơ sở trợ giúp xã hội/Cơ sở nuôi dưỡng, điều dưỡng thương binh và người có công/Cơ sở giáo dục nghề nghiệp thuộc ngành Lao động - Thương binh và xã hội/cơ quan/đơn vị quản lý người chỉ tham gia BHYT: Chuyển tiền đóng BHYT theo phân cấp hoặc đề nghị cơ quan Lao động - Thương binh và xã hội hoặc cơ quan tài chính chuyển kinh phí đóng BHYT cho cơ quan BHXH.\n",
+      "description": "1. Người tham gia: \na) Người được ngân sách nhà nước hỗ trợ một phần mức đóng BHYT; người tham gia BHYT theo hộ gia đình: Đóng tiền cho tổ chức dịch vụ hoặc cho cơ quan BHXH;\nTrường hợp người tham gia nộp hồ sơ qua Cổng Dịch vụ công: Lập hồ sơ theo quy định tại tiết 1.2 điểm 1 Mục Thành phần hồ sơ và nộp trực tuyến trên Cổng Dịch vụ công.\nb) Học sinh, sinh viên: đóng tiền cho cơ sở giáo dục.\n2. Tổ chức dịch vụ: Thu tiền đóng BHYT phần thuộc trách nhiệm đóng của người tham gia; cấp biên lai thu tiền cho người tham gia theo quy định. Nộp số tiền đã thu của người tham gia cho cơ quan BHXH hàng ngày thông qua tài khoản ngân hàng hoặc hệ thống tiện ích thông minh.\n3. Cơ sở giáo dục: Nộp số tiền đã thu của Học sinh, sinh viên cho cơ quan BHXH hàng ngày thông qua tài khoản ngân hàng.\n4. Cơ quan Lao động – Thương binh và xã hội: Chuyển tiền đóng BHYT theo phân cấp hoặc phối hợp với cơ quan BHXH đề nghị cơ quan tài chính chuyển tiền đóng BHYT cho cơ quan BHXH theo quy định\n5. UBND xã/Cơ sở trợ giúp xã hội/Cơ sở nuôi dưỡng, điều dưỡng thương binh và người có công/Cơ sở giáo dục nghề nghiệp thuộc ngành Lao động - Thương binh và xã hội/cơ quan/đơn vị quản lý người chỉ tham gia BHYT: Chuyển tiền đóng BHYT theo phân cấp hoặc đề nghị cơ quan Lao động - Thương binh và xã hội hoặc cơ quan tài chính chuyển kinh phí đóng BHYT cho cơ quan BHXH.",
       "example": null,
-      "source_page": null
+      "source_page": 3
     },
     {
       "order": 3,
       "title": "Bước 3.",
-      "description": "Cơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định\n",
+      "description": "Cơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định",
       "example": null,
-      "source_page": null
+      "source_page": 3
     },
     {
       "order": 4,
       "title": "Bước 4.",
-      "description": "Nhận kết quả, gồm: Thẻ BHYT; Quyết định hoàn trả và tiền hoàn trả (nếu có)\n",
+      "description": "Nhận kết quả, gồm: Thẻ BHYT; Quyết định hoàn trả và tiền hoàn trả (nếu có)",
       "example": null,
-      "source_page": null
+      "source_page": 3
     },
     {
       "order": 5,
       "title": "Thời hạn giải quyết",
-      "description": "Kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định:\nKhông quá 05 ngày; riêng đối với người hưởng trợ cấp thất nghiệp không quá 02 ngày.\n",
+      "description": "Kể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định:\nKhông quá 05 ngày; riêng đối với người hưởng trợ cấp thất nghiệp không quá 02 ngày.",
       "example": null,
-      "source_page": null
+      "source_page": 3
     }
   ],
   "documents": {
@@ -87,94 +77,64 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "Trường hợp người tham gia được hưởng quyền lợi BHYT cao hơn: bổ sung Giấy tờ chứng minh (nếu có) theo Phụ lục 03 (ban hành kèm theo Quyết định số 948/QĐ-BHXH ngày 05/6/2023 của Tổng Giám đốc Bảo hiểm xã hội Việt Nam).",
-        "code": "G24-KQ000346",
+        "name": "1. Đối với người tham gia: Trường hợp người tham gia được hưởng quyền lợi BHYT cao hơn: bổ sung Giấy tờ chứng minh (nếu có) theo Phụ lục 03 (ban hành kèm theo Quyết định số 948/QĐ-BHXH ngày 05/6/2023 của Tổng Giám đốc Bảo hiểm xã hội Việt Nam).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "1. Đối với người tham gia",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Trường hợp người tham gia do ngân sách nhà nước hỗ trợ một phần mức đóng BHYT, người tham gia BHYT theo hộ gia đình nộp qua Cổng Dịch vụ công thì kê khai Tờ khai đăng ký đóng, cấp thẻ BHYT trên Cổng Dịch vụ công (Mẫu 01-TK)",
-        "code": "G24-KQ000344",
+        "name": "1. Đối với người tham gia: Trường hợp người tham gia do ngân sách nhà nước hỗ trợ một phần mức đóng BHYT, người tham gia BHYT theo hộ gia đình nộp qua Cổng Dịch vụ công thì kê khai Tờ khai đăng ký đóng, cấp thẻ BHYT trên Cổng Dịch vụ công (Mẫu 01-TK)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "1. Đối với người tham gia",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Trường hợp người tham gia là người đã hiến bộ phận cơ thể người theo quy định của pháp luật: bổ sung Giấy ra viện có ghi rõ \"đã hiến bộ phận cơ thể\".",
-        "code": "G24-KQ000345",
+        "name": "1. Đối với người tham gia: Trường hợp người tham gia là người đã hiến bộ phận cơ thể người theo quy định của pháp luật: bổ sung Giấy ra viện có ghi rõ \"đã hiến bộ phận cơ thể\".",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "1. Đối với người tham gia",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Tờ khai tham gia, điều chỉnh thông tin BHXH, BHYT (Mẫu TK1-TS) đối với người tham gia lần đầu hoặc có mã số BHXH nhưng chưa đủ thông tin.",
-        "code": "G24-KQ000343",
+        "name": "1. Đối với người tham gia: Tờ khai tham gia, điều chỉnh thông tin BHXH, BHYT (Mẫu TK1-TS) đối với người tham gia lần đầu hoặc có mã số BHXH nhưng chưa đủ thông tin.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "1. Đối với người tham gia",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Danh sách đối tượng tham gia BHYT (Mẫu số 2) đối với đối tượng do Bộ Lao động – Thương binh và xã hội quản lý",
-        "code": "G24-KQ000349",
+        "name": "2. Đơn vị; UBND xã; Cơ sở trợ giúp xã hội, Cơ sở nuôi dưỡng, điều dưỡng thương binh và người có công/Cơ sở giáo dục nghề nghiệp thuộc ngành lao động, thương binh và xã hội; Tổ chức dịch vụ/Cơ sở giáo dục: Danh sách đối tượng tham gia BHYT (Mẫu số 2) đối với đối tượng do Bộ Lao động – Thương binh và xã hội quản lý",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2. Đơn vị; UBND xã; Cơ sở trợ giúp xã hội, Cơ sở nuôi dưỡng, điều dưỡng thương binh và người có công/Cơ sở giáo dục nghề nghiệp thuộc ngành lao động, thương binh và xã hội; Tổ chức dịch vụ/Cơ sở giáo dục",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Danh sách người chỉ tham gia BHYT (Mẫu D03-TS) kèm theo mẫu TK1-TS của người tham gia",
-        "code": "G24-KQ000347",
+        "name": "2. Đơn vị; UBND xã; Cơ sở trợ giúp xã hội, Cơ sở nuôi dưỡng, điều dưỡng thương binh và người có công/Cơ sở giáo dục nghề nghiệp thuộc ngành lao động, thương binh và xã hội; Tổ chức dịch vụ/Cơ sở giáo dục: Danh sách người chỉ tham gia BHYT (Mẫu D03-TS) kèm theo mẫu TK1-TS của người tham gia",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2. Đơn vị; UBND xã; Cơ sở trợ giúp xã hội, Cơ sở nuôi dưỡng, điều dưỡng thương binh và người có công/Cơ sở giáo dục nghề nghiệp thuộc ngành lao động, thương binh và xã hội; Tổ chức dịch vụ/Cơ sở giáo dục",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Giấy thanh toán thù lao cho tổ chức làm dịch vụ thu (Mẫu C66a-HD) tương ứng với số tiền nộp (đối với Tổ chức dịch vụ/Cơ sở giáo dục)",
-        "code": "G24-KQ000348",
+        "name": "2. Đơn vị; UBND xã; Cơ sở trợ giúp xã hội, Cơ sở nuôi dưỡng, điều dưỡng thương binh và người có công/Cơ sở giáo dục nghề nghiệp thuộc ngành lao động, thương binh và xã hội; Tổ chức dịch vụ/Cơ sở giáo dục: Giấy thanh toán thù lao cho tổ chức làm dịch vụ thu (Mẫu C66a-HD) tương ứng với số tiền nộp (đối với Tổ chức dịch vụ/Cơ sở giáo dục)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2. Đơn vị; UBND xã; Cơ sở trợ giúp xã hội, Cơ sở nuôi dưỡng, điều dưỡng thương binh và người có công/Cơ sở giáo dục nghề nghiệp thuộc ngành lao động, thương binh và xã hội; Tổ chức dịch vụ/Cơ sở giáo dục",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Danh sách người chỉ tham gia BHYT (Mẫu D03-TS) đối với người tham gia BHYT do tổ chức BHXH đóng (kể cả đối tượng đang chờ ban hành quyết định hưởng hưu trí).",
-        "code": "G24-KQ000350",
+        "name": "3. Phòng/Tổ chế độ BHXH: Danh sách người chỉ tham gia BHYT (Mẫu D03-TS) đối với người tham gia BHYT do tổ chức BHXH đóng (kể cả đối tượng đang chờ ban hành quyết định hưởng hưu trí).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "3. Phòng/Tổ chế độ BHXH",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "b) Đối với Tổ chức dịch vụ/Cơ sở giáo dục: Trường hợp hoàn trả tiền đóng BHYT cho nhiều người trong cùng đối tượng, lập danh sách đề nghị hoàn trả theo mẫu D03-TS.",
-        "code": "G24-KQ000352",
+        "name": "4. Trường hợp hoàn trả tiền đã đóng: b) Đối với Tổ chức dịch vụ/Cơ sở giáo dục: Trường hợp hoàn trả tiền đóng BHYT cho nhiều người trong cùng đối tượng, lập danh sách đề nghị hoàn trả theo mẫu D03-TS.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "4. Trường hợp hoàn trả tiền đã đóng",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "a) Đối với người tham gia: - Tờ khai tham gia, điều chỉnh thông tin BHXH, BHYT (Mẫu TK1-TS). - Văn bản chứng thực hoặc bản chụp kèm theo bản chính Giấy chứng tử đối với trường hợp chết",
-        "code": "G24-KQ000351",
+        "name": "4. Trường hợp hoàn trả tiền đã đóng: a) Đối với người tham gia: - Tờ khai tham gia, điều chỉnh thông tin BHXH, BHYT (Mẫu TK1-TS). - Văn bản chứng thực hoặc bản chụp kèm theo bản chính Giấy chứng tử đối với trường hợp chết",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "4. Trường hợp hoàn trả tiền đã đóng",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       }
     ]
   },
@@ -183,35 +143,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -219,51 +159,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 5
       }
     ]
   },
@@ -271,68 +196,57 @@
     {
       "title": "Quyết định sửa đổi, bổ sung một số điều quy trình thu BHXH, BHYT, BHTN, BHTNLĐ - BNN; Quản lý sổ BHXH, thẻ BHYT ban hành kèm Quyết định số 595/QĐ-BHXH ngày 14/4/2017 và Quyết định số 490/QĐ-BHXH ngày 28/3/2023 của Tổng Giám đốc BHXH Việt Nam",
       "document_number": "948/QĐ-BHXH",
-      "id": "019d2bb3-5d7b-7049-8fc5-bae57b6beadc",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Nghị định sửa đổi, bổ sung một số điều của các Nghị định liên quan đến việc nộp xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công",
       "document_number": "104/2022/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe8-3ac91da2e6b0",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Luật 25/2008/QH12 - Bảo hiểm y tế",
       "document_number": "25/2008/QH12",
-      "id": "019d2bb3-5d84-71c5-b672-49499e22ddad",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Quyết định số 490/QĐ-BHXH ngày 28 tháng 3 năm 2023 Tổng Giám đốc Bảo hiểm xã hội Việt Nam về sửa đổi, bổ sung một số điều của Quy trình thu bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp, bảo hiểm tai nạn lao động, bệnh nghề nghiệp; quản lý sổ bảo hiểm xã hội, thẻ bảo hiểm y tế ban hành kèm theo Quyết định số 595/QĐ-BHXH ngày 14 tháng 4 năm 2017 của Tổng Giám đốc Bảo hiểm xã hội Việt Nam và sửa đổi, bổ sung Điều 1 của Quyết định số 505/QĐ-BHXH ngày 27 tháng 3 năm 2020 của Tổng Giám đốc Bảo hiểm xã hội Việt Nam",
       "document_number": "490/QĐ-BHXH",
-      "id": "019d2bb3-5d85-73da-8eb8-8d8f75a2fe4d",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Luật sửa đổi, bổ sung một số điều Luật bảo hiểm y tế",
       "document_number": "46/2014/QH13",
-      "id": "019d2bb3-5d84-71c5-b673-427565fff001",
-      "source_page": null
+      "source_page": 5
     },
     {
       "title": "Quyết định sửa đổi, bổ sung một số điều Quy trình thu BHXH, BHYT, BHTN, bảo hiểm TNLĐ-BNN; quản lý sổ BHXH, thẻ BHYT ban hành kèm theo Quyết định số 595/QĐ-BHXH ngày 14/4/2017 của Tổng Giám đốc BHXH Việt Nam",
       "document_number": "505/QĐ-BHXH",
-      "id": "019d2bb3-5d7b-7049-8fc5-902fa5ba17ac",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Ban hành Quy trình giao dịch điện tử trong lĩnh vực bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp",
       "document_number": "838/QĐ-BHXH",
-      "id": "019d2bb3-5d7b-7049-8fc5-a7bb51348d88",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Sửa đổi, bổ sung một số Điều quy trình thu bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp, bảo hiểm tai nạn lao động, bệnh nghề nghiệp; quản lý sổ bảo hiểm xã hội, thẻ bảo hiểm y tế ban hành kèm theo Quyết định số 595/QĐ-BHXH ngày 14/4/2017 của Tổng Giám đốc Bảo hiểm xã hội Việt Nam",
       "document_number": "888/QĐ-BHXH",
-      "id": "019d2bb3-5d7b-7049-8fc5-af106e7e035b",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Quyết định phê duyệt quy trình đăng ký đóng, cấp thẻ BHYT đối với người chỉ tham gia BHYT trên Cổng Dịch vụ công theo Quyết định số 422/QĐ-TTg ngày 04/4/2022 của Thủ tướng Chính phủ phê duyệt danh mục dịch vụ công trực tuyến tích hợp, cung cấp trên Cổng Dịch vụ công Quốc gia năm 2022",
       "document_number": "3510/QĐ-BHXH",
-      "id": "019d2bb3-5d7b-7049-8fc5-79165e926641",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Nghị định 146/2018/NĐ-CP Quy định chi tiết và hướng dẫn biện pháp thi hành một số điều của Luật bảo hiểm y tế",
       "document_number": "Nghị định 146/2018/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b473-bd83749a4349",
-      "source_page": null
+      "source_page": 6
     },
     {
       "title": "Thông tư 102/2018/TT-BTC",
       "document_number": "102/2018/TT-BTC",
-      "id": "019d2bb3-5d86-7760-a63c-44c36998e60f",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "conditions": "",
@@ -340,25 +254,22 @@
     {
       "title": "Quyết định hoàn trả (mẫu C16-TS) và Tiền hoàn trả",
       "code": "KQ.G12.001167",
-      "id": "019d2bb2-1c72-75fa-a592-4375e21dd2da",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Quyết định về việc hoàn trả tiền thu BHXH, BHYT, BHTN, BHTNLĐ, BNN",
       "code": "KQ.G24.000003",
-      "id": "019d2bb2-1c82-739b-8b99-613a23b81914",
-      "source_page": null
+      "source_page": 7
     },
     {
       "title": "Thẻ BHYT",
       "code": "KQ.G24.000004",
-      "id": "019d2bb2-1c82-739b-8b99-657b0405c94b",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "1. Người tham gia lập hồ sơ theo quy định tại tiết 1 mục Thành phần hồ sơ\na) Đối với người tham gia do tổ chức BHXH đóng BHYT: Nộp hồ sơ cho UBND xã hoặc cho cơ quan BHXH. Đối với người đang hưởng trợ cấp thất nghiệp: nộp hồ sơ cho cơ quan BHXH.\nb) Đối với người tham gia do ngân sách nhà nước đóng, (hỗ trợ 100% mức đóng BHYT): Nộp hồ sơ cho UBND xã. Trừ các trường hợp:\n- Người tham gia đã hiến bộ phận cơ thể người: nộp hồ sơ cho cơ quan BHXH;\n- Người tham gia do cơ quan, đơn vị quản lý: nộp hồ sơ cho đơn vị quản lý đối tượng.\nc) Đối với người được ngân sách nhà nước hỗ trợ một phần mức đóng BHYT: \n- Trường hợp nộp hồ sơ cho Tổ chức dịch vụ hoặc cơ quan BHXH: Lập hồ sơ theo quy định tại tiết 1.1 điểm 1 Mục Thành phần hồ sơ và nộp cho tổ chức dịch vụ hoặc cơ quan BHXH.\n- Trường hợp nộp qua Cổng Dịch vụ công: Lập hồ sơ theo quy định tại tiết 1.2 điểm 1 Mục Thành phần hồ sơ và nộp trực tuyến trên Cổng Dịch vụ công.\n- Học sinh, sinh viên: Nộp hồ sơ cho cơ sở giáo dục.\nd) Người tham gia BHYT theo hộ gia đình: \n- Trường hợp nộp hồ sơ cho Tổ chức dịch vụ hoặc cơ quan BHXH: Lập hồ sơ theo quy định tại tiết 1.1 điểm 1 Mục Thành phần hồ sơ và nộp cho tổ chức dịch vụ hoặc cơ quan BHXH trên toàn quốc.\n- Trường hợp nộp qua Cổng Dịch vụ công: Lập hồ sơ theo quy định tại tiết 1.2 điểm 1 Mục Thành phần hồ sơ và nộp trực tuyến trên Cổng Dịch vụ công.\n2. Đối với UBND xã: Nhận hồ sơ của người tham gia, lập hồ sơ theo quy định tại tiết 2 mục Thành phần hồ sơ và nộp hồ sơ như sau:\na) Đối với người tham gia do tổ chức BHXH đóng: Nộp cho cơ quan BHXH.\nb) Đối với người tham gia do Bộ Lao động - Thương binh và Xã hội quản lý: nộp cho cơ quan Lao động - Thương binh và xã hội và cơ quan BHXH cấp huyện. \nc) Các đối tượng còn lại nộp cho cơ quan BHXH.\n3. Cơ quan Lao động - Thương binh và xã hội: Nhận hồ sơ do UBND xã gửi đến, phối hợp với cơ quan BHXH rà soát, kiểm tra, đối chiếu, xác nhận số người tham gia, số tiền phải đóng của từng nhóm đối tượng.\n4. Cơ sở trợ giúp xã hội/Cơ sở nuôi dưỡng, điều dưỡng thương binh và người có công/Cơ sở giáo dục nghề nghiệp thuộc ngành Lao động - Thương binh và xã hội/cơ quan/đơn vị quản lý người chỉ tham gia BHYT: Nhận hồ sơ của người tham gia, lập hồ sơ theo quy định tại tiết 2 mục Thành phần hồ sơ và nộp cho cơ quan BHXH.\n5. Tổ chức dịch vụ: Nhận hồ sơ của người tham gia, thu tiền đóng thuộc trách nhiệm đóng của người tham gia BHYT và lập hồ sơ theo quy định tiết 2 mục Thành phần hồ sơ, nộp cho cơ quan BHXH.\n6. Cơ sở giáo dục: Nhận hồ sơ của học sinh, sinh viên, thu tiền đóng BHYT thuộc trách nhiệm đóng của học sinh, sinh viên; lập hồ sơ theo quy định tại tiết 2 mục Thành phần hồ sơ và nộp cho cơ quan BHXH.\n7. Phòng/Tổ chế độ BHXH: Nhận hồ sơ của người tham gia BHYT do tổ chức BHXH đóng (kể cả đối tượng đang chờ ban hành quyết định hưởng hưu trí) từ Bộ phận một cửa; lập hồ sơ theo quy định tại tiết 3 mục Thành phần hồ sơ chuyển cho Phòng/Tổ Quản lý Thu - Sổ, Thẻ\n8. Trường hợp hoàn trả: Người tham gia nộp hồ sơ theo quy định tại tiết 4 mục Thành phần hồ sơ cho Tổ chức dịch vụ (đối với người tham gia được ngân sách nhà nước hỗ trợ một phần mức đóng BHYT, người tham gia BHYT theo hộ gia đình); cơ sở giáo dục (đối với học sinh, sinh viên) hoặc cơ quan BHXH.\n\n1. Người tham gia: \na) Người được ngân sách nhà nước hỗ trợ một phần mức đóng BHYT; người tham gia BHYT theo hộ gia đình: Đóng tiền cho tổ chức dịch vụ hoặc cho cơ quan BHXH;\nTrường hợp người tham gia nộp hồ sơ qua Cổng Dịch vụ công: Lập hồ sơ theo quy định tại tiết 1.2 điểm 1 Mục Thành phần hồ sơ và nộp trực tuyến trên Cổng Dịch vụ công.\nb) Học sinh, sinh viên: đóng tiền cho cơ sở giáo dục.\n2. Tổ chức dịch vụ: Thu tiền đóng BHYT phần thuộc trách nhiệm đóng của người tham gia; cấp biên lai thu tiền cho người tham gia theo quy định. Nộp số tiền đã thu của người tham gia cho cơ quan BHXH hàng ngày thông qua tài khoản ngân hàng hoặc hệ thống tiện ích thông minh.\n3. Cơ sở giáo dục: Nộp số tiền đã thu của Học sinh, sinh viên cho cơ quan BHXH hàng ngày thông qua tài khoản ngân hàng.\n4. Cơ quan Lao động – Thương binh và xã hội: Chuyển tiền đóng BHYT theo phân cấp hoặc phối hợp với cơ quan BHXH đề nghị cơ quan tài chính chuyển tiền đóng BHYT cho cơ quan BHXH theo quy định\n5. UBND xã/Cơ sở trợ giúp xã hội/Cơ sở nuôi dưỡng, điều dưỡng thương binh và người có công/Cơ sở giáo dục nghề nghiệp thuộc ngành Lao động - Thương binh và xã hội/cơ quan/đơn vị quản lý người chỉ tham gia BHYT: Chuyển tiền đóng BHYT theo phân cấp hoặc đề nghị cơ quan Lao động - Thương binh và xã hội hoặc cơ quan tài chính chuyển kinh phí đóng BHYT cho cơ quan BHXH.\n\nCơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định\n\nNhận kết quả, gồm: Thẻ BHYT; Quyết định hoàn trả và tiền hoàn trả (nếu có)\n\nKể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định:\nKhông quá 05 ngày; riêng đối với người hưởng trợ cấp thất nghiệp không quá 02 ngày.\n",
-    "THÀNH PHẦN HỒ SƠ": "1. Đối với người tham gia\nTrường hợp người tham gia được hưởng quyền lợi BHYT cao hơn: bổ sung Giấy tờ chứng minh (nếu có) theo Phụ lục 03 (ban hành kèm theo Quyết định số 948/QĐ-BHXH ngày 05/6/2023 của Tổng Giám đốc Bảo hiểm xã hội Việt Nam).\nTrường hợp người tham gia do ngân sách nhà nước hỗ trợ một phần mức đóng BHYT, người tham gia BHYT theo hộ gia đình nộp qua Cổng Dịch vụ công thì kê khai Tờ khai đăng ký đóng, cấp thẻ BHYT trên Cổng Dịch vụ công (Mẫu 01-TK)\nTrường hợp người tham gia là người đã hiến bộ phận cơ thể người theo quy định của pháp luật: bổ sung Giấy ra viện có ghi rõ \"đã hiến bộ phận cơ thể\".\nTờ khai tham gia, điều chỉnh thông tin BHXH, BHYT (Mẫu TK1-TS) đối với người tham gia lần đầu hoặc có mã số BHXH nhưng chưa đủ thông tin.\n2. Đơn vị; UBND xã; Cơ sở trợ giúp xã hội, Cơ sở nuôi dưỡng, điều dưỡng thương binh và người có công/Cơ sở giáo dục nghề nghiệp thuộc ngành lao động, thương binh và xã hội; Tổ chức dịch vụ/Cơ sở giáo dục\nDanh sách đối tượng tham gia BHYT (Mẫu số 2) đối với đối tượng do Bộ Lao động – Thương binh và xã hội quản lý\nDanh sách người chỉ tham gia BHYT (Mẫu D03-TS) kèm theo mẫu TK1-TS của người tham gia\nGiấy thanh toán thù lao cho tổ chức làm dịch vụ thu (Mẫu C66a-HD) tương ứng với số tiền nộp (đối với Tổ chức dịch vụ/Cơ sở giáo dục)\n3. Phòng/Tổ chế độ BHXH\nDanh sách người chỉ tham gia BHYT (Mẫu D03-TS) đối với người tham gia BHYT do tổ chức BHXH đóng (kể cả đối tượng đang chờ ban hành quyết định hưởng hưu trí).\n4. Trường hợp hoàn trả tiền đã đóng\nb) Đối với Tổ chức dịch vụ/Cơ sở giáo dục: Trường hợp hoàn trả tiền đóng BHYT cho nhiều người trong cùng đối tượng, lập danh sách đề nghị hoàn trả theo mẫu D03-TS.\na) Đối với người tham gia: - Tờ khai tham gia, điều chỉnh thông tin BHXH, BHYT (Mẫu TK1-TS). - Văn bản chứng thực hoặc bản chụp kèm theo bản chính Giấy chứng tử đối với trường hợp chết",
+    "TRÌNH TỰ THỰC HIỆN": "1. Người tham gia lập hồ sơ theo quy định tại tiết 1 mục Thành phần hồ sơ\na) Đối với người tham gia do tổ chức BHXH đóng BHYT: Nộp hồ sơ cho UBND xã hoặc cho cơ quan BHXH. Đối với người đang hưởng trợ cấp thất nghiệp: nộp hồ sơ cho cơ quan BHXH.\nb) Đối với người tham gia do ngân sách nhà nước đóng, (hỗ trợ 100% mức đóng BHYT): Nộp hồ sơ cho UBND xã. Trừ các trường hợp:\n- Người tham gia đã hiến bộ phận cơ thể người: nộp hồ sơ cho cơ quan BHXH;\n- Người tham gia do cơ quan, đơn vị quản lý: nộp hồ sơ cho đơn vị quản lý đối tượng.\nc) Đối với người được ngân sách nhà nước hỗ trợ một phần mức đóng BHYT: \n- Trường hợp nộp hồ sơ cho Tổ chức dịch vụ hoặc cơ quan BHXH: Lập hồ sơ theo quy định tại tiết 1.1 điểm 1 Mục Thành phần hồ sơ và nộp cho tổ chức dịch vụ hoặc cơ quan BHXH.\n- Trường hợp nộp qua Cổng Dịch vụ công: Lập hồ sơ theo quy định tại tiết 1.2 điểm 1 Mục Thành phần hồ sơ và nộp trực tuyến trên Cổng Dịch vụ công.\n- Học sinh, sinh viên: Nộp hồ sơ cho cơ sở giáo dục.\nd) Người tham gia BHYT theo hộ gia đình: \n- Trường hợp nộp hồ sơ cho Tổ chức dịch vụ hoặc cơ quan BHXH: Lập hồ sơ theo quy định tại tiết 1.1 điểm 1 Mục Thành phần hồ sơ và nộp cho tổ chức dịch vụ hoặc cơ quan BHXH trên toàn quốc.\n- Trường hợp nộp qua Cổng Dịch vụ công: Lập hồ sơ theo quy định tại tiết 1.2 điểm 1 Mục Thành phần hồ sơ và nộp trực tuyến trên Cổng Dịch vụ công.\n2. Đối với UBND xã: Nhận hồ sơ của người tham gia, lập hồ sơ theo quy định tại tiết 2 mục Thành phần hồ sơ và nộp hồ sơ như sau:\na) Đối với người tham gia do tổ chức BHXH đóng: Nộp cho cơ quan BHXH.\nb) Đối với người tham gia do Bộ Lao động - Thương binh và Xã hội quản lý: nộp cho cơ quan Lao động - Thương binh và xã hội và cơ quan BHXH cấp huyện. \nc) Các đối tượng còn lại nộp cho cơ quan BHXH.\n3. Cơ quan Lao động - Thương binh và xã hội: Nhận hồ sơ do UBND xã gửi đến, phối hợp với cơ quan BHXH rà soát, kiểm tra, đối chiếu, xác nhận số người tham gia, số tiền phải đóng của từng nhóm đối tượng.\n4. Cơ sở trợ giúp xã hội/Cơ sở nuôi dưỡng, điều dưỡng thương binh và người có công/Cơ sở giáo dục nghề nghiệp thuộc ngành Lao động - Thương binh và xã hội/cơ quan/đơn vị quản lý người chỉ tham gia BHYT: Nhận hồ sơ của người tham gia, lập hồ sơ theo quy định tại tiết 2 mục Thành phần hồ sơ và nộp cho cơ quan BHXH.\n5. Tổ chức dịch vụ: Nhận hồ sơ của người tham gia, thu tiền đóng thuộc trách nhiệm đóng của người tham gia BHYT và lập hồ sơ theo quy định tiết 2 mục Thành phần hồ sơ, nộp cho cơ quan BHXH.\n6. Cơ sở giáo dục: Nhận hồ sơ của học sinh, sinh viên, thu tiền đóng BHYT thuộc trách nhiệm đóng của học sinh, sinh viên; lập hồ sơ theo quy định tại tiết 2 mục Thành phần hồ sơ và nộp cho cơ quan BHXH.\n7. Phòng/Tổ chế độ BHXH: Nhận hồ sơ của người tham gia BHYT do tổ chức BHXH đóng (kể cả đối tượng đang chờ ban hành quyết định hưởng hưu trí) từ Bộ phận một cửa; lập hồ sơ theo quy định tại tiết 3 mục Thành phần hồ sơ chuyển cho Phòng/Tổ Quản lý Thu - Sổ, Thẻ\n8. Trường hợp hoàn trả: Người tham gia nộp hồ sơ theo quy định tại tiết 4 mục Thành phần hồ sơ cho Tổ chức dịch vụ (đối với người tham gia được ngân sách nhà nước hỗ trợ một phần mức đóng BHYT, người tham gia BHYT theo hộ gia đình); cơ sở giáo dục (đối với học sinh, sinh viên) hoặc cơ quan BHXH.\n1. Người tham gia: \na) Người được ngân sách nhà nước hỗ trợ một phần mức đóng BHYT; người tham gia BHYT theo hộ gia đình: Đóng tiền cho tổ chức dịch vụ hoặc cho cơ quan BHXH;\nTrường hợp người tham gia nộp hồ sơ qua Cổng Dịch vụ công: Lập hồ sơ theo quy định tại tiết 1.2 điểm 1 Mục Thành phần hồ sơ và nộp trực tuyến trên Cổng Dịch vụ công.\nb) Học sinh, sinh viên: đóng tiền cho cơ sở giáo dục.\n2. Tổ chức dịch vụ: Thu tiền đóng BHYT phần thuộc trách nhiệm đóng của người tham gia; cấp biên lai thu tiền cho người tham gia theo quy định. Nộp số tiền đã thu của người tham gia cho cơ quan BHXH hàng ngày thông qua tài khoản ngân hàng hoặc hệ thống tiện ích thông minh.\n3. Cơ sở giáo dục: Nộp số tiền đã thu của Học sinh, sinh viên cho cơ quan BHXH hàng ngày thông qua tài khoản ngân hàng.\n4. Cơ quan Lao động – Thương binh và xã hội: Chuyển tiền đóng BHYT theo phân cấp hoặc phối hợp với cơ quan BHXH đề nghị cơ quan tài chính chuyển tiền đóng BHYT cho cơ quan BHXH theo quy định\n5. UBND xã/Cơ sở trợ giúp xã hội/Cơ sở nuôi dưỡng, điều dưỡng thương binh và người có công/Cơ sở giáo dục nghề nghiệp thuộc ngành Lao động - Thương binh và xã hội/cơ quan/đơn vị quản lý người chỉ tham gia BHYT: Chuyển tiền đóng BHYT theo phân cấp hoặc đề nghị cơ quan Lao động - Thương binh và xã hội hoặc cơ quan tài chính chuyển kinh phí đóng BHYT cho cơ quan BHXH.\nCơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định\nNhận kết quả, gồm: Thẻ BHYT; Quyết định hoàn trả và tiền hoàn trả (nếu có)\nKể từ ngày cơ quan BHXH nhận đủ hồ sơ theo quy định:\nKhông quá 05 ngày; riêng đối với người hưởng trợ cấp thất nghiệp không quá 02 ngày.",
+    "THÀNH PHẦN HỒ SƠ": "1. Đối với người tham gia: Trường hợp người tham gia được hưởng quyền lợi BHYT cao hơn: bổ sung Giấy tờ chứng minh (nếu có) theo Phụ lục 03 (ban hành kèm theo Quyết định số 948/QĐ-BHXH ngày 05/6/2023 của Tổng Giám đốc Bảo hiểm xã hội Việt Nam).\n1. Đối với người tham gia: Trường hợp người tham gia do ngân sách nhà nước hỗ trợ một phần mức đóng BHYT, người tham gia BHYT theo hộ gia đình nộp qua Cổng Dịch vụ công thì kê khai Tờ khai đăng ký đóng, cấp thẻ BHYT trên Cổng Dịch vụ công (Mẫu 01-TK)\n1. Đối với người tham gia: Trường hợp người tham gia là người đã hiến bộ phận cơ thể người theo quy định của pháp luật: bổ sung Giấy ra viện có ghi rõ \"đã hiến bộ phận cơ thể\".\n1. Đối với người tham gia: Tờ khai tham gia, điều chỉnh thông tin BHXH, BHYT (Mẫu TK1-TS) đối với người tham gia lần đầu hoặc có mã số BHXH nhưng chưa đủ thông tin.\n2. Đơn vị; UBND xã; Cơ sở trợ giúp xã hội, Cơ sở nuôi dưỡng, điều dưỡng thương binh và người có công/Cơ sở giáo dục nghề nghiệp thuộc ngành lao động, thương binh và xã hội; Tổ chức dịch vụ/Cơ sở giáo dục: Danh sách đối tượng tham gia BHYT (Mẫu số 2) đối với đối tượng do Bộ Lao động – Thương binh và xã hội quản lý\n2. Đơn vị; UBND xã; Cơ sở trợ giúp xã hội, Cơ sở nuôi dưỡng, điều dưỡng thương binh và người có công/Cơ sở giáo dục nghề nghiệp thuộc ngành lao động, thương binh và xã hội; Tổ chức dịch vụ/Cơ sở giáo dục: Danh sách người chỉ tham gia BHYT (Mẫu D03-TS) kèm theo mẫu TK1-TS của người tham gia\n2. Đơn vị; UBND xã; Cơ sở trợ giúp xã hội, Cơ sở nuôi dưỡng, điều dưỡng thương binh và người có công/Cơ sở giáo dục nghề nghiệp thuộc ngành lao động, thương binh và xã hội; Tổ chức dịch vụ/Cơ sở giáo dục: Giấy thanh toán thù lao cho tổ chức làm dịch vụ thu (Mẫu C66a-HD) tương ứng với số tiền nộp (đối với Tổ chức dịch vụ/Cơ sở giáo dục)\n3. Phòng/Tổ chế độ BHXH: Danh sách người chỉ tham gia BHYT (Mẫu D03-TS) đối với người tham gia BHYT do tổ chức BHXH đóng (kể cả đối tượng đang chờ ban hành quyết định hưởng hưu trí).\n4. Trường hợp hoàn trả tiền đã đóng: b) Đối với Tổ chức dịch vụ/Cơ sở giáo dục: Trường hợp hoàn trả tiền đóng BHYT cho nhiều người trong cùng đối tượng, lập danh sách đề nghị hoàn trả theo mẫu D03-TS.\n4. Trường hợp hoàn trả tiền đã đóng: a) Đối với người tham gia: - Tờ khai tham gia, điều chỉnh thông tin BHXH, BHYT (Mẫu TK1-TS). - Văn bản chứng thực hoặc bản chụp kèm theo bản chính Giấy chứng tử đối với trường hợp chết",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 5 ngày làm việc\nQua dịch vụ bưu chính: 5 ngày làm việc\nTrực tiếp: 5 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Quyết định sửa đổi, bổ sung một số điều quy trình thu BHXH, BHYT, BHTN, BHTNLĐ - BNN; Quản lý sổ BHXH, thẻ BHYT ban hành kèm Quyết định số 595/QĐ-BHXH ngày 14/4/2017 và Quyết định số 490/QĐ-BHXH ngày 28/3/2023 của Tổng Giám đốc BHXH Việt Nam - 948/QĐ-BHXH\nNghị định sửa đổi, bổ sung một số điều của các Nghị định liên quan đến việc nộp xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công - 104/2022/NĐ-CP\nLuật 25/2008/QH12 - Bảo hiểm y tế - 25/2008/QH12\nQuyết định số 490/QĐ-BHXH ngày 28 tháng 3 năm 2023 Tổng Giám đốc Bảo hiểm xã hội Việt Nam về sửa đổi, bổ sung một số điều của Quy trình thu bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp, bảo hiểm tai nạn lao động, bệnh nghề nghiệp; quản lý sổ bảo hiểm xã hội, thẻ bảo hiểm y tế ban hành kèm theo Quyết định số 595/QĐ-BHXH ngày 14 tháng 4 năm 2017 của Tổng Giám đốc Bảo hiểm xã hội Việt Nam và sửa đổi, bổ sung Điều 1 của Quyết định số 505/QĐ-BHXH ngày 27 tháng 3 năm 2020 của Tổng Giám đốc Bảo hiểm xã hội Việt Nam - 490/QĐ-BHXH\nLuật sửa đổi, bổ sung một số điều Luật bảo hiểm y tế - 46/2014/QH13\nQuyết định sửa đổi, bổ sung một số điều Quy trình thu BHXH, BHYT, BHTN, bảo hiểm TNLĐ-BNN; quản lý sổ BHXH, thẻ BHYT ban hành kèm theo Quyết định số 595/QĐ-BHXH ngày 14/4/2017 của Tổng Giám đốc BHXH Việt Nam - 505/QĐ-BHXH\nBan hành Quy trình giao dịch điện tử trong lĩnh vực bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp - 838/QĐ-BHXH\nSửa đổi, bổ sung một số Điều quy trình thu bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp, bảo hiểm tai nạn lao động, bệnh nghề nghiệp; quản lý sổ bảo hiểm xã hội, thẻ bảo hiểm y tế ban hành kèm theo Quyết định số 595/QĐ-BHXH ngày 14/4/2017 của Tổng Giám đốc Bảo hiểm xã hội Việt Nam - 888/QĐ-BHXH\nQuyết định phê duyệt quy trình đăng ký đóng, cấp thẻ BHYT đối với người chỉ tham gia BHYT trên Cổng Dịch vụ công theo Quyết định số 422/QĐ-TTg ngày 04/4/2022 của Thủ tướng Chính phủ phê duyệt danh mục dịch vụ công trực tuyến tích hợp, cung cấp trên Cổng Dịch vụ công Quốc gia năm 2022 - 3510/QĐ-BHXH\nNghị định 146/2018/NĐ-CP Quy định chi tiết và hướng dẫn biện pháp thi hành một số điều của Luật bảo hiểm y tế - Nghị định 146/2018/NĐ-CP\nThông tư 102/2018/TT-BTC - 102/2018/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Bảo hiểm xã hội tỉnh, Bảo hiểm xã hội cấp huyện",
@@ -368,14 +279,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Sức khỏe và y tế",
-      "slug": "suc-khoe-va-y-te",
-      "method": "service_group"
-    },
     "sector": {
       "name": "Thu BHXH, BHYT, BHTN, BH tai nạn lao động, BNN",
-      "slug": "thu-bhxh-bhyt-bhtn-bh-tai-nan-lao-dong-bnn"
+      "slug": "thu-bhxh-bhyt-bhtn-bh-tai-nan-lao-ong-bnn"
     },
     "implementation_levels": [
       {
@@ -402,7 +308,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -419,6 +325,6 @@
         "slug": "bao-hiem-xa-hoi-cap-huyen"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

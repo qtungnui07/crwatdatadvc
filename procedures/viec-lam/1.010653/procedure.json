@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfa-f45a-70dc-9d6d-62f29c25b98e",
   "procedure_code": "1.010653",
   "title": "Đổi Giấy phép hoạt động dịch vụ theo quy định tại điểm b khoản 1 Điều 74 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-f45a-70dc-9d6d-62f29c25b98e",
     "source_file": "chi-tiet-thu-tuc-1.010653.pdf",
     "source_path": "procedures/viec-lam/1.010653/chi-tiet-thu-tuc-1.010653.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:06.160516+00:00",
-    "source_updated_at": "2026-04-16T09:13:46.942Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:46.726865+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "4deb8bb55201a8522fd4cba4c2fcb93795218ba7bad6950c4777c723e5063359"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:06.160516+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "116/QĐ-BNV",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Quản lý lao động ngoài nước",
   "target_users": [
@@ -35,63 +31,46 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Bộ Nội vụ",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Nội vụ"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Bước 1. Doanh nghiệp dịch vụ nộp 01 bộ hồ sơ trực tiếp hoặc qua dịch vụ bưu chính tới Bộ Nội vụ hoặc trực tuyến tại Cổng dịch vụ công quốc gia https://dichvucong.gov.vn;\n- Bước 2. Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định, Bộ trưởng Bộ Nội vụ xem xét, cấp đổi Giấy phép cho doanh nghiệp dịch vụ. Trường hợp không cấp đổi Giấy phép, Bộ Nội vụ trả lời bằng văn bản và nêu rõ lý do.\n",
+      "description": "- Bước 1. Doanh nghiệp dịch vụ nộp 01 bộ hồ sơ trực tiếp hoặc qua dịch vụ bưu chính tới Bộ Nội vụ hoặc trực tuyến tại Cổng dịch vụ công quốc gia https://dichvucong.gov.vn;",
       "example": null,
-      "source_page": null
+      "source_page": 1
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "- Bước 2. Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định, Bộ trưởng Bộ Nội vụ xem xét, cấp đổi Giấy phép cho doanh nghiệp dịch vụ. Trường hợp không cấp đổi Giấy phép, Bộ Nội vụ trả lời bằng văn bản và nêu rõ lý do.",
+      "example": null,
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "- Báo cáo về việc đáp ứng điều kiện quy định tại các điểm a, b, d, đ và e khoản 1 Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng (theo Mẫu số 06 Phụ lục I ban hành kèm theo Nghị định số 372/2025/NĐ-CP);",
-        "code": "G09-KQ003330",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d765d-fcdd-77a8-aa4a-5496c9238c85",
-            "name": "Mẫu số 06 Phụ lục I.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 06 Phụ lục I.docx",
+        "source_page": 2
       },
       {
         "name": "- Văn bản đề nghị đổi Giấy phép (theo Mẫu số 05 Phụ lục I ban hành kèm theo Nghị định số 372/2025/NĐ-CP);",
-        "code": "G09-KQ003329",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d765e-7188-77ac-96ab-5374fe71a0dc",
-            "name": "Mẫu số 05 Phụ lục I.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 05 Phụ lục I.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "- Bản chính Giấy phép còn hiệu lực đã được cấp theo quy định của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng số 72/2006/QH11.",
-        "code": "000.00.00.G07-KQ001624",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -100,87 +79,52 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 1
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 1
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "7 ngày làm việc",
-      "processing_time_value": 7,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       }
     ]
   },
@@ -188,32 +132,27 @@
     {
       "title": "Nghị định số 25/2025/NĐ-CP ngày 21 tháng 02 năm 2025 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nội vụ",
       "document_number": "Nghị định số 25/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b474-93996f3f00db",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Nghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước",
       "document_number": "190/2025/QH15",
-      "id": "019d2bb3-5d84-71c5-b671-f81035b81bff",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "69-2020-QH14 Luật Ng VN đi LĐNN ngày 13.11.2020",
       "document_number": "69/2020/QH14",
-      "id": "019d2bb3-5d84-71c5-b674-0ff98d7121f9",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của Nghị định số 112/2021/NĐ-CР ngày 10 tháng 12 năm 2021 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng",
       "document_number": "372/2025/NĐ-CP",
-      "id": "019d2bb3-5d87-7195-a440-1ee1004bbb05",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "NGHỊ ĐỊNH QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP THI HÀNH LUẬT NGƯỜI LAO ĐỘNG VIỆT NAM ĐI LÀM VIỆC Ở NƯỚC NGOÀI THEO HỢP ĐỒNG",
       "document_number": "112/2021/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe8-f619eeb30642",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Doanh nghiệp đáp ứng điều kiện quy định tại các điểm a, b, d, đ và e khoản 1 Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020.",
@@ -221,13 +160,12 @@
     {
       "title": "Giấy phép hoạt động dịch vụ đưa người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng..",
       "code": "KQ.G09.000472",
-      "id": "019d2bb2-1c4d-7725-9d9d-14039996877b",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Bước 1. Doanh nghiệp dịch vụ nộp 01 bộ hồ sơ trực tiếp hoặc qua dịch vụ bưu chính tới Bộ Nội vụ hoặc trực tuyến tại Cổng dịch vụ công quốc gia https://dichvucong.gov.vn;\n- Bước 2. Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định, Bộ trưởng Bộ Nội vụ xem xét, cấp đổi Giấy phép cho doanh nghiệp dịch vụ. Trường hợp không cấp đổi Giấy phép, Bộ Nội vụ trả lời bằng văn bản và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n- Báo cáo về việc đáp ứng điều kiện quy định tại các điểm a, b, d, đ và e khoản 1 Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng (theo Mẫu số 06 Phụ lục I ban hành kèm theo Nghị định số 372/2025/NĐ-CP);\n- Bản chính Giấy phép còn hiệu lực đã được cấp theo quy định của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng số 72/2006/QH11.\n- Văn bản đề nghị đổi Giấy phép (theo Mẫu số 05 Phụ lục I ban hành kèm theo Nghị định số 372/2025/NĐ-CP);",
+    "TRÌNH TỰ THỰC HIỆN": "- Bước 1. Doanh nghiệp dịch vụ nộp 01 bộ hồ sơ trực tiếp hoặc qua dịch vụ bưu chính tới Bộ Nội vụ hoặc trực tuyến tại Cổng dịch vụ công quốc gia https://dichvucong.gov.vn;\n- Bước 2. Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ theo quy định, Bộ trưởng Bộ Nội vụ xem xét, cấp đổi Giấy phép cho doanh nghiệp dịch vụ. Trường hợp không cấp đổi Giấy phép, Bộ Nội vụ trả lời bằng văn bản và nêu rõ lý do.",
+    "THÀNH PHẦN HỒ SƠ": "- Báo cáo về việc đáp ứng điều kiện quy định tại các điểm a, b, d, đ và e khoản 1 Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng (theo Mẫu số 06 Phụ lục I ban hành kèm theo Nghị định số 372/2025/NĐ-CP);\n- Văn bản đề nghị đổi Giấy phép (theo Mẫu số 05 Phụ lục I ban hành kèm theo Nghị định số 372/2025/NĐ-CP);\n- Bản chính Giấy phép còn hiệu lực đã được cấp theo quy định của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng số 72/2006/QH11.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 7 ngày làm việc\nQua dịch vụ bưu chính: 7 ngày làm việc\nTrực tiếp: 7 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 25/2025/NĐ-CP ngày 21 tháng 02 năm 2025 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nội vụ - Nghị định số 25/2025/NĐ-CP\nNghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước - 190/2025/QH15\n69-2020-QH14 Luật Ng VN đi LĐNN ngày 13.11.2020 - 69/2020/QH14\nSửa đổi, bổ sung một số điều của Nghị định số 112/2021/NĐ-CР ngày 10 tháng 12 năm 2021 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng - 372/2025/NĐ-CP\nNGHỊ ĐỊNH QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP THI HÀNH LUẬT NGƯỜI LAO ĐỘNG VIỆT NAM ĐI LÀM VIỆC Ở NƯỚC NGOÀI THEO HỢP ĐỒNG - 112/2021/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Bộ Nội vụ",
@@ -237,14 +175,9 @@
     "MÔ TẢ": "Doanh nghiệp đáp ứng điều kiện quy định tại các điểm a, b, d, đ và e khoản 1 Điều 10 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng ngày 13/11/2020."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Quản lý lao động ngoài nước",
-      "slug": "quan-ly-lao-dong-ngoai-nuoc"
+      "slug": "quan-ly-lao-ong-ngoai-nuoc"
     },
     "implementation_levels": [
       {
@@ -264,6 +197,6 @@
         "slug": "bo-noi-vu"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

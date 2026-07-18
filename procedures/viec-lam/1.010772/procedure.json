@@ -1,35 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfa-f478-708b-8987-c219c8eed130",
   "procedure_code": "1.010772",
   "title": "Cấp Bằng “Tổ quốc ghi công”",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfa-f478-708b-8987-c219c8eed130",
     "source_file": "chi-tiet-thu-tuc-1.010772.pdf",
     "source_path": "procedures/viec-lam/1.010772/chi-tiet-thu-tuc-1.010772.pdf",
     "page_count": 73,
-    "extracted_at": "2026-07-18T02:22:06.286802+00:00",
-    "source_updated_at": "2026-05-27T03:12:40.904Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:49.258681+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "1278e966bb491a81d8f8ea515f91790a1bb5c74152c2dd2ba83d65f95cce075d"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:06.286802+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "556/QĐ-BNV",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cấp xã",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cấp xã"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Người có công",
   "target_users": [
@@ -38,32 +32,162 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Bộ Công an, Thủ tướng Chính phủ, Ủy ban nhân dân cấp tỉnh, Bộ Quốc phòng",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Công an, Thủ tướng Chính phủ, Ủy ban nhân dân cấp tỉnh, Bộ Quốc phòng"
   },
   "steps": [
     {
       "order": 1,
-      "title": "  a.1. Đối với trường hợp hy sinh thuộc quân đội, công an quản lý",
-      "description": "       Bước 1: Bộ Quốc phòng, Bộ Công an có trách nhiệm hướng dẫn về quy trình lập hồ sơ đề nghị công nhận liệt sĩ theo quy định.\nCó văn bản đề nghị kèm hồ sơ gửi Bộ Nội vụ thẩm định trong thời gian không quá 50 ngày kể từ ngày cơ quan, đơn vị trực tiếp quản lý người hy sinh xác lập, hoàn thiện các giấy tờ quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP.        \nBước 2: Bộ Nội vụ:\na)\tTrong thời gian 40 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm thẩm định, lập tờ trình và danh sách kèm theo trình Thủ tướng Chính phủ ban hành quyết định cấp Bằng “Tổ quốc ghi công”.\nb)\tTrong thời gian 20 ngày kể từ ngày nhận quyết định cấp bằng, có trách nhiệm in, chuyển Văn phòng Chính phủ đóng dấu Bằng “Tổ quốc ghi công” và chuyển hồ sơ kèm bản sao quyết định cấp bằng, Bằng “Tổ quốc ghi công” đến cơ quan đề nghị thẩm định để chuyển về cơ quan, đơn vị cấp giấy chứng nhận hy sinh.\n       Bước 3: Cơ quan, đơn vị cấp giấy chứng nhận hy sinh trong thời gian 20 ngày kể từ ngày nhận bản sao quyết định cấp bằng, Bằng “Tổ quốc ghi công” kèm hồ sơ, có trách nhiệm:\na)\tThông báo cho thân nhân của liệt sĩ (cha đẻ, mẹ đẻ, vợ hoặc chồng, con liệt sĩ, người có công nuôi liệt sĩ) và phối hợp với Ủy ban nhân dân cấp xã nơi đại diện thân nhân liệt sĩ thường trú tổ chức lễ truy điệu liệt sĩ, trao Bằng “Tổ quốc ghi công”.\n        Trường hợp không còn thân nhân thì tổ chức lễ truy điệu liệt sĩ, bàn giao Bằng “Tổ quốc ghi công” về Ủy ban nhân dân cấp xã nơi liệt sĩ thường trú trước khi hy sinh.\nb)\tBàn giao hồ sơ kèm bản sao quyết định cấp Bằng về Sở Nội vụ nơi tổ chức lễ truy điệu liệt sĩ.\n\n",
+      "title": "Bước 1",
+      "description": "Bước 1: Bộ Quốc phòng, Bộ Công an có trách nhiệm hướng dẫn về quy trình lập hồ sơ đề nghị công nhận liệt sĩ theo quy định.\nCó văn bản đề nghị kèm hồ sơ gửi Bộ Nội vụ thẩm định trong thời gian không quá 50 ngày kể từ ngày cơ quan, đơn vị trực tiếp quản lý người hy sinh xác lập, hoàn thiện các giấy tờ quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
-      "title": "a.2. Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý",
-      "description": "Bước 1: Cơ quan, tổ chức, đơn vị trực tiếp quản lý người hy sinh có trách nhiệm xác lập, hoàn thiện các giấy tờ theo quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP, gửi cơ quan có thẩm quyền cấp giấy chứng nhận hy sinh quy định tại các khoản 3, 4 Điều 16 Nghị định số 131/2021/NĐ-CP và điểm b khoản 2 Điều 4 Nghị định số 129/2025/NĐ-CP ngày 11 tháng 06 năm 2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nội vụ.\n        Bước 2: Cơ quan có thẩm quyền cấp giấy chứng nhận hy sinh quy định tại khoản 3, 4 Điều 16 Nghị định số 131/2021/NĐ-CP trong thời gian 20 ngày làm việc kể từ ngày tiếp nhận đủ các giấy tờ, có trách nhiệm kiểm tra, xác minh, cấp giấy chứng nhận hy sinh theo Mẫu số 34 Phụ lục I Nghị định số 131/2021/NĐ-CP.\nTrong thời gian không quá 20 ngày làm việc kể từ ngày cấp giấy chứng nhận hy sinh, lập tờ trình, danh, dự thảo Quyết định cấp Bằng “Tổ quốc ghi công” của Thủ tướng Chính phủ kèm theo phôi Bằng “Tổ quốc ghi công” trình Thủ tướng Chính phủ.\nCơ quan có thẩm quyền cấp giấy chứng nhận hy sinh quy định tại điểm b khoản 2 Điều 4 của Nghị định số 129/2025/NĐ-CP ngày 11 tháng 06 năm 2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nội vụ trong thời gian 20 ngày làm việc kể từ ngày tiếp nhận đủ các giấy tờ, có trách nhiệm kiểm tra, xác minh, cấp giấy chứng nhận hy sinh; có văn bản kèm theo các giấy tờ theo quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP chuyển đến Sở Nội vụ.\nBước 3: Sở Nội vụ trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ, có trách nhiệm kiểm tra, hoàn thiện hồ sơ đề nghị công nhận liệt sĩ, báo cáo Ủy ban nhân dân cấp tỉnh trình Thủ tướng Chính phủ ban hành quyết định cấp Bằng \"Tổ quốc ghi công\".\nBước 4: Ủy ban nhân dân cấp tỉnh trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ, có trách nhiệm kiểm tra, lập tờ trình, danh sách, dự thảo Quyết định cấp Bằng “Tổ quốc ghi công” của Thủ tướng Chính phủ kèm theo phôi Bằng “Tổ quốc ghi công” trình Thủ tướng Chính phủ.\nBước 5: Các Bộ, ngành và Ủy ban nhân dân cấp tỉnh trong thời gian 05 ngày làm việc kể từ ngày nhận quyết định cấp bằng và Bằng “Tổ quốc ghi công”, chuyển hồ sơ kèm Bằng “Tổ quốc ghi công” đến cơ quan, đơn vị cấp giấy chứng nhận hy sinh.\nBước 6: Cơ quan, đơn vị cấp giấy chứng nhận hy sinh trong thời gian 10 ngày làm việc kể từ ngày nhận được Bằng “Tổ quốc ghi công” kèm hồ sơ, có trách nhiệm:\nThông báo cho thân nhân của liệt sĩ; chủ trì, phối hợp với Ủy ban nhân dân cấp xã nơi đại diện thân nhân liệt sĩ thường trú tổ chức lễ truy điệu và trao Bằng “Tổ quốc ghi công” cho đại diện thân nhân liệt sĩ; bàn giao hồ sơ liệt sĩ về Sở Nội vụ nơi đại diện thân nhân liệt sĩ thường trú.\nTrường hợp không còn thân nhân thì bàn giao hồ sơ liệt sĩ, Bằng “Tổ quốc ghi công” về Sở Nội vụ nơi liệt sĩ thường trú trước khi hy sinh để trao Bằng cho người hưởng trợ cấp thờ cúng liệt sĩ.\n",
+      "title": "Bước 2",
+      "description": "Bước 2: Bộ Nội vụ:\na)\tTrong thời gian 40 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm thẩm định, lập tờ trình và danh sách kèm theo trình Thủ tướng Chính phủ ban hành quyết định cấp Bằng “Tổ quốc ghi công”.\nb)\tTrong thời gian 20 ngày kể từ ngày nhận quyết định cấp bằng, có trách nhiệm in, chuyển Văn phòng Chính phủ đóng dấu Bằng “Tổ quốc ghi công” và chuyển hồ sơ kèm bản sao quyết định cấp bằng, Bằng “Tổ quốc ghi công” đến cơ quan đề nghị thẩm định để chuyển về cơ quan, đơn vị cấp giấy chứng nhận hy sinh.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 3,
-      "title": "        a.3. Đối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát.",
-      "description": "* Trường hợp đang sống tại gia đình\n       Bước 1: Đại diện thân nhân hoặc cá nhân có đơn đề nghị kèm giấy tờ theo quy định tại khoản 8 Điều 17 Nghị định số 131/2021/NĐ-CP gửi Ủy ban nhân dân cấp xã nơi thương binh, người hưởng chính sách như thương binh thường trú trước khi chết.\nBước 2: Ủy ban nhân dân cấp xã trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ có trách nhiệm xác nhận đơn đề nghị, có văn bản gửi Sở Nội vụ cấp bản trích lục hồ sơ thương binh làm căn cứ để cấp chứng nhận hy sinh.\nỦy ban nhân dân cấp xã trong thời gian 10 ngày kể từ ngày tiếp nhận bản trích lục hồ thương binh, có trách nhiệm kiểm tra, xác minh, cấp giấy chứng nhận hy sinh chuyển đến Sở Nội vụ kèm theo các giấy tờ theo quy định tại điểm a, điểm b khoản 1 Điều 20 Nghị định số 131/2021/NĐ-CP.\nBước 3: Sở Nội vụ trong thời gian 05 ngày làm việc kể từ ngày nhận được văn bản đề nghị cấp bản trích lục hồ sơ thương binh, thẩm định hồ sơ đề nghị công nhận liệt sĩ, có văn bản đề nghị kèm hồ sơ gửi Ủy ban nhân dân cấp tỉnh trong thời gian 10 ngày kể từ ngày nhận đủ giấy tờ.\n        Bước 4: Ủy ban nhân dân cấp tỉnh trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ, có trách nhiệm kiểm tra và gửi văn bản kèm theo các giấy tờ theo quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP đề nghị Bộ Nội vụ thẩm định.\n        Bước 5: Bộ Nội vụ trong thời gian 40 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm thẩm định, lập tờ trình và danh sách kèm theo trình Thủ tướng Chính phủ ban hành quyết định cấp Bằng “Tổ quốc ghi công”; trong thời gian 20 ngày kể từ ngày nhận quyết định cấp bằng, có trách nhiệm in, chuyển Văn phòng Chính phủ đóng dấu Bằng “Tổ quốc ghi công” và chuyển hồ sơ kèm bản sao quyết định cấp bằng, Bằng “Tổ quốc ghi công” đến cơ quan đề nghị thẩm định để chuyển về cơ quan, đơn vị cấp giấy chứng nhận hy sinh.\nBước 6: Cơ quan, đơn vị cấp giấy chứng nhận hy sinh có trách nhiệm thông báo cho thân nhân của liệt sĩ và phối hợp với Ủy ban nhân dân cấp xã nơi đại diện thân nhân liệt sĩ thường trú tổ chức lễ truy điệu liệt sĩ, trao Bằng “Tổ quốc ghi công”. Trường hợp không còn thân nhân thì tổ chức lễ truy điệu liệt sĩ, bàn giao Bằng “Tổ quốc ghi công” về Ủy ban nhân dân cấp xã nơi liệt sĩ thường trú trước khi hy sinh; Bàn giao hồ sơ kèm bản sao quyết định cấp Bằng về Sở Nội vụ nơi tổ chức lễ truy điệu liệt sĩ.\n* Trường hợp đang nuôi dưỡng tại cơ sở nuôi dưỡng, điều dưỡng người có công\nBước 1: Giám đốc cơ sở nuôi dưỡng, điều dưỡng người có công có văn bản kèm giấy tờ theo quy định tại khoản 8 Điều 17 Nghị định số 131/2021/NĐ-CP gửi Sở Nội vụ nơi quản lý hồ sơ cung cấp bản trích lục hồ sơ thương binh.\nBước 2: Sở Nội vụ trong thời gian 10 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm cung cấp trích lục hồ sơ thương binh và gửi kèm các giấy tờ quy định đến Ủy ban nhân dân cấp xã nơi cơ sở nuôi dưỡng, điều dưỡng người có công đặt trụ sở.\nBước 3: Ủy ban nhân dân cấp xã trong thời gian 10 ngày kể từ ngày tiếp nhận bản trích lục hồ sơ thương binh, có trách nhiệm kiểm tra, xác minh, cấp giấy chứng nhận hy sinh chuyển đến Sở Nội vụ nơi cơ sở nuôi dưỡng, điều dưỡng người có công đặt trụ sở kèm theo các giấy tờ theo quy định tại điểm a khoản 2 Điều 20 Nghị định số 131/2021/NĐ-CP.\nBước 4: Sở Nội vụ trong thời gian 10 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm thẩm định, nếu đủ điều kiện thì có văn bản đề nghị gửi Ủy ban nhân dân cấp tỉnh kèm theo các giấy tờ quy định tại điểm c khoản 2 Điều 20 Nghị định số 131/2021/NĐ-CP.\n        Bước 5: Ủy ban nhân dân cấp tỉnh trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ, có trách nhiệm kiểm tra và gửi văn bản kèm theo các giấy tờ theo quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP đề nghị Bộ Nội vụ thẩm định.\n        Bước 6: Bộ Nội vụ trong thời gian 40 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm thẩm định, lập tờ trình và danh sách kèm theo trình Thủ tướng Chính phủ ban hành quyết định cấp Bằng “Tổ quốc ghi công”; trong thời gian 20 ngày kể từ ngày nhận quyết định cấp bằng, có trách nhiệm in, chuyển Văn phòng Chính phủ đóng dấu Bằng “Tổ quốc ghi công” và chuyển hồ sơ kèm bản sao quyết định cấp bằng, Bằng “Tổ quốc ghi công” đến cơ quan đề nghị thẩm định để chuyển về cơ quan, đơn vị cấp giấy chứng nhận hy sinh.\n         Bước 7: Cơ quan, đơn vị cấp giấy chứng nhận hy sinh có trách nhiệm thông báo cho thân nhân của liệt sĩ và phối hợp với Ủy ban nhân dân cấp xã nơi đại diện thân nhân liệt sĩ thường trú tổ chức lễ truy điệu liệt sĩ, trao Bằng “Tổ quốc ghi công”. Trường hợp không còn thân nhân thì tổ chức lễ truy điệu liệt sĩ, bàn giao Bằng “Tổ quốc ghi công” về Ủy ban nhân dân cấp xã nơi liệt sĩ thường trú trước khi hy sinh; Bàn giao hồ sơ kèm bản sao quyết định cấp Bằng về Sở Nội vụ nơi tổ chức lễ truy điệu liệt sĩ.\n",
+      "title": "Bước 3",
+      "description": "Bước 3: Cơ quan, đơn vị cấp giấy chứng nhận hy sinh trong thời gian 20 ngày kể từ ngày nhận bản sao quyết định cấp bằng, Bằng “Tổ quốc ghi công” kèm hồ sơ, có trách nhiệm:\na)\tThông báo cho thân nhân của liệt sĩ (cha đẻ, mẹ đẻ, vợ hoặc chồng, con liệt sĩ, người có công nuôi liệt sĩ) và phối hợp với Ủy ban nhân dân cấp xã nơi đại diện thân nhân liệt sĩ thường trú tổ chức lễ truy điệu liệt sĩ, trao Bằng “Tổ quốc ghi công”.\n        Trường hợp không còn thân nhân thì tổ chức lễ truy điệu liệt sĩ, bàn giao Bằng “Tổ quốc ghi công” về Ủy ban nhân dân cấp xã nơi liệt sĩ thường trú trước khi hy sinh.\nb)\tBàn giao hồ sơ kèm bản sao quyết định cấp Bằng về Sở Nội vụ nơi tổ chức lễ truy điệu liệt sĩ.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 4,
+      "title": "Bước 1",
+      "description": "Bước 1: Cơ quan, tổ chức, đơn vị trực tiếp quản lý người hy sinh có trách nhiệm xác lập, hoàn thiện các giấy tờ theo quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP, gửi cơ quan có thẩm quyền cấp giấy chứng nhận hy sinh quy định tại các khoản 3, 4 Điều 16 Nghị định số 131/2021/NĐ-CP và điểm b khoản 2 Điều 4 Nghị định số 129/2025/NĐ-CP ngày 11 tháng 06 năm 2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nội vụ.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 5,
+      "title": "Bước 2",
+      "description": "Bước 2: Cơ quan có thẩm quyền cấp giấy chứng nhận hy sinh quy định tại khoản 3, 4 Điều 16 Nghị định số 131/2021/NĐ-CP trong thời gian 20 ngày làm việc kể từ ngày tiếp nhận đủ các giấy tờ, có trách nhiệm kiểm tra, xác minh, cấp giấy chứng nhận hy sinh theo Mẫu số 34 Phụ lục I Nghị định số 131/2021/NĐ-CP.\nTrong thời gian không quá 20 ngày làm việc kể từ ngày cấp giấy chứng nhận hy sinh, lập tờ trình, danh, dự thảo Quyết định cấp Bằng “Tổ quốc ghi công” của Thủ tướng Chính phủ kèm theo phôi Bằng “Tổ quốc ghi công” trình Thủ tướng Chính phủ.\nCơ quan có thẩm quyền cấp giấy chứng nhận hy sinh quy định tại điểm b khoản 2 Điều 4 của Nghị định số 129/2025/NĐ-CP ngày 11 tháng 06 năm 2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nội vụ trong thời gian 20 ngày làm việc kể từ ngày tiếp nhận đủ các giấy tờ, có trách nhiệm kiểm tra, xác minh, cấp giấy chứng nhận hy sinh; có văn bản kèm theo các giấy tờ theo quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP chuyển đến Sở Nội vụ.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 6,
+      "title": "Bước 3",
+      "description": "Bước 3: Sở Nội vụ trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ, có trách nhiệm kiểm tra, hoàn thiện hồ sơ đề nghị công nhận liệt sĩ, báo cáo Ủy ban nhân dân cấp tỉnh trình Thủ tướng Chính phủ ban hành quyết định cấp Bằng \"Tổ quốc ghi công\".",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 7,
+      "title": "Bước 4",
+      "description": "Bước 4: Ủy ban nhân dân cấp tỉnh trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ, có trách nhiệm kiểm tra, lập tờ trình, danh sách, dự thảo Quyết định cấp Bằng “Tổ quốc ghi công” của Thủ tướng Chính phủ kèm theo phôi Bằng “Tổ quốc ghi công” trình Thủ tướng Chính phủ.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 8,
+      "title": "Bước 5",
+      "description": "Bước 5: Các Bộ, ngành và Ủy ban nhân dân cấp tỉnh trong thời gian 05 ngày làm việc kể từ ngày nhận quyết định cấp bằng và Bằng “Tổ quốc ghi công”, chuyển hồ sơ kèm Bằng “Tổ quốc ghi công” đến cơ quan, đơn vị cấp giấy chứng nhận hy sinh.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 9,
+      "title": "Bước 6",
+      "description": "Bước 6: Cơ quan, đơn vị cấp giấy chứng nhận hy sinh trong thời gian 10 ngày làm việc kể từ ngày nhận được Bằng “Tổ quốc ghi công” kèm hồ sơ, có trách nhiệm:\nThông báo cho thân nhân của liệt sĩ; chủ trì, phối hợp với Ủy ban nhân dân cấp xã nơi đại diện thân nhân liệt sĩ thường trú tổ chức lễ truy điệu và trao Bằng “Tổ quốc ghi công” cho đại diện thân nhân liệt sĩ; bàn giao hồ sơ liệt sĩ về Sở Nội vụ nơi đại diện thân nhân liệt sĩ thường trú.\nTrường hợp không còn thân nhân thì bàn giao hồ sơ liệt sĩ, Bằng “Tổ quốc ghi công” về Sở Nội vụ nơi liệt sĩ thường trú trước khi hy sinh để trao Bằng cho người hưởng trợ cấp thờ cúng liệt sĩ.",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 10,
+      "title": "Bước 10",
+      "description": "* Trường hợp đang sống tại gia đình\nBước 1: Đại diện thân nhân hoặc cá nhân có đơn đề nghị kèm giấy tờ theo quy định tại khoản 8 Điều 17 Nghị định số 131/2021/NĐ-CP gửi Ủy ban nhân dân cấp xã nơi thương binh, người hưởng chính sách như thương binh thường trú trước khi chết.",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 11,
+      "title": "Bước 2",
+      "description": "Bước 2: Ủy ban nhân dân cấp xã trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ có trách nhiệm xác nhận đơn đề nghị, có văn bản gửi Sở Nội vụ cấp bản trích lục hồ sơ thương binh làm căn cứ để cấp chứng nhận hy sinh.\nỦy ban nhân dân cấp xã trong thời gian 10 ngày kể từ ngày tiếp nhận bản trích lục hồ thương binh, có trách nhiệm kiểm tra, xác minh, cấp giấy chứng nhận hy sinh chuyển đến Sở Nội vụ kèm theo các giấy tờ theo quy định tại điểm a, điểm b khoản 1 Điều 20 Nghị định số 131/2021/NĐ-CP.",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 12,
+      "title": "Bước 3",
+      "description": "Bước 3: Sở Nội vụ trong thời gian 05 ngày làm việc kể từ ngày nhận được văn bản đề nghị cấp bản trích lục hồ sơ thương binh, thẩm định hồ sơ đề nghị công nhận liệt sĩ, có văn bản đề nghị kèm hồ sơ gửi Ủy ban nhân dân cấp tỉnh trong thời gian 10 ngày kể từ ngày nhận đủ giấy tờ.",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 13,
+      "title": "Bước 4",
+      "description": "Bước 4: Ủy ban nhân dân cấp tỉnh trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ, có trách nhiệm kiểm tra và gửi văn bản kèm theo các giấy tờ theo quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP đề nghị Bộ Nội vụ thẩm định.",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 14,
+      "title": "Bước 5",
+      "description": "Bước 5: Bộ Nội vụ trong thời gian 40 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm thẩm định, lập tờ trình và danh sách kèm theo trình Thủ tướng Chính phủ ban hành quyết định cấp Bằng “Tổ quốc ghi công”; trong thời gian 20 ngày kể từ ngày nhận quyết định cấp bằng, có trách nhiệm in, chuyển Văn phòng Chính phủ đóng dấu Bằng “Tổ quốc ghi công” và chuyển hồ sơ kèm bản sao quyết định cấp bằng, Bằng “Tổ quốc ghi công” đến cơ quan đề nghị thẩm định để chuyển về cơ quan, đơn vị cấp giấy chứng nhận hy sinh.",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 15,
+      "title": "Bước 6",
+      "description": "Bước 6: Cơ quan, đơn vị cấp giấy chứng nhận hy sinh có trách nhiệm thông báo cho thân nhân của liệt sĩ và phối hợp với Ủy ban nhân dân cấp xã nơi đại diện thân nhân liệt sĩ thường trú tổ chức lễ truy điệu liệt sĩ, trao Bằng “Tổ quốc ghi công”. Trường hợp không còn thân nhân thì tổ chức lễ truy điệu liệt sĩ, bàn giao Bằng “Tổ quốc ghi công” về Ủy ban nhân dân cấp xã nơi liệt sĩ thường trú trước khi hy sinh; Bàn giao hồ sơ kèm bản sao quyết định cấp Bằng về Sở Nội vụ nơi tổ chức lễ truy điệu liệt sĩ.\n* Trường hợp đang nuôi dưỡng tại cơ sở nuôi dưỡng, điều dưỡng người có công",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 16,
+      "title": "Bước 1",
+      "description": "Bước 1: Giám đốc cơ sở nuôi dưỡng, điều dưỡng người có công có văn bản kèm giấy tờ theo quy định tại khoản 8 Điều 17 Nghị định số 131/2021/NĐ-CP gửi Sở Nội vụ nơi quản lý hồ sơ cung cấp bản trích lục hồ sơ thương binh.",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 17,
+      "title": "Bước 2",
+      "description": "Bước 2: Sở Nội vụ trong thời gian 10 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm cung cấp trích lục hồ sơ thương binh và gửi kèm các giấy tờ quy định đến Ủy ban nhân dân cấp xã nơi cơ sở nuôi dưỡng, điều dưỡng người có công đặt trụ sở.",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 18,
+      "title": "Bước 3",
+      "description": "Bước 3: Ủy ban nhân dân cấp xã trong thời gian 10 ngày kể từ ngày tiếp nhận bản trích lục hồ sơ thương binh, có trách nhiệm kiểm tra, xác minh, cấp giấy chứng nhận hy sinh chuyển đến Sở Nội vụ nơi cơ sở nuôi dưỡng, điều dưỡng người có công đặt trụ sở kèm theo các giấy tờ theo quy định tại điểm a khoản 2 Điều 20 Nghị định số 131/2021/NĐ-CP.",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 19,
+      "title": "Bước 4",
+      "description": "Bước 4: Sở Nội vụ trong thời gian 10 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm thẩm định, nếu đủ điều kiện thì có văn bản đề nghị gửi Ủy ban nhân dân cấp tỉnh kèm theo các giấy tờ quy định tại điểm c khoản 2 Điều 20 Nghị định số 131/2021/NĐ-CP.",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 20,
+      "title": "Bước 5",
+      "description": "Bước 5: Ủy ban nhân dân cấp tỉnh trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ, có trách nhiệm kiểm tra và gửi văn bản kèm theo các giấy tờ theo quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP đề nghị Bộ Nội vụ thẩm định.",
+      "example": null,
+      "source_page": 3
+    },
+    {
+      "order": 21,
+      "title": "Bước 6",
+      "description": "Bước 6: Bộ Nội vụ trong thời gian 40 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm thẩm định, lập tờ trình và danh sách kèm theo trình Thủ tướng Chính phủ ban hành quyết định cấp Bằng “Tổ quốc ghi công”; trong thời gian 20 ngày kể từ ngày nhận quyết định cấp bằng, có trách nhiệm in, chuyển Văn phòng Chính phủ đóng dấu Bằng “Tổ quốc ghi công” và chuyển hồ sơ kèm bản sao quyết định cấp bằng, Bằng “Tổ quốc ghi công” đến cơ quan đề nghị thẩm định để chuyển về cơ quan, đơn vị cấp giấy chứng nhận hy sinh.",
+      "example": null,
+      "source_page": 4
+    },
+    {
+      "order": 22,
+      "title": "Bước 7",
+      "description": "Bước 7: Cơ quan, đơn vị cấp giấy chứng nhận hy sinh có trách nhiệm thông báo cho thân nhân của liệt sĩ và phối hợp với Ủy ban nhân dân cấp xã nơi đại diện thân nhân liệt sĩ thường trú tổ chức lễ truy điệu liệt sĩ, trao Bằng “Tổ quốc ghi công”. Trường hợp không còn thân nhân thì tổ chức lễ truy điệu liệt sĩ, bàn giao Bằng “Tổ quốc ghi công” về Ủy ban nhân dân cấp xã nơi liệt sĩ thường trú trước khi hy sinh; Bàn giao hồ sơ kèm bản sao quyết định cấp Bằng về Sở Nội vụ nơi tổ chức lễ truy điệu liệt sĩ.",
+      "example": null,
+      "source_page": 4
     }
   ],
   "documents": {
@@ -71,157 +195,106 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "-\tNgười hy sinh là sĩ quan, quân nhân chuyên nghiệp, hạ sĩ quan, binh sĩ, công chức quốc phòng, công nhân và viên chức quốc phòng do thủ trưởng cấp tiểu đoàn và tương đương cấp; người hy sinh là người làm công tác cơ yếu, người làm công tác khác trong tổ chức cơ yếu và học viên cơ yếu thuộc Ban Cơ yếu Chính phủ do thủ trưởng đơn vị thuộc cơ quan, đơn vị trực thuộc Ban cấp.",
-        "code": "000.00.00.G09-KQ002647",
+        "name": "a)\tĐối với trường hợp hy sinh quy định tại điểm a khoản 1 Điều 14 của Pháp lệnh, việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở giấy xác nhận của các cơ quan, đơn vị sau:: -\tNgười hy sinh là sĩ quan, quân nhân chuyên nghiệp, hạ sĩ quan, binh sĩ, công chức quốc phòng, công nhân và viên chức quốc phòng do thủ trưởng cấp tiểu đoàn và tương đương cấp; người hy sinh là người làm công tác cơ yếu, người làm công tác khác trong tổ chức cơ yếu và học viên cơ yếu thuộc Ban Cơ yếu Chính phủ do thủ trưởng đơn vị thuộc cơ quan, đơn vị trực thuộc Ban cấp.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "a)\tĐối với trường hợp hy sinh quy định tại điểm a khoản 1 Điều 14 của Pháp lệnh, việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở giấy xác nhận của các cơ quan, đơn vị sau:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "-\tNgười hy sinh thuộc các cơ quan trung ương do thủ trưởng cấp vụ hoặc cấp tương đương cấp.",
-        "code": "000.00.00.G09-KQ002649",
+        "name": "a)\tĐối với trường hợp hy sinh quy định tại điểm a khoản 1 Điều 14 của Pháp lệnh, việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở giấy xác nhận của các cơ quan, đơn vị sau:: -\tNgười hy sinh thuộc các cơ quan trung ương do thủ trưởng cấp vụ hoặc cấp tương đương cấp.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "a)\tĐối với trường hợp hy sinh quy định tại điểm a khoản 1 Điều 14 của Pháp lệnh, việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở giấy xác nhận của các cơ quan, đơn vị sau:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "-\tNgười hy sinh là sĩ quan, hạ sĩ quan, chiến sĩ, công nhân, lao động hợp đồng không xác định thời hạn hưởng lương từ ngân sách trong công an do thủ trưởng công an cấp xã cấp",
-        "code": "000.00.00.G09-KQ002648",
+        "name": "a)\tĐối với trường hợp hy sinh quy định tại điểm a khoản 1 Điều 14 của Pháp lệnh, việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở giấy xác nhận của các cơ quan, đơn vị sau:: -\tNgười hy sinh là sĩ quan, hạ sĩ quan, chiến sĩ, công nhân, lao động hợp đồng không xác định thời hạn hưởng lương từ ngân sách trong công an do thủ trưởng công an cấp xã cấp",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "a)\tĐối với trường hợp hy sinh quy định tại điểm a khoản 1 Điều 14 của Pháp lệnh, việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở giấy xác nhận của các cơ quan, đơn vị sau:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "-\tNgười hy sinh không thuộc quy định tại các điểm a, b, c khoản 1 Điều 17 Nghị định số 131/2021/NĐ-CP do Chủ tịch Ủy ban nhân dân cấp xã cấp",
-        "code": "000.00.00.G09-KQ002650",
+        "name": "a)\tĐối với trường hợp hy sinh quy định tại điểm a khoản 1 Điều 14 của Pháp lệnh, việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở giấy xác nhận của các cơ quan, đơn vị sau:: -\tNgười hy sinh không thuộc quy định tại các điểm a, b, c khoản 1 Điều 17 Nghị định số 131/2021/NĐ-CP do Chủ tịch Ủy ban nhân dân cấp xã cấp",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "a)\tĐối với trường hợp hy sinh quy định tại điểm a khoản 1 Điều 14 của Pháp lệnh, việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở giấy xác nhận của các cơ quan, đơn vị sau:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "-\tQuyết định cử đi làm nghĩa vụ quốc tế do thủ trưởng cơ quan, đơn vị có thẩm quyền cấp.",
-        "code": "000.00.00.G09-KQ002651",
+        "name": "b)\tĐối với trường hợp hy sinh quy định tại điểm đ khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:: -\tQuyết định cử đi làm nghĩa vụ quốc tế do thủ trưởng cơ quan, đơn vị có thẩm quyền cấp.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "b)\tĐối với trường hợp hy sinh quy định tại điểm đ khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "-\tBiên bản xảy ra sự việc do cơ quan đơn vị trực tiếp quản lý người hy sinh lập; trường hợp không có biên bản xảy ra sự việc thì phải có giấy xác nhận trường hợp hy sinh do thủ trưởng cơ quan, đơn vị quy định tại khoản 1 Điều 17 Nghị định số 131/2021/NĐ-CP cấp",
-        "code": "000.00.00.G09-KQ002652",
+        "name": "b)\tĐối với trường hợp hy sinh quy định tại điểm đ khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:: -\tBiên bản xảy ra sự việc do cơ quan đơn vị trực tiếp quản lý người hy sinh lập; trường hợp không có biên bản xảy ra sự việc thì phải có giấy xác nhận trường hợp hy sinh do thủ trưởng cơ quan, đơn vị quy định tại khoản 1 Điều 17 Nghị định số 131/2021/NĐ-CP cấp",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "b)\tĐối với trường hợp hy sinh quy định tại điểm đ khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "Trường hợp không có bản án, bản kết luận vụ án của cơ quan điều tra thì phải kèm báo cáo kết thúc điều tra vụ việc hoặc báo cáo kết quả điều tra vụ việc của cơ quan điều tra có thẩm quyền và một trong các giấy tờ sau: Quyết định khởi tố vụ án hoặc quyết định tạm đình chỉ điều tra vụ án đối với trường hợp không xác định được đối tượng phạm tội; Quyết định truy nã bị can đối với trường hợp đối tượng phạm tội bỏ trốn hoặc không xác định được nơi đối tượng thường trú; Quyết định gia hạn điều tra; Quyết định không khởi tố vụ án, quyết định hủy bỏ quyết định khởi tố vụ án, quyết định đình chỉ điều tra vụ án đối với trường hợp người thực hiện hành vi nguy hiểm cho xã hội không có năng lực trách nhiệm hình sự hoặc chưa đến tuổi chịu trách nhiệm hình sự hoặc đã chết. Trường hợp bản án, bản kết luận vụ án, báo cáo kết thúc điều tra vụ việc hoặc báo cáo kết quả điều tra vụ việc không thể hiện rõ trường hợp hy sinh thì phải kèm theo biên bản xảy ra sự việc và báo cáo vụ việc của cơ quan, đơn vị trực tiếp quản lý người hy sinh.",
-        "code": "000.00.00.G09-KQ002658",
+        "name": "e)\tĐối với trường hợp hy sinh quy định tại điểm i khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở bản kế hoạch công tác hoặc quyết định, danh sách phân công làm nhiệm vụ hoặc giấy xác nhận giao nhiệm vụ của cơ quan, đơn vị trực tiếp quản lý người hy sinh; biên bản họp cấp ủy, lãnh đạo, cơ quan đơn vị quản lý người hy sinh thống nhất việc đề nghị công nhận liệt sĩ; bản án hoặc bản kết luận điều tra vụ án hình sự của cơ quan điều tra.: Trường hợp không có bản án, bản kết luận vụ án của cơ quan điều tra thì phải kèm báo cáo kết thúc điều tra vụ việc hoặc báo cáo kết quả điều tra vụ việc của cơ quan điều tra có thẩm quyền và một trong các giấy tờ sau: Quyết định khởi tố vụ án hoặc quyết định tạm đình chỉ điều tra vụ án đối với trường hợp không xác định được đối tượng phạm tội; Quyết định truy nã bị can đối với trường hợp đối tượng phạm tội bỏ trốn hoặc không xác định được nơi đối tượng thường trú; Quyết định gia hạn điều tra; Quyết định không khởi tố vụ án, quyết định hủy bỏ quyết định khởi tố vụ án, quyết định đình chỉ điều tra vụ án đối với trường hợp người thực hiện hành vi nguy hiểm cho xã hội không có năng lực trách nhiệm hình sự hoặc chưa đến tuổi chịu trách nhiệm hình sự hoặc đã chết. Trường hợp bản án, bản kết luận vụ án, báo cáo kết thúc điều tra vụ việc hoặc báo cáo kết quả điều tra vụ việc không thể hiện rõ trường hợp hy sinh thì phải kèm theo biên bản xảy ra sự việc và báo cáo vụ việc của cơ quan, đơn vị trực tiếp quản lý người hy sinh.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "e)\tĐối với trường hợp hy sinh quy định tại điểm i khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở bản kế hoạch công tác hoặc quyết định, danh sách phân công làm nhiệm vụ hoặc giấy xác nhận giao nhiệm vụ của cơ quan, đơn vị trực tiếp quản lý người hy sinh; biên bản họp cấp ủy, lãnh đạo, cơ quan đơn vị quản lý người hy sinh thống nhất việc đề nghị công nhận liệt sĩ; bản án hoặc bản kết luận điều tra vụ án hình sự của cơ quan điều tra.",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 5
       },
       {
-        "name": "-\tBản sao được chứng thực từ Quyết định tặng thưởng Huân chương và Quyết định tổ chức phát động học tập tấm gương của Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân cấp tỉnh",
-        "code": "000.00.00.G09-KQ002660",
+        "name": "g)\tĐối với trường hợp hy sinh quy định tại điểm k khoản 1 Điều 14 Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:: -\tBản sao được chứng thực từ Quyết định tặng thưởng Huân chương và Quyết định tổ chức phát động học tập tấm gương của Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân cấp tỉnh",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "g)\tĐối với trường hợp hy sinh quy định tại điểm k khoản 1 Điều 14 Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 6
       },
       {
-        "name": "-\tBiên bản xảy ra sự việc do cơ quan, đơn vị trực tiếp quản lý người hy sinh hoặc Ủy ban nhân dân cấp xã nơi xảy ra sự việc lập; đối với việc ngăn chặn, bắt giữ người có hành vi phạm tội phải có kết luận của cơ quan điều tra cấp tỉnh trở lên.",
-        "code": "000.00.00.G09-KQ002659",
+        "name": "g)\tĐối với trường hợp hy sinh quy định tại điểm k khoản 1 Điều 14 Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:: -\tBiên bản xảy ra sự việc do cơ quan, đơn vị trực tiếp quản lý người hy sinh hoặc Ủy ban nhân dân cấp xã nơi xảy ra sự việc lập; đối với việc ngăn chặn, bắt giữ người có hành vi phạm tội phải có kết luận của cơ quan điều tra cấp tỉnh trở lên.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "g)\tĐối với trường hợp hy sinh quy định tại điểm k khoản 1 Điều 14 Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 6
       },
       {
-        "name": "-\tBản sao được chứng thực từ một trong các giấy tờ có ghi nhận thời gian làm nhiệm vụ quốc phòng, an ninh ở địa bàn đặc biệt khó khăn như sau: lý lịch cán bộ; lý lịch quân nhân; lý lịch đảng viên; hồ sơ bảo hiểm xã hội.",
-        "code": "000.00.00.G09-KQ002656",
+        "name": "Đối với trường hợp hy sinh quy định tại điểm h khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:: -\tBản sao được chứng thực từ một trong các giấy tờ có ghi nhận thời gian làm nhiệm vụ quốc phòng, an ninh ở địa bàn đặc biệt khó khăn như sau: lý lịch cán bộ; lý lịch quân nhân; lý lịch đảng viên; hồ sơ bảo hiểm xã hội.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Đối với trường hợp hy sinh quy định tại điểm h khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 6
       },
       {
-        "name": "-\tQuyết định phân công nhiệm vụ của cơ quan có thẩm quyền",
-        "code": "000.00.00.G09-KQ002655",
+        "name": "Đối với trường hợp hy sinh quy định tại điểm h khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:: -\tQuyết định phân công nhiệm vụ của cơ quan có thẩm quyền",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Đối với trường hợp hy sinh quy định tại điểm h khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 6
       },
       {
-        "name": "-\tBiên bản xảy ra sự việc đối với trường hợp tai nạn hoặc bản tóm tắt hồ sơ bệnh án thể hiện mắc bệnh trong thời gian công tác tại địa bàn có điều kiện đặc biệt khó khăn.",
-        "code": "000.00.00.G09-KQ002657",
+        "name": "Đối với trường hợp hy sinh quy định tại điểm h khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:: -\tBiên bản xảy ra sự việc đối với trường hợp tai nạn hoặc bản tóm tắt hồ sơ bệnh án thể hiện mắc bệnh trong thời gian công tác tại địa bàn có điều kiện đặc biệt khó khăn.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Đối với trường hợp hy sinh quy định tại điểm h khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 6
       },
       {
         "name": "i)\tĐối với trường hợp mất tích theo quy định tại các điểm e, g, i, k khoản 1 Điều 14 Pháp lệnh việc cấp giấy chứng nhận hy sinh phải trên cơ sở căn cứ cấp giấy chứng nhận hy sinh quy định tại các khoản 3, 4 hoặc khoản 6, 7 Điều 17 Nghị định số 131/2021/NĐ-CP, kèm theo quyết định của tòa án tuyên mất tích theo quy định của Bộ luật Dân sự.",
-        "code": "000.00.00.G09-KQ002662",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       },
       {
         "name": "Đối với trường hợp hy sinh hoặc mất tích trong kháng chiến chống Pháp, kháng chiến chống Mỹ, chiến tranh biên giới phía Bắc, biên giới Tây Nam và làm nghĩa vụ quốc tế tại Lào và Campuchia, truy quét Ful rô quy định tại một trong các điểm a, b, c, d, đ khoản 1 Điều 14 Pháp lệnh thì việc cấp giấy chứng nhận hy sinh thực hiện theo hướng dẫn tại Mục 12 Chương II Nghị định số 131/2021/NĐ-CP ngày 30/12/2021 của Chính phủ.",
-        "code": "000.00.00.G09-KQ002663",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       },
       {
         "name": "c)\tĐối với trường hợp hy sinh quy định tại điểm e khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải trên cơ sở biên bản xảy ra sự việc do cơ quan, đơn vị trực tiếp quản lý người hy sinh lập.",
-        "code": "000.00.00.G09-KQ002653",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       },
       {
         "name": "h)\tĐối với trường hợp thương binh chết do vết thương tái phát quy định tại điểm l khoản 1 Điều 14 Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở bản tóm tắt hồ sơ bệnh án và biên bản kiểm thảo tử vong xác định nguyên nhân chính gây tử vong là do vết thương cũ tái phát của Bệnh viện hoặc Trung tâm Y tế khu vực (bao gồm cả bệnh viện quân đội, công an).",
-        "code": "000.00.00.G09-KQ002661",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       },
       {
         "name": "d)\tĐối với trường hợp hy sinh quy định tại điểm g khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải trên cơ sở văn bản giao làm nhiệm vụ huấn luyện chiến đấu, diễn tập hoặc làm nhiệm vụ quốc phòng, an ninh có tính chất nguy hiểm kèm biên bản xảy ra sự việc do cơ quan, đơn vị trực tiếp quản lý người hy sinh lập.",
-        "code": "000.00.00.G09-KQ002654",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 7
       }
     ]
   },
@@ -230,438 +303,247 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "130 ngày",
-      "processing_time_value": 130,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh thuộc quân đội, công an quản lý: 130 ngày kể từ ngày nhận đủ hồ sơ.",
-      "source_page": null
+      "source_page": 8
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "55 ngày làm việc",
-      "processing_time_value": 55,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý: Người hy sinh do Bộ trưởng hoặc cấp tương đương hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy chứng nhận: 55 ngày ngày làm việc kể từ ngày nhận đủ hồ sơ; Người hy sinh do Chủ tịch Ủy ban nhân dân cấp xã cấp giấy chứng nhận: 45 ngày làm việc từ ngày nhận đủ hồ sơ. ",
-      "source_page": null
+      "fee": "0",
+      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý: Người hy sinh do Bộ trưởng hoặc cấp tương đương hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy chứng nhận: 55 ngày ngày làm việc kể từ ngày nhận đủ hồ sơ; Người hy sinh do Chủ tịch Ủy ban nhân dân cấp xã cấp giấy chứng nhận: 45 ngày làm việc từ ngày nhận đủ hồ sơ.",
+      "source_page": 8
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "130 ngày",
-      "processing_time_value": 130,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh thuộc quân đội, công an quản lý: 130 ngày kể từ ngày nhận đủ hồ sơ.",
-      "source_page": null
+      "source_page": 8
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "130 ngày",
-      "processing_time_value": 130,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh thuộc quân đội, công an quản lý: 130 ngày kể từ ngày nhận đủ hồ sơ.",
-      "source_page": null
+      "source_page": 8
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "55 ngày làm việc",
-      "processing_time_value": 55,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý: Người hy sinh do Bộ trưởng hoặc cấp tương đương hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy chứng nhận: 55 ngày ngày làm việc kể từ ngày nhận đủ hồ sơ; Người hy sinh do Chủ tịch Ủy ban nhân dân cấp xã cấp giấy chứng nhận: 45 ngày làm việc từ ngày nhận đủ hồ sơ. ",
-      "source_page": null
+      "fee": "0",
+      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý: Người hy sinh do Bộ trưởng hoặc cấp tương đương hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy chứng nhận: 55 ngày ngày làm việc kể từ ngày nhận đủ hồ sơ; Người hy sinh do Chủ tịch Ủy ban nhân dân cấp xã cấp giấy chứng nhận: 45 ngày làm việc từ ngày nhận đủ hồ sơ.",
+      "source_page": 8
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "55 ngày làm việc",
-      "processing_time_value": 55,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý: Người hy sinh do Bộ trưởng hoặc cấp tương đương hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy chứng nhận: 55 ngày ngày làm việc kể từ ngày nhận đủ hồ sơ; Người hy sinh do Chủ tịch Ủy ban nhân dân cấp xã cấp giấy chứng nhận: 45 ngày làm việc từ ngày nhận đủ hồ sơ. ",
-      "source_page": null
+      "fee": "0",
+      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý: Người hy sinh do Bộ trưởng hoặc cấp tương đương hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy chứng nhận: 55 ngày ngày làm việc kể từ ngày nhận đủ hồ sơ; Người hy sinh do Chủ tịch Ủy ban nhân dân cấp xã cấp giấy chứng nhận: 45 ngày làm việc từ ngày nhận đủ hồ sơ.",
+      "source_page": 8
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "45 ngày làm việc",
-      "processing_time_value": 45,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý: Người hy sinh do Bộ trưởng hoặc cấp tương đương hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy chứng nhận: 55 ngày ngày làm việc kể từ ngày nhận đủ hồ sơ; Người hy sinh do Chủ tịch Ủy ban nhân dân cấp xã cấp giấy chứng nhận: 45 ngày làm việc từ ngày nhận đủ hồ sơ. ",
-      "source_page": null
+      "fee": "0",
+      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý: Người hy sinh do Bộ trưởng hoặc cấp tương đương hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy chứng nhận: 55 ngày ngày làm việc kể từ ngày nhận đủ hồ sơ; Người hy sinh do Chủ tịch Ủy ban nhân dân cấp xã cấp giấy chứng nhận: 45 ngày làm việc từ ngày nhận đủ hồ sơ.",
+      "source_page": 8
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "45 ngày làm việc",
-      "processing_time_value": 45,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý: Người hy sinh do Bộ trưởng hoặc cấp tương đương hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy chứng nhận: 55 ngày ngày làm việc kể từ ngày nhận đủ hồ sơ; Người hy sinh do Chủ tịch Ủy ban nhân dân cấp xã cấp giấy chứng nhận: 45 ngày làm việc từ ngày nhận đủ hồ sơ. ",
-      "source_page": null
+      "fee": "0",
+      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý: Người hy sinh do Bộ trưởng hoặc cấp tương đương hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy chứng nhận: 55 ngày ngày làm việc kể từ ngày nhận đủ hồ sơ; Người hy sinh do Chủ tịch Ủy ban nhân dân cấp xã cấp giấy chứng nhận: 45 ngày làm việc từ ngày nhận đủ hồ sơ.",
+      "source_page": 8
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "45 ngày làm việc",
-      "processing_time_value": 45,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý: Người hy sinh do Bộ trưởng hoặc cấp tương đương hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy chứng nhận: 55 ngày ngày làm việc kể từ ngày nhận đủ hồ sơ; Người hy sinh do Chủ tịch Ủy ban nhân dân cấp xã cấp giấy chứng nhận: 45 ngày làm việc từ ngày nhận đủ hồ sơ. ",
-      "source_page": null
+      "fee": "0",
+      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý: Người hy sinh do Bộ trưởng hoặc cấp tương đương hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy chứng nhận: 55 ngày ngày làm việc kể từ ngày nhận đủ hồ sơ; Người hy sinh do Chủ tịch Ủy ban nhân dân cấp xã cấp giấy chứng nhận: 45 ngày làm việc từ ngày nhận đủ hồ sơ.",
+      "source_page": 8
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "105 ngày làm việc",
-      "processing_time_value": 105,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n       + Thương binh, người hưởng chính sách như thương binh đang sống tại gia đình: 105 ngày làm việc kể từ ngày nhận đủ hồ sơ;\n             \n",
-      "source_page": null
+      "fee": "0",
+      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n       + Thương binh, người hưởng chính sách như thương binh đang sống tại gia đình: 105 ngày làm việc kể từ ngày nhận đủ hồ sơ;",
+      "source_page": 9
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "105 ngày làm việc",
-      "processing_time_value": 105,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n       + Thương binh, người hưởng chính sách như thương binh đang sống tại gia đình: 105 ngày làm việc kể từ ngày nhận đủ hồ sơ;\n             \n",
-      "source_page": null
+      "fee": "0",
+      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n       + Thương binh, người hưởng chính sách như thương binh đang sống tại gia đình: 105 ngày làm việc kể từ ngày nhận đủ hồ sơ;",
+      "source_page": 9
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "105 ngày làm việc",
-      "processing_time_value": 105,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n       + Thương binh, người hưởng chính sách như thương binh đang sống tại gia đình: 105 ngày làm việc kể từ ngày nhận đủ hồ sơ;\n             \n",
-      "source_page": null
+      "fee": "0",
+      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n       + Thương binh, người hưởng chính sách như thương binh đang sống tại gia đình: 105 ngày làm việc kể từ ngày nhận đủ hồ sơ;",
+      "source_page": 9
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "95 ngày làm việc",
-      "processing_time_value": 95,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n            + Thương binh, người hưởng chính sách như thương binh đang nuôi dưỡng tại cơ sở nuôi dưỡng, điều dưỡng người có công: 95 ngày kể từ ngày nhận đủ hồ sơ.\n        (Thời gian giải quyết chưa tính thời gian kể từ ngày trình Thủ tướng Chính phủ ban hành Quyết định cấp bằng Tổ quốc ghi công đến ngày nhận Quyết định cấp bằng). \n",
-      "source_page": null
+      "fee": "0",
+      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n            + Thương binh, người hưởng chính sách như thương binh đang nuôi dưỡng tại cơ sở nuôi dưỡng, điều dưỡng người có công: 95 ngày kể từ ngày nhận đủ hồ sơ.\n        (Thời gian giải quyết chưa tính thời gian kể từ ngày trình Thủ tướng Chính phủ ban hành Quyết định cấp bằng Tổ quốc ghi công đến ngày nhận Quyết định cấp bằng).",
+      "source_page": 10
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "95 ngày làm việc",
-      "processing_time_value": 95,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n            + Thương binh, người hưởng chính sách như thương binh đang nuôi dưỡng tại cơ sở nuôi dưỡng, điều dưỡng người có công: 95 ngày kể từ ngày nhận đủ hồ sơ.\n        (Thời gian giải quyết chưa tính thời gian kể từ ngày trình Thủ tướng Chính phủ ban hành Quyết định cấp bằng Tổ quốc ghi công đến ngày nhận Quyết định cấp bằng). \n",
-      "source_page": null
+      "fee": "0",
+      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n            + Thương binh, người hưởng chính sách như thương binh đang nuôi dưỡng tại cơ sở nuôi dưỡng, điều dưỡng người có công: 95 ngày kể từ ngày nhận đủ hồ sơ.\n        (Thời gian giải quyết chưa tính thời gian kể từ ngày trình Thủ tướng Chính phủ ban hành Quyết định cấp bằng Tổ quốc ghi công đến ngày nhận Quyết định cấp bằng).",
+      "source_page": 10
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "95 ngày làm việc",
-      "processing_time_value": 95,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n            + Thương binh, người hưởng chính sách như thương binh đang nuôi dưỡng tại cơ sở nuôi dưỡng, điều dưỡng người có công: 95 ngày kể từ ngày nhận đủ hồ sơ.\n        (Thời gian giải quyết chưa tính thời gian kể từ ngày trình Thủ tướng Chính phủ ban hành Quyết định cấp bằng Tổ quốc ghi công đến ngày nhận Quyết định cấp bằng). \n",
-      "source_page": null
+      "fee": "0",
+      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n            + Thương binh, người hưởng chính sách như thương binh đang nuôi dưỡng tại cơ sở nuôi dưỡng, điều dưỡng người có công: 95 ngày kể từ ngày nhận đủ hồ sơ.\n        (Thời gian giải quyết chưa tính thời gian kể từ ngày trình Thủ tướng Chính phủ ban hành Quyết định cấp bằng Tổ quốc ghi công đến ngày nhận Quyết định cấp bằng).",
+      "source_page": 10
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "95 ngày làm việc",
-      "processing_time_value": 95,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
-      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n            + Thương binh, người hưởng chính sách như thương binh đang nuôi dưỡng tại cơ sở nuôi dưỡng, điều dưỡng người có công: 95 ngày kể từ ngày nhận đủ hồ sơ.\n        (Thời gian giải quyết chưa tính thời gian kể từ ngày trình Thủ tướng Chính phủ ban hành Quyết định cấp bằng Tổ quốc ghi công đến ngày nhận Quyết định cấp bằng). \n",
-      "source_page": null
+      "fee": "0",
+      "description": "Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n            + Thương binh, người hưởng chính sách như thương binh đang nuôi dưỡng tại cơ sở nuôi dưỡng, điều dưỡng người có công: 95 ngày kể từ ngày nhận đủ hồ sơ.\n        (Thời gian giải quyết chưa tính thời gian kể từ ngày trình Thủ tướng Chính phủ ban hành Quyết định cấp bằng Tổ quốc ghi công đến ngày nhận Quyết định cấp bằng).",
+      "source_page": 10
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 8
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 8
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 8
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 8
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 8
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 8
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 8
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 8
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 8
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 8
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 8
       }
     ]
   },
@@ -669,60 +551,49 @@
     {
       "title": "Nghị định số 25/2025/NĐ-CP ngày 21 tháng 02 năm 2025 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nội vụ",
       "document_number": "Nghị định số 25/2025/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b474-93996f3f00db",
-      "source_page": null
+      "source_page": 70
     },
     {
       "title": "Nghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước",
       "document_number": "190/2025/NQ-QH15",
-      "id": "019d2bb3-5d84-71c5-b671-f40a5ee32475",
-      "source_page": null
+      "source_page": 71
     },
     {
       "title": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nội vụ",
       "document_number": "129/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-1c153ca6400f",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "QUY ĐỊNH CHI TIẾT VÀ BIỆN PHÁP THI HÀNH PHÁP LỆNH ƯU ĐÃI NGƯỜI CÓ CÔNG VỚI CÁCH MẠNG",
       "document_number": "Nghị định số 131/2021/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b474-516a799e2145",
-      "source_page": null
+      "source_page": 71
     },
     {
       "title": "ƯU ĐÃI NGƯỜI CÓ CÔNG VỚI CÁCH MẠNG",
       "document_number": "Pháp lệnh số: 02/2020/UBTVQH14",
-      "id": "019d2bb3-5d85-73da-8eba-20bc75de794b",
-      "source_page": null
+      "source_page": 71
     }
   ],
-  "conditions": "       Người đã hy sinh vì sự nghiệp cách mạng giải phóng dân tộc, xây dựng, bảo vệ Tổ quốc, làm nghĩa vụ quốc tế hoặc vì lợi ích của Nhà nước, của Nhân dân thì được cơ quan có thẩm quyền xem xét công nhận là liệt sĩ khi thuộc một trong các trường hợp sau đây:\n1.\tTrực tiếp phục vụ chiến đấu quy định tại điểm a khoản 1 Điều 14 Pháp lệnh được xác định là thực hiện các nhiệm vụ trong lúc trận đánh đang diễn ra hoặc trong khi địch đang bắn phá: cứu thương, tải thương, tải đạn, đảm bảo thông tin liên lạc, bảo vệ hàng hóa và các trường hợp đảm bảo chiến đấu.\n2.\tĐịa bàn địch chiếm đóng, địa bàn có chiến sự, địa bàn tiếp giáp vùng địch chiếm đóng quy định tại điểm b khoản 1 Điều 14 Pháp lệnh được xác định theo quy định tại Phụ lục III Nghị định số 131/2021/NĐ-CP.\n3.\tTrực tiếp làm nhiệm vụ huấn luyện chiến đấu, diễn tập hoặc làm nhiệm vụ quốc phòng, an ninh có tính chất nguy hiểm quy định tại điểm g khoản 1 Điều 14 Pháp lệnh được xác định như sau:\na)\tNhiệm vụ huấn luyện chiến đấu, diễn tập có tính chất nguy hiểm trong các trường hợp sau: bắn đạn thật, sử dụng thuốc nổ; chữa cháy; chống khủng bố, bạo loạn; giải thoát con tin; cứu hộ, cứu nạn, ứng cứu thảm họa thiên tai; trong huấn luyện chiến đấu, diễn tập của lực lượng: không quân, hải quân, kiểm ngư, cảnh sát biển, đặc công, trinh sát đặc nhiệm, cảnh sát cơ động, đặc nhiệm.\nb)\tLàm nhiệm vụ quốc phòng an ninh có tính chất nguy hiểm khi: chữa cháy; chống khủng bố, bạo loạn; giải thoát con tin; cứu hộ, cứu nạn, ứng cứu thảm họa thiên tai; thực hiện nhiệm vụ của kiểm ngư, cảnh sát biển; tìm kiếm, quy tập hài cốt liệt sĩ; rà phá, xử lý, tiêu hủy bom mìn, vật liệu nổ; nghiên cứu, chế tạo, sản xuất, thử nghiệm, bảo quản, vận chuyển thuốc phóng, thuốc nổ, vũ khí, đạn dược; xây dựng công trình ngầm quốc phòng, an ninh.\n4.\tĐịa bàn biên giới, trên biển, hải đảo có điều kiện đặc biệt khó khăn theo quy định tại điểm h khoản 1 Điều 14 Pháp lệnh (sau đây gọi là địa bàn đặc biệt khó khăn) là địa bàn có điều kiện tự nhiên hiểm trở, khắc nghiệt, khó khăn dễ xảy ra tai nạn, ốm đau, bao gồm các địa bàn theo Phụ lục IV Nghị định số 131/2021/NĐ-CP.\nKhông xem xét công nhận đối với các trường hợp ốm đau tại địa bàn đặc biệt khó khăn nhưng đã được đưa đi chữa trị ở bệnh viện tuyến tỉnh trở lên hoặc ốm đau ở nơi khác và đã được điều trị nhưng không chữa khỏi mà vẫn chuyển công tác về địa bàn có điều kiện đặc biệt khó khăn.\n5.\tTrực tiếp làm nhiệm vụ đấu tranh chống tội phạm quy định tại điểm i khoản 1 Điều 14 Pháp lệnh là trực tiếp thực thi nhiệm vụ theo yêu cầu của cơ quan có thẩm quyền nhằm điều tra, phát hiện, ngăn chặn, bắt giữ đối tượng phạm tội hoặc ngăn chặn hành vi nguy hiểm cho xã hội được quy định trong Bộ luật Hình sự.\n6.\tXem xét công nhận liệt sĩ đối với trường hợp quy định tại điểm k khoản 1 Điều 14 Pháp lệnh gồm các yếu tố sau:\na)\tNhận thức được đầy đủ sự nguy hiểm và tính cấp bách của sự việc.\nb)\tChủ động thực hiện hành vi đặc biệt dũng cảm, chấp nhận hy sinh bản thân.\nc)\tBảo vệ lợi ích quan trọng của Nhà nước, tính mạng và lợi ích hợp pháp của Nhân dân hoặc để ngăn chặn, bắt giữ người có hành vi phạm tội đặc biệt nghiêm trọng.\nd)\tLà tấm gương có ý nghĩa tôn vinh, giáo dục, lan tỏa rộng rãi trong xã hội, được tặng thưởng Huân chương và được Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Chủ tịch Ủy ban  nhân dân cấp tỉnh tổ chức phát động học tập tấm gương.\n7.\tCác trường hợp khác thực hiện theo quy định tại các điểm c, d, đ, e, l, m khoản 1 Điều 14 Pháp lệnh.\n",
+  "conditions": "Người đã hy sinh vì sự nghiệp cách mạng giải phóng dân tộc, xây dựng, bảo vệ Tổ quốc, làm nghĩa vụ quốc tế hoặc vì lợi ích của Nhà nước, của Nhân dân thì được cơ quan có thẩm quyền xem xét công nhận là liệt sĩ khi thuộc một trong các trường hợp sau đây:\n1.\tTrực tiếp phục vụ chiến đấu quy định tại điểm a khoản 1 Điều 14 Pháp lệnh được xác định là thực hiện các nhiệm vụ trong lúc trận đánh đang diễn ra hoặc trong khi địch đang bắn phá: cứu thương, tải thương, tải đạn, đảm bảo thông tin liên lạc, bảo vệ hàng hóa và các trường hợp đảm bảo chiến đấu.\n2.\tĐịa bàn địch chiếm đóng, địa bàn có chiến sự, địa bàn tiếp giáp vùng địch chiếm đóng quy định tại điểm b khoản 1 Điều 14 Pháp lệnh được xác định theo quy định tại Phụ lục III Nghị định số 131/2021/NĐ-CP.\n3.\tTrực tiếp làm nhiệm vụ huấn luyện chiến đấu, diễn tập hoặc làm nhiệm vụ quốc phòng, an ninh có tính chất nguy hiểm quy định tại điểm g khoản 1 Điều 14 Pháp lệnh được xác định như sau:\na)\tNhiệm vụ huấn luyện chiến đấu, diễn tập có tính chất nguy hiểm trong các trường hợp sau: bắn đạn thật, sử dụng thuốc nổ; chữa cháy; chống khủng bố, bạo loạn; giải thoát con tin; cứu hộ, cứu nạn, ứng cứu thảm họa thiên tai; trong huấn luyện chiến đấu, diễn tập của lực lượng: không quân, hải quân, kiểm ngư, cảnh sát biển, đặc công, trinh sát đặc nhiệm, cảnh sát cơ động, đặc nhiệm.\nb)\tLàm nhiệm vụ quốc phòng an ninh có tính chất nguy hiểm khi: chữa cháy; chống khủng bố, bạo loạn; giải thoát con tin; cứu hộ, cứu nạn, ứng cứu thảm họa thiên tai; thực hiện nhiệm vụ của kiểm ngư, cảnh sát biển; tìm kiếm, quy tập hài cốt liệt sĩ; rà phá, xử lý, tiêu hủy bom mìn, vật liệu nổ; nghiên cứu, chế tạo, sản xuất, thử nghiệm, bảo quản, vận chuyển thuốc phóng, thuốc nổ, vũ khí, đạn dược; xây dựng công trình ngầm quốc phòng, an ninh.\n4.\tĐịa bàn biên giới, trên biển, hải đảo có điều kiện đặc biệt khó khăn theo quy định tại điểm h khoản 1 Điều 14 Pháp lệnh (sau đây gọi là địa bàn đặc biệt khó khăn) là địa bàn có điều kiện tự nhiên hiểm trở, khắc nghiệt, khó khăn dễ xảy ra tai nạn, ốm đau, bao gồm các địa bàn theo Phụ lục IV Nghị định số 131/2021/NĐ-CP.\nKhông xem xét công nhận đối với các trường hợp ốm đau tại địa bàn đặc biệt khó khăn nhưng đã được đưa đi chữa trị ở bệnh viện tuyến tỉnh trở lên hoặc ốm đau ở nơi khác và đã được điều trị nhưng không chữa khỏi mà vẫn chuyển công tác về địa bàn có điều kiện đặc biệt khó khăn.\n5.\tTrực tiếp làm nhiệm vụ đấu tranh chống tội phạm quy định tại điểm i khoản 1 Điều 14 Pháp lệnh là trực tiếp thực thi nhiệm vụ theo yêu cầu của cơ quan có thẩm quyền nhằm điều tra, phát hiện, ngăn chặn, bắt giữ đối tượng phạm tội hoặc ngăn chặn hành vi nguy hiểm cho xã hội được quy định trong Bộ luật Hình sự.\n6.\tXem xét công nhận liệt sĩ đối với trường hợp quy định tại điểm k khoản 1 Điều 14 Pháp lệnh gồm các yếu tố sau:\na)\tNhận thức được đầy đủ sự nguy hiểm và tính cấp bách của sự việc.\nb)\tChủ động thực hiện hành vi đặc biệt dũng cảm, chấp nhận hy sinh bản thân.\nc)\tBảo vệ lợi ích quan trọng của Nhà nước, tính mạng và lợi ích hợp pháp của Nhân dân hoặc để ngăn chặn, bắt giữ người có hành vi phạm tội đặc biệt nghiêm trọng.\nd)\tLà tấm gương có ý nghĩa tôn vinh, giáo dục, lan tỏa rộng rãi trong xã hội, được tặng thưởng Huân chương và được Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Chủ tịch Ủy ban  nhân dân cấp tỉnh tổ chức phát động học tập tấm gương.\n7.\tCác trường hợp khác thực hiện theo quy định tại các điểm c, d, đ, e, l, m khoản 1 Điều 14 Pháp lệnh.",
   "results": [
     {
       "title": "Quyết định cấp Bằng “Tổ quốc ghi công” và Bằng “Tổ quốc ghi công”.",
       "code": "KQ.G09.000411",
-      "id": "019d2bb2-1c4d-7725-9d9c-20dc408f5f22",
-      "source_page": null
+      "source_page": 72
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "       Bước 1: Bộ Quốc phòng, Bộ Công an có trách nhiệm hướng dẫn về quy trình lập hồ sơ đề nghị công nhận liệt sĩ theo quy định.\nCó văn bản đề nghị kèm hồ sơ gửi Bộ Nội vụ thẩm định trong thời gian không quá 50 ngày kể từ ngày cơ quan, đơn vị trực tiếp quản lý người hy sinh xác lập, hoàn thiện các giấy tờ quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP.        \nBước 2: Bộ Nội vụ:\na)\tTrong thời gian 40 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm thẩm định, lập tờ trình và danh sách kèm theo trình Thủ tướng Chính phủ ban hành quyết định cấp Bằng “Tổ quốc ghi công”.\nb)\tTrong thời gian 20 ngày kể từ ngày nhận quyết định cấp bằng, có trách nhiệm in, chuyển Văn phòng Chính phủ đóng dấu Bằng “Tổ quốc ghi công” và chuyển hồ sơ kèm bản sao quyết định cấp bằng, Bằng “Tổ quốc ghi công” đến cơ quan đề nghị thẩm định để chuyển về cơ quan, đơn vị cấp giấy chứng nhận hy sinh.\n       Bước 3: Cơ quan, đơn vị cấp giấy chứng nhận hy sinh trong thời gian 20 ngày kể từ ngày nhận bản sao quyết định cấp bằng, Bằng “Tổ quốc ghi công” kèm hồ sơ, có trách nhiệm:\na)\tThông báo cho thân nhân của liệt sĩ (cha đẻ, mẹ đẻ, vợ hoặc chồng, con liệt sĩ, người có công nuôi liệt sĩ) và phối hợp với Ủy ban nhân dân cấp xã nơi đại diện thân nhân liệt sĩ thường trú tổ chức lễ truy điệu liệt sĩ, trao Bằng “Tổ quốc ghi công”.\n        Trường hợp không còn thân nhân thì tổ chức lễ truy điệu liệt sĩ, bàn giao Bằng “Tổ quốc ghi công” về Ủy ban nhân dân cấp xã nơi liệt sĩ thường trú trước khi hy sinh.\nb)\tBàn giao hồ sơ kèm bản sao quyết định cấp Bằng về Sở Nội vụ nơi tổ chức lễ truy điệu liệt sĩ.\n\n\nBước 1: Cơ quan, tổ chức, đơn vị trực tiếp quản lý người hy sinh có trách nhiệm xác lập, hoàn thiện các giấy tờ theo quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP, gửi cơ quan có thẩm quyền cấp giấy chứng nhận hy sinh quy định tại các khoản 3, 4 Điều 16 Nghị định số 131/2021/NĐ-CP và điểm b khoản 2 Điều 4 Nghị định số 129/2025/NĐ-CP ngày 11 tháng 06 năm 2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nội vụ.\n        Bước 2: Cơ quan có thẩm quyền cấp giấy chứng nhận hy sinh quy định tại khoản 3, 4 Điều 16 Nghị định số 131/2021/NĐ-CP trong thời gian 20 ngày làm việc kể từ ngày tiếp nhận đủ các giấy tờ, có trách nhiệm kiểm tra, xác minh, cấp giấy chứng nhận hy sinh theo Mẫu số 34 Phụ lục I Nghị định số 131/2021/NĐ-CP.\nTrong thời gian không quá 20 ngày làm việc kể từ ngày cấp giấy chứng nhận hy sinh, lập tờ trình, danh, dự thảo Quyết định cấp Bằng “Tổ quốc ghi công” của Thủ tướng Chính phủ kèm theo phôi Bằng “Tổ quốc ghi công” trình Thủ tướng Chính phủ.\nCơ quan có thẩm quyền cấp giấy chứng nhận hy sinh quy định tại điểm b khoản 2 Điều 4 của Nghị định số 129/2025/NĐ-CP ngày 11 tháng 06 năm 2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nội vụ trong thời gian 20 ngày làm việc kể từ ngày tiếp nhận đủ các giấy tờ, có trách nhiệm kiểm tra, xác minh, cấp giấy chứng nhận hy sinh; có văn bản kèm theo các giấy tờ theo quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP chuyển đến Sở Nội vụ.\nBước 3: Sở Nội vụ trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ, có trách nhiệm kiểm tra, hoàn thiện hồ sơ đề nghị công nhận liệt sĩ, báo cáo Ủy ban nhân dân cấp tỉnh trình Thủ tướng Chính phủ ban hành quyết định cấp Bằng \"Tổ quốc ghi công\".\nBước 4: Ủy ban nhân dân cấp tỉnh trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ, có trách nhiệm kiểm tra, lập tờ trình, danh sách, dự thảo Quyết định cấp Bằng “Tổ quốc ghi công” của Thủ tướng Chính phủ kèm theo phôi Bằng “Tổ quốc ghi công” trình Thủ tướng Chính phủ.\nBước 5: Các Bộ, ngành và Ủy ban nhân dân cấp tỉnh trong thời gian 05 ngày làm việc kể từ ngày nhận quyết định cấp bằng và Bằng “Tổ quốc ghi công”, chuyển hồ sơ kèm Bằng “Tổ quốc ghi công” đến cơ quan, đơn vị cấp giấy chứng nhận hy sinh.\nBước 6: Cơ quan, đơn vị cấp giấy chứng nhận hy sinh trong thời gian 10 ngày làm việc kể từ ngày nhận được Bằng “Tổ quốc ghi công” kèm hồ sơ, có trách nhiệm:\nThông báo cho thân nhân của liệt sĩ; chủ trì, phối hợp với Ủy ban nhân dân cấp xã nơi đại diện thân nhân liệt sĩ thường trú tổ chức lễ truy điệu và trao Bằng “Tổ quốc ghi công” cho đại diện thân nhân liệt sĩ; bàn giao hồ sơ liệt sĩ về Sở Nội vụ nơi đại diện thân nhân liệt sĩ thường trú.\nTrường hợp không còn thân nhân thì bàn giao hồ sơ liệt sĩ, Bằng “Tổ quốc ghi công” về Sở Nội vụ nơi liệt sĩ thường trú trước khi hy sinh để trao Bằng cho người hưởng trợ cấp thờ cúng liệt sĩ.\n\n* Trường hợp đang sống tại gia đình\n       Bước 1: Đại diện thân nhân hoặc cá nhân có đơn đề nghị kèm giấy tờ theo quy định tại khoản 8 Điều 17 Nghị định số 131/2021/NĐ-CP gửi Ủy ban nhân dân cấp xã nơi thương binh, người hưởng chính sách như thương binh thường trú trước khi chết.\nBước 2: Ủy ban nhân dân cấp xã trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ có trách nhiệm xác nhận đơn đề nghị, có văn bản gửi Sở Nội vụ cấp bản trích lục hồ sơ thương binh làm căn cứ để cấp chứng nhận hy sinh.\nỦy ban nhân dân cấp xã trong thời gian 10 ngày kể từ ngày tiếp nhận bản trích lục hồ thương binh, có trách nhiệm kiểm tra, xác minh, cấp giấy chứng nhận hy sinh chuyển đến Sở Nội vụ kèm theo các giấy tờ theo quy định tại điểm a, điểm b khoản 1 Điều 20 Nghị định số 131/2021/NĐ-CP.\nBước 3: Sở Nội vụ trong thời gian 05 ngày làm việc kể từ ngày nhận được văn bản đề nghị cấp bản trích lục hồ sơ thương binh, thẩm định hồ sơ đề nghị công nhận liệt sĩ, có văn bản đề nghị kèm hồ sơ gửi Ủy ban nhân dân cấp tỉnh trong thời gian 10 ngày kể từ ngày nhận đủ giấy tờ.\n        Bước 4: Ủy ban nhân dân cấp tỉnh trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ, có trách nhiệm kiểm tra và gửi văn bản kèm theo các giấy tờ theo quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP đề nghị Bộ Nội vụ thẩm định.\n        Bước 5: Bộ Nội vụ trong thời gian 40 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm thẩm định, lập tờ trình và danh sách kèm theo trình Thủ tướng Chính phủ ban hành quyết định cấp Bằng “Tổ quốc ghi công”; trong thời gian 20 ngày kể từ ngày nhận quyết định cấp bằng, có trách nhiệm in, chuyển Văn phòng Chính phủ đóng dấu Bằng “Tổ quốc ghi công” và chuyển hồ sơ kèm bản sao quyết định cấp bằng, Bằng “Tổ quốc ghi công” đến cơ quan đề nghị thẩm định để chuyển về cơ quan, đơn vị cấp giấy chứng nhận hy sinh.\nBước 6: Cơ quan, đơn vị cấp giấy chứng nhận hy sinh có trách nhiệm thông báo cho thân nhân của liệt sĩ và phối hợp với Ủy ban nhân dân cấp xã nơi đại diện thân nhân liệt sĩ thường trú tổ chức lễ truy điệu liệt sĩ, trao Bằng “Tổ quốc ghi công”. Trường hợp không còn thân nhân thì tổ chức lễ truy điệu liệt sĩ, bàn giao Bằng “Tổ quốc ghi công” về Ủy ban nhân dân cấp xã nơi liệt sĩ thường trú trước khi hy sinh; Bàn giao hồ sơ kèm bản sao quyết định cấp Bằng về Sở Nội vụ nơi tổ chức lễ truy điệu liệt sĩ.\n* Trường hợp đang nuôi dưỡng tại cơ sở nuôi dưỡng, điều dưỡng người có công\nBước 1: Giám đốc cơ sở nuôi dưỡng, điều dưỡng người có công có văn bản kèm giấy tờ theo quy định tại khoản 8 Điều 17 Nghị định số 131/2021/NĐ-CP gửi Sở Nội vụ nơi quản lý hồ sơ cung cấp bản trích lục hồ sơ thương binh.\nBước 2: Sở Nội vụ trong thời gian 10 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm cung cấp trích lục hồ sơ thương binh và gửi kèm các giấy tờ quy định đến Ủy ban nhân dân cấp xã nơi cơ sở nuôi dưỡng, điều dưỡng người có công đặt trụ sở.\nBước 3: Ủy ban nhân dân cấp xã trong thời gian 10 ngày kể từ ngày tiếp nhận bản trích lục hồ sơ thương binh, có trách nhiệm kiểm tra, xác minh, cấp giấy chứng nhận hy sinh chuyển đến Sở Nội vụ nơi cơ sở nuôi dưỡng, điều dưỡng người có công đặt trụ sở kèm theo các giấy tờ theo quy định tại điểm a khoản 2 Điều 20 Nghị định số 131/2021/NĐ-CP.\nBước 4: Sở Nội vụ trong thời gian 10 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm thẩm định, nếu đủ điều kiện thì có văn bản đề nghị gửi Ủy ban nhân dân cấp tỉnh kèm theo các giấy tờ quy định tại điểm c khoản 2 Điều 20 Nghị định số 131/2021/NĐ-CP.\n        Bước 5: Ủy ban nhân dân cấp tỉnh trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ, có trách nhiệm kiểm tra và gửi văn bản kèm theo các giấy tờ theo quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP đề nghị Bộ Nội vụ thẩm định.\n        Bước 6: Bộ Nội vụ trong thời gian 40 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm thẩm định, lập tờ trình và danh sách kèm theo trình Thủ tướng Chính phủ ban hành quyết định cấp Bằng “Tổ quốc ghi công”; trong thời gian 20 ngày kể từ ngày nhận quyết định cấp bằng, có trách nhiệm in, chuyển Văn phòng Chính phủ đóng dấu Bằng “Tổ quốc ghi công” và chuyển hồ sơ kèm bản sao quyết định cấp bằng, Bằng “Tổ quốc ghi công” đến cơ quan đề nghị thẩm định để chuyển về cơ quan, đơn vị cấp giấy chứng nhận hy sinh.\n         Bước 7: Cơ quan, đơn vị cấp giấy chứng nhận hy sinh có trách nhiệm thông báo cho thân nhân của liệt sĩ và phối hợp với Ủy ban nhân dân cấp xã nơi đại diện thân nhân liệt sĩ thường trú tổ chức lễ truy điệu liệt sĩ, trao Bằng “Tổ quốc ghi công”. Trường hợp không còn thân nhân thì tổ chức lễ truy điệu liệt sĩ, bàn giao Bằng “Tổ quốc ghi công” về Ủy ban nhân dân cấp xã nơi liệt sĩ thường trú trước khi hy sinh; Bàn giao hồ sơ kèm bản sao quyết định cấp Bằng về Sở Nội vụ nơi tổ chức lễ truy điệu liệt sĩ.\n",
-    "THÀNH PHẦN HỒ SƠ": "a)\tĐối với trường hợp hy sinh quy định tại điểm a khoản 1 Điều 14 của Pháp lệnh, việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở giấy xác nhận của các cơ quan, đơn vị sau:\n-\tNgười hy sinh là sĩ quan, quân nhân chuyên nghiệp, hạ sĩ quan, binh sĩ, công chức quốc phòng, công nhân và viên chức quốc phòng do thủ trưởng cấp tiểu đoàn và tương đương cấp; người hy sinh là người làm công tác cơ yếu, người làm công tác khác trong tổ chức cơ yếu và học viên cơ yếu thuộc Ban Cơ yếu Chính phủ do thủ trưởng đơn vị thuộc cơ quan, đơn vị trực thuộc Ban cấp.\n-\tNgười hy sinh thuộc các cơ quan trung ương do thủ trưởng cấp vụ hoặc cấp tương đương cấp.\n-\tNgười hy sinh là sĩ quan, hạ sĩ quan, chiến sĩ, công nhân, lao động hợp đồng không xác định thời hạn hưởng lương từ ngân sách trong công an do thủ trưởng công an cấp xã cấp\n-\tNgười hy sinh không thuộc quy định tại các điểm a, b, c khoản 1 Điều 17 Nghị định số 131/2021/NĐ-CP do Chủ tịch Ủy ban nhân dân cấp xã cấp\nb)\tĐối với trường hợp hy sinh quy định tại điểm đ khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:\n-\tQuyết định cử đi làm nghĩa vụ quốc tế do thủ trưởng cơ quan, đơn vị có thẩm quyền cấp.\n-\tBiên bản xảy ra sự việc do cơ quan đơn vị trực tiếp quản lý người hy sinh lập; trường hợp không có biên bản xảy ra sự việc thì phải có giấy xác nhận trường hợp hy sinh do thủ trưởng cơ quan, đơn vị quy định tại khoản 1 Điều 17 Nghị định số 131/2021/NĐ-CP cấp\ne)\tĐối với trường hợp hy sinh quy định tại điểm i khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở bản kế hoạch công tác hoặc quyết định, danh sách phân công làm nhiệm vụ hoặc giấy xác nhận giao nhiệm vụ của cơ quan, đơn vị trực tiếp quản lý người hy sinh; biên bản họp cấp ủy, lãnh đạo, cơ quan đơn vị quản lý người hy sinh thống nhất việc đề nghị công nhận liệt sĩ; bản án hoặc bản kết luận điều tra vụ án hình sự của cơ quan điều tra.\nTrường hợp không có bản án, bản kết luận vụ án của cơ quan điều tra thì phải kèm báo cáo kết thúc điều tra vụ việc hoặc báo cáo kết quả điều tra vụ việc của cơ quan điều tra có thẩm quyền và một trong các giấy tờ sau: Quyết định khởi tố vụ án hoặc quyết định tạm đình chỉ điều tra vụ án đối với trường hợp không xác định được đối tượng phạm tội; Quyết định truy nã bị can đối với trường hợp đối tượng phạm tội bỏ trốn hoặc không xác định được nơi đối tượng thường trú; Quyết định gia hạn điều tra; Quyết định không khởi tố vụ án, quyết định hủy bỏ quyết định khởi tố vụ án, quyết định đình chỉ điều tra vụ án đối với trường hợp người thực hiện hành vi nguy hiểm cho xã hội không có năng lực trách nhiệm hình sự hoặc chưa đến tuổi chịu trách nhiệm hình sự hoặc đã chết. Trường hợp bản án, bản kết luận vụ án, báo cáo kết thúc điều tra vụ việc hoặc báo cáo kết quả điều tra vụ việc không thể hiện rõ trường hợp hy sinh thì phải kèm theo biên bản xảy ra sự việc và báo cáo vụ việc của cơ quan, đơn vị trực tiếp quản lý người hy sinh.\ng)\tĐối với trường hợp hy sinh quy định tại điểm k khoản 1 Điều 14 Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:\n-\tBản sao được chứng thực từ Quyết định tặng thưởng Huân chương và Quyết định tổ chức phát động học tập tấm gương của Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân cấp tỉnh\n-\tBiên bản xảy ra sự việc do cơ quan, đơn vị trực tiếp quản lý người hy sinh hoặc Ủy ban nhân dân cấp xã nơi xảy ra sự việc lập; đối với việc ngăn chặn, bắt giữ người có hành vi phạm tội phải có kết luận của cơ quan điều tra cấp tỉnh trở lên.\nĐối với trường hợp hy sinh quy định tại điểm h khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:\n-\tBản sao được chứng thực từ một trong các giấy tờ có ghi nhận thời gian làm nhiệm vụ quốc phòng, an ninh ở địa bàn đặc biệt khó khăn như sau: lý lịch cán bộ; lý lịch quân nhân; lý lịch đảng viên; hồ sơ bảo hiểm xã hội.\n-\tQuyết định phân công nhiệm vụ của cơ quan có thẩm quyền\n-\tBiên bản xảy ra sự việc đối với trường hợp tai nạn hoặc bản tóm tắt hồ sơ bệnh án thể hiện mắc bệnh trong thời gian công tác tại địa bàn có điều kiện đặc biệt khó khăn.\n\ni)\tĐối với trường hợp mất tích theo quy định tại các điểm e, g, i, k khoản 1 Điều 14 Pháp lệnh việc cấp giấy chứng nhận hy sinh phải trên cơ sở căn cứ cấp giấy chứng nhận hy sinh quy định tại các khoản 3, 4 hoặc khoản 6, 7 Điều 17 Nghị định số 131/2021/NĐ-CP, kèm theo quyết định của tòa án tuyên mất tích theo quy định của Bộ luật Dân sự.\nĐối với trường hợp hy sinh hoặc mất tích trong kháng chiến chống Pháp, kháng chiến chống Mỹ, chiến tranh biên giới phía Bắc, biên giới Tây Nam và làm nghĩa vụ quốc tế tại Lào và Campuchia, truy quét Ful rô quy định tại một trong các điểm a, b, c, d, đ khoản 1 Điều 14 Pháp lệnh thì việc cấp giấy chứng nhận hy sinh thực hiện theo hướng dẫn tại Mục 12 Chương II Nghị định số 131/2021/NĐ-CP ngày 30/12/2021 của Chính phủ.\nc)\tĐối với trường hợp hy sinh quy định tại điểm e khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải trên cơ sở biên bản xảy ra sự việc do cơ quan, đơn vị trực tiếp quản lý người hy sinh lập.\nh)\tĐối với trường hợp thương binh chết do vết thương tái phát quy định tại điểm l khoản 1 Điều 14 Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở bản tóm tắt hồ sơ bệnh án và biên bản kiểm thảo tử vong xác định nguyên nhân chính gây tử vong là do vết thương cũ tái phát của Bệnh viện hoặc Trung tâm Y tế khu vực (bao gồm cả bệnh viện quân đội, công an).\nd)\tĐối với trường hợp hy sinh quy định tại điểm g khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải trên cơ sở văn bản giao làm nhiệm vụ huấn luyện chiến đấu, diễn tập hoặc làm nhiệm vụ quốc phòng, an ninh có tính chất nguy hiểm kèm biên bản xảy ra sự việc do cơ quan, đơn vị trực tiếp quản lý người hy sinh lập.",
-    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 130 ngày - Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh thuộc quân đội, công an quản lý: 130 ngày kể từ ngày nhận đủ hồ sơ.\nTrực tiếp: 55 ngày làm việc - Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý: Người hy sinh do Bộ trưởng hoặc cấp tương đương hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy chứng nhận: 55 ngày ngày làm việc kể từ ngày nhận đủ hồ sơ; Người hy sinh do Chủ tịch Ủy ban nhân dân cấp xã cấp giấy chứng nhận: 45 ngày làm việc từ ngày nhận đủ hồ sơ. \nTrực tiếp: 130 ngày - Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh thuộc quân đội, công an quản lý: 130 ngày kể từ ngày nhận đủ hồ sơ.\nTrực tuyến: 130 ngày - Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh thuộc quân đội, công an quản lý: 130 ngày kể từ ngày nhận đủ hồ sơ.\nTrực tuyến: 55 ngày làm việc - Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý: Người hy sinh do Bộ trưởng hoặc cấp tương đương hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy chứng nhận: 55 ngày ngày làm việc kể từ ngày nhận đủ hồ sơ; Người hy sinh do Chủ tịch Ủy ban nhân dân cấp xã cấp giấy chứng nhận: 45 ngày làm việc từ ngày nhận đủ hồ sơ. \nQua dịch vụ bưu chính: 55 ngày làm việc - Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý: Người hy sinh do Bộ trưởng hoặc cấp tương đương hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy chứng nhận: 55 ngày ngày làm việc kể từ ngày nhận đủ hồ sơ; Người hy sinh do Chủ tịch Ủy ban nhân dân cấp xã cấp giấy chứng nhận: 45 ngày làm việc từ ngày nhận đủ hồ sơ. \nQua dịch vụ bưu chính: 45 ngày làm việc - Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý: Người hy sinh do Bộ trưởng hoặc cấp tương đương hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy chứng nhận: 55 ngày ngày làm việc kể từ ngày nhận đủ hồ sơ; Người hy sinh do Chủ tịch Ủy ban nhân dân cấp xã cấp giấy chứng nhận: 45 ngày làm việc từ ngày nhận đủ hồ sơ. \nTrực tiếp: 45 ngày làm việc - Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý: Người hy sinh do Bộ trưởng hoặc cấp tương đương hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy chứng nhận: 55 ngày ngày làm việc kể từ ngày nhận đủ hồ sơ; Người hy sinh do Chủ tịch Ủy ban nhân dân cấp xã cấp giấy chứng nhận: 45 ngày làm việc từ ngày nhận đủ hồ sơ. \nTrực tuyến: 45 ngày làm việc - Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. - Đối với trường hợp hy sinh không thuộc quân đội, công an quản lý: Người hy sinh do Bộ trưởng hoặc cấp tương đương hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy chứng nhận: 55 ngày ngày làm việc kể từ ngày nhận đủ hồ sơ; Người hy sinh do Chủ tịch Ủy ban nhân dân cấp xã cấp giấy chứng nhận: 45 ngày làm việc từ ngày nhận đủ hồ sơ. \nTrực tuyến: 105 ngày làm việc - Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n       + Thương binh, người hưởng chính sách như thương binh đang sống tại gia đình: 105 ngày làm việc kể từ ngày nhận đủ hồ sơ;\n             \n\nTrực tiếp: 105 ngày làm việc - Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n       + Thương binh, người hưởng chính sách như thương binh đang sống tại gia đình: 105 ngày làm việc kể từ ngày nhận đủ hồ sơ;\n             \n\nQua dịch vụ bưu chính: 105 ngày làm việc - Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n       + Thương binh, người hưởng chính sách như thương binh đang sống tại gia đình: 105 ngày làm việc kể từ ngày nhận đủ hồ sơ;\n             \n\nQua dịch vụ bưu chính: 95 ngày làm việc - Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n            + Thương binh, người hưởng chính sách như thương binh đang nuôi dưỡng tại cơ sở nuôi dưỡng, điều dưỡng người có công: 95 ngày kể từ ngày nhận đủ hồ sơ.\n        (Thời gian giải quyết chưa tính thời gian kể từ ngày trình Thủ tướng Chính phủ ban hành Quyết định cấp bằng Tổ quốc ghi công đến ngày nhận Quyết định cấp bằng). \n\nQua dịch vụ bưu chính: 95 ngày làm việc - Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n            + Thương binh, người hưởng chính sách như thương binh đang nuôi dưỡng tại cơ sở nuôi dưỡng, điều dưỡng người có công: 95 ngày kể từ ngày nhận đủ hồ sơ.\n        (Thời gian giải quyết chưa tính thời gian kể từ ngày trình Thủ tướng Chính phủ ban hành Quyết định cấp bằng Tổ quốc ghi công đến ngày nhận Quyết định cấp bằng). \n\nTrực tiếp: 95 ngày làm việc - Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n            + Thương binh, người hưởng chính sách như thương binh đang nuôi dưỡng tại cơ sở nuôi dưỡng, điều dưỡng người có công: 95 ngày kể từ ngày nhận đủ hồ sơ.\n        (Thời gian giải quyết chưa tính thời gian kể từ ngày trình Thủ tướng Chính phủ ban hành Quyết định cấp bằng Tổ quốc ghi công đến ngày nhận Quyết định cấp bằng). \n\nTrực tuyến: 95 ngày làm việc - Qua dịch vụ bưu chính công ích hoặc trực tiếp hoặc trực tuyến. -\tĐối với thương binh, người hưởng chính sách như thương binh quy định tại khoản 1 và khoản 2 Điều 23 của Pháp lệnh Ưu đãi người có công có tỷ lệ tổn thương cơ thể từ 61% trở lên tử vong do vết thương tái phát:\n            + Thương binh, người hưởng chính sách như thương binh đang nuôi dưỡng tại cơ sở nuôi dưỡng, điều dưỡng người có công: 95 ngày kể từ ngày nhận đủ hồ sơ.\n        (Thời gian giải quyết chưa tính thời gian kể từ ngày trình Thủ tướng Chính phủ ban hành Quyết định cấp bằng Tổ quốc ghi công đến ngày nhận Quyết định cấp bằng). \n",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Bộ Quốc phòng, Bộ Công an có trách nhiệm hướng dẫn về quy trình lập hồ sơ đề nghị công nhận liệt sĩ theo quy định.\nCó văn bản đề nghị kèm hồ sơ gửi Bộ Nội vụ thẩm định trong thời gian không quá 50 ngày kể từ ngày cơ quan, đơn vị trực tiếp quản lý người hy sinh xác lập, hoàn thiện các giấy tờ quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP.\nBước 2: Bộ Nội vụ:\na)\tTrong thời gian 40 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm thẩm định, lập tờ trình và danh sách kèm theo trình Thủ tướng Chính phủ ban hành quyết định cấp Bằng “Tổ quốc ghi công”.\nb)\tTrong thời gian 20 ngày kể từ ngày nhận quyết định cấp bằng, có trách nhiệm in, chuyển Văn phòng Chính phủ đóng dấu Bằng “Tổ quốc ghi công” và chuyển hồ sơ kèm bản sao quyết định cấp bằng, Bằng “Tổ quốc ghi công” đến cơ quan đề nghị thẩm định để chuyển về cơ quan, đơn vị cấp giấy chứng nhận hy sinh.\nBước 3: Cơ quan, đơn vị cấp giấy chứng nhận hy sinh trong thời gian 20 ngày kể từ ngày nhận bản sao quyết định cấp bằng, Bằng “Tổ quốc ghi công” kèm hồ sơ, có trách nhiệm:\na)\tThông báo cho thân nhân của liệt sĩ (cha đẻ, mẹ đẻ, vợ hoặc chồng, con liệt sĩ, người có công nuôi liệt sĩ) và phối hợp với Ủy ban nhân dân cấp xã nơi đại diện thân nhân liệt sĩ thường trú tổ chức lễ truy điệu liệt sĩ, trao Bằng “Tổ quốc ghi công”.\n        Trường hợp không còn thân nhân thì tổ chức lễ truy điệu liệt sĩ, bàn giao Bằng “Tổ quốc ghi công” về Ủy ban nhân dân cấp xã nơi liệt sĩ thường trú trước khi hy sinh.\nb)\tBàn giao hồ sơ kèm bản sao quyết định cấp Bằng về Sở Nội vụ nơi tổ chức lễ truy điệu liệt sĩ.\nBước 1: Cơ quan, tổ chức, đơn vị trực tiếp quản lý người hy sinh có trách nhiệm xác lập, hoàn thiện các giấy tờ theo quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP, gửi cơ quan có thẩm quyền cấp giấy chứng nhận hy sinh quy định tại các khoản 3, 4 Điều 16 Nghị định số 131/2021/NĐ-CP và điểm b khoản 2 Điều 4 Nghị định số 129/2025/NĐ-CP ngày 11 tháng 06 năm 2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nội vụ.\nBước 2: Cơ quan có thẩm quyền cấp giấy chứng nhận hy sinh quy định tại khoản 3, 4 Điều 16 Nghị định số 131/2021/NĐ-CP trong thời gian 20 ngày làm việc kể từ ngày tiếp nhận đủ các giấy tờ, có trách nhiệm kiểm tra, xác minh, cấp giấy chứng nhận hy sinh theo Mẫu số 34 Phụ lục I Nghị định số 131/2021/NĐ-CP.\nTrong thời gian không quá 20 ngày làm việc kể từ ngày cấp giấy chứng nhận hy sinh, lập tờ trình, danh, dự thảo Quyết định cấp Bằng “Tổ quốc ghi công” của Thủ tướng Chính phủ kèm theo phôi Bằng “Tổ quốc ghi công” trình Thủ tướng Chính phủ.\nCơ quan có thẩm quyền cấp giấy chứng nhận hy sinh quy định tại điểm b khoản 2 Điều 4 của Nghị định số 129/2025/NĐ-CP ngày 11 tháng 06 năm 2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nội vụ trong thời gian 20 ngày làm việc kể từ ngày tiếp nhận đủ các giấy tờ, có trách nhiệm kiểm tra, xác minh, cấp giấy chứng nhận hy sinh; có văn bản kèm theo các giấy tờ theo quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP chuyển đến Sở Nội vụ.\nBước 3: Sở Nội vụ trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ, có trách nhiệm kiểm tra, hoàn thiện hồ sơ đề nghị công nhận liệt sĩ, báo cáo Ủy ban nhân dân cấp tỉnh trình Thủ tướng Chính phủ ban hành quyết định cấp Bằng \"Tổ quốc ghi công\".\nBước 4: Ủy ban nhân dân cấp tỉnh trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ, có trách nhiệm kiểm tra, lập tờ trình, danh sách, dự thảo Quyết định cấp Bằng “Tổ quốc ghi công” của Thủ tướng Chính phủ kèm theo phôi Bằng “Tổ quốc ghi công” trình Thủ tướng Chính phủ.\nBước 5: Các Bộ, ngành và Ủy ban nhân dân cấp tỉnh trong thời gian 05 ngày làm việc kể từ ngày nhận quyết định cấp bằng và Bằng “Tổ quốc ghi công”, chuyển hồ sơ kèm Bằng “Tổ quốc ghi công” đến cơ quan, đơn vị cấp giấy chứng nhận hy sinh.\nBước 6: Cơ quan, đơn vị cấp giấy chứng nhận hy sinh trong thời gian 10 ngày làm việc kể từ ngày nhận được Bằng “Tổ quốc ghi công” kèm hồ sơ, có trách nhiệm:\nThông báo cho thân nhân của liệt sĩ; chủ trì, phối hợp với Ủy ban nhân dân cấp xã nơi đại diện thân nhân liệt sĩ thường trú tổ chức lễ truy điệu và trao Bằng “Tổ quốc ghi công” cho đại diện thân nhân liệt sĩ; bàn giao hồ sơ liệt sĩ về Sở Nội vụ nơi đại diện thân nhân liệt sĩ thường trú.\nTrường hợp không còn thân nhân thì bàn giao hồ sơ liệt sĩ, Bằng “Tổ quốc ghi công” về Sở Nội vụ nơi liệt sĩ thường trú trước khi hy sinh để trao Bằng cho người hưởng trợ cấp thờ cúng liệt sĩ.\n* Trường hợp đang sống tại gia đình\nBước 1: Đại diện thân nhân hoặc cá nhân có đơn đề nghị kèm giấy tờ theo quy định tại khoản 8 Điều 17 Nghị định số 131/2021/NĐ-CP gửi Ủy ban nhân dân cấp xã nơi thương binh, người hưởng chính sách như thương binh thường trú trước khi chết.\nBước 2: Ủy ban nhân dân cấp xã trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ có trách nhiệm xác nhận đơn đề nghị, có văn bản gửi Sở Nội vụ cấp bản trích lục hồ sơ thương binh làm căn cứ để cấp chứng nhận hy sinh.\nỦy ban nhân dân cấp xã trong thời gian 10 ngày kể từ ngày tiếp nhận bản trích lục hồ thương binh, có trách nhiệm kiểm tra, xác minh, cấp giấy chứng nhận hy sinh chuyển đến Sở Nội vụ kèm theo các giấy tờ theo quy định tại điểm a, điểm b khoản 1 Điều 20 Nghị định số 131/2021/NĐ-CP.\nBước 3: Sở Nội vụ trong thời gian 05 ngày làm việc kể từ ngày nhận được văn bản đề nghị cấp bản trích lục hồ sơ thương binh, thẩm định hồ sơ đề nghị công nhận liệt sĩ, có văn bản đề nghị kèm hồ sơ gửi Ủy ban nhân dân cấp tỉnh trong thời gian 10 ngày kể từ ngày nhận đủ giấy tờ.\nBước 4: Ủy ban nhân dân cấp tỉnh trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ, có trách nhiệm kiểm tra và gửi văn bản kèm theo các giấy tờ theo quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP đề nghị Bộ Nội vụ thẩm định.\nBước 5: Bộ Nội vụ trong thời gian 40 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm thẩm định, lập tờ trình và danh sách kèm theo trình Thủ tướng Chính phủ ban hành quyết định cấp Bằng “Tổ quốc ghi công”; trong thời gian 20 ngày kể từ ngày nhận quyết định cấp bằng, có trách nhiệm in, chuyển Văn phòng Chính phủ đóng dấu Bằng “Tổ quốc ghi công” và chuyển hồ sơ kèm bản sao quyết định cấp bằng, Bằng “Tổ quốc ghi công” đến cơ quan đề nghị thẩm định để chuyển về cơ quan, đơn vị cấp giấy chứng nhận hy sinh.\nBước 6: Cơ quan, đơn vị cấp giấy chứng nhận hy sinh có trách nhiệm thông báo cho thân nhân của liệt sĩ và phối hợp với Ủy ban nhân dân cấp xã nơi đại diện thân nhân liệt sĩ thường trú tổ chức lễ truy điệu liệt sĩ, trao Bằng “Tổ quốc ghi công”. Trường hợp không còn thân nhân thì tổ chức lễ truy điệu liệt sĩ, bàn giao Bằng “Tổ quốc ghi công” về Ủy ban nhân dân cấp xã nơi liệt sĩ thường trú trước khi hy sinh; Bàn giao hồ sơ kèm bản sao quyết định cấp Bằng về Sở Nội vụ nơi tổ chức lễ truy điệu liệt sĩ.\n* Trường hợp đang nuôi dưỡng tại cơ sở nuôi dưỡng, điều dưỡng người có công\nBước 1: Giám đốc cơ sở nuôi dưỡng, điều dưỡng người có công có văn bản kèm giấy tờ theo quy định tại khoản 8 Điều 17 Nghị định số 131/2021/NĐ-CP gửi Sở Nội vụ nơi quản lý hồ sơ cung cấp bản trích lục hồ sơ thương binh.\nBước 2: Sở Nội vụ trong thời gian 10 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm cung cấp trích lục hồ sơ thương binh và gửi kèm các giấy tờ quy định đến Ủy ban nhân dân cấp xã nơi cơ sở nuôi dưỡng, điều dưỡng người có công đặt trụ sở.\nBước 3: Ủy ban nhân dân cấp xã trong thời gian 10 ngày kể từ ngày tiếp nhận bản trích lục hồ sơ thương binh, có trách nhiệm kiểm tra, xác minh, cấp giấy chứng nhận hy sinh chuyển đến Sở Nội vụ nơi cơ sở nuôi dưỡng, điều dưỡng người có công đặt trụ sở kèm theo các giấy tờ theo quy định tại điểm a khoản 2 Điều 20 Nghị định số 131/2021/NĐ-CP.\nBước 4: Sở Nội vụ trong thời gian 10 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm thẩm định, nếu đủ điều kiện thì có văn bản đề nghị gửi Ủy ban nhân dân cấp tỉnh kèm theo các giấy tờ quy định tại điểm c khoản 2 Điều 20 Nghị định số 131/2021/NĐ-CP.\nBước 5: Ủy ban nhân dân cấp tỉnh trong thời gian 05 ngày làm việc kể từ ngày nhận đủ giấy tờ, có trách nhiệm kiểm tra và gửi văn bản kèm theo các giấy tờ theo quy định tại Điều 17 Nghị định số 131/2021/NĐ-CP đề nghị Bộ Nội vụ thẩm định.\nBước 6: Bộ Nội vụ trong thời gian 40 ngày kể từ ngày nhận đủ giấy tờ, có trách nhiệm thẩm định, lập tờ trình và danh sách kèm theo trình Thủ tướng Chính phủ ban hành quyết định cấp Bằng “Tổ quốc ghi công”; trong thời gian 20 ngày kể từ ngày nhận quyết định cấp bằng, có trách nhiệm in, chuyển Văn phòng Chính phủ đóng dấu Bằng “Tổ quốc ghi công” và chuyển hồ sơ kèm bản sao quyết định cấp bằng, Bằng “Tổ quốc ghi công” đến cơ quan đề nghị thẩm định để chuyển về cơ quan, đơn vị cấp giấy chứng nhận hy sinh.\nBước 7: Cơ quan, đơn vị cấp giấy chứng nhận hy sinh có trách nhiệm thông báo cho thân nhân của liệt sĩ và phối hợp với Ủy ban nhân dân cấp xã nơi đại diện thân nhân liệt sĩ thường trú tổ chức lễ truy điệu liệt sĩ, trao Bằng “Tổ quốc ghi công”. Trường hợp không còn thân nhân thì tổ chức lễ truy điệu liệt sĩ, bàn giao Bằng “Tổ quốc ghi công” về Ủy ban nhân dân cấp xã nơi liệt sĩ thường trú trước khi hy sinh; Bàn giao hồ sơ kèm bản sao quyết định cấp Bằng về Sở Nội vụ nơi tổ chức lễ truy điệu liệt sĩ.",
+    "THÀNH PHẦN HỒ SƠ": "a)\tĐối với trường hợp hy sinh quy định tại điểm a khoản 1 Điều 14 của Pháp lệnh, việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở giấy xác nhận của các cơ quan, đơn vị sau:: -\tNgười hy sinh là sĩ quan, quân nhân chuyên nghiệp, hạ sĩ quan, binh sĩ, công chức quốc phòng, công nhân và viên chức quốc phòng do thủ trưởng cấp tiểu đoàn và tương đương cấp; người hy sinh là người làm công tác cơ yếu, người làm công tác khác trong tổ chức cơ yếu và học viên cơ yếu thuộc Ban Cơ yếu Chính phủ do thủ trưởng đơn vị thuộc cơ quan, đơn vị trực thuộc Ban cấp.\na)\tĐối với trường hợp hy sinh quy định tại điểm a khoản 1 Điều 14 của Pháp lệnh, việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở giấy xác nhận của các cơ quan, đơn vị sau:: -\tNgười hy sinh thuộc các cơ quan trung ương do thủ trưởng cấp vụ hoặc cấp tương đương cấp.\na)\tĐối với trường hợp hy sinh quy định tại điểm a khoản 1 Điều 14 của Pháp lệnh, việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở giấy xác nhận của các cơ quan, đơn vị sau:: -\tNgười hy sinh là sĩ quan, hạ sĩ quan, chiến sĩ, công nhân, lao động hợp đồng không xác định thời hạn hưởng lương từ ngân sách trong công an do thủ trưởng công an cấp xã cấp\na)\tĐối với trường hợp hy sinh quy định tại điểm a khoản 1 Điều 14 của Pháp lệnh, việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở giấy xác nhận của các cơ quan, đơn vị sau:: -\tNgười hy sinh không thuộc quy định tại các điểm a, b, c khoản 1 Điều 17 Nghị định số 131/2021/NĐ-CP do Chủ tịch Ủy ban nhân dân cấp xã cấp\nb)\tĐối với trường hợp hy sinh quy định tại điểm đ khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:: -\tQuyết định cử đi làm nghĩa vụ quốc tế do thủ trưởng cơ quan, đơn vị có thẩm quyền cấp.\nb)\tĐối với trường hợp hy sinh quy định tại điểm đ khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:: -\tBiên bản xảy ra sự việc do cơ quan đơn vị trực tiếp quản lý người hy sinh lập; trường hợp không có biên bản xảy ra sự việc thì phải có giấy xác nhận trường hợp hy sinh do thủ trưởng cơ quan, đơn vị quy định tại khoản 1 Điều 17 Nghị định số 131/2021/NĐ-CP cấp\ne)\tĐối với trường hợp hy sinh quy định tại điểm i khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở bản kế hoạch công tác hoặc quyết định, danh sách phân công làm nhiệm vụ hoặc giấy xác nhận giao nhiệm vụ của cơ quan, đơn vị trực tiếp quản lý người hy sinh; biên bản họp cấp ủy, lãnh đạo, cơ quan đơn vị quản lý người hy sinh thống nhất việc đề nghị công nhận liệt sĩ; bản án hoặc bản kết luận điều tra vụ án hình sự của cơ quan điều tra.: Trường hợp không có bản án, bản kết luận vụ án của cơ quan điều tra thì phải kèm báo cáo kết thúc điều tra vụ việc hoặc báo cáo kết quả điều tra vụ việc của cơ quan điều tra có thẩm quyền và một trong các giấy tờ sau: Quyết định khởi tố vụ án hoặc quyết định tạm đình chỉ điều tra vụ án đối với trường hợp không xác định được đối tượng phạm tội; Quyết định truy nã bị can đối với trường hợp đối tượng phạm tội bỏ trốn hoặc không xác định được nơi đối tượng thường trú; Quyết định gia hạn điều tra; Quyết định không khởi tố vụ án, quyết định hủy bỏ quyết định khởi tố vụ án, quyết định đình chỉ điều tra vụ án đối với trường hợp người thực hiện hành vi nguy hiểm cho xã hội không có năng lực trách nhiệm hình sự hoặc chưa đến tuổi chịu trách nhiệm hình sự hoặc đã chết. Trường hợp bản án, bản kết luận vụ án, báo cáo kết thúc điều tra vụ việc hoặc báo cáo kết quả điều tra vụ việc không thể hiện rõ trường hợp hy sinh thì phải kèm theo biên bản xảy ra sự việc và báo cáo vụ việc của cơ quan, đơn vị trực tiếp quản lý người hy sinh.\ng)\tĐối với trường hợp hy sinh quy định tại điểm k khoản 1 Điều 14 Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:: -\tBản sao được chứng thực từ Quyết định tặng thưởng Huân chương và Quyết định tổ chức phát động học tập tấm gương của Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chủ tịch Ủy ban nhân dân cấp tỉnh\ng)\tĐối với trường hợp hy sinh quy định tại điểm k khoản 1 Điều 14 Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:: -\tBiên bản xảy ra sự việc do cơ quan, đơn vị trực tiếp quản lý người hy sinh hoặc Ủy ban nhân dân cấp xã nơi xảy ra sự việc lập; đối với việc ngăn chặn, bắt giữ người có hành vi phạm tội phải có kết luận của cơ quan điều tra cấp tỉnh trở lên.\nĐối với trường hợp hy sinh quy định tại điểm h khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:: -\tBản sao được chứng thực từ một trong các giấy tờ có ghi nhận thời gian làm nhiệm vụ quốc phòng, an ninh ở địa bàn đặc biệt khó khăn như sau: lý lịch cán bộ; lý lịch quân nhân; lý lịch đảng viên; hồ sơ bảo hiểm xã hội.\nĐối với trường hợp hy sinh quy định tại điểm h khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:: -\tQuyết định phân công nhiệm vụ của cơ quan có thẩm quyền\nĐối với trường hợp hy sinh quy định tại điểm h khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở các giấy tờ sau:: -\tBiên bản xảy ra sự việc đối với trường hợp tai nạn hoặc bản tóm tắt hồ sơ bệnh án thể hiện mắc bệnh trong thời gian công tác tại địa bàn có điều kiện đặc biệt khó khăn.\ni)\tĐối với trường hợp mất tích theo quy định tại các điểm e, g, i, k khoản 1 Điều 14 Pháp lệnh việc cấp giấy chứng nhận hy sinh phải trên cơ sở căn cứ cấp giấy chứng nhận hy sinh quy định tại các khoản 3, 4 hoặc khoản 6, 7 Điều 17 Nghị định số 131/2021/NĐ-CP, kèm theo quyết định của tòa án tuyên mất tích theo quy định của Bộ luật Dân sự.\nĐối với trường hợp hy sinh hoặc mất tích trong kháng chiến chống Pháp, kháng chiến chống Mỹ, chiến tranh biên giới phía Bắc, biên giới Tây Nam và làm nghĩa vụ quốc tế tại Lào và Campuchia, truy quét Ful rô quy định tại một trong các điểm a, b, c, d, đ khoản 1 Điều 14 Pháp lệnh thì việc cấp giấy chứng nhận hy sinh thực hiện theo hướng dẫn tại Mục 12 Chương II Nghị định số 131/2021/NĐ-CP ngày 30/12/2021 của Chính phủ.\nc)\tĐối với trường hợp hy sinh quy định tại điểm e khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải trên cơ sở biên bản xảy ra sự việc do cơ quan, đơn vị trực tiếp quản lý người hy sinh lập.\nh)\tĐối với trường hợp thương binh chết do vết thương tái phát quy định tại điểm l khoản 1 Điều 14 Pháp lệnh việc cấp giấy chứng nhận hy sinh phải căn cứ trên cơ sở bản tóm tắt hồ sơ bệnh án và biên bản kiểm thảo tử vong xác định nguyên nhân chính gây tử vong là do vết thương cũ tái phát của Bệnh viện hoặc Trung tâm Y tế khu vực (bao gồm cả bệnh viện quân đội, công an).\nd)\tĐối với trường hợp hy sinh quy định tại điểm g khoản 1 Điều 14 của Pháp lệnh việc cấp giấy chứng nhận hy sinh phải trên cơ sở văn bản giao làm nhiệm vụ huấn luyện chiến đấu, diễn tập hoặc làm nhiệm vụ quốc phòng, an ninh có tính chất nguy hiểm kèm biên bản xảy ra sự việc do cơ quan, đơn vị trực tiếp quản lý người hy sinh lập.",
+    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 130 ngày\nTrực tiếp: 55 ngày làm việc\nTrực tiếp: 130 ngày\nTrực tuyến: 130 ngày\nTrực tuyến: 55 ngày làm việc\nQua dịch vụ bưu chính: 55 ngày làm việc\nQua dịch vụ bưu chính: 45 ngày làm việc\nTrực tiếp: 45 ngày làm việc\nTrực tuyến: 45 ngày làm việc\nTrực tuyến: 105 ngày làm việc\nTrực tiếp: 105 ngày làm việc\nQua dịch vụ bưu chính: 105 ngày làm việc\nQua dịch vụ bưu chính: 95 ngày làm việc\nQua dịch vụ bưu chính: 95 ngày làm việc\nTrực tiếp: 95 ngày làm việc\nTrực tuyến: 95 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 25/2025/NĐ-CP ngày 21 tháng 02 năm 2025 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nội vụ - Nghị định số 25/2025/NĐ-CP\nNghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước - 190/2025/NQ-QH15\nQuy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Nội vụ - 129/2025/NĐ-CP\nQUY ĐỊNH CHI TIẾT VÀ BIỆN PHÁP THI HÀNH PHÁP LỆNH ƯU ĐÃI NGƯỜI CÓ CÔNG VỚI CÁCH MẠNG - Nghị định số 131/2021/NĐ-CP\nƯU ĐÃI NGƯỜI CÓ CÔNG VỚI CÁCH MẠNG - Pháp lệnh số: 02/2020/UBTVQH14",
     "CƠ QUAN THỰC HIỆN": "Bộ Công an, Thủ tướng Chính phủ, Ủy ban nhân dân cấp tỉnh, Bộ Quốc phòng",
-    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "       Người đã hy sinh vì sự nghiệp cách mạng giải phóng dân tộc, xây dựng, bảo vệ Tổ quốc, làm nghĩa vụ quốc tế hoặc vì lợi ích của Nhà nước, của Nhân dân thì được cơ quan có thẩm quyền xem xét công nhận là liệt sĩ khi thuộc một trong các trường hợp sau đây:\n1.\tTrực tiếp phục vụ chiến đấu quy định tại điểm a khoản 1 Điều 14 Pháp lệnh được xác định là thực hiện các nhiệm vụ trong lúc trận đánh đang diễn ra hoặc trong khi địch đang bắn phá: cứu thương, tải thương, tải đạn, đảm bảo thông tin liên lạc, bảo vệ hàng hóa và các trường hợp đảm bảo chiến đấu.\n2.\tĐịa bàn địch chiếm đóng, địa bàn có chiến sự, địa bàn tiếp giáp vùng địch chiếm đóng quy định tại điểm b khoản 1 Điều 14 Pháp lệnh được xác định theo quy định tại Phụ lục III Nghị định số 131/2021/NĐ-CP.\n3.\tTrực tiếp làm nhiệm vụ huấn luyện chiến đấu, diễn tập hoặc làm nhiệm vụ quốc phòng, an ninh có tính chất nguy hiểm quy định tại điểm g khoản 1 Điều 14 Pháp lệnh được xác định như sau:\na)\tNhiệm vụ huấn luyện chiến đấu, diễn tập có tính chất nguy hiểm trong các trường hợp sau: bắn đạn thật, sử dụng thuốc nổ; chữa cháy; chống khủng bố, bạo loạn; giải thoát con tin; cứu hộ, cứu nạn, ứng cứu thảm họa thiên tai; trong huấn luyện chiến đấu, diễn tập của lực lượng: không quân, hải quân, kiểm ngư, cảnh sát biển, đặc công, trinh sát đặc nhiệm, cảnh sát cơ động, đặc nhiệm.\nb)\tLàm nhiệm vụ quốc phòng an ninh có tính chất nguy hiểm khi: chữa cháy; chống khủng bố, bạo loạn; giải thoát con tin; cứu hộ, cứu nạn, ứng cứu thảm họa thiên tai; thực hiện nhiệm vụ của kiểm ngư, cảnh sát biển; tìm kiếm, quy tập hài cốt liệt sĩ; rà phá, xử lý, tiêu hủy bom mìn, vật liệu nổ; nghiên cứu, chế tạo, sản xuất, thử nghiệm, bảo quản, vận chuyển thuốc phóng, thuốc nổ, vũ khí, đạn dược; xây dựng công trình ngầm quốc phòng, an ninh.\n4.\tĐịa bàn biên giới, trên biển, hải đảo có điều kiện đặc biệt khó khăn theo quy định tại điểm h khoản 1 Điều 14 Pháp lệnh (sau đây gọi là địa bàn đặc biệt khó khăn) là địa bàn có điều kiện tự nhiên hiểm trở, khắc nghiệt, khó khăn dễ xảy ra tai nạn, ốm đau, bao gồm các địa bàn theo Phụ lục IV Nghị định số 131/2021/NĐ-CP.\nKhông xem xét công nhận đối với các trường hợp ốm đau tại địa bàn đặc biệt khó khăn nhưng đã được đưa đi chữa trị ở bệnh viện tuyến tỉnh trở lên hoặc ốm đau ở nơi khác và đã được điều trị nhưng không chữa khỏi mà vẫn chuyển công tác về địa bàn có điều kiện đặc biệt khó khăn.\n5.\tTrực tiếp làm nhiệm vụ đấu tranh chống tội phạm quy định tại điểm i khoản 1 Điều 14 Pháp lệnh là trực tiếp thực thi nhiệm vụ theo yêu cầu của cơ quan có thẩm quyền nhằm điều tra, phát hiện, ngăn chặn, bắt giữ đối tượng phạm tội hoặc ngăn chặn hành vi nguy hiểm cho xã hội được quy định trong Bộ luật Hình sự.\n6.\tXem xét công nhận liệt sĩ đối với trường hợp quy định tại điểm k khoản 1 Điều 14 Pháp lệnh gồm các yếu tố sau:\na)\tNhận thức được đầy đủ sự nguy hiểm và tính cấp bách của sự việc.\nb)\tChủ động thực hiện hành vi đặc biệt dũng cảm, chấp nhận hy sinh bản thân.\nc)\tBảo vệ lợi ích quan trọng của Nhà nước, tính mạng và lợi ích hợp pháp của Nhân dân hoặc để ngăn chặn, bắt giữ người có hành vi phạm tội đặc biệt nghiêm trọng.\nd)\tLà tấm gương có ý nghĩa tôn vinh, giáo dục, lan tỏa rộng rãi trong xã hội, được tặng thưởng Huân chương và được Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Chủ tịch Ủy ban  nhân dân cấp tỉnh tổ chức phát động học tập tấm gương.\n7.\tCác trường hợp khác thực hiện theo quy định tại các điểm c, d, đ, e, l, m khoản 1 Điều 14 Pháp lệnh.\n",
+    "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Người đã hy sinh vì sự nghiệp cách mạng giải phóng dân tộc, xây dựng, bảo vệ Tổ quốc, làm nghĩa vụ quốc tế hoặc vì lợi ích của Nhà nước, của Nhân dân thì được cơ quan có thẩm quyền xem xét công nhận là liệt sĩ khi thuộc một trong các trường hợp sau đây:\n1.\tTrực tiếp phục vụ chiến đấu quy định tại điểm a khoản 1 Điều 14 Pháp lệnh được xác định là thực hiện các nhiệm vụ trong lúc trận đánh đang diễn ra hoặc trong khi địch đang bắn phá: cứu thương, tải thương, tải đạn, đảm bảo thông tin liên lạc, bảo vệ hàng hóa và các trường hợp đảm bảo chiến đấu.\n2.\tĐịa bàn địch chiếm đóng, địa bàn có chiến sự, địa bàn tiếp giáp vùng địch chiếm đóng quy định tại điểm b khoản 1 Điều 14 Pháp lệnh được xác định theo quy định tại Phụ lục III Nghị định số 131/2021/NĐ-CP.\n3.\tTrực tiếp làm nhiệm vụ huấn luyện chiến đấu, diễn tập hoặc làm nhiệm vụ quốc phòng, an ninh có tính chất nguy hiểm quy định tại điểm g khoản 1 Điều 14 Pháp lệnh được xác định như sau:\na)\tNhiệm vụ huấn luyện chiến đấu, diễn tập có tính chất nguy hiểm trong các trường hợp sau: bắn đạn thật, sử dụng thuốc nổ; chữa cháy; chống khủng bố, bạo loạn; giải thoát con tin; cứu hộ, cứu nạn, ứng cứu thảm họa thiên tai; trong huấn luyện chiến đấu, diễn tập của lực lượng: không quân, hải quân, kiểm ngư, cảnh sát biển, đặc công, trinh sát đặc nhiệm, cảnh sát cơ động, đặc nhiệm.\nb)\tLàm nhiệm vụ quốc phòng an ninh có tính chất nguy hiểm khi: chữa cháy; chống khủng bố, bạo loạn; giải thoát con tin; cứu hộ, cứu nạn, ứng cứu thảm họa thiên tai; thực hiện nhiệm vụ của kiểm ngư, cảnh sát biển; tìm kiếm, quy tập hài cốt liệt sĩ; rà phá, xử lý, tiêu hủy bom mìn, vật liệu nổ; nghiên cứu, chế tạo, sản xuất, thử nghiệm, bảo quản, vận chuyển thuốc phóng, thuốc nổ, vũ khí, đạn dược; xây dựng công trình ngầm quốc phòng, an ninh.\n4.\tĐịa bàn biên giới, trên biển, hải đảo có điều kiện đặc biệt khó khăn theo quy định tại điểm h khoản 1 Điều 14 Pháp lệnh (sau đây gọi là địa bàn đặc biệt khó khăn) là địa bàn có điều kiện tự nhiên hiểm trở, khắc nghiệt, khó khăn dễ xảy ra tai nạn, ốm đau, bao gồm các địa bàn theo Phụ lục IV Nghị định số 131/2021/NĐ-CP.\nKhông xem xét công nhận đối với các trường hợp ốm đau tại địa bàn đặc biệt khó khăn nhưng đã được đưa đi chữa trị ở bệnh viện tuyến tỉnh trở lên hoặc ốm đau ở nơi khác và đã được điều trị nhưng không chữa khỏi mà vẫn chuyển công tác về địa bàn có điều kiện đặc biệt khó khăn.\n5.\tTrực tiếp làm nhiệm vụ đấu tranh chống tội phạm quy định tại điểm i khoản 1 Điều 14 Pháp lệnh là trực tiếp thực thi nhiệm vụ theo yêu cầu của cơ quan có thẩm quyền nhằm điều tra, phát hiện, ngăn chặn, bắt giữ đối tượng phạm tội hoặc ngăn chặn hành vi nguy hiểm cho xã hội được quy định trong Bộ luật Hình sự.\n6.\tXem xét công nhận liệt sĩ đối với trường hợp quy định tại điểm k khoản 1 Điều 14 Pháp lệnh gồm các yếu tố sau:\na)\tNhận thức được đầy đủ sự nguy hiểm và tính cấp bách của sự việc.\nb)\tChủ động thực hiện hành vi đặc biệt dũng cảm, chấp nhận hy sinh bản thân.\nc)\tBảo vệ lợi ích quan trọng của Nhà nước, tính mạng và lợi ích hợp pháp của Nhân dân hoặc để ngăn chặn, bắt giữ người có hành vi phạm tội đặc biệt nghiêm trọng.\nd)\tLà tấm gương có ý nghĩa tôn vinh, giáo dục, lan tỏa rộng rãi trong xã hội, được tặng thưởng Huân chương và được Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Chủ tịch Ủy ban  nhân dân cấp tỉnh tổ chức phát động học tập tấm gương.\n7.\tCác trường hợp khác thực hiện theo quy định tại các điểm c, d, đ, e, l, m khoản 1 Điều 14 Pháp lệnh.",
     "KẾT QUẢ XỬ LÝ": "Quyết định cấp Bằng “Tổ quốc ghi công” và Bằng “Tổ quốc ghi công”. - KQ.G09.000411",
     "TỪ KHÓA": "",
-    "MÔ TẢ": "       Người đã hy sinh vì sự nghiệp cách mạng giải phóng dân tộc, xây dựng, bảo vệ Tổ quốc, làm nghĩa vụ quốc tế hoặc vì lợi ích của Nhà nước, của Nhân dân thì được cơ quan có thẩm quyền xem xét công nhận là liệt sĩ khi thuộc một trong các trường hợp sau đây:\n1.\tTrực tiếp phục vụ chiến đấu quy định tại điểm a khoản 1 Điều 14 Pháp lệnh được xác định là thực hiện các nhiệm vụ trong lúc trận đánh đang diễn ra hoặc trong khi địch đang bắn phá: cứu thương, tải thương, tải đạn, đảm bảo thông tin liên lạc, bảo vệ hàng hóa và các trường hợp đảm bảo chiến đấu.\n2.\tĐịa bàn địch chiếm đóng, địa bàn có chiến sự, địa bàn tiếp giáp vùng địch chiếm đóng quy định tại điểm b khoản 1 Điều 14 Pháp lệnh được xác định theo quy định tại Phụ lục III Nghị định số 131/2021/NĐ-CP.\n3.\tTrực tiếp làm nhiệm vụ huấn luyện chiến đấu, diễn tập hoặc làm nhiệm vụ quốc phòng, an ninh có tính chất nguy hiểm quy định tại điểm g khoản 1 Điều 14 Pháp lệnh được xác định như sau:\na)\tNhiệm vụ huấn luyện chiến đấu, diễn tập có tính chất nguy hiểm trong các trường hợp sau: bắn đạn thật, sử dụng thuốc nổ; chữa cháy; chống khủng bố, bạo loạn; giải thoát con tin; cứu hộ, cứu nạn, ứng cứu thảm họa thiên tai; trong huấn luyện chiến đấu, diễn tập của lực lượng: không quân, hải quân, kiểm ngư, cảnh sát biển, đặc công, trinh sát đặc nhiệm, cảnh sát cơ động, đặc nhiệm.\nb)\tLàm nhiệm vụ quốc phòng an ninh có tính chất nguy hiểm khi: chữa cháy; chống khủng bố, bạo loạn; giải thoát con tin; cứu hộ, cứu nạn, ứng cứu thảm họa thiên tai; thực hiện nhiệm vụ của kiểm ngư, cảnh sát biển; tìm kiếm, quy tập hài cốt liệt sĩ; rà phá, xử lý, tiêu hủy bom mìn, vật liệu nổ; nghiên cứu, chế tạo, sản xuất, thử nghiệm, bảo quản, vận chuyển thuốc phóng, thuốc nổ, vũ khí, đạn dược; xây dựng công trình ngầm quốc phòng, an ninh.\n4.\tĐịa bàn biên giới, trên biển, hải đảo có điều kiện đặc biệt khó khăn theo quy định tại điểm h khoản 1 Điều 14 Pháp lệnh (sau đây gọi là địa bàn đặc biệt khó khăn) là địa bàn có điều kiện tự nhiên hiểm trở, khắc nghiệt, khó khăn dễ xảy ra tai nạn, ốm đau, bao gồm các địa bàn theo Phụ lục IV Nghị định số 131/2021/NĐ-CP.\nKhông xem xét công nhận đối với các trường hợp ốm đau tại địa bàn đặc biệt khó khăn nhưng đã được đưa đi chữa trị ở bệnh viện tuyến tỉnh trở lên hoặc ốm đau ở nơi khác và đã được điều trị nhưng không chữa khỏi mà vẫn chuyển công tác về địa bàn có điều kiện đặc biệt khó khăn.\n5.\tTrực tiếp làm nhiệm vụ đấu tranh chống tội phạm quy định tại điểm i khoản 1 Điều 14 Pháp lệnh là trực tiếp thực thi nhiệm vụ theo yêu cầu của cơ quan có thẩm quyền nhằm điều tra, phát hiện, ngăn chặn, bắt giữ đối tượng phạm tội hoặc ngăn chặn hành vi nguy hiểm cho xã hội được quy định trong Bộ luật Hình sự.\n6.\tXem xét công nhận liệt sĩ đối với trường hợp quy định tại điểm k khoản 1 Điều 14 Pháp lệnh gồm các yếu tố sau:\na)\tNhận thức được đầy đủ sự nguy hiểm và tính cấp bách của sự việc.\nb)\tChủ động thực hiện hành vi đặc biệt dũng cảm, chấp nhận hy sinh bản thân.\nc)\tBảo vệ lợi ích quan trọng của Nhà nước, tính mạng và lợi ích hợp pháp của Nhân dân hoặc để ngăn chặn, bắt giữ người có hành vi phạm tội đặc biệt nghiêm trọng.\nd)\tLà tấm gương có ý nghĩa tôn vinh, giáo dục, lan tỏa rộng rãi trong xã hội, được tặng thưởng Huân chương và được Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Chủ tịch Ủy ban  nhân dân cấp tỉnh tổ chức phát động học tập tấm gương.\n7.\tCác trường hợp khác thực hiện theo quy định tại các điểm c, d, đ, e, l, m khoản 1 Điều 14 Pháp lệnh.\n"
+    "MÔ TẢ": "Người đã hy sinh vì sự nghiệp cách mạng giải phóng dân tộc, xây dựng, bảo vệ Tổ quốc, làm nghĩa vụ quốc tế hoặc vì lợi ích của Nhà nước, của Nhân dân thì được cơ quan có thẩm quyền xem xét công nhận là liệt sĩ khi thuộc một trong các trường hợp sau đây:\n1.\tTrực tiếp phục vụ chiến đấu quy định tại điểm a khoản 1 Điều 14 Pháp lệnh được xác định là thực hiện các nhiệm vụ trong lúc trận đánh đang diễn ra hoặc trong khi địch đang bắn phá: cứu thương, tải thương, tải đạn, đảm bảo thông tin liên lạc, bảo vệ hàng hóa và các trường hợp đảm bảo chiến đấu.\n2.\tĐịa bàn địch chiếm đóng, địa bàn có chiến sự, địa bàn tiếp giáp vùng địch chiếm đóng quy định tại điểm b khoản 1 Điều 14 Pháp lệnh được xác định theo quy định tại Phụ lục III Nghị định số 131/2021/NĐ-CP.\n3.\tTrực tiếp làm nhiệm vụ huấn luyện chiến đấu, diễn tập hoặc làm nhiệm vụ quốc phòng, an ninh có tính chất nguy hiểm quy định tại điểm g khoản 1 Điều 14 Pháp lệnh được xác định như sau:\na)\tNhiệm vụ huấn luyện chiến đấu, diễn tập có tính chất nguy hiểm trong các trường hợp sau: bắn đạn thật, sử dụng thuốc nổ; chữa cháy; chống khủng bố, bạo loạn; giải thoát con tin; cứu hộ, cứu nạn, ứng cứu thảm họa thiên tai; trong huấn luyện chiến đấu, diễn tập của lực lượng: không quân, hải quân, kiểm ngư, cảnh sát biển, đặc công, trinh sát đặc nhiệm, cảnh sát cơ động, đặc nhiệm.\nb)\tLàm nhiệm vụ quốc phòng an ninh có tính chất nguy hiểm khi: chữa cháy; chống khủng bố, bạo loạn; giải thoát con tin; cứu hộ, cứu nạn, ứng cứu thảm họa thiên tai; thực hiện nhiệm vụ của kiểm ngư, cảnh sát biển; tìm kiếm, quy tập hài cốt liệt sĩ; rà phá, xử lý, tiêu hủy bom mìn, vật liệu nổ; nghiên cứu, chế tạo, sản xuất, thử nghiệm, bảo quản, vận chuyển thuốc phóng, thuốc nổ, vũ khí, đạn dược; xây dựng công trình ngầm quốc phòng, an ninh.\n4.\tĐịa bàn biên giới, trên biển, hải đảo có điều kiện đặc biệt khó khăn theo quy định tại điểm h khoản 1 Điều 14 Pháp lệnh (sau đây gọi là địa bàn đặc biệt khó khăn) là địa bàn có điều kiện tự nhiên hiểm trở, khắc nghiệt, khó khăn dễ xảy ra tai nạn, ốm đau, bao gồm các địa bàn theo Phụ lục IV Nghị định số 131/2021/NĐ-CP.\nKhông xem xét công nhận đối với các trường hợp ốm đau tại địa bàn đặc biệt khó khăn nhưng đã được đưa đi chữa trị ở bệnh viện tuyến tỉnh trở lên hoặc ốm đau ở nơi khác và đã được điều trị nhưng không chữa khỏi mà vẫn chuyển công tác về địa bàn có điều kiện đặc biệt khó khăn.\n5.\tTrực tiếp làm nhiệm vụ đấu tranh chống tội phạm quy định tại điểm i khoản 1 Điều 14 Pháp lệnh là trực tiếp thực thi nhiệm vụ theo yêu cầu của cơ quan có thẩm quyền nhằm điều tra, phát hiện, ngăn chặn, bắt giữ đối tượng phạm tội hoặc ngăn chặn hành vi nguy hiểm cho xã hội được quy định trong Bộ luật Hình sự.\n6.\tXem xét công nhận liệt sĩ đối với trường hợp quy định tại điểm k khoản 1 Điều 14 Pháp lệnh gồm các yếu tố sau:\na)\tNhận thức được đầy đủ sự nguy hiểm và tính cấp bách của sự việc.\nb)\tChủ động thực hiện hành vi đặc biệt dũng cảm, chấp nhận hy sinh bản thân.\nc)\tBảo vệ lợi ích quan trọng của Nhà nước, tính mạng và lợi ích hợp pháp của Nhân dân hoặc để ngăn chặn, bắt giữ người có hành vi phạm tội đặc biệt nghiêm trọng.\nd)\tLà tấm gương có ý nghĩa tôn vinh, giáo dục, lan tỏa rộng rãi trong xã hội, được tặng thưởng Huân chương và được Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Chủ tịch Ủy ban  nhân dân cấp tỉnh tổ chức phát động học tập tấm gương.\n7.\tCác trường hợp khác thực hiện theo quy định tại các điểm c, d, đ, e, l, m khoản 1 Điều 14 Pháp lệnh."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Người có công",
       "slug": "nguoi-co-cong"
@@ -777,6 +648,6 @@
         "slug": "so-noi-vu"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

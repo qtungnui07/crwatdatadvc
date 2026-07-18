@@ -1,35 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfe-698b-74ca-98e7-dd6c51c839e8",
   "procedure_code": "1.009462",
   "title": "Thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-698b-74ca-98e7-dd6c51c839e8",
     "source_file": "chi-tiet-thu-tuc-1.009462.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.009462/chi-tiet-thu-tuc-1.009462.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:05.018806+00:00",
-    "source_updated_at": "2026-04-17T02:02:21.290Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:50.092745+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "b9cdb77bdb9e5edb02296ed9ca2647a6c55c2d73678326bbdb16fe405ecbe4cc"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:05.018806+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "123/QĐ-CHHĐTVN",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hàng hải và đường thủy nội địa",
   "target_users": [
@@ -43,115 +37,76 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Cục Hàng hải và Đường thủy Việt Nam, Sở Giao thông công chánh - TP.HCM, Bộ Xây dựng, Sở Xây dựng",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Cục Hàng hải và Đường thủy Việt Nam, Sở Giao thông công chánh - TP.HCM, Bộ Xây dựng, Sở Xây dựng"
   },
   "steps": [
     {
       "order": 1,
       "title": "a) Nộp hồ sơ TTHC:",
-      "description": "Cá nhân, tổ chức có nhu cầu thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa nộp hồ sơ đến cơ quan sau:\n- Bộ Xây dựng: thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài;\n- Cục Hàng hải và Đường thủy Việt Nam: thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa trên đường thủy nội địa quốc gia, đường thủy nội địa chuyên dùng nối với đường thủy nội địa quốc gia, cảng thủy nội địa có vùng nước, vùng đất vừa trên đường thủy nội địa quốc gia vừa trên đường thủy nội địa địa phương, cảng thủy nội địa trong vùng nước cảng biển nối với đường thủy nội địa quốc gia, trừ trường hợp thuộc thẩm quyền của Bộ Xây dựng và các trường hợp khác do Bộ Xây dựng quyết định;\n- Sở Xây dựng, Sở Giao thông công chánh TP Hồ Chí Minh: thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa trên đường thủy nội địa địa phương, đường thủy nội địa chuyên dùng nối với đường thủy nội địa địa phương, cảng thủy nội địa trong vùng nước cảng biển nối với đường thủy nội địa địa phương trừ trường hợp thuộc thẩm quyền của Bộ Xây dựng và các trường hợp khác do Bộ Xây dựng quyết định.\n",
+      "description": "Cá nhân, tổ chức có nhu cầu thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa nộp hồ sơ đến cơ quan sau:\n- Bộ Xây dựng: thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài;\n- Cục Hàng hải và Đường thủy Việt Nam: thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa trên đường thủy nội địa quốc gia, đường thủy nội địa chuyên dùng nối với đường thủy nội địa quốc gia, cảng thủy nội địa có vùng nước, vùng đất vừa trên đường thủy nội địa quốc gia vừa trên đường thủy nội địa địa phương, cảng thủy nội địa trong vùng nước cảng biển nối với đường thủy nội địa quốc gia, trừ trường hợp thuộc thẩm quyền của Bộ Xây dựng và các trường hợp khác do Bộ Xây dựng quyết định;\n- Sở Xây dựng, Sở Giao thông công chánh TP Hồ Chí Minh: thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa trên đường thủy nội địa địa phương, đường thủy nội địa chuyên dùng nối với đường thủy nội địa địa phương, cảng thủy nội địa trong vùng nước cảng biển nối với đường thủy nội địa địa phương trừ trường hợp thuộc thẩm quyền của Bộ Xây dựng và các trường hợp khác do Bộ Xây dựng quyết định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "b) Giải quyết TTHC:",
-      "description": "- Cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài: \n+  Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định, Cục Hàng hải và Đường thủy Việt Nam, Sở Xây dựng, Sở Giao thông công chánh TP Hồ Chí Minh thẩm định hồ sơ, nếu đủ điều kiện thì gửi báo cáo kết quả thẩm định và 01 bộ hồ sơ về Bộ Xây dựng;\n+ Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được báo cáo thẩm định của Cục Hàng hải và Đường thủy Việt Nam hoặc Sở Xây dựng, Sở Giao thông công chánh TP Hồ Chí Minh, Bộ Xây dựng lấy ý kiến của Bộ Quốc phòng, Bộ Công an và Ủy ban nhân dân cấp tỉnh về bảo đảm quốc phòng, an ninh đối với việc xây dựng cảng thủy nội địa; \n+ Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của Bộ Xây dựng, Bộ Quốc phòng, Bộ Công an và Ủy ban nhân dân cấp tỉnh có ý kiến bằng văn bản gửi Bộ Xây dựng;\n+ Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản thống nhất của Bộ Quốc phòng, Bộ Công an và Ủy ban nhân dân cấp tỉnh, Bộ Xây dựng ban hành văn bản thỏa thuận thông số kỹ thuật xây dựng gửi chủ đầu tư. \n- Cảng thủy nội địa không tiếp nhận phương tiện thủy nước ngoài: Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định, Cục Hàng hải và Đường thủy Việt Nam, Sở Xây dựng, Sở Giao thông công chánh TP Hồ Chí Minh có văn bản thỏa thuận thông số kỹ thuật xây dựng gửi chủ đầu tư.\n",
+      "description": "- Cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài: \n+  Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định, Cục Hàng hải và Đường thủy Việt Nam, Sở Xây dựng, Sở Giao thông công chánh TP Hồ Chí Minh thẩm định hồ sơ, nếu đủ điều kiện thì gửi báo cáo kết quả thẩm định và 01 bộ hồ sơ về Bộ Xây dựng;\n+ Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được báo cáo thẩm định của Cục Hàng hải và Đường thủy Việt Nam hoặc Sở Xây dựng, Sở Giao thông công chánh TP Hồ Chí Minh, Bộ Xây dựng lấy ý kiến của Bộ Quốc phòng, Bộ Công an và Ủy ban nhân dân cấp tỉnh về bảo đảm quốc phòng, an ninh đối với việc xây dựng cảng thủy nội địa; \n+ Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của Bộ Xây dựng, Bộ Quốc phòng, Bộ Công an và Ủy ban nhân dân cấp tỉnh có ý kiến bằng văn bản gửi Bộ Xây dựng;\n+ Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản thống nhất của Bộ Quốc phòng, Bộ Công an và Ủy ban nhân dân cấp tỉnh, Bộ Xây dựng ban hành văn bản thỏa thuận thông số kỹ thuật xây dựng gửi chủ đầu tư. \n- Cảng thủy nội địa không tiếp nhận phương tiện thủy nước ngoài: Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định, Cục Hàng hải và Đường thủy Việt Nam, Sở Xây dựng, Sở Giao thông công chánh TP Hồ Chí Minh có văn bản thỏa thuận thông số kỹ thuật xây dựng gửi chủ đầu tư.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "- Đơn đề nghị thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa theo mẫu;",
-        "code": "000.00.00.G04-KQ3307",
+        "name": "Hồ sơ đối với cảng thủy nội địa không tiếp nhận phương tiện thủy nước ngoài: - Đơn đề nghị thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa theo mẫu;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ đối với cảng thủy nội địa không tiếp nhận phương tiện thủy nước ngoài",
-        "attachments": [
-          {
-            "id": "019d9593-8f95-77bf-9bc7-520b076da5b7",
-            "name": "Mẫu số 10 - Đơn đề nghị thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 10 - Đơn đề nghị thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa.docx",
+        "source_page": 3
       },
       {
-        "name": "- Đơn đề nghị thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa theo mẫu;",
-        "code": "000.00.00.G04-KQ3311",
+        "name": "Hồ sơ đối với cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài.: - Đơn đề nghị thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa theo mẫu;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ đối với cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài.",
-        "attachments": [
-          {
-            "id": "019d9594-b131-748f-aa97-8e60e546c515",
-            "name": "Mẫu số 10 - Đơn đề nghị thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 10 - Đơn đề nghị thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa.docx",
+        "source_page": 3
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "- Bản sao văn bản chấp thuận chủ trương đầu tư dự án của cơ quan có thẩm quyền (nếu có);",
-        "code": "000.00.00.G04-KQ3309",
+        "name": "Hồ sơ đối với cảng thủy nội địa không tiếp nhận phương tiện thủy nước ngoài: - Bản sao văn bản chấp thuận chủ trương đầu tư dự án của cơ quan có thẩm quyền (nếu có);",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ đối với cảng thủy nội địa không tiếp nhận phương tiện thủy nước ngoài",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "- Bình đồ vị trí xây dựng cảng thủy nội địa: Thể hiện địa danh, vị trí công trình cảng, kho, bãi, vùng nước, lý trình (km) sông, kênh, rạch; vùng đất; các công trình liền kề (nếu có). Vùng nước trên bản vẽ phải thể hiện chiều rộng tối thiểu từ mép bờ đến hết chiều rộng luồng. Bình đồ được lập trên hệ tọa độ quốc gia VN2000 và cao độ nhà nước, có tỷ lệ từ 1/500 đến 1/1000.",
-        "code": "000.00.00.G04-KQ3310",
+        "name": "Hồ sơ đối với cảng thủy nội địa không tiếp nhận phương tiện thủy nước ngoài: - Bình đồ vị trí xây dựng cảng thủy nội địa: Thể hiện địa danh, vị trí công trình cảng, kho, bãi, vùng nước, lý trình (km) sông, kênh, rạch; vùng đất; các công trình liền kề (nếu có). Vùng nước trên bản vẽ phải thể hiện chiều rộng tối thiểu từ mép bờ đến hết chiều rộng luồng. Bình đồ được lập trên hệ tọa độ quốc gia VN2000 và cao độ nhà nước, có tỷ lệ từ 1/500 đến 1/1000.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ đối với cảng thủy nội địa không tiếp nhận phương tiện thủy nước ngoài",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Hồ sơ dự án;",
-        "code": "000.00.00.G04-KQ3308",
+        "name": "Hồ sơ đối với cảng thủy nội địa không tiếp nhận phương tiện thủy nước ngoài: - Hồ sơ dự án;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ đối với cảng thủy nội địa không tiếp nhận phương tiện thủy nước ngoài",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Hồ sơ dự án;",
-        "code": "000.00.00.G04-KQ3312",
+        "name": "Hồ sơ đối với cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài.: - Hồ sơ dự án;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ đối với cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài.",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Bình đồ vị trí xây dựng cảng thủy nội địa: Thể hiện địa danh, vị trí công trình cảng, kho, bãi, vùng nước, lý trình (km) sông, kênh, rạch; vùng đất; các công trình liền kề (nếu có). Vùng nước trên bản vẽ phải thể hiện chiều rộng tối thiểu từ mép bờ đến hết chiều rộng luồng. Bình đồ được lập trên hệ tọa độ quốc gia VN2000 và cao độ nhà nước, có tỷ lệ từ 1/500 đến 1/1000.",
-        "code": "000.00.00.G04-KQ3314",
+        "name": "Hồ sơ đối với cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài.: - Bình đồ vị trí xây dựng cảng thủy nội địa: Thể hiện địa danh, vị trí công trình cảng, kho, bãi, vùng nước, lý trình (km) sông, kênh, rạch; vùng đất; các công trình liền kề (nếu có). Vùng nước trên bản vẽ phải thể hiện chiều rộng tối thiểu từ mép bờ đến hết chiều rộng luồng. Bình đồ được lập trên hệ tọa độ quốc gia VN2000 và cao độ nhà nước, có tỷ lệ từ 1/500 đến 1/1000.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Hồ sơ đối với cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài.",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "- Bản sao văn bản chấp thuận chủ trương đầu tư dự án của cơ quan có thẩm quyền (nếu có);",
-        "code": "000.00.00.G04-KQ3313",
+        "name": "Hồ sơ đối với cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài.: - Bản sao văn bản chấp thuận chủ trương đầu tư dự án của cơ quan có thẩm quyền (nếu có);",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Hồ sơ đối với cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài.",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -160,35 +115,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "20 ngày làm việc",
-      "processing_time_value": 20,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "20 ngày làm việc",
-      "processing_time_value": 20,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -196,51 +131,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "20 ngày làm việc",
-      "processing_time_value": 20,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 4
       }
     ]
   },
@@ -248,8 +168,7 @@
     {
       "title": "Quy định về quản lý hoạt động đường thủy nội địa",
       "document_number": "08/2021/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe7-a8368c489fef",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "",
@@ -257,13 +176,12 @@
     {
       "title": "Văn bản thỏa thuận thông số kỹ thuật xây dựng cảng",
       "code": "000.00.00.G04-KQ3315",
-      "id": "019d95aa-796b-77fa-a08c-11e92bd34ea5",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Cá nhân, tổ chức có nhu cầu thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa nộp hồ sơ đến cơ quan sau:\n- Bộ Xây dựng: thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài;\n- Cục Hàng hải và Đường thủy Việt Nam: thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa trên đường thủy nội địa quốc gia, đường thủy nội địa chuyên dùng nối với đường thủy nội địa quốc gia, cảng thủy nội địa có vùng nước, vùng đất vừa trên đường thủy nội địa quốc gia vừa trên đường thủy nội địa địa phương, cảng thủy nội địa trong vùng nước cảng biển nối với đường thủy nội địa quốc gia, trừ trường hợp thuộc thẩm quyền của Bộ Xây dựng và các trường hợp khác do Bộ Xây dựng quyết định;\n- Sở Xây dựng, Sở Giao thông công chánh TP Hồ Chí Minh: thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa trên đường thủy nội địa địa phương, đường thủy nội địa chuyên dùng nối với đường thủy nội địa địa phương, cảng thủy nội địa trong vùng nước cảng biển nối với đường thủy nội địa địa phương trừ trường hợp thuộc thẩm quyền của Bộ Xây dựng và các trường hợp khác do Bộ Xây dựng quyết định.\n\n- Cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài: \n+  Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định, Cục Hàng hải và Đường thủy Việt Nam, Sở Xây dựng, Sở Giao thông công chánh TP Hồ Chí Minh thẩm định hồ sơ, nếu đủ điều kiện thì gửi báo cáo kết quả thẩm định và 01 bộ hồ sơ về Bộ Xây dựng;\n+ Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được báo cáo thẩm định của Cục Hàng hải và Đường thủy Việt Nam hoặc Sở Xây dựng, Sở Giao thông công chánh TP Hồ Chí Minh, Bộ Xây dựng lấy ý kiến của Bộ Quốc phòng, Bộ Công an và Ủy ban nhân dân cấp tỉnh về bảo đảm quốc phòng, an ninh đối với việc xây dựng cảng thủy nội địa; \n+ Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của Bộ Xây dựng, Bộ Quốc phòng, Bộ Công an và Ủy ban nhân dân cấp tỉnh có ý kiến bằng văn bản gửi Bộ Xây dựng;\n+ Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản thống nhất của Bộ Quốc phòng, Bộ Công an và Ủy ban nhân dân cấp tỉnh, Bộ Xây dựng ban hành văn bản thỏa thuận thông số kỹ thuật xây dựng gửi chủ đầu tư. \n- Cảng thủy nội địa không tiếp nhận phương tiện thủy nước ngoài: Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định, Cục Hàng hải và Đường thủy Việt Nam, Sở Xây dựng, Sở Giao thông công chánh TP Hồ Chí Minh có văn bản thỏa thuận thông số kỹ thuật xây dựng gửi chủ đầu tư.\n",
-    "THÀNH PHẦN HỒ SƠ": "Hồ sơ đối với cảng thủy nội địa không tiếp nhận phương tiện thủy nước ngoài\n- Bản sao văn bản chấp thuận chủ trương đầu tư dự án của cơ quan có thẩm quyền (nếu có);\n- Bình đồ vị trí xây dựng cảng thủy nội địa: Thể hiện địa danh, vị trí công trình cảng, kho, bãi, vùng nước, lý trình (km) sông, kênh, rạch; vùng đất; các công trình liền kề (nếu có). Vùng nước trên bản vẽ phải thể hiện chiều rộng tối thiểu từ mép bờ đến hết chiều rộng luồng. Bình đồ được lập trên hệ tọa độ quốc gia VN2000 và cao độ nhà nước, có tỷ lệ từ 1/500 đến 1/1000.\n- Đơn đề nghị thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa theo mẫu;\n- Hồ sơ dự án;\nHồ sơ đối với cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài.\n- Hồ sơ dự án;\n- Đơn đề nghị thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa theo mẫu;\n- Bình đồ vị trí xây dựng cảng thủy nội địa: Thể hiện địa danh, vị trí công trình cảng, kho, bãi, vùng nước, lý trình (km) sông, kênh, rạch; vùng đất; các công trình liền kề (nếu có). Vùng nước trên bản vẽ phải thể hiện chiều rộng tối thiểu từ mép bờ đến hết chiều rộng luồng. Bình đồ được lập trên hệ tọa độ quốc gia VN2000 và cao độ nhà nước, có tỷ lệ từ 1/500 đến 1/1000.\n- Bản sao văn bản chấp thuận chủ trương đầu tư dự án của cơ quan có thẩm quyền (nếu có);",
+    "TRÌNH TỰ THỰC HIỆN": "Cá nhân, tổ chức có nhu cầu thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa nộp hồ sơ đến cơ quan sau:\n- Bộ Xây dựng: thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài;\n- Cục Hàng hải và Đường thủy Việt Nam: thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa trên đường thủy nội địa quốc gia, đường thủy nội địa chuyên dùng nối với đường thủy nội địa quốc gia, cảng thủy nội địa có vùng nước, vùng đất vừa trên đường thủy nội địa quốc gia vừa trên đường thủy nội địa địa phương, cảng thủy nội địa trong vùng nước cảng biển nối với đường thủy nội địa quốc gia, trừ trường hợp thuộc thẩm quyền của Bộ Xây dựng và các trường hợp khác do Bộ Xây dựng quyết định;\n- Sở Xây dựng, Sở Giao thông công chánh TP Hồ Chí Minh: thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa trên đường thủy nội địa địa phương, đường thủy nội địa chuyên dùng nối với đường thủy nội địa địa phương, cảng thủy nội địa trong vùng nước cảng biển nối với đường thủy nội địa địa phương trừ trường hợp thuộc thẩm quyền của Bộ Xây dựng và các trường hợp khác do Bộ Xây dựng quyết định.\n- Cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài: \n+  Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định, Cục Hàng hải và Đường thủy Việt Nam, Sở Xây dựng, Sở Giao thông công chánh TP Hồ Chí Minh thẩm định hồ sơ, nếu đủ điều kiện thì gửi báo cáo kết quả thẩm định và 01 bộ hồ sơ về Bộ Xây dựng;\n+ Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được báo cáo thẩm định của Cục Hàng hải và Đường thủy Việt Nam hoặc Sở Xây dựng, Sở Giao thông công chánh TP Hồ Chí Minh, Bộ Xây dựng lấy ý kiến của Bộ Quốc phòng, Bộ Công an và Ủy ban nhân dân cấp tỉnh về bảo đảm quốc phòng, an ninh đối với việc xây dựng cảng thủy nội địa; \n+ Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản đề nghị của Bộ Xây dựng, Bộ Quốc phòng, Bộ Công an và Ủy ban nhân dân cấp tỉnh có ý kiến bằng văn bản gửi Bộ Xây dựng;\n+ Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản thống nhất của Bộ Quốc phòng, Bộ Công an và Ủy ban nhân dân cấp tỉnh, Bộ Xây dựng ban hành văn bản thỏa thuận thông số kỹ thuật xây dựng gửi chủ đầu tư. \n- Cảng thủy nội địa không tiếp nhận phương tiện thủy nước ngoài: Trong thời hạn 05 ngày làm việc, kể từ ngày nhận đủ hồ sơ theo quy định, Cục Hàng hải và Đường thủy Việt Nam, Sở Xây dựng, Sở Giao thông công chánh TP Hồ Chí Minh có văn bản thỏa thuận thông số kỹ thuật xây dựng gửi chủ đầu tư.",
+    "THÀNH PHẦN HỒ SƠ": "Hồ sơ đối với cảng thủy nội địa không tiếp nhận phương tiện thủy nước ngoài: - Đơn đề nghị thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa theo mẫu;\nHồ sơ đối với cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài.: - Đơn đề nghị thỏa thuận thông số kỹ thuật xây dựng cảng thủy nội địa theo mẫu;\nHồ sơ đối với cảng thủy nội địa không tiếp nhận phương tiện thủy nước ngoài: - Bản sao văn bản chấp thuận chủ trương đầu tư dự án của cơ quan có thẩm quyền (nếu có);\nHồ sơ đối với cảng thủy nội địa không tiếp nhận phương tiện thủy nước ngoài: - Bình đồ vị trí xây dựng cảng thủy nội địa: Thể hiện địa danh, vị trí công trình cảng, kho, bãi, vùng nước, lý trình (km) sông, kênh, rạch; vùng đất; các công trình liền kề (nếu có). Vùng nước trên bản vẽ phải thể hiện chiều rộng tối thiểu từ mép bờ đến hết chiều rộng luồng. Bình đồ được lập trên hệ tọa độ quốc gia VN2000 và cao độ nhà nước, có tỷ lệ từ 1/500 đến 1/1000.\nHồ sơ đối với cảng thủy nội địa không tiếp nhận phương tiện thủy nước ngoài: - Hồ sơ dự án;\nHồ sơ đối với cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài.: - Hồ sơ dự án;\nHồ sơ đối với cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài.: - Bình đồ vị trí xây dựng cảng thủy nội địa: Thể hiện địa danh, vị trí công trình cảng, kho, bãi, vùng nước, lý trình (km) sông, kênh, rạch; vùng đất; các công trình liền kề (nếu có). Vùng nước trên bản vẽ phải thể hiện chiều rộng tối thiểu từ mép bờ đến hết chiều rộng luồng. Bình đồ được lập trên hệ tọa độ quốc gia VN2000 và cao độ nhà nước, có tỷ lệ từ 1/500 đến 1/1000.\nHồ sơ đối với cảng thủy nội địa tiếp nhận phương tiện thủy nước ngoài.: - Bản sao văn bản chấp thuận chủ trương đầu tư dự án của cơ quan có thẩm quyền (nếu có);",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 20 ngày làm việc\nQua dịch vụ bưu chính: 20 ngày làm việc\nTrực tiếp: 20 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Quy định về quản lý hoạt động đường thủy nội địa - 08/2021/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Cục Hàng hải và Đường thủy Việt Nam, Sở Giao thông công chánh - TP.HCM, Bộ Xây dựng, Sở Xây dựng",
@@ -273,14 +191,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hàng hải và đường thủy nội địa",
-      "slug": "hang-hai-va-duong-thuy-noi-dia"
+      "slug": "hang-hai-va-uong-thuy-noi-ia"
     },
     "implementation_levels": [
       {
@@ -323,13 +236,13 @@
       },
       {
         "name": "Doanh nghiệp có vốn đầu tư nước ngoài",
-        "slug": "doanh-nghiep-co-von-dau-tu-nuoc-ngoai"
+        "slug": "doanh-nghiep-co-von-au-tu-nuoc-ngoai"
       }
     ],
     "agencies": [
       {
         "name": "Cục Hàng hải và Đường thủy Việt Nam",
-        "slug": "cuc-hang-hai-va-duong-thuy-viet-nam"
+        "slug": "cuc-hang-hai-va-uong-thuy-viet-nam"
       },
       {
         "name": "Sở Giao thông công chánh - TP.HCM",
@@ -344,6 +257,6 @@
         "slug": "so-xay-dung"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

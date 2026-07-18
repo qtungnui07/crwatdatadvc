@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019f18db-e578-7653-92c3-6f38a3b5999a",
   "procedure_code": "1.115510",
   "title": "Xác nhận tiếp tục sử dụng đất nông nghiệp",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019f18db-e578-7653-92c3-6f38a3b5999a",
     "source_file": "chi-tiet-thu-tuc-1.115510.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.115510/chi-tiet-thu-tuc-1.115510.pdf",
     "page_count": 11,
-    "extracted_at": "2026-07-18T02:22:18.200120+00:00",
-    "source_updated_at": "2026-07-08T09:15:59.665Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:57:02.964868+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "66cc334ecd9fee5d01a26fa06866774f096665406eac0da10f61f2fb82e7d2d1"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:18.200120+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2252/QĐ-VP",
   "implementation_level": "Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Đất đai",
   "target_users": [
@@ -35,45 +31,44 @@
   ],
   "agency": {
     "competent_agency": "Văn phòng Đăng ký đất đai tỉnh; Chi nhánh Văn phòng đăng ký đất đai khu vực",
-    "executing_agency": "Văn phòng Đăng ký đất đai",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "- Bộ phận tiếp nhận và trả kết quả của Văn phòng đăng ký đất đai tại Trung tâm Phục vụ hành chính công tỉnh và 26 xã, phường nơi Chi nhánh Văn phòng Đăng ký đất đai khu vực liên xã đặt trụ sở. \n- Trung tâm Phục vụ hành chính công các cấp (thực hiện tiếp nhận hồ sơ, trả kết quả không phụ thuộc vào địa giới hành chính).\n- Nộp trực tuyến qua Cổng Dịch vụ công Quốc gia (một phần) tại địa chỉ: https://dichvucong.gov.vn."
+    "executing_agency": "Văn phòng Đăng ký đất đai"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Người sử dụng đất nông nghiệp nộp hồ sơ tại Bộ phận Một cửa\nKhi nộp hồ sơ, người nộp hồ sơ được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nĐối với  trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì người yêu cầu đăng ký nộp bản gốc Giấy chứng nhận đã cấp.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định. \nBước 2: Bộ phận Một cửa thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả. Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai. \nBước 3: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện:\n- Kiểm tra hồ sơ, xác nhận thời hạn được tiếp tục sử dụng đất vào Giấy chứng nhận đã cấp hoặc cấp mới Giấy chứng nhận nếu người sử dụng đất có nhu cầu.\n- Cập nhật, chỉnh lý cơ sở dữ liệu đất đai, hồ sơ địa chính; gửi Giấy chứng nhận đến Bộ phận Một cửa để trao cho người được cấp.",
+      "description": "Bước 1: Người sử dụng đất nông nghiệp nộp hồ sơ tại Bộ phận Một cửa\nKhi nộp hồ sơ, người nộp hồ sơ được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nĐối với  trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì người yêu cầu đăng ký nộp bản gốc Giấy chứng nhận đã cấp.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Bộ phận Một cửa thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả. Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai.",
+      "example": null,
+      "source_page": 2
+    },
+    {
+      "order": 3,
+      "title": "Bước 3",
+      "description": "Bước 3: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện:\n- Kiểm tra hồ sơ, xác nhận thời hạn được tiếp tục sử dụng đất vào Giấy chứng nhận đã cấp hoặc cấp mới Giấy chứng nhận nếu người sử dụng đất có nhu cầu.\n- Cập nhật, chỉnh lý cơ sở dữ liệu đất đai, hồ sơ địa chính; gửi Giấy chứng nhận đến Bộ phận Một cửa để trao cho người được cấp.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Mẫu số 29\tĐơn đăng ký biến động đất đai, tài sản gắn liền với đất",
-        "code": "TP-H56.0000066",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019f3a7a-fd09-710e-96f5-c71efd78a000",
-            "name": "Mẫu số 29.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mẫu số 29.docx",
+        "source_page": 2
       },
       {
         "name": "Bản gốc giấy chứng nhận đã cấp",
-        "code": "TP-H56.0000138",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -84,171 +79,73 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "4 ngày làm việc",
-      "processing_time_value": 4,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": null,
-          "currency": "VND",
-          "description": "Theo Quy định",
-          "attachment": {
-            "fileId": "019f40a0-7cb8-73a8-832e-87b656adf7e8",
-            "fileName": "PL2.15.docx"
-          }
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": null,
-          "currency": "VND",
-          "description": "Theo Quy định",
-          "attachment": {
-            "fileId": "019f40a0-a2e3-7106-8d76-b6b78d190922",
-            "fileName": "PL2.15.docx"
-          }
-        }
-      ],
+      "fee": "Theo Quy định",
       "description": "không quá 04 ngày làm việc. Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm không quá 10 ngày làm việc so với tổng thời gian thực hiện thủ tục này. \nThời gian trên không bao gồm thời gian phải luân chuyển hồ sơ giấy trong trường hợp tiếp nhận hồ sơ phi địa giới hành chính; xác định nghĩa vụ tài chính về đất đai; thời gian làm thủ tục miễn, giảm tiền sử dụng đất, tiền thuê đất, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất; thời gian ký hợp đồng thuê đất; thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật; thời gian trưng cầu giám định; thời gian niêm yết công khai, đăng tin trên phương tiện thông tin đại chúng; thời gian Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai thực hiện việc đo đạc, xác định lại diện tích thửa đất để thể hiện sơ đồ của thửa đất trên Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất; thời gian thực hiện thủ tục chia thừa kế quyền sử dụng đất, tài sản gắn liền với đất đối với trường hợp thực hiện thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất mà người sử dụng đất, chủ sở hữu tài sản gắn liền với đất chết trước khi trao Giấy chứng nhận.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "4 ngày làm việc",
-      "processing_time_value": 4,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": null,
-          "currency": "VND",
-          "description": "Theo Quy định",
-          "attachment": {
-            "fileId": "019f40a0-d0a2-72a0-9705-25d070718375",
-            "fileName": "PL2.15.docx"
-          }
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": null,
-          "currency": "VND",
-          "description": "Theo Quy định",
-          "attachment": {
-            "fileId": "019f40a0-edac-7643-a77c-2d3ab7cfeb25",
-            "fileName": "PL2.15.docx"
-          }
-        }
-      ],
+      "fee": "Theo Quy định",
       "description": "không quá 04 ngày làm việc. Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm không quá 10 ngày làm việc so với tổng thời gian thực hiện thủ tục này. \nThời gian trên không bao gồm thời gian phải luân chuyển hồ sơ giấy trong trường hợp tiếp nhận hồ sơ phi địa giới hành chính; xác định nghĩa vụ tài chính về đất đai; thời gian làm thủ tục miễn, giảm tiền sử dụng đất, tiền thuê đất, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất; thời gian ký hợp đồng thuê đất; thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật; thời gian trưng cầu giám định; thời gian niêm yết công khai, đăng tin trên phương tiện thông tin đại chúng; thời gian Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai thực hiện việc đo đạc, xác định lại diện tích thửa đất để thể hiện sơ đồ của thửa đất trên Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất; thời gian thực hiện thủ tục chia thừa kế quyền sử dụng đất, tài sản gắn liền với đất đối với trường hợp thực hiện thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất mà người sử dụng đất, chủ sở hữu tài sản gắn liền với đất chết trước khi trao Giấy chứng nhận.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "4 ngày làm việc",
-      "processing_time_value": 4,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": null,
-          "currency": "VND",
-          "description": "Theo Quy định",
-          "attachment": {
-            "fileId": "019f40a1-12c7-74e6-b852-cc2e59f2525f",
-            "fileName": "PL2.15.docx"
-          }
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": null,
-          "currency": "VND",
-          "description": "Theo Quy định",
-          "attachment": {
-            "fileId": "019f40a1-2f75-773a-8121-d224d9b427d3",
-            "fileName": "PL2.15.docx"
-          }
-        }
-      ],
+      "fee": "Theo Quy định",
       "description": "không quá 04 ngày làm việc. Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm không quá 10 ngày làm việc so với tổng thời gian thực hiện thủ tục này. \nThời gian trên không bao gồm thời gian phải luân chuyển hồ sơ giấy trong trường hợp tiếp nhận hồ sơ phi địa giới hành chính; xác định nghĩa vụ tài chính về đất đai; thời gian làm thủ tục miễn, giảm tiền sử dụng đất, tiền thuê đất, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất; thời gian ký hợp đồng thuê đất; thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật; thời gian trưng cầu giám định; thời gian niêm yết công khai, đăng tin trên phương tiện thông tin đại chúng; thời gian Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai thực hiện việc đo đạc, xác định lại diện tích thửa đất để thể hiện sơ đồ của thửa đất trên Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất; thời gian thực hiện thủ tục chia thừa kế quyền sử dụng đất, tài sản gắn liền với đất đối với trường hợp thực hiện thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất mà người sử dụng đất, chủ sở hữu tài sản gắn liền với đất chết trước khi trao Giấy chứng nhận.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Theo Quy định",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": null,
-        "currency": "VND",
-        "description": "Theo Quy định",
-        "attachment": {
-          "fileId": "019f40a0-7cb8-73a8-832e-87b656adf7e8",
-          "fileName": "PL2.15.docx"
-        }
+        "amount_text": "Theo Quy định",
+        "is_free": false,
+        "source_page": 2
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": null,
-        "currency": "VND",
-        "description": "Theo Quy định",
-        "attachment": {
-          "fileId": "019f40a0-a2e3-7106-8d76-b6b78d190922",
-          "fileName": "PL2.15.docx"
-        }
+        "amount_text": "Theo Quy định",
+        "is_free": false,
+        "source_page": 2
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": null,
-        "currency": "VND",
-        "description": "Theo Quy định",
-        "attachment": {
-          "fileId": "019f40a0-d0a2-72a0-9705-25d070718375",
-          "fileName": "PL2.15.docx"
-        }
+        "amount_text": "Theo Quy định",
+        "is_free": false,
+        "source_page": 2
       },
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "SERVICE_FEE",
-        "amount": null,
-        "currency": "VND",
-        "description": "Theo Quy định",
-        "attachment": {
-          "fileId": "019f40a0-edac-7643-a77c-2d3ab7cfeb25",
-          "fileName": "PL2.15.docx"
-        }
+        "amount_text": "Theo Quy định",
+        "is_free": false,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": null,
-        "currency": "VND",
-        "description": "Theo Quy định",
-        "attachment": {
-          "fileId": "019f40a1-12c7-74e6-b852-cc2e59f2525f",
-          "fileName": "PL2.15.docx"
-        }
+        "amount_text": "Theo Quy định",
+        "is_free": false,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": null,
-        "currency": "VND",
-        "description": "Theo Quy định",
-        "attachment": {
-          "fileId": "019f40a1-2f75-773a-8121-d224d9b427d3",
-          "fileName": "PL2.15.docx"
-        }
+        "amount_text": "Theo Quy định",
+        "is_free": false,
+        "source_page": 2
       }
     ]
   },
@@ -256,80 +153,67 @@
     {
       "title": "Nghị quyết số 12/2025/NQ-HĐND ngày 24/6/2025 của Hội đồng nhân dân tỉnh Thanh Hóa về việc sửa đổi một số điều của Quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng các khoản phí, lệ phí thuộc thẩm quyền của Hội đồng nhân dân tỉnh ban hành kèm theo Nghị quyết số 28/2024/NQ-HĐND ngày 10/7/2024 của Hội đồng nhân dân tỉnh.",
       "document_number": "12/2025/NQ-HĐND",
-      "id": "019d2bb3-5d7f-719e-b478-334aa55a9868",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Sửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai",
       "document_number": "226/2025/NĐ-CP",
-      "id": "019d2bb3-5d86-7760-a644-ce39f72a6124",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Luật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội.",
-      "document_number": "31/2024/QH15 ",
-      "id": "019eab71-e707-70af-996a-4e5b8b36e53e",
-      "source_page": null
+      "document_number": "31/2024/QH15",
+      "source_page": 10
     },
     {
       "title": "Nghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai.",
-      "document_number": "101/2024/NĐ-CP ",
-      "id": "019eab72-e75f-7064-886d-9dddc82fa4a4",
-      "source_page": null
+      "document_number": "101/2024/NĐ-CP",
+      "source_page": 10
     },
     {
       "title": "Nghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai.",
       "document_number": "102/2024/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe8-0a00a8be7fd7",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai",
       "document_number": "151/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afeb-9ac6648a4b4f",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Nghị quyết 28/2024/NQ-HĐND ngày 10/7/2024 của Hội đồng nhân dân tỉnh Thanh Hóa ban hành quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng các khoản phí, lệ phí thuộc thẩm quyền của Hội đồng nhân tỉnh",
       "document_number": "28/2024/NQ-HĐND",
-      "id": "019d2bb3-5d7f-719e-b479-6961a092cdad",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Nghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước",
       "document_number": "190/2025/QH15",
-      "id": "019d2bb3-5d84-71c5-b671-f81035b81bff",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Quy định chi tiết một số điều của Nghị quyết số 254/2025/QH15 ngày 11 tháng 12 năm 2025 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai về tiền sử dụng đất, tiền thuê đất",
       "document_number": "Nghị định số 50/2026/NĐ-CP",
-      "id": "019e8731-a144-730f-9660-6392ade03300",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "254/2025/QH15",
-      "id": "019ed889-689c-754e-8006-5ba0214fab5a",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Ban hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Thanh Hóa",
       "document_number": "55/2026/QĐ",
-      "id": "019f17b1-9664-702e-8d67-d6ad1c252738",
-      "source_page": null
+      "source_page": 10
     },
     {
       "title": "Nghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia",
       "document_number": "118/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe9-653aac8276ee",
-      "source_page": null
+      "source_page": 11
     },
     {
       "title": "quy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai",
       "document_number": "49/2026/NĐ-CP",
-      "id": "019ed88c-73bf-73ed-a2c9-ebbe831f989d",
-      "source_page": null
+      "source_page": 11
     }
   ],
   "conditions": "Người sử dụng đất nông nghiệp đã được cấp Giấy chứng nhận nhưng hết thời hạn trên Giấy chứng nhận đã cấp.",
@@ -337,15 +221,14 @@
     {
       "title": "Giấy chứng nhận",
       "code": "KQ-H56.0000017",
-      "id": "019f3ba0-7726-770f-83e4-8e7929bf3b4e",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Người sử dụng đất nông nghiệp nộp hồ sơ tại Bộ phận Một cửa\nKhi nộp hồ sơ, người nộp hồ sơ được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nĐối với  trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì người yêu cầu đăng ký nộp bản gốc Giấy chứng nhận đã cấp.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định. \nBước 2: Bộ phận Một cửa thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả. Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai. \nBước 3: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện:\n- Kiểm tra hồ sơ, xác nhận thời hạn được tiếp tục sử dụng đất vào Giấy chứng nhận đã cấp hoặc cấp mới Giấy chứng nhận nếu người sử dụng đất có nhu cầu.\n- Cập nhật, chỉnh lý cơ sở dữ liệu đất đai, hồ sơ địa chính; gửi Giấy chứng nhận đến Bộ phận Một cửa để trao cho người được cấp.",
-    "THÀNH PHẦN HỒ SƠ": "\nMẫu số 29\tĐơn đăng ký biến động đất đai, tài sản gắn liền với đất\nBản gốc giấy chứng nhận đã cấp",
-    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 4 ngày làm việc - không quá 04 ngày làm việc. Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm không quá 10 ngày làm việc so với tổng thời gian thực hiện thủ tục này. \nThời gian trên không bao gồm thời gian phải luân chuyển hồ sơ giấy trong trường hợp tiếp nhận hồ sơ phi địa giới hành chính; xác định nghĩa vụ tài chính về đất đai; thời gian làm thủ tục miễn, giảm tiền sử dụng đất, tiền thuê đất, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất; thời gian ký hợp đồng thuê đất; thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật; thời gian trưng cầu giám định; thời gian niêm yết công khai, đăng tin trên phương tiện thông tin đại chúng; thời gian Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai thực hiện việc đo đạc, xác định lại diện tích thửa đất để thể hiện sơ đồ của thửa đất trên Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất; thời gian thực hiện thủ tục chia thừa kế quyền sử dụng đất, tài sản gắn liền với đất đối với trường hợp thực hiện thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất mà người sử dụng đất, chủ sở hữu tài sản gắn liền với đất chết trước khi trao Giấy chứng nhận.\nTrực tuyến: 4 ngày làm việc - không quá 04 ngày làm việc. Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm không quá 10 ngày làm việc so với tổng thời gian thực hiện thủ tục này. \nThời gian trên không bao gồm thời gian phải luân chuyển hồ sơ giấy trong trường hợp tiếp nhận hồ sơ phi địa giới hành chính; xác định nghĩa vụ tài chính về đất đai; thời gian làm thủ tục miễn, giảm tiền sử dụng đất, tiền thuê đất, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất; thời gian ký hợp đồng thuê đất; thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật; thời gian trưng cầu giám định; thời gian niêm yết công khai, đăng tin trên phương tiện thông tin đại chúng; thời gian Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai thực hiện việc đo đạc, xác định lại diện tích thửa đất để thể hiện sơ đồ của thửa đất trên Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất; thời gian thực hiện thủ tục chia thừa kế quyền sử dụng đất, tài sản gắn liền với đất đối với trường hợp thực hiện thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất mà người sử dụng đất, chủ sở hữu tài sản gắn liền với đất chết trước khi trao Giấy chứng nhận.\nQua dịch vụ bưu chính: 4 ngày làm việc - không quá 04 ngày làm việc. Đối với các xã miền núi, biên giới; đảo; vùng có điều kiện kinh tế - xã hội khó khăn; vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn thì thời gian thực hiện được tăng thêm không quá 10 ngày làm việc so với tổng thời gian thực hiện thủ tục này. \nThời gian trên không bao gồm thời gian phải luân chuyển hồ sơ giấy trong trường hợp tiếp nhận hồ sơ phi địa giới hành chính; xác định nghĩa vụ tài chính về đất đai; thời gian làm thủ tục miễn, giảm tiền sử dụng đất, tiền thuê đất, thời gian thực hiện nghĩa vụ tài chính của người sử dụng đất; thời gian ký hợp đồng thuê đất; thời gian xem xét xử lý đối với trường hợp sử dụng đất có vi phạm pháp luật; thời gian trưng cầu giám định; thời gian niêm yết công khai, đăng tin trên phương tiện thông tin đại chúng; thời gian Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai thực hiện việc đo đạc, xác định lại diện tích thửa đất để thể hiện sơ đồ của thửa đất trên Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất; thời gian thực hiện thủ tục chia thừa kế quyền sử dụng đất, tài sản gắn liền với đất đối với trường hợp thực hiện thủ tục cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất mà người sử dụng đất, chủ sở hữu tài sản gắn liền với đất chết trước khi trao Giấy chứng nhận.",
-    "CĂN CỨ PHÁP LÝ": "Nghị quyết số 12/2025/NQ-HĐND ngày 24/6/2025 của Hội đồng nhân dân tỉnh Thanh Hóa về việc sửa đổi một số điều của Quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng các khoản phí, lệ phí thuộc thẩm quyền của Hội đồng nhân dân tỉnh ban hành kèm theo Nghị quyết số 28/2024/NQ-HĐND ngày 10/7/2024 của Hội đồng nhân dân tỉnh. - 12/2025/NQ-HĐND\nSửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai - 226/2025/NĐ-CP\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15 \nNghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai. - 101/2024/NĐ-CP \nNghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai. - 102/2024/NĐ-CP\nQuy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai - 151/2025/NĐ-CP\nNghị quyết 28/2024/NQ-HĐND ngày 10/7/2024 của Hội đồng nhân dân tỉnh Thanh Hóa ban hành quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng các khoản phí, lệ phí thuộc thẩm quyền của Hội đồng nhân tỉnh - 28/2024/NQ-HĐND\nNghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước - 190/2025/QH15\nQuy định chi tiết một số điều của Nghị quyết số 254/2025/QH15 ngày 11 tháng 12 năm 2025 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai về tiền sử dụng đất, tiền thuê đất - Nghị định số 50/2026/NĐ-CP\nQuy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 254/2025/QH15\nBan hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Thanh Hóa - 55/2026/QĐ\nNghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Người sử dụng đất nông nghiệp nộp hồ sơ tại Bộ phận Một cửa\nKhi nộp hồ sơ, người nộp hồ sơ được lựa chọn nộp bản sao giấy tờ và xuất trình bản chính để cán bộ tiếp nhận hồ sơ kiểm tra, đối chiếu hoặc nộp bản chính giấy tờ hoặc nộp bản sao giấy tờ đã có công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực. Trường hợp nộp hồ sơ theo hình thức trực tuyến thì hồ sơ nộp phải được số hóa từ bản chính hoặc bản sao giấy tờ đã được công chứng, chứng thực.\nĐối với  trường hợp thực hiện xác nhận thay đổi trên Giấy chứng nhận đã cấp thì người yêu cầu đăng ký nộp bản gốc Giấy chứng nhận đã cấp.\nTrường hợp nộp bản sao hoặc bản số hóa các loại giấy tờ thì khi nhận kết quả giải quyết thủ tục hành chính người yêu cầu đăng ký phải nộp bản chính các giấy tờ thuộc thành phần hồ sơ theo quy định.\nBước 2: Bộ phận Một cửa thực hiện:\n- Kiểm tra tính đầy đủ của thành phần hồ sơ và cấp Giấy tiếp nhận hồ sơ và hẹn trả kết quả. Trường hợp chưa đầy đủ thành phần hồ sơ thì trả hồ sơ kèm Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ để người yêu cầu đăng ký hoàn thiện, bổ sung theo quy định.\n- Chuyển hồ sơ đến Văn phòng đăng ký đất đai hoặc Chi nhánh Văn phòng đăng ký đất đai.\nBước 3: Văn phòng đăng ký đất đai, Chi nhánh Văn phòng đăng ký đất đai thực hiện:\n- Kiểm tra hồ sơ, xác nhận thời hạn được tiếp tục sử dụng đất vào Giấy chứng nhận đã cấp hoặc cấp mới Giấy chứng nhận nếu người sử dụng đất có nhu cầu.\n- Cập nhật, chỉnh lý cơ sở dữ liệu đất đai, hồ sơ địa chính; gửi Giấy chứng nhận đến Bộ phận Một cửa để trao cho người được cấp.",
+    "THÀNH PHẦN HỒ SƠ": "Mẫu số 29\tĐơn đăng ký biến động đất đai, tài sản gắn liền với đất\nBản gốc giấy chứng nhận đã cấp",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 4 ngày làm việc\nTrực tuyến: 4 ngày làm việc\nQua dịch vụ bưu chính: 4 ngày làm việc",
+    "CĂN CỨ PHÁP LÝ": "Nghị quyết số 12/2025/NQ-HĐND ngày 24/6/2025 của Hội đồng nhân dân tỉnh Thanh Hóa về việc sửa đổi một số điều của Quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng các khoản phí, lệ phí thuộc thẩm quyền của Hội đồng nhân dân tỉnh ban hành kèm theo Nghị quyết số 28/2024/NQ-HĐND ngày 10/7/2024 của Hội đồng nhân dân tỉnh. - 12/2025/NQ-HĐND\nSửa đổi, bổ sung một số điều của các nghị định  quy định chi tiết thi hành Luật Đất đai - 226/2025/NĐ-CP\nLuật Đất đai số 31/2024/QH15 ngày 18/01/2024 được sửa đổi bổ sung  một số điều bởi Luật số 43/2024/QH15, Luật số 47/2024/QH15 và Luật số 58/2024/QH15 của Quốc hội. - 31/2024/QH15\nNghị định quy định về điều tra cơ bản đất đai, đăng ký, cấp Giấy chứng nhận quyền sử dụng đất, quyền sở hữu tài sản gắn liền với đất và Hệ thống thông tin đất đai. - 101/2024/NĐ-CP\nNghị định 102/2024/NĐ-CP ngày 30/7/2024 của Chính phủ quy định chi tiết thi hành một số điều của Luật Đất đai. - 102/2024/NĐ-CP\nQuy định về phân định thẩm quyền của chính quyền địa phương 02 cấp, phân quyền, phân cấp trong lĩnh vực đất đai - 151/2025/NĐ-CP\nNghị quyết 28/2024/NQ-HĐND ngày 10/7/2024 của Hội đồng nhân dân tỉnh Thanh Hóa ban hành quy định mức thu, miễn, giảm, thu, nộp, quản lý và sử dụng các khoản phí, lệ phí thuộc thẩm quyền của Hội đồng nhân tỉnh - 28/2024/NQ-HĐND\nNghị quyết số 190/2025/QH15 của Quốc hội: Quy định về xử lý một số vấn đề liên quan đến sắp xếp tổ chức bộ máy nhà nước - 190/2025/QH15\nQuy định chi tiết một số điều của Nghị quyết số 254/2025/QH15 ngày 11 tháng 12 năm 2025 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn, vướng mắc trong tổ chức thi hành Luật Đất đai về tiền sử dụng đất, tiền thuê đất - Nghị định số 50/2026/NĐ-CP\nQuy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 254/2025/QH15\nBan hành Quy định trình tự, thủ tục hành chính về đất đai trên địa bàn tỉnh Thanh Hóa - 55/2026/QĐ\nNghị định số 118/2025/NĐ-CP của Chính phủ: Về thực hiện thủ tục hành chính theo cơ chế một cửa, một cửa liên thông tại Bộ phận Một cửa và Cổng Dịch vụ công quốc gia - 118/2025/NĐ-CP\nquy định chi tiết và hướng dẫn một số điều của Nghị quyết số 254/2025/QH15 của Quốc hội quy định một số cơ chế, chính sách tháo gỡ khó khăn vướng mắc trong tổ chức thi hành Luật Đất đai - 49/2026/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Văn phòng Đăng ký đất đai",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Người sử dụng đất nông nghiệp đã được cấp Giấy chứng nhận nhưng hết thời hạn trên Giấy chứng nhận đã cấp.",
     "KẾT QUẢ XỬ LÝ": "Giấy chứng nhận - KQ-H56.0000017",
@@ -353,14 +236,9 @@
     "MÔ TẢ": "Người sử dụng đất nông nghiệp đã được cấp Giấy chứng nhận nhưng hết thời hạn trên Giấy chứng nhận đã cấp."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Đất đai",
-      "slug": "dat-dai"
+      "slug": "at-ai"
     },
     "implementation_levels": [
       {
@@ -377,13 +255,13 @@
     "agencies": [
       {
         "name": "Văn phòng Đăng ký đất đai",
-        "slug": "van-phong-dang-ky-dat-dai"
+        "slug": "van-phong-ang-ky-at-ai"
       },
       {
         "name": "Chi nhánh Văn phòng đăng ký đất đai khu vực",
-        "slug": "chi-nhanh-van-phong-dang-ky-dat-dai-khu-vuc"
+        "slug": "chi-nhanh-van-phong-ang-ky-at-ai-khu-vuc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "non_territorial"
   }
 }

@@ -1,36 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-d782-7538-959f-13ec3688f02c",
   "procedure_code": "1.002179",
   "title": "Đăng ký, đăng ký lại, điều chỉnh đóng BHXH tự nguyện; cấp sổ BHXH",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-d782-7538-959f-13ec3688f02c",
     "source_file": "chi-tiet-thu-tuc-1.002179.pdf",
     "source_path": "procedures/huu-tri/1.002179/chi-tiet-thu-tuc-1.002179.pdf",
     "page_count": 5,
-    "extracted_at": "2026-07-18T02:22:00.134931+00:00",
-    "source_updated_at": "2026-04-15T10:04:15.131Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:32.359081+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "5e333fc8418eec4fca65b777a74f9603d3b75f622111fd0a9c16872257795128"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:00.134931+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1474/QĐ-BTC",
   "implementation_level": "Cấp bộ, Cấp tỉnh, Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh",
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thu BHXH, BHYT, BHTN, BH tai nạn lao động, BNN",
   "target_users": [
@@ -40,39 +33,36 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Bảo hiểm xã hội cấp Tỉnh, Bảo hiểm xã hội cấp huyện",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bảo hiểm xã hội cấp Tỉnh, Bảo hiểm xã hội cấp huyện"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1. Lập, nộp hồ sơ",
-      "description": "1. Người tham gia\na) Trường hợp người tham gia đóng trực tiếp cho cơ quan BHXH hoặc Tổ chức dịch vụ: Lập hồ sơ theo quy định tại tiết 1.1 điểm 1 Mục Thành phần hồ sơ và nộp cho Tổ chức dịch vụ hoặc cơ quan BHXH trên phạm vi toàn quốc\nb) Trường hợp người tham gia nộp hồ sơ qua Cổng Dịch vụ công: Lập hồ sơ theo quy định tại tiết 1.2 điểm 1 Mục Thành phần hồ sơ và nộp trực tuyến trên Cổng Dịch vụ công.\nc) Trường hợp người tham gia có yêu cầu hoàn trả tiền đóng BHXH tự nguyện: Lập hồ sơ theo quy định tại tiết 1.3 điểm 1 Mục Thành phần hồ sơ, nộp trực tiếp cho cơ quan BHXH hoặc Tổ chức dịch vụ.\n2. Tổ chức dịch vụ: Nhận hồ sơ của người tham gia, lập hồ sơ theo quy định tại điểm 2 Mục Thành phần hồ sơ và nộp cho cơ quan BHXH.\n",
+      "description": "1. Người tham gia\na) Trường hợp người tham gia đóng trực tiếp cho cơ quan BHXH hoặc Tổ chức dịch vụ: Lập hồ sơ theo quy định tại tiết 1.1 điểm 1 Mục Thành phần hồ sơ và nộp cho Tổ chức dịch vụ hoặc cơ quan BHXH trên phạm vi toàn quốc\nb) Trường hợp người tham gia nộp hồ sơ qua Cổng Dịch vụ công: Lập hồ sơ theo quy định tại tiết 1.2 điểm 1 Mục Thành phần hồ sơ và nộp trực tuyến trên Cổng Dịch vụ công.\nc) Trường hợp người tham gia có yêu cầu hoàn trả tiền đóng BHXH tự nguyện: Lập hồ sơ theo quy định tại tiết 1.3 điểm 1 Mục Thành phần hồ sơ, nộp trực tiếp cho cơ quan BHXH hoặc Tổ chức dịch vụ.\n2. Tổ chức dịch vụ: Nhận hồ sơ của người tham gia, lập hồ sơ theo quy định tại điểm 2 Mục Thành phần hồ sơ và nộp cho cơ quan BHXH.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 2,
       "title": "Bước 2. Đóng tiền",
-      "description": "1. Người tham gia: Đóng tiền theo phương thức đăng ký cho tổ chức dịch vụ hoặc cơ quan BHXH trên phạm vi toàn quốc hoặc đóng tiền trực tuyến khi thực hiện qua Cổng Dịch vụ công.\n2. Tổ chức dịch vụ: thu tiền đóng BHXH phần thuộc trách nhiệm đóng của người tham gia BHXH tự nguyện; cấp biên lai thu tiền cho người tham gia theo quy định. Nộp số tiền đã thu của người tham gia cho cơ quan BHXH hàng ngày thông qua tài khoản ngân hàng hoặc hệ thống tiện ích thông minh.\n",
+      "description": "1. Người tham gia: Đóng tiền theo phương thức đăng ký cho tổ chức dịch vụ hoặc cơ quan BHXH trên phạm vi toàn quốc hoặc đóng tiền trực tuyến khi thực hiện qua Cổng Dịch vụ công.\n2. Tổ chức dịch vụ: thu tiền đóng BHXH phần thuộc trách nhiệm đóng của người tham gia BHXH tự nguyện; cấp biên lai thu tiền cho người tham gia theo quy định. Nộp số tiền đã thu của người tham gia cho cơ quan BHXH hàng ngày thông qua tài khoản ngân hàng hoặc hệ thống tiện ích thông minh.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 3,
       "title": "Bước 3.",
-      "description": "Cơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định.\n",
+      "description": "Cơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     },
     {
       "order": 4,
       "title": "Bước 4.",
-      "description": "Nhận kết quả giải quyết gồm: Sổ BHXH; Quyết định hoàn trả (Mẫu C16-TS) và tiền hoàn trả (nếu có) theo hình thức đã đăng ký.\n",
+      "description": "Nhận kết quả giải quyết gồm: Sổ BHXH; Quyết định hoàn trả (Mẫu C16-TS) và tiền hoàn trả (nếu có) theo hình thức đã đăng ký.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
@@ -80,49 +70,34 @@
     "normally_required": [],
     "conditional": [
       {
-        "name": "Trường hợp hoàn trả tiền đã đóng - Tờ khai tham gia, điều chỉnh thông tin BHXH, BHYT (Mẫu TK1-TS); - Sổ BHXH; - Văn bản chứng thực hoặc bản chụp kèm theo bản chính giấy chứng tử (đối với trường hợp đã chết)",
-        "code": "G24-KQ000341",
+        "name": "1. Người tham gia: Trường hợp hoàn trả tiền đã đóng - Tờ khai tham gia, điều chỉnh thông tin BHXH, BHYT (Mẫu TK1-TS); - Sổ BHXH; - Văn bản chứng thực hoặc bản chụp kèm theo bản chính giấy chứng tử (đối với trường hợp đã chết)",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "1. Người tham gia",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Trường hợp người tham gia nộp qua Cổng Dịch vụ công: Tờ khai điện tử đăng ký tham gia BHXH tự nguyện trên Cổng Dịch vụ công (Mẫu 02-TK",
-        "code": "G24-KQ000340",
+        "name": "1. Người tham gia: Trường hợp người tham gia nộp qua Cổng Dịch vụ công: Tờ khai điện tử đăng ký tham gia BHXH tự nguyện trên Cổng Dịch vụ công (Mẫu 02-TK",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "1. Người tham gia",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Trường hợp người tham gia đóng trực tiếp cho cơ quan BHXH hoặc Tổ chức dịch vụ: Tờ khai tham gia điều chỉnh thông tin BHXH, BHYT (Mẫu TK1-TS) đối với người tham gia lần đầu hoặc có mã số BHXH nhưng chưa đủ thông tin.",
-        "code": "G24-KQ000339",
+        "name": "1. Người tham gia: Trường hợp người tham gia đóng trực tiếp cho cơ quan BHXH hoặc Tổ chức dịch vụ: Tờ khai tham gia điều chỉnh thông tin BHXH, BHYT (Mẫu TK1-TS) đối với người tham gia lần đầu hoặc có mã số BHXH nhưng chưa đủ thông tin.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "1. Người tham gia",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Danh sách người tham gia BHXH tự nguyện  (Mẫu D05-TS)",
-        "code": "000.00.00.G24-KQ0213",
+        "name": "2. Đại lý thu: Danh sách người tham gia BHXH tự nguyện  (Mẫu D05-TS)",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2. Đại lý thu",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Giấy thanh toán thù lao cho tổ chức làm dịch vụ thu (Mẫu C66a-HD) tương ứng với số tiền nộp.",
-        "code": "G24-KQ000342",
+        "name": "2. Đại lý thu: Giấy thanh toán thù lao cho tổ chức làm dịch vụ thu (Mẫu C66a-HD) tương ứng với số tiền nộp.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "2. Đại lý thu",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -131,35 +106,15 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
       "source_page": null
     },
@@ -167,51 +122,36 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "5 ngày làm việc",
-      "processing_time_value": 5,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": null
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -219,62 +159,52 @@
     {
       "title": "Quyết định sửa đổi, bổ sung một số điều Quy trình thu BHXH, BHYT, BHTN, bảo hiểm TNLĐ-BNN; quản lý sổ BHXH, thẻ BHYT ban hành kèm theo Quyết định số 595/QĐ-BHXH ngày 14/4/2017 của Tổng Giám đốc BHXH Việt Nam",
       "document_number": "505/QĐ-BHXH",
-      "id": "019d2bb3-5d7b-7049-8fc5-902fa5ba17ac",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Ban hành Quy trình giao dịch điện tử trong lĩnh vực bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp",
       "document_number": "838/QĐ-BHXH",
-      "id": "019d2bb3-5d7b-7049-8fc5-a7bb51348d88",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Sửa đổi, bổ sung một số Điều quy trình thu bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp, bảo hiểm tai nạn lao động, bệnh nghề nghiệp; quản lý sổ bảo hiểm xã hội, thẻ bảo hiểm y tế ban hành kèm theo Quyết định số 595/QĐ-BHXH ngày 14/4/2017 của Tổng Giám đốc Bảo hiểm xã hội Việt Nam",
       "document_number": "888/QĐ-BHXH",
-      "id": "019d2bb3-5d7b-7049-8fc5-af106e7e035b",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "LUẬT  Bảo hiểm xã hội",
       "document_number": "58/2014/QH13",
-      "id": "019d2bb3-5d84-71c5-b673-9d8fafaf3543",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Nghị định 134/2015/NĐ-CP",
       "document_number": "134/2015/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afea-74c2735764bd",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Thông tư 102/2018/TT-BTC",
       "document_number": "102/2018/TT-BTC",
-      "id": "019d2bb3-5d86-7760-a63c-44c36998e60f",
-      "source_page": null
+      "source_page": 4
     },
     {
       "title": "Quyết định sửa đổi, bổ sung một số điều quy trình thu BHXH, BHYT, BHTN, BHTNLĐ - BNN; Quản lý sổ BHXH, thẻ BHYT ban hành kèm Quyết định số 595/QĐ-BHXH ngày 14/4/2017 và Quyết định số 490/QĐ-BHXH ngày 28/3/2023 của Tổng Giám đốc BHXH Việt Nam",
       "document_number": "948/QĐ-BHXH",
-      "id": "019d2bb3-5d7b-7049-8fc5-bae57b6beadc",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư 01/2016/TT-BLĐTBXH",
       "document_number": "01/2016/TT-BLĐTBXH",
-      "id": "019d2bb3-5d7c-71ab-9f06-2cea6b32fca4",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định sửa đổi, bổ sung một số điều của các Nghị định liên quan đến việc nộp xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công",
       "document_number": "104/2022/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe8-3ac91da2e6b0",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Quyết định số 490/QĐ-BHXH ngày 28 tháng 3 năm 2023 Tổng Giám đốc Bảo hiểm xã hội Việt Nam về sửa đổi, bổ sung một số điều của Quy trình thu bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp, bảo hiểm tai nạn lao động, bệnh nghề nghiệp; quản lý sổ bảo hiểm xã hội, thẻ bảo hiểm y tế ban hành kèm theo Quyết định số 595/QĐ-BHXH ngày 14 tháng 4 năm 2017 của Tổng Giám đốc Bảo hiểm xã hội Việt Nam và sửa đổi, bổ sung Điều 1 của Quyết định số 505/QĐ-BHXH ngày 27 tháng 3 năm 2020 của Tổng Giám đốc Bảo hiểm xã hội Việt Nam",
       "document_number": "490/QĐ-BHXH",
-      "id": "019d2bb3-5d85-73da-8eb8-8d8f75a2fe4d",
-      "source_page": null
+      "source_page": 4
     }
   ],
   "conditions": "",
@@ -282,31 +212,27 @@
     {
       "title": "Quyết định hoàn trả (mẫu C16-TS) và Tiền hoàn trả",
       "code": "KQ.G12.001167",
-      "id": "019d2bb2-1c72-75fa-a592-4375e21dd2da",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Tiền hoàn trả (nếu có)",
       "code": "KQ.G24.000045",
-      "id": "019d2bb2-1c82-739b-8b99-bc407c0c5ca4",
-      "source_page": null
+      "source_page": 2
     },
     {
       "title": "Sổ BHXH",
       "code": "KQ.G24.000002",
-      "id": "019d2bb2-1c82-739b-8b99-5e1acdfdd80b",
       "source_page": null
     },
     {
       "title": "Quyết định về việc hoàn trả tiền thu BHXH, BHYT, BHTN, BHTNLĐ, BNN",
       "code": "KQ.G24.000003",
-      "id": "019d2bb2-1c82-739b-8b99-613a23b81914",
-      "source_page": null
+      "source_page": 5
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "1. Người tham gia\na) Trường hợp người tham gia đóng trực tiếp cho cơ quan BHXH hoặc Tổ chức dịch vụ: Lập hồ sơ theo quy định tại tiết 1.1 điểm 1 Mục Thành phần hồ sơ và nộp cho Tổ chức dịch vụ hoặc cơ quan BHXH trên phạm vi toàn quốc\nb) Trường hợp người tham gia nộp hồ sơ qua Cổng Dịch vụ công: Lập hồ sơ theo quy định tại tiết 1.2 điểm 1 Mục Thành phần hồ sơ và nộp trực tuyến trên Cổng Dịch vụ công.\nc) Trường hợp người tham gia có yêu cầu hoàn trả tiền đóng BHXH tự nguyện: Lập hồ sơ theo quy định tại tiết 1.3 điểm 1 Mục Thành phần hồ sơ, nộp trực tiếp cho cơ quan BHXH hoặc Tổ chức dịch vụ.\n2. Tổ chức dịch vụ: Nhận hồ sơ của người tham gia, lập hồ sơ theo quy định tại điểm 2 Mục Thành phần hồ sơ và nộp cho cơ quan BHXH.\n\n1. Người tham gia: Đóng tiền theo phương thức đăng ký cho tổ chức dịch vụ hoặc cơ quan BHXH trên phạm vi toàn quốc hoặc đóng tiền trực tuyến khi thực hiện qua Cổng Dịch vụ công.\n2. Tổ chức dịch vụ: thu tiền đóng BHXH phần thuộc trách nhiệm đóng của người tham gia BHXH tự nguyện; cấp biên lai thu tiền cho người tham gia theo quy định. Nộp số tiền đã thu của người tham gia cho cơ quan BHXH hàng ngày thông qua tài khoản ngân hàng hoặc hệ thống tiện ích thông minh.\n\nCơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định.\n\nNhận kết quả giải quyết gồm: Sổ BHXH; Quyết định hoàn trả (Mẫu C16-TS) và tiền hoàn trả (nếu có) theo hình thức đã đăng ký.\n",
-    "THÀNH PHẦN HỒ SƠ": "1. Người tham gia\nTrường hợp hoàn trả tiền đã đóng - Tờ khai tham gia, điều chỉnh thông tin BHXH, BHYT (Mẫu TK1-TS); - Sổ BHXH; - Văn bản chứng thực hoặc bản chụp kèm theo bản chính giấy chứng tử (đối với trường hợp đã chết)\nTrường hợp người tham gia nộp qua Cổng Dịch vụ công: Tờ khai điện tử đăng ký tham gia BHXH tự nguyện trên Cổng Dịch vụ công (Mẫu 02-TK\nTrường hợp người tham gia đóng trực tiếp cho cơ quan BHXH hoặc Tổ chức dịch vụ: Tờ khai tham gia điều chỉnh thông tin BHXH, BHYT (Mẫu TK1-TS) đối với người tham gia lần đầu hoặc có mã số BHXH nhưng chưa đủ thông tin.\n2. Đại lý thu\nDanh sách người tham gia BHXH tự nguyện  (Mẫu D05-TS)\nGiấy thanh toán thù lao cho tổ chức làm dịch vụ thu (Mẫu C66a-HD) tương ứng với số tiền nộp.",
+    "TRÌNH TỰ THỰC HIỆN": "1. Người tham gia\na) Trường hợp người tham gia đóng trực tiếp cho cơ quan BHXH hoặc Tổ chức dịch vụ: Lập hồ sơ theo quy định tại tiết 1.1 điểm 1 Mục Thành phần hồ sơ và nộp cho Tổ chức dịch vụ hoặc cơ quan BHXH trên phạm vi toàn quốc\nb) Trường hợp người tham gia nộp hồ sơ qua Cổng Dịch vụ công: Lập hồ sơ theo quy định tại tiết 1.2 điểm 1 Mục Thành phần hồ sơ và nộp trực tuyến trên Cổng Dịch vụ công.\nc) Trường hợp người tham gia có yêu cầu hoàn trả tiền đóng BHXH tự nguyện: Lập hồ sơ theo quy định tại tiết 1.3 điểm 1 Mục Thành phần hồ sơ, nộp trực tiếp cho cơ quan BHXH hoặc Tổ chức dịch vụ.\n2. Tổ chức dịch vụ: Nhận hồ sơ của người tham gia, lập hồ sơ theo quy định tại điểm 2 Mục Thành phần hồ sơ và nộp cho cơ quan BHXH.\n1. Người tham gia: Đóng tiền theo phương thức đăng ký cho tổ chức dịch vụ hoặc cơ quan BHXH trên phạm vi toàn quốc hoặc đóng tiền trực tuyến khi thực hiện qua Cổng Dịch vụ công.\n2. Tổ chức dịch vụ: thu tiền đóng BHXH phần thuộc trách nhiệm đóng của người tham gia BHXH tự nguyện; cấp biên lai thu tiền cho người tham gia theo quy định. Nộp số tiền đã thu của người tham gia cho cơ quan BHXH hàng ngày thông qua tài khoản ngân hàng hoặc hệ thống tiện ích thông minh.\nCơ quan BHXH tiếp nhận hồ sơ và giải quyết theo quy định.\nNhận kết quả giải quyết gồm: Sổ BHXH; Quyết định hoàn trả (Mẫu C16-TS) và tiền hoàn trả (nếu có) theo hình thức đã đăng ký.",
+    "THÀNH PHẦN HỒ SƠ": "1. Người tham gia: Trường hợp hoàn trả tiền đã đóng - Tờ khai tham gia, điều chỉnh thông tin BHXH, BHYT (Mẫu TK1-TS); - Sổ BHXH; - Văn bản chứng thực hoặc bản chụp kèm theo bản chính giấy chứng tử (đối với trường hợp đã chết)\n1. Người tham gia: Trường hợp người tham gia nộp qua Cổng Dịch vụ công: Tờ khai điện tử đăng ký tham gia BHXH tự nguyện trên Cổng Dịch vụ công (Mẫu 02-TK\n1. Người tham gia: Trường hợp người tham gia đóng trực tiếp cho cơ quan BHXH hoặc Tổ chức dịch vụ: Tờ khai tham gia điều chỉnh thông tin BHXH, BHYT (Mẫu TK1-TS) đối với người tham gia lần đầu hoặc có mã số BHXH nhưng chưa đủ thông tin.\n2. Đại lý thu: Danh sách người tham gia BHXH tự nguyện  (Mẫu D05-TS)\n2. Đại lý thu: Giấy thanh toán thù lao cho tổ chức làm dịch vụ thu (Mẫu C66a-HD) tương ứng với số tiền nộp.",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 5 ngày làm việc\nQua dịch vụ bưu chính: 5 ngày làm việc\nTrực tiếp: 5 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Quyết định sửa đổi, bổ sung một số điều Quy trình thu BHXH, BHYT, BHTN, bảo hiểm TNLĐ-BNN; quản lý sổ BHXH, thẻ BHYT ban hành kèm theo Quyết định số 595/QĐ-BHXH ngày 14/4/2017 của Tổng Giám đốc BHXH Việt Nam - 505/QĐ-BHXH\nBan hành Quy trình giao dịch điện tử trong lĩnh vực bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp - 838/QĐ-BHXH\nSửa đổi, bổ sung một số Điều quy trình thu bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp, bảo hiểm tai nạn lao động, bệnh nghề nghiệp; quản lý sổ bảo hiểm xã hội, thẻ bảo hiểm y tế ban hành kèm theo Quyết định số 595/QĐ-BHXH ngày 14/4/2017 của Tổng Giám đốc Bảo hiểm xã hội Việt Nam - 888/QĐ-BHXH\nLUẬT  Bảo hiểm xã hội - 58/2014/QH13\nNghị định 134/2015/NĐ-CP - 134/2015/NĐ-CP\nThông tư 102/2018/TT-BTC - 102/2018/TT-BTC\nQuyết định sửa đổi, bổ sung một số điều quy trình thu BHXH, BHYT, BHTN, BHTNLĐ - BNN; Quản lý sổ BHXH, thẻ BHYT ban hành kèm Quyết định số 595/QĐ-BHXH ngày 14/4/2017 và Quyết định số 490/QĐ-BHXH ngày 28/3/2023 của Tổng Giám đốc BHXH Việt Nam - 948/QĐ-BHXH\nThông tư 01/2016/TT-BLĐTBXH - 01/2016/TT-BLĐTBXH\nNghị định sửa đổi, bổ sung một số điều của các Nghị định liên quan đến việc nộp xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công - 104/2022/NĐ-CP\nQuyết định số 490/QĐ-BHXH ngày 28 tháng 3 năm 2023 Tổng Giám đốc Bảo hiểm xã hội Việt Nam về sửa đổi, bổ sung một số điều của Quy trình thu bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp, bảo hiểm tai nạn lao động, bệnh nghề nghiệp; quản lý sổ bảo hiểm xã hội, thẻ bảo hiểm y tế ban hành kèm theo Quyết định số 595/QĐ-BHXH ngày 14 tháng 4 năm 2017 của Tổng Giám đốc Bảo hiểm xã hội Việt Nam và sửa đổi, bổ sung Điều 1 của Quyết định số 505/QĐ-BHXH ngày 27 tháng 3 năm 2020 của Tổng Giám đốc Bảo hiểm xã hội Việt Nam - 490/QĐ-BHXH",
     "CƠ QUAN THỰC HIỆN": "Bảo hiểm xã hội cấp Tỉnh, Bảo hiểm xã hội cấp huyện",
@@ -316,14 +242,9 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Hưu trí",
-      "slug": "huu-tri",
-      "method": "service_group"
-    },
     "sector": {
       "name": "Thu BHXH, BHYT, BHTN, BH tai nạn lao động, BNN",
-      "slug": "thu-bhxh-bhyt-bhtn-bh-tai-nan-lao-dong-bnn"
+      "slug": "thu-bhxh-bhyt-bhtn-bh-tai-nan-lao-ong-bnn"
     },
     "implementation_levels": [
       {
@@ -350,7 +271,7 @@
       },
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -367,6 +288,6 @@
         "slug": "bao-hiem-xa-hoi-cap-huyen"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

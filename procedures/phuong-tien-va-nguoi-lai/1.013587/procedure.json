@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-a8e9-730b-bb5f-1ea46a9a9a9b",
   "procedure_code": "1.013587",
   "title": "Thủ tục đăng ký đến, đi đối với phương tiện thủy nội địa đến, rời cửa khẩu cảng",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-a8e9-730b-bb5f-1ea46a9a9a9b",
     "source_file": "chi-tiet-thu-tuc-1.013587.pdf",
     "source_path": "procedures/phuong-tien-va-nguoi-lai/1.013587/chi-tiet-thu-tuc-1.013587.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:10.612568+00:00",
-    "source_updated_at": "2026-05-01T01:23:32.319Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:58:57.691676+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "4f8c3000c9c32304518fd74f38e53dbccd22fd20b178ebaa00fd0ced6bb118e4"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:10.612568+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1909/QĐ-BQP",
   "implementation_level": "Cấp xã, Cơ quan ngành dọc",
-  "implementation_levels": [
-    "Cấp xã",
-    "Cơ quan ngành dọc"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Quản lý biên giới",
   "target_users": [
@@ -39,96 +34,57 @@
   ],
   "agency": {
     "competent_agency": "Biên phòng cửa khẩu cảng",
-    "executing_agency": "Đội Thủ tục Biên phòng cửa khẩu cảng",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Đội Thủ tục Biên phòng cửa khẩu cảng"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Chậm nhất 02 (hai) giờ, sau khi phương tiện thủy nội địa neo đậu tại cầu cảng; chậm nhất 04 (bốn) giờ, sau khi phương tiện thủy nội địa neo đậu tại các vị trí khác trong vùng nước cảng, người đăng ký phải đăng ký đến cho phương tiện thủy nội địa;\nBước 2: Chậm nhất 01 (một) giờ, trước khi phương tiện thủy nội địa rời cảng, người đăng ký phải đăng ký đi cho phương tiện thủy nội địa;\nBước 3: Biên phòng cửa khẩu cảng tiếp nhận, kiểm tra các loại giấy tờ, thực hiện đăng ký đến, đi cho phương tiện thủy nội địa.\n",
+      "description": "Bước 1: Chậm nhất 02 (hai) giờ, sau khi phương tiện thủy nội địa neo đậu tại cầu cảng; chậm nhất 04 (bốn) giờ, sau khi phương tiện thủy nội địa neo đậu tại các vị trí khác trong vùng nước cảng, người đăng ký phải đăng ký đến cho phương tiện thủy nội địa;\nBước 2: Chậm nhất 01 (một) giờ, trước khi phương tiện thủy nội địa rời cảng, người đăng ký phải đăng ký đi cho phương tiện thủy nội địa;\nBước 3: Biên phòng cửa khẩu cảng tiếp nhận, kiểm tra các loại giấy tờ, thực hiện đăng ký đến, đi cho phương tiện thủy nội địa.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "+ 02 (hai) bản chính Danh sách hành khách (nếu có).",
-        "code": "000.00.00.G10-KQ1090",
+        "name": "Giấy tờ phải nộp: + 02 (hai) bản chính Danh sách hành khách (nếu có).",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": "Giấy tờ phải nộp",
-        "attachments": [
-          {
-            "id": "019dc915-46b9-715f-abfe-2f8e52814ac2",
-            "name": "Danh sách hành khách.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Danh sách hành khách.docx",
+        "source_page": 2
       },
       {
-        "name": "+ 02 (hai) bản chính Danh sách thuyền viên",
-        "code": "000.00.00.G10-KQ1089",
+        "name": "Giấy tờ phải nộp: + 02 (hai) bản chính Danh sách thuyền viên",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": "Giấy tờ phải nộp",
-        "attachments": [
-          {
-            "id": "019dc915-7314-7075-a456-f225eef023b2",
-            "name": "Danh sách thuyền viên.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Danh sách thuyền viên.docx",
+        "source_page": 2
       },
       {
-        "name": "02 bản chính Bản khai chung",
-        "code": "1.013587-01",
+        "name": "Giấy tờ phải nộp: 02 bản chính Bản khai chung",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Giấy tờ phải nộp",
-        "attachments": [
-          {
-            "id": "019dc916-7063-70ba-b29f-bea9f30a87b3",
-            "name": "Bản khai chung.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Bản khai chung.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "+ Đối với thuyền viên: sổ thuyền viên",
-        "code": "000.00.00.G10-KQ1091",
+        "name": "Giấy tờ phải xuất trình: + Đối với thuyền viên: sổ thuyền viên",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Giấy tờ phải xuất trình",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "+ Các loại giấy tờ người đăng ký phải xuất trình khi có yêu cầu của Biên phòng cửa khẩu cảng: Sổ nhật ký hành trình. Giấy tờ liên quan đến hàng hóa nếu có hàng hóa trên phương tiện thủy nội địa, bao gồm: Hợp đồng vận chuyển hàng hóa; hợp đồng mua bán hàng hóa và hóa đơn giá trị gia tăng hoặc phiếu xuất kho kiêm vận chuyển nội bộ; giấy phép vận chuyển của cơ quan có thẩm quyền của Việt Nam đối với các loại hàng hóa vận chuyển có điều kiện.",
-        "code": "000.00.00.G11-KQ10611",
+        "name": "Giấy tờ phải xuất trình: + Các loại giấy tờ người đăng ký phải xuất trình khi có yêu cầu của Biên phòng cửa khẩu cảng: Sổ nhật ký hành trình. Giấy tờ liên quan đến hàng hóa nếu có hàng hóa trên phương tiện thủy nội địa, bao gồm: Hợp đồng vận chuyển hàng hóa; hợp đồng mua bán hàng hóa và hóa đơn giá trị gia tăng hoặc phiếu xuất kho kiêm vận chuyển nội bộ; giấy phép vận chuyển của cơ quan có thẩm quyền của Việt Nam đối với các loại hàng hóa vận chuyển có điều kiện.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Giấy tờ phải xuất trình",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "+ Đối với hành khách (nếu có): Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế hoặc sử dụng Căn cước hoặc Căn cước công dân: Hành khách không phải xuất trình Căn cước hoặc Căn cước công dân nếu đơn vị Biên phòng cửa khẩu cảng kết nối, sử dụng được cơ sở dữ liệu quốc gia về dân cư và cơ sở dữ liệu căn cước công dân (Biên phòng cửa khẩu cảng tự tra cứu, kiểm tra). Trường hợp đơn vị Biên phòng cửa khẩu cảng chưa kết nối, sử dụng được cơ sở dữ liệu quốc gia về dân cư và cơ sở dũ liệu căn cước công dân, hành khách có thể xuất trình Căn cước hoặc Căn cước công dân trên VNeiD hoặc bản cứng.",
-        "code": "000.00.00.G10-KQ1092",
+        "name": "Giấy tờ phải xuất trình: + Đối với hành khách (nếu có): Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế hoặc sử dụng Căn cước hoặc Căn cước công dân: Hành khách không phải xuất trình Căn cước hoặc Căn cước công dân nếu đơn vị Biên phòng cửa khẩu cảng kết nối, sử dụng được cơ sở dữ liệu quốc gia về dân cư và cơ sở dữ liệu căn cước công dân (Biên phòng cửa khẩu cảng tự tra cứu, kiểm tra). Trường hợp đơn vị Biên phòng cửa khẩu cảng chưa kết nối, sử dụng được cơ sở dữ liệu quốc gia về dân cư và cơ sở dũ liệu căn cước công dân, hành khách có thể xuất trình Căn cước hoặc Căn cước công dân trên VNeiD hoặc bản cứng.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Giấy tờ phải xuất trình",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -137,33 +93,22 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "0",
-      "processing_time_value": 0,
-      "processing_time_unit": "OTHER",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Người đăng ký nộp, xuất trình các loại giấy tờ tại trụ sở Cảng vụ hàng hải, Cảng vụ đường thủy nội địa hoặc văn phòng đại diện Cảng vụ hàng hải, Cảng vụ đường thủy nội địa.\nChậm nhất 30 phút, từ khi Biên phòng cửa khẩu cảng tiếp nhận đầy đủ các loại giấy tờ mà người đăng ký nộp và xuất trình",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       }
     ]
   },
@@ -171,14 +116,12 @@
     {
       "title": "Nghị định quy định chi tiết một số điều của Bộ luật Hàng hải Việt Nam về quản lý hoạt động hàng hải",
       "document_number": "58/2017/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46f-3623eee55f1d",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Quy định về quản lý, bảo an ninh, trật tự tại cửa khẩu cảng",
       "document_number": "77/2017/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b471-10f0667bd234",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -186,14 +129,13 @@
     {
       "title": "Đóng dấu kiểm soát hoàn thành thủ tục",
       "code": "KQ.G11.000404",
-      "id": "019d2bb2-1c6f-72b5-bd0b-20b72fb989a2",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Chậm nhất 02 (hai) giờ, sau khi phương tiện thủy nội địa neo đậu tại cầu cảng; chậm nhất 04 (bốn) giờ, sau khi phương tiện thủy nội địa neo đậu tại các vị trí khác trong vùng nước cảng, người đăng ký phải đăng ký đến cho phương tiện thủy nội địa;\nBước 2: Chậm nhất 01 (một) giờ, trước khi phương tiện thủy nội địa rời cảng, người đăng ký phải đăng ký đi cho phương tiện thủy nội địa;\nBước 3: Biên phòng cửa khẩu cảng tiếp nhận, kiểm tra các loại giấy tờ, thực hiện đăng ký đến, đi cho phương tiện thủy nội địa.\n",
-    "THÀNH PHẦN HỒ SƠ": "Giấy tờ phải nộp\n+ 02 (hai) bản chính Danh sách hành khách (nếu có).\n+ 02 (hai) bản chính Danh sách thuyền viên\n02 bản chính Bản khai chung\nGiấy tờ phải xuất trình\n+ Đối với thuyền viên: sổ thuyền viên\n+ Các loại giấy tờ người đăng ký phải xuất trình khi có yêu cầu của Biên phòng cửa khẩu cảng: Sổ nhật ký hành trình. Giấy tờ liên quan đến hàng hóa nếu có hàng hóa trên phương tiện thủy nội địa, bao gồm: Hợp đồng vận chuyển hàng hóa; hợp đồng mua bán hàng hóa và hóa đơn giá trị gia tăng hoặc phiếu xuất kho kiêm vận chuyển nội bộ; giấy phép vận chuyển của cơ quan có thẩm quyền của Việt Nam đối với các loại hàng hóa vận chuyển có điều kiện.\n+ Đối với hành khách (nếu có): Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế hoặc sử dụng Căn cước hoặc Căn cước công dân: Hành khách không phải xuất trình Căn cước hoặc Căn cước công dân nếu đơn vị Biên phòng cửa khẩu cảng kết nối, sử dụng được cơ sở dữ liệu quốc gia về dân cư và cơ sở dữ liệu căn cước công dân (Biên phòng cửa khẩu cảng tự tra cứu, kiểm tra). Trường hợp đơn vị Biên phòng cửa khẩu cảng chưa kết nối, sử dụng được cơ sở dữ liệu quốc gia về dân cư và cơ sở dũ liệu căn cước công dân, hành khách có thể xuất trình Căn cước hoặc Căn cước công dân trên VNeiD hoặc bản cứng.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 0 - Người đăng ký nộp, xuất trình các loại giấy tờ tại trụ sở Cảng vụ hàng hải, Cảng vụ đường thủy nội địa hoặc văn phòng đại diện Cảng vụ hàng hải, Cảng vụ đường thủy nội địa.\nChậm nhất 30 phút, từ khi Biên phòng cửa khẩu cảng tiếp nhận đầy đủ các loại giấy tờ mà người đăng ký nộp và xuất trình",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Chậm nhất 02 (hai) giờ, sau khi phương tiện thủy nội địa neo đậu tại cầu cảng; chậm nhất 04 (bốn) giờ, sau khi phương tiện thủy nội địa neo đậu tại các vị trí khác trong vùng nước cảng, người đăng ký phải đăng ký đến cho phương tiện thủy nội địa;\nBước 2: Chậm nhất 01 (một) giờ, trước khi phương tiện thủy nội địa rời cảng, người đăng ký phải đăng ký đi cho phương tiện thủy nội địa;\nBước 3: Biên phòng cửa khẩu cảng tiếp nhận, kiểm tra các loại giấy tờ, thực hiện đăng ký đến, đi cho phương tiện thủy nội địa.",
+    "THÀNH PHẦN HỒ SƠ": "Giấy tờ phải nộp: + 02 (hai) bản chính Danh sách hành khách (nếu có).\nGiấy tờ phải nộp: + 02 (hai) bản chính Danh sách thuyền viên\nGiấy tờ phải nộp: 02 bản chính Bản khai chung\nGiấy tờ phải xuất trình: + Đối với thuyền viên: sổ thuyền viên\nGiấy tờ phải xuất trình: + Các loại giấy tờ người đăng ký phải xuất trình khi có yêu cầu của Biên phòng cửa khẩu cảng: Sổ nhật ký hành trình. Giấy tờ liên quan đến hàng hóa nếu có hàng hóa trên phương tiện thủy nội địa, bao gồm: Hợp đồng vận chuyển hàng hóa; hợp đồng mua bán hàng hóa và hóa đơn giá trị gia tăng hoặc phiếu xuất kho kiêm vận chuyển nội bộ; giấy phép vận chuyển của cơ quan có thẩm quyền của Việt Nam đối với các loại hàng hóa vận chuyển có điều kiện.\nGiấy tờ phải xuất trình: + Đối với hành khách (nếu có): Hộ chiếu hoặc giấy tờ có giá trị đi lại quốc tế hoặc sử dụng Căn cước hoặc Căn cước công dân: Hành khách không phải xuất trình Căn cước hoặc Căn cước công dân nếu đơn vị Biên phòng cửa khẩu cảng kết nối, sử dụng được cơ sở dữ liệu quốc gia về dân cư và cơ sở dữ liệu căn cước công dân (Biên phòng cửa khẩu cảng tự tra cứu, kiểm tra). Trường hợp đơn vị Biên phòng cửa khẩu cảng chưa kết nối, sử dụng được cơ sở dữ liệu quốc gia về dân cư và cơ sở dũ liệu căn cước công dân, hành khách có thể xuất trình Căn cước hoặc Căn cước công dân trên VNeiD hoặc bản cứng.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 0",
     "CĂN CỨ PHÁP LÝ": "Nghị định quy định chi tiết một số điều của Bộ luật Hàng hải Việt Nam về quản lý hoạt động hàng hải - 58/2017/NĐ-CP\nQuy định về quản lý, bảo an ninh, trật tự tại cửa khẩu cảng - 77/2017/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Đội Thủ tục Biên phòng cửa khẩu cảng",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
@@ -202,11 +144,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Phương tiện và người lái",
-      "slug": "phuong-tien-va-nguoi-lai",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Quản lý biên giới",
       "slug": "quan-ly-bien-gioi"
@@ -242,9 +179,9 @@
     "agencies": [
       {
         "name": "Đội Thủ tục Biên phòng cửa khẩu cảng",
-        "slug": "doi-thu-tuc-bien-phong-cua-khau-cang"
+        "slug": "oi-thu-tuc-bien-phong-cua-khau-cang"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

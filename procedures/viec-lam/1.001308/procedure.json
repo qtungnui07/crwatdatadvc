@@ -1,34 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf9-f197-761b-a693-7bf17dfb43ab",
   "procedure_code": "1.001308",
   "title": "Thủ tục chứng nhận lãnh sự, hợp pháp hóa lãnh sự giấy tờ, tài liệu tại các cơ quan ở trong nước",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf9-f197-761b-a693-7bf17dfb43ab",
     "source_file": "chi-tiet-thu-tuc-1.001308.pdf",
     "source_path": "procedures/viec-lam/1.001308/chi-tiet-thu-tuc-1.001308.pdf",
     "page_count": 32,
-    "extracted_at": "2026-07-18T02:21:59.366721+00:00",
-    "source_updated_at": "2026-04-24T02:38:09.188Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:54.214388+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "c1041ef3f38f55c294de8b5a16a8a8056a5f782633b6baea5b70287e626ab9b6"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:59.366721+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "3657/QĐ-BNG",
   "implementation_level": "Cấp bộ, Cấp tỉnh",
-  "implementation_levels": [
-    "Cấp bộ",
-    "Cấp tỉnh"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Chứng nhận lãnh sự, hợp pháp hóa lãnh sự",
   "target_users": [
@@ -38,189 +33,123 @@
   ],
   "agency": {
     "competent_agency": "Sở Ngoại vụ Thành phố Hồ Chí Minh - Bộ Ngoại giao; Cục Lãnh sự - Bộ Ngoại giao",
-    "executing_agency": "Sở Ngoại vụ Thành phố Hồ Chí Minh - Bộ Ngoại giao, Cục Lãnh sự - Bộ Ngoại giao",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "1. Nộp hồ sơ:\na) Tại Cục Lãnh sự, Bộ Ngoại giao tại địa chỉ: 40 Trần Phú, Ba Đình, Hà Nội \nb) Tại Sở Ngoại vụ Thành phố Hồ Chí Minh, Bộ Ngoại giao tại địa chỉ: số 6 Alexandre de Rhodes, TPHCM.\nc) Tại trụ sở của cơ quan địa phương được phân cấp thẩm quyền chứng nhận lãnh sự, hợp pháp hóa lãnh sự (tên cơ quan, địa chỉ, thời gian nhận và trả kết quả của các cơ quan này đề nghị xem tại Cổng Dịch vụ công/Cổng Thông tin điện tử của Bộ Ngoại giao).\nd) Nộp trực tuyến trên Cổng Dịch vụ công quốc gia"
+    "executing_agency": "Sở Ngoại vụ Thành phố Hồ Chí Minh - Bộ Ngoại giao, Cục Lãnh sự - Bộ Ngoại giao"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "1. Nộp hồ sơ:\na) Tại Cục Lãnh sự (Bộ Ngoại giao):\nĐịa chỉ: 40 Trần Phú, Ba Đình, Hà Nội\nThời gian nộp hồ sơ và nhận kết quả: Từ thứ Hai đến thứ Sáu và sáng thứ Bẩy, trừ các ngày lễ, Tết.\n b) Tại Sở Ngoại vụ Thành phố Hồ Chí Minh (Bộ Ngoại giao).\nĐịa chỉ: số 6 Alexandre de Rhodes, TPHCM.\nThời gian nộp hồ sơ và nhận kết trả: các ngày làm việc trong tuần và sáng thứ Bẩy, trừ Chủ Nhật và các ngày lễ, Tết.\nc) Tại trụ sở của cơ quan địa phương được phân cấp thẩm quyền chứng nhận lãnh sự, hợp pháp hóa lãnh sự (tên cơ quan, địa chỉ, thời gian nhận và trả kết quả của các cơ quan này đề nghị xem tại Cổng Dịch vụ công/Cổng Thông tin điện tử của Bộ Ngoại giao).\nd) Nộp trực tuyến trên Cổng Dịch vụ công quốc gia\n2. Cục Lãnh sự, Sở Ngoại vụ Thành phố Hồ Chí Minh, xem xét giải quyết.\n3. Nhận kết quả trực tiếp tại trụ sở cơ quan theo giấy biên nhận hồ sơ hoặc hồ sơ được gửi trả qua đường bưu điện cho đương sự.\n",
+      "description": "1. Nộp hồ sơ:\na) Tại Cục Lãnh sự (Bộ Ngoại giao):\nĐịa chỉ: 40 Trần Phú, Ba Đình, Hà Nội\nThời gian nộp hồ sơ và nhận kết quả: Từ thứ Hai đến thứ Sáu và sáng thứ Bẩy, trừ các ngày lễ, Tết.\n b) Tại Sở Ngoại vụ Thành phố Hồ Chí Minh (Bộ Ngoại giao).\nĐịa chỉ: số 6 Alexandre de Rhodes, TPHCM.\nThời gian nộp hồ sơ và nhận kết trả: các ngày làm việc trong tuần và sáng thứ Bẩy, trừ Chủ Nhật và các ngày lễ, Tết.\nc) Tại trụ sở của cơ quan địa phương được phân cấp thẩm quyền chứng nhận lãnh sự, hợp pháp hóa lãnh sự (tên cơ quan, địa chỉ, thời gian nhận và trả kết quả của các cơ quan này đề nghị xem tại Cổng Dịch vụ công/Cổng Thông tin điện tử của Bộ Ngoại giao).\nd) Nộp trực tuyến trên Cổng Dịch vụ công quốc gia\n2. Cục Lãnh sự, Sở Ngoại vụ Thành phố Hồ Chí Minh, xem xét giải quyết.\n3. Nhận kết quả trực tiếp tại trụ sở cơ quan theo giấy biên nhận hồ sơ hoặc hồ sơ được gửi trả qua đường bưu điện cho đương sự.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
-        "name": "01 Tờ khai chứng nhận/hợp pháp hoá lãnh sự trên Cổng Dịch vụ công của Bộ Ngoại giao dichvucong.mofa.gov.vn.",
-        "code": "000.00.00.G08-KQ000783",
+        "name": "Đối với việc chứng nhận lãnh sự giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài: 01 Tờ khai chứng nhận/hợp pháp hoá lãnh sự trên Cổng Dịch vụ công của Bộ Ngoại giao dichvucong.mofa.gov.vn.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Đối với việc chứng nhận lãnh sự giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài",
-        "attachments": [
-          {
-            "id": "019d8c6d-fd49-7733-8520-a2f92e04da99",
-            "name": "ThutucCNLSHPHLSCNXTtrongnuoc.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "ThutucCNLSHPHLSCNXTtrongnuoc.docx",
+        "source_page": 3
       },
       {
-        "name": "01 Tờ khai chứng nhận/hợp pháp hoá lãnh sự trên Cổng Dịch vụ công của Bộ Ngoại giao dichvucong.mofa.gov.vn.",
-        "code": "000.00.00.G08-KQ000783",
+        "name": "Đối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam: 01 Tờ khai chứng nhận/hợp pháp hoá lãnh sự trên Cổng Dịch vụ công của Bộ Ngoại giao dichvucong.mofa.gov.vn.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Đối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam ",
-        "attachments": [
-          {
-            "id": "019d8c6d-fd49-7733-8520-a2f92e04da99",
-            "name": "ThutucCNLSHPHLSCNXTtrongnuoc.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "ThutucCNLSHPHLSCNXTtrongnuoc.docx",
+        "source_page": 3
       }
     ],
     "normally_required": [],
     "conditional": [
       {
-        "name": "Cung cấp thông tin theo biểu mẫu điện tử tương tác, đăng tải bản điện tử giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự.",
-        "code": "000.00.00.G08-KQ000799",
+        "name": "Trường hợp nộp hồ sợ trực tuyến trên Cổng Dịch vụ công quốc gia/Cổng Dịch vụ công của Bộ Ngoại giao: Cung cấp thông tin theo biểu mẫu điện tử tương tác, đăng tải bản điện tử giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp nộp hồ sợ trực tuyến trên Cổng Dịch vụ công quốc gia/Cổng Dịch vụ công của Bộ Ngoại giao",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Đăng tải kèm theo bản điện tử của bản dịch giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự sang tiếng Việt hoặc tiếng Anh, nếu giấy tờ, tài liệu đó không được lập bằng các thứ tiếng trên.",
-        "code": "000.00.00.G08-KQ000800",
+        "name": "Trường hợp nộp hồ sợ trực tuyến trên Cổng Dịch vụ công quốc gia/Cổng Dịch vụ công của Bộ Ngoại giao: Đăng tải kèm theo bản điện tử của bản dịch giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự sang tiếng Việt hoặc tiếng Anh, nếu giấy tờ, tài liệu đó không được lập bằng các thứ tiếng trên.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp nộp hồ sợ trực tuyến trên Cổng Dịch vụ công quốc gia/Cổng Dịch vụ công của Bộ Ngoại giao",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Trường hợp cần kiểm tra tính xác thực của giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự, cán bộ tiếp nhận hồ sơ có thể yêu cầu người đề nghị hợp pháp hóa lãnh sự xuất trình bổ sung bản chính giấy tờ, tài liệu có liên quan và nộp 01 bản chụp giấy tờ, tài liệu này.",
-        "code": "000.00.00.G08-KQ000801",
+        "name": "Trường hợp nộp hồ sợ trực tuyến trên Cổng Dịch vụ công quốc gia/Cổng Dịch vụ công của Bộ Ngoại giao: Trường hợp cần kiểm tra tính xác thực của giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự, cán bộ tiếp nhận hồ sơ có thể yêu cầu người đề nghị hợp pháp hóa lãnh sự xuất trình bổ sung bản chính giấy tờ, tài liệu có liên quan và nộp 01 bản chụp giấy tờ, tài liệu này.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp nộp hồ sợ trực tuyến trên Cổng Dịch vụ công quốc gia/Cổng Dịch vụ công của Bộ Ngoại giao",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Đăng nhập tài khoản trên Cổng dịch vụ công quốc gia bằng tài khoản định danh điện tử theo quy định pháp luật về định danh và xác thực điện tử.",
-        "code": "000.00.00.G08-KQ000797",
+        "name": "Trường hợp nộp hồ sợ trực tuyến trên Cổng Dịch vụ công quốc gia/Cổng Dịch vụ công của Bộ Ngoại giao: Đăng nhập tài khoản trên Cổng dịch vụ công quốc gia bằng tài khoản định danh điện tử theo quy định pháp luật về định danh và xác thực điện tử.",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Trường hợp nộp hồ sợ trực tuyến trên Cổng Dịch vụ công quốc gia/Cổng Dịch vụ công của Bộ Ngoại giao",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "01 phong bì có dán tem và ghi rõ địa chỉ người nhận (nếu hồ sơ gửi qua dịch vụ bưu chính và yêu cầu trả kết quả qua dịch vụ bưu chính).",
-        "code": "000.00.00.G08-KQ000789",
+        "name": "Đối với việc chứng nhận lãnh sự giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài: 01 phong bì có dán tem và ghi rõ địa chỉ người nhận (nếu hồ sơ gửi qua dịch vụ bưu chính và yêu cầu trả kết quả qua dịch vụ bưu chính).",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Đối với việc chứng nhận lãnh sự giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Xuất trình bản chính hoặc bản sao Thẻ căn cước công dân/Thẻ căn cước/Giấy chứng nhận căn cước hoặc Hộ chiếu, giấy tờ xuất nhập cảnh/giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng hoặc xuất trình Căn cước điện tử. Đối với trường hợp nộp qua dịch vụ bưu chính : 01 bản sao Thẻ căn cước công dân/Thẻ căn cước/Giấy chứng nhận căn cước hoặc Hộ chiếu, giấy tờ xuất nhập cảnh/giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng. Bản sao các loại giấy tờ này là bản chụp từ bản chính và không phải chứng thực.",
-        "code": "000.00.00.G08-KQ000795",
+        "name": "Đối với việc chứng nhận lãnh sự giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài: Xuất trình bản chính hoặc bản sao Thẻ căn cước công dân/Thẻ căn cước/Giấy chứng nhận căn cước hoặc Hộ chiếu, giấy tờ xuất nhập cảnh/giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng hoặc xuất trình Căn cước điện tử. Đối với trường hợp nộp qua dịch vụ bưu chính : 01 bản sao Thẻ căn cước công dân/Thẻ căn cước/Giấy chứng nhận căn cước hoặc Hộ chiếu, giấy tờ xuất nhập cảnh/giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng. Bản sao các loại giấy tờ này là bản chụp từ bản chính và không phải chứng thực.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Đối với việc chứng nhận lãnh sự giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự.",
-        "code": "000.00.00.G08-KQ0262",
+        "name": "Đối với việc chứng nhận lãnh sự giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài: Giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Đối với việc chứng nhận lãnh sự giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "01 bản chụp giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự.",
-        "code": "000.00.00.G08-KQ0263",
+        "name": "Đối với việc chứng nhận lãnh sự giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài: 01 bản chụp giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Đối với việc chứng nhận lãnh sự giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Đăng nhập tài khoản trên Cổng dịch vụ công quốc gia bằng tài khoản định danh điện tử theo quy định pháp luật về định danh và xác thực điện tử.",
-        "code": "000.00.00.G08-KQ000797",
+        "name": "Đối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam: Đăng nhập tài khoản trên Cổng dịch vụ công quốc gia bằng tài khoản định danh điện tử theo quy định pháp luật về định danh và xác thực điện tử.",
         "quantity": null,
-        "required": false,
-        "case": "Đối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
-        "name": "Giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự (đã được cơ quan đại diện ngoại giao, cơ quan lãnh sự hoặc cơ quan khác được ủy quyền thực hiện chức năng lãnh sự của nước ngoài chứng nhận);;",
-        "code": "000.00.00.G08-KQ000796",
+        "name": "Đối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam: Giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự (đã được cơ quan đại diện ngoại giao, cơ quan lãnh sự hoặc cơ quan khác được ủy quyền thực hiện chức năng lãnh sự của nước ngoài chứng nhận);;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Đối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "Cung cấp thông tin theo biểu mẫu điện tử tương tác, đăng tải bản điện tử giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự, hợp pháp hóa lãnh sự.",
-        "code": "000.00.00.G08-KQ000798",
+        "name": "Đối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam: Cung cấp thông tin theo biểu mẫu điện tử tương tác, đăng tải bản điện tử giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự, hợp pháp hóa lãnh sự.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Đối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "01 bản dịch giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự sang tiếng Việt, tiếng Anh hoặc tiếng nước ngoài mà cán bộ tiếp nhận hồ sơ có thể hiểu được, nếu giấy tờ, tài liệu đó không được lập bằng các thứ tiếng trên;",
-        "code": "000.00.00.G08-KQ000792",
+        "name": "Đối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam: 01 bản dịch giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự sang tiếng Việt, tiếng Anh hoặc tiếng nước ngoài mà cán bộ tiếp nhận hồ sơ có thể hiểu được, nếu giấy tờ, tài liệu đó không được lập bằng các thứ tiếng trên;",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": "Đối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "01 bản chụp giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự.",
-        "code": "000.00.00.G08-KQ0269",
+        "name": "Đối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam: 01 bản chụp giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự.",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": "Đối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
-        "name": "Xuất trình bản chính hoặc bản sao Thẻ căn cước công dân/Thẻ căn cước/Giấy chứng nhận căn cước hoặc Hộ chiếu, giấy tờ xuất nhập cảnh/giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng hoặc xuất trình Căn cước điện tử. Đối với trường hợp nộp qua dịch vụ bưu chính : 01 bản sao Thẻ căn cước công dân/Thẻ căn cước/Giấy chứng nhận căn cước hoặc Hộ chiếu, giấy tờ xuất nhập cảnh/giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng. Bản sao các loại giấy tờ này là bản chụp từ bản chính và không phải chứng thực.",
-        "code": "000.00.00.G08-KQ000795",
+        "name": "Đối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam: Xuất trình bản chính hoặc bản sao Thẻ căn cước công dân/Thẻ căn cước/Giấy chứng nhận căn cước hoặc Hộ chiếu, giấy tờ xuất nhập cảnh/giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng hoặc xuất trình Căn cước điện tử. Đối với trường hợp nộp qua dịch vụ bưu chính : 01 bản sao Thẻ căn cước công dân/Thẻ căn cước/Giấy chứng nhận căn cước hoặc Hộ chiếu, giấy tờ xuất nhập cảnh/giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng. Bản sao các loại giấy tờ này là bản chụp từ bản chính và không phải chứng thực.",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Đối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
-        "name": "01 phong bì có dán tem và ghi rõ địa chỉ người nhận (nếu hồ sơ gửi qua dịch vụ bưu chính và yêu cầu trả kết quả qua dịch vụ bưu chính).",
-        "code": "000.00.00.G08-KQ000789",
+        "name": "Đối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam: 01 phong bì có dán tem và ghi rõ địa chỉ người nhận (nếu hồ sơ gửi qua dịch vụ bưu chính và yêu cầu trả kết quả qua dịch vụ bưu chính).",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": "Đối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam ",
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -229,264 +158,139 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "1 ngày làm việc",
-      "processing_time_value": 1,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 30000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Chứng nhận lãnh sự",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 30000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Hợp pháp hoá lãnh sự",
-          "attachment": null
-        }
-      ],
+      "fee": "Chứng nhận lãnh sự; Hợp pháp hoá lãnh sự",
       "description": "kể từ ngày cơ quan có thẩm quyền giải quyết nhận đủ hồ sơ hợp lệ đối với trường hợp hồ sơ có số lượng từ 01 đến 04 giấy tờ, tài liệu.\n- Trường hợp cần kiểm tra tính xác thực của con dấu, chữ ký, chức danh trên giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự thì ngay sau khi nhận hồ sơ, Bộ Ngoại giao có văn bản đề nghị cơ quan, tổ chức có thẩm quyền lập, công chứng, chứng thực, chứng nhận giấy tờ, tài liệu đó hoặc cơ quan, tổ chức cấp trên xác minh. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đề nghị, cơ quan, tổ chức có trách nhiệm trả lời bằng văn bản cho Bộ Ngoại giao. Ngay sau khi nhận được trả lời, Bộ Ngoại giao giải quyết và thông báo kết quả cho người đề nghị chứng nhận lãnh sự.\nSau thời hạn 30 ngày kể từ ngày gửi văn bản đề nghị xác minh mà không nhận được kết quả trả lời, Bộ Ngoại giao trả lại hồ sơ cho người đề nghị.\n- Trường hợp chữ ký, con dấu và chức danh của cơ quan và người có thẩm quyền của nước ngoài trong hồ sơ đề nghị được hợp pháp hóa lãnh sự chưa được chính thức thông báo hoặc cần kiểm tra tính xác thực, Bộ Ngoại giao đề nghị cơ quan này xác minh. Ngay sau khi nhận được kết quả xác minh, Bộ Ngoại giao giải quyết hồ sơ và trả kết quả cho người đề nghị chứng nhận lãnh sự.",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "2 ngày làm việc",
-      "processing_time_value": 2,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 30000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "Chứng nhận lãnh sự",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 30000,
-          "currency": "VND",
-          "description": "Hợp pháp hoá lãnh sự",
-          "attachment": null
-        }
-      ],
+      "fee": "Chứng nhận lãnh sự; Hợp pháp hoá lãnh sự",
       "description": "kể từ ngày cơ quan có thẩm quyền giải quyết nhận đủ hồ sơ hợp lệ đối với trường hợp hồ sơ có số lượng từ 05 đến 09 giấy tờ, tài liệu.\n- Trường hợp cần kiểm tra tính xác thực của con dấu, chữ ký, chức danh trên giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự thì ngay sau khi nhận hồ sơ, Bộ Ngoại giao có văn bản đề nghị cơ quan, tổ chức có thẩm quyền lập, công chứng, chứng thực, chứng nhận giấy tờ, tài liệu đó hoặc cơ quan, tổ chức cấp trên xác minh. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đề nghị, cơ quan, tổ chức có trách nhiệm trả lời bằng văn bản cho Bộ Ngoại giao. Ngay sau khi nhận được trả lời, Bộ Ngoại giao giải quyết và thông báo kết quả cho người đề nghị chứng nhận lãnh sự.\nSau thời hạn 30 ngày kể từ ngày gửi văn bản đề nghị xác minh mà không nhận được kết quả trả lời, Bộ Ngoại giao trả lại hồ sơ cho người đề nghị.\n- Trường hợp chữ ký, con dấu và chức danh của cơ quan và người có thẩm quyền của nước ngoài trong hồ sơ đề nghị được hợp pháp hóa lãnh sự chưa được chính thức thông báo hoặc cần kiểm tra tính xác thực, Bộ Ngoại giao đề nghị cơ quan này xác minh. Ngay sau khi nhận được kết quả xác minh, Bộ Ngoại giao giải quyết hồ sơ và trả kết quả cho người đề nghị chứng nhận lãnh sự.",
-      "source_page": null
+      "source_page": 7
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "1 ngày làm việc",
-      "processing_time_value": 1,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 30000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "chứng nhận lãnh sự",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 30000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "hợp pháp hoá lãnh sự",
-          "attachment": null
-        }
-      ],
+      "fee": "chứng nhận lãnh sự; hợp pháp hoá lãnh sự",
       "description": "kể từ ngày cơ quan có thẩm quyền giải quyết nhận đủ hồ sơ hợp lệ đối với trường hợp hồ sơ có số lượng từ 01 đến 04 giấy tờ, tài liệu.\n- Trường hợp cần kiểm tra tính xác thực của con dấu, chữ ký, chức danh trên giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự thì ngay sau khi nhận hồ sơ, Bộ Ngoại giao có văn bản đề nghị cơ quan, tổ chức có thẩm quyền lập, công chứng, chứng thực, chứng nhận giấy tờ, tài liệu đó hoặc cơ quan, tổ chức cấp trên xác minh. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đề nghị, cơ quan, tổ chức có trách nhiệm trả lời bằng văn bản cho Bộ Ngoại giao. Ngay sau khi nhận được trả lời, Bộ Ngoại giao giải quyết và thông báo kết quả cho người đề nghị chứng nhận lãnh sự.\nSau thời hạn 30 ngày kể từ ngày gửi văn bản đề nghị xác minh mà không nhận được kết quả trả lời, Bộ Ngoại giao trả lại hồ sơ cho người đề nghị.\n- Trường hợp chữ ký, con dấu và chức danh của cơ quan và người có thẩm quyền của nước ngoài trong hồ sơ đề nghị được hợp pháp hóa lãnh sự chưa được chính thức thông báo hoặc cần kiểm tra tính xác thực, Bộ Ngoại giao đề nghị cơ quan này xác minh. Ngay sau khi nhận được kết quả xác minh, Bộ Ngoại giao giải quyết hồ sơ và trả kết quả cho người đề nghị chứng nhận lãnh sự.",
-      "source_page": null
+      "source_page": 5
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "2 ngày làm việc",
-      "processing_time_value": 2,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 30000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "chứng nhận lãnh sự",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 30000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "hợp pháp hoá lãnh sự",
-          "attachment": null
-        }
-      ],
+      "fee": "chứng nhận lãnh sự; hợp pháp hoá lãnh sự",
       "description": "kể từ ngày cơ quan có thẩm quyền giải quyết nhận đủ hồ sơ hợp lệ đối với trường hợp hồ sơ có số lượng từ 05 đến 09 giấy tờ, tài liệu.\n- Trường hợp cần kiểm tra tính xác thực của con dấu, chữ ký, chức danh trên giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự thì ngay sau khi nhận hồ sơ, Bộ Ngoại giao có văn bản đề nghị cơ quan, tổ chức có thẩm quyền lập, công chứng, chứng thực, chứng nhận giấy tờ, tài liệu đó hoặc cơ quan, tổ chức cấp trên xác minh. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đề nghị, cơ quan, tổ chức có trách nhiệm trả lời bằng văn bản cho Bộ Ngoại giao. Ngay sau khi nhận được trả lời, Bộ Ngoại giao giải quyết và thông báo kết quả cho người đề nghị chứng nhận lãnh sự.\nSau thời hạn 30 ngày kể từ ngày gửi văn bản đề nghị xác minh mà không nhận được kết quả trả lời, Bộ Ngoại giao trả lại hồ sơ cho người đề nghị.\n- Trường hợp chữ ký, con dấu và chức danh của cơ quan và người có thẩm quyền của nước ngoài trong hồ sơ đề nghị được hợp pháp hóa lãnh sự chưa được chính thức thông báo hoặc cần kiểm tra tính xác thực, Bộ Ngoại giao đề nghị cơ quan này xác minh. Ngay sau khi nhận được kết quả xác minh, Bộ Ngoại giao giải quyết hồ sơ và trả kết quả cho người đề nghị chứng nhận lãnh sự.",
-      "source_page": null
+      "source_page": 7
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "4 ngày làm việc",
-      "processing_time_value": 4,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 30000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "chứng nhận lãnh sự",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 30000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "hợp pháp hoá lãnh sự",
-          "attachment": null
-        }
-      ],
+      "fee": "chứng nhận lãnh sự; hợp pháp hoá lãnh sự",
       "description": "kể từ ngày cơ quan có thẩm quyền giải quyết nhận đủ hồ sơ hợp lệ đối với trường hợp hồ sơ có số lượng từ 10 giấy tờ, tài liệu trở lên\n- Trường hợp cần kiểm tra tính xác thực của con dấu, chữ ký, chức danh trên giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự thì ngay sau khi nhận hồ sơ, Bộ Ngoại giao có văn bản đề nghị cơ quan, tổ chức có thẩm quyền lập, công chứng, chứng thực, chứng nhận giấy tờ, tài liệu đó hoặc cơ quan, tổ chức cấp trên xác minh. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đề nghị, cơ quan, tổ chức có trách nhiệm trả lời bằng văn bản cho Bộ Ngoại giao. Ngay sau khi nhận được trả lời, Bộ Ngoại giao giải quyết và thông báo kết quả cho người đề nghị chứng nhận lãnh sự.\nSau thời hạn 30 ngày kể từ ngày gửi văn bản đề nghị xác minh mà không nhận được kết quả trả lời, Bộ Ngoại giao trả lại hồ sơ cho người đề nghị.\n- Trường hợp chữ ký, con dấu và chức danh của cơ quan và người có thẩm quyền của nước ngoài trong hồ sơ đề nghị được hợp pháp hóa lãnh sự chưa được chính thức thông báo hoặc cần kiểm tra tính xác thực, Bộ Ngoại giao đề nghị cơ quan này xác minh. Ngay sau khi nhận được kết quả xác minh, Bộ Ngoại giao giải quyết hồ sơ và trả kết quả cho người đề nghị chứng nhận lãnh sự.",
-      "source_page": null
+      "source_page": 13
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "4 ngày làm việc",
-      "processing_time_value": 4,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "SERVICE_FEE",
-          "amount": 30000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "chứng nhận lãnh sự",
-          "attachment": null
-        },
-        {
-          "type": "SERVICE_FEE",
-          "amount": 30000,
-          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-          "description": "hợp pháp hoá lãnh sự",
-          "attachment": null
-        }
-      ],
+      "fee": "chứng nhận lãnh sự; hợp pháp hoá lãnh sự",
       "description": "kể từ ngày cơ quan có thẩm quyền giải quyết nhận đủ hồ sơ hợp lệ đối với trường hợp hồ sơ có số lượng từ 10 giấy tờ, tài liệu trở lên\n- Trường hợp cần kiểm tra tính xác thực của con dấu, chữ ký, chức danh trên giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự thì ngay sau khi nhận hồ sơ, Bộ Ngoại giao có văn bản đề nghị cơ quan, tổ chức có thẩm quyền lập, công chứng, chứng thực, chứng nhận giấy tờ, tài liệu đó hoặc cơ quan, tổ chức cấp trên xác minh. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đề nghị, cơ quan, tổ chức có trách nhiệm trả lời bằng văn bản cho Bộ Ngoại giao. Ngay sau khi nhận được trả lời, Bộ Ngoại giao giải quyết và thông báo kết quả cho người đề nghị chứng nhận lãnh sự.\nSau thời hạn 30 ngày kể từ ngày gửi văn bản đề nghị xác minh mà không nhận được kết quả trả lời, Bộ Ngoại giao trả lại hồ sơ cho người đề nghị.\n- Trường hợp chữ ký, con dấu và chức danh của cơ quan và người có thẩm quyền của nước ngoài trong hồ sơ đề nghị được hợp pháp hóa lãnh sự chưa được chính thức thông báo hoặc cần kiểm tra tính xác thực, Bộ Ngoại giao đề nghị cơ quan này xác minh. Ngay sau khi nhận được kết quả xác minh, Bộ Ngoại giao giải quyết hồ sơ và trả kết quả cho người đề nghị chứng nhận lãnh sự.",
-      "source_page": null
+      "source_page": 13
     }
   ],
   "fees": {
-    "status": "varies",
+    "summary": "Chứng nhận lãnh sự; Hợp pháp hoá lãnh sự; chứng nhận lãnh sự; hợp pháp hoá lãnh sự",
+    "status": "varies_by_submission_method",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": 30000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Chứng nhận lãnh sự",
-        "attachment": null
+        "amount_text": "Chứng nhận lãnh sự",
+        "is_free": false,
+        "source_page": 1
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": 30000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Hợp pháp hoá lãnh sự",
-        "attachment": null
+        "amount_text": "Hợp pháp hoá lãnh sự",
+        "is_free": false,
+        "source_page": 3
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 30000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "Chứng nhận lãnh sự",
-        "attachment": null
+        "amount_text": "Chứng nhận lãnh sự",
+        "is_free": false,
+        "source_page": 1
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 30000,
-        "currency": "VND",
-        "description": "Hợp pháp hoá lãnh sự",
-        "attachment": null
+        "amount_text": "Hợp pháp hoá lãnh sự",
+        "is_free": false,
+        "source_page": 3
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 30000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "chứng nhận lãnh sự",
-        "attachment": null
+        "amount_text": "chứng nhận lãnh sự",
+        "is_free": false,
+        "source_page": 1
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 30000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "hợp pháp hoá lãnh sự",
-        "attachment": null
+        "amount_text": "hợp pháp hoá lãnh sự",
+        "is_free": false,
+        "source_page": 3
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": 30000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "chứng nhận lãnh sự",
-        "attachment": null
+        "amount_text": "chứng nhận lãnh sự",
+        "is_free": false,
+        "source_page": 1
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": 30000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "hợp pháp hoá lãnh sự",
-        "attachment": null
+        "amount_text": "hợp pháp hoá lãnh sự",
+        "is_free": false,
+        "source_page": 3
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 30000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "chứng nhận lãnh sự",
-        "attachment": null
+        "amount_text": "chứng nhận lãnh sự",
+        "is_free": false,
+        "source_page": 1
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "SERVICE_FEE",
-        "amount": 30000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "hợp pháp hoá lãnh sự",
-        "attachment": null
+        "amount_text": "hợp pháp hoá lãnh sự",
+        "is_free": false,
+        "source_page": 3
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": 30000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "chứng nhận lãnh sự",
-        "attachment": null
+        "amount_text": "chứng nhận lãnh sự",
+        "is_free": false,
+        "source_page": 1
       },
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "SERVICE_FEE",
-        "amount": 30000,
-        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
-        "description": "hợp pháp hoá lãnh sự",
-        "attachment": null
+        "amount_text": "hợp pháp hoá lãnh sự",
+        "is_free": false,
+        "source_page": 3
       }
     ]
   },
@@ -494,32 +298,27 @@
     {
       "title": "Nghị định số 196/2025/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 111/2011/NĐ-CP ngày 05 tháng 12 năm 2011 của Chính phủ về chứng nhận lãnh sự, hợp pháp hóa lãnh sự",
       "document_number": "196/2025/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afed-08503b83f1f5",
-      "source_page": null
+      "source_page": 31
     },
     {
       "title": "Thông tư số 11/2025/TT-BNG của Bộ Ngoại giao: Về biểu mẫu giấy tờ và hướng dẫn chi tiết một số quy định về chứng nhận lãnh sự; hợp pháp hóa lãnh sự",
       "document_number": "11/2025/TT-BNG",
-      "id": "019d2bb3-5d86-7760-a63d-353c48a52b63",
-      "source_page": null
+      "source_page": 31
     },
     {
       "title": "Nghị định 111/2011/NĐ-CP",
       "document_number": "111/2011/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe8-dbd2b36d8b64",
-      "source_page": null
+      "source_page": 31
     },
     {
       "title": "Thông tư 01/2012/TT-BNG",
       "document_number": "01/2012/TT-BNG",
-      "id": "019d2bb3-5d7c-71ab-9f08-305251e2f67e",
-      "source_page": null
+      "source_page": 31
     },
     {
       "title": "Thông tư 157/2016/TT-BTC",
       "document_number": "157/2016/TT-BTC",
-      "id": "019d2bb3-5d7d-7398-be4a-25dee92b3481",
-      "source_page": null
+      "source_page": 31
     }
   ],
   "conditions": "a) Các giấy tờ, tài liệu được miễn hợp pháp hóa lãnh sự:\n- Giấy tờ, tài liệu được miễn hợp pháp hóa lãnh sự theo điều ước quốc tế mà Việt Nam và nước ngoài liên quan đều là thành viên, hoặc theo nguyên tắc có đi có lại.\n- Giấy tờ, tài liệu được chuyển giao trực tiếp hoặc qua đường ngoại giao giữa cơ quan có thẩm quyền của Việt Nam và cơ quan có thẩm quyền của nước ngoài.\n- Giấy tờ, tài liệu được miễn hợp pháp hóa lãnh sự theo quy định của pháp luật Việt Nam.\n- Giấy tờ, tài liệu của nước ngoài mà cơ quan nhà nước có thẩm quyền của Việt Nam không yêu cầu phải hợp pháp hóa lãnh sự trên cơ sở cơ quan đó tự xác định được tính xác thực của giấy tờ, tài liệu đó.\nb) Các giấy tờ, tài liệu không được chứng nhận lãnh sự, hợp pháp hóa lãnh sự:\n- Giấy tờ, tài liệu bị sửa chữa, tẩy xóa nhưng không được đính chính theo quy định pháp luật.\n- Giấy tờ, tài liệu giả mạo theo kết luận của cơ quan có thẩm quyền hoặc được lập, cấp, chứng nhận sai, không đúng thẩm quyền, bị làm giả theo kết quả trả lời, xác minh của cơ quan lập, cấp, chứng nhận giấy tờ, tài liệu hoặc cơ quan quản lý nhà nước cấp trên của cơ quan lập, cấp, chứng nhận giấy tờ, tài liệu.\n- Giấy tờ, tài liệu có chữ ký, con dấu không phải là chữ ký gốc, con dấu gốc đối với giấy tờ tài liệu không phải bản điện tử, trừ trường hợp đáp ứng quy định của pháp luật liên quan.\n- Giấy tờ, tài liệu có nội dung vi phạm quyền và lợi ích của Nhà nước Việt Nam.\n- Bản điện tử của giấy tờ tài liệu không có chữ ký số của cơ quan, người có thẩm quyền, không bảo đảm tính toàn vẹn của dữ liệu, tính xác thực, tính chống chối bỏ theo các quy định về giao dịch điện tử, chữ ký số và văn bản điện tử.\nc) Yêu cầu cụ thể đối với các giấy tờ, tài liệu đề nghị chứng nhận lãnh sự: \n- Là giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài.\n- Giấy tờ, tài liệu do các cơ quan, tổ chức của Đảng, Nhà nước có thẩm quyền và các tổ chức khác được phân cấp, ủy quyền thực hiện dịch vụ công cấp, công chứng, chứng thực, chứng nhận.\n\t- Mẫu con dấu, mẫu chữ ký và chức danh của các cơ quan và người có thẩm quyền trên giấy tờ, tài liệu phải được giới thiệu trước cho Bộ Ngoại giao.\nd) Yêu cầu cụ thể đối với giấy tờ, tài liệu đề nghị hợp pháp hóa lãnh sự: \n- Là giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam.\n- Được cơ quan đại diện ngoại giao, cơ quan lãnh sự hoặc cơ quan khác được ủy quyền thực hiện chức năng lãnh sự của nước ngoài cấp, chứng nhận.\n- Mẫu con dấu, mẫu chữ ký và chức danh của các cơ quan và người có thẩm quyền của nước ngoài phải được giới thiệu trước cho Bộ Ngoại giao.",
@@ -527,14 +326,13 @@
     {
       "title": "Cấp Tem (hoặc dấu) chứng nhận/hợp pháp hóa lãnh sự trên giấy tờ, tài liệu.",
       "code": "KQ.G08.000066",
-      "id": "019d2bb2-1c4b-710f-bf4e-75e28954ecac",
-      "source_page": null
+      "source_page": 32
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "1. Nộp hồ sơ:\na) Tại Cục Lãnh sự (Bộ Ngoại giao):\nĐịa chỉ: 40 Trần Phú, Ba Đình, Hà Nội\nThời gian nộp hồ sơ và nhận kết quả: Từ thứ Hai đến thứ Sáu và sáng thứ Bẩy, trừ các ngày lễ, Tết.\n b) Tại Sở Ngoại vụ Thành phố Hồ Chí Minh (Bộ Ngoại giao).\nĐịa chỉ: số 6 Alexandre de Rhodes, TPHCM.\nThời gian nộp hồ sơ và nhận kết trả: các ngày làm việc trong tuần và sáng thứ Bẩy, trừ Chủ Nhật và các ngày lễ, Tết.\nc) Tại trụ sở của cơ quan địa phương được phân cấp thẩm quyền chứng nhận lãnh sự, hợp pháp hóa lãnh sự (tên cơ quan, địa chỉ, thời gian nhận và trả kết quả của các cơ quan này đề nghị xem tại Cổng Dịch vụ công/Cổng Thông tin điện tử của Bộ Ngoại giao).\nd) Nộp trực tuyến trên Cổng Dịch vụ công quốc gia\n2. Cục Lãnh sự, Sở Ngoại vụ Thành phố Hồ Chí Minh, xem xét giải quyết.\n3. Nhận kết quả trực tiếp tại trụ sở cơ quan theo giấy biên nhận hồ sơ hoặc hồ sơ được gửi trả qua đường bưu điện cho đương sự.\n",
-    "THÀNH PHẦN HỒ SƠ": "Trường hợp nộp hồ sợ trực tuyến trên Cổng Dịch vụ công quốc gia/Cổng Dịch vụ công của Bộ Ngoại giao\nCung cấp thông tin theo biểu mẫu điện tử tương tác, đăng tải bản điện tử giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự.\nĐăng tải kèm theo bản điện tử của bản dịch giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự sang tiếng Việt hoặc tiếng Anh, nếu giấy tờ, tài liệu đó không được lập bằng các thứ tiếng trên.\nTrường hợp cần kiểm tra tính xác thực của giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự, cán bộ tiếp nhận hồ sơ có thể yêu cầu người đề nghị hợp pháp hóa lãnh sự xuất trình bổ sung bản chính giấy tờ, tài liệu có liên quan và nộp 01 bản chụp giấy tờ, tài liệu này.\nĐăng nhập tài khoản trên Cổng dịch vụ công quốc gia bằng tài khoản định danh điện tử theo quy định pháp luật về định danh và xác thực điện tử.\nĐối với việc chứng nhận lãnh sự giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài\n01 phong bì có dán tem và ghi rõ địa chỉ người nhận (nếu hồ sơ gửi qua dịch vụ bưu chính và yêu cầu trả kết quả qua dịch vụ bưu chính).\nXuất trình bản chính hoặc bản sao Thẻ căn cước công dân/Thẻ căn cước/Giấy chứng nhận căn cước hoặc Hộ chiếu, giấy tờ xuất nhập cảnh/giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng hoặc xuất trình Căn cước điện tử. Đối với trường hợp nộp qua dịch vụ bưu chính : 01 bản sao Thẻ căn cước công dân/Thẻ căn cước/Giấy chứng nhận căn cước hoặc Hộ chiếu, giấy tờ xuất nhập cảnh/giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng. Bản sao các loại giấy tờ này là bản chụp từ bản chính và không phải chứng thực.\nGiấy tờ, tài liệu đề nghị được chứng nhận lãnh sự.\n01 bản chụp giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự.\n01 Tờ khai chứng nhận/hợp pháp hoá lãnh sự trên Cổng Dịch vụ công của Bộ Ngoại giao dichvucong.mofa.gov.vn.\nĐối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam \nĐăng nhập tài khoản trên Cổng dịch vụ công quốc gia bằng tài khoản định danh điện tử theo quy định pháp luật về định danh và xác thực điện tử.\nGiấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự (đã được cơ quan đại diện ngoại giao, cơ quan lãnh sự hoặc cơ quan khác được ủy quyền thực hiện chức năng lãnh sự của nước ngoài chứng nhận);;\nCung cấp thông tin theo biểu mẫu điện tử tương tác, đăng tải bản điện tử giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự, hợp pháp hóa lãnh sự.\n01 Tờ khai chứng nhận/hợp pháp hoá lãnh sự trên Cổng Dịch vụ công của Bộ Ngoại giao dichvucong.mofa.gov.vn.\n01 bản dịch giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự sang tiếng Việt, tiếng Anh hoặc tiếng nước ngoài mà cán bộ tiếp nhận hồ sơ có thể hiểu được, nếu giấy tờ, tài liệu đó không được lập bằng các thứ tiếng trên;\n01 bản chụp giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự.\nXuất trình bản chính hoặc bản sao Thẻ căn cước công dân/Thẻ căn cước/Giấy chứng nhận căn cước hoặc Hộ chiếu, giấy tờ xuất nhập cảnh/giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng hoặc xuất trình Căn cước điện tử. Đối với trường hợp nộp qua dịch vụ bưu chính : 01 bản sao Thẻ căn cước công dân/Thẻ căn cước/Giấy chứng nhận căn cước hoặc Hộ chiếu, giấy tờ xuất nhập cảnh/giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng. Bản sao các loại giấy tờ này là bản chụp từ bản chính và không phải chứng thực.\n01 phong bì có dán tem và ghi rõ địa chỉ người nhận (nếu hồ sơ gửi qua dịch vụ bưu chính và yêu cầu trả kết quả qua dịch vụ bưu chính).",
-    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 1 ngày làm việc - kể từ ngày cơ quan có thẩm quyền giải quyết nhận đủ hồ sơ hợp lệ đối với trường hợp hồ sơ có số lượng từ 01 đến 04 giấy tờ, tài liệu.\n- Trường hợp cần kiểm tra tính xác thực của con dấu, chữ ký, chức danh trên giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự thì ngay sau khi nhận hồ sơ, Bộ Ngoại giao có văn bản đề nghị cơ quan, tổ chức có thẩm quyền lập, công chứng, chứng thực, chứng nhận giấy tờ, tài liệu đó hoặc cơ quan, tổ chức cấp trên xác minh. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đề nghị, cơ quan, tổ chức có trách nhiệm trả lời bằng văn bản cho Bộ Ngoại giao. Ngay sau khi nhận được trả lời, Bộ Ngoại giao giải quyết và thông báo kết quả cho người đề nghị chứng nhận lãnh sự.\nSau thời hạn 30 ngày kể từ ngày gửi văn bản đề nghị xác minh mà không nhận được kết quả trả lời, Bộ Ngoại giao trả lại hồ sơ cho người đề nghị.\n- Trường hợp chữ ký, con dấu và chức danh của cơ quan và người có thẩm quyền của nước ngoài trong hồ sơ đề nghị được hợp pháp hóa lãnh sự chưa được chính thức thông báo hoặc cần kiểm tra tính xác thực, Bộ Ngoại giao đề nghị cơ quan này xác minh. Ngay sau khi nhận được kết quả xác minh, Bộ Ngoại giao giải quyết hồ sơ và trả kết quả cho người đề nghị chứng nhận lãnh sự.\nTrực tiếp: 2 ngày làm việc - kể từ ngày cơ quan có thẩm quyền giải quyết nhận đủ hồ sơ hợp lệ đối với trường hợp hồ sơ có số lượng từ 05 đến 09 giấy tờ, tài liệu.\n- Trường hợp cần kiểm tra tính xác thực của con dấu, chữ ký, chức danh trên giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự thì ngay sau khi nhận hồ sơ, Bộ Ngoại giao có văn bản đề nghị cơ quan, tổ chức có thẩm quyền lập, công chứng, chứng thực, chứng nhận giấy tờ, tài liệu đó hoặc cơ quan, tổ chức cấp trên xác minh. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đề nghị, cơ quan, tổ chức có trách nhiệm trả lời bằng văn bản cho Bộ Ngoại giao. Ngay sau khi nhận được trả lời, Bộ Ngoại giao giải quyết và thông báo kết quả cho người đề nghị chứng nhận lãnh sự.\nSau thời hạn 30 ngày kể từ ngày gửi văn bản đề nghị xác minh mà không nhận được kết quả trả lời, Bộ Ngoại giao trả lại hồ sơ cho người đề nghị.\n- Trường hợp chữ ký, con dấu và chức danh của cơ quan và người có thẩm quyền của nước ngoài trong hồ sơ đề nghị được hợp pháp hóa lãnh sự chưa được chính thức thông báo hoặc cần kiểm tra tính xác thực, Bộ Ngoại giao đề nghị cơ quan này xác minh. Ngay sau khi nhận được kết quả xác minh, Bộ Ngoại giao giải quyết hồ sơ và trả kết quả cho người đề nghị chứng nhận lãnh sự.\nTrực tiếp: 1 ngày làm việc - kể từ ngày cơ quan có thẩm quyền giải quyết nhận đủ hồ sơ hợp lệ đối với trường hợp hồ sơ có số lượng từ 01 đến 04 giấy tờ, tài liệu.\n- Trường hợp cần kiểm tra tính xác thực của con dấu, chữ ký, chức danh trên giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự thì ngay sau khi nhận hồ sơ, Bộ Ngoại giao có văn bản đề nghị cơ quan, tổ chức có thẩm quyền lập, công chứng, chứng thực, chứng nhận giấy tờ, tài liệu đó hoặc cơ quan, tổ chức cấp trên xác minh. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đề nghị, cơ quan, tổ chức có trách nhiệm trả lời bằng văn bản cho Bộ Ngoại giao. Ngay sau khi nhận được trả lời, Bộ Ngoại giao giải quyết và thông báo kết quả cho người đề nghị chứng nhận lãnh sự.\nSau thời hạn 30 ngày kể từ ngày gửi văn bản đề nghị xác minh mà không nhận được kết quả trả lời, Bộ Ngoại giao trả lại hồ sơ cho người đề nghị.\n- Trường hợp chữ ký, con dấu và chức danh của cơ quan và người có thẩm quyền của nước ngoài trong hồ sơ đề nghị được hợp pháp hóa lãnh sự chưa được chính thức thông báo hoặc cần kiểm tra tính xác thực, Bộ Ngoại giao đề nghị cơ quan này xác minh. Ngay sau khi nhận được kết quả xác minh, Bộ Ngoại giao giải quyết hồ sơ và trả kết quả cho người đề nghị chứng nhận lãnh sự.\nQua dịch vụ bưu chính: 2 ngày làm việc - kể từ ngày cơ quan có thẩm quyền giải quyết nhận đủ hồ sơ hợp lệ đối với trường hợp hồ sơ có số lượng từ 05 đến 09 giấy tờ, tài liệu.\n- Trường hợp cần kiểm tra tính xác thực của con dấu, chữ ký, chức danh trên giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự thì ngay sau khi nhận hồ sơ, Bộ Ngoại giao có văn bản đề nghị cơ quan, tổ chức có thẩm quyền lập, công chứng, chứng thực, chứng nhận giấy tờ, tài liệu đó hoặc cơ quan, tổ chức cấp trên xác minh. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đề nghị, cơ quan, tổ chức có trách nhiệm trả lời bằng văn bản cho Bộ Ngoại giao. Ngay sau khi nhận được trả lời, Bộ Ngoại giao giải quyết và thông báo kết quả cho người đề nghị chứng nhận lãnh sự.\nSau thời hạn 30 ngày kể từ ngày gửi văn bản đề nghị xác minh mà không nhận được kết quả trả lời, Bộ Ngoại giao trả lại hồ sơ cho người đề nghị.\n- Trường hợp chữ ký, con dấu và chức danh của cơ quan và người có thẩm quyền của nước ngoài trong hồ sơ đề nghị được hợp pháp hóa lãnh sự chưa được chính thức thông báo hoặc cần kiểm tra tính xác thực, Bộ Ngoại giao đề nghị cơ quan này xác minh. Ngay sau khi nhận được kết quả xác minh, Bộ Ngoại giao giải quyết hồ sơ và trả kết quả cho người đề nghị chứng nhận lãnh sự.\nTrực tiếp: 4 ngày làm việc - kể từ ngày cơ quan có thẩm quyền giải quyết nhận đủ hồ sơ hợp lệ đối với trường hợp hồ sơ có số lượng từ 10 giấy tờ, tài liệu trở lên\n- Trường hợp cần kiểm tra tính xác thực của con dấu, chữ ký, chức danh trên giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự thì ngay sau khi nhận hồ sơ, Bộ Ngoại giao có văn bản đề nghị cơ quan, tổ chức có thẩm quyền lập, công chứng, chứng thực, chứng nhận giấy tờ, tài liệu đó hoặc cơ quan, tổ chức cấp trên xác minh. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đề nghị, cơ quan, tổ chức có trách nhiệm trả lời bằng văn bản cho Bộ Ngoại giao. Ngay sau khi nhận được trả lời, Bộ Ngoại giao giải quyết và thông báo kết quả cho người đề nghị chứng nhận lãnh sự.\nSau thời hạn 30 ngày kể từ ngày gửi văn bản đề nghị xác minh mà không nhận được kết quả trả lời, Bộ Ngoại giao trả lại hồ sơ cho người đề nghị.\n- Trường hợp chữ ký, con dấu và chức danh của cơ quan và người có thẩm quyền của nước ngoài trong hồ sơ đề nghị được hợp pháp hóa lãnh sự chưa được chính thức thông báo hoặc cần kiểm tra tính xác thực, Bộ Ngoại giao đề nghị cơ quan này xác minh. Ngay sau khi nhận được kết quả xác minh, Bộ Ngoại giao giải quyết hồ sơ và trả kết quả cho người đề nghị chứng nhận lãnh sự.\nQua dịch vụ bưu chính: 4 ngày làm việc - kể từ ngày cơ quan có thẩm quyền giải quyết nhận đủ hồ sơ hợp lệ đối với trường hợp hồ sơ có số lượng từ 10 giấy tờ, tài liệu trở lên\n- Trường hợp cần kiểm tra tính xác thực của con dấu, chữ ký, chức danh trên giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự thì ngay sau khi nhận hồ sơ, Bộ Ngoại giao có văn bản đề nghị cơ quan, tổ chức có thẩm quyền lập, công chứng, chứng thực, chứng nhận giấy tờ, tài liệu đó hoặc cơ quan, tổ chức cấp trên xác minh. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được đề nghị, cơ quan, tổ chức có trách nhiệm trả lời bằng văn bản cho Bộ Ngoại giao. Ngay sau khi nhận được trả lời, Bộ Ngoại giao giải quyết và thông báo kết quả cho người đề nghị chứng nhận lãnh sự.\nSau thời hạn 30 ngày kể từ ngày gửi văn bản đề nghị xác minh mà không nhận được kết quả trả lời, Bộ Ngoại giao trả lại hồ sơ cho người đề nghị.\n- Trường hợp chữ ký, con dấu và chức danh của cơ quan và người có thẩm quyền của nước ngoài trong hồ sơ đề nghị được hợp pháp hóa lãnh sự chưa được chính thức thông báo hoặc cần kiểm tra tính xác thực, Bộ Ngoại giao đề nghị cơ quan này xác minh. Ngay sau khi nhận được kết quả xác minh, Bộ Ngoại giao giải quyết hồ sơ và trả kết quả cho người đề nghị chứng nhận lãnh sự.",
+    "TRÌNH TỰ THỰC HIỆN": "1. Nộp hồ sơ:\na) Tại Cục Lãnh sự (Bộ Ngoại giao):\nĐịa chỉ: 40 Trần Phú, Ba Đình, Hà Nội\nThời gian nộp hồ sơ và nhận kết quả: Từ thứ Hai đến thứ Sáu và sáng thứ Bẩy, trừ các ngày lễ, Tết.\n b) Tại Sở Ngoại vụ Thành phố Hồ Chí Minh (Bộ Ngoại giao).\nĐịa chỉ: số 6 Alexandre de Rhodes, TPHCM.\nThời gian nộp hồ sơ và nhận kết trả: các ngày làm việc trong tuần và sáng thứ Bẩy, trừ Chủ Nhật và các ngày lễ, Tết.\nc) Tại trụ sở của cơ quan địa phương được phân cấp thẩm quyền chứng nhận lãnh sự, hợp pháp hóa lãnh sự (tên cơ quan, địa chỉ, thời gian nhận và trả kết quả của các cơ quan này đề nghị xem tại Cổng Dịch vụ công/Cổng Thông tin điện tử của Bộ Ngoại giao).\nd) Nộp trực tuyến trên Cổng Dịch vụ công quốc gia\n2. Cục Lãnh sự, Sở Ngoại vụ Thành phố Hồ Chí Minh, xem xét giải quyết.\n3. Nhận kết quả trực tiếp tại trụ sở cơ quan theo giấy biên nhận hồ sơ hoặc hồ sơ được gửi trả qua đường bưu điện cho đương sự.",
+    "THÀNH PHẦN HỒ SƠ": "Đối với việc chứng nhận lãnh sự giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài: 01 Tờ khai chứng nhận/hợp pháp hoá lãnh sự trên Cổng Dịch vụ công của Bộ Ngoại giao dichvucong.mofa.gov.vn.\nĐối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam: 01 Tờ khai chứng nhận/hợp pháp hoá lãnh sự trên Cổng Dịch vụ công của Bộ Ngoại giao dichvucong.mofa.gov.vn.\nTrường hợp nộp hồ sợ trực tuyến trên Cổng Dịch vụ công quốc gia/Cổng Dịch vụ công của Bộ Ngoại giao: Cung cấp thông tin theo biểu mẫu điện tử tương tác, đăng tải bản điện tử giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự.\nTrường hợp nộp hồ sợ trực tuyến trên Cổng Dịch vụ công quốc gia/Cổng Dịch vụ công của Bộ Ngoại giao: Đăng tải kèm theo bản điện tử của bản dịch giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự sang tiếng Việt hoặc tiếng Anh, nếu giấy tờ, tài liệu đó không được lập bằng các thứ tiếng trên.\nTrường hợp nộp hồ sợ trực tuyến trên Cổng Dịch vụ công quốc gia/Cổng Dịch vụ công của Bộ Ngoại giao: Trường hợp cần kiểm tra tính xác thực của giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự, cán bộ tiếp nhận hồ sơ có thể yêu cầu người đề nghị hợp pháp hóa lãnh sự xuất trình bổ sung bản chính giấy tờ, tài liệu có liên quan và nộp 01 bản chụp giấy tờ, tài liệu này.\nTrường hợp nộp hồ sợ trực tuyến trên Cổng Dịch vụ công quốc gia/Cổng Dịch vụ công của Bộ Ngoại giao: Đăng nhập tài khoản trên Cổng dịch vụ công quốc gia bằng tài khoản định danh điện tử theo quy định pháp luật về định danh và xác thực điện tử.\nĐối với việc chứng nhận lãnh sự giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài: 01 phong bì có dán tem và ghi rõ địa chỉ người nhận (nếu hồ sơ gửi qua dịch vụ bưu chính và yêu cầu trả kết quả qua dịch vụ bưu chính).\nĐối với việc chứng nhận lãnh sự giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài: Xuất trình bản chính hoặc bản sao Thẻ căn cước công dân/Thẻ căn cước/Giấy chứng nhận căn cước hoặc Hộ chiếu, giấy tờ xuất nhập cảnh/giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng hoặc xuất trình Căn cước điện tử. Đối với trường hợp nộp qua dịch vụ bưu chính : 01 bản sao Thẻ căn cước công dân/Thẻ căn cước/Giấy chứng nhận căn cước hoặc Hộ chiếu, giấy tờ xuất nhập cảnh/giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng. Bản sao các loại giấy tờ này là bản chụp từ bản chính và không phải chứng thực.\nĐối với việc chứng nhận lãnh sự giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài: Giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự.\nĐối với việc chứng nhận lãnh sự giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài: 01 bản chụp giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự.\nĐối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam: Đăng nhập tài khoản trên Cổng dịch vụ công quốc gia bằng tài khoản định danh điện tử theo quy định pháp luật về định danh và xác thực điện tử.\nĐối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam: Giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự (đã được cơ quan đại diện ngoại giao, cơ quan lãnh sự hoặc cơ quan khác được ủy quyền thực hiện chức năng lãnh sự của nước ngoài chứng nhận);;\nĐối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam: Cung cấp thông tin theo biểu mẫu điện tử tương tác, đăng tải bản điện tử giấy tờ, tài liệu đề nghị được chứng nhận lãnh sự, hợp pháp hóa lãnh sự.\nĐối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam: 01 bản dịch giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự sang tiếng Việt, tiếng Anh hoặc tiếng nước ngoài mà cán bộ tiếp nhận hồ sơ có thể hiểu được, nếu giấy tờ, tài liệu đó không được lập bằng các thứ tiếng trên;\nĐối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam: 01 bản chụp giấy tờ, tài liệu đề nghị được hợp pháp hóa lãnh sự.\nĐối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam: Xuất trình bản chính hoặc bản sao Thẻ căn cước công dân/Thẻ căn cước/Giấy chứng nhận căn cước hoặc Hộ chiếu, giấy tờ xuất nhập cảnh/giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng hoặc xuất trình Căn cước điện tử. Đối với trường hợp nộp qua dịch vụ bưu chính : 01 bản sao Thẻ căn cước công dân/Thẻ căn cước/Giấy chứng nhận căn cước hoặc Hộ chiếu, giấy tờ xuất nhập cảnh/giấy tờ có giá trị đi lại quốc tế còn giá trị sử dụng. Bản sao các loại giấy tờ này là bản chụp từ bản chính và không phải chứng thực.\nĐối với việc hợp pháp hóa lãnh sự giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam: 01 phong bì có dán tem và ghi rõ địa chỉ người nhận (nếu hồ sơ gửi qua dịch vụ bưu chính và yêu cầu trả kết quả qua dịch vụ bưu chính).",
+    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 1 ngày làm việc\nTrực tiếp: 2 ngày làm việc\nTrực tiếp: 1 ngày làm việc\nQua dịch vụ bưu chính: 2 ngày làm việc\nTrực tiếp: 4 ngày làm việc\nQua dịch vụ bưu chính: 4 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Nghị định số 196/2025/NĐ-CP của Chính phủ: Sửa đổi, bổ sung một số điều của Nghị định số 111/2011/NĐ-CP ngày 05 tháng 12 năm 2011 của Chính phủ về chứng nhận lãnh sự, hợp pháp hóa lãnh sự - 196/2025/NĐ-CP\nThông tư số 11/2025/TT-BNG của Bộ Ngoại giao: Về biểu mẫu giấy tờ và hướng dẫn chi tiết một số quy định về chứng nhận lãnh sự; hợp pháp hóa lãnh sự - 11/2025/TT-BNG\nNghị định 111/2011/NĐ-CP - 111/2011/NĐ-CP\nThông tư 01/2012/TT-BNG - 01/2012/TT-BNG\nThông tư 157/2016/TT-BTC - 157/2016/TT-BTC",
     "CƠ QUAN THỰC HIỆN": "Sở Ngoại vụ Thành phố Hồ Chí Minh - Bộ Ngoại giao, Cục Lãnh sự - Bộ Ngoại giao",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "a) Các giấy tờ, tài liệu được miễn hợp pháp hóa lãnh sự:\n- Giấy tờ, tài liệu được miễn hợp pháp hóa lãnh sự theo điều ước quốc tế mà Việt Nam và nước ngoài liên quan đều là thành viên, hoặc theo nguyên tắc có đi có lại.\n- Giấy tờ, tài liệu được chuyển giao trực tiếp hoặc qua đường ngoại giao giữa cơ quan có thẩm quyền của Việt Nam và cơ quan có thẩm quyền của nước ngoài.\n- Giấy tờ, tài liệu được miễn hợp pháp hóa lãnh sự theo quy định của pháp luật Việt Nam.\n- Giấy tờ, tài liệu của nước ngoài mà cơ quan nhà nước có thẩm quyền của Việt Nam không yêu cầu phải hợp pháp hóa lãnh sự trên cơ sở cơ quan đó tự xác định được tính xác thực của giấy tờ, tài liệu đó.\nb) Các giấy tờ, tài liệu không được chứng nhận lãnh sự, hợp pháp hóa lãnh sự:\n- Giấy tờ, tài liệu bị sửa chữa, tẩy xóa nhưng không được đính chính theo quy định pháp luật.\n- Giấy tờ, tài liệu giả mạo theo kết luận của cơ quan có thẩm quyền hoặc được lập, cấp, chứng nhận sai, không đúng thẩm quyền, bị làm giả theo kết quả trả lời, xác minh của cơ quan lập, cấp, chứng nhận giấy tờ, tài liệu hoặc cơ quan quản lý nhà nước cấp trên của cơ quan lập, cấp, chứng nhận giấy tờ, tài liệu.\n- Giấy tờ, tài liệu có chữ ký, con dấu không phải là chữ ký gốc, con dấu gốc đối với giấy tờ tài liệu không phải bản điện tử, trừ trường hợp đáp ứng quy định của pháp luật liên quan.\n- Giấy tờ, tài liệu có nội dung vi phạm quyền và lợi ích của Nhà nước Việt Nam.\n- Bản điện tử của giấy tờ tài liệu không có chữ ký số của cơ quan, người có thẩm quyền, không bảo đảm tính toàn vẹn của dữ liệu, tính xác thực, tính chống chối bỏ theo các quy định về giao dịch điện tử, chữ ký số và văn bản điện tử.\nc) Yêu cầu cụ thể đối với các giấy tờ, tài liệu đề nghị chứng nhận lãnh sự: \n- Là giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài.\n- Giấy tờ, tài liệu do các cơ quan, tổ chức của Đảng, Nhà nước có thẩm quyền và các tổ chức khác được phân cấp, ủy quyền thực hiện dịch vụ công cấp, công chứng, chứng thực, chứng nhận.\n\t- Mẫu con dấu, mẫu chữ ký và chức danh của các cơ quan và người có thẩm quyền trên giấy tờ, tài liệu phải được giới thiệu trước cho Bộ Ngoại giao.\nd) Yêu cầu cụ thể đối với giấy tờ, tài liệu đề nghị hợp pháp hóa lãnh sự: \n- Là giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam.\n- Được cơ quan đại diện ngoại giao, cơ quan lãnh sự hoặc cơ quan khác được ủy quyền thực hiện chức năng lãnh sự của nước ngoài cấp, chứng nhận.\n- Mẫu con dấu, mẫu chữ ký và chức danh của các cơ quan và người có thẩm quyền của nước ngoài phải được giới thiệu trước cho Bộ Ngoại giao.",
@@ -543,11 +341,6 @@
     "MÔ TẢ": "a) Các giấy tờ, tài liệu được miễn hợp pháp hóa lãnh sự:\n- Giấy tờ, tài liệu được miễn hợp pháp hóa lãnh sự theo điều ước quốc tế mà Việt Nam và nước ngoài liên quan đều là thành viên, hoặc theo nguyên tắc có đi có lại.\n- Giấy tờ, tài liệu được chuyển giao trực tiếp hoặc qua đường ngoại giao giữa cơ quan có thẩm quyền của Việt Nam và cơ quan có thẩm quyền của nước ngoài.\n- Giấy tờ, tài liệu được miễn hợp pháp hóa lãnh sự theo quy định của pháp luật Việt Nam.\n- Giấy tờ, tài liệu của nước ngoài mà cơ quan nhà nước có thẩm quyền của Việt Nam không yêu cầu phải hợp pháp hóa lãnh sự trên cơ sở cơ quan đó tự xác định được tính xác thực của giấy tờ, tài liệu đó.\nb) Các giấy tờ, tài liệu không được chứng nhận lãnh sự, hợp pháp hóa lãnh sự:\n- Giấy tờ, tài liệu bị sửa chữa, tẩy xóa nhưng không được đính chính theo quy định pháp luật.\n- Giấy tờ, tài liệu giả mạo theo kết luận của cơ quan có thẩm quyền hoặc được lập, cấp, chứng nhận sai, không đúng thẩm quyền, bị làm giả theo kết quả trả lời, xác minh của cơ quan lập, cấp, chứng nhận giấy tờ, tài liệu hoặc cơ quan quản lý nhà nước cấp trên của cơ quan lập, cấp, chứng nhận giấy tờ, tài liệu.\n- Giấy tờ, tài liệu có chữ ký, con dấu không phải là chữ ký gốc, con dấu gốc đối với giấy tờ tài liệu không phải bản điện tử, trừ trường hợp đáp ứng quy định của pháp luật liên quan.\n- Giấy tờ, tài liệu có nội dung vi phạm quyền và lợi ích của Nhà nước Việt Nam.\n- Bản điện tử của giấy tờ tài liệu không có chữ ký số của cơ quan, người có thẩm quyền, không bảo đảm tính toàn vẹn của dữ liệu, tính xác thực, tính chống chối bỏ theo các quy định về giao dịch điện tử, chữ ký số và văn bản điện tử.\nc) Yêu cầu cụ thể đối với các giấy tờ, tài liệu đề nghị chứng nhận lãnh sự: \n- Là giấy tờ, tài liệu của Việt Nam để được công nhận và sử dụng ở nước ngoài.\n- Giấy tờ, tài liệu do các cơ quan, tổ chức của Đảng, Nhà nước có thẩm quyền và các tổ chức khác được phân cấp, ủy quyền thực hiện dịch vụ công cấp, công chứng, chứng thực, chứng nhận.\n\t- Mẫu con dấu, mẫu chữ ký và chức danh của các cơ quan và người có thẩm quyền trên giấy tờ, tài liệu phải được giới thiệu trước cho Bộ Ngoại giao.\nd) Yêu cầu cụ thể đối với giấy tờ, tài liệu đề nghị hợp pháp hóa lãnh sự: \n- Là giấy tờ, tài liệu của nước ngoài để được công nhận và sử dụng ở Việt Nam.\n- Được cơ quan đại diện ngoại giao, cơ quan lãnh sự hoặc cơ quan khác được ủy quyền thực hiện chức năng lãnh sự của nước ngoài cấp, chứng nhận.\n- Mẫu con dấu, mẫu chữ ký và chức danh của các cơ quan và người có thẩm quyền của nước ngoài phải được giới thiệu trước cho Bộ Ngoại giao."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "fallback"
-    },
     "sector": {
       "name": "Chứng nhận lãnh sự, hợp pháp hóa lãnh sự",
       "slug": "chung-nhan-lanh-su-hop-phap-hoa-lanh-su"
@@ -565,7 +358,7 @@
     "target_users": [
       {
         "name": "Người Việt Nam định cư ở nước ngoài",
-        "slug": "nguoi-viet-nam-dinh-cu-o-nuoc-ngoai"
+        "slug": "nguoi-viet-nam-inh-cu-o-nuoc-ngoai"
       },
       {
         "name": "Công dân Việt Nam",
@@ -586,6 +379,6 @@
         "slug": "cuc-lanh-su-bo-ngoai-giao"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

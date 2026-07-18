@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bf9-ea06-708b-9b0d-c617fc86cf01",
   "procedure_code": "1.001133",
   "title": "Cấp, cấp lại, gia hạn Thẻ phóng viên nước ngoài cho phóng viên thường trú tại Việt Nam",
   "language": "vi",
-  "status": "UPDATED",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bf9-ea06-708b-9b0d-c617fc86cf01",
     "source_file": "chi-tiet-thu-tuc-1.001133.pdf",
     "source_path": "procedures/viec-lam/1.001133/chi-tiet-thu-tuc-1.001133.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:21:59.170690+00:00",
-    "source_updated_at": "2026-05-25T03:38:41.492Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:59:52.232274+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "cf773ff55180725a6c617c5b6d174cf5e72e2671376bda82550f6f8a29a23ec4"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:21:59.170690+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1547/QĐ-BNG",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Báo chí",
   "target_users": [
@@ -36,10 +32,7 @@
   ],
   "agency": {
     "competent_agency": "Bộ Ngoại giao",
-    "executing_agency": "Bộ Ngoại giao, Vụ Thông tin Báo chí - Bộ Ngoại giao",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Ngoại giao, Vụ Thông tin Báo chí - Bộ Ngoại giao"
   },
   "steps": [
     {
@@ -47,93 +40,63 @@
       "title": "Thẩm định hồ sơ",
       "description": "Trong thời hạn 03 ngày làm việc kể từ khi nhận được hồ sơ đề nghị, Bộ Ngoại giao hoàn thành việc cấp, cấp lại hoặc gia hạn Thẻ phóng viên nước ngoài. Trong trường hợp từ chối cấp, cấp lại hoặc gia hạn Thẻ phóng viên nước ngoài, Bộ Ngoại giao thông báo bằng văn bản cho phóng viên nước ngoài",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 2,
       "title": "Nộp hồ sơ",
       "description": "Phóng viên thường trú có đề nghị cấp, cấp lại, gia hạn Thẻ phóng viên nước ngoài gửi 01 bộ hồ sơ đề nghị trực tiếp hoặc qua dịch vụ bưu chính đến Bộ Ngoại giao hoặc trực tuyến trên Cổng Dịch vụ công quốc gia.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     },
     {
       "order": 3,
       "title": "Bước 3",
       "description": "Chậm nhất 15 ngày làm việc trước khi Thẻ phóng viên nước ngoài hết hạn, phóng viên thường trú phải làm thủ tục gia hạn Thẻ phóng viên nước ngoài nếu được Bộ Ngoại giao cho phép tiếp tục làm phóng viên thường trú. Phóng viên thường trú có đề nghị gia hạn Thẻ phóng viên nước ngoài gửi 01 bộ hồ sơ đề nghị gia hạn thẻ trực\ntiếp hoặc qua dịch vụ bưu chính đến Bộ Ngoại giao;",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "Văn bản đề nghị cấp mới/cấp lại/Gia hạn Thẻ phóng viên nước ngoài của phóng viên thường trú theo mẫu do Bộ Ngoại giao ban hành.",
-        "code": "000.00.00.G08-KQ0141",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019e3f6a-dd58-747a-b970-8f0383bb7888",
-            "name": "Văn bản đề nghị cấp Thẻ phóng viên nước ngoài của phóng viên thường trú theo mẫu do Bộ Ngoại giao ban hành..pdf",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Văn bản đề nghị cấp Thẻ phóng viên nước ngoài của phóng viên thường trú theo mẫu do Bộ Ngoại giao ban hành..pdf",
+        "source_page": 2
       },
       {
         "name": "Văn bản đề nghị cử phóng viên thường trú của người đứng đầu cơ quan báo chí nước ngoài hoặc người được người đứng đầu cơ quan báo chí nước ngoài ủy quyền theo mẫu do Bộ Ngoại giao ban hành.",
-        "code": "000.00.00.G08-KQ0173",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019d91ab-f0a5-72e8-bda8-eb635a669828",
-            "name": "Mau so 3 - Don de nghi cu phong vien thuong tru.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Mau so 3 - Don de nghi cu phong vien thuong tru.docx",
+        "source_page": 2
       },
       {
         "name": "Thẻ phóng viên nước ngoài (trong trường hợp thẻ bị hỏng).",
-        "code": "000.00.00.G08-KQ0167",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "Thẻ phóng viên nước ngoài (trường hợp xin gia hạn thẻ phóng viên nước ngoài)",
-        "code": "000.00.00.G08-KQ0144",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "Bản chụp hộ chiếu của phóng viên thường trú.",
-        "code": "000.00.00.G08-KQ0142",
         "quantity": "1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "02 ảnh chân dung 03 cm x 04 cm của phóng viên thường trú.",
-        "code": "000.00.00.G08-KQ0143",
         "quantity": "2 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -142,17 +105,7 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "03 ngày làm việc kể từ khi nhận đủ hồ sơ đề nghị",
       "source_page": null
     },
@@ -160,17 +113,7 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "03 ngày làm việc kể từ khi nhận đủ hồ sơ đề nghị",
       "source_page": null
     },
@@ -178,34 +121,29 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 1
       }
     ]
   },
@@ -213,26 +151,22 @@
     {
       "title": "Thông tư quy định về phân cấp thực hiện một số nhiệm vụ, quyền hạn trong lĩnh vực  quản lý nhà nước của Bộ Tài chính",
       "document_number": "31/2026/TT-BTC",
-      "id": "019e247f-bb82-771b-9c42-92635ca096d7",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư 06/2012/TT-BNG",
       "document_number": "06/2012/TT-BNG",
-      "id": "019d2bb3-5d7c-71ab-9f08-4ca898590be2",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Nghị định 88/2012/NĐ-CP",
       "document_number": "88/2012/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b472-4d92d1ba8ce9",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật báo chí",
       "document_number": "103/2016/QH13",
-      "id": "019d2bb3-5d84-71c5-b671-7ec9f4fae8b8",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "",
@@ -240,14 +174,13 @@
     {
       "title": "Thẻ phóng viên nước ngoài",
       "code": "KQ.G08.000085",
-      "id": "019d2bb2-1c4b-710f-bf4e-b225d59ce1bb",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Trong thời hạn 03 ngày làm việc kể từ khi nhận được hồ sơ đề nghị, Bộ Ngoại giao hoàn thành việc cấp, cấp lại hoặc gia hạn Thẻ phóng viên nước ngoài. Trong trường hợp từ chối cấp, cấp lại hoặc gia hạn Thẻ phóng viên nước ngoài, Bộ Ngoại giao thông báo bằng văn bản cho phóng viên nước ngoài\nPhóng viên thường trú có đề nghị cấp, cấp lại, gia hạn Thẻ phóng viên nước ngoài gửi 01 bộ hồ sơ đề nghị trực tiếp hoặc qua dịch vụ bưu chính đến Bộ Ngoại giao hoặc trực tuyến trên Cổng Dịch vụ công quốc gia.\nChậm nhất 15 ngày làm việc trước khi Thẻ phóng viên nước ngoài hết hạn, phóng viên thường trú phải làm thủ tục gia hạn Thẻ phóng viên nước ngoài nếu được Bộ Ngoại giao cho phép tiếp tục làm phóng viên thường trú. Phóng viên thường trú có đề nghị gia hạn Thẻ phóng viên nước ngoài gửi 01 bộ hồ sơ đề nghị gia hạn thẻ trực\ntiếp hoặc qua dịch vụ bưu chính đến Bộ Ngoại giao;",
-    "THÀNH PHẦN HỒ SƠ": "\nBản chụp hộ chiếu của phóng viên thường trú.\nVăn bản đề nghị cấp mới/cấp lại/Gia hạn Thẻ phóng viên nước ngoài của phóng viên thường trú theo mẫu do Bộ Ngoại giao ban hành.\n02 ảnh chân dung 03 cm x 04 cm của phóng viên thường trú.\nVăn bản đề nghị cử phóng viên thường trú của người đứng đầu cơ quan báo chí nước ngoài hoặc người được người đứng đầu cơ quan báo chí nước ngoài ủy quyền theo mẫu do Bộ Ngoại giao ban hành.\nThẻ phóng viên nước ngoài (trong trường hợp thẻ bị hỏng).\nThẻ phóng viên nước ngoài (trường hợp xin gia hạn thẻ phóng viên nước ngoài)",
-    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 3 ngày làm việc - 03 ngày làm việc kể từ khi nhận đủ hồ sơ đề nghị\nTrực tiếp: 3 ngày làm việc - 03 ngày làm việc kể từ khi nhận đủ hồ sơ đề nghị\nTrực tuyến: 3 ngày làm việc",
+    "THÀNH PHẦN HỒ SƠ": "Văn bản đề nghị cấp mới/cấp lại/Gia hạn Thẻ phóng viên nước ngoài của phóng viên thường trú theo mẫu do Bộ Ngoại giao ban hành.\nVăn bản đề nghị cử phóng viên thường trú của người đứng đầu cơ quan báo chí nước ngoài hoặc người được người đứng đầu cơ quan báo chí nước ngoài ủy quyền theo mẫu do Bộ Ngoại giao ban hành.\nThẻ phóng viên nước ngoài (trong trường hợp thẻ bị hỏng).\nThẻ phóng viên nước ngoài (trường hợp xin gia hạn thẻ phóng viên nước ngoài)\nBản chụp hộ chiếu của phóng viên thường trú.\n02 ảnh chân dung 03 cm x 04 cm của phóng viên thường trú.",
+    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 3 ngày làm việc\nTrực tiếp: 3 ngày làm việc\nTrực tuyến: 3 ngày làm việc",
     "CĂN CỨ PHÁP LÝ": "Thông tư quy định về phân cấp thực hiện một số nhiệm vụ, quyền hạn trong lĩnh vực  quản lý nhà nước của Bộ Tài chính - 31/2026/TT-BTC\nThông tư 06/2012/TT-BNG - 06/2012/TT-BNG\nNghị định 88/2012/NĐ-CP - 88/2012/NĐ-CP\nLuật báo chí - 103/2016/QH13",
     "CƠ QUAN THỰC HIỆN": "Bộ Ngoại giao, Vụ Thông tin Báo chí - Bộ Ngoại giao",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "",
@@ -256,11 +189,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Báo chí",
       "slug": "bao-chi"
@@ -291,6 +219,6 @@
         "slug": "vu-thong-tin-bao-chi-bo-ngoai-giao"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

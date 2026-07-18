@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfc-7434-74e8-ba52-2c1dbef05cf4",
   "procedure_code": "1.009076",
   "title": "Thủ tục hải quan đối với hàng hóa từ nội địa đưa vào cửa hàng miễn thuế, kho hàng miễn thuế",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfc-7434-74e8-ba52-2c1dbef05cf4",
     "source_file": "chi-tiet-thu-tuc-1.009076.pdf",
     "source_path": "procedures/viec-lam/1.009076/chi-tiet-thu-tuc-1.009076.pdf",
     "page_count": 3,
-    "extracted_at": "2026-07-18T02:22:04.606707+00:00",
-    "source_updated_at": "2026-04-08T09:18:59.930Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:00:29.917975+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "1d57dd692f49b0e8a6070063b8df18781dac75b8b9df9baac0bc6e356abe8967"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:04.606707+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "1450/QĐ-BTC",
   "implementation_level": "Cấp xã",
-  "implementation_levels": [
-    "Cấp xã"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Hải quan",
   "target_users": [
@@ -35,18 +31,22 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Chi cục Hải quan khu vực",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Chi cục Hải quan khu vực"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "Bước 1: Doanh nghiệp thông báo cho Chi cục Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế danh sách hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế theo Mẫu số 10/DSHH Phụ lục II ban hành kèm theo Nghị định 100/2020/NĐ-CP ngày 28/8/2020 và gửi đến hệ thống xử lý dữ liệu điện tử;\nBước 2: Chi cục Hải quan xác nhận thực tế hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế sau khi nhận được phản hồi của hệ thống xử lý dữ liệu điện tử\n- Trường hợp có nghi ngờ về danh sách hàng hóa, trong vòng 02 giờ làm việc kể từ khi hệ thống xử lý dữ liệu điện tử phản hồi, Chi cục Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế thực hiện kiểm tra, đối chiếu thông tin trên hệ thống xử lý dữ liệu điện tử với thực tế hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế \n- Trong trường hợp cần thiết, cơ quan hải quan kiểm tra thực tế lượng hàng tồn của cửa hàng miễn thuế, kho chứa hàng miễn thuế theo quyết định của Cục trưởng Cục Hải quan. Đối với trường hợp phức tạp, Cục trưởng Cục Hải quan ban hành quyết định gia hạn thời hạn kiểm tra nhưng không quá 05 ngày làm việc. Nội dung kiểm tra và kết quả kiểm tra được ghi nhận bằng biên bản kiểm tra. Cơ quan hải quan thực hiện xác nhận thực tế hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế thông qua hệ thống xử lý dữ liệu điện tử theo kết quả kiểm tra thực tế.\n",
+      "description": "Bước 1: Doanh nghiệp thông báo cho Chi cục Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế danh sách hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế theo Mẫu số 10/DSHH Phụ lục II ban hành kèm theo Nghị định 100/2020/NĐ-CP ngày 28/8/2020 và gửi đến hệ thống xử lý dữ liệu điện tử;",
       "example": null,
-      "source_page": null
+      "source_page": 2
+    },
+    {
+      "order": 2,
+      "title": "Bước 2",
+      "description": "Bước 2: Chi cục Hải quan xác nhận thực tế hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế sau khi nhận được phản hồi của hệ thống xử lý dữ liệu điện tử\n- Trường hợp có nghi ngờ về danh sách hàng hóa, trong vòng 02 giờ làm việc kể từ khi hệ thống xử lý dữ liệu điện tử phản hồi, Chi cục Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế thực hiện kiểm tra, đối chiếu thông tin trên hệ thống xử lý dữ liệu điện tử với thực tế hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế \n- Trong trường hợp cần thiết, cơ quan hải quan kiểm tra thực tế lượng hàng tồn của cửa hàng miễn thuế, kho chứa hàng miễn thuế theo quyết định của Cục trưởng Cục Hải quan. Đối với trường hợp phức tạp, Cục trưởng Cục Hải quan ban hành quyết định gia hạn thời hạn kiểm tra nhưng không quá 05 ngày làm việc. Nội dung kiểm tra và kết quả kiểm tra được ghi nhận bằng biên bản kiểm tra. Cơ quan hải quan thực hiện xác nhận thực tế hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế thông qua hệ thống xử lý dữ liệu điện tử theo kết quả kiểm tra thực tế.",
+      "example": null,
+      "source_page": 2
     }
   ],
   "documents": {
@@ -55,12 +55,9 @@
     "conditional": [
       {
         "name": "Danh sách hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế theo Mẫu số 10/DSHH Phụ lục II ban hành kèm theo Nghị định 100/2020/NĐ-CP ngày 28/8/2020",
-        "code": "000.00.00.G12-KQ9865",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ]
   },
@@ -69,33 +66,22 @@
       "code": "ONLINE",
       "label": "Trực tuyến",
       "processing_time": "1 giờ",
-      "processing_time_value": 1,
-      "processing_time_unit": "HOUR",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "ONLINE",
         "submission_method": "Trực tuyến",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -103,8 +89,7 @@
     {
       "title": "Về kinh doanh hàng miễn thuế",
       "document_number": "100/2020/NĐ-CP",
-      "id": "019d2bb3-5d7e-72d1-afe7-eb836575a7da",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "",
@@ -112,13 +97,12 @@
     {
       "title": "Xác nhận thực tế hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế của Chi cục Hải quan quản lý",
       "code": "KQ.G12.001301",
-      "id": "019d2bb2-1c73-70ac-aa18-0c88791d7b28",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Doanh nghiệp thông báo cho Chi cục Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế danh sách hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế theo Mẫu số 10/DSHH Phụ lục II ban hành kèm theo Nghị định 100/2020/NĐ-CP ngày 28/8/2020 và gửi đến hệ thống xử lý dữ liệu điện tử;\nBước 2: Chi cục Hải quan xác nhận thực tế hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế sau khi nhận được phản hồi của hệ thống xử lý dữ liệu điện tử\n- Trường hợp có nghi ngờ về danh sách hàng hóa, trong vòng 02 giờ làm việc kể từ khi hệ thống xử lý dữ liệu điện tử phản hồi, Chi cục Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế thực hiện kiểm tra, đối chiếu thông tin trên hệ thống xử lý dữ liệu điện tử với thực tế hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế \n- Trong trường hợp cần thiết, cơ quan hải quan kiểm tra thực tế lượng hàng tồn của cửa hàng miễn thuế, kho chứa hàng miễn thuế theo quyết định của Cục trưởng Cục Hải quan. Đối với trường hợp phức tạp, Cục trưởng Cục Hải quan ban hành quyết định gia hạn thời hạn kiểm tra nhưng không quá 05 ngày làm việc. Nội dung kiểm tra và kết quả kiểm tra được ghi nhận bằng biên bản kiểm tra. Cơ quan hải quan thực hiện xác nhận thực tế hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế thông qua hệ thống xử lý dữ liệu điện tử theo kết quả kiểm tra thực tế.\n",
-    "THÀNH PHẦN HỒ SƠ": "\nDanh sách hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế theo Mẫu số 10/DSHH Phụ lục II ban hành kèm theo Nghị định 100/2020/NĐ-CP ngày 28/8/2020",
+    "TRÌNH TỰ THỰC HIỆN": "Bước 1: Doanh nghiệp thông báo cho Chi cục Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế danh sách hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế theo Mẫu số 10/DSHH Phụ lục II ban hành kèm theo Nghị định 100/2020/NĐ-CP ngày 28/8/2020 và gửi đến hệ thống xử lý dữ liệu điện tử;\nBước 2: Chi cục Hải quan xác nhận thực tế hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế sau khi nhận được phản hồi của hệ thống xử lý dữ liệu điện tử\n- Trường hợp có nghi ngờ về danh sách hàng hóa, trong vòng 02 giờ làm việc kể từ khi hệ thống xử lý dữ liệu điện tử phản hồi, Chi cục Hải quan quản lý cửa hàng miễn thuế, kho chứa hàng miễn thuế thực hiện kiểm tra, đối chiếu thông tin trên hệ thống xử lý dữ liệu điện tử với thực tế hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế \n- Trong trường hợp cần thiết, cơ quan hải quan kiểm tra thực tế lượng hàng tồn của cửa hàng miễn thuế, kho chứa hàng miễn thuế theo quyết định của Cục trưởng Cục Hải quan. Đối với trường hợp phức tạp, Cục trưởng Cục Hải quan ban hành quyết định gia hạn thời hạn kiểm tra nhưng không quá 05 ngày làm việc. Nội dung kiểm tra và kết quả kiểm tra được ghi nhận bằng biên bản kiểm tra. Cơ quan hải quan thực hiện xác nhận thực tế hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế thông qua hệ thống xử lý dữ liệu điện tử theo kết quả kiểm tra thực tế.",
+    "THÀNH PHẦN HỒ SƠ": "Danh sách hàng hóa đưa vào cửa hàng miễn thuế, kho chứa hàng miễn thuế theo Mẫu số 10/DSHH Phụ lục II ban hành kèm theo Nghị định 100/2020/NĐ-CP ngày 28/8/2020",
     "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 1 giờ",
     "CĂN CỨ PHÁP LÝ": "Về kinh doanh hàng miễn thuế - 100/2020/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Chi cục Hải quan khu vực",
@@ -128,11 +112,6 @@
     "MÔ TẢ": ""
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Hải quan",
       "slug": "hai-quan"
@@ -155,6 +134,6 @@
         "slug": "chi-cuc-hai-quan-khu-vuc"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019e390e-9f05-764f-a6f2-98f1e85f33ca",
   "procedure_code": "1.115126",
   "title": "Chuyển đổi công ty nhà nước thành công ty TNHH MTV do Nhà nước nắm giữ 100% vốn điều lệ",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019e390e-9f05-764f-a6f2-98f1e85f33ca",
     "source_file": "chi-tiet-thu-tuc-1.115126.pdf",
     "source_path": "procedures/viec-lam/1.115126/chi-tiet-thu-tuc-1.115126.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:16.004995+00:00",
-    "source_updated_at": "2026-05-18T04:24:59.155Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T05:01:55.333960+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "456b6c14c755b835063ffaebd9d9d108f61593b7b9e2548c2829987a2c4b28b2"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:16.004995+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "2295/QĐ-BKHĐT",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Thành lập và sắp xếp lại doanh nghiệp do Nhà nước nắm giữ 100 phần trăm vốn điều lệ",
   "target_users": [
@@ -35,10 +31,7 @@
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Bộ Tài chính",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": ""
+    "executing_agency": "Bộ Tài chính"
   },
   "steps": [
     {
@@ -46,64 +39,46 @@
       "title": "Bước 1",
       "description": "- Công ty nhà nước xây dựng Đề án chuyển đổi; Điều lệ của công ty trách nhiệm hữu hạn một thành viên do Nhà nước nắm giữ 100% vốn điều lệ trình cơ quan đại diện chủ sở hữu xem xét, phê duyệt.\n\n- Trên cơ sở đề xuất của công ty nhà nước, cơ quan đại diện chủ sở hữu ban hành Quyết định chuyển đổi.\n\n- Sau khi cơ quan đại diện chủ sở hữu ban hành Quyết định chuyển đổi, công ty nhà nước gửi hồ sơ đăng ký chuyển đổi đến Cơ quan đăng ký kinh doanh cấp tỉnh nơi công ty đặt trụ sở chính.\n\n- Cơ quan đăng ký kinh doanh có trách nhiệm xem xét tính hợp lệ của hồ sơ đăng ký doanh nghiệp và cấp Giấy chứng nhận đăng ký doanh nghiệp cho doanh nghiệp, cập nhật thông tin trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp. Trường hợp hồ sơ chưa hợp lệ, Cơ quan đăng ký kinh doanh có trách nhiệm thông báo bằng văn bản nội dung cần sửa đổi, bổ sung cho công ty nhà nước. Trường hợp từ chối cấp Giấy chứng nhận đăng ký doanh nghiệp thì phải thông báo bằng văn bản cho công ty nhà nước và nêu rõ lý do.",
       "example": null,
-      "source_page": null
+      "source_page": 2
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "- Giấy đề nghị đăng ký doanh nghiệp (theo mẫu quy định tại Phụ lục II ban hành kèm theo Nghị định này).",
-        "code": "Giấy đề nghị đăng ký doanh nghiệp",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Quyết định chuyển đổi.",
-        "code": "Quyết định chuyển đổi",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "- Điều lệ của công ty trách nhiệm hữu hạn một thành viên do Nhà nước nắm giữ 100% vốn điều lệ theo quy định tại Luật Doanh nghiệp.",
-        "code": "Điều lệ công ty",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Giấy tờ pháp lý của cá nhân người đại diện theo pháp luật của công ty trách nhiệm hữu hạn một thành viên quy định tại Quyết định chuyển đổi;",
-        "code": "Giấy tờ pháp lý đại diện pháp luật",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Giấy tờ pháp lý của cá nhân đối với người được giao thực hiện quyền, trách nhiệm của đại diện chủ sở hữu nhà nước tại doanh nghiệp quy định tại Quyết định chuyển đổi;",
-        "code": "Giấy tờ pháp lý của người được giao quyền",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Giấy chứng nhận đăng ký kinh doanh hoặc các giấy tờ có giá trị pháp lý tương đương; giấy chứng nhận đăng ký thuế của công ty nhà nước.",
-        "code": "Giấy chứng nhận đăng ký kinh doanh",
         "quantity": "1 bản chính",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       }
     ],
     "normally_required": [],
@@ -114,34 +89,29 @@
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Trực tiếp, qua mạng thông tin điện tử, qua dịch vụ bưu chính công ích.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "3 ngày làm việc",
-      "processing_time_value": 3,
-      "processing_time_unit": "WORKING_DAY",
-      "fees": [],
+      "fee": null,
       "description": "Trực tiếp, qua mạng thông tin điện tử, qua dịch vụ bưu chính công ích.",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "3 ngày",
-      "processing_time_value": 3,
-      "processing_time_unit": "DAY",
-      "fees": [],
+      "fee": null,
       "description": "Trực tiếp, qua mạng thông tin điện tử, qua dịch vụ bưu chính công ích.",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "",
     "status": "not_specified",
     "currency": "VND",
     "items": []
@@ -150,8 +120,7 @@
     {
       "title": "- Luật Doanh nghiệp",
       "document_number": "Luật số: 59/2020/QH14",
-      "id": "019e390e-9094-746b-9b67-f7d43f5290fe",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "conditions": "Không có, do đặc thù chỉ áp dụng đối với công ty nhà nước chưa chuyển đổi thành công ty TNHH MTV theo quy định tại Luật Doanh nghiệp.",
@@ -159,14 +128,13 @@
     {
       "title": "Giấy chứng nhận đăng ký doanh nghiệp cho doanh nghiệp",
       "code": "Cơ quan đăng ký kinh doanh cấp Giấy chứng nhận đăng ký doanh nghiệp cho doanh nghiệp.",
-      "id": "019e390d-358c-761b-813c-1da64a56350f",
-      "source_page": null
+      "source_page": 2
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "- Công ty nhà nước xây dựng Đề án chuyển đổi; Điều lệ của công ty trách nhiệm hữu hạn một thành viên do Nhà nước nắm giữ 100% vốn điều lệ trình cơ quan đại diện chủ sở hữu xem xét, phê duyệt.\n\n- Trên cơ sở đề xuất của công ty nhà nước, cơ quan đại diện chủ sở hữu ban hành Quyết định chuyển đổi.\n\n- Sau khi cơ quan đại diện chủ sở hữu ban hành Quyết định chuyển đổi, công ty nhà nước gửi hồ sơ đăng ký chuyển đổi đến Cơ quan đăng ký kinh doanh cấp tỉnh nơi công ty đặt trụ sở chính.\n\n- Cơ quan đăng ký kinh doanh có trách nhiệm xem xét tính hợp lệ của hồ sơ đăng ký doanh nghiệp và cấp Giấy chứng nhận đăng ký doanh nghiệp cho doanh nghiệp, cập nhật thông tin trong Cơ sở dữ liệu quốc gia về đăng ký doanh nghiệp. Trường hợp hồ sơ chưa hợp lệ, Cơ quan đăng ký kinh doanh có trách nhiệm thông báo bằng văn bản nội dung cần sửa đổi, bổ sung cho công ty nhà nước. Trường hợp từ chối cấp Giấy chứng nhận đăng ký doanh nghiệp thì phải thông báo bằng văn bản cho công ty nhà nước và nêu rõ lý do.",
-    "THÀNH PHẦN HỒ SƠ": "\n- Giấy đề nghị đăng ký doanh nghiệp (theo mẫu quy định tại Phụ lục II ban hành kèm theo Nghị định này).\n- Quyết định chuyển đổi.\n- Điều lệ của công ty trách nhiệm hữu hạn một thành viên do Nhà nước nắm giữ 100% vốn điều lệ theo quy định tại Luật Doanh nghiệp.\n+ Giấy tờ pháp lý của cá nhân người đại diện theo pháp luật của công ty trách nhiệm hữu hạn một thành viên quy định tại Quyết định chuyển đổi;\n+ Giấy tờ pháp lý của cá nhân đối với người được giao thực hiện quyền, trách nhiệm của đại diện chủ sở hữu nhà nước tại doanh nghiệp quy định tại Quyết định chuyển đổi;\n+ Giấy chứng nhận đăng ký kinh doanh hoặc các giấy tờ có giá trị pháp lý tương đương; giấy chứng nhận đăng ký thuế của công ty nhà nước.",
-    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 3 ngày làm việc - Trực tiếp, qua mạng thông tin điện tử, qua dịch vụ bưu chính công ích.\nQua dịch vụ bưu chính: 3 ngày làm việc - Trực tiếp, qua mạng thông tin điện tử, qua dịch vụ bưu chính công ích.\nQua dịch vụ bưu chính: 3 ngày - Trực tiếp, qua mạng thông tin điện tử, qua dịch vụ bưu chính công ích.",
+    "THÀNH PHẦN HỒ SƠ": "- Giấy đề nghị đăng ký doanh nghiệp (theo mẫu quy định tại Phụ lục II ban hành kèm theo Nghị định này).\n- Quyết định chuyển đổi.\n- Điều lệ của công ty trách nhiệm hữu hạn một thành viên do Nhà nước nắm giữ 100% vốn điều lệ theo quy định tại Luật Doanh nghiệp.\n+ Giấy tờ pháp lý của cá nhân người đại diện theo pháp luật của công ty trách nhiệm hữu hạn một thành viên quy định tại Quyết định chuyển đổi;\n+ Giấy tờ pháp lý của cá nhân đối với người được giao thực hiện quyền, trách nhiệm của đại diện chủ sở hữu nhà nước tại doanh nghiệp quy định tại Quyết định chuyển đổi;\n+ Giấy chứng nhận đăng ký kinh doanh hoặc các giấy tờ có giá trị pháp lý tương đương; giấy chứng nhận đăng ký thuế của công ty nhà nước.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tiếp: 3 ngày làm việc\nQua dịch vụ bưu chính: 3 ngày làm việc\nQua dịch vụ bưu chính: 3 ngày",
     "CĂN CỨ PHÁP LÝ": "- Luật Doanh nghiệp - Luật số: 59/2020/QH14",
     "CƠ QUAN THỰC HIỆN": "Bộ Tài chính",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Không có, do đặc thù chỉ áp dụng đối với công ty nhà nước chưa chuyển đổi thành công ty TNHH MTV theo quy định tại Luật Doanh nghiệp.",
@@ -175,14 +143,9 @@
     "MÔ TẢ": "Không có, do đặc thù chỉ áp dụng đối với công ty nhà nước chưa chuyển đổi thành công ty TNHH MTV theo quy định tại Luật Doanh nghiệp."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Việc làm",
-      "slug": "viec-lam",
-      "method": "sector_rule"
-    },
     "sector": {
       "name": "Thành lập và sắp xếp lại doanh nghiệp do Nhà nước nắm giữ 100 phần trăm vốn điều lệ",
-      "slug": "thanh-lap-va-sap-xep-lai-doanh-nghiep-do-nha-nuoc-nam-giu-100-phan-tram-von-dieu-le"
+      "slug": "thanh-lap-va-sap-xep-lai-doanh-nghiep-do-nha-nuoc-nam-giu-100-phan-tram-von-ieu-le"
     },
     "implementation_levels": [
       {
@@ -202,6 +165,6 @@
         "slug": "bo-tai-chinh"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }

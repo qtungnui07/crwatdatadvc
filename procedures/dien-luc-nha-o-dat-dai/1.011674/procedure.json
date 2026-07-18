@@ -1,33 +1,29 @@
 {
-  "schema_version": "3.1-api",
+  "schema_version": "3.0-pdf",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfe-7953-7209-86ed-a2006d1889de",
   "procedure_code": "1.011674",
   "title": "Miễn nhiệm và thu hồi thẻ giám định viên tư pháp xây dựng tại các cơ quan ở trung ương thuộc phạm vi quản lý của Bộ Xây dựng",
   "language": "vi",
-  "status": "ACTIVE",
+  "status": "extracted_pending_review",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfe-7953-7209-86ed-a2006d1889de",
     "source_file": "chi-tiet-thu-tuc-1.011674.pdf",
     "source_path": "procedures/dien-luc-nha-o-dat-dai/1.011674/chi-tiet-thu-tuc-1.011674.pdf",
     "page_count": 4,
-    "extracted_at": "2026-07-18T02:22:07.088205+00:00",
-    "source_updated_at": "2026-04-28T06:28:17.168Z",
-    "extraction_method": "api_to_json_mapping",
+    "extracted_at": "2026-07-18T04:55:58.706525+00:00",
+    "extraction_method": "official_api_plus_pypdf_text_layer",
     "source_sha256": "71fa0778523b79566bd0d4c7e6904aba6fd64e507f9b35bf76844440cedb21fe"
   },
   "governance": {
-    "review_status": "approved",
-    "reviewed_at": "2026-07-18T02:22:07.088205+00:00",
-    "reviewer": "ntt12",
+    "review_status": "pending",
+    "reviewed_at": null,
+    "reviewer": null,
     "freshness_days": 30
   },
   "decision_number": "694/QĐ-BXD",
   "implementation_level": "Cấp bộ",
-  "implementation_levels": [
-    "Cấp bộ"
-  ],
   "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Giám định tư pháp",
   "target_users": [
@@ -35,120 +31,81 @@
   ],
   "agency": {
     "competent_agency": "Bộ Xây dựng",
-    "executing_agency": "Cục Giám định nhà nước về chất lượng công trình xây dựng",
-    "authorized_agency": "",
-    "coordinating_agency": "",
-    "receiving_address": "Bộ phận tiếp nhận và trả kết quả giải quyết thủ tục hành chính của Bộ Xây dựng"
+    "executing_agency": "Cục Giám định nhà nước về chất lượng công trình xây dựng"
   },
   "steps": [
     {
       "order": 1,
       "title": "Bước 1",
-      "description": "- Cơ quan, tổ chức quản lý giám định viên tư pháp lập hồ sơ miễn nhiệm và thu hồi thẻ giám định viên tư pháp xây dựng gửi Bộ phận tiếp nhận và trả kết quả giải quyết thủ tục hành chính của Bộ Xây dựng;\n- Cục Giám định nhà nước về chất lượng công trình xây dựng tiếp nhận, kiểm tra hồ sơ đề nghị miễn nhiệm và thu hồi thẻ giám định viên tư pháp, trình Bộ trưởng Bộ Xây dựng xem xét, quyết định;\n- Trong vòng 10 ngày kể từ khi nhận được hồ sơ hợp lệ theo quy định, Bộ trưởng Bộ Xây dựng ra quyết định miễn nhiệm và thu hồi thẻ giám định viên tư pháp xây dựng.\n",
+      "description": "- Cơ quan, tổ chức quản lý giám định viên tư pháp lập hồ sơ miễn nhiệm và thu hồi thẻ giám định viên tư pháp xây dựng gửi Bộ phận tiếp nhận và trả kết quả giải quyết thủ tục hành chính của Bộ Xây dựng;\n- Cục Giám định nhà nước về chất lượng công trình xây dựng tiếp nhận, kiểm tra hồ sơ đề nghị miễn nhiệm và thu hồi thẻ giám định viên tư pháp, trình Bộ trưởng Bộ Xây dựng xem xét, quyết định;\n- Trong vòng 10 ngày kể từ khi nhận được hồ sơ hợp lệ theo quy định, Bộ trưởng Bộ Xây dựng ra quyết định miễn nhiệm và thu hồi thẻ giám định viên tư pháp xây dựng.",
       "example": null,
-      "source_page": null
+      "source_page": 1
     }
   ],
   "documents": {
     "forms": [
       {
         "name": "- Văn bản đề nghị miễn nhiệm giám định viên tư pháp của cơ quan, tổ chức quản lý giám định viên tư pháp hoặc đơn xin miễn nhiệm của giám định viên tư pháp (theo mẫu số 01 ban hành kèm theo Thông tư số 17/2021/TT-BTP ngày 22 tháng 12 năm 2021 của Bộ trưởng Bộ Xây dựng);",
-        "code": "000.00.00.G17-KQ001878",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [
-          {
-            "id": "019da006-be2b-74ab-a66e-17e26245fa81",
-            "name": "Van ban de nghi mien nhiem thu hoi the giam dinh vien tu phap xay dưng.docx",
-            "url": ""
-          }
-        ],
-        "source_page": null
+        "attachment": "Van ban de nghi mien nhiem thu hoi the giam dinh vien tu phap xay dưng.docx",
+        "source_page": 2
       }
     ],
     "normally_required": [],
     "conditional": [
       {
         "name": "- Văn bản, giấy tờ chứng minh giám định viên tư pháp thuộc một trong các trường hợp quy định tại khoản 1 Điều 10 Luật Giám định tư pháp được sửa đổi, bổ sung tại khoản 6 Điều 1 Luật số 56/2020/QH14, cụ thể như sau:",
-        "code": "000.00.00.G17-KQ001879",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Giám định viên tư pháp được bổ nhiệm để thành lập Văn phòng giám định tư pháp nhưng sau thời hạn 01 năm, kể từ ngày được bổ nhiệm không thành lập Văn phòng hoặc sau thời hạn 01 năm, kể từ ngày có quyết định cho phép thành lập Văn phòng mà không đăng ký hoạt động.",
-        "code": "000.00.00.G17-KQ001887",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Bị xử lý kỷ luật từ hình thức cảnh cáo trở lên hoặc bị xử phạt vi phạm hành chính do cố ý vi phạm quy định của pháp luật về giám định tư pháp;",
-        "code": "000.00.00.G17-KQ001882",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Thuộc một trong các trường hợp quy định tại khoản 2 Điều 7 của Luật Giám định tư pháp ;",
-        "code": "000.00.00.G17-KQ001881",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Có quyết định nghỉ hưu hoặc quyết định thôi việc, trừ trường hợp có văn bản thể hiện nguyện vọng tiếp tục tham gia hoạt động giám định tư pháp và cơ quan, tổ chức quản lý trực tiếp có nhu cầu sử dụng phù hợp với quy định của pháp luật;",
-        "code": "000.00.00.G17-KQ001884",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Chuyển đổi vị trí công tác hoặc chuyển công tác sang cơ quan, tổ chức khác mà không còn điều kiện phù hợp để tiếp tục thực hiện giám định tư pháp;",
-        "code": "000.00.00.G17-KQ001885",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 2
       },
       {
         "name": "+ Theo đề nghị của giám định viên tư pháp. Trường hợp giám định viên tư pháp là công chức, viên chức, sĩ quan quân đội, sĩ quan công an nhân dân, quân nhân chuyên nghiệp, công nhân quốc phòng thì phải được sự chấp thuận của cơ quan, tổ chức quản lý trực tiếp;",
-        "code": "000.00.00.G17-KQ001886",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 4
       },
       {
         "name": "+ Không còn đủ tiêu chuẩn quy định tại khoản 1 Điều 7 của Luật Giám định tư pháp;",
-        "code": "000.00.00.G17-KQ001880",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       },
       {
         "name": "+ Thực hiện một trong các hành vi quy định tại Điều 6 của Luật Giám định tư pháp;",
-        "code": "000.00.00.G17-KQ001883",
         "quantity": "1 bản chính, 1 bản sao",
-        "required": false,
-        "case": null,
-        "attachments": [],
-        "source_page": null
+        "attachment": null,
+        "source_page": 3
       }
     ]
   },
@@ -157,60 +114,37 @@
       "code": "POSTAL",
       "label": "Qua dịch vụ bưu chính",
       "processing_time": "10 ngày",
-      "processing_time_value": 10,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Gửi qua dịch vụ bưu chính",
-      "source_page": null
+      "source_page": 3
     },
     {
       "code": "DIRECT",
       "label": "Trực tiếp",
       "processing_time": "10 ngày",
-      "processing_time_value": 10,
-      "processing_time_unit": "DAY",
-      "fees": [
-        {
-          "type": "FEE",
-          "amount": 0,
-          "currency": "VND",
-          "description": "",
-          "attachment": null
-        }
-      ],
+      "fee": "0",
       "description": "Nộp trực tiếp tại Bộ phận tiếp nhận và trả kết quả giải quyết thủ tục hành chính của Bộ Xây dựng",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "fees": {
+    "summary": "0",
     "status": "free",
     "currency": "VND",
     "items": [
       {
         "submission_method_code": "POSTAL",
         "submission_method": "Qua dịch vụ bưu chính",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 3
       },
       {
         "submission_method_code": "DIRECT",
         "submission_method": "Trực tiếp",
-        "type": "FEE",
-        "amount": 0,
-        "currency": "VND",
-        "description": "",
-        "attachment": null
+        "amount_text": "0",
+        "is_free": true,
+        "source_page": 2
       }
     ]
   },
@@ -218,20 +152,17 @@
     {
       "title": "Nghị định sửa đổi, bổ sung một số điều các Nghị định thuộc lĩnh vực quản lý nhà nước của Bộ Xây dựng",
       "document_number": "35/2023/NĐ-CP",
-      "id": "019d2bb3-5d7f-719e-b46c-fe742a0ad718",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Thông tư số 17/2021/TT-BXD ngày 22/12/2021 của Bộ Xây dựng quy định một số nội dung về hoạt động giám định tư pháp trong lĩnh vực xây dựng",
       "document_number": "Thông tư số 17/2021/TT-BXD",
-      "id": "019d2bb3-5d7e-72d1-afe2-30cdf61253df",
-      "source_page": null
+      "source_page": 3
     },
     {
       "title": "Luật Giám định tư pháp số 13/2012/QH13 của Quốc hội nước CHXHCN Việt Nam",
       "document_number": "Luật Giám định tư pháp số 13/2012/QH13",
-      "id": "019d2bb3-5d84-71c5-b674-d7caecea94dc",
-      "source_page": null
+      "source_page": 3
     }
   ],
   "conditions": "Khoản 1 Điều 10 Luật Giám định tư pháp được sửa đổi, bổ sung tại khoản 6 Điều 1 Luật số 56/2020/QH14, cụ thể như sau:\n+ Không còn đủ tiêu chuẩn quy định tại khoản 1 Điều 7 của Luật Giám định tư pháp;\n+ Thuộc một trong các trường hợp quy định tại khoản 2 Điều 7 của Luật Giám định tư pháp;\n+ Bị xử lý kỷ luật từ hình thức cảnh cáo trở lên hoặc bị xử phạt vi phạm hành chính do cố ý vi phạm quy định của pháp luật về giám định tư pháp;\n+ Thực hiện một trong các hành vi quy định tại Điều 6 của Luật Giám định tư pháp;\n+ Có quyết định nghỉ hưu hoặc quyết định thôi việc, trừ trường hợp có văn bản thể hiện nguyện vọng tiếp tục tham gia hoạt động giám định tư pháp và cơ quan, tổ chức quản lý trực tiếp có nhu cầu sử dụng phù hợp với quy định của pháp luật;\n+ Chuyển đổi vị trí công tác hoặc chuyển công tác sang cơ quan, tổ chức khác mà không còn điều kiện phù hợp để tiếp tục thực hiện giám định tư pháp;\n+ Theo đề nghị của giám định viên tư pháp. Trường hợp giám định viên tư pháp là công chức, viên chức, sĩ quan quân đội, sĩ quan công an nhân dân, quân nhân chuyên nghiệp, công nhân quốc phòng thì phải được sự chấp thuận của cơ quan, tổ chức quản lý trực tiếp;\n+ Giám định viên tư pháp được bổ nhiệm để thành lập Văn phòng giám định tư pháp nhưng sau thời hạn 01 năm, kể từ ngày được bổ nhiệm không thành lập Văn phòng hoặc sau thời hạn 01 năm, kể từ ngày có quyết định cho phép thành lập Văn phòng mà không đăng ký hoạt động.",
@@ -239,14 +170,13 @@
     {
       "title": "Quyết định miễn nhiệm và thu hồi thẻ giám định viên tư pháp xây dựng.",
       "code": "KQ.G17.000148",
-      "id": "019d2bb2-1c7a-7554-ace3-586c31b300db",
-      "source_page": null
+      "source_page": 1
     }
   ],
   "raw_sections": {
-    "TRÌNH TỰ THỰC HIỆN": "- Cơ quan, tổ chức quản lý giám định viên tư pháp lập hồ sơ miễn nhiệm và thu hồi thẻ giám định viên tư pháp xây dựng gửi Bộ phận tiếp nhận và trả kết quả giải quyết thủ tục hành chính của Bộ Xây dựng;\n- Cục Giám định nhà nước về chất lượng công trình xây dựng tiếp nhận, kiểm tra hồ sơ đề nghị miễn nhiệm và thu hồi thẻ giám định viên tư pháp, trình Bộ trưởng Bộ Xây dựng xem xét, quyết định;\n- Trong vòng 10 ngày kể từ khi nhận được hồ sơ hợp lệ theo quy định, Bộ trưởng Bộ Xây dựng ra quyết định miễn nhiệm và thu hồi thẻ giám định viên tư pháp xây dựng.\n",
-    "THÀNH PHẦN HỒ SƠ": "\n- Văn bản, giấy tờ chứng minh giám định viên tư pháp thuộc một trong các trường hợp quy định tại khoản 1 Điều 10 Luật Giám định tư pháp được sửa đổi, bổ sung tại khoản 6 Điều 1 Luật số 56/2020/QH14, cụ thể như sau:\n- Văn bản đề nghị miễn nhiệm giám định viên tư pháp của cơ quan, tổ chức quản lý giám định viên tư pháp hoặc đơn xin miễn nhiệm của giám định viên tư pháp (theo mẫu số 01 ban hành kèm theo Thông tư số 17/2021/TT-BTP ngày 22 tháng 12 năm 2021 của Bộ trưởng Bộ Xây dựng);\n+ Giám định viên tư pháp được bổ nhiệm để thành lập Văn phòng giám định tư pháp nhưng sau thời hạn 01 năm, kể từ ngày được bổ nhiệm không thành lập Văn phòng hoặc sau thời hạn 01 năm, kể từ ngày có quyết định cho phép thành lập Văn phòng mà không đăng ký hoạt động.\n+ Bị xử lý kỷ luật từ hình thức cảnh cáo trở lên hoặc bị xử phạt vi phạm hành chính do cố ý vi phạm quy định của pháp luật về giám định tư pháp;\n+ Thuộc một trong các trường hợp quy định tại khoản 2 Điều 7 của Luật Giám định tư pháp ;\n+ Có quyết định nghỉ hưu hoặc quyết định thôi việc, trừ trường hợp có văn bản thể hiện nguyện vọng tiếp tục tham gia hoạt động giám định tư pháp và cơ quan, tổ chức quản lý trực tiếp có nhu cầu sử dụng phù hợp với quy định của pháp luật;\n+ Chuyển đổi vị trí công tác hoặc chuyển công tác sang cơ quan, tổ chức khác mà không còn điều kiện phù hợp để tiếp tục thực hiện giám định tư pháp;\n+ Theo đề nghị của giám định viên tư pháp. Trường hợp giám định viên tư pháp là công chức, viên chức, sĩ quan quân đội, sĩ quan công an nhân dân, quân nhân chuyên nghiệp, công nhân quốc phòng thì phải được sự chấp thuận của cơ quan, tổ chức quản lý trực tiếp;\n+ Không còn đủ tiêu chuẩn quy định tại khoản 1 Điều 7 của Luật Giám định tư pháp;\n+ Thực hiện một trong các hành vi quy định tại Điều 6 của Luật Giám định tư pháp;",
-    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 10 ngày - Gửi qua dịch vụ bưu chính\nTrực tiếp: 10 ngày - Nộp trực tiếp tại Bộ phận tiếp nhận và trả kết quả giải quyết thủ tục hành chính của Bộ Xây dựng",
+    "TRÌNH TỰ THỰC HIỆN": "- Cơ quan, tổ chức quản lý giám định viên tư pháp lập hồ sơ miễn nhiệm và thu hồi thẻ giám định viên tư pháp xây dựng gửi Bộ phận tiếp nhận và trả kết quả giải quyết thủ tục hành chính của Bộ Xây dựng;\n- Cục Giám định nhà nước về chất lượng công trình xây dựng tiếp nhận, kiểm tra hồ sơ đề nghị miễn nhiệm và thu hồi thẻ giám định viên tư pháp, trình Bộ trưởng Bộ Xây dựng xem xét, quyết định;\n- Trong vòng 10 ngày kể từ khi nhận được hồ sơ hợp lệ theo quy định, Bộ trưởng Bộ Xây dựng ra quyết định miễn nhiệm và thu hồi thẻ giám định viên tư pháp xây dựng.",
+    "THÀNH PHẦN HỒ SƠ": "- Văn bản đề nghị miễn nhiệm giám định viên tư pháp của cơ quan, tổ chức quản lý giám định viên tư pháp hoặc đơn xin miễn nhiệm của giám định viên tư pháp (theo mẫu số 01 ban hành kèm theo Thông tư số 17/2021/TT-BTP ngày 22 tháng 12 năm 2021 của Bộ trưởng Bộ Xây dựng);\n- Văn bản, giấy tờ chứng minh giám định viên tư pháp thuộc một trong các trường hợp quy định tại khoản 1 Điều 10 Luật Giám định tư pháp được sửa đổi, bổ sung tại khoản 6 Điều 1 Luật số 56/2020/QH14, cụ thể như sau:\n+ Giám định viên tư pháp được bổ nhiệm để thành lập Văn phòng giám định tư pháp nhưng sau thời hạn 01 năm, kể từ ngày được bổ nhiệm không thành lập Văn phòng hoặc sau thời hạn 01 năm, kể từ ngày có quyết định cho phép thành lập Văn phòng mà không đăng ký hoạt động.\n+ Bị xử lý kỷ luật từ hình thức cảnh cáo trở lên hoặc bị xử phạt vi phạm hành chính do cố ý vi phạm quy định của pháp luật về giám định tư pháp;\n+ Thuộc một trong các trường hợp quy định tại khoản 2 Điều 7 của Luật Giám định tư pháp ;\n+ Có quyết định nghỉ hưu hoặc quyết định thôi việc, trừ trường hợp có văn bản thể hiện nguyện vọng tiếp tục tham gia hoạt động giám định tư pháp và cơ quan, tổ chức quản lý trực tiếp có nhu cầu sử dụng phù hợp với quy định của pháp luật;\n+ Chuyển đổi vị trí công tác hoặc chuyển công tác sang cơ quan, tổ chức khác mà không còn điều kiện phù hợp để tiếp tục thực hiện giám định tư pháp;\n+ Theo đề nghị của giám định viên tư pháp. Trường hợp giám định viên tư pháp là công chức, viên chức, sĩ quan quân đội, sĩ quan công an nhân dân, quân nhân chuyên nghiệp, công nhân quốc phòng thì phải được sự chấp thuận của cơ quan, tổ chức quản lý trực tiếp;\n+ Không còn đủ tiêu chuẩn quy định tại khoản 1 Điều 7 của Luật Giám định tư pháp;\n+ Thực hiện một trong các hành vi quy định tại Điều 6 của Luật Giám định tư pháp;",
+    "CÁCH THỨC THỰC HIỆN": "Qua dịch vụ bưu chính: 10 ngày\nTrực tiếp: 10 ngày",
     "CĂN CỨ PHÁP LÝ": "Nghị định sửa đổi, bổ sung một số điều các Nghị định thuộc lĩnh vực quản lý nhà nước của Bộ Xây dựng - 35/2023/NĐ-CP\nThông tư số 17/2021/TT-BXD ngày 22/12/2021 của Bộ Xây dựng quy định một số nội dung về hoạt động giám định tư pháp trong lĩnh vực xây dựng - Thông tư số 17/2021/TT-BXD\nLuật Giám định tư pháp số 13/2012/QH13 của Quốc hội nước CHXHCN Việt Nam - Luật Giám định tư pháp số 13/2012/QH13",
     "CƠ QUAN THỰC HIỆN": "Cục Giám định nhà nước về chất lượng công trình xây dựng",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Khoản 1 Điều 10 Luật Giám định tư pháp được sửa đổi, bổ sung tại khoản 6 Điều 1 Luật số 56/2020/QH14, cụ thể như sau:\n+ Không còn đủ tiêu chuẩn quy định tại khoản 1 Điều 7 của Luật Giám định tư pháp;\n+ Thuộc một trong các trường hợp quy định tại khoản 2 Điều 7 của Luật Giám định tư pháp;\n+ Bị xử lý kỷ luật từ hình thức cảnh cáo trở lên hoặc bị xử phạt vi phạm hành chính do cố ý vi phạm quy định của pháp luật về giám định tư pháp;\n+ Thực hiện một trong các hành vi quy định tại Điều 6 của Luật Giám định tư pháp;\n+ Có quyết định nghỉ hưu hoặc quyết định thôi việc, trừ trường hợp có văn bản thể hiện nguyện vọng tiếp tục tham gia hoạt động giám định tư pháp và cơ quan, tổ chức quản lý trực tiếp có nhu cầu sử dụng phù hợp với quy định của pháp luật;\n+ Chuyển đổi vị trí công tác hoặc chuyển công tác sang cơ quan, tổ chức khác mà không còn điều kiện phù hợp để tiếp tục thực hiện giám định tư pháp;\n+ Theo đề nghị của giám định viên tư pháp. Trường hợp giám định viên tư pháp là công chức, viên chức, sĩ quan quân đội, sĩ quan công an nhân dân, quân nhân chuyên nghiệp, công nhân quốc phòng thì phải được sự chấp thuận của cơ quan, tổ chức quản lý trực tiếp;\n+ Giám định viên tư pháp được bổ nhiệm để thành lập Văn phòng giám định tư pháp nhưng sau thời hạn 01 năm, kể từ ngày được bổ nhiệm không thành lập Văn phòng hoặc sau thời hạn 01 năm, kể từ ngày có quyết định cho phép thành lập Văn phòng mà không đăng ký hoạt động.",
@@ -255,14 +185,9 @@
     "MÔ TẢ": "Khoản 1 Điều 10 Luật Giám định tư pháp được sửa đổi, bổ sung tại khoản 6 Điều 1 Luật số 56/2020/QH14, cụ thể như sau:\n+ Không còn đủ tiêu chuẩn quy định tại khoản 1 Điều 7 của Luật Giám định tư pháp;\n+ Thuộc một trong các trường hợp quy định tại khoản 2 Điều 7 của Luật Giám định tư pháp;\n+ Bị xử lý kỷ luật từ hình thức cảnh cáo trở lên hoặc bị xử phạt vi phạm hành chính do cố ý vi phạm quy định của pháp luật về giám định tư pháp;\n+ Thực hiện một trong các hành vi quy định tại Điều 6 của Luật Giám định tư pháp;\n+ Có quyết định nghỉ hưu hoặc quyết định thôi việc, trừ trường hợp có văn bản thể hiện nguyện vọng tiếp tục tham gia hoạt động giám định tư pháp và cơ quan, tổ chức quản lý trực tiếp có nhu cầu sử dụng phù hợp với quy định của pháp luật;\n+ Chuyển đổi vị trí công tác hoặc chuyển công tác sang cơ quan, tổ chức khác mà không còn điều kiện phù hợp để tiếp tục thực hiện giám định tư pháp;\n+ Theo đề nghị của giám định viên tư pháp. Trường hợp giám định viên tư pháp là công chức, viên chức, sĩ quan quân đội, sĩ quan công an nhân dân, quân nhân chuyên nghiệp, công nhân quốc phòng thì phải được sự chấp thuận của cơ quan, tổ chức quản lý trực tiếp;\n+ Giám định viên tư pháp được bổ nhiệm để thành lập Văn phòng giám định tư pháp nhưng sau thời hạn 01 năm, kể từ ngày được bổ nhiệm không thành lập Văn phòng hoặc sau thời hạn 01 năm, kể từ ngày có quyết định cho phép thành lập Văn phòng mà không đăng ký hoạt động."
   },
   "classification": {
-    "life_event_group": {
-      "name": "Điện lực, nhà ở, đất đai",
-      "slug": "dien-luc-nha-o-dat-dai",
-      "method": "keyword_rule"
-    },
     "sector": {
       "name": "Giám định tư pháp",
-      "slug": "giam-dinh-tu-phap"
+      "slug": "giam-inh-tu-phap"
     },
     "implementation_levels": [
       {
@@ -279,9 +204,9 @@
     "agencies": [
       {
         "name": "Cục Giám định nhà nước về chất lượng công trình xây dựng",
-        "slug": "cuc-giam-dinh-nha-nuoc-ve-chat-luong-cong-trinh-xay-dung"
+        "slug": "cuc-giam-inh-nha-nuoc-ve-chat-luong-cong-trinh-xay-dung"
       }
     ],
-    "administrative_scope": "nationwide"
+    "administrative_scope": "not_specified"
   }
 }
