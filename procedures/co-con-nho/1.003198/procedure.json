@@ -1,11 +1,11 @@
 {
-  "schema_version": "3.0-pdf",
+  "schema_version": "3.1-api",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfd-66d1-7420-8968-273257ca6fe5",
   "procedure_code": "1.003198",
   "title": "Cấp giấy xác nhận công dân Việt Nam ở trong nước đủ điều kiện nhận trẻ em nước ngoài làm con nuôi",
   "language": "vi",
-  "status": "extracted_pending_review",
+  "status": "UPDATED",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfd-66d1-7420-8968-273257ca6fe5",
@@ -13,6 +13,7 @@
     "source_path": "procedures/co-con-nho/1.003198/chi-tiet-thu-tuc-1.003198.pdf",
     "page_count": 6,
     "extracted_at": "2026-07-18T02:22:00.886369+00:00",
+    "source_updated_at": "2026-04-21T09:26:02.225Z",
     "extraction_method": "api_to_json_mapping",
     "source_sha256": "17d0336008a49bff49b36b7c5eb44049df5d9bf7a688dd5facc8ced13a1dd7c9"
   },
@@ -23,58 +24,295 @@
     "freshness_days": 30
   },
   "decision_number": "361/QĐ-BTP",
-  "implementation_level": "Cơ quan khác",
-  "procedure_type": "TTHC không được luật giao cho địa phương quy định hoặc quy định chi tiết",
+  "implementation_level": "Cấp tỉnh",
+  "implementation_levels": [
+    "Cấp tỉnh"
+  ],
+  "procedure_type": "ASSIGNED_REGULATION",
   "sector": "Nuôi con nuôi",
   "target_users": [
     "Công dân Việt Nam"
   ],
   "agency": {
     "competent_agency": "Chủ tịch ủy ban nhân dân cấp tỉnh",
-    "executing_agency": "Ủy ban nhân dân cấp tỉnh"
+    "executing_agency": "Ủy ban nhân dân cấp tỉnh",
+    "authorized_agency": "",
+    "coordinating_agency": "",
+    "receiving_address": ""
   },
   "steps": [
     {
       "order": 1,
-      "title": "",
+      "title": "Bước 1",
       "description": "- Công dân Việt Nam ở trong nước nộp hồ sơ cho Sở Tư pháp nơi công dân Việt Nam cư trú để được xem xét, cấp giấy xác nhận đủ điều kiện nhận trẻ em nước ngoài làm con nuôi;\n- Sở Tư pháp khai thác, sử dụng thông tin trên các cơ sở dữ liệu để thay thế thành phần hồ sơ của người nhận con nuôi, cụ thể:\n+) Thông tin trên Cơ sở dữ liệu quốc gia về dân cư để thay thế Hộ chiếu; Thẻ Căn cước; Căn cước công dân; Giấy chứng nhận căn cước; \n+) Thông tin trên Cơ sở dữ liệu hộ tịch điện tử để thay thế Giấy chứng nhận kết hôn (đối với trường hợp người nhận con nuôi là cặp vợ chồng) hoặc Giấy xác nhận tình trạng hôn nhân (đối với trường hợp người nhận con nuôi là người độc thân).\n+) Thông tin trên dữ liệu Sổ sức khỏe điện tử tích hợp trên ứng dụng VNeID (Sổ sức khỏe điện tử VNeID) để thay thế Giấy khám sức khỏe.\nTrường hợp không khai thác được hoặc thông tin khai thác được không đầy đủ, không chính xác thì thực hiện như sau:\n+) Trường hợp hồ sơ thủ tục hành chính nộp trực tuyến trên Cổng Dịch vụ công quốc gia hoặc qua VNeID, người có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính phải có thông báo yêu cầu bổ sung, hoàn thiện hồ sơ cho người nhận con nuôi không muộn hơn 08 giờ làm việc kể từ khi Hệ thống thông tin giải quyết thủ tục hành chính tiếp nhận hồ sơ. Việc thông báo được thực hiện bằng một hoặc nhiều phương thức: gửi đến tài khoản cá nhân trên Cổng Dịch vụ công quốc gia hoặc trên VNeID; gửi tin nhắn hoặc liên hệ qua số điện thoại, hộp thư điện tử do người nhận con nuôi cung cấp; đồng thời hướng dẫn người nhận con nuôi liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.\n+) Trường hợp hồ sơ thủ tục hành chính nộp trực tiếp hoặc qua dịch vụ bưu chính, người có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính gửi Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ cho người nhận con nuôi trong thời hạn không quá 01 ngày làm việc kể từ khi nhận được hồ sơ; thực hiện việc số hóa phục vụ giải quyết thủ tục hành chính; đồng thời hướng dẫn người nhận con nuôi liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.\nKết quả tra cứu được lưu trữ dưới dạng điện tử hoặc bản giấy, phản ánh đầy đủ, chính xác thông tin tại thời điểm tra cứu và đính kèm hồ sơ của người nhận con nuôi.\n- Sở Tư pháp yêu cầu cơ quan quản lý cơ sở dữ liệu lý lịch tư pháp cung cấp thông tin lý lịch tư pháp.\nCơ quan quản lý cơ sở dữ liệu lý lịch tư pháp có trách nhiệm cung cấp thông tin cho cơ quan yêu cầu trong thời hạn không quá 03 ngày làm việc kể từ ngày nhận được yêu cầu. Thời gian phối hợp cung cấp thông tin lý lịch tư pháp không tính vào thời gian giải quyết thủ tục hành chính.\n- Sở Tư pháp xem xét, trình Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy xác nhận người nhận con nuôi có đủ điều kiện nuôi con nuôi theo quy định của pháp luật Việt Nam.\n",
       "example": null,
       "source_page": null
     }
   ],
   "documents": {
-    "forms": [],
+    "forms": [
+      {
+        "name": "- Đơn xin nhận  con  nuôi;",
+        "code": "000.00.00.G15-KQ004714",
+        "quantity": "1 bản chính",
+        "required": false,
+        "case": null,
+        "attachments": [
+          {
+            "id": "019d9b66-eeb3-71da-bf0d-3fa05e2c82a3",
+            "name": "1.nxinnhnconnui.doc",
+            "url": ""
+          }
+        ],
+        "source_page": null
+      },
+      {
+        "name": "- Bản chính hoặc bản sao có chứng thực hoặc bản sao điện tử văn bản xác nhận hoàn cảnh gia đình, tình trạng chỗ ở, điều kiện kinh tế do UBND cấp xã nơi người nhận con nuôi thường trú cấp có giá trị sử dụng nếu được cấp chưa quá 06 tháng, tính đến ngày nộp hồ sơ tại cơ quan có thẩm quyền, trừ trường hợp cha dượng nhận con riêng của vợ, mẹ kế nhận con riêng của chồng làm con nuôi hoặc cô, cậu, dì, chú, bác ruột nhận cháu làm con nuôi.",
+        "code": "000.00.00.G15-KQ004718",
+        "quantity": "1 bản chính, 1 bản sao",
+        "required": false,
+        "case": null,
+        "attachments": [
+          {
+            "id": "019d9b67-fe2d-771a-94d8-2e1984df587f",
+            "name": "2.Vnbnxcnhnhoncnhgianhchiukinkinht (1).doc",
+            "url": ""
+          }
+        ],
+        "source_page": null
+      },
+      {
+        "name": "- Bản chính hoặc bản sao có chứng thực hoặc bản điện tử văn bản xác nhận tình trạng hôn nhân: + Trường hợp người nhận con nuôi là cặp vợ chồng nhận con nuôi: Giấy chứng nhận kết hôn. + Trường hợp người nhận con nuôi là người độc thân nhận con nuôi: Cơ quan giải quyết thủ tục hành chính tra cứu thông tin về tình trạng hôn nhân của người nhận con nuôi trên Hệ thống thông tin giải quyết thủ tục hành chính cấp tỉnh thông qua kết nối với Cơ sở dữ liệu hộ tịch điện tử, Cơ sở dữ liệu quốc gia về dân cư.",
+        "code": "000.00.00.G15-001",
+        "quantity": "1 bản chính, 1 bản sao",
+        "required": false,
+        "case": null,
+        "attachments": [],
+        "source_page": null
+      },
+      {
+        "name": "- Bản sao hoặc bản sao điện tử Hộ chiếu, Thẻ căn cước hoặc Giấy chứng nhận căn cước hoặc giấy tờ có giá trị thay thế;",
+        "code": "000.00.00.G15-002",
+        "quantity": "1 bản sao",
+        "required": false,
+        "case": null,
+        "attachments": [],
+        "source_page": null
+      }
+    ],
     "normally_required": [],
-    "conditional": []
+    "conditional": [
+      {
+        "name": "Lưu ý: Cơ quan giải quyết thủ tục hành chính có trách nhiệm yêu cầu cơ quan quản lý dữ liệu lý lịch tư pháp cung cấp thông tin lý lịch tư pháp; cá nhân khi thực hiện các thủ tục hành chính này không phải nộp Phiếu lý lịch tư pháp trong hồ sơ. Trường hợp phải chứng minh nơi thường trú của người nhận con nuôi khi đề nghị UBND cấp xã lập Văn bản xác nhận hoàn cảnh gia đình, tình trạng chỗ ở, điều kiện kinh tế hoặc khi nộp hồ sơ tại Sở Tư pháp, cán bộ, công chức, viên chức, cá nhân được giao trách nhiệm tiếp nhận, giải quyết phải khai thác, sử dụng thông tin về cư trú của công dân trong Cơ sở dữ liệu quốc gia về dân cư theo các phương thức nêu tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp không thể khai thác được thông tin cư trú của công dân theo các phương thức trên thì có thể yêu cầu người nhận con nuôi nộp bản sao hoặc xuất trình một trong các giấy tờ chứng minh thông tin về cư trú, bao gồm: Thẻ căn cước; Giấy xác nhận thông tin về cư trú, Giấy thông báo số định danh cá nhân và thông tin công dân trong Cơ sở dữ liệu quốc gia về dân cư. Giấy tờ có trong hồ sơ của người nhận con nuôi do cơ quan, tổ chức, người có thẩm quyền lập, cấp, xác nhận mà bị tẩy xoá, sửa chữa làm sai lệch nội dung hoặc thông tin trong các văn bản, giấy tờ được khai không đúng sự thật thì không có giá trị sử dụng. Người thực hiện hành vi tẩy xoá, sửa chữa làm sai lệch nội dung hoặc khai thông tin không đúng sự thật bị xử lý vi phạm theo quy định pháp luật.",
+        "code": "000.00.00.G15-KQ004335",
+        "quantity": "1 bản chính, 1 bản sao",
+        "required": false,
+        "case": "Lưu ý",
+        "attachments": [],
+        "source_page": null
+      },
+      {
+        "name": "- Bản chính hoặc bản điện tử Giấy khám sức khỏe do Bệnh viện đa khoa hoặc Phòng khám đa khoa hoặc Trung tâm y tế khu vực cấp có giá trị sử dụng nếu được cấp chưa quá 06 tháng, tính đến ngày nộp hồ sơ tại cơ quan có thẩm quyền;",
+        "code": "000.00.00.G15-KQ004717",
+        "quantity": "1 bản chính",
+        "required": false,
+        "case": null,
+        "attachments": [],
+        "source_page": null
+      }
+    ]
   },
+  "submission_methods": [
+    {
+      "code": "ONLINE",
+      "label": "Trực tuyến",
+      "processing_time": "0",
+      "processing_time_value": 0,
+      "processing_time_unit": "OTHER",
+      "fees": [
+        {
+          "type": "FEE",
+          "amount": 0,
+          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "description": "Cách thức thực hiện : Gửi hồ sơ trực tiếp hoặc qua dịch vụ bưu chính đến Sở Tư pháp nơi công dân Việt Nam cư trú hoặc trực tuyến trên Cổng dịch vụ công quốc gia. Thời hạn giải quyết : Trong thời hạn 15 ngày, kể từ ngày nhận được đủ hồ sơ hợp lệ. Trường hợp cần xác minh thì thời hạn có thể kéo dài nhưng không quá 30 ngày.",
+          "attachment": null
+        }
+      ],
+      "description": "",
+      "source_page": null
+    },
+    {
+      "code": "POSTAL",
+      "label": "Qua dịch vụ bưu chính",
+      "processing_time": "0",
+      "processing_time_value": 0,
+      "processing_time_unit": "OTHER",
+      "fees": [
+        {
+          "type": "FEE",
+          "amount": 0,
+          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "description": "Cách thức thực hiện : Gửi hồ sơ trực tiếp hoặc qua dịch vụ bưu chính đến Sở Tư pháp nơi công dân Việt Nam cư trú hoặc trực tuyến trên Cổng dịch vụ công quốc gia. Thời hạn giải quyết : Trong thời hạn 15 ngày, kể từ ngày nhận được đủ hồ sơ hợp lệ. Trường hợp cần xác minh thì thời hạn có thể kéo dài nhưng không quá 30 ngày.",
+          "attachment": null
+        }
+      ],
+      "description": "",
+      "source_page": null
+    },
+    {
+      "code": "DIRECT",
+      "label": "Trực tiếp",
+      "processing_time": "0",
+      "processing_time_value": 0,
+      "processing_time_unit": "OTHER",
+      "fees": [
+        {
+          "type": "FEE",
+          "amount": 0,
+          "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+          "description": "Cách thức thực hiện : Gửi hồ sơ trực tiếp hoặc qua dịch vụ bưu chính đến Sở Tư pháp nơi công dân Việt Nam cư trú hoặc trực tuyến trên Cổng dịch vụ công quốc gia. Thời hạn giải quyết : Trong thời hạn 15 ngày, kể từ ngày nhận được đủ hồ sơ hợp lệ. Trường hợp cần xác minh thì thời hạn có thể kéo dài nhưng không quá 30 ngày.",
+          "attachment": null
+        }
+      ],
+      "description": "",
+      "source_page": null
+    }
+  ],
+  "fees": {
+    "status": "free",
+    "currency": "VND",
+    "items": [
+      {
+        "submission_method_code": "ONLINE",
+        "submission_method": "Trực tuyến",
+        "type": "FEE",
+        "amount": 0,
+        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+        "description": "Cách thức thực hiện : Gửi hồ sơ trực tiếp hoặc qua dịch vụ bưu chính đến Sở Tư pháp nơi công dân Việt Nam cư trú hoặc trực tuyến trên Cổng dịch vụ công quốc gia. Thời hạn giải quyết : Trong thời hạn 15 ngày, kể từ ngày nhận được đủ hồ sơ hợp lệ. Trường hợp cần xác minh thì thời hạn có thể kéo dài nhưng không quá 30 ngày.",
+        "attachment": null
+      },
+      {
+        "submission_method_code": "POSTAL",
+        "submission_method": "Qua dịch vụ bưu chính",
+        "type": "FEE",
+        "amount": 0,
+        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+        "description": "Cách thức thực hiện : Gửi hồ sơ trực tiếp hoặc qua dịch vụ bưu chính đến Sở Tư pháp nơi công dân Việt Nam cư trú hoặc trực tuyến trên Cổng dịch vụ công quốc gia. Thời hạn giải quyết : Trong thời hạn 15 ngày, kể từ ngày nhận được đủ hồ sơ hợp lệ. Trường hợp cần xác minh thì thời hạn có thể kéo dài nhưng không quá 30 ngày.",
+        "attachment": null
+      },
+      {
+        "submission_method_code": "DIRECT",
+        "submission_method": "Trực tiếp",
+        "type": "FEE",
+        "amount": 0,
+        "currency": "019b3fb2-b5b8-70ac-85e2-9409ec1eaffa",
+        "description": "Cách thức thực hiện : Gửi hồ sơ trực tiếp hoặc qua dịch vụ bưu chính đến Sở Tư pháp nơi công dân Việt Nam cư trú hoặc trực tuyến trên Cổng dịch vụ công quốc gia. Thời hạn giải quyết : Trong thời hạn 15 ngày, kể từ ngày nhận được đủ hồ sơ hợp lệ. Trường hợp cần xác minh thì thời hạn có thể kéo dài nhưng không quá 30 ngày.",
+        "attachment": null
+      }
+    ]
+  },
+  "legal_bases": [
+    {
+      "title": "Nghị định sửa đổi, bổ sung một số nghị định để cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh  thuộc phạm vi quản lý của Bộ Tư pháp",
+      "document_number": "18/2026/NĐ-CP",
+      "id": "019d2bb3-5d86-7760-a642-cb60cc107a28",
+      "source_page": null
+    },
+    {
+      "title": "Nghị định sửa đổi, bổ sung một số điều của các Nghị định liên quan đến việc nộp xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công",
+      "document_number": "104/2022/NĐ-CP",
+      "id": "019d2bb3-5d7e-72d1-afe8-3ac91da2e6b0",
+      "source_page": null
+    },
+    {
+      "title": "BAN HÀNH, HƯỚNG DẪN VIỆC GHI CHÉP, SỬ DỤNG, QUẢN LÝ VÀ LƯU TRỮ SỔ, MẪU GIẤY TỜ, HỒ SƠ NUÔI CON NUÔI",
+      "document_number": "10/2020/TT-BTP",
+      "id": "019d2bb3-5d7d-7398-be52-aa6de2bf3b03",
+      "source_page": null
+    },
+    {
+      "title": "Luật Nuôi con nuôi",
+      "document_number": "52/2010/QH12",
+      "id": "019d2bb3-5d84-71c5-b673-6a6c4bfc8b96",
+      "source_page": null
+    },
+    {
+      "title": "THÔNG TƯ  SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA THÔNG TƯ SỐ 10/2020/TT-BTP NGÀY 28 THÁNG 12 NĂM 2020 CỦA BỘ TRƯỞNG BỘ TƯ PHÁP BAN HÀNH, HƯỚNG DẪN VIỆC GHI CHÉP, SỬ DỤNG, QUẢN LÝ VÀ LƯU TRỮ SỔ, MẪU GIẤY TỜ, HỒ SƠ NUÔI CON NUÔI",
+      "document_number": "07/2023/TT-BTP",
+      "id": "019d2bb3-5d7d-7398-be52-75595513cbd8",
+      "source_page": null
+    },
+    {
+      "title": "Nghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu",
+      "document_number": "66.7/2025/NQ-CP",
+      "id": "019d2bb3-5d7f-719e-b470-22af3c5ee091",
+      "source_page": null
+    },
+    {
+      "title": "Nghị định số 120/2025/NĐ-CP ngày 11/6/2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp.",
+      "document_number": "120/2025/NĐ-CP",
+      "id": "019d2bb3-5d7e-72d1-afe9-9d8e94b33af1",
+      "source_page": null
+    },
+    {
+      "title": "Nghị định số 06/2025/NĐ-CP ngày 08 tháng 01 năm 2025 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định về nuôi con nuôi",
+      "document_number": "06/2025/NĐ-CP",
+      "id": "019d2bb3-5d7e-72d1-afe7-6431273ce2c4",
+      "source_page": null
+    },
+    {
+      "title": "Hướng dẫn lập dự toán, quản lý, sử dụng và quyết toán kinh phí ngân sách nhà nước bảo đảm cho công tác nuôi con nuôi và cấp, gia hạn, sửa đổi giấy phép hoạt động của tổ chức con nuôi nước ngoài tại Việt Nam",
+      "document_number": "267/2016/TT-BTC",
+      "id": "019d2bb3-5d7d-7398-be4c-1a17af198703",
+      "source_page": null
+    },
+    {
+      "title": "Nghị định số 121/2025/NĐ-CP ngày 11/6/2025 của Chính phủ quy định về phân quyền, phân cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp",
+      "document_number": "121/2025/NĐ-CP",
+      "id": "019d2bb3-5d7e-72d1-afe9-aa6894deec60",
+      "source_page": null
+    },
+    {
+      "title": "Nghị định 19/2011/NĐ-CP",
+      "document_number": "19/2011/NĐ-CP",
+      "id": "019d2bb3-5d7e-72d1-afec-d87b860dc7c2",
+      "source_page": null
+    }
+  ],
   "conditions": "Người xin nhận con nuôi phải có đủ các điều kiện sau đây:\n- Có năng lực hành vi dân sự đầy đủ;\n- Hơn con nuôi từ 20 tuổi trở lên – không áp dụng đối với trường hợp cha dượng nhận con riêng của vợ, mẹ kế nhận con riêng của chồng làm con nuôi hoặc cô, cậu, dì, chú bác ruột nhận cháu làm con nuôi;\n- Có điều kiện về sức khỏe, kinh tế, chỗ ở bảo đảm việc chăm sóc, nuôi dưỡng, giáo dục con nuôi - không áp dụng đối với trường hợp cha dượng nhận con riêng của vợ, mẹ kế nhận con riêng của chồng làm con nuôi hoặc cô, cậu,dì, chú bác ruột nhận cháu làm con nuôi;\n- Có tư cách đạo đức tốt.\nCác trường hợp không được nhận con nuôi\n- Đang bị hạn chế một số quyền của cha, mẹ đối với con chưa thành niên;\n- Đang chấp hành quyết định xử lý hành chính tại cơ sở giáo dục, cơ sở chữa bệnh;\n- Đang chấp hành hình phạt tù;\n- Chưa được xóa án tích về một trong các tội cố ý xâm phạm tính mạng, sức khoẻ, nhân phẩm, danh dự của người khác; ngược đãi hoặc hành hạ ông bà, cha mẹ, vợ chồng, con, cháu, người có công nuôi dưỡng mình; dụ dỗ, ép buộc hoặc chứa chấp người chưa thành niên vi phạm pháp luật; mua bán, đánh tráo, chiếm đoạt trẻ em.",
   "results": [
     {
       "title": "Giấy xác nhận đủ điều kiện nhận trẻ em nước ngoài làm con nuôi",
       "code": "KQ.G15.000003",
+      "id": "019d2bb2-1c78-7725-a74f-66371f85a9ee",
       "source_page": null
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "- Công dân Việt Nam ở trong nước nộp hồ sơ cho Sở Tư pháp nơi công dân Việt Nam cư trú để được xem xét, cấp giấy xác nhận đủ điều kiện nhận trẻ em nước ngoài làm con nuôi;\n- Sở Tư pháp khai thác, sử dụng thông tin trên các cơ sở dữ liệu để thay thế thành phần hồ sơ của người nhận con nuôi, cụ thể:\n+) Thông tin trên Cơ sở dữ liệu quốc gia về dân cư để thay thế Hộ chiếu; Thẻ Căn cước; Căn cước công dân; Giấy chứng nhận căn cước; \n+) Thông tin trên Cơ sở dữ liệu hộ tịch điện tử để thay thế Giấy chứng nhận kết hôn (đối với trường hợp người nhận con nuôi là cặp vợ chồng) hoặc Giấy xác nhận tình trạng hôn nhân (đối với trường hợp người nhận con nuôi là người độc thân).\n+) Thông tin trên dữ liệu Sổ sức khỏe điện tử tích hợp trên ứng dụng VNeID (Sổ sức khỏe điện tử VNeID) để thay thế Giấy khám sức khỏe.\nTrường hợp không khai thác được hoặc thông tin khai thác được không đầy đủ, không chính xác thì thực hiện như sau:\n+) Trường hợp hồ sơ thủ tục hành chính nộp trực tuyến trên Cổng Dịch vụ công quốc gia hoặc qua VNeID, người có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính phải có thông báo yêu cầu bổ sung, hoàn thiện hồ sơ cho người nhận con nuôi không muộn hơn 08 giờ làm việc kể từ khi Hệ thống thông tin giải quyết thủ tục hành chính tiếp nhận hồ sơ. Việc thông báo được thực hiện bằng một hoặc nhiều phương thức: gửi đến tài khoản cá nhân trên Cổng Dịch vụ công quốc gia hoặc trên VNeID; gửi tin nhắn hoặc liên hệ qua số điện thoại, hộp thư điện tử do người nhận con nuôi cung cấp; đồng thời hướng dẫn người nhận con nuôi liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.\n+) Trường hợp hồ sơ thủ tục hành chính nộp trực tiếp hoặc qua dịch vụ bưu chính, người có thẩm quyền tiếp nhận, giải quyết thủ tục hành chính gửi Phiếu yêu cầu bổ sung, hoàn thiện hồ sơ cho người nhận con nuôi trong thời hạn không quá 01 ngày làm việc kể từ khi nhận được hồ sơ; thực hiện việc số hóa phục vụ giải quyết thủ tục hành chính; đồng thời hướng dẫn người nhận con nuôi liên hệ với cơ quan có thẩm quyền cập nhật, điều chỉnh dữ liệu.\nKết quả tra cứu được lưu trữ dưới dạng điện tử hoặc bản giấy, phản ánh đầy đủ, chính xác thông tin tại thời điểm tra cứu và đính kèm hồ sơ của người nhận con nuôi.\n- Sở Tư pháp yêu cầu cơ quan quản lý cơ sở dữ liệu lý lịch tư pháp cung cấp thông tin lý lịch tư pháp.\nCơ quan quản lý cơ sở dữ liệu lý lịch tư pháp có trách nhiệm cung cấp thông tin cho cơ quan yêu cầu trong thời hạn không quá 03 ngày làm việc kể từ ngày nhận được yêu cầu. Thời gian phối hợp cung cấp thông tin lý lịch tư pháp không tính vào thời gian giải quyết thủ tục hành chính.\n- Sở Tư pháp xem xét, trình Chủ tịch Ủy ban nhân dân cấp tỉnh cấp giấy xác nhận người nhận con nuôi có đủ điều kiện nuôi con nuôi theo quy định của pháp luật Việt Nam.\n",
-    "THÀNH PHẦN HỒ SƠ": "",
-    "CÁCH THỨC THỰC HIỆN": "ONLINE - \nPOSTAL - \nDIRECT -",
+    "THÀNH PHẦN HỒ SƠ": "Lưu ý\nLưu ý: Cơ quan giải quyết thủ tục hành chính có trách nhiệm yêu cầu cơ quan quản lý dữ liệu lý lịch tư pháp cung cấp thông tin lý lịch tư pháp; cá nhân khi thực hiện các thủ tục hành chính này không phải nộp Phiếu lý lịch tư pháp trong hồ sơ. Trường hợp phải chứng minh nơi thường trú của người nhận con nuôi khi đề nghị UBND cấp xã lập Văn bản xác nhận hoàn cảnh gia đình, tình trạng chỗ ở, điều kiện kinh tế hoặc khi nộp hồ sơ tại Sở Tư pháp, cán bộ, công chức, viên chức, cá nhân được giao trách nhiệm tiếp nhận, giải quyết phải khai thác, sử dụng thông tin về cư trú của công dân trong Cơ sở dữ liệu quốc gia về dân cư theo các phương thức nêu tại khoản 2 Điều 14 Nghị định số 104/2022/NĐ-CP ngày 21/12/2022 của Chính phủ. Trường hợp không thể khai thác được thông tin cư trú của công dân theo các phương thức trên thì có thể yêu cầu người nhận con nuôi nộp bản sao hoặc xuất trình một trong các giấy tờ chứng minh thông tin về cư trú, bao gồm: Thẻ căn cước; Giấy xác nhận thông tin về cư trú, Giấy thông báo số định danh cá nhân và thông tin công dân trong Cơ sở dữ liệu quốc gia về dân cư. Giấy tờ có trong hồ sơ của người nhận con nuôi do cơ quan, tổ chức, người có thẩm quyền lập, cấp, xác nhận mà bị tẩy xoá, sửa chữa làm sai lệch nội dung hoặc thông tin trong các văn bản, giấy tờ được khai không đúng sự thật thì không có giá trị sử dụng. Người thực hiện hành vi tẩy xoá, sửa chữa làm sai lệch nội dung hoặc khai thông tin không đúng sự thật bị xử lý vi phạm theo quy định pháp luật.\n\n- Đơn xin nhận  con  nuôi;\n- Bản chính hoặc bản điện tử Giấy khám sức khỏe do Bệnh viện đa khoa hoặc Phòng khám đa khoa hoặc Trung tâm y tế khu vực cấp có giá trị sử dụng nếu được cấp chưa quá 06 tháng, tính đến ngày nộp hồ sơ tại cơ quan có thẩm quyền;\n- Bản chính hoặc bản sao có chứng thực hoặc bản sao điện tử văn bản xác nhận hoàn cảnh gia đình, tình trạng chỗ ở, điều kiện kinh tế do UBND cấp xã nơi người nhận con nuôi thường trú cấp có giá trị sử dụng nếu được cấp chưa quá 06 tháng, tính đến ngày nộp hồ sơ tại cơ quan có thẩm quyền, trừ trường hợp cha dượng nhận con riêng của vợ, mẹ kế nhận con riêng của chồng làm con nuôi hoặc cô, cậu, dì, chú, bác ruột nhận cháu làm con nuôi.\n- Bản chính hoặc bản sao có chứng thực hoặc bản điện tử văn bản xác nhận tình trạng hôn nhân: + Trường hợp người nhận con nuôi là cặp vợ chồng nhận con nuôi: Giấy chứng nhận kết hôn. + Trường hợp người nhận con nuôi là người độc thân nhận con nuôi: Cơ quan giải quyết thủ tục hành chính tra cứu thông tin về tình trạng hôn nhân của người nhận con nuôi trên Hệ thống thông tin giải quyết thủ tục hành chính cấp tỉnh thông qua kết nối với Cơ sở dữ liệu hộ tịch điện tử, Cơ sở dữ liệu quốc gia về dân cư.\n- Bản sao hoặc bản sao điện tử Hộ chiếu, Thẻ căn cước hoặc Giấy chứng nhận căn cước hoặc giấy tờ có giá trị thay thế;",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 0\nQua dịch vụ bưu chính: 0\nTrực tiếp: 0",
     "CĂN CỨ PHÁP LÝ": "Nghị định sửa đổi, bổ sung một số nghị định để cắt giảm, đơn giản hóa thủ tục hành chính, điều kiện kinh doanh  thuộc phạm vi quản lý của Bộ Tư pháp - 18/2026/NĐ-CP\nNghị định sửa đổi, bổ sung một số điều của các Nghị định liên quan đến việc nộp xuất trình sổ hộ khẩu, sổ tạm trú giấy khi thực hiện thủ tục hành chính, cung cấp dịch vụ công - 104/2022/NĐ-CP\nBAN HÀNH, HƯỚNG DẪN VIỆC GHI CHÉP, SỬ DỤNG, QUẢN LÝ VÀ LƯU TRỮ SỔ, MẪU GIẤY TỜ, HỒ SƠ NUÔI CON NUÔI - 10/2020/TT-BTP\nLuật Nuôi con nuôi - 52/2010/QH12\nTHÔNG TƯ  SỬA ĐỔI, BỔ SUNG MỘT SỐ ĐIỀU CỦA THÔNG TƯ SỐ 10/2020/TT-BTP NGÀY 28 THÁNG 12 NĂM 2020 CỦA BỘ TRƯỞNG BỘ TƯ PHÁP BAN HÀNH, HƯỚNG DẪN VIỆC GHI CHÉP, SỬ DỤNG, QUẢN LÝ VÀ LƯU TRỮ SỔ, MẪU GIẤY TỜ, HỒ SƠ NUÔI CON NUÔI - 07/2023/TT-BTP\nNghị quyết số 66.7/2025/NQ-CP của Chính phủ: Quy định cắt giảm, đơn giản hóa thủ tục hành chính dựa trên dữ liệu - 66.7/2025/NQ-CP\nNghị định số 120/2025/NĐ-CP ngày 11/6/2025 của Chính phủ quy định về phân định thẩm quyền của chính quyền địa phương 02 cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp. - 120/2025/NĐ-CP\nNghị định số 06/2025/NĐ-CP ngày 08 tháng 01 năm 2025 của Chính phủ sửa đổi, bổ sung một số điều của các Nghị định về nuôi con nuôi - 06/2025/NĐ-CP\nHướng dẫn lập dự toán, quản lý, sử dụng và quyết toán kinh phí ngân sách nhà nước bảo đảm cho công tác nuôi con nuôi và cấp, gia hạn, sửa đổi giấy phép hoạt động của tổ chức con nuôi nước ngoài tại Việt Nam - 267/2016/TT-BTC\nNghị định số 121/2025/NĐ-CP ngày 11/6/2025 của Chính phủ quy định về phân quyền, phân cấp trong lĩnh vực quản lý nhà nước của Bộ Tư pháp - 121/2025/NĐ-CP\nNghị định 19/2011/NĐ-CP - 19/2011/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Ủy ban nhân dân cấp tỉnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Người xin nhận con nuôi phải có đủ các điều kiện sau đây:\n- Có năng lực hành vi dân sự đầy đủ;\n- Hơn con nuôi từ 20 tuổi trở lên – không áp dụng đối với trường hợp cha dượng nhận con riêng của vợ, mẹ kế nhận con riêng của chồng làm con nuôi hoặc cô, cậu, dì, chú bác ruột nhận cháu làm con nuôi;\n- Có điều kiện về sức khỏe, kinh tế, chỗ ở bảo đảm việc chăm sóc, nuôi dưỡng, giáo dục con nuôi - không áp dụng đối với trường hợp cha dượng nhận con riêng của vợ, mẹ kế nhận con riêng của chồng làm con nuôi hoặc cô, cậu,dì, chú bác ruột nhận cháu làm con nuôi;\n- Có tư cách đạo đức tốt.\nCác trường hợp không được nhận con nuôi\n- Đang bị hạn chế một số quyền của cha, mẹ đối với con chưa thành niên;\n- Đang chấp hành quyết định xử lý hành chính tại cơ sở giáo dục, cơ sở chữa bệnh;\n- Đang chấp hành hình phạt tù;\n- Chưa được xóa án tích về một trong các tội cố ý xâm phạm tính mạng, sức khoẻ, nhân phẩm, danh dự của người khác; ngược đãi hoặc hành hạ ông bà, cha mẹ, vợ chồng, con, cháu, người có công nuôi dưỡng mình; dụ dỗ, ép buộc hoặc chứa chấp người chưa thành niên vi phạm pháp luật; mua bán, đánh tráo, chiếm đoạt trẻ em.",
-    "KẾT QUẢ XỬ LÝ": "Giấy xác nhận đủ điều kiện nhận trẻ em nước ngoài làm con nuôi",
+    "KẾT QUẢ XỬ LÝ": "Giấy xác nhận đủ điều kiện nhận trẻ em nước ngoài làm con nuôi - KQ.G15.000003",
     "TỪ KHÓA": "",
-    "MÔ TẢ": ""
+    "MÔ TẢ": "Người xin nhận con nuôi phải có đủ các điều kiện sau đây:\n- Có năng lực hành vi dân sự đầy đủ;\n- Hơn con nuôi từ 20 tuổi trở lên – không áp dụng đối với trường hợp cha dượng nhận con riêng của vợ, mẹ kế nhận con riêng của chồng làm con nuôi hoặc cô, cậu, dì, chú bác ruột nhận cháu làm con nuôi;\n- Có điều kiện về sức khỏe, kinh tế, chỗ ở bảo đảm việc chăm sóc, nuôi dưỡng, giáo dục con nuôi - không áp dụng đối với trường hợp cha dượng nhận con riêng của vợ, mẹ kế nhận con riêng của chồng làm con nuôi hoặc cô, cậu,dì, chú bác ruột nhận cháu làm con nuôi;\n- Có tư cách đạo đức tốt.\nCác trường hợp không được nhận con nuôi\n- Đang bị hạn chế một số quyền của cha, mẹ đối với con chưa thành niên;\n- Đang chấp hành quyết định xử lý hành chính tại cơ sở giáo dục, cơ sở chữa bệnh;\n- Đang chấp hành hình phạt tù;\n- Chưa được xóa án tích về một trong các tội cố ý xâm phạm tính mạng, sức khoẻ, nhân phẩm, danh dự của người khác; ngược đãi hoặc hành hạ ông bà, cha mẹ, vợ chồng, con, cháu, người có công nuôi dưỡng mình; dụ dỗ, ép buộc hoặc chứa chấp người chưa thành niên vi phạm pháp luật; mua bán, đánh tráo, chiếm đoạt trẻ em."
   },
   "classification": {
+    "life_event_group": {
+      "name": "Có con nhỏ",
+      "slug": "co-con-nho",
+      "method": "service_group"
+    },
     "sector": {
       "name": "Nuôi con nuôi",
       "slug": "nuoi-con-nuoi"
     },
     "implementation_levels": [
       {
-        "name": "Cơ quan khác",
-        "slug": "co-quan-khac"
+        "name": "Cấp tỉnh",
+        "slug": "cap-tinh"
       }
     ],
     "target_users": [

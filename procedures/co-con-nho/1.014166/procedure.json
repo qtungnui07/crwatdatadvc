@@ -1,11 +1,11 @@
 {
-  "schema_version": "3.0-pdf",
+  "schema_version": "3.1-api",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-234e-771d-867c-4900b23d0737",
   "procedure_code": "1.014166",
   "title": "HƯỞNG CHẾ ĐỘ THAI SẢN ĐỐI VỚI LAO ĐỘNG NỮ SINH CON, LAO ĐỘNG NỮ MANG THAI HỘ SINH CON, LAO ĐỘNG NỮ NHỜ MANG THAI HỘ",
   "language": "vi",
-  "status": "extracted_pending_review",
+  "status": "ACTIVE",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-234e-771d-867c-4900b23d0737",
@@ -13,6 +13,7 @@
     "source_path": "procedures/co-con-nho/1.014166/chi-tiet-thu-tuc-1.014166.pdf",
     "page_count": 7,
     "extracted_at": "2026-07-18T02:22:12.472162+00:00",
+    "source_updated_at": "2026-04-20T11:24:06.555Z",
     "extraction_method": "api_to_json_mapping",
     "source_sha256": "afe3c4ee09b8cd99fab0f0be00c18656f77700865d7d0f42391057ae01e0f0ce"
   },
@@ -23,20 +24,27 @@
     "freshness_days": 30
   },
   "decision_number": "863/QĐ-BNV",
-  "implementation_level": "Cơ quan khác",
-  "procedure_type": "TTHC không được luật giao cho địa phương quy định hoặc quy định chi tiết",
-  "sector": "",
+  "implementation_level": "Cấp tỉnh, Cơ quan ngành dọc",
+  "implementation_levels": [
+    "Cấp tỉnh",
+    "Cơ quan ngành dọc"
+  ],
+  "procedure_type": "ASSIGNED_REGULATION",
+  "sector": "Bảo hiểm xã hội",
   "target_users": [
     "Công dân Việt Nam"
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Bảo hiểm xã hội tỉnh"
+    "executing_agency": "Bảo hiểm xã hội tỉnh",
+    "authorized_agency": "",
+    "coordinating_agency": "",
+    "receiving_address": ""
   },
   "steps": [
     {
       "order": 1,
-      "title": "",
+      "title": "Bước 1",
       "description": "Bước 1:  \nNgười lao động có trách nhiệm nộp hồ sơ cho người sử dụng lao động. Thời hạn nộp hồ sơ chậm nhất là 45 ngày kể từ ngày hết thời gian nghỉ việc hưởng chế độ thai sản.\n⁕ Trường hợp người lao động tham gia bảo hiểm xã hội bắt buộc thôi việc trước thời điểm sinh con, nhận con khi nhờ mang thai hộ hoặc không còn người sử dụng lao động thì người lao động nộp hồ sơ cho cơ quan bảo hiểm xã hội.\nBước 2: \nTrong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người lao động, người sử dụng lao động có trách nhiệm lập danh sách người lao động nghỉ việc hưởng chế độ thai sản kèm theo hồ sơ nộp cho cơ quan bảo hiểm xã hội. \n\tBước 3:\n\tCơ quan bảo hiểm xã hội có trách nhiệm giải quyết trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người sử dụng lao động, 05 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người lao động.\nTrường hợp không giải quyết thì phải trả lời bằng văn bản và nêu rõ lý do.\n",
       "example": null,
       "source_page": null
@@ -45,36 +53,348 @@
   "documents": {
     "forms": [],
     "normally_required": [],
-    "conditional": []
+    "conditional": [
+      {
+        "name": "+ Được hợp pháp hóa lãnh sự, trừ trường hợp điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy định khác.",
+        "code": "G09-KQ002958",
+        "quantity": "1 bản chính",
+        "required": false,
+        "case": "- Trường hợp các giấy tờ nêu trên trên hoặc các giấy tờ có nội dung tương tự do cơ quan, tổ chức, cá nhân có thẩm quyền của nước ngoài cấp thì phải:",
+        "attachments": [],
+        "source_page": null
+      },
+      {
+        "name": "+  Có bản dịch tiếng Việt được công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực",
+        "code": "G09-KQ002957",
+        "quantity": "1 bản chính",
+        "required": false,
+        "case": "- Trường hợp các giấy tờ nêu trên trên hoặc các giấy tờ có nội dung tương tự do cơ quan, tổ chức, cá nhân có thẩm quyền của nước ngoài cấp thì phải:",
+        "attachments": [],
+        "source_page": null
+      },
+      {
+        "name": "+ Bản chính hoặc bản sao bản tóm tắt hồ sơ bệnh án có thể hiện thông tin con chết, thai chết;",
+        "code": "G09-KQ002953",
+        "quantity": "1 bản chính, 1 bản sao",
+        "required": false,
+        "case": "- Đối với lao động nữ sinh con và lao động nữ mang thai hộ sinh con trong trường hợp con chết ngay sau khi sinh mà chưa được cấp giấy chứng sinh, lao động nữ mang thai từ 22 tuần tuổi trở lên thì bao gồm các giấy tờ sau:",
+        "attachments": [],
+        "source_page": null
+      },
+      {
+        "name": "+ Bản chính hoặc bản sao giấy ra viện của lao động nữ sinh con hoặc của lao động nữ mang thai hộ sinh con có thể hiện thông tin con chết, thai chết;",
+        "code": "G09-KQ002954",
+        "quantity": "1 bản chính, 1 bản sao",
+        "required": false,
+        "case": "- Đối với lao động nữ sinh con và lao động nữ mang thai hộ sinh con trong trường hợp con chết ngay sau khi sinh mà chưa được cấp giấy chứng sinh, lao động nữ mang thai từ 22 tuần tuổi trở lên thì bao gồm các giấy tờ sau:",
+        "attachments": [],
+        "source_page": null
+      },
+      {
+        "name": "+ Văn bản xác nhận của Ủy ban nhân dân cấp xã đối với trường hợp con chết trong vòng 24 giờ sau khi sinh;",
+        "code": "G09-KQ002956",
+        "quantity": "1 bản chính",
+        "required": false,
+        "case": "- Đối với lao động nữ sinh con và lao động nữ mang thai hộ sinh con trong trường hợp con chết ngay sau khi sinh mà chưa được cấp giấy chứng sinh, lao động nữ mang thai từ 22 tuần tuổi trở lên thì bao gồm các giấy tờ sau:",
+        "attachments": [],
+        "source_page": null
+      },
+      {
+        "name": "+ Bản sao giấy báo tử của con;",
+        "code": "G09-KQ002955",
+        "quantity": "1 bản sao",
+        "required": false,
+        "case": "- Đối với lao động nữ sinh con và lao động nữ mang thai hộ sinh con trong trường hợp con chết ngay sau khi sinh mà chưa được cấp giấy chứng sinh, lao động nữ mang thai từ 22 tuần tuổi trở lên thì bao gồm các giấy tờ sau:",
+        "attachments": [],
+        "source_page": null
+      },
+      {
+        "name": "+ Giấy tờ chứng minh quá trình điều trị vô sinh của lao động nữ trong trường hợp phải nghỉ việc để điều trị vô sinh;",
+        "code": "G09-KQ002947",
+        "quantity": "1 bản chính",
+        "required": false,
+        "case": "- Đối với lao động nữ sinh con, hoặc lao động nữ mang thai hộ sinh con hoặc lao động nữ nhờ mang thai hộ sinh con: ",
+        "attachments": [],
+        "source_page": null
+      },
+      {
+        "name": "+ Bản sao giấy khai sinh hoặc trích lục khai sinh hoặc bản sao giấy chứng sinh của con và giấy tờ khác trong các trường hợp sau đây:",
+        "code": "G09-KQ002946",
+        "quantity": "1 bản chính, 1 bản sao",
+        "required": false,
+        "case": "- Đối với lao động nữ sinh con, hoặc lao động nữ mang thai hộ sinh con hoặc lao động nữ nhờ mang thai hộ sinh con: ",
+        "attachments": [],
+        "source_page": null
+      },
+      {
+        "name": "+ Bản chính hoặc bản sao văn bản xác nhận của cơ sở khám bệnh, chữa bệnh về tình trạng người mẹ sau khi sinh con mà không còn đủ sức khỏe để chăm sóc con hoặc lao động nữ nhờ mang thai hộ sau khi nhận con mà không còn đủ sức khỏe để chăm sóc con;",
+        "code": "G09-KQ002949",
+        "quantity": "1 bản chính, 1 bản sao",
+        "required": false,
+        "case": "- Đối với lao động nữ sinh con, hoặc lao động nữ mang thai hộ sinh con hoặc lao động nữ nhờ mang thai hộ sinh con: ",
+        "attachments": [],
+        "source_page": null
+      },
+      {
+        "name": "+ Bản sao bản thỏa thuận về mang thai hộ vì mục đích nhân đạo theo quy định tại Điều 96 của Luật Hôn nhân và gia đình và bản sao văn bản xác nhận thời điểm giao nhận con giữa bên mang thai hộ và bên nhờ mang thai hộ trong trường hợp lao động nữ mang thai hộ sinh con hoặc lao động nữ nhờ mang thai hộ nhận con;",
+        "code": "G09-KQ002951",
+        "quantity": "1 bản sao",
+        "required": false,
+        "case": "- Đối với lao động nữ sinh con, hoặc lao động nữ mang thai hộ sinh con hoặc lao động nữ nhờ mang thai hộ sinh con: ",
+        "attachments": [],
+        "source_page": null
+      },
+      {
+        "name": "+ Bản chính hoặc bản sao giấy xác nhận của cơ sở khám bệnh, chữa bệnh về việc lao động nữ phải nghỉ việc để dưỡng thai trong trường hợp phải nghỉ việc để dưỡng thai theo chỉ định của người hành nghề khám bệnh, chữa bệnh thuộc cơ sở khám bệnh, chữa bệnh;",
+        "code": "G09-KQ002950",
+        "quantity": "1 bản chính, 1 bản sao",
+        "required": false,
+        "case": "- Đối với lao động nữ sinh con, hoặc lao động nữ mang thai hộ sinh con hoặc lao động nữ nhờ mang thai hộ sinh con: ",
+        "attachments": [],
+        "source_page": null
+      },
+      {
+        "name": "+ Danh sách người lao động nghỉ việc hưởng chế độ thai sản do người sử dụng lao động lập (ngoại trừ trường hợp người lao động thôi việc trước thời điểm sinh con, nhận con khi nhờ mang thai hộ hoặc không còn người sử dụng lao động).",
+        "code": "G09-KQ002952",
+        "quantity": "1 bản chính",
+        "required": false,
+        "case": "- Đối với lao động nữ sinh con, hoặc lao động nữ mang thai hộ sinh con hoặc lao động nữ nhờ mang thai hộ sinh con: ",
+        "attachments": [],
+        "source_page": null
+      },
+      {
+        "name": "+ Bản sao giấy chứng tử hoặc trích lục khai tử của lao động nữ sinh con, lao động nữ nhờ mang thai hộ trong trường hợp chết sau khi sinh con;",
+        "code": "G09-KQ002948",
+        "quantity": "1 bản sao",
+        "required": false,
+        "case": "- Đối với lao động nữ sinh con, hoặc lao động nữ mang thai hộ sinh con hoặc lao động nữ nhờ mang thai hộ sinh con: ",
+        "attachments": [],
+        "source_page": null
+      }
+    ]
   },
+  "submission_methods": [
+    {
+      "code": "ONLINE",
+      "label": "Trực tuyến",
+      "processing_time": "7 ngày làm việc",
+      "processing_time_value": 7,
+      "processing_time_unit": "WORKING_DAY",
+      "fees": [
+        {
+          "type": "FEE",
+          "amount": 0,
+          "currency": "VND",
+          "description": "",
+          "attachment": null
+        }
+      ],
+      "description": "- Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người sử dụng lao động.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính",
+      "source_page": null
+    },
+    {
+      "code": "POSTAL",
+      "label": "Qua dịch vụ bưu chính",
+      "processing_time": "7 ngày làm việc",
+      "processing_time_value": 7,
+      "processing_time_unit": "WORKING_DAY",
+      "fees": [
+        {
+          "type": "FEE",
+          "amount": 0,
+          "currency": "VND",
+          "description": "",
+          "attachment": null
+        }
+      ],
+      "description": "",
+      "source_page": null
+    },
+    {
+      "code": "DIRECT",
+      "label": "Trực tiếp",
+      "processing_time": "5 ngày làm việc",
+      "processing_time_value": 5,
+      "processing_time_unit": "WORKING_DAY",
+      "fees": [
+        {
+          "type": "FEE",
+          "amount": 0,
+          "currency": "VND",
+          "description": "",
+          "attachment": null
+        }
+      ],
+      "description": "",
+      "source_page": null
+    },
+    {
+      "code": "ONLINE",
+      "label": "Trực tuyến",
+      "processing_time": "5 ngày làm việc",
+      "processing_time_value": 5,
+      "processing_time_unit": "WORKING_DAY",
+      "fees": [
+        {
+          "type": "FEE",
+          "amount": 0,
+          "currency": "VND",
+          "description": "",
+          "attachment": null
+        }
+      ],
+      "description": "- Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người lao động.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính",
+      "source_page": null
+    },
+    {
+      "code": "POSTAL",
+      "label": "Qua dịch vụ bưu chính",
+      "processing_time": "5 ngày làm việc",
+      "processing_time_value": 5,
+      "processing_time_unit": "WORKING_DAY",
+      "fees": [
+        {
+          "type": "FEE",
+          "amount": 0,
+          "currency": "VND",
+          "description": "",
+          "attachment": null
+        }
+      ],
+      "description": "- Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người lao động.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính",
+      "source_page": null
+    },
+    {
+      "code": "ONLINE",
+      "label": "Trực tuyến",
+      "processing_time": "7 ngày làm việc",
+      "processing_time_value": 7,
+      "processing_time_unit": "WORKING_DAY",
+      "fees": [
+        {
+          "type": "FEE",
+          "amount": 0,
+          "currency": "VND",
+          "description": "",
+          "attachment": null
+        }
+      ],
+      "description": "Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người sử dụng lao động.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính",
+      "source_page": null
+    }
+  ],
+  "fees": {
+    "status": "free",
+    "currency": "VND",
+    "items": [
+      {
+        "submission_method_code": "ONLINE",
+        "submission_method": "Trực tuyến",
+        "type": "FEE",
+        "amount": 0,
+        "currency": "VND",
+        "description": "",
+        "attachment": null
+      },
+      {
+        "submission_method_code": "POSTAL",
+        "submission_method": "Qua dịch vụ bưu chính",
+        "type": "FEE",
+        "amount": 0,
+        "currency": "VND",
+        "description": "",
+        "attachment": null
+      },
+      {
+        "submission_method_code": "DIRECT",
+        "submission_method": "Trực tiếp",
+        "type": "FEE",
+        "amount": 0,
+        "currency": "VND",
+        "description": "",
+        "attachment": null
+      },
+      {
+        "submission_method_code": "ONLINE",
+        "submission_method": "Trực tuyến",
+        "type": "FEE",
+        "amount": 0,
+        "currency": "VND",
+        "description": "",
+        "attachment": null
+      },
+      {
+        "submission_method_code": "POSTAL",
+        "submission_method": "Qua dịch vụ bưu chính",
+        "type": "FEE",
+        "amount": 0,
+        "currency": "VND",
+        "description": "",
+        "attachment": null
+      },
+      {
+        "submission_method_code": "ONLINE",
+        "submission_method": "Trực tuyến",
+        "type": "FEE",
+        "amount": 0,
+        "currency": "VND",
+        "description": "",
+        "attachment": null
+      }
+    ]
+  },
+  "legal_bases": [
+    {
+      "title": "Luật Bảo hiểm xã hội",
+      "document_number": "41/2024/QH15",
+      "id": "019d2bb3-5d87-7195-a440-f511123122ee",
+      "source_page": null
+    },
+    {
+      "title": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội bắt buộc",
+      "document_number": "158/2025/NĐ-CP",
+      "id": "019d2bb3-5d7e-72d1-afeb-e5ff16f715c7",
+      "source_page": null
+    }
+  ],
   "conditions": "- Lao động nữ sinh con hoặc lao động mang thai hộ hoặc lao động nữ nhờ mang thai hộ phải đóng bảo hiểm xã hội bắt buộc từ đủ 06 tháng trở lên trong thời gian 12 tháng liền kề trước khi sinh con hoặc nhận con khi nhờ mang thai hộ.\n- Lao động nữ sinh con hoặc lao động nữ mang thai hộ đã đóng bảo hiểm xã hội bắt buộc từ đủ 12 tháng trở lên mà khi mang thai phải nghỉ việc để dưỡng thai theo chỉ định của người hành nghề khám bệnh, chữa bệnh thuộc cơ sở khám bệnh, chữa bệnh thì phải đóng bảo hiểm xã hội bắt buộc từ đủ 03 tháng trở lên trong thời gian 12 tháng liền kề trước khi sinh con.\n- Trường hợp lao động nữ sinh con phải nghỉ việc để điều trị vô sinh thì phải đóng bảo hiểm xã hội bắt buộc từ đủ 06 tháng trở lên trong thời gian 24 tháng liền kề trước khi sinh con.\n- Trường hợp người mẹ tham gia bảo hiểm xã hội bắt buộc mà chết thì người cha hoặc người trực tiếp nuôi dưỡng được nghỉ việc để hưởng chế độ thai sản đối với thời gian còn lại của người mẹ.\n- Trường hợp người mẹ tham gia bảo hiểm xã hội nhưng không đủ điều kiện nêu trên mà chết thì người cha hoặc người trực tiếp nuôi dưỡng được nghỉ việc để hưởng chế độ thai sản cho đến khi con đủ 06 tháng tuổi.\n- Trường hợp cả cha và mẹ đều tham gia bảo hiểm xã hội bắt buộc nhưng người mẹ không đủ điều kiện nêu trên mà chết thì cha được nghỉ việc hưởng chế độ thai sản cho đến khi con đủ 6 tháng tuổi. \n-Trường hợp chỉ có cha tham gia bảo hiểm xã hội bắt buộc mà mẹ chết sau khi sinh con hoặc gặp rủi ro sau khi sinh mà không đủ sức khoẻ để chăm sóc con theo xác nhận của cơ sở khám bệnh, chữa bệnh thì cha được nghỉ việc hưởng chế độ thai sản cho đến khi con đủ 6 tháng tuổi.\n- Trường hợp lao động nữ nhờ mang thai hộ chết hoặc được cơ sở khám bệnh, chữa bệnh xác nhận không đủ sức khỏe để chăm sóc con khi con chưa đủ 06 tháng tuổi thì người chồng của lao động nữ nhờ mang thai hộ hoặc người trực tiếp nuôi dưỡng được nghỉ việc hưởng chế độ thai sản để chăm sóc con đối với thời gian còn lại của lao động nữ nhờ mang thai hộ.",
   "results": [
     {
       "title": "Danh sách giải quyết hưởng chế độ thai sản cho người lao động",
       "code": "KQ.G09.000360",
+      "id": "019d2bb2-1c4c-77ab-bf6f-c745fb014dfc",
       "source_page": null
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Bước 1:  \nNgười lao động có trách nhiệm nộp hồ sơ cho người sử dụng lao động. Thời hạn nộp hồ sơ chậm nhất là 45 ngày kể từ ngày hết thời gian nghỉ việc hưởng chế độ thai sản.\n⁕ Trường hợp người lao động tham gia bảo hiểm xã hội bắt buộc thôi việc trước thời điểm sinh con, nhận con khi nhờ mang thai hộ hoặc không còn người sử dụng lao động thì người lao động nộp hồ sơ cho cơ quan bảo hiểm xã hội.\nBước 2: \nTrong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người lao động, người sử dụng lao động có trách nhiệm lập danh sách người lao động nghỉ việc hưởng chế độ thai sản kèm theo hồ sơ nộp cho cơ quan bảo hiểm xã hội. \n\tBước 3:\n\tCơ quan bảo hiểm xã hội có trách nhiệm giải quyết trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người sử dụng lao động, 05 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người lao động.\nTrường hợp không giải quyết thì phải trả lời bằng văn bản và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "",
-    "CÁCH THỨC THỰC HIỆN": "ONLINE - - Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người sử dụng lao động.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính\nPOSTAL - \nDIRECT - \nONLINE - - Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người lao động.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính\nPOSTAL - - Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người lao động.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính\nONLINE - Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người sử dụng lao động.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính",
+    "THÀNH PHẦN HỒ SƠ": "- Trường hợp các giấy tờ nêu trên trên hoặc các giấy tờ có nội dung tương tự do cơ quan, tổ chức, cá nhân có thẩm quyền của nước ngoài cấp thì phải:\n+ Được hợp pháp hóa lãnh sự, trừ trường hợp điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy định khác.\n+  Có bản dịch tiếng Việt được công chứng hoặc chứng thực theo quy định của pháp luật về công chứng, chứng thực\n- Đối với lao động nữ sinh con và lao động nữ mang thai hộ sinh con trong trường hợp con chết ngay sau khi sinh mà chưa được cấp giấy chứng sinh, lao động nữ mang thai từ 22 tuần tuổi trở lên thì bao gồm các giấy tờ sau:\n+ Bản chính hoặc bản sao bản tóm tắt hồ sơ bệnh án có thể hiện thông tin con chết, thai chết;\n+ Bản chính hoặc bản sao giấy ra viện của lao động nữ sinh con hoặc của lao động nữ mang thai hộ sinh con có thể hiện thông tin con chết, thai chết;\n+ Văn bản xác nhận của Ủy ban nhân dân cấp xã đối với trường hợp con chết trong vòng 24 giờ sau khi sinh;\n+ Bản sao giấy báo tử của con;\n- Đối với lao động nữ sinh con, hoặc lao động nữ mang thai hộ sinh con hoặc lao động nữ nhờ mang thai hộ sinh con: \n+ Giấy tờ chứng minh quá trình điều trị vô sinh của lao động nữ trong trường hợp phải nghỉ việc để điều trị vô sinh;\n+ Bản sao giấy khai sinh hoặc trích lục khai sinh hoặc bản sao giấy chứng sinh của con và giấy tờ khác trong các trường hợp sau đây:\n+ Bản chính hoặc bản sao văn bản xác nhận của cơ sở khám bệnh, chữa bệnh về tình trạng người mẹ sau khi sinh con mà không còn đủ sức khỏe để chăm sóc con hoặc lao động nữ nhờ mang thai hộ sau khi nhận con mà không còn đủ sức khỏe để chăm sóc con;\n+ Bản sao bản thỏa thuận về mang thai hộ vì mục đích nhân đạo theo quy định tại Điều 96 của Luật Hôn nhân và gia đình và bản sao văn bản xác nhận thời điểm giao nhận con giữa bên mang thai hộ và bên nhờ mang thai hộ trong trường hợp lao động nữ mang thai hộ sinh con hoặc lao động nữ nhờ mang thai hộ nhận con;\n+ Bản chính hoặc bản sao giấy xác nhận của cơ sở khám bệnh, chữa bệnh về việc lao động nữ phải nghỉ việc để dưỡng thai trong trường hợp phải nghỉ việc để dưỡng thai theo chỉ định của người hành nghề khám bệnh, chữa bệnh thuộc cơ sở khám bệnh, chữa bệnh;\n+ Danh sách người lao động nghỉ việc hưởng chế độ thai sản do người sử dụng lao động lập (ngoại trừ trường hợp người lao động thôi việc trước thời điểm sinh con, nhận con khi nhờ mang thai hộ hoặc không còn người sử dụng lao động).\n+ Bản sao giấy chứng tử hoặc trích lục khai tử của lao động nữ sinh con, lao động nữ nhờ mang thai hộ trong trường hợp chết sau khi sinh con;",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 7 ngày làm việc - - Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người sử dụng lao động.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính\nQua dịch vụ bưu chính: 7 ngày làm việc\nTrực tiếp: 5 ngày làm việc\nTrực tuyến: 5 ngày làm việc - - Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người lao động.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính\nQua dịch vụ bưu chính: 5 ngày làm việc - - Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người lao động.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính\nTrực tuyến: 7 ngày làm việc - Trong thời hạn 07 ngày làm việc kể từ ngày nhận đủ hồ sơ từ người sử dụng lao động.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính",
     "CĂN CỨ PHÁP LÝ": "Luật Bảo hiểm xã hội - 41/2024/QH15\nQuy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội bắt buộc - 158/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Bảo hiểm xã hội tỉnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "- Lao động nữ sinh con hoặc lao động mang thai hộ hoặc lao động nữ nhờ mang thai hộ phải đóng bảo hiểm xã hội bắt buộc từ đủ 06 tháng trở lên trong thời gian 12 tháng liền kề trước khi sinh con hoặc nhận con khi nhờ mang thai hộ.\n- Lao động nữ sinh con hoặc lao động nữ mang thai hộ đã đóng bảo hiểm xã hội bắt buộc từ đủ 12 tháng trở lên mà khi mang thai phải nghỉ việc để dưỡng thai theo chỉ định của người hành nghề khám bệnh, chữa bệnh thuộc cơ sở khám bệnh, chữa bệnh thì phải đóng bảo hiểm xã hội bắt buộc từ đủ 03 tháng trở lên trong thời gian 12 tháng liền kề trước khi sinh con.\n- Trường hợp lao động nữ sinh con phải nghỉ việc để điều trị vô sinh thì phải đóng bảo hiểm xã hội bắt buộc từ đủ 06 tháng trở lên trong thời gian 24 tháng liền kề trước khi sinh con.\n- Trường hợp người mẹ tham gia bảo hiểm xã hội bắt buộc mà chết thì người cha hoặc người trực tiếp nuôi dưỡng được nghỉ việc để hưởng chế độ thai sản đối với thời gian còn lại của người mẹ.\n- Trường hợp người mẹ tham gia bảo hiểm xã hội nhưng không đủ điều kiện nêu trên mà chết thì người cha hoặc người trực tiếp nuôi dưỡng được nghỉ việc để hưởng chế độ thai sản cho đến khi con đủ 06 tháng tuổi.\n- Trường hợp cả cha và mẹ đều tham gia bảo hiểm xã hội bắt buộc nhưng người mẹ không đủ điều kiện nêu trên mà chết thì cha được nghỉ việc hưởng chế độ thai sản cho đến khi con đủ 6 tháng tuổi. \n-Trường hợp chỉ có cha tham gia bảo hiểm xã hội bắt buộc mà mẹ chết sau khi sinh con hoặc gặp rủi ro sau khi sinh mà không đủ sức khoẻ để chăm sóc con theo xác nhận của cơ sở khám bệnh, chữa bệnh thì cha được nghỉ việc hưởng chế độ thai sản cho đến khi con đủ 6 tháng tuổi.\n- Trường hợp lao động nữ nhờ mang thai hộ chết hoặc được cơ sở khám bệnh, chữa bệnh xác nhận không đủ sức khỏe để chăm sóc con khi con chưa đủ 06 tháng tuổi thì người chồng của lao động nữ nhờ mang thai hộ hoặc người trực tiếp nuôi dưỡng được nghỉ việc hưởng chế độ thai sản để chăm sóc con đối với thời gian còn lại của lao động nữ nhờ mang thai hộ.",
-    "KẾT QUẢ XỬ LÝ": "Danh sách giải quyết hưởng chế độ thai sản cho người lao động",
+    "KẾT QUẢ XỬ LÝ": "Danh sách giải quyết hưởng chế độ thai sản cho người lao động - KQ.G09.000360",
     "TỪ KHÓA": "",
-    "MÔ TẢ": ""
+    "MÔ TẢ": "- Lao động nữ sinh con hoặc lao động mang thai hộ hoặc lao động nữ nhờ mang thai hộ phải đóng bảo hiểm xã hội bắt buộc từ đủ 06 tháng trở lên trong thời gian 12 tháng liền kề trước khi sinh con hoặc nhận con khi nhờ mang thai hộ.\n- Lao động nữ sinh con hoặc lao động nữ mang thai hộ đã đóng bảo hiểm xã hội bắt buộc từ đủ 12 tháng trở lên mà khi mang thai phải nghỉ việc để dưỡng thai theo chỉ định của người hành nghề khám bệnh, chữa bệnh thuộc cơ sở khám bệnh, chữa bệnh thì phải đóng bảo hiểm xã hội bắt buộc từ đủ 03 tháng trở lên trong thời gian 12 tháng liền kề trước khi sinh con.\n- Trường hợp lao động nữ sinh con phải nghỉ việc để điều trị vô sinh thì phải đóng bảo hiểm xã hội bắt buộc từ đủ 06 tháng trở lên trong thời gian 24 tháng liền kề trước khi sinh con.\n- Trường hợp người mẹ tham gia bảo hiểm xã hội bắt buộc mà chết thì người cha hoặc người trực tiếp nuôi dưỡng được nghỉ việc để hưởng chế độ thai sản đối với thời gian còn lại của người mẹ.\n- Trường hợp người mẹ tham gia bảo hiểm xã hội nhưng không đủ điều kiện nêu trên mà chết thì người cha hoặc người trực tiếp nuôi dưỡng được nghỉ việc để hưởng chế độ thai sản cho đến khi con đủ 06 tháng tuổi.\n- Trường hợp cả cha và mẹ đều tham gia bảo hiểm xã hội bắt buộc nhưng người mẹ không đủ điều kiện nêu trên mà chết thì cha được nghỉ việc hưởng chế độ thai sản cho đến khi con đủ 6 tháng tuổi. \n-Trường hợp chỉ có cha tham gia bảo hiểm xã hội bắt buộc mà mẹ chết sau khi sinh con hoặc gặp rủi ro sau khi sinh mà không đủ sức khoẻ để chăm sóc con theo xác nhận của cơ sở khám bệnh, chữa bệnh thì cha được nghỉ việc hưởng chế độ thai sản cho đến khi con đủ 6 tháng tuổi.\n- Trường hợp lao động nữ nhờ mang thai hộ chết hoặc được cơ sở khám bệnh, chữa bệnh xác nhận không đủ sức khỏe để chăm sóc con khi con chưa đủ 06 tháng tuổi thì người chồng của lao động nữ nhờ mang thai hộ hoặc người trực tiếp nuôi dưỡng được nghỉ việc hưởng chế độ thai sản để chăm sóc con đối với thời gian còn lại của lao động nữ nhờ mang thai hộ."
   },
   "classification": {
+    "life_event_group": {
+      "name": "Có con nhỏ",
+      "slug": "co-con-nho",
+      "method": "keyword_rule"
+    },
     "sector": {
-      "name": "",
-      "slug": ""
+      "name": "Bảo hiểm xã hội",
+      "slug": "bao-hiem-xa-hoi"
     },
     "implementation_levels": [
       {
-        "name": "Cơ quan khác",
-        "slug": "co-quan-khac"
+        "name": "Cấp tỉnh",
+        "slug": "cap-tinh"
+      },
+      {
+        "name": "Cơ quan ngành dọc",
+        "slug": "co-quan-nganh-doc"
       }
     ],
     "target_users": [

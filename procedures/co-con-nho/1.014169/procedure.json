@@ -1,11 +1,11 @@
 {
-  "schema_version": "3.0-pdf",
+  "schema_version": "3.1-api",
   "record_type": "public_service_procedure_knowledge",
   "id": "019d2bfb-234a-76ef-b61e-bc1d2b3f79a4",
   "procedure_code": "1.014169",
   "title": "HƯỞNG TRỢ CẤP DƯỠNG SỨC, PHỤC HỒI SỨC KHOẺ SAU THAI SẢN",
   "language": "vi",
-  "status": "extracted_pending_review",
+  "status": "ACTIVE",
   "source": {
     "publisher": "Cổng Dịch vụ công Quốc gia",
     "source_url": "https://dichvucong.gov.vn/thu-tuc-hanh-chinh/019d2bfb-234a-76ef-b61e-bc1d2b3f79a4",
@@ -13,6 +13,7 @@
     "source_path": "procedures/co-con-nho/1.014169/chi-tiet-thu-tuc-1.014169.pdf",
     "page_count": 4,
     "extracted_at": "2026-07-18T02:22:12.486409+00:00",
+    "source_updated_at": "2026-04-20T11:10:09.633Z",
     "extraction_method": "api_to_json_mapping",
     "source_sha256": "964e8d29f71d4f3d2aa7b45654580ac7b87adbce4a0aa5ae48d4572da9714a5b"
   },
@@ -23,20 +24,27 @@
     "freshness_days": 30
   },
   "decision_number": "863/QĐ-BNV",
-  "implementation_level": "Cơ quan khác",
-  "procedure_type": "TTHC không được luật giao cho địa phương quy định hoặc quy định chi tiết",
-  "sector": "",
+  "implementation_level": "Cấp tỉnh, Cơ quan ngành dọc",
+  "implementation_levels": [
+    "Cấp tỉnh",
+    "Cơ quan ngành dọc"
+  ],
+  "procedure_type": "ASSIGNED_REGULATION",
+  "sector": "Bảo hiểm xã hội",
   "target_users": [
     "Công dân Việt Nam"
   ],
   "agency": {
     "competent_agency": "",
-    "executing_agency": "Bảo hiểm xã hội tỉnh"
+    "executing_agency": "Bảo hiểm xã hội tỉnh",
+    "authorized_agency": "",
+    "coordinating_agency": "",
+    "receiving_address": ""
   },
   "steps": [
     {
       "order": 1,
-      "title": "",
+      "title": "Bước 1",
       "description": "Bước 1:  \nTrong thời hạn 07 ngày làm việc kể từ ngày người lao động nghỉ việc hưởng trợ cấp dưỡng sức, phục hồi sức khỏe sau thai sản, người sử dụng lao động lập danh sách người lao động nghỉ việc hưởng trợ cấp dưỡng sức, phục hồi sức khỏe sau thai sản và nộp cho cơ quan bảo hiểm xã hội.\nBước 2: \nTrong thời hạn 07 ngày làm việc kể từ ngày nhận danh sách theo quy định, cơ quan bảo hiểm xã hội có trách nhiệm giải quyết.\t\nTrường hợp không giải quyết thì phải trả lời bằng văn bản và nêu rõ lý do.\n",
       "example": null,
       "source_page": null
@@ -45,36 +53,159 @@
   "documents": {
     "forms": [],
     "normally_required": [],
-    "conditional": []
+    "conditional": [
+      {
+        "name": "Danh sách người lao động nghỉ việc hưởng trợ cấp dưỡng sức, phục hồi sức khỏe sau thai sản do người sử dụng lao động lập.",
+        "code": "G09-KQ002974",
+        "quantity": "1 bản chính",
+        "required": false,
+        "case": null,
+        "attachments": [],
+        "source_page": null
+      }
+    ]
   },
+  "submission_methods": [
+    {
+      "code": "ONLINE",
+      "label": "Trực tuyến",
+      "processing_time": "7 ngày làm việc",
+      "processing_time_value": 7,
+      "processing_time_unit": "WORKING_DAY",
+      "fees": [
+        {
+          "type": "FEE",
+          "amount": 0,
+          "currency": "VND",
+          "description": "",
+          "attachment": null
+        }
+      ],
+      "description": "Trong thời hạn 07 ngày làm việc kể từ ngày nhận danh sách theo quy định.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính",
+      "source_page": null
+    },
+    {
+      "code": "POSTAL",
+      "label": "Qua dịch vụ bưu chính",
+      "processing_time": "7 ngày làm việc",
+      "processing_time_value": 7,
+      "processing_time_unit": "WORKING_DAY",
+      "fees": [
+        {
+          "type": "FEE",
+          "amount": 0,
+          "currency": "VND",
+          "description": "",
+          "attachment": null
+        }
+      ],
+      "description": "Trong thời hạn 07 ngày làm việc kể từ ngày nhận danh sách theo quy định.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính",
+      "source_page": null
+    },
+    {
+      "code": "DIRECT",
+      "label": "Trực tiếp",
+      "processing_time": "7 ngày làm việc",
+      "processing_time_value": 7,
+      "processing_time_unit": "WORKING_DAY",
+      "fees": [
+        {
+          "type": "FEE",
+          "amount": 0,
+          "currency": "VND",
+          "description": "",
+          "attachment": null
+        }
+      ],
+      "description": "Trong thời hạn 07 ngày làm việc kể từ ngày nhận danh sách theo quy định.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính",
+      "source_page": null
+    }
+  ],
+  "fees": {
+    "status": "free",
+    "currency": "VND",
+    "items": [
+      {
+        "submission_method_code": "ONLINE",
+        "submission_method": "Trực tuyến",
+        "type": "FEE",
+        "amount": 0,
+        "currency": "VND",
+        "description": "",
+        "attachment": null
+      },
+      {
+        "submission_method_code": "POSTAL",
+        "submission_method": "Qua dịch vụ bưu chính",
+        "type": "FEE",
+        "amount": 0,
+        "currency": "VND",
+        "description": "",
+        "attachment": null
+      },
+      {
+        "submission_method_code": "DIRECT",
+        "submission_method": "Trực tiếp",
+        "type": "FEE",
+        "amount": 0,
+        "currency": "VND",
+        "description": "",
+        "attachment": null
+      }
+    ]
+  },
+  "legal_bases": [
+    {
+      "title": "Luật Bảo hiểm xã hội",
+      "document_number": "41/2024/QH15",
+      "id": "019d2bb3-5d87-7195-a440-f511123122ee",
+      "source_page": null
+    },
+    {
+      "title": "Quy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội bắt buộc",
+      "document_number": "158/2025/NĐ-CP",
+      "id": "019d2bb3-5d7e-72d1-afeb-e5ff16f715c7",
+      "source_page": null
+    }
+  ],
   "conditions": "Trong thời gian 30 ngày kể từ ngày hết thời gian nghỉ việc hưởng chế độ thai sản đối với lao động nữ nghỉ việc hưởng chế độ thai sản khi sảy thai, phá thai, thai chết trong tử cung, thai chết trong khi chuyển dạ, thai ngoài tử cung; lao động nữ sinh con; lao động nữ mang thai hộ sinh con, chưa phục hồi sức khỏe thì được nghỉ dưỡng sức, phục hồi sức khoẻ.",
   "results": [
     {
       "title": "Danh sách người lao động được giải quyết trợ cấp dưỡng sức, phục hồi sức khoẻ sau thai sản",
       "code": "KQ.G09.000361",
+      "id": "019d2bb2-1c4c-77ab-bf6f-ca11d6d92b32",
       "source_page": null
     }
   ],
   "raw_sections": {
     "TRÌNH TỰ THỰC HIỆN": "Bước 1:  \nTrong thời hạn 07 ngày làm việc kể từ ngày người lao động nghỉ việc hưởng trợ cấp dưỡng sức, phục hồi sức khỏe sau thai sản, người sử dụng lao động lập danh sách người lao động nghỉ việc hưởng trợ cấp dưỡng sức, phục hồi sức khỏe sau thai sản và nộp cho cơ quan bảo hiểm xã hội.\nBước 2: \nTrong thời hạn 07 ngày làm việc kể từ ngày nhận danh sách theo quy định, cơ quan bảo hiểm xã hội có trách nhiệm giải quyết.\t\nTrường hợp không giải quyết thì phải trả lời bằng văn bản và nêu rõ lý do.\n",
-    "THÀNH PHẦN HỒ SƠ": "",
-    "CÁCH THỨC THỰC HIỆN": "ONLINE - Trong thời hạn 07 ngày làm việc kể từ ngày nhận danh sách theo quy định.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính\nPOSTAL - Trong thời hạn 07 ngày làm việc kể từ ngày nhận danh sách theo quy định.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính\nDIRECT - Trong thời hạn 07 ngày làm việc kể từ ngày nhận danh sách theo quy định.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính",
+    "THÀNH PHẦN HỒ SƠ": "\nDanh sách người lao động nghỉ việc hưởng trợ cấp dưỡng sức, phục hồi sức khỏe sau thai sản do người sử dụng lao động lập.",
+    "CÁCH THỨC THỰC HIỆN": "Trực tuyến: 7 ngày làm việc - Trong thời hạn 07 ngày làm việc kể từ ngày nhận danh sách theo quy định.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính\nQua dịch vụ bưu chính: 7 ngày làm việc - Trong thời hạn 07 ngày làm việc kể từ ngày nhận danh sách theo quy định.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính\nTrực tiếp: 7 ngày làm việc - Trong thời hạn 07 ngày làm việc kể từ ngày nhận danh sách theo quy định.\nTrực tiếp, trực tuyến hoặc qua dịch vụ bưu chính",
     "CĂN CỨ PHÁP LÝ": "Luật Bảo hiểm xã hội - 41/2024/QH15\nQuy định chi tiết và hướng dẫn thi hành một số điều của Luật Bảo hiểm xã hội về bảo hiểm xã hội bắt buộc - 158/2025/NĐ-CP",
     "CƠ QUAN THỰC HIỆN": "Bảo hiểm xã hội tỉnh",
     "YÊU CẦU, ĐIỀU KIỆN THỰC HIỆN": "Trong thời gian 30 ngày kể từ ngày hết thời gian nghỉ việc hưởng chế độ thai sản đối với lao động nữ nghỉ việc hưởng chế độ thai sản khi sảy thai, phá thai, thai chết trong tử cung, thai chết trong khi chuyển dạ, thai ngoài tử cung; lao động nữ sinh con; lao động nữ mang thai hộ sinh con, chưa phục hồi sức khỏe thì được nghỉ dưỡng sức, phục hồi sức khoẻ.",
-    "KẾT QUẢ XỬ LÝ": "Danh sách người lao động được giải quyết trợ cấp dưỡng sức, phục hồi sức khoẻ sau thai sản",
+    "KẾT QUẢ XỬ LÝ": "Danh sách người lao động được giải quyết trợ cấp dưỡng sức, phục hồi sức khoẻ sau thai sản - KQ.G09.000361",
     "TỪ KHÓA": "",
-    "MÔ TẢ": ""
+    "MÔ TẢ": "Trong thời gian 30 ngày kể từ ngày hết thời gian nghỉ việc hưởng chế độ thai sản đối với lao động nữ nghỉ việc hưởng chế độ thai sản khi sảy thai, phá thai, thai chết trong tử cung, thai chết trong khi chuyển dạ, thai ngoài tử cung; lao động nữ sinh con; lao động nữ mang thai hộ sinh con, chưa phục hồi sức khỏe thì được nghỉ dưỡng sức, phục hồi sức khoẻ."
   },
   "classification": {
+    "life_event_group": {
+      "name": "Có con nhỏ",
+      "slug": "co-con-nho",
+      "method": "keyword_rule"
+    },
     "sector": {
-      "name": "",
-      "slug": ""
+      "name": "Bảo hiểm xã hội",
+      "slug": "bao-hiem-xa-hoi"
     },
     "implementation_levels": [
       {
-        "name": "Cơ quan khác",
-        "slug": "co-quan-khac"
+        "name": "Cấp tỉnh",
+        "slug": "cap-tinh"
+      },
+      {
+        "name": "Cơ quan ngành dọc",
+        "slug": "co-quan-nganh-doc"
       }
     ],
     "target_users": [
